@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio Septima, Praeambulum</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio Septima, Praeambulum</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="656"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e5228"><!-- hicjds-b4d7prae -->
+        <head>Praeambulum</head>
+        <!-- <div alias="hiq-d7prae"> -->
+          <p>
+            <lb ed="#V" n="38" type="fixed=656"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>De hoc Sacramento proxime post
+            Ba<lb ed="#V" n="40" break="no"/>ptismum agunt communi stylo et ordine
+            <lb ed="#V" n="41"/>Theologi, nam, quamvis non sit ordo
+            <lb ed="#V" n="42"/>essentialis inter Confirmationem et
+            Eu<lb ed="#V" n="43" break="no"/>charistiam, qualis est inter Baptismum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>et reliqua, tamen Confirmatio est quaedam
+            <lb ed="#V" n="45"/>regenerationis consummatio, ut sicut in
+            <lb ed="#V" n="46"/>Baptismo fit professio fidei, ita in
+            Confir<lb ed="#V" n="47" break="no"/>matione datur robur ad camdem fidem
+            <lb ed="#V" n="48"/>profitendam per unctionem internam;
+            <lb ed="#V" n="49"/>Eucharistia vero ordinatur ad nutriendam
+            <lb ed="#V" n="50"/>charitatem et justitiam, ad vincendum
+            <lb ed="#V" n="51"/>fomitem et tentationes, et in ordine ad
+            <lb ed="#V" n="52"/>perseverandum in gratia accenta,
+            ideo<lb ed="#V" n="53" break="no"/>que generalius se habet velut causa
+            uni<lb ed="#V" n="54" break="no"/>versalis, non sicut Confirmatio, quae
+            <lb ed="#V" n="55"/>particulariter se habet ad professionem
+            <lb ed="#V" n="56"/>fidei in Baptismo susceptae, et hominis
+            <lb ed="#V" n="57"/>Christiani initiatione.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Hunc etiam ordinem sequuntur Patres,
+            <lb ed="#V" n="59"/>et servatus fuit in Ecclesia, quantum ad
+            <lb ed="#V" n="60"/>ministerium, ita ut prius daretur
+            neo<lb ed="#V" n="61" break="no"/>phyto Confirmatio, quam Eucharistia,
+            <lb ed="#V" n="62"/>quamvis utrumque Sacramentum post
+            Ba<lb ed="#V" n="63" break="no"/>ptismum ministrabatur; Dionysius de
+            <lb ed="#V" n="64"/>Ecclesiastica hierarchia, cap. 2. et 4.
+            <lb ed="#V" n="65"/>Cyrillus Jerosolymitanus Catechesi 3.
+            <lb ed="#V" n="66"/>Melchiades Papa Epist. ad Episcopos
+            <lb ed="#V" n="67"/>Hispanice, cap. 3. Eugenius IV. in decreto
+            <lb ed="#V" n="68"/>fidei, qui etiam congruentiam
+            praemis<lb ed="#V" n="69" break="no"/>sam servandi ordinis tradunt, sicat et
+            <lb ed="#V" n="70"/>Clemens Romanus epist. 4. et
+            constitu<lb ed="#V" n="71" break="no"/>tionum Apostolicarum, lib. 3. cap. 17.
+            <lb ed="#V" n="72"/>Tertullianus de proescript. adversus
+            hoe<lb ed="#V" n="73" break="no"/>res. cap. 36. Ambrosius lib. 3. de
+            Sacra<lb ed="#V" n="74" break="no"/>mentis, cap. 2. Gregorius Magnus in
+            <lb ed="#V" n="75"/>Sacramentario de Baptismo infantum.
+            Tra<lb ed="#V" n="76" break="no"/>ctatum autem Sacramenti expedit Doctor
+            <lb ed="#V" n="77"/>cum Magistro in distinctione praesenti
+            <lb ed="#V" n="78"/>quinque quaestionibus, quae specialiter ad
+            <lb ed="#V" n="79"/>ipsum spectant supponendo rationes
+            com<lb ed="#V" n="80" break="no"/>munes ipsi et aliis ex materia de
+            Sacra<lb ed="#V" n="81" break="no"/>mentis in genere in 1. dist. et 2. et de
+            <lb ed="#V" n="82"/>Sacramento Baptismi in aliis quatuor jam
+            <lb ed="#V" n="83"/>praemissis. In prima quaestione agit de
+            <lb ed="#V" n="84"/>ejus essentialibus, et per se requisitis;
+            <lb ed="#V" n="85"/>in secunda de ejus necessitate; in tertia de
+            <lb ed="#V" n="86"/>ejus dignitate; in quarta an possit iterari;
+            <lb ed="#V" n="87"/>in quinta, an sit poena canonica statuta
+            <lb ed="#V" n="88"/>iterantibus Confirmationem.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 4, Pars 4, Quaestio 3</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 4, Pars 4, Quaestio 3</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="488"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3469"><!-- hicjds-b4d4p4q3 -->
+        <head>Quaestio 3</head>
+        <head type="question-title">Utrum parvuli Iudaeorum et infidelium sint invitis parentibus baptizandi</head>
+        <!-- <div alias="hiq-d4q9-p1"> -->
+          <p>
+            <lb ed="#V" n="16" type="fixed=488"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>(c) De parvulis Judaeorum, etc. Hanc
+            <lb ed="#V" n="18"/>quaestionem paucis absolvunt antiqui
+            <lb ed="#V" n="19"/>quam moderni, ex variis dicendi modis,
+            <lb ed="#V" n="20"/>in varias etiam etiam quaestiones trahunt,
+            <lb ed="#V" n="21"/>quorum, vel ipsas opiniones prolixum est
+            <lb ed="#V" n="22"/>referre. Videantur auctores, quos citat
+            <lb ed="#V" n="23"/>Scholiastes sub titulo quaestionis de filiis
+            <lb ed="#V" n="24"/>infidelium, qui non subsunt Principibus
+            <lb ed="#V" n="25"/>Christianis, sive ut servi, sive ut cives,
+            <lb ed="#V" n="26"/>non est quaestio, sed de iis qui subsunt,
+            <lb ed="#V" n="27"/>et quorum potest adhiberi cura debitae
+            <lb ed="#V" n="28"/>educationis et disciplinae in Christiana
+            re<lb ed="#V" n="29" break="no"/>ligione, et iis quae spectant ad salutem,
+            <lb ed="#V" n="30"/>quia in his tantum fuit praxis aliquorum
+            <lb ed="#V" n="31"/>regnorum. ut in Hispania, ex qua forte
+            <lb ed="#V" n="32"/>primum mota est quaestio inter
+            Scholasti<lb ed="#V" n="33" break="no"/>cos, neque est quaestio de Baptismo
+            au<lb ed="#V" n="34" break="no"/>ctoritate privata dato, sed publica, quae
+            <lb ed="#V" n="35"/>supponit potestatem in parentes.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Quantum ad subjectos civiliter, negant
+            <lb ed="#V" n="37"/>aliqui posse baptizari invitis parentibus.
+            <lb ed="#V" n="38"/>licite; alii negant etiam valide baptizari.
+            <lb ed="#V" n="39"/>In priori sententia est D. Thomas, et
+            <lb ed="#V" n="40"/>Richardus loco citato a Scholiaste, et
+            <lb ed="#V" n="41"/>alii. Secundam docent quamdiu sub cura
+            <lb ed="#V" n="42"/>parentum degunt, et potestate quotquot
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>docent ad Baptismum infantis requiri
+            <lb ed="#V" n="44"/>consensum et voluntatem alienam, non
+            se<lb ed="#V" n="45" break="no"/>cus ac ad Baptismum adulti consensum r
+            <lb ed="#V" n="46"/>proprium; ita Durandus in 4. dist. 4.
+            <lb ed="#V" n="47"/>quaest. 6. Paludanus quaest. 4. Capreolus
+            <lb ed="#V" n="48"/>dist. 5. quaest. 1. art. 3. ad 3. Sylvester in
+            <lb ed="#V" n="49"/>summa, verbo Baptismus 4. queest. 7.
+            <lb ed="#V" n="50"/>Marsilius in 4. quaest. 4. art. 4. dub. 3.
+            <lb ed="#V" n="51"/>Quantum ad servos communiter tenetur,
+            <lb ed="#V" n="52"/>filios eorum posse baptizari invitis
+            pa<lb ed="#V" n="53" break="no"/>rentibus, sed differentia est, quod quidam
+            <lb ed="#V" n="54"/>baptizari non posse aiunt, antequam
+            sepa<lb ed="#V" n="55" break="no"/>rentur; alii dicunt etiam ante
+            separati<lb ed="#V" n="56" break="no"/>onem baptizari posse.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Affirmativam partem docet Doctor cum
+            <lb ed="#V" n="58"/>limitatione superius adjecta, quem in
+            prae<lb ed="#V" n="59" break="no"/>senti quaestione sequuntur omnes ejus
+            di<lb ed="#V" n="60" break="no"/>scipuli et Gabriel; vide scholium quod
+            <lb ed="#V" n="61"/>summarie et clare resolvit hanc
+            difficul<lb ed="#V" n="62" break="no"/>tatem.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d4q9-p2"> -->
+          <p>
+            <lb ed="#V" n="61" type="fixed=489"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>(b) Dico ergo breviter, etc. Haec est
+            <lb ed="#V" n="63"/>conclusio Doctoris, quam probat ratione
+            <lb ed="#V" n="64"/>praemissa ex auctoritate S. Augustini, et
+            <lb ed="#V" n="65"/>ex subordinatione juris parentum in filios,
+            <lb ed="#V" n="66"/>ad jus quod habet in ipsos Deus; contra
+            <lb ed="#V" n="67"/>quod nec licite nec juste fit usus
+            domi<lb ed="#V" n="68" break="no"/>nii inferioris, non solum in praejudicium
+            <lb ed="#V" n="69"/>juris divini, sed ipsius tertii, nempe
+            infan<lb ed="#V" n="70" break="no"/>tis, cui tenetur parens providere de
+            reme<lb ed="#V" n="71" break="no"/>dio necessario ad salutem, non solum ex
+            <lb ed="#V" n="72"/>praecepto divino, sed etiam naturali, non
+            <lb ed="#V" n="73"/>secus ac de alimentis. Et hoc de justitia eo
+            <lb ed="#V" n="74"/>modo quo potest intervenire inter patrem
+            <lb ed="#V" n="75"/>et filium justitia; sed Princeps habet
+            po<lb ed="#V" n="76" break="no"/>testatem coactivam respectu subditorum
+            <lb ed="#V" n="77"/>ad defensionem innocentis, quia gladium
+            <lb ed="#V" n="78"/>Dei portat, alioquin non recte
+            consiste<lb ed="#V" n="79" break="no"/>ret politia a Deo instituta inter homines,
+            <lb ed="#V" n="80"/>si delictum publicum particularis
+            perso<lb ed="#V" n="81" break="no"/>nae et subjectae non ordinaretur per
+            suf<lb ed="#V" n="82" break="no"/>ficientem auctoritatem, quantum ad posse,
+            <lb ed="#V" n="83"/>et maxime si est contra jus tertii, quale
+            <lb ed="#V" n="84"/>in proposito est ipsius infantis et Dei,
+            <lb ed="#V" n="85"/>quia parens tenetur filio infanti
+            reci<lb ed="#V" n="86" break="no"/>proce, sicut filius parenti; ergo sicut ex
+            <pb ed="#V" n="490"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>jure parentis in filium, fieret injuria, si
+            <lb ed="#V" n="2"/>parenti auferretur; sic etiam ex debito
+            <lb ed="#V" n="3"/>parentis, quo obligatur filio infanti,
+            <lb ed="#V" n="4"/>fieret injuria infanti, si abstrahat
+            ne<lb ed="#V" n="5" break="no"/>cessaria ad vitam corporalem et
+            spiri<lb ed="#V" n="6" break="no"/>tualem, sine quibus nequit consistere.
+            <lb ed="#V" n="7"/>Unde sicut Princeps potest vindicare
+            <lb ed="#V" n="8"/>occisionem infantis, quantum ad vitam
+            <lb ed="#V" n="9"/>corporalem in parentem, et eripere
+            in<lb ed="#V" n="10" break="no"/>fantem hoc periculo, et separare a
+            paren<lb ed="#V" n="11" break="no"/>tibus, ita etiam potest a fortiori vitam
+            <lb ed="#V" n="12"/>ejus spiritualem defendere, quia haec
+            <lb ed="#V" n="13"/>tpotior est, ad eamque retinendam,
+            ex<lb ed="#V" n="14" break="no"/>ponenda est vita temporalis.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>Respondent adversarii, quod licite
+            de<lb ed="#V" n="16" break="no"/>fenduntur infantes, et separantur a
+            pa<lb ed="#V" n="17" break="no"/>rentibus, quando injusta vis ipsis infertur
+            <lb ed="#V" n="18"/>in rebus debitis jure naturae, eo quod
+            <lb ed="#V" n="19"/>defensio haec locum habeat solum contra
+            <lb ed="#V" n="20"/>vim et fraudem manifeste repugnantem
+            <lb ed="#V" n="21"/>juri naturae. Parentes infideles non
+            infe<lb ed="#V" n="22" break="no"/>erunt talem injuriam, neque abutuntur
+            <lb ed="#V" n="23"/>patria potestate proprie contra legem
+            <lb ed="#V" n="24"/>naturae, sed contra legem fidei, et contra
+            <lb ed="#V" n="25"/>pietatem non lumine naturali cognitam,
+            <lb ed="#V" n="26"/>sed solo lumine fidei notam; ex quo
+            in<lb ed="#V" n="27" break="no"/>ferunt, futile esse hoc argumentum,
+            <lb ed="#V" n="28"/>quia alias probaret privata auctoritate,
+            <lb ed="#V" n="29"/>sicut licet defendere infantem, quem
+            <lb ed="#V" n="30"/>occidit parens, ita etiam liceret baptizare,
+            <lb ed="#V" n="31"/>eo invito.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Contra hanc responsionem primo, jus
+            <lb ed="#V" n="33"/>naturale non obligat contra legem fidei,
+            <lb ed="#V" n="34"/>quidquid enim conceditur jure naturali,
+            <lb ed="#V" n="35"/>completur in Decalogo, et reducitur ad
+            <lb ed="#V" n="36"/>praecepta virtutum, quae omnia
+            confir<lb ed="#V" n="37" break="no"/>mantur lege fidei, et quaecumque lex
+            <lb ed="#V" n="38"/>ordinatur ad finem charitatis, quia
+            cha<lb ed="#V" n="39" break="no"/>ritas est plenitudo legis; nam sicut
+            <lb ed="#V" n="40"/>nullus est status medius naturae purae,
+            <lb ed="#V" n="41"/><quote>sic etiam nulla lex naturalis, quae non
+          <lb ed="#V" n="42"/>subordinatur charitati, fidei et saluti;
+          <lb ed="#V" n="43"/>ergo nulla obligat in praejudicium fidei et
+          <lb ed="#V" n="44"/>charitatis, pietas enim, in qua fundatur
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>omne ejus parentis in filium ratione
+          <lb ed="#V" n="46"/>propagationis, non obligat contra finem
+          <lb ed="#V" n="47"/>ipsius propagationis, qui est cultus Dei, 1
+          <lb ed="#V" n="48"/>recta educatio prolis ad salutem ordinata,
+          <lb ed="#V" n="49"/>ad quae ordinatur etiam matrimonium,
+          <lb ed="#V" n="50"/>sive ut contractus naturalis est, sive ut
+          <lb ed="#V" n="51"/>Sacramentum; ergo pietas non obligat
+          <lb ed="#V" n="52"/>centra fidem, aut charitatem aut salutem,
+          <lb ed="#V" n="53"/>et rectam educationem prolis, aut contra
+          <lb ed="#V" n="54"/>ipsam pietatem, qua parens tenetur
+          in<lb ed="#V" n="55" break="no"/>fanti; ergo nullum jus concedit parenti
+          <lb ed="#V" n="56"/>in filium contra debitum pietatis, qua
+          <lb ed="#V" n="57"/>tenetur filio, contra praeceptum fidei,
+          <lb ed="#V" n="58"/>quo tenetur parens, et charitatis, contra
+          <lb ed="#V" n="59"/>praeceptum de suscipiendo Baptismo,
+          <lb ed="#V" n="60"/>quod obligat tam fideles quam infideles.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="61"/>Sed haec praecepta lumine naturali ipsi
+          <lb ed="#V" n="62"/>non sunt nota, et iis propositis
+          sufficien<lb ed="#V" n="63" break="no"/>ter tenetur ea amplecti, neque est
+          igno<lb ed="#V" n="64" break="no"/>rans; ergo etiam praeceptum, quo tenetur
+          <lb ed="#V" n="65"/>ex pietate ad rectam educationem et
+          <lb ed="#V" n="66"/>necessariam infanti ad salutem
+          suffici<lb ed="#V" n="67" break="no"/>enter propositum eum obligat, ita ut
+          <lb ed="#V" n="68"/>nullam habeat excusationem, aut
+          prae<lb ed="#V" n="69" break="no"/>tendere possit, quin peccet contra
+          pie<lb ed="#V" n="70" break="no"/>tatem; sicut is, cui praedicatur
+          sufficien<lb ed="#V" n="71" break="no"/>ter fides, et eam non vult recipere,
+          <lb ed="#V" n="72"/>peccat peccato infidelitatis, ut per se
+          <lb ed="#V" n="73"/>notum est; et cui praedicatur necessitas
+          <lb ed="#V" n="74"/>Baptismi, et legis obligantis, illudque
+          <lb ed="#V" n="75"/>contemnit, omnium opinione peccat, quia
+          <lb ed="#V" n="76"/>lege comprehenditur, et nullam juris aut
+          <lb ed="#V" n="77"/>facti ignorantiam praetendere potest, cum
+          <lb ed="#V" n="78"/>ipsi sufficienter proponatur; quod ergo
+          <lb ed="#V" n="79"/>lumine naturali, aut lumine fidei divinae,
+          <lb ed="#V" n="80"/>aut humanae cognoscat obligationem, qua
+          <lb ed="#V" n="81"/>tenetur providere filio, non facit ad
+          pro<lb ed="#V" n="82" break="no"/>positum, modo subsistat ipsa ejus
+          obliga<lb ed="#V" n="83" break="no"/>tio, quamvis ignorantia fundata et
+          invin<lb ed="#V" n="84" break="no"/>cibilis ipsum alias excusaret a culpa,
+          do<lb ed="#V" n="85" break="no"/>nec proponatur ei sufficienter praeceptum.
+          <lb ed="#V" n="86"/>Multa enim sunt praecepta naturalia, quae
+          <lb ed="#V" n="87"/>seclusa traditione et instructione per
+          alie<lb ed="#V" n="88" break="no"/>nam auctoritatem, privatam aut publicam,
+          <pb ed="#V" n="491"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>non cognoscuntur ab infidelibus.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="2"/>Sed infideles sub Principe Christiano,
+          <lb ed="#V" n="3"/>et inter Christianos degentes, nequeunt
+          <lb ed="#V" n="4"/>praetendere ignorantiam fidei, aut
+          Bapti<lb ed="#V" n="5" break="no"/>smi, ut praxis docet, quia coguntur in
+          <lb ed="#V" n="6"/>plerisque locis audire verbum fidei,
+          my<lb ed="#V" n="7" break="no"/>sterium ac necessitatem Baptismi, ut
+          Ro<lb ed="#V" n="8" break="no"/>mae Judaei; ergo tales tenentur praecepto
+          <lb ed="#V" n="9"/>naturali providere filio de Baptismo, et
+          <lb ed="#V" n="10"/>consequenter nullum jus habent educandi
+          <lb ed="#V" n="11"/>filium contra praeceptum, in perniciem et
+          <lb ed="#V" n="12"/>damnationem. Sed ubi non laeditur jus
+          <lb ed="#V" n="13"/>paternum, quod in proposito est nullum,
+          <lb ed="#V" n="14"/>non fit injuria providendo filio per
+          publi<lb ed="#V" n="15" break="no"/>cam auctoritatem, quae succedit et
+          corri<lb ed="#V" n="16" break="no"/>git errorem patris, et seclusis aliis
+          incon<lb ed="#V" n="17" break="no"/>venientibus et impedimentis, hoc ad eam
+          <lb ed="#V" n="18"/>spectat; ergo licite potest id praestare,
+          <lb ed="#V" n="19"/>non obstante auctoritate parentum.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="20"/>Secundo, Baptismus, aut fides suscepta.
+          <lb ed="#V" n="21"/>non inducit majorem obligationem legis
+          <lb ed="#V" n="22"/>a naturalis parentibus respective ad
+          pieta<lb ed="#V" n="23" break="no"/>tem, qua tenentur filiis, quia non
+          aggra<lb ed="#V" n="24" break="no"/>vat legem naturae fides, neque destruit,
+          <lb ed="#V" n="25"/>neque praejudicat juri parentum in filios,
+          <lb ed="#V" n="26"/>alias essent pejoris conditionis in hoc
+          <lb ed="#V" n="27"/>quam infideles et Judaei; sed filii
+          haereti<lb ed="#V" n="28" break="no"/>-corum et fidelium possunt secundum
+          ad<lb ed="#V" n="29" break="no"/>a versarios baptizari auctoritate Principum
+          <lb ed="#V" n="30"/>et Ecclesiae renuentibus parentibus; ergo
+          <lb ed="#V" n="31"/>etiam infidelium subditorum filii baptizari,
+          <lb ed="#V" n="32"/>sine praejudicio juris paterni, invitis
+          pa<lb ed="#V" n="33" break="no"/>rentibus, auctoritate Principis.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="34"/>Major patet ex dictis, quia fides
+          confir<lb ed="#V" n="35" break="no"/>mat legem naturalem, ac proinde non
+          tol<lb ed="#V" n="36" break="no"/>lit jus parentum in filios. Minor
+          concedi<lb ed="#V" n="37" break="no"/>tur communiter ab omnibus, exceptis
+          for<lb ed="#V" n="38" break="no"/>te iis, qui requirunt consensum parentum,
+          <lb ed="#V" n="39"/>ut Baptismus sit validus; quae sententia
+          <lb ed="#V" n="40"/>superius impugnata est, eamque merito
+          <lb ed="#V" n="41"/>rejiciunt communiter auctores post
+          Augu<lb ed="#V" n="42" break="no"/>stinum; et quidquid de ea sit, non facit
+          <lb ed="#V" n="43"/>ad institutum. in quo quaerimus praecise
+          <lb ed="#V" n="44"/>de titulo justitiae requisitae ad actum, ne
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>fiat contra jus paternum. Consequentia
+          <lb ed="#V" n="46"/>probatur ex eo, quod quis sit baptizatus,
+          <lb ed="#V" n="47"/>nullum jus politicus Princeps acquirit in
+          <lb ed="#V" n="48"/>filios ejus magis quam in alios subditos
+          <lb ed="#V" n="49"/>infideles, eorumque filios, nullum jus
+          Ba<lb ed="#V" n="50" break="no"/>ptismi recipiendi accrescit baptizatorum
+          <lb ed="#V" n="51"/>filiis, magis quam aliis in praejudicium
+          <lb ed="#V" n="52"/>potestatis paternae; nullum jus acquirit,
+          <lb ed="#V" n="53"/>ipsa etiam Ecclesia in filios parentum
+          ba<lb ed="#V" n="54" break="no"/>ptizatorum magis quam in alios, qui foris
+          <lb ed="#V" n="55"/>sunt, donec recipiant Baptismum; et
+          <lb ed="#V" n="56"/>quidquid sit, tantum obligantur ad
+          bapti<lb ed="#V" n="57" break="no"/>zandum filios, plusquam infideles, ratione
+          <lb ed="#V" n="58"/>fidei receptae, et Baptismi, unde redundat
+          <lb ed="#V" n="59"/>potestas compulsiva in Principe, ut possit
+          <lb ed="#V" n="60"/>providere filiis, et compellere parentes;
+          <lb ed="#V" n="61"/>sed fides recepta non variat obligationem
+          <lb ed="#V" n="62"/>aut materiam pietatis, et nihil juris addit
+          <lb ed="#V" n="63"/>vel adimit parentibus; et praecepta
+          quae<lb ed="#V" n="64" break="no"/>cumque sive de fide, sive de Baptismo,
+          <lb ed="#V" n="65"/>quae obligant parentes respective ad filios.
+          <lb ed="#V" n="66"/>perinde obligant fideles et infideles cives,
+          <lb ed="#V" n="67"/>et quoad politicam subjectionem sunt
+          pa<lb ed="#V" n="68" break="no"/>res; ergo etiam par potestas Principis in
+          <lb ed="#V" n="69"/>ipsos, qua compellat ad Baptismum
+          fili<lb ed="#V" n="70" break="no"/>orum.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="71"/>Tertio servitus politica et civilis non
+          <lb ed="#V" n="72"/>magis inducit potestatem in praejudicium
+          <lb ed="#V" n="73"/>potestatis paternae, quam praeceptum
+          di<lb ed="#V" n="74" break="no"/>vinum naturale, quo tenentur parentes
+          <lb ed="#V" n="75"/>providere filiis de necessariis ad salutem,
+          <lb ed="#V" n="76"/>quae necessitas alligata est Baptismo,
+          sup<lb ed="#V" n="77" break="no"/>posita promulgatione ejus, ut supra
+          vi<lb ed="#V" n="78" break="no"/>sum est; sed Principes possunt invitis
+          in<lb ed="#V" n="79" break="no"/>fidelibus servis, auferre filios, et separare
+          <lb ed="#V" n="80"/>a parentibus, eosque baptizare ante vel
+          <lb ed="#V" n="81"/>post separationem, ut admittunt auctores
+          <lb ed="#V" n="82"/>praemissi, ergo etiam idem dicendum de
+          <lb ed="#V" n="83"/>filiis infidelium civium. Major cum
+          conse<lb ed="#V" n="84" break="no"/>quentia probatur, servitus non est inducta
+          <lb ed="#V" n="85"/>jure naturali, sed jure politico, aut
+          Gen<lb ed="#V" n="86" break="no"/>tium; neutrum horum potest praejudicare
+          <lb ed="#V" n="87"/>juri naturali, quod est fundamentum
+          reli<lb ed="#V" n="88" break="no"/>quorum, ideoque potest servus et serva
+          <pb ed="#V" n="492"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>agere pro alimoniis necessariis, sicut
+          Mo<lb ed="#V" n="2" break="no"/>nachus et Monacha, quibus nihil est
+          pro<lb ed="#V" n="3" break="no"/>prii, sed acquirunt Monasterio, sicut et
+          <lb ed="#V" n="4"/>servus domino; et potest servus et serva
+          <lb ed="#V" n="5"/>fugere, si cogantur a domino ad
+          violati<lb ed="#V" n="6" break="no"/>onem juris naturalis, ut si serva de
+          pudi<lb ed="#V" n="7" break="no"/>citia ab eo tentetur, imo hoc ipso fit
+          li<lb ed="#V" n="8" break="no"/>bera.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="9"/>Ergo si servitus praejudicat potestati
+          <lb ed="#V" n="10"/>paternae in filios, ut eo invito baptizari
+          <lb ed="#V" n="11"/>a possint, sic etiam praeceptum Dei et juris
+          <lb ed="#V" n="12"/>naturalis, quo ipse tenetur eis providere
+          <lb ed="#V" n="13"/>de remedio, et instructione seu educatione
+          <lb ed="#V" n="14"/>necessaria ad salutem, perinde praejudicat
+          <lb ed="#V" n="15"/>eidem potestati, quia hoc strictius obligat
+          <lb ed="#V" n="16"/>in ordine ad Deum, et ad ipsum infantem
+          <lb ed="#V" n="17"/>quam titulus servitutis, in ordine ad
+          <lb ed="#V" n="18"/>dominum politicum. Si ergo potestas
+          pa<lb ed="#V" n="19" break="no"/>terna non praejudicat subjectioni ad
+          do<lb ed="#V" n="20" break="no"/>minum temporalem, quae concedit jus et
+          <lb ed="#V" n="21"/>facultatem extrahendi et vendendi, aut
+          <lb ed="#V" n="22"/>baptizandi servorum filios, a fortiori non
+          <lb ed="#V" n="23"/>praejudicat, neque extenditur contra
+          sub<lb ed="#V" n="24" break="no"/>jectionem debitam Deo, et legi naturali,
+          <lb ed="#V" n="25"/>quae est de debita educatione prolis.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="26"/>Confirmatur, quia concurrentibus
+          du<lb ed="#V" n="27" break="no"/>obus praeceptis in eadem materia,
+          inferi<lb ed="#V" n="28" break="no"/>oris praeceptum cedit praecepto superioris;
+          <lb ed="#V" n="29"/>politicum divino positivo; naturali
+          positi<lb ed="#V" n="30" break="no"/>vum; inferioris virtutis praecepto
+          supe<lb ed="#V" n="31" break="no"/>rioris, caeteris paribus. Ir proposito
+          <lb ed="#V" n="32"/>autem id magis patebit, comparando
+          prae<lb ed="#V" n="33" break="no"/>ceptum seu jus servitutis cum praecepto
+          <lb ed="#V" n="34"/>divino et naturali, ut patet in instantiis
+          <lb ed="#V" n="35"/>datis, de servo et serva, quia subjectio
+          <lb ed="#V" n="36"/>per servitutem dissolvitur, quando nequit
+          <lb ed="#V" n="37"/>observari sine praejudicio legis divinae,
+          <lb ed="#V" n="38"/>aut sine periculo fidei, castitatis, aut
+          alte<lb ed="#V" n="39" break="no"/>rius peccati, quae sit gravis offensa divinae
+          <lb ed="#V" n="40"/>legis, aut naturalis, aut juris, etiam
+          ter<lb ed="#V" n="41" break="no"/>tii. Sed servitus ita praejudicat parentibus
+          <lb ed="#V" n="42"/>infidelibus et servis, quantum ad jus
+          pa<lb ed="#V" n="43" break="no"/>ternum in filios quoad propositum casum,
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="44"/>ita ut contra voluntatem domini non
+          te<lb ed="#V" n="45" break="no"/>neat; ergo a fortiori jus divinum naturale
+          <lb ed="#V" n="46"/>de recta educatione prolis, similiter
+          prae<lb ed="#V" n="47" break="no"/>judicat potestati paternae, quando usus
+          <lb ed="#V" n="48"/>ejus fit contra legem Dei, et cedit
+          praece<lb ed="#V" n="49" break="no"/>pto fidei et Baptismi, quo tenentur
+          paren<lb ed="#V" n="50" break="no"/>tes in seipsis et in ordine ad filios, ex
+          <lb ed="#V" n="51"/>fundamento sententiae oppositae, quae
+          re<lb ed="#V" n="52" break="no"/>ducit jus paternum et obligationem
+          stri<lb ed="#V" n="53" break="no"/>ctam ejus in hoc quod infans sit aliquid
+          <lb ed="#V" n="54"/>patris; et quantum ad jus positivum non
+          <lb ed="#V" n="55"/>sint diversae personae, quia quod acquirit
+          <lb ed="#V" n="56"/>parens, acquirit etiam filio, ergo etiam
+          <lb ed="#V" n="57"/>sicut parens tenetur praecepto Baptismi et
+          <lb ed="#V" n="58"/>salutis suae procurandae, ita etiam hoc
+          <lb ed="#V" n="59"/>praeceptum comprehendit suo modo
+          fi<lb ed="#V" n="60" break="no"/>lium, quantum ad obligationem parentis,
+          <lb ed="#V" n="61"/>saltem quando filius non est capax
+          volun<lb ed="#V" n="62" break="no"/>tatis propriae.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="63"/>Quarto, filius perveniens ad usum
+          ra<lb ed="#V" n="64" break="no"/>tionis modo consentiat, invitis parentibus,
+          <lb ed="#V" n="65"/>baptizari potest, et si subsit periculum
+          <lb ed="#V" n="66"/>subversionis, etiam potest separari; sed
+          <lb ed="#V" n="67"/>usus rationis in filio nihil derogat
+          pote<lb ed="#V" n="68" break="no"/>stati paternae, ergo etiam sine praejudicio
+          <lb ed="#V" n="69"/>paternae potestatis similiter potest infans
+          <lb ed="#V" n="70"/>baptizari. Major est concessa ab omnibus,
+          <lb ed="#V" n="71"/>quia in iis quae faciunt ad salutem, non
+          <lb ed="#V" n="72"/>subest patri, quando ipse est capax
+          pro<lb ed="#V" n="73" break="no"/>prii consensus. Minor probatur, quia in
+          <lb ed="#V" n="74"/>omnibus reliquis est subjectus, saltem
+          <lb ed="#V" n="75"/>quamdiu est impubes, ita ut contractus,
+          <lb ed="#V" n="76"/>donationes, vota ejus possint irritare
+          pa<lb ed="#V" n="77" break="no"/>rentes, ergo ideo, quoad ea quae sunt
+          <lb ed="#V" n="78"/>salutis non subest, quia in favorem fidei
+          <lb ed="#V" n="79"/>cultus et salutis eximitur a potestate
+          <lb ed="#V" n="80"/>paterna, quando his repugnat; ergo
+          <lb ed="#V" n="81"/>etiam quando est infans in praejudicium
+          <lb ed="#V" n="82"/>salutis, etc. non subjicitur potes tati
+          pa<lb ed="#V" n="83" break="no"/>ternae.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="84"/>Patet ultima consequentia, quia usus
+          <lb ed="#V" n="85"/>rationis non eximit illum a potestate
+          pa<lb ed="#V" n="86" break="no"/>terna, ut dixi, in omni materia, ad quam
+          <pb ed="#V" n="493"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>subsistit ipsa potestas; non subsistit
+          <lb ed="#V" n="2"/>quoad pervenientem ad usum rationis
+          <lb ed="#V" n="3"/>contra fidem, salutem, et reliqua, quae
+          <lb ed="#V" n="4"/>ad salutem faciunt, et in ordine ad Deum,
+          <lb ed="#V" n="5"/>cui magis subjicitur, quam parentibus,
+          <lb ed="#V" n="6"/>et in detrimentum animae propriae; haec
+          <lb ed="#V" n="7"/>omnia concurrunt in eo infante, ergo
+          <lb ed="#V" n="8"/>praejudicant potestati paternae, quando
+          <lb ed="#V" n="9"/>repugnat.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="10"/>Patet subsumptum, infans est capax
+          <lb ed="#V" n="11"/>salutis et damnationis, subjicitur
+          neces<lb ed="#V" n="12" break="no"/>sitati Baptismi, et praecepto, quantum est
+          <lb ed="#V" n="13"/>ex parte legis; in infantia habet jus
+          pro<lb ed="#V" n="14" break="no"/>priae salutis, sicut et alia jura haereditatis,
+          <lb ed="#V" n="15"/>alimentorum, legitimae successionis,
+          edu<lb ed="#V" n="16" break="no"/>cationis, quamvis usus impediatur; pro
+          <lb ed="#V" n="17"/>t ipso Christus passus est, est capax
+          fru<lb ed="#V" n="18" break="no"/>ctus et applicationis meritorum Christi,
+          <lb ed="#V" n="19"/>etiam quoad usum et effectum salutis, ut
+          <lb ed="#V" n="20"/>de fide est; habet necessitatem, quia
+          <lb ed="#V" n="21"/>peccatum quod inest independenter a
+          <lb ed="#V" n="22"/>voluntate parentum, et quod expiari
+          <lb ed="#V" n="23"/>potest Sacramento, habet periculum
+          cer<lb ed="#V" n="24" break="no"/>tae damnationis, si in ea aetate decedat
+          <lb ed="#V" n="25"/>sine remedio; ergo sicut potestas paterna
+          <lb ed="#V" n="26"/>non praejudicat aliis juribus politicis et
+          <lb ed="#V" n="27"/>naturalibus, quae observare cogitur a
+          <lb ed="#V" n="28"/>Principe, et debet, ita etiam minus
+          prae<lb ed="#V" n="29" break="no"/>judicare potest huic juri magis fundato,
+          <lb ed="#V" n="30"/>et ex quo acquiritur majus
+          emolumen<lb ed="#V" n="31" break="no"/>tum, et fundatur in subjectione infantis
+          <lb ed="#V" n="32"/>ad Deum, quae tolli nequit, et cujus
+          <lb ed="#V" n="33"/>violatio irreparabile detrimentum afferre
+          <lb ed="#V" n="34"/>potest; ergo etiam infans in illo statu
+          <lb ed="#V" n="35"/>habet quodcumque jus, quantum ad
+          titu<lb ed="#V" n="36" break="no"/>lum, in ordine ad salutem, quod habet
+          <lb ed="#V" n="37"/>perveniens ad usum rationis, sicut et
+          ne<lb ed="#V" n="38" break="no"/>cessitatem; et in hoc solum differt
+          per<lb ed="#V" n="39" break="no"/>veniens ad usum rationis quod fiat capax
+          <lb ed="#V" n="40"/>sui juris in usu per proprium consensum,
+          <lb ed="#V" n="41"/>sed ad Principem spectat vindicare jus
+          <lb ed="#V" n="42"/>innocentis contra invasores, deficientibus
+          <lb ed="#V" n="43"/>inferioribus ministris et abutentibus sua
+          <lb ed="#V" n="44"/>potestate; ergo et defendere infantem
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>contra parentes in suo jure et fructu,
+          <lb ed="#V" n="46"/>quo in ea aetate frui potest.
+          <lb ed="#V" n="47"/>Confirmatur, infans in certo periculo
+          <lb ed="#V" n="48"/>mortis constitutus, potest baptizari invitis
+          <lb ed="#V" n="49"/>parentibus, ut concedunt aliqui ex
+          Docto<lb ed="#V" n="50" break="no"/>ribus oppositae sententiae, etiam a privata
+          <lb ed="#V" n="51"/>persona; hoc esset falsum, si potestas
+          <lb ed="#V" n="52"/>paterna praejudicaret necessitati infantis,
+          <lb ed="#V" n="53"/>et praecepto charitatis, quo alius in
+          <lb ed="#V" n="54"/>extrema necessitate constituto subvenire
+          <lb ed="#V" n="55"/>debet, secluso alio inconvenienti, praeter
+          <lb ed="#V" n="56"/>laesionem praetensam potestatis paternae,
+          <lb ed="#V" n="57"/>quae nulla est; ergo etiam Princeps in
+          <lb ed="#V" n="58"/>probabili periculo mortis potest
+          subve<lb ed="#V" n="59" break="no"/>nire infantibus per remedia opportuna,
+          <lb ed="#V" n="60"/>etiam invitis parentibus, seclusis aliis
+          in<lb ed="#V" n="61" break="no"/>convenientibus, imo forte, quod amplius
+          <lb ed="#V" n="62"/>est, tenetur, non secus ac privatus in casu
+          <lb ed="#V" n="63"/>expresso. Probatur consequentia, jure
+          <lb ed="#V" n="64"/>administrationis publicae tenetur
+          submo<lb ed="#V" n="65" break="no"/>vere pericula multorum subditorum, si
+          <lb ed="#V" n="66"/>commode, et sine majore incommodo
+          <lb ed="#V" n="67"/>potest, non solum praesentia et certa, sed
+          <lb ed="#V" n="68"/>etiam probabilia et imminentia, quia hoc
+          <lb ed="#V" n="69"/>ad prudentiam et providentiam
+          legislato<lb ed="#V" n="70" break="no"/>ris spectat, secundum quam operari
+          tene<lb ed="#V" n="71" break="no"/>tur respective ad subditos; et pater in
+          <lb ed="#V" n="72"/>periculo probabili infantis, tenetur etiam
+          <lb ed="#V" n="73"/>ei subvenire, sed infantes infidelium
+          sub<lb ed="#V" n="74" break="no"/>ditorum sunt magna pars Reipublicae, et
+          <lb ed="#V" n="75"/>in ea aetate, quae minimo cuique
+          nocu<lb ed="#V" n="76" break="no"/>mento subest, et infert periculum
+          proba<lb ed="#V" n="77" break="no"/>bile mortis, propter teneritudinem, et
+          <lb ed="#V" n="78"/>minimam resistentiam, accedente
+          infideli<lb ed="#V" n="79" break="no"/>tate parentum, qui remedia salutis et sibi,
+          <lb ed="#V" n="80"/>et infantibus necessaria nunquam
+          adhibe<lb ed="#V" n="81" break="no"/>bant, sed abhorrent; ergo de iis potest
+          <lb ed="#V" n="82"/>providere Princeps invitis parentibus
+          <lb ed="#V" n="83"/>contra rationem et debitum, nullumque
+          <lb ed="#V" n="84"/>jus habentibus, illa propulsandi.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="85"/>Si dicas, infantes habere jus, sed
+          impe<lb ed="#V" n="86" break="no"/>ditum et remotum, quia cum nequeant
+          <lb ed="#V" n="87"/>habere voluntatem propriam, reputatur
+          <lb ed="#V" n="88"/>voluntas parentum tanquam voluntas ejus,
+          <pb ed="#V" n="494"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>quae repugnat. Contra, si interpretari
+          <lb ed="#V" n="2"/>licet voluntatem infantis praesentem aut
+          <lb ed="#V" n="3"/>futuram, illa interpretanda est, quae ad
+          <lb ed="#V" n="4"/>necessitatem tollendam valet, et pro qua
+          <lb ed="#V" n="5"/>divina lex et salus infantis clamat et
+          sup<lb ed="#V" n="6" break="no"/>ponit, et quae est secundum jus ipsius, et
+          <lb ed="#V" n="7"/>ordinationem Dei et Christi, eamque
+          vo<lb ed="#V" n="8" break="no"/>luntatem, quae debet inesse parentibus,
+          <lb ed="#V" n="9"/>non quae inest, sicut in fide, et intentione
+          <lb ed="#V" n="10"/>Christi et Ecclesiae, baptizantur valide,
+          <lb ed="#V" n="11"/>non in fide parentum, si infideles sunt,
+          <lb ed="#V" n="12"/>aut haeretici, vel si minister est talis, ex
+          <lb ed="#V" n="13"/>errore privato, modo salvetur in eo
+          in<lb ed="#V" n="14" break="no"/>tentio universalis; ergo non est
+          interpre<lb ed="#V" n="15" break="no"/>tanda voluntas iniqua parentum esse
+          <lb ed="#V" n="16"/>infantis.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="17"/>Quinto, quia potestas, quam habent
+          <lb ed="#V" n="18"/>parentes in infantem, seu tutores, qui
+          <lb ed="#V" n="19"/>parentibus succedunt, magis est in
+          favo<lb ed="#V" n="20" break="no"/>rem infantis, quam in favorem ipsorum,
+          <lb ed="#V" n="21"/>quamdiu manet in ea aetate; ergo nequit
+          <lb ed="#V" n="22"/>esse aut fundari in praejudicium infantis.
+          <lb ed="#V" n="23"/>Antecedens patet, quia in ea aetate nequit
+          <lb ed="#V" n="24"/>aut sibi, aut aliis, per se proficere;
+          pa<lb ed="#V" n="25" break="no"/>rentes autem ipsi tenentur de educatione,
+          <lb ed="#V" n="26"/>et aliis necessariis; ex actu autem et usu
+          <lb ed="#V" n="27"/>sufficienter declaratur potestas, et ejus
+          <lb ed="#V" n="28"/>finis, quando autem pervenit infans ad
+          <lb ed="#V" n="29"/>usum rationis, parentibus tenetur, sed
+          <lb ed="#V" n="30"/>non in iis quae repugnant saluti, quia qui
+          <lb ed="#V" n="31"/>non odit patrem suum et matrem, etc.
+          <lb ed="#V" n="32"/>non est me dignus, ut explicat Gregorius
+          <lb ed="#V" n="33"/>quos adversarios sentit in via Dei; ergo
+          <lb ed="#V" n="34"/>minus parentes videntur habere potesta
+          <lb ed="#V" n="35"/>tem in ipsum infantem in praejudicium
+          <lb ed="#V" n="36"/>suae salutis, quia filius non debet portare
+          <lb ed="#V" n="37"/>iniquitatem patris, aut ei subesse quoad
+          <lb ed="#V" n="38"/>hoc; et si filius quando jam proficit
+          pa<lb ed="#V" n="39" break="no"/>tri, non est in potestate ejus, quoad ea
+          <lb ed="#V" n="40"/>quae sunt salutis, quando obest, minus
+          <lb ed="#V" n="41"/>congruum erat bonitati divinae eum
+          con<lb ed="#V" n="42" break="no"/>stituere sub ejus potestate iniqua, quam
+          <lb ed="#V" n="43"/>quando est infans, et minus sibi
+          subveni<lb ed="#V" n="44" break="no"/>re posset.</quote>
+          </p>
+          <p>
+            <quote><cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>Sed est aliqua potestas coactiva et
+          <lb ed="#V" n="46"/>executiva hujus juris, quod habent
+          infan<lb ed="#V" n="47" break="no"/>tes, non alia quam Principis, deficientibus
+          <lb ed="#V" n="48"/>aut abutentibus sua potestate tutoribus et
+          <lb ed="#V" n="49"/>parentibus; ergo potest Princeps dare
+          <lb ed="#V" n="50"/>suum jus infantibus, reclamante pro
+          <lb ed="#V" n="51"/>ipsis lege divina et propria necessitate.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="52"/>Dices, quod Princeps habet tantum jus
+          <lb ed="#V" n="53"/>positivum. Contra, si parentes in aliis
+          vir<lb ed="#V" n="54" break="no"/>tutibus male educant filios contra legem
+          <lb ed="#V" n="55"/>naturalem, potest Princeps emendare
+          eo<lb ed="#V" n="56" break="no"/>rum errorem; sed nihil magis est de
+          <lb ed="#V" n="57"/>lege naturali, quam Dei cultus verus,
+          ni<lb ed="#V" n="58" break="no"/>hilque magis conducit ad pacem
+          publi<lb ed="#V" n="59" break="no"/>cam et profectum Reipublicae; ergo
+          <lb ed="#V" n="60"/>Princeps habet potestatem corrigendi
+          <lb ed="#V" n="61"/>errorem in religione, qui redundat in
+          <lb ed="#V" n="62"/>publicum detrimentum, invitis etiam
+          pa<lb ed="#V" n="63" break="no"/>rentibus educantibus filios in contemptum
+          <lb ed="#V" n="64"/>religionis et veri cultus. Et quamvis
+          Prin<lb ed="#V" n="65" break="no"/>ceps non habeat potestatem directam in
+          <lb ed="#V" n="66"/>ordine ad spiritualia, habet tamen
+          indi<lb ed="#V" n="67" break="no"/>rectam, quando error vergit in
+          detri<lb ed="#V" n="68" break="no"/>mentum utilitatis communis, sicut ex
+          <lb ed="#V" n="69"/>sententia Theologorum, Pontifex habet
+          <lb ed="#V" n="70"/>potestatem indirectam et universalem
+          <lb ed="#V" n="71"/>quoad temporalia, quando necessaria sunt
+          <lb ed="#V" n="72"/>ad finem spiritualem.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="73"/>Ex his omnibus unica haec conclusio
+          <lb ed="#V" n="74"/>elicitur, nempe jus parentis in filium
+          <lb ed="#V" n="75"/>nullum esse, in praejudicium salutis ejus
+          <lb ed="#V" n="76"/>et fidei, ac institutionis divinae, ac
+          proin<lb ed="#V" n="77" break="no"/>de posse Principem sine laesione juris,
+          <lb ed="#V" n="78"/>quod non fundatur, potestatis paternae, eo
+          <lb ed="#V" n="79"/>invito filium ejus baptizare.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="80"/>Vasquez d. 155. qui illam
+          responsi<lb ed="#V" n="81" break="no"/>onem hactenus impugnatam transcripsit,
+          <lb ed="#V" n="82"/>velut communem Doctorum adversae
+          sen<lb ed="#V" n="83" break="no"/>tentiae, adducit diminute fundamentum,
+          <lb ed="#V" n="84"/>seu rationem Doctoris, et quasi in
+          con<lb ed="#V" n="85" break="no"/>temptum dicit eam unicam esse, non
+          ad<lb ed="#V" n="86" break="no"/>vertens quod in contraria sententia unica,
+          <lb ed="#V" n="87"/>etiam sit, quae desumitur ex potestate
+          <lb ed="#V" n="88"/>parentum in filios; in quaestione autem
+          <pb ed="#V" n="495"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>versatur quomodo haec parentum
+          pote<lb ed="#V" n="2" break="no"/>stas sit intelligenda. Doctor contendit non
+          <lb ed="#V" n="3"/>esse intelligendam, quasi extendat se
+          con<lb ed="#V" n="4" break="no"/>tra potestatem Dei in eumdem infantem,
+          <lb ed="#V" n="5"/>et quae nullo modo extendatur in
+          praeju<lb ed="#V" n="6" break="no"/>dicium ipsius infantis, neque fidei et
+          cul<lb ed="#V" n="7" break="no"/>tus divini, quia est potestas subordinata,
+          <lb ed="#V" n="8"/>nec tenet contra potestatem superiorem;
+          <lb ed="#V" n="9"/>nec tenet contra jus tertii, ipsius scilicet
+          <lb ed="#V" n="10"/>infantis, nec tenet contra debitum fidei,
+          <lb ed="#V" n="11"/>et cultus quod strictius ligat, nec tenet
+          <lb ed="#V" n="12"/>universaliter contra justitiam. Et hoc
+          vi<lb ed="#V" n="13" break="no"/>detur verum etiam in multis aliis, ut
+          <lb ed="#V" n="14"/>est, exempli gratia, obligatio contractus
+          <lb ed="#V" n="15"/>matrimonialis inter infideles, quae est
+          ju<lb ed="#V" n="16" break="no"/>ris naturalis, non tenet altero conjugum
+          <lb ed="#V" n="17"/>ad fidem converso, in praejudicium fidei
+          <lb ed="#V" n="18"/>et religionis, quando subest tale
+          pericu<lb ed="#V" n="19" break="no"/>es lum; non ligat restitutio debiti, quando
+          <lb ed="#V" n="20"/>urget necessitas gravissima debitorem;
+          <lb ed="#V" n="21"/>non urget debitum conjugale cum abusu
+          <lb ed="#V" n="22"/>contra temperantiam; non urget ipsa
+          sub<lb ed="#V" n="23" break="no"/>jectio filii parentibus, quando pervenit ad
+          <lb ed="#V" n="24"/>usum rationis, cum periculo subversionis
+          <lb ed="#V" n="25"/>propriae; non urget praeceptum de non
+          <lb ed="#V" n="26"/>auferenda re aliena, quando praevalet
+          ex<lb ed="#V" n="27" break="no"/>trema necessitas, si dominus est nolens;
+          <lb ed="#V" n="28"/>non urget praeceptum conservandi vitam
+          <lb ed="#V" n="29"/>per medicinam, et alia exquisita remedia,
+          <lb ed="#V" n="30"/>quae exhauriunt integram substantiam
+          <lb ed="#V" n="31"/>aegri, in detrimentum uxoris et filiorum
+          <lb ed="#V" n="32"/>et familiae.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="33"/>Aliud ergo est parentes habere jus
+          ab<lb ed="#V" n="34" break="no"/>solute in filium infantem, et aliud est
+          <lb ed="#V" n="35"/>jus praedictum cum omni limitatione et
+          <lb ed="#V" n="36"/>concurrente ex una parte, iniquitate
+          pa<lb ed="#V" n="37" break="no"/>rentis, et aliis circumstantiis, quas
+          hacte<lb ed="#V" n="38" break="no"/>nus explicuimus, subsistere; nam inter
+          <lb ed="#V" n="39"/>ipsos oppositae sententiae Doctores, in alia
+          <lb ed="#V" n="40"/>quaestione, de dispensatione legis
+          natura<lb ed="#V" n="41" break="no"/>lis, nihil est magis vulgare quam
+          mate<lb ed="#V" n="42" break="no"/>riam. legis naturalis, accedente nova
+          cir<lb ed="#V" n="43" break="no"/>cumstantia, ita variari, ut desinat
+          obli<cb ed="#V" n="b"/><lb ed="#V" n="44" break="no"/>gare, per haec solvendo exempla, quae
+          <lb ed="#V" n="45"/>dispensationem sonant.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="46"/>Quamvis ergo parentes habeant jus
+          <lb ed="#V" n="47"/>absolute, illud non extenditur ad
+          materi<lb ed="#V" n="48" break="no"/>am, in quavis circumstantia, quae eam
+          <lb ed="#V" n="49"/>omnino mutat, qualis est quaelibet ex
+          di<lb ed="#V" n="50" break="no"/>ctis. Sic Princeps habet jus in regnum,
+          <lb ed="#V" n="51"/>quod potius est ex fine, quam parentis
+          <lb ed="#V" n="52"/>in filios, quia si necessitas subest
+          Reipu<lb ed="#V" n="53" break="no"/>blicae, potest privare parentem,
+          separan<lb ed="#V" n="54" break="no"/>do filium eo invito, et exponendo pro
+          sa<lb ed="#V" n="55" break="no"/>lute Reipublicae, sed jus non habet, ut
+          <lb ed="#V" n="56"/>tyrannice eo utatur, et contra finem
+          de<lb ed="#V" n="57" break="no"/>bitum in ruinam Reipublicae, cui tenetur
+          <lb ed="#V" n="58"/>de recta administratione; pater habet
+          <lb ed="#V" n="59"/>jus in filios, familiam et substantiam,
+          <lb ed="#V" n="60"/>tamen si est prodigus, abliguriens
+          patri<lb ed="#V" n="61" break="no"/>monium, et perverse utens suo jure,
+          po<lb ed="#V" n="62" break="no"/>test privari illo jure. Haec et plura ex
+          <lb ed="#V" n="63"/>unica illa ratione, et sit unica Doctoris,
+          <lb ed="#V" n="64"/>elicere possumus. Redargutio autem
+          al<lb ed="#V" n="65" break="no"/>lata ab eo (quasi privatus posset, quod
+          <lb ed="#V" n="66"/>in nostro casu posset princeps) in
+          respon<lb ed="#V" n="67" break="no"/>sione, est satis in doctrina morali infirma,
+          <lb ed="#V" n="68"/>quia homo privatus nequit sine
+          auctori<lb ed="#V" n="69" break="no"/>tate ingerere se administrationi publicae
+          <lb ed="#V" n="70"/>neque potest, ac proinde nequit privare
+          <lb ed="#V" n="71"/>parentes, aut alios sua possessione,
+          eti<lb ed="#V" n="72" break="no"/>am iniqua, ex propria auctoritate; si
+          ta<lb ed="#V" n="73" break="no"/>men casus extremae necessitatis infantis
+          <lb ed="#V" n="74"/>urgeret, neque alius adesset, posset eum
+          <lb ed="#V" n="75"/>invito parente baptizare jam moribundum,
+          <lb ed="#V" n="76"/>ut vel ipsi etiam alterius sententiae
+          do<lb ed="#V" n="77" break="no"/>cent. Sequela ergo illata ex doctrina
+          Do<lb ed="#V" n="78" break="no"/>ctoris non est ad propositum, neque ex
+          <lb ed="#V" n="79"/>principiis ejus sequitur.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="80"/>Respondent alii non esse contra jus
+          <lb ed="#V" n="81"/>paternum baptizari infantem eo invito,
+          <lb ed="#V" n="82"/>sed separari esset contra jus paternum,
+          <lb ed="#V" n="83"/>quae tamen separatio necessaria foret.
+          <lb ed="#V" n="84"/>Contra, si non est contra jus parentum
+          <lb ed="#V" n="85"/>baptizare infantem, iis invitis, minus est
+          <lb ed="#V" n="86"/>contra idem infantem baptizatum
+          sepa<lb ed="#V" n="87" break="no"/>rare, si sit necesse, quia, suscepto
+          Ba<pb ed="#V" n="496"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ptismo, jam transit in jus Ecclesiae, et
+          <lb ed="#V" n="2"/>praevalet favor fidei et Sacramenti.
+          Con<lb ed="#V" n="3" break="no"/>sequentia probatur, quia accessorium
+          se<lb ed="#V" n="4" break="no"/>quitur naturam principalis; ergo si
+          ju<lb ed="#V" n="5" break="no"/>re fit Baptismusinfantis invitis
+          paren<lb ed="#V" n="6" break="no"/>tibus, etiam separatio, invitis parentibus,
+          <lb ed="#V" n="7"/>si necessaria est, jure fit, cum ratione
+          <lb ed="#V" n="8"/>Baptismi novus acquiritur titulus infanti,
+          <lb ed="#V" n="9"/>contra parentes et Ecclesiae. Accedit
+          <lb ed="#V" n="10"/>quod etiam sine ulla separatione
+          pos<lb ed="#V" n="11" break="no"/>sit infanti provideri donec usum
+          rati<lb ed="#V" n="12" break="no"/>onis attingat, tunc autem non subest
+          pa<lb ed="#V" n="13" break="no"/>rentibus in iis, quae sunt salutis; potest
+          <lb ed="#V" n="14"/>ergo tunc separari et cogi ad
+          observan<lb ed="#V" n="15" break="no"/>tiam fidei, etiam invitus, ex Toletano IV.
+          <lb ed="#V" n="16"/>et cap. Cum Marthae, quia subest directe
+          <lb ed="#V" n="17"/>Ecclesiae.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="18"/>Alii respondent fore scandalum. Sed
+          <lb ed="#V" n="19"/>contra, quia illud scandalum nescio in
+          <lb ed="#V" n="20"/>quo fundatur; in primis non est
+          scanda<lb ed="#V" n="21" break="no"/>lum ex parte infantis, cujus saluti recte
+          <lb ed="#V" n="22"/>providetur; non est scandalum parentum,
+          <lb ed="#V" n="23"/>nisi tantum Pharisaicum, quia jam
+          sup<lb ed="#V" n="24" break="no"/>ponuntur dati in reprobum sensum;
+          ne<lb ed="#V" n="25" break="no"/>que est scandalum respectu credentium,
+          <lb ed="#V" n="26"/>ut per se constat. Si dicas reddi posse
+          fi<lb ed="#V" n="27" break="no"/>dem odiosam per hoc, apud infideles, qui
+          <lb ed="#V" n="28"/>«similiter uterentur eadem violentia
+          cir<lb ed="#V" n="29" break="no"/>ca infantes fidelium quos rapiunt; sed
+          <lb ed="#V" n="30"/>primum nihil est, quia vix fides potest
+          <lb ed="#V" n="31"/>reddi magis odiosa apud infideles jam
+          ob<lb ed="#V" n="32" break="no"/>duratos, quam sit artificio daemonis, et
+          <lb ed="#V" n="33"/>eadem ratio urgeret baptizando filios
+          Ana<lb ed="#V" n="34" break="no"/>baptistarum aut aliorum haereticorum,
+          <lb ed="#V" n="35"/>quibus sic licet succurrere. Deinde
+          infi<lb ed="#V" n="36" break="no"/>deles et haeretici non minus diligentes
+          <lb ed="#V" n="37"/>sint ad subversionem filiorum aut
+          infan<lb ed="#V" n="38" break="no"/>tum fidelium, sive casus noster habeat
+          <lb ed="#V" n="39"/>praxim, vel non habeat. Ultimo tandem
+          <lb ed="#V" n="40"/>casus noster intelligitur practicandus, ubi
+          <lb ed="#V" n="41"/>non emergat majus damnum.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="42"/>Respondent alii, quod Deus non ita
+          <lb ed="#V" n="43"/>voluit violente homines vocari ad fidem,
+          <lb ed="#V" n="44"/>sed libere, et nulla necessitate; sed hoc
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>unde constat nescio, dato casu, quia
+          vo<lb ed="#V" n="46" break="no"/>luntatem Dei licet colligere ex institutione
+          <lb ed="#V" n="47"/>Sacramenti, quod hoc modo collatum
+          va<lb ed="#V" n="48" break="no"/>let, quidquid dixerint quidam; lex
+          chari<lb ed="#V" n="49" break="no"/>tatis, et justitia secundum quas in
+          propo<lb ed="#V" n="50" break="no"/>sito operatur, est lex Dei. Deus etiam in
+          <lb ed="#V" n="51"/>forma patrisfamilias vocavit libere ad
+          coe<lb ed="#V" n="52" break="no"/>nam servos suos, sed alios negantes
+          con<lb ed="#V" n="53" break="no"/>tempsit, alios etiam induxit per compelle
+          <lb ed="#V" n="54"/>intrare. Habemus etiam exempla
+          Mata<lb ed="#V" n="55" break="no"/>thiae 1. Machab. cap. 2. qui sic in virtute
+          <lb ed="#V" n="56"/>circumcidit infantes in finibus Israel, in
+          <lb ed="#V" n="57"/>quibus vix est dubium fuisse aliquos
+          fi<lb ed="#V" n="58" break="no"/>lios infidelium, et Assebuti quod adducit
+          <lb ed="#V" n="59"/>Doctor, qui religiosus Princeps appellatur
+          <lb ed="#V" n="60"/>a Toletano IV. Habemus etiam exemplum
+          <lb ed="#V" n="61"/>Ferdinandi Catholici, et aliorum Regum i
+          <lb ed="#V" n="62"/>Hispaniae, qui Mauros et Judaeos
+          compu<lb ed="#V" n="63" break="no"/>lerunt ad Baptismum, inter quos non est
+          <lb ed="#V" n="64"/>dubium fuisse multos invitos ad
+          Bapti<lb ed="#V" n="65" break="no"/>smum proprium, et filiorum.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="66"/>Ex quibus patet ad fundamenta
+          oppo<lb ed="#V" n="67" break="no"/>sitae sententiae, et ad alteram partem
+          <lb ed="#V" n="68"/>conclusionis, quae magis spectat ad
+          ma<lb ed="#V" n="69" break="no"/>teriam de fide; eam hic tangit Doctor
+          <lb ed="#V" n="70"/>incidenter, proinde ne prolixius trahamus
+          <lb ed="#V" n="71"/>hanc quaestionem, quam Doctor sine
+          ar<lb ed="#V" n="72" break="no"/>gumentis, ut ipse asserit, sicut, et
+          prae<lb ed="#V" n="73" break="no"/>cedentem transegit, in suum locum eam
+          <lb ed="#V" n="74"/>remittimus. Videnda est obligatio
+          Princi<lb ed="#V" n="75" break="no"/>pis, ut provideat verum cultum, qui est
+          <lb ed="#V" n="76"/>juris naturalis, et summoveat blasphemias
+          <lb ed="#V" n="77"/>et errores publicos, quae provocant iram
+          <lb ed="#V" n="78"/>Dei in detrimentum publicae pacis, quid
+          <lb ed="#V" n="79"/>conducat ipsis infidelibus religio, et
+          hu<lb ed="#V" n="80" break="no"/>jusmodi, et cur magis extendatur potestas
+          <lb ed="#V" n="81"/>civilis in haereticos quam in infideles, et
+          <lb ed="#V" n="82"/>hujusmodi alia, ut sunt sacrilegia, quae ab
+          <lb ed="#V" n="83"/>hujusmodi contra fidem publice et
+          priva<lb ed="#V" n="84" break="no"/>tim fiunt, an habeat jus illa vindicandi,
+          <lb ed="#V" n="85"/>aut prohibendi usum suae superstitionis,
+          <lb ed="#V" n="86"/>ex quo redundare potest periculum
+          sub<lb ed="#V" n="87" break="no"/>versionis aliorum fidelium, sicut et plura
+          <lb ed="#V" n="88"/>alia peccata contra ipsam legem
+          natura<pb ed="#V" n="497"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>lem. De his nihil ad praesens dico, ne
+          <lb ed="#V" n="2"/>prolixior sim; sed tantum intelligendum
+          <lb ed="#V" n="3"/>dico esse Doctorem de minis et terroribus
+          <lb ed="#V" n="4"/>in materia civili et exilio, non autem in
+          <lb ed="#V" n="5"/>iis minis, quae tendunt ad mortem
+          corpo<lb ed="#V" n="6" break="no"/>ralem, ut bene advertit Scholiastes, cap.
+          <lb ed="#V" n="7"/>ut autem, de Judeis, dist. 45. sic
+          in<cb ed="#V" n="b"/><lb ed="#V" n="8" break="no"/>telligitur de minis, quibus succedit mors
+          <lb ed="#V" n="9"/>corporalis, et tormenta; non priori modo,
+          <lb ed="#V" n="10"/>nam ubi detrimentum publicum, et
+          peri<lb ed="#V" n="11" break="no"/>culum urget tam proditionis quam
+          re<lb ed="#V" n="12" break="no"/>bellionis, ac etiam subversionis fidelium,
+          <lb ed="#V" n="13"/>recte prior necessitas ipsis potest
+          im<lb ed="#V" n="14" break="no"/>poni.</quote>
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

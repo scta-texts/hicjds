@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 5, Quaestio 3</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 5, Quaestio 3</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="520"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3510"><!-- hicjds-b4d5q3 -->
+        <head>Quaestio 3</head>
+        <head type="question-title">Utrum aliquis debeat ministrare sacramentum baptismale quando praesumitur baptizationem vergere in periculum vitae corporalis eius qui suscipit</head>
+        <!-- <div alias="hiq-d5q3-p1"> -->
+          <p>
+            <lb ed="#V" n="5" type="fixed=520"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>(a) Juxta hoc quoeritur sine
+            argumen<lb ed="#V" n="7" break="no"/>tis, etc. Casus hic proponitur, ut rectius
+            <lb ed="#V" n="8"/>explicetur, quibus circumstantiis obliget
+            <lb ed="#V" n="9"/>praeceptum Baptismi, sive ministrum,
+            si<lb ed="#V" n="10" break="no"/>ve ipsum suscipientem; et potest
+            distin<lb ed="#V" n="11" break="no"/>gui periculum in certum, probabile, aut
+            <lb ed="#V" n="12"/>non fundatum, sed apparens ex errore,
+            <lb ed="#V" n="13"/>qui sine sufficienti praesumptione aut
+            <lb ed="#V" n="14"/>fundata concipitur. Inquantum haec
+            obli<lb ed="#V" n="15" break="no"/>gatio cadit in suscipientem adultum, quia
+            <lb ed="#V" n="16"/>de parvulo non est quaestio, tenendum est
+            <lb ed="#V" n="17"/>eum non obligari ad Baptismum
+            susci<lb ed="#V" n="18" break="no"/>piendum, quando per se sequitur mors
+            <lb ed="#V" n="19"/>certa vel probabilis, quia aliter sibi
+            po<lb ed="#V" n="20" break="no"/>test providere de remedio sufficienti pro
+            <lb ed="#V" n="21"/>«eo statu; neque obligat praeceptum
+            Bapti<lb ed="#V" n="22" break="no"/>smi suscipiendi pro eo statu et his
+            cir<lb ed="#V" n="23" break="no"/>cumstantiis. Sed an petere possit
+            Bapti<lb ed="#V" n="24" break="no"/>smum, aut permittere in eo casu quando
+            <lb ed="#V" n="25"/>periculum est certum, vel probabile, ex
+            <lb ed="#V" n="26"/>vita decedendi sine Sacramento, quamvis
+            <lb ed="#V" n="27"/>conetur conteri, et existimet se
+            contri<lb ed="#V" n="28" break="no"/>tum.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Respondetur permittere quidem posse,
+            <lb ed="#V" n="30"/>quia non tenetur salvare vitam
+            corpora<lb ed="#V" n="31" break="no"/>lem in praejudicium vitae spiritualis, quam
+            <lb ed="#V" n="32"/>per remedia certa et tuta procurare debet,
+            <lb ed="#V" n="33"/>si licite potest; si non potest procurare,
+            <lb ed="#V" n="34"/>ex ratione quam mox subjungam, saltem
+            <lb ed="#V" n="35"/>permittere potest ut ei applicentur per
+            <lb ed="#V" n="36"/>alium ad hoc paratum, sicut in multis
+            ca<lb ed="#V" n="37" break="no"/>sibus potest permittere se privari vita;
+            <lb ed="#V" n="38"/>nam licet ea non possit seipsum privare
+            <lb ed="#V" n="39"/>in ullo casu, quia non est dominus vitae,
+            <lb ed="#V" n="40"/>non tenetur tamen conservare eam cum
+            <lb ed="#V" n="41"/>notabili damno suo, aut alterius, vel
+            in<lb ed="#V" n="42" break="no"/>terficiendo agressorem, vel prodigendo
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>patrimonium integrum in remedia
+            exqui<lb ed="#V" n="44" break="no"/>sita in praejudicium uxoris aut filiorum,
+            <lb ed="#V" n="45"/>vel etiam sui status et conditionis, si
+            su<lb ed="#V" n="46" break="no"/>pervicturus esset. Petere autem
+            Sacra<lb ed="#V" n="47" break="no"/>mentum in eo casu non potest, in quo
+            al<lb ed="#V" n="48" break="no"/>ter sine peccato, aut periculo probabili
+            <lb ed="#V" n="49"/>mortis ejus, per se ex natura illius
+            acti<lb ed="#V" n="50" break="no"/>onis nequit dare, quia concurreret ad sui
+            <lb ed="#V" n="51"/>mortem, et ad peccatum alterius
+            sollici<lb ed="#V" n="52" break="no"/>tando transgressionem praecepti, et
+            appli<lb ed="#V" n="53" break="no"/>cando causam suo modo, ex quo mors
+            cer<lb ed="#V" n="54" break="no"/>ta est, aut probabilis.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Quoad aliud genus periculi non
+            funda<lb ed="#V" n="56" break="no"/>ti perinde dicendum est de ipso, ac de
+            <lb ed="#V" n="57"/>ministro; casus vix est practicus, nisi p
+            <lb ed="#V" n="58"/>formetur in circumstantiis remotis a
+            pra<lb ed="#V" n="59" break="no"/>xi, et usu operandi, ut si aqua esset
+            into<lb ed="#V" n="60" break="no"/>xicata, ut ipsa de se esset mortalis, quod
+            <lb ed="#V" n="61"/>vix forte fieri potest, quia si venenum
+            <lb ed="#V" n="62"/>sit adeo praedominans, videtur potius in
+            <lb ed="#V" n="63"/>se aquam convertere, ita ut sit magis
+            ve<lb ed="#V" n="64" break="no"/>nenum, quam aqua naturalis; sed
+            forma<lb ed="#V" n="65" break="no"/>tur casus ad intelligendam vim praecepti,
+            <lb ed="#V" n="66"/>quod si autem venenum non sit adeo
+            prae<lb ed="#V" n="67" break="no"/>dominans, non videtur ex stilla aquae
+            in<lb ed="#V" n="68" break="no"/>ferri posse mortem si statim abluatur, aut
+            <lb ed="#V" n="69"/>tergatur, antequam vires suas per
+            alte<lb ed="#V" n="70" break="no"/>rationem corporis exerat.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>De ministro autem conclusio Doctoris
+            <lb ed="#V" n="72"/>est non posse eum licite ministrare
+            Ba<lb ed="#V" n="73" break="no"/>ptismum in tali casu, quando ex eo
+            in<lb ed="#V" n="74" break="no"/>fertur mors, aut praesumitur inferri ex
+            <lb ed="#V" n="75"/>certis signis in ea dispositione infirmi,
+            <lb ed="#V" n="76"/>aut ex natura ipsius actionis sequitur;
+            <lb ed="#V" n="77"/>unde qui projicit infantem in puteum,
+            <lb ed="#V" n="78"/>et est homicida, qui secat mulierem
+            gra<lb ed="#V" n="79" break="no"/>vidam, et in periculo existentem mortis, ex
+            <lb ed="#V" n="80"/>qua sectione etiam sequeretur mors
+            in<lb ed="#V" n="81" break="no"/>fantis, quo ipsum infantem vivum extrahat
+            <lb ed="#V" n="82"/>et baptizet, est etiam homicida, quia
+            <lb ed="#V" n="83"/>etiam adjudicata morti donec pariat non
+            <lb ed="#V" n="84"/>est plectenda, l. negat de statu
+            homi<lb ed="#V" n="85" break="no"/>mum, l. proegnantis ff. de poenis, quando
+            <lb ed="#V" n="86"/>ipsa interim infirmitate laboret ad mortem
+            <pb ed="#V" n="521"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>tunc forte ratione periculi infantis
+            po<lb ed="#V" n="2" break="no"/>test executio fieri per ministros justitiae et
+            <lb ed="#V" n="3"/>aperienda erit, ut salvetur infans, et mors
+            <lb ed="#V" n="4"/>detur in poenam, sed auctoritate privata,
+            <lb ed="#V" n="5"/>id nequit fieri. Dices, ipsa praegnans in
+            <lb ed="#V" n="6"/>periculo mortis sumere potest medicinam,
+            <lb ed="#V" n="7"/>ex qua certo, vel probabiliter sequetur
+            <lb ed="#V" n="8"/>mors infantis; ergo sicut vitam
+            corpora<lb ed="#V" n="9" break="no"/>lem infantis ob salutem propriam
+            con<lb ed="#V" n="10" break="no"/>temnere potest, ita etiam et vitam
+            cor<lb ed="#V" n="11" break="no"/>poralem infantis potest quis contemnere
+            <lb ed="#V" n="12"/>ad salvandam vitam ejus spiritualem.
+            <lb ed="#V" n="13"/>Patet consequentia, quia vitae propriae
+            <lb ed="#V" n="14"/>et corporali potest praeferre vitam
+            spiri<lb ed="#V" n="15" break="no"/>tualem infantis; ergo a fortiori vitam
+            <lb ed="#V" n="16"/>ejus spiritualem praeferre vitae corporali.
+            <lb ed="#V" n="17"/>Confirmatur, ipse infans si esset sui
+            com<lb ed="#V" n="18" break="no"/>pos deberet vitam corporalem contemnere
+            <lb ed="#V" n="19"/>ob necessitatem vitae spiritualis; ergo
+            <lb ed="#V" n="20"/>et parentes saltem, in quorum est
+            dis<lb ed="#V" n="21" break="no"/>positione, similiter debent contemnere
+            <lb ed="#V" n="22"/>vitam ejus corporalem, in periculo vitae
+            <lb ed="#V" n="23"/>spiritualis.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Respondetur aliud esse auferre vitam
+            <lb ed="#V" n="25"/>alteri, aut sibi, aliud vero non
+            conser<lb ed="#V" n="26" break="no"/>vare; primum est contra praeceptum
+            <lb ed="#V" n="27"/>negativum, quod obligat semper et pro
+            <lb ed="#V" n="28"/>semper; secundum vero contra
+            praece<lb ed="#V" n="29" break="no"/>ptum affirmativum de conservanda vita,
+            <lb ed="#V" n="30"/>quod obligat in determinatis circumstantiis
+            <lb ed="#V" n="31"/>sicut et reliqua affirmativa, non tamen
+            <lb ed="#V" n="32"/>semper et pro omnibus circumstantiis,
+            <lb ed="#V" n="33"/>ut quando occurrat damnum proprium,
+            <lb ed="#V" n="34"/>aut alterius grave. Et hac posita
+            distin<lb ed="#V" n="35" break="no"/>ctione, respondetur ad rationem adductam
+            <lb ed="#V" n="36"/>de praegnante sumente medicinam judicio
+            <lb ed="#V" n="37"/>medicorum necessariam ad vitae
+            conser<lb ed="#V" n="38" break="no"/>vationem, juxta aliquos sumere posse ex
+            <lb ed="#V" n="39"/>intentione salutis propriae, quamvis
+            videa<lb ed="#V" n="40" break="no"/>tur sequi mors infantis certo aut
+            proba<lb ed="#V" n="41" break="no"/>biliter praeter intentionem, quia non tenetur
+            <lb ed="#V" n="42"/>vitam propriam exponere pro vita infantis
+            <lb ed="#V" n="43"/>licet possit eam contemnere; sed melius
+            <lb ed="#V" n="44"/>limitandus est casus, si ex morte matris
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>certo aut probabiliter creditur mors
+            <lb ed="#V" n="46"/>infantis, tunc verum est posse eam
+            me<lb ed="#V" n="47" break="no"/>dicinam sumere, et mors infantis praeter
+            <lb ed="#V" n="48"/>intentionem ejus tunc succedit; si
+            ta<lb ed="#V" n="49" break="no"/>men speratur paritura infantem
+            vi<lb ed="#V" n="50" break="no"/>vum, tunc nequit sumere medicinam,
+            <lb ed="#V" n="51"/>quia cum damno vitae spiritualis et
+            cor<lb ed="#V" n="52" break="no"/>poralis infantis non potest salvare vitam
+            <lb ed="#V" n="53"/>propriam, et ad hoc nullum habet
+            <lb ed="#V" n="54"/>jus, imo ex pietate tenetur infanti, et
+            <lb ed="#V" n="55"/>ex justitia. Idem dicerem, si ex partu
+            <lb ed="#V" n="56"/>redundat periculum non posse etiam
+            pro<lb ed="#V" n="57" break="no"/>curare abortum cum periculo vitae
+            in<lb ed="#V" n="58" break="no"/>fantis, quia sic ex intentione mors
+            <lb ed="#V" n="59"/>infanti procuraretur. Consequentia autem
+            <lb ed="#V" n="60"/>negatur, si intelligatur de contemptu
+            <lb ed="#V" n="61"/>per illationem mortis, non de contemptu
+            <lb ed="#V" n="62"/>per solam permissionem; unde mater
+            <lb ed="#V" n="63"/>in casu, quo provideret alius infanti
+            mo<lb ed="#V" n="64" break="no"/>ribundo per remedium, quod inferret
+            <lb ed="#V" n="65"/>mortem corporalem, et salvaret vitam
+            <lb ed="#V" n="66"/>spiritualem, non tenetur resistere,
+            acce<lb ed="#V" n="67" break="no"/>leratio enim mortis tolerari ab ipsa
+            <lb ed="#V" n="68"/>potest cum lucro salutis ejus; ex quo
+            <lb ed="#V" n="69"/>patet ad secundam consequentiam, et ad
+            <lb ed="#V" n="70"/>confirmationem distinguendo inter
+            per<lb ed="#V" n="71" break="no"/>missionem et illationem mortis, ut prius
+            <lb ed="#V" n="72"/>dictum est.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Petes, quid dicendum in casu, quo
+            <lb ed="#V" n="74"/>mors infantis per accidens sequeretur ab
+            <lb ed="#V" n="75"/>extrinseco, aut ipsius baptizantis, verbi
+            <lb ed="#V" n="76"/>gratia, si Tyrannus in odium religionis
+            <lb ed="#V" n="77"/>et Sacramenti utrique, et alterutri mortem
+            <lb ed="#V" n="78"/>esset illaturus. Respondetur, si infans est
+            <lb ed="#V" n="79"/>in periculo mortis esse baptizandum, et
+            <lb ed="#V" n="80"/>ministrum etiam debere eum baptizare,
+            <lb ed="#V" n="81"/>quia periculum extrinsecum in odium
+            <lb ed="#V" n="82"/>religionis, est per accidens ex
+            perversi<lb ed="#V" n="83" break="no"/>tate inferentis, non ex natura actionis.
+            <lb ed="#V" n="84"/>Nec debet actio illa religionis necessaria
+            <lb ed="#V" n="85"/>omitti, ne cum scandalo et timore
+            hu<lb ed="#V" n="86" break="no"/>mano magis obediatur hominibus quam
+            <lb ed="#V" n="87"/>Deo; ita Suarez disp. 31. contra Sotum.
+            <pb ed="#V" n="522"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Haec quaestio magis fuse disputatur in
+            <lb ed="#V" n="2"/>tractatu de fide.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Quod deinde Doctor hic asserit de
+            du<lb ed="#V" n="4" break="no"/>bietate Baptismi ex projectione infantis in
+            <lb ed="#V" n="5"/>puteum supra tractatum est dist. 4.
+            <lb ed="#V" n="6"/>quoest. 3. Ex hoc autem loco colligit
+            <lb ed="#V" n="7"/>Scholiastes Doctorem posse etiam pro
+            <lb ed="#V" n="8"/>affirmativa parte defendi, quia illam
+            sen<lb ed="#V" n="9" break="no"/>tentiam refert tanquam alterius, nec
+            pro<lb ed="#V" n="10" break="no"/>bat, nec improbat, quod verum est, nec
+            <lb ed="#V" n="11"/>eam tenere videtur tanquam certam; sed
+            <lb ed="#V" n="12"/>apposite hic eam citat, quia dubitari
+            <lb ed="#V" n="13"/>potest cum fundamento de valore
+            Bapti<lb ed="#V" n="14" break="no"/>smi, cum ergo certum sit peccatum ex
+            <lb ed="#V" n="15"/>parte ministri, neque certus est fructus,
+            <lb ed="#V" n="16"/>aut valor Baptismi respectu infantis, sed
+            <lb ed="#V" n="17"/>omnino dubius, tollitur ex hoc motivum
+            <lb ed="#V" n="18"/>de salute certa infantis, ac proinde illius
+            <lb ed="#V" n="19"/>actionis in praxi, a qua vel ipsum
+            prae<lb ed="#V" n="20" break="no"/>ceptum divinum, non occides, absterrere
+            <lb ed="#V" n="21"/>debet, et periculum de nullitate
+            Ba<lb ed="#V" n="22" break="no"/>ptismi.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d5q3-p2"> -->
+          <p>
+            <lb ed="#V" n="32" type="fixed=523"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>(b) Quod si praesumptio illa de morte,
+            <lb ed="#V" n="34"/>etc. Haec est secunda conclusio hujus
+            quae<lb ed="#V" n="35" break="no"/>stionis. Supponit, si praesumptio sit levis,
+            <lb ed="#V" n="36"/>dandum esse Baptismum. Pro cujus
+            intelli<lb ed="#V" n="37" break="no"/>gentia advertendum, praesumptionem ex
+            <lb ed="#V" n="38"/>usu jurisperitorum et moralium esse
+            du<lb ed="#V" n="39" break="no"/>plicem; alia enim est juris, alia hominis.
+            <lb ed="#V" n="40"/>Illa etiam dividitur in praesumptionem
+            <lb ed="#V" n="41"/>juris tantum, est in praesumptionem juris,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="42"/>et de jure. Illa est, quando jus aliquid
+            <lb ed="#V" n="43"/>determinate praesupponit super re dubia,
+            <lb ed="#V" n="44"/>est verisimili; haec est quando jus non
+            <lb ed="#V" n="45"/>solum praesumit aliquid, sed disponit ita
+            <lb ed="#V" n="46"/>esse, nec contrariam habere probationem;
+            <lb ed="#V" n="47"/>Vide cap. Is qui de sponsalibus; et
+            ibi<lb ed="#V" n="48" break="no"/>dem glossam, et Panormitanum.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>Praesumptio hominis est triplex: alia
+            <lb ed="#V" n="50"/>violenta, ex qua etiam potest procedi ad
+            <lb ed="#V" n="51"/>poenam, sine alia probatione, leg. Sciant
+            <lb ed="#V" n="52"/>cuncti, Cod. de probat. Panormitanus in
+            <lb ed="#V" n="53"/>cap. Excommunicamus, de hoereticis,
+            <lb ed="#V" n="54"/>quia illa facit plenam probationem.
+            Se<lb ed="#V" n="55" break="no"/>cunda est probabilis, quae facit
+            semiple<lb ed="#V" n="56" break="no"/>nam, et aliquando plenam probationem,
+            <lb ed="#V" n="57"/>cum uno teste tantum, et si quis est
+            <lb ed="#V" n="58"/>infamatus, inducit purgationem
+            canoni<lb ed="#V" n="59" break="no"/>cam, cap. si quis de gradu, de
+            prae<lb ed="#V" n="60" break="no"/>sumptione, can. Presbyter 12. quaest.4.
+            <lb ed="#V" n="61"/>Tertia est praesumptio levis et
+            teme<lb ed="#V" n="62" break="no"/>raria, sine fundamento sufficienti; de ea
+            <lb ed="#V" n="63"/>vide S. Thomam 2. quaest. 30. cujus
+            <lb ed="#V" n="64"/>plures gradus assignat.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Hanc intelligit Doctor in praesenti levem
+            <lb ed="#V" n="66"/>et irrationabilem, qui sunt diversi gradus
+            <lb ed="#V" n="67"/>ejus, nam levis est quae generat
+            suspici<lb ed="#V" n="68" break="no"/>onem et metum ex levibus indiciis; est
+            <lb ed="#V" n="69"/>enim denominatio sumpta ex natura
+            mo<lb ed="#V" n="70" break="no"/>tivi, quod leve est et inefficax, neque
+            suf<lb ed="#V" n="71" break="no"/>ficiens ad formandum conceptum etiam
+            <lb ed="#V" n="72"/>dubium de objecto in re, sed solum in
+            <lb ed="#V" n="73"/>tenui, et non fundata apparentia.
+            Irrati<lb ed="#V" n="74" break="no"/>onabilis amplius dicit, nempe quando ex
+            <lb ed="#V" n="75"/>ejusmodi motivis non solum generatur
+            <lb ed="#V" n="76"/>dubietas et vacillatio mentis, sed etiam
+            <lb ed="#V" n="77"/>quando generatur judicium determinatum
+            <lb ed="#V" n="78"/>quasi ita esset res, quam recte Doctor
+            ir<lb ed="#V" n="79" break="no"/>rationabilem vocat, quia nulla ratione
+            sub<lb ed="#V" n="80" break="no"/>sistit, et praeter regulas judicii et
+            discre<lb ed="#V" n="81" break="no"/>tionis formatur temerarie.
+            <lb ed="#V" n="82"/>His positis facilis est probatio
+            conclu<lb ed="#V" n="83" break="no"/>sionis in re morali et a priori, quia in
+            <lb ed="#V" n="84"/>primis, si est praesumptio levis de morte
+            <lb ed="#V" n="85"/>infantis aut ejus acceleratione per
+            Bapti<pb ed="#V" n="524"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>smum collatum, non est sufficiens regula
+            <lb ed="#V" n="2"/>operandi, aut suspendendi opus, quod est
+            <lb ed="#V" n="3"/>in praecepto, verbi gratia, si scrupulosus
+            <lb ed="#V" n="4"/>non recitet officium, ad quod ex praecepto
+            <lb ed="#V" n="5"/>tenetur, ex ea suspicatione qua timet
+            dis<lb ed="#V" n="6" break="no"/>tractim, et sine attentione, aut reverentia
+            <lb ed="#V" n="7"/>debita se dicturum officium, ut debet ex
+            <lb ed="#V" n="8"/>praecepto religionis, peccat; sic etiam
+            <lb ed="#V" n="9"/>obligatus ad jejunium non excusatur ex
+            <lb ed="#V" n="10"/>levi suspicione, quam habet jejunium
+            <lb ed="#V" n="11"/>nociturum sanitati corporali. In proposito
+            <lb ed="#V" n="12"/>autem sic contingit, quia suspicio levis
+            <lb ed="#V" n="13"/>de morte puero inferenda, sicut non est
+            <lb ed="#V" n="14"/>,regula operandi proxima, sic non excusat
+            <lb ed="#V" n="15"/>omittentem praeceptum divinum et
+            natu<lb ed="#V" n="16" break="no"/>rale, qua tenetur providere saluti infantis
+            <lb ed="#V" n="17"/>moribundi in illa necessitate; suscipio
+            <lb ed="#V" n="18"/>enim illa concipitur, vel ex causis
+            mor<lb ed="#V" n="19" break="no"/>tis non subsistentibus, vel valde remotis,
+            <lb ed="#V" n="20"/>vel quae praeveniri facile possunt, vel
+            <lb ed="#V" n="21"/>inefficaces sunt ad illum effectum,
+            <lb ed="#V" n="22"/>ideoque non excusant a praecepto
+            bapti<lb ed="#V" n="23" break="no"/>zandi, quia neque applicant praeceptum
+            <lb ed="#V" n="24"/>de contrario, verbi gratia, non occides,
+            <lb ed="#V" n="25"/>eo modo et sufficientia, qua est regula
+            <lb ed="#V" n="26"/>inducens obligationem in hac materia,
+            <lb ed="#V" n="27"/>quia ad hoc requiritur judicium
+            determi<lb ed="#V" n="28" break="no"/>natum.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Quantum ad irrationabilem
+            proesum<lb ed="#V" n="30" break="no"/>ptionem, quae facit judicium
+            determina<lb ed="#V" n="31" break="no"/>tum et conscientiam erroneam, respondet
+            <lb ed="#V" n="32"/>eum esse perplexum, non ex lege divina,
+            <lb ed="#V" n="33"/>quia reipsa non concurrunt, neque hic,
+            <lb ed="#V" n="34"/>neque in alia materia, duo praecepta legis
+            <lb ed="#V" n="35"/>divinae contraria, quantum ad
+            obligati<lb ed="#V" n="36" break="no"/>onem unquam, vel in ullis circumstantiis,
+            <lb ed="#V" n="37"/>quia sic esset impossibilis eorum
+            obser<lb ed="#V" n="38" break="no"/>vantia contra Trident. sess. 6. cap. 11.
+            <lb ed="#V" n="39"/>can. 18. quia minus cedit majori, si
+            <lb ed="#V" n="40"/>sint diversarum virtutum, vel si ejusdem,
+            <lb ed="#V" n="41"/>secundum diversum ordinem, quo ipsa
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="42"/>virtus sequenda est; vel denique ex
+            sub<lb ed="#V" n="43" break="no"/>ordinatione ad invicem, sicut positivum
+            <lb ed="#V" n="44"/>subordinatur naturali; est tamen
+            per<lb ed="#V" n="45" break="no"/>plexus ex scientia vel conscientia erronea,
+            <lb ed="#V" n="46"/>ac proinde peccat, si omittat, quia non
+            ha<lb ed="#V" n="47" break="no"/>bet ignorantiam invincibilem, aut
+            impo<lb ed="#V" n="48" break="no"/>tentiam observandi praeceptum
+            baptizan<lb ed="#V" n="49" break="no"/>di. Peccat etiam si baptizat, quia tenetur
+            <lb ed="#V" n="50"/>non operari contra conscientiam, etiam
+            <lb ed="#V" n="51"/>erroneam, quia sic operando, et judicans
+            <lb ed="#V" n="52"/>determinate se facere contra praeceptum
+            <lb ed="#V" n="53"/>Dei, est contemptor praecepti, secundum
+            <lb ed="#V" n="54"/>omnes. Quid ergo agendum? Respondet
+            <lb ed="#V" n="55"/>Doctor esse deponendam, quae doctrina
+            <lb ed="#V" n="56"/>est communis, quia non ligat, nisi
+            quam<lb ed="#V" n="57" break="no"/>diu est ex suppositione credentiae, qua
+            <lb ed="#V" n="58"/>determinate putat se obligari praecepto
+            <lb ed="#V" n="59"/>divino, et ostendit modum quo deponi
+            <lb ed="#V" n="60"/>potest ex consideratione rei, quia fatuum
+            <lb ed="#V" n="61"/>est putare ex modica aqua, qua infans
+            <lb ed="#V" n="62"/>tangitur baptizando ipsum, inferri mortem
+            <lb ed="#V" n="63"/>vel etiam accelerari, quia nec ex
+            prin<lb ed="#V" n="64" break="no"/>cipiis naturae, aut ulla praxi, aut statu
+            <lb ed="#V" n="65"/>infantis id colligitur, cum et infantes
+            <lb ed="#V" n="66"/>tenerrimi etiam causa salutis aqua tepida
+            <lb ed="#V" n="67"/>abluantur.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Sed quid si talis non deponens
+            con<lb ed="#V" n="69" break="no"/>scientiam baptizet, eritne irregularis?
+            <lb ed="#V" n="70"/>Respondet non esse irregularem, sed se
+            <lb ed="#V" n="71"/>debere gerere ut irregularem, donec
+            de<lb ed="#V" n="72" break="no"/>ponat errorem. Haec principia plurimum
+            <lb ed="#V" n="73"/>advertant scrupulosi in quibusvis
+            materi<lb ed="#V" n="74" break="no"/>is, quia ipsi sibi nodos et laqueos alligant,
+            <lb ed="#V" n="75"/>quaerentes pacem conscientiae, destruunt,
+            <lb ed="#V" n="76"/>in ipsa meridiana luce quasi ad umbras
+            <lb ed="#V" n="77"/>caligant; unde si pacem quaerant,
+            obe<lb ed="#V" n="78" break="no"/>diant aliis spiritualibus et doctis, suis
+            chi<lb ed="#V" n="79" break="no"/>maeris, quas humor melancholicus
+            inge<lb ed="#V" n="80" break="no"/>nerat, non subsint, et sibi diffidentes
+            qua<lb ed="#V" n="81" break="no"/>si ad manus aliorum directorum incedant,
+            <lb ed="#V" n="82"/>donec videre incipiant.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

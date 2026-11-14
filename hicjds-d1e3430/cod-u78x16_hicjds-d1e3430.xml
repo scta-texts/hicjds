@@ -1,0 +1,2301 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 4, Pars 3, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 4, Pars 3, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="451"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3430"><!-- hicjds-b4d4p3q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum iam iustificati teneantur ad susceptionem baptismi</head>
+        <!-- <div alias="hiq-d4q6-p1"> -->
+          <p>
+            <lb ed="#V" n="46" type="fixed=451"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>(a) Circa tertium membrum, etc. Hic
+            <lb ed="#V" n="48"/>tractat per se de effectu Baptismi, et
+            obli<lb ed="#V" n="49" break="no"/>gatione in justificatis, quia in his habet
+            <lb ed="#V" n="50"/>peculiarem difficultatem, qui jam
+            recepe<lb ed="#V" n="51" break="no"/>runt gratiam, et praeventi sunt, vel per
+            <lb ed="#V" n="52"/>aliud remedium aequivalens, ut qui sunt
+            <lb ed="#V" n="53"/>justificati in lege per Circumcisionem et
+            <lb ed="#V" n="54"/>poenitentiam et fidem, vel martyrio
+            sup<lb ed="#V" n="55" break="no"/>posita promulgatione praecepti, vel in
+            ute<lb ed="#V" n="56" break="no"/>ro ex speciali privilegio, sine ordine ad
+            <lb ed="#V" n="57"/>Baptismum, aut subordinatione; de aliis
+            <lb ed="#V" n="58"/>sive peccatoribus, sive justificatis,
+            suppo<lb ed="#V" n="59" break="no"/>sita promulgatione legis, et cessantibus
+            <lb ed="#V" n="60"/>aliis remediis, non est tanta difficultas,
+            <lb ed="#V" n="61"/>quia in eis habet Sacramentum in re vel
+            <lb ed="#V" n="62"/>voto, necessitatem medii et praecepti, de
+            <lb ed="#V" n="63"/>quibus hactenus Doctor, ut de infantibus
+            <lb ed="#V" n="64"/>et adultis tam fictis quam non fictis; et
+            <lb ed="#V" n="65"/>quid in eis requiratur, et quem effectum
+            <lb ed="#V" n="66"/>recipiant Sacramenti, quod tangit etiam
+            <lb ed="#V" n="67"/>in sequenti quaestione; ii etiam qui in
+            <lb ed="#V" n="68"/>voto Sacramenti cum contritione
+            justifi<lb ed="#V" n="69" break="no"/>cantur, ut sunt Catechumeni adulti,
+            cla<lb ed="#V" n="70" break="no"/>rum est obligari illos ad Sacramentum in
+            <lb ed="#V" n="71"/>ordine, ad quod realiter suscipiendum
+            <lb ed="#V" n="72"/>justificantur, quamvis et hos etiam
+            com<lb ed="#V" n="73" break="no"/>prehendit ratio tertia ad oppositum,
+            pri<lb ed="#V" n="74" break="no"/>ma autem, secunda et quarta
+            comprehen<lb ed="#V" n="75" break="no"/>dit justificatos primo modo, sine ordine
+            <lb ed="#V" n="76"/>ad Sacramentum.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d4q6-p2"> -->
+          <p>
+            <lb ed="#V" n="71" type="fixed=452"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>(b) Respondeo dicendum, quod post
+            <lb ed="#V" n="73"/>Baptismum promulgatum, etc. Conclusio:
+            <lb ed="#V" n="74"/>est communis omnium in hac
+            distincti<lb ed="#V" n="75" break="no"/>one, et 3. part. quaest. 68. art. 1. estque
+            <lb ed="#V" n="76"/>de fide; patet Joannis 3. Nisi quis renatus
+            <lb ed="#V" n="77"/>fuerit, etc. et ex aliis locis supra citatis
+            <lb ed="#V" n="78"/>de necessitate et efficacia Baptismi.
+            De<lb ed="#V" n="79" break="no"/>finitur in Tridentino sess. 7. de Baptismo
+            <lb ed="#V" n="80"/>can. 5. Si quis dixerit Baptismum
+            libe<lb ed="#V" n="81" break="no"/>rum esse, hoc est, non necessarium ad
+            <lb ed="#V" n="82"/>salutem, anathema sit; qui canon etiam
+            <lb ed="#V" n="83"/>referri potest de lege ordinaria. Item sess. 6
+            <lb ed="#V" n="84"/>cap. 4. In Florentino decreto unionis,
+            <lb ed="#V" n="85"/>cap. Majores, de Baptismo, et locis aliis
+            <pb ed="#V" n="453"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>jam citatis, speciatim ubi declaratur
+            tem<lb ed="#V" n="2" break="no"/>pus, quo haec obligatio incepit, et de
+            ces<lb ed="#V" n="3" break="no"/>satione legalium.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Eamdem probat Doctor argumento
+            mo<lb ed="#V" n="5" break="no"/>rali, primo, quia lex universaliter
+            pro<lb ed="#V" n="6" break="no"/>mulgata omnes obligat, etc. intelligit
+            <lb ed="#V" n="7"/>universaliter distributive, seu collective,
+            <lb ed="#V" n="8"/>in materia, quae omnes et singulos
+            capa<lb ed="#V" n="9" break="no"/>ces doli comprehendit; et prout ipse
+            de<lb ed="#V" n="10" break="no"/>clarat, ut excludit legem, in cujus
+            pre<lb ed="#V" n="11" break="no"/>mulgatione est acceptio personae, sicut in
+            <lb ed="#V" n="12"/>legibus Imperatoris intelligitur non
+            com<lb ed="#V" n="13" break="no"/>prehendi Augusta; neque lege Assueri
+            <lb ed="#V" n="14"/>comprehendebatur Esther regina, ob
+            ac<lb ed="#V" n="15" break="no"/>ceptationem personae, quae eximitur a
+            <lb ed="#V" n="16"/>lege onerosa et indicente poenam,
+            quam<lb ed="#V" n="17" break="no"/>vis verbis legis non excipiatur expresse,
+            <lb ed="#V" n="18"/>sic etiam leges continentes censuram
+            Ec<lb ed="#V" n="19" break="no"/>clesiasticam, non includunt Reges,
+            quan<lb ed="#V" n="20" break="no"/>tumlibet exprimuntur clausula universali,
+            <lb ed="#V" n="21"/>nisi fiat eorum expressa mentio, nempe
+            <lb ed="#V" n="22"/>ob acceptationem illarum personarum,
+            <lb ed="#V" n="23"/>quia aequitas fundata in qualitate et
+            digni<lb ed="#V" n="24" break="no"/>tate personae, non permittit legem aut
+            <lb ed="#V" n="25"/>voluntatem legislatoris ad eam extendi;
+            <lb ed="#V" n="26"/>vel etiam exceptio personae, id est, vel
+            <lb ed="#V" n="27"/>per ipsam legem, vel per particulare
+            <lb ed="#V" n="28"/>privilegium, cui lex non derogat; vel
+            <lb ed="#V" n="29"/>circumscriptio circumstantiae, scilicet
+            <lb ed="#V" n="30"/>temporis, loci vel aliorum, quae limitant
+            <lb ed="#V" n="31"/>legem et materiam ejus, ut non sit pro
+            <lb ed="#V" n="32"/>omni tempore, personis, loco, etc.
+            obli<lb ed="#V" n="33" break="no"/>gans; praeceptum autem de Baptismo
+            <lb ed="#V" n="34"/>fuit universale hoc modo, ut patet
+            Joan<lb ed="#V" n="35" break="no"/>nis 3. Nisi quis renatus, etc. et Matthaei
+            <lb ed="#V" n="36"/>ultimo: Docete omnes gentes,
+            baptizan<lb ed="#V" n="37" break="no"/>tes, etc. neque ad locum, aut tempus
+            li<lb ed="#V" n="38" break="no"/>mitatur, neque ad personas; ergo.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Probat etiam ex congruitate desumpta
+            <lb ed="#V" n="40"/>a Baptismo, qua est signum distinctivum
+            <lb ed="#V" n="41"/>legis et professionis, et ingressus in
+            Evan<lb ed="#V" n="42" break="no"/>.gelicam legem, a qua nemo excipitur post
+            <lb ed="#V" n="43"/>ejus promulgationem; ergo usus ejus
+            de<lb ed="#V" n="44" break="no"/>bet esse communis, sicut et lex et fides,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>cujus est Sacramentum. Secundo probat,
+            <lb ed="#V" n="46"/>quia viator debet esse membrum Ecclesiae
+            <lb ed="#V" n="47"/>visibilis et militantis, et esse capax
+            com<lb ed="#V" n="48" break="no"/>munionis visibilis cum aliis, quoad actus
+            <lb ed="#V" n="49"/>qui ad hanc communionem spectant,
+            <lb ed="#V" n="50"/>idque judicio Ecclesiae, quae non judicat
+            <lb ed="#V" n="51"/>de occultis, sed visibilibus et externis,
+            <lb ed="#V" n="52"/>cui reservatur judicium discernendi
+            mem<lb ed="#V" n="53" break="no"/>brum a non membro, et cui reservatur
+            <lb ed="#V" n="54"/>ministerium illorum actuum, in quibus
+            <lb ed="#V" n="55"/>communicant membra, ut Sacramenta et
+            <lb ed="#V" n="56"/>sacrificium, ad quae non admittitur non
+            <lb ed="#V" n="57"/>baptizatus, quia non est capax; et patet
+            <lb ed="#V" n="58"/>de Catechumenis, qui non tantum a
+            Sa<lb ed="#V" n="59" break="no"/>cramentis, sed etiam a multis aliis
+            acti<lb ed="#V" n="60" break="no"/>bus excludebantur; patet etiam ratione
+            <lb ed="#V" n="61"/>scandali activi in eo, qui non
+            commu<lb ed="#V" n="62" break="no"/>nicaret in his actibus cum aliis, ergo
+            <lb ed="#V" n="63"/>congruum fuit legem Baptismi omnes
+            <lb ed="#V" n="64"/>comprehendere. Tertia ratio est, quia
+            <lb ed="#V" n="65"/>alioquin praesumeretur contemptus, non ce
+            <lb ed="#V" n="66"/>solum Baptismi, sed etiam gratiae
+            ba<lb ed="#V" n="67" break="no"/>ptismalis.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d4q6-p3"> -->
+          <p>
+            <lb ed="#V" n="83" type="fixed=454"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>(c) Ad primum argumentum, etc. Dicit
+            <lb ed="#V" n="85"/>quod probabile est Apostolos fuisse
+            bapti<lb ed="#V" n="86" break="no"/>zatos, quia fuerunt ordinati Sacerdotes in
+            <pb ed="#V" n="455"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ultima Coena, receperunt claves
+            absol<lb ed="#V" n="2" break="no"/>vendi, Joan. 20. praeceptum docendi et
+            <lb ed="#V" n="3"/>baptizandi, Matthoei ultimo, etc. Haec,
+            <lb ed="#V" n="4"/>omnia ordine suo, et secundum legem
+            <lb ed="#V" n="5"/>supponunt Baptismum, et etiam de
+            con<lb ed="#V" n="6" break="no"/>gruo ante ejus obligationem. Unde
+            quan<lb ed="#V" n="7" break="no"/>do Doctor ordinem supponere dicit
+            Ba<lb ed="#V" n="8" break="no"/>ptismum, saltem de congruo, non alludit
+            <lb ed="#V" n="9"/>ad opinionem, quae in eo c. Veniens, etc.
+            <lb ed="#V" n="10"/>dicitur quorumdam fuisse, qui putarunt
+            <lb ed="#V" n="11"/>non baptizatum, modo habeat fidem,
+            va<lb ed="#V" n="12" break="no"/>lide ordinari, quia habet Christum, qui
+            <lb ed="#V" n="13"/>est primarium fundamentum; sed
+            loqui<lb ed="#V" n="14" break="no"/>tur juxta praesentem casum de Apostolis,
+            <lb ed="#V" n="15"/>in quibus est dubium si fuerint
+            bapti<lb ed="#V" n="16" break="no"/>zati, quamvis certum sit eos fuisse
+            ordi<lb ed="#V" n="17" break="no"/>natos.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Non videtur ergo ratio ulla
+            dispen<lb ed="#V" n="19" break="no"/>sationis subesse, quae neque in
+            dignita<lb ed="#V" n="20" break="no"/>tem, neque in fructum cederet, neque in
+            <lb ed="#V" n="21"/>majorem efficaciam doctrinae; qui ergo
+            <lb ed="#V" n="22"/>docebant alios baptizandos ex lege,
+            con<lb ed="#V" n="23" break="no"/>gruebat ipsos esse baptizatos, sicut
+            Chri<lb ed="#V" n="24" break="no"/>stus, coepit facere et docere, Act. 1. et
+            <lb ed="#V" n="25"/>ipse voluit a Joanne baptizari, antequam
+            <lb ed="#V" n="26"/>legem Baptismi aliis imponeret. Idem
+            do<lb ed="#V" n="27" break="no"/>cet de Beata Virgine, nisi forte, inquit,
+            <lb ed="#V" n="28"/>fuerit a lege exempta, in qua occurrit
+            <lb ed="#V" n="29"/>ratio specialis privilegii, quia forte in
+            <lb ed="#V" n="30"/>conceptione Filii sui, habuit
+            plenitudi<lb ed="#V" n="31" break="no"/>nem gratice, ad quam illam Deus voluit
+            <lb ed="#V" n="32"/>pervenire, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Quantum ad assertionem de Baptismo
+            <lb ed="#V" n="34"/>Apostolorum et Virginis, eam tenent non
+            <lb ed="#V" n="35"/>solum Doctor hic, sed etiam in
+            Reporta<lb ed="#V" n="36" break="no"/>tis quoest. 8. Biansonis quoest. 4.
+            Vori<lb ed="#V" n="37" break="no"/>len 1. p. dist. 4. a. 3. Bassolis, Rubion
+            <lb ed="#V" n="38"/>eadem dist. q. 9. Mayronis quaest. 3.
+            <lb ed="#V" n="39"/>Antonius Andreas quaest. 6. et reliqui
+            <lb ed="#V" n="40"/>nostrae scholae Doctores. Baconius dist 6
+            <lb ed="#V" n="41"/>quaest. 2. Ariminensis dist. 2. dub. 2.
+            <lb ed="#V" n="42"/>Paludanus dist. 6. quast. 1. art. 2.
+            So<lb ed="#V" n="43" break="no"/>tus dist. 5. quaest. unica, art. 2. Suarez
+            <lb ed="#V" n="44"/>2. tom. in 3. p. dist. 18. sect. 3. Vasq.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>disp. 119. c. 7. Bellarm. lib. 1. de
+            Bapti<lb ed="#V" n="46" break="no"/>smo, c. 23. et lib. 1. de Summo Pontifice,
+            <lb ed="#V" n="47"/>cap. 23. Salazar de Conceptione Virginis,
+            <lb ed="#V" n="48"/>c. 24. Valentia tom. 4. disp. 4. queest. 3.
+            <lb ed="#V" n="49"/>puncto 4. Henriquez lib. 2. de Baptismo,
+            <lb ed="#V" n="50"/>cap. 5. 8 2. Canisius lib. 1. de Beata
+            <lb ed="#V" n="51"/>Virgine, c. 9. Turrecremata c. Quando,
+            <lb ed="#V" n="52"/>de consecrat. dist. 4. Vega lib. 3. de
+            <lb ed="#V" n="53"/>justificat. cap. 12. et alii.
+            <lb ed="#V" n="54"/>Caeterum neque Baptismus Apostolorum
+            <lb ed="#V" n="55"/>est certus, sed sub opinione illud
+            asse<lb ed="#V" n="56" break="no"/>ruit D. Augustinus epist. 118. minus
+            au<lb ed="#V" n="57" break="no"/>tem certus est Baptismus Virginis; de
+            <lb ed="#V" n="58"/>utroque praeter documenta et
+            congruen<lb ed="#V" n="59" break="no"/>tias, quas adducit Doctor in praemissis,
+            <lb ed="#V" n="60"/>nihil certius habetur, quam auctoritas
+            <lb ed="#V" n="61"/>cujusdam traditionis, quam ita narrat
+            Eu<lb ed="#V" n="62" break="no"/>thymius in cap. 3. Joannis: Scribunt
+            <lb ed="#V" n="63"/>quidam, inquit, Apostolorum temporibus
+            <lb ed="#V" n="64"/>proximi, quod Christus Petrum et
+            Virgi<lb ed="#V" n="65" break="no"/>nem Mariam baptizavit, Petrus vero
+            re<lb ed="#V" n="66" break="no"/>liquos Apostolos, etc. Hanc traditionem
+            <lb ed="#V" n="67"/>Nicephorus Callixtus lib. 2. historiae,
+            <lb ed="#V" n="68"/>cap. 3. aliter proponit: Divinus, inquit,
+            <lb ed="#V" n="69"/>Evodius, et ipse Apostolorum successor
+            <lb ed="#V" n="70"/>fuit, in Commentariis suis, proecipue
+            au<lb ed="#V" n="71" break="no"/>tem in epistola quam lumen inscripsit
+            <lb ed="#V" n="72"/>(Graece 90s), hoec quoque posuit;
+            Chri<lb ed="#V" n="73" break="no"/>stus, inquiens, manibus ipse suis Petrum,
+            <lb ed="#V" n="74"/>tantummodo baptizavit, Petrus porro
+            An<lb ed="#V" n="75" break="no"/>dream et filios Zebedaei; ii deinceps
+            reti<lb ed="#V" n="76" break="no"/>quos Apostolos; septuaginta autem illos
+            <lb ed="#V" n="77"/>Petrus et Joannes Theologus
+            baptisa<lb ed="#V" n="78" break="no"/>runt, etc. Solus Euthymius ex omnibusi
+            <lb ed="#V" n="79"/>antiquis mentionem facit Baptismi
+            Virgi<lb ed="#V" n="80" break="no"/>nis, et variat in narratione, quia dicit
+            <lb ed="#V" n="81"/>Christum baptizasse Virginem, quod non
+            <lb ed="#V" n="82"/>asserit alter; item Petrum reliquos
+            Apo<lb ed="#V" n="83" break="no"/>stolos baptizasse, quod negat alter,
+            prae<lb ed="#V" n="84" break="no"/>ter Andream et filios Zebedaei, hi autem
+            <lb ed="#V" n="85"/>reliquos. Et quamquam posterior fuerit
+            <lb ed="#V" n="86"/>Nicephorus ducentis annis, tamen verba
+            <lb ed="#V" n="87"/>ipsa Evodii transcribit, cui adstipulatur
+            <lb ed="#V" n="88"/>Clemens Stromat. lib. 5. exponens illud
+            <pb ed="#V" n="456"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Apostoli 1. ad Corinthios c. 3. Gratias
+            <lb ed="#V" n="2"/>ago, etc. quia neminem vestrum
+            baptiza<lb ed="#V" n="3" break="no"/>vi, etc. Christus, inquit, dicitur Petrum
+            <lb ed="#V" n="4"/>solum baptizasse, Petrus Andream,
+            Jaco<lb ed="#V" n="5" break="no"/>bum et Joannem, illi reliquos, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Et quamvis aliqui respondent
+            exclusi<lb ed="#V" n="7" break="no"/>vam intelligendam esse, ut cum dicitur
+            <lb ed="#V" n="8"/>solus Petrus baptizatus a Christo,
+            respe<lb ed="#V" n="9" break="no"/>ctive ad Apostolos, non ad matrem dici;
+            <lb ed="#V" n="10"/>responsio non quadrat verbis Evodii,
+            <lb ed="#V" n="11"/>quem citat Nicephorus, neque intento
+            <lb ed="#V" n="12"/>Clementis, qui verba Apostoli ad
+            exem<lb ed="#V" n="13" break="no"/>plum Christi refert, et praeterit Baptismum
+            <lb ed="#V" n="14"/>Virginis loco opportuno, qui perinde
+            face<lb ed="#V" n="15" break="no"/>ret ad propositum sicut Baptismus Petri;
+            <lb ed="#V" n="16"/>non erat ergo locus exclusioni, nisi ut
+            <lb ed="#V" n="17"/>tollatur frequentatio, ut pluralitas actus.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Accedit, quod haec traditio non fuerit
+            <lb ed="#V" n="19"/>recepta a Patribus; in primis
+            Augusti<lb ed="#V" n="20" break="no"/>nus epist. 118. dicit esse scriptum,
+            quan<lb ed="#V" n="21" break="no"/>do baptizatus est Paulus, non autem
+            in<lb ed="#V" n="22" break="no"/>veniri scriptum, quando baptizati sint
+            <lb ed="#V" n="23"/>Apostoli, quamvis credibile putat
+            bapti<lb ed="#V" n="24" break="no"/>zatos fuisse, vel Baptismo Joannis, sicut
+            <lb ed="#V" n="25"/>nonnulli asserunt, sive quod magis
+            cre<lb ed="#V" n="26" break="no"/>dibile est Baptismo Christi; et hoc ipsum
+            <lb ed="#V" n="27"/>colligit ex documentis aliis eorum, quae
+            <lb ed="#V" n="28"/>facta sunt, et secundum congruentiam,
+            <lb ed="#V" n="29"/>et non ex traditione ulla.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Eam non admittunt quotquot negant
+            <lb ed="#V" n="31"/>Baptismo Christi usos fuisse Apostolos,
+            <lb ed="#V" n="32"/>aut illum esse institutum antequam data
+            <lb ed="#V" n="33"/>est forma baptizandi, Matthoei ultimo;
+            <lb ed="#V" n="34"/>quae sententia probabilis est, ut supra
+            <lb ed="#V" n="35"/>ostendimus de tempore hujus
+            instituti<lb ed="#V" n="36" break="no"/>onis. Forte etiam enervat illam
+            tradi<lb ed="#V" n="37" break="no"/>tionem, quod Petrus tum non habuit
+            <lb ed="#V" n="38"/>praerogativam inter Apostolos, quando
+            <lb ed="#V" n="39"/>fuerunt baptizati, qua reliquis praeferretur,
+            <lb ed="#V" n="40"/>quia nondum fuerant promissae ei claves;
+            <lb ed="#V" n="41"/>baptizati autem debuit sub initio
+            praedica<lb ed="#V" n="42" break="no"/>tionis Christi, quando institutus est
+            Ba<lb ed="#V" n="43" break="no"/>ptismus, et data auctoritas baptizandi
+            di<lb ed="#V" n="44" break="no"/>scipulis; et hoc indicat congruentia de
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Baptismo eorum, quae adducitur ab
+            Au<lb ed="#V" n="46" break="no"/>gustino supra: Neque enim ministerio
+            <lb ed="#V" n="47"/>baptizandi defuit, ut haberet baptizatos
+            <lb ed="#V" n="48"/>servos, per quos caeteros baptizaret, etc.
+            <lb ed="#V" n="49"/>Haec etiam conjectura Augustini non
+            <lb ed="#V" n="50"/>convincit, quia auctoritas baptizandi
+            eti<lb ed="#V" n="51" break="no"/>am de facto penes non baptizatos est, ut
+            <lb ed="#V" n="52"/>valide baptizarent, cujus forte exemplum
+            <lb ed="#V" n="53"/>praecessit in Apostolis; et Joannes
+            Bapti<lb ed="#V" n="54" break="no"/>sta non baptizatus Baptismo poenitentiae,
+            <lb ed="#V" n="55"/>baptizabat ex commissione suae missionis,
+            <lb ed="#V" n="56"/>tunc autem Apostoli non habuerunt
+            ali<lb ed="#V" n="57" break="no"/>am quam delegatam.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Accedit quod Baptismus Apostolorum
+            <lb ed="#V" n="59"/>fuerit reservatus, ex sententia
+            Chrysosto<lb ed="#V" n="60" break="no"/>mi, in diem Pentecostes, ut eminentiori a
+            <lb ed="#V" n="61"/>modo baptizarentur in Spiritu sancto, et.
+            <lb ed="#V" n="62"/>igni; vel, ut dicit Tertullianus, fuerit
+            <lb ed="#V" n="63"/>aequivalenter suppletum per vocationem
+            <lb ed="#V" n="64"/>et familiaritatem Christi, lib. de Baptismo
+            <lb ed="#V" n="65"/>cap. 11. Illis, inquit, primae adlectionis
+            <lb ed="#V" n="66"/>et individuae familiaritatis proerogativa
+            <lb ed="#V" n="67"/>compendium Baptismi conferre
+            pos<lb ed="#V" n="68" break="no"/>set, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Accedit non majorem fuisse rationem,
+            <lb ed="#V" n="70"/>ut Apostolis reservaretur Confirmatio in
+            <lb ed="#V" n="71"/>diem Pentecostes, quam missione visibili
+            <lb ed="#V" n="72"/>Spiritu sancti receperunt, non per
+            Uncti<lb ed="#V" n="73" break="no"/>onem, aut manus impositionem, sicut
+            cae<lb ed="#V" n="74" break="no"/>teri fideles, quam quod Baptismus
+            simili<lb ed="#V" n="75" break="no"/>ter ex praerogativa sic daretur
+            eminenti<lb ed="#V" n="76" break="no"/>or, quam si fieret in aqua, quia ipsi
+            tan<lb ed="#V" n="77" break="no"/>quam capita Ecclesiae, et principes
+            tene<lb ed="#V" n="78" break="no"/>bantur ad Sacramentum Confirmationis
+            <lb ed="#V" n="79"/>ratione exempli et scandali, et cujusque
+            <lb ed="#V" n="80"/>alterius congruentiae, quae pro Baptismo
+            <lb ed="#V" n="81"/>ipsorum in aqua adduci potest. Illam vero
+            <lb ed="#V" n="82"/>missionem visibilem Spiritus sancti in eos
+            <lb ed="#V" n="83"/>loco Confirmationis fuisse, plures docent;
+            <lb ed="#V" n="84"/>tenet Alensis 3. part. quaest. 9. m. 1.
+            <lb ed="#V" n="85"/>D. Thomas in 4. dist. 2. quoest. 2. art. 4.
+            <lb ed="#V" n="86"/>ad 3. et 3. part. quaest. 72. art. 1. noster
+            <lb ed="#V" n="87"/>Doctor in 4. dist. 7. quaest. 1.
+            responsi<lb ed="#V" n="88" break="no"/>one ad primam objectionem. Ex quibus
+            eli<pb ed="#V" n="457"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ditur congruentia, quae secundum legem
+            <lb ed="#V" n="2"/>ordinariam sumitur, non autem in casu
+            <lb ed="#V" n="3"/>privilegii.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Argumentum etiam ex necessitate
+            Ba<lb ed="#V" n="5" break="no"/>ptismi, sive ut medium est, sive ut
+            prae<lb ed="#V" n="6" break="no"/>ceptum, non urget, quia, ut supra visum,
+            <lb ed="#V" n="7"/>illam non est sortitus usque ad
+            promulga<lb ed="#V" n="8" break="no"/>tionem Evangelii, antea fuit sub consilio,
+            <lb ed="#V" n="9"/>non praecepto, et alia remedia fuerunt
+            <lb ed="#V" n="10"/>fructuosa. Neque etiam Glossa super illud:
+            <lb ed="#V" n="11"/>Qui lotus est non indiget, etc. similiter
+            <lb ed="#V" n="12"/>convincit; ex illo enim loco adducit
+            Augu<lb ed="#V" n="13" break="no"/>stinus loco citato, argumentum quo
+            pro<lb ed="#V" n="14" break="no"/>bet ipsos fuisse baptizatos, atque adeo
+            <lb ed="#V" n="15"/>intelligi lotionem baptismalem, et serm.
+            <lb ed="#V" n="16"/>de Coena Domini tract. 56. in Joannem.
+            <lb ed="#V" n="17"/>Ambrosius lib. 3. de Sacramentis, cap. 1.
+            <lb ed="#V" n="18"/>Tertullianus lib. de Baptismo, cap. 11.
+            <lb ed="#V" n="19"/>quamvis concipiat Baptismum Joannis,
+            <lb ed="#V" n="20"/>Gregorius lib. 9. Reg. cap. 99. Pacianus
+            <lb ed="#V" n="21"/>epistola 1. Contra Palagianos, Cyprianus
+            <lb ed="#V" n="22"/>serm. de Coena Domini, D. Thomas 3.
+            <lb ed="#V" n="23"/>part. quaest. 38. art. 8. ad 3. et nonnulli
+            <lb ed="#V" n="24"/>alii.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Haec, inquam, lotio intelligi potest de
+            <lb ed="#V" n="26"/>lotione per Baptismum Joannis et
+            poeni<lb ed="#V" n="27" break="no"/>tentiae, ut intelligit Tertullianus, et
+            insi<lb ed="#V" n="28" break="no"/>nuat ipse Augustinus a nonnullis sic
+            <lb ed="#V" n="29"/>intelligi probabiliter in epist. 118. Non
+            <lb ed="#V" n="30"/>intelligi de baptismali, docent omnes
+            <lb ed="#V" n="31"/>Patres Graeci in eumdem locum, sed de
+            <lb ed="#V" n="32"/>lotione spirituali a peccato, et
+            metapho<lb ed="#V" n="33" break="no"/>rica, ut Chrysostomus, Cyrillus, Leontius,
+            <lb ed="#V" n="34"/>Theodorus Mopsuestensis, et alius
+            Hera<lb ed="#V" n="35" break="no"/>cleota, Theophylactus, Euthymius;
+            qui<lb ed="#V" n="36" break="no"/>bus favent verba sequentia: Dicit ei
+            <lb ed="#V" n="37"/>Jesus, qui lotus est, non indiget nisi ut
+            <lb ed="#V" n="38"/>pedes lavet, sed est mundus totus, et vos
+            <lb ed="#V" n="39"/>mundi estis, sed non omnes, sciebat enim
+            <lb ed="#V" n="40"/>quinam esset qui traderet eum; propterea
+            <lb ed="#V" n="41"/>dixit, non estis mundi omnes, etc. haec
+            <lb ed="#V" n="42"/>exceptio propter proditorem non
+            quadra<lb ed="#V" n="43" break="no"/>ret, si locus de baptismali lotione
+            intelli<lb ed="#V" n="44" break="no"/>geretur, quia etiam Judas baptizatus est.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Interpretatio ergo prior non est litteralis,
+            <lb ed="#V" n="46"/>sed symbolica.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Neque contemptus legis, Sacramenti,
+            <lb ed="#V" n="48"/>aut gratiae baptismalis in eo casu, et ex
+            <lb ed="#V" n="49"/>privilegio notorio praesumi potuit, aut
+            <lb ed="#V" n="50"/>trahi in exemplum, reclamante lege
+            <lb ed="#V" n="51"/>Joannis 3. Matthoei ultimo, quae ipsius
+            <lb ed="#V" n="52"/>legis promulgatione, Apostolorum
+            do<lb ed="#V" n="53" break="no"/>ctrina, exemplo credentium, et fructu
+            <lb ed="#V" n="54"/>Baptismi evacuantur; ideoque recte
+            <lb ed="#V" n="55"/>S. Thomas in 4. dist. 2. art. 4. ad 3.
+            <lb ed="#V" n="56"/>asserit: Credi quidem Apostolos
+            bapti<lb ed="#V" n="57" break="no"/>zatos esse Baptismo, quamvis scriptum
+            <lb ed="#V" n="58"/>non reperiatur, si tamen Christus, qui
+            <lb ed="#V" n="59"/>habuit potestatem remittendi peccata, eos
+            <lb ed="#V" n="60"/>sine Baptismo, ex privilegio quodam
+            <lb ed="#V" n="61"/>sanctificare voluisset, et qui virtutem
+            <lb ed="#V" n="62"/>suam Sacramentis non alligavit, non
+            <lb ed="#V" n="63"/>esset ad consequentiam trahendum, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Neque aliud insuper obstat ex eo
+            <lb ed="#V" n="65"/>quod per Baptismum quis sit capax
+            Sa<lb ed="#V" n="66" break="no"/>cramentorum, et membrum Ecclesiae
+            visi<lb ed="#V" n="67" break="no"/>bilis, et professor fidei ac legis
+            Evange<lb ed="#V" n="68" break="no"/>licae; haec enim de lege Baptismo
+            <lb ed="#V" n="69"/>conveniunt (et supposita sententia
+            Chry<lb ed="#V" n="70" break="no"/>sostomi, Leonis Papae, Tertulliani et
+            <lb ed="#V" n="71"/>aliorum, quos supra citavimus,
+            asseren<lb ed="#V" n="72" break="no"/>tium Baptismum Christi non habuisse
+            <lb ed="#V" n="73"/>efficaciam ante resurrectionem et mortem,
+            <lb ed="#V" n="74"/>neque institutionem, donec data est
+            <lb ed="#V" n="75"/>forma baptizandi Matthoei ultimo),
+            Apo<lb ed="#V" n="76" break="no"/>stoli fuerunt membra Ecclesiae ante illud
+            <lb ed="#V" n="77"/>tempus, ipsa electione et vocatione
+            fue<lb ed="#V" n="78" break="no"/>runt instituti Sacerdotes, receperunt
+            <lb ed="#V" n="79"/>claves, Petrus institutus est Vicarius
+            <lb ed="#V" n="80"/>Christi, minister et dispensator Ecclesiae
+            <lb ed="#V" n="81"/>ac mysteriorum Dei; si ergo ministri,
+            <lb ed="#V" n="82"/>dispensatores, principes, et
+            fundamen<lb ed="#V" n="83" break="no"/>tum etiam erant membra, et non hospites
+            <lb ed="#V" n="84"/>et advenae, sed cives et domestici, ac
+            <lb ed="#V" n="85"/>proinde Augustinus serm. 135. de
+            Tem<lb ed="#V" n="86" break="no"/>pore: Ecclesia tunc in una domo erat,
+            <lb ed="#V" n="87"/>accepit Spiritum sanctum, in hominibus
+            <pb ed="#V" n="458"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>paucis erat, in linguis totius orbis
+            <lb ed="#V" n="2"/>erat, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Ex his patet recte Doctorem sub
+            opi<lb ed="#V" n="4" break="no"/>nione cum Augustino constituisse
+            Bapti<lb ed="#V" n="5" break="no"/>smum Apostolorum; Baptismum autem
+            <lb ed="#V" n="6"/>Virginis cum majori incertitudine
+            asse<lb ed="#V" n="7" break="no"/>ruit primus inter Scholasticos, quem
+            <lb ed="#V" n="8"/>alii deinceps secuti sunt, quia neque
+            <lb ed="#V" n="9"/>Augustinus, neque alii Patres quidquam
+            <lb ed="#V" n="10"/>dixerunt, praetet Euthymium, quia
+            me<lb ed="#V" n="11" break="no"/>moria lapsus videtur, quia neque verbis
+            <lb ed="#V" n="12"/>Evodii citatis a Nicephoro, neque
+            Cle<lb ed="#V" n="13" break="no"/>menti Alexandrino multis saeculis
+            ante<lb ed="#V" n="14" break="no"/>riori cohaeret, et plures rationes
+            suppe<lb ed="#V" n="15" break="no"/>tunt eximendi Virginem, quam Apostolos,
+            <lb ed="#V" n="16"/>quae electionis praerogativa et gratiae,
+            <lb ed="#V" n="17"/>totius electae creaturae culmen superavit,
+            <lb ed="#V" n="18"/>et a peccato fuit praeservata; sic etiam
+            <lb ed="#V" n="19"/>congruum fuit, ut remedio per se
+            ordi<lb ed="#V" n="20" break="no"/>nato ad remissionem peccati, ejusque
+            <lb ed="#V" n="21"/>praecepto eximeretur (quamvis etiam sine
+            <lb ed="#V" n="22"/>praejudicio suae puritatis baptizari potuit,
+            <lb ed="#V" n="23"/>ut infra, responsione ad ultimum,
+            dice<lb ed="#V" n="24" break="no"/>tur), quam congruentiam insinuat
+            Augusti<lb ed="#V" n="25" break="no"/>nus tract. 5. in Joannem, cur Christus solo
+            <lb ed="#V" n="26"/>Baptismo Joannis fuit baptizatus? quia
+            <lb ed="#V" n="27"/>neque hoc ipso indiguit.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Rationem autem hujus exemptionis
+            <lb ed="#V" n="29"/>Virginis a Baptismo subdit Doctor: Quia,
+            <lb ed="#V" n="30"/>inquit, habuit in conceptione filii sui
+            <lb ed="#V" n="31"/>illam plenitudinem gratiae, ad quam
+            <lb ed="#V" n="32"/>Deus disposuit illam pervenire, etc. Hanc
+            <lb ed="#V" n="33"/>sententiam, quam sub dubio proponit
+            <lb ed="#V" n="34"/>Doctor, tenuit Alensis 3. parte queest. 9.
+            <lb ed="#V" n="35"/>m. 3. art. 2. 8 2. tam in argumento in
+            <lb ed="#V" n="36"/>oppositum quam in corpore, ubi dicit
+            re<lb ed="#V" n="37" break="no"/>cepisse plenitudinem gratiae in
+            Concepti<lb ed="#V" n="38" break="no"/>e one Filii, eamque fuisse in statu perfectae
+            <lb ed="#V" n="39"/>gratiae, ut intelligit gratiae in termino.
+            <lb ed="#V" n="40"/>Unde in responsione ad primum dicit:
+            <lb ed="#V" n="41"/>Non posse peccare, inquit, non solum
+            <lb ed="#V" n="42"/>pertinet ad statum gloriae, sed etiam ad
+            <lb ed="#V" n="43"/>statum perfectae gratice, sicut est in
+            san<lb ed="#V" n="44" break="no"/>cto homine perseverante finaliter, qui
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>moritur cum perseverantia in bono, non
+            <lb ed="#V" n="46"/>habet potentiam peccandi, scilicet in
+            ulti<lb ed="#V" n="47" break="no"/>mo instanti, non tamen est in statu
+            glo<lb ed="#V" n="48" break="no"/>rice, sed est in statu plenae gratiae, quia
+            <lb ed="#V" n="49"/>perseverantia est finalis status plence
+            <lb ed="#V" n="50"/>gratice; cum ergo Beata Virgo post
+            <lb ed="#V" n="51"/>sanctificationem secundam ( id est, in
+            <lb ed="#V" n="52"/>Conceptione Filii) esset in statu plenae
+            <lb ed="#V" n="53"/>gratiae, unde dixit Angelus: Ave gratia
+            <lb ed="#V" n="54"/>plena, patet quod non habuit potentiam
+            <lb ed="#V" n="55"/>ad peccandum.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Ex quibus patet intelligere statum
+            ple<lb ed="#V" n="57" break="no"/>nae gratiae, illum, qui est in termino suae
+            <lb ed="#V" n="58"/>intensionis, quod dixerim propter aliquos,
+            <lb ed="#V" n="59"/>qui eum aliter interpretantur. Loquitur
+            <lb ed="#V" n="60"/>etiam de gratia habituali, ut patet, quia
+            <lb ed="#V" n="61"/>dicit minimam gratiam sufficere ad
+            delen<lb ed="#V" n="62" break="no"/>dum mortale; videatur S sequenti. Et haec
+            <lb ed="#V" n="63"/>sententia videtur D. Thomae 3. part.
+            <lb ed="#V" n="64"/>quaest. 27, art. 5. cujus titulus est: Utrum
+            <lb ed="#V" n="65"/>Beata Virgo per hujusmodi
+            sanctificati<lb ed="#V" n="66" break="no"/>onem adepta fuerit plenitudinem omnium
+            <lb ed="#V" n="67"/>gratiarum? etc. ubi intendit de gratiis
+            <lb ed="#V" n="68"/>infusis per modum habitus, ut patet
+            res<lb ed="#V" n="69" break="no"/>ponsione ad 3. negans eam recepisse
+            sa<lb ed="#V" n="70" break="no"/>pientiam quoad usum docendi. In
+            argu<lb ed="#V" n="71" break="no"/>mento autem ad affirmativam partem,
+            <lb ed="#V" n="72"/>eam probat ex verbis Angeli, Lucae 1. et
+            <lb ed="#V" n="73"/>verbis Hieronymi serm. de Assumptione,
+            <lb ed="#V" n="74"/>qui dicit aliis per partes datam fuisse
+            <lb ed="#V" n="75"/>gratiam, Mariae infusam totam
+            plenitudi<lb ed="#V" n="76" break="no"/>nem. Probat in corpore, quia illa magis
+            <lb ed="#V" n="77"/>propinqua erat Filio, principio gratiae,
+            <lb ed="#V" n="78"/>quando eum concepit in utero; et
+            respon<lb ed="#V" n="79" break="no"/>sione ad 1, dicit recepisse, in illa
+            sancti<lb ed="#V" n="80" break="no"/>ficatione secunda, plenitudinem gratiae,
+            <lb ed="#V" n="81"/>ut esset propinquissima auctori gratiae;
+            <lb ed="#V" n="82"/>et responsione ad 3. explicat diversos
+            <lb ed="#V" n="83"/>gradus perfectionis formae naturalis,
+            ver<lb ed="#V" n="84" break="no"/>bi gratia, caloris, qui ut est dispositio
+            an<lb ed="#V" n="85" break="no"/>tecedens formam ignis est remissior, ut
+            <lb ed="#V" n="86"/>consequenter est in intenso gradu
+            perfe<lb ed="#V" n="87" break="no"/>ctionis, ut est in centro et cum jungitur
+            <lb ed="#V" n="88"/>fini consummatur. Sic Beata Virgo in
+            pri<pb ed="#V" n="459"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ma sanctificatione se habuit ut disposita,
+            <lb ed="#V" n="2"/>quo esset mater Dei, in secunda vero fuit
+            <lb ed="#V" n="3"/>perfectio gratiae, sicut caloris qui
+            conse<lb ed="#V" n="4" break="no"/>quitur ignem, ex praesentia Filii Dei in
+            <lb ed="#V" n="5"/>utero incarnati. Item in 3. dist. 3.
+            <lb ed="#V" n="6"/>quaest. 1. art. 2. quaestiuncula 3. dicit
+            <lb ed="#V" n="7"/>fuisse consummatam gratiam ejus
+            quan<lb ed="#V" n="8" break="no"/>tum ad statum viae, in secunda
+            sanctifi<lb ed="#V" n="9" break="no"/>catione, ideo necessitatam fuisse ad non
+            <lb ed="#V" n="10"/>peccandum amplius. Loquitur ergo S.
+            Tho<lb ed="#V" n="11" break="no"/>mas non solum secundum praerogativas
+            <lb ed="#V" n="12"/>gratiae, sed secundum intensionem et
+            <lb ed="#V" n="13"/>terminum; neque etiam ipsa praerogativa,
+            <lb ed="#V" n="14"/>per quam ex plenitudine gratiae constituta
+            <lb ed="#V" n="15"/>est in tali perfectione, ut necessitaretur
+            <lb ed="#V" n="16"/>ad non peccandum, etiam venialiter,
+            in<lb ed="#V" n="17" break="no"/>telligi potest sine intensione gratiae, ad
+            <lb ed="#V" n="18"/>quam spectat ratio D. Thomae, de
+            propin<lb ed="#V" n="19" break="no"/>quitate matris ad Christum auctorem
+            gra<lb ed="#V" n="20" break="no"/>tiae, et similitudo adducta de forma
+            calo<lb ed="#V" n="21" break="no"/>ris, et applicatio ejus ad gratiam Virginis.
+            <lb ed="#V" n="22"/>Videatur etiam D. Bonaventura in 3.
+            <lb ed="#V" n="23"/>dist. 13. quaest. 3.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Ratio autem D. Thomae praemissa satis
+            <lb ed="#V" n="25"/>econgrue probat illam sententiam, propter
+            <lb ed="#V" n="26"/>propinquitatem ejus ad Christum
+            aucto<lb ed="#V" n="27" break="no"/>rem gratiae, dum illum concepit de
+            Spiri<lb ed="#V" n="28" break="no"/>tu sancto, qui sicut disposuit corpus
+            vir<lb ed="#V" n="29" break="no"/>ginale, ut eum conciperet carne, sic etiam
+            <lb ed="#V" n="30"/>ejus mentem, ut eum conciperet in
+            Spi<lb ed="#V" n="31" break="no"/>ritu, juxta illud: Quinimo beati qui
+            <lb ed="#V" n="32"/>audiunt verbum Dei, et custodiunt
+            il<lb ed="#V" n="33" break="no"/>lud, etc. Et recte probatur antecedens ab
+            <lb ed="#V" n="34"/>eadem auctoritate Dionysii, quia Spiritus
+            <lb ed="#V" n="35"/>Angelici, quo magis accedunt ad Deum,
+            <lb ed="#V" n="36"/>eo magis participant perfectionem; et
+            si<lb ed="#V" n="37" break="no"/>militer Ecclesia, quo propinquior erat
+            <lb ed="#V" n="38"/>Christo, ut ii qui habebant primitias
+            Spi<lb ed="#V" n="39" break="no"/>ritus, eo magis perfecta fuit. Item,
+            nul<lb ed="#V" n="40" break="no"/>lum statum in via perfectiorem habuit
+            <lb ed="#V" n="41"/>Virgo, quam sit ille, in quo facta est
+            <lb ed="#V" n="42"/>mater Dei, concipiens de Spiritu sancto;
+            <lb ed="#V" n="43"/>decuit ergo eam tunc dignificatam fuisse
+            <lb ed="#V" n="44"/>summa gratia ipsi destinata.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Accedunt ad hoc auctoritates
+            sancto<lb ed="#V" n="46" break="no"/>rum Patrum, qui causam tantae gratiae in
+            <lb ed="#V" n="47"/>ipsa assignant conceptionem Filii Dei,
+            <lb ed="#V" n="48"/>quia, ut dicit Bernardus hom. 3. super
+            <lb ed="#V" n="49"/>Missus est: Legimus, inquit, in Actis
+            <lb ed="#V" n="50"/>Apostolorum, et Stephanum plenum
+            gra<lb ed="#V" n="51" break="no"/>tia, et Apotolos fuisse repletos Spiritu
+            <lb ed="#V" n="52"/>sancto; sed longe dissimiliter a Maria,
+            <lb ed="#V" n="53"/>nec in Stephano habitavit plenitudo
+            divi<lb ed="#V" n="54" break="no"/>nitatis corporaliter, quemadmodum in
+            Ma<lb ed="#V" n="55" break="no"/>ria, nec Apostoli conceperunt de Spiritu
+            <lb ed="#V" n="56"/>sancto, quomodo Maria, etc. Unde serm.
+            <lb ed="#V" n="57"/>61. de Virgine: Quod foemina, inquit,
+            <lb ed="#V" n="58"/>conciperet Deum, est, et fuit miraculum
+            <lb ed="#V" n="59"/>miraculorum, etc. Proposuit nempe non
+            <lb ed="#V" n="60"/>fuisse mirum, ut Deus Pater generaret
+            Fi<lb ed="#V" n="61" break="no"/>lium, quia nulla requirebatur dispositio,
+            <lb ed="#V" n="62"/>cum ei ex natura conveniret, sed quod
+            foe<lb ed="#V" n="63" break="no"/>mina conciperet Deum, fuisse miraculum
+            <lb ed="#V" n="64"/>miraculorum, etc. Et subdit dispositionem
+            <lb ed="#V" n="65"/>ad hoc necessariam: Oportuit enim,
+            <lb ed="#V" n="66"/>inquit, ut sic dicam, faeminam elevari
+            <lb ed="#V" n="67"/>ad quamdam quasi aequalitatem divinam,
+            <lb ed="#V" n="68"/>per quamdam infinitatem perfectionum
+            <lb ed="#V" n="69"/>et gratiarum, quam creatura nunquam
+            <lb ed="#V" n="70"/>experta est. Unde (ut credo) ad illam
+            <lb ed="#V" n="71"/>abyssum imperscrutabilium charismatum
+            <lb ed="#V" n="72"/>Spiritus sancti, quae in Beatam Virginem
+            <lb ed="#V" n="73"/>descenderunt in hora divinae
+            Concepti<lb ed="#V" n="74" break="no"/>onis, intellectus humanus, vel Angelicus
+            <lb ed="#V" n="75"/>nunquam potuerunt attingere, etc.
+            Vi<lb ed="#V" n="76" break="no"/>deantur expositores in Lucae 1. super
+            <lb ed="#V" n="77"/>illa, gratia plena, et in opusculis et
+            ser<lb ed="#V" n="78" break="no"/>monibus de Deipara. Quinimo nullam
+            <lb ed="#V" n="79"/>agnoscit Ecclesia majorem praerogativam
+            <lb ed="#V" n="80"/>in Virgine, quam concepisse de Spiritu
+            <lb ed="#V" n="81"/>sancto Filium Dei; congruit ergo, ut in eo
+            <lb ed="#V" n="82"/>statu et gradu perfectionis eum
+            concipe<lb ed="#V" n="83" break="no"/>ret, quem nullus alius in via et vita
+            mor<lb ed="#V" n="84" break="no"/>tali ejus, excederet, ut in illis verbis
+            insi<lb ed="#V" n="85" break="no"/>nuat Bernardus.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Unde qui dicunt eam meruisse, ut
+            fie<lb ed="#V" n="87" break="no"/>ret mater Dei, vel certe eum sanctitatis
+            <lb ed="#V" n="88"/>gradum attigisse, qui dignus hoc
+            privi<pb ed="#V" n="460"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>legio fuit, non debent plurimum ab hac
+            <lb ed="#V" n="2"/>sententia abhorrere, cum, omnium
+            con<lb ed="#V" n="3" break="no"/>sensu, dispositio necessaria ad hoc fuerit
+            <lb ed="#V" n="4"/>sanctitas et eminentia gratiae ex parte
+            <lb ed="#V" n="5"/>Virginis; et ipsa praerogativa conceptionis
+            <lb ed="#V" n="6"/>exigebat eam sanctitatem, quae maxima
+            <lb ed="#V" n="7"/>posset esse in statu viae, et pura creatura,
+            <lb ed="#V" n="8"/>et omnis sanctificatio Virginis a Deo
+            fa<lb ed="#V" n="9" break="no"/>cta, et privilegia ad hunc finem
+            ordina<lb ed="#V" n="10" break="no"/>bantur; sanctificatio erge Virginis, et
+            <lb ed="#V" n="11"/>sanctitas per gratiam collata fuerunt
+            <lb ed="#V" n="12"/>medium disponens ex parte Virginis, sed
+            <lb ed="#V" n="13"/>dispositio, et medium tunc maxime est
+            <lb ed="#V" n="14"/>perfectum, quando fini conjungitur in
+            <lb ed="#V" n="15"/>effectu, quia tunc est in actu et quiete,
+            <lb ed="#V" n="16"/>non in motu; ergo talis fuit gratia
+            Vir<lb ed="#V" n="17" break="no"/>ginis in Conceptione Filii, ut fuerit in
+            ter<lb ed="#V" n="18" break="no"/>mino suae perfectionis.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Et hoc est, quod intendunt citati
+            Do<lb ed="#V" n="20" break="no"/>ctores, per illum effectum secundae
+            <lb ed="#V" n="21"/>sanctificationis, quo dicunt eam
+            consti<lb ed="#V" n="22" break="no"/>tutam esse in ea gratiae plenitudine, ut
+            <lb ed="#V" n="23"/>necessitaretur ad non peccandum leviter,
+            <lb ed="#V" n="24"/>qui est summus gradus perfectionis in
+            <lb ed="#V" n="25"/>viatore, participans impeccabilitatem
+            <lb ed="#V" n="26"/>patriae, quantum communicari potest
+            <lb ed="#V" n="27"/>puro viatori; ad haec causae efficaces
+            <lb ed="#V" n="28"/>applicatae fuerunt, nempe Spiritus
+            san<lb ed="#V" n="29" break="no"/>ctus, ex quo concepit Filium, et ipse
+            <lb ed="#V" n="30"/>Filius conceptus, per quas suppleri potuit
+            <lb ed="#V" n="31"/>omnis efficacia causae inferioris, ut meriti.
+            <lb ed="#V" n="32"/>Si ergo Sacramenta applicata producunt
+            <lb ed="#V" n="33"/>effectum gratiae, qui alias haberi posset
+            <lb ed="#V" n="34"/>per meritum, et eo perfectius causant,
+            <lb ed="#V" n="35"/>quo perfectiorem in seipsis virtutem
+            con<lb ed="#V" n="36" break="no"/>tinent passionis, et meritorum Christi,
+            <lb ed="#V" n="37"/>quam meritum contineat; recte ergo in
+            <lb ed="#V" n="38"/>r proposito licet a fortiori argumentari,
+            <lb ed="#V" n="39"/>quia perfectior fuit conjunctio Christi
+            <lb ed="#V" n="40"/>(ut bene D. Thomas) cum Beata Virgine
+            <lb ed="#V" n="41"/>in Conceptione sua, quam ejusdem
+            <lb ed="#V" n="42"/>mediante Sacramento recipientis ipsum
+            <lb ed="#V" n="43"/>Sacramentum, quia haec est mediante
+            <lb ed="#V" n="44"/>signo tantum, illa vero per
+            participati<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>onem naturae; ergo a fortiori magis
+            ap<lb ed="#V" n="46" break="no"/>plicatum in esse causae ad causandum
+            <lb ed="#V" n="47"/>sanctitatem, quam sit meritum quod
+            <lb ed="#V" n="48"/>consistit in actu. Corroborari potest
+            <lb ed="#V" n="49"/>duobus exemplis, quia Christus in utero
+            <lb ed="#V" n="50"/>matris sanctificavit Baptistam per
+            salu<lb ed="#V" n="51" break="no"/>tationem Matris, et repletus est Spiritu
+            <lb ed="#V" n="52"/>sancto; ergo a fortiori magis fuit
+            con<lb ed="#V" n="53" break="no"/>junctus ipsi Virgini, ad effectum
+            sancti<lb ed="#V" n="54" break="no"/>ficationis, ut supponunt omnes Patres.
+            <lb ed="#V" n="55"/>Secundum exemplum est de Eucharistia,
+            <lb ed="#V" n="56"/>quae caeteris Sacramentis perfectione
+            <lb ed="#V" n="57"/>gratiae praefertur, quia ipsum Christum
+            <lb ed="#V" n="58"/>auctorem gratiae in se realiter continet.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Praeterea, haec sententia non minuit
+            <lb ed="#V" n="60"/>dignitatem Virginis, sed magis auget,
+            <lb ed="#V" n="61"/>quia sicut non est contra dignitatem
+            na<lb ed="#V" n="62" break="no"/>turae assumptae, ut intuitu unionis et
+            <lb ed="#V" n="63"/>assumptionis ejus, fuerit ipsi concessa
+            <lb ed="#V" n="64"/>gratia in summa perfectione, tanquam
+            <lb ed="#V" n="65"/>dispositio consequens unionem, ita etiam
+            <lb ed="#V" n="66"/>ex assumptione Virginis in Matrem Dei
+            <lb ed="#V" n="67"/>non minuit ejus dignitatem sic recipere
+            <lb ed="#V" n="68"/>gratiam, quae ipsi destinata est, tanquam
+            <lb ed="#V" n="69"/>dispositionem antecedentem et
+            concomi<lb ed="#V" n="70" break="no"/>tantem ipsam Conceptionem, imo auget,
+            <lb ed="#V" n="71"/>quia ex altiori titulo maternitatis ipsi
+            <lb ed="#V" n="72"/>collata fuit, quam si per propria merita
+            <lb ed="#V" n="73"/>de communi lege eam reciperet.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Dignificat ipsam gratiam, neque
+            mi<lb ed="#V" n="75" break="no"/>nuit efficaciam meriti virginalis, quantum
+            <lb ed="#V" n="76"/>est de se, ut patet in meritis Christi
+            <lb ed="#V" n="77"/>Domini, quae de se quidem poterant
+            ha<lb ed="#V" n="78" break="no"/>bere valorem, ut mererentur gratiam
+            <lb ed="#V" n="79"/>sanctificantem, seu habitualem (nisi quia
+            <lb ed="#V" n="80"/>jam fuerunt praeventa) si Deus ita vellet,
+            <lb ed="#V" n="81"/>sicut meruerunt gloriam corporis, et
+            <lb ed="#V" n="82"/>exaltationem nominis, quia haec subsecuta
+            <lb ed="#V" n="83"/>sunt opera Christi, ac perinde poterant
+            <lb ed="#V" n="84"/>cadere sub meritum ejus, gratia autem
+            <lb ed="#V" n="85"/>tota praecessit, ideoque non poterat
+            ca<lb ed="#V" n="86" break="no"/>dere sub meritum, quia erant
+            princi<lb ed="#V" n="87" break="no"/>pium meriti.
+          </p>
+          <p>
+            <lb ed="#V" n="88"/>Exemplum sit in Sacramentis, verbi
+            <pb ed="#V" n="461"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>gratia Baptismo, qui natus est dare
+            pri<lb ed="#V" n="2" break="no"/>mam justificationem et gratiam de lege
+            <lb ed="#V" n="3"/>quantum est de se, nec minuit ejus
+            effi<lb ed="#V" n="4" break="no"/>caciam, si praeveniatur ab alia causa
+            <lb ed="#V" n="5"/>superiori, ut careat effectu hujusmodi in
+            <lb ed="#V" n="6"/>subjecto particulari, ex conditione et
+            <lb ed="#V" n="7"/>statu subjecti, non defectu efficaciae
+            Sa<lb ed="#V" n="8" break="no"/>cramenti. Et si dicas saltem dare
+            au<lb ed="#V" n="9" break="no"/>gmentum gratiae, respondetur nihil
+            <lb ed="#V" n="10"/>referre, quia id tantum dat ei, qui non
+            <lb ed="#V" n="11"/>est in termino, quantum ad gratiam
+            <lb ed="#V" n="12"/>destinatam; unde de ratione Sacramenti est
+            <lb ed="#V" n="13"/>tantum, ut significet gratiam in fieri, vel
+            <lb ed="#V" n="14"/>in facto esse, non autem semper in fieri,
+            <lb ed="#V" n="15"/>ut bene D. Thomas, et Doctor in loco
+            <lb ed="#V" n="16"/>infra citando. Unde Eucharistia sumpta
+            <lb ed="#V" n="17"/>a Christo Domino, sumpta est
+            sacramen<lb ed="#V" n="18" break="no"/>taliter, non tamen ei contulit augmentum
+            <lb ed="#V" n="19"/>illum gratiae sanctificantis; neque ex
+            <lb ed="#V" n="20"/>hoc erat signum falsum, sed meritum non
+            <lb ed="#V" n="21"/>est magis secundum legem et voluntatem
+            <lb ed="#V" n="22"/>divinam ordinatum ad causandam gratiam
+            <lb ed="#V" n="23"/>seu ejus augmentum, quam Sacramentum
+            <lb ed="#V" n="24"/>Eucharistiae; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Ultimo tandem, ut propius attingamus
+            <lb ed="#V" n="26"/>fundamentum adversae partis, non destruit
+            <lb ed="#V" n="27"/>meritum in Beata Virgine, quod non
+            fue<lb ed="#V" n="28" break="no"/>rit causa gratiae sanctificantis, post Filii
+            <lb ed="#V" n="29"/>conceptionem; ergo ex hoc male infertur
+            <lb ed="#V" n="30"/>contrarium. Probatur antecedens, quia
+            ju<lb ed="#V" n="31" break="no"/>stitia operum est longe diversa a justitia
+            <lb ed="#V" n="32"/>sanctificante per modum habitus, et per
+            <lb ed="#V" n="33"/>se requiritur ad eam in adulto: Si vis
+            in<lb ed="#V" n="34" break="no"/>gredi ad vitam, serva mandata,
+            Mat<lb ed="#V" n="35" break="no"/>thaei 19. imo haec magis per se exigitur
+            <lb ed="#V" n="36"/>praescriptum legis, in quibus exercitium
+            <lb ed="#V" n="37"/>nostri consensus et arbitrii habetur, et
+            <lb ed="#V" n="38"/>subjectio ad legem Dei, quam augmentum
+            <lb ed="#V" n="39"/>justitiae sanctificantis. Unde et opera
+            re<lb ed="#V" n="40" break="no"/>quiruntur magis per se ad gloriam in
+            <lb ed="#V" n="41"/>adulto, ut conferatur per modum coronae,
+            <lb ed="#V" n="42"/>cui alioquin non datur nisi ut corona
+            re<lb ed="#V" n="43" break="no"/>gulariter, quam exigatur augmentum
+            ju<lb ed="#V" n="44" break="no"/>stitiae habitualis, quod potius habet
+            rati<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>onem praemii, et ponitur ex parte Dei,
+            <lb ed="#V" n="46"/>neque immediate cadit sub legem sicut
+            <lb ed="#V" n="47"/>opera, et gloria, quae est praemium
+            consum<lb ed="#V" n="48" break="no"/>matum. Et aliquando est necessitas operis
+            <lb ed="#V" n="49"/>cui nihil accrescit justitiae sanctificanti in
+            <lb ed="#V" n="50"/>via, ut ex sententia Doctorum de natura
+            <lb ed="#V" n="51"/>et conditione meriti (quam si attenderent
+            <lb ed="#V" n="52"/>moderni, non tam rigide hanc, quam
+            ha<lb ed="#V" n="53" break="no"/>ctenus tractamus, censerent) probare
+            li<lb ed="#V" n="54" break="no"/>bet.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>In primis non augeri gratiam aut
+            glo<lb ed="#V" n="56" break="no"/>riam essentialem, per actus aequales, aut
+            <lb ed="#V" n="57"/>remissiores (in quibus tamen salvatur
+            ob<lb ed="#V" n="58" break="no"/>servatio legis, et necessitas operandi
+            oc<lb ed="#V" n="59" break="no"/>currente praecepto) quam sit habitus
+            <lb ed="#V" n="60"/>praecedens; est plurium Magistrorum
+            sen<lb ed="#V" n="61" break="no"/>tentia, neque his mereri augmentum
+            no<lb ed="#V" n="62" break="no"/>vum gratiae in via, aut gratiae et gloriae
+            <lb ed="#V" n="63"/>in patria, nisi, ad summum, gaudium
+            ali<lb ed="#V" n="64" break="no"/>quod accidentale de bono opere praeterito,
+            <lb ed="#V" n="65"/>et perpetuitas praemii. Quibus dicunt
+            ulte<lb ed="#V" n="66" break="no"/>rius correspondere praemium essentiale
+            <lb ed="#V" n="67"/>gratiae et gloriae, non novum, ut dixi, sed
+            <lb ed="#V" n="68"/>antiquum, quod prioribus promeritum est;
+            <lb ed="#V" n="69"/>nam idem praemium pluribus meritis
+            cor<lb ed="#V" n="70" break="no"/>respondere potest, sicut gratiae habituali
+            <lb ed="#V" n="71"/>gloria per modum haereditatis, et ultimae
+            <lb ed="#V" n="72"/>dispositioni correspondet ut merces;
+            ex<lb ed="#V" n="73" break="no"/>altatio nominis Christi ratione unionis
+            <lb ed="#V" n="74"/>hypostaticae, et ratione meritorum, ita
+            <lb ed="#V" n="75"/>D. Thomas in 1. dist. 17. quaest. 2. art.3.
+            <lb ed="#V" n="76"/>D. Bonaventura in 2. dist. 40. art. 2.
+            <lb ed="#V" n="77"/>quaest. 3. Capreolus in 4. dist. 14.
+            <lb ed="#V" n="78"/>quoest. 2. art. 3. Conradus 12. quaest. 114.
+            <lb ed="#V" n="79"/>art. 8. videatur etiam D. Thomas 1. 2.
+            <lb ed="#V" n="80"/>quaest. 144. art. 8. ad 3. et 2. 2.
+            <lb ed="#V" n="81"/>quaest. 24. art. 6. Addamus et Durandum
+            <lb ed="#V" n="82"/>dicere in 1 dist. 17. quaest. 8. actibus
+            <lb ed="#V" n="83"/>remissis nos mereri augmentum gloriae,
+            <lb ed="#V" n="84"/>et non gratiae.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Hanc ergo sententiam applicando de
+            <lb ed="#V" n="86"/>facili invenitur ex merito non inferri
+            <lb ed="#V" n="87"/>augumentum gratiae sanctificantis semper,
+            <lb ed="#V" n="88"/>quamvis viatori adulto et justo
+            incum<pb ed="#V" n="462"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>bat necessitas operandi, ut servet legem
+            <lb ed="#V" n="2"/>et applicando hanc doctrinam ad Beatam
+            <lb ed="#V" n="3"/>Virginem, ejusque opera, post
+            Concepti<lb ed="#V" n="4" break="no"/>onem Filii, et plenam gratiam in termino,
+            <lb ed="#V" n="5"/>diceretur quod meruit eamdem gratiam
+            <lb ed="#V" n="6"/>per merita subsequentia; eamque
+            dupli<lb ed="#V" n="7" break="no"/>ci titulo habuit, nempe ut erat dispositio
+            <lb ed="#V" n="8"/>data ad maternitatem, et ut per opera
+            <lb ed="#V" n="9"/>subsequentia eam meruit, sicut praefati
+            <lb ed="#V" n="10"/>auctores docent meritum aequale, et
+            re<lb ed="#V" n="11" break="no"/>missum mereri etiam praemium ex
+            anti<lb ed="#V" n="12" break="no"/>quo debitum, sicut per exempla adducta
+            <lb ed="#V" n="13"/>patet; sic etiam justificati ex communi
+            <lb ed="#V" n="14"/>sententia merentur primam gloriam,
+            <lb ed="#V" n="15"/>quamvis alias correspondeat primae
+            gra<lb ed="#V" n="16" break="no"/>tiae, quae non est ex meritis, quibus favet
+            <lb ed="#V" n="17"/>Tridentinum sess. 6. can. 32. Neque hoc
+            <lb ed="#V" n="18"/>absurdum est apud Theologos, aut
+            Juris<lb ed="#V" n="19" break="no"/>peritos aliquid pluribus titulis acquiri
+            <lb ed="#V" n="20"/>posse.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Secundo diceretur, quod Beatissima
+            <lb ed="#V" n="22"/>Virgo habuit, dando consensum
+            Incarna<lb ed="#V" n="23" break="no"/>tioni, omnia in perfectissimo gradu
+            re<lb ed="#V" n="24" break="no"/>quisita ad meritum purae creaturae, et
+            <lb ed="#V" n="25"/>tunc assistente causa efficaci, factam
+            fuis<lb ed="#V" n="26" break="no"/>se in termino suae gratiae sanctificantis,
+            <lb ed="#V" n="27"/>quae non potuit ulterius augeri per
+            ali<lb ed="#V" n="28" break="no"/>quod meritum subsequens, quia nullum
+            <lb ed="#V" n="29"/>erat intensius gratia recepta, vel merito,
+            <lb ed="#V" n="30"/>per quod illud recepit, et sic merita
+            <lb ed="#V" n="31"/>subsequentia erant merita respectu
+            glo<lb ed="#V" n="32" break="no"/>riae tantum; et haec satis congruit illis
+            <lb ed="#V" n="33"/>sententiis, potissimum Durandi.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>Ex quibus patet, hanc sententiam satis
+            <lb ed="#V" n="35"/>probabilem esse, applicando principia a
+            <lb ed="#V" n="36"/>pluribus Doctoribus satis recepta. Eam
+            <lb ed="#V" n="37"/>praeter citatos tenet Almainus in 3. d. 3.
+            <lb ed="#V" n="38"/>quaest. 2. not. 2. Eam impugnat noster
+            <lb ed="#V" n="39"/>Vega lib. 10. in Tridentinum, cap. 2.
+            <lb ed="#V" n="40"/>et Vasquez 3. part. dist. 119. cap. 5.
+            <lb ed="#V" n="41"/>quorum impugnationi respondet ultimum
+            <lb ed="#V" n="42"/>argumentum, concedendo meritum
+            Bea<lb ed="#V" n="43" break="no"/>tae Virginis vel fuisse solius gloriae,
+            lo<lb ed="#V" n="44" break="no"/>quendo de eo quod habuit post
+            Incarna<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>tionem; vel certe fuisse meritum
+            respe<lb ed="#V" n="46" break="no"/>ctu gratiae antiquae, neque repugnare hoc
+            <lb ed="#V" n="47"/>merito, neque legi et justitiae, quae est
+            <lb ed="#V" n="48"/>secundum meritum, ut pluribus actibus
+            <lb ed="#V" n="49"/>mereatur quis idem, cui unicus tantum
+            <lb ed="#V" n="50"/>aequivalet.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>Teneatur quod magis ad dignitatem
+            <lb ed="#V" n="52"/>Matris, et mysterii facit et hanc ego
+            <lb ed="#V" n="53"/>censeo probabiliorem, quam hactenus
+            <lb ed="#V" n="54"/>disseruimus, quia magis fundata videtur
+            <lb ed="#V" n="55"/>in auctoritate et ratione, quam non
+            im<lb ed="#V" n="56" break="no"/>pugnat alia ratio, quam illa de operibus
+            <lb ed="#V" n="57"/>subsequentibus, ut sunt meritum, et
+            sa<lb ed="#V" n="58" break="no"/>tis est ambigua, et male applicata. Neque
+            <lb ed="#V" n="59"/>canon Tridentini urget 32. ubi damnat
+            <lb ed="#V" n="60"/>asserentes justificatam per bona opera
+            <lb ed="#V" n="61"/>non mereri augmentum gratiae, etc. quia
+            <lb ed="#V" n="62"/>damnat haereticos, negantes fructum
+            ju<lb ed="#V" n="63" break="no"/>stitiae, et mercedem bonorum operum in
+            <lb ed="#V" n="64"/>justo, non intendit per quaecumque
+            ope<lb ed="#V" n="65" break="no"/>ra mereri justum, et in omni casu
+            au<lb ed="#V" n="66" break="no"/>gmentum gratiae, quia sic praefata
+            senten<lb ed="#V" n="67" break="no"/>tia Scholasticorum maneret damnata, quod
+            <lb ed="#V" n="68"/>non est verum; unde Doctor responsione
+            <lb ed="#V" n="69"/>ad 2. dicit non esse frustra post
+            plenitu<lb ed="#V" n="70" break="no"/>dinem gratiae, si quis eam haberet addere
+            <lb ed="#V" n="71"/>opera meritoria. Quod patet ex ratione
+            <lb ed="#V" n="72"/>praemissa, et juxta sententiam Doctorum
+            <lb ed="#V" n="73"/>quos citavimus.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>(d) Ad aliud dico, quod baptizatus
+            <lb ed="#V" n="75"/>Baptismo sanguinis, etc. Haec responsio
+            <lb ed="#V" n="76"/>est clara, et doctrina in ea tradita
+            commu<lb ed="#V" n="77" break="no"/>nis, quia sanctificatio, sive per martyrium,
+            <lb ed="#V" n="78"/>sive per fidem, recepta, non eximit a
+            <lb ed="#V" n="79"/>praecepto suscipiendi Baptismi
+            Catechu<lb ed="#V" n="80" break="no"/>menum, si potest illud commode
+            adimple<lb ed="#V" n="81" break="no"/>re, cujus omissio esset contemptus, ut
+            <lb ed="#V" n="82"/>patet ex Augustino lib. 13. de Trinitate
+            <lb ed="#V" n="83"/>cap. 19. super Leviticum quaest. 84. de
+            <lb ed="#V" n="84"/>praedest. Sanct. cap. 7. lib. 1. de
+            <lb ed="#V" n="85"/>Baptismo cap. 8. lib.4. cap. 21. et alias
+            <lb ed="#V" n="86"/>scepe, Fulgentius de fide ad Petrum, c. 3.
+            <lb ed="#V" n="87"/>et alii, et patet ex iis, quae supra
+            praemi<lb ed="#V" n="88" break="no"/>simus. Et Doctores passim adducunt de
+            <pb ed="#V" n="463"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>necessitate Sacramenti, quod in martyre
+            <lb ed="#V" n="2"/>haberet effectum, vel gratiae, vel
+            chara<lb ed="#V" n="3" break="no"/>cteris et consignationis, etc. Responsio
+            <lb ed="#V" n="4"/>ad 2. patet ex dictis.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Tertium argumentum petit exponi, in
+            <lb ed="#V" n="6"/>quo consistat veritas practica
+            Sacra<lb ed="#V" n="7" break="no"/>menti, et significatio formae, quae
+            da<lb ed="#V" n="8" break="no"/>tur in remissionem peccatorum? et
+            <lb ed="#V" n="9"/>quanam ratione verificari possint, tam
+            <lb ed="#V" n="10"/>Baptismus quam forma ejus practice
+            <lb ed="#V" n="11"/>in justificato, est potissimum in
+            Virgi<lb ed="#V" n="12" break="no"/>ne, supposito quod in Conceptione Filii
+            <lb ed="#V" n="13"/>pervenerit ad terminum gratiae
+            sancti<lb ed="#V" n="14" break="no"/>ficantis, vel crescere in ea amplius non
+            <lb ed="#V" n="15"/>possit, saltem in via; supposito etiam
+            <lb ed="#V" n="16"/>quod nullum habuit peccatum, vel
+            origi<lb ed="#V" n="17" break="no"/>nale, vel actuale, quomodo erat capax
+            <lb ed="#V" n="18"/>Baptismi, qui datur in remissionem
+            pec<lb ed="#V" n="19" break="no"/>catorum? Quam difficultatem movet
+            <lb ed="#V" n="20"/>Doctor in objectione ad calcem.
+            Re<lb ed="#V" n="21" break="no"/>pondet autem ad primum de
+            effe<lb ed="#V" n="22" break="no"/>ctu gratiae, quod Sacramentum significet
+            <lb ed="#V" n="23"/>semper, vel in fieri, vel in facto
+            <lb ed="#V" n="24"/>esse.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Sic respondet D. Thomas in 1. dist. 17.
+            <lb ed="#V" n="26"/>2. part. dist. resp. ad ultimum in
+            simi<lb ed="#V" n="27" break="no"/>li; estque vera resolutio Doctorum, quia
+            <lb ed="#V" n="28"/>significare per Sacramentum est causare;
+            <lb ed="#V" n="29"/>perinde ergo valet praedicta distinctio,
+            <lb ed="#V" n="30"/>quando Sacramentum, vel causat
+            effe<lb ed="#V" n="31" break="no"/>ctum, et sic significat in fieri, vel
+            suppo<lb ed="#V" n="32" break="no"/>nit causatum ab alia causa praeveniente
+            <lb ed="#V" n="33"/>Sacramentum effectum suum, quem in
+            <lb ed="#V" n="34"/>virtute continet, et sic quantum est de se
+            <lb ed="#V" n="35"/>causaret, nisi jam ipsum praesupponeret;
+            <lb ed="#V" n="36"/>et hoc est causare in facto esse, id est,
+            <lb ed="#V" n="37"/>supponere causatum, quod alias ipsum
+            <lb ed="#V" n="38"/>Sacramentum natum esset causare, si
+            <lb ed="#V" n="39"/>subjectum esset in potentia.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Ad aliud quod objicitur de effectu
+            re<lb ed="#V" n="41" break="no"/>missionis peccati, respondet similiter
+            cau<lb ed="#V" n="42" break="no"/>sari semper per Sacramentum, vel in
+            fi<lb ed="#V" n="43" break="no"/>eri, vel in facto esse, vel in fiendo, hoc
+            <lb ed="#V" n="44"/>est, in fore, si aliquid ibi esset
+            remitten<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>dum in fieri causat remissionem quoad
+            <lb ed="#V" n="46"/>infantes, et eos qui habent peccatum, si
+            <lb ed="#V" n="47"/>sint adulti, et accedant ad Sacramentum
+            <lb ed="#V" n="48"/>cum attritione; in facto esse causat in iis,
+            <lb ed="#V" n="49"/>quibus infuit peccatum, sed praeventi sunt
+            <lb ed="#V" n="50"/>per aliud remedium ante susceptum
+            Ba<lb ed="#V" n="51" break="no"/>ptismum, in fiendo, aut fore, refertur ad
+            <lb ed="#V" n="52"/>solam Virginem, in qua nullum fuit
+            pec<lb ed="#V" n="53" break="no"/>catum.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Uterque hic modus denotat virtutem
+            <lb ed="#V" n="55"/>Sacramenti, quantum est de se, ad
+            remis<lb ed="#V" n="56" break="no"/>sionem peccati, sed differentia solum est
+            <lb ed="#V" n="57"/>in hoc, quod secundus modus in ordine
+            <lb ed="#V" n="58"/>denotat actualem remissionem factam
+            <lb ed="#V" n="59"/>fuisse; tertius vero non supponat
+            actu<lb ed="#V" n="60" break="no"/>alem remissionem peccati, quia non infuit,
+            <lb ed="#V" n="61"/>sed solum potentiam Sacramenti ad hunc
+            <lb ed="#V" n="62"/>effectum, si peccatum fuisset incursum.
+            <lb ed="#V" n="63"/>Priori modo subjectum recepit primam
+            <lb ed="#V" n="64"/>gratiam per modum justificationis per
+            <lb ed="#V" n="65"/>translationem subjecti, aut personae ab eo
+            <lb ed="#V" n="66"/>statu, in quo natus est homo filius
+            Ada<lb ed="#V" n="67" break="no"/>mi ad statum adoptionis filiorum Dei,
+            <lb ed="#V" n="68"/>per veram renovationem a peccato per
+            <lb ed="#V" n="69"/>gratiam, et sic indigentiam Baptismi
+            ra<lb ed="#V" n="70" break="no"/>tione peccati incursi, aut alterius remedii
+            <lb ed="#V" n="71"/>aequivalentis. Sed alius modus non
+            admit<lb ed="#V" n="72" break="no"/>tit primam gratiam datam esse per
+            mo<lb ed="#V" n="73" break="no"/>dum justificantis, aut remissionis, sed
+            <lb ed="#V" n="74"/>solum per modum sanctificantis, et
+            prae<lb ed="#V" n="75" break="no"/>venientis peccatum, quod alias inesset,
+            <lb ed="#V" n="76"/>nisi praeveniretur per gratiam.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Ut autem haec doctrina et solutio
+            ma<lb ed="#V" n="78" break="no"/>gis declaretur, objicitur (omissis
+            Scriptu<lb ed="#V" n="79" break="no"/>ris allegatis supra) Concilium
+            Constanti<lb ed="#V" n="80" break="no"/>nopolitanum: Confiteor unum Baptisma
+            <lb ed="#V" n="81"/>in remissionem peccatorum, etc.
+            Milevi<lb ed="#V" n="82" break="no"/>tanum can. 2. Item placuit, ut quicumque
+            <lb ed="#V" n="83"/>parvulos recentes ab uteris matrum
+            bap<lb ed="#V" n="84" break="no"/>tisandos negat, aut dicit in remissionem
+            <lb ed="#V" n="85"/>peccatorum eos baptizari, sed nihil ex
+            <lb ed="#V" n="86"/>Adamo trahere originalis peccati, quod
+            <lb ed="#V" n="87"/>regenerationis lavacro expietur; unde
+            <lb ed="#V" n="88"/>fit consequens, ut in eis forma
+            baptisma<pb ed="#V" n="464"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tis in remissionem peccatorum non vere,
+            <lb ed="#V" n="2"/>sed false intelligatur, anathema sit, etc.
+            <lb ed="#V" n="3"/>Propter hanc enim fidei regulam, etiam
+            <lb ed="#V" n="4"/>parvuli, qui nihil peccatorum in seipsis
+            <lb ed="#V" n="5"/>adhuc committere potuerunt, ideo in
+            <lb ed="#V" n="6"/>peccatorum remissionem veraciter
+            bapti<lb ed="#V" n="7" break="no"/>zantur, ut in eis regeneratione mundetur,
+            <lb ed="#V" n="8"/>quod generatione traxerunt, etc. Hic idem
+            <lb ed="#V" n="9"/>canon resumptus est a Conciliis
+            Afri<lb ed="#V" n="10" break="no"/>canis et Tridentino sess. 5. de peccato
+            <lb ed="#V" n="11"/>originali, can 4. habetur cap. Placuit
+            <lb ed="#V" n="12"/>de consecrat. dist. 4. ergo forma
+            Ba<lb ed="#V" n="13" break="no"/>ptismi, tunc est vera, cum causat quod
+            <lb ed="#V" n="14"/>significat; vel tunc datur in remissionem
+            <lb ed="#V" n="15"/>peccatorum, quando supponit peccatum,
+            <lb ed="#V" n="16"/>vel quod inest, vel quod infuit; ergo
+            <lb ed="#V" n="17"/>non potuit dari veraciter Beatae Virgini
+            <lb ed="#V" n="18"/>nisi ex suppositione peccati non
+            actu<lb ed="#V" n="19" break="no"/>alis, quod nunquam admisit; ergo
+            origi<lb ed="#V" n="20" break="no"/>nalis, alioquin non habet forma veram
+            <lb ed="#V" n="21"/>significationem remissionis peccati in re,
+            <lb ed="#V" n="22"/>aut in voto.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Confirmatur, Poenitentia non magis
+            <lb ed="#V" n="24"/>respicit peccatum actuale post Baptismum
+            <lb ed="#V" n="25"/>commissum, quam Baptismus peccatum
+            <lb ed="#V" n="26"/>originale, aut actuale antea commissum,
+            <lb ed="#V" n="27"/>alioquin consequentia Concilii non
+            vale<lb ed="#V" n="28" break="no"/>ret in parvulis, nam ex eo quod non
+            <lb ed="#V" n="29"/>habeant actuale, infert ad veritatem
+            for<lb ed="#V" n="30" break="no"/>mae in ipsis requiri originale; sed
+            poeni<lb ed="#V" n="31" break="no"/>tentia ita respicit peccatum post
+            Bapti<lb ed="#V" n="32" break="no"/>smum, ut non possit ministrari, nisi
+            respe<lb ed="#V" n="33" break="no"/>ctive ad ipsum, neque absolvi, nisi qui sic
+            <lb ed="#V" n="34"/>fuit peccator; ergo neque Baptismus dari,
+            <lb ed="#V" n="35"/>aut forma ejus verificari, nisi
+            respe<lb ed="#V" n="36" break="no"/>ctive ad peccatum, quod infuit;
+            utrum<lb ed="#V" n="37" break="no"/>que enim ex fine intrinseco institutum
+            <lb ed="#V" n="38"/>est ad remissionem peccati, alterum per
+            <lb ed="#V" n="39"/>modum regenerationis, alterum per modum
+            <lb ed="#V" n="40"/>reconciliationis; utrumque appellatur
+            ta<lb ed="#V" n="41" break="no"/>bula, qua salvamur a naufragio.
+            Bapti<lb ed="#V" n="42" break="no"/>smus 1. Petri 3. Quod et vos similis
+            <lb ed="#V" n="43"/>formoe salvos fecit Baptisma, etc. Origenes
+            <lb ed="#V" n="44"/>hom. 2. in 6. cap. Genesis, Augustinus
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>lib. 12. contra Faustum, cap. 14. 15.
+            <lb ed="#V" n="46"/>38. 36. et lib. 19. cap. 12. Gregorius
+            <lb ed="#V" n="47"/>hom. 12, in Ezech. Hieronymus. lib. 1.
+            <lb ed="#V" n="48"/>contra Jovinianum, et epist. 57.
+            Poeni<lb ed="#V" n="49" break="no"/>tentia vero secunda tabula dist. 1. de
+            poe<lb ed="#V" n="50" break="no"/>nitentia, can. secunda tabula. Idem epist.
+            <lb ed="#V" n="51"/>ad Demetriadem, et alia ad
+            Sabini<lb ed="#V" n="52" break="no"/>anum et lib. 2. in Isaiam cap. 3.
+            Schola<lb ed="#V" n="53" break="no"/>stici in 4. dist. 14. et 3. part. q. 83.
+            <lb ed="#V" n="54"/>art. 6. Utrique etiam aeque competit
+            ne<lb ed="#V" n="55" break="no"/>cessitas medii et praecepti, qua
+            ordi<lb ed="#V" n="56" break="no"/>nantur ad peccatum. Si ergo forma
+            <lb ed="#V" n="57"/>Poenitentiae non potuit esse vera in Beata
+            <lb ed="#V" n="58"/>Virgine, quia non habuit actuale, etiam
+            <lb ed="#V" n="59"/>veniale, ut tenet Ecclesia, Tridentin. sess.
+            <lb ed="#V" n="60"/>9. can. 23. ita etiam neque Baptismi
+            <lb ed="#V" n="61"/>forma vera fuit, nisi ex suppositione
+            <lb ed="#V" n="62"/>originalis.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Haec difficultas tangit plura, quae
+            brevi<lb ed="#V" n="64" break="no"/>ter tantum hic tractare licet, ut ex fidei
+            <lb ed="#V" n="65"/>regulis verum formae baptismalis sensum
+            <lb ed="#V" n="66"/>eliciamus, qui est ille, quem paucis verbis
+            <lb ed="#V" n="67"/>attingit Doctor in responsione praemissa
+            <lb ed="#V" n="68"/>in textu ad calcem quaestionis. Ne autem
+            <lb ed="#V" n="69"/>videatur libera et sine fundamento,
+            proba<lb ed="#V" n="70" break="no"/>tur per sequentes conclusiones.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Prima conclusio: Non est de
+            veri<lb ed="#V" n="72" break="no"/>tate formae baptismalis ut ullum
+            pecca<lb ed="#V" n="73" break="no"/>tum, sive originale, sive actuale, quod
+            <lb ed="#V" n="74"/>inest, remittat in determinata subjecti
+            <lb ed="#V" n="75"/>dispositione et statu, quamvis valide
+            <lb ed="#V" n="76"/>conferatur Baptismus, et consequenter
+            <lb ed="#V" n="77"/>forma ejus practice verificetur. Haec
+            con<lb ed="#V" n="78" break="no"/>clusio est de fide, et probatur ex illa
+            <lb ed="#V" n="79"/>veritate saepe determinata ab Ecclesia
+            <lb ed="#V" n="80"/>contra antiquum errorem, nempe
+            Bapti<lb ed="#V" n="81" break="no"/>smum ab haereticis collatum etiam adulto,
+            <lb ed="#V" n="82"/>esse validum, quamvis illum receperit
+            <lb ed="#V" n="83"/>in haeresi servata forma et materia et
+            <lb ed="#V" n="84"/>intentione requisitis. In his tamen quoad
+            <lb ed="#V" n="85"/>adultos professores haeresis, non
+            signi<lb ed="#V" n="86" break="no"/>ficabat actu remissionem peccatorum;
+            er<lb ed="#V" n="87" break="no"/>go non est ille sensus verus formae, et
+            <lb ed="#V" n="88"/>necessario requisitus. Antecedens patet
+            <pb ed="#V" n="465"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ex determinatione Stephani Papae, contra
+            <lb ed="#V" n="2"/>Cyprianum; ex Nicaeno can. 16. et aliis,
+            <lb ed="#V" n="3"/>quo infra suo loco citabimus. Minor et
+            <lb ed="#V" n="4"/>consequentia probantur, quae etiam sunt
+            <lb ed="#V" n="5"/>de fide, quia sine fide impossibile est
+            pla<lb ed="#V" n="6" break="no"/>cere Deo, ad Hebraeos 11. ergo et
+            sancti<lb ed="#V" n="7" break="no"/>ficari adultum. Justus ex fide vivit, etc.
+            <lb ed="#V" n="8"/>Est initium, et fundamentum
+            justifica<lb ed="#V" n="9" break="no"/>tionis, Trident. sess. 6. cap. 8. et cap. 7.
+            <lb ed="#V" n="10"/>Primo disponit ad ipsam, requiritur ut
+            <lb ed="#V" n="11"/>insit sicut oportet, et per Dei gratiam,
+            <lb ed="#V" n="12"/>can. 3. sine ea nihil est sanctum. Leo
+            <lb ed="#V" n="13"/>Papa serm. 4. de Nativitate, et alii
+            <lb ed="#V" n="14"/>omnes, qui necessitatem fidei declarant
+            <lb ed="#V" n="15"/>in adulto.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Secundo patet ex alia veritate fidei, quae
+            <lb ed="#V" n="17"/>ejusdem est certitudinis; adjunctis
+            rati<lb ed="#V" n="18" break="no"/>onibus Patrum pro eadem, haec autem
+            <lb ed="#V" n="19"/>est: Baptismus rite collatus nequit iterari,
+            <lb ed="#V" n="20"/>can. 17. alias 16. Apostolorum,
+            Florenti<lb ed="#V" n="21" break="no"/>num in Decreto unionis, Tridentinum
+            <lb ed="#V" n="22"/>sess. 7. de Sacramentis in genere, can. 9.
+            <lb ed="#V" n="23"/>de Baptismo, can. 11. Clemens Romanus
+            <lb ed="#V" n="24"/>lib. 6. Constitut. cap. 15. Cyprianus lib.
+            <lb ed="#V" n="25"/>2. epistolarum, epist. 3. alias. 63. ad
+            Coe<lb ed="#V" n="26" break="no"/>cilium. Quod autem fuerit in illo errore,
+            <lb ed="#V" n="27"/>quod putavit apud haereticos et
+            schismati<lb ed="#V" n="28" break="no"/>cos non esse Baptismum, processit ex eo
+            <lb ed="#V" n="29"/>quod putarit, neque fidem, neque
+            charita<lb ed="#V" n="30" break="no"/>tem esse apud haereticos, quod verum est,
+            <lb ed="#V" n="31"/>neque consequenter remissionem
+            peccato<lb ed="#V" n="32" break="no"/>rum, quod aeque verum est, respective ad
+            <lb ed="#V" n="33"/>adultos in haeresi et schismate
+            perseve<lb ed="#V" n="34" break="no"/>rantes, de quibus loquimur; ex alia autem
+            <lb ed="#V" n="35"/>parte non posse sine his Baptismum esse
+            <lb ed="#V" n="36"/>validum.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Hac ratione ( inquit Augustinus lib. 4.
+            <lb ed="#V" n="38"/>de Baptismo cap. 6.), quae illi verae visae
+            <lb ed="#V" n="39"/>sunt in obscurissima quaestione laboranti
+            <lb ed="#V" n="40"/>et de remissione peccatorum fluctuanti,
+            <lb ed="#V" n="41"/>utrum in Baptismo Christi possit non
+            fi<lb ed="#V" n="42" break="no"/>eri, et utrum apud hoereticos possit fieri,
+            <lb ed="#V" n="43"/>et utrum apud hoereticos possit fieri, etc.
+            <lb ed="#V" n="44"/>supple remissio peccatorum; et lib. 6.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>cap. 1. ideo dici eum errasse, quia non
+            <lb ed="#V" n="46"/>distinguebat Sacramentum ab effectu vet
+            <lb ed="#V" n="47"/>usu Sacramenti, etc. De hac agemus cum
+            <lb ed="#V" n="48"/>suis fundamentis et rationibus, unde
+            pro<lb ed="#V" n="49" break="no"/>betur baptismus validus in haereticis et
+            <lb ed="#V" n="50"/>schismaticis, in quibus non habet
+            effe<lb ed="#V" n="51" break="no"/>ctum remissionis peccati, infra dist. 6.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Huc etiam spectat veritas de Baptismo
+            <lb ed="#V" n="53"/>dubio sub conditione iterando, et in iis in
+            <lb ed="#V" n="54"/>quibus nulla est memoria Baptismi
+            sus<lb ed="#V" n="55" break="no"/>cepti, aut vestigium, in epist. Leon. 37.
+            <lb ed="#V" n="56"/>alias 35. ad Leonem Ravennatem, in
+            <lb ed="#V" n="57"/>Carthaginen. V. cap. 6. Concilio
+            Africa<lb ed="#V" n="58" break="no"/>no sub Bonifacio cap. 39. Wormatien.
+            <lb ed="#V" n="59"/>cap. 70. et refertur de consecrat. cap. 4.
+            <lb ed="#V" n="60"/>Placuit. Item casus de ficto baptizato,
+            <lb ed="#V" n="61"/>quem supra tractavimus. Sed his
+            omni<lb ed="#V" n="62" break="no"/>bus rite confertur Baptismus, quamvis in
+            <lb ed="#V" n="63"/>iis non habeat remissionem peccatorum;
+            <lb ed="#V" n="64"/>ergo remittere peccata, quae etiam insunt,
+            <lb ed="#V" n="65"/>non exigitur ad veram et practicam
+            si<lb ed="#V" n="66" break="no"/>gnificationem formae Baptismi, alias esset
+            <lb ed="#V" n="67"/>signum falsum, neque consisteret
+            Sacra<lb ed="#V" n="68" break="no"/>mentum.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Ratio autem hujus est, quia ad
+            verita<lb ed="#V" n="70" break="no"/>tem Sacramenti non exigitur nisi
+            mate<lb ed="#V" n="71" break="no"/>ria et intentio ministri et consensus
+            ad<lb ed="#V" n="72" break="no"/>ulti. Primum patet ex Florentino et
+            Tri<lb ed="#V" n="73" break="no"/>dentino sess. 7. de Sacram. in genere,
+            <lb ed="#V" n="74"/>can. 4. Secundum vero ex cap. Majores
+            <lb ed="#V" n="75"/>de Baptismo, quae salvantur in ordine ad
+            <lb ed="#V" n="76"/>eum, cui nullum peccatum remittitur;
+            <lb ed="#V" n="77"/>ad veritatem autem Sacramenti nihil
+            ali<lb ed="#V" n="78" break="no"/>ud requiritur, est enim signum de se
+            ef<lb ed="#V" n="79" break="no"/>ficax, ex Trident. sess. 7. de Sacram.
+            <lb ed="#V" n="80"/>in genere, can. 2. et 6. et ex Florentino.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Ad salvandam autem efficaciam causae
+            <lb ed="#V" n="82"/>moralis et naturalis, non exigitur ut in
+            <lb ed="#V" n="83"/>quocumque subjecto qualitercumque
+            dis<lb ed="#V" n="84" break="no"/>posito, habeat quemlibet effectum suum;
+            <lb ed="#V" n="85"/>sufficit enim ut habeat aliquam ex
+            pluri<lb ed="#V" n="86" break="no"/>bus, cujus capax est subjectum, ut in
+            <lb ed="#V" n="87"/>praesenti materia characterem, vel
+            gra<lb ed="#V" n="88" break="no"/>tiam, vel ingressum in Ecclesiam,
+            aper<pb ed="#V" n="466"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tionem januae; et perinde hoc probari
+            po<lb ed="#V" n="2" break="no"/>test in aliis Sacramentis, quidquid sit de
+            <lb ed="#V" n="3"/>Poenitentia, et cum hac clausula
+            Triden<lb ed="#V" n="4" break="no"/>tinum loco citato can. 6. et 7. asserens
+            <lb ed="#V" n="5"/>Sacramenta de se continere gratiam,
+            <lb ed="#V" n="6"/>quam significant, et non ponentibus
+            obi<lb ed="#V" n="7" break="no"/>cem conferre, quantum est ex parte Dei;
+            <lb ed="#V" n="8"/>et hoc patet in omnibus ea valide conferri.
+            <lb ed="#V" n="9"/>non obstante obice alicujus sui effectus,
+            <lb ed="#V" n="10"/>quin etiam poenitentia ex opinione
+            <lb ed="#V" n="11"/>D. Thomae in 4. d. 17. quaest. 3. art. 4.
+            <lb ed="#V" n="12"/>quaestiuncula prima, datur informis, et
+            <lb ed="#V" n="13"/>valida, quem plures auctores sequuntur;
+            <lb ed="#V" n="14"/>et ii qui docent Sacramenta omnia
+            cau<lb ed="#V" n="15" break="no"/>sare vel characterem, vel aliquem
+            orna<lb ed="#V" n="16" break="no"/>tum, salvant per hoc veritatem formae et
+            <lb ed="#V" n="17"/>materiae in significando.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Ex quibus colligitur Baptismum in
+            Vir<lb ed="#V" n="19" break="no"/>gine, quoad veritatem significationis
+            sal<lb ed="#V" n="20" break="no"/>vari in his effectibus, quamvis in ea non
+            <lb ed="#V" n="21"/>habuerit remissionem peccati, nam eadem
+            <lb ed="#V" n="22"/>est ratio, et idem fundamentum, nam
+            <lb ed="#V" n="23"/>magis est contra veritatem formae
+            Ba<lb ed="#V" n="24" break="no"/>ptismalis non significare remissionem, vel
+            <lb ed="#V" n="25"/>eam non dari in remissionem peccatorum,
+            <lb ed="#V" n="26"/>quae insunt, quam eam non dari in
+            remis<lb ed="#V" n="27" break="no"/>sionem, quando nullum peccatum inest;
+            <lb ed="#V" n="28"/>ergo non fuisse remissum in ipsa aliquod
+            <lb ed="#V" n="29"/>peccatum in fieri, ut respondet Doctor,
+            <lb ed="#V" n="30"/>quando fuit baptizata, non tollit veritatem
+            <lb ed="#V" n="31"/>formae baptismalis.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Secunda conclusio: Ad veritatem formae
+            <lb ed="#V" n="33"/>Baptismi in omni subjecto non requiritur,
+            <lb ed="#V" n="34"/>ut peccatum aliquod ei insit, quando
+            ve<lb ed="#V" n="35" break="no"/>rificatur ipsa forma. Haec etiam
+            loquen<lb ed="#V" n="36" break="no"/>do de peccato simpliciter, quod excludit a
+            <lb ed="#V" n="37"/>vita aeterna, quale est originale et actuale,
+            <lb ed="#V" n="38"/>est de fide, et ne diffundamur, probatio
+            <lb ed="#V" n="39"/>ejus pervia est ex iis, quae Scriptura,
+            Pa<lb ed="#V" n="40" break="no"/>tres, Concilia, et omnes Doctores tradunt
+            <lb ed="#V" n="41"/>de efficacia fidei operantis per charitatem,
+            <lb ed="#V" n="42"/>de efficacia etiam ipsius charitatis et
+            <lb ed="#V" n="43"/>poenitentiae perfectae, quae dicitur
+            contri<lb ed="#V" n="44" break="no"/>tio, non est quod ex multis pauca
+            profera<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>mus. Patet etiam ex iis, quae de Baptismo
+            <lb ed="#V" n="46"/>flaminis, ejusque efficacia traditur ex
+            <lb ed="#V" n="47"/>Patribus, Actorum 0. Ex his duabus
+            <lb ed="#V" n="48"/>conclusionibus colligitur, non esse de
+            <lb ed="#V" n="49"/>veritate formae Baptismi, ut peccatum
+            <lb ed="#V" n="50"/>quod inest remittat, neque quod peccatum
+            <lb ed="#V" n="51"/>remissum sit per ipsum Sacramentum in
+            <lb ed="#V" n="52"/>re, licet cum voto ejus remittatur.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>Tertia conclusio: Non est de veritate
+            <lb ed="#V" n="54"/>formae Baptismi, ut peccatum originale
+            <lb ed="#V" n="55"/>et actuale in voto ejus remittantur, aut
+            <lb ed="#V" n="56"/>cum subordinatione ad Sacramentum.
+            <lb ed="#V" n="57"/>Haec etiam est de fide, quia forma
+            Bapti<lb ed="#V" n="58" break="no"/>smi fuit verificata in circumcisis, qui
+            <lb ed="#V" n="59"/>conversi sunt ad praedicationem Christi
+            <lb ed="#V" n="60"/>et Apostoli juxta communiorem
+            senten<lb ed="#V" n="61" break="no"/>tiam scholae, et alii in quibus antea
+            Cir<lb ed="#V" n="62" break="no"/>cumcisio remedium legis naturae, fides
+            <lb ed="#V" n="63"/>charitas et poenitentia habuerunt
+            effe<lb ed="#V" n="64" break="no"/>ctum remissionis peccati, ut in Magdalena
+            <lb ed="#V" n="65"/>et Latrone sine subordinatione ad
+            Bapti<lb ed="#V" n="66" break="no"/>smum ante mortem saltem Christi, quo
+            <lb ed="#V" n="67"/>tempore non habuit necessitatem medii,
+            <lb ed="#V" n="68"/>aut praecepti, vel etiam ante
+            instituti<lb ed="#V" n="69" break="no"/>onem Baptismi, quando remedia de lege
+            <lb ed="#V" n="70"/>currebant contra peccatum, et sine ulla
+            <lb ed="#V" n="71"/>subordinatione ad Baptismum; valebant
+            <lb ed="#V" n="72"/>ergo sine voto Baptismi. Exemplum sit in
+            <lb ed="#V" n="73"/>iis, qui conversi sunt ad praedicationem
+            <lb ed="#V" n="74"/>Joannis Baptistae, et poenituit eos de
+            pec<lb ed="#V" n="75" break="no"/>catis; vel in Nathanaele, qui laudatus est
+            <lb ed="#V" n="76"/>verus Israelita, in quo non fuit dolus, in
+            <lb ed="#V" n="77"/>Joanne Baptista sanctificato in utero.
+            <lb ed="#V" n="78"/>Demus etiam jam aliquos sanctificatos
+            <lb ed="#V" n="79"/>in utero, quod non repugnat, et ex
+            Legen<lb ed="#V" n="80" break="no"/>dis Sanctorum asserunt quidam, ut
+            pro<lb ed="#V" n="81" break="no"/>babile aliquos tales fuisse post
+            promul<lb ed="#V" n="82" break="no"/>gationem Evangelii, et necessitatem
+            Ba<lb ed="#V" n="83" break="no"/>ptismi, quibus collatus mox Baptismus,
+            <lb ed="#V" n="84"/>neque in re, neque in voto remisit
+            ali<lb ed="#V" n="85" break="no"/>quod peccatum; non in re, quia jam
+            <lb ed="#V" n="86"/>sanctificati sunt ex privilegio, et supra
+            <lb ed="#V" n="87"/>legem; non in voto, quia votum
+            Sacra<lb ed="#V" n="88" break="no"/>menti nequit haberi nisi per actum
+            pro<pb ed="#V" n="467"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>prium, qui non potest esse in infante, ut
+            <lb ed="#V" n="2"/>supponit canon ad oppositum citatus
+            con<lb ed="#V" n="3" break="no"/>tra Pelagianos, asserentes infantes
+            bapti<lb ed="#V" n="4" break="no"/>zari in remissionem peccati, non originalis,
+            <lb ed="#V" n="5"/>sed actualis, et propria voluntate
+            commis<lb ed="#V" n="6" break="no"/>si, de quibus supra egimus de Baptismo
+            <lb ed="#V" n="7"/>infantum quaest. 1. Hi tamen
+            comprehen<lb ed="#V" n="8" break="no"/>derentur praecepto Baptismi, sicut Apostoli
+            <lb ed="#V" n="9"/>et Judaei circumcisi comprehensi sunt.
+            <lb ed="#V" n="10"/>Comprehendit enim lex tam justo quam
+            <lb ed="#V" n="11"/>injustos, tam Gentiles quam Judaeos;
+            <lb ed="#V" n="12"/>quod non esset verum, si ad veritatem
+            <lb ed="#V" n="13"/>formae ejus requireretur in singulis ordo
+            <lb ed="#V" n="14"/>Baptismi ad peccatum in effectu, vel in
+            <lb ed="#V" n="15"/>re, vel in voto, ut patet in casibus
+            ex<lb ed="#V" n="16" break="no"/>pressis.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Confirmari potest primo ex Tridentino
+            <lb ed="#V" n="18"/>sess. 14. cap. 1. et 4. ubi declarat
+            ne<lb ed="#V" n="19" break="no"/>cessitatem et efficaciam poenitentiae ad
+            <lb ed="#V" n="20"/>remissionem actualis mortalis ante
+            Bapti<lb ed="#V" n="21" break="no"/>smum institutum, quo tempore nullam
+            <lb ed="#V" n="22"/>habuit subordinationem ad Baptismum
+            <lb ed="#V" n="23"/>remissio peccati; sic tamen justificati
+            <lb ed="#V" n="24"/>tenebantur ad Baptismum promulgata lege,
+            <lb ed="#V" n="25"/>ut communis sententia supponit.
+            <lb ed="#V" n="26"/>Item, supponamus aliquem
+            Catechu<lb ed="#V" n="27" break="no"/>menum raptum ad martyrium, et qui sit
+            <lb ed="#V" n="28"/>in peccato, neque recordetur in illo
+            ago<lb ed="#V" n="29" break="no"/>ne, Sacramenti, aut peccati, habeat tamen
+            <lb ed="#V" n="30"/>dispositionem, quaecumque illa sit, ad
+            <lb ed="#V" n="31"/>passionem pro Christo, et recipiat vulnus
+            <lb ed="#V" n="32"/>lethale, quamvis pro tunc statim non
+            ex<lb ed="#V" n="33" break="no"/>piret, sed postea ex ipso vulnere expiret,
+            <lb ed="#V" n="34"/>recipit gratiam martyrii, ut bene noster
+            <lb ed="#V" n="35"/>Vega lib. 6. in Tridentinum sess. 6.
+            <lb ed="#V" n="36"/>cap. 37. quem sequitur Suarez, ut infra
+            <lb ed="#V" n="37"/>videbimus, de Baptismo sanguinis,
+            tene<lb ed="#V" n="38" break="no"/>tur talis ad Baptismum, si occasio datur,
+            <lb ed="#V" n="39"/>in quo Baptismus susceptus non remittit
+            <lb ed="#V" n="40"/>peccatum in re, aut alias in voto, sed
+            gra<lb ed="#V" n="41" break="no"/>tiam et remissionem accipit per
+            marty<lb ed="#V" n="42" break="no"/>rium, quod nullo modo subordinatur
+            <lb ed="#V" n="43"/>Baptismo, cum sit ultimus actus
+            trans<lb ed="#V" n="44" break="no"/>euntis ex vita de lege ordinaria, et
+            remit<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>tat culpam, et omnem poenam; ex
+            Au<lb ed="#V" n="46" break="no"/>gustino tract. 84. in Joan. Tertulliano in
+            <lb ed="#V" n="47"/>Apologet. in fine, Clemente Romano
+            <lb ed="#V" n="48"/>lib. 5. constit. cap. 7. Cypriano epist. 73.
+            <lb ed="#V" n="49"/>ubi aequat martyrium Baptismo. Videatur
+            <lb ed="#V" n="50"/>etiam Augustinus tib. 3. de Civit. cap. 7.
+            <lb ed="#V" n="51"/>et communis Patrum, qui de necessitate
+            <lb ed="#V" n="52"/>Baptismi agentes ad ingressum regni
+            coe<lb ed="#V" n="53" break="no"/>lorum, excipiunt casum confessionis
+            <lb ed="#V" n="54"/>Christi, per effusionem sanguinis.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Quin etiam martyrium natum est de
+            <lb ed="#V" n="56"/>lege ordinaria dare gratiam in termino,
+            <lb ed="#V" n="57"/>ad quem destinata est persona, ut ex
+            ra<lb ed="#V" n="58" break="no"/>tione praemissa patet. In eo ergo casu
+            <lb ed="#V" n="59"/>Baptismus non daretur Martyri in
+            remis<lb ed="#V" n="60" break="no"/>sionem peccatorum, sed in
+            consignati<lb ed="#V" n="61" break="no"/>onem, vel certe ad alios effectus implendae
+            <lb ed="#V" n="62"/>legis et gratiae, si daretur, aut esset capax,
+            <lb ed="#V" n="63"/>et ingressum regni. Diceretur forte
+            Ba<lb ed="#V" n="64" break="no"/>tismum habere in voto implicito, ratione
+            <lb ed="#V" n="65"/>fidei et charitatis, qua pro Christo patitur.
+            <lb ed="#V" n="66"/>Contra, de voto implicito non loquuntur
+            <lb ed="#V" n="67"/>Patres aut Concilia, et quidquid sit de
+            <lb ed="#V" n="68"/>hoc, ne de casu disputemus; patet veritas
+            <lb ed="#V" n="69"/>conclusionis proposita ex aliis praemissis,
+            <lb ed="#V" n="70"/>ac proinde stat hunc effectum remissionis,
+            <lb ed="#V" n="71"/>peccati in re, aut voto, non exigi ad
+            ve<lb ed="#V" n="72" break="no"/>ritatem formae baptismalis; sed remissio
+            <lb ed="#V" n="73"/>peccati nequit fieri per Baptismum in
+            ef<lb ed="#V" n="74" break="no"/>fectu, nisi in re vel voto, ut supponit
+            <lb ed="#V" n="75"/>Tridentin. sess. 6. cap. 4. ergo formae
+            <lb ed="#V" n="76"/>veritas, quae subsistit in casibus
+            praemis<lb ed="#V" n="77" break="no"/>sis, non dependet a remissione peccati in
+            <lb ed="#V" n="78"/>effectu, sive in re, sive in voto; et quia
+            <lb ed="#V" n="79"/>non solum responderi potest, quod saltem
+            <lb ed="#V" n="80"/>veritas ejus supponit fuisse. sit
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Quarta conclusio: Ad veritatem formae
+            <lb ed="#V" n="82"/>baptismalis non requiritur, neque
+            con<lb ed="#V" n="83" break="no"/>notatur peccatum fuisse. Haec conclusio
+            <lb ed="#V" n="84"/>est contra dictam responsionem, neque
+            <lb ed="#V" n="85"/>minus certa est ex dictis. Probatur,
+            sup<lb ed="#V" n="86" break="no"/>ponendo duplicem significationem
+            for<lb ed="#V" n="87" break="no"/>mae, quarum altera est speculative, et ex
+            <lb ed="#V" n="88"/>institutione humana; haec autem non
+            re<pb ed="#V" n="468"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>fertur ad peccatum tanquam significatum,
+            <lb ed="#V" n="2"/>neque connotat peccatum esse, aut
+            fuis<lb ed="#V" n="3" break="no"/>se, aut remissionem ejus in effectu, aut
+            <lb ed="#V" n="4"/>virtute, sed solum ablutionem corporalem
+            <lb ed="#V" n="5"/>quae etiam ex natura actionis, aut
+            insti<lb ed="#V" n="6" break="no"/>tutione humana ad illum effectum non
+            re<lb ed="#V" n="7" break="no"/>fertur, cum ad alios fines, aut
+            volupta<lb ed="#V" n="8" break="no"/>tis, aut munditiei, aut salutis
+            corpora<lb ed="#V" n="9" break="no"/>lis frequens sit usus balneorum. Altera
+            <lb ed="#V" n="10"/>significatio est formae, ex divina
+            institu<lb ed="#V" n="11" break="no"/>tione, quae dicitur practica, et per eam
+            <lb ed="#V" n="12"/>sortitur efficaciam remissionis peccatorum,
+            <lb ed="#V" n="13"/>sed ad veritatem hujus non requiritur, ut
+            <lb ed="#V" n="14"/>in omni subjecto qualitercumque
+            dispo<lb ed="#V" n="15" break="no"/>sito, denotet peccatum fuisse; ergo
+            ne<lb ed="#V" n="16" break="no"/>que hoc spectat ad veritatem formae,
+            re<lb ed="#V" n="17" break="no"/>spective ad quodcumque subjectum. Et
+            <lb ed="#V" n="18"/>probatur minor cum consequentia.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Significatio formae Baptismi hoc modo
+            <lb ed="#V" n="20"/>a sumpta, non est speculativa, sed
+            practi<lb ed="#V" n="21" break="no"/>ca, sicut et cujuslibet Sacramenti novae
+            <lb ed="#V" n="22"/>legis; haec autem est in causando
+            effe<lb ed="#V" n="23" break="no"/>ctum Sacramenti, ut docet Florentinum
+            <lb ed="#V" n="24"/>in Decreto unionis, distinguens per hoc
+            <lb ed="#V" n="25"/>Sacramentum novae legis a Sacramentis
+            <lb ed="#V" n="26"/>veteris legis, Trident. sess. 7. de Sacram.
+            <lb ed="#V" n="27"/>in genere, can. 2. 4. 6. 7. et 8. Idem
+            sup<lb ed="#V" n="28" break="no"/>ponit canon primus de Baptismo, in hoc
+            <lb ed="#V" n="29"/>distinguens Baptismum Christi a
+            Bapti<lb ed="#V" n="30" break="no"/>smo Joannis sess. 6. can. 4. et 7. sess.
+            <lb ed="#V" n="31"/>14. cap. 1. et 2. sess. 5. tribus ultimis
+            ca<lb ed="#V" n="32" break="no"/>nonibus definit hanc significationem
+            con<lb ed="#V" n="33" break="no"/>venire Baptismo, qua habet efficaciam
+            <lb ed="#V" n="34"/>ad remissionem peccati originalis.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>In his omnibus ubi denotatur ordo
+            Ba<lb ed="#V" n="36" break="no"/>ptismi in significando ad peccatum,
+            di<lb ed="#V" n="37" break="no"/>citur in eo esse, vel quia causat gratiam,
+            <lb ed="#V" n="38"/>vel applicat meritum Christi ad
+            sanctifi<lb ed="#V" n="39" break="no"/>cationem, vel regenerat, delet peccatum,
+            <lb ed="#V" n="40"/>remittit, tollit, quae omnia nihil denotant
+            <lb ed="#V" n="41"/>praeter efficaciam Baptismi in causando
+            <lb ed="#V" n="42"/>suum effectum. Et ut brevior sim,
+            nun<lb ed="#V" n="43" break="no"/>quam aliter asseruerunt Concilia, Patres,
+            <lb ed="#V" n="44"/>aut Doctores, Baptismum, aut formam
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>ejus, connotare peccatum, nisi ex efficacia
+            <lb ed="#V" n="46"/>Sacramenti, necessitate subjecti, et statu
+            <lb ed="#V" n="47"/>ejus.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Ex hac fidei regula sic argumentor
+            pri<lb ed="#V" n="49" break="no"/>mo: Baptismus non supponit peccatum
+            <lb ed="#V" n="50"/>ex modo significandi, aut ipsa
+            significati<lb ed="#V" n="51" break="no"/>one formae, nisi quatenus virtus ejus
+            ex<lb ed="#V" n="52" break="no"/>tenditur ad remissionem peccati, ut
+            pa<lb ed="#V" n="53" break="no"/>tet ex praemissis; sed in casu primae,
+            se<lb ed="#V" n="54" break="no"/>cundae et tertiae conclusionis, nullam
+            <lb ed="#V" n="55"/>exercet causalitatem in reipsa collatum
+            <lb ed="#V" n="56"/>circa peccatum, quo non obstante
+            verifi<lb ed="#V" n="57" break="no"/>catur sensus formae baptismalis circa
+            sub<lb ed="#V" n="58" break="no"/>jectum; ergo ad eam non spectat
+            signi<lb ed="#V" n="59" break="no"/>ficare, aut connotare peccatum fuisse in
+            <lb ed="#V" n="60"/>subjecto, et si fuerit, non facit ad
+            veri<lb ed="#V" n="61" break="no"/>tatem formae, modo non exerceat
+            causa<lb ed="#V" n="62" break="no"/>litatem in re aut voto, circa peccatum;
+            <lb ed="#V" n="63"/>ergo perinde erit forma ejus vera, etiam
+            <lb ed="#V" n="64"/>in eo, in quo nullum fuerit peccatum,
+            mo<lb ed="#V" n="65" break="no"/>do excerceat aliquam causalitatem in
+            ip<lb ed="#V" n="66" break="no"/>sum, talis est Beata Virgo, reciperet enim
+            <lb ed="#V" n="67"/>characterem, et secundum plurium
+            sen<lb ed="#V" n="68" break="no"/>tentiam gratiam, incorporationem in
+            Ec<lb ed="#V" n="69" break="no"/>clesia visibili, adimpleret praeceptum,
+            red<lb ed="#V" n="70" break="no"/>deretur capax aliorum Sacramentorum;
+            <lb ed="#V" n="71"/>ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Confirmatur, non est contra
+            verita<lb ed="#V" n="73" break="no"/>tem formae non significare remissionem
+            <lb ed="#V" n="74"/>peccati in haeretico et ficto, in quo est
+            <lb ed="#V" n="75"/>peccatum, et in quo forma verificatur,
+            <lb ed="#V" n="76"/>quamvis incapax sit hujus effectus
+            re<lb ed="#V" n="77" break="no"/>missionis propter obicem; sed aeque, aut
+            <lb ed="#V" n="78"/>magis, incapax est qui nunquam habuit
+            <lb ed="#V" n="79"/>peccatum, vel si habuit, est jam
+            remis<lb ed="#V" n="80" break="no"/>sum, quam fictus, qui similiter est
+            ca<lb ed="#V" n="81" break="no"/>pax non solum omnium effectuum, quos
+            <lb ed="#V" n="82"/>recipit fictus, et quorum ratione
+            verifica<lb ed="#V" n="83" break="no"/>tur in eo forma, sed gratiae et regni;
+            <lb ed="#V" n="84"/>ergo a fortiori, vera erit in eo forma
+            <lb ed="#V" n="85"/>Baptismi. Probatur minor, quia Deus de
+            <lb ed="#V" n="86"/>potentia absoluta, nequit remittere
+            pec<lb ed="#V" n="87" break="no"/>catum, quod non est; sed causa
+            instru<lb ed="#V" n="88" break="no"/>mentalis, qualis est Baptismus, non
+            ex<pb ed="#V" n="469"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tendit suam activitatem ultra activitatem
+            <lb ed="#V" n="2"/>et potentiam causae principalis, qui est
+            <lb ed="#V" n="3"/>Deus, ut assistit Sacramentis, Tridentin.
+            <lb ed="#V" n="4"/>sess. 6. cap. 7.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Secundo confirmatur, non est magis
+            <lb ed="#V" n="6"/>de veritate practica formae Baptismi
+            re<lb ed="#V" n="7" break="no"/>mittere peccatum, quam conferre
+            gra<lb ed="#V" n="8" break="no"/>tiam, imo hoc magis cadit in veritatem
+            <lb ed="#V" n="9"/>formae practicam et efficacem, quia
+            gra<lb ed="#V" n="10" break="no"/>tia est terminus ad quem, terminus
+            au<lb ed="#V" n="11" break="no"/>tem a quo est peccatum, neque remittit
+            <lb ed="#V" n="12"/>illud, aut remissiva est peccati, nisi ut
+            <lb ed="#V" n="13"/>confert gratiam peccatori; terminus
+            au<lb ed="#V" n="14" break="no"/>tem ad quem in physicis et moralibus
+            <lb ed="#V" n="15"/>magis intenditur ab agente, quia per se,
+            <lb ed="#V" n="16"/>terminus a quo per accidens. Actio
+            au<lb ed="#V" n="17" break="no"/>tem baptismalis, ut est circa peccatum,
+            <lb ed="#V" n="18"/>concipitur per modum regenerationis et
+            <lb ed="#V" n="19"/>justificationis, in quibus terminus a quo
+            <lb ed="#V" n="20"/>est peccatum, ut concipitur tanquam
+            pri<lb ed="#V" n="21" break="no"/>vatio vitae, quae est per justitiam; ideoque
+            <lb ed="#V" n="22"/>tam Scriptura quam Patres hanc
+            regene<lb ed="#V" n="23" break="no"/>rationem explicant per renascentiam,
+            <lb ed="#V" n="24"/>mundationem, ablutionem,
+            sanctificati<lb ed="#V" n="25" break="no"/>onem a peccato, in quibus omnibus
+            pec<lb ed="#V" n="26" break="no"/>catum connotatur ut terminus a quo,
+            <lb ed="#V" n="27"/>ipsa gratia, ut sanctificans et mundans,
+            <lb ed="#V" n="28"/>generans ad vitam, justificans, ut
+            termi<lb ed="#V" n="29" break="no"/>nus ad quem.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Et novissime Tridentinum sess 6. cap.
+            <lb ed="#V" n="31"/>5. et 7. in descriptione justificationis,
+            <lb ed="#V" n="32"/>ejusque explicatione sic docet: esse
+            trans<lb ed="#V" n="33" break="no"/>lationem ab eo statu, in quo quis nascitur
+            <lb ed="#V" n="34"/>filius Adam, ad statum adoptionis
+            filio<lb ed="#V" n="35" break="no"/>rum, etc. et loquitur de ea, quae fit per
+            <lb ed="#V" n="36"/>Baptismum, ubi denotat terminum a quo
+            <lb ed="#V" n="37"/>esse peccatum, ad quem vero gratiam et
+            <lb ed="#V" n="38"/>renovationcm interioris hominis.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Et optime Divus Thomas in 4. dist.
+            <lb ed="#V" n="40"/>1. quaest. 1. art. 1. quaestiuncula 1.
+            <lb ed="#V" n="41"/>ad 1. et quaest. 28. de veritate, art. 1.
+            <lb ed="#V" n="42"/>in corpore, distinguit terminum a
+            <lb ed="#V" n="43"/>quo justificationis, in pure negativum
+            <lb ed="#V" n="44"/>formae, quo modo inveniebatur in
+            An<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>gelis, et primo homine in statu
+            integri<lb ed="#V" n="46" break="no"/>tatis, justificatio procedens ex pura
+            ca<lb ed="#V" n="47" break="no"/>rentia formae, ad ipsam formam. Alio
+            mo<lb ed="#V" n="48" break="no"/>do, ut supponit contrarium, vel rigorose
+            <lb ed="#V" n="49"/>negativum, ut est justificatio impii, et in
+            <lb ed="#V" n="50"/>qua consistit actio baptismalis, quae nullo
+            <lb ed="#V" n="51"/>modo imaginario connotat peccatum, nisi
+            <lb ed="#V" n="52"/>ut terminum a quo, aut significat; ergo
+            gra<lb ed="#V" n="53" break="no"/>tia, quae est terminus ad quem, magis
+            ca<lb ed="#V" n="54" break="no"/>dit sub veritate formae, quam peccatum;
+            <lb ed="#V" n="55"/>quo supposito, sic subsumo:
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Sed de fide est, formam esse veram
+            <lb ed="#V" n="57"/>in ficto vel haeretico et schismatico,
+            <lb ed="#V" n="58"/>quamvis non significet collatienem
+            gra<lb ed="#V" n="59" break="no"/>tiae, nec, quod amplius est, remissionem
+            <lb ed="#V" n="60"/>ullam peccati; ergo etiam vera esse
+            po<lb ed="#V" n="61" break="no"/>test a fortiori, in eo in quo significat
+            <lb ed="#V" n="62"/>gratiam, quamvis nullam remissionem
+            <lb ed="#V" n="63"/>peccati, aut ipsum peccatum connotat.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Confirmatur, eatenus agit Baptismus
+            <lb ed="#V" n="65"/>ad remissionem peccati, quatenus habet
+            <lb ed="#V" n="66"/>efficaciam conferendae prima gratiae, ut
+            <lb ed="#V" n="67"/>supponitur ex dictis, et patet ex Trident.
+            <lb ed="#V" n="68"/>sess. 5. cap. 9. Quamvis autem
+            neces<lb ed="#V" n="69" break="no"/>sarium sit credere, neque remitti neque
+            <lb ed="#V" n="70"/>remissa unquam fuisse peccata, nisi
+            <lb ed="#V" n="71"/>gratis divina misericordia, etc. Quomodo
+            <lb ed="#V" n="72"/>autem fiat, docuit cap. 7. Quanquam
+            <lb ed="#V" n="73"/>enim, inquit, nemo possit esse justus,
+            <lb ed="#V" n="74"/>nisi cui merita passionis Domini nostri
+            <lb ed="#V" n="75"/>Jesu Christi communicantur, id tamen in
+            <lb ed="#V" n="76"/>hac impii justificatione fit, dum ejusdem
+            <lb ed="#V" n="77"/>sanctissimae passionis merito per Spiritum
+            <lb ed="#V" n="78"/>sanctum charitas Dei diffunditur in
+            cor<lb ed="#V" n="79" break="no"/>dibus eorum qui justificantur atque ipsis
+            in<lb ed="#V" n="80" break="no"/>haeret, etc. Et infra assignans causam
+            for<lb ed="#V" n="81" break="no"/>malem justificationis, et instrumentalem:
+            <lb ed="#V" n="82"/>Instrumentalis item Sacramentum
+            Bapti<lb ed="#V" n="83" break="no"/>smi, etc. demum unica formalis causa est,
+            <lb ed="#V" n="84"/>justitia Dei, non qua ipse justus est,
+            <lb ed="#V" n="85"/>sed qua nos justos facit, qua videlicet
+            <lb ed="#V" n="86"/>ab eo donati renovamur, etc. justi
+            nomi<lb ed="#V" n="87" break="no"/>namur et sumus, justitiam in nobis
+            reci<lb ed="#V" n="88" break="no"/>pientes, etc. ergo quoties absolvitur
+            for<pb ed="#V" n="470"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ma a conferenda gratia, seu ejus
+            colla<lb ed="#V" n="2" break="no"/>tione, absolvitur etiam a connotatione et
+            <lb ed="#V" n="3"/>significatione peccati; a collatione gratiae
+            <lb ed="#V" n="4"/>absolvitur in ficto, ergo a remissione
+            pec<lb ed="#V" n="5" break="no"/>cati et ejus connotatione; absolvitur etiam
+            <lb ed="#V" n="6"/>in justificatis alias seu quocumque
+            mo<lb ed="#V" n="7" break="no"/>do existentibus in gratia, a collatione
+            gra<lb ed="#V" n="8" break="no"/>tiae primae, quae sola habet annexam
+            remis<lb ed="#V" n="9" break="no"/>sionem peccati ejusque connotationem per
+            <lb ed="#V" n="10"/>modum termini a quo; ergo etiam
+            absol<lb ed="#V" n="11" break="no"/>vitur a connotatione peccati, quod solum
+            <lb ed="#V" n="12"/>connotat inquantum illud remittit actu per
+            <lb ed="#V" n="13"/>collationem gratiae; connotat, inquam,
+            <lb ed="#V" n="14"/>quantum ad inesse ejus; ergo in Beata
+            <lb ed="#V" n="15"/>Virgine a fortiori absolvitur ab hac
+            con<lb ed="#V" n="16" break="no"/>notatione, cui probabile est nullam
+            dedis<lb ed="#V" n="17" break="no"/>se gratiam juxta superius dicta, vel si
+            <lb ed="#V" n="18"/>dederit in sententia totius Ecclesiae
+            <lb ed="#V" n="19"/>et scholae, non potuit esse prima gratia,
+            <lb ed="#V" n="20"/>quae habet annexam remissionem peccati.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Confirmatur et peto, quo fundamento
+            <lb ed="#V" n="22"/>asseritur, formam Baptismi connotare
+            <lb ed="#V" n="23"/>peccatum? Nullum aliud afferri potest,
+            ni<lb ed="#V" n="24" break="no"/>si illud solum, quo dicitur dari in
+            remis<lb ed="#V" n="25" break="no"/>sionem peccatorum; sed Scriptura et
+            Pa<lb ed="#V" n="26" break="no"/>tres hanc veritatem et significationem
+            <lb ed="#V" n="27"/>formae referunt ad peccatum, quod inest,
+            <lb ed="#V" n="28"/>et remittitur de facto virtute Sacramenti
+            <lb ed="#V" n="29"/>recepti in ejus remissionem; non vero
+            re<lb ed="#V" n="30" break="no"/>ferunt hunc sensum ad peccatum quod
+            <lb ed="#V" n="31"/>non inest, sed fuit remissum per alia
+            re<lb ed="#V" n="32" break="no"/>media, quia sic se habet, quasi nunquam
+            <lb ed="#V" n="33"/>inesset, quando suscipitur Baptismus; unde
+            <lb ed="#V" n="34"/>remissionem ejus alias obtentam non
+            re<lb ed="#V" n="35" break="no"/>ferunt in efficaciam Baptismi, qua
+            Sacra<lb ed="#V" n="36" break="no"/>mentum est, sed in fidem, poenitentiam
+            <lb ed="#V" n="37"/>et charitatem, vel sanctificationem ex
+            pri<lb ed="#V" n="38" break="no"/>vilegio, ut contingit in iis, qui in utero
+            <lb ed="#V" n="39"/>sanctificantur, ut patet Act. 10. ubi
+            Chry<lb ed="#V" n="40" break="no"/>sostomus, et alii. Augustinus lib. 4. de
+            <lb ed="#V" n="41"/>Baptismo, c. 15. et aliis locis supra
+            cita<lb ed="#V" n="42" break="no"/>tis, et proedicto c. 21. et 22. docet
+            mi<lb ed="#V" n="43" break="no"/>nistrari Sacramentum justificatis, ut
+            Cor<lb ed="#V" n="44" break="no"/>nelio, non in remissionem peccatorum,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>sed ut conjungerentur Ecclesiae et ad
+            in<lb ed="#V" n="46" break="no"/>gressum regni coelestis.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Quam veritatem communi consensu
+            <lb ed="#V" n="48"/>Scholastici, ut D. Thomas in 4. dist. 18.
+            <lb ed="#V" n="49"/>queest. 1. art. 3. ad secundam
+            responsi<lb ed="#V" n="50" break="no"/>onem, asserens neque Baptismum, neque
+            <lb ed="#V" n="51"/>Poenitentiam dari in remissionem peccati
+            <lb ed="#V" n="52"/>sanctificatis per contritionem. Et 3. part.
+            <lb ed="#V" n="53"/>quoest. 68. art. 1. ad 3. dicit sanctificatos
+            <lb ed="#V" n="54"/>in utero recipere remissionem peccati,
+            <lb ed="#V" n="55"/>per Baptismum autem characterem.
+            Vi<lb ed="#V" n="56" break="no"/>deatur quaest. 66. art. 11. et quaest. 69.
+            <lb ed="#V" n="57"/>art. 4. ad. 2. Alensis 4. part. quaest. 8.
+            <lb ed="#V" n="58"/>m. 7. art. 1. 8 6. D. Bonavent. in 4. 1
+            <lb ed="#V" n="59"/>dist. 6. quaest. 2. ubi etiam S. Thomas
+            <lb ed="#V" n="60"/>quoest. 1. art. 1. quoestiuncula 3. ubi
+            asse<lb ed="#V" n="61" break="no"/>runt quod si sanctificato in utero daretur
+            <lb ed="#V" n="62"/>Baptismus in remissionem peccati,
+            fi<lb ed="#V" n="63" break="no"/>eret contemptus et sacrilegium, dari
+            au<lb ed="#V" n="64" break="no"/>tem ad alios effectus. Richardus in 4.1
+            <lb ed="#V" n="65"/>dist. 4. quaest. 3. ad 4. noster Doctor loco
+            <lb ed="#V" n="66"/>citato, et communiter omnes. Ex quibus
+            <lb ed="#V" n="67"/>patet, Baptismum nullo modo connotare
+            <lb ed="#V" n="68"/>peccatum praesens, aut praeteritum in
+            <lb ed="#V" n="69"/>sanctificatis.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Applicant quidam eorum rationem,
+            <lb ed="#V" n="71"/>quam adducunt Patres contra
+            rebaptizan<lb ed="#V" n="72" break="no"/>tes, quae perinde hic concludit, quia si
+            <lb ed="#V" n="73"/>Baptismus daretur in remissionem
+            pecca<lb ed="#V" n="74" break="no"/>ti sanctificatis, esset signum falsum
+            si<lb ed="#V" n="75" break="no"/>gnificans peccatum esse, quod non est,
+            <lb ed="#V" n="76"/>sicut si Baptismus daretur baptizato,
+            <lb ed="#V" n="77"/>esset signum falsum, quia denotaret eum
+            <lb ed="#V" n="78"/>non habere consignationem quam habet.
+            <lb ed="#V" n="79"/>Videatur Clemens Romanus lib. 6.
+            con<lb ed="#V" n="80" break="no"/>stitut. c. 15. Ambrosius lib. 2.de Sacram.
+            <lb ed="#V" n="81"/>cap. 2. Basilius lib. de Spiritu sancto,
+            <lb ed="#V" n="82"/>c. 15. Damascenus lib. 4. de fide, cap.10.
+            <lb ed="#V" n="83"/>Isidorus lib. 2. de divinis officiis, cap.
+            <lb ed="#V" n="84"/>de Baptismo, Augustinus tract. 5. in
+            <lb ed="#V" n="85"/>Joannem: Dare, inquit, non potes quod
+            <lb ed="#V" n="86"/>jam habet, sed facis negare quod
+            ha<lb ed="#V" n="87" break="no"/>bet, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="88"/>Quinta conclusio: Sensus formae
+            sa<pb ed="#V" n="471"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>cramentalis est ut contineat in virtute
+            <lb ed="#V" n="2"/>sua remissionem peccati quantum est ex
+            <lb ed="#V" n="3"/>parte Sacramenti, non vero quod actu
+            <lb ed="#V" n="4"/>conferat cuicumque subjecto illam
+            re<lb ed="#V" n="5" break="no"/>missionem, si non est capax remissionis,
+            <lb ed="#V" n="6"/>sive ex obice, sive quia non indiget, ut
+            <lb ed="#V" n="7"/>cui nullum insit peccatum. Haec sequitur
+            <lb ed="#V" n="8"/>ex dictis, et probari potest ex
+            Triden<lb ed="#V" n="9" break="no"/>tino sess. 7. de Sacram. in genere can. 6.
+            <lb ed="#V" n="10"/>ubi definit Sacramenta novae legis
+            con<lb ed="#V" n="11" break="no"/>tinere gratiam, quam significant, nempe
+            <lb ed="#V" n="12"/>in virtute et efficacia, quae competit
+            cau<lb ed="#V" n="13" break="no"/>sae efficienti instrumentali, eamque dare
+            <lb ed="#V" n="14"/>suscipientibus quantum est ex parte
+            <lb ed="#V" n="15"/>Sacramenti, nisi obex ponatur; idem
+            ha<lb ed="#V" n="16" break="no"/>bet Canone sequenti. Hugo de S. Victore
+            <lb ed="#V" n="17"/>lib. 2. de Sacramentis, part. 14. cap. 8.
+            <lb ed="#V" n="18"/>ubi dicit formas sacramentales Baptismi
+            <lb ed="#V" n="19"/>et Poenitentiae, non actum, aut eventum,
+            <lb ed="#V" n="20"/>sed virtutem suorum effectuum
+            signifi<lb ed="#V" n="21" break="no"/>care; quod perinde est ac denotare
+            <lb ed="#V" n="22"/>virtutem et efficaciam respectu effectus;
+            <lb ed="#V" n="23"/>non autem semper ipsum effectum,
+            <lb ed="#V" n="24"/>quia hic dependet etiam a statu et
+            dis<lb ed="#V" n="25" break="no"/>positione subjecti.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Hinc recte noster Corduba lib. 1.
+            quae<lb ed="#V" n="27" break="no"/>stionum, quaest. 1. opinione 2 ad
+            secun<lb ed="#V" n="28" break="no"/>dum, sic interpretatur sensum formae
+            <lb ed="#V" n="29"/>Baptismi et Poenitentiae: Do tibi
+            Sacra<lb ed="#V" n="30" break="no"/>mentum habens virtutem deletivam
+            <lb ed="#V" n="31"/>peccati, quoad culpam et poenam
+            ceter<lb ed="#V" n="32" break="no"/>nam, etc. si eges, etc. et nisi obicem
+            <lb ed="#V" n="33"/>posueris. Suarez tom. 4. in 3. p.
+            <lb ed="#V" n="34"/>disp. 19. hanc appellat communem
+            Do<lb ed="#V" n="35" break="no"/>ctorum, quam ipse sequitur; quod recte
+            <lb ed="#V" n="36"/>colligitur ex jam citatis supra, et ex
+            <lb ed="#V" n="37"/>negantibus Baptismum dari in
+            remissi<lb ed="#V" n="38" break="no"/>onem peccatorum sanctificatis. Vasquez
+            <lb ed="#V" n="39"/>tom. 4. in 3. part, quaest. 91. et
+            quot<lb ed="#V" n="40" break="no"/>quot specialiter cum D. Thoma dari
+            <lb ed="#V" n="41"/>Sacramentum Poenitentiae validum in
+            <lb ed="#V" n="42"/>forma.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Sicut ergo Baptismus datus parvulis
+            <lb ed="#V" n="44"/>non habet omnem effectum suum,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>nempe remissionem actualis, quia illud
+            <lb ed="#V" n="46"/>non est in parvulo, ita in adulto
+            sancti<lb ed="#V" n="47" break="no"/>ficato vere forma Sacramenti, et ipsum
+            <lb ed="#V" n="48"/>etiam Sacramentum verificatur, quamvis
+            <lb ed="#V" n="49"/>non in remissionem peccati, sed ad alios
+            <lb ed="#V" n="50"/>effectus. Unde manet probatum, quod
+            <lb ed="#V" n="51"/>supra dicit Doctor, Sacramentum
+            remit<lb ed="#V" n="52" break="no"/>tere peccatum aliquando in fieri, nempe
+            <lb ed="#V" n="53"/>quando inest, aliquando in facto esse
+            <lb ed="#V" n="54"/>et in fore si inesset, per quae verba
+            <lb ed="#V" n="55"/>nihil aliud denotat quam virtutem
+            Sa<lb ed="#V" n="56" break="no"/>cramenti, quantum est ex parte ipsius.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Sequitur ex his in Beatissima Virgine,
+            <lb ed="#V" n="58"/>et immaculata ab omni peccato operis et
+            <lb ed="#V" n="59"/>originis, potuisse verificari formam
+            Sa<lb ed="#V" n="60" break="no"/>cramenti, sine ullo praejudicio suae
+            inno<lb ed="#V" n="61" break="no"/>centiae, sine ulla connotatione peccati
+            <lb ed="#V" n="62"/>praeteriti et praesentis, quia in ea
+            Bapti<lb ed="#V" n="63" break="no"/>smus haberet alios suos effectus, per quos
+            <lb ed="#V" n="64"/>subsisteret veritas practica ejus, sicut
+            <lb ed="#V" n="65"/>fusius probatum est, non esse de veritate
+            <lb ed="#V" n="66"/>aut efficacia Sacramenti, aut ullius causae,
+            <lb ed="#V" n="67"/>aut etiam in actu secundo, ut producat
+            <lb ed="#V" n="68"/>omnem effectum, ad quem ordinatur ex
+            <lb ed="#V" n="69"/>virtute sua, in quovis subjecto
+            quomo<lb ed="#V" n="70" break="no"/>documque disposito, aut non capaci.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Et perinde difficultas supra proposita
+            <lb ed="#V" n="72"/>urget auctores, quia asserunt Virginem
+            <lb ed="#V" n="73"/>fuisse a peccato sanctificatam in utero,
+            <lb ed="#V" n="74"/>sicut alias negantes contraxisse peccatum, 1
+            <lb ed="#V" n="75"/>ut ingenue fatetur supra Sotus, nam, ut
+            <lb ed="#V" n="76"/>infra videbimus, et jam probatam est,
+            Ca<lb ed="#V" n="77" break="no"/>non citatus (quantum ad vim consequentis.
+            <lb ed="#V" n="78"/>et argumenti sumpti de veritate formae
+            <lb ed="#V" n="79"/>Baptismi in infantibus, quo probet eos
+            ha<lb ed="#V" n="80" break="no"/>bere peccatum originale contractum ex
+            <lb ed="#V" n="81"/>primo parente; quod est intentum
+            conse<lb ed="#V" n="82" break="no"/>quentiae illatae) intendit probare peccatum
+            <lb ed="#V" n="83"/>inesse, et non quod tantum fuerit nec
+            <lb ed="#V" n="84"/>concluderet, si aliunde deleri posset,
+            <lb ed="#V" n="85"/>quam per Baptismum de lege; unde
+            con<lb ed="#V" n="86" break="no"/>sequentia Concilii non extenditur ad
+            adul<lb ed="#V" n="87" break="no"/>tos, quibus alia remedia ante Baptismum
+            <lb ed="#V" n="88"/>suppetunt delendi peccati.
+          </p>
+          <p>
+            <pb ed="#V" n="472"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Ultima conclusio: Baptismus Virginis,
+            <lb ed="#V" n="2"/>et forma ejus fuit vera practice absque
+            <lb ed="#V" n="3"/>connotatione peccati, vel quod tum infuit,
+            <lb ed="#V" n="4"/>aut quod antea fuerit. Haec est conclusio
+            <lb ed="#V" n="5"/>principaliter intenta, et probata est in
+            <lb ed="#V" n="6"/>praecedentibus per argumentum a loco
+            <lb ed="#V" n="7"/>intrinseco, de natura et efficacia et
+            signifi<lb ed="#V" n="8" break="no"/>catione formae baptismalis ex fidei,
+            Pa<lb ed="#V" n="9" break="no"/>trum, Doctorum regulis. Eam ex
+            abun<lb ed="#V" n="10" break="no"/>danti probamus, ex usu aliorum
+            Sacra<lb ed="#V" n="11" break="no"/>mentorum, et per medium extrinsecum.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Primo, Circumcisio fuit instituta in
+            <lb ed="#V" n="13"/>remedium peccati originalis, quae est
+            con<lb ed="#V" n="14" break="no"/>stans sententia S. Augustini lib. 2.
+            con<lb ed="#V" n="15" break="no"/>tra Julianum, cap. 18. lib. 5. cap. 9.
+            <lb ed="#V" n="16"/>lib. 2. de gratia Christi, et peccato orig.
+            <lb ed="#V" n="17"/>cap. 30. et 32. lib. 2. de nuptiis, et
+            <lb ed="#V" n="18"/>concupisc. cap. 11. et 12. lib. 4. de Bapt.
+            <lb ed="#V" n="19"/>cap. 24. lib. 2. contra litteras Petil.
+            <lb ed="#V" n="20"/>cap. 72. lib. 13. de Civit. cap. 16. lib 16.
+            <lb ed="#V" n="21"/>c. 27. epist. ad Dardanum, epist. 203. in
+            <lb ed="#V" n="22"/>Psalm. 75. tract. 30. in Joan. idem
+            Au<lb ed="#V" n="23" break="no"/>ctor Hypognostici lib. 5. Prosper epist.
+            <lb ed="#V" n="24"/>quee est 84. inter Ambrosiana;, et lib. de
+            <lb ed="#V" n="25"/>promissionibus Dei, 1. part. cap. 14.
+            <lb ed="#V" n="26"/>omnes Patres posteriores et Scholastici,
+            <lb ed="#V" n="27"/>quos supra dist. 1. quaest. 6. citavimus.
+            <lb ed="#V" n="28"/>Sed Jeremias fuit circumcisus, in quo
+            <lb ed="#V" n="29"/>non habuit illum effectum Circumcisio,
+            <lb ed="#V" n="30"/>neque habere potuit, quia fuit
+            sanctifi<lb ed="#V" n="31" break="no"/>catus in utero, ut Athanasius lib. 4.
+            con<lb ed="#V" n="32" break="no"/>tra Arianos docet, Ambrosius lib. 4. de
+            <lb ed="#V" n="33"/>fide, cap. 4. Cyrillus Jerosolymitanus
+            <lb ed="#V" n="34"/>Catechesi 3. plerique Patres et Scholastici.
+            <lb ed="#V" n="35"/>Joannes Baptista codem modo
+            sanctifica<lb ed="#V" n="36" break="no"/>tus in utero, ut Athanasius, Eusebius
+            <lb ed="#V" n="37"/>Emissenus, Cyrillus Jerosolymitanus,
+            Cy<lb ed="#V" n="38" break="no"/>prianus, Ambrosius, Gregorius Magnus,
+            <lb ed="#V" n="39"/>et Scholastici asserunt, fuit circumcisus,
+            <lb ed="#V" n="40"/>sine codem effectu. Abraham similiter
+            <lb ed="#V" n="41"/>circumcisus sine simili effectu, ad
+            Roma<lb ed="#V" n="42" break="no"/>nos 4. Salvator circumcisus fuit, Lucce 1.
+            <lb ed="#V" n="43"/>Circumcisio autem figura fuit Baptismi, et
+            <lb ed="#V" n="44"/>liberationis a peccato, ad Colossens. 2.
+            sic<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>ut praeputium signum peccatoris,
+            Deute<lb ed="#V" n="46" break="no"/>ronom. 10. et 30. Circumcidite
+            proepu<lb ed="#V" n="47" break="no"/>tium cordis vestri, etc. ad Rom. 2. Si
+            au<lb ed="#V" n="48" break="no"/>tem proevaricator legis sis, circumcisio
+            <lb ed="#V" n="49"/>tua praeputium factum est, etc. et
+            Phi<lb ed="#V" n="50" break="no"/>lip. 3. fuit signum peccati originalis,
+            <lb ed="#V" n="51"/>ut docet Augustinus lib. 6. contra
+            Juli<lb ed="#V" n="52" break="no"/>anum, c. 7. esse signum peccatoris, ait
+            <lb ed="#V" n="53"/>Bernard. serm. 1. et 3. de Circumcisione,
+            <lb ed="#V" n="54"/>Alensis 4. p. quaest. 8. m. 7. art. 1. 8 6.
+            <lb ed="#V" n="55"/>D. Bonavent. in 4. dist. 1. p. 2. dist.
+            <lb ed="#V" n="56"/>art. 1. quaest. 2. et communis
+            Theologo<lb ed="#V" n="57" break="no"/>rum. Sed in Christo non habuit hanc
+            si<lb ed="#V" n="58" break="no"/>gnificationem, neque habere potuit, sed
+            <lb ed="#V" n="59"/>alias, de quibus Epiphanius hoeresi 30.
+            <lb ed="#V" n="60"/>nempe ut confirmaret legem a se datam,
+            <lb ed="#V" n="61"/>ut ostenderet veritatem carnis, et se esse
+            <lb ed="#V" n="62"/>de genere Abraham, cui promissus est,
+            <lb ed="#V" n="63"/>ut Judaei non haberent excusationem;
+            er<lb ed="#V" n="64" break="no"/>go similiter Baptismus potest esse verus,
+            <lb ed="#V" n="65"/>sine eo quod significet peccatum in
+            Vir<lb ed="#V" n="66" break="no"/>gine.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Secundo, Baptismus Joannis in Jordane
+            <lb ed="#V" n="68"/>fuit signum peccatoris et poenitentiae,
+            <lb ed="#V" n="69"/>Marci 1. Matth. 3. Lucae 3. Beda,
+            Theo<lb ed="#V" n="70" break="no"/>phylactus in 1. Marci. Magister in 4. dist.
+            <lb ed="#V" n="71"/>2. et reliqui. D. Thomas 3. part. quaest.
+            <lb ed="#V" n="72"/>37. et 38. Sed hoc baptismate tinctus est
+            <lb ed="#V" n="73"/>Christus, in quo non significavit peccatum,
+            <lb ed="#V" n="74"/>aut poenitentiam; nec proinde in ipso
+            <lb ed="#V" n="75"/>fuit falsum signum, ob alias rationes ab
+            <lb ed="#V" n="76"/>his diversas, quae per tale Baptisma
+            de<lb ed="#V" n="77" break="no"/>signabantur, quas colligit D. Thomas in
+            <lb ed="#V" n="78"/>4. dist. 2. q. 2. art. 3. in corpore. Alensis
+            <lb ed="#V" n="79"/>4. part. q. 6. m. 5. et m. 6. art. 1. Glossa
+            <lb ed="#V" n="80"/>in Marcum, Augustinus lib. 5. de Baptismo
+            <lb ed="#V" n="81"/>contra Donatistas cap. 11. Unde S.
+            Tho<lb ed="#V" n="82" break="no"/>mas quaestiuncula I. objicit quod Christus
+            <lb ed="#V" n="83"/>non potuit baptizari Joannis Baptimo,
+            <lb ed="#V" n="84"/>quia erat poenitentiae, et designabat
+            pec<lb ed="#V" n="85" break="no"/>catum, quorum neutrum potuit esse in
+            <lb ed="#V" n="86"/>Christo, sicut etiam circumcisus fuit non
+            <lb ed="#V" n="87"/>in remedium peccati, sicut et alii.
+          </p>
+          <p>
+            <lb ed="#V" n="88"/>Tertio, Christus fuit in templo
+            praesen<pb ed="#V" n="473"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tatus, et pro eo oblatum sacrificium par
+            <lb ed="#V" n="2"/>turturum, aut duo pulli columbarum;
+            <lb ed="#V" n="3"/>quod sacrificium jubebat lex Levit. 12.
+            <lb ed="#V" n="4"/>offerri pro peccato non patris, sed filii,
+            <lb ed="#V" n="5"/>sive intelligatur originale, sive
+            immundi<lb ed="#V" n="6" break="no"/>tia legalis contracta ex vi conceptionis,
+            <lb ed="#V" n="7"/>aut nativitatis sanguinolentae, ut docet
+            <lb ed="#V" n="8"/>Augustinus lib. quaest. in Leviticum,
+            <lb ed="#V" n="9"/>quaest. 40. Beda, et Euthymius in cap. 2.
+            <lb ed="#V" n="10"/>Lucae, et alii; sed neutrum horum
+            con<lb ed="#V" n="11" break="no"/>tigit in Christo, quia prodiit clauso utero,
+            <lb ed="#V" n="12"/>et absque secundinis, aut ulla macula,
+            <lb ed="#V" n="13"/>ut habet Canon 37. in Trullo, epist.
+            So<lb ed="#V" n="14" break="no"/>phronii in VI. Synodo Act. 11. Cyprianus
+            <lb ed="#V" n="15"/>serm. de Nat. Domini, Augustinus lib. 29.
+            <lb ed="#V" n="16"/>contra Faustum cap. 3. et 4. S. Thomas
+            <lb ed="#V" n="17"/>3. part. quaest. 35. art. 6. Hoc autem
+            <lb ed="#V" n="18"/>sacrificium fuit verum et religiosum in
+            <lb ed="#V" n="19"/>Christo, sed non secundum illam
+            signi<lb ed="#V" n="20" break="no"/>ficationem, sed aliam approbationis et
+            <lb ed="#V" n="21"/>adimpletionis et oblationis suo Patri in
+            <lb ed="#V" n="22"/>templo; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Quarto, Christus in ultima Coena
+            sum<lb ed="#V" n="24" break="no"/>psit Eucharistiam cum discipulis, ut
+            Hie<lb ed="#V" n="25" break="no"/>ronymus in epist. ad Hedibiam, quaest. 2.
+            <lb ed="#V" n="26"/>et D. Thomas 3. part. quaest. 79. art. 1.
+            <lb ed="#V" n="27"/>Tertullianus lib. 4. contra Marcionem, et
+            <lb ed="#V" n="28"/>alii, ut suo loco dicemus. Si ergo
+            Cir<lb ed="#V" n="29" break="no"/>cumcisio, oblatio in templo, et
+            sacrifi<lb ed="#V" n="30" break="no"/>cium, Baptismus Joannis denotant
+            pec<lb ed="#V" n="31" break="no"/>cata, ut significata sua primaria, quo non
+            <lb ed="#V" n="32"/>obstante fuerunt vera signa in Christo,
+            <lb ed="#V" n="33"/>sine tali significatione; eodem modo
+            Ba<lb ed="#V" n="34" break="no"/>ptismus Virginis fuit verum signum
+            pra<lb ed="#V" n="35" break="no"/>cticum, quamvis non habuerit adjunctam
+            <lb ed="#V" n="36"/>remissionem peccati, cujus non erat illa
+            <lb ed="#V" n="37"/>capax, quia aliorum effectuum ejus fuit
+            <lb ed="#V" n="38"/>capax, et probabiliter etiam gratiae.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Adduci ad haec possunt aliae rationes,
+            <lb ed="#V" n="40"/>juxta satis fundata placita et communia
+            <lb ed="#V" n="41"/>plurium Doctorum, ut quod fuerit in
+            Vir<lb ed="#V" n="42" break="no"/>gine poenitentia virtus, quae non minus
+            <lb ed="#V" n="43"/>respicit peccatum actuale, quam
+            Bapti<lb ed="#V" n="44" break="no"/>smus originale ex primaria inclinatione.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Item, Virginem suscepisse Extremam
+            <lb ed="#V" n="46"/>Unctionem, quae habet virtutem
+            remit<lb ed="#V" n="47" break="no"/>tendi peccatum, et corroborandi contra
+            <lb ed="#V" n="48"/>finales persecutiones, ut plures asserunt
+            <lb ed="#V" n="49"/>cum Trident. sess. 14.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Ex quibus omnibus, et alias praemissis
+            <lb ed="#V" n="51"/>colligo has veritates: prima quod Virgo,
+            <lb ed="#V" n="52"/>gratia plena, et in ea confirmata non
+            <lb ed="#V" n="53"/>habuit peccatum originale, aut actuale,
+            <lb ed="#V" n="54"/>quando suscepit Baptismum. Secunda
+            ve<lb ed="#V" n="55" break="no"/>ritas est, quod Baptismus non potuit dari
+            <lb ed="#V" n="56"/>eidem in remissionem peccati. Tertia,
+            <lb ed="#V" n="57"/>quod Baptismus non significat, neque
+            con<lb ed="#V" n="58" break="no"/>notat peccatum, nisi ut datur in
+            remis<lb ed="#V" n="59" break="no"/>sionem peccatorum. Quarta, quod forma
+            <lb ed="#V" n="60"/>Baptismi sit vera, si eo etiam, cui non
+            <lb ed="#V" n="61"/>datur in remissionem peccatorum, modo
+            <lb ed="#V" n="62"/>salventur aliqui alii ejus effectus in ipso,
+            <lb ed="#V" n="63"/>ac proinde veram fuisse in Virgine, sine
+            <lb ed="#V" n="64"/>ullo praejudicio suae innocentiae
+            immacu<lb ed="#V" n="65" break="no"/>latae.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Ad rationem dubitandi superius
+            addu<lb ed="#V" n="67" break="no"/>ctam, patet ad primum dari Baptisma in
+            <lb ed="#V" n="68"/>remissionem peccatorum, et quis sit
+            ve<lb ed="#V" n="69" break="no"/>rus sensus formae ejus, nempe intelligi,
+            <lb ed="#V" n="70"/>et referri ad potestatem, virtutem et
+            ef<lb ed="#V" n="71" break="no"/>ficaciam, quantum est ex parte Dei et
+            <lb ed="#V" n="72"/>Sacramenti; non vero in effectu ipso,
+            <lb ed="#V" n="73"/>nisi juxta statum et capacitatem
+            sub<lb ed="#V" n="74" break="no"/>jecti, aut dispositionem.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Ad secundum, quod est Canon
+            Milevi<lb ed="#V" n="76" break="no"/>tani, respondet quidam vir alias doctus
+            <lb ed="#V" n="77"/>et pius, in suo libro de Immaculata
+            Con<lb ed="#V" n="78" break="no"/>ceptione, cap. 24. n. 119. asserens non
+            <lb ed="#V" n="79"/>ex propria sententia, sed in sensu
+            hae<lb ed="#V" n="80" break="no"/>reticorum locutos fuisse Patres Concilii,
+            <lb ed="#V" n="81"/>et veluti argmento ad hominem eos
+            con<lb ed="#V" n="82" break="no"/>fodisse ex propriis, quia cum illi ultro
+            <lb ed="#V" n="83"/>admittebant, annuentes Baptisma dari in
+            <lb ed="#V" n="84"/>remissionem peccatorum; imo ipsi formae
+            <lb ed="#V" n="85"/>adderent illa verba, in remissionem
+            pec<lb ed="#V" n="86" break="no"/>catorum, etc. ut ex illo ipso Canone
+            <lb ed="#V" n="87"/>Concilii et verbis formae Baptismi in
+            re<lb ed="#V" n="88" break="no"/>missionem peccatorum, etc. inferri putat;
+            <pb ed="#V" n="474"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>et tamen negarent infantulos habere
+            <lb ed="#V" n="2"/>peccatum, a quo emaculari et abstergi
+            <lb ed="#V" n="3"/>possent per Baptismum, efficaciter
+            de<lb ed="#V" n="4" break="no"/>duxit contra eos Concilium, formam
+            il<lb ed="#V" n="5" break="no"/>lam, quam assignabant in remissionem
+            <lb ed="#V" n="6"/>peccatorum, etc. esse falsam, dum per
+            <lb ed="#V" n="7"/>eam ex eorum doctrina nullum
+            remitte<lb ed="#V" n="8" break="no"/>batur peccatum. Unde idem auctor
+            con<lb ed="#V" n="9" break="no"/>sequenter negat Concilium eo canone
+            <lb ed="#V" n="10"/>quidpiam assertive enuntiasse, aut
+            de<lb ed="#V" n="11" break="no"/>clarasse Baptismi formam non veram, si
+            <lb ed="#V" n="12"/>parvuli peccato carerent.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Caeterum haec interpretatio nequit
+            com<lb ed="#V" n="14" break="no"/>mode sustineri, neque est vera, nam eo
+            <lb ed="#V" n="15"/>ipso, quod ex Constantinopolitano (ut
+            <lb ed="#V" n="16"/>Scripturas et Patres omittamus) datur
+            Ba<lb ed="#V" n="17" break="no"/>ptisma in remissionem peccatorum (quod
+            <lb ed="#V" n="18"/>perinde priores Canones Tridentini,
+            alia<lb ed="#V" n="19" break="no"/>que plura loca jam citata aperte docent)
+            <lb ed="#V" n="20"/>non potuit forma Baptismi non dari in
+            <lb ed="#V" n="21"/>remissionem peccatorum; quod etiam
+            <lb ed="#V" n="22"/>satis constat ex ipsis ejus verbis.
+            <lb ed="#V" n="23"/>a Accedit quod praedictus Canon iisdem
+            <lb ed="#V" n="24"/>verbis concipitur in aliis Conciliis
+            Afri<lb ed="#V" n="25" break="no"/>canis sub Zozimo, Bonifacio et Caelestino;
+            <lb ed="#V" n="26"/>habetur in decretis Gratiani, Burchardi,
+            <lb ed="#V" n="27"/>Ivonis. Neque consuetum sit in
+            definiti<lb ed="#V" n="28" break="no"/>onibus Ecclesiae aliquid praeter
+            asserti<lb ed="#V" n="29" break="no"/>onem professam intexere. Ne ergo
+            re<lb ed="#V" n="30" break="no"/>petamus quod alias supra diximus,
+            tra<lb ed="#V" n="31" break="no"/>ctantes de erroribus, qui contra
+            verita<lb ed="#V" n="32" break="no"/>tem Baptismi emerserunt, et speciatim
+            <lb ed="#V" n="33"/>quid docuerint Pelagiani, et responderint
+            <lb ed="#V" n="34"/>ad hoc argumentum, quod urgebant
+            <lb ed="#V" n="35"/>Patres ex forma Baptismi, et
+            consuetu<lb ed="#V" n="36" break="no"/>dine Ecclesiae exorcizantis et baptizantis
+            <lb ed="#V" n="37"/>parvulos in remissionem peccatorum, ut
+            <lb ed="#V" n="38"/>patet ex pluribus locis Augustini, ibidem
+            <lb ed="#V" n="39"/>citatis, divisi sunt in duas partes; alii
+            <lb ed="#V" n="40"/>admittebant baptizari eos in remissionem
+            <lb ed="#V" n="41"/>peccati,; non originalis, quod negabant,
+            <lb ed="#V" n="42"/>sed actualis, quod propria voluntate, in
+            <lb ed="#V" n="43"/>parvulis est commissum. Alii vero
+            dice<lb ed="#V" n="44" break="no"/>bant baptizari tantum ut ingrederentur
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>regnum coelorum, non in remissionem
+            <lb ed="#V" n="46"/>peccati; de quibus fuse Augustinus locis
+            <lb ed="#V" n="47"/>supra citatis, cujus doctrinam secutum
+            <lb ed="#V" n="48"/>est Concilium Milevitanum, cui interfuit,
+            <lb ed="#V" n="49"/>et conditor cum reliquis ipsius Canonis
+            <lb ed="#V" n="50"/>fuit, ut Prosper, carmine de ingratis,
+            <lb ed="#V" n="51"/>loquens de eo Concilio: Cui dux
+            Aure<lb ed="#V" n="52" break="no"/>lius, ingenium Augustinus erat, etc.
+            Vi<lb ed="#V" n="53" break="no"/>deatur etiam epistola Synodica ad
+            In<lb ed="#V" n="54" break="no"/>nocentium, et alia Innocentii ad Patres
+            <lb ed="#V" n="55"/>Concihi Milevitani, quibus sensus
+            Eccle<lb ed="#V" n="56" break="no"/>siae declaratur.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Sed omnia remitto quoad hoc ad loca
+            <lb ed="#V" n="58"/>Augustini supra citata, et apertissime
+            <lb ed="#V" n="59"/>colligitur ex verbis subsequentibus ipsius
+            <lb ed="#V" n="60"/>Tridentini, rationem subjungentis
+            dicto<lb ed="#V" n="61" break="no"/>rum ex Apostolo, et interpretatione
+            Ec<lb ed="#V" n="62" break="no"/>clesiae: Quoniam, inquit, non aliter
+            intel<lb ed="#V" n="63" break="no"/>ligendum est in quod dixit Apostolus: per
+            <lb ed="#V" n="64"/>unum hominem peccatum intravit in
+            mun<lb ed="#V" n="65" break="no"/>dum, et per peccatum mors, et ita in
+            <lb ed="#V" n="66"/>omnes homines pertransiit, in quo omnes
+            <lb ed="#V" n="67"/>peccaverunt, nisi quemadmodum Ecclesia
+            <lb ed="#V" n="68"/>Catholica ubique diffusa semper
+            intelle<lb ed="#V" n="69" break="no"/>xit; propter enim regulam fidei ex
+            tra<lb ed="#V" n="70" break="no"/>ditione Apostolorum etiam parvuli, qui
+            <lb ed="#V" n="71"/>nihil peccatorum in semetipsis adhuc
+            com<lb ed="#V" n="72" break="no"/>mittere potuerunt, ideo in remissionem
+            <lb ed="#V" n="73"/>peccatorum veraciter baptizantur, ut in
+            <lb ed="#V" n="74"/>eis regeneratione mundetur, quod
+            genera<lb ed="#V" n="75" break="no"/>tione contraxerunt: nisi enim quis renatus
+            <lb ed="#V" n="76"/>fuerit, etc. Quibus verbis totius Canonis
+            <lb ed="#V" n="77"/>fundamentum habetur ex Scriptura,
+            tra<lb ed="#V" n="78" break="no"/>ditione Ecclesiae, forma baptizandi, et
+            <lb ed="#V" n="79"/>necessitate baptismi.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Sensus ergo Canonis planus, quem
+            <lb ed="#V" n="81"/>colligere licet ex Augustino variis in
+            lo<lb ed="#V" n="82" break="no"/>cis, et specialiter lib. 2. de peccato
+            origi<lb ed="#V" n="83" break="no"/>nali, cap. 40. qui hoc argumento utitur,
+            <lb ed="#V" n="84"/>non simulatorie, sed dogmatice, nam
+            <lb ed="#V" n="85"/>cum docuisset omnes filios Adam, etiam
+            <lb ed="#V" n="86"/>a parentibus Christianis, esse sub
+            pec<lb ed="#V" n="87" break="no"/>cato et damnatione, donec in Christo
+            <lb ed="#V" n="88"/>regenerantur, subdit: Denique ipsa
+            Ec<pb ed="#V" n="475"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>olesiae Sacramenta, quae tam priscae
+            ta<lb ed="#V" n="2" break="no"/>ditionis auctoritate concelebrat, ut ea isti,
+            <lb ed="#V" n="3"/>quamvis in parvulis existiment
+            simulato<lb ed="#V" n="4" break="no"/>rie potius quam veraciter fieri, non tamen
+            <lb ed="#V" n="5"/>audent aperte improbatione respuere; ipsa,
+            <lb ed="#V" n="6"/>inquam, sancta Ecclesiae Sacramenta satis
+            <lb ed="#V" n="7"/>indicant parvulos, a partu etiam
+            recen<lb ed="#V" n="8" break="no"/>tissimos, per gratiam Christi de diaboli
+            <lb ed="#V" n="9"/>servitio liberari; excepto enim quod in
+            <lb ed="#V" n="10"/>peccatorum remissionem non fallaci, sed
+            <lb ed="#V" n="11"/>fideli ministerio baptizantur, etiam prius
+            <lb ed="#V" n="12"/>exorcizantur in eis, et exsufflatur
+            po<lb ed="#V" n="13" break="no"/>testas contraria, qui etiam verbis eorum,
+            <lb ed="#V" n="14"/>a quibus portatur, sese renuntiare
+            re<lb ed="#V" n="15" break="no"/>sponaient, etc. et cap. 6. asserit se
+            nun<lb ed="#V" n="16" break="no"/>quam aliud audivisse, aut legisse
+            ante<lb ed="#V" n="17" break="no"/>quam Carthagine illud audierit,
+            sub<lb ed="#V" n="18" break="no"/>oriente haeresi Pelagiana.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Canon ergo secundum hanc doctrinam
+            <lb ed="#V" n="20"/>Ecclesiae, damnat primum negantes
+            par<lb ed="#V" n="21" break="no"/>vulos vere baptizari in remissionem
+            pec<lb ed="#V" n="22" break="no"/>cati, et per hoc asserentes simulatorie
+            <lb ed="#V" n="23"/>baptizari, ut dicebant Pelagiani, saltem
+            <lb ed="#V" n="24"/>quantum ad remissionem peccati; hoc
+            <lb ed="#V" n="25"/>enim docebat Pelagius, baptizari eos
+            tan<lb ed="#V" n="26" break="no"/>tum ut sanctificarentur, et ad ingressum
+            <lb ed="#V" n="27"/>regni coelorum, non ad remissionem
+            pec<lb ed="#V" n="28" break="no"/>cati, comprehendit infantes natos ex
+            <lb ed="#V" n="29"/>Christianis parentibus; hoc enim erat
+            <lb ed="#V" n="30"/>potissimum argumentum Pelagianorum
+            <lb ed="#V" n="31"/>contra Ecclesiam.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Secundo damnat errorem Caelestii, qui
+            <lb ed="#V" n="33"/>a admittebat parvulos baptizari in
+            remissi<lb ed="#V" n="34" break="no"/>onem peccatorum, sed non originalis,
+            <lb ed="#V" n="35"/>quod negabat, sed actualis per propriam
+            <lb ed="#V" n="36"/>voluntatem commissi.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Infert tertio loco illud consequens,
+            <lb ed="#V" n="38"/>nempe sequi formam Baptismi in eis
+            <lb ed="#V" n="39"/>esse falsam, si non haberent originale.
+            <lb ed="#V" n="40"/>Rationem autem consequentis infra,
+            sub<lb ed="#V" n="41" break="no"/>jicit: Parvuti qui nihil peccatorum in
+            <lb ed="#V" n="42"/>semetipsis adhuc committere potuerunt,
+            <lb ed="#V" n="43"/>ideo in remissionem peccatorum veraciter
+            <lb ed="#V" n="44"/>baptizantur, ut in eis regeneratione
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>mundetur, quod generatione contraxerunt,
+            <lb ed="#V" n="46"/>etc. Supponit autem Concilium
+            parvu<lb ed="#V" n="47" break="no"/>los non habere peccatum actuale, aut
+            <lb ed="#V" n="48"/>habere posse, quia non habent usum
+            <lb ed="#V" n="49"/>sui arbitrii, sive in bonum, sive in
+            <lb ed="#V" n="50"/>malum; ac proinde non posse applicari
+            <lb ed="#V" n="51"/>parvulis alia remedia, ut fidei et
+            charita<lb ed="#V" n="52" break="no"/>tis, per quae possint justificari, quia haec
+            <lb ed="#V" n="53"/>per proprium actum disponunt ad
+            justi<lb ed="#V" n="54" break="no"/>tiam, et libere convertendo se in Deum,
+            <lb ed="#V" n="55"/>ut Tridentinum sess. 6. cap. 5. can. 4.
+            <lb ed="#V" n="56"/>consequens est eos baptizari in
+            remissi<lb ed="#V" n="57" break="no"/>onem peccati originalis, quod aliter de
+            <lb ed="#V" n="58"/>lege nequit in eis tolli, ac proinde
+            for<lb ed="#V" n="59" break="no"/>mam fore falsam, nisi supponeretur
+            ori<lb ed="#V" n="60" break="no"/>ginale.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Quod consequens est verum, sed non
+            <lb ed="#V" n="62"/>extenditur ultra subjectam materiam,
+            <lb ed="#V" n="63"/>quia non comprehendit sanctificatos in
+            <lb ed="#V" n="64"/>utero, neque parvulos circumcisos, si
+            <lb ed="#V" n="65"/>qui fuerint baptizati currente fructu
+            <lb ed="#V" n="66"/>hujus remedii; neque etiam adultos,
+            <lb ed="#V" n="67"/>quia infra sess. 6. cap. 4. agens de
+            ju<lb ed="#V" n="68" break="no"/>stificatione adulti, admittit quandoque
+            <lb ed="#V" n="69"/>sanctificari cum voto Sacramenti, quibus
+            <lb ed="#V" n="70"/>non datur mox Sacramentum in
+            remis<lb ed="#V" n="71" break="no"/>sionem peccatorum. Minus autem recepit
+            <lb ed="#V" n="72"/>illud Beatissima Virgo in remissionem
+            <lb ed="#V" n="73"/>peccatorum, ad quam proinde nihil
+            spe<lb ed="#V" n="74" break="no"/>ctat Canon praefatus, neque consequens
+            <lb ed="#V" n="75"/>illatum a Patribus, imo est ad oppositum,
+            <lb ed="#V" n="76"/>quia intendit peccatum originale esse actu
+            <lb ed="#V" n="77"/>in infantibus, non autem fuisse. Accedit
+            <lb ed="#V" n="78"/>ulterius quod ipsi Patres Concilii sub
+            <lb ed="#V" n="79"/>finem noluerunt comprehendi in dictis
+            <lb ed="#V" n="80"/>canonibus Beatissimam Virginem:
+            De<lb ed="#V" n="81" break="no"/>clarat tamen haec sancta Synodus, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>Ad confirmationem petitam ex
+            Sacra<lb ed="#V" n="83" break="no"/>mento Poenitentiae, respondetur negando
+            <lb ed="#V" n="84"/>antecedens, quia major est ordo et
+            de<lb ed="#V" n="85" break="no"/>pendentia poenitentiae ad peccatum quam
+            <lb ed="#V" n="86"/>Baptismi; quod declaro, quia quantum
+            <lb ed="#V" n="87"/>ad efficaciam et virtutem utrumque
+            Sa<lb ed="#V" n="88" break="no"/>cramentum in hoc convenit, ut perinde
+            <pb ed="#V" n="476"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>dicant efficaciam ad delendum mortale
+            <lb ed="#V" n="2"/>actuale, et Baptismus originale. Quantum
+            <lb ed="#V" n="3"/>ad efficaciam remissionis major est in
+            <lb ed="#V" n="4"/>Baptismo, quia totam poenam remittit, et
+            <lb ed="#V" n="5"/>omnia peccata venialia; Poenitentia
+            mor<lb ed="#V" n="6" break="no"/>talia tantum, et confessa venialia, et
+            <lb ed="#V" n="7"/>poenam aeternam remittit, non tamen
+            to<lb ed="#V" n="8" break="no"/>tam poenam temporalem, vide
+            Triden<lb ed="#V" n="9" break="no"/>tinum sess. 14. cap. 2. Conveniunt tertio,
+            <lb ed="#V" n="10"/>quod in voto utriusque remittatur
+            mor<lb ed="#V" n="11" break="no"/>tale actuale per contritionem, et forma
+            <lb ed="#V" n="12"/>tam Baptismi quam Poenitentiae verificatur,
+            <lb ed="#V" n="13"/>non in remissione peccati remissi, ut
+            <lb ed="#V" n="14"/>dictum est.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>Differunt tamen in hoc, quod est
+            con<lb ed="#V" n="16" break="no"/>notare peccatum praeteritum, quod non
+            <lb ed="#V" n="17"/>competit Baptismo; convenit tamen
+            poe<lb ed="#V" n="18" break="no"/>nitentiae proprie dictae, ut est virtus, et
+            <lb ed="#V" n="19"/>ut est Sacramentum, ideoque necessario
+            <lb ed="#V" n="20"/>supponit; peccatum nequit esse in Beata
+            <lb ed="#V" n="21"/>Virgine ut rigorose sumitur, quia
+            poeni<lb ed="#V" n="22" break="no"/>tentia virtus, ut definitur in lib. de vera
+            <lb ed="#V" n="23"/>et falsa poenitentia, est dolor animi
+            pu<lb ed="#V" n="24" break="no"/>nientis in se, quod dolet commisisse:
+            sup<lb ed="#V" n="25" break="no"/>ponit ergo peccatum tanquam materiam
+            <lb ed="#V" n="26"/>circa quam, in quo differt a Baptismo,
+            <lb ed="#V" n="27"/>qui per accidens ratione peccati actualis
+            <lb ed="#V" n="28"/>in adulto exigit poenitentiam, et non per
+            <lb ed="#V" n="29"/>se. Poenitentia etiam habet ordinem ad
+            <lb ed="#V" n="30"/>peccatum praeteritum ratione non solum
+            <lb ed="#V" n="31"/>contritionis, quae est pars materiae ejus,
+            <lb ed="#V" n="32"/>sed etiam confessionis, quae est actus
+            <lb ed="#V" n="33"/>juridicus, et accusatio criminalis rei per
+            <lb ed="#V" n="34"/>seipsum, et recurrentis ad hoc tribunal
+            <lb ed="#V" n="35"/>ob peccarum. Praeterea, ratione
+            satisfa<lb ed="#V" n="36" break="no"/>ctionis, quae imponitur propter peccatum,
+            <lb ed="#V" n="37"/>dicit similem ordinem ad peccatum.
+            Prae<lb ed="#V" n="38" break="no"/>terea, ratione formae quae est pars
+            prin<lb ed="#V" n="39" break="no"/>cipalis, et consistit in actu judiciali per
+            <lb ed="#V" n="40"/>modum sententiae latae. Haec patent ex
+            <lb ed="#V" n="41"/>Tridentino sess. 14. cap. 2. 4. 5. et 6. non
+            <lb ed="#V" n="42"/>ergo ideo poenitentia dicit ordinem ad
+            <lb ed="#V" n="43"/>peccatum praeteritum, quia instituta est
+            <lb ed="#V" n="44"/>contra peccatum, sed ex modo speciali
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>suae institutionis, in quo differt a Baptismo
+            <lb ed="#V" n="46"/>Baptismus respicit peccatum ut terminum
+            <lb ed="#V" n="47"/>a quo tantum, si inest; poenitentia vero ut
+            <lb ed="#V" n="48"/>materiam circa quam perficitur ordo
+            ju<lb ed="#V" n="49" break="no"/>dicialis, ad cujus normam instituta est,
+            <lb ed="#V" n="50"/>et excercetur potestas ligandi atque
+            sol<lb ed="#V" n="51" break="no"/>vendi, ideoque requirit peccatum esse,
+            <lb ed="#V" n="52"/>aut fuisse, de quo cognoscit per se; non
+            <lb ed="#V" n="53"/>ita Baptismus, quia ex conditione
+            sub<lb ed="#V" n="54" break="no"/>jecti hoc tantum petit, non ex ratione
+            <lb ed="#V" n="55"/>materia aut formae; ex quo responsio ad
+            <lb ed="#V" n="56"/>argumentum patet.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio Sexta, Pars 2, Quaestio 3</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio Sexta, Pars 2, Quaestio 3</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="561"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3571"><!-- hicjds-b4d6p2q3 -->
+        <head>Quaestio 3</head>
+        <head type="question-title">Utrum unitas baptismi requirat baptizantem esse distinctum personaliter a baptizato</head>
+        <!-- <div alias="hiq-d6q4-p1"> -->
+          <p>
+            <lb ed="#V" n="60" type="fixed=561"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>(a) Ista quaestio, etc. Haec conclusio est
+            <lb ed="#V" n="62"/>extra dubium, definita ab Innocentio III.
+            <lb ed="#V" n="63"/>cap. Debitum, de Baptismo, quod citat
+            <lb ed="#V" n="64"/>Doctor. Rationem autem subjectam illius
+            <lb ed="#V" n="65"/>capitis, quae est Pontificis, aliqui vocant
+            <lb ed="#V" n="66"/>in dubium, tanquam non probantem,
+            ideo<lb ed="#V" n="67" break="no"/>que recurrendum esse dicunt ad
+            institu<lb ed="#V" n="68" break="no"/>tionem solam Christi. Videantur Rubion et
+            <lb ed="#V" n="69"/>Bassolis locis citatis a Scholiaste. Si
+            spe<lb ed="#V" n="70" break="no"/>ctetur potentia Dei instituentis
+            Sacramen<lb ed="#V" n="71" break="no"/>ta, non est dubium, quin Deus posset uti
+            <lb ed="#V" n="72"/>ministerio proprio hominis ad seipsum
+            <lb ed="#V" n="73"/>regenerandum specialiter per modum
+            <lb ed="#V" n="74"/>ministri; et sic ratio illa non probat aliter
+            <lb ed="#V" n="75"/>fieri non posse, sed illa ratio datur
+            tan<lb ed="#V" n="76" break="no"/>quam congruentia facti et institutionis
+            <lb ed="#V" n="77"/>positae, nam omne secundum quid dicitur
+            <lb ed="#V" n="78"/>respective ad suum simpliciter, cujus
+            <lb ed="#V" n="79"/>proprietates secundum aliquem modum
+            <lb ed="#V" n="80"/>participare debet, aut imitari, quia est ens
+            <lb ed="#V" n="81"/>participatum. Scriptura et Patres dicunt
+            <lb ed="#V" n="82"/>Baptismum esse lavacrum regenerationis
+            <lb ed="#V" n="83"/>in Christo, a peccato, quod quis ex
+            Ada<lb ed="#V" n="84" break="no"/>mo generatione traxit, et secundum
+            imita<pb ed="#V" n="562"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tionem generationis carnalis, qua
+            pecca<lb ed="#V" n="2" break="no"/>tor nascitur ex Adamo, describitur ejus
+            <lb ed="#V" n="3"/>regeneratio in Christo per aquam; unde
+            <lb ed="#V" n="4"/>Paulus servans eamdem proprietatem:
+            <lb ed="#V" n="5"/>Non prius, inquit, quod spirituale est, sed
+            <lb ed="#V" n="6"/>quod animale est.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Congrue ergo sicut in caeteris Baptismus
+            <lb ed="#V" n="8"/>institutus est, ut servet suo modo
+            proprie<lb ed="#V" n="9" break="no"/>tatem generationis in aliis, ita et in hoc,
+            <lb ed="#V" n="10"/>ut sit a ministro differente a persona
+            <lb ed="#V" n="11"/>baptizata, tanquam a causa proxima; in
+            <lb ed="#V" n="12"/>rebus autem mere supernaturalibus, quae
+            <lb ed="#V" n="13"/>dependent a voluntate Dei, non est alia
+            <lb ed="#V" n="14"/>ratio, nisi sic volo, sic jubeo. Sed ex
+            na<lb ed="#V" n="15" break="no"/>tura rei factae potest colligi congrua ejus
+            <lb ed="#V" n="16"/>ratio, qualem appellat Doctor praemissam,
+            <lb ed="#V" n="17"/>in capite citato a Pontifice adductam,
+            <lb ed="#V" n="18"/>cujus efficacia reducitur ad factum et
+            <lb ed="#V" n="19"/>institutionem, quia baptizans debet in
+            <lb ed="#V" n="20"/>persona Christi et Ecclesiae, quorum
+            mi<lb ed="#V" n="21" break="no"/>nister est, et intentionem servat,
+            ministra<lb ed="#V" n="22" break="no"/>re Baptismum seu lavacrum
+            regenerati<lb ed="#V" n="23" break="no"/>s onis. Hoc autem non potest filius Adami,
+            <lb ed="#V" n="24"/>et remotus inquantum ipse suscipit
+            Sa<lb ed="#V" n="25" break="no"/>cramentum regenerationis, ut eo
+            conjun<lb ed="#V" n="26" break="no"/>gatur Christo et Ecclesiae per
+            regenera<lb ed="#V" n="27" break="no"/>tionem, quia repraesentat Adamum et
+            <lb ed="#V" n="28"/>mortuum vita spirituali, quia sic
+            consi<lb ed="#V" n="29" break="no"/>deratur, ut adhuc membrum Adami per
+            <lb ed="#V" n="30"/>peccatum, et qua subjectus est morti ac
+            <lb ed="#V" n="31"/>damnationi; ergo initiatio ejus et reductio
+            <lb ed="#V" n="32"/>ad vitam, debet fieri per alium, qui
+            susti<lb ed="#V" n="33" break="no"/>net intentionem et auctoritatem Christi et
+            <lb ed="#V" n="34"/>Ecclesiae, nam in politiis humanis, nullus
+            <lb ed="#V" n="35"/>civis civitatis adversae, ex sua auctoritate
+            <lb ed="#V" n="36"/>inscribitur in civitatem aliam, sed hoc
+            <lb ed="#V" n="37"/>debet fieri per membra ipsius civitatis,
+            <lb ed="#V" n="38"/>cujus ambit incorporationem; talis est
+            <lb ed="#V" n="39"/>civitas Dei quae est Ecclesia, et civitas
+            <lb ed="#V" n="40"/>diaboli cui inscribitur homo per
+            pecca<lb ed="#V" n="41" break="no"/>tum; ergo rite debuit servari haec
+            pro<lb ed="#V" n="42" break="no"/>portio.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Hinc ergo recte sequitur, baptizatum
+            <lb ed="#V" n="44"/>non posse sustinere personam Christi in
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>favorem proprium quoad propositum, quia
+            <lb ed="#V" n="46"/>accedit ad Sacramentum, ut inscribendus
+            <lb ed="#V" n="47"/>membrum Christi et Ecclesiae, a quibus
+            <lb ed="#V" n="48"/>est separatus. Neque refert si inscribens
+            <lb ed="#V" n="49"/>minister sit membrum separatum
+            perso<lb ed="#V" n="50" break="no"/>naliter, vel Paganus, vel Judaeus, quia
+            <lb ed="#V" n="51"/>licet non sit membrum vivum Christi,
+            <lb ed="#V" n="52"/>quoad fidem et characterem, est tamen
+            <lb ed="#V" n="53"/>membrum ejus, quoad auctoritatem et
+            <lb ed="#V" n="54"/>intentionem, ut est minister.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Huc etiam tendit ratio D. Bonaventurae,
+            <lb ed="#V" n="56"/>quia idem non potest esse mundans et
+            <lb ed="#V" n="57"/>mundatus. Alensis recurrit ad veritatem
+            <lb ed="#V" n="58"/>formae, quae designat distinctionem
+            per<lb ed="#V" n="59" break="no"/>sonarum. Veritas conclusionis de facili
+            <lb ed="#V" n="60"/>deducitur ex aliis decretis Ecclesiae; sed
+            <lb ed="#V" n="61"/>illud solum adducit Doctor, quia casus
+            <lb ed="#V" n="62"/>in specie practicatus est a Judaeo, qui
+            <lb ed="#V" n="63"/>seipsum baptizavit inter Judaeos existens
+            <lb ed="#V" n="64"/>in defectu alterius ministri, cui fidem
+            <lb ed="#V" n="65"/>Sacramenti profuisse, docet Pontifex, id
+            <lb ed="#V" n="66"/>est, per charitatem operantem, non ipsum
+            <lb ed="#V" n="67"/>Sacramentum quod nullum fuit.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

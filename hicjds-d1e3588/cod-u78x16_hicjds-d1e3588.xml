@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio Sexta, Pars 3, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio Sexta, Pars 3, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="567"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3588"><!-- hicjds-b4d6p3q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum in ministro baptizante requiratur intentio debita ad baptizandum</head>
+        <!-- <div alias="hiq-d6q5-p1"> -->
+          <p>
+            <lb ed="#V" n="73" type="fixed=567"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>(a) Ad istam quaestionem, etc. Hic agitur
+            <lb ed="#V" n="75"/>de intentione, inquantum requiritur, ut
+            <lb ed="#V" n="76"/>principium ex parte agentis a proposito,
+            <lb ed="#V" n="77"/>qualis est minister; superius autem
+            ex<lb ed="#V" n="78" break="no"/>clusi sunt amentes et incapaces rationis
+            <lb ed="#V" n="79"/>a ministerio Sacramenti, quia ab iis non
+            <lb ed="#V" n="80"/>potest procedere actio humana, vel hoc
+            <lb ed="#V" n="81"/>ministerium modo humano, qui est ut
+            <lb ed="#V" n="82"/>procedat mediante intentione et scientia
+            <lb ed="#V" n="83"/>per modum judicii et discretionis, et non
+            <lb ed="#V" n="84"/>fortuitae aut merae apprehensionis, et sine
+            <lb ed="#V" n="85"/>omni usu rationis. Non agitur autem hic
+            <lb ed="#V" n="86"/>de qualitate intentionis, sed de ejus
+            sub<pb ed="#V" n="568"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>stantia; in sequenti de qualitate
+            disseri<lb ed="#V" n="2" break="no"/>tur, seu de modo ejus.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Distinguit Doctor infra, 5 Hoc autem
+            <lb ed="#V" n="4"/>rationabile est, etc. intentionem
+            huma<lb ed="#V" n="5" break="no"/>nam respectu ministerii Sacramenti
+            du<lb ed="#V" n="6" break="no"/>plicem. Aliam, qua esset actio quidem
+            <lb ed="#V" n="7"/>libera, sed non formaliter usus
+            Sacra<lb ed="#V" n="8" break="no"/>menti, qua Sacramentum est, id est,
+            <lb ed="#V" n="9"/>caeremonia sacra, et ille usus esset
+            ma<lb ed="#V" n="10" break="no"/>terialis, rerum et verborum, nempe
+            <lb ed="#V" n="11"/>applicatio rei et formae Sacramenti, non
+            <lb ed="#V" n="12"/>tamen per modum Sacramenti, sed ad
+            <lb ed="#V" n="13"/>alium finem, ut irrisorie, et simulate,
+            <lb ed="#V" n="14"/>ut quondam illudebant Ecclesiae
+            idolo<lb ed="#V" n="15" break="no"/>latrae, vel malefici, ut quando ex
+            in<lb ed="#V" n="16" break="no"/>stinctu daemonis baptizant bruta ad
+            con<lb ed="#V" n="17" break="no"/>temptum Sacramenti; vel si quis
+            inten<lb ed="#V" n="18" break="no"/>deret dicere formam recitative tantum,
+            <lb ed="#V" n="19"/>et non ut est signum practicum. Alius
+            <lb ed="#V" n="20"/>modus est, quando fit usus Sacramenti
+            <lb ed="#V" n="21"/>formaliter, ut est caeremonia sacra,
+            inten<lb ed="#V" n="22" break="no"/>dendo facere quod fecit Christus, et
+            Ec<lb ed="#V" n="23" break="no"/>clesia seu Christiani faciunt, sive ex
+            <lb ed="#V" n="24"/>intentione speciali, sive ex generali
+            in<lb ed="#V" n="25" break="no"/>tentione; et de intentione hoc modo
+            <lb ed="#V" n="26"/>sumpta Doctores hic disserunt.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>Haeretici negant illam intentionem
+            re<lb ed="#V" n="28" break="no"/>quiri ex falso dogmate, quia putant
+            Sa<lb ed="#V" n="29" break="no"/>cramenta non esse causas gratiae, sed
+            <lb ed="#V" n="30"/>solum excitantia signa fidei, quod
+            pe<lb ed="#V" n="31" break="no"/>rinde ipsis competit, sive hoc a
+            mini<lb ed="#V" n="32" break="no"/>strante intendatur, sive non, quia haec
+            <lb ed="#V" n="33"/>excitatio competit ipsis ex institutione
+            <lb ed="#V" n="34"/>sua respective ad eum, qui fidem
+            con<lb ed="#V" n="35" break="no"/>cipere potest, sicut, si proferatur haec
+            <lb ed="#V" n="36"/>dictio homo, aut homo currit, quaecumque
+            <lb ed="#V" n="37"/>sit intentio proferentis, perinde excitat
+            <lb ed="#V" n="38"/>ad memoriam signati audientem, et
+            se<lb ed="#V" n="39" break="no"/>cundum hoc etiam consequenter dicere
+            <lb ed="#V" n="40"/>debent, nec usum rationis exigi in
+            mi<lb ed="#V" n="41" break="no"/>nistro, ad hunc enim effectum nihil
+            <lb ed="#V" n="42"/>conducit, cum solum dependeat ab
+            in<lb ed="#V" n="43" break="no"/>stitutione signi, et capacitate audientis;
+            <lb ed="#V" n="44"/>quod tamen negat Kemnitius in secunda
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>parte examinis, negans actionem
+            sacra<lb ed="#V" n="46" break="no"/>mentalem esse debere subsannationem
+            <lb ed="#V" n="47"/>mimicam, aut lusum. Errorem praedictum
+            <lb ed="#V" n="48"/>docuit Lutherus in lib. de captivitate
+            Ba<lb ed="#V" n="49" break="no"/>bylonica, cap. de Baptismo; et in
+            arti<lb ed="#V" n="50" break="no"/>culo 12. damnato a Leone X. Calvinus in
+            <lb ed="#V" n="51"/>Antidoto ad canon. 11. Tridentini,
+            Tilman<lb ed="#V" n="52" break="no"/>nus in lib. de erroribus Pontificiorum.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>Alii Doctores Catholici, licet admittant
+            <lb ed="#V" n="54"/>sanam doctrinam de intentionis
+            neces<lb ed="#V" n="55" break="no"/>sitate, tamen aliqui eam dure explicant.
+            <lb ed="#V" n="56"/>Catherinus, in opusculo de intentione
+            <lb ed="#V" n="57"/>ministri Sacramentorum, dicit sufficere
+            <lb ed="#V" n="58"/>intentionem exterius faciendi, ea quae
+            <lb ed="#V" n="59"/>facit Ecclesia, nempe ponendi
+            abluti<lb ed="#V" n="60" break="no"/>onem, et verba debita, quam
+            intenti<lb ed="#V" n="61" break="no"/>onem nequit non habere, si sit sanae
+            <lb ed="#V" n="62"/>mentis, quamvis neque Ecclesiam esse
+            <lb ed="#V" n="63"/>credat, aut ullum effectum Sacramenti,
+            <lb ed="#V" n="64"/>neque ullam aliam intentionem, quae cum
+            <lb ed="#V" n="65"/>hac constare potest, officere Sacramento,
+            <lb ed="#V" n="66"/>quin perficiatur.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Citatur pro eadem sententia Angelus,
+            <lb ed="#V" n="68"/>verbo Baptismus 5. n. 7. sed immerito,
+            <lb ed="#V" n="69"/>quia dicit non sufficere intentionem
+            so<lb ed="#V" n="70" break="no"/>lum lavandi corpus, et requiri saltem
+            <lb ed="#V" n="71"/>intentionem, qua fiat per modum
+            caere<lb ed="#V" n="72" break="no"/>moniae consuetae, et in reipsa hanc esse
+            <lb ed="#V" n="73"/>intentionem faciendi, quod facit
+            Eccle<lb ed="#V" n="74" break="no"/>sia, licet non sub illo expresso motivo.
+            <lb ed="#V" n="75"/>Idem sensit Innocentius IV. in cap. Si
+            <lb ed="#V" n="76"/>quis puerum, de Baptismo, etc. quem
+            <lb ed="#V" n="77"/>male in suum errorem allegat Kemnitius.
+            <lb ed="#V" n="78"/>Paludanus in solo matrimonio requirit
+            <lb ed="#V" n="79"/>intentionem ratione contractus, in quo
+            <lb ed="#V" n="80"/>perficitur; in aliis solum intentionem
+            <lb ed="#V" n="81"/>proferendi verba legitime, et hoc
+            potis<lb ed="#V" n="82" break="no"/>simum asserit in Baptismo, quia minister
+            <lb ed="#V" n="83"/>non est causa principalis, sed applicans
+            <lb ed="#V" n="84"/>activa passivis. Vide dist. 6. quaest. 2.
+            <lb ed="#V" n="85"/>art. 3. Sententiam illam Catherini
+            sequi<lb ed="#V" n="86" break="no"/>tur Sylvester verbo Baptismus 3. et pro
+            <lb ed="#V" n="87"/>eadem citatur D. Thomas in hac dist.
+            <lb ed="#V" n="88"/>quaest. 1. art. 2. quaestiuncula 1. ad 2. et
+            <pb ed="#V" n="569"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>3. parte quaest. 49. art. 8. responsione
+            <lb ed="#V" n="2"/>ad 3.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>His suppositis, Doctor optime hanc
+            quae<lb ed="#V" n="4" break="no"/>stionem resolvit. Primo rejicit rationem
+            <lb ed="#V" n="5"/>Richardi, tanquam non probantem, quia
+            <lb ed="#V" n="6"/>etsi conjunctio exigatur inter materiam
+            <lb ed="#V" n="7"/>et verba Sacramenti, potest illa
+            neces<lb ed="#V" n="8" break="no"/>sitas ab instituente esse, et non a
+            mini<lb ed="#V" n="9" break="no"/>stro, verbi gratia, quantumlibet minister
+            <lb ed="#V" n="10"/>habeat intentionem Christi et Ecclesiae,
+            <lb ed="#V" n="11"/>nisi in reipsa conjungatur ablutio et
+            for<lb ed="#V" n="12" break="no"/>ma, ea simultate quae expressa est
+            quae<lb ed="#V" n="13" break="no"/>stione 3. supra, nihil fit, non ex alia
+            <lb ed="#V" n="14"/>ratione, nisi quia ex institutione divina
+            <lb ed="#V" n="15"/>exigitur haec conjunctio inter partes
+            ejus<lb ed="#V" n="16" break="no"/>dem signi et Sacramenti; si ergo
+            salve<lb ed="#V" n="17" break="no"/>e tur illa conjunctio requisita ex
+            instituti<lb ed="#V" n="18" break="no"/>one, salvatur omnis per se requisita unio
+            <lb ed="#V" n="19"/>inter ablutionem et prolationem formae,
+            <lb ed="#V" n="20"/>ad quam non exigitur intentio ministri.
+            <lb ed="#V" n="21"/>Quod ergo requiratur haec intentio, non
+            <lb ed="#V" n="22"/>est ex conjunctione illarum, quia, ut
+            <lb ed="#V" n="23"/>bene Doctor quaest. 2. responsione ad
+            <lb ed="#V" n="24"/>ultimum, ablutio sine verbis non est
+            <lb ed="#V" n="25"/>baptismalis, neque verba sine ablutione
+            <lb ed="#V" n="26"/>sunt aliquid Baptismi; ergo intentio
+            mi<lb ed="#V" n="27" break="no"/>nistri ex alio fine exigitur.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>(b) Dico ergo distinguendo de intentione,
+            <lb ed="#V" n="29"/>etc. Hic sumit intentionem, ut est actus
+            <lb ed="#V" n="30"/>efficax et principium operandi in agente
+            <lb ed="#V" n="31"/>a proposito, et respective ad objectum,
+            <lb ed="#V" n="32"/>vel materiale, vel formale; materiale est
+            <lb ed="#V" n="33"/>ipse actus exercitus, sub quacumque
+            ra<lb ed="#V" n="34" break="no"/>tione, aut motivo fiat, et haec necessaria
+            <lb ed="#V" n="35"/>est in quocumque exercente illum actum,
+            <lb ed="#V" n="36"/>quia ea sublata, tolleretur ipse actus,
+            <lb ed="#V" n="37"/>qui ex ea imperatur et fit, sicut cessante
+            <lb ed="#V" n="38"/>motu efficaci in finem, cessat etiam motus
+            <lb ed="#V" n="39"/>in media humano modo, et sub ratione
+            <lb ed="#V" n="40"/>mediorum. Secundo modo sumitur
+            in<lb ed="#V" n="41" break="no"/>tentio actus ex fine, ad quem ipse actus
+            <lb ed="#V" n="42"/>ordinatur, nempe ad finem significationis,
+            <lb ed="#V" n="43"/>et hoc modo facit ad institutum
+            quaesti<lb ed="#V" n="44" break="no"/>onis praesentis; patet distinctio ex littera.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>(c) Dico ergo, quod oportet ministrum
+            <lb ed="#V" n="46"/>habere intentionem primo modo, etc.
+            <lb ed="#V" n="47"/>Haec est prima conclusio, et juxta
+            pri<lb ed="#V" n="48" break="no"/>mum membrum distinctionis, quia ille
+            <lb ed="#V" n="49"/>actus debet esse humanus et liber, ad
+            <lb ed="#V" n="50"/>quem Deus lege statuta obligat, quia in
+            <lb ed="#V" n="51"/>necessariis et fortuitis non cadit obligatio
+            <lb ed="#V" n="52"/>legis, quae est regula voluntatis liberae,
+            <lb ed="#V" n="53"/>quam tenetur sequi ex electione.
+            Se<lb ed="#V" n="54" break="no"/>quitur:
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Si autem loquamur de intentione
+            secun<lb ed="#V" n="56" break="no"/>do modo, etc. Hic distinguit intentionem,
+            <lb ed="#V" n="57"/>tam quoad finem quam quoad modum
+            <lb ed="#V" n="58"/>tendendi in finem; finis autem duplex,
+            <lb ed="#V" n="59"/>alius proximus, alius remotus. Proximus
+            <lb ed="#V" n="60"/>est ipse actus non in esse naturae aut
+            <lb ed="#V" n="61"/>liberi, et humani tantum, sed etiam, ut
+            <lb ed="#V" n="62"/>est caeremonia, et spectans saltem inter r
+            <lb ed="#V" n="63"/>Christianos ad cultum, et quo fit
+            mem<lb ed="#V" n="64" break="no"/>brum Ecclesiae militantis, et hic est finis
+            <lb ed="#V" n="65"/>minus principalis. Alius est finis
+            extrinse<lb ed="#V" n="66" break="no"/>cus, nempe effectus gratiae in suscipiente;
+            <lb ed="#V" n="67"/>uterque finis potest intendi, aut generali
+            <lb ed="#V" n="68"/>intentione, seu universali, et in particulari,
+            <lb ed="#V" n="69"/>confuse, distincte, implicite, explicite,
+            for<lb ed="#V" n="70" break="no"/>maliter, virtualiter, juxta diversos modos
+            <lb ed="#V" n="71"/>explicandi modum tendendi voluntatis,
+            <lb ed="#V" n="72"/>qui sequitur modum concipiendi ex parte
+            <lb ed="#V" n="73"/>intellectus, qui hoc vet illo modo proponit
+            <lb ed="#V" n="74"/>actum sub his motivis. Explicat autem
+            <lb ed="#V" n="75"/>Doctor intentionem generalem proximi
+            <lb ed="#V" n="76"/>finis per hoc, quod est intendere facere
+            <lb ed="#V" n="77"/>circa illum, quod Christiani solent facere;
+            <lb ed="#V" n="78"/>in particulari vero intentio est, qua
+            ba<lb ed="#V" n="79" break="no"/>ptizatum velit explicite fieri Christianum.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>(d) Dico ergo, quod intentio finis
+            ulti<lb ed="#V" n="81" break="no"/>mi, etc. Hic subjicit duas conclusiones.
+            Pri<lb ed="#V" n="82" break="no"/>ma est, non requiri ad valorem Baptismi,
+            <lb ed="#V" n="83"/>ut baptizans intendat finem ultimum et
+            <lb ed="#V" n="84"/>principalem ipsius actus. Intelligitur
+            con<lb ed="#V" n="85" break="no"/>clusio de intentione explicita et
+            particu<lb ed="#V" n="86" break="no"/>lari, non autem de sola implicita et
+            vir<lb ed="#V" n="87" break="no"/>tuali, quae etiam salvatur in prima
+            inten<lb ed="#V" n="88" break="no"/>tione. Hanc probat, quia Paganus et
+            <pb ed="#V" n="570"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Judaeus nequeunt habere illam
+            intenti<lb ed="#V" n="2" break="no"/>onem, supposita ignorantia finis, et
+            sal<lb ed="#V" n="3" break="no"/>tem efficaciae medii ad talem finem.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Secunda conclusio, requiritur intentio
+            <lb ed="#V" n="5"/>finis proximi, vel in generali, vel in
+            par<lb ed="#V" n="6" break="no"/>ticulari; et haec intentio ad minimum,
+            <lb ed="#V" n="7"/>necessaria est ad valorem Sacramenti.
+            <lb ed="#V" n="8"/>Haec est de fide, ut patet ex Tridentino
+            <lb ed="#V" n="9"/>sess. 7. can. 11. de Sacramentis in genere:
+            <lb ed="#V" n="10"/>Si quis dixerit in ministris, dum
+            Sacra<lb ed="#V" n="11" break="no"/>mentum conferunt, non requiri
+            intenti<lb ed="#V" n="12" break="no"/>onem, saltem faciendi quod facit Ecclesia,
+            <lb ed="#V" n="13"/>anathema sit. Florentinum in Decreto
+            uni<lb ed="#V" n="14" break="no"/>onis, ubi dicit: Haec omnia Sacramenta
+            <lb ed="#V" n="15"/>tribus perficiuntur, videlicet rebus
+            tan<lb ed="#V" n="16" break="no"/>quam materia, verbis tanquam forma, et
+            <lb ed="#V" n="17"/>persona ministri conferentis Sacramentum
+            <lb ed="#V" n="18"/>cum intentione faciendi quod facit
+            Eccle<lb ed="#V" n="19" break="no"/>sia, etc. Dixi hanc conclusionem esse
+            <lb ed="#V" n="20"/>de fide, quia vere puto neminem ex
+            <lb ed="#V" n="21"/>schola Theologorum in reipsa aliud
+            di<lb ed="#V" n="22" break="no"/>cere, quia Doctor diligens indagator
+            <lb ed="#V" n="23"/>sententiae antiquorum Theologorum, et
+            <lb ed="#V" n="24"/>potissimum S. Thomae, qui pro sententia
+            <lb ed="#V" n="25"/>contraria a Catharino et Sylvestro citatur,
+            <lb ed="#V" n="26"/>et quem tacito nomine impugnat
+            Duran<lb ed="#V" n="27" break="no"/>dus, cum tamen in eam sententiam
+            ne<lb ed="#V" n="28" break="no"/>que adducit, neque impugnat. Et
+            quam<lb ed="#V" n="29" break="no"/>vis Cajetanus et Sotus plurimum laborent,
+            <lb ed="#V" n="30"/>aliique posteriores, ut eum eximant a
+            <lb ed="#V" n="31"/>tali sententia, nescio quid difficultatis
+            <lb ed="#V" n="32"/>habeat, si recte mentem ejus et rem,
+            <lb ed="#V" n="33"/>ipsam perpendamus; oportet enim
+            con<lb ed="#V" n="34" break="no"/>. siderare, quod hoc ipso, quod velit
+            mi<lb ed="#V" n="35" break="no"/>nister proferre verba formae, non ridicule,
+            <lb ed="#V" n="36"/>neque jocose, neque ex alia intentione
+            <lb ed="#V" n="37"/>extranea Sacramento, aut repugnanti, sed
+            <lb ed="#V" n="38"/>serio, ut habent rationem formae, et
+            ma<lb ed="#V" n="39" break="no"/>teriae, et conveniunt in unam
+            caeremo<lb ed="#V" n="40" break="no"/>niam, hoc ipso habere intentionem
+            ge<lb ed="#V" n="41" break="no"/>neralem Ecclesiae et Christi, neque aliam
+            <lb ed="#V" n="42"/>ab hac distinctam requiri ad valorem
+            <lb ed="#V" n="43"/>Sacramenti.
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>Unde advertendum est, hanc
+            intenti<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>onem generalem variis modis posse
+            con<lb ed="#V" n="46" break="no"/>cipi et formari, nempe si velit facere,
+            <lb ed="#V" n="47"/>quod videt facere hic et nunc unum
+            <lb ed="#V" n="48"/>Christianum, vel si velit facere, quod
+            <lb ed="#V" n="49"/>ab eo petitur, verbi gratia, si sit Paganus,
+            <lb ed="#V" n="50"/>qui nihil audivit de Christo aut Ecclesia,
+            <lb ed="#V" n="51"/>aut de corpore et professione
+            Christiano<lb ed="#V" n="52" break="no"/>rum, sed quod petitur ab hoc Christiano
+            <lb ed="#V" n="53"/>adulto, in necessitate constituto, et
+            in<lb ed="#V" n="54" break="no"/>struatur de ablutione et prolatione
+            verbo<lb ed="#V" n="55" break="no"/>rum, per modum cujusdam caeremoniae,
+            <lb ed="#V" n="56"/>et ipsi eam adhibeat juxta mentem
+            pe<lb ed="#V" n="57" break="no"/>tentis, quamvis nihil in speciali sit
+            edo<lb ed="#V" n="58" break="no"/>ctus de ejus efficacia, praecepto,
+            necessi<lb ed="#V" n="59" break="no"/>tate, aut de Christo, aut Ecclesia, aut
+            <lb ed="#V" n="60"/>professione Christianorum; quo casu non
+            <lb ed="#V" n="61"/>habet aliam intentionem expressam, quam
+            <lb ed="#V" n="62"/>abluendi et proferendi verba per modum
+            <lb ed="#V" n="63"/>caeremoniae, et juxta mentem et
+            requi<lb ed="#V" n="64" break="no"/>sitionem petentis, erit Baptismus validus,
+            <lb ed="#V" n="65"/>et salvatur in eo intentio generalis, hoc
+            <lb ed="#V" n="66"/>ipso quod ministerium illud praestet per
+            <lb ed="#V" n="67"/>modum caeremoniae, ad effectum quem
+            <lb ed="#V" n="68"/>intendit petens. In quo etiam casu ligatur
+            <lb ed="#V" n="69"/>intentio ipsi ministerio, scilicet ablutioni
+            <lb ed="#V" n="70"/>et prolationi verborum, per modum
+            cae<lb ed="#V" n="71" break="no"/>remoniae, neque aliam habet diversam,
+            <lb ed="#V" n="72"/>aut motivum intrinsecum alterius, quod
+            <lb ed="#V" n="73"/>cognoscat. Et hoc modo intendit D.
+            Tho<lb ed="#V" n="74" break="no"/>mas quando dicit non requiri aliam
+            in<lb ed="#V" n="75" break="no"/>tentionem in eo faciendi quod facit
+            Ec<lb ed="#V" n="76" break="no"/>clesia, diversam ab ea, quae est proferendi
+            <lb ed="#V" n="77"/>verba, et abluendi, nempe sub ratione
+            <lb ed="#V" n="78"/>ritus et caeremoniae; et excludit tantum
+            <lb ed="#V" n="79"/>illam intentionem expressam et
+            necessa<lb ed="#V" n="80" break="no"/>riam, qua vellet imitari Ecclesiam,
+            tan<lb ed="#V" n="81" break="no"/>quam ex hoc motivo conceptam, sine
+            <lb ed="#V" n="82"/>qua potest manere Sacramentum
+            vali<lb ed="#V" n="83" break="no"/>dum, quia motivum sufficiens intentionis
+            <lb ed="#V" n="84"/>generalis subsistit, vel eo ipso quod
+            <lb ed="#V" n="85"/>intendat ablutionem facere, et verba
+            <lb ed="#V" n="86"/>proferre per modum ritus et caeremoniae,
+            <lb ed="#V" n="87"/>vel qua utuntur alii, vel quam ad
+            requi<pb ed="#V" n="571"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>sitionem alterius facit, prout ipse
+            postu<lb ed="#V" n="2" break="no"/>lans intendit.
+            <lb ed="#V" n="3"/>Probari potest exemplo, verbi gratia,
+            <lb ed="#V" n="4"/>in incantatoribus (quo in simili utitur
+            no<lb ed="#V" n="5" break="no"/>ster Doctor supra), quando ergo indigent
+            <lb ed="#V" n="6"/>ad superstitionem suam, et ad effectum
+            <lb ed="#V" n="7"/>intentum, de quo cum daemone
+            pepige<lb ed="#V" n="8" break="no"/>runt, opera alterius, quamvis hic nesciat
+            <lb ed="#V" n="9"/>intentum, confert tamen operam petitam
+            <lb ed="#V" n="10"/>cum observationibus ab eis praescriptis,
+            <lb ed="#V" n="11"/>praestat illud opus ex sufficienti
+            intenti<lb ed="#V" n="12" break="no"/>one ad effectum incantationis, eo ipso
+            <lb ed="#V" n="13"/>quod exhibeat opus juxta mentem
+            alte<lb ed="#V" n="14" break="no"/>rius, et observatis ritibus praescriptis. Et
+            <lb ed="#V" n="15"/>per hoc explicatur quod habet S. Doctor
+            <lb ed="#V" n="16"/>in art. 8. quaestionis 64. qui negotium
+            <lb ed="#V" n="17"/>facessit patri Vasquez responsione ad
+            <lb ed="#V" n="18"/>secundum argumentum; nam sententia
+            <lb ed="#V" n="19"/>S. Thomae est plana ex corpore, ubi
+            requi<lb ed="#V" n="20" break="no"/>rit intentionem ministri, ut determinet
+            <lb ed="#V" n="21"/>ablutionem, quae indifferens est ad
+            mul<lb ed="#V" n="22" break="no"/>ta, ut sanitatem, mundationem
+            corpora<lb ed="#V" n="23" break="no"/>lem, ludum, et hujusmodi. Et haec
+            inten<lb ed="#V" n="24" break="no"/>tio, inquit, exprimitur per verba quae sunt
+            <lb ed="#V" n="25"/>in Sacramentis; puta cum dicitur: Ego
+            <lb ed="#V" n="26"/>te baptizo in nomine Patris, etc. quod
+            <lb ed="#V" n="27"/>ita intelligendum est, non quod verba
+            <lb ed="#V" n="28"/>quomodocumque significent intentionem
+            <lb ed="#V" n="29"/>ministri internam, cum denotent tantum
+            <lb ed="#V" n="30"/>actum, et invocationem Trinitatis, sed
+            <lb ed="#V" n="31"/>indirecte, quatenus effectus denotat suam
+            <lb ed="#V" n="32"/>causam; nam sicut verba exterius
+            prola<lb ed="#V" n="33" break="no"/>ta, magis expresse et determinate
+            signifi<lb ed="#V" n="34" break="no"/>cant effectum Sacramenti, et ad eamdem
+            <lb ed="#V" n="35"/>significationem limitant et determinant
+            <lb ed="#V" n="36"/>ablutionem, quae ex natura sua est
+            indif<lb ed="#V" n="37" break="no"/>ferens, ita etiam verba magis exprimunt
+            <lb ed="#V" n="38"/>intentionem interiorem, qua similiter
+            de<lb ed="#V" n="39" break="no"/>terminatur ablutio, quam eam exprimat
+            <lb ed="#V" n="40"/>ablutio ipsa, quae habet rationem
+            deter<lb ed="#V" n="41" break="no"/>minabilis. Et in hoc passu videtur tacite
+            <lb ed="#V" n="42"/>occurrere secundo argumento et tertio,
+            <lb ed="#V" n="43"/>nam secundum tangit perplexitatem
+            su<lb ed="#V" n="44" break="no"/>scipientis Baptismum, qui si dependet ab
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>intentione ministri, nequit ipsi esse nota,
+            <lb ed="#V" n="46"/>cum sit interna, neque consequenter se
+            <lb ed="#V" n="47"/>recepisse Sacramentum.
+            <lb ed="#V" n="48"/>Ad quod respondet primo ex aliis, qui
+            <lb ed="#V" n="49"/>dicunt requiri intentionem mentalem in
+            <lb ed="#V" n="50"/>ministro, quae si desit nihil fit; hunc tamen
+            <lb ed="#V" n="51"/>defectum in pueris supplet Christus, in
+            <lb ed="#V" n="52"/>adultis sua devotio et fides. Hoc
+            impu<lb ed="#V" n="53" break="no"/>gnat, quia licet hoc sufficiat in ordine ad
+            <lb ed="#V" n="54"/>effectum justificationis, non tamen ad
+            effe<lb ed="#V" n="55" break="no"/>ctum characteris, qui non datur nisi per
+            <lb ed="#V" n="56"/>Sacramentum; adhuc ergo manet illa
+            <lb ed="#V" n="57"/>perplexitas. Respondet cum aliis, quod
+            <lb ed="#V" n="58"/>minister Sacramenti agat in persona
+            to<lb ed="#V" n="59" break="no"/>tius Ecclesiae, cujus est minister: In
+            ver<lb ed="#V" n="60" break="no"/>bis autem quae profert, exprimitur
+            in<lb ed="#V" n="61" break="no"/>tentio Ecclesiae, quae sufficit ad perfectionem
+            <lb ed="#V" n="62"/>Sacramenti, nisi contrarium exterius
+            ex<lb ed="#V" n="63" break="no"/>primatur ex parte ministri vel recipientis
+            <lb ed="#V" n="64"/>Sacramentum, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Quae verba non ita absolute intelligenda
+            <lb ed="#V" n="66"/>sunt, quasi per solam prolationem
+            verbo<lb ed="#V" n="67" break="no"/>rum quomodocumque fiat, et ex
+            quocum<lb ed="#V" n="68" break="no"/>que fine, habeatur intentio Ecclesiae, aut
+            <lb ed="#V" n="69"/>ipsius ministri, eo modo quo requiritur ad
+            <lb ed="#V" n="70"/>perficiendum Sacramentum, sed quod
+            <lb ed="#V" n="71"/>habeatur sufficiens certitudo, ex qua
+            su<lb ed="#V" n="72" break="no"/>scipiens deponat perplexitatem, et
+            co<lb ed="#V" n="73" break="no"/>gnoscat Sacramentum verum se recepisse,
+            <lb ed="#V" n="74"/>quia aliam certitudinem nequit habere
+            <lb ed="#V" n="75"/>de intentione ministri, et Sacramentum
+            <lb ed="#V" n="76"/>habeatur ratum coram Ecclesia; unde
+            <lb ed="#V" n="77"/>addit, nisi ipse minister exterius
+            contra<lb ed="#V" n="78" break="no"/>rium exprimat, vel recipiens
+            Sacramen<lb ed="#V" n="79" break="no"/>tum, nempe, si ille dicat se non habuisse
+            <lb ed="#V" n="80"/>voluntatem dandi Sacramentum, et hic
+            <lb ed="#V" n="81"/>non voluisse illud recipere, quia hoc dato
+            <lb ed="#V" n="82"/>non solum in reipsa Sacramentum non
+            <lb ed="#V" n="83"/>subsisteret, sed neque pro rato ab
+            Eccle<lb ed="#V" n="84" break="no"/>sia haberetur, aut haberi deberet.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Quod si ergo Sanctus Thomas vellet
+            <lb ed="#V" n="86"/>non dependere Sacramentum ab
+            inten<lb ed="#V" n="87" break="no"/>tione, vel posse existimaret subsistere
+            <lb ed="#V" n="88"/>intentionem Ecclesiae, sine ulla intentione,
+            <pb ed="#V" n="572"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>aut cum contraria intentione ministri, et
+            <lb ed="#V" n="2"/>repugnantia suscipientis, non adderet illa
+            <lb ed="#V" n="3"/>verba, quae tantum in eum finem adducta
+            <lb ed="#V" n="4"/>sunt, ut ostendatur praesumptionem et
+            <lb ed="#V" n="5"/>certitudinem de valore Sacramenti fundari
+            <lb ed="#V" n="6"/>eo ipso, quod ablutio externa fiat cum
+            <lb ed="#V" n="7"/>debita forma, nisi contingat eam elidi per
+            <lb ed="#V" n="8"/>aliquid aliud expressum a ministro aut a
+            <lb ed="#V" n="9"/>suscipiente, neque argumentum
+            opposi<lb ed="#V" n="10" break="no"/>tum aliud petit. Unde, quamdiu subsistit
+            <lb ed="#V" n="11"/>intentio Ecclesiae et Christi, manet
+            Sacra<lb ed="#V" n="12" break="no"/>mentum, quantumlibet aliud
+            exprimere<lb ed="#V" n="13" break="no"/>tur, quod intentionem non tolleret, nam
+            <lb ed="#V" n="14"/>si salvatur intentio causae principalis
+            re<lb ed="#V" n="15" break="no"/>quisita, salvatur etiam in exercitio,
+            quid<lb ed="#V" n="16" break="no"/>quid per se requisitum est ad
+            Sacramen<lb ed="#V" n="17" break="no"/>tum. Ideo in responsione ad primum
+            <lb ed="#V" n="18"/>dicit expresse requiri in ministro
+            inten<lb ed="#V" n="19" break="no"/>tionem, qua se subjiciat principali agenti,
+            <lb ed="#V" n="20"/>scilicet intendat facere quod facit Christus
+            <lb ed="#V" n="21"/>et Ecclesia; et responsione ad tertium,
+            <lb ed="#V" n="22"/>idem supponit, dicens intentionem
+            habi<lb ed="#V" n="23" break="no"/>tualem (quam alii virtualem intelligunt)
+            <lb ed="#V" n="24"/>sufficere in Sacerdote distracto, qui tamen
+            <lb ed="#V" n="25"/>voluit prius actualiter facere, quod facit
+            <lb ed="#V" n="26"/>Ecclesia. Ex his patet etiam qua via
+            intel<lb ed="#V" n="27" break="no"/>ligendi sunt alii Theologi, qui videntur
+            <lb ed="#V" n="28"/>negare intentionem ministri esse
+            neces<lb ed="#V" n="29" break="no"/>sariam ad valorem Sacramenti; nam
+            <lb ed="#V" n="30"/>dicunt necessarium esse intendere
+            acti<lb ed="#V" n="31" break="no"/>ones externas ut sacramentales sunt, per
+            <lb ed="#V" n="32"/>modum ritus instituti, in qua intentione
+            <lb ed="#V" n="33"/>virtualiter includitur intentio faciendi
+            <lb ed="#V" n="34"/>quod Ecclesia facit; qui enim applicat
+            <lb ed="#V" n="35"/>materiam et formam, qua tales sunt,
+            <lb ed="#V" n="36"/>applicat ex intentione totius, ac proinde
+            <lb ed="#V" n="37"/>conficiendi Sacramenti, et implicite
+            reli<lb ed="#V" n="38" break="no"/>qua quae per se sequuntur, qui applicat,
+            <lb ed="#V" n="39"/>inquam, non fortuite, sed ex electione.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Probo ergo conclusionem hoc modo
+            <lb ed="#V" n="41"/>intellectam esse de fide, quia praeter
+            <lb ed="#V" n="42"/>materiam et formam in exercitio, id est,
+            <lb ed="#V" n="43"/>praeter ablutionem in fieri, et prolationem
+            <lb ed="#V" n="44"/>formae, requirunt Concilia tertium, nempe
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>intentionem ministri, saltem faciendi quod
+            <lb ed="#V" n="46"/>facit Ecclesia. Sed haec intentio non
+            salva<lb ed="#V" n="47" break="no"/>tur in voluntate faciendi ablutionem, et
+            <lb ed="#V" n="48"/>proferendi formam, tantum materialiter,
+            <lb ed="#V" n="49"/>quia sic possunt fieri etiam libere ex alio
+            <lb ed="#V" n="50"/>fine praeter intentionem Ecclesiae, aut
+            con<lb ed="#V" n="51" break="no"/>tra eam, et Sacramentum esse invalidum,
+            <lb ed="#V" n="52"/>ut per se constat, ut si ad lusum fiant;
+            <lb ed="#V" n="53"/>ergo non sufficit ablutio, et probatio facta
+            <lb ed="#V" n="54"/>absque intentione, qua ordinantur ad
+            in<lb ed="#V" n="55" break="no"/>vicem per modum signi sacramentalis,
+            <lb ed="#V" n="56"/>vel universali vel particulari.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Secundo, quando Concilia exigunt res
+            <lb ed="#V" n="58"/>et verba, exigunt ea ut posita in exercitio
+            <lb ed="#V" n="59"/>et modo humano; ergo cum intentione
+            <lb ed="#V" n="60"/>ad hoc requisita, ut actio sit humana et
+            <lb ed="#V" n="61"/>libera. Sed praeterea exigunt Concilia
+            <lb ed="#V" n="62"/>intentionem faciendi quod facit Ecclesia;
+            <lb ed="#V" n="63"/>ergo haec diversa est ab intentione
+            facien<lb ed="#V" n="64" break="no"/>di illos actus, qua sunt humani actus in
+            <lb ed="#V" n="65"/>genere. Patet consequentia, quia
+            super<lb ed="#V" n="66" break="no"/>flueret definitio, cum nihil diversum
+            im<lb ed="#V" n="67" break="no"/>portet, praeter id quod ipsa materia
+            proxi<lb ed="#V" n="68" break="no"/>ma, et forma prolata includunt.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Tertio, Concilium Tridentinum aliquid
+            <lb ed="#V" n="70"/>definit contra haereticos Lutheranos, qui
+            <lb ed="#V" n="71"/>intentionem ministri, aut faciendi quod
+            <lb ed="#V" n="72"/>facit Ecclesia, requiri negabant; sed hi
+            <lb ed="#V" n="73"/>non negabant ad ablutionem et
+            prolati<lb ed="#V" n="74" break="no"/>onem formae requiri, ut fiant humano
+            <lb ed="#V" n="75"/>modo, a ministris; ergo aliud praeter hoc
+            <lb ed="#V" n="76"/>negabant, quod definit Concilium, requiri.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Quarto, intentio Ecclesiae et Christi,
+            <lb ed="#V" n="78"/>quoad praefatas actiones respicit usum
+            <lb ed="#V" n="79"/>religiosum in ipsis, et cultum; ergo
+            inten<lb ed="#V" n="80" break="no"/>tio faciendi, quod facit Ecclesia,
+            necessa<lb ed="#V" n="81" break="no"/>rio ordinatur ad usum religiosum eorum;
+            <lb ed="#V" n="82"/>ergo sub hoc motivo ipsas actiones, modo
+            <lb ed="#V" n="83"/>aliquo ex dictis confuse vel distincte
+            <lb ed="#V" n="84"/>respicit. Patet consequentia, quia intentio
+            <lb ed="#V" n="85"/>Ecclesiae et Christi necessario salvanda in
+            <lb ed="#V" n="86"/>ministro, nequit in eo salvari, nisi per
+            <lb ed="#V" n="87"/>modum regulae objectivae, vel per modum
+            <lb ed="#V" n="88"/>causae inferioris et ministerialis
+            subordi<pb ed="#V" n="573"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>natae. Si primo modo, necessario intendit
+            <lb ed="#V" n="2"/>facere quod facit Ecclesia, et sic salvatur
+            <lb ed="#V" n="3"/>intentio ejus in ministro, per modum
+            <lb ed="#V" n="4"/>regulae objectivae, quam sequitur; si
+            se<lb ed="#V" n="5" break="no"/>-cundo modo, non subordinatur Christo
+            <lb ed="#V" n="6"/>aut Ecclesiae, nisi ut causa inferior
+            subor<lb ed="#V" n="7" break="no"/>dinata, et hoc modo operans per
+            subje<lb ed="#V" n="8" break="no"/>ctionem ad Christum et Ecclesiam; sed in
+            <lb ed="#V" n="9"/>nullo usu, qui non est sacer, subsistit
+            <lb ed="#V" n="10"/>talis subordinatio in ministro, ergo neque
+            <lb ed="#V" n="11"/>actio sacramentalis qua talis est.
+            Subsum<lb ed="#V" n="12" break="no"/>ptum patet, quia illae actiones cadunt
+            <lb ed="#V" n="13"/>praecise sub intentione et influxu Christi,
+            <lb ed="#V" n="14"/>ut sunt sacramentales, et spectant ad
+            <lb ed="#V" n="15"/>religionem, aliter non subsunt ipsi. Huc
+            <lb ed="#V" n="16"/>spectat ratio Doctoris et D. Thomae,
+            <lb ed="#V" n="17"/>responsione ad primum in dicto articulo;
+            <lb ed="#V" n="18"/>eam sic format Doctor:
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Quinto, Deus voluit illum actum fieri a
+            <lb ed="#V" n="20"/>ministro per modum actus humani, et
+            <lb ed="#V" n="21"/>non tantum in esse naturae, id est, ut est
+            <lb ed="#V" n="22"/>indifferens ad quoscumque alios effectus,
+            <lb ed="#V" n="23"/>ut dicit S. Thomas, vel ad alias
+            balneati<lb ed="#V" n="24" break="no"/>ones, ut Doctor in littera, sed inquantum
+            <lb ed="#V" n="25"/>est actus alicujus, ut ministri exercentis
+            <lb ed="#V" n="26"/>signum Dei; sed habens actum humanum
+            <lb ed="#V" n="27"/>s intendit finem illius, ut est sibi humanus,
+            <lb ed="#V" n="28"/>. quia alioquin non subsisteret intentio et
+            <lb ed="#V" n="29"/>volitio efficax ipsius actus externi, de quo
+            <lb ed="#V" n="30"/>est sermo, et liberi; ergo minister
+            inten<lb ed="#V" n="31" break="no"/>dit finem proximum illius actus, ut est sibi
+            <lb ed="#V" n="32"/>impositus, id est, ut exercet actum,
+            in<lb ed="#V" n="33" break="no"/>quantum minister est, et subordinatur
+            <lb ed="#V" n="34"/>causae principali; alias certe non exercet
+            <lb ed="#V" n="35"/>actum ut minister, sed ut causa
+            principa<lb ed="#V" n="36" break="no"/>lis non subordinata, et ad diversum finem
+            <lb ed="#V" n="37"/>ab eo, qui necessario necessitate
+            Sacra<lb ed="#V" n="38" break="no"/>menti intenditur a ministro, ut minister
+            <lb ed="#V" n="39"/>subordinatur causae principali.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Confirmatur, ministerium Sacramenti
+            <lb ed="#V" n="41"/>non competit ministro, nisi per potestatem
+            <lb ed="#V" n="42"/>concessam a causa principali instituente
+            <lb ed="#V" n="43"/>Sacramentum, per quam potestatem in
+            <lb ed="#V" n="44"/>actu primo constituitur minister et causa
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>instrumentalis, quam potestatem non
+            ha<lb ed="#V" n="46" break="no"/>bet amens respectu Baptismi, non
+            Sacer<lb ed="#V" n="47" break="no"/>dos respectu Eucharistiae, non approbatus
+            <lb ed="#V" n="48"/>ab Ecclesia respectu absolutionis, et sic
+            <lb ed="#V" n="49"/>de reliquis ministris Sacramentorum; ergo
+            <lb ed="#V" n="50"/>quacumque ratione procedit actus a
+            mini<lb ed="#V" n="51" break="no"/>stro, absque eo quod procedat secundum
+            <lb ed="#V" n="52"/>potestatem datam, vel ab ipsa potestate
+            <lb ed="#V" n="53"/>tanquam a principio, non procedit a
+            mi<lb ed="#V" n="54" break="no"/>nistro, qua minister est Sacramenti, per
+            <lb ed="#V" n="55"/>potestatem a Deo datam; sed non potest
+            <lb ed="#V" n="56"/>procedere secundum potestatem datam,
+            <lb ed="#V" n="57"/>nisi respective ad Sacramentum, qua
+            Sa<lb ed="#V" n="58" break="no"/>cramentum est, seu signum sacrum a Deo
+            <lb ed="#V" n="59"/>institutum, ad quod ordinatur per se
+            <lb ed="#V" n="60"/>potestas data, et ministerium, quod est
+            <lb ed="#V" n="61"/>actus secundus illius potestatis, et fieri
+            <lb ed="#V" n="62"/>Sacramenti; ergo de necessitate supponit
+            <lb ed="#V" n="63"/>intentionem ad ministerium Sacramenti,
+            <lb ed="#V" n="64"/>qua Sacramentum est, vel generalem vel
+            <lb ed="#V" n="65"/>particularem qua reducitur potestas a Deo
+            <lb ed="#V" n="66"/>data in exercitium.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Unde sicut artifex nunquam agit
+            secun<lb ed="#V" n="68" break="no"/>dum artem, nisi habeat intentionem sic
+            <lb ed="#V" n="69"/>faciendi, qua ars reducitur ad exercitium,
+            <lb ed="#V" n="70"/>ita ut si casu contingat eum facere
+            effe<lb ed="#V" n="71" break="no"/>ctum, qui natus esset fieri secundum
+            ar<lb ed="#V" n="72" break="no"/>tem, non tamen esse per artem; et sicut
+            <lb ed="#V" n="73"/>studiosus faciens justum, sed non juste
+            <lb ed="#V" n="74"/>propter ipsam justitiam, non agit
+            secun<lb ed="#V" n="75" break="no"/>dum virtutem, et sicut judex, aut
+            legisla<lb ed="#V" n="76" break="no"/>tor faciens aliquid, et non secundum
+            <lb ed="#V" n="77"/>potestatem quam habet, non agit ut
+            <lb ed="#V" n="78"/>judex, aut legislator, quia ad haec
+            requi<lb ed="#V" n="79" break="no"/>ritur intentio utendi potestate ipsa, ut
+            <lb ed="#V" n="80"/>vere operetur secundum potestatem, et
+            <lb ed="#V" n="81"/>ex ipsa, ita similiter minister Sacramenti,
+            <lb ed="#V" n="82"/>si non agat secundum potestatem a Deo
+            <lb ed="#V" n="83"/>concessam, nunquam agit ut minister,
+            <lb ed="#V" n="84"/>neque ut subordinatus causae principali,
+            <lb ed="#V" n="85"/>ut instrumentum animatum; ad hoc autem
+            <lb ed="#V" n="86"/>ut agat secundum potestatem ministri, et
+            <lb ed="#V" n="87"/>per ipsam, requiritur intentio specifica
+            <lb ed="#V" n="88"/>actus illius potestatis, inquantum est
+            di<pb ed="#V" n="574"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>versa ab aliis, et ut ipsa copulatur cum
+            <lb ed="#V" n="2"/>suo actu, seu actus cum ipsa.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Haec autem intentio nequit subsistere,
+            <lb ed="#V" n="4"/>nisi motivum ejus aliquo modo subsistat,
+            <lb ed="#V" n="5"/>quod est ministerium Sacrum, aut
+            con<lb ed="#V" n="6" break="no"/>fuse, aut explicata volitione aliquo modo,
+            <lb ed="#V" n="7"/>et hoc ex institutione Christi, non solum
+            <lb ed="#V" n="8"/>quae respicit res et verba, quia horum
+            <lb ed="#V" n="9"/>institutio est independens a ministro, aut
+            <lb ed="#V" n="10"/>ejus voluntate, sed ex institutione speciali,
+            <lb ed="#V" n="11"/>qua dedit potestatem conficiendi
+            Sacra<lb ed="#V" n="12" break="no"/>menti ipsi ministro prae aliis. Et quamvis
+            <lb ed="#V" n="13"/>haec sit communis, quoad Baptismum in
+            <lb ed="#V" n="14"/>omnibus viatoribus capacibus libertatis et
+            <lb ed="#V" n="15"/>discretionis, tamen non ideo
+            praerequiri<lb ed="#V" n="16" break="no"/>tur in ipsis libertas ad hoc ut actus
+            dica<lb ed="#V" n="17" break="no"/>tur liber physice praecise, quia hac
+            liber<lb ed="#V" n="18" break="no"/>tate potest elici, absque eo quod sit
+            <lb ed="#V" n="19"/>sacramentalis, sed ut minister institutus
+            <lb ed="#V" n="20"/>concipiat intentionem per se requisitam
+            <lb ed="#V" n="21"/>ad ministerium, in quo agit, ut minister
+            <lb ed="#V" n="22"/>subjectus causae principali.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Quod patet ex communi consensu
+            Eccle<lb ed="#V" n="24" break="no"/>siae, quae praesumit de hac intentione
+            <lb ed="#V" n="25"/>ministri requisita eo ipso, quod nihil ei
+            <lb ed="#V" n="26"/>derogans exterius apparet, quod si
+            appa<lb ed="#V" n="27" break="no"/>reat, aut de defectu intentionis constet;
+            <lb ed="#V" n="28"/>quamvis etiam constet actus illos libere
+            <lb ed="#V" n="29"/>fuisse elicitos, nempe ablutionis et
+            prola<lb ed="#V" n="30" break="no"/>tionis, Ecclesia judicaret Sacramentum
+            <lb ed="#V" n="31"/>esse nullum, non ex defectu formae, aut
+            <lb ed="#V" n="32"/>materiae requisitae, sed ex defectu
+            inten<lb ed="#V" n="33" break="no"/>tionis necessariae. Et hoc modo
+            interpre<lb ed="#V" n="34" break="no"/>tantur plures Doctores responsionem
+            Za<lb ed="#V" n="35" break="no"/>chariae Papae circa Baptismum collatum
+            <lb ed="#V" n="36"/>cum illa forma: In nomine Patria et Filia,
+            <lb ed="#V" n="37"/>etc. fuisse validum, si defuit intentio
+            <lb ed="#V" n="38"/>inducendi erroris. Et quidquid sit de hoc,
+            <lb ed="#V" n="39"/>Baptisma collatum ab Athanasio adhuc
+            <lb ed="#V" n="40"/>puero, et ratum in Ecclesia Alexandrina,
+            <lb ed="#V" n="41"/>antequam datum fuit pro rato,
+            examina<lb ed="#V" n="42" break="no"/>tum est de intentione non simpliciter
+            <lb ed="#V" n="43"/>libera, quia de hac vix dubitari posset,
+            <lb ed="#V" n="44"/>sed de intentione seria, et ex fine
+            confe<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>rendi Sacramenti, concepta. Non video
+            <lb ed="#V" n="46"/>ergo in hoc differentiam aliquam
+            notabi<lb ed="#V" n="47" break="no"/>lem inter Doctores, nisi tantum forte in
+            <lb ed="#V" n="48"/>verbis et modis explicandi intentionem
+            <lb ed="#V" n="49"/>requisitam in ministro; id concesserim
+            <lb ed="#V" n="50"/>Catharinum forte inconsulte ad
+            proba<lb ed="#V" n="51" break="no"/>tionem suae sententiae processisse,
+            quate<lb ed="#V" n="52" break="no"/>nus putavit aliquid particulare in ea
+            con<lb ed="#V" n="53" break="no"/>tineri, diversum a communi sententia
+            <lb ed="#V" n="54"/>scholae.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Objicies primo illam vulgarem historiam
+            <lb ed="#V" n="56"/>Athanasii adhuc pueri, baptizantis per
+            <lb ed="#V" n="57"/>jocum, quam tradidit Ruffinus lib. 1.
+            <lb ed="#V" n="58"/>historiae, cap. 14. Nicephorus lib. 8. cap.
+            <lb ed="#V" n="59"/>44. et similiter aliam similem de puero
+            <lb ed="#V" n="60"/>Judaeo baptizato ab aliis pueris per lusum
+            <lb ed="#V" n="61"/>refert, lib. 3. ultimo, qui Baptismus
+            rece<lb ed="#V" n="62" break="no"/>ptus est in Ecclesia Constantinopolitana,
+            <lb ed="#V" n="63"/>et suppletae tantum caeremoniae, et ritus
+            <lb ed="#V" n="64"/>solemnis. Respondetur, si jocus sit talis,
+            <lb ed="#V" n="65"/>ut sit mera simulatio excludens animum
+            <lb ed="#V" n="66"/>exercendi actus serio, et prout exigitur ad
+            <lb ed="#V" n="67"/>substantiam ejus, sic excludere requisitam
+            <lb ed="#V" n="68"/>intentionem; si vero jocus sit talis, ut
+            <lb ed="#V" n="69"/>non excludat voluntatem per se
+            requi<lb ed="#V" n="70" break="no"/>sitam ad actum, quamvis ulterius etiam
+            <lb ed="#V" n="71"/>intendatur oblectatio, nihil derogare
+            Sa<lb ed="#V" n="72" break="no"/>cramento, quantum ad valorem ejus.
+            <lb ed="#V" n="73"/>Hujus generis fuit jocus ille puerorum
+            <lb ed="#V" n="74"/>baptizantium, ideo Baptismus ab eis datus
+            <lb ed="#V" n="75"/>pro rato et valido fuit receptus.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Objicies secundo, Chrysostomum
+            ho<lb ed="#V" n="77" break="no"/>milia 85. in Joannem: Sacerdos, inquit,
+            <lb ed="#V" n="78"/>linguam et manus proebet, neque enim
+            <lb ed="#V" n="79"/>justum est propter alterius malitiam ad
+            <lb ed="#V" n="80"/>salutis nostrae Symbola fide accedentes
+            <lb ed="#V" n="81"/>offendi, etc. ergo praeter intentionem
+            <lb ed="#V" n="82"/>abluendi et proferendi verba, non
+            requi<lb ed="#V" n="83" break="no"/>ritur alia, quae sit in ministro, alias non
+            <lb ed="#V" n="84"/>solum manus et verba offerret Sacerdos.
+            <lb ed="#V" n="85"/>Item Augustinus lib. 7. de Baptismo,
+            <lb ed="#V" n="86"/>cap. 53. et habetur in capitulo: Solet
+            <lb ed="#V" n="87"/>etiam quaeri, de consecratione, dist 4.
+            <lb ed="#V" n="88"/>ubi asserit si absit simulatio ex parte
+            <pb ed="#V" n="575"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>recipientis, quamvis adsit in dante
+            Ba<lb ed="#V" n="2" break="no"/>ptismum, recipere vere Sacramentum.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Respondetur, Chrysostomum non
+            ex<lb ed="#V" n="4" break="no"/>-cludere intentionem legitimam offerendi
+            <lb ed="#V" n="5"/>manus et verba ad effectum praestandi
+            <lb ed="#V" n="6"/>Baptismi, quia intendit actum debere esse
+            <lb ed="#V" n="7"/>humanum in ordine ad Sacramentum
+            con<lb ed="#V" n="8" break="no"/>ficiendum et oblatum; neque per
+            mali<lb ed="#V" n="9" break="no"/>tiam intendit defectum intentionis
+            de<lb ed="#V" n="10" break="no"/>bitae, sed solum probitatis, et morum,
+            <lb ed="#V" n="11"/>quae non nocet baptizato, de qua ex
+            pro<lb ed="#V" n="12" break="no"/>posito illic disserit. Similiter patet ad
+            Au<lb ed="#V" n="13" break="no"/>gustinum, qui non loquitur de
+            simulati<lb ed="#V" n="14" break="no"/>one excludente seriam intentionem dandi
+            <lb ed="#V" n="15"/>Sacramenti, quamvis ibi non integre
+            ex<lb ed="#V" n="16" break="no"/>plicat de qua simulatione agat; sed
+            prae<lb ed="#V" n="17" break="no"/>sumi debet de hac agere. Et forte alludit
+            <lb ed="#V" n="18"/>ad Baptismum datum ab Athanasio, aut
+            <lb ed="#V" n="19"/>etiam datum Mimo coram Diocletiano,
+            <lb ed="#V" n="20"/>qui de repente conversus est et
+            profes<lb ed="#V" n="21" break="no"/>sus fidem Christianam, et factus est
+            Mar<lb ed="#V" n="22" break="no"/>tyr, in quibus ex parte tam suscipientium
+            <lb ed="#V" n="23"/>quam offerentium servata est intentio
+            <lb ed="#V" n="24"/>serio agendi, quod faciebant Christiani.
+            <lb ed="#V" n="25"/>Respondetur etiam secundo, Augustinum
+            <lb ed="#V" n="26"/>nihil in eo casu determinasse, sed
+            suspen<lb ed="#V" n="27" break="no"/>disse sententiam, donec ab Ecclesia, aut
+            <lb ed="#V" n="28"/>aliis aliquid determinaretur, quod postea
+            <lb ed="#V" n="29"/>factum est.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Objicies tertio Christum instituisse
+            Sa<lb ed="#V" n="31" break="no"/>cramenta, modo quo convenientius erat,
+            <lb ed="#V" n="32"/>sed magis conveniens erat ea non
+            depen<lb ed="#V" n="33" break="no"/>dere ab intentione ministri; ergo etc.
+            <lb ed="#V" n="34"/>Minor probatur, quia neque alia signa ex
+            <lb ed="#V" n="35"/>auctoritate publica instituta dependent
+            <lb ed="#V" n="36"/>ab intentione utentium; deinde
+            con<lb ed="#V" n="37" break="no"/>tractus, transactiones et hujusmodi,
+            <lb ed="#V" n="38"/>non dependent ab intentione ministri,
+            <lb ed="#V" n="39"/>verbi gratia, procuratoris, sed a lege;
+            <lb ed="#V" n="40"/>ergo similiter non fuit congruum talem
+            <lb ed="#V" n="41"/>dependentiam in proposito admiscere.
+            <lb ed="#V" n="42"/>Consequentia patet, quia sic redderentur
+            <lb ed="#V" n="43"/>multi perplexi de valore Sacramenti
+            per<lb ed="#V" n="44" break="no"/>cepti, verbi gratia, inter haereticos, qui
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>errorem docent contra veritatem
+            Sacra<lb ed="#V" n="46" break="no"/>menti. Deinde hac ratione, ut passim
+            <lb ed="#V" n="47"/>Patres et Concilia tradunt, non voluit
+            <lb ed="#V" n="48"/>Christus sua Sacramenta dependere a
+            <lb ed="#V" n="49"/>probitate, aut fide ministri; ergo magis
+            <lb ed="#V" n="50"/>id congruit ne dependerent etiam ab ejus
+            <lb ed="#V" n="51"/>intentione.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Respondetur negando minorem. Ad
+            cu<lb ed="#V" n="53" break="no"/>jus probationem repondetur usum aliorum
+            <lb ed="#V" n="54"/>signorum dependere ab auctoritate
+            publi<lb ed="#V" n="55" break="no"/>ca tantum, idque congruenter ad finem
+            <lb ed="#V" n="56"/>pacis et communionis publicae servandae,
+            <lb ed="#V" n="57"/>ad quam se habent particulares personae,
+            <lb ed="#V" n="58"/>tanquam subjectae legibus, non tanquam
+            <lb ed="#V" n="59"/>ministri eorum, a quibus dependet finis
+            <lb ed="#V" n="60"/>politici administratio, non ita in
+            proposi<lb ed="#V" n="61" break="no"/>to, quia Sacramenta ex definitione
+            Eccle<lb ed="#V" n="62" break="no"/>siae dependent ab intentione ministri,
+            <lb ed="#V" n="63"/>idque congruenter, quia instituta sunt in
+            <lb ed="#V" n="64"/>cultum religionis, qui debetur Deo, et
+            <lb ed="#V" n="65"/>consignata sunt Ecclesiae, ut per
+            mini<lb ed="#V" n="66" break="no"/>stros publicos exercerentur, nempe
+            Sa<lb ed="#V" n="67" break="no"/>cerdotes, vel alios, ut in Baptismo, ex
+            <lb ed="#V" n="68"/>eorum defectu, et congruo fine hujus
+            <lb ed="#V" n="69"/>Sacramenti. Debet ergo in ministris
+            tan<lb ed="#V" n="70" break="no"/>quam in causis subordinatis, servari
+            in<lb ed="#V" n="71" break="no"/>tentio publica legis et principis, cujus
+            <lb ed="#V" n="72"/>sunt ministri, sicut in ministris justitiae
+            <lb ed="#V" n="73"/>debet servari intentio legis quantum ad
+            <lb ed="#V" n="74"/>actum in se; debet etiam servari intentio
+            <lb ed="#V" n="75"/>Ecclesiae tanquam in administratoribus,
+            <lb ed="#V" n="76"/>et quamdiu haec servatur, valide
+            confi<lb ed="#V" n="77" break="no"/>citur Sacramentum, non obstante
+            qua<lb ed="#V" n="78" break="no"/>cumque intentione particulari hujus aut
+            <lb ed="#V" n="79"/>illius, inquantum est persona particularis,
+            <lb ed="#V" n="80"/>modo illa non destruat intentionem
+            uni<lb ed="#V" n="81" break="no"/>versalem.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>Ex quo patet ad secundam
+            probati<lb ed="#V" n="83" break="no"/>onem, quia neque lex cujus virtute
+            stabi<lb ed="#V" n="84" break="no"/>litur contractus, neque etiam mandatarius e
+            <lb ed="#V" n="85"/>volunt dependere contractum a ministro,
+            <lb ed="#V" n="86"/>nisi in certo modo, in quo Procurator
+            <lb ed="#V" n="87"/>agit vicem mandatarii, et secundum
+            in<lb ed="#V" n="88" break="no"/>structionem datam, et sic etiam
+            contra<pb ed="#V" n="576"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ctus dependet ab ejus intentione, qua
+            <lb ed="#V" n="2"/>Procurator operans est juxta
+            instituti<lb ed="#V" n="3" break="no"/>onem mandantis, et inquantum
+            manda<lb ed="#V" n="4" break="no"/>tur; quod si modum et mandatum non
+            <lb ed="#V" n="5"/>servat, non agit ut Procurator, neque
+            <lb ed="#V" n="6"/>contractus valet. Deinde neque lex,
+            ne<lb ed="#V" n="7" break="no"/>que mandatarius voluerunt dependere
+            <lb ed="#V" n="8"/>contractum ab interna et occulta
+            inten<lb ed="#V" n="9" break="no"/>tione Procuratoris, de qua nequit lex,
+            <lb ed="#V" n="10"/>aut principalis judicare. In Sacramentis
+            <lb ed="#V" n="11"/>patet aliter factum, ex rationibus
+            praemis<lb ed="#V" n="12" break="no"/>sis, quia sine intentione ministri nequit
+            <lb ed="#V" n="13"/>manere caeremonia, ut est oblata in
+            cul<lb ed="#V" n="14" break="no"/>tum religionis, quae principaliter
+            funda<lb ed="#V" n="15" break="no"/>tur in internis actibus, quos Deus
+            insti<lb ed="#V" n="16" break="no"/>tutor Sacramenti primario respicit et
+            exi<lb ed="#V" n="17" break="no"/>git, et quorum est judex ( quod non
+            <lb ed="#V" n="18"/>competit puro homini), et per ministrum
+            <lb ed="#V" n="19"/>voluit illa offerri, tanquam causam
+            subor<lb ed="#V" n="20" break="no"/>dinatam, cum qua ipsa principalis
+            concur<lb ed="#V" n="21" break="no"/>rit ad effectum; debet ergo Minister
+            con<lb ed="#V" n="22" break="no"/>sequenter intendere sub aliquo motivo,
+            <lb ed="#V" n="23"/>in quo subsistat intentio principalis cui
+            <lb ed="#V" n="24"/>debet conformari.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Ex his negatur consequentia, nec refert
+            <lb ed="#V" n="26"/>ut unus, et alter sit perplexus ex statu
+            <lb ed="#V" n="27"/>et malitia ministri, si motivum subest, et
+            <lb ed="#V" n="28"/>ipso effectu etiam privatur Sacramento et
+            <lb ed="#V" n="29"/>ejus fructu, quia casus particulares non
+            <lb ed="#V" n="30"/>comprehendit lex. Dixi, si motivum
+            su<lb ed="#V" n="31" break="no"/>best, quia alioquin, ut bene D. Thomas
+            <lb ed="#V" n="32"/>supra, si ablutio et forma recte
+            applicen<lb ed="#V" n="33" break="no"/>tur externe, ut nihil appareat contrarium
+            <lb ed="#V" n="34"/>intentioni legitimae, non subest
+            funda<lb ed="#V" n="35" break="no"/>mentum aliquod perplexitatis, quia sicut
+            <lb ed="#V" n="36"/>Ecclesia ratum habet Sacramentum, ita et
+            <lb ed="#V" n="37"/>suscipiens debet quiescere eodem
+            funda<lb ed="#V" n="38" break="no"/>mento certitudinis, quae moralis est; imo
+            <lb ed="#V" n="39"/>peccaret praesumendo, aut judicando aliud
+            <lb ed="#V" n="40"/>de ministro, secluso motivo sufficienti,
+            <lb ed="#V" n="41"/>quod si oriatur scrupulus ex propria
+            dis<lb ed="#V" n="42" break="no"/>positione, quam deponere debet, oritur
+            <lb ed="#V" n="43"/>non ex natura actionis, aut ministerio.
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>Demus ergo casum, aliquem nempe
+            es<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>se, cui ita invisa sit salus proximi, ut
+            <lb ed="#V" n="46"/>omittat legitimam intentionem, quid fiet?
+            <lb ed="#V" n="47"/>Respondent Alensis responsione ad
+            secun<lb ed="#V" n="48" break="no"/>dum loco citato a Scholiaste, vel juxta
+            <lb ed="#V" n="49"/>aliam partitionem quaest. 8. n. 3. art. 1. n
+            <lb ed="#V" n="50"/>responsione ad 4. Bonaventura ad 5.
+            <lb ed="#V" n="51"/>Durandus et Gabriel, et, ut apparet ex
+            <lb ed="#V" n="52"/>prima responsione, D. Thomas art. 8.
+            <lb ed="#V" n="53"/>ad 2. quod Deus suppleret in eo casu,
+            <lb ed="#V" n="54"/>quod deesset quantum ad justificationem,
+            <lb ed="#V" n="55"/>si defectus intentionis esset occultus. Alii
+            <lb ed="#V" n="56"/>hoc negant, qui putant rigorose Deum ita
+            <lb ed="#V" n="57"/>alligasse virtutem suam Sacramento, ut
+            <lb ed="#V" n="58"/>aliter in eo casu non provideat ad
+            salu<lb ed="#V" n="59" break="no"/>tem, neque gratiam justificationis
+            infun<lb ed="#V" n="60" break="no"/>deret. Sed hoc omnino incertum est,
+            ne<lb ed="#V" n="61" break="no"/>que fundamentum aliquod hoc, aut illud
+            <lb ed="#V" n="62"/>urget, nam quod moderni urgeant illud:
+            <lb ed="#V" n="63"/>Nisi quis renatus fuerit, etc. ubi
+            denota<lb ed="#V" n="64" break="no"/>tur necessitas Baptismi, intelligi potest in
+            <lb ed="#V" n="65"/>reipsa, aut in apparentia, et in foro
+            <lb ed="#V" n="66"/>Ecclesiae suscepti, quando vitium
+            inten<lb ed="#V" n="67" break="no"/>tionis exterius non proditur, et quod
+            gra<lb ed="#V" n="68" break="no"/>ves Doctores praesumunt de salute sic
+            <lb ed="#V" n="69"/>baptizati, multum congruit divinae
+            mise<lb ed="#V" n="70" break="no"/>ricordiae. Et in eam sententiam multum
+            <lb ed="#V" n="71"/>propendet Augustinus, si eam ipsam non
+            <lb ed="#V" n="72"/>teneat, loco citato, nec deest congruentia,
+            <lb ed="#V" n="73"/>ut Deus causa principalis instituens et
+            <lb ed="#V" n="74"/>causans salutem hominum medio
+            Sacra<lb ed="#V" n="75" break="no"/>mento, in eo casu quo Sacramentum sine
+            <lb ed="#V" n="76"/>culpa suscipientis, sed ex sola
+            malignita<lb ed="#V" n="77" break="no"/>te interna conferentis, sit nullum,
+            sup<lb ed="#V" n="78" break="no"/>pleat sua divina misericordia defectum,
+            <lb ed="#V" n="79"/>in iis quae ad salutem sunt necessaria,
+            <lb ed="#V" n="80"/>sed neque etiam ex alia parte est
+            funda<lb ed="#V" n="81" break="no"/>mentum, quod convincat ita fieri; totum
+            <lb ed="#V" n="82"/>est Dei providentiae et dispositioni
+            secre<lb ed="#V" n="83" break="no"/>tae reservatum.
+            <lb ed="#V" n="84"/>Casus moralis esse posset de solis
+            infan<lb ed="#V" n="85" break="no"/>tibus sic baptizatis a ministro sine ulla
+            in<lb ed="#V" n="86" break="no"/>tentione, et mortuis cum solo illo
+            Bapti<lb ed="#V" n="87" break="no"/>smo, an exhumandi essent ex loco sacro?
+            <lb ed="#V" n="88"/>quia de adultis, qui per fidem
+            Sacramen<pb ed="#V" n="577"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ti, et propria dispositione justificari
+            pos<lb ed="#V" n="2" break="no"/>sunt, non est difficultas. Responderem
+            <lb ed="#V" n="3"/>sequendam essse in praxi sententiam tot
+            <lb ed="#V" n="4"/>Doctorum, quae est magis in favorem
+            <lb ed="#V" n="5"/>infantum et divinae misericordiae, in re
+            <lb ed="#V" n="6"/>obscura, ostensionem, vel non esse
+            cre<lb ed="#V" n="7" break="no"/>dendum ministro.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Ad aliud respondetur, statum ministri
+            <lb ed="#V" n="9"/>quoad probitatem et fidem, minus
+            cer<lb ed="#V" n="10" break="no"/>tum esse; neque de eo potest esse tanta
+            <lb ed="#V" n="11"/>certitudo moralis, sicut de intentione, de
+            <lb ed="#V" n="12"/>qua ipse minister potest certitudinem
+            Phy<lb ed="#V" n="13" break="no"/>sicam habere; neque praeterea status
+            <lb ed="#V" n="14"/>ejus ille spectat ad cultum Dei inquantum
+            <lb ed="#V" n="15"/>per Sacramenta habetur, nempe quatenus
+            <lb ed="#V" n="16"/>ordinantur ad propagationem salutis in
+            <lb ed="#V" n="17"/>eo qui illa suscipit, in quo solo habent
+            <lb ed="#V" n="18"/>effectum non in ministrante, neque idem
+            <lb ed="#V" n="19"/>etiam status spectat ad actum humanum,
+            <lb ed="#V" n="20"/>sicut intentio ministri.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Objicit denique Doctor, quod minister
+            <lb ed="#V" n="22"/>se habeat ut causa instrumentalis, sed in
+            <lb ed="#V" n="23"/>hoc non requiritur intentio, sicut non
+            at<lb ed="#V" n="24" break="no"/>tingit effectum causae principalis;
+            respe<lb ed="#V" n="25" break="no"/>ctu autem effectus proprii est causa
+            prin<lb ed="#V" n="26" break="no"/>cipalis, non instrumentalis, sic autem
+            <lb ed="#V" n="27"/>non requiritur ut habeat intentionem, qua
+            <lb ed="#V" n="28"/>subordinatur causae principali, quia sic
+            <lb ed="#V" n="29"/>tantum agit, ut instrumentum; ergo
+            in<lb ed="#V" n="30" break="no"/>quantum agit ut instrumentum respectu
+            <lb ed="#V" n="31"/>causae principalis, non requiritur in eo
+            <lb ed="#V" n="32"/>alia intentio diversa ab ea quae est causae
+            <lb ed="#V" n="33"/>principalis, per quam dirigitur et
+            assu<lb ed="#V" n="34" break="no"/>mitur ad suum finem. Vide Scholium, et
+            <lb ed="#V" n="35"/>ea quae subjicit Doctor de varia acceptione
+            <lb ed="#V" n="36"/>instrumenti de qua superius agit dist. 1.
+            <lb ed="#V" n="37"/>quaest. 1. 2. et 4. Resolutio est ministrum
+            <lb ed="#V" n="38"/>non esse causam instrumentalem, sed
+            <lb ed="#V" n="39"/>principalem respectu ministerii, et
+            confe<lb ed="#V" n="40" break="no"/>ctionis Sacramenti, et ablutionis, qua est
+            <lb ed="#V" n="41"/>ablutio etiam sacramentalis, et se habet ut
+            <lb ed="#V" n="42"/>causa secunda; respectu vero effectus
+            Sa<lb ed="#V" n="43" break="no"/>cramenti potest dici instrumentum; vide
+            <lb ed="#V" n="44"/>S Patet ergo, etc. Responsio ad principalia
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>argumenta est clara, et satis patet ex
+            di<lb ed="#V" n="46" break="no"/>ctis.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

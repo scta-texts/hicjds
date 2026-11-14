@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 2, Quaestio 2</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 2, Quaestio 2</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="265"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3291"><!-- hicjds-b4d2q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum baptizatus baptismo Ioannis necessaria tenebatur baptizari baptismo Christi</head>
+        <!-- <div alias="hiq-d2q2-p1"> -->
+          <p>
+            <lb ed="#V" n="6" type="fixed=265"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>(a) Respondeo potest intelligi dupliciter
+            <lb ed="#V" n="8"/>Joannem baptizasse, etc. Hic agit Doctor
+            <lb ed="#V" n="9"/>de Baptismo Joannis respective ad titulum
+            <lb ed="#V" n="10"/>praefixum ex principali instituto;
+            inciden<lb ed="#V" n="11" break="no"/>ter autem plura breviter dicit, quae ad
+            <lb ed="#V" n="12"/>quaestiones diversas et titulos revocantur a
+            <lb ed="#V" n="13"/>Doctoribus. Quaestio ergo est: An
+            baptiza<lb ed="#V" n="14" break="no"/>tus Baptismo Joannis tenebatur ad
+            Bapti<lb ed="#V" n="15" break="no"/>smum Christi? Quod duobus modis
+            intel<lb ed="#V" n="16" break="no"/>ligi potest, nempe si aliquis baptizatus
+            <lb ed="#V" n="17"/>fuerit a Joanne in forma Baptismi Christi,
+            <lb ed="#V" n="18"/>id est, in nomine Trinitatis, quam formam
+            <lb ed="#V" n="19"/>discere potuit a discipulis Christi, eo casu
+            <lb ed="#V" n="20"/>ille Baptismus sic datus non esset
+            Bapti<lb ed="#V" n="21" break="no"/>smus Joannis (cujus neque promulgator,
+            <lb ed="#V" n="22"/>neque institutor fuit) sicut neque est
+            <lb ed="#V" n="23"/>Petri vel Pauli, vel alterius ministri, 1. ad
+            <lb ed="#V" n="24"/>Corinth. 1. Hic autem casus non est ad
+            <lb ed="#V" n="25"/>scopum quaestionis, quia ille reciperet
+            <lb ed="#V" n="26"/>Baptismum Christi, qui non est iterabilis.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>Secundo modo intelligitur de Baptismo
+            <lb ed="#V" n="28"/>Joannis, quo ipse utebatur, vel in forma
+            <lb ed="#V" n="29"/>propria, scilicet in nomine venturi, vel
+            <lb ed="#V" n="30"/>sine ulla forma. Ad quaestionem hoc modo
+            <lb ed="#V" n="31"/>intellectam, respondet affirmative,
+            pro<lb ed="#V" n="32" break="no"/>pter praeceptum generale, quod
+            praece<lb ed="#V" n="33" break="no"/>ptum fuit rationabile, tum ut baptizatus
+            <lb ed="#V" n="34"/>fieret membrum Ecclesiae; tum, quia
+            reci<lb ed="#V" n="35" break="no"/>piens medicinam praeparativam et
+            disposi<lb ed="#V" n="36" break="no"/>tivam, congruum erat ut reciperet
+            purga<lb ed="#V" n="37" break="no"/>tivam; Baptismus Joannis fuit
+            praeparati<lb ed="#V" n="38" break="no"/>vus, et ut dispositio ad Baptismum Christi.
+            <lb ed="#V" n="39"/>Origenes tomo 8. in Joannem: Ut
+            praepa<lb ed="#V" n="40" break="no"/>rem, inquit, veluti populum instructum,
+            <lb ed="#V" n="41"/>ego veni, et ad praeparandum locum
+            re<lb ed="#V" n="42" break="no"/>sipiscentiae per Paptismum post me
+            ventu<cb ed="#V" n="b"/><lb ed="#V" n="43" break="no"/>ro, etc. Athanasius quaest. 134. Baptisma
+            <lb ed="#V" n="44"/>Joannis introductorium appellat; Basilius
+            <lb ed="#V" n="45"/>exhortatione ad Baptismum, initiatorium;
+            <lb ed="#V" n="46"/>Cyrillus Alexandrinus lib. 1. in Joannem
+            <lb ed="#V" n="47"/>cap. 26. praeparativum, et lib. 2. cap. 57.
+            <lb ed="#V" n="48"/>introductorium, sicut et Damascenus lib.
+            <lb ed="#V" n="49"/>4. fidei orthodoxae, rudimentum, etc.
+            Deni<lb ed="#V" n="50" break="no"/>que Cyprianus de Baptismo Christi, et
+            <lb ed="#V" n="51"/>manifestatione Trinitatis: Praeparabat
+            <lb ed="#V" n="52"/>viam Domino Joannes lavando exterius
+            <lb ed="#V" n="53"/>corpora, ut praecederet exterius lavacrum.
+            <lb ed="#V" n="54"/>secuturum Baptisma in quo conferretur
+            <lb ed="#V" n="55"/>animarum ablutio, et peccatorum remissio,
+            <lb ed="#V" n="56"/>etc. Augustinus in Enchiridio cap. 49. Non
+            <lb ed="#V" n="57"/>renascebantur qui Baptismate Joannis
+            ba<lb ed="#V" n="58" break="no"/>ptizabantur, etc. sed quodam praecursorio
+            <lb ed="#V" n="59"/>illius ministerio, qui dicebat: Parate viam
+            <lb ed="#V" n="60"/>Domini; huic uni, in quo solo renasci
+            po<lb ed="#V" n="61" break="no"/>terant, parabantur, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Gregorius Magnus hom. 7. in Evang.
+            <lb ed="#V" n="63"/>idem docet, et alii, proinde recte Doctor
+            <lb ed="#V" n="64"/>significat usum Baptismi Joannis in hoc
+            <lb ed="#V" n="65"/>solo fuisse, ut disponeret ad Baptismum
+            <lb ed="#V" n="66"/>Christi, tum. exercitando per ablutionem
+            <lb ed="#V" n="67"/>aquae externam, tum etiam praedicando
+            <lb ed="#V" n="68"/>fidem et poenitentiam peccatorum,
+            appro<lb ed="#V" n="69" break="no"/>pinquante regno coelorum, et gratia novae
+            <lb ed="#V" n="70"/>legis; subjicit mox sententiam Magistri,
+            <lb ed="#V" n="71"/>eamque impugnat. His positis quantum
+            <lb ed="#V" n="72"/>ad summarium et divisionem, difficultates
+            <lb ed="#V" n="73"/>et controversias breviter perstringam suo
+            <lb ed="#V" n="74"/>ordine, resumendo membra ipsius
+            quaes<lb ed="#V" n="75" break="no"/>tionis juxta consuetum stylum.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Hic supponit Doctor opinionem
+            verio<lb ed="#V" n="77" break="no"/>rem circa institutionem Baptismi Christi
+            <lb ed="#V" n="78"/>ante passionem factam, quam et inferius
+            <lb ed="#V" n="79"/>docet, nempe discipulos Christi non
+            fuis<lb ed="#V" n="80" break="no"/>se usos alio Baptismo, quam instituto a
+            <lb ed="#V" n="81"/>Christo, cujus formam a discipulis potuit
+            <lb ed="#V" n="82"/>Joannes discere.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>Caeterum Joannem non fuisse usum
+            <lb ed="#V" n="84"/>Baptismo Christi, sed suo, supponunt
+            <lb ed="#V" n="85"/>omnes Patres, neque alloquin
+            ministe<lb ed="#V" n="86" break="no"/>rium Joannis, quo ut praecursor
+            fungeba<pb ed="#V" n="266"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tur, permittebat ipsi congrue usum
+            alte<lb ed="#V" n="2" break="no"/>rius Baptismatis sacramentalis instituti
+            <lb ed="#V" n="3"/>a Christo, sed servato discrimine inter
+            <lb ed="#V" n="4"/>utrumque, soli Christo, et ejus discipulis
+            <lb ed="#V" n="5"/>proprium esse debebat, quamquam
+            si<lb ed="#V" n="6" break="no"/>mul pro aliquo tempore concurrerent,
+            <lb ed="#V" n="7"/>ut patet Joannis 3. et 4. Baptismus autem
+            <lb ed="#V" n="8"/>Joannis unum annum circiter, vel paulo
+            <lb ed="#V" n="9"/>amplius duravit, donec missus est in
+            car<lb ed="#V" n="10" break="no"/>cerem, et tunc extinctus est usus
+            Baptis<lb ed="#V" n="11" break="no"/>mi Joannis, quod a solo ejus ministerio
+            <lb ed="#V" n="12"/>pendebat, ut probat Augustinus tract. 4.
+            <lb ed="#V" n="13"/>in Joan. Casus ergo propositus est
+            spe<lb ed="#V" n="14" break="no"/>culativus, et non facti, et sic etiam
+            disse<lb ed="#V" n="15" break="no"/>rendi gratia a Doctore proponitur, non
+            <lb ed="#V" n="16"/>vero asserendo.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>(b) Alio modo potest intelligi, etc. Hic
+            <lb ed="#V" n="18"/>docet distingui Baptismum Christi a
+            Ba<lb ed="#V" n="19" break="no"/>ptismo Joannis. Oppositum errorem
+            do<lb ed="#V" n="20" break="no"/>cuit Petilianus, eumdem scilicet fuisse
+            <lb ed="#V" n="21"/>Baptismum Christi et Joannis, in quo
+            <lb ed="#V" n="22"/>distinguebat tres gradus; unum qui fuit
+            <lb ed="#V" n="23"/>in aqua, et hic fuit Joannis; secundum,
+            <lb ed="#V" n="24"/>in spiritu, et hic fuit Christi;
+            ter<lb ed="#V" n="25" break="no"/>tium in igne, et hic fuit Paracleti; vide
+            <lb ed="#V" n="26"/>Augustinum lib. 2. contra litteras
+            Petilia<lb ed="#V" n="27" break="no"/>ni cap. 32. 34. et 37. Idem docent haeretici
+            <lb ed="#V" n="28"/>hujus temporis, nullum discrimen
+            agnos<lb ed="#V" n="29" break="no"/>centes inter utrumque Baptismum, nisi
+            <lb ed="#V" n="30"/>quod Baptisma Joannis fuerit efficax in
+            <lb ed="#V" n="31"/>virtute Christi exhibendi in Cruce,
+            Baptis<lb ed="#V" n="32" break="no"/>na Christi in virtute jam exhibiti. Vide
+            <lb ed="#V" n="33"/>Bellarminum lib. 1. de Baptismo, cap. 19.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>Haec haeresis damnata est ab omnibus
+            <lb ed="#V" n="35"/>Patribus. Vide citatos, et quos refert
+            <lb ed="#V" n="36"/>Scholiastes. Damnatur sess. 7. de
+            Baptis<lb ed="#V" n="37" break="no"/>mo, a Tridentino: Si quis dixerit
+            Baptis<lb ed="#V" n="38" break="no"/>ma Joannis habuisse eamdem vim cum
+            Ba<lb ed="#V" n="39" break="no"/>ptismo Christi, anathema sit, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Joannem baptizasse, etc. Materiam
+            Ba<lb ed="#V" n="41" break="no"/>ptismi Joannis fuisse aquam et
+            ablutio<lb ed="#V" n="42" break="no"/>nem, habemus Matth. 3. Lucae. 3. Marci
+            <lb ed="#V" n="43"/>1. Joan. 1. et 3. et 3. Act 1. De forma non
+            <lb ed="#V" n="44"/>ita constat, ideo Doctor alterutrum
+            sup<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>ponit; primum autem, scilicet baptizasse
+            <lb ed="#V" n="46"/>in determinata forma, ut in nomine
+            ventu<lb ed="#V" n="47" break="no"/>ri, ita sentit Hugo de S. Victore lib. 2. de
+            <lb ed="#V" n="48"/>Sacram. part. 6. cap. 6. Magister in hac
+            <lb ed="#V" n="49"/>dist. cap. ultimo, quem sequitur
+            commu<lb ed="#V" n="50" break="no"/>nis opinio praeter citandos. Alensis 4. part.
+            <lb ed="#V" n="51"/>quaest. 6. in 3. art. 1. D. Thom. 3. part.
+            <lb ed="#V" n="52"/>quaest. 58. art. 6. ad 5. et noster Doctor
+            <lb ed="#V" n="53"/>tanquam magis receptam eamdem primo
+            <lb ed="#V" n="54"/>loco statuit, cui favent multi Patres,
+            Am<lb ed="#V" n="55" break="no"/>brosius lib. 1. de Spiritu sancto, cap. 7.
+            <lb ed="#V" n="56"/>Joannes quidem in advenientis Jesu, non in
+            <lb ed="#V" n="57"/>suo baptizabat nomine. Augustinus lib.
+            <lb ed="#V" n="58"/>quaestionum novi Testamenti, quaest. 29.
+            <lb ed="#V" n="59"/>dicens Baptismum Joannis non fuisse sine
+            <lb ed="#V" n="60"/>mentione Christi. Divus Hieronymus in
+            <lb ed="#V" n="61"/>illa Joelis 2. Effundam de Spiritu meo,
+            <lb ed="#V" n="62"/>etc. Item Actorum 19. Joannes baptizavit
+            <lb ed="#V" n="63"/>Baptismo poenitentiae, dicens: in eum qui
+            <lb ed="#V" n="64"/>erat post ipsum ut crederent, etc. ubi
+            <lb ed="#V" n="65"/>videtur haec forma insinuari.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Oppositum hujus etiam insinuat Doctor
+            <lb ed="#V" n="67"/>ut probabile, quem secutus est Durandus
+            <lb ed="#V" n="68"/>in hac dist. quaest 3. Gabriel quaest. 2. art.
+            <lb ed="#V" n="69"/>1. Sotus quaest. 2. art. 1. et alii. Et patet
+            <lb ed="#V" n="70"/>congruentiis, quia locus ille Actorum
+            <lb ed="#V" n="71"/>habet commodam interpretationem ex
+            <lb ed="#V" n="72"/>superficie verborum, nempe ex eo quod
+            <lb ed="#V" n="73"/>Joannes dum baptizaret, instruxerit etiam
+            <lb ed="#V" n="74"/>de fide venturi. Secundo, quia forma illa
+            <lb ed="#V" n="75"/>esset falsa, cum Christus jam venerit, ac
+            <lb ed="#V" n="76"/>proinde non erat venturus, et idipsum
+            <lb ed="#V" n="77"/>scierit Joannes. Tertio, quia eadem etiam
+            <lb ed="#V" n="78"/>forma baptizando Christum proferretur
+            <lb ed="#V" n="79"/>falso; Joannes autem idem Baptisma
+            <lb ed="#V" n="80"/>Christo et aliis ministravit, quia
+            Baptis<lb ed="#V" n="81" break="no"/>ma Joannis non conferebat gratiam; ergo
+            <lb ed="#V" n="82"/>non dabatur sub aliqua forma verborum
+            <lb ed="#V" n="83"/>determinata, quia haec tantum datur in
+            <lb ed="#V" n="84"/>Sacramentis novae legis ad significandum
+            <lb ed="#V" n="85"/>effectum interiorem gratiae. Ad
+            funda<lb ed="#V" n="86" break="no"/>mentum oppositae intelligendi sunt
+            Pa<lb ed="#V" n="87" break="no"/>tres, sicut et locus Actorum, ad quem
+            <lb ed="#V" n="88"/>alludunt, jam praemissus declaratur.
+            <pb ed="#V" n="267"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Praeferenda tamen magis est prior
+            <lb ed="#V" n="2"/>sententia, cui magis favent Patres et
+            <lb ed="#V" n="3"/>citati Magistri scholae, ac proinde negatur
+            <lb ed="#V" n="4"/>quod primo adducitur, quia interpretatio
+            <lb ed="#V" n="5"/>dictorum Patrum et Doctorum sic
+            intel<lb ed="#V" n="6" break="no"/>ligit, illo loco designari formam Baptismi
+            <lb ed="#V" n="7"/>Joannis. Ad secundum, negatur
+            antece<lb ed="#V" n="8" break="no"/>dens, quia venturi intelligitur respective
+            <lb ed="#V" n="9"/>ad manifestationem, et munus
+            baptizan<lb ed="#V" n="10" break="no"/>di quia Joannes disponebat baptizando
+            <lb ed="#V" n="11"/>ad Baptismum Christi, quod non fuit tum
+            <lb ed="#V" n="12"/>institutum, saltem ante Christum
+            bapti<lb ed="#V" n="13" break="no"/>zatum. Ad tertium, patet per idem. Alii
+            <lb ed="#V" n="14"/>dicunt Joannem non usum fuisse illa
+            <lb ed="#V" n="15"/>forma baptizando Christum, quia per
+            <lb ed="#V" n="16"/>revelationem eum cognovit, ita Paludanus;
+            <lb ed="#V" n="17"/>alii, ut Mayron, usum esse alia forma.
+            <lb ed="#V" n="18"/>Ad quartum, negatur consequentia, quia
+            <lb ed="#V" n="19"/>forma illa potuit habuisse effectum
+            in<lb ed="#V" n="20" break="no"/>structionis de Christo venturo, quem
+            <lb ed="#V" n="21"/>sola ablutio nou sufficienter indicaret.
+            <lb ed="#V" n="22"/>Unde Augustinus, Joannem ait fecisse
+            <lb ed="#V" n="23"/>mentionem Christi inter baptizandum.
+            <lb ed="#V" n="24"/>Potissima ergo ratio hujus sententiae, ex
+            <lb ed="#V" n="25"/>hoc eliditur, de falsitate scilicet formae
+            <lb ed="#V" n="26"/>praescriptae, quia praedicatio Joanpis erat
+            <lb ed="#V" n="27"/>de Christo venturo, et venturum
+            designa<lb ed="#V" n="28" break="no"/>bat: Qui post me venit, Joan. 3. quod
+            in<lb ed="#V" n="29" break="no"/>telligitur de adventu secundum
+            manifes<lb ed="#V" n="30" break="no"/>tationem, ut dixi, non secundum
+            Incar<lb ed="#V" n="31" break="no"/>nationem, alias praedicatio illa non esset
+            <lb ed="#V" n="32"/>vera; quod perinde de forma dicendum
+            <lb ed="#V" n="33"/>est, quia illa forma non vindicat
+            majo<lb ed="#V" n="34" break="no"/>rem, aut certiorem gradum veritatis, cum
+            <lb ed="#V" n="35"/>non fuerit practica, quam ipsa instructio
+            <lb ed="#V" n="36"/>et praedicatio Joannis de Christo venturo,
+            <lb ed="#V" n="37"/>quae non fuisset falsa, et intelligitur
+            <lb ed="#V" n="38"/>modo jam explicato ejus veritas.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>(c) Si dicatur quod Magister intelligatur
+            <lb ed="#V" n="40"/>de baptizatis a Joanne primo modo, etc.
+            <lb ed="#V" n="41"/>Magister hac distinctione docuit alios
+            <lb ed="#V" n="42"/>baptizatos esse a Joanne, qui ponebant
+            <lb ed="#V" n="43"/>spem in illo suo Baptismo, neque
+            co<lb ed="#V" n="44" break="no"/>gnoscebant Spiritum sanctum; et hos
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>docet necessario baptizandos esse
+            Baptis<lb ed="#V" n="46" break="no"/>mo Christi, alios vero non posuisse spem
+            <lb ed="#V" n="47"/>in praedicto Baptismo, et habuisse fidem
+            <lb ed="#V" n="48"/>et cognitionem Trinitatis, ac proinde
+            ter<lb ed="#V" n="49" break="no"/>tiae personae, et hos non fuisse
+            baptizan<lb ed="#V" n="50" break="no"/>dos Baptismo Christi, sed recipiendos per
+            <lb ed="#V" n="51"/>manus impositionem.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Assertio Magister intellecta juxta
+            pri<lb ed="#V" n="53" break="no"/>mum modum, quem adducit Doctor in
+            <lb ed="#V" n="54"/>littera, quasi aliquando baptizaret
+            Baptis<lb ed="#V" n="55" break="no"/>mo Christi, hoc etiam casu dato, est falsa,
+            <lb ed="#V" n="56"/>quia infidelitas suscipientis Baptismum
+            <lb ed="#V" n="57"/>non evacuat Sacramentum, ita ut iterari
+            <lb ed="#V" n="58"/>debeat, modo adsit intentio illud
+            susci<lb ed="#V" n="59" break="no"/>piendi cum reliquis, deficiente sola fide.
+            <lb ed="#V" n="60"/>Hunc autem casum non intendit Magister,
+            <lb ed="#V" n="61"/>qui loquitur de proprio Baptismo Joannis,
+            <lb ed="#V" n="62"/>quem distinguit a Baptismo Christi, et
+            so<lb ed="#V" n="63" break="no"/>lum juxta mentem et errorem
+            haeretico<lb ed="#V" n="64" break="no"/>rum casus hic admittitur in praxi, quia
+            <lb ed="#V" n="65"/>non distinguunt inter Baptismum Christi,
+            <lb ed="#V" n="66"/>et Baptismum Joannis.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Secundo modo intellecta sententia
+            Ma<lb ed="#V" n="68" break="no"/>gistri rejicitur ab omnibus, estque
+            erro<lb ed="#V" n="69" break="no"/>nea, quia praeceptum generale Baptismi
+            <lb ed="#V" n="70"/>Christi comprehendit baptizatos a Joanne,
+            <lb ed="#V" n="71"/>sicut et caeteros, et a fortiori baptizatos
+            <lb ed="#V" n="72"/>a Joanne magis, quam circumcisos, quia
+            <lb ed="#V" n="73"/>Circumcisio conferebat gratiam, et delebat
+            <lb ed="#V" n="74"/>peccatum, non ita Baptismus Joannis.
+            <lb ed="#V" n="75"/>Deinde propter characterem, et
+            consigna<lb ed="#V" n="76" break="no"/>tionem, et initiationem in lege nova
+            re<lb ed="#V" n="77" break="no"/>quiritur Baptismus Christi, etiam respectu
+            <lb ed="#V" n="78"/>eorum, qui habuerunt fidem et justitiam.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>Tertio, quia Baptismus ille fuit
+            prae<lb ed="#V" n="80" break="no"/>paratorius ad Baptismum Christi, cui
+            su<lb ed="#V" n="81" break="no"/>bordinabatur tanquam dispositio vel
+            in<lb ed="#V" n="82" break="no"/>troductio et exercitatio, ut constat ex
+            Pa<lb ed="#V" n="83" break="no"/>tribus et Scriptura Matth. 3. dicit
+            Joan<lb ed="#V" n="84" break="no"/>nes ad Pharisaeos et Sadducaeos a se
+            ba<lb ed="#V" n="85" break="no"/>ptizatos: Ego baptizo vos in aqua, etc.
+            <lb ed="#V" n="86"/>qui autem post me venturus est, etc. ille
+            <lb ed="#V" n="87"/>vos baptizabit in Spiritu sancto, et igni,
+            <lb ed="#V" n="88"/>etc. Item, quia inter eos qui baptizati
+            <pb ed="#V" n="268"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sunt ab Apostolis, Act. 2. et 4.
+            praesumen<lb ed="#V" n="2" break="no"/>dum est fuisse aliquos baptizatos a
+            Joan<lb ed="#V" n="3" break="no"/>ne, quia loco citato Matthaei, dicitur tota
+            <lb ed="#V" n="4"/>Jerosolyma, in qua baptizarunt Apostoli,
+            <lb ed="#V" n="5"/>frequentasse Baptismum Joannis.
+            <lb ed="#V" n="6"/>Et quidquid sit de hoc, doctrina de
+            <lb ed="#V" n="7"/>Baptismo, ejusque necessitate proposita a
+            <lb ed="#V" n="8"/>Petro Act. 2. non excipit baptizatos a
+            Joan<lb ed="#V" n="9" break="no"/>ne; quae doctrina universalis fuit,
+            respe<lb ed="#V" n="10" break="no"/>ctu totius populi, in quo fuerunt
+            bapti<lb ed="#V" n="11" break="no"/>zati a Joanne, neque respondere licet
+            <lb ed="#V" n="12"/>fuisse etiam in populo Baptizatos a
+            Chri<lb ed="#V" n="13" break="no"/>sto. Respondetur enim illis necessitatem
+            <lb ed="#V" n="14"/>Baptismi, ejusque susceptionem non
+            fuis<lb ed="#V" n="15" break="no"/>se propositam, quia jam initiati sunt et
+            <lb ed="#V" n="16"/>instructi, antequam ad Baptismum admissi
+            <lb ed="#V" n="17"/>sunt. Respectu ignorantium Baptismum
+            <lb ed="#V" n="18"/>loquitur ex subjecto argumento Petrus,
+            <lb ed="#V" n="19"/>et interrogantium quid facere deberent.
+            <lb ed="#V" n="20"/>Conclusionem hanc tradit S. Augustinus
+            <lb ed="#V" n="21"/>tract. 5. in Joannem; et habetur de
+            con<lb ed="#V" n="22" break="no"/>secr. dist. 4. cap. Aliud est, etc. et lib. 5.
+            <lb ed="#V" n="23"/>contra Donatistas de baptismo.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Fundamentum Magistri nullum est, ut
+            <lb ed="#V" n="25"/>respondet Doctor in littera, quia
+            infide<lb ed="#V" n="26" break="no"/>litas non est praecisa causa suscipiendi
+            <lb ed="#V" n="27"/>Baptismum; quamvis ergo infideles
+            bapti<lb ed="#V" n="28" break="no"/>znadisunt, non tamen soli. Et iste modus
+            <lb ed="#V" n="29"/>argumentandi non concludit, verbi gratia,
+            <lb ed="#V" n="30"/>infidelis baptizandus est, ergo solum
+            in<cb ed="#V" n="b"/><lb ed="#V" n="31" break="no"/>fidelis est baptizandus; tenet tantum in
+            <lb ed="#V" n="32"/>causis praecisis, in quibus sicut affirmatio
+            <lb ed="#V" n="33"/>est causa affirmationis, ita etiam negatio
+            <lb ed="#V" n="34"/>est causa negationis, propter mutuam
+            <lb ed="#V" n="35"/>adaequationem causae et effectus, ut est
+            <lb ed="#V" n="36"/>inter definitionem et proprietatem
+            subje<lb ed="#V" n="37" break="no"/>cti, quae adaequatio in hoc salvatur, ut
+            <lb ed="#V" n="38"/>ubicumque salvetur unum, ibidem
+            salve<lb ed="#V" n="39" break="no"/>tur et alterum extremum. Auctoritates
+            <lb ed="#V" n="40"/>autem Hieronymi et Ambrosii a Magistro
+            <lb ed="#V" n="41"/>adductae designant tantum infidelitatem
+            <lb ed="#V" n="42"/>esse sufficientem causam applicandi
+            Ba<lb ed="#V" n="43" break="no"/>ptismum, non solam, neque praecisam. Et
+            <lb ed="#V" n="44"/>si objicias, inquit, illam maximam, ubi
+            <lb ed="#V" n="45"/>omissum est aliquid, caute supplendum
+            <lb ed="#V" n="46"/>esse, etc. non intelligi de partibus
+            essen<lb ed="#V" n="47" break="no"/>tialibus ejusdem, quia si deficient, nihil
+            <lb ed="#V" n="48"/>fit; deficit enim fundamentum
+            significa<lb ed="#V" n="49" break="no"/>tionis sacramentalis, sed intelligendum
+            <lb ed="#V" n="50"/>esse in Sacramento Ordinis vel
+            Eucha<lb ed="#V" n="51" break="no"/>ristiae, quod ex diversis integratur,
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>quodlibet seorsim poni
+            <lb ed="#V" n="53"/>quorum
+            <lb ed="#V" n="54"/>potest. Habetur illa maxima cap.
+            <lb ed="#V" n="55"/>unico de Clerico per saltum ordinato, et
+            <lb ed="#V" n="56"/>de Sacramentis non iterandis, cap.
+            <lb ed="#V" n="57"/>1. Qui voluerit, circa hanc materiam
+            <lb ed="#V" n="58"/>de Baptismo Joannis legat Alensem
+            cita<lb ed="#V" n="59" break="no"/>tum, et D. Thomam 3. p. quaest. 38. et
+            se<lb ed="#V" n="60" break="no"/>quenti. Haec ex instituto praesenti sufficiant.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

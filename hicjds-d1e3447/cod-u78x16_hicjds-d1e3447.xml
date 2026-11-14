@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 4, Pars 4, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 4, Pars 4, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="477"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3447"><!-- hicjds-b4d4p4q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum omnes baptizati recipiant aequaliter effectum baptismi</head>
+        <!-- <div alias="hiq-d4q7-p1"> -->
+          <p>
+            <lb ed="#V" n="40" type="fixed=477"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>(a) Ultimo quaero utrum omnes, etc.
+            <lb ed="#V" n="42"/>Postquam superius egit de effectu hujus
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>Sacramenti, quantum ad gratiam et
+            re<lb ed="#V" n="44" break="no"/>missionem culpae, hic consequenter
+            quae<lb ed="#V" n="45" break="no"/>rit de perfectione illius effectus. et
+            spe<lb ed="#V" n="46" break="no"/>ciatim gratiae: an scilicet aequalis sit in
+            <lb ed="#V" n="47"/>omnibus; nam de remissione peccati et
+            <lb ed="#V" n="48"/>poenae non agit, quia illa est aequalis, nisi
+            <lb ed="#V" n="49"/>varietur status subjecti, quoad peccata
+            <lb ed="#V" n="50"/>operis plura vel pauciora: Itli enim, qui
+            <lb ed="#V" n="51"/>plus debet, plus etiam dimittur, Lucae 7.
+            Ad<lb ed="#V" n="52" break="no"/>ducit sententiam Richardi hac dist. quaest. 3.
+            <lb ed="#V" n="53"/>in corpore, quantum ad effectum minuendi
+            <lb ed="#V" n="54"/>fomitem per gratiam baptismalem,
+            eam<lb ed="#V" n="55" break="no"/>que declarat, et bene, quomodo contingat
+            <lb ed="#V" n="56"/>remissio fomitis quantum ad effectum ne
+            <lb ed="#V" n="57"/>trahat in consensum; et hoc est
+            mortifi<lb ed="#V" n="58" break="no"/>care membra, reprimere hominem
+            infe<lb ed="#V" n="59" break="no"/>riorem, et non consentire legi
+            membro<lb ed="#V" n="60" break="no"/>rum. Et hinc Patres ad hunc effectum
+            de<lb ed="#V" n="61" break="no"/>finiunt necessariam esse gratiam Dei,
+            <lb ed="#V" n="62"/>quia rebellio fomitis consistens in appetitu
+            <lb ed="#V" n="63"/>sensitivo, et prava inclinatione voluntatis,
+            <lb ed="#V" n="64"/>est infirmitas, quam incurrit liberum
+            arbi<lb ed="#V" n="65" break="no"/>trium ex peccato, ad faciendum bonum,
+            <lb ed="#V" n="66"/>quae per gratiam sublevatur, ut vincat
+            <lb ed="#V" n="67"/>concupiscentiam malam, sequendo legem
+            <lb ed="#V" n="68"/>et rationem. De his fusius agitur in
+            ma<lb ed="#V" n="69" break="no"/>teria de gratia et auxiliis. Sacramentum
+            <lb ed="#V" n="70"/>autem regenerationis non solum tribuit
+            <lb ed="#V" n="71"/>gratiam sanctificantem, seu alios habitus
+            <lb ed="#V" n="72"/>supernaturales fidei, spei et charitatis,
+            <lb ed="#V" n="73"/>quibus datur posse operari ad salutem,
+            <lb ed="#V" n="74"/>quantum ad elevationem potentiae, sed
+            <lb ed="#V" n="75"/>etiam tribuit specialia auxilia ad
+            repri<lb ed="#V" n="76" break="no"/>mendum fomitem, ut insinuant Patres,
+            <lb ed="#V" n="77"/>quos supra citavimus, agentes de
+            neces<lb ed="#V" n="78" break="no"/>sitate et efficacia Baptismi et renovatione
+            <lb ed="#V" n="79"/>per ipsum facta, quam fuse Cyprianus in
+            <lb ed="#V" n="80"/>seipso fuisse declarat, et maxime ad
+            pro<lb ed="#V" n="81" break="no"/>positum libertatis a concupiscentiis.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>Prima ergo conclusio Doctoris in hac
+            <lb ed="#V" n="83"/>quaestione est, remitti fomitem, hoc est,
+            <lb ed="#V" n="84"/>minui per baptismalem gratiam, et modus
+            <lb ed="#V" n="85"/>quo id fieri declarat, est, ex doctrina
+            Pa<lb ed="#V" n="86" break="no"/>trum, qui ad hoc statuunt necessitatem
+            <pb ed="#V" n="478"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>gratiae Christi, ut observetur lex,
+            vincau<lb ed="#V" n="2" break="no"/>tur concupiscentiae, et tentatio, quae
+            resi<lb ed="#V" n="3" break="no"/>stunt operi in exercitio. Hic autem
+            effe<lb ed="#V" n="4" break="no"/>ctus fomitis in adultis valet, in infantibus
+            <lb ed="#V" n="5"/>sopitur, quia nondum habent usum
+            arbi<lb ed="#V" n="6" break="no"/>trii, et in quibus remissio fomitis per
+            gra<lb ed="#V" n="7" break="no"/>tiam intelligenda est, quantum ad
+            po<lb ed="#V" n="8" break="no"/>testatem et vires, non pro tunc
+            exercen<lb ed="#V" n="9" break="no"/>das, et quantum ad gratiam habitualem,
+            <lb ed="#V" n="10"/>non autem actualem datam pro tunc, sed
+            <lb ed="#V" n="11"/>pro tempore congruo recipiendam virtute
+            <lb ed="#V" n="12"/>Sacramenti percepti, quando scilicet
+            per<lb ed="#V" n="13" break="no"/>venient ad usum rationis. Exemplum
+            ad<lb ed="#V" n="14" break="no"/>ductum a Doctore satis commodum est,
+            <lb ed="#V" n="15"/>quia ut ait Augustinus 83. quaestionum
+            <lb ed="#V" n="16"/>quaest. 36. Perfectio charitatis est
+            dimi<lb ed="#V" n="17" break="no"/>nutio cupiditatis, etc.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d4q7-p2"> -->
+          <p>
+            <lb ed="#V" n="81" type="fixed=478"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>(b) Sic ergo, etc. Supponit quantum ad
+            <lb ed="#V" n="83"/>effectum gratiae causandum, concurrere
+            <lb ed="#V" n="84"/>Deum ut causam principalem, passionem
+            <lb ed="#V" n="85"/>Christi ut meritoriam, et ipsum
+            suscipien<pb ed="#V" n="479"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tem ut causam dispositivam, nempe
+            quan<lb ed="#V" n="2" break="no"/>do confertur adulto, in quo potest esse
+            <lb ed="#V" n="3"/>major vel minor dispositio. Est doctrina
+            <lb ed="#V" n="4"/>Tridentini sess. 6. cap. 7. Ex his patet
+            <lb ed="#V" n="5"/>unde aequalitas vel inaequalitas attendi
+            <lb ed="#V" n="6"/>possit in effectu; de meritoria et
+            disposi<lb ed="#V" n="7" break="no"/>tiva agit, S sequenti. Quantum autem ad
+            <lb ed="#V" n="8"/>causam principalem dicit duo, quae est
+            <lb ed="#V" n="9"/>secunda et tertia conclusio. Primo, ut
+            <lb ed="#V" n="10"/>habet voluntatem universalem de lege
+            <lb ed="#V" n="11"/>alligatam ex institutione, Sacramento,
+            effe<lb ed="#V" n="12" break="no"/>ctum ejus esse aequalem in omnibus,
+            quan<lb ed="#V" n="13" break="no"/>tum est ex parte Dei et Sacramenti, quod
+            <lb ed="#V" n="14"/>sicut habet materiam et formam
+            defini<lb ed="#V" n="15" break="no"/>tam, ut supra dictum est contra haereticos,
+            <lb ed="#V" n="16"/>ita etiam et effectum, qui importatur ex
+            <lb ed="#V" n="17"/>determinatione significationis practicae
+            Sa<lb ed="#V" n="18" break="no"/>cramenti; et de hac aequalitate loquuntur
+            <lb ed="#V" n="19"/>Patres, quando dicunt Sacramenta a
+            ma<lb ed="#V" n="20" break="no"/>lo, aut bono ministro collata esse paria, et
+            <lb ed="#V" n="21"/>intelligitur illud una fides, unum
+            Bapti<lb ed="#V" n="22" break="no"/>sma, unus Deus, etc. quantum est, inquit,
+            <lb ed="#V" n="23"/>ex parte Dei et Sacramenti, excludendo
+            <lb ed="#V" n="24"/>differentiam, quae potest esse ex parte
+            <lb ed="#V" n="25"/>suscipientis, ex qua potest crescere
+            effe<lb ed="#V" n="26" break="no"/>ctus gratiae, ut si est melius dispositus.
+            <lb ed="#V" n="27"/>Haec conclusio est communis omnium,
+            prae<lb ed="#V" n="28" break="no"/>ter paucos.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Secundo asserit Doctor potuisse Deum,
+            <lb ed="#V" n="30"/>praeter illum effectum gratiae communis,
+            <lb ed="#V" n="31"/>qui est ex voluntate ordinaria et lege, dare
+            <lb ed="#V" n="32"/>alicui in particulari majorem effectum,
+            <lb ed="#V" n="33"/>ex speciali voluntate particularis
+            acce<lb ed="#V" n="34" break="no"/>ptionis persone; vel quia praedestinatus
+            <lb ed="#V" n="35"/>est, vel quia aliter acceptus ad majorem
+            <lb ed="#V" n="36"/>gloriam. Hic excessus non proveniret a
+            <lb ed="#V" n="37"/>Baptismo, scilicet ut est instrumentum
+            <lb ed="#V" n="38"/>ordinarium, et habet efficaciam, ut subest
+            <lb ed="#V" n="39"/>voluntati divinae ordinariae, sed ex
+            bene<lb ed="#V" n="40" break="no"/>volentia Dei, quae etiam mediante
+            Sacra<lb ed="#V" n="41" break="no"/>mento, peculiariter ad hoc assumpto,
+            pos<lb ed="#V" n="42" break="no"/>set causare illum effectum ex opere
+            opera<lb ed="#V" n="43" break="no"/>to, vel certe independenter a Sacramento.
+            <lb ed="#V" n="44"/>Haec etiam conclusio est verissima, quia
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>nihil asserit praeter potentiam esse ex parte
+            <lb ed="#V" n="46"/>Dei sic operandi, si vellet; neque deesse
+            <lb ed="#V" n="47"/>congruitatem ex parte baptizati, quin Deus
+            <lb ed="#V" n="48"/>posset si vellet eamdem benevolentiam
+            <lb ed="#V" n="49"/>exercere, vel hoc medio in particulari,
+            <lb ed="#V" n="50"/>vel aliis quibus sic electus perveniet ad
+            <lb ed="#V" n="51"/>gratiam proportionatam suae gloriae, juxta
+            <lb ed="#V" n="52"/>communiorem sententiam, quae hanc
+            pro<lb ed="#V" n="53" break="no"/>portionem aequalitatis inter gratiam et
+            <lb ed="#V" n="54"/>gloriam statuit. Hic ergo docet Doctor,
+            <lb ed="#V" n="55"/>qua ratione posset esse inaequalitas
+            effe<lb ed="#V" n="56" break="no"/>ctus gratiae, ex parte causae principalis; et
+            <lb ed="#V" n="57"/>non asserit, an sic contingat, sicut asserit
+            <lb ed="#V" n="58"/>aequalitatem gratiae esse ex parte
+            Sacra<lb ed="#V" n="59" break="no"/>menti et Dei, quantum ad legem
+            ordina<lb ed="#V" n="60" break="no"/>riam.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d4q7-p3"> -->
+          <p>
+            <lb ed="#V" n="21" type="fixed=481"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>(c) De secundo potest dici, etc.
+            Decla<lb ed="#V" n="23" break="no"/>rat quomodo possit provenire
+            inaequali<lb ed="#V" n="24" break="no"/>tas gratiae ex applicatione diversa causae
+            <lb ed="#V" n="25"/>meritoriae, quae diversitas potest esse,
+            <lb ed="#V" n="26"/>vel ex parte offerentis, vel ex parte rei
+            <lb ed="#V" n="27"/>oblatae. Ex parte offerentis, nempe
+            vo<lb ed="#V" n="28" break="no"/>luntatis Christi, quae aliter pro reprobis,
+            <lb ed="#V" n="29"/>aliter pro praedestinatis obtulit suam
+            pas<lb ed="#V" n="30" break="no"/>sionem, quia pro illis quantum ad
+            suffi<lb ed="#V" n="31" break="no"/>cientiam, pro his etiam quantum ad
+            ef<lb ed="#V" n="32" break="no"/>ficaciam obtulit, quia propter electos
+            <lb ed="#V" n="33"/>principaliter venit, et ad complendum
+            <lb ed="#V" n="34"/>effectum divinae praedestinationis, ut
+            di<lb ed="#V" n="35" break="no"/>cit Doctor; sic etiam potuit obtulisse
+            <lb ed="#V" n="36"/>passionem suam efficacius pro aliquo,
+            <lb ed="#V" n="37"/>qui majorem ad gloriam, est
+            praedestina<lb ed="#V" n="38" break="no"/>tus, verbi gratia, pro matre sua. Et baec
+            <lb ed="#V" n="39"/>est quarta hujus quaestionis conclusio.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Diversitas autem ex parte rei oblatae
+            <lb ed="#V" n="41"/>contingit secundum diversum statum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="42"/>ejus, et acceptationem diversam, aliter
+            <lb ed="#V" n="43"/>enim fuit passio, ut praevisa tantum
+            <lb ed="#V" n="44"/>acceptata, aliter ut exhibita, quia
+            obse<lb ed="#V" n="45" break="no"/>quium praestitum magis acceptatur quam
+            <lb ed="#V" n="46"/>praevisum. Primo fuit applicata Patribus
+            <lb ed="#V" n="47"/>per remedia legis naturae et scriptae; et
+            <lb ed="#V" n="48"/>sic attenditur inaequalitas gratiae inter
+            <lb ed="#V" n="49"/>Circumcisionem et Baptismum propter
+            <lb ed="#V" n="50"/>inaequalem applicationem ex parte rei
+            <lb ed="#V" n="51"/>oblatae. Et haec est quinta conclusio
+            hu<lb ed="#V" n="52" break="no"/>jus quaestionis. Ex cujus fundamento
+            <lb ed="#V" n="53"/>deducit aliam probabilem, licet
+            incer<lb ed="#V" n="54" break="no"/>tam, nempe ex eadem ratione
+            Ba<lb ed="#V" n="55" break="no"/>ptismum ante passionem non habuisse
+            <lb ed="#V" n="56"/>eumdum effectum gratiae, quem habuit
+            <lb ed="#V" n="57"/>post Baptismum, de qua supra dixi in
+            <lb ed="#V" n="58"/>commento quaestionis 1. dist. 2. tandem
+            <lb ed="#V" n="59"/>concludit quantum ad factum. Si autem
+            <lb ed="#V" n="60"/>primo modo, scilicet propter specialem
+            <lb ed="#V" n="61"/>oblationem in voluntate Christi, sit
+            ali<lb ed="#V" n="62" break="no"/>qua inaequalitas in aliquibus nunc
+            ba<lb ed="#V" n="63" break="no"/>ptizatis, dubium est de facto, sed
+            possi<lb ed="#V" n="64" break="no"/>bilitas est ostensa, etc. Ex quibus
+            con<lb ed="#V" n="65" break="no"/>stat Doctorem nihil definire quantum ad
+            <lb ed="#V" n="66"/>factum, sed solum quantum ad
+            possibili<lb ed="#V" n="67" break="no"/>tatem quoad inaequalitatem gratiae ex
+            <lb ed="#V" n="68"/>parte causae principalis et meritoriae.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Immerito itaque Sotus in 4. dist. 6.
+            <lb ed="#V" n="70"/>quaest. 1. art. 6. assertorem hujus
+            sen<lb ed="#V" n="71" break="no"/>tentiae Doctorem facit, sicut et Vasquez
+            <lb ed="#V" n="72"/>disp. 135. cap. 4. et quidam alii, quia
+            <lb ed="#V" n="73"/>nihil asserit Doctor quoad factum, solum
+            <lb ed="#V" n="74"/>extendens potentiam, ut bene advertit
+            <lb ed="#V" n="75"/>etiam Scholiastes venerandus meus
+            Ma<lb ed="#V" n="76" break="no"/>gister et Pater. Conclusionem ipsam
+            <lb ed="#V" n="77"/>asserunt alii ab eo citati, et prae caeteris
+            <lb ed="#V" n="78"/>Paludanus quaest. 1. art. 9. ex alio
+            fun<lb ed="#V" n="79" break="no"/>damento id asserit in parvulis, qui ante
+            <lb ed="#V" n="80"/>usum rationis moriuntur, quia putat
+            om<lb ed="#V" n="81" break="no"/>nes tam Angelos quam homines
+            elec<lb ed="#V" n="82" break="no"/>tos esse ad inaequalem gloriam, et
+            con<lb ed="#V" n="83" break="no"/>sequenter gratiam. Quidquid sit de hac
+            <lb ed="#V" n="84"/>sententia, et ejus fundamento, nescio
+            <lb ed="#V" n="85"/>qua ratione alii existiment eam esse
+            om<pb ed="#V" n="482"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>nino liberam, aut sine fundamento
+            as<lb ed="#V" n="2" break="no"/>sertam, quia id perinde etiam diceretur
+            <lb ed="#V" n="3"/>de opinione communi, praeter hoc
+            so<lb ed="#V" n="4" break="no"/>lum, quod lege communi congruum sit
+            <lb ed="#V" n="5"/>definire effectum Sacramenti, ut dicit
+            <lb ed="#V" n="6"/>Doctor.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Sed responderi potest id certo etiam
+            <lb ed="#V" n="8"/>non constare, quin aliquid contingat
+            <lb ed="#V" n="9"/>mediante Sacramento ultra illam
+            men<lb ed="#V" n="10" break="no"/>suram ex dispositione adulti, ut infra
+            <lb ed="#V" n="11"/>dicemus, quod etiam ex opere operato
+            <lb ed="#V" n="12"/>causat Sacramentum; et ultra hoc etiam
+            <lb ed="#V" n="13"/>aliud causari, ex speciali dispositione
+            <lb ed="#V" n="14"/>Dei videtur insinuare Tridentinum, sess.
+            <lb ed="#V" n="15"/>6. cap. 7. Justitiam in nobis recipientes
+            <lb ed="#V" n="16"/>li (loquitur de gratia sanctificante)
+            unusquis<lb ed="#V" n="17" break="no"/>que suam secundum mensuram, quam
+            <lb ed="#V" n="18"/>Spiritus partitur singulis prout vult, et
+            <lb ed="#V" n="19"/>secundum propriam cujusque
+            dispositi<lb ed="#V" n="20" break="no"/>onem et cooperationem, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Duas ergo causas assignat Concilium,
+            <lb ed="#V" n="22"/>unde potest crescere gratia secundum
+            <lb ed="#V" n="23"/>mensuram diversam in singulis, alteram
+            <lb ed="#V" n="24"/>ex voluntate Spiritus, qui partitur
+            sin<lb ed="#V" n="25" break="no"/>gulis mensuram prout vult; et quamvis
+            <lb ed="#V" n="26"/>loquatur Concilium de gratia
+            justifican<lb ed="#V" n="27" break="no"/>te, alludit tamen ad verba Pauli 1. ad
+            <lb ed="#V" n="28"/>Corinth. 11. ubi agit de distributione
+            <lb ed="#V" n="29"/>donorum per eumdem Spiritum,
+            eorum<lb ed="#V" n="30" break="no"/>que diversitate secundum voluntatem
+            <lb ed="#V" n="31"/>Spiritus sancti donantis singulis prout
+            <lb ed="#V" n="32"/>vult, et non ex merito cujusquam, aut
+            <lb ed="#V" n="33"/>dispositione; ergo supponit Concilium
+            <lb ed="#V" n="34"/>dari inaequalitatem gratiae baptismalis, de
+            <lb ed="#V" n="35"/>qua agit, non solum in adulto ex
+            inae<lb ed="#V" n="36" break="no"/>qualitate dispositionis, quae est altera
+            <lb ed="#V" n="37"/>causa jam assignata, sed etiam ex
+            inae<lb ed="#V" n="38" break="no"/>qualitate, quae provenit ex voluntate
+            Spi<lb ed="#V" n="39" break="no"/>ritus. Sed non est major ratio, cur id
+            <lb ed="#V" n="40"/>fiat in adultis, qnam in parvulis, quia
+            <lb ed="#V" n="41"/>adulti praeter dispositionem et usum,
+            <lb ed="#V" n="42"/>quem habent liberi arbitrii, sunt pares
+            <lb ed="#V" n="43"/>parvulis; ergo si possunt esse inaequales
+            <lb ed="#V" n="44"/>adulti in gratia hac, non solum ratione
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>dispositionis, sed etiam ex speciali
+            vo<lb ed="#V" n="46" break="no"/>luntate Dei, nihil obstat quin id in
+            par<lb ed="#V" n="47" break="no"/>vulis contingat.
+            <lb ed="#V" n="48"/>Et confirmatur, quia licet gratia
+            sacra<lb ed="#V" n="49" break="no"/>mentalis sit de communi lege
+            determi<lb ed="#V" n="50" break="no"/>nata, id ita intelligendum est, quantum
+            <lb ed="#V" n="51"/>ad gradum infra quem non datur alia
+            <lb ed="#V" n="52"/>minor virtute Sacramenti, non tamen
+            <lb ed="#V" n="53"/>quantum ad excessum; ita etiam posset
+            <lb ed="#V" n="54"/>dici saltem in adulto, in quo est aliqua
+            <lb ed="#V" n="55"/>dispositio, quam non habet parvulus,
+            <lb ed="#V" n="56"/>et recipit virtute Sacramenti gratiam
+            <lb ed="#V" n="57"/>majorem, quae etiam major et major est
+            <lb ed="#V" n="58"/>secundum excessum dispositionis; ergo,
+            <lb ed="#V" n="59"/>si ex lege non determinatur gratia
+            sa<lb ed="#V" n="60" break="no"/>cramentalis in adulto, quantum ad
+            ex<lb ed="#V" n="61" break="no"/>cessum, ita etiam posset dici, saltem in
+            <lb ed="#V" n="62"/>aliquibus parvulis, etiam non servari
+            <lb ed="#V" n="63"/>mensuram determinatam. Patet
+            conse<lb ed="#V" n="64" break="no"/>quentia, quia licet in parvulo electo ad
+            <lb ed="#V" n="65"/>majorem gloriam, non sit propria
+            dis<lb ed="#V" n="66" break="no"/>positio a qua excusatur ob
+            inhabilita<lb ed="#V" n="67" break="no"/>tem, tamen est major acceptatio, qua
+            <lb ed="#V" n="68"/>ordinatur ad perfectiorem gradum
+            gra<lb ed="#V" n="69" break="no"/>tiae et gloriae.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Quod vero illa gratia conferatur per
+            <lb ed="#V" n="71"/>hoc vel aliud medium divinae
+            provi<lb ed="#V" n="72" break="no"/>dentiae, perinde est, maxime, cum
+            Sa<lb ed="#V" n="73" break="no"/>cramentum, posita inaequalitate ex
+            par<lb ed="#V" n="74" break="no"/>te subjecti, non limitatur ad gradum
+            <lb ed="#V" n="75"/>aequalem effectus; imo magis videtur
+            <lb ed="#V" n="76"/>praeter divinam providentiam ordinariam,
+            <lb ed="#V" n="77"/>ut Deus, suspendendo concursum
+            cau<lb ed="#V" n="78" break="no"/>sarum naturalium, perducat infantem ad
+            <lb ed="#V" n="79"/>eum statum, quo possit attingere
+            gra<lb ed="#V" n="80" break="no"/>dum gratiae destinatum, sive per
+            fre<lb ed="#V" n="81" break="no"/>quentationem Sacramentorum, sive per
+            <lb ed="#V" n="82"/>actus proprios, quam ut per ipsa
+            Sa<lb ed="#V" n="83" break="no"/>cramenta recepta uberiorem gratiam
+            <lb ed="#V" n="84"/>conferat, quia sic operatur per media
+            <lb ed="#V" n="85"/>ordinaria, quae ex se alioquin ex
+            inae<lb ed="#V" n="86" break="no"/>quali dispositione subjecti habent
+            effica<lb ed="#V" n="87" break="no"/>ciam majorem, vel minorem; et casus
+            <lb ed="#V" n="88"/>ponatur n infante valetudinario.
+          </p>
+          <p>
+            <pb ed="#V" n="483"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Confirmatur secundo, quia quantum ad
+            <lb ed="#V" n="2"/>alios effectus concomitantes, ut
+            extin<lb ed="#V" n="3" break="no"/>ctionem aut diminutionem fomitis,
+            au<lb ed="#V" n="4" break="no"/>xilia gratiae, et gratias gratis datas,
+            inae<lb ed="#V" n="5" break="no"/>qualis est effectus Sacramenti etiam in
+            <lb ed="#V" n="6"/>infantibus; ergo etiam perinde dici
+            po<lb ed="#V" n="7" break="no"/>test de gratia gratum faciente saltem in
+            <lb ed="#V" n="8"/>aliquibus, in quibus visa est illa
+            inae<lb ed="#V" n="9" break="no"/>qualitas effectus concomitantis, ut in
+            san<lb ed="#V" n="10" break="no"/>cto Nicolao. Patet consequentia, quia
+            <lb ed="#V" n="11"/>dare hos effectus mediante Sacramento,
+            <lb ed="#V" n="12"/>qui regulariter per ipsum non
+            confe<lb ed="#V" n="13" break="no"/>runtur, videtur magis extraordinarium,
+            <lb ed="#V" n="14"/>quam quod effectus ordinarius ejus
+            de<lb ed="#V" n="15" break="no"/>tur intensior aut perfectior.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Nec video, quid urgeat contra hanc
+            <lb ed="#V" n="17"/>sententiam ex Conciliis, aut Patribus,
+            <lb ed="#V" n="18"/>nam loca Cypriani, quae adducit Suarez,
+            <lb ed="#V" n="19"/>ad aliud intentum spectant, ut bene
+            ad<lb ed="#V" n="20" break="no"/>notavit Vasquez. Rationes etiam, quas
+            <lb ed="#V" n="21"/>adducit ipse Vasquez, non convincunt.
+            <lb ed="#V" n="22"/>Quod primo dicit non deesse Deo alia
+            <lb ed="#V" n="23"/>media, quibus infantem perduceret, aut
+            <lb ed="#V" n="24"/>certe adultum, ad gradum destinatum
+            <lb ed="#V" n="25"/>gratiae, id verum est, sed inter media
+            <lb ed="#V" n="26"/>divinae providentiae subjecta, est etiam
+            <lb ed="#V" n="27"/>Sacramentum; id certum est ex
+            boni<lb ed="#V" n="28" break="no"/>tate divina et misericordia quaecumque
+            <lb ed="#V" n="29"/>sint media applicari et donari absque
+            <lb ed="#V" n="30"/>proprio merito, nam sive per opera ejus
+            <lb ed="#V" n="31"/>perducatur, ipsa opera donantur, sive
+            <lb ed="#V" n="32"/>per Sacramenta, eodem modo disponitur
+            <lb ed="#V" n="33"/>ad Sacramenta.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>Quod secundo asserit, illam electionem
+            <lb ed="#V" n="35"/>ex praevisione sub conditione modi et
+            <lb ed="#V" n="36"/>medii, quo illum perducere posset, dato
+            <lb ed="#V" n="37"/>etiam hoc quod non admittitur
+            com<lb ed="#V" n="38" break="no"/>muniter. Respondetur inter alia media,
+            <lb ed="#V" n="39"/>et modum hunc, quem jam diximus,
+            pos<lb ed="#V" n="40" break="no"/>se comprehendi. Aliud, quod adjicit ex
+            <lb ed="#V" n="41"/>singulari opinione redundat, quae rejicitur.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Quod objicit etiam Suarez non
+            convin<lb ed="#V" n="43" break="no"/>cit, nam Tridentinum sess. 7. can. 7.
+            <lb ed="#V" n="44"/>nihil ad praesens institutum facit, cum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>docet Sacramentum effectum suum dare
+            <lb ed="#V" n="46"/>semper quantum est ex parte
+            Sacra<lb ed="#V" n="47" break="no"/>menti et Dei, nisi ponatur obex, id
+            ve<lb ed="#V" n="48" break="no"/>rum est; sed an quibusdam conferat
+            <lb ed="#V" n="49"/>uberiorem effectum, nihil asserit, aut
+            ne<lb ed="#V" n="50" break="no"/>gat Concilium, quod solum determinat
+            <lb ed="#V" n="51"/>de efficacia Sacramentorum.
+            <lb ed="#V" n="52"/>Deinde significatio, inquit,
+            Sacramen<lb ed="#V" n="53" break="no"/>torum est determinata; ergo et effectus. s
+            <lb ed="#V" n="54"/>Responderi potest esse determinatam
+            <lb ed="#V" n="55"/>quantum ad gradum, infra quem non
+            <lb ed="#V" n="56"/>dat alium, non tamen ita determinata,
+            <lb ed="#V" n="57"/>quin crescere possit secundum mensuram
+            <lb ed="#V" n="58"/>effectus prout Spiritus sanctus partitur
+            <lb ed="#V" n="59"/>dona prout vult; neque hoc efficaciae aut
+            <lb ed="#V" n="60"/>certitudini Sacramentorum derogat, sed
+            <lb ed="#V" n="61"/>eam ampliat.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Tertio adjicit eodem modo dici posse
+            <lb ed="#V" n="63"/>nullum (Sacramentum comparatum ad
+            <lb ed="#V" n="64"/>aliud in specie habere determinatum
+            ef<lb ed="#V" n="65" break="no"/>fectum, sed nunc hunc, nunc illum pro
+            <lb ed="#V" n="66"/>Dei arbitrio. Respondetur negando
+            seque<lb ed="#V" n="67" break="no"/>lam, quia determinationem effectus
+            Sacra<lb ed="#V" n="68" break="no"/>menti in specie habemus ex Scriptura,
+            <lb ed="#V" n="69"/>Conciliis et Patribus, verbi gratia, quod
+            <lb ed="#V" n="70"/>Baptismus regenerat, Eucharistia nutrit,
+            <lb ed="#V" n="71"/>Poenitentia absolvit, etc. De hac alia
+            de<lb ed="#V" n="72" break="no"/>terminatione non ita nobis constat.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Quarto, inquit, ubi est aequalitas ex
+            par<lb ed="#V" n="74" break="no"/>te passi, et aequalitas ex parte causae et
+            <lb ed="#V" n="75"/>Sacramenti. Respondetur, caeteris paribus,
+            <lb ed="#V" n="76"/>id concedi posse, sed non est aequalitas
+            <lb ed="#V" n="77"/>ex parte passi, ut consideratur in ordine
+            <lb ed="#V" n="78"/>electionis, neque Sacramentum solum in
+            <lb ed="#V" n="79"/>operatur ex virtute limitata ad hunc vel
+            <lb ed="#V" n="80"/>illum gradum, sed prout movetur, vel
+            <lb ed="#V" n="81"/>applicatur a causa principali, nunc
+            aequa<lb ed="#V" n="82" break="no"/>liter, nunc perfectius, prout vult, et
+            cu<lb ed="#V" n="83" break="no"/>jus virtus non est aligata Sacramento,
+            <lb ed="#V" n="84"/>nisi ut ad gradum inferiorem effectu
+            or<lb ed="#V" n="85" break="no"/>dinario refertur; ad perfectiorem autem,
+            <lb ed="#V" n="86"/>ex benevolentia particulari extendi potest.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>Objicit plura Sotus, sed procedunt ex
+            <lb ed="#V" n="88"/>non concesso, quia supponit illum
+            gra<pb ed="#V" n="484"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>dum excedentem non dari hic et nunc
+            <lb ed="#V" n="2"/>virtute Sacramenti. Hoc non supponit
+            Do<lb ed="#V" n="3" break="no"/>ctor, quamvis enim dicat, quod ille
+            ul<lb ed="#V" n="4" break="no"/>terior gradus non detur virtute
+            Sacra<lb ed="#V" n="5" break="no"/>menti, sed ex speciali benevolentia divina,
+            <lb ed="#V" n="6"/>id intelligendum est juxta antecedentia,
+            <lb ed="#V" n="7"/>ubi dicit ex voluntate universali Deum
+            <lb ed="#V" n="8"/>disposuisse dare gratiam regulariter,
+            me<lb ed="#V" n="9" break="no"/>diante hoc signo certo in determinato
+            <lb ed="#V" n="10"/>gradu, ita ut nulli minorem: Et illa,
+            <lb ed="#V" n="11"/>inquit, potest dici conferri virtute
+            Sacra<lb ed="#V" n="12" break="no"/>menti; et hoc modo esse aequalem
+            vir<lb ed="#V" n="13" break="no"/>tutem Sacramenti in omnibus; et in hoc
+            <lb ed="#V" n="14"/>sensu dicit illum gradum excedentem
+            <lb ed="#V" n="15"/>non conferri virtute Sacramenti, sed ex
+            <lb ed="#V" n="16"/>benevolentia particulari, quia nempe
+            Sa<lb ed="#V" n="17" break="no"/>cramentum ut habet efficaciam et
+            assi<lb ed="#V" n="18" break="no"/>stentiam Dei, ut signum certum ex
+            vo<lb ed="#V" n="19" break="no"/>luntate universali tantum, non
+            extendi<lb ed="#V" n="20" break="no"/>tur ejus virtus, aut significatio ultra illum
+            <lb ed="#V" n="21"/>- gradum, ut subest tamen voluntati
+            spe<lb ed="#V" n="22" break="no"/>t ciali Dei, causat illum gradum
+            exceden<lb ed="#V" n="23" break="no"/>tem, etiam ex opere operato; nam et
+            <lb ed="#V" n="24"/>hoc titulus ipse quaestionis supponit, et
+            <lb ed="#V" n="25"/>impugnatio hujus sententiae, nam alioquin
+            <lb ed="#V" n="26"/>ille gradus, si a solo Deo produceretur,
+            <lb ed="#V" n="27"/>non mediante Sacramento, concomitanter
+            <lb ed="#V" n="28"/>se haberet ad effectum Sacramenti, nec
+            <lb ed="#V" n="29"/>sic esset locus quaestioni: An, scilicet,
+            <lb ed="#V" n="30"/>omnes baptizati aequaliter recipiant
+            effe<lb ed="#V" n="31" break="no"/>ctum Baptismi? neque etiam
+            impugnatio<lb ed="#V" n="32" break="no"/>ni, ut dixi, quae procedit ex determinata
+            <lb ed="#V" n="33"/>significatione, et significato Sacramenti,
+            <lb ed="#V" n="34"/>cui non corresponderet gradus
+            exce<lb ed="#V" n="35" break="no"/>dens a solo Deo causatus, magis, quam
+            <lb ed="#V" n="36"/>si causaretur per meritum. vel alio
+            mo<lb ed="#V" n="37" break="no"/>do; ideoque Doctor hunc sensum
+            suppo<lb ed="#V" n="38" break="no"/>nens dicit: Quantum ad Deum
+            determi<lb ed="#V" n="39" break="no"/>nantem se cooperari isti signo per
+            effe<lb ed="#V" n="40" break="no"/>ctum significatum, etc. aliquo modo
+            po<lb ed="#V" n="41" break="no"/>test esse differentia, aliquo modo non,
+            <lb ed="#V" n="42"/>etc. quando effectus est aequalis, quando
+            <lb ed="#V" n="43"/>inaequalis fit a Deo, cooperante
+            Sacra<lb ed="#V" n="44" break="no"/>mento.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Ex his corruit secunda ratio Soti, quae
+            <lb ed="#V" n="46"/>est contra suppositionem quaestionis, ita
+            <lb ed="#V" n="47"/>enim procedit, ac si ille excessus non
+            <lb ed="#V" n="48"/>causaretur per Sacramentum. Tertia ratio
+            <lb ed="#V" n="49"/>procedit in sensu contrario, admittendo
+            <lb ed="#V" n="50"/>suppositionem, quasi liberum sit
+            senten<lb ed="#V" n="51" break="no"/>tiam studio impugnationis ad extrema
+            <lb ed="#V" n="52"/>trahere et propellere ad contradicentiam,
+            <lb ed="#V" n="53"/>quo facilius explodatur. Summa rationis
+            <lb ed="#V" n="54"/>est: quod perinde etiam dici possit Deum
+            <lb ed="#V" n="55"/>per meritum aequale conferre inaequalem
+            <lb ed="#V" n="56"/>gratiam. Respondetur negando sequelam,
+            <lb ed="#V" n="57"/>quia inter meritum et gratiam et gloriam
+            <lb ed="#V" n="58"/>datur proportio secundum medium
+            justi<lb ed="#V" n="59" break="no"/>tiae, non ita in Sacramento, quod operatur
+            <lb ed="#V" n="60"/>ex mera liberalitate instituentis, et
+            inde<lb ed="#V" n="61" break="no"/>pendenter a merito, et dispositione
+            infan<lb ed="#V" n="62" break="no"/>tis; in adulto vero ex proportione
+            disposi<lb ed="#V" n="63" break="no"/>tionis servatur medium justitiae de
+            con<lb ed="#V" n="64" break="no"/>gruo, quando est in peccato personali.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Minus urget aitera consequentia,
+            nem<lb ed="#V" n="66" break="no"/>pe extra Sacramentum et meritum, Deum
+            <lb ed="#V" n="67"/>posse causare illam gratiam ex motivo
+            <lb ed="#V" n="68"/>praedestinationis, et sic tota meritorum
+            <lb ed="#V" n="69"/>ratio proscriberetur. Respondetur
+            abso<lb ed="#V" n="70" break="no"/>lute potuisse Deum sic facere, non tamen
+            <lb ed="#V" n="71"/>regulariter, perducere praedestinationem
+            <lb ed="#V" n="72"/>ad effectum, nisi per media ordinaria
+            <lb ed="#V" n="73"/>et statuta, nempe Sacramenta et opera,
+            <lb ed="#V" n="74"/>quamvis aliquos praeter legem
+            justifica<lb ed="#V" n="75" break="no"/>verit in utero, ut sortirentur effectum
+            <lb ed="#V" n="76"/>praedestinationis, qualis erat illa gratia;
+            <lb ed="#V" n="77"/>nihil in hoc praescriptum aut proscriptum
+            <lb ed="#V" n="78"/>est contra legem ordinariam, sed supra
+            <lb ed="#V" n="79"/>illum actum est, quod per media ejus
+            <lb ed="#V" n="80"/>haberi potest in diverso statu infantis.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Oporteret etiam probare de lege
+            or<lb ed="#V" n="82" break="no"/>dinaria, ita arctasse Deum efficaciam
+            <lb ed="#V" n="83"/>Sacramenti, ut ultra gradum
+            determina<lb ed="#V" n="84" break="no"/>tum, ex speciali voluntate ad ulteriorem
+            <lb ed="#V" n="85"/>gradum quandoque non extendantur.
+            <lb ed="#V" n="86"/>Et quamvis de lege ordinaria media
+            sa<lb ed="#V" n="87" break="no"/>lutis comprehendantur sub Sacramentis
+            <lb ed="#V" n="88"/>et operibus, non eodem modo omnes
+            <pb ed="#V" n="485"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>electi vocantur, moventur, et pertingunt
+            <lb ed="#V" n="2"/>finem, nam quidam per opera, quidam
+            <lb ed="#V" n="3"/>per Sacramenta; aliis alia sunt opera,
+            <lb ed="#V" n="4"/>prout donantur, neque singulis omnia,
+            <lb ed="#V" n="5"/>ut per se notum est, neque si per
+            poe<lb ed="#V" n="6" break="no"/>nitentiam finalem et fidem salvatus est
+            <lb ed="#V" n="7"/>latro in Cruce, proscribitur meritum
+            <lb ed="#V" n="8"/>justitiae, aut fortitudinis, aut aliarum
+            <lb ed="#V" n="9"/>virtutum, neque si infantes mediante
+            <lb ed="#V" n="10"/>Sacramento salvantur, despicit ideo Deus
+            <lb ed="#V" n="11"/>opera piorum, et, ut supra dictum est,
+            <lb ed="#V" n="12"/>in commento praecedentis quaestionis, si
+            <lb ed="#V" n="13"/>gratia uberior mediante Sacramento
+            da<lb ed="#V" n="14" break="no"/>retur alicui, non ideo excluditur a
+            justi<lb ed="#V" n="15" break="no"/>tia operum, quibus meretur gloriam,
+            <lb ed="#V" n="16"/>quando ad eum statum pertingit, ut
+            <lb ed="#V" n="17"/>patet in Beato Joanne Baptista, et
+            Je<lb ed="#V" n="18" break="no"/>remia; non licet ergo inferre ex gratia
+            <lb ed="#V" n="19"/>collata a Deo mediante Sacramento
+            di<lb ed="#V" n="20" break="no"/>spensationem operis; nam ex sententia
+            <lb ed="#V" n="21"/>D. Thomae (ut ibi visum est) opera
+            sub<lb ed="#V" n="22" break="no"/>sequentia comparari possunt ad gratiam
+            <lb ed="#V" n="23"/>antecedentem etiam liberaliter datam, ut
+            <lb ed="#V" n="24"/>meritoria ejus.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Ex quo patet ad quartum, quo urget
+            <lb ed="#V" n="26"/>ex hac sententia sequi, quod qui
+            praede<lb ed="#V" n="27" break="no"/>stinatus est ad majorem gloriam habeat
+            <lb ed="#V" n="28"/>ampliora merita, quia nempe ex illa
+            be<lb ed="#V" n="29" break="no"/>nevolentia recipit majorem gratiam et
+            <lb ed="#V" n="30"/>gloriam proportionatam. Respondet
+            Pa<lb ed="#V" n="31" break="no"/>ludanus, admittendo consequentiam,
+            ver<lb ed="#V" n="32" break="no"/>bi gratia, in infante si sic decederet; sed
+            <lb ed="#V" n="33"/>quantum ad praesentem quaestionem, et
+            <lb ed="#V" n="34"/>in casu argumenti, quo talis perveniat
+            <lb ed="#V" n="35"/>ad aetatem capacem meriti, facilis est
+            <lb ed="#V" n="36"/>responsio ex dictis; imo argumentum
+            <lb ed="#V" n="37"/>seipsum destruit, quia uberior gratia
+            ac<lb ed="#V" n="38" break="no"/>tualis et habitualis in adulto ordinatur
+            <lb ed="#V" n="39"/>ad perfectionem operis proxime, sicut
+            <lb ed="#V" n="40"/>perfectiora media ad perfectiorem finem.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Extra controversiam est adultis, qui
+            <lb ed="#V" n="42"/>salvantur per opera, ex Dei dono, per
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>uberiorem gratiam, dari etiam
+            perfecti<lb ed="#V" n="44" break="no"/>ora merita; illa gratia abundantior datur
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>a Deo, ut principium excedens, et sicut
+            <lb ed="#V" n="46"/>adjutoria perfectiora gratiae actualis
+            cor<lb ed="#V" n="47" break="no"/>respondentia ad finem perfectioris
+            ope<lb ed="#V" n="48" break="no"/>ris; sicut ergo praedestinatus adultus ad
+            <lb ed="#V" n="49"/>gloriam majorem, requirit etiam
+            perfe<lb ed="#V" n="50" break="no"/>ctiora opera, sic uberior gratia, quam
+            <lb ed="#V" n="51"/>reciperet mediante Sacramento, cui etiam
+            <lb ed="#V" n="52"/>corresponderent adjutoria proportionata
+            <lb ed="#V" n="53"/>gratiae actualis non esset otiosa, sed
+            <lb ed="#V" n="54"/>abundantius reduceretur ad actum
+            me<lb ed="#V" n="55" break="no"/>riti. Et sicut gloria in adulto justificato
+            <lb ed="#V" n="56"/>non est ex sola gratia, sed etiam ex
+            <lb ed="#V" n="57"/>operibus per gratiam factis, quo
+            abun<lb ed="#V" n="58" break="no"/>dantius ei providetur de gratia, ita
+            abun<lb ed="#V" n="59" break="no"/>dantius providetur de operibus
+            propor<lb ed="#V" n="60" break="no"/>tionatis. Alia inconvenientia quae adducit
+            <lb ed="#V" n="61"/>praefatus auctor, explicando hanc
+            sen<lb ed="#V" n="62" break="no"/>tentiam modo dicto, et juxta principia
+            <lb ed="#V" n="63"/>Doctoris nostri, vel non sequuntur, vel
+            <lb ed="#V" n="64"/>non concludunt.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Haec disserendi causa dixerim, quia
+            <lb ed="#V" n="66"/>ex instituto commenti non faciunt, cum
+            <lb ed="#V" n="67"/>Doctor non asserat de facto contingere
+            <lb ed="#V" n="68"/>inaequalem effectum hoc modo, sed ut
+            <lb ed="#V" n="69"/>ostenderetur possibilitas hujusmodi non
+            <lb ed="#V" n="70"/>derogare, aut meritis, aut Sacramento,
+            <lb ed="#V" n="71"/>aut Dei providentiae. Quod namque
+            op<lb ed="#V" n="72" break="no"/>ponitur de merito, ejusque necessitate,
+            <lb ed="#V" n="73"/>solum habet locum in adultis, non in
+            <lb ed="#V" n="74"/>parvulis, in quibus non habet locum, nisi
+            <lb ed="#V" n="75"/>cum pervenerint ad aetatem adultam; tunc
+            <lb ed="#V" n="76"/>autem sicut et in adultis. salvatur
+            me<lb ed="#V" n="77" break="no"/>ritum perfectius ratione gratiae
+            perfecti<lb ed="#V" n="78" break="no"/>oris, quae ad opera perfectiora inclinat.
+            <lb ed="#V" n="79"/>De parvulis autem decedentibus ante usum
+            <lb ed="#V" n="80"/>rationis, haberent gloriam perfectiorem
+            <lb ed="#V" n="81"/>ratione gratiae perfectioris, juxta tenentes
+            <lb ed="#V" n="82"/>eos fuisse electos ad majorem gloriam;
+            <lb ed="#V" n="83"/>sed id non spectat ad hanc quaestionem,
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>quia incertum est, an sint ita electi aliqui
+            <lb ed="#V" n="85"/>ipsorum prae aliis, soli Deo reservatum
+            <lb ed="#V" n="86"/>est.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>(d) De tertio dico, etc. Declarat
+            quo<lb ed="#V" n="88" break="no"/>modo possit esse inaequalitas effectus
+            <pb ed="#V" n="486"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sacramentalis ex parte recipientis, inter
+            <lb ed="#V" n="2"/>parvulum et parvulum nulla est
+            inaequali<lb ed="#V" n="3" break="no"/>tas ab intrinseco; ab extrinseco potest esse
+            <lb ed="#V" n="4"/>ex impetratione parentum, aut ministri,
+            <lb ed="#V" n="5"/>aut offerentium. Haec est quinta conclusio
+            <lb ed="#V" n="6"/>in ordine. Prima patet, quia nullum
+            ha<lb ed="#V" n="7" break="no"/>bent actum proprium, aut dispositionem.
+            <lb ed="#V" n="8"/>Secunda patet, quia fides et merita ipsa
+            <lb ed="#V" n="9"/>possunt majorem gratiam impetrare
+            par<lb ed="#V" n="10" break="no"/>vula. Circa hanc bene advertit
+            Scholia<lb ed="#V" n="11" break="no"/>stes, intelligendum esse non de
+            sanctifi<lb ed="#V" n="12" break="no"/>cante, sed de aliquo dono gratuito, quod
+            <lb ed="#V" n="13"/>gratia actualis, aut gratis data dicitur,
+            <lb ed="#V" n="14"/>quia supra quaest. 2. hujus resp. ad 2.
+            <lb ed="#V" n="15"/>negat dari aliquam causam meritoriam
+            <lb ed="#V" n="16"/>primae gratiae, sive sit fides parentum,
+            <lb ed="#V" n="17"/>sive Ecclesiae, praeter solum Christum.
+            <lb ed="#V" n="18"/>Haec dona autem annexa effectui
+            Sacra<lb ed="#V" n="19" break="no"/>menti possunt impetrari a ministro, vel
+            <lb ed="#V" n="20"/>aliis, ut asserit S. Thomas 3. p. q. 64. art
+            <lb ed="#V" n="21"/>.1. ad 2. imo idipsum docet Cajetanus de
+            <lb ed="#V" n="22"/>gratia sanctificante, posse eam majorem
+            <lb ed="#V" n="23"/>impetrari per ministrum, ita praefato loco
+            <lb ed="#V" n="24"/>intelligens S. Thomam, et alii auctores,
+            <lb ed="#V" n="25"/>quos citat Scholiastes.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Citatur etiam noster Doctor hic pro
+            <lb ed="#V" n="27"/>hac opinione communiter, sed immerito
+            <lb ed="#V" n="28"/>ex dictis. Quod si quis eam defendere
+            <lb ed="#V" n="29"/>voluerit tanquam ejus, videat quae dicant
+            <lb ed="#V" n="30"/>Patres de virtute fidei ad
+            impetrati<lb ed="#V" n="31" break="no"/>onem de jejunio matris Samsonis
+            quan<lb ed="#V" n="32" break="no"/>tum valuit filio; item Matthaei 9. Videns
+            <lb ed="#V" n="33"/>Jesus fidem illorum, (nempe supponentium
+            <lb ed="#V" n="34"/>paralyticum ex tecto) dixit, confide fili,
+            <lb ed="#V" n="35"/>remittuntur tibi peccata tua; ubi glossa:
+            <lb ed="#V" n="36"/>Quantum valeat apud Deum fides propria,
+            <lb ed="#V" n="37"/>apud quem sic valuit aliena, ut intus et
+            <lb ed="#V" n="38"/>extra sanaret hominem? Item, quantum
+            <lb ed="#V" n="39"/>valuit oratio Stephani pro Paulo, et
+            innu<lb ed="#V" n="40" break="no"/>mera hujusmodi? Hoc tamen erit
+            meri<lb ed="#V" n="41" break="no"/>tum de congruo tantum, ex cujus motivo
+            <lb ed="#V" n="42"/>Deus in Sacramento dat uberiorem
+            gra<lb ed="#V" n="43" break="no"/>tiam, quam alias regulariter non confert.
+            <lb ed="#V" n="44"/>Quod autem contra hoc afferri posset ex
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>illa quaestione, qua dicitur Sacramentum
+            <lb ed="#V" n="46"/>non dependere a malitia aut bonitate
+            <lb ed="#V" n="47"/>ministri, intelligitur quantum ad
+            substan<lb ed="#V" n="48" break="no"/>tiam Sacramenti, effectum et fructum,
+            <lb ed="#V" n="49"/>ejus ex lege, et ordinarium. Quibus non
+            <lb ed="#V" n="50"/>obstantibus, Deus adjicere potest ex
+            libe<lb ed="#V" n="51" break="no"/>ralitate aliquid ob impetrationem
+            ali<lb ed="#V" n="52" break="no"/>orum. Contraria opinio magis placet, ut 1
+            <lb ed="#V" n="53"/>quae communis est, et magis consentanea
+            <lb ed="#V" n="54"/>principiis Doctoris.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Subjicit in adultis inveniri
+            inaequalita<lb ed="#V" n="56" break="no"/>tem effectus ex inaequali dispositione; est
+            <lb ed="#V" n="57"/>Tridentini c. 7. jam citato, et communis
+            <lb ed="#V" n="58"/>Theologorum; ex quo sequitur tertium,
+            <lb ed="#V" n="59"/>quod adjicit, inaequalem esse effectum
+            <lb ed="#V" n="60"/>Sacramenti in parvulo et adulto, quia in
+            <lb ed="#V" n="61"/>hoc major est ratione consensus, et fidei,
+            <lb ed="#V" n="62"/>et actus boni disponentis. Loquitur de
+            <lb ed="#V" n="63"/>adulto absolute, sicut alias supra
+            expli<lb ed="#V" n="64" break="no"/>cuimus, nempe ut habet originale
+            tan<lb ed="#V" n="65" break="no"/>tum, et non mortale actuale, licet habere
+            <lb ed="#V" n="66"/>possit veniale; reliqua patent.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

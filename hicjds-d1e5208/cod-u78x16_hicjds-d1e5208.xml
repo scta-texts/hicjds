@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 3, Praeambulum</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 3, Praeambulum</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="274"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e5208"><!-- hicjds-b4d3prae -->
+        <head>Praeambulum</head>
+        <!-- <div alias="hiq-d3prae"> -->
+          <p>
+            <pb ed="#V" n="274"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=274"/>COMMENTARIUS
+          </p>
+          <p>
+            <lb ed="#V" n="2"/>(a) Supra Magister egit, etc. Hic exponit
+            <lb ed="#V" n="3"/>Doctor ordinem. Postquam enim tractavit
+            <lb ed="#V" n="4"/>de Sacramentis novae legis in genere,
+            <lb ed="#V" n="5"/>subjecit etiam tractatum de Baptismo
+            <lb ed="#V" n="6"/>Joannis, tanquam praeambulo ad
+            tracta<lb ed="#V" n="7" break="no"/>tum de Baptismo Christi, quem explicat
+            <lb ed="#V" n="8"/>in hac distinctione. Ejus argumentum
+            <lb ed="#V" n="9"/>comprehendit Doctor quatuor
+            quaestioni<lb ed="#V" n="10" break="no"/>bus, hoc ordine: Primo explicat quid
+            <lb ed="#V" n="11"/>rei per definitionem, quae supponitur in
+            <lb ed="#V" n="12"/>qualibet scientia. Secundo explicat partes
+            <lb ed="#V" n="13"/>Sacramenti Baptismi; in secunda
+            quaes<lb ed="#V" n="14" break="no"/>tione formam, quae est magis principalis
+            <lb ed="#V" n="15"/>in composito; in tertia vero quaestione
+            <lb ed="#V" n="16"/>agit de materia; in quarta vero, de
+            insti<lb ed="#V" n="17" break="no"/>tutione ejus per ordinem ad causam
+            effi<lb ed="#V" n="18" break="no"/>cientem, et de promulgatione et
+            concur<lb ed="#V" n="19" break="no"/>rentia ejus cum Circumcisione.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

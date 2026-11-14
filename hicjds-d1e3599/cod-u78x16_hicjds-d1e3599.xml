@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio Sexta, Pars 3, Quaestio 2</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio Sexta, Pars 3, Quaestio 2</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="577"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3599"><!-- hicjds-b4d6p3q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Qualis intentio requiratur in ministro baptizante</head>
+        <!-- <div alias="hiq-d6q6-p1"> -->
+          <p>
+            <lb ed="#V" n="83" type="fixed=577"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>(a) Ad secundum sic proceditur, etc.
+            <lb ed="#V" n="85"/>Hic agitur de qualitate intentionis. In
+            ar<pb ed="#V" n="578"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>gumento ad oppositum, supponit
+            funda<lb ed="#V" n="2" break="no"/>mentum totius resolutionis, nam quaelibet
+            <lb ed="#V" n="3"/>intentio sufficiens ad meritum, sufficit
+            <lb ed="#V" n="4"/>etiam ad ministrandum Sacramentum; et
+            <lb ed="#V" n="5"/>agit de intentione, ut est actus efficax et
+            <lb ed="#V" n="6"/>absolutus, ex quo movetur voluntas ad
+            <lb ed="#V" n="7"/>alios actus subsequentes.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d6q6-p2"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="42" type="fixed=580"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>(b). Distinguitur communiter, etc.
+            <lb ed="#V" n="44"/>Habitualem intentionem plures
+            exten<lb ed="#V" n="45" break="no"/>dunt ad eam, quam mediam vocat Doctor,
+            <lb ed="#V" n="46"/>seu virtualem, ut eam distinguat ab hoc
+            <lb ed="#V" n="47"/>quod est in habitu et consuetudine seu
+            <lb ed="#V" n="48"/>inclinatione tantum actus primi aliquid
+            <lb ed="#V" n="49"/>tantum velle, et non actu. In
+            quaesti<lb ed="#V" n="50" break="no"/>one nulla est controversia, et textus
+            <lb ed="#V" n="51"/>est planus, atque doctrina recepta ab
+            <lb ed="#V" n="52"/>omnibus, licet, quidam varient modum
+            <lb ed="#V" n="53"/>loquendi. Habitualis, ut eam explicatr
+            <lb ed="#V" n="54"/>Doctor, non sufficit, quia non est
+            princi<lb ed="#V" n="55" break="no"/>pium operandi; actualis est perfectissima.
+            <lb ed="#V" n="56"/>Sufficit autem virtualis, quae est illa,,
+            <lb ed="#V" n="57"/>qua dicitur actualis antecedens manere
+            <lb ed="#V" n="58"/>in suo effectu, ut quando quis distractus
+            <lb ed="#V" n="59"/>neque actu cogitat finem, neque actu vult
+            <lb ed="#V" n="60"/>finem, tamen actu exercet opus
+            ordina<lb ed="#V" n="61" break="no"/>tum ad finem, ut bene Doctor explicat
+            <lb ed="#V" n="62"/>in littera. Hic plura dici possent de
+            na<lb ed="#V" n="63" break="no"/>tura intentionis, sed magis spectat hic
+            <lb ed="#V" n="64"/>tractatus ad primam secundae, et ad
+            <lb ed="#V" n="65"/>secundum sententiarum, ideo supersedeo,
+            <lb ed="#V" n="66"/>quia hic tantum agitur de ipsa, ut
+            re<lb ed="#V" n="67" break="no"/>quiritur ad Sacramentum, et incidenter.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Richardus docet modum, quo intentio
+            <lb ed="#V" n="69"/>actualis durat in suo effectu, nempe
+            qua<lb ed="#V" n="70" break="no"/>tenus voluntas imprimit appetitui seu
+            <lb ed="#V" n="71"/>potentiae motivae aliquam qualitatem, per
+            <lb ed="#V" n="72"/>quam movetur ad ministerium
+            Sacra<lb ed="#V" n="73" break="no"/>menti, qua qualitate cessante, cessat
+            <lb ed="#V" n="74"/>etiam motus in potentia motiva; sed
+            <lb ed="#V" n="75"/>hanc merito rejicit Doctor, videtur
+            <lb ed="#V" n="76"/>enim petita responsio ex motu
+            projecto<lb ed="#V" n="77" break="no"/>rum. Respondet ergo ipse duobus modis,
+            <lb ed="#V" n="78"/>primo quod in appetitu sensitivo, et
+            <lb ed="#V" n="79"/>phantasia sit aliqua dispositio, secundum
+            <lb ed="#V" n="80"/>quam movet cessante actu voluntatis
+            im<lb ed="#V" n="81" break="no"/>perantis eis. Haec dispositio non est alia,
+            <lb ed="#V" n="82"/>quam actus ipsarum potentiarum, ad
+            <lb ed="#V" n="83"/>quem applicantur ex imperio voluntatis,
+            <pb ed="#V" n="581"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>per subordinationem ad ipsam, manente
+            <lb ed="#V" n="2"/>appetitu applicato, manet etiam potentia
+            <lb ed="#V" n="3"/>motiva applicata, et sic sequitur motus
+            <lb ed="#V" n="4"/>in actionem externam; et haec sufficiunt
+            <lb ed="#V" n="5"/>ad ejus continuationem, sine ulla quali.
+            <lb ed="#V" n="6"/>tate impressa a voluntate.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Respondet secundo voluntatem habere
+            <lb ed="#V" n="8"/>ordinate suas volitiones in ordine ad
+            fi<lb ed="#V" n="9" break="no"/>nem, verbi gratia, primo intentionem,
+            <lb ed="#V" n="10"/>.postea electionem, tandem usum et
+            exe<lb ed="#V" n="11" break="no"/>cutionem per media subordinata, quando
+            <lb ed="#V" n="12"/>plura sunt, quibus correspondent actus
+            <lb ed="#V" n="13"/>potentiarum inferiorum cum eodem
+            ordi<lb ed="#V" n="14" break="no"/>ne; potest ergo distrahi voluntas ab
+            actu<lb ed="#V" n="15" break="no"/>ali volitione finis, sed perseverare in ipsa
+            <lb ed="#V" n="16"/>volitio respectu aliorum, hic et nunc, cum
+            <lb ed="#V" n="17"/>praescripto ordine, et sic continuatur
+            in<lb ed="#V" n="18" break="no"/>tentio ejus virtute in volitionibus
+            subor<lb ed="#V" n="19" break="no"/>dinatis, ad quas sequuntur actus
+            impe<lb ed="#V" n="20" break="no"/>rati aliarum potentiarum.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Hanc responsionem sequitur Suarez
+            <lb ed="#V" n="22"/>disp. 13. sect. 3. Uterque ergo modus
+            <lb ed="#V" n="23"/>est satis fundatus, et contingere potest
+            <lb ed="#V" n="24"/>in exercitio, quia licet voluntas imperet
+            <lb ed="#V" n="25"/>et applicet potentiam inferiorem et
+            exter<lb ed="#V" n="26" break="no"/>nam ad actum, potest continuari actus
+            <lb ed="#V" n="27"/>ille per appetitum. Quod dico necessarium
+            <lb ed="#V" n="28"/>esse respectu potentiae motivae, quae
+            <lb ed="#V" n="29"/>sicut nequit seipsam determinare ad
+            <lb ed="#V" n="30"/>actum, sicut neque repugnare potentiae
+            <lb ed="#V" n="31"/>superiori, ita etiam nequit continuare
+            <lb ed="#V" n="32"/>actum, nisi ut perseverat actus potentiae
+            <lb ed="#V" n="33"/>superioris, respectu ejusdem, per modum
+            <lb ed="#V" n="34"/>-determinantis ad ipsam continuationem
+            <lb ed="#V" n="35"/>ejus; non sic aliae potentiae, quae possunt
+            <lb ed="#V" n="36"/>determinari ab objecto, ut visiva, et
+            hu<lb ed="#V" n="37" break="no"/>jusmodi; possunt in actu perseverare
+            <lb ed="#V" n="38"/>ex sola objecti determinatione, desinente
+            <lb ed="#V" n="39"/>actu voluntatis, que etiam desinente,
+            ma<lb ed="#V" n="40" break="no"/>nente determinatione appetitus sensitivi
+            <lb ed="#V" n="41"/>et cognitionis imaginativae, sufficienter
+            <lb ed="#V" n="42"/>applicatur motiva ad continuationem
+            <lb ed="#V" n="43"/>actus imperati a voluntate, licet ipsa
+            vo<lb ed="#V" n="44" break="no"/>luntas non sit tum sub actu.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Alius etiam modus est aeque possibilis,
+            <lb ed="#V" n="46"/>ita ut maneat actus voluntatis circa
+            ma<lb ed="#V" n="47" break="no"/>terialia objecta subordinata, licet non
+            <lb ed="#V" n="48"/>attendat hic et nunc ad motivum formale
+            <lb ed="#V" n="49"/>extrinsecum finis, et desinat etiam actus
+            <lb ed="#V" n="50"/>intentionis in ipsa; quod optime
+            decla<lb ed="#V" n="51" break="no"/>rat Doctor in exemplis subjectis
+            respon<lb ed="#V" n="52" break="no"/>sione ad argumentum.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

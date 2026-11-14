@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio Sexta, Praeambulum</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio Sexta, Praeambulum</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="530"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e5223"><!-- hicjds-b4d6prae -->
+        <head>Praeambulum</head>
+        <!-- <div alias="hiq-d6prae"> -->
+          <p>
+            <pb ed="#V" n="530"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=530"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="2"/>In superiori egit Doctor de statu
+            mini<lb ed="#V" n="3" break="no"/>-stri, ejusque obligatione ad ministerium;
+            <lb ed="#V" n="4"/>in hac agit de alia ejus conditione.
+            Pri<lb ed="#V" n="5" break="no"/>mo, de gradu ejus; secundo, de unitate
+            <lb ed="#V" n="6"/>Baptismi, ut a ministro procedit; tertio,
+            <lb ed="#V" n="7"/>de actione ejus, seu de applicatione
+            Sa<lb ed="#V" n="8" break="no"/>cramenti quoad partes suas, et simultate
+            <lb ed="#V" n="9"/>partium; quarto, agit de eodem in ordine
+            <lb ed="#V" n="10"/>ad subjectum, cui applicat Sacramentum,
+            <lb ed="#V" n="11"/>et de distinctione requisita inter
+            utrum<lb ed="#V" n="12" break="no"/>que; quinto, de necessitate intentionis,
+            <lb ed="#V" n="13"/>qua constituitur ut principium operandi in
+            <lb ed="#V" n="14"/>actu primo; sexto, qualis debeat esse
+            <lb ed="#V" n="15"/>ipsa ejus intentio. Et haec est pars prima
+            <lb ed="#V" n="16"/>hujus distinctionis continens sex
+            quaesti<lb ed="#V" n="17" break="no"/>ones. Secunda autem pars quinque
+            quae<lb ed="#V" n="18" break="no"/>stiones, quae explicant effectum
+            Sacra<lb ed="#V" n="19" break="no"/>menti, qui dicitur character; et prima
+            <lb ed="#V" n="20"/>ejus quaestio est septima in ordine, et
+            <lb ed="#V" n="21"/>quasi praeambula ad tractatum de
+            chara<lb ed="#V" n="22" break="no"/>ctere, in qua agitur de Baptismo, qua
+            <lb ed="#V" n="23"/>non est iterabilis; octavo, de poena
+            ite<lb ed="#V" n="24" break="no"/>rantium Baptismum; nono, an detur
+            <lb ed="#V" n="25"/>character baptismalis; decimo, quid sit;
+            <lb ed="#V" n="26"/>undecimo, quod ejus subjectum; et sic
+            <lb ed="#V" n="27"/>undecim quaestionibus terminat totam
+            <lb ed="#V" n="28"/>distinctionem.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

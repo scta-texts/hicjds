@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 4, Pars 2, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 4, Pars 2, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="417"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3402"><!-- hicjds-b4d4p2q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum adultus consentiens potest recipere effectum baptismi</head>
+        <!-- <div alias="hiq-d4q4-p1"> -->
+          <p>
+            <lb ed="#V" n="69" type="fixed=417"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>(a) Hic distinguo tam ex parte ejus qui
+            <lb ed="#V" n="71"/>dicitur adultus, etc. Resolutio hujus
+            quae<lb ed="#V" n="72" break="no"/>stionis est communis Theologorum,
+            Alen<lb ed="#V" n="73" break="no"/>sis 4. part. quaest. 8. m. 7. art. 2. S ultimo.
+            <lb ed="#V" n="74"/>D. Thomae 3. part. quaest. 69. art. 12.
+            <lb ed="#V" n="75"/>reliquorum in 4. dist. 4. ubi D.
+            Bonaven<lb ed="#V" n="76" break="no"/>tura art. 2. quaest. 1. Richardus dist. 6.
+            <lb ed="#V" n="77"/>art. 1. quaest. 2. Paludanus ibidem quaest.
+            <lb ed="#V" n="78"/>2. art. 1. et 2. q. 2. Durandus dist. 4.
+            <lb ed="#V" n="79"/>quaest. 7. Gabriel eadem dist. quaest. 2.
+            <lb ed="#V" n="80"/>art. 2. Marsilius in 4. quaest. 4. art. 4.
+            <lb ed="#V" n="81"/>dub. 3. Adrianus quaest. 1. de Baptismo,
+            <lb ed="#V" n="82"/>art. 3. Sotus in 4. dist. quaest. 1. art. 7.
+            <lb ed="#V" n="83"/>et moderni Scriptores 3. part. quaest. 64.
+            <lb ed="#V" n="84"/>art. 10. et 69. art. 12. vel in Magistrum
+            <lb ed="#V" n="85"/>tn 4. dist. 4. 5. et 6. Hi omnes docent
+            re<pb ed="#V" n="418"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>quiri consensum adulti, ut valide recipiat
+            <lb ed="#V" n="2"/>Baptismum. Resolutio est quoad adultum,
+            <lb ed="#V" n="3"/>alium esse aetate solum adultum, alium
+            <lb ed="#V" n="4"/>simul mente; prior si nunquam habuit, aut
+            <lb ed="#V" n="5"/>speratur habiturus usum rationis,
+            repu<lb ed="#V" n="6" break="no"/>tatur puer in ordine ad Baptismum
+            susci<lb ed="#V" n="7" break="no"/>piendum, et sic non requiritur in eo ullus
+            <lb ed="#V" n="8"/>consensus; si autem fuit a prima aetate
+            <lb ed="#V" n="9"/>semper amens, sed expectatur
+            perventu<lb ed="#V" n="10" break="no"/>? rus ad usum rationis, expectandus est, ut
+            <lb ed="#V" n="11"/>cum majori fructu recipiat Sacramentum,
+            <lb ed="#V" n="12"/>nisi periculum aliquod subsit, aut
+            videa<lb ed="#V" n="13" break="no"/>tur. Si autem alius habuit usum rationis
+            <lb ed="#V" n="14"/>quo nunc caret, et praesumitur nunquam
+            <lb ed="#V" n="15"/>ratione usurus, spectandus est status,
+            <lb ed="#V" n="16"/>quem habuit dum rationis, et consensus
+            <lb ed="#V" n="17"/>fuit capax, quia vel habuit aliquem
+            con<lb ed="#V" n="18" break="no"/>sensum non retractatum, de quo constat,
+            <lb ed="#V" n="19"/>et ille nunc inest habitu, et sufficit ex
+            <lb ed="#V" n="20"/>parte subjecti, et ministri ut infra
+            videbi<lb ed="#V" n="21" break="no"/>mus, vel habuit dissensum, et nunc etiam
+            <lb ed="#V" n="22"/>habetur dissentiens, neque est
+            baptizan<lb ed="#V" n="23" break="no"/>dus, quia voluntas praeterita non
+            retra<lb ed="#V" n="24" break="no"/>ctata ipsius, pro statu praesenti amentiae
+            <lb ed="#V" n="25"/>reputatur; vel neutro modo se habuit, ut
+            <lb ed="#V" n="26"/>infidelis, verbi gratia, qui captus a
+            Chri<lb ed="#V" n="27" break="no"/>stianis incidit in amentiam, antequam
+            <lb ed="#V" n="28"/>quidpiam de Baptismo audivit, vel certe
+            <lb ed="#V" n="29"/>ex ipsa libertate ita mansit alias
+            suspen<lb ed="#V" n="30" break="no"/>sus, licet audierit, et sic etiam non est
+            <lb ed="#V" n="31"/>baptizandus, quia non volens quod
+            tene<lb ed="#V" n="32" break="no"/>tur velle reputatur moraliter nolens. Si
+            <lb ed="#V" n="33"/>autem est adultus compos rationis,
+            po<lb ed="#V" n="34" break="no"/>test habere consensum vel dissensum,
+            <lb ed="#V" n="35"/>et utrumque vel habitualiter, vel
+            virtuali<lb ed="#V" n="36" break="no"/>ter vel actualiter; utrumque etiam
+            secun<lb ed="#V" n="37" break="no"/>dum quid vel simpliciter, eo modo quo
+            <lb ed="#V" n="38"/>distinguitur voluntarium secundum quid
+            <lb ed="#V" n="39"/>et simpliciter, verbi gratia, projiciens
+            mer<lb ed="#V" n="40" break="no"/>ces in naufragio est voluntarius
+            simpli<lb ed="#V" n="41" break="no"/>citer, involuntarius secundum quid; quid
+            <lb ed="#V" n="42"/>autem requiratur, jam dicemus.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Hic autem modus triplex consentiendi
+            <lb ed="#V" n="44"/>vel dissentiendi, saepius traditur a Doctore,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>ut in 2. dist. 41. quaest. unica, ubi agit de e
+            <lb ed="#V" n="46"/>modo, quo refertur actus bonus in finem
+            <lb ed="#V" n="47"/>charitatis; et infra dist. 6. quaest. 4.
+            con<lb ed="#V" n="48" break="no"/>sensus actualis est ille, qui nunc est
+            prae<lb ed="#V" n="49" break="no"/>sens in exercitio; virtualis qui fuit
+            ali<lb ed="#V" n="50" break="no"/>quando actualis, et manet in virtute, quia
+            <lb ed="#V" n="51"/>sollicitavit voluntatem ad ponendum
+            effe<lb ed="#V" n="52" break="no"/>ctum, per medium remotum vel proximum,
+            <lb ed="#V" n="53"/>talis est in distracto; habitualis vero est
+            <lb ed="#V" n="54"/>voluntas inefficax habita, et nunquam
+            <lb ed="#V" n="55"/>retractata, qua redditur Sacramentum
+            <lb ed="#V" n="56"/>volitum, licet non applicet media pro
+            <lb ed="#V" n="57"/>tunc, quando erat, tollit tamen obicem
+            <lb ed="#V" n="58"/>contrariae voluntatis, sive negative, per
+            <lb ed="#V" n="59"/>suspensionem actus secundi non
+            consen<lb ed="#V" n="60" break="no"/>tientis, sive etiam contrariae dissentientis.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Praeter hunc consensum habitualem
+            <lb ed="#V" n="62"/>concedit alium Doctor, in illa dist. 41.
+            <lb ed="#V" n="63"/>nempe qui dicitur ex habitu et
+            disposi<lb ed="#V" n="64" break="no"/>tione voluntatis in actu primo, ut quando
+            <lb ed="#V" n="65"/>habens habitum charitatis, elicit actum
+            <lb ed="#V" n="66"/>bonum, non secundum inclinationem
+            <lb ed="#V" n="67"/>charitatis, id est, qui natus est referri in
+            <lb ed="#V" n="68"/>finem charitatis, et posset referri ab
+            eli<lb ed="#V" n="69" break="no"/>ciente, quamvis in actu secundo non
+            re<lb ed="#V" n="70" break="no"/>ferat ex negligentia, aut inadvertentia,
+            <lb ed="#V" n="71"/>haec habitualis voluntas, licet habeat
+            lo<lb ed="#V" n="72" break="no"/>cum in merito, non pertinet ad scopum
+            <lb ed="#V" n="73"/>praesentis quaestionis, quia inclinatio illa
+            <lb ed="#V" n="74"/>habitualis non inest adulto respective ad
+            <lb ed="#V" n="75"/>Baptismum, supposito quod non habuit!
+            <lb ed="#V" n="76"/>actus, ex quibus esset, et quamvis etiam
+            <lb ed="#V" n="77"/>inesset, ea non obstante, Baptismus ejus
+            <lb ed="#V" n="78"/>esset nullus, si postea retractaret priores
+            <lb ed="#V" n="79"/>actus, quibus consensit in Baptismum,
+            <lb ed="#V" n="80"/>nam dispositio requisita ad Baptismum
+            <lb ed="#V" n="81"/>adulti est aliquis actus secundus, quo de
+            <lb ed="#V" n="82"/>se ipso disponit in ordine ad Baptismum,
+            <lb ed="#V" n="83"/>et salutem, habens suiipsius plenam
+            di<lb ed="#V" n="84" break="no"/>spositionem et dominium, quae non
+            atten<lb ed="#V" n="85" break="no"/>duntur aliter, quam in actu secundo;
+            <lb ed="#V" n="86"/>et hoc ex lege generali, qua Deus voluit
+            <lb ed="#V" n="87"/>salutem adulti dependere a suo libero
+            <lb ed="#V" n="88"/>arbitrio, sicut media in exercitio ab
+            eo<pb ed="#V" n="419"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>dem dependent. Consensus secundum
+            <lb ed="#V" n="2"/>quid et simpliciter patet ex iis, quae
+            tra<lb ed="#V" n="3" break="no"/>dit Doctor infra dist. 29. quid sint, et ex
+            <lb ed="#V" n="4"/>Philosopho 3. Ethicorum.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d4q4-p2"> -->
+          <p>
+            <lb ed="#V" n="75" type="fixed=421"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>(b) De tertio membro, etc. Respondet
+            <lb ed="#V" n="77"/>Doctor, quod dissentiens negative aut
+            <lb ed="#V" n="78"/>contrarie non baptizatur valide. Est
+            Au<lb ed="#V" n="79" break="no"/>gustini loco supra citato in com.
+            praece<lb ed="#V" n="80" break="no"/>denti, ex lib. 4. de Baptismo, cap. 24. Et
+            <lb ed="#V" n="81"/>probat ex illo Joannis 9. aetatem habet, ipse
+            <lb ed="#V" n="82"/>pro se respondeat; ideo autem infantes
+            <lb ed="#V" n="83"/>sine consensu baptizantur valide, quia
+            <lb ed="#V" n="84"/>nondum arbitri suiipsius ex defectu
+            aeta<lb ed="#V" n="85" break="no"/>tis; an autem requiratur in eis consensus
+            <lb ed="#V" n="86"/>parentum aut tutorum ad valorem
+            Sa<pb ed="#V" n="422"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>cramenti, infra videbimus; patet ex cap.
+            <lb ed="#V" n="2"/>Majores, de Baptismo, et ratio est jam
+            <lb ed="#V" n="3"/>tacta.
+            <lb ed="#V" n="4"/>Secundo dicit, si dissensus ille sit
+            tan<lb ed="#V" n="5" break="no"/>tum secundum quid dissensus,
+            simplici<lb ed="#V" n="6" break="no"/>ter tamen consentit, Sacramentum esse
+            <lb ed="#V" n="7"/>validum. Patet ex Toletano IV. cap. 56.
+            <lb ed="#V" n="8"/>et habetur 45. dist. de Judaeis, cujus
+            ver<lb ed="#V" n="9" break="no"/>ba citat Innocentius in dicto capitulo
+            Ma<lb ed="#V" n="10" break="no"/>jores, de Baptismo; et eadem habet
+            Do<lb ed="#V" n="11" break="no"/>ctor in littera, et exemplum subdit
+            ac<lb ed="#V" n="12" break="no"/>commodatum, ut ibidem patet. Quod si
+            <lb ed="#V" n="13"/>consensus ejus non sit verus, sed
+            simu<lb ed="#V" n="14" break="no"/>latus et fictus, non erit coram Deo
+            bapti<lb ed="#V" n="15" break="no"/>zatus, sed in foro Ecclesiae tenebitur pro
+            <lb ed="#V" n="16"/>baptizato, quia exterior consensus verbis
+            <lb ed="#V" n="17"/>expressus, supponit interiorem, quantum
+            <lb ed="#V" n="18"/>ad praesumptionem, quae non tollitur nisi
+            <lb ed="#V" n="19"/>probetur contrarium.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Tertio, dicit voluntatem virtualem
+            suf<lb ed="#V" n="21" break="no"/>ficere, ut bene probat, quia haec etiam
+            <lb ed="#V" n="22"/>sufficit in ministro Sacramenti, nam
+            <lb ed="#V" n="23"/>semper voluntas praeterita praesumitur
+            <lb ed="#V" n="24"/>durare, nisi mutetur: De his quae vis,
+            me<lb ed="#V" n="25" break="no"/>tusve causa fiunt, cap. Perlatum; et illa
+            <lb ed="#V" n="26"/>sufficit ad meritum, et imputationem, et
+            <lb ed="#V" n="27"/>contractus, et transactiones, ut patet in
+            <lb ed="#V" n="28"/>iis, quae per procuratores fiunt.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Quarto, dicit voluntatem habitualem
+            <lb ed="#V" n="30"/>sufficere ad receptionem validam
+            Sacra<lb ed="#V" n="31" break="no"/>menti. Patet ex ratione praemissa, quia
+            <lb ed="#V" n="32"/>voluntas praeterita reputatur donec
+            revo<lb ed="#V" n="33" break="no"/>cetur, ut patet ex illo cap. Majores, de
+            <lb ed="#V" n="34"/>Baptismo, ubi dicit Pontifex, quod
+            amen<lb ed="#V" n="35" break="no"/>tes et dormientes, qui jam consenserunt,
+            <lb ed="#V" n="36"/>neque postea dissenserunt, recipiunt
+            Ba<lb ed="#V" n="37" break="no"/>ptismum valide. Carthaginen. III. cap. 34.
+            <lb ed="#V" n="38"/>Arausicanum I. cap. 12. quae docent
+            pri<lb ed="#V" n="39" break="no"/>vatos usu rationis et loquelae, si habent
+            te<lb ed="#V" n="40" break="no"/>stimonium praeteritae voluntatis,
+            baptizan<lb ed="#V" n="41" break="no"/>dos esse et reconciliandos, juxta Rituale
+            <lb ed="#V" n="42"/>Romanum.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Quinto, dicit quod qui indifferenter
+            <lb ed="#V" n="44"/>se habet, nec consentit, nec dissentit,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>non recipit Sacramentum, patet ex dictis.
+            <lb ed="#V" n="46"/>Contrarium hujus dicit Cajetanus 3. part.
+            <lb ed="#V" n="47"/>quaest. 68. art. 7. Primo ex illis, cap.
+            <lb ed="#V" n="48"/>Majores, de Baptismo: Tunc characterem
+            <lb ed="#V" n="49"/>sacramentalis imprimit operatio, quando
+            <lb ed="#V" n="50"/>obicem contrariae voluntatis non invenerit,
+            <lb ed="#V" n="51"/>etc. in tali non est contraria voluntas
+            <lb ed="#V" n="52"/>ergo. Deinde patet in Extrema Unctione
+            <lb ed="#V" n="53"/>quae datur privato subito usu rationis.
+            <lb ed="#V" n="54"/>Item in parvulis non requiritur talis
+            con<lb ed="#V" n="55" break="no"/>sensus; ergo. Item, Florentinum in
+            De<lb ed="#V" n="56" break="no"/>creto unionis tantum requirit materiam,
+            <lb ed="#V" n="57"/>formam et intentionem ministri ad
+            perfi<lb ed="#V" n="58" break="no"/>ciendum Sacramentum. Item, si
+            require<lb ed="#V" n="59" break="no"/>retur consensus, non sufficeret habitualis,
+            <lb ed="#V" n="60"/>quod falsum est ex dictis. Antecedens
+            <lb ed="#V" n="61"/>patet in ministro, quia praeter habitualem
+            <lb ed="#V" n="62"/>requiritur actualis aut virtualis, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Ad primum respondetur contrariam
+            vo<lb ed="#V" n="64" break="no"/>luntatem dici ibi etiam eam, quae negativa
+            <lb ed="#V" n="65"/>est, ut patet ex textu: Ille vero, inquit,
+            <lb ed="#V" n="66"/>qui nunquam consentit, sed penitus
+            contra<lb ed="#V" n="67" break="no"/>dicit, nec rem, nec characterem suscipit
+            <lb ed="#V" n="68"/>Sacramenti, quia plus est expresse
+            contra<lb ed="#V" n="69" break="no"/>dicere, quam minime consentire, etc. Ubi
+            <lb ed="#V" n="70"/>illa verba, sed penitus contradicit, non
+            <lb ed="#V" n="71"/>adduntur per modum limitationis, sed
+            <lb ed="#V" n="72"/>per modum augmenti, quia casus
+            pro<lb ed="#V" n="73" break="no"/>positus fuit de iis, qui ad Baptismum
+            co<lb ed="#V" n="74" break="no"/>gebantur, vel sunt coacti, in quibus
+            di<lb ed="#V" n="75" break="no"/>cit Baptismum esse nullum, si
+            contra<lb ed="#V" n="76" break="no"/>dicunt, quia plus est contradicere, quam
+            <lb ed="#V" n="77"/>minime consentire, ubi supponit etiam
+            <lb ed="#V" n="78"/>hunc valide baptizari; qui enim non
+            con<lb ed="#V" n="79" break="no"/>sentit, censetur invitus.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Ad secundum respondetur, Extremam
+            <lb ed="#V" n="81"/>Unctionem non supponere alium
+            consen<lb ed="#V" n="82" break="no"/>sum quam universalem, quo homo fidelis
+            <lb ed="#V" n="83"/>et poenitens vult muniri omnibus
+            Sacra<lb ed="#V" n="84" break="no"/>mentis.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Ad tertium de infante, patet ex
+            Au<lb ed="#V" n="86" break="no"/>gustino loco citato, ubi hanc
+            differen<lb ed="#V" n="87" break="no"/>tiam supra expressam assignat, inter
+            <lb ed="#V" n="88"/>infantem et adultum respective ad
+            con<pb ed="#V" n="423"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>sensum et non consensum. Dices, saltem
+            <lb ed="#V" n="2"/>requiriri consensum parentum, ita ut
+            <lb ed="#V" n="3"/>alias Baptismus fieret nullus; ita sentit
+            <lb ed="#V" n="4"/>Durandus in 4. dist. 4. quaest. 7.
+            Paluda<lb ed="#V" n="5" break="no"/>nus quaest. 4. Catherinus opusculo de
+            in<lb ed="#V" n="6" break="no"/>fantibus Judaeorum baptizandis; hi negant
+            <lb ed="#V" n="7"/>filios infidelium, qui non sunt sub
+            po<lb ed="#V" n="8" break="no"/>testate Christianorum recipere
+            Sacramen<lb ed="#V" n="9" break="no"/>tum valide, sine consensu vero, aut
+            inter<lb ed="#V" n="10" break="no"/>pretativo parentum, quia voluntas patris
+            <lb ed="#V" n="11"/>reputatur voluntas filii, qui pro ipso
+            te<lb ed="#V" n="12" break="no"/>statur, et eligit sepulturam, et contrahit;
+            <lb ed="#V" n="13"/>si desint parentes, requiritur consensus
+            <lb ed="#V" n="14"/>tutoris vel ejus qui curam ejus gerit.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>Contrarium hujus tenent communiter
+            <lb ed="#V" n="16"/>Doctores, vel supponunt, estque
+            Augu<lb ed="#V" n="17" break="no"/>stini epist. 23. ad Benifacium, ubi
+            ex<lb ed="#V" n="18" break="no"/>presse docet parvulum non dependere a
+            <lb ed="#V" n="19"/>voluntate parentum, sive quoad salutem
+            <lb ed="#V" n="20"/>per Sacramentum, sive quoad
+            consecra<lb ed="#V" n="21" break="no"/>tionem ejus diabolo per incantationem:
+            <lb ed="#V" n="22"/>Caeterum, inquit, cum infans non redeat
+            <lb ed="#V" n="23"/>in parentem, ut cum illo, et in illo unus
+            <lb ed="#V" n="24"/>sit homo, sed omnino alter sit, habens
+            <lb ed="#V" n="25"/>carnem suam et animam suam, anima
+            <lb ed="#V" n="26"/>quae peccaverit, ipsa morietur. Nec illud
+            <lb ed="#V" n="27"/>te moveat, quod quidem non ea fide ad
+            <lb ed="#V" n="28"/>Baptismum percipiendum parvulos
+            fe<lb ed="#V" n="29" break="no"/>runt, ut gratia spirituali ad vitam
+            re<lb ed="#V" n="30" break="no"/>generentur ceternam, sed quod eos putent
+            <lb ed="#V" n="31"/>hoc remedio temporalem retinere vel
+            re<lb ed="#V" n="32" break="no"/>cipere sanitatem, non enim propterea illi
+            <lb ed="#V" n="33"/>non regenerantur, quia non ab istis hac
+            <lb ed="#V" n="34"/>intentione offeruntur; et subdit
+            rati<lb ed="#V" n="35" break="no"/>onem: Celebrantur enim per eos
+            neces<lb ed="#V" n="36" break="no"/>saria ministeria, etc. id est, Baptismus.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Supponit ergo salutem infantum
+            ba<lb ed="#V" n="38" break="no"/>ptizatorum non dependere a fide, aut
+            <lb ed="#V" n="39"/>intentione infideli parentum, sed a solo
+            <lb ed="#V" n="40"/>Baptismo, sicut subjungit interfectores
+            <lb ed="#V" n="41"/>esse filiorum, qui eos daemoniis
+            conse<lb ed="#V" n="42" break="no"/>crant, non quod interficiant spiritualiter
+            <lb ed="#V" n="43"/>filios reipsa, sed quantum in ipsis est; et
+            <lb ed="#V" n="44"/>addit: Afferri parvulos ad percipiendum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>salutem, non tam ab eis, quorum
+            gestan<lb ed="#V" n="46" break="no"/>tur manibus (quamvis et illi etiam
+            offe<lb ed="#V" n="47" break="no"/>rant, si fideles et boni sunt) quam ab
+            <lb ed="#V" n="48"/>universa societate Sanctorum; et
+            con<lb ed="#V" n="49" break="no"/>cludit: Tota ergo hoc mater Ecclesia, quae
+            <lb ed="#V" n="50"/>in Sanctis est, facit, quia tota omnes,
+            <lb ed="#V" n="51"/>tota singulos parit. Et infra: Illud
+            au<lb ed="#V" n="52" break="no"/>tem nolo te fallat, ut existimes reatus
+            <lb ed="#V" n="53"/>vinculum ex Adam tractum, aliter non
+            <lb ed="#V" n="54"/>posse disrumpi nisi parvuli ad
+            percipien<lb ed="#V" n="55" break="no"/>dam Christi gratiam a parentibus
+            offe<lb ed="#V" n="56" break="no"/>rantur. Sic enim scribit, ut dicit sicut
+            <lb ed="#V" n="57"/>parentes fuerunt auctores ad eorum
+            pae<lb ed="#V" n="58" break="no"/>nam, per fidem parentum identidem
+            ju<lb ed="#V" n="59" break="no"/>stificentur cum videas multos non offerri
+            <lb ed="#V" n="60"/>a parentibus, sed etiam a quibuslibet
+            ex<lb ed="#V" n="61" break="no"/>traneis, etc. Per hoc nihil aliud hic fieri
+            <lb ed="#V" n="62"/>vides, nisi quod in Evangelio scriptum,
+            <lb ed="#V" n="63"/>cum Dominus interrogasset quis, illi a
+            la<lb ed="#V" n="64" break="no"/>tronibus sauciato, et semivivo in via
+            de<lb ed="#V" n="65" break="no"/>relicto, proximus fuisset, responsum est
+            <lb ed="#V" n="66"/>enim, qui in illo fecit misericordiam, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Probatur primo, quia voluntas parentum
+            <lb ed="#V" n="68"/>non imputatur ad contrahendum
+            origi<lb ed="#V" n="69" break="no"/>nale peccatum, neque ab ea pendent
+            <lb ed="#V" n="70"/>quoad hoc, ut de fide est, quia etiam
+            <lb ed="#V" n="71"/>infantes Christianorum perinde
+            contra<lb ed="#V" n="72" break="no"/>hunt originale, sicut et infidelium, quia a
+            <lb ed="#V" n="73"/>sola illa voluntate et peccato primi
+            pa<lb ed="#V" n="74" break="no"/>rentis, in quo omnes erant, et
+            peccave<lb ed="#V" n="75" break="no"/>runt, dependet; ergo etiam non
+            depen<lb ed="#V" n="76" break="no"/>dent quantum ad salutem consequendami
+            <lb ed="#V" n="77"/>in Baptismo a voluntate parentum, sed a
+            <lb ed="#V" n="78"/>solo Christo, in quo omnes unum fiunt,
+            <lb ed="#V" n="79"/>et regenerantur ad justitiam per
+            Baptis<lb ed="#V" n="80" break="no"/>mum.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Patet consequentia, quia non magis
+            <lb ed="#V" n="82"/>debent constitui in voluntate parentum
+            <lb ed="#V" n="83"/>quoad justitiam recipiendam per Christum.
+            <lb ed="#V" n="84"/>quam quoad peccatum contrahendum ab
+            <lb ed="#V" n="85"/>Adamo; hoc enim esset contra divinam
+            <lb ed="#V" n="86"/>misericordiam, et in praejudicium
+            infan<lb ed="#V" n="87" break="no"/>tum; ergo sicut delictum, ita et justitia
+            <lb ed="#V" n="88"/>vel gratia, et ubi abundavit delictum.
+            <pb ed="#V" n="424"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>superabundavit et gratia; ergo sicut
+            pec<lb ed="#V" n="2" break="no"/>catum non dependet nisi a consensu
+            <lb ed="#V" n="3"/>proprio, aut primi parentis, ita nec
+            gra<lb ed="#V" n="4" break="no"/>tia dependet, nisi a consensu proprio, vel
+            <lb ed="#V" n="5"/>Christi Redemptoris, quasi minus esset
+            <lb ed="#V" n="6"/>efficax Christus ad salvandum, quam
+            <lb ed="#V" n="7"/>Adam ad damnandum, vel jus parentis
+            <lb ed="#V" n="8"/>in filium esset majus respective ad
+            Chri<lb ed="#V" n="9" break="no"/>stum quam ad Adamum. Hanc rationem
+            <lb ed="#V" n="10"/>habemus ex Augustino in primis verbis
+            <lb ed="#V" n="11"/>citatis.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Secundo, magis docent Patres in fide:
+            <lb ed="#V" n="13"/>aliena parvulum baptizari, quam in
+            vo<lb ed="#V" n="14" break="no"/>luntate aliena, seu per alienam
+            volunta<lb ed="#V" n="15" break="no"/>tem offerri, sed in fide aliena non
+            intel<lb ed="#V" n="16" break="no"/>ligitur fides parentum; sed vel ipse
+            Ba<lb ed="#V" n="17" break="no"/>ptismus, qui est Sacramentum fidei, ut
+            <lb ed="#V" n="18"/>Augustinus in calce illius epistolae, et alias
+            <lb ed="#V" n="19"/>docet, vel fides Ecclesiae; ergo etiam
+            <lb ed="#V" n="20"/>sufficit voluntas Ecclesiae, quae salvatur in
+            <lb ed="#V" n="21"/>ministro ad valorem Sacramenti. Deinde
+            <lb ed="#V" n="22"/>si jus paternum, et dissensus in eo
+            fun<lb ed="#V" n="23" break="no"/>datus, impedit valorem Sacramenti,
+            ma<lb ed="#V" n="24" break="no"/>nebit etiam eadem potestas Patris
+            respecti<lb ed="#V" n="25" break="no"/>ve ad Baptismum, quamdiu jus ejus non
+            <lb ed="#V" n="26"/>expirat, sed non expirat veniente filio ad
+            <lb ed="#V" n="27"/>usum rationis; ergo etiamsi tum
+            consen<lb ed="#V" n="28" break="no"/>serint in Baptismum, repugnantibus
+            pa<lb ed="#V" n="29" break="no"/>rentibus et tutoribus, Baptismus erit
+            nul<lb ed="#V" n="30" break="no"/>lus; quod nemo salva fide asserit.
+            Pro<lb ed="#V" n="31" break="no"/>batur consequentia, quia illud jus
+            pater<lb ed="#V" n="32" break="no"/>num valet ad irritandum votum filii, et.
+            <lb ed="#V" n="33"/>alios actus, quamdiu est impubes, et
+            po<lb ed="#V" n="34" break="no"/>test disponere de filio impuberi non secus
+            <lb ed="#V" n="35"/>ac de infante, etitam contra voluntatem
+            <lb ed="#V" n="36"/>filii, ut eum vendere, et in similibus.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Praeterea non est minus jus
+            Christia<lb ed="#V" n="38" break="no"/>norum in suos filios, quam infidelium,
+            <lb ed="#V" n="39"/>quia fides non praejudicat juri naturali
+            <lb ed="#V" n="40"/>parentum in filios, et praeceptum de
+            ho<lb ed="#V" n="41" break="no"/>norandis parentibus in lege nova
+            confir<lb ed="#V" n="42" break="no"/>matur; sed si filius fidelis, aut haeretici,
+            ba<lb ed="#V" n="43" break="no"/>ptizetur invito parente, manet Baptismus
+            <lb ed="#V" n="44"/>ratus, etiamsi talis actio esset prohibita ab
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Ecclesia, quia efficacia Sacramenti hujus
+            <lb ed="#V" n="46"/>non dependet ab Ecclesia.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Praeterea si martyrio in odium Christi
+            <lb ed="#V" n="48"/>interficeretur infans infidelis, salvaretur
+            <lb ed="#V" n="49"/>sine consensu parentum; ergo etiam erit
+            <lb ed="#V" n="50"/>vere baptizatus si absque eodem
+            consen<lb ed="#V" n="51" break="no"/>su baptizaretur. Antecedens patet, quia
+            <lb ed="#V" n="52"/>Innocentes invitis parentibus fuerunt
+            oc<lb ed="#V" n="53" break="no"/>cisi, et tamen sunt Martyres, ut supra
+            <lb ed="#V" n="54"/>diximus. Consequentia probatur, quia
+            <lb ed="#V" n="55"/>martyrium ex natura actus magis
+            de<lb ed="#V" n="56" break="no"/>pendet a consensu voluntatis, et fide
+            <lb ed="#V" n="57"/>adulti, quam Baptismus, ut per se
+            con<lb ed="#V" n="58" break="no"/>stat; ergo idem dicendum est quoad
+            in<lb ed="#V" n="59" break="no"/>fantes, si exigeretur consensus parentum
+            <lb ed="#V" n="60"/>ad Baptismum, magis exigi ad martyrium.
+            <lb ed="#V" n="61"/>Praeterea quoad bona temporalia et
+            vi<lb ed="#V" n="62" break="no"/>tam corporalem, potest respublica vel
+            <lb ed="#V" n="63"/>Princeps, suscipere patrocinium infantis
+            <lb ed="#V" n="64"/>contra iniquos parentes, aut filios; ergo
+            <lb ed="#V" n="65"/>etiam infantem in periculo mortis
+            con<lb ed="#V" n="66" break="no"/>stitutum, potest baptizare invito patre,
+            <lb ed="#V" n="67"/>et repugnante, etiam homo privatus, sicut
+            <lb ed="#V" n="68"/>vi eripere infantem a patre, qui eum
+            es<lb ed="#V" n="69" break="no"/>set occisurus; ergo tum valebit
+            Baptis<lb ed="#V" n="70" break="no"/>mus, quod esset falsum, si essentialiter
+            <lb ed="#V" n="71"/>exigeret consensum paternum ad sui
+            va<lb ed="#V" n="72" break="no"/>lorem. Sed de hoc inferius agetur latius.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Baptismus itaque non exigit consensum
+            <lb ed="#V" n="74"/>proprium infantis, qui non potest esse,
+            <lb ed="#V" n="75"/>neque consensum parentum ejus ad
+            valo<lb ed="#V" n="76" break="no"/>rem Sacramenti, quidquid sit an liceat ita
+            <lb ed="#V" n="77"/>baptizare. Neque expediens fuit valorem
+            <lb ed="#V" n="78"/>Sacramenti in infantibus, quod ipsis est
+            <lb ed="#V" n="79"/>unicum remedium salutis, constituere sub
+            <lb ed="#V" n="80"/>voluntate parentum, quia in periculo
+            <lb ed="#V" n="81"/>saepe non vacaret consensum eorum
+            ex<lb ed="#V" n="82" break="no"/>pectare, et Sacramenti efficacia
+            commit<lb ed="#V" n="83" break="no"/>teretur incertitudini; neque Concilia, aut
+            <lb ed="#V" n="84"/>Patres, qui docent Sacramentum esse
+            <lb ed="#V" n="85"/>semper validum, nisi ponatur obex,
+            men<lb ed="#V" n="86" break="no"/>tionem alicujus obicis fecerunt in
+            infan<lb ed="#V" n="87" break="no"/>tibus, qui redderet Sacramentum nullum,
+            <lb ed="#V" n="88"/>sed in solis adultis. Et sane esset magna
+            <pb ed="#V" n="425"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>injuria, si Baptismus infantum
+            depende<lb ed="#V" n="2" break="no"/>ret ab alio, quam a forma, materia et
+            in<lb ed="#V" n="3" break="no"/>tentione ministri, praeterire conditionem
+            <lb ed="#V" n="4"/>essentialem requisitam; ideo non
+            expres<lb ed="#V" n="5" break="no"/>sio ejus quoad infantes, et expressio
+            <lb ed="#V" n="6"/>quoad adultos, reddit doctrinam, quam
+            <lb ed="#V" n="7"/>tenemus, esse universalem et priorem
+            <lb ed="#V" n="8"/>omnino falsam esse, quam merito
+            Cajeta<lb ed="#V" n="9" break="no"/>nus dicit irrationabilem.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Ad quartum Cajetani respondetur
+            con<lb ed="#V" n="11" break="no"/>sensum baptizati non requiri ex parte
+            Sa<lb ed="#V" n="12" break="no"/>cramenti, sed ex patre subjecti, ut sit
+            <lb ed="#V" n="13"/>capax salutis et remedii ad salutem
+            ordi<lb ed="#V" n="14" break="no"/>nati ex lege universali, qua ordinata sunt
+            <lb ed="#V" n="15"/>haec in potestate liberi arbitrii in capace
+            <lb ed="#V" n="16"/>proprii consensus ut sint voluntaria.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Ad quintum respondetur, in ministro
+            <lb ed="#V" n="18"/>srequiri voluntatem efficacem respectu
+            <lb ed="#V" n="19"/>a Sacramenti, quia concurrit effective
+            sal<lb ed="#V" n="20" break="no"/>tem applicando Sacramentum; in adulto
+            <lb ed="#V" n="21"/>autem baptizando, sufficit quicumque
+            <lb ed="#V" n="22"/>actus, quae redditur voluntate dispositus,
+            <lb ed="#V" n="23"/>ut Sacramentum velit recipere. Alia ad
+            <lb ed="#V" n="24"/>initium quaestionis posita solvuntur ex
+            <lb ed="#V" n="25"/>textu.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

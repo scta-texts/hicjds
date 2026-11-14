@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio Septima, Quaestio 2</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio Septima, Quaestio 2</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="703"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3692"><!-- hicjds-b4d7q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum sacramentum confirmationis sit necessarium ad salutem</head>
+        <!-- <div alias="hiq-d7q2-p1"> -->
+          <p>
+            <lb ed="#V" n="17" type="fixed=703"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>(a) Respondeo non est simpliciter
+            neces<lb ed="#V" n="19" break="no"/>sarium, etc. Occasione hujus quaestionis
+            <lb ed="#V" n="20"/>nonnullae turbae hoc tempore subortae
+            <lb ed="#V" n="21"/>sunt; ne fomentum itaque magis ingerere
+            <lb ed="#V" n="22"/>aut captare videar, quam disserendi
+            op<lb ed="#V" n="23" break="no"/>portunitatem, supersedeo; videantur
+            Au<lb ed="#V" n="24" break="no"/>ctores citati, et Patres, et potissimum
+            <lb ed="#V" n="25"/>Melchiades Papa loco citato; praxis
+            pri<lb ed="#V" n="26" break="no"/>mitivae Ecclesiae, et retenta in Ecclesia
+            <lb ed="#V" n="27"/>Orientali, quae Confirmationem simul
+            <lb ed="#V" n="28"/>cum Baptismo confert, sed et praxis
+            di<lb ed="#V" n="29" break="no"/>uturna Ecclesiae Occidentalis, quae
+            dif<lb ed="#V" n="30" break="no"/>fert Confirmationem. Illud certum est,
+            <lb ed="#V" n="31"/>non esse medium necessarium ad
+            salu<lb ed="#V" n="32" break="no"/>tem: an sit in praecepto ex parte
+            susci<lb ed="#V" n="33" break="no"/>pientis, ut illud suscipiat? Recte Doctor
+            <lb ed="#V" n="34"/>asserit saltem esse praeceptum ne illud
+            <lb ed="#V" n="35"/>contemnat; contemnere vero est, non
+            <lb ed="#V" n="36"/>suscipere Sacramentum, quando potest
+            <lb ed="#V" n="37"/>commode ex quo tantus fructus redundat,
+            <lb ed="#V" n="38"/>et consummatio Baptismi. Censet ergo
+            <lb ed="#V" n="39"/>esse praeceptum suscipiendi Sacramenti,
+            <lb ed="#V" n="40"/>si debitae circumstantiae concurrant;
+            adde<lb ed="#V" n="41" break="no"/>rem ubi sunt pericula subversionis et
+            <lb ed="#V" n="42"/>fidei esse praeceptum suscipiendi
+            Sacra<cb ed="#V" n="b"/><lb ed="#V" n="43" break="no"/>menti, quod ut medium ordinarium
+            con<lb ed="#V" n="44" break="no"/>fert robur et virtutem, quoniam et hac
+            <lb ed="#V" n="45"/>ratione videtur potestas data Sacerdotibus
+            <lb ed="#V" n="46"/>ex commissione fundari, ut ministrent hoc
+            <lb ed="#V" n="47"/>Sacramentum.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>An vero in Provincis singulis et
+            re<lb ed="#V" n="49" break="no"/>gnis, ubi nequit esse recursus ad alios
+            <lb ed="#V" n="50"/>sine incommodo, Ecclesia teneatur
+            provi<lb ed="#V" n="51" break="no"/>dere de ministris idoneis hujus
+            Sacramen<lb ed="#V" n="52" break="no"/>ti? et an teneantur Episcopi in suis
+            Dioece<lb ed="#V" n="53" break="no"/>sibus illud ex praecepto divino ministrare
+            <lb ed="#V" n="54"/>et procurare, ut ab omnibes, juxta
+            con<lb ed="#V" n="55" break="no"/>suetudinem Provinciarum suscipiatur;
+            sal<lb ed="#V" n="56" break="no"/>vo meliori judicio putarem esse
+            praece<lb ed="#V" n="57" break="no"/>ptum utrinque, nisi majora incommoda
+            <lb ed="#V" n="58"/>obstent seu excusent, de quibus
+            Praelato<lb ed="#V" n="59" break="no"/>rum est judicare quid hic et nunc
+            expe<lb ed="#V" n="60" break="no"/>diat ad profectum suscipientium, ad
+            reve<lb ed="#V" n="61" break="no"/>rentiam Sacramenti. Nec video quomodo,
+            <lb ed="#V" n="62"/>aut Christianus contemnere Sacramentum,
+            <lb ed="#V" n="63"/>in quo communicatur Spiritus sanctus
+            <lb ed="#V" n="64"/>ad consummationem Baptismi suscepti,
+            <lb ed="#V" n="65"/>ut dicunt Patres alias citati, aut quomodo
+            <lb ed="#V" n="66"/>Praelati, sine gravi culpa contra
+            sollicitu<lb ed="#V" n="67" break="no"/>dinem, ad quam divina lege tenentur,
+            <lb ed="#V" n="68"/>ministerium tanti Sacramenti omittere
+            <lb ed="#V" n="69"/>possint in necessitate populi, ubi aliud
+            <lb ed="#V" n="70"/>non excusat, ex eo solum praetextu, quod
+            <lb ed="#V" n="71"/>Sacramentum non sit medium
+            necessa<lb ed="#V" n="72" break="no"/>rium ad salutem; omissio enim
+            ministe<lb ed="#V" n="73" break="no"/>rii libera, et sine urgentiori causa nequit
+            <lb ed="#V" n="74"/>separari a contemptu fundato Sacramenti
+            <lb ed="#V" n="75"/>in populo, cujus causa essent Praelati
+            <lb ed="#V" n="76"/>oscitantes. Sed haec relinquo examinanda
+            <lb ed="#V" n="77"/>aliis, de quibus frequens est Doctorum
+            <lb ed="#V" n="78"/>tractatus; et utinam veritas sine zelo
+            <lb ed="#V" n="79"/>amaro et contentione nunc dierum
+            exqui<lb ed="#V" n="80" break="no"/>reretur, nec quaestiones extraneae
+            admi<lb ed="#V" n="81" break="no"/>scerentur, quae pietati magis nocent,
+            <lb ed="#V" n="82"/>quam proposito accedunt; qui voluerit
+            <lb ed="#V" n="83"/>inquirere veritatem ex Canonibus et
+            Pa<lb ed="#V" n="84" break="no"/>tribus, et consuetudine Ecclesiae, facile
+            <lb ed="#V" n="85"/>obviam inveniet.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

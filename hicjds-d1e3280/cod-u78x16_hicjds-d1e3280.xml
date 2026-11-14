@@ -1,0 +1,1895 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 2, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 2, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="238"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3280"><!-- hicjds-b4d2q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum sacramentum Novae Legis habeat efficaciam a Christi passione</head>
+        <!-- <div alias="hiq-d2q1-p1"> -->
+          <p>
+            <lb ed="#V" n="80" type="fixed=238"/>COMMENTARIUS
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>(a) Circa hanc distinctionem, etc. Haec
+            <lb ed="#V" n="82"/>distinctio in duas partes principales
+            di<lb ed="#V" n="83" break="no"/>viditur, quarum prima agit de
+            instituti<pb ed="#V" n="239"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>one Sacramentorum novae legis,
+            eorum<lb ed="#V" n="2" break="no"/>que numero; secunda vero de Baptismo
+            <lb ed="#V" n="3"/>Joannis. Et juxta hanc divisionem
+            prae<lb ed="#V" n="4" break="no"/>missam a Doctore in expositione
+            lit<lb ed="#V" n="5" break="no"/>terae Magistri, proponit ipse duas
+            quaesti<lb ed="#V" n="6" break="no"/>ones, quarum prima est jam praemissa;
+            <lb ed="#V" n="7"/>secunda vero tangit Baptismum Joannis,
+            <lb ed="#V" n="8"/>et ejus efficaciam et fructum.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>In hac ergo quaestione primo arguit ad
+            <lb ed="#V" n="10"/>oppositum. Secundo agit de perfectione
+            <lb ed="#V" n="11"/>Sacramentorum novae legis, et radice
+            ta<lb ed="#V" n="12" break="no"/>lis perfectionis, quae fuit passio Christi
+            <lb ed="#V" n="13"/>exhibita. Tertio de instituente et causa
+            me<lb ed="#V" n="14" break="no"/>ritoria. Ex quibus concludit duo
+            corol<lb ed="#V" n="15" break="no"/>laria: Primum quomodo misericordia et
+            ju<lb ed="#V" n="16" break="no"/>stitia concurrant simul circa institutionem
+            <lb ed="#V" n="17"/>Sacramentorum. Secundum est, quod
+            pas<lb ed="#V" n="18" break="no"/>sio Christi fuerit magis efficax in lege
+            <lb ed="#V" n="19"/>Evangelica, quam in lege veteri, aut
+            an<lb ed="#V" n="20" break="no"/>tea. Quarto respondet ad argumenta.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d2q1-p2"> -->
+          <p>
+            <lb ed="#V" n="50" type="fixed=240"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>(b) Respondeo hic, prima conclusio
+            <lb ed="#V" n="52"/>sit hoec, etc. De hac conclusione aliquid
+            <lb ed="#V" n="53"/>dictum est supra in quaestione 3. Probat
+            <lb ed="#V" n="54"/>Doctor, quia haec est lex perfectissima,
+            <lb ed="#V" n="55"/>quam Trinitas disposuit dari homini pro
+            <lb ed="#V" n="56"/>statu viae. Haec patet ex illo Joannis 1.
+            <lb ed="#V" n="57"/>quod infra subjicit: Lex per Moysem data
+            <lb ed="#V" n="58"/>est, gratia et veritas per Jesum
+            Chris<lb ed="#V" n="59" break="no"/>tum, etc. Rom. 8. Non accepistis
+            spiri<lb ed="#V" n="60" break="no"/>tum servitutis in timore, sed accepistis
+            <lb ed="#V" n="61"/>spiritum adoptionis filiorum, in quo
+            cla<lb ed="#V" n="62" break="no"/>mamus, Abba, Pater. 2. ad Corinth. 3.
+            <lb ed="#V" n="63"/>dicitur, lex scripta in corde; ad Galat.
+            <lb ed="#V" n="64"/>Non estis sub lege, sed sub gratia, etc.
+            <lb ed="#V" n="65"/>Haec itaque lex, ut patet ex dictis, habet
+            <lb ed="#V" n="66"/>vim justificandi; ad Romanos 1.
+            Evan<lb ed="#V" n="67" break="no"/>gelium est virtus Dei in salutem omni
+            <lb ed="#V" n="68"/>credenti, etc. et cap. 3. vocat eam legem
+            <lb ed="#V" n="69"/>fidei, per quam excluditur gloriatio nostra.
+            <lb ed="#V" n="70"/>Unde ut ex praemissis Joannis primo
+            di<lb ed="#V" n="71" break="no"/>stinguitur a lege Moysi, in eo quod haec
+            <lb ed="#V" n="72"/>principaliter includit spiritum gratiae, et
+            <lb ed="#V" n="73"/>ipsam veritatem, dans non solum
+            praece<lb ed="#V" n="74" break="no"/>pta et consilia, sed etiam adjutoria, per
+            <lb ed="#V" n="75"/>quae adimpleantur, quae propria sunt
+            hu<lb ed="#V" n="76" break="no"/>jus, licet enim in Mosaica et lege naturae
+            <lb ed="#V" n="77"/>dabantur adjutoria, ea tamen respective
+            <lb ed="#V" n="78"/>ad legem novam, et merita sui auctoris
+            <lb ed="#V" n="79"/>Christi, quem continet, dabantur. In illis
+            <lb ed="#V" n="80"/>fuit promissio venturi Redemptoris, in
+            <lb ed="#V" n="81"/>hac ipsa veritas adimpleta est, ideo
+            prin<lb ed="#V" n="82" break="no"/>cipaliter continet gratiam et fidem et
+            veri<lb ed="#V" n="83" break="no"/>tatem.
+            <lb ed="#V" n="84"/>Item, sicut ad Hebraeos 9. infirmitatem
+            <lb ed="#V" n="85"/>veteris legis colligit Paulus, ex eo quod
+            <lb ed="#V" n="86"/>habuit Sacramenta, quae justificabant
+            tan<pb ed="#V" n="241"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tum ad emendationem carnis, et
+            mundi<lb ed="#V" n="2" break="no"/>tia legali; ex opposito sensu lex nova,
+            <lb ed="#V" n="3"/>quae est justificans, habere debuit
+            Sacra<lb ed="#V" n="4" break="no"/>cramenta, quae justificant per Spiritum
+            <lb ed="#V" n="5"/>gratiae a peccato, et sic recte dicetur in
+            <lb ed="#V" n="6"/>hoc excedere veterem legem, sicut veritas
+            <lb ed="#V" n="7"/>promissa typum. Videatur Augustinus lib.
+            <lb ed="#V" n="8"/>de Spiritu et littera, c. 4. 8. 14. 17. 18.
+            <lb ed="#V" n="9"/>contra duas epistolas Pelagianorum lib. 1.
+            <lb ed="#V" n="10"/>c. 7. et 21. lib. 1. de peccatorum meritis, et
+            <lb ed="#V" n="11"/>remiss. cap. 11. epist. 157.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Probat autem Doctor illud antecedens,
+            <lb ed="#V" n="13"/>quia lex Evangelica est ultima, secundum
+            <lb ed="#V" n="14"/>illud Matthaei 26. Novi et aeterni
+            Testamen<lb ed="#V" n="15" break="no"/>ti, id est, post quod nullum aliud est
+            futu<lb ed="#V" n="16" break="no"/>rum, etc. apud Matthaeum non legitur illa
+            <lb ed="#V" n="17"/>particula aeterni, neque apud alios
+            Evan<lb ed="#V" n="18" break="no"/>gelistas, aut Paulum 1. Corinth. 11 posita
+            <lb ed="#V" n="19"/>autem est in forma consecrationis calicis,
+            <lb ed="#V" n="20"/>qua utuntur Latini; quem autem effectum
+            <lb ed="#V" n="21"/>habeat, infra dicemus. Irrepsit ergo illa
+            <lb ed="#V" n="22"/>particula, aeterni, non est autem Doctoris
+            <lb ed="#V" n="23"/>illa additio, sed alicujus scriptoris. Unde
+            <lb ed="#V" n="24"/>infra ipse Doctor dist. 8. quaest. 2. fatetur
+            <lb ed="#V" n="25"/>plura verba illius formae non inveniri apud
+            <lb ed="#V" n="26"/>Evangelistas, ubi tractant de mysterio
+            in<lb ed="#V" n="27" break="no"/>stitutionis Calicis. Vel dicendum est
+            cita<lb ed="#V" n="28" break="no"/>tionem irrepsisse, licet novi Testamenti,
+            <lb ed="#V" n="29"/>inveniatur apud Matthaeum et Marcum.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Vel tertio dicendum est, particulam
+            <lb ed="#V" n="31"/>illam dictam esse a Christo in forma,
+            <lb ed="#V" n="32"/>quam tradit Matthaeus et Marcus, licet
+            <lb ed="#V" n="33"/>fuerit praetermissa ab Evangelistis. Et
+            Do<lb ed="#V" n="34" break="no"/>ctor secutus est definitionem Innocentii
+            <lb ed="#V" n="35"/>III. cap. Cum Marthae, de celebrat.
+            Missa<lb ed="#V" n="36" break="no"/>rum, ubi asserit Ecclesiasticam
+            traditi<lb ed="#V" n="37" break="no"/>onem docere illam dictam fuisse a
+            Chri<lb ed="#V" n="38" break="no"/>sto; et recte subintelligi per novi
+            Testa<lb ed="#V" n="39" break="no"/>menti, quia Paulus ad Hebraeos 13. vocat
+            <lb ed="#V" n="40"/>sanguinem Christi, sanguinem Testamenti
+            <lb ed="#V" n="41"/>aeterni; et Apocalyps. 14. dicitur
+            Evange<lb ed="#V" n="42" break="no"/>lium aeternum, quia post illud non est
+            <lb ed="#V" n="43"/>futurum aliud, ut exponunt Theoderetus
+            <lb ed="#V" n="44"/>et Anselmus, et ipsa fides; unde
+            Psal<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>mo 109. Tu es Sacerdos in aeternum
+            secun<lb ed="#V" n="46" break="no"/>dum ordinem Melchisedech.
+            <lb ed="#V" n="47"/>Qualis autem est lex, tale est
+            sacerdo<lb ed="#V" n="48" break="no"/>tium et sacrificium, et translato sacerdotio
+            <lb ed="#V" n="49"/>necesse est ut legis translatio fiat ad
+            <lb ed="#V" n="50"/>Hebr. 7. ubi propter infirmitatem
+            sacer<lb ed="#V" n="51" break="no"/>dotii Levitici, quod non consummabat ad
+            <lb ed="#V" n="52"/>perfectionem, sicut nec lex vetus
+            consum<lb ed="#V" n="53" break="no"/>mabat, nihil enim ad perfectum perducit
+            <lb ed="#V" n="54"/>lex, mutatum est in sacerdotium Christi
+            <lb ed="#V" n="55"/>secundum ordinem Melchisedech, quod
+            <lb ed="#V" n="56"/>erat mansurum in aeternum, et
+            consum<lb ed="#V" n="57" break="no"/>maret omnia quantum ad perfectionem.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Ideoque ad stabilitatem ejus
+            praemitti<lb ed="#V" n="59" break="no"/>tur: Juravit Dominus, et non poenitebit
+            <lb ed="#V" n="60"/>eum, id est, non mutabit institutum. Vide
+            <lb ed="#V" n="61"/>Augustinum lib. 1. contra adversarium
+            <lb ed="#V" n="62"/>legis et Prophet. cap. 20. et lib. 17. de
+            <lb ed="#V" n="63"/>Civit. cap. 17. et quaest. 124. in Exodum.
+            <lb ed="#V" n="64"/>Tridentinum sess. 22. cap. 1. et sess. 23.
+            <lb ed="#V" n="65"/>c. 1. Accedit Lucae 1. Regnabit in domo
+            <lb ed="#V" n="66"/>Jacob in aeternum, et regni ejus non erit
+            <lb ed="#V" n="67"/>finis; et Danielis 2. In diebus regnorum
+            <lb ed="#V" n="68"/>illorum suscitabit Deus coeli regnum, quod
+            <lb ed="#V" n="69"/>in aeternum non dissipabitur, quod recte
+            <lb ed="#V" n="70"/>etiam de Ecclesia intelligitur: et regnum
+            <lb ed="#V" n="71"/>ejus alteri populo non tradetur, etc. Dan.
+            <lb ed="#V" n="72"/>7. Potestas ejus potestas aeterna quae non
+            <lb ed="#V" n="73"/>auferetur, et regnum ejus quod non
+            cor<lb ed="#V" n="74" break="no"/>rumpetur, etc. Sicut ergo finis legis est
+            <lb ed="#V" n="75"/>justificatio hominis, quae perfecte
+            con<lb ed="#V" n="76" break="no"/>summatur per legem novam, ita tollit
+            <lb ed="#V" n="77"/>omne motivum stabiliendae alterius, aut
+            <lb ed="#V" n="78"/>innovandae.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>Novum ergo Testamentum recte dicitur
+            <lb ed="#V" n="80"/>aeternum, quod per sanguinem, et
+            mor<lb ed="#V" n="81" break="no"/>tem testatoris Christi confirmatum est;
+            <lb ed="#V" n="82"/>unde redemptio aeterna appellatur a
+            Pau<lb ed="#V" n="83" break="no"/>lo, eodem modo novi testamenti.
+            Subindu<lb ed="#V" n="84" break="no"/>cit aliam particulam aeterni, quia etsi novi
+            <lb ed="#V" n="85"/>Testamenti designare posset, quia renovat
+            <lb ed="#V" n="86"/>per gratiam, et spiritum hominem
+            inte<lb ed="#V" n="87" break="no"/>grui, ex Augustino tract. 63. in Joan.
+            <lb ed="#V" n="88"/>recte etiam novi pro novissimi, positivum
+            <pb ed="#V" n="242"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>pro superlativo intelligitur, eo modo quo
+            <lb ed="#V" n="2"/>Cyrillus lib. 9. in Joannem cap. 23.
+            inter<lb ed="#V" n="3" break="no"/>pretatur, mandatum novum do vobis,
+            <lb ed="#V" n="4"/>Joan. 13. pro ultimo, quae interpretatio
+            <lb ed="#V" n="5"/>recte cohaeret antecedentibus et
+            conse<lb ed="#V" n="6" break="no"/>quentibus et circumstantiis narrationis.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Sic in parabola de conducente operarios
+            <lb ed="#V" n="8"/>in vineam hora undecima, quae designat
+            <lb ed="#V" n="9"/>missionem Apostolorum sub Christo, et
+            <lb ed="#V" n="10"/>vocationem gentium in lege nova, dicitur
+            <lb ed="#V" n="11"/>hora novissima, id est, ultima, sicut et 1.
+            <lb ed="#V" n="12"/>Joannis 2. Micheae 4. Actorum 2. ad
+            Gala<lb ed="#V" n="13" break="no"/>tas etiam 4. appellatur plenitudo temporis,
+            <lb ed="#V" n="14"/>id est, consummatio. Ex quibus patet
+            lit<lb ed="#V" n="15" break="no"/>tera et ratio Doctoris quoad probationem
+            <lb ed="#V" n="16"/>antecedentis.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Subsumptum etiam patet ex dictis, quia
+            <lb ed="#V" n="18"/>providentia divina sic processit ab
+            imper<lb ed="#V" n="19" break="no"/>fecto ad perfectum, a lege naturae ad
+            <lb ed="#V" n="20"/>legem scriptam, a lege scripta, in qua,
+            <lb ed="#V" n="21"/>tanquam in semine, et umbra
+            includeba<lb ed="#V" n="22" break="no"/>tur nova (quid est, inquit Augustinus, lex
+            <lb ed="#V" n="23"/>vetus, nisi novae legis occultatio? quid est
+            <lb ed="#V" n="24"/>lex nova, nisi veteris legis revelatio?) ad
+            <lb ed="#V" n="25"/>novam legem, ab hac tandem, quae, ut
+            <lb ed="#V" n="26"/>comparatur ad gloriam, in parte est, ad
+            <lb ed="#V" n="27"/>ipsam gloriam, quae est terminus
+            peregri<lb ed="#V" n="28" break="no"/>nationis electorum, qui processus est ab
+            <lb ed="#V" n="29"/>imperfecto ad perfectum.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Secundo probat Doctor idem
+            antece<lb ed="#V" n="31" break="no"/>dens ex eo quod novum Testamentum
+            <lb ed="#V" n="32"/>sit proximum perfectissimo, id est, statui
+            <lb ed="#V" n="33"/>beatitudinis. Haec patet ex dictis, estque
+            <lb ed="#V" n="34"/>Dionysii de Ecclesiast. hierarch. cap. 5.
+            <lb ed="#V" n="35"/>ubi docet Evangelicum statum participare
+            <lb ed="#V" n="36"/>de utroque extremo, tanquam medium
+            <lb ed="#V" n="37"/>inter statum veteris legis, et gloriam, ut
+            <lb ed="#V" n="38"/>communicat beatitudini, participat
+            justi<lb ed="#V" n="39" break="no"/>tiam et veritatem; ut autem communicat
+            <lb ed="#V" n="40"/>veteri legi, participat in signis et figuris
+            <lb ed="#V" n="41"/>per cultum externum sensibilem et
+            visibi<lb ed="#V" n="42" break="no"/>lem; quatenus ergo est proximum ad
+            glo<lb ed="#V" n="43" break="no"/>riam, et tanquam ultima dispositio,
+            con<lb ed="#V" n="44" break="no"/>veniebat in eo esse perfectissima adjutoria
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>gratiae, et consequenter perfectissima
+            <lb ed="#V" n="46"/>Sacramenta, illud enim est perfectissimum
+            <lb ed="#V" n="47"/>medium, quod proximum est fini; ergo,
+            <lb ed="#V" n="48"/>etc.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>Secundo principaliter probat
+            conclusi<lb ed="#V" n="50" break="no"/>onem, ex eo quod in lege nova sit
+            per<lb ed="#V" n="51" break="no"/>fectissima causa meritoria, quam Trinitas
+            <lb ed="#V" n="52"/>disposuit dare generi humano, etc.
+            Chri<lb ed="#V" n="53" break="no"/>stus autem et opera ejus, et passio, in
+            <lb ed="#V" n="54"/>lege nova fuerunt, etc. Eadem passio
+            <lb ed="#V" n="55"/>ut exhibita fuit magis efficax, quam ut
+            <lb ed="#V" n="56"/>promissa, ac proinde magis efficax
+            moti<lb ed="#V" n="57" break="no"/>vum, vel inclinans Deum ad dandam
+            gra<lb ed="#V" n="58" break="no"/>tiam, etc. Haec ratio patet ex dictis, quia
+            <lb ed="#V" n="59"/>in hoc potissimum perfectio legis novae
+            su<lb ed="#V" n="60" break="no"/>perabundat; unde Paulus ad Hebraeos 5.
+            <lb ed="#V" n="61"/>Exauditus est pro sua reverentia, etc. Et
+            <lb ed="#V" n="62"/>consummatus factus est omnibus
+            obtempe<lb ed="#V" n="63" break="no"/>rantibus sibi causa salutis aeternae, etc.
+            <lb ed="#V" n="64"/>quod intelligitur ex sequentibus de
+            infir<lb ed="#V" n="65" break="no"/>mitate legis, sacrificiorum et sacerdotii
+            <lb ed="#V" n="66"/>Levitici.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>(c) Conditio ista perfectionis
+            Sacramen<lb ed="#V" n="68" break="no"/>torum, etc. Perfectionem Sacramentorum
+            <lb ed="#V" n="69"/>novae legis colligit, quantum ad
+            inten<lb ed="#V" n="70" break="no"/>sionem, et quantum ad extensionem.
+            Pri<lb ed="#V" n="71" break="no"/>mum propter perfectam significationem,
+            <lb ed="#V" n="72"/>quantum ad cognitionem veritatis, et
+            pro<lb ed="#V" n="73" break="no"/>pter efficaciam causandi gratiam;
+            utrum<lb ed="#V" n="74" break="no"/>que horum supra probavimus ex ipso, et
+            <lb ed="#V" n="75"/>ex Patribus, debere convenire Sacramento
+            <lb ed="#V" n="76"/>quaest. 2. utroque autem modo
+            Sacramen<lb ed="#V" n="77" break="no"/>ta novae legis debuerunt esse
+            perfectissi<lb ed="#V" n="78" break="no"/>ma, quia est lex veritatis et gratiae, Joan. 1.
+            <lb ed="#V" n="79"/>Lex per Moysem data est, gratia et veritas
+            <lb ed="#V" n="80"/>per Jesum Christum facta est, etc. Hoc
+            <lb ed="#V" n="81"/>patet ex commento ad primam rationem.
+            <lb ed="#V" n="82"/>Perfectionem extensivam pulchre
+            de<lb ed="#V" n="83" break="no"/>clarat, supponendo Sacramentorum
+            ne<lb ed="#V" n="84" break="no"/>cessitatem, eorumque finem, qui est, uts
+            <lb ed="#V" n="85"/>remedium adhibeant morbo et infirmitati.;
+            <lb ed="#V" n="86"/>Declarat autem explicando necessitatem,
+            <lb ed="#V" n="87"/>primo personalem cujusque servata
+            pro<lb ed="#V" n="88" break="no"/>portione ad vitam naturalem, in qua
+            pri<pb ed="#V" n="243"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>mum est generatio; deinde nutritio;
+            ter<lb ed="#V" n="2" break="no"/>tio corroboratio; quarto sanitatis
+            restau<lb ed="#V" n="3" break="no"/>ratio, et sic se habent ad vitam
+            spiritua<lb ed="#V" n="4" break="no"/>lem cujusque; Baptismus, qui est
+            rena<lb ed="#V" n="5" break="no"/>scentia, et regeneratio hominis in Christo;
+            <lb ed="#V" n="6"/>Eucharistia, ut nutrimentum; Confirmatio,
+            <lb ed="#V" n="7"/>ut corroborans; Poenitentia, ut
+            restaura<lb ed="#V" n="8" break="no"/>tio sanitatis amissae per peccatum mortale,
+            <lb ed="#V" n="9"/>post Baptismum commissum; quinto loco
+            <lb ed="#V" n="10"/>Extrema Unctio, ut recte disponat
+            exeun<lb ed="#V" n="11" break="no"/>tem ex vita mortali, ut transeat in aliam,
+            <lb ed="#V" n="12"/>quae est promissa, immortalem; et haec
+            <lb ed="#V" n="13"/>sunt adjutoria personalia.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Duo reliqua Sacramenta respiciunt
+            com<lb ed="#V" n="15" break="no"/>munitatem, ejusque multiplicationem, vel
+            <lb ed="#V" n="16"/>in filiis spiritualibus et cultu, ad quam
+            <lb ed="#V" n="17"/>institutus est Ordo; vel in esse naturae, ad
+            <lb ed="#V" n="18"/>quod institutum est Matrimonium.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Alias congruentias addunt Doctores
+            <lb ed="#V" n="20"/>hujus numeri septenarii Sacramentorum,
+            <lb ed="#V" n="21"/>ut quia septem sunt vulnera, vel quia
+            <lb ed="#V" n="22"/>septem sunt virtutes, vel quia numerus
+            <lb ed="#V" n="23"/>septenarius est completus et approbatus
+            <lb ed="#V" n="24"/>in Scriptura. Sed prior congruentia est
+            <lb ed="#V" n="25"/>frequentior, et sumitur ex fine
+            Sacramen<lb ed="#V" n="26" break="no"/>torum, et sententia Patrum et
+            Concilio<lb ed="#V" n="27" break="no"/>rum, ut patebit in specie.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Nec plura, neque pauciora esse proprie
+            <lb ed="#V" n="29"/>dicta Sacramenta novae legis, tradunt
+            <lb ed="#V" n="30"/>omnes Doctores cum Magistro in hac
+            di<lb ed="#V" n="31" break="no"/>stinctione, per quadragintos, et amplius
+            <lb ed="#V" n="32"/>annos, secundum consuetudinem et fidem
+            <lb ed="#V" n="33"/>Ecclesiae. Definit novissime Florentinum et
+            <lb ed="#V" n="34"/>Tridentinum, quae supponimus quoad
+            prae<lb ed="#V" n="35" break="no"/>sens in specie de singulis acturi latius
+            <lb ed="#V" n="36"/>contra haereticos, quorum vertiginem
+            be<lb ed="#V" n="37" break="no"/>ne notat Bellarminus tom. 2. lib. 2. cap.
+            <lb ed="#V" n="38"/>23. ibique enumerat eorum errores et
+            dis<lb ed="#V" n="39" break="no"/>sidia tam inter se, quam cum Ecclesia.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Sed objicies lotionem pedum factam
+            <lb ed="#V" n="41"/>a Christo Domino in ultima Coena fuisse
+            <lb ed="#V" n="42"/>Sacramentum, juxta Ambrosium lib. 3. de
+            <lb ed="#V" n="43"/>Sacram. cap 1. Cyprianum in serm. de
+            lo<lb ed="#V" n="44" break="no"/>tione pedum, Bernardum serm. de Coena
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Domini. Respondetur fuisse lato modo
+            Sa<lb ed="#V" n="46" break="no"/>cramentum, non autem signum practicum
+            <lb ed="#V" n="47"/>gratiae; fuit signum humilitatis et
+            chari<lb ed="#V" n="48" break="no"/>tatis Christi. Significabat etiam mystice
+            <lb ed="#V" n="49"/>lotionem spiritualem, quae fieri debet per
+            <lb ed="#V" n="50"/>poenitentiam et abstractionem a
+            tempo<lb ed="#V" n="51" break="no"/>ralibus, et purgationem, quae facienda
+            <lb ed="#V" n="52"/>erat per passionem, ut docet Cyrillus
+            <lb ed="#V" n="53"/>in eumdem locum, ideoque Paulus 1. ad
+            <lb ed="#V" n="54"/>Corinth. 11. agens de probatione requisita
+            <lb ed="#V" n="55"/>ad Sacramentum, intelligit poenitentiam:
+            <lb ed="#V" n="56"/>Probet autem seipsum homo, nihil de
+            lo<lb ed="#V" n="57" break="no"/>tione pedum ibi agitur; unde recte
+            ac<lb ed="#V" n="58" break="no"/>commodatur illud Christi, non lotis
+            mani<lb ed="#V" n="59" break="no"/>bus (adde etiam pedibus) manducare
+            <lb ed="#V" n="60"/>panem, coinquinat animam.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Neque unquam Ecclesia tradidit ullam
+            <lb ed="#V" n="62"/>obligationem lotionis pedum ante
+            sum<lb ed="#V" n="63" break="no"/>ptionem Eucharistiae; neque proponitur
+            <lb ed="#V" n="64"/>ibi ulla necessitas ejus, quia comminatio
+            <lb ed="#V" n="65"/>facta Petro fuit in poenam inobedientiae.
+            <lb ed="#V" n="66"/>ut in illum locum docet Chrysostomus
+            <lb ed="#V" n="67"/>et Cyrillus, Basilius lib. 1. de Baptismo,
+            <lb ed="#V" n="68"/>c. 2. Neque etiam illa lotio habet
+            effica<lb ed="#V" n="69" break="no"/>ciam delendi peccata venialia, alioquin
+            <lb ed="#V" n="70"/>Ecclesia non contemneret illam, et
+            enu<lb ed="#V" n="71" break="no"/>meraretur inter caeremonias sacras,
+            esset<lb ed="#V" n="72" break="no"/>que in usu quotidiano. Cyprianus et
+            <lb ed="#V" n="73"/>Bernardus intelligunt fuisse
+            Sacramen<lb ed="#V" n="74" break="no"/>tum, id est, signum quotidianae
+            expiatio<lb ed="#V" n="75" break="no"/>nis, quae debet fieri venialium
+            peccato<lb ed="#V" n="76" break="no"/>rum. Sanctus Ambrosius intelligit per
+            <lb ed="#V" n="77"/>Sacramentum caeremoniam sacram, quae
+            <lb ed="#V" n="78"/>in aliquibus Ecclesiis fuit in usu, et etiam
+            <lb ed="#V" n="79"/>contingit in aliquibus Religionibus
+            exer<lb ed="#V" n="80" break="no"/>ceri. Juxta ritum autem Romanae Ecclesiae,
+            <lb ed="#V" n="81"/>non fit ante communionem in feria quinta
+            <lb ed="#V" n="82"/>in Coena Domini, sed post meridiem, ad
+            <lb ed="#V" n="83"/>recolendum factum et exemplum Christi
+            <lb ed="#V" n="84"/>Domini, quod non fieret. si esset efficax
+            <lb ed="#V" n="85"/>Sacramentum remissionis peccatorum.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d2q1-p3"> -->
+          <p>
+            <lb ed="#V" n="5" type="fixed=245"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>(d) Secunda conclusio hic declaranda su
+            <lb ed="#V" n="7"/>haec. etc. Determinat omnia Sacramenta
+            <lb ed="#V" n="8"/>legis novae fuisse instituta a Christo
+            im<lb ed="#V" n="9" break="no"/>mediate. Haec est de fide, quam mox
+            <lb ed="#V" n="10"/>definivit Tridentinum sess. 7. c. 2. Si
+            <lb ed="#V" n="11"/>quis dixerit Sacramenta novae legis non
+            <lb ed="#V" n="12"/>fuisse omnia a Jesu Christo Domino
+            no<lb ed="#V" n="13" break="no"/>stro instituta, anathema sit, etc. Et
+            quam<lb ed="#V" n="14" break="no"/>vis haec institutio intelligi posset facta a
+            <lb ed="#V" n="15"/>Christo mediate vel immediate, ratio
+            <lb ed="#V" n="16"/>Doctoris probat esse immediatam. Et hic,
+            <lb ed="#V" n="17"/>ut opinor, est sensus canonis, quia eum
+            <lb ed="#V" n="18"/>supponunt verba ejusdem Concilii sess.
+            <lb ed="#V" n="19"/>21. cap. 1. ubi a potestate, quam habet
+            <lb ed="#V" n="20"/>Ecclesia in Sacramenta, excipitur eorum
+            <lb ed="#V" n="21"/>substantia, et nulla fuit necessitas
+            expri<lb ed="#V" n="22" break="no"/>mendi in Canone ipsam particulam omnia,
+            <lb ed="#V" n="23"/>quia nemo dubire potuit de institutione
+            <lb ed="#V" n="24"/>mediata, quamvis aliqui dubitaverint de
+            <lb ed="#V" n="25"/>institutione immediata Poenitentiae et
+            <lb ed="#V" n="26"/>Extremae Unctionis, prout Doctor in littera
+            <lb ed="#V" n="27"/>insinuat et reprehendit, quasi haec
+            institu<lb ed="#V" n="28" break="no"/>ta sint Jacobi 5. Confitemini, etc.
+            Infirma<lb ed="#V" n="29" break="no"/>tur quis in vobis, etc. haec tamen infra sess.
+            <lb ed="#V" n="30"/>14. docet Concilium fuisse instituta
+            imme<lb ed="#V" n="31" break="no"/>diate ab ipso Christo cap. 2. de
+            Poeniten<lb ed="#V" n="32" break="no"/>tia, et cap. 1. de Extrema Unctione.
+            <lb ed="#V" n="33"/>Patet etiam a ratione, quia non fuit
+            <lb ed="#V" n="34"/>ratio, unde Christus quaedam Sacramenta,
+            <lb ed="#V" n="35"/>et non omnia institueret; instituit
+            expres<lb ed="#V" n="36" break="no"/>se quaedam, ut patet de Baptismo, Joannis
+            <lb ed="#V" n="37"/>3. Matthaei ultimo, Eucharistiam in ultima
+            <lb ed="#V" n="38"/>Coena, Poenitentiam Joannis 20. Neque
+            <lb ed="#V" n="39"/>« refert quod in Scriptura institutione
+            ali<lb ed="#V" n="40" break="no"/>quorum non habeatur tam expressa, nisi
+            <lb ed="#V" n="41"/>adjungatur traditio et definitio Ecclesiae,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="42"/>quia id perinde de Extrema Unctione
+            <lb ed="#V" n="43"/>verum est; tamen Concilium definit fuisse
+            <lb ed="#V" n="44"/>a Christo Domino institutam, insinuatam
+            <lb ed="#V" n="45"/>Marci 6. commendatam et promulgatam
+            <lb ed="#V" n="46"/>Jacobi 5. prout etiam Doctor affirmat in
+            <lb ed="#V" n="47"/>littera. Ratio autem Doctoris superius
+            trac<lb ed="#V" n="48" break="no"/>tata est in dist. praecedenti quaest. 2.
+            nem<lb ed="#V" n="49" break="no"/>pe solius Dei esse principaliter instituere
+            <lb ed="#V" n="50"/>Sacramenta, quia illi soli subest effectus
+            <lb ed="#V" n="51"/>Sacramentorum. Accedit quod in lege
+            <lb ed="#V" n="52"/>veteri Deus instituerit Sacramenta; ergo
+            <lb ed="#V" n="53"/>a fortiori in nova idem magis congruit.
+            <lb ed="#V" n="54"/>Nihil occurrit circa litteram, quod in
+            spe<lb ed="#V" n="55" break="no"/>cie tractari non debeat suo loco fusius.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d2q1-p4"> -->
+          <p>
+            <lb ed="#V" n="72" type="fixed=246"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>(e) Ex his duabus conclusionibus, etc.
+            <lb ed="#V" n="74"/>Hic tandem respondet ad quaestionem, et
+            <lb ed="#V" n="75"/>dicit duo. Primum, Deum esse causam
+            <lb ed="#V" n="76"/>principalem instituendi Sacramenta, a
+            <lb ed="#V" n="77"/>qua participant suam efficaciam, quod u
+            <lb ed="#V" n="78"/>probat ratione praemissa, et alias supra
+            <lb ed="#V" n="79"/>deducta. Secundum est fuisse efficacia
+            <lb ed="#V" n="80"/>per Christum, tanquam per causam
+            me<lb ed="#V" n="81" break="no"/>ritoriam. Quod probat ex necessitate
+            <lb ed="#V" n="82"/>Incarnationis, secundum legem statutam
+            <lb ed="#V" n="83"/>ad salvandum hominem, quae desumitur
+            <lb ed="#V" n="84"/>ex doctrina fidei et Patrum, ut fuse
+            tra<lb ed="#V" n="85" break="no"/>ctatur in materia de Incarnatione; et
+            <lb ed="#V" n="86"/>concludit omne adjutorium datum
+            homi<pb ed="#V" n="247"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ni post lapsum fuisse ob merita Christi,
+            <lb ed="#V" n="2"/>et passionem, quae fuit magis grata
+            <lb ed="#V" n="3"/>Trinitati, quam fuerit gravis offensa
+            gene<lb ed="#V" n="4" break="no"/>ris humani.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Supra probata est secunda conclusio,
+            <lb ed="#V" n="6"/>nempe Sacramenta habuisse efficaciam
+            <lb ed="#V" n="7"/>a Christo, tanquam a causa meritoria,
+            <lb ed="#V" n="8"/>dist. praecedenti quaest. 4. et 5. Notandum
+            <lb ed="#V" n="9"/>hic, quod Doctor per hoc quod dicat
+            <lb ed="#V" n="10"/>Deum esse causam principalem efficaciae
+            <lb ed="#V" n="11"/>Sacramentorum, non excludat potestatem
+            <lb ed="#V" n="12"/>excellentiae a Christo, quam infra tractat
+            <lb ed="#V" n="13"/>in materia de clavibus; sed agit tantum
+            <lb ed="#V" n="14"/>de causa, in quam certitudo et efficacia
+            <lb ed="#V" n="15"/>significationis sacramentalis refunditur,
+            <lb ed="#V" n="16"/>tanquam in efficientem, et sic Christus
+            <lb ed="#V" n="17"/>Dominus, inquantum Deus, efficaciam
+            <lb ed="#V" n="18"/>hanc tribuit Sacramentis; inquantum
+            <lb ed="#V" n="19"/>homo vero potuit moraliter et non
+            phy<lb ed="#V" n="20" break="no"/>sice tribuere eamdem efficaciam,
+            appli<lb ed="#V" n="21" break="no"/>cando sua merita, et prout habuit
+            con<lb ed="#V" n="22" break="no"/>comitantem voluntatem divinam, et
+            pac<lb ed="#V" n="23" break="no"/>tum, seu acceptionem, quae ipsi
+            compe<lb ed="#V" n="24" break="no"/>tebant, ut mediatori et capiti.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d2q1-p5"> -->
+          <p>
+            <lb ed="#V" n="17" type="fixed=249"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>(f) Hic sequitur corollarium, etc.
+            Subji<lb ed="#V" n="19" break="no"/>cit duo corollario. Primum est, quomodo
+            <lb ed="#V" n="20"/>misericordia et justitia concurrant in
+            <lb ed="#V" n="21"/>collatione horum remediorum generi
+            <lb ed="#V" n="22"/>humano. Advertendum ergo ex ipso in
+            <lb ed="#V" n="23"/>dist. quaest...S.... quod sicut potentia et
+            <lb ed="#V" n="24"/>sapientia Dei in creatione combinantur
+            <lb ed="#V" n="25"/>et manifestantur, sic etiam misericordia
+            <lb ed="#V" n="26"/>et justitia in operibus redemptionis, et
+            <lb ed="#V" n="27"/>administratione creaturae rationalis,
+            si<lb ed="#V" n="28" break="no"/>« militer concurrunt; quam
+            concomitan<lb ed="#V" n="29" break="no"/>- tiam notat etiam Augustinus, lib. 2. de
+            <lb ed="#V" n="30"/>peccat. meritis et remission. cap. 19.
+            <lb ed="#V" n="31"/>Misericordiam et veritatem diligit. Psal.
+            <lb ed="#V" n="32"/>83. Misericordia et veritas obviaverunt
+            <lb ed="#V" n="33"/>sibi, etc. et Psal. 84. Universae viae
+            Do<lb ed="#V" n="34" break="no"/>mini misericordia et veritas. Idem c. 24.
+            <lb ed="#V" n="35"/>Et quis explicet, inquit, quam crebro haec
+            <lb ed="#V" n="36"/>duo conjuncta divina Scriptura
+            comme<lb ed="#V" n="37" break="no"/>moret? aliquando etiam mutatis
+            nomini<lb ed="#V" n="38" break="no"/>bus, ut gratia pro misericordia ponatur,
+            <lb ed="#V" n="39"/>unde est, et videmus gloriam, gloriam
+            <lb ed="#V" n="40"/>sicut unigeniti, plenam gratia et veritate;
+            <lb ed="#V" n="41"/>aliquando pro veritate judicium, sicut est:
+            <lb ed="#V" n="42"/>Misericordiam et judicium cantabo tibi
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>Domine, etc. Videatur Doctor infra dist.
+            <lb ed="#V" n="44"/>46. quaest. 3. 3. et 4. Misericordia
+            de<lb ed="#V" n="45" break="no"/>monstratur respective ad hominem
+            la<lb ed="#V" n="46" break="no"/>psum, cui collata sunt haec beneficia;
+            <lb ed="#V" n="47"/>justitia vero respective ad personam
+            Chri<lb ed="#V" n="48" break="no"/>sti merentem. Vide Paulum ad Rom. 4.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>Secundum corollarium, quod passio
+            <lb ed="#V" n="50"/>Christi praevisa habuerit efficaciam
+            re<lb ed="#V" n="51" break="no"/>spectu Circumcisionis et gratiae collatae
+            <lb ed="#V" n="52"/>antiquis Patribus; et haec minor fuit,
+            <lb ed="#V" n="53"/>quam efficacia respectu Sacramentorum
+            <lb ed="#V" n="54"/>novae legis, quia passio, ut exhibita, est
+            <lb ed="#V" n="55"/>praestantius obsequium in esse meriti et
+            <lb ed="#V" n="56"/>satisfactionis, quam obsequium in
+            opini<lb ed="#V" n="57" break="no"/>one vel praevisione. Haec veritas
+            decla<lb ed="#V" n="58" break="no"/>rata est supra ad initium hujus
+            quaesti<lb ed="#V" n="59" break="no"/>onis.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Ad primum in contrarium, ad initium.
+            <lb ed="#V" n="61"/>quaestionis, dicit passionem Christi
+            prae<lb ed="#V" n="62" break="no"/>teritam non esse praesentem in re
+            phy<lb ed="#V" n="63" break="no"/>sice, sed in acceptatione divina quod
+            <lb ed="#V" n="64"/>sufficit ad causam meritoriam; est ergo
+            <lb ed="#V" n="65"/>praesens, quantum ad medium justitiae,
+            <lb ed="#V" n="66"/>et pacti et completae satisfactionis, qua
+            <lb ed="#V" n="67"/>sustulit chirographum peccati per
+            abun<lb ed="#V" n="68" break="no"/>dantem redemptionem, sic solutio debiti
+            <lb ed="#V" n="69"/>semper ex lege est praesens, et eumdem
+            <lb ed="#V" n="70"/>effectum habet secundum justitiam, quem
+            <lb ed="#V" n="71"/>habuit quando in effectu posita est. Sic
+            <lb ed="#V" n="72"/>etiam peccatum praeteritum semper
+            ma<lb ed="#V" n="73" break="no"/>net, quoad reatum donec deleatur, sice
+            <lb ed="#V" n="74"/>opera justorum semper sunt praesentia,
+            <lb ed="#V" n="75"/>quamvis in re praeterita. Unde illud: Beati
+            <lb ed="#V" n="76"/>mortui, qui in Domino moriuntur, opera
+            <lb ed="#V" n="77"/>enim illorum sequuntur illos, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>Secundum argumentum petit
+            differen<lb ed="#V" n="79" break="no"/>tiam inter Sacramentum Circumcisionis
+            <lb ed="#V" n="80"/>et Baptismi, et Eucharistiae saltem, de
+            <lb ed="#V" n="81"/>quibus constat fuisse instituta ante
+            pas<lb ed="#V" n="82" break="no"/>sionem exhibitam; ergo non fuit magis
+            <lb ed="#V" n="83"/>efficax respectu horum, quam
+            Circum<lb ed="#V" n="84" break="no"/>cisionis. Respondet primo Doctor, ab
+            in<lb ed="#V" n="85" break="no"/>stanti conceptionis passionem fuisse
+            prae<lb ed="#V" n="86" break="no"/>sentem, quantum ad acceptationem et
+            <pb ed="#V" n="250"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>oblationem internam per voluntatem
+            <lb ed="#V" n="2"/>Christi, in qua primario consistit
+            fun<lb ed="#V" n="3" break="no"/>damentum meriti ejus; non sic autem
+            <lb ed="#V" n="4"/>fuisse praesentem ante Incarnationem.
+            <lb ed="#V" n="5"/>Unde patet qua ratione passio habuerit
+            <lb ed="#V" n="6"/>influxum diversum in Baptismum ab eo,
+            <lb ed="#V" n="7"/>,quem habuit in Circumcisionem. Haec
+            <lb ed="#V" n="8"/>solutio est magis ex sententia Doctoris
+            <lb ed="#V" n="9"/>de institutione Baptismi ante passionem,
+            <lb ed="#V" n="10"/>in distinctione sequenti quaest. 4. et patet
+            <lb ed="#V" n="11"/>ex eo, quod meritum Christi positum in
+            <lb ed="#V" n="12"/>esse ante passionem habuerit valorem
+            me<lb ed="#V" n="13" break="no"/>rendi et satisfaciendi, cui inniteretur
+            ef<lb ed="#V" n="14" break="no"/>ficacia quaecumque Baptismi, tanquam
+            <lb ed="#V" n="15"/>causae positae et acceptatae et
+            superabun<lb ed="#V" n="16" break="no"/>danti, ut patet ex communi dogmate fidei
+            <lb ed="#V" n="17"/>circa valorem operum Christi in utroque
+            <lb ed="#V" n="18"/>genere. Unde in Extravag. Unigenitus,
+            <lb ed="#V" n="19"/>etc. dicitur una gutta sanguinis ejus fusa
+            <lb ed="#V" n="20"/>ob unionem hypostaticam suffecisse pro
+            <lb ed="#V" n="21"/>redemptione totius mundi; hoc autem
+            <lb ed="#V" n="22"/>contigit in Circumcisione ejus, quae
+            prae<lb ed="#V" n="23" break="no"/>cessit institutionem Baptismi. Accedit
+            <lb ed="#V" n="24"/>quod ipsa passio jam in acceptatione
+            <lb ed="#V" n="25"/>posita fuerit, et inchoative; unde
+            Bapti<lb ed="#V" n="26" break="no"/>smus ab eodem mutuare posset
+            effica<lb ed="#V" n="27" break="no"/>ciam et significationem mysticam, ut
+            re<lb ed="#V" n="28" break="no"/>cte baptizati in mortem Christi, et
+            passi<lb ed="#V" n="29" break="no"/>onem dicerentur tingi.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Secundo insinuando aliam solutionem
+            <lb ed="#V" n="31"/>respondet, quod Sacramenta novae legis
+            <lb ed="#V" n="32"/>instituta, vivente Christo, minorem
+            ha<lb ed="#V" n="33" break="no"/>buerint efficaciam, quam post ejus
+            pas<lb ed="#V" n="34" break="no"/>sionem, tamen non est inconveniens, ut
+            <lb ed="#V" n="35"/>fuerint tunc instituta, non pro tunc, sed
+            <lb ed="#V" n="36"/>post ejus mortem habitura principalem
+            <lb ed="#V" n="37"/>efficaciam. Haec solutio intelligi potest,
+            <lb ed="#V" n="38"/>vel de efficatia respectu gratiae,
+            inquar<lb ed="#V" n="39" break="no"/>tum non causarent omnem gratiam,
+            quan<lb ed="#V" n="40" break="no"/>tum ad gradum perfectionis et
+            intensi<lb ed="#V" n="41" break="no"/>onis ante passionem, quamvis virtute
+            <lb ed="#V" n="42"/>continebant, ratione suae institutionis,
+            ef<lb ed="#V" n="43" break="no"/>ficaciam eamdem, cujus effectus
+            abun<lb ed="#V" n="44" break="no"/>dantior et perfectior suspendebatur usque
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>ad passionem et mortem Christi positam,
+            <lb ed="#V" n="46"/>a cujus exhibitione dependebant.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Haec solutio sic intellecta, mitigat
+            sen<lb ed="#V" n="48" break="no"/>tentiam quorumdam Patrum, qui negant
+            <lb ed="#V" n="49"/>Baptismum Christi, seu illum, quo
+            ute<lb ed="#V" n="50" break="no"/>bantur discipuli dedisse spiritum; de
+            <lb ed="#V" n="51"/>quibus infra dist. sequenti quaest. 4. Et
+            <lb ed="#V" n="52"/>quamvis forte ex sententia ipsorum, non
+            <lb ed="#V" n="53"/>fuerit institutum ante passionem;
+            rati<lb ed="#V" n="54" break="no"/>ones tamen, quibus innituntur, favent
+            <lb ed="#V" n="55"/>praesenti solutioni, quia nempe Baptismus
+            <lb ed="#V" n="56"/>Christi a passione, morte et resurrectione
+            <lb ed="#V" n="57"/>non solum praevisis, sed positis in esse,
+            <lb ed="#V" n="58"/>virtutem suam et efficaciam mutuabat.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Unde Leo Papa epistola 4. cap. 3.
+            post<lb ed="#V" n="60" break="no"/>quam dixit formam et potestatem
+            bapti<lb ed="#V" n="61" break="no"/>zandi traditam fuisse discipulis post
+            re<lb ed="#V" n="62" break="no"/>surrectionem, subdit: de quo utique eos
+            <lb ed="#V" n="63"/>ante passionem potuisset instruere, nisi
+            <lb ed="#V" n="64"/>proprie voluisset intelligi regenerationis
+            <lb ed="#V" n="65"/>gratiam ex sua resurrectione coepisse, etc.
+            <lb ed="#V" n="66"/>et Rupertus eamdem rationem adducit
+            <lb ed="#V" n="67"/>lib .3. in Joan. Supponunt Chrysostomus,
+            <lb ed="#V" n="68"/>Euthymius, Theophylactus et antiquior
+            <lb ed="#V" n="69"/>Tertullianus lib. de Baptismo cap. 11. cui
+            <lb ed="#V" n="70"/>favent illa Joan. 7. Nondum Spiritus erat
+            <lb ed="#V" n="71"/>datus, quia Jesus nondum erat glorificatus;
+            <lb ed="#V" n="72"/>sed magis loca Pauli, quae dicunt
+            bapti<lb ed="#V" n="73" break="no"/>zari nos in mortem Christi ad Romanos 6.
+            <lb ed="#V" n="74"/>et alias. Item, ad Romanos 4. Qui traditus
+            <lb ed="#V" n="75"/>est propter delicta nostra, et resurrexit
+            <lb ed="#V" n="76"/>propter justificationem nostram, etc.
+            qui<lb ed="#V" n="77" break="no"/>bus ostenditur dependentia justificationis
+            <lb ed="#V" n="78"/>nostrae a morte et resurrectione.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>Quamvis ergo teneatur sententia
+            oppo<lb ed="#V" n="80" break="no"/>sita et communis de institutione Baptismi
+            <lb ed="#V" n="81"/>ante passionem, sustineri etiam potest et
+            <lb ed="#V" n="82"/>ratio prioris sententiae jam praemissa cum
+            <lb ed="#V" n="83"/>illa limitatione, ut gratia quidem fuerit
+            <lb ed="#V" n="84"/>semper data per Baptismum a sui
+            institu<lb ed="#V" n="85" break="no"/>tione, sed ante passionem propter
+            de<lb ed="#V" n="86" break="no"/>pendentiam ab ipsa, ut causa posita in
+            <lb ed="#V" n="87"/>effectu, non fuisse tam abundantem, ac
+            <lb ed="#V" n="88"/>fuerit adimpleta causa, nempe passione
+            <pb ed="#V" n="251"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>et morte, in quibus principalius et
+            com<lb ed="#V" n="2" break="no"/>plete meritum Christi consistit, qui
+            recon<lb ed="#V" n="3" break="no"/>ciliavit nos in sanguine suo.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Alio modo intelligi potest dicta solutio
+            <lb ed="#V" n="5"/>non de effectu gratiae sanctificantis, sed
+            <lb ed="#V" n="6"/>de aliis, ut est apertio januae, tanquam
+            <lb ed="#V" n="7"/>dispositio ultima ad gloriam, de quo
+            su<lb ed="#V" n="8" break="no"/>pra; hic autem effectus non conveniebat
+            <lb ed="#V" n="9"/>Baptismo, nisi post passionem exhibitam.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Ad tertium respondet, gratiam nobis
+            <lb ed="#V" n="11"/>conferri gratis respective ad merita
+            no<lb ed="#V" n="12" break="no"/>stra, et loquitur de gratia prima et
+            justifi<lb ed="#V" n="13" break="no"/>cante, non tamen respective ad merita et
+            <lb ed="#V" n="14"/>passionem Christi, qui eam nobis meruit,
+            <lb ed="#V" n="15"/>et in priori sensu intelligitur Apostolus
+            <lb ed="#V" n="16"/>ad Romanos 9. Addit infra nullum fuisse
+            <lb ed="#V" n="17"/>in operibus Dei aliquod merae gratiae
+            prae<lb ed="#V" n="18" break="no"/>ter solam incarnationem.
+            <lb ed="#V" n="19"/>Loquitur de operibus supernaturalibus
+            <lb ed="#V" n="20"/>praedestinationis et vocationis, et reliquis
+            <lb ed="#V" n="21"/>disponentibus ad vitam, non autem de
+            <lb ed="#V" n="22"/>naturalibus, quibus nomen gratiae non
+            <lb ed="#V" n="23"/>accommodatur, quando non conferunt ad
+            <lb ed="#V" n="24"/>salutem, ut recte D. Thomas 1. 2. quaest.
+            <lb ed="#V" n="25"/>111. art. 9. ut patet ex Augustino lib. de
+            <lb ed="#V" n="26"/>praedest. Sanct. cap. 5. epist. 95. et 105.
+            <lb ed="#V" n="27"/>incongrue enim gratia dicuntur, stylo
+            <lb ed="#V" n="28"/>Scripturarum, licet gratis dentur, id est,
+            <lb ed="#V" n="29"/>sine meritis nostris, et etiam sine
+            disposi<lb ed="#V" n="30" break="no"/>tione naturali praevia, ut patet ex epistola
+            <lb ed="#V" n="31"/>95. citata.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Loquitur etiam de operibus in
+            executi<lb ed="#V" n="33" break="no"/>one et effectu, non autem secundum
+            <lb ed="#V" n="34"/>quemcumque actum internum divinae
+            vo<lb ed="#V" n="35" break="no"/>luntatis, quantum ad intentionem, quia
+            <lb ed="#V" n="36"/>per ipsum electio ad gloriam non
+            sup<lb ed="#V" n="37" break="no"/>ponit merita, estque omnino gratuita hoc
+            <lb ed="#V" n="38"/>modo; agit ergo de ipsis operibus ad
+            <lb ed="#V" n="39"/>extra, et supposito lapsu. Quidquid ergo
+            <lb ed="#V" n="40"/>facit ad salutem, datum est nobis
+            pro<lb ed="#V" n="41" break="no"/>pter Christum ejusque merita et
+            passi<lb ed="#V" n="42" break="no"/>onem, ut Scriptura et Patres docent
+            con<lb ed="#V" n="43" break="no"/>tra Pelagianos. Quod si amplius hoc
+            <lb ed="#V" n="44"/>principium latius interpretari volueris,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>supposita sententia Doctoris in 3. dist. 7.
+            <lb ed="#V" n="46"/>quaest. 3. nempe incarnandum filium Dei,
+            <lb ed="#V" n="47"/>etiamsi non peccasset Adam, quem
+            se<lb ed="#V" n="48" break="no"/>quitur Suarez in 3. part. tom. 1. dist. 42.
+            <lb ed="#V" n="49"/>et prolegom. 3. de gratia, cap. 2. in fine,
+            <lb ed="#V" n="50"/>dicendum est, omnia dona, sive naturalia,
+            <lb ed="#V" n="51"/>sive supernaturalia, fuisse ex Christo
+            ca<lb ed="#V" n="52" break="no"/>pite, quia ad Coloss. 1. Ipse est
+            primoge<lb ed="#V" n="53" break="no"/>nitus omnis creaturae, quoniam in ipso
+            <lb ed="#V" n="54"/>condita sunt universa in coelo et in terra,
+            <lb ed="#V" n="55"/>visibilia et invisibitia, sive throni, sive
+            do<lb ed="#V" n="56" break="no"/>minationes, sive principatus, sive
+            potesta<lb ed="#V" n="57" break="no"/>tes, omnia per ipsum, et in ipso creata
+            <lb ed="#V" n="58"/>sunt, et ipse ante omnes, et omnia in ipso
+            <lb ed="#V" n="59"/>constant, etc. Ratio est, quia naturalia ad
+            <lb ed="#V" n="60"/>supernaturalia reducuntur, utraque
+            pro<lb ed="#V" n="61" break="no"/>pter praedestinatos, praedestinati propter
+            <lb ed="#V" n="62"/>Christum, Christus autem propter Deum,
+            <lb ed="#V" n="63"/>1. ad Corinth. 3. Omnia enim vestra sunt,
+            <lb ed="#V" n="64"/>sive Paulus, sive Apollo, sive Cephas, sive
+            <lb ed="#V" n="65"/>vita, sive mors, sive praesentia, sive
+            futu<lb ed="#V" n="66" break="no"/>ra, omnia vestra sunt, vos autem Christi,
+            <lb ed="#V" n="67"/>Christus autem Dei, etc. Christus ergo
+            <lb ed="#V" n="68"/>habuit influxum capitis secundum omnia
+            <lb ed="#V" n="69"/>dona concessa, ejusque intuitu concessa
+            <lb ed="#V" n="70"/>sunt, et ita non gratis data, sumendo
+            <lb ed="#V" n="71"/>gratiam late, ut excludit omnem causam
+            <lb ed="#V" n="72"/>extra Deum, ut saepius sumitur, quatenus
+            <lb ed="#V" n="73"/>opponitur non solum debito justitiae et
+            <lb ed="#V" n="74"/>legis, sed causae et etiam naturae.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Et ita sicut Christus fuit institutus caput
+            <lb ed="#V" n="76"/>universorum, licet ipse gratis datus est,
+            <lb ed="#V" n="77"/>reliqua tamen in ipso tanquam capite
+            de<lb ed="#V" n="78" break="no"/>bebantur, et dependenter ab eo collata
+            <lb ed="#V" n="79"/>sunt. Debentur ergo in ipso debito
+            fideli<lb ed="#V" n="80" break="no"/>tatis et pacti, quod solum cadit in Deum
+            <lb ed="#V" n="81"/>respective ad creaturam. Sic debetur
+            Ec<lb ed="#V" n="82" break="no"/>clesiae directio mediante Vicario Christi,
+            <lb ed="#V" n="83"/>et Petro, cui facta est promissio; sic
+            me<lb ed="#V" n="84" break="no"/>rito nostro debetur praemium, sic
+            medi<lb ed="#V" n="85" break="no"/>antibus Sacramentis debetur gratia ex
+            <lb ed="#V" n="86"/>promissione Dei, etiamsi institutio eorum
+            <lb ed="#V" n="87"/>non fieret intuitu meritorum Christi. Quod
+            <lb ed="#V" n="88"/>si in eo statu gratia et influxus capitis
+            <pb ed="#V" n="252"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>non applicaretur membris per merita
+            <lb ed="#V" n="2"/>ejus, tamen necessario applicarentur ab
+            <lb ed="#V" n="3"/>ipso, ut causa morali, alioquin non
+            salva<lb ed="#V" n="4" break="no"/>retur influxus capitis, neque institutio, si
+            <lb ed="#V" n="5"/>nullus esset ejus influxus in membra.
+            <lb ed="#V" n="6"/>Sic quidam explicant electionem ad
+            <lb ed="#V" n="7"/>gloriam fuisse sub ratione praemii
+            depen<lb ed="#V" n="8" break="no"/>denter ab operibus, non quidem sub
+            rati<lb ed="#V" n="9" break="no"/>one meriti formaliter, sed sub ratione
+            <lb ed="#V" n="10"/>causae moralis, quidquid sit de veritate
+            <lb ed="#V" n="11"/>hujus asserti. Sic etiam Adam constitutus,
+            <lb ed="#V" n="12"/>est caput naturae propagandae in
+            poste<lb ed="#V" n="13" break="no"/>ros, cum justitia originali, ut licet
+            meri<lb ed="#V" n="14" break="no"/>tum ejus non transiret in posteros, tamen
+            <lb ed="#V" n="15"/>si perseverasset justitia, erat debita
+            po<lb ed="#V" n="16" break="no"/>steris, ita ut non gratis communicata
+            di<lb ed="#V" n="17" break="no"/>ceretur, licet non ex merito Adami in
+            <lb ed="#V" n="18"/>posteros transiret, sed ex primo pacto,
+            <lb ed="#V" n="19"/>quod ab ejus perseverantia dependebat;
+            <lb ed="#V" n="20"/>merita nempe Adami non erant
+            commu<lb ed="#V" n="21" break="no"/>nia, sed personalia, quia opera filiorum
+            <lb ed="#V" n="22"/>ab ipsis non dependerent, sicut nec
+            acce<lb ed="#V" n="23" break="no"/>ptarentur a Deo, sicut opera justorum
+            <lb ed="#V" n="24"/>post lapsum et satisfactio acceptantur in
+            <lb ed="#V" n="25"/>operibus Christi, ut docet Tridentinum
+            <lb ed="#V" n="26"/>sess. 15. cap. 8. Non habet homo inde
+            <lb ed="#V" n="27"/>glorietur, sed omnis gloriatio nostra in
+            <lb ed="#V" n="28"/>Christo est, in quo vivimus, in quo
+            mere<lb ed="#V" n="29" break="no"/>mur, in quo satisfacimus, facientes
+            fru<lb ed="#V" n="30" break="no"/>ctus dignos poenitentiae, qui ex illo vim
+            <lb ed="#V" n="31"/>habent, ab illo offeruntur Patri, et per
+            <lb ed="#V" n="32"/>illum acceptantur a Patre, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Quod si amplius dicatur, quod etiam
+            <lb ed="#V" n="34"/>Christus veniret, ut causa meritoria, licet
+            <lb ed="#V" n="35"/>non ut satisfactoria, quia satisfactione non
+            <lb ed="#V" n="36"/>indigeret ille status, magis salvatur
+            prae<lb ed="#V" n="37" break="no"/>dicta doctrina.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Quidquid autem sit de illa quaestione,
+            <lb ed="#V" n="39"/>cui supersedeo, saltem de facto potest
+            <lb ed="#V" n="40"/>etiam illa doctrina intelligi universaliter
+            <lb ed="#V" n="41"/>quoad omnia dona, et hoc verba Pauli
+            <lb ed="#V" n="42"/>sonant. Patres autem in illa epistola 95.
+            <lb ed="#V" n="43"/>et alias contra Pelagianos, intelligendi
+            <lb ed="#V" n="44"/>sunt de gratia salvante et justificante, de
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>qua fuit controversia cum Pelagio, atque
+            <lb ed="#V" n="46"/>adeo de gratia Redemptoris. Unde
+            Ec<lb ed="#V" n="47" break="no"/>clesia sic interpretatur in suis Collectis et
+            <lb ed="#V" n="48"/>orationibus, quas per Christum dirigit adt
+            <lb ed="#V" n="49"/>Deum, sive temporale, sive spirituale, o
+            <lb ed="#V" n="50"/>sive naturale, sive supernaturale postulat,
+            <lb ed="#V" n="51"/>omnia in nomine ejus petit, juxta illud:
+            <lb ed="#V" n="52"/>Quidquid petieritis Patrem in nomine meo,
+            <lb ed="#V" n="53"/>etc. omnia in nomine meo petite, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Altera assertio Doctoris est,
+            incarnati<lb ed="#V" n="55" break="no"/>onem fuisse omnino gratuitam, et
+            inde<lb ed="#V" n="56" break="no"/>pendenter ab omnibus meritis, sive ipsius
+            <lb ed="#V" n="57"/>Christi, sive aliorum. Oppositus error
+            tri<lb ed="#V" n="58" break="no"/>buitur Origeni, lib. 2. Periarchon, quodi
+            <lb ed="#V" n="59"/>asseruerit animam Christi fuisse simul
+            <lb ed="#V" n="60"/>cum Angelis creatam, et merito virtutum
+            <lb ed="#V" n="61"/>obtinuisse unionem hypostaticam.
+            Photi<lb ed="#V" n="62" break="no"/>nus pro eodem errore citatur a D. Thoma
+            <lb ed="#V" n="63"/>3. p. q. 1 art. 11. asserens Christum
+            ho<lb ed="#V" n="64" break="no"/>minem praecessisse, et meruisse unionem
+            <lb ed="#V" n="65"/>cum Verbo accidentalem, cum
+            distincti<lb ed="#V" n="66" break="no"/>one suppositi, ut asseruit Nestorius.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Pro hoc errore Augustinus, Philaster et
+            <lb ed="#V" n="68"/>alii antiqui, non citant Photinum, cum
+            <lb ed="#V" n="69"/>potius tenuerit cum Sabellio, negando
+            <lb ed="#V" n="70"/>Trinitatem, et cum Paulo Samosateno
+            as<lb ed="#V" n="71" break="no"/>serente Christum fuisse purum hominem.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Caeterum, quidquid sit de Photino, non
+            <lb ed="#V" n="73"/>videtur contemnenda sententia Cassiani
+            <lb ed="#V" n="74"/>(licet non inveniatur ab Augustino, et
+            ge<lb ed="#V" n="75" break="no"/>stis Ecclesiasticis expressa) lib. 5. et 7.
+            <lb ed="#V" n="76"/>de Incarnatione, asserentis Nestorianam
+            <lb ed="#V" n="77"/>haeresim a Pelagio prius fuisse
+            conce<lb ed="#V" n="78" break="no"/>ptam, qui putavit Christum primum fuisse
+            <lb ed="#V" n="79"/>hominem purum, deinde pure et integre
+            <lb ed="#V" n="80"/>ita vixisse, ut meruerit liberi arbitrii
+            Dei<lb ed="#V" n="81" break="no"/>ficationem; hinc Nestorius subsequens
+            <lb ed="#V" n="82"/>duo in Christo supposita cum unione
+            ac<lb ed="#V" n="83" break="no"/>cidentali asseruit. Forte ad hanc historiam
+            <lb ed="#V" n="84"/>allusit Prosper in Epitaphio de utraque
+            <lb ed="#V" n="85"/>haeresi.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Nestoriana lues successi Pelagianae,
+            <lb ed="#V" n="87"/>Qua tamen est utero progenerata meo.
+            <lb ed="#V" n="88"/>Infelix miserae genitrix et filia natae,
+            <pb ed="#V" n="253"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Prodivi ex ipso germine, quod peperi,
+            <lb ed="#V" n="2"/>etc.
+            <lb ed="#V" n="3"/>Conclusio praedicta Doctoris est
+            com<lb ed="#V" n="4" break="no"/>munis omnium, quantum ad meritum
+            ip<lb ed="#V" n="5" break="no"/>sius Christi in 3. dist. 2. et 3. part. quaest.
+            <lb ed="#V" n="6"/>2. art. 11. est Augustini in lib. de dono
+            <lb ed="#V" n="7"/>persev. cap. 1. de corrept. et gratia. cap.
+            <lb ed="#V" n="8"/>11. Videatur de dono persev. cap. ultimo
+            <lb ed="#V" n="9"/>lib. 2. de peccator. meritis et remiss. cap.
+            <lb ed="#V" n="10"/>17. lib. 13. de Trinit. cap. 17. serm. 9. in
+            <lb ed="#V" n="11"/>Evang. Matth. serm. 8. de verbis Apost. in
+            <lb ed="#V" n="12"/>Enchiridio cap. 38. et cap. 40. Aliqui
+            con<lb ed="#V" n="13" break="no"/>trarium docent esse contra fidem, alii
+            <lb ed="#V" n="14"/>esse errorem. Augustinus cap. 11. de
+            cor<lb ed="#V" n="15" break="no"/>rept. et gratia, supponit esse fidei
+            verita<lb ed="#V" n="16" break="no"/>tem, quod verissimum puto, maxime si
+            <lb ed="#V" n="17"/>loquamur de merito antecedente.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Asserit praeterea Doctor, Patres etiam,
+            <lb ed="#V" n="19"/>ac B. Virginem non meruisse
+            Incarnati<lb ed="#V" n="20" break="no"/>onem, nisi forte ejus accelerationem,
+            <lb ed="#V" n="21"/>quantum ad meritum de condigno, id
+            <lb ed="#V" n="22"/>docent omnes, quia merita Patrum non
+            <lb ed="#V" n="23"/>sunt ordinata ad illum effectum.
+            Secun<lb ed="#V" n="24" break="no"/>do, quia ipsa et omnis gratia eorum fuit
+            <lb ed="#V" n="25"/>ex Incarnatione, tanquam radice:
+            Prin<lb ed="#V" n="26" break="no"/>cipium autem meriti non cadit sub merito.
+            <lb ed="#V" n="27"/>Tertio, nullus meretur gratiam primam
+            <lb ed="#V" n="28"/>sibi de facto, neque auxilia, neque
+            do<lb ed="#V" n="29" break="no"/>num perseverantiae; minus ergo
+            Incarna<lb ed="#V" n="30" break="no"/>tionem, ex qua illa redundant. Quarto
+            de<lb ed="#V" n="31" break="no"/>nique, quia ipse sibi Christus de facto non
+            <lb ed="#V" n="32"/>meruit incarnationem. Quinto, quia ex
+            <lb ed="#V" n="33"/>ipso, tanquam capite, omnia emanant in
+            <lb ed="#V" n="34"/>reliquos; ergo saltem, ut Doctor in textu,
+            <lb ed="#V" n="35"/>praeordinatio capitis praecessit omne
+            me<lb ed="#V" n="36" break="no"/>ritum praevisum in aliis. Ultimo, ordinatio
+            <lb ed="#V" n="37"/>Christi Redemptoris facta fuit nullo
+            prae<lb ed="#V" n="38" break="no"/>viso merito post lapsum, aut capacitate
+            <lb ed="#V" n="39"/>merendi ob peccatum, ut de fide constat:
+            <lb ed="#V" n="40"/>Qui propter nos homines, et propter
+            no<lb ed="#V" n="41" break="no"/>stram salutem descendit de coelis, et
+            incar<lb ed="#V" n="42" break="no"/>natus est de Spiritu sancto, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>An potuerit autem de potentia absoluta
+            <lb ed="#V" n="44"/>dari meritum Incarnationis in pura
+            cre<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>atura, dubitari solet. Rationes
+            quorum<lb ed="#V" n="46" break="no"/>dam circa praecedens, non solum tollunt
+            <lb ed="#V" n="47"/>actum, sed et potentiam, ideoque
+            com<lb ed="#V" n="48" break="no"/>muniter asserunt de possibili quidem dari
+            <lb ed="#V" n="49"/>non posse meritum de condigno
+            Incarna<lb ed="#V" n="50" break="no"/>tionis in pura creatura. Ita Vasquez 3.
+            <lb ed="#V" n="51"/>part. disp. 22. cap. 1. Suarez disp. 10.
+            <lb ed="#V" n="52"/>sect. 5. ex parte concordat, nempe non
+            <lb ed="#V" n="53"/>posse dari meritum ex toto condignum,
+            <lb ed="#V" n="54"/>Cabrera dist. 4. in art. 11. quaestionis 2.
+            <lb ed="#V" n="55"/>D. Thomae 3. partis, Lorca dist. 21. Favet
+            <lb ed="#V" n="56"/>ratio D. Thomae, nempe meritum de
+            con<lb ed="#V" n="57" break="no"/>digno esse aequale praemio, incarnationi
+            <lb ed="#V" n="58"/>nihil esse aequale in pura creatura. Altera
+            <lb ed="#V" n="59"/>ratio est ex hypothesi incarnationis,
+            <lb ed="#V" n="60"/>prout est de facto radix omnis meriti;
+            <lb ed="#V" n="61"/>principium autem meriti non cadit sub
+            <lb ed="#V" n="62"/>merito, sed supponitur sicut causa ad
+            <lb ed="#V" n="63"/>effectum.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Contrarium docet Medina in praefatum
+            <lb ed="#V" n="65"/>articulum D. Thomae, Suarez etiam in
+            <lb ed="#V" n="66"/>parte accedit, et solum asserit meritum
+            <lb ed="#V" n="67"/>illud purae creaturae deficere a mensura
+            <lb ed="#V" n="68"/>seu totalitate condignitatis, quia non
+            <lb ed="#V" n="69"/>esset aequale, quae est ratio D. Thomae.
+            <lb ed="#V" n="70"/>Haec sententia magis est secundum
+            prin<lb ed="#V" n="71" break="no"/>cipia Doctoris, licet in reipsa nihil differat
+            <lb ed="#V" n="72"/>de praemissa quaestione in specie, quia
+            <lb ed="#V" n="73"/>ubique ad meritum de condigno nihil
+            <lb ed="#V" n="74"/>exigit praeter statum personae, et
+            pro<lb ed="#V" n="75" break="no"/>missionem Dei, cum conditione operis.
+            <lb ed="#V" n="76"/>Et docet principia contraria fundamento
+            <lb ed="#V" n="77"/>primae sententiae in 3. dist. 20. 5
+            <lb ed="#V" n="78"/>Contra, ubi negat vitam humanam
+            <lb ed="#V" n="79"/>Christi fuisse honum infinitum, et idem
+            <lb ed="#V" n="80"/>negat de operibus, et 8 In ista
+            quae<lb ed="#V" n="81" break="no"/>stione et responsione ad 2. comparat
+            infini<lb ed="#V" n="82" break="no"/>tatem actus ex objecto et fine ad
+            infinita<lb ed="#V" n="83" break="no"/>tem, quae dicitur peccati; et responsione
+            <lb ed="#V" n="84"/>ad I. docet si Christus secundum
+            porti<lb ed="#V" n="85" break="no"/>onem tantum inferiorem meruerit,
+            prae<lb ed="#V" n="86" break="no"/>mium collatum fuisse excedens meritum
+            <lb ed="#V" n="87"/>ejus, nempe perfectione specifica, quia
+            <lb ed="#V" n="88"/>spectat ad portionem superiorem; si
+            au<pb ed="#V" n="254"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tem meruerit secundum portionem
+            supe<lb ed="#V" n="2" break="no"/>riorem, meritum Christi excessisse.
+            Dein<lb ed="#V" n="3" break="no"/>de negat meritum debere esse aequale
+            <lb ed="#V" n="4"/>praemio, sed esse inferius, quantum ad
+            <lb ed="#V" n="5"/>aequalitatem rei ibidem. Tenendo ergo
+            <lb ed="#V" n="6"/>haec, conclusio praemissa sequitur; et
+            <lb ed="#V" n="7"/>quoniam in terminis non datur a
+            Do<lb ed="#V" n="8" break="no"/>ctore, non erit alienum a proposito illam
+            <lb ed="#V" n="9"/>probare.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Probatur ergo, quia illa aequalitas inter
+            <lb ed="#V" n="11"/>rem praemii et meriti, non requiritur ad
+            <lb ed="#V" n="12"/>meritum de condigno; duplicem enim
+            <lb ed="#V" n="13"/>statuunt praefati Doctores, primam inter
+            <lb ed="#V" n="14"/>merentem et praemiantem; secundam
+            <lb ed="#V" n="15"/>inter rem praemii et meriti. Aliqui dicunt
+            <lb ed="#V" n="16"/>non requiri ut sit formalis aequalitas, sed
+            <lb ed="#V" n="17"/>.sufficere ut sit virtualis, ita ut meritum
+            <lb ed="#V" n="18"/>hoc modo sit aequale praemio; hinc
+            gra<lb ed="#V" n="19" break="no"/>tia, quae est semen gloriae, dat operi
+            <lb ed="#V" n="20"/>bono, ut sit aequale gloriae.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>His suppositis probatur antecedens,
+            <lb ed="#V" n="22"/>quia datum fuit meritum de condigno
+            <lb ed="#V" n="23"/>in Angelis, quorum gratia non
+            depende<lb ed="#V" n="24" break="no"/>bat a Christo per ipsos, et quoscumque
+            <lb ed="#V" n="25"/>negantes Incarnationem fuisse primum
+            de<lb ed="#V" n="26" break="no"/>terminatam independenter a praevisione
+            <lb ed="#V" n="27"/>peccati, sed inter ipsos et Deum
+            prae<lb ed="#V" n="28" break="no"/>miantem nulla fuit aequalitas
+            persona<lb ed="#V" n="29" break="no"/>rum; idem patet etiam de merito
+            justo<lb ed="#V" n="30" break="no"/>rum, ergo prima aequalitas non
+            requiri<lb ed="#V" n="31" break="no"/>tur. Et quamvis diceretur gratiam esse
+            <lb ed="#V" n="32"/>quamdam participationem Dei, per quam
+            <lb ed="#V" n="33"/>constitueretur illa aequalitas, certum est
+            <lb ed="#V" n="34"/>non posse esse participationem in
+            sub<lb ed="#V" n="35" break="no"/>stantia, neque per eam constitui aequale
+            <lb ed="#V" n="36"/>secundum medium justitiae commutativae,
+            <lb ed="#V" n="37"/>et proportionem Geometricam, alias non
+            <lb ed="#V" n="38"/>esset ratio cur negaretur, puram
+            crea<lb ed="#V" n="39" break="no"/>turam non posse de condigno satisfacere,
+            <lb ed="#V" n="40"/>mediante illa gratia, pro peccatis, prout
+            <lb ed="#V" n="41"/>ipsi negant, et confugiunt ad
+            inaequali<lb ed="#V" n="42" break="no"/>tatem personarum satisfacientis creaturae,
+            <lb ed="#V" n="43"/>et Dei offensi. Patet etiam instantia de
+            <lb ed="#V" n="44"/>Rege praemiante subditum, duce
+            praemian<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>te militem, et divite praemiante
+            paupe<lb ed="#V" n="46" break="no"/>rem mercenarium, in quibus servatur
+            <lb ed="#V" n="47"/>proportio requisita juris ad
+            condignita<lb ed="#V" n="48" break="no"/>tem et debitum.
+            <lb ed="#V" n="49"/>Secundo probatur, quia meritum
+            ordi<lb ed="#V" n="50" break="no"/>natur ad praemium, ut ad finem; omne
+            <lb ed="#V" n="51"/>autem ordinatum, ut ad finem
+            perfi<lb ed="#V" n="52" break="no"/>cientem, quale est praemium, est
+            imper<lb ed="#V" n="53" break="no"/>fectius ipso; hanc tangit Doctor loco
+            ci<lb ed="#V" n="54" break="no"/>tato. Confirmatur, omnis ordinatio
+            secun<lb ed="#V" n="55" break="no"/>dum rectam rationem et prudentiam,
+            <lb ed="#V" n="56"/>est inferioris ad superius et perfectius,
+            <lb ed="#V" n="57"/>quod etiam in operibus Dei observatur,
+            <lb ed="#V" n="58"/>sic lex vetus ordinatur ad novam; haec
+            <lb ed="#V" n="59"/>vero ad gloriam, ex Dionysio de Eccles.
+            <lb ed="#V" n="60"/>hierarchia, cap. 5. sic virtutes omnes
+            <lb ed="#V" n="61"/>ad charitatem, sic praedestinati ad
+            Chri<lb ed="#V" n="62" break="no"/>stum, ex Paulo, Christus autem ad Deum,
+            <lb ed="#V" n="63"/>sic justificatio a peccato ad haereditatem,
+            <lb ed="#V" n="64"/>et patet in caeteris; recta namque ratio
+            <lb ed="#V" n="65"/>ordinat secundum exigentiam rerum in
+            <lb ed="#V" n="66"/>seipsis, sed ex intentione recta tam
+            prae<lb ed="#V" n="67" break="no"/>miantis, quam merentis ordinate
+            agen<lb ed="#V" n="68" break="no"/>tium, meritum ordinatur ad praemium, ut
+            <lb ed="#V" n="69"/>ad finem; ergo praemium est perfectius,
+            <lb ed="#V" n="70"/>alias nisi praemium excederet, non recte
+            <lb ed="#V" n="71"/>commutaret merens suum meritum pro
+            prae<lb ed="#V" n="72" break="no"/>mio, neque alliceret praemians merentem
+            <lb ed="#V" n="73"/>proposito praemio, nisi esset majus
+            bo<lb ed="#V" n="74" break="no"/>num in aestimatione.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Dices forte, praemiantem intendere
+            <lb ed="#V" n="76"/>meritum, propter quod commutat
+            prae<lb ed="#V" n="77" break="no"/>mium, etiam prudenter. Contra, non
+            in<lb ed="#V" n="78" break="no"/>tendit meritum, nisi ut est medium
+            ac<lb ed="#V" n="79" break="no"/>quirendi finis extrinseci, et principaliter
+            <lb ed="#V" n="80"/>intenti, quod excedit tam meritum quam
+            <lb ed="#V" n="81"/>praemium, alias certe imprudenter ageret.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>Hinc Deus intendens per meritum
+            Chri<lb ed="#V" n="83" break="no"/>sti praemium nostrum, intendit per
+            me<lb ed="#V" n="84" break="no"/>ritum nostrum, proposito praemio gloriae,
+            <lb ed="#V" n="85"/>primario manifestationem gloriae suae,
+            <lb ed="#V" n="86"/>justitiae et bonitatis, qui est finis omnium
+            <lb ed="#V" n="87"/>operum Dei ad extra, et illa excedens
+            <lb ed="#V" n="88"/>intendit gloriam Christi principaliter
+            tan<pb ed="#V" n="255"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>quam finem justificationis nostrae, ut
+            do<lb ed="#V" n="2" break="no"/>cet Trid. sess. 6. cap. 7. sic Princeps,
+            <lb ed="#V" n="3"/>solvens et praemians militem, intendit
+            <lb ed="#V" n="4"/>salutem publicam, quae praeponderat
+            <lb ed="#V" n="5"/>praemio.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Deinde patet exemplo, quia gloria, quae
+            <lb ed="#V" n="7"/>est praemium propositum, excedit
+            meri<lb ed="#V" n="8" break="no"/>tum nostrum in via, quod est condignum
+            <lb ed="#V" n="9"/>respectu ejus; ergo stat inaequalitas cum
+            <lb ed="#V" n="10"/>condignitate meriti. Patet antecedens, quia
+            <lb ed="#V" n="11"/>perfectius attingit finem, quae autem
+            re<lb ed="#V" n="12" break="no"/>motiora sunt a fine, sunt imperfectiora.
+            <lb ed="#V" n="13"/>Praeterea patet auctoritate: Non sunt
+            con<lb ed="#V" n="14" break="no"/>dignae passiones hujus temporis ad
+            futu<lb ed="#V" n="15" break="no"/>ram gloriam, quae revelabitur in nobis, etc.
+            <lb ed="#V" n="16"/>Nec oculus vidit, nec auris audivit, nec in
+            <lb ed="#V" n="17"/>cor hominis intravit, quae praeparavit Deus
+            <lb ed="#V" n="18"/>diligentibus se, etc. Momentaneum
+            tribula<lb ed="#V" n="19" break="no"/>tionis nostrae aeternum gloriae pondus
+            ope<lb ed="#V" n="20" break="no"/>ratur, etc. et plura similia, in quibus
+            su<lb ed="#V" n="21" break="no"/>perabundantia praemii supra meritum
+            de<lb ed="#V" n="22" break="no"/>claratur, atque perfectionis excessus in
+            <lb ed="#V" n="23"/>Scriptura.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Et quamvis utrumque consistat in actu,
+            <lb ed="#V" n="25"/>tamen praemium excedit in modo et
+            sub<lb ed="#V" n="26" break="no"/>stantia. Neque satisfacit reponsio
+            praemis<lb ed="#V" n="27" break="no"/>sa de aequalitate, quae statuitur ex parte
+            <lb ed="#V" n="28"/>meriti, qua procedit ex gratia sanctificante
+            <lb ed="#V" n="29"/>( de qua jam non dissero, ne omnia
+            ver<lb ed="#V" n="30" break="no"/>-tamus in dubium, an scilicet ex natura
+            <lb ed="#V" n="31"/>rei sit talis, an ex ordinatione divina,
+            vi<lb ed="#V" n="32" break="no"/>deantur dicenda infra d. 16.) quia status
+            <lb ed="#V" n="33"/>peregrinationis nequit comparari in
+            per<lb ed="#V" n="34" break="no"/>fectione ad statum gloriae et
+            comprehen<lb ed="#V" n="35" break="no"/>sionis, secundum Scripturam et Patres.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Quod probatur discurrendo Theologica
+            <lb ed="#V" n="37"/>ratione per singula, quia lumen gloriae
+            <lb ed="#V" n="38"/>excedit fidem cui succedit, tentio spem;
+            <lb ed="#V" n="39"/>haec duo, nempe fides et spes, excidunt
+            <lb ed="#V" n="40"/>in patria, ex Paulo 1. ad Corinth. 13. Ex
+            <lb ed="#V" n="41"/>parte enim cognoscimus, et ex parte
+            pro<lb ed="#V" n="42" break="no"/>phetamus, cum autem venerit quod
+            perfe<lb ed="#V" n="43" break="no"/>ctum est, evacuabitur quod ex parte est,
+            <lb ed="#V" n="44"/>etc. Evacuabitur ergo spes et fides, quae
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>imperfecta sunt, adveniente eo quod
+            per<lb ed="#V" n="46" break="no"/>fectum est, id est, gloria. Videmus nunc
+            <lb ed="#V" n="47"/>per speculum in aenigmate, id est, per
+            <lb ed="#V" n="48"/>fidem, quae obscura est, tunc autem
+            co<lb ed="#V" n="49" break="no"/>gnoscam sicut et cognitus sum, etc. Nunc
+            <lb ed="#V" n="50"/>manent fides, spes, charitas, tria haec,
+            <lb ed="#V" n="51"/>major autem horum est charitas, etc. quae
+            <lb ed="#V" n="52"/>manet in patria, secundum Apostolum,
+            <lb ed="#V" n="53"/>charitas nunquam excidit, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>In his tribus consistit quantum ad
+            <lb ed="#V" n="55"/>habitum justitia viatoris, ex Trident sess.
+            <lb ed="#V" n="56"/>6. cap. 7. quam vocat veram,
+            Christia<lb ed="#V" n="57" break="no"/>nam justitiam, ac stolam primam (pro illa
+            <lb ed="#V" n="58"/>quam perdidit nobis Adam per peccatum,
+            <lb ed="#V" n="59"/>et inobedientiam) candidam, immaculatam,
+            <lb ed="#V" n="60"/>quam jubentur renati conservare.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Unde sic argumentor, licet manet in
+            <lb ed="#V" n="62"/>patria charitas, est principium perfectioris
+            <lb ed="#V" n="63"/>actus, quam sit in via; excidunt fides et
+            <lb ed="#V" n="64"/>spes tanquam imperfecta, succedentibus
+            <lb ed="#V" n="65"/>aliis perfectioribus; ergo comparando
+            <lb ed="#V" n="66"/>gloriam ad meritum in ratione actus, non
+            <lb ed="#V" n="67"/>est aequalitas, sed excessus, tam quoad
+            <lb ed="#V" n="68"/>principia operandi, quam quoad ipsum
+            <lb ed="#V" n="69"/>opus. Si autem addas gratiam
+            sanctifican<lb ed="#V" n="70" break="no"/>tem ab his distinctam, quae sit in essentia
+            <lb ed="#V" n="71"/>animae, non est principium meriti, sed
+            <lb ed="#V" n="72"/>conditio et status personae praerequisitus;
+            <lb ed="#V" n="73"/>et quidquid dicatur abstinendo ab
+            ulte<lb ed="#V" n="74" break="no"/>riori quaestione et controversia, illa
+            ma<lb ed="#V" n="75" break="no"/>net etiam in patria cum excessu praemisso,
+            <lb ed="#V" n="76"/>neque ipsi competit constituere
+            aequalita<lb ed="#V" n="77" break="no"/>tem meriti ad gloriam, in quam non
+            in<lb ed="#V" n="78" break="no"/>fluit, sed potius aequalitatem in persona
+            <lb ed="#V" n="79"/>merente, alias sequeretur quod omnia
+            <lb ed="#V" n="80"/>merita justorum essent etiam aequalia,
+            <lb ed="#V" n="81"/>cum perinde praerequirant hanc gratiam.
+            <lb ed="#V" n="82"/>quod nemo admittit; si ergo inter merita,
+            <lb ed="#V" n="83"/>quae consistunt in opere in via, inter
+            <lb ed="#V" n="84"/>se nequit statuere aequalitatem, minus
+            <lb ed="#V" n="85"/>statuit aequalitatem inter gloriam, quae
+            <lb ed="#V" n="86"/>consistit etiam in opere, et ipsum opus
+            <lb ed="#V" n="87"/>meriti, ex iisdem enim principiis hinc
+            <lb ed="#V" n="88"/>inde sumitur fundamentum inaequalitatis,
+            <pb ed="#V" n="256"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quae major est inter merita et gloriam,
+            <lb ed="#V" n="2"/>quam inter merita inter se collata.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Tertio idcirco requireretur ad meritum
+            <lb ed="#V" n="4"/>de condigno talis aequalitas ad praemium,
+            <lb ed="#V" n="5"/>ut servaretur medium justitiae inter datum
+            <lb ed="#V" n="6"/>et acceptum, sed non magis requiritur ad
+            <lb ed="#V" n="7"/>hoc aequalitas meriti ad praemium quam
+            <lb ed="#V" n="8"/>praemii ad meritum, ut servetur mutua
+            <lb ed="#V" n="9"/>proportio secundum aequalitatem; sed
+            <lb ed="#V" n="10"/>potest praemium excedi a merito sine
+            of<lb ed="#V" n="11" break="no"/>fensione justitiae; ergo et meritum excedi
+            <lb ed="#V" n="12"/>a praemio in perfectione. Patet
+            subsum<lb ed="#V" n="13" break="no"/>ptum, quia meritum Christi Domini
+            ex<lb ed="#V" n="14" break="no"/>cedit praemium pro ipso constitutum, in
+            <lb ed="#V" n="15"/>quo tamen servatur debita proportio
+            ju<lb ed="#V" n="16" break="no"/>stitiae.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Illud quod dicunt de virtuali
+            aequali<lb ed="#V" n="18" break="no"/>tate meriti viatoris ad praemium, non
+            <lb ed="#V" n="19"/>videtur adeo fundatum; haec emim
+            vir<lb ed="#V" n="20" break="no"/>tualitas non consistit in alio, quam in eo
+            <lb ed="#V" n="21"/>quod connotet dignitatem personae
+            me<lb ed="#V" n="22" break="no"/>rentis per gratiam sanctificantem, de quo
+            <lb ed="#V" n="23"/>jam dictum est, vel certe quia meritum
+            <lb ed="#V" n="24"/>est causa praemii. Sed hoc etiam est satis
+            <lb ed="#V" n="25"/>debile fundamentum, qui a praemii est
+            <lb ed="#V" n="26"/>causa tantum moralis, ut includit
+            pro<lb ed="#V" n="27" break="no"/>missionem et pactum Dei, quod perinde
+            <lb ed="#V" n="28"/>conveniret in casu proposito merito purae
+            <lb ed="#V" n="29"/>creaturae.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Objicies primo, meritum Christi
+            Domi<lb ed="#V" n="31" break="no"/>ni excedere praemium ipsi destinatum,
+            <lb ed="#V" n="32"/>quod est justificatio et gloria nostra.
+            Re<lb ed="#V" n="33" break="no"/>spondet Doctor meritum excedi a praemio,
+            <lb ed="#V" n="34"/>quando quis meretur sibi, non autem
+            <lb ed="#V" n="35"/>quando alteri distinctio a se. Secun di
+            <lb ed="#V" n="36"/>generis est meritum Christi, qui
+            ali<lb ed="#V" n="37" break="no"/>is, non sibi meruit. Dices hoc videtur
+            <lb ed="#V" n="38"/>libere dictum. Respondetur negando
+            as<lb ed="#V" n="39" break="no"/>sumptum, quia illud vulgare: Deus
+            prae<lb ed="#V" n="40" break="no"/>miat ultra condignum, intelligitur de
+            <lb ed="#V" n="41"/>merito et praemio personali; disparitas
+            <lb ed="#V" n="42"/>autem est sumenda ex principio Doctoris
+            <lb ed="#V" n="43"/>jam praemisso, quando enim meritum est
+            <lb ed="#V" n="44"/>personale, ordinatur ad praemium, ut ad
+            fi<lb ed="#V" n="45" break="no"/>nem, ac proinde praemium est excedens, et
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="46"/>fit processus ab impefecto ad imperfectum
+            <lb ed="#V" n="47"/>in esse, et a minori bono, ordinando ipsum
+            <lb ed="#V" n="48"/>ad majus bonum. Meritum autem
+            Chri<lb ed="#V" n="49" break="no"/>sti non ordinatur ad praemium personale,
+            <lb ed="#V" n="50"/>sed ejus praemium est gratia et gloria
+            <lb ed="#V" n="51"/>aliorum, ad quae non ordinatur tanquam
+            <lb ed="#V" n="52"/>ad finem ultimatum, sed tanquam ad
+            <lb ed="#V" n="53"/>finem sub fine; opera enim Christi
+            sub<lb ed="#V" n="54" break="no"/>ordinata sunt ad justificationem nostram
+            <lb ed="#V" n="55"/>ex occasione peccati, et non primario et
+            <lb ed="#V" n="56"/>ultimate, sed ad gloriam Dei et ipsius
+            <lb ed="#V" n="57"/>Christi, quae sunt finis nostrae
+            justificati<lb ed="#V" n="58" break="no"/>onis, ut definit Tridentinum sess. 6. cap. 7.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Hoc ergo modo bonum perfectum
+            quan<lb ed="#V" n="60" break="no"/>doque refertur ad minus perfectum, non
+            <lb ed="#V" n="61"/>tanquam finis operis, sed tanquam finis
+            <lb ed="#V" n="62"/>operantis. Unde quamvis omnis virtus,
+            <lb ed="#V" n="63"/>sicut et tota lex refertur ad finem
+            charita<lb ed="#V" n="64" break="no"/>tis inducendae, aut conservandae, actus
+            <lb ed="#V" n="65"/>tamen charitatis refertur quandoque ad
+            <lb ed="#V" n="66"/>finem poenitentiae, ut quando ex motivo
+            <lb ed="#V" n="67"/>charitatis concipitur, ut declarat
+            Tridenti<lb ed="#V" n="68" break="no"/>num sess. 6. c. 6. quae relatio non est ex
+            <lb ed="#V" n="69"/>fine ultimato operis, sed ex fine operantis
+            <lb ed="#V" n="70"/>proximo et subordinato.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Objicies secundo, inter meritum et
+            <lb ed="#V" n="72"/>praemium servatur medium justitiae
+            com<lb ed="#V" n="73" break="no"/>mutativae, sed haec exigit aequalitatem in
+            <lb ed="#V" n="74"/>dato et accepto; ergo inter meritum et
+            <lb ed="#V" n="75"/>praemium. Respondetur, servare medium
+            <lb ed="#V" n="76"/>secundum proportionem, quae in hoc
+            con<lb ed="#V" n="77" break="no"/>sistit, ut quantum intensive et extensive
+            <lb ed="#V" n="78"/>crescat meritum, tantum etiam augeatur
+            <lb ed="#V" n="79"/>et debeatur praemium, non autem aliter,
+            <lb ed="#V" n="80"/>quia infimum supremi excedit summum
+            in<lb ed="#V" n="81" break="no"/>fimi, ut gloria infantis in coelo, meritum
+            <lb ed="#V" n="82"/>cujuscumque puri viatoris, juxta illud
+            Mat<lb ed="#V" n="83" break="no"/>thaei 11. Inter natos mulierum, non surrexit
+            <lb ed="#V" n="84"/>major Joanne Baptista; qui autem minor
+            <lb ed="#V" n="85"/>est in regno coelorum, major est illo, etc.
+            <lb ed="#V" n="86"/>Quam clausulam intelligunt Augustinus
+            <lb ed="#V" n="87"/>lib. 2. contra advers. legis, Hieronymus
+            <lb ed="#V" n="88"/>et Beda in eumdem locum de Beatis.
+            <lb ed="#V" n="89"/>Quidquid sit de jaliis interpretationibus,
+            <pb ed="#V" n="257"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sententia est vera. Dixi puri viatoris,
+            <lb ed="#V" n="2"/>quia meritum Christi (quantum ad actus
+            <lb ed="#V" n="3"/>internos, in quibus primario consistebat,
+            <lb ed="#V" n="4"/>et secundum portionem superiorem, ut
+            <lb ed="#V" n="5"/>probabilius judico, etiam ex mente
+            Do<lb ed="#V" n="6" break="no"/>ctoris, quia ex perfectissima charitate,
+            <lb ed="#V" n="7"/>ut commendat Scriptura, praecessit)
+            exces<lb ed="#V" n="8" break="no"/>sit praemium cujuscumque alterius in
+            <lb ed="#V" n="9"/>gloria.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Objicies tertio meritum de congruo
+            <lb ed="#V" n="11"/>non distingui a merito de condigno, nisi
+            <lb ed="#V" n="12"/>ratione illius aequalitatis; ergo.
+            Respon<lb ed="#V" n="13" break="no"/>detur, negando antecedens, quia idem
+            <lb ed="#V" n="14"/>actus continuatus potest esse meritum de
+            <lb ed="#V" n="15"/>condigno, et meritum de congruo ob
+            di<lb ed="#V" n="16" break="no"/>versum statum elicientis, ut quando
+            at<lb ed="#V" n="17" break="no"/>tritio seu contritio, infusa gratia
+            continua<lb ed="#V" n="18" break="no"/>tur. Differentia autem sumitur ex eo quod
+            <lb ed="#V" n="19"/>meritum de congruo sit dispositio ad
+            <lb ed="#V" n="20"/>gratiam, ut fides et opera quae antecedunt
+            <lb ed="#V" n="21"/>justitiam; neque acceptetur ad praemium
+            <lb ed="#V" n="22"/>sicut meritum de condigno, quod proprie
+            <lb ed="#V" n="23"/>est meritum, et secundum justitiam, eo
+            <lb ed="#V" n="24"/>modo quo intervenit justitia inter Deum
+            <lb ed="#V" n="25"/>et creaturam. Contra, contritio perfecta
+            <lb ed="#V" n="26"/>habet annexam promissionem Dei,
+            est<lb ed="#V" n="27" break="no"/>que actus et bonus et supernaturalis
+            se<lb ed="#V" n="28" break="no"/>cundum inclinationem charitatis; ergo
+            <lb ed="#V" n="29"/>differentia non recte fundatur.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Respondetur, negando consequentiam,
+            <lb ed="#V" n="31"/>quia fundatur in Paulo et Conciliis, qua
+            <lb ed="#V" n="32"/>dicunt nos justificari gratis, et non ex
+            <lb ed="#V" n="33"/>,meritis, ut docet Apostolus ad Romanos 4.
+            <lb ed="#V" n="34"/>Justificati gratis per gratiam ipsius, per
+            <lb ed="#V" n="35"/>redemptionem, quae est in Christo Jesu, etc.
+            <lb ed="#V" n="36"/>quae est definitio Diospolitani contra
+            Pe<lb ed="#V" n="37" break="no"/>lagium art. 12. Milevitani can. 3. 6. et 8.
+            <lb ed="#V" n="38"/>unde Tridentinum sess. 6. cap. 8. Gratis
+            <lb ed="#V" n="39"/>autem ideo justificari dicimur, quia nihil
+            <lb ed="#V" n="40"/>eorum quae justificationem praecedunt, sive
+            <lb ed="#V" n="41"/>fides, sive opera, ipsam justificationis
+            gra<lb ed="#V" n="42" break="no"/>tiam promerentur, etc.
+            <lb ed="#V" n="43"/>Promissio facta contritioni itaque in
+            <lb ed="#V" n="44"/>hoc differt a promissione, qua
+            ac<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>ceptata sunt opera justorum, quod haec
+            <lb ed="#V" n="46"/>acceptatio sit ex motivo justitiae, et per
+            <lb ed="#V" n="47"/>modum meriti, quia vita aeterna
+            proposi<lb ed="#V" n="48" break="no"/>ta est justis et filiis, ut bene declarat
+            Tri<lb ed="#V" n="49" break="no"/>dentinum sess. 6. cap. 16. Atque ideo bene
+            <lb ed="#V" n="50"/>operantibus usque in finem, et in Deo
+            spe<lb ed="#V" n="51" break="no"/>rantibus (loquitur de justificatis)
+            proponen<lb ed="#V" n="52" break="no"/>da est vita aeterna, et tanquam gratia filiis
+            <lb ed="#V" n="53"/>Dei per Christum Jesum misericorditer
+            pro<lb ed="#V" n="54" break="no"/>promissa, et tanquam merces ex ipsius Dei
+            <lb ed="#V" n="55"/>promissione bonis ipsorum operibus et
+            me<lb ed="#V" n="56" break="no"/>ritis fideliter reddenda, etc. Vita autem
+            <lb ed="#V" n="57"/>aeterna non promittitur peccatoribus, et
+            <lb ed="#V" n="58"/>quamvis dispositionem perfectam per
+            <lb ed="#V" n="59"/>contritionem infallibiliter consequatur
+            ju<lb ed="#V" n="60" break="no"/>stificatio. Haec tamen fit gratis per
+            redem<lb ed="#V" n="61" break="no"/>ptionem quae est in Christo Jesu, et
+            miseri<lb ed="#V" n="62" break="no"/>corditer, et non per meritum proprie
+            <lb ed="#V" n="63"/>dictum, sed congruum, quae congruitas in
+            <lb ed="#V" n="64"/>Dei bonitate fundatur, quae respicit vere
+            <lb ed="#V" n="65"/>contritum et conversum a viis suis
+            pra<lb ed="#V" n="66" break="no"/>vis, non in merito ipsius, licet eadem Dei
+            <lb ed="#V" n="67"/>bonitas et misericordia respiciat gradum
+            <lb ed="#V" n="68"/>et mensuram suae conversionis
+            infunden<lb ed="#V" n="69" break="no"/>do gratiam, ut docet Trident sess. 6. c. 7.
+            <lb ed="#V" n="70"/>secumdum propriam cujusque
+            dispositi<lb ed="#V" n="71" break="no"/>onem, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Ex quibus patet differentia praemissa,
+            <lb ed="#V" n="73"/>tam inter promissiones factas, quam inter
+            <lb ed="#V" n="74"/>ipsos actus, quia illa quae annexa est
+            <lb ed="#V" n="75"/>merito, est ex medio et motivo justitiae,
+            <lb ed="#V" n="76"/>et pacto, quamvis admixta misericordia
+            <lb ed="#V" n="77"/>Dei, sed quae annexa est contritioni, est
+            <lb ed="#V" n="78"/>ex mera misericordia; unus actus se
+            <lb ed="#V" n="79"/>habet, ut dispositio, et non ut
+            meri<lb ed="#V" n="80" break="no"/>tum; alter autem ut meritum de
+            con<lb ed="#V" n="81" break="no"/>digno, de quo loquimur. Et quamvis
+            <lb ed="#V" n="82"/>appellari possit dispositio ex Doctore
+            <lb ed="#V" n="83"/>dist. praecedenti q. 4. est tamen dispositio
+            <lb ed="#V" n="84"/>ad gloriam; contritio autem peccatoris
+            <lb ed="#V" n="85"/>dispositio ad justificationem et
+            remissi<lb ed="#V" n="86" break="no"/>onem peccati, quae fit gratis, et qua
+            <lb ed="#V" n="87"/>acquiritur capacitas merendi gloriam per
+            <lb ed="#V" n="88"/>gratiam sanctificantem, quae facit de
+            <pb ed="#V" n="258"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>injusto justum, et de filio gehennae filium
+            <lb ed="#V" n="2"/>regni, cui facta est promissio haereditatis.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>His suppositis, quantum ad meritum de
+            <lb ed="#V" n="4"/>condigno, superest quid dicendum sit
+            <lb ed="#V" n="5"/>de merito de congruo, quantum ad
+            po<lb ed="#V" n="6" break="no"/>-tentiam absolutam, et quantum ad
+            ordina<lb ed="#V" n="7" break="no"/>a riam, et id quod in facto contingit. Quoad
+            <lb ed="#V" n="8"/>primum, non est controversia potuisse
+            <lb ed="#V" n="9"/>dari meritum de congruo respectu
+            Incar<lb ed="#V" n="10" break="no"/>nationis, quia in hoc deficit illa conditio
+            <lb ed="#V" n="11"/>praescripta aequalitatis, quam exigunt
+            Do<lb ed="#V" n="12" break="no"/>ctores, quos impugnavimus in praecedenti
+            <lb ed="#V" n="13"/>dubio, necessariam esse ad meritum de
+            <lb ed="#V" n="14"/>condigno, non autem de congruo. Nos
+            <lb ed="#V" n="15"/>autem affirmamus cum Doctore ad
+            neu<lb ed="#V" n="16" break="no"/>trum horum exigi; ex utraque ergo
+            sen<lb ed="#V" n="17" break="no"/>tentia sequitur, non esse implicantiam
+            <lb ed="#V" n="18"/>hujus meriti de congruo, quantum ad
+            <lb ed="#V" n="19"/>potentiam absolutam.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Quantum vero ad ordinariam, seu de
+            <lb ed="#V" n="21"/>facto, aliqui asserunt Sanctos Patres
+            <lb ed="#V" n="22"/>.meruisse de congruo, non solum
+            cir<lb ed="#V" n="23" break="no"/>cumstantiam, sed et substantiam
+            Incar<lb ed="#V" n="24" break="no"/>nationis; pro hac citatur Cajetanus 3. p.
+            <lb ed="#V" n="25"/>q. 2. art. 11. et quidam recentiores, inter
+            <lb ed="#V" n="26"/>quos Cabrera id asserit dist. 5. concl. 5.
+            <lb ed="#V" n="27"/>Suarez vero disp. 10. sect. 6. admittit
+            <lb ed="#V" n="28"/>meritum de congruo praecessisse in
+            Pa<lb ed="#V" n="29" break="no"/>tribus quoad executionem, non tamen
+            <lb ed="#V" n="30"/>quoad praedestinationem, quia nempe
+            <lb ed="#V" n="31"/>haec prae destinatio praecessit quoad
+            sub<lb ed="#V" n="32" break="no"/>stantiam et circumstantias Incarnationis,
+            <lb ed="#V" n="33"/>meritum Sanctorum Patrum, executio
+            <lb ed="#V" n="34"/>subsequitur. Alii docent eos non
+            me<lb ed="#V" n="35" break="no"/>ruisse substantiam Incarnationis, sive in
+            <lb ed="#V" n="36"/>intentione, sive in executione, bene
+            <lb ed="#V" n="37"/>tamen circumstantias quoad utrumque
+            <lb ed="#V" n="38"/>ordinem. Hanc defendit Vasquez disp. 22.
+            <lb ed="#V" n="39"/>cap. 4. Quarta sententia est nullam etiam
+            <lb ed="#V" n="40"/>circumstantiam quocumque modo et
+            ordi<lb ed="#V" n="41" break="no"/>ne eos meruisse, ne quidem ipsam
+            accele<lb ed="#V" n="42" break="no"/>rationem ejus. Lorca disp. 22. 3. part.a. 11.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Conclusio Doctoris est meruisse solam
+            <lb ed="#V" n="44"/>accelerationem, et haec est frequentior
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>opinio antiquorum Theologorum, Alensis
+            <lb ed="#V" n="46"/>3. part. quaest. 8. m. 3. D. Thomae in 3.
+            <lb ed="#V" n="47"/>dist. 4. D. Bonaventurae eadem dist. art. 2.
+            <lb ed="#V" n="48"/>Richardi art. 3. quaest. 1. Gabrielis art. 3.
+            <lb ed="#V" n="49"/>dubio 3. Almaini q. 1. dub. 1. quibus
+            ac<lb ed="#V" n="50" break="no"/>cedunt nostri in eadem dist. Sotus lib. 2.
+            <lb ed="#V" n="51"/>de justitia et Jure, q. 4. art. 3. con. 3.
+            <lb ed="#V" n="52"/>Patet primo, quia eadem est ratio de
+            <lb ed="#V" n="53"/>merito condigno et congruo, quantum ad
+            <lb ed="#V" n="54"/>dependentiam ab Incarnatione, tanquam
+            <lb ed="#V" n="55"/>principio, quod utrique supponitur;
+            prin<lb ed="#V" n="56" break="no"/>cipium autem meriti non cadit sub
+            me<lb ed="#V" n="57" break="no"/>rito, sicut neque causa a suo effectu
+            de<lb ed="#V" n="58" break="no"/>pendere potest, sive remota sit, sive
+            <lb ed="#V" n="59"/>proxima; omnis autem gratia Sanctorum
+            <lb ed="#V" n="60"/>Patrum processit ab Incarnatione et
+            me<lb ed="#V" n="61" break="no"/>ritis Christi.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Secundo id supponunt verba Augustini
+            <lb ed="#V" n="63"/>citata, aeque enim excludunt utrumque
+            <lb ed="#V" n="64"/>meritum cap. 1. de dono perseverantiae:
+            <lb ed="#V" n="65"/>Eadem, inquit, gratia fit ab initio fidei
+            <lb ed="#V" n="66"/>homo quicumque Christianus, qua gratia
+            <lb ed="#V" n="67"/>ab initio homo ille factus est Christus, etc.
+            <lb ed="#V" n="68"/>Ante fidem non datur meritum de
+            con<lb ed="#V" n="69" break="no"/>gruo, quia illud esset solius arbitrii sine
+            <lb ed="#V" n="70"/>fide et gratia; fides autem et vocatio
+            <lb ed="#V" n="71"/>antecedunt omnia merita. Deinde de
+            <lb ed="#V" n="72"/>corrept. et gratia, cap. 11. negat
+            meri<lb ed="#V" n="73" break="no"/>tum etiam impetratorium et congruum:
+            <lb ed="#V" n="74"/>Unde meruit, inquit, quod ejus bonum
+            <lb ed="#V" n="75"/>qualecumque praecessit? quid agit ante?
+            <lb ed="#V" n="76"/>quid petivit ut ad excellentiam
+            ineffabi<lb ed="#V" n="77" break="no"/>lem perveniret, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>Et quamvis Augustinus loquatur de
+            <lb ed="#V" n="79"/>merito elicito ab ipso Christo, perinde est,
+            <lb ed="#V" n="80"/>quia si excludatur meritum Christi, a
+            for<lb ed="#V" n="81" break="no"/>tiori aliorum, maxime ex ratione Augustini,
+            <lb ed="#V" n="82"/>quia nempe prius assumpta fuit
+            humani<lb ed="#V" n="83" break="no"/>tas quam operata. Sic etiam prius fuit
+            <lb ed="#V" n="84"/>ordinata Incarnatio qnoad intentionem et
+            <lb ed="#V" n="85"/>et executionem a Deo, ut esset
+            princi<lb ed="#V" n="86" break="no"/>pium omnis meriti et boni operis, ac
+            gra<lb ed="#V" n="87" break="no"/>tiae in caeteris, quam praevisum fuerit
+            <lb ed="#V" n="88"/>aliquod bonum in caeteris, quod esset
+            <pb ed="#V" n="259"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>meritum ejus. Unde idem Augustinus 13.
+            <lb ed="#V" n="2"/>de Trinit. cap. 15. asserit Incarnationem
+            <lb ed="#V" n="3"/>fuisse summam gratiam inter reliqua
+            <lb ed="#V" n="4"/>opera Dei, quod non solum intelligi
+            <lb ed="#V" n="5"/>debet, quantum ad excellentiam et
+            per<lb ed="#V" n="6" break="no"/>fectionem, sed quantum ad modum quo
+            <lb ed="#V" n="7"/>ex mera Dei bonitate processit, et
+            gra<lb ed="#V" n="8" break="no"/>tuite absque omni merito ex parte
+            no<lb ed="#V" n="9" break="no"/>stra; quod plures rationes Sanctorum
+            <lb ed="#V" n="10"/>Patrum probant, quae pro congruentia
+            <lb ed="#V" n="11"/>facti suo loco adducuntur.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Sicut ergo vocatio ad fidem non
+            sup<lb ed="#V" n="13" break="no"/>ponit aliquod meritum, ac proinde dicitur
+            <lb ed="#V" n="14"/>gratuita respectu vocati ad fidem, radix
+            <lb ed="#V" n="15"/>et principium ejus, sicut et ipsa fides
+            <lb ed="#V" n="16"/>caeterorum, quae in justificatione
+            subse<lb ed="#V" n="17" break="no"/>quuntur; ita similiter dici debet a
+            for<lb ed="#V" n="18" break="no"/>tiori quoad Incarnationem, cujus
+            ordi<lb ed="#V" n="19" break="no"/>natio in massa perditionis nihil potuit
+            <lb ed="#V" n="20"/>supponere boni praeter solam naturam,
+            <lb ed="#V" n="21"/>quae peccato fuit universim vitiata.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Et si dicas quoad intentionem id verum
+            <lb ed="#V" n="23"/>esse, non quoad executionem, contra,
+            <lb ed="#V" n="24"/>Incarnatio ut determinate ponenda in
+            <lb ed="#V" n="25"/>esse, et sic etiam ut determinata a Deo,
+            <lb ed="#V" n="26"/>fuit causa omnis gratiae et boni in
+            ho<lb ed="#V" n="27" break="no"/>mine, et sic et non aliter fuit causa
+            vo<lb ed="#V" n="28" break="no"/>cationis et fidei; si ergo haec non
+            suppo<lb ed="#V" n="29" break="no"/>nunt meritum ex parte nostri, aut bonum,
+            <lb ed="#V" n="30"/>et dependent ab Incarnatione in re
+            de<lb ed="#V" n="31" break="no"/>terminate ponenda, supponunt in Deo
+            <lb ed="#V" n="32"/>non solum ejus ordinationem quoad
+            in<lb ed="#V" n="33" break="no"/>tentionem, sed etiam quoad executionem;
+            <lb ed="#V" n="34"/>ergo quidquid ex his procedit, nempe a
+            <lb ed="#V" n="35"/>fide et vocatione, supponunt
+            Incarnati<lb ed="#V" n="36" break="no"/>onem ordinatam et praevisam in
+            execu<lb ed="#V" n="37" break="no"/>tione.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Confirmatur, omne meritum nostrum
+            <lb ed="#V" n="39"/>quod acceptat Deus de facto, sive sit
+            <lb ed="#V" n="40"/>condigni, sive congrui, est antecedens
+            <lb ed="#V" n="41"/>et independens a suo praemio tanquam
+            <lb ed="#V" n="42"/>causa anteriore, ut patet universim ex
+            <lb ed="#V" n="43"/>Scriptura, in qua nullum invenitur
+            me<lb ed="#V" n="44" break="no"/>ritum a Deo praemiatum, nisi antecedens,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>nulla promissio facta operibus, nisi
+            ex<lb ed="#V" n="46" break="no"/>hibitis aut exhibendis, antequam jus
+            ali<lb ed="#V" n="47" break="no"/>quod acquiratur praemii, et antequam
+            <lb ed="#V" n="48"/>ipsum praemium detur. Patet in
+            disposi<lb ed="#V" n="49" break="no"/>tione peccatoris ad gratiam, in meritis
+            <lb ed="#V" n="50"/>justorum respectu praemii, sibi, vel aliis
+            <lb ed="#V" n="51"/>impetratorie dandi, vel etiam de
+            con<lb ed="#V" n="52" break="no"/>digno, quoad proprium fructum et
+            per<lb ed="#V" n="53" break="no"/>fectum. Patet ex promissionibus absolute
+            <lb ed="#V" n="54"/>factis in lege et Evangelio, ex
+            commi<lb ed="#V" n="55" break="no"/>nationibus et etiam praeceptis, quae
+            sup<lb ed="#V" n="56" break="no"/>ponunt vel exigunt exhibitionem operis,
+            <lb ed="#V" n="57"/>et non solam praevisionem; ergo cum
+            <lb ed="#V" n="58"/>Incarnatio in acceptatione et ordinatione
+            <lb ed="#V" n="59"/>divina antecedat tanquam causa, et
+            prin<lb ed="#V" n="60" break="no"/>cipium, quodcumque bonum opus
+            no<lb ed="#V" n="61" break="no"/>strum, sequitur non dari meritum ejus.
+            <lb ed="#V" n="62"/>Dices, unde haec cognoscatur cum
+            po<lb ed="#V" n="63" break="no"/>tuerit de potentia absoluta saltem cadere
+            <lb ed="#V" n="64"/>sub merito de congruo, et secundum nos
+            <lb ed="#V" n="65"/>de condigno.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Respondetur, quod sicut non
+            admitti<lb ed="#V" n="67" break="no"/>tur meritum de condigno ejus de facto,
+            <lb ed="#V" n="68"/>sic paritas rationis excludit quodcumque
+            <lb ed="#V" n="69"/>meritum ejus de congruo, quod perinde
+            <lb ed="#V" n="70"/>a radice Incarnationis est, sicut et
+            me<lb ed="#V" n="71" break="no"/>ritum de condigno. Et documenta
+            Scri<lb ed="#V" n="72" break="no"/>pturarum sequenda sunt, quae non
+            ad<lb ed="#V" n="73" break="no"/>mittunt meritum aliquod consequens in
+            <lb ed="#V" n="74"/>Deo de facto, licet foret possibile, ut
+            <lb ed="#V" n="75"/>alias in tractatu hujus materiae disputavi.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Rejicienda est ergo sententia
+            asseren<lb ed="#V" n="77" break="no"/>tium incertum esse, neque posse dici
+            <lb ed="#V" n="78"/>assertive quid Deus de facto ordinaverit,
+            <lb ed="#V" n="79"/>quia nempe modus ordinarius agendi
+            <lb ed="#V" n="80"/>divinae voluntatis satis ex Scriptura
+            li<lb ed="#V" n="81" break="no"/>quet; neque alius modus supponendus
+            <lb ed="#V" n="82"/>est praeter consuetum, qui ex Scriptura
+            <lb ed="#V" n="83"/>patet, quia, ut dicit Augustinus,
+            episto<lb ed="#V" n="84" break="no"/>la 108. Non omnia, quae facta sunt,
+            scri<lb ed="#V" n="85" break="no"/>pta inveniuntur, verumtamen facta esse
+            <lb ed="#V" n="86"/>ex caeteris documentis probantur, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>Loquitur de Baptismo Apostolorum,
+            <lb ed="#V" n="88"/>quo ipsi baptizati sunt, qui licet
+            scriptu<pb ed="#V" n="260"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>non inveniatur, tamen ex iis, quae de
+            <lb ed="#V" n="2"/>Baptismi praecepto traduntur in Scriptura,
+            <lb ed="#V" n="3"/>colligitur factus. Eodem modo licet non
+            <lb ed="#V" n="4"/>e inveniatur revelatum in specie, quod
+            <lb ed="#V" n="5"/>Deus non acceptarit meritum aliquod
+            <lb ed="#V" n="6"/>de congruo respectu Incarnationis,
+            ta<lb ed="#V" n="7" break="no"/>men ex documentis eorum, quae de
+            In<lb ed="#V" n="8" break="no"/>carnatione ipsa habentur ex Scriptura,
+            <lb ed="#V" n="9"/>colliguntur, quia de plenitudine ejus
+            <lb ed="#V" n="10"/>omnes accepimus, est radix et principium
+            <lb ed="#V" n="11"/>nostrae justitiae, fidei et vocationis, quae
+            <lb ed="#V" n="12"/>evacuant omne meritum ex parte nostra,
+            <lb ed="#V" n="13"/>et ex altero documento Scripturae, quo
+            <lb ed="#V" n="14"/>reperimus omne meritum tam spirituale
+            <lb ed="#V" n="15"/>quam temporale esse independens a suo
+            <lb ed="#V" n="16"/>praemio; occurrit, inquam, ex his duobus
+            <lb ed="#V" n="17"/>sufficiens documentum, unde colligamus
+            <lb ed="#V" n="18"/>accedente sententia Magistrorum scholae,
+            <lb ed="#V" n="19"/>quod principium meriti non cadit sub
+            <lb ed="#V" n="20"/>merito, unde evacuemus omne meritum
+            <lb ed="#V" n="21"/>respectu Incarnationis.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Accedit etiam quod Deus de facto
+            nul<lb ed="#V" n="23" break="no"/>lum peccatum praevisum nostrum per
+            <lb ed="#V" n="24"/>anticipationem puniat, nullum opus
+            bo<lb ed="#V" n="25" break="no"/>num praemiet per anticipationem; sed
+            <lb ed="#V" n="26"/>aequalis est ratio utriusque apud ipsum,
+            <lb ed="#V" n="27"/>qui singulis partitur prout gerunt in
+            cor<lb ed="#V" n="28" break="no"/>pore suo, sive bonum, sive malum;
+            do<lb ed="#V" n="29" break="no"/>ctrina enim falsa fuit Semipelagianorum,
+            <lb ed="#V" n="30"/>praevisum motum liberi arbitrii praemiari,
+            <lb ed="#V" n="31"/>aut puniri a Deo. Unde ab hac universali
+            <lb ed="#V" n="32"/>regula non est recedendum, nisi ratio
+            <lb ed="#V" n="33"/>aliqua suadeat exceptionem, quae in
+            pro<lb ed="#V" n="34" break="no"/>posito nulla est.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>Quod si urgeas merita Christi praevisa
+            <lb ed="#V" n="36"/>acceptata fuisse et profuisse Patribus,
+            <lb ed="#V" n="37"/>respondetur, id verum esse, sed
+            singu<lb ed="#V" n="38" break="no"/>lare in Christo Domino, qui est caput
+            <lb ed="#V" n="39"/>universorum, imo confirmat propositam
+            <lb ed="#V" n="40"/>conclusionem Doctoris, quia licet opera
+            <lb ed="#V" n="41"/>Christi praevisa influxerint in
+            praedesti<lb ed="#V" n="42" break="no"/>natos, qui eum antecesserunt, gratiam,
+            <lb ed="#V" n="43"/>fidem et remissionem peccati (alias non
+            <lb ed="#V" n="44"/>fuisset eis sufficienter in Christo
+            provi<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>sum) quae necessaria erant ad salutem
+            <lb ed="#V" n="46"/>ipsorum; tamen ex operibus Christi
+            prae<lb ed="#V" n="47" break="no"/>visis non receperunt praemium
+            comple<lb ed="#V" n="48" break="no"/>tum antequam fuerunt exhibita in reipsa.
+            <lb ed="#V" n="49"/>Et licet habuerit illam efficaciam quoad
+            <lb ed="#V" n="50"/>sufficientia et necessaria pro statu viae, et
+            <lb ed="#V" n="51"/>sic fuerint acceptata quoad haec praecise,
+            <lb ed="#V" n="52"/>non tamen erant efficacia, quoad
+            prae<lb ed="#V" n="53" break="no"/>mium completum et ultimatum, antequam
+            <lb ed="#V" n="54"/>exhibitum fuit completum meritum in
+            <lb ed="#V" n="55"/>passione; ergo sequitur Deum non
+            ac<lb ed="#V" n="56" break="no"/>ceptare meritum praevisum purae
+            creatu<lb ed="#V" n="57" break="no"/>rae, cum non acceptarit meritum Christi,
+            <lb ed="#V" n="58"/>nisi tantum quoad necessaria ad salutem
+            <lb ed="#V" n="59"/>praedestinatorum in via, quibus aliter per
+            <lb ed="#V" n="60"/>Christum subsequentem, vel in ipso non
+            <lb ed="#V" n="61"/>fuisset provisum.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Hae rationes probant contra Suarez,
+            <lb ed="#V" n="63"/>quod nec Patres meruerint substantiam
+            <lb ed="#V" n="64"/>Incarnationis, etiam in executione.
+            Ne<lb ed="#V" n="65" break="no"/>que refert dicere quod nulla sit
+            repu<lb ed="#V" n="66" break="no"/>gnantia, quia licet non de potentia
+            ab<lb ed="#V" n="67" break="no"/>soluta id verum sit, quoad ordinariam
+            <lb ed="#V" n="68"/>tamen, et regulas divinae sapientiae
+            po<lb ed="#V" n="69" break="no"/>sitas, non est verum, licet enim
+            prae<lb ed="#V" n="70" break="no"/>cesserit opera bona in Patribus
+            Incarna<lb ed="#V" n="71" break="no"/>tionem factam, subsecutae tamen sunt
+            <lb ed="#V" n="72"/>eamdem in praevisione quoad
+            executi<lb ed="#V" n="73" break="no"/>onem et dependentiam causalitatis,
+            at<lb ed="#V" n="74" break="no"/>que principii quod tollit ordinem meriti
+            <lb ed="#V" n="75"/>et praemii inter ipsa.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Conclusio praedicta etiam probatur
+            quo<lb ed="#V" n="77" break="no"/>ad inclusivam seu affirmativam, qua
+            di<lb ed="#V" n="78" break="no"/>cuntur Patres meruisse accelerationem
+            <lb ed="#V" n="79"/>Incarnationis, quia Sancti Patres
+            orave<lb ed="#V" n="80" break="no"/>runt pro acceleratione Incarnationis:
+            <lb ed="#V" n="81"/>Ostende nobis Domine misericordiam
+            <lb ed="#V" n="82"/>tuam, et salutare tuum da nobis, Psalm.
+            <lb ed="#V" n="83"/>84. Emitte Domine agnum dominatorem
+            <lb ed="#V" n="84"/>terrae de petra deserti, Isaiae 16. et
+            plu<lb ed="#V" n="85" break="no"/>rima similia. Sed haec non solum
+            decla<lb ed="#V" n="86" break="no"/>rant desideria Sanctorum, sed etiam
+            ora<lb ed="#V" n="87" break="no"/>tionem, quae non fuit temeraria, sed ex
+            <lb ed="#V" n="88"/>instinctu Spiritus sancti, ac proinde quod
+            <pb ed="#V" n="261"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>petebat, impetrari potuit ex opinione et
+            <lb ed="#V" n="2"/>fiducia orantium Patrum. Hinc Danielis 9.
+            <lb ed="#V" n="3"/>Septuaginta hebdomadae abbreviatae super
+            <lb ed="#V" n="4"/>populum tuum, ut ungatur Sanctus
+            San<lb ed="#V" n="5" break="no"/>ctorum, etc. ubi acceleratio impetrata
+            <lb ed="#V" n="6"/>videtur, et Psalm. 11. Propter miseriam
+            <lb ed="#V" n="7"/>inopum, et gemitum pauperum, nunc
+            ex<lb ed="#V" n="8" break="no"/>urgam, dicit Dominus, etc. quod etsi de
+            <lb ed="#V" n="9"/>redemptione a captivitate temporali
+            intel<lb ed="#V" n="10" break="no"/>ligi potest, potest etiam de redemptione
+            <lb ed="#V" n="11"/>simpliciter intelligi, consuetuo stylo
+            Scri<lb ed="#V" n="12" break="no"/>pturae, quae plura mysteria unica
+            senten<lb ed="#V" n="13" break="no"/>tia nonnunquam comprehendit.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Secundo, non sequitur hinc aliquod
+            <lb ed="#V" n="15"/>inconveniens, ut neque illud, quod
+            de<lb ed="#V" n="16" break="no"/>ductum est contra priorem sententiam,
+            <lb ed="#V" n="17"/>quia Incarnatio secundum substantiam
+            <lb ed="#V" n="18"/>suam, est principium meriti et gratiae
+            <lb ed="#V" n="19"/>Sanctorum Patrum, et non secundum
+            <lb ed="#V" n="20"/>hanc circumstantiam; quod enim fieret
+            <lb ed="#V" n="21"/>hoc aut illo tempore, derogat, aut
+            su<lb ed="#V" n="22" break="no"/>peraddit ejus valori, ergo haec
+            circum<lb ed="#V" n="23" break="no"/>stantia cadit sub meritum quod procedit
+            <lb ed="#V" n="24"/>ex substantia Incarnationis, sine eo quod
+            <lb ed="#V" n="25"/>principium meriti cadat sub meritum.
+            <lb ed="#V" n="26"/>Dices Deum praedefinivisse omnes
+            cir<lb ed="#V" n="27" break="no"/>cumstantias Incarnationis, quando ipsam
+            <lb ed="#V" n="28"/>Incarnationem praedefinivit ante praevisa
+            <lb ed="#V" n="29"/>merita Sanctorum Patrum; ergo et hanc
+            <lb ed="#V" n="30"/>circumstantiam praedefinivit.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Respondetur, negando antecedens,
+            <lb ed="#V" n="32"/>quia Incarnatio praedefinita fuit ante
+            <lb ed="#V" n="33"/>praevisum peccatum ex nostrae scholae
+            <lb ed="#V" n="34"/>sententia; praeviso autem peccato,
+            mo<lb ed="#V" n="35" break="no"/>dus Incarnationis in carne passibili et
+            <lb ed="#V" n="36"/>ad finem redemptionis est ordinatus, sic
+            <lb ed="#V" n="37"/>ergo et hae et illae circumstantiae
+            (quid<lb ed="#V" n="38" break="no"/>quid de priori dicatur quod exempli
+            <lb ed="#V" n="39"/>loco adducitur) extrinsecae Incarnationi
+            <lb ed="#V" n="40"/>non necessario praefinitae sunt simul cum
+            <lb ed="#V" n="41"/>ipsa, ac proinde potuerunt esse ex
+            <lb ed="#V" n="42"/>merito Sanctorum Patrum impetratorio
+            <lb ed="#V" n="43"/>saltem, de quo agitur, nam de
+            condi<lb ed="#V" n="44" break="no"/>gno non ita suppetit fundamentum; hoc
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>enim exigit pactum et legem, de quibus
+            <lb ed="#V" n="46"/>non constat adeo ex Scriptura.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Responderi potest secundo, licet
+            prae<lb ed="#V" n="48" break="no"/>cesserit illa praedefinitio absoluta,
+            quan<lb ed="#V" n="49" break="no"/>tum ad intentionem, nihil obstare, quin
+            <lb ed="#V" n="50"/>in executione circumstantia illa cadat sub
+            <lb ed="#V" n="51"/>meritum, cujus ipsa nullo modo est
+            prin<lb ed="#V" n="52" break="no"/>cipium; sic electi praeordinati sunt ad
+            <lb ed="#V" n="53"/>gloriam, quantum est ex vi electionis
+            <lb ed="#V" n="54"/>efficacis, ante praevisa merita; haec tamen
+            <lb ed="#V" n="55"/>in executione sunt causa ejus, et
+            secun<lb ed="#V" n="56" break="no"/>dum Augustinum Deus facit, ut petamus
+            <lb ed="#V" n="57"/>quae ipse facturus erat. Non obstat ergo
+            <lb ed="#V" n="58"/>decretum intentionis executioni, quin haec
+            <lb ed="#V" n="59"/>dependeat ab aliqua causa, a qua non
+            <lb ed="#V" n="60"/>dependet executio, per quod solvitur
+            <lb ed="#V" n="61"/>quodcumque inconveniens quod potest
+            <lb ed="#V" n="62"/>objici, quia etsi intentio determinet rem
+            <lb ed="#V" n="63"/>quoad esse, executio tamen superaddere
+            <lb ed="#V" n="64"/>potest aliquam determinationem
+            ulteri<lb ed="#V" n="65" break="no"/>orem, quoad extrinseca, ut moralibus
+            <lb ed="#V" n="66"/>exemplis et obviis de facili potest
+            demon<lb ed="#V" n="67" break="no"/>strari.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Dices, circumstantia temporis non cadit
+            <lb ed="#V" n="69"/>sub meritum, quando substantia operis
+            <lb ed="#V" n="70"/>non cadit sub meritum, sed substantia
+            <lb ed="#V" n="71"/>Incarnationis non cadit sub meritum;
+            <lb ed="#V" n="72"/>ergo neque circumstantia ulla ejus.
+            Re<lb ed="#V" n="73" break="no"/>spondetur negando majorem, quia
+            cir<lb ed="#V" n="74" break="no"/>cumstantia temporis quandoque
+            superad<lb ed="#V" n="75" break="no"/>dit aliquam bonitatem praemio diversam,
+            <lb ed="#V" n="76"/>ut si debitor anticiparit solutionem
+            credi<lb ed="#V" n="77" break="no"/>tori ob aliquod ejus speciale obsequium,
+            <lb ed="#V" n="78"/>ad quam anticipationem alias ex pacto et
+            <lb ed="#V" n="79"/>lege non tenebatur. Ex quibus patet
+            con<lb ed="#V" n="80" break="no"/>clusio.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Disputatur etiam de aliis circumstantiis
+            <lb ed="#V" n="82"/>Incarnationis; potissimae sunt
+            descenden<lb ed="#V" n="83" break="no"/>tia secundum carnem ex Patribus
+            Abraha<lb ed="#V" n="84" break="no"/>mo, Davide et aliis, quibus promissus est
+            <lb ed="#V" n="85"/>Christus, an illam meruerint. Item, de
+            cir<lb ed="#V" n="86" break="no"/>cumstantia Maternitatis, an eam meruerit
+            <lb ed="#V" n="87"/>Beata Virgo de congruo vel condigno.
+            <lb ed="#V" n="88"/>Item, de circumstantia videndi et
+            annun<pb ed="#V" n="262"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tiandi Christum i carne, in quibus variant
+            <lb ed="#V" n="2"/>Doctores. Eas autem in suum) locum
+            re<lb ed="#V" n="3" break="no"/>mittimus, quia textus haec explicare non
+            <lb ed="#V" n="4"/>exigit, licet forte per consecutionem
+            ex<lb ed="#V" n="5" break="no"/>cludat ad haec meritum praecessisse, cum
+            <lb ed="#V" n="6"/>solum doceat sub dubio meritum
+            accele<lb ed="#V" n="7" break="no"/>rationis respective ad Patres, etiam ad
+            <lb ed="#V" n="8"/>Virginem; loquitur tamen de Incarnatione
+            <lb ed="#V" n="9"/>quoad substantiam, et ea quae proxime et
+            <lb ed="#V" n="10"/>intrinsece ipsam afficiunt in effectu, non
+            <lb ed="#V" n="11"/>autem de extrinsecis, quae spectant ad
+            cau<lb ed="#V" n="12" break="no"/>sas ejus.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Quidquid dicatur, textus non repugnat;
+            <lb ed="#V" n="14"/>si enim dicatur nullum praecessisse
+            meri<lb ed="#V" n="15" break="no"/>tum, responderi potest speciatim ad illa
+            <lb ed="#V" n="16"/>loca, quae pro merito Beatae virginis
+            affe<lb ed="#V" n="17" break="no"/>runtur, quibus dicitur digna fuisse ut
+            <lb ed="#V" n="18"/>fieret mater Christi, intelligenda esse
+            <lb ed="#V" n="19"/>quantum ad dignitatem excellentiae et
+            <lb ed="#V" n="20"/>perfectionis, ad quam partim ex meritis,
+            <lb ed="#V" n="21"/>partim ex privilegiis collatis absque merito
+            <lb ed="#V" n="22"/>pervenit, non autem de merito rigorose
+            <lb ed="#V" n="23"/>sumpto, quod supponit pactum et
+            acce<lb ed="#V" n="24" break="no"/>ptationem specialem aut generalem
+            re<lb ed="#V" n="25" break="no"/>spectu talis praemii, quia illud pactum
+            <lb ed="#V" n="26"/>praecessisse non constat, aut scientiam
+            <lb ed="#V" n="27"/>ejus, quod ex modo Incarnationis et
+            <lb ed="#V" n="28"/>Annuntiationis atque colloquio cum Angelo
+            <lb ed="#V" n="29"/>magis liquet: Quomodo fiet istud, quoniam
+            <lb ed="#V" n="30"/>virum non cognosco, etc. Cogitavit qualis
+            es<lb ed="#V" n="31" break="no"/>set illa salutatio, etc. Et quamvis in
+            Prophe<lb ed="#V" n="32" break="no"/>tis legerit, quod Virgo foret mater Christi.
+            <lb ed="#V" n="33"/>Ecce Virgo concipiet et pariet filium, etc.
+            <lb ed="#V" n="34"/>humilitas ejus non permisit ut id in
+            <lb ed="#V" n="35"/>seipsa complendum fore praesumeret sine
+            <lb ed="#V" n="36"/>speciali revelatione ejus, quam non
+            vide<lb ed="#V" n="37" break="no"/>tur habuisse ex praedictis Evangelii
+            ver<lb ed="#V" n="38" break="no"/>bis; sine autem speciali scientia non
+            po<lb ed="#V" n="39" break="no"/>tuit habuisse meritum explicitum respectu
+            <lb ed="#V" n="40"/>talis praemii, atque ad ipsam directum,
+            <lb ed="#V" n="41"/>cum fuerit particulare, et non lege
+            statu<lb ed="#V" n="42" break="no"/>tum.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Quod si teneatur oppositum,
+            explican<cb ed="#V" n="b"/><lb ed="#V" n="44" break="no"/>dus est textus ut supra praemissum est. Et
+            <lb ed="#V" n="45"/>ad rationem jam adductam diceretur
+            suf<lb ed="#V" n="46" break="no"/>ficere scientiam illam, quam habuit ex
+            <lb ed="#V" n="47"/>lege et Prophetis, quae promiserunt
+            na<lb ed="#V" n="48" break="no"/>scendum Messiam ex Virgine, cum
+            prae<lb ed="#V" n="49" break="no"/>rogativa bonorum operum, quae fuerunt
+            <lb ed="#V" n="50"/>in Virgine, quamvis ea specialiter non
+            <lb ed="#V" n="51"/>direxerit in eum finem, ut in seipsa
+            pro<lb ed="#V" n="52" break="no"/>missio compleretur; direxit tamen sua
+            <lb ed="#V" n="53"/>opera orando, ut promissio facta
+            comple<lb ed="#V" n="54" break="no"/>retur, quod sufficit ad meritum in ipsa
+            <lb ed="#V" n="55"/>salvandum, sicut salvatur in ea meritum
+            <lb ed="#V" n="56"/>respectu accelerationis ejus, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>(g) Ad ultimum dico, quod si illud vulnus
+            <lb ed="#V" n="58"/>fuit inflictum, etc. Quidam dixerunt, ut
+            <lb ed="#V" n="59"/>Petrus Joannis, vulnus laterale Christi in
+            <lb ed="#V" n="60"/>vita ei fuisse inflictum, ac proinde verba
+            <lb ed="#V" n="61"/>Joannis per recapitulationem dicta non
+            <lb ed="#V" n="62"/>servare ordinem narrationis. Definitum
+            <lb ed="#V" n="63"/>est in Concilio Viennensi Clementina de
+            <lb ed="#V" n="64"/>Summa Trinitate, et fide Catholica,
+            Joan<lb ed="#V" n="65" break="no"/>nem servasse ordinem gestorum sua
+            nar<lb ed="#V" n="66" break="no"/>ratione, ac proinde vulnus laterale post
+            <lb ed="#V" n="67"/>mortem inflictum fuisse. Haec definitio
+            <lb ed="#V" n="68"/>contigit post mortem Doctoris, antea
+            au<lb ed="#V" n="69" break="no"/>tem illa interpretatio falsa licet, videtur;
+            <lb ed="#V" n="70"/>fuisse tolerata, vel saltem non fuit in
+            ter<lb ed="#V" n="71" break="no"/>minis ab Ecclesia damnata. Itaque illa
+            <lb ed="#V" n="72"/>particula si, non dubitative intelligitur,
+            <lb ed="#V" n="73"/>sed permissive, atque ad excusandum
+            <lb ed="#V" n="74"/>tractatum, qui ad hunc locum non spectat,
+            <lb ed="#V" n="75"/>quia Doctor infra dist. sequenti quaest. 3.
+            <lb ed="#V" n="76"/>responsione ad ultimum, supponit
+            contra<lb ed="#V" n="77" break="no"/>rium cum Innocentio, quod perinde hic
+            <lb ed="#V" n="78"/>etiam insinuat in illis verbis, ut narrat
+            <lb ed="#V" n="79"/>Evangelium, supple Joannis, de quo infra
+            <lb ed="#V" n="80"/>loco praedicto: Et qui vidit, testimonium
+            <lb ed="#V" n="81"/>perhibuit veritati, etc. supponit ergo
+            ordi<lb ed="#V" n="82" break="no"/>nem servasse narrationis.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

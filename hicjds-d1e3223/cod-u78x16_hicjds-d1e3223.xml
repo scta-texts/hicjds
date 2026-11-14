@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 1, Pars 3, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 1, Pars 3, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="140"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3223"><!-- hicjds-b4d1p3q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum sit possibile aliquod sacramentum quantumcumque perfectum habere causalitatem activam respectu gratiae conferendae</head>
+        <!-- <div alias="hiq-d1q4-p1"> -->
+          <p>
+            <lb ed="#V" n="27" type="fixed=140"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Postquam quaestione secunda egit de
+            <lb ed="#V" n="29"/>essentia et definitione Sacramenti, de
+            cu<lb ed="#V" n="30" break="no"/>jus ratione esse docuit continere suum
+            <lb ed="#V" n="31"/>significatum virtute et practice, quaestione
+            <lb ed="#V" n="32"/>autem tertia, de ejus institutione et
+            certi<lb ed="#V" n="33" break="no"/>tudine in significando, et auctore. Item,
+            <lb ed="#V" n="34"/>quod in omni statu viae fuerit, et
+            secun<lb ed="#V" n="35" break="no"/>dum diversas leges diversum
+            Sacramen<lb ed="#V" n="36" break="no"/>tum; tandem quaestione quarta quaerit,
+            <lb ed="#V" n="37"/>utrum illa efficacia Sacramenti possit
+            es<lb ed="#V" n="38" break="no"/>se physica respectu gratiae. Quoniam
+            au<lb ed="#V" n="39" break="no"/>tem efficientia et causalitas, colligitur ex
+            <lb ed="#V" n="40"/>principio formali causandi, sine quo
+            ne<lb ed="#V" n="41" break="no"/>quit subsistere, conjungit quaestionem
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="42"/>quintam, quia resolutione etiam conjuncta
+            <lb ed="#V" n="43"/>est, et in ea quaerit, an possibile sit in
+            <lb ed="#V" n="44"/>sacramento esse virtutem supernaturalem
+            <lb ed="#V" n="45"/>physicam causandi effectum.
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>Dividitur ergo in octo membra:
+            Pri<lb ed="#V" n="47" break="no"/>mum continet opinionem affirmativam»
+            <lb ed="#V" n="48"/>pro prima quaestione. Secundum
+            conse<lb ed="#V" n="49" break="no"/>quenter affirmativam pro secunda;
+            utra<lb ed="#V" n="50" break="no"/>que est D. Thomae. Tertium,
+            impugnati<lb ed="#V" n="51" break="no"/>onem prioris. Quartum, impugnationem
+            <lb ed="#V" n="52"/>posterioris, Quintum, resolutionem
+            pro<lb ed="#V" n="53" break="no"/>priae sententiae in primo quaesito. Sextum
+            <lb ed="#V" n="54"/>similiter resolutionem in secundo quaesito.
+            <lb ed="#V" n="55"/>Septimum et octavum responsiones ad
+            ar<lb ed="#V" n="56" break="no"/>gumenta utriusque quaestionis suo ordine
+            <lb ed="#V" n="57"/>quo proponuntur. Vide Scholiastem per
+            <lb ed="#V" n="58"/>singula membra in Summario; in his
+            se<lb ed="#V" n="59" break="no"/>quemur ordinem praefixum textus.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

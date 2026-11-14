@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 3, Quaestio 3</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 3, Quaestio 3</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="324"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3330"><!-- hicjds-b4d3q3 -->
+        <head>Quaestio 3</head>
+        <head type="question-title">Utrum sola aqua naturalis pura sit materia conveniens baptismi</head>
+        <!-- <div alias="hiq-d3q3-p1"> -->
+          <p>
+            <pb ed="#V" n="324"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=324"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="2"/>In hac quaestione agitur de materia
+            <lb ed="#V" n="3"/>Baptismi, tam remota quam proxima,
+            <lb ed="#V" n="4"/>quae est altera pars Sacramenti, juxta
+            <lb ed="#V" n="5"/>sententiam praemissam, in' prima
+            quae<lb ed="#V" n="6" break="no"/>stione, vel totum fundamentum juxta
+            <lb ed="#V" n="7"/>modum exponendi sententiam Magistri.
+            <lb ed="#V" n="8"/>Primo suppositis argumentis ad
+            opposi<lb ed="#V" n="9" break="no"/>tum explicat materiam utramque.
+            Se<lb ed="#V" n="10" break="no"/>cundo conditiones requisitas ad
+            materi<lb ed="#V" n="11" break="no"/>am remotam, et respondet argumentis,
+          </p>
+        <!-- </div>
+    <div alias="hiq-d3q3-p2"> -->
+          <p>
+            <lb ed="#V" n="15" type="fixed=325"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>(a) Hic dicendum est etc. Praemissa
+            <lb ed="#V" n="17"/>acceptione materiae duplici, sive in
+            <lb ed="#V" n="18"/>ordine ad verba, quae habent rationem
+            <lb ed="#V" n="19"/>formae, sive in ordine ad significationem
+            <lb ed="#V" n="20"/>ut formale consistens vel dividendo
+            <lb ed="#V" n="21"/>ipsam materiam, ut condistinguitur
+            <lb ed="#V" n="22"/>contra verba, in proximam et
+            remo<lb ed="#V" n="23" break="no"/>tam. Conclusio Doctoris est, materiam
+            <lb ed="#V" n="24"/>remotam Baptismi hoc modo sumptam
+            <lb ed="#V" n="25"/>esse aquam naturalem, proximam vero
+            <lb ed="#V" n="26"/>ablutionem.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>Circa materiam remotam fuerunt
+            ali<lb ed="#V" n="28" break="no"/>quot errores. Gnostici negabant aquam
+            <lb ed="#V" n="29"/>sensibilem esse materiam Baptismi, vel
+            <lb ed="#V" n="30"/>adhibendam in mysterio. Irenaeus
+            hoe<lb ed="#V" n="31" break="no"/>t resi 1. lib. 18. Idem dicebant
+            Seleuci<lb ed="#V" n="32" break="no"/>ani apud Augustinum haeresi 59.
+            Pauli<lb ed="#V" n="33" break="no"/>tiani, ut refert Euthymius 2, part.
+            Pano<lb ed="#V" n="34" break="no"/>plice titulo 21. qui proinde solis verbis
+            <lb ed="#V" n="35"/>baptizabant; eumdem docebant Manichaei
+            <lb ed="#V" n="36"/>ut Augustinus ait hoeresi 46. asserentes
+            <lb ed="#V" n="37"/>aquam a malo Deo fuisse creatam; et
+            <lb ed="#V" n="38"/>licet id primum docuerint Marcionistae,
+            <lb ed="#V" n="39"/>aquam tamen ex praecepto ipsi
+            adhi<lb ed="#V" n="40" break="no"/>bebant ut asserit Theodoretus lib. 1.
+            <lb ed="#V" n="41"/>haeretic. fabularum. Illi priores aquam
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="42"/>metaphorice intelligendam putabant,
+            Joan<lb ed="#V" n="43" break="no"/>nis 3. Nisi quis renatus fuerit ex aqua
+            <lb ed="#V" n="44"/>et Spiritu, etc. ut alias quandoque
+            su<lb ed="#V" n="45" break="no"/>mitur in Scriptura: Exibunt de ventre
+            <lb ed="#V" n="46"/>ejus flumina aquae vivae. Errarunt tamena
+            <lb ed="#V" n="47"/>Jacobitae, qui non in aqua, sed in igne
+            <lb ed="#V" n="48"/>Baptismum dabant, impresso stigmate
+            <lb ed="#V" n="49"/>fronti in formam Crucis ferro candente.
+            <lb ed="#V" n="50"/>Sanderus lib. 3. de visibili Monarchia,
+            <lb ed="#V" n="51"/>hoeresi 113. Prateolus verbo Jacobitae.
+            <lb ed="#V" n="52"/>Qnidquid sit de caeremonia, fuit error
+            <lb ed="#V" n="53"/>Seleuci, et Hermae Galatarum.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Fundamentum hujus erroris fuit, quod
+            <lb ed="#V" n="55"/>Christus dicitur baptizare in Spiritu
+            san<lb ed="#V" n="56" break="no"/>cto et igni, Joannes autem in aqua,
+            Mat<lb ed="#V" n="57" break="no"/>thoei 3. Lucae 3. Joannis et Marci 1. Act.
+            <lb ed="#V" n="58"/>1. Fuerunt et Flagellantes, qui errabant
+            <lb ed="#V" n="59"/>per vicos, et flagellis seipsos concidentes
+            <lb ed="#V" n="60"/>Baptismum in sanguine fieri contendebant.
+            <lb ed="#V" n="61"/>Witclef apud Waldensem Tomo de
+            Sa<lb ed="#V" n="62" break="no"/>cramentalibus, illud Joan. 3. Nisi quis
+            <lb ed="#V" n="63"/>renatus fuerit ex aqua, etc. significare
+            <lb ed="#V" n="64"/>dicebat passionem Christi, propter aquam
+            <lb ed="#V" n="65"/>quae exivit de latere ejus; apud
+            Luthe<lb ed="#V" n="66" break="no"/>rum in Symposiacis, id est, colloquiis i
+            <lb ed="#V" n="67"/>convivialibus, cap. 17. incertum est an
+            <lb ed="#V" n="68"/>aqua, vel cervisia loco aquae sufficiat,
+            <lb ed="#V" n="69"/>ut refert Bellarminus lib. 1. de Baptismo, 1
+            <lb ed="#V" n="70"/>cap.2.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Conclusio tamen posita est de fide,
+            de<lb ed="#V" n="72" break="no"/>finita a Tridentino sess.7. de Baptismo,
+            <lb ed="#V" n="73"/>can. 2. Lateranen. in cap. Firmiter, de
+            <lb ed="#V" n="74"/>Summa Trinitate, et fide Catholica.
+            <lb ed="#V" n="75"/>Florentino in decreto unionis
+            Armeno<lb ed="#V" n="76" break="no"/>rum; patet Joannis 3. Nisi quis renatus
+            <lb ed="#V" n="77"/>fuerit etc. et cap. 4. Act.8. Ecce aqua,
+            <lb ed="#V" n="78"/>quis prohibet me baptizari. Act. 10.
+            <lb ed="#V" n="79"/>Numquid aquam quis prohibere potest,
+            <lb ed="#V" n="80"/>ut non baptizentur hi, qui Spiritum
+            san<lb ed="#V" n="81" break="no"/>ctum acceperunt, sicut et nos. etc. ad
+            <lb ed="#V" n="82"/>Ephesios 5. Mundans eam lavacro aquae
+            <lb ed="#V" n="83"/>verbo vitae, etc. ubi omnes interpretes et
+            <lb ed="#V" n="84"/>Patres eamdem veritatem docent.
+            Cle<lb ed="#V" n="85" break="no"/>mens Romanus epistola 4. Justinus orat.
+            <pb ed="#V" n="326"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ad Antoninum Pium, Irenaeus lib. 3.
+            <lb ed="#V" n="2"/>contra hoereses, cap. 19. Clemens
+            Ale<lb ed="#V" n="3" break="no"/>xandrinus Paedagogi, cap. 6. Origenes
+            <lb ed="#V" n="4"/>hom. 14. in Lucam, Nicenum Concilium
+            <lb ed="#V" n="5"/>lib. 3. de sancto Baptismate. Cyrillus
+            <lb ed="#V" n="6"/>Jerosolymitanus Catechesi 3. Basilius lib.
+            <lb ed="#V" n="7"/>de Spiritu Sancto, c. 14. et 15.
+            Nazian<lb ed="#V" n="8" break="no"/>zenus orat. 40. Chrysostomus saepe
+            ho<lb ed="#V" n="9" break="no"/>mil. 25. in Joannem. Damascenus lib. 2.
+            <lb ed="#V" n="10"/>de fide orthodoxa, cap. 9. Ex Latinis
+            <lb ed="#V" n="11"/>Martialis Papa epist. ad Tolosanos, cap. 1.
+            <lb ed="#V" n="12"/>et 4. Tertullianus lib de Baptismo, cap. 4.
+            <lb ed="#V" n="13"/>Cyprianus epist. 65. et 76. Melchiades
+            <lb ed="#V" n="14"/>Papa in epist. ad Episcopos in Hispania,
+            <lb ed="#V" n="15"/>Hilarius in Psalmum 65. Ambrosius lib.
+            <lb ed="#V" n="16"/>2. de Poenitentia, cap. 2. serm. 31. in
+            <lb ed="#V" n="17"/>Lucae 22. de Sacramentis, lib. 1. cap. 4.
+            <lb ed="#V" n="18"/>de iis qui initiantur, cap. 3. et cap. 9.
+            <lb ed="#V" n="19"/>Hieronymus in epist. ad Oceanum, quoe
+            <lb ed="#V" n="20"/>est 83. Augustinus tract. 80. in
+            Joan<lb ed="#V" n="21" break="no"/>nem, et alibi saepe, Gregorius lib. 4.
+            mo<lb ed="#V" n="22" break="no"/>ralium, cap. 3. et reliqui omnes tam
+            Pa<lb ed="#V" n="23" break="no"/>tres quam Doctores.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Quod autem delirant Seleuciani de igne
+            <lb ed="#V" n="25"/>tanquam materia Baptismi ex Matthoei
+            <lb ed="#V" n="26"/>3. etc. non intelligitur ignis elementaris,
+            <lb ed="#V" n="27"/>sed Spiritus sanctus, qui, ut Patres dicunt,
+            <lb ed="#V" n="28"/>sanctificat aquas. Alii vero intelligunt de
+            <lb ed="#V" n="29"/>missione visibili Spiritus sancti in
+            Apo<lb ed="#V" n="30" break="no"/>stolos in die Pentecostes, ut significatur
+            <lb ed="#V" n="31"/>Act. 1. Alii de missione etiam invisibili
+            <lb ed="#V" n="32"/>per Baptismum in Spiritum, quo distinctio
+            <lb ed="#V" n="33"/>denotetur inter Baptismum Christi et
+            Jo<lb ed="#V" n="34" break="no"/>annis, qui fuit in sola aqua. Aquam etiam
+            <lb ed="#V" n="35"/>sumi allegorice seu mystice in illo loco
+            <lb ed="#V" n="36"/>Joannis 3. est erroneum, et contra
+            sen<lb ed="#V" n="37" break="no"/>sum totius Ecclesiae et Patrum, nam
+            <lb ed="#V" n="38"/>cap. 4. baptizabant discipuli Christi in
+            <lb ed="#V" n="39"/>aqua, non alio Baptismo quam Christi, ut
+            <lb ed="#V" n="40"/>in quaestione sequenti videbitur; et ideo in
+            <lb ed="#V" n="41"/>aqua naturali, quam hanc ipsam
+            designa<lb ed="#V" n="42" break="no"/>vit Christus Joannis 3. docens
+            necessita<lb ed="#V" n="43" break="no"/>tem Baptismi a se instituti, et materiam
+            <lb ed="#V" n="44"/>in qua institutus est.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>(b) Et intelligitur ablutio hic, etc. Dicit
+            <lb ed="#V" n="46"/>ablutionem formalem non esse
+            mate<lb ed="#V" n="47" break="no"/>riam proximam Sacramenti, sed activam.
+            <lb ed="#V" n="48"/>Aliqui inde sumpserunt occasionem
+            inter<lb ed="#V" n="49" break="no"/>pretandi ipsum, quasi asserat
+            fundamen<lb ed="#V" n="50" break="no"/>tum significationis sacramentalis
+            consiste<lb ed="#V" n="51" break="no"/>re in ablutione qua est actio, non vero in
+            <lb ed="#V" n="52"/>ablutione, qua est passio, et recipitur in
+            <lb ed="#V" n="53"/>subjectum; ita Suarez intelligit Doctorem,
+            <lb ed="#V" n="54"/>Sed hanc quaestionem infra dist. 6. q. 2.
+            <lb ed="#V" n="55"/>8 Ex illo, definit Doctor magis
+            consi<lb ed="#V" n="56" break="no"/>stere in passiva ablutione, qua recipitur in
+            <lb ed="#V" n="57"/>subjecto, quod proprie abluitur tam
+            ma<lb ed="#V" n="58" break="no"/>terialiter quam etiam spiritualiter;
+            intel<lb ed="#V" n="59" break="no"/>ligitur tamen passiva, ut est ab agente.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Hic autem intendit tantum ablutionem
+            <lb ed="#V" n="61"/>necessario esse a ministro, sive
+            concipi<lb ed="#V" n="62" break="no"/>atur hoc vel illo modo, nam si
+            contin<lb ed="#V" n="63" break="no"/>gat fieri ab alio quam a proferente verba,
+            <lb ed="#V" n="64"/>nihil fit; et ablutio passiva etiam hoc
+            <lb ed="#V" n="65"/>modo est activa, nam licet passive
+            suma<lb ed="#V" n="66" break="no"/>tur, ut refertur ad subjectum recipiens,
+            <lb ed="#V" n="67"/>tamen ut est ab agente active sumitur ad
+            <lb ed="#V" n="68"/>differentiam ejus, quae per alium fieret,
+            <lb ed="#V" n="69"/>aut per casum. Et in quaestione
+            praece<lb ed="#V" n="70" break="no"/>dente responsione 2. ad. 3. dicit quod
+            <lb ed="#V" n="71"/>verbum baptizo non significat ipsum
+            Sa<lb ed="#V" n="72" break="no"/>cramentum, sed ipsum actum ablutionis,
+            <lb ed="#V" n="73"/>nempe ut est ab agente in subjectum.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Perinde tamen est, sive active, sive
+            <lb ed="#V" n="75"/>passive proferatur verbum baptizo, aut
+            <lb ed="#V" n="76"/>baptizetur, ut proferunt Graeci, quia
+            <lb ed="#V" n="77"/>utroque modo denotari potest actus, ut ab
+            <lb ed="#V" n="78"/>agente est, hic et nunc proferente formam
+            <lb ed="#V" n="79"/>et exercente actum. Significatio
+            sacra<lb ed="#V" n="80" break="no"/>mentalis consistit in ablutione subjecti
+            <lb ed="#V" n="81"/>ab agente vel agentis circa subjectum;
+            <lb ed="#V" n="82"/>utrumque ergo horum pertinet ad
+            ma<lb ed="#V" n="83" break="no"/>teriam Sacramenti, ut ablutio sit
+            transiti<lb ed="#V" n="84" break="no"/>va, et importet utrumque ordinem, tam ad
+            <lb ed="#V" n="85"/>abluentem quam ad subjectum quod
+            <lb ed="#V" n="86"/>abluitur.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>Dubitari solet, an ritus baptizandi trina
+            <lb ed="#V" n="88"/>immersione spectet ad essentiam Baptismi?
+            <pb ed="#V" n="327"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>et an una immersio sufficiat?
+            Supponi<lb ed="#V" n="2" break="no"/>mus quantum est de necessitate ministri
+            <lb ed="#V" n="3"/>secluso casu, eum teneri ad ritum
+            prae<lb ed="#V" n="4" break="no"/>scriptum suae Ecclesiae. Trina immersio,
+            <lb ed="#V" n="5"/>ejusque usus frequens est apud antiquos
+            <lb ed="#V" n="6"/>Patres; eam tradit canon Apostolicus 49.
+            <lb ed="#V" n="7"/>inter Canones Apostolorum, et habetur de
+            <lb ed="#V" n="8"/>consecr. dist. 4. can. Si quis
+            Episco<lb ed="#V" n="9" break="no"/>pus, etc. Dionysius Areopagita
+            Ecclesia<lb ed="#V" n="10" break="no"/>sticae hierarchiae, c. 2. Origenes lib. 2. de
+            <lb ed="#V" n="11"/>principiis, Athanasius quaest. 124. Cyrillus
+            <lb ed="#V" n="12"/>Jerosolymitanus Catechesi 2. Basilius
+            <lb ed="#V" n="13"/>lib. 2. de Spiritu sancto, c. 15.
+            Gregori<lb ed="#V" n="14" break="no"/>us Nyssenus oratione Catechistica,
+            <lb ed="#V" n="15"/>cap. 35. et oratione de Sacro Baptismate,
+            <lb ed="#V" n="16"/>supponit Synodus Constantinopolitana
+            pri<lb ed="#V" n="17" break="no"/>ma can. 7. docet Chrysostomus homil.
+            <lb ed="#V" n="18"/>de fide in Patrem et Filium et
+            Spiri<lb ed="#V" n="19" break="no"/>tum sanctum, et homil. 24. in Joannem.
+            <lb ed="#V" n="20"/>Trisagio, et lib. 4. fidei orthodoxce, cap.
+            <lb ed="#V" n="21"/>10. Ex Latinis Tertullianus, lib. de corona
+            <lb ed="#V" n="22"/>militis cap. 3. et adversus Praxeam,
+            <lb ed="#V" n="23"/>cap. 16. Ambrosius lib. 2. de
+            Sacramen<lb ed="#V" n="24" break="no"/>tis, cap. 7. Hieronymus dialogo
+            adver<lb ed="#V" n="25" break="no"/>sus Luciferianos, cap. 4. et in cap. 4.
+            <lb ed="#V" n="26"/>ad Ephesios, Augustinus serm. 19. de
+            <lb ed="#V" n="27"/>tempore, et serm. 201. et homil. 4. Leo 1.
+            <lb ed="#V" n="28"/>epist. 4. cap. 3. Pelagius cap. Multi, de
+            <lb ed="#V" n="29"/>consecratione, dist. 4. Gregorius Magnus
+            <lb ed="#V" n="30"/>epist. 41. Concil. Toletan. IV. cap. 1.
+            Al<lb ed="#V" n="31" break="no"/>cuinus de officiis Ecclesiasticis, cap. 19.et
+            <lb ed="#V" n="32"/>alii posteriores. Noster Doctor in
+            Reporta<lb ed="#V" n="33" break="no"/>tis quaest. 4. hujus, docet eam
+            necessa<lb ed="#V" n="34" break="no"/>riam esse necessitate ministri, explicans
+            <lb ed="#V" n="35"/>varios casus, in quibus alioquin
+            excusa<lb ed="#V" n="36" break="no"/>tur. Ibidem etiam tradit mysterium
+            hu<lb ed="#V" n="37" break="no"/>jus trinae immersionis esse, quia
+            baptiza<lb ed="#V" n="38" break="no"/>mur in Christi mortem et sepulturam, qua
+            <lb ed="#V" n="39"/>triduo mansit in sepulchro. Hanc
+            signifi<lb ed="#V" n="40" break="no"/>cationem tradit Cyrillus Jerosolymitanus,
+            <lb ed="#V" n="41"/>Nyssenus orat. de Sancto Baptismate,
+            <lb ed="#V" n="42"/>Ambrosius, Leo Papa et multi alii.
+            Trini<lb ed="#V" n="43" break="no"/>tatis mysterium significare docet
+            Diony<lb ed="#V" n="44" break="no"/>sius, et Origenes, et Hieronymus;
+            utrum<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>que designari docet Augustinus ultimo
+            <lb ed="#V" n="46"/>loco, et Gregorius Magnus,
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Quamvis autem aliqui Patres trinam
+            <lb ed="#V" n="48"/>immersionem ad traditionem Apostolicam
+            <lb ed="#V" n="49"/>referunt, non ita intelligendum est, ut
+            <lb ed="#V" n="50"/>necessitate Sacramenti exigatur, quin una:
+            <lb ed="#V" n="51"/>immersio, seu etiam aspersio, vel infusio
+            <lb ed="#V" n="52"/>sufficiat; est communis Theologorum in
+            <lb ed="#V" n="53"/>hac dist. et cum S. Thom. quaest. 66.
+            <lb ed="#V" n="54"/>art. 7. docet Cyprianus epist. 7. alias. 76.
+            <lb ed="#V" n="55"/>qui aspersionem et profusionem tanquam
+            <lb ed="#V" n="56"/>sufficientem docet; supponit Tertullianus
+            <lb ed="#V" n="57"/>lib. de peenitentia, eap. 6. definit
+            Grego<lb ed="#V" n="58" break="no"/>gorius Magnus in epist. ad Leandrum,
+            <lb ed="#V" n="59"/>quae est lib. 1. epistolar. 41. et habetur
+            <lb ed="#V" n="60"/>canone de Trina, de consecrat. dist. 4.
+            <lb ed="#V" n="61"/>qui utrumque ritum, seu una seu tribus
+            <lb ed="#V" n="62"/>immersionibus baptizandi approbat, quem
+            <lb ed="#V" n="63"/>sequitur Toletanum IV. Non esse vero
+            <lb ed="#V" n="64"/>trinam immersionem necessariam ex
+            in<lb ed="#V" n="65" break="no"/>stitutione Christi supponit canon 49.
+            Apo<lb ed="#V" n="66" break="no"/>stolorum, quia Trinitatis invocationem
+            <lb ed="#V" n="67"/>docet necessariam ex institutione Christi
+            <lb ed="#V" n="68"/>Matthoei ultimo, quamvis reprehenderit
+            <lb ed="#V" n="69"/>unam immersionem factam in mortem
+            <lb ed="#V" n="70"/>Christi, et trinam fieri praecipiat;
+            insti<lb ed="#V" n="71" break="no"/>tutionem Christi refert ad Baptismum in
+            <lb ed="#V" n="72"/>invocatione trium personarum, non in
+            <lb ed="#V" n="73"/>trinam immersionem.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Sic etiam Pelagius Papa supra citatus,
+            <lb ed="#V" n="75"/>agens de eo quod necessitate Sacramenti
+            <lb ed="#V" n="76"/>institutum est, docet baptizari debere in
+            <lb ed="#V" n="77"/>nomine Trinitatis, quamvis immersionem
+            <lb ed="#V" n="78"/>trinam fieri debere supponat, non tamen
+            <lb ed="#V" n="79"/>refert eam ad Christi institutionem, sicut
+            <lb ed="#V" n="80"/>revera in ea non invenitur, nec Joannis 3.
+            <lb ed="#V" n="81"/>nec Matthaei ultimo, neque ullibi ex
+            sa<lb ed="#V" n="82" break="no"/>cra Scriptura colligitur necessario
+            fa<lb ed="#V" n="83" break="no"/>cienda.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>Quod amplius est Actorum 2. uno die
+            <lb ed="#V" n="85"/>baptizati sunt tria millia, quod magis
+            prae<lb ed="#V" n="86" break="no"/>sumitur factum per aspersionem, quam
+            <lb ed="#V" n="87"/>per trinam immersionem, quia tempus
+            <lb ed="#V" n="88"/>non suppetebat post horam diei sextam.
+            <pb ed="#V" n="328"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Idem, in actis Laurentii martyris legitur
+            <lb ed="#V" n="2"/>aspersione baptizasse instante suo
+            mar<lb ed="#V" n="3" break="no"/>tyrio.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Accedit denique ratio et congruentia,
+            <lb ed="#V" n="5"/>quia ideo Baptismus institutus est in aqua
+            <lb ed="#V" n="6"/>ut materia ejus propter necessitatem
+            es<lb ed="#V" n="7" break="no"/>set pervia, data est cuilibet potestas
+            ba<lb ed="#V" n="8" break="no"/>ptizandi valide ex eadem ratione; sed
+            <lb ed="#V" n="9"/>multi sunt casus propter infirmitatem, aut
+            <lb ed="#V" n="10"/>defectum aquae, in quibus trina immersio
+            <lb ed="#V" n="11"/>non esset possibilis, ergo non fuit
+            con<lb ed="#V" n="12" break="no"/>gruum ad eam ligari Sacramentum.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Deinde sive dicatur denotare tres
+            per<lb ed="#V" n="14" break="no"/>sonas, sive etiam sepulturam Christi, non
+            <lb ed="#V" n="15"/>requiritur, quia tres personae perfectius
+            <lb ed="#V" n="16"/>et expressius per formam Baptismi, quam
+            <lb ed="#V" n="17"/>per trinam immersionem denotantur; et
+            <lb ed="#V" n="18"/>ipse actus baptizandi sub invocatione
+            <lb ed="#V" n="19"/>trium personarum sufficienter
+            significa<lb ed="#V" n="20" break="no"/>tur per formam. Ex Apostolo desumpta
+            <lb ed="#V" n="21"/>similitudo mortis et sepulturae Christi
+            <lb ed="#V" n="22"/>sufficienter denotatur per unam
+            immer<lb ed="#V" n="23" break="no"/>sionem, quia maxime intelligitur de morte
+            <lb ed="#V" n="24"/>peccati, et resurrectione ab ipso, ut ipse
+            <lb ed="#V" n="25"/>Paulus insinuat ad Roman. 6. ergo nulla
+            <lb ed="#V" n="26"/>congruitate trina immersio poni potest
+            <lb ed="#V" n="27"/>ad essentiam Sacramenti spectare.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Neque obstat epistola Cornelii apud
+            <lb ed="#V" n="29"/>Eusebium de Baptismo Novati sub una
+            <lb ed="#V" n="30"/>mersione, revocantis in dubium
+            Bapti<lb ed="#V" n="31" break="no"/>smum ejus: Si modo, inquit, talem
+            ho<lb ed="#V" n="32" break="no"/>minem Baptismum accepisse dicendum
+            <lb ed="#V" n="33"/>sit, etc, quia de ritu non dubitat, sed de
+            <lb ed="#V" n="34"/>fructu Baptismi in homine perverso.
+            Obji<lb ed="#V" n="35" break="no"/>citur etiam canon praefatus Apostolorum,
+            <lb ed="#V" n="36"/>ubi reprobatur unica immersio in mortem
+            <lb ed="#V" n="37"/>Christi, sicut et canone 7. primae Synodi
+            <lb ed="#V" n="38"/>Constantinopolitanae damnantur
+            Euno<lb ed="#V" n="39" break="no"/>miani, quod in una immersione, et in
+            <lb ed="#V" n="40"/>mortem Christi non invocata Trinitate
+            <lb ed="#V" n="41"/>baptizarint; de quibus Theodoretus, seu
+            <lb ed="#V" n="42"/>de eorum auctore Eunomio dicit, quod
+            <lb ed="#V" n="43"/>sancti Baptismi ritum a Christo et
+            Apo<lb ed="#V" n="44" break="no"/>stolis traditum subvertit.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Respondetur ex dictis, dari Baptismum
+            <lb ed="#V" n="46"/>una immersione, et in nomine Christi
+            <lb ed="#V" n="47"/>mortui, seu in mortem Christi fuisse
+            re<lb ed="#V" n="48" break="no"/>probatum; tum quia forma
+            subverte<lb ed="#V" n="49" break="no"/>batur, quae fuit Matthoei ultimo, et hanc
+            <lb ed="#V" n="50"/>rationem damnationis adducit canon
+            <lb ed="#V" n="51"/>Apostolorum; tum quia ritus novus
+            indu<lb ed="#V" n="52" break="no"/>cebatur ad finem erroris, ut Eunomiani
+            <lb ed="#V" n="53"/>faciebant, qui negabant Trinitatem, et ad
+            <lb ed="#V" n="54"/>professionem talis erroris utebantur
+            tan<lb ed="#V" n="55" break="no"/>tum una immersione, sicut postmodum
+            <lb ed="#V" n="56"/>Ariani trina ad professionem erroris et
+            <lb ed="#V" n="57"/>separationis trium personarum in natura
+            <lb ed="#V" n="58"/>et consubstantialitate, ut refert Gregorius
+            <lb ed="#V" n="59"/>Magnus supra.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Hinc Synodus Constantinopolitana
+            do<lb ed="#V" n="61" break="no"/>cet Eunomianos redeuntes ad Ecclesiam
+            <lb ed="#V" n="62"/>esse baptizandos. Unde illa una immersio
+            <lb ed="#V" n="63"/>Eunomianorum non fuit baptismalis, quia
+            <lb ed="#V" n="64"/>non recipiebat determinationem per
+            for<lb ed="#V" n="65" break="no"/>mam legitimam, aut etiam validam. Quia
+            <lb ed="#V" n="66"/>licet dicamus Baptismum datum in
+            no<lb ed="#V" n="67" break="no"/>mine Christi valere etiamnum, ut
+            qui<lb ed="#V" n="68" break="no"/>dam volunt, vel certe pro aliquo tempore
+            <lb ed="#V" n="69"/>valuisse currente motivo, ut causa
+            dispen<lb ed="#V" n="70" break="no"/>sationis factae, non est idem baptizare
+            <lb ed="#V" n="71"/>in nomine et potestate Christi, ac
+            bapti<lb ed="#V" n="72" break="no"/>zare in mortem Christi, vel in Christum;
+            <lb ed="#V" n="73"/>reduplicative, inquantum mortuus erat et
+            <lb ed="#V" n="74"/>sepultus. Licet enim Baptismus
+            reprae<lb ed="#V" n="75" break="no"/>sentet analogice mortem et sepulturam
+            <lb ed="#V" n="76"/>Christi, ex his tamen non sumit
+            effica<lb ed="#V" n="77" break="no"/>ciam, sicut neque Christi meritum ad
+            <lb ed="#V" n="78"/>mortem et sepulturam extenditur; et
+            <lb ed="#V" n="79"/>sicut natura humana desiit per mortem
+            <lb ed="#V" n="80"/>destructa unione animae ad corpus, sic
+            <lb ed="#V" n="81"/>etiam neque Christus fuit, id est, Filius
+            <lb ed="#V" n="82"/>subsistens in natura humana subsistente
+            <lb ed="#V" n="83"/>ex partibus unitis durante morte et
+            se<lb ed="#V" n="84" break="no"/>pultura.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Particula vero in nomine refertur ad
+            <lb ed="#V" n="86"/>Christum subsistentem, sicut et potestas
+            <lb ed="#V" n="87"/>designata, invocatio 'etiam Trinitatis
+            im<lb ed="#V" n="88" break="no"/>plicita in nomine Christi, de qua
+            Ambro<pb ed="#V" n="329"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>sius supra, requirit Christum
+            subsisten<lb ed="#V" n="2" break="no"/>tem, forma autem Baptismi exigit
+            ex<lb ed="#V" n="3" break="no"/>pressionem causae principalis, ut sit
+            <lb ed="#V" n="4"/>valida ex Florentino, et connotat
+            princi<lb ed="#V" n="5" break="no"/>pium, a quo est sanctificatio; unde si
+            di<lb ed="#V" n="6" break="no"/>catur: Baptizo te in aeternitate Patris
+            <lb ed="#V" n="7"/>et Filii et Spiritus sancti, non esset
+            <lb ed="#V" n="8"/>legitima forma, quia non quaecumque
+            <lb ed="#V" n="9"/>invocatio expressa trium personarum
+            exi<lb ed="#V" n="10" break="no"/>gitur, et sufficit ad Sacramentum; sed
+            <lb ed="#V" n="11"/>illa, qua denotantur esse causa principalis
+            <lb ed="#V" n="12"/>sanctificationis, ut supponit Florentinum
+            <lb ed="#V" n="13"/>in ratione praedicta, qua declarat per se
+            <lb ed="#V" n="14"/>spectantia ad formam substantialiter, ut
+            <lb ed="#V" n="15"/>bene Vasquez colligit disp. 140. cap. 4.
+            <lb ed="#V" n="16"/>sub finem, hoc non denotat aeternitas,
+            <lb ed="#V" n="17"/>neque immensitas trium personarum.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Ad propositum ergo applicando
+            prae<lb ed="#V" n="19" break="no"/>dictam doctrinam, haec forma: Baptizo
+            <lb ed="#V" n="20"/>te in mortem Christi, vel in Christum
+            <lb ed="#V" n="21"/>mortuum reduplicative, quae est
+            aequi<lb ed="#V" n="22" break="no"/>valens, non denotat causam subsistentem
+            <lb ed="#V" n="23"/>et principaler, sive meritoriam, quae est
+            <lb ed="#V" n="24"/>Christus subsistens et instituens
+            Sacra<lb ed="#V" n="25" break="no"/>mentum, sive principalem physicam,
+            <lb ed="#V" n="26"/>quae est Trinitas, ut importatur per
+            no<lb ed="#V" n="27" break="no"/>men Christi modo explicato, ac proinde
+            <lb ed="#V" n="28"/>defuit sufficiens forma, per quam
+            deter<lb ed="#V" n="29" break="no"/>minaretur illa ablutio, ut fieret
+            baptisma<lb ed="#V" n="30" break="no"/>lis.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Hunc eumdem errorem esse eum, quem
+            <lb ed="#V" n="32"/>damnant Apostoli, constat ex tenore
+            Ca<lb ed="#V" n="33" break="no"/>nonis, quem Eunomius postea assumpsit,
+            <lb ed="#V" n="34"/>estque secutus. Hinc sequitur hos
+            Ca<lb ed="#V" n="35" break="no"/>nones non praejudicare opinioni
+            com<lb ed="#V" n="36" break="no"/>muni, quam supra defendimus. Sequitur
+            <lb ed="#V" n="37"/>perinde ex praedictis non haberi trinam
+            <lb ed="#V" n="38"/>immersionem spectare ad necessitatem
+            <lb ed="#V" n="39"/>Sacramenti, sed fuisse introductam per
+            <lb ed="#V" n="40"/>modum ritus, in quo magis explicite
+            de<lb ed="#V" n="41" break="no"/>clararetur mysterium Trinitatis, vel certe
+            <lb ed="#V" n="42"/>similitudo Baptismatis, ad triduanam
+            se<lb ed="#V" n="43" break="no"/>pulturam Christi; et viguit in Ecclesia
+            <lb ed="#V" n="44"/>Orientali et Occidentali, usque ad
+            Grego<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>rium Magnum, quae consuetudo tunc in
+            <lb ed="#V" n="46"/>aliquibus Ecclesiis est abrogata ad
+            repro<lb ed="#V" n="47" break="no"/>bationem erroris, qui per eam a
+            schisma<lb ed="#V" n="48" break="no"/>ticis et haereticis intentatus est, atque ex
+            <lb ed="#V" n="49"/>aliis congruentiis. Factum approbat
+            Pon<lb ed="#V" n="50" break="no"/>tifex quem sequitur Toletanum IV. neque?
+            <lb ed="#V" n="51"/>enim constat.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Sed traditio Apostolica, sicut in illis
+            <lb ed="#V" n="53"/>Canonibus apparet, passim comprehendit,
+            <lb ed="#V" n="54"/>non solum quae a Christo ordinata sunt,
+            <lb ed="#V" n="55"/>tanquam necessaria, sed quae ipsi
+            Apo<lb ed="#V" n="56" break="no"/>stoli per assistentiam Spiritus sancti
+            or<lb ed="#V" n="57" break="no"/>dinarunt observanda, tanquam tempori
+            <lb ed="#V" n="58"/>congrua et statui fidelium, quarum
+            ali<lb ed="#V" n="59" break="no"/>qua differentia casus et circumstantiarum
+            <lb ed="#V" n="60"/>omittenda exigebat. Alia vero retenta sunt
+            <lb ed="#V" n="61"/>quae omni tempori deserviunt, nam
+            ea<lb ed="#V" n="62" break="no"/>dem potestas ad successores transivit,
+            <lb ed="#V" n="63"/>ut possint etiam circa Sacramenta, salva
+            <lb ed="#V" n="64"/>eorum substantia, ea ordinare, quae
+            uti<lb ed="#V" n="65" break="no"/>litati fidelium et ipsorum Sacramentorum
+            <lb ed="#V" n="66"/>reverentiae cedunt, ut recte Tridentinum
+            <lb ed="#V" n="67"/>sess. 21. cap. 2. determinat. Alia quae
+            <lb ed="#V" n="68"/>ad hanc materiam ablutionis spectant,
+            in<lb ed="#V" n="69" break="no"/>fra tractabuntur ex occasione in
+            sequen<lb ed="#V" n="70" break="no"/>tibus
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>(c) Et hujus probatio non est alia, etc.
+            <lb ed="#V" n="72"/>Supra dist. 1. quaest. 2. art. 2.
+            probavi<lb ed="#V" n="73" break="no"/>mus Sacramenta debere similitudinem
+            <lb ed="#V" n="74"/>earum rerum habere, quarum sunt
+            Sacra<lb ed="#V" n="75" break="no"/>menta, sicut causam instructionis ex
+            ea<lb ed="#V" n="76" break="no"/>dem similitudine, secundum
+            proporti<lb ed="#V" n="77" break="no"/>onem desumptam, quae ratio fuit ut
+            Sa<lb ed="#V" n="78" break="no"/>cramenta in rebus et verbis
+            institueren<lb ed="#V" n="79" break="no"/>tur ex Dionysio, Chrysostomo, et aliis
+            <lb ed="#V" n="80"/>citatis. Hinc Doctor ex proprietatibus
+            <lb ed="#V" n="81"/>aquae naturalis declarat congruentiam,
+            <lb ed="#V" n="82"/>unde Sacramentum Baptismi in aqua, et
+            <lb ed="#V" n="83"/>non in alia quavis materia fuerit
+            institu<lb ed="#V" n="84" break="no"/>tum. Easdem congruentias tradit
+            Alen<lb ed="#V" n="85" break="no"/>sis 4. part. quaest. 8. m. 3. art. 2. 8 1.
+            <lb ed="#V" n="86"/>D. Thomas in 4. dist. 3. quaest 3. 3. part.;
+            <lb ed="#V" n="87"/>quaest. 66. art. 3. D. Bonaventura
+            ea<lb ed="#V" n="88" break="no"/>dem dist. 3. part. 2. art. 1. quaest. 1.
+            <pb ed="#V" n="330"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Vide Hugonem lib. 2. de Sacramentis
+            <lb ed="#V" n="2"/>part. 6. cap. 4.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d3q3-p3"> -->
+          <p>
+            <lb ed="#V" n="33" type="fixed=332"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>(d) Quod autem in quaestione ponitur
+            <lb ed="#V" n="35"/>naturalis, etc. Excludit aquam
+            artifici<lb ed="#V" n="36" break="no"/>alem, quae communiter dicitur talis, et
+            <lb ed="#V" n="37"/>fit per expressionem aut distillationem
+            <lb ed="#V" n="38"/>mixti, quae non est aqua naturalis, aut
+            <lb ed="#V" n="39"/>elementaris, sed substantia mixti
+            ex<lb ed="#V" n="40" break="no"/>pressa, vel quid aliud tertium. Littera est
+            <lb ed="#V" n="41"/>clara. Excludit etiam infra aquam mixtam
+            <lb ed="#V" n="42"/>seu impuram, ea mixtione, quae vetat
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>ablutionem, sic neque aqua in spongia,
+            <lb ed="#V" n="44"/>seu pasta, non est apta materia donec
+            <lb ed="#V" n="45"/>exprimatur, sicut neque nix, neque
+            gla<lb ed="#V" n="46" break="no"/>cies donec resolutione fiat apta lotioni.
+            <lb ed="#V" n="47"/>Excludit etiam humores, ut salivam et
+            <lb ed="#V" n="48"/>urinam. De aliis alterationibus ut brodii,
+            <lb ed="#V" n="49"/>farinatae, cervisia, medone, lixivio, non
+            <lb ed="#V" n="50"/>est adeo certum ad sensum, an varient
+            <lb ed="#V" n="51"/>speciem; quod Philosophi Naturalis
+            de<lb ed="#V" n="52" break="no"/>terminare est, non Theologi, neque
+            Ca<lb ed="#V" n="53" break="no"/>nonistae.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Quod si de aliquibus, inquit, sit
+            du<lb ed="#V" n="55" break="no"/>bium, servandae sunt regulae superius
+            <lb ed="#V" n="56"/>datae circa formam in quaestione
+            proece<lb ed="#V" n="57" break="no"/>denti. Aliqui autem Doctores dubitant de
+            <lb ed="#V" n="58"/>his, aut quibusdam ex ipsis, ut de brodio,
+            <lb ed="#V" n="59"/>si nimiam habeat admixtam substantiam
+            <lb ed="#V" n="60"/>carnis decolatam, de cervisia etiam
+            vide<lb ed="#V" n="61" break="no"/>tur plane diversa; de lixivio etiam,
+            <lb ed="#V" n="62"/>quando trahit secum qualitates cineris in
+            <lb ed="#V" n="63"/>perfecto gradu. Considerandae ergo sunt
+            <lb ed="#V" n="64"/>qualitates praedominantes, et an nomen
+            <lb ed="#V" n="65"/>mutet; gravissime peccaret, qui illis
+            ute<lb ed="#V" n="66" break="no"/>retur, et Baptismus esset dubius, et sub
+            <lb ed="#V" n="67"/>conditione iterandus,
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Sicut autem ejusmodi liquores habent
+            <lb ed="#V" n="69"/>differentes gradus, ita Philosophus de
+            ip<lb ed="#V" n="70" break="no"/>sis judicaret ex natura accidentium.
+            Ad<lb ed="#V" n="71" break="no"/>vertenda illa ratio Doctoris, unde colligat
+            <lb ed="#V" n="72"/>aquam artificialem non esse naturalem,
+            <lb ed="#V" n="73"/>quia ars ex mixto non potest immediate
+            <lb ed="#V" n="74"/>transformare elementum, quia agit motu
+            <lb ed="#V" n="75"/>ordinato per medias formas, sicut
+            pro<lb ed="#V" n="76" break="no"/>ducendo mixtum, ita etiam resolvendo,
+            <lb ed="#V" n="77"/>ideoque saepe non contingit mixtum
+            re<lb ed="#V" n="78" break="no"/>solvi in idem elementum, ex quo fit, sed
+            <lb ed="#V" n="79"/>in aliud mixtum, ut lignum in cineres.
+            <lb ed="#V" n="80"/>Haec maxima videtur etiam currere in
+            <lb ed="#V" n="81"/>Angelo, qui mediante igne, verbi gratia,
+            <lb ed="#V" n="82"/>nequit statim convertere mixtum in aquam
+            <lb ed="#V" n="83"/>elementarem, ideoque, quod dicit de
+            An<lb ed="#V" n="84" break="no"/>gelo bono vel malo, intelligitur juxta
+            il<lb ed="#V" n="85" break="no"/>lam maximam; et loquitur de conversione
+            <lb ed="#V" n="86"/>mixti in aquam elementarem, quae
+            con<pb ed="#V" n="333"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>versio nequit esse prima resolutio talis
+            <lb ed="#V" n="2"/>mixti per ignem, ut patet ad sensum per
+            <lb ed="#V" n="3"/>experientiam. Sed quidquid sit, non est
+            <lb ed="#V" n="4"/>hujus loci, in quo agitur praecise de aqua,
+            <lb ed="#V" n="5"/>quae instituta est materia Baptismi.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

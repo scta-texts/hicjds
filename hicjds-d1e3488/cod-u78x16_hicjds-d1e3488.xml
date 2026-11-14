@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 5, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 5, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="502"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3488"><!-- hicjds-b4d5q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum malitia ministri impediat conferri baptismum</head>
+        <!-- <div alias="hiq-d5q1-p1"> -->
+          <p>
+            <lb ed="#V" n="38" type="fixed=502"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>(a) Utrum malitia. Sub malitia ministri
+            <lb ed="#V" n="40"/>comprehendit Doctor improbitatem vitae
+            <lb ed="#V" n="41"/>quoad mores, et haeresim ac schisma, quae
+            <lb ed="#V" n="42"/>separant a corpore Ecclesiae, quantum ad
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>fidem et charitatem. Solet ab aliis proponi
+            <lb ed="#V" n="44"/>quaestio: An, scilicet, probitas et fides
+            <lb ed="#V" n="45"/>ministri requirantur ad valorem
+            Sacra<lb ed="#V" n="46" break="no"/>menti Baptismi? et perinde est de aliis
+            Sa<lb ed="#V" n="47" break="no"/>cramentis in genere. Requiri autem fidem;
+            <lb ed="#V" n="48"/>ita ut ab haereticis et schismaticis non
+            <lb ed="#V" n="49"/>conficiatur Sacramentum valide, primus
+            <lb ed="#V" n="50"/>videtur docuisse Agrippinus, qui pluribus
+            <lb ed="#V" n="51"/>annis praecessit Cyprianum in Sede
+            Car<lb ed="#V" n="52" break="no"/>thaginensi, ut ipse Cyprianus docet in
+            <lb ed="#V" n="53"/>epist. ad Jubaianum, quae est 73. docuit
+            <lb ed="#V" n="54"/>int er haereticos et schismaticos non fuisse
+            <lb ed="#V" n="55"/>verum Baptisma, ac proinde venientes ad
+            <lb ed="#V" n="56"/>fidem rebaptizandos docuit in Concilio
+            <lb ed="#V" n="57"/>aliquo provinciali, quia id moris tum fuit,
+            <lb ed="#V" n="58"/>ut doctrina universalis in Conciliis
+            pro<lb ed="#V" n="59" break="no"/>poneretur; et Cyprianus innuit in
+            epi<lb ed="#V" n="60" break="no"/>stola 71. ita factum esse ab Agrippino, et
+            <lb ed="#V" n="61"/>epistola praefata 3. Sub Agrippino,
+            in<lb ed="#V" n="62" break="no"/>quit, bonce memorice viro convenientes
+            <lb ed="#V" n="63"/>in unum. Episcopi plurimi hoc
+            statu<lb ed="#V" n="64" break="no"/>erunt, etc. Post Agrippinum idem statutum
+            <lb ed="#V" n="65"/>est ab aliis Iconii congregatis, quod
+            secu<lb ed="#V" n="66" break="no"/>tus est mox Cyprianus, ut ex praefatis
+            <lb ed="#V" n="67"/>epistolis et Conciliis sub eo habitis
+            con<lb ed="#V" n="68" break="no"/>stat. Successerunt Novatiani, qui
+            addide<lb ed="#V" n="69" break="no"/>runt praeterea, neque Baptisma ab improbo
+            <lb ed="#V" n="70"/>datum valere, quod docuit Parmenianus
+            <lb ed="#V" n="71"/>de manifesto peccatore, apud Augustinumi
+            <lb ed="#V" n="72"/>lib. 2. contra eumdem cap. 1. quin etiam
+            <lb ed="#V" n="73"/>si occultus esset, non valere Baptismum,
+            <lb ed="#V" n="74"/>ut Cresconius apud eumdem lib. 2.
+            con<lb ed="#V" n="75" break="no"/>tra Cresconium, cap. 28. Errarunt
+            <lb ed="#V" n="76"/>Apostolici, qui apud Bernardum serm. 66.
+            <lb ed="#V" n="77"/>in Cantica, idem de peccatoribus
+            docu<lb ed="#V" n="78" break="no"/>erunt, sicut et Waldenses apud
+            Antoni<lb ed="#V" n="79" break="no"/>num tit. 11. cap. 7. addit Witclefus
+            <lb ed="#V" n="80"/>quod neque praesciti, apud Waldensem
+            <lb ed="#V" n="81"/>tom. 2 de Sacram. cap. 14. damnantur
+            <lb ed="#V" n="82"/>in Constantiensi sess. 8. De antiquis
+            <lb ed="#V" n="83"/>Luciferianis incertum est an in hac
+            quae<lb ed="#V" n="84" break="no"/>stione errarint circa ordinationem
+            Sacer<lb ed="#V" n="85" break="no"/>dotum et Episcoporum, quamvis constet
+            <lb ed="#V" n="86"/>ex dialogis Hieronymi contra Hilarium
+            <pb ed="#V" n="503"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Luciferianum, eum sensisse etiam cum
+            <lb ed="#V" n="2"/>Donatistis baptizatos ab haereticis esse
+            <lb ed="#V" n="3"/>rebaptizandos. Condidit autem Lucifer
+            <lb ed="#V" n="4"/>Caralitanus schisma in odium Conciliabuli
+            <lb ed="#V" n="5"/>Ariminensis, potissimum contra Episcopos
+            <lb ed="#V" n="6"/>Catholicos lapsos in haeresim Arianam,
+            <lb ed="#V" n="7"/>quos etiam poenite ntes in suo gradu
+            reci<lb ed="#V" n="8" break="no"/>pere noluit, sed de haeresi eum non
+            <lb ed="#V" n="9"/>traducit Epiphanius, neque Philaster;
+            in<lb ed="#V" n="10" break="no"/>terpretari ergo potest id in poenam
+            <lb ed="#V" n="11"/>peccati tentasse, non quod male de
+            ordi<lb ed="#V" n="12" break="no"/>natione senserit, vel certe ad
+            correpti<lb ed="#V" n="13" break="no"/>onem et causam submovendi periculi,
+            <lb ed="#V" n="14"/>quamvis ejus sequaces ad majora prolapsi
+            <lb ed="#V" n="15"/>sint. Male Erasmus hoc schisma inurit
+            <lb ed="#V" n="16"/>Smyrnensi; fuerunt alii anteriores
+            haere<lb ed="#V" n="17" break="no"/>tici hujus nominis.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d5q1-p2"> -->
+          <p>
+            <lb ed="#V" n="75" type="fixed=505"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>(1) Veritas quaestionis patet ex
+            aucto<lb ed="#V" n="77" break="no"/>ritatibus multis, etc Resolutio est de
+            <lb ed="#V" n="78"/>fide; videantur Patres, Concilia citata per
+            <lb ed="#V" n="79"/>Scholiastem. Eam probat a priori Doctor
+            <lb ed="#V" n="80"/>ex institutione Christi, quam vere
+            asse<lb ed="#V" n="81" break="no"/>cuta est Ecclesia cum Augustino et
+            Patri<lb ed="#V" n="82" break="no"/>bus citatis. Ejus institutionis varias
+            assi<lb ed="#V" n="83" break="no"/>gnat congruentias et bonas. Prima est,
+            <lb ed="#V" n="84"/>quia congruum est, ut institutio signi
+            <lb ed="#V" n="85"/>practici et certi, quae per se est anterior
+            <pb ed="#V" n="506"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>et stabilis, a statu ministri quoad
+            boni<lb ed="#V" n="2" break="no"/>tatem et malitiam ejus non dependeat a
+            <lb ed="#V" n="3"/>ministri conditione variabili, et similiter
+            <lb ed="#V" n="4"/>neque ejus certitudo, aut efficacia.
+            Se<lb ed="#V" n="5" break="no"/>cunda est a fine, quia vix alias esset
+            cer<lb ed="#V" n="6" break="no"/>tum Ecclesiae, aut suscipienti
+            Sacra<lb ed="#V" n="7" break="no"/>mentum se vere suscepisse medium
+            neces<lb ed="#V" n="8" break="no"/>sarium ad salutem, cum incertus sit de
+            <lb ed="#V" n="9"/>bonitate ministri. Tertia est ex parte
+            <lb ed="#V" n="10"/>suscipientis, qui non debuit pati ex
+            <lb ed="#V" n="11"/>iniquitate alterius, cui nullo modo
+            com<lb ed="#V" n="12" break="no"/>municat. Quarta addi potest, quia non
+            <lb ed="#V" n="13"/>habent Sacramenta efficaciam, nisi a
+            <lb ed="#V" n="14"/>merito Christi, in quo solum quisque
+            <lb ed="#V" n="15"/>constituitur, tanquam capite, a quo recipiat
+            <lb ed="#V" n="16"/>influxum, et redemptionem, sanctitatem,
+            <lb ed="#V" n="17"/>quod non esset verum, si efficacia
+            Sa<lb ed="#V" n="18" break="no"/>cramenti, aut salus recipientis
+            Sacramen<lb ed="#V" n="19" break="no"/>tum dependeret a ministri bonitate et
+            <lb ed="#V" n="20"/>fide.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Respondet bene argumentis usque ad
+            <lb ed="#V" n="22"/>ultimum, in quo salvat Cyprianum,
+            os<lb ed="#V" n="23" break="no"/>tendens tria genera veritatum fidei.
+            Quae<lb ed="#V" n="24" break="no"/>dam necessario et explicite credenda ab
+            <lb ed="#V" n="25"/>omnibus, etiam aliquantulum post usum
+            <lb ed="#V" n="26"/>rationis, ut ea quae spectant ad
+            humani<lb ed="#V" n="27" break="no"/>tatem Christi, quorum terminos de facili
+            <lb ed="#V" n="28"/>apprehendunt; nam actus fidei supponit
+            <lb ed="#V" n="29"/>capacitatem ad concipiendum terminos
+            <lb ed="#V" n="30"/>aliquo modo articuli, de quo est fides
+            ex<lb ed="#V" n="31" break="no"/>plicita. Alia quae sunt remotiora a
+            sensi<lb ed="#V" n="32" break="no"/>bus, et magis spiritualia, et solemniter
+            <lb ed="#V" n="33"/>proposita et declarata ab Ecclesia et in
+            <lb ed="#V" n="34"/>Scriptura; et haec debent a majoribus
+            Ec<lb ed="#V" n="35" break="no"/>clesiae explicite credi. Tertium genus est
+            <lb ed="#V" n="36"/>eorum, quae exigunt definitionem Ecclesiae,
+            <lb ed="#V" n="37"/>et antequam definiantur, neque hi,
+            ne<lb ed="#V" n="38" break="no"/>que illi tenentur ea credere explicite, sed
+            <lb ed="#V" n="39"/>sobrie expedit in illis opinari.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Hujus generis fuit veritas de Baptismo
+            <lb ed="#V" n="41"/>ab haereticis collato, ejusque valore, quae
+            <lb ed="#V" n="42"/>alias, ut dicit, non fuit declarata, quod
+            <lb ed="#V" n="43"/>verum est, quia nec Stephanus, neque
+            <lb ed="#V" n="44"/>aliquis anterior in hac re quidpiam
+            defi<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>nivit; praetendebat enim Stephanus
+            tradi<lb ed="#V" n="46" break="no"/>tionem observandam esse, et
+            consuetudi<lb ed="#V" n="47" break="no"/>nem Ecclesiae, dicens, nihil innovandum
+            <lb ed="#V" n="48"/>esse praeter id quod traditum est, etc. ut
+            <lb ed="#V" n="49"/>patet ex epistola ipsius Cypriani ad
+            Pom<lb ed="#V" n="50" break="no"/>peium, Eusebio lib. 7. historiarum cap.3.
+            <lb ed="#V" n="51"/>et 4 Vincentio Lyrinensi; neque etiam
+            <lb ed="#V" n="52"/>illa consuetudo licet fuerit ex traditione
+            <lb ed="#V" n="53"/>Apostolica, ut supponit variis in locis
+            Au<lb ed="#V" n="54" break="no"/>gustinus, tamen praeceptum aliquod
+            scri<lb ed="#V" n="55" break="no"/>ptum ab Apostolis non habebatur, ut dicit
+            <lb ed="#V" n="56"/>idem lib. 5. de Baptismo, cap. 23.
+            Cy<lb ed="#V" n="57" break="no"/>prianus ergo consuetudinem suorum
+            ante<lb ed="#V" n="58" break="no"/>riorum et Ecclesiae in qua sedebat, servare
+            <lb ed="#V" n="59"/>voluit, quam etiam Cappadoces cum
+            Fer<lb ed="#V" n="60" break="no"/>miliano, et alii in Asia tenuerunt, ut
+            <lb ed="#V" n="61"/>constat ex epistola Dionysii Alexandrini,
+            <lb ed="#V" n="62"/>qui mox omnes transierunt in sententiam
+            <lb ed="#V" n="63"/>Stephani Papae, quae in Niceno primo
+            <lb ed="#V" n="64"/>definita primum fuit, antea vero
+            consu<lb ed="#V" n="65" break="no"/>etudine et traditione fulciebatur.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Cyprianus rationes et Scripturas
+            oppo<lb ed="#V" n="67" break="no"/>nebat, putans apud haereticos sicut non
+            <lb ed="#V" n="68"/>est fides, sic etiam nec Baptisma, quia
+            <lb ed="#V" n="69"/>una fides, unum Baptisma, et, ut dicit
+            <lb ed="#V" n="70"/>Augustinus in quaestione obscurissima
+            <lb ed="#V" n="71"/>non discernens Sacramentum ab effectu
+            <lb ed="#V" n="72"/>gratiae et remissionis peccatorum, ubi haec
+            <lb ed="#V" n="73"/>non erat, sic nec Baptismus ex ejus
+            sen<lb ed="#V" n="74" break="no"/>tentia. Hinc salvatur recte Cyprianus ab
+            <lb ed="#V" n="75"/>omni nota erroris damnabilis, seu
+            haere<lb ed="#V" n="76" break="no"/>sis et schismatis, quia sine laesione
+            cha<lb ed="#V" n="77" break="no"/>ritatis, et separatione a Stephano
+            disse<lb ed="#V" n="78" break="no"/>ruit pro consuetudine suae Ecclesiae, quam
+            <lb ed="#V" n="79"/>putarat magis ratione, et Scripturis
+            fun<lb ed="#V" n="80" break="no"/>datam, ut patet ex praefatis epistolis ejus,
+            <lb ed="#V" n="81"/>in quo error in eo fuerit materialis, ut
+            vo<lb ed="#V" n="82" break="no"/>cant, non formalis: Sic, inquit, Doctor
+            <lb ed="#V" n="83"/>potest salvari Abbas Joachim, etc. quod
+            <lb ed="#V" n="84"/>perinde etiam verum est. Vide cap.
+            Dam<lb ed="#V" n="85" break="no"/>namus, de sancta Trinitate, et fide
+            Ca<lb ed="#V" n="86" break="no"/>tholica, et epistolam Honorii III. anni 1.
+            <lb ed="#V" n="87"/>sui Pontificatus apud Possevinum in verbo
+            <lb ed="#V" n="88"/>Joachim, quo id abunde probat.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

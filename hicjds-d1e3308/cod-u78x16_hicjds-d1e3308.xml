@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 3, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 3, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="275"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3308"><!-- hicjds-b4d3q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum ilia sit propria definitio baptismi quam ponit Magister: «Baptismus est tinctio, id est ablutio, corporis exterior, facta sub forma verborum praescripta»</head>
+        <!-- <div alias="hiq-d3q1-p1"> -->
+          <p>
+            <lb ed="#V" n="33" type="fixed=275"/>COMMENTARIUS
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>(b) Ad primum arguitur, etc. Adducta
+            <lb ed="#V" n="35"/>ratione dubitandi, supponit quid nominis,
+            <lb ed="#V" n="36"/>tam quoad formale Baptismi, quod est
+            <lb ed="#V" n="37"/>significatio practica, quam quoad
+            materia<lb ed="#V" n="38" break="no"/>le, quod est fundamentum talis
+            signifi<lb ed="#V" n="39" break="no"/>cationis, juxta alias praemissa dist. I.
+            <lb ed="#V" n="40"/>quaest. 2. Ex hoc supposito deducit, qua
+            <lb ed="#V" n="41"/>ratione potest definitio convenire
+            Bapti<lb ed="#V" n="42" break="no"/>smo, juxta principia in eadem quaestione
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>posita circa definitionem Sacramenti,
+            <lb ed="#V" n="44"/>de quibus ibi sufficienter egimus.
+          </p>
+          <p>
+            <lb ed="#V" n="45"/>Patres autem varias tradunt
+            appellatio<lb ed="#V" n="46" break="no"/>nes hujus Sacramenti, ut Nazianzenus
+            <lb ed="#V" n="47"/>orat. in sanctum Baptisma quae est 40.
+            <lb ed="#V" n="48"/>Clemens Alexandrinus lib. 1. Paedagog.
+            <lb ed="#V" n="49"/>cap 6. Basilius homil. 13. quae est
+            exhor<lb ed="#V" n="50" break="no"/>tatio ad Baptismum, Chrysostomus homil.
+            <lb ed="#V" n="51"/>ad baptizandos, tom. 5. Damascenus
+            <lb ed="#V" n="52"/>lib. 4. fidei Orthodoxae, cap. 10. Neque
+            <lb ed="#V" n="53"/>secus in Scriptura variis appellationibus
+            <lb ed="#V" n="54"/>dicitur, ad Romanos 6. Baptismus,
+            <lb ed="#V" n="55"/>sepultura, crucifixio; ad Coloss. 2.
+            Cir<lb ed="#V" n="56" break="no"/>cumcisio; ad Titum 3. Lavacrum seu
+            <lb ed="#V" n="57"/>ablutio et balneum; ad Hebraeos 6. et
+            <lb ed="#V" n="58"/>10. illuminatio.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Hae autem appellationes praeter
+            Bap<lb ed="#V" n="60" break="no"/>tismi et lavacri seu ablutionis,
+            desumun<lb ed="#V" n="61" break="no"/>tur ab effectu seu a significatione
+            <lb ed="#V" n="62"/>mystica; vocabulum autem Baptismi
+            <lb ed="#V" n="63"/>est commune, et in usu omnibus ut,
+            <lb ed="#V" n="64"/>Joan. 3. et 4. Matthaei ultimo, Act. 2. et
+            <lb ed="#V" n="65"/>per totum; estque ex usu Patrum
+            <lb ed="#V" n="66"/>Latinorum et omnium Conciliorum et
+            <lb ed="#V" n="67"/>Scholasticorum, et desumitur ab intrinseco
+            <lb ed="#V" n="68"/>Sacramenti, atque ab eo quod continet
+            <lb ed="#V" n="69"/>in recto, sive ut totum fundamentum
+            <lb ed="#V" n="70"/>significationis sacramentalis, juxta
+            opi<lb ed="#V" n="71" break="no"/>nionem quorumdam, vel certe, ut pars
+            <lb ed="#V" n="72"/>fundamenti juxta aliam, ac proinde
+            <lb ed="#V" n="73"/>magis proprie exprimit mysterium, quam
+            <lb ed="#V" n="74"/>caetera, quae sunt appellativa ab effectu
+            <lb ed="#V" n="75"/>hoc vel illo particulari, vel certe a
+            si<lb ed="#V" n="76" break="no"/>gnificatione mystica et similitudine
+            pro<lb ed="#V" n="77" break="no"/>portionis, ut quando dicitur sepultura,
+            <lb ed="#V" n="78"/>vel crucifixio, etc.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d3q1-p2"> -->
+          <p>
+            <lb ed="#V" n="81" type="fixed=277"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>(c) Secundo principaliter est videndum,
+            <lb ed="#V" n="83"/>etc. Definitio Baptismi tradita a Magistro,
+            <lb ed="#V" n="84"/>est, quod sit intinctio, id est, ablutio
+            <lb ed="#V" n="85"/>corporis exterior facta sub forma
+            verbo<pb ed="#V" n="278"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>rum praescripta, etc. Aliam assignat Hugo
+            <lb ed="#V" n="2"/>lib. 2. Sacramentis part. 6. cap. 12.
+            Bap<lb ed="#V" n="3" break="no"/>tismus est aqua diluendis criminibus
+            <lb ed="#V" n="4"/>sanctificata per verbum Dei, etc. Haec
+            <lb ed="#V" n="5"/>definitio reipsa coincidit cum priori,
+            <lb ed="#V" n="6"/>quia ultima verba denotant ablutionem,
+            <lb ed="#V" n="7"/>et ut sic applicata, idonea est abluendis
+            <lb ed="#V" n="8"/>criminibus. Aliam ipe Doctor assignat
+            <lb ed="#V" n="9"/>infra, quae est magis explicita, et
+            deno<lb ed="#V" n="10" break="no"/>tans quidquid per se exigitur ad
+            consti<lb ed="#V" n="11" break="no"/>tuendum intrinsece Baptismum, et
+            res<lb ed="#V" n="12" break="no"/>pective ad intrinseca concurrentia, quae
+            <lb ed="#V" n="13"/>talis est: Baptismus est ablutio hominis
+            <lb ed="#V" n="14"/>aliqualiter consentientis, facta ab alio in
+            <lb ed="#V" n="15"/>aqua, simul verba certa cum debita
+            <lb ed="#V" n="16"/>intentione proferente, significans
+            efficaci<lb ed="#V" n="17" break="no"/>ter, ex institutione divina, ablutionem
+            <lb ed="#V" n="18"/>animae a peccato, etc. Aliam adjungit:
+            <lb ed="#V" n="19"/>Baptismus est Sacramentum ablutionis
+            <lb ed="#V" n="20"/>animae a peccato, consistens in ablutione
+            <lb ed="#V" n="21"/>hominis aliqualiter consentientis, facta
+            <lb ed="#V" n="22"/>in aqua ab alio abluente, et in verbis
+            <lb ed="#V" n="23"/>certis simul ab eodem abluente, cum
+            <lb ed="#V" n="24"/>debita intentione, prolatis.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Haec differt a priori quod illa sit
+            Sa<lb ed="#V" n="26" break="no"/>cramenti, ut est signum, et in genere
+            <lb ed="#V" n="27"/>relativi, et datur per extrema, nempe
+            <lb ed="#V" n="28"/>fundamentum, quod est ablutio (juxta
+            <lb ed="#V" n="29"/>opinionem, quam primo loco explicat
+            <lb ed="#V" n="30"/>Doctor, ut probabilem) cum
+            conditioni<lb ed="#V" n="31" break="no"/>bus fundandi, et per terminum, qui est
+            <lb ed="#V" n="32"/>ablutio animae a peccato. Conditiones
+            au<lb ed="#V" n="33" break="no"/>tem fundandi sunt, ut sit aliqualiter
+            con<lb ed="#V" n="34" break="no"/>sentientis, quod intelligitur de adulto,
+            <lb ed="#V" n="35"/>quamvis etiam possit extendi ad eos, qui
+            <lb ed="#V" n="36"/>in seipsis nequeunt habere consensum,
+            <lb ed="#V" n="37"/>ut infantes, habent tamen in alio, nempe
+            <lb ed="#V" n="38"/>in Ecclesia, quae pro ipsis spondet, ex
+            <lb ed="#V" n="39"/>Augustino variis in locis. Item,
+            requiri<lb ed="#V" n="40" break="no"/>tur ut sit ab alio habente debitam
+            intenti<lb ed="#V" n="41" break="no"/>onem et proferente simul verba formae,
+            <lb ed="#V" n="42"/>ut infra declarabitur. Secunda autem
+            <lb ed="#V" n="43"/>definitio in duobus differt, nempe quod
+            <lb ed="#V" n="44"/>detur per genus proximum, quod est
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Sacramentum, et designet totale
+            funda<lb ed="#V" n="46" break="no"/>mentum non esse solam ablutionem, sed
+            <lb ed="#V" n="47"/>simul accedere verba, ex quibus
+            con<lb ed="#V" n="48" break="no"/>surgit integrum fundamentum. Prior
+            au<lb ed="#V" n="49" break="no"/>tem statuit integrum fundamentum
+            re<lb ed="#V" n="50" break="no"/>lationis sacramentalis seu significationis
+            <lb ed="#V" n="51"/>in sola ablutione, cui accedunt verba
+            <lb ed="#V" n="52"/>per modum conditionis specificantis et
+            <lb ed="#V" n="53"/>determinantis ad fundandam
+            significati<lb ed="#V" n="54" break="no"/>onem sacramentalem.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Haec varietas oritur ex diversitate modi
+            <lb ed="#V" n="56"/>sentiendi circa illud, quod Sacramentum
+            <lb ed="#V" n="57"/>importat in recto, tanquam
+            fundamen<lb ed="#V" n="58" break="no"/>tum significationis practicae. Alii dicunt
+            <lb ed="#V" n="59"/>solam ablutionem seu materiam, esse
+            <lb ed="#V" n="60"/>essentialiter Sacramentum, non autem
+            <lb ed="#V" n="61"/>formam, sed esse requisitam tantum,
+            <lb ed="#V" n="62"/>quamvis nihil efficiat aut significet
+            pra<lb ed="#V" n="63" break="no"/>ctice. Alii dicunt utrumque spectare ad
+            <lb ed="#V" n="64"/>essentiam Sacramenti in recto et simul
+            <lb ed="#V" n="65"/>instituta esse ad causandam gratiam, per
+            <lb ed="#V" n="66"/>modum unius totalis signi sacramentalis.
+            <lb ed="#V" n="67"/>Prima definitio est secundum priorem
+            <lb ed="#V" n="68"/>sententiam; secunda vero secundum
+            po<lb ed="#V" n="69" break="no"/>steriorem. Primam tenet Magister,
+            se<lb ed="#V" n="70" break="no"/>cundam D. Bonaventura dist. 3. art. 2.
+            <lb ed="#V" n="71"/>quaest. 1. ubi verba significare
+            princi<lb ed="#V" n="72" break="no"/>palius gratiam docet. Utraque est
+            pro<lb ed="#V" n="73" break="no"/>babilis ex Doctore, sed secunda magis
+            <lb ed="#V" n="74"/>probabilis, quia alioquin non viderentur
+            <lb ed="#V" n="75"/>exigi verba, nisi spectarent ad signum
+            <lb ed="#V" n="76"/>sacramentale. Haec ratio declaratur, quia
+            <lb ed="#V" n="77"/>ablutio exterior habet de se sufficientem
+            <lb ed="#V" n="78"/>proportionem similitudinis ad ablutionem
+            <lb ed="#V" n="79"/>interiorem, ut eam significet quantum
+            <lb ed="#V" n="80"/>ad naturam ipsius actus, sicut
+            circumci<lb ed="#V" n="81" break="no"/>sio in carne ad significandum
+            circumci<lb ed="#V" n="82" break="no"/>sionem cordis, quam sine verbis
+            adjun<lb ed="#V" n="83" break="no"/>ctis, accedente sola institutione divina,
+            <lb ed="#V" n="84"/>significavit.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Non minor est proportio ablutionis ad
+            <lb ed="#V" n="86"/>internam; ergo verba adjuncta non
+            spe<lb ed="#V" n="87" break="no"/>cificant, neque determinant ablutionem
+            <lb ed="#V" n="88"/>ad aliquam majorem proportionem et
+            <pb ed="#V" n="279"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>specificam institutionis, quia solum
+            de<lb ed="#V" n="2" break="no"/>notant ipsam actionem in fieri: Ego te
+            <lb ed="#V" n="3"/>baptizo, etc. Quae ablutio seipsa perinde
+            <lb ed="#V" n="4"/>sensibiliter manifestatur ex natura et
+            ap<lb ed="#V" n="5" break="no"/>parentia ipsius actus, qui tactu et visu
+            <lb ed="#V" n="6"/>comprehendi potest. Invocatio autem
+            <lb ed="#V" n="7"/>Sanctissimae Trinitatis non continet
+            de<lb ed="#V" n="8" break="no"/>terminationem, quae accedat ablutioni
+            <lb ed="#V" n="9"/>per modum specificantis, sed denotat
+            <lb ed="#V" n="10"/>auctoritatem et potestatem ejus, in quo
+            <lb ed="#V" n="11"/>fit interna ablutio, ac proinde magis
+            <lb ed="#V" n="12"/>institutionem divinam et efficaciam
+            ab<lb ed="#V" n="13" break="no"/>lutionis externae ex ipsa redundantem,
+            <lb ed="#V" n="14"/>non aliquam specificationem ablutionis
+            <lb ed="#V" n="15"/>in se; ergo sequitur hanc formam non
+            <lb ed="#V" n="16"/>esse conditionem specificantem solum,
+            <lb ed="#V" n="17"/>sed partem essentialem et fundamentum
+            <lb ed="#V" n="18"/>significationis practicae.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Patet consequentia, quia intentio
+            mi<lb ed="#V" n="20" break="no"/>nistri et consensus baptizandi, sufficienter
+            <lb ed="#V" n="21"/>- determinarent illum actum ablutionis, ad
+            <lb ed="#V" n="22"/>significationem sacramentalem, seclusa
+            <lb ed="#V" n="23"/>forma, si essentialiter consisteret
+            Sacra<lb ed="#V" n="24" break="no"/>mentum in sola ablutione, quia
+            inten<lb ed="#V" n="25" break="no"/>tio ministri est conditio ultimo specificans
+            <lb ed="#V" n="26"/>tam formam quam materiam Sacramenti,
+            <lb ed="#V" n="27"/>ad hunc sensum practicum, sine qua
+            <lb ed="#V" n="28"/>nihil omnino fieret, quibuscumque alias
+            <lb ed="#V" n="29"/>positis; ergo haec sufficienter
+            determina<lb ed="#V" n="30" break="no"/>ret ablutionem, si in ea sola consisteret
+            <lb ed="#V" n="31"/>fundamentum significationis.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Favent etiam Patres, qui dicunt per
+            <lb ed="#V" n="33"/>invocationem Spiritus dari vim
+            sanctifi<lb ed="#V" n="34" break="no"/>candi aquis, quam invocationem
+            intelli<lb ed="#V" n="35" break="no"/>gunt per formam Sacramenti invocando
+            <lb ed="#V" n="36"/>Trinitatem, ut intelligere videtur
+            Nice<lb ed="#V" n="37" break="no"/>num Concilium lib. 3. de sancto
+            Bapti<lb ed="#V" n="38" break="no"/>smo; et favet Florentinum in decreto
+            <lb ed="#V" n="39"/>Unionis, nam, cum ostendisset in forma
+            <lb ed="#V" n="40"/>alterutra, vel Latinorum, vel Graecorum
+            <lb ed="#V" n="41"/>rite et valide celebrari Sacramentum,
+            <lb ed="#V" n="42"/>subdit hanc rationem: Quoniam cum
+            <lb ed="#V" n="43"/>principalis causa, ex qua Baptismus
+            vir<lb ed="#V" n="44" break="no"/>tutem habeat, sit Sancta Trinitas,
+            intru<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>mentalis autem sit minister, qui tradu
+            <lb ed="#V" n="46"/>exterius Sacramentum, si exprimitur
+            ac<lb ed="#V" n="47" break="no"/>tus, qui per ipsum exercetur ministrum,
+            <lb ed="#V" n="48"/>cum Sanctae Trinitatis invocatione,
+            perfi<lb ed="#V" n="49" break="no"/>citur Sacramentum, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Caeterum qui sequitur sententiam
+            pri<lb ed="#V" n="51" break="no"/>orem, responderet intelligi causam
+            prin<lb ed="#V" n="52" break="no"/>cipalem gratiae, eo modo quo
+            Tridenti<lb ed="#V" n="53" break="no"/>num sess. 6. cap. 7. dicit esse Deum,
+            <lb ed="#V" n="54"/>qui operatur interius gratiam physice,
+            <lb ed="#V" n="55"/>neque aliud intendere Florentinum.
+            Pa<lb ed="#V" n="56" break="no"/>tres vero ut plurimum, quando dicunt
+            <lb ed="#V" n="57"/>aquam sanctificari per spiritum,
+            intelli<lb ed="#V" n="58" break="no"/>gunt invisibiliter, ut Irenaeus lib. 3.
+            <lb ed="#V" n="59"/>cap. 19. Cyrillus Hierosolymitanus
+            Ca<lb ed="#V" n="60" break="no"/>techesi 3. Basilius lib. de Spiritu sancto
+            <lb ed="#V" n="61"/>cap. 15. Nazianzenus oratione 40.
+            Nysse<lb ed="#V" n="62" break="no"/>nus oratione in sanctum Baptisma,
+            Cy<lb ed="#V" n="63" break="no"/>rillus Alexandrinus lib. 2. in Joannem,
+            <lb ed="#V" n="64"/>cap. 42. Theophylactus ad cap. 13.
+            Joan<lb ed="#V" n="65" break="no"/>nis. Tertullianus lib. de Baptismo, cap. 4.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Confirmatio etiam peti potest ex iisdem
+            <lb ed="#V" n="67"/>Patribus hujus sententiae, quia loquentes
+            <lb ed="#V" n="68"/>de hoc Sacramento tribuunt vim
+            sancti<lb ed="#V" n="69" break="no"/>ficandi aquis et ablutioni, ac si in iis
+            <lb ed="#V" n="70"/>consisteret in recto Sacramentum, ut
+            <lb ed="#V" n="71"/>videre licet in jam citatis, quibus addi
+            <lb ed="#V" n="72"/>potest Augustinus tract. 80. in Joannem:
+            <lb ed="#V" n="73"/>unde ista tanta virtus aquae, ut corpus
+            <lb ed="#V" n="74"/>tangat, et abluat, nisi faciente verbo, etc.
+            <lb ed="#V" n="75"/>ubi efficaciam abluendi cor tribuit aquae
+            <lb ed="#V" n="76"/>in recto, quamvis non sine verbo. Et
+            <lb ed="#V" n="77"/>epistola 23. ad Bonifacium: Aqua
+            exhi<lb ed="#V" n="78" break="no"/>bens forinsecus Sacramentum gratiae, et
+            <lb ed="#V" n="79"/>spiritus operans intrinsecus beneficium
+            <lb ed="#V" n="80"/>gratiae.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Ad rationem etiam superius
+            praemis<lb ed="#V" n="82" break="no"/>sam responderi potest, quia Baptismus
+            <lb ed="#V" n="83"/>est initiatio hominis Christiani, atque
+            <lb ed="#V" n="84"/>adeo Sacramentum fidei, ut Tridentinum
+            <lb ed="#V" n="85"/>supra appellat, et saepius Augustinus,
+            <lb ed="#V" n="86"/>requiri invocationem Sanctissimae
+            Tri<lb ed="#V" n="87" break="no"/>nitatis, cujus fidem in Sacramento
+            ba<lb ed="#V" n="88" break="no"/>ptizatus profitetur. Et ut explicetur causa
+            <pb ed="#V" n="280"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>principalis salutis, ut dicit Florentinum,
+            <lb ed="#V" n="2"/>sicut et ministri actus, qui est causa
+            <lb ed="#V" n="3"/>instrumentalis, hoc non tollit quin tota
+            <lb ed="#V" n="4"/>sacramentalis significatio fundetur in ipsa
+            <lb ed="#V" n="5"/>ablutione, quamvis ex divina institutione
+            <lb ed="#V" n="6"/>requiratur forma verborum, sicut et plura
+            <lb ed="#V" n="7"/>alia, quae non fundant relationem
+            sa<lb ed="#V" n="8" break="no"/>cramentalem.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Haec sententia est communior
+            antiqui<lb ed="#V" n="10" break="no"/>orum cum Magistro, qui sustinent
+            defi<lb ed="#V" n="11" break="no"/>nitionem ab eo traditam. D. Thomas 3.
+            <lb ed="#V" n="12"/>part. quaest. 66. art. 1. D. Bonaventura
+            <lb ed="#V" n="13"/>in 4. dist. 3. quaest. 1. Paludanus art. 1.
+            <lb ed="#V" n="14"/>Richardus eadem. Major toto art. 1.
+            <lb ed="#V" n="15"/>quaest... eamque tenet Doctor ut
+            proba<lb ed="#V" n="16" break="no"/>bilem; aliam vero ut magis probabilem,
+            <lb ed="#V" n="17"/>quem sequitur Bassotis quaest. 1. art. 1.
+            <lb ed="#V" n="18"/>Tartaretus super textum. Gabriel quaest. 1.
+            <lb ed="#V" n="19"/>Nisa tract. 6. part. 3. quaest. 1. et alii;
+            <lb ed="#V" n="20"/>frequentior etiam modernorum, qui
+            uni<lb ed="#V" n="21" break="no"/>versaliter tenent materiam et formam
+            <lb ed="#V" n="22"/>esse de essentia cujuslibet Sacramenti 3.
+            <lb ed="#V" n="23"/>part. quaest. 60. art. 8. Suarez disp. 2.
+            <lb ed="#V" n="24"/>sect. 1. sub calcem, Vasquez disp. 129.
+            <lb ed="#V" n="25"/>eap. 3.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>His quoad utramque sententiam dictis,
+            <lb ed="#V" n="27"/>restat inquirendum pro quo supponat
+            <lb ed="#V" n="28"/>definitio. Quidam dicunt supponere pro
+            <lb ed="#V" n="29"/>ablutione, quia in artificialibus materia
+            <lb ed="#V" n="30"/>est tota ratio compositi, ut praedicatur
+            <lb ed="#V" n="31"/>de toto recto. Alii dicunt supponere pro
+            <lb ed="#V" n="32"/>composito ex materia et forma verbali.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Sententia Doctoris est, supponere pro
+            <lb ed="#V" n="34"/>significatione sacramentali in concreto,
+            <lb ed="#V" n="35"/>-atque definitionem esse per
+            additamen<lb ed="#V" n="36" break="no"/>tum; definitur enim Baptismus ut est
+            <lb ed="#V" n="37"/>signum efficax gratiae, abluens animam,
+            <lb ed="#V" n="38"/>etc. Sic Patres, sic Concilia, sic Scriptura,
+            <lb ed="#V" n="39"/>agit de Baptismo, et spectat ad
+            conside<lb ed="#V" n="40" break="no"/>rationem Theologicam. Unde non sola
+            <lb ed="#V" n="41"/>ablutio physica, ut dicit prima sententia,
+            <lb ed="#V" n="42"/>neque verba praedicantur de Baptismo, de
+            <lb ed="#V" n="43"/>ablutione et verbis, loquendo
+            materiali<lb ed="#V" n="44" break="no"/>ter. Aliae vero illae determinationes, ut,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>ablutionem animae significans, etc. non
+            <lb ed="#V" n="46"/>sunt determinationes ipsarum in esse
+            na<lb ed="#V" n="47" break="no"/>turali et fundamentali tanquam naturales
+            <lb ed="#V" n="48"/>specificationes in esse rei, sed in esse
+            for<lb ed="#V" n="49" break="no"/>mali, quae continent et significant
+            effe<lb ed="#V" n="50" break="no"/>ctum gratiae; ergo sic supponunt in hac
+            <lb ed="#V" n="51"/>definitione formaliter, id est, pro
+            signifi<lb ed="#V" n="52" break="no"/>catione sacramentali in concreto, sicut
+            <lb ed="#V" n="53"/>peculiare est relationi, ut definiatur et
+            <lb ed="#V" n="54"/>intelligatur per extrema. Unde definitio
+            <lb ed="#V" n="55"/>Magistri ad hunc sensum, quem implicite
+            <lb ed="#V" n="56"/>includit, reducenda est, alias esset falsa
+            <lb ed="#V" n="57"/>aliter intellecta. Vide quae dicta sunt in
+            <lb ed="#V" n="58"/>commento quaest. 2. dist. 1. art. 2.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Sotus reprehendit hanc definitionem
+            <lb ed="#V" n="60"/>assignatam a Doctore, quasi suffarciat
+            <lb ed="#V" n="61"/>aliqua non necessaria, sed haec verba
+            <lb ed="#V" n="62"/>sunt: melius praecidisset argumento quod!
+            <lb ed="#V" n="63"/>superfluum est. Definitio enim non
+            com<lb ed="#V" n="64" break="no"/>prehendit aliud quam fundamentum et
+            <lb ed="#V" n="65"/>terminum, et rationes fundandi
+            essentiali<lb ed="#V" n="66" break="no"/>ter requisitas, sine quibus significatio
+            <lb ed="#V" n="67"/>sacramentalis non subsisteret, aut
+            Sacra<lb ed="#V" n="68" break="no"/>mentum. Definitioni autem relationis in
+            <lb ed="#V" n="69"/>concreto addere conditiones, et rationes
+            <lb ed="#V" n="70"/>fundandi, non est contra artem definiendi,
+            <lb ed="#V" n="71"/>quae specifica et propria exponit et
+            conver<lb ed="#V" n="72" break="no"/>titur cum definito; ergo ut convertatur, et
+            <lb ed="#V" n="73"/>sit propria, debent necessario addi tam
+            <lb ed="#V" n="74"/>ex parte subjecti, quam praedicati
+            specifi<lb ed="#V" n="75" break="no"/>catio ad hoc requisita, nisi dicas bonam
+            <lb ed="#V" n="76"/>esse definitionem Platonis, qua definiisse
+            <lb ed="#V" n="77"/>dicitur hominem quod fuerit animal
+            im<lb ed="#V" n="78" break="no"/>plume bipes; unde licet definitio debeat
+            <lb ed="#V" n="79"/>esse ratio brevis, debet tamen esse speciei
+            <lb ed="#V" n="80"/>expressio et convertibilis cum ipsa.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Ut amplius ergo id ipsum declaretur,
+            <lb ed="#V" n="82"/>sumendo definitionem traditam a Magistro,
+            <lb ed="#V" n="83"/>juxta significationem tantum explicitam,
+            <lb ed="#V" n="84"/>non soli Baptismo sacramentali competit,
+            <lb ed="#V" n="85"/>ut si quis baptizaret canem, vel animal, ut
+            <lb ed="#V" n="86"/>malefici quandoque faciunt cum
+            praescri<lb ed="#V" n="87" break="no"/>pta verborum forma, non esset ablutio
+            ba<lb ed="#V" n="88" break="no"/>ptismalis, quamvis esset exterior corporis,
+            <pb ed="#V" n="281"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>cum praescripta forma, recte ergo Doctor
+            <lb ed="#V" n="2"/>dicit ablutio hominis, si invitus
+            baptiza<lb ed="#V" n="3" break="no"/>retur, non esset baptismalis, recte ergo
+            <lb ed="#V" n="4"/>addit aliqualiter consentientis; si a seipso,
+            <lb ed="#V" n="5"/>non esset baptismalis similiter, recte ergo
+            <lb ed="#V" n="6"/>addit ab alio facta; si esset in alio liquore,
+            <lb ed="#V" n="7"/>non esset baptismalis, recte ergo additur
+            <lb ed="#V" n="8"/>in aqua; si joco et sine intentione fieret,
+            <lb ed="#V" n="9"/>non esset baptismalis, recte ergo addit
+            <lb ed="#V" n="10"/>cum debita intentione. Verba illa certa
+            <lb ed="#V" n="11"/>verba proferente, admittit Sotus esse de
+            <lb ed="#V" n="12"/>ratione Sacramenti, ejusque definitione.
+            <lb ed="#V" n="13"/>Item, si non significaret efficaciter ex
+            in<lb ed="#V" n="14" break="no"/>stitutione divina, etc. ablutionem animae a
+            <lb ed="#V" n="15"/>peccato, etc. non esset baptismalis, neque
+            <lb ed="#V" n="16"/>differret a Baptismo Joannis, qui fuit ex
+            <lb ed="#V" n="17"/>institutione divina, Lucae 3. Factum est
+            <lb ed="#V" n="18"/>verbum Domini super Joannem zachariae
+            <lb ed="#V" n="19"/>filium in deserto, et venit in omnem
+            regi<lb ed="#V" n="20" break="no"/>onem Jordanis praedicans Baptismum
+            poe<lb ed="#V" n="21" break="no"/>nitentiae, etc. et Joannis 1. Qui misit me
+            <lb ed="#V" n="22"/>baptizare, ille mihi dixit, etc. Cyrillus
+            <lb ed="#V" n="23"/>lib. 2. in Joannem, cap. 2. et 3. ait haec
+            <lb ed="#V" n="24"/>dixisse Joannem, ne sua sponte praecurrere
+            <lb ed="#V" n="25"/>videretur, qui non suae voluntatis, sed
+            divi<lb ed="#V" n="26" break="no"/>nae dispensationis minister fuit, etc.
+            Au<lb ed="#V" n="27" break="no"/>gustinus lib. 4. de Baptismo, cap. 22.
+            <lb ed="#V" n="28"/>idem docet. Fuit etiam Baptismus Joannis
+            <lb ed="#V" n="29"/>sub determinata forma verborum, ut
+            <lb ed="#V" n="30"/>supra vidimus sed non fuit in
+            remissi<lb ed="#V" n="31" break="no"/>onem peccatorum, in quo differt a
+            Bapti<lb ed="#V" n="32" break="no"/>smo Christi.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Quaelibet ergo particula in illa
+            defini<lb ed="#V" n="34" break="no"/>tione posita, adjunctis aliis, vel omnes
+            <lb ed="#V" n="35"/>simul ita determinant naturam specificam
+            <lb ed="#V" n="36"/>Sacramenti, ut simul sumptae: Omnibus
+            <lb ed="#V" n="37"/>non insint, vel simpliciter quae sunt, vel iis
+            <lb ed="#V" n="38"/>quae sub eodem genere sunt definitorum, etc.
+            <lb ed="#V" n="39"/>quod est primum genus superflui in
+            defi<lb ed="#V" n="40" break="no"/>nitione traditum a Philosopho 6.
+            Topico<lb ed="#V" n="41" break="no"/>rum, cap. 2. Qualibet etiam sublata, non
+            <lb ed="#V" n="42"/>manet definitio propria Sacramenti, quod
+            <lb ed="#V" n="43"/>est secundum genus superflui ibidem;
+            <lb ed="#V" n="44"/>nulla particula exprimitur, quin omnibus
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>insit, quae sunt sub specie, quod est
+            ter<lb ed="#V" n="46" break="no"/>tium genus; nihil est bis positum, aut
+            <lb ed="#V" n="47"/>frequenter dictum, quod est quartum
+            <lb ed="#V" n="48"/>genus; non additur aliqua pars ad totum,
+            <lb ed="#V" n="49"/>quod est quintum genus. Definitio
+            deni<lb ed="#V" n="50" break="no"/>que est ex prioribus et notioribus et
+            imme<lb ed="#V" n="51" break="no"/>diatis, ex quibus sequitur artem
+            definien<lb ed="#V" n="52" break="no"/>di observasse Doctorem quoad
+            definiti<lb ed="#V" n="53" break="no"/>onem.
+            <lb ed="#V" n="54"/>(d) Ad argumentum dicitur, etc. Hic
+            <lb ed="#V" n="55"/>rejicit solutionem Richardi, qui dicit
+            ma<lb ed="#V" n="56" break="no"/>teriam aut subjectum, praedicari de
+            artifi<lb ed="#V" n="57" break="no"/>cialibus in recto; hoc verum esse, si
+            su<lb ed="#V" n="58" break="no"/>matur tota materia, aut subjectum, non
+            <lb ed="#V" n="59"/>autem pars. Supponit autem sententiam
+            <lb ed="#V" n="60"/>Richardi, asserentis formam verborum
+            <lb ed="#V" n="61"/>esse de materia Sacramenti, seu essentia
+            <lb ed="#V" n="62"/>et fundamento relationis sacramentalis;
+            <lb ed="#V" n="63"/>domus non dicitur esse lapis.
+            Adverten<lb ed="#V" n="64" break="no"/>dum insuper illud non esse peculiare
+            <lb ed="#V" n="65"/>enti artificiali, quia de omni concreto
+            acci<lb ed="#V" n="66" break="no"/>dentali praedicatur subjectum suum totale,
+            <lb ed="#V" n="67"/>quod importatur per praedicatum ex modo
+            <lb ed="#V" n="68"/>significandi in concreto, saltem
+            secunda<lb ed="#V" n="69" break="no"/>rio, bene enim dicitur, currens est Petrus.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Et haec est ratio quare subjectum entis
+            <lb ed="#V" n="71"/>artificialis praedicetur de ipso in concreto,
+            <lb ed="#V" n="72"/>quae praedicatio esset falsa, si sumeretur
+            <lb ed="#V" n="73"/>forma artificialis in abstracto; non sufficit
+            <lb ed="#V" n="74"/>enim, ut forma insit, nisi ex modo
+            signi<lb ed="#V" n="75" break="no"/>ficandi denotet suum inesse, atque illud
+            <lb ed="#V" n="76"/>cui insit, importet. Ratio ergo
+            quorum<lb ed="#V" n="77" break="no"/>dam, ut Soti, jam praemissa, et falsa est,
+            <lb ed="#V" n="78"/>et committit non causam ut causam, quia
+            <lb ed="#V" n="79"/>nec tota quidditas et ratio entis
+            artificia<lb ed="#V" n="80" break="no"/>lis, ut artificiale est, est sua materia,
+            ne<lb ed="#V" n="81" break="no"/>que si esset, inde sumeretur
+            fundamen<lb ed="#V" n="82" break="no"/>tum praedicandi, sed ex eo quod in
+            con<lb ed="#V" n="83" break="no"/>creto per alterutrum, sive formam, sive
+            <lb ed="#V" n="84"/>materiam importatur reliquum: tota enim
+            <lb ed="#V" n="85"/>ratio hominis est humanitas, sed non recte
+            <lb ed="#V" n="86"/>de ipso praedicatur sic in abstracto, sed
+            <lb ed="#V" n="87"/>tantum in concreto.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

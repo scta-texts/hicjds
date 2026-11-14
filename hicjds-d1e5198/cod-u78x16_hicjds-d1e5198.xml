@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Prologus</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Prologus</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="10"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e5198"><!-- hicjds-b4prol -->
+        <head>Prologus</head>
+        <!-- <div alias="hiq-prol"> -->
+          <p>
+            <lb ed="#V" n="23" type="fixed=10"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>(a) Samaritanus ille, etc. Hic Doctor
+            <lb ed="#V" n="25"/>assumens praefationem Magistri in
+            quar<lb ed="#V" n="26" break="no"/>tum Sententiarum, applicat eumdem
+            or<lb ed="#V" n="27" break="no"/>dinem, et distributionem operis totius
+            ex<lb ed="#V" n="28" break="no"/>primens, alludit uterque ad parabolam
+            <lb ed="#V" n="29"/>illam Samaritani, Lucae 10. juxta mysticam
+            <lb ed="#V" n="30"/>interpretationem, quae accommodatur
+            lap<lb ed="#V" n="31" break="no"/>sui et redemptioni generis humani, ex
+            com<lb ed="#V" n="32" break="no"/>muni Patrum sententia, Origenis homil.
+            <lb ed="#V" n="33"/>in Lucam, Nazianzeni Orat. 4. de Theolog.
+            <lb ed="#V" n="34"/>Basilii hom. in aliqua Sccripturae loca,
+            <lb ed="#V" n="35"/>Chrysostomi homil. in eumdem locum, et
+            <lb ed="#V" n="36"/>in homil. de Anathem. Ambrosii in Lucam,
+            <lb ed="#V" n="37"/>Hieronym. Epist. ad Fabiolam, et in comm.
+            <lb ed="#V" n="38"/>cap. 20. Matthaei, Augustini serm. 7. de
+            <lb ed="#V" n="39"/>verbis Domini in Lucam, et lib. 2. quaest.
+            <lb ed="#V" n="40"/>Evangel. cap. 19. Gregorii lib. 20. Moral.
+            <lb ed="#V" n="41"/>cap. 27. Bedae, Theophylacti in eumdem
+            <lb ed="#V" n="42"/>locum, Bernardi serm. 1. de Annuntiat.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>B. Mariae, et aliorum Interpretum, apud
+            <lb ed="#V" n="44"/>quos accommodatio legi potest, reddendo
+            <lb ed="#V" n="45"/>singula singulis.
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>Homo descendens ab Jerusalem, quae
+            <lb ed="#V" n="47"/>interpretratur pacis visio, est Adam, cum
+            <lb ed="#V" n="48"/>omni sua posteritate, peccato lapsus a
+            <lb ed="#V" n="49"/>culmine suae innocentiae, in qua summa
+            <lb ed="#V" n="50"/>pace fruebatur, ut Augustinus lib. de
+            Cor<lb ed="#V" n="51" break="no"/>rept. et grat. cap. 11. et alibi saepe docet.
+            <lb ed="#V" n="52"/>Per Jericho significatur status peccati;
+            <lb ed="#V" n="53"/>Jericho enim interpretatur Luna, quae
+            <lb ed="#V" n="54"/>menstruis mutationibus, incrementis et
+            <lb ed="#V" n="55"/>decrementis subjacet, et proinde
+            Eccle<lb ed="#V" n="56" break="no"/>siast. 27. comparatur ei stultus seu
+            pec<lb ed="#V" n="57" break="no"/>cator. Latrones in quos incidit sunt
+            Daemo<lb ed="#V" n="58" break="no"/>nes, qui expoliaverunt eum gratuitis per
+            <lb ed="#V" n="59"/>peccatum. Coelestinus 1. Epist. 2. cap. 4.
+            <lb ed="#V" n="60"/>Tridentinum sess. 5. can. 1. nempe
+            justi<lb ed="#V" n="61" break="no"/>tia originali, et aliis donis, quae bonitate
+            <lb ed="#V" n="62"/>sui Createris accepit, non propriis meritis;
+            <lb ed="#V" n="63"/>vulneraverunt eum in naturalibus, quia
+            <lb ed="#V" n="64"/>secundum corpus et animam in deterius
+            <lb ed="#V" n="65"/>commutatum. Arausicanum can. 1.
+            Tri<lb ed="#V" n="66" break="no"/>dentinum supra. Per Levitam et
+            Sacerdo<lb ed="#V" n="67" break="no"/>tem, qui jacentem et sauciatum
+            praeteri<lb ed="#V" n="68" break="no"/>erunt, designatur lex Mosaica, ejusque
+            <lb ed="#V" n="69"/>infirmitas ad sanandum hominem a
+            pec<lb ed="#V" n="70" break="no"/>cato, ut patet ex Tridentino sess. 6. cap. 1.
+            <lb ed="#V" n="71"/>et can. 1. Samaritanus autem veniens,
+            <lb ed="#V" n="72"/>qui curam ejus gessit, intelligitur filius
+            <lb ed="#V" n="73"/>Dei, quando venit plenitudo temporis
+            mis<lb ed="#V" n="74" break="no"/>sus a Patre misericordiarum ad homines,
+            <lb ed="#V" n="75"/>ut Judaeos, qui sub lege erant, redimeret,
+            <lb ed="#V" n="76"/>et Gentes, quae non sectabantur justitiam,
+            <lb ed="#V" n="77"/>justitiam apprehenderent, atque omnes
+            <lb ed="#V" n="78"/>adoptionem filiorum Dei recuperarent.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>(b) De ista saucii sanatione, etc. Reddit
+            <lb ed="#V" n="80"/>rationem ordinis, quem sequitur Magister
+            <lb ed="#V" n="81"/>in libris Sententiarum, juxta ordinem in
+            <lb ed="#V" n="82"/>genere, quo creaturae in Deum
+            reducun<lb ed="#V" n="83" break="no"/>tur, tanquam principium et finem, Alpha
+            <lb ed="#V" n="84"/>et Omega, Apocalyps. 1.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>In primo lib. Sentent. agitur de
+            prin<lb ed="#V" n="86" break="no"/>cipio ad intra et extra, scilicet de Deo in
+            <pb ed="#V" n="11"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>se trino et uno, ejusque perfectionibus,
+            <lb ed="#V" n="2"/>de scientia tam possibilium quam
+            futuro<lb ed="#V" n="3" break="no"/>rum, de aeterna praedestinatione et
+            repro<lb ed="#V" n="4" break="no"/>batione, et voluntate antecedenti et
+            con<lb ed="#V" n="5" break="no"/>sequenti, seu signi et beneplaciti, Deique
+            <lb ed="#V" n="6"/>providentia in sua aeternitate.
+            <lb ed="#V" n="7"/>In secundo vero de eadem providentia
+            <lb ed="#V" n="8"/>a et creatione rerum in tempore, tam
+            ma<lb ed="#V" n="9" break="no"/>terialium quam spiritualium, de Angelo
+            <lb ed="#V" n="10"/>et homine institutis, de lapsu Angeli et
+            <lb ed="#V" n="11"/>hominis.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>In tertio de Mediatore inter Deum et
+            <lb ed="#V" n="13"/>hominem, et de virtutibus, tam moralibus
+            <lb ed="#V" n="14"/>quam infusis, de donis, de praeceptis
+            qui<lb ed="#V" n="15" break="no"/>bus homo reducitur in finem ex gratia
+            <lb ed="#V" n="16"/>Redemptoris.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>In quarto de curatione hominis languidi
+            <lb ed="#V" n="18"/>per Sacramenta, quam recte vocat
+            semi<lb ed="#V" n="19" break="no"/>plenam et dispositionem, quia est viatoris
+            <lb ed="#V" n="20"/>peregrinantis per fidem, qui nondum
+            asse<lb ed="#V" n="21" break="no"/>cutus est finem aut plenam sanitatem, sed
+            <lb ed="#V" n="22"/>luctatur cum infirmitatibus, interne
+            qui<lb ed="#V" n="23" break="no"/>dem in se patiens rixam carnis et spiritus,
+            <lb ed="#V" n="24"/>ubi hera et ancilla, Sara et Agar dissidia
+            <lb ed="#V" n="25"/>fovent in partes distractae; exterius vero
+            <lb ed="#V" n="26"/>impetitus, cum Daemone et mundo
+            con<lb ed="#V" n="27" break="no"/>greditur, contra quos Sacramentis
+            muni<lb ed="#V" n="28" break="no"/>(tur. Et hic tractatus de Sacramentis in
+            <lb ed="#V" n="29"/>genere et specie producitur usque ad
+            <lb ed="#V" n="30"/>distinctionem 43. in hac autem et deinceps
+            <lb ed="#V" n="31"/>agitur de plena curatione, nempe per
+            <lb ed="#V" n="32"/>collationem praemii et gloriae, quae excludit
+            <lb ed="#V" n="33"/>omnem miseriam et infirmitatem, et in
+            <lb ed="#V" n="34"/>qua creatura suo Creatori perfectissime
+            <lb ed="#V" n="35"/>et immutabiliter adhaeret.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Haec methodus considerandi Deum, qua
+            <lb ed="#V" n="37"/>principium et finis est creaturarum,
+            con<lb ed="#V" n="38" break="no"/>cordat cum illo ordine, quo S. Augustinus
+            <lb ed="#V" n="39"/>discernit diem cognitionis Angelicae in
+            <lb ed="#V" n="40"/>matutinam et vespertinam. Matutinam
+            <lb ed="#V" n="41"/>determinat esse eam, qua Deus in se
+            <lb ed="#V" n="42"/>cognoscitur, ut fons est et origo omnium.
+            <lb ed="#V" n="43"/>Vespertinam dividit in eam, qua
+            cognosci<lb ed="#V" n="44" break="no"/>tur creatura, ut procedens a Deo in
+            pro<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>prio genere, et in eam, qua reducitur
+            <lb ed="#V" n="46"/>in Deum, tanquam in finem in quo
+            termi<lb ed="#V" n="47" break="no"/>natur.
+            <lb ed="#V" n="48"/>Servatur methodus requisita ad
+            scien<lb ed="#V" n="49" break="no"/>tiam, quia sicut ex quaest. tertia Prologi
+            <lb ed="#V" n="50"/>constat, Deus est subjectum Theologiae,
+            <lb ed="#V" n="51"/>quantum ad veritates necessarias,
+            quan<lb ed="#V" n="52" break="no"/>tum ad veritates contingentes.
+            <lb ed="#V" n="53"/>Primo ergo agendum erat de necessariis
+            <lb ed="#V" n="54"/>veritatibus, sive immediatis et habentibus
+            <lb ed="#V" n="55"/>evidentiam ex terminis in intellectu
+            ap<lb ed="#V" n="56" break="no"/>prehendente perfecte terminos, sive ex
+            <lb ed="#V" n="57"/>mediatis, et per modum conclusionum.
+            <lb ed="#V" n="58"/>Sic in primo agitur de Deo et ejus
+            per<lb ed="#V" n="59" break="no"/>fectionibus, qua unus et trinus est in se.
+            <lb ed="#V" n="60"/>Veritates autem contingentes reducuntur
+            <lb ed="#V" n="61"/>ad idem subjectum, nempe essentiam
+            <lb ed="#V" n="62"/>divinam, servato ordine inter ipsas
+            con<lb ed="#V" n="63" break="no"/>tingentes, quarum radix est divina
+            volun<lb ed="#V" n="64" break="no"/>tas. Sicut ergo illa voluntas prior est sub
+            <lb ed="#V" n="65"/>intentione quam sub executione, et prius
+            <lb ed="#V" n="66"/>consideratur, ut ab aeterno est sub actu,
+            <lb ed="#V" n="67"/>quam ut pro tempore transit in effectum,
+            <lb ed="#V" n="68"/>inde poscit ordo, ut generaliter de ipsa
+            <lb ed="#V" n="69"/>hoc modo ageretur in primo.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Succedit autem in secundo consideratio
+            <lb ed="#V" n="71"/>ejusdem, ut transit in effectum creationis
+            <lb ed="#V" n="72"/>rerum in genere, et in specie creaturae
+            <lb ed="#V" n="73"/>spiritualis, ut processit juxta primaevum
+            <lb ed="#V" n="74"/>statum et determinationem a Deo; deinde
+            <lb ed="#V" n="75"/>supposito peccato, et recessu hominis ab
+            <lb ed="#V" n="76"/>illo statu, in quo est conditus, de quo
+            <lb ed="#V" n="77"/>agitur in ultima secundi.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>In tertio subjungitur consideratio
+            Media<lb ed="#V" n="79" break="no"/>toris, et justitiae, quam communicavit
+            in<lb ed="#V" n="80" break="no"/>trinsece, virtutum et donorum, viatori.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>In quarto tandem sequitur de causis
+            <lb ed="#V" n="82"/>extrinsecis conservandi et restituendi
+            <lb ed="#V" n="83"/>eamdem justitiam, ut sunt Sacramenta,
+            <lb ed="#V" n="84"/>ac demum ultimo de ipsius justitiae
+            con<lb ed="#V" n="85" break="no"/>summatione per gloriam, et de stabili
+            <lb ed="#V" n="86"/>termino creaturarum cessante deinceps
+            <lb ed="#V" n="87"/>motu et mutatione.
+          </p>
+          <p>
+            <lb ed="#V" n="88"/>Postquam autem Doctor supposuit hanc
+            <pb ed="#V" n="12"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>generalem divisionem Quarti, tandem
+            di<lb ed="#V" n="2" break="no"/>vidit primam ejus partem ex methodo
+            <lb ed="#V" n="3"/>Magistri in duas, quarum prior est de
+            <lb ed="#V" n="4"/>Sacramento in communi, et haec
+            termina<lb ed="#V" n="5" break="no"/>tur unica distinctione, quae prima est,
+            <lb ed="#V" n="6"/>ubi explicat primo, quid sit Sacramentum?
+            <lb ed="#V" n="7"/>Secundo, quare institutum? Tertio, in quo
+            <lb ed="#V" n="8"/>consistat? Quarto, quae sint differentiae
+            <lb ed="#V" n="9"/>Sacramentorum? Subjungit etiam de
+            Cir<lb ed="#V" n="10" break="no"/>cumcisione et remedio legis naturae, et
+            <lb ed="#V" n="11"/>quaedam dubia circa efficaciam
+            Circumci<lb ed="#V" n="12" break="no"/>sionis. Secunda autem pars incipit a
+            di<lb ed="#V" n="13" break="no"/>stinctione secunda inclusive, usque ad
+            qua<lb ed="#V" n="14" break="no"/>dragesimam tertiam exclusive. De
+            Sacra<lb ed="#V" n="15" break="no"/>mentis novae legis in specie, et eorum
+            <lb ed="#V" n="16"/>efficacia.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

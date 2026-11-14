@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio Septima, Quaestio 5</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio Septima, Quaestio 5</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="709"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3725"><!-- hicjds-b4d7q5 -->
+        <head>Quaestio 5</head>
+        <head type="question-title">Utrum sit aliqua poena iterantium sacramentum confirmationis</head>
+        <!-- <div alias="hiq-d7q5-p1"> -->
+          <p>
+            <lb ed="#V" n="6" type="fixed=709"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>(a) Sed aliter dico, etc. Conclusio
+            <lb ed="#V" n="8"/>Doctoris contra Canonistas est, iterantem
+            <lb ed="#V" n="9"/>Confirmationem non incurrere poenam
+            <lb ed="#V" n="10"/>irregularitatis, sicut incurrunt
+            rebapti<lb ed="#V" n="11" break="no"/>zantes, quia talis poena in jure canonico
+            <lb ed="#V" n="12"/>non reperitur, poenae autem restringendae
+            <lb ed="#V" n="13"/>sunt; unde argumentum a simili in
+            <lb ed="#V" n="14"/>materia odiosa et poenali non valet
+            <lb ed="#V" n="15"/>Doctorem sequuntur Paludanus dist. 7
+            <lb ed="#V" n="16"/>quaest. 2. Gabriel art. 3. dubio 5
+            <lb ed="#V" n="17"/>Covarruvias in Clement. Si furiosus
+            <lb ed="#V" n="18"/>citans Turrecrematam, et alios; solum
+            <lb ed="#V" n="19"/>enim reperitur in Concilio Tarraconensi
+            <lb ed="#V" n="20"/>Apud Gratianum tamen cap. Qui bis,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="21"/>de consecrat. dist. 5. quod debeat in
+            <lb ed="#V" n="22"/>Monasterio sub habitu clericali aut
+            <lb ed="#V" n="23"/>regulari, famulatum praestare Deo,
+            <lb ed="#V" n="24"/>sed haec neque omnes obligat, cum sit
+            <lb ed="#V" n="25"/>Concilii provincialis, nec fuit receptum
+            <lb ed="#V" n="26"/>neque in ipso Concilio habetur. Et eo
+            <lb ed="#V" n="27"/>admisso tanquam jure incurso, ut notat
+            <lb ed="#V" n="28"/>Doctor, magis supponit contrarium,
+            <lb ed="#V" n="29"/>nempe in famulatu Dei ipsum non
+            <lb ed="#V" n="30"/>constitui irregularem, sed posse uti
+            <lb ed="#V" n="31"/>ordine. Accedit quod irregularitas non
+            <lb ed="#V" n="32"/>incurratur nisi in casibus jure expressis,
+            <lb ed="#V" n="33"/>cap. Is qui de sententia
+            excommuni<lb ed="#V" n="34" break="no"/>cationis, in 6. Hanc sententiam etiam
+            <lb ed="#V" n="35"/>sequuntur moderni, ut Soto, et Suarez.
+            <lb ed="#V" n="36"/>Et haec ad Dei gloriam sufficiant de
+            <lb ed="#V" n="37"/>hoc Sacramento, nam de subjecto,
+            <lb ed="#V" n="38"/>quod attingit Doctor in definitione,
+            <lb ed="#V" n="39"/>non multum occurrit specialiter
+            dicen<lb ed="#V" n="40" break="no"/>dum, nisi quod sit baptizatus et dispositus
+            <lb ed="#V" n="41"/>ad effectum hujus Sacramenti; de
+            <lb ed="#V" n="42"/>patrino et ritibus, videantur Summistae.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

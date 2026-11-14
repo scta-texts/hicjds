@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 4, Pars 4, Quaestio 2</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 4, Pars 4, Quaestio 2</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="487"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3458"><!-- hicjds-b4d4p4q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Quid faciendum est de parvulo exposito</head>
+        <!-- <div alias="hiq-d4q8-p1"> -->
+          <p>
+            <lb ed="#V" n="15" type="fixed=487"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Juxta ista patent quaedam
+            quaesti<lb ed="#V" n="17" break="no"/>ones. etc. Resolutio hujus quaestionis est
+            <lb ed="#V" n="18"/>vera, non solum ex Decreto Leonis
+            cita<lb ed="#V" n="19" break="no"/>to, sed etiam Carthaginensi V. cap. 6.
+            <lb ed="#V" n="20"/>Concilio Africano sub Bonifacio, cap. 39.
+            <lb ed="#V" n="21"/>Wormatiensi cap. 70. et refertur de
+            <lb ed="#V" n="22"/>consecrat. dist. 4. cap. Placuit.
+            Alex<lb ed="#V" n="23" break="no"/>andro III. capitulo, De quibus. Ex quo
+            re<lb ed="#V" n="24" break="no"/>solvit Doctor dandum esse tutius
+            Bapti<lb ed="#V" n="25" break="no"/>smum sub conditione. Anteriores Patres
+            <lb ed="#V" n="26"/>absolute baptizandum docuerunt ex
+            spe<lb ed="#V" n="27" break="no"/>ciali conditione illorum temporum, in
+            <lb ed="#V" n="28"/>quibus minus fundari posset praesumptio.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

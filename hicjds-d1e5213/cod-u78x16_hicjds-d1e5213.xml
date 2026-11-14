@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 4, Praeambulum</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 4, Praeambulum</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="382"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e5213"><!-- hicjds-b4d4prae -->
+        <head>Praeambulum</head>
+        <!-- <div alias="hiq-d4prae"> -->
+          <p>
+            <lb ed="#V" n="75" type="fixed=382"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>(a) Postquam Magister, etc. Postquam e
+            <lb ed="#V" n="77"/>in prioribus cum Magistro exposuit
+            ex<lb ed="#V" n="78" break="no"/>trinseca Baptismi, quantum ad formam,
+            <lb ed="#V" n="79"/>materiam, definitionem, institutionem,
+            <lb ed="#V" n="80"/>nunc proxime agit de suscipientibus
+            Ba<lb ed="#V" n="81" break="no"/>ptismum, qui sunt infantes et adulti, ad
+            <lb ed="#V" n="82"/>quos possit tripliciter comparari, vel ut
+            re<lb ed="#V" n="83" break="no"/>cipiunt Sacramentum tantum; vel
+            secun<pb ed="#V" n="383"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>do, ut recipiunt rem Sacramenti; vel
+            ter<lb ed="#V" n="2" break="no"/>tio, ut recipiunt Sacramentum et rem
+            Sa<lb ed="#V" n="3" break="no"/>cramenti simul. Suscipere Sacramentum
+            <lb ed="#V" n="4"/>tantum et non rem, competitgficto;
+            Sacra<lb ed="#V" n="5" break="no"/>mentum vero et rem Sacramenti
+            susci<lb ed="#V" n="6" break="no"/>piunt infantes et adulti, qui sine fictione
+            <lb ed="#V" n="7"/>accedunt; rem Sacramenti sine ipso
+            Sa<lb ed="#V" n="8" break="no"/>cramento suscipiunt, qui baptizantur
+            Ba<lb ed="#V" n="9" break="no"/>ptismo flaminis, et sic decedunt sine
+            <lb ed="#V" n="10"/>Baptismo fluminis, cujus non est copia.
+            <lb ed="#V" n="11"/>Item, qui in sanguine baptizantur
+            pro<lb ed="#V" n="12" break="no"/>pter Christum, ut qui Martyrio ante
+            Ba<lb ed="#V" n="13" break="no"/>ptismum afficiuntur. Hic triplex modus
+            <lb ed="#V" n="14"/>suscipiendi Baptismum, patet ex locis
+            <lb ed="#V" n="15"/>Augustini et Hieronymi in littera citatis
+            <lb ed="#V" n="16"/>a Magistro.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Tractatum universum absolvit Doctor
+            <lb ed="#V" n="18"/>novem quaestionibus, prima pars ejus
+            <lb ed="#V" n="19"/>est de Baptismo, infantium; continet
+            <lb ed="#V" n="20"/>tres quaestiones, prima: An sint
+            bapti<lb ed="#V" n="21" break="no"/>zandi? secunda: An recipiant effectum
+            <lb ed="#V" n="22"/>Baptismi? tertia: An in utero materno
+            <lb ed="#V" n="23"/>possint baptizari? Secunda pars est de
+            <lb ed="#V" n="24"/>adulto, et continet quartam et quintam
+            <lb ed="#V" n="25"/>quaestionem: Utrum non consentiens
+            re<lb ed="#V" n="26" break="no"/>cipiat effectum Baptismi? Utrum fictus
+            <lb ed="#V" n="27"/>recipiat eumdem? Tertia pars est de
+            <lb ed="#V" n="28"/>utrisque, ad quam spectat quaestio sexta
+            <lb ed="#V" n="29"/>et septima: Utrum justificati teneantur
+            <lb ed="#V" n="30"/>ad Baptismum? Utrum omnes baptizati
+            <lb ed="#V" n="31"/>aequaliter recipiant effectum Baptismi?
+            <lb ed="#V" n="32"/>Quarta pars continet octavam et nonam;
+            <lb ed="#V" n="33"/>prima est de parvulo exposito; secunda
+            <lb ed="#V" n="34"/>parvulis Judaeorum et infidelium.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

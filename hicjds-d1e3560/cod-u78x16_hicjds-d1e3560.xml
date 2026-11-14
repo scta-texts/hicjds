@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio Sexta, Pars 2, Quaestio 2</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio Sexta, Pars 2, Quaestio 2</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="559"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3560"><!-- hicjds-b4d6p2q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum unitas baptismi requirat simul esse ablutionem et prolationem verborum</head>
+        <!-- <div alias="hiq-d6q3-p1"> -->
+          <p>
+            <lb ed="#V" n="49" type="fixed=559"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>(a) Ad istam quaestionem patet, etc.
+            <lb ed="#V" n="51"/>Est conclusio communis, quia id exigit
+            <lb ed="#V" n="52"/>institutio, ut forma determinet
+            mate<lb ed="#V" n="53" break="no"/>riam, et coalescant in unum, quocumque
+            <lb ed="#V" n="54"/>modo ad invicem ordinentur, sive ut
+            <lb ed="#V" n="55"/>compartes ejusdem fundamenti, in quo
+            <lb ed="#V" n="56"/>perficitur significatio sacramentalis, sive
+            <lb ed="#V" n="57"/>ut fundamentum, et circumstantia juxta
+            <lb ed="#V" n="58"/>varios modos explicandi specialem
+            es<lb ed="#V" n="59" break="no"/>sentiam hujus aut illius Sacramenti in
+            <lb ed="#V" n="60"/>specie, intelligitur difficultas in
+            Sacra<lb ed="#V" n="61" break="no"/>mentis, quae in usu consistunt, non
+            au<lb ed="#V" n="62" break="no"/>tem de Eucharistia, in qua est ratio
+            <lb ed="#V" n="63"/>specialis, quia est permanens, ut indicat
+            <lb ed="#V" n="64"/>Doctor.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>(b) Sed qualis simultas, etc. Primo
+            <lb ed="#V" n="66"/>rejicit opinionem glossatoris 1. quaest. 1.
+            <lb ed="#V" n="67"/>cap. Detrahe, etc. atque fundamenta
+            <lb ed="#V" n="68"/>ejus; et merito, ut omnes concedunt,
+            <lb ed="#V" n="69"/>quia Christus non voluit ministros
+            Sa<lb ed="#V" n="70" break="no"/>cramentorum, quae pro conditione
+            homi<lb ed="#V" n="71" break="no"/>num in materia facili et pervia instituit,
+            <lb ed="#V" n="72"/>quo facile per ipsa perveniri posset ad
+            <lb ed="#V" n="73"/>salutem, et quorum ministerium voluit
+            <lb ed="#V" n="74"/>esse visibile et perceptibile; non voluit,
+            <lb ed="#V" n="75"/>inquam, obligare ad rigorem
+            Mathemati<lb ed="#V" n="76" break="no"/>cum, qui nequit sub sensum, aut
+            pru<lb ed="#V" n="77" break="no"/>dentiam cadere; sufficit ergo moralis
+            <lb ed="#V" n="78"/>propinquitas, quae intervenit inter
+            ac<lb ed="#V" n="79" break="no"/>tiones humanas.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Aliqui, ut Vasquez et Suarez locis
+            ci<lb ed="#V" n="81" break="no"/>tatis a Scholiaste, imponunt nostro Doctori
+            <lb ed="#V" n="82"/>eum voluisse requiri saltem, ut ablutio
+            <lb ed="#V" n="83"/>incipiat antequam forma terminetur, aut
+            <lb ed="#V" n="84"/>e contra; quod tenuit Cajetanus
+            opus<lb ed="#V" n="85" break="no"/>culorum tom. 1. tit. 26. 8 Ad cujus
+            evi<lb ed="#V" n="86" break="no"/>dentiam, etc. Melius intellexit Soto
+            Doc<pb ed="#V" n="560"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>torem, quem et ipse sequitur dist. 3.
+            <lb ed="#V" n="2"/>quaest. unica art. 8. neque hoc requiri
+            <lb ed="#V" n="3"/>in rigore, sed sufficere continuationem
+            <lb ed="#V" n="4"/>moralem, juxta naturam cujusque
+            actio<lb ed="#V" n="5" break="no"/>nis et modum enuntiandi formae. Ex
+            qui<lb ed="#V" n="6" break="no"/>bus constat ad Sacramentum exigi nunc
+            <lb ed="#V" n="7"/>majorem, nunc minorem, quatenus ad
+            <lb ed="#V" n="8"/>signum sacramentale spectant hic et
+            <lb ed="#V" n="9"/>nunc, quia licet in hac materia omnis
+            <lb ed="#V" n="10"/>diligentia adhibenda est, ut debite
+            exer<lb ed="#V" n="11" break="no"/>ceatur, tamen submovendi sunt scrupuli
+            <lb ed="#V" n="12"/>et pericula, quae de valore Sacramenti
+            <lb ed="#V" n="13"/>possint exoriri.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Et haec est sententia Doctoris, nam
+            <lb ed="#V" n="15"/>licet posuerit modum secundum rigorem
+            <lb ed="#V" n="16"/>Philosophicum, etiam salvandum de
+            si<lb ed="#V" n="17" break="no"/>multate successivorum, quae existunt per
+            <lb ed="#V" n="18"/>partes, et non simul, et quae magis est
+            <lb ed="#V" n="19"/>in praxi, et quam ex congruitate et
+            <lb ed="#V" n="20"/>reverentia minister debet observare, ut
+            <lb ed="#V" n="21"/>actionem abluendi faciat invocando
+            Tri<lb ed="#V" n="22" break="no"/>nitatem, tamen neque id asseruit de
+            <lb ed="#V" n="23"/>necessitate Sacramenti requiri (quamvis
+            <lb ed="#V" n="24"/>requiratur de necessitate ministri,
+            quan<lb ed="#V" n="25" break="no"/>do servari potest), quin etiam minor per
+            <lb ed="#V" n="26"/>moralem continuationem ablutionis et
+            <lb ed="#V" n="27"/>prolationis formae sufficiat. Dicit enim
+            <lb ed="#V" n="28"/>sufficere (ut excludat rationes glossatoris)
+            <lb ed="#V" n="29"/>ad simultatem, ut una actio incipiat
+            an<lb ed="#V" n="30" break="no"/>tequam terminetur alia, non dicit tamen
+            <lb ed="#V" n="31"/>omnino hoc esse per se requisitum, nam
+            <lb ed="#V" n="32"/>ratio posita ab ipso primum docet
+            suffi<lb ed="#V" n="33" break="no"/>cere propinquitatem moralem et
+            huma<lb ed="#V" n="34" break="no"/>nam, per quam materia et forma ad idem
+            <lb ed="#V" n="35"/>referantur per modum unius signi, et S
+            <lb ed="#V" n="36"/>Qualis est, etc. in fine, ait impugnando
+            <lb ed="#V" n="37"/>glossatorem: Apostoli baptizantes tria
+            <lb ed="#V" n="38"/>millia eodem die, Act. 2. non semper cum
+            <lb ed="#V" n="39"/>ultima syllaba formae asperserunt, ita
+            <lb ed="#V" n="40"/>quod tunc aqua tetigerit baplisatum, etc.
+            <lb ed="#V" n="41"/>quo casu aspersio potuit praevenire
+            for<lb ed="#V" n="42" break="no"/>mam, aut subsequi.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>H oc etiam clarius colligitur supra ex
+            <lb ed="#V" n="44"/>dist. 3. quaest. 3. S De secunda variatione,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>versu de interpositione, etc. ubi dicit
+            suf<lb ed="#V" n="46" break="no"/>ficere ad connexionem verhorum formae
+            <lb ed="#V" n="47"/>in ratione veri signi, continuitatem
+            re<lb ed="#V" n="48" break="no"/>quisitam ad actus humanos. Unde si
+            ali<lb ed="#V" n="49" break="no"/>quis dicens: Baptizo te, interponat hoc
+            <lb ed="#V" n="50"/>verbum, tacete, vel recedite, et
+            prosequa<lb ed="#V" n="51" break="no"/>tur formam in reliquis, donec absolvat,
+            <lb ed="#V" n="52"/>non impeditur continuitas ejus ad
+            sen<lb ed="#V" n="53" break="no"/>sum sacramentalem requisita; sed non
+            <lb ed="#V" n="54"/>major requiritur propinquitas formae adi
+            <lb ed="#V" n="55"/>materiam, ut fiat totum signum
+            sacra<lb ed="#V" n="56" break="no"/>mentale quam unius partis formae ad
+            <lb ed="#V" n="57"/>aliam, ut similiter servetur sensus
+            sacra<lb ed="#V" n="58" break="no"/>mentalis; sed haec non est physica, sed
+            <lb ed="#V" n="59"/>moralis, et humano modo considerata, se
+            <lb ed="#V" n="60"/>alias etiam syncopans, aut singultiens,
+            <lb ed="#V" n="61"/>aut respirans, aut suspirans, non posset
+            <lb ed="#V" n="62"/>valide proferre formam, interclusa voce
+            <lb ed="#V" n="63"/>et halitu per ejusmodi, seu potius
+            inter<lb ed="#V" n="64" break="no"/>rupta ad modicum, quod est falsum,
+            <lb ed="#V" n="65"/>quia sic non esset signum aptum
+            infirmi<lb ed="#V" n="66" break="no"/>tati humanae, ergo etiam similis unio et
+            <lb ed="#V" n="67"/>continuitas inter formam et materiam
+            <lb ed="#V" n="68"/>sufficiunt ex mente Doctoris. Scholiastes,
+            <lb ed="#V" n="69"/>quando dicit requiritur, intelligit
+            quan<lb ed="#V" n="70" break="no"/>tum est de necessitate et congruitate
+            <lb ed="#V" n="71"/>ministri, dum potest, quia servanda est
+            <lb ed="#V" n="72"/>regula Ritualium et usus, et in
+            minis<lb ed="#V" n="73" break="no"/>terio Sacramentorum, si possibilitas
+            <lb ed="#V" n="74"/>adest, et via tutissima est sequenda et
+            <lb ed="#V" n="75"/>eligenda, ut optime praescribit Doctor
+            <lb ed="#V" n="76"/>eodem loco in fine praecedentis
+            paragra<lb ed="#V" n="77" break="no"/>phi.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

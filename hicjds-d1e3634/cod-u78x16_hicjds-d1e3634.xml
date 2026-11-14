@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio Sexta, Pars 4, Articulus Primus, Quaestio 2</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio Sexta, Pars 4, Articulus Primus, Quaestio 2</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="589"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3634"><!-- hicjds-b4d6p4a1q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Quae sit poena iterantium baptisma</head>
+        <!-- <div alias="hiq-d6q8-p1"> -->
+          <p>
+            <lb ed="#V" n="11" type="fixed=589"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>(a) Juxta hoc queero, quae sit poena
+            <lb ed="#V" n="13"/>iterantium, etc. Haec quaestio ex occasione
+            <lb ed="#V" n="14"/>poenae rebaptizantium, qua fiunt hinc inde
+            <lb ed="#V" n="15"/>irregulares, tam baptizans quam
+            baptiza<lb ed="#V" n="16" break="no"/>tus, si scienter id faciant, movet aliam
+            <lb ed="#V" n="17"/>quaestionem satis prolixam, nempe quid
+            <lb ed="#V" n="18"/>fiat quando ignorantia in culpa sit? et
+            <lb ed="#V" n="19"/>quae ignorantia excuset a peccato et
+            poe<lb ed="#V" n="20" break="no"/>na? Applicat autem Doctor illam regulam
+            <lb ed="#V" n="21"/>communem, quam communiter sequuntur
+            <lb ed="#V" n="22"/>Canonistae et Jurisperiti, nempe,
+            igno<lb ed="#V" n="23" break="no"/>rantiam facti, non Juris, excusare. Unde
+            <lb ed="#V" n="24"/>si dubitetur cum fundamento, an persona
+            <lb ed="#V" n="25"/>sit baptizata, vel simpliciter supponitur
+            <lb ed="#V" n="26"/>non baptizata, ut si infans, qui defertur
+            <lb ed="#V" n="27"/>a ad Ecclesiam, fuerit alias domi baptizatus,
+            <lb ed="#V" n="28"/>et hoc vel ex malitia, vel ex negligentia,
+            <lb ed="#V" n="29"/>non indicetur Parocho; hic habet
+            ignoran<lb ed="#V" n="30" break="no"/>tiam facti, quia non tenetur scire, quid
+            <lb ed="#V" n="31"/>domi factum sit circa infantem, sed potius
+            <lb ed="#V" n="32"/>supponere scientiam legis et consuetudinis
+            <lb ed="#V" n="33"/>in parentibus, earumque observantiam,
+            <lb ed="#V" n="34"/>ac proinde infantem ad se delatum non
+            <lb ed="#V" n="35"/>esse baptizatum. Si dubius etiam est
+            Ba<lb ed="#V" n="36" break="no"/>ptismus, ita ut dubium sit omnino
+            fun<lb ed="#V" n="37" break="no"/>datum, tunc baptizans cum forma capituli
+            <lb ed="#V" n="38"/>De quibus, baptizare potest, nempe
+            adje<lb ed="#V" n="39" break="no"/>cta conditione, si non es baptizatus, etc.
+            <lb ed="#V" n="40"/>ut praescribit Alexander III. dicto capitulo
+            <lb ed="#V" n="41"/>de Baptismo, et ejus effectu, quod supra
+            <lb ed="#V" n="42"/>ex variis Canonibus probavimus. Perinde
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>ergo dicendum est hic, et in qualibet
+            <lb ed="#V" n="44"/>Censura, quae propter peccatum
+            incurri<lb ed="#V" n="45" break="no"/>tur, quando quis excusatur a peccato,
+            <lb ed="#V" n="46"/>etiam excusari a poena ex peccato
+            incur<lb ed="#V" n="47" break="no"/>sa. Haec autem irregularitas statuta est
+            <lb ed="#V" n="48"/>est propter peccatum iterandi
+            -Sacramen<lb ed="#V" n="49" break="no"/>tum.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Circa ignorantiam Juris, docet Doctor
+            <lb ed="#V" n="51"/>non excusari a culpa aut poena, quia non
+            <lb ed="#V" n="52"/>censet dari ignorantiam in hoc casu, quae
+            <lb ed="#V" n="53"/>sit probabilis et fundata, quia nempe
+            in<lb ed="#V" n="54" break="no"/>ter rudimenta doctrinae Christianae
+            per<lb ed="#V" n="55" break="no"/>vium est, non posse iterari Baptismum.
+            <lb ed="#V" n="56"/>Et quidquid sit de ignorantia canonis
+            Ec<lb ed="#V" n="57" break="no"/>clesiastici, saltem cognoscitur jus
+            divi<lb ed="#V" n="58" break="no"/>num, vel est debitum cognoscendi in
+            <lb ed="#V" n="59"/>qnolibet Christiano adulto, qui tenetur
+            <lb ed="#V" n="60"/>ad doctrinam de Baptismo; et quoniam
+            <lb ed="#V" n="61"/>supposita scientia hujus juris, dat operam
+            <lb ed="#V" n="62"/>rei illicitae, etiam ligatur poena canonica,
+            <lb ed="#V" n="63"/>quae transgredientibus jus divinum
+            impo<lb ed="#V" n="64" break="no"/>nitur, quod est principium vulgare
+            Cano<lb ed="#V" n="65" break="no"/>nistarum. In hac re variae sunt sententiae,
+            <lb ed="#V" n="66"/>quibus non immoror, remittendo lectorem
+            <lb ed="#V" n="67"/>ad scholium, quod praedictas sententias
+            <lb ed="#V" n="68"/>breviter et clare comprehendit. Id certum
+            <lb ed="#V" n="69"/>quidquid sit in foro interno, in externo
+            <lb ed="#V" n="70"/>non admitti ignorantiam Juris, nisi
+            probe<lb ed="#V" n="71" break="no"/>tur, quia praesumptio hujus fori, stat pro
+            <lb ed="#V" n="72"/>lege publica magis, quam pro privata
+            <lb ed="#V" n="73"/>dispositione hujus aut illius. Haec quaestio
+            <lb ed="#V" n="74"/>forsitan, si tractatus et tempus permittat,
+            <lb ed="#V" n="75"/>infra disseretur in suis principiis, quae hic
+            <lb ed="#V" n="76"/>incidenter veniunt, totum negotium
+            con<lb ed="#V" n="77" break="no"/>sistit in eo, ut probetur dari ignorantia
+            <lb ed="#V" n="78"/>probabilis Juris, quae excuset a peccato,
+            <lb ed="#V" n="79"/>et consequenter a poena, quae vix in
+            pro<lb ed="#V" n="80" break="no"/>posito quoad principalem casum fingi
+            <lb ed="#V" n="81"/>potest. Interim videantur auctores citati,
+            <lb ed="#V" n="82"/>et Summistae verbo lgnorantia, lex,
+            pae<lb ed="#V" n="83" break="no"/>na, etc. Quaestio etiam fusius tractatur in
+            <lb ed="#V" n="84"/>materia de actibus humanis et peccatis.
+            <lb ed="#V" n="85"/>Quod autem asserit Doctor
+            irregularita<lb ed="#V" n="86" break="no"/>tem occultam dispensari forte posse ab
+            <pb ed="#V" n="590"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Episcopo, jam ex Jure Trident. sess. 24.
+            <lb ed="#V" n="2"/>cap. 6. id conceditur.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

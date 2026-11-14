@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 4, Pars 1, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 4, Pars 1, Quaestio 1</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="383"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3363"><!-- hicjds-b4d4p1q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum parvuli sint baptizandi</head>
+        <!-- <div alias="hiq-d4q1-p1"> -->
+          <p>
+            <lb ed="#V" n="65" type="fixed=383"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>(b) Utrum parvuli, etc. Haec quaestio
+            <lb ed="#V" n="67"/>potest explicari secundum varias
+            con<lb ed="#V" n="68" break="no"/>troversias, quae circa Baptismum
+            infan<lb ed="#V" n="69" break="no"/>tum contigerunt. Primo, an parvulus
+            ne<lb ed="#V" n="70" break="no"/>cessitate salutis debeat baptizari, (ita ut
+            <lb ed="#V" n="71"/>aliter in eo statu decedens, non
+            salve<lb ed="#V" n="72" break="no"/>tur, vel certe nequeat esse membrum
+            <lb ed="#V" n="73"/>Christi et Ecclesiae sine Baptismo,
+            ratio<lb ed="#V" n="74" break="no"/>ne peccati originalis? Et hic est scopus
+            <lb ed="#V" n="75"/>Doctoris, quia disserit contra Pelagianos,
+            <lb ed="#V" n="76"/>qui negarunt peccatum originale, contra
+            <lb ed="#V" n="77"/>quos Augustinus et Patres agunt,
+            pro<lb ed="#V" n="78" break="no"/>bantes ex Baptismo parvulorum, qui
+            <lb ed="#V" n="79"/>datur in remissionem peccati, vere in
+            <lb ed="#V" n="80"/>fantem, qui naturali generatione
+            des<lb ed="#V" n="81" break="no"/>cendit ab Adamo, contrahere peccatum
+            <lb ed="#V" n="82"/>originale, et ideo formam Baptismi in
+            <lb ed="#V" n="83"/>ipsis verificari in remissionem peccati,
+            <pb ed="#V" n="384"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ex quo indigent Baptismo, ut liberari
+            <lb ed="#V" n="2"/>possint. Secundus sensus est, utrum
+            <lb ed="#V" n="3"/>conveniat eos baptizari? Tertius, utrum
+            <lb ed="#V" n="4"/>sit aliquod praeceptum baptizandi
+            par<lb ed="#V" n="5" break="no"/>vulos, ita ut parentes, et Ecclesia
+            tene<lb ed="#V" n="6" break="no"/>atur eis de hoc remedio providere?
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Neutrum horum attingit hic Doctor,
+            <lb ed="#V" n="8"/>sed supponit utrumque ex praxi
+            Eccle<lb ed="#V" n="9" break="no"/>siae, quia suo tempore nulla fuit
+            neces<lb ed="#V" n="10" break="no"/>sitas haec examinandi; antiqui enim
+            <lb ed="#V" n="11"/>errores fuerunt extincti, et quamvis
+            <lb ed="#V" n="12"/>Pelagianismus cum illis etiam fuerit
+            <lb ed="#V" n="13"/>extinctus per Concilia et Patres,
+            ta<lb ed="#V" n="14" break="no"/>men ut effectus Baptismi ejusque
+            ne<lb ed="#V" n="15" break="no"/>cessitas declaretur, disserit contra
+            Pe<lb ed="#V" n="16" break="no"/>lagianos, breviter supponens quae
+            defi<lb ed="#V" n="17" break="no"/>nita sunt adversus Pelagium, qui magis
+            <lb ed="#V" n="18"/>ex instituto disseruit contra veritatem
+            <lb ed="#V" n="19"/>peccati originalis, cujus remedium est
+            <lb ed="#V" n="20"/>primario et ex speciali institutione
+            Ba<lb ed="#V" n="21" break="no"/>ptismus, ut ab aliis Sacramentis
+            distin<lb ed="#V" n="22" break="no"/>guitur, quia est regeneratio in Christum,
+            <lb ed="#V" n="23"/>et per eum fit translatio ab eo statu, in
+            <lb ed="#V" n="24"/>quo quis nascitur filius Adam in statum
+            <lb ed="#V" n="25"/>adoptionis filiorum Dei, ut docet
+            Tri<lb ed="#V" n="26" break="no"/>dentinum sess. 6. cap. 7.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>His suppositis, Pelagius negabat
+            pec<lb ed="#V" n="28" break="no"/>catum originale, ut patet ex Augustino
+            <lb ed="#V" n="29"/>lib. de dono persev. cap. 3. lib. de pecc.
+            <lb ed="#V" n="30"/>orig. et lib 1. de peccatorum merit. et
+            <lb ed="#V" n="31"/>remiss. cap 8. et deinceps usque ad finem
+            <lb ed="#V" n="32"/>libri. Secundo docebat consequenter
+            <lb ed="#V" n="33"/>non baptizari parvulos in remissionem
+            <lb ed="#V" n="34"/>peccati originalis. Augustinus enim et
+            <lb ed="#V" n="35"/>Patres urgebant consuetudinem
+            Eccle<lb ed="#V" n="36" break="no"/>siae, quae baptizabat parvulos in
+            remis<lb ed="#V" n="37" break="no"/>sionem peccatorum, et illud necessitate
+            <lb ed="#V" n="38"/>Baptismi: nisi quis renatus fuerit, etc.
+            <lb ed="#V" n="39"/>non intrabit in regnum coelorum, Joannis
+            <lb ed="#V" n="40"/>3. Quo argumento divisi sunt
+            Pelagia<lb ed="#V" n="41" break="no"/>ni, nam quidam dicebant baptizari in
+            <lb ed="#V" n="42"/>remissionem peccati non originalis, sed
+            <lb ed="#V" n="43"/>actualis, quod tum committebat, ita
+            <lb ed="#V" n="44"/>Augustinus cap. 17. Alii vero negaban
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>baptizari in remissionem peccatorum, sed
+            <lb ed="#V" n="46"/>ut intrarent in regnum coelorum, ipsis
+            <lb ed="#V" n="47"/>constituentes vitam beatam extra
+            re<lb ed="#V" n="48" break="no"/>gnum coelorum; ita Augustinus cap. 18.
+            <lb ed="#V" n="49"/>20. 30. et 34. Utriusque erroris
+            Aucto<lb ed="#V" n="50" break="no"/>res fuerunt Caelestius et Pelagius, ut
+            <lb ed="#V" n="51"/>colligitur ex Augustino in libello, quem
+            <lb ed="#V" n="52"/>Coelestius gestis Ecclesiasticis alligavit
+            <lb ed="#V" n="53"/>Romae sub Zozimo, admisit parvulos
+            <lb ed="#V" n="54"/>baptizari in remissionem peccatorum,
+            <lb ed="#V" n="55"/>negans tamen in eis peccatum
+            origi<lb ed="#V" n="56" break="no"/>nale; ita Augustinus de gratia Christi
+            <lb ed="#V" n="57"/>lib. 1. cap. 33. Pelagius vero alterius
+            <lb ed="#V" n="58"/>erroris fuit auctor, nam teste
+            Augusti<lb ed="#V" n="59" break="no"/>no lib. 2. de peccato orig. can 21.
+            in<lb ed="#V" n="60" break="no"/>terrogatus de parvulis, qui moriebantur
+            <lb ed="#V" n="61"/>in peccato originali absque Baptismo,
+            <lb ed="#V" n="62"/>quo irent, respondit, non ire in regnum
+            <lb ed="#V" n="63"/>coelorum scio, quo vero eant se nescire
+            <lb ed="#V" n="64"/>dicebat, etc. Et hic est articulus quintus
+            <lb ed="#V" n="65"/>propositus eidem in Concilio Diospolitano;
+            <lb ed="#V" n="66"/>damnatur quoad utrumque sensum in
+            <lb ed="#V" n="67"/>Milevitano can. 2. et in Trident. can. 4.
+            <lb ed="#V" n="68"/>docebat peccatum Adae non origine
+            <lb ed="#V" n="69"/>transire in posteros, sed imitatione.
+            Au<lb ed="#V" n="70" break="no"/>gustinus lib. 1. de peccat. meritis, et
+            <lb ed="#V" n="71"/>remiss. cap. 6. infantes nasci in eo
+            <lb ed="#V" n="72"/>statu, in quo fuit primus parens ante
+            <lb ed="#V" n="73"/>peccatum; est articulus tertius
+            Diospoli<lb ed="#V" n="74" break="no"/>tani, et can. 1. Arausicani, negabat etiam
+            <lb ed="#V" n="75"/>poenas peccati originalis, quod ad alium
+            <lb ed="#V" n="76"/>locum spectat.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Secunda haeresis circa infantes non
+            <lb ed="#V" n="78"/>baptizatos fuit Vincentii Victoris, quem
+            <lb ed="#V" n="79"/>Augustinus impugnavit tribus libris de
+            <lb ed="#V" n="80"/>anima et ejus origine. Hic admisit
+            pecca<lb ed="#V" n="81" break="no"/>tum originale in infantibus, sed asseruit
+            <lb ed="#V" n="82"/>ulterius, si sine Baptismo decederent,
+            <lb ed="#V" n="83"/>salvari in paradiso per oblationes
+            Sancto<lb ed="#V" n="84" break="no"/>rum, quae pro ipsis fiebant, ubi
+            detine<lb ed="#V" n="85" break="no"/>bantur usque ad diem judicii, post quod
+            <lb ed="#V" n="86"/>transituri sunt in regnum.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>Tertia haeresis negat Baptismum
+            in<lb ed="#V" n="88" break="no"/>fantum, ut Petrus Brusius apud
+            Bernar<pb ed="#V" n="385"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>dum, et quidam Henricus, a quibus
+            <lb ed="#V" n="2"/>dicti sunt eorum sectatores
+            Petrobru<lb ed="#V" n="3" break="no"/>siani et Henriciani, quos confutat
+            Ber<lb ed="#V" n="4" break="no"/>nardus epist. 240. et serm. 66. in Cantica.
+            <lb ed="#V" n="5"/>Hi negabant infantes capaces esse
+            Ba<lb ed="#V" n="6" break="no"/>ptismi. Witclefus apud Waldensem tom.
+            <lb ed="#V" n="7"/>2. de Sacramentis, cap. 96. negabat
+            <lb ed="#V" n="8"/>Baptismum aquae necessarium esse
+            in<lb ed="#V" n="9" break="no"/>fantibus et adultis ad salutem, sed
+            <lb ed="#V" n="10"/>sufficere flaminis Baptismum per
+            meri<lb ed="#V" n="11" break="no"/>ta Christi. Anabaptistae negant
+            Baptis<lb ed="#V" n="12" break="no"/>mum licere dare, nisi solis adultis, idque
+            <lb ed="#V" n="13"/>circa annum 30. ut quidam eorum apud
+            <lb ed="#V" n="14"/>Calvinum lib. 4, Institut. cap. 16. Hujus
+            <lb ed="#V" n="15"/>sectae Auctor fuit (apud Cochleum in
+            ac<lb ed="#V" n="16" break="no"/>tis Lutheri anno 1528.) Balthazar
+            Paci<lb ed="#V" n="17" break="no"/>montanus, postea Viennae crematus.
+            <lb ed="#V" n="18"/>Calvinus in Antidoto Tridentini, cap. 5.
+            <lb ed="#V" n="19"/>sess. I. et loco citato, docet parvulos
+            <lb ed="#V" n="20"/>etiam sine Baptismo morientes salvari
+            <lb ed="#V" n="21"/>et fieri sanctos et membra Ecclesiae,
+            <lb ed="#V" n="22"/>quibus plures hujus temporis haeretici
+            <lb ed="#V" n="23"/>consentiunt.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Quidam etiam negant parvulos
+            bapti<lb ed="#V" n="25" break="no"/>zandos esse, quia cum efficaciam
+            Ba<lb ed="#V" n="26" break="no"/>ptismi et Sacramentorum doceant cum
+            <lb ed="#V" n="27"/>Luthero consistere in excitatione fidei
+            <lb ed="#V" n="28"/>tantum per verbum, quae nequit esse in
+            <lb ed="#V" n="29"/>parvulis, sic negant posse baptizari.
+            <lb ed="#V" n="30"/>Alii contra docent fidem actualem esse
+            <lb ed="#V" n="31"/>in parvulis, et sic baptizari posse
+            ratio<lb ed="#V" n="32" break="no"/>ne illius fidei, cum sint capaces. Alii
+            <lb ed="#V" n="33"/>docent aliquos motus dilectionis et fidei
+            <lb ed="#V" n="34"/>in ipsis, similes iis, quos habuit
+            Joan<lb ed="#V" n="35" break="no"/>nes Baptista in utero matris, non quod
+            <lb ed="#V" n="36"/>intelligant parvuli, sed quod habeant
+            <lb ed="#V" n="37"/>quasdam inclinationes similes motibus
+            <lb ed="#V" n="38"/>fidei et dilectionis; ita Pseudoconcilium
+            <lb ed="#V" n="39"/>Wittembergense apud Cochleum lib. 3.
+            <lb ed="#V" n="40"/>Miscellaneorum tract. 8. cap. 2.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>His oblique accedit Erasmus
+            praefa<lb ed="#V" n="42" break="no"/>tione Paraphrasis in Matthaeum, ubi
+            do<lb ed="#V" n="43" break="no"/>cuit interrogandos esse qui in infantia
+            <lb ed="#V" n="44"/>sunt, cum adoleverint, et si non
+            con<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>senserint in Baptismum receptum, esse
+            <lb ed="#V" n="46"/>dimittendos liberos. Ludovicus Vives
+            <lb ed="#V" n="47"/>Annot. ad cap. 27. Augustini lib. 1. de
+            <lb ed="#V" n="48"/>Civit. cap. 27. dicit olim neminem
+            con<lb ed="#V" n="49" break="no"/>suevisse baptizari, nisi in aetate adulta,
+            <lb ed="#V" n="50"/>et qui per se peteret Baptismum, et
+            in<lb ed="#V" n="51" break="no"/>telligeret quid sit baptizari.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d4q1-p2"> -->
+          <p>
+            <lb ed="#V" n="10" type="fixed=386"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>(c) Teneo ergo oppositum, etc. Hic duas
+            <lb ed="#V" n="12"/>conclusiones oppositas eidem erroribus
+            <lb ed="#V" n="13"/>breviter comprehendit Doctor. Prima est:
+            <lb ed="#V" n="14"/>peccatum originale esse in parvulis.
+            Secun<lb ed="#V" n="15" break="no"/>da: parvulos necessitate salutis esse
+            bapti<lb ed="#V" n="16" break="no"/>zandos, quia originale in lege Evangelica,
+            <lb ed="#V" n="17"/>in iis nequit deleri, nisi per Baptismum,
+            <lb ed="#V" n="18"/>etc. Per legem Evangelicam intelligit
+            ordi<lb ed="#V" n="19" break="no"/>nariam, quae est praesentis status, non
+            <lb ed="#V" n="20"/>comprehendit casum Martyrii aut
+            sancti<lb ed="#V" n="21" break="no"/>ficationis per Baptismum flaminis. Utraque
+            <lb ed="#V" n="22"/>conclusio est de fide. Prima conclusio
+            <lb ed="#V" n="23"/>supponitur ex materia de gratia et peccato
+            <lb ed="#V" n="24"/>originali. Eam definiunt Diospolitanum.
+            <lb ed="#V" n="25"/>Milevitanum, et reliqua Concilia habita
+            <lb ed="#V" n="26"/>in Africa contra Pelagium, Lateranense,
+            <lb ed="#V" n="27"/>Florentinum, Tridentinum; et patet ad
+            <lb ed="#V" n="28"/>.Romanos 5. Per unum hominem peccatum
+            <lb ed="#V" n="29"/>intravit, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Secunda conclusio quae ad praesentem
+            <lb ed="#V" n="31"/>materiam spectat, probatur ex Scriptura:
+            <lb ed="#V" n="32"/>Nisi quis renatus fuerit ex aqua et Spiritu
+            <lb ed="#V" n="33"/>sancto, non potest introire in regnum Dei,
+            <lb ed="#V" n="34"/>etc. Joannis 3. Qui crediderit et baptizatus
+            <lb ed="#V" n="35"/>fuerit, salvus erit, etc. Matthaei ultimo.
+            <lb ed="#V" n="36"/>An ignoratis, quia quicumque baptizati
+            <lb ed="#V" n="37"/>sumus in Christo Jesu, in morte ipsius
+            <lb ed="#V" n="38"/>baptizati sumus? Consepulti enim sumus
+            <lb ed="#V" n="39"/>cum illo per Baptismum in mortem, etc.
+            <lb ed="#V" n="40"/>nemo autem salvatur, nisi qui est in
+            <lb ed="#V" n="41"/>Christo Jesu; ad Romanos 8. Nihil nunc
+            <lb ed="#V" n="42"/>damnationis est in his, qui sunt in Christo
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>Jesu, etc. salvos nos fecit per lavacrum
+            <lb ed="#V" n="44"/>regenerationis; ad Titum 3. In quo et
+            cir<lb ed="#V" n="45" break="no"/>cumcisi estis, (Circumcisione non
+            manu<lb ed="#V" n="46" break="no"/>facta, in expoliationem veteris carnis, sed
+            <lb ed="#V" n="47"/>in Circumcisione Christi, consepulti ei in
+            <lb ed="#V" n="48"/>Baptismo, in quo et resurrexistis per fidem
+            <lb ed="#V" n="49"/>operis Dei, qui suscitavit illum a mortuis,
+            <lb ed="#V" n="50"/>etc. ad Coloss. 2. Sic etiam Baptismus 1
+            <lb ed="#V" n="51"/>Petri I. appellatur Circumcisio spiritualis:
+            <lb ed="#V" n="52"/>Mundans eam lavacro aquae in verbo vitae,
+            <lb ed="#V" n="53"/>ad Ephesios 5. per Baptismum induimus
+            <lb ed="#V" n="54"/>Christum ad Galatas 3. et plura similia;
+            <lb ed="#V" n="55"/>ergo supposita. priori veritate de originali
+            <lb ed="#V" n="56"/>peccato in omnibus, qui descenderunt per
+            <lb ed="#V" n="57"/>naturalem propagationem ex Adamo,
+            ne<lb ed="#V" n="58" break="no"/>cessarius est Baptismus per quem
+            indui<lb ed="#V" n="59" break="no"/>mus Christum, exuimus veterem
+            homi<lb ed="#V" n="60" break="no"/>nem, liberamur, mundamur, salvamur,
+            <lb ed="#V" n="61"/>circumcidimur a peccato et illuminamur,
+            <lb ed="#V" n="62"/>ut habetur ad Hebraeos 6.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Secundo eadem veritas ex Patribus
+            pa<lb ed="#V" n="64" break="no"/>tet, Syricius Papa epist. 1. cap. 2.
+            suppo<lb ed="#V" n="65" break="no"/>nit eum, qui absque Baptismo decedit,
+            <lb ed="#V" n="66"/>perdere vitam et regnum. Irenaeus lib. 3.
+            <lb ed="#V" n="67"/>contra haereses, cap. 19. aquam et
+            spiri<lb ed="#V" n="68" break="no"/>tum esse necessaria, ut homo in vitam Dei
+            <lb ed="#V" n="69"/>perficiatur. Leo Papa epist. 78. alias 80.
+            <lb ed="#V" n="70"/>qui Baptismo privatur, necessaria
+            libera<lb ed="#V" n="71" break="no"/>tione privari, etc. Hieronymus dial. 3.
+            <lb ed="#V" n="72"/>contra Pelagium. Augustinus de peccat.
+            <lb ed="#V" n="73"/>meritis et remiss. contra duas epist.
+            Pela<lb ed="#V" n="74" break="no"/>gianorum, cap. 4. lib. 1. de Anima, et
+            <lb ed="#V" n="75"/>ejus origine, cap. 10. lib. 2. cap. 12. lib. 3.
+            <lb ed="#V" n="76"/>cap. 9. epist. 28. et alibi passim contra
+            <lb ed="#V" n="77"/>Pelagianos. Concilium
+            Constantinopolita<lb ed="#V" n="78" break="no"/>num: Confiteor unum Baptisma in
+            remis<lb ed="#V" n="79" break="no"/>sionem peccatorum.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Tertio probatur specialiter de parvulis
+            <lb ed="#V" n="81"/>ex communi Patrum et Ecclesiae sensu et
+            <lb ed="#V" n="82"/>definitione. Clemens Romanus lib. 6.
+            <lb ed="#V" n="83"/>cap. 15. constit. Apost. id docet:
+            Bapti<lb ed="#V" n="84" break="no"/>zate, inquit, pueros infantes, etc. Sinite
+            <lb ed="#V" n="85"/>enim, ait Dominus, pueros ventre ad me,
+            <lb ed="#V" n="86"/>et ne prohibete eos. Dionysius Eccl. hier.
+            <pb ed="#V" n="387"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>cap. 7. Justinus in quaest. 56. Infantes
+            <lb ed="#V" n="2"/>digni sunt Baptismi commodis, fide eorum,
+            <lb ed="#V" n="3"/>qui illos ad Baptismum offerunt. Irenaeus
+            <lb ed="#V" n="4"/>lib. 2. c. 39. Origenes hom. 8. in Levit.
+            <lb ed="#V" n="5"/>asserens Baptismum Ecclesiae dari in
+            re<lb ed="#V" n="6" break="no"/>missionem peccatorum etiam infantibus
+            <lb ed="#V" n="7"/>ob peccatum originale homil. 14. in eadem
+            <lb ed="#V" n="8"/>et lib. 5. in cap. 6. ad Roman. Athanasius
+            <lb ed="#V" n="9"/>quaest. 124. Basilius homil. 13. quae est
+            <lb ed="#V" n="10"/>exhortatio ad Baptismum, docens omne
+            <lb ed="#V" n="11"/>tempus et totam aetatem hominis esse
+            ac<lb ed="#V" n="12" break="no"/>commodatam Baptismo. Nazianzenus orat.
+            <lb ed="#V" n="13"/>40. Cyprianus epist. 59. Ambrosius lib. 10.
+            <lb ed="#V" n="14"/>epist. 84. in cap. 1. Lucae de mysterio
+            <lb ed="#V" n="15"/>Paschae, cap. 5. Syricius epist. 5. c. 1.
+            <lb ed="#V" n="16"/>Hieronymus loco citato, et epist. 7. ad
+            Lae<lb ed="#V" n="17" break="no"/>tam. Augustinus variis in locis, ut lib. 1.
+            <lb ed="#V" n="18"/>contra Donatistas, c. 23. et 24. et locis
+            <lb ed="#V" n="19"/>supra citatis epist. 28. ad Hieron. de Gen.
+            <lb ed="#V" n="20"/>ad litteram, lib. 10. c. 23. Concilia et
+            <lb ed="#V" n="21"/>omnes Patres, tam Graeci quam Latini,
+            <lb ed="#V" n="22"/>quotquot scripserunt de hac materia
+            Ba<lb ed="#V" n="23" break="no"/>ptismi, Carthaginem. V. Millevitanum,
+            <lb ed="#V" n="24"/>Bracharense II. Matisconense II.
+            Toleta<lb ed="#V" n="25" break="no"/>num XII. Concilium Metense,
+            Lateranen<lb ed="#V" n="26" break="no"/>se, Viennense, ac Tridentinum sess. 7. de
+            <lb ed="#V" n="27"/>Baptismo can. 14. et sess. 5. can. 4. Priori
+            <lb ed="#V" n="28"/>loco damnatur sententia eorum, qui negant
+            <lb ed="#V" n="29"/>baptizandos parvulos. Et certe veritas haec
+            <lb ed="#V" n="30"/>ita passim a Doctoribus, Patribus, Conciliis
+            <lb ed="#V" n="31"/>atque Pontificibus continua traditione
+            de<lb ed="#V" n="32" break="no"/>finitur, ut mirum sit qua fronte aliqui
+            <lb ed="#V" n="33"/>fuerint ausi contradicere. Ex dictis autem
+            <lb ed="#V" n="34"/>tam necessitas quam congruentia
+            Bapti<lb ed="#V" n="35" break="no"/>smi parvulorum patet.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>An Baptizari parvulos sit in praecepto?
+            <lb ed="#V" n="37"/>Aliqui dubitant asserentes, circa hoc non
+            <lb ed="#V" n="38"/>inveniri aliquod praeceptum positivum
+            <lb ed="#V" n="39"/>Ecclesiae, sed consuetudinem obtinere
+            <lb ed="#V" n="40"/>vim praecepti. Caeterum videtur
+            consuetu<lb ed="#V" n="41" break="no"/>do fundata esse in praecepto, quod ad
+            <lb ed="#V" n="42"/>traditionem Apostolicam referri debet.
+            <lb ed="#V" n="43"/>Unde Nazianzenus sumit fundamentum
+            ba<lb ed="#V" n="44" break="no"/>ptizandi parvulos ex praecepto de
+            Circum<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>cisione, quod post septimum diem
+            urge<lb ed="#V" n="46" break="no"/>bat. Idem docet Augustinus lib.11. de
+            Ba<lb ed="#V" n="47" break="no"/>ptismo, cap. 24. et epist. 28. ad
+            Hierony<lb ed="#V" n="48" break="no"/>mum, et de) Gen. ad litteram, lib. 10.
+            <lb ed="#V" n="49"/>cap. 13. dicens esse traditionem
+            (Aposto<lb ed="#V" n="50" break="no"/>licam: Consuetudo, inquit, matris Ecclesiae
+            <lb ed="#V" n="51"/>in baptizandis parvulis, nequaquam
+            sper<lb ed="#V" n="52" break="no"/>nenda est, neque ullo modo superflua
+            depu<lb ed="#V" n="53" break="no"/>tanda, nec omnino credenda, nisi
+            Aposto<lb ed="#V" n="54" break="no"/>lica esset traditio. Et epist. illa 28. Beatus
+            <lb ed="#V" n="55"/>Cyprianus non aliquod decretum condens
+            <lb ed="#V" n="56"/>novum, (sed Ecclesiae fidem firmissimam
+            <lb ed="#V" n="57"/>servans, ad corrigendos eos, qui putabant
+            <lb ed="#V" n="58"/>ante octavum diem nativitatis non esse
+            par<lb ed="#V" n="59" break="no"/>vulum baptizandum, non carnem, sed
+            <lb ed="#V" n="60"/>animam dixit esse perdendam, et mox
+            <lb ed="#V" n="61"/>natum rite baptizari posse cum suis
+            qui<lb ed="#V" n="62" break="no"/>busdam Coepiscopis censuit.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Hoc decretum habetur apud Cyprianum
+            <lb ed="#V" n="64"/>epist. 59. argumentum sumentem a
+            Cir<lb ed="#V" n="65" break="no"/>cumcisione, quae die octavo fiebat ex
+            prae<lb ed="#V" n="66" break="no"/>cepto; Can. 85. in Trullo decernit pueros
+            <lb ed="#V" n="67"/>baptizandos, de quorum Baptismo non
+            <lb ed="#V" n="68"/>constat, sneque testimonium haberi potest;
+            <lb ed="#V" n="69"/>id ipsum decrevit prius;Concilium
+            Cartha<lb ed="#V" n="70" break="no"/>ginense V. cap. 6. cujus ille est Canon, ut o
+            <lb ed="#V" n="71"/>recte advertit Theodorus Balsamon. Idem
+            <lb ed="#V" n="72"/>decrevit Concilium Wormatiense cap. 70.
+            <lb ed="#V" n="73"/>Hincmarus Rhemensis ad Hincmarum
+            Lau<lb ed="#V" n="74" break="no"/>dunensem, prohibentem infantes
+            bapti<lb ed="#V" n="75" break="no"/>zari, improperat id nunquam in Ecclesia
+            <lb ed="#V" n="76"/>ab ullo tentatum esse, proponens ei
+            regu<lb ed="#V" n="77" break="no"/>lam Ecclesiasticam a Beato Syricio Papa
+            <lb ed="#V" n="78"/>in hos prolatam. Haec autem regula
+            habe<lb ed="#V" n="79" break="no"/>tur in epistola Syricii ad eumdem
+            Hincma<lb ed="#V" n="80" break="no"/>rum Rhemensem. Unde merito
+            Tridenti<lb ed="#V" n="81" break="no"/>num docet esse traditionem Apostolicam
+            <lb ed="#V" n="82"/>sess. 5. can. 4.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>Statutis autem diebus, extra periculum,
+            <lb ed="#V" n="84"/>in quibusdam Ecclesiis Baptismus
+            parvu<lb ed="#V" n="85" break="no"/>lorum fiebat, ut patet ex decreto Matisco¬»
+            <lb ed="#V" n="86"/>nensi cap. 3. Omnes omnino, inquit, a die
+            <lb ed="#V" n="87"/>quadragesima cum infantibus suis ad
+            Ec<lb ed="#V" n="88" break="no"/>clesiam observare praecipimus, ut
+            imposi<pb ed="#V" n="388"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tionem manus certis diebus adepti, et sacri
+            <lb ed="#V" n="2"/>Olei liquore peruncti, legitimi diei
+            festivi<lb ed="#V" n="3" break="no"/>tate fruantur, et sacro Baptismate
+            regene<lb ed="#V" n="4" break="no"/>rentur, etc. Intelligit autem Concilium
+            <lb ed="#V" n="5"/>exorcismos et unctiones, quae ante
+            Bapti<lb ed="#V" n="6" break="no"/>smum praemittuntur, certis diebus fieri
+            <lb ed="#V" n="7"/>debere in infantibus ante Baptismum, qui
+            <lb ed="#V" n="8"/>in die resurrectionis ministrabatur.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>De his Ivo Carnotensis in sermone de
+            <lb ed="#V" n="10"/>Sacramentis dedicationis. In lib. 6. Caroli
+            <lb ed="#V" n="11"/>Magni cap. 185. habetur: Placuit ut
+            popu<lb ed="#V" n="12" break="no"/>lus infantes ad Baptismum non afferat,
+            <lb ed="#V" n="13"/>nisi duobus temporibus, si infirmitas non
+            <lb ed="#V" n="14"/>occupaverit, etc. AEthiopes, ut docet Zaga
+            <lb ed="#V" n="15"/>zabo AEthiops, in confessione fidei,
+            qua<lb ed="#V" n="16" break="no"/>dragesimo die masculos, octogesimo vero
+            <lb ed="#V" n="17"/>- foeminas, baptizant, nisi antea sit
+            pericu<lb ed="#V" n="18" break="no"/>lum. Moscovitae etiam quadragesimo die
+            <lb ed="#V" n="19"/>Baptismum conferunt, ut docet
+            Sigismun<lb ed="#V" n="20" break="no"/>dus, de rebus Moscovitarum, cap. de
+            Ba<lb ed="#V" n="21" break="no"/>ptismo. In Ecclesia tamen Latina, ut
+            nota<lb ed="#V" n="22" break="no"/>vit Rupertus de divinis officiis, lib. 4. c.
+            <lb ed="#V" n="23"/>18. Ecclesia propter pericula mortis dedit
+            <lb ed="#V" n="24"/>indulgentiam Baptismi, solemnitate
+            Ba<lb ed="#V" n="25" break="no"/>ptismi in paucis, usque ad resurrectionem
+            <lb ed="#V" n="26"/>retenta.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>His ergo fidei suppositis fundamentis,
+            <lb ed="#V" n="28"/>facilis est probatio conclusionis, quam
+            <lb ed="#V" n="29"/>probat Doctor ex illo de fide ad Petrum:
+            <lb ed="#V" n="30"/>Firmissime tene, parvulos, qui sine
+            Sacra<lb ed="#V" n="31" break="no"/>mento Baptismi de hoc saeculo transeunt,
+            <lb ed="#V" n="32"/>aeterno supplicio puniendos, quia originale
+            <lb ed="#V" n="33"/>peccatum in carnali conceptione
+            contraxe<lb ed="#V" n="34" break="no"/>runt, etc. Haec auctoritas continet fidem
+            <lb ed="#V" n="35"/>Ecclesiae, ut patet ex dictis. Sub nomine
+            <lb ed="#V" n="36"/>st Augustini proponitur a Doctore, liber
+            ta<lb ed="#V" n="37" break="no"/>men est Fulgentii; communis autem error
+            <lb ed="#V" n="38"/>fuit antiquorum Scholasticorum, qui ipsum
+            <lb ed="#V" n="39"/>Augustino tribuebant, quia inter opera
+            <lb ed="#V" n="40"/>ejus habetur. Accedit etiam ratio, quam
+            <lb ed="#V" n="41"/>Doctor insinuat, quia parvuli contrahunt
+            <lb ed="#V" n="42"/>originale, cujus remedium necessarium in
+            <lb ed="#V" n="43"/>illis est Baptismus; ergo non limitatur ex
+            <lb ed="#V" n="44"/>sui institutione ad solos adultos, sicut
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>neque morbus ad eosdem limitatur; Deus
+            <lb ed="#V" n="46"/>autem omnes homines vult salvos fieri,
+            <lb ed="#V" n="47"/>ergo etiam remedium illud contra
+            mor<lb ed="#V" n="48" break="no"/>bum voluit esse commune.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>Ex quo sequitur quod neque ex
+            prae<lb ed="#V" n="50" break="no"/>cepto divino excluduntur parvuli, quia
+            <lb ed="#V" n="51"/>neque praeceptum Sacramenti
+            conforma<lb ed="#V" n="52" break="no"/>tur ejus institutioni, quae ad infantes
+            <lb ed="#V" n="53"/>indigentes salute extenditur; non
+            praece<lb ed="#V" n="54" break="no"/>pto Ecclesiastico, ut patet ex dictis,
+            exclu<lb ed="#V" n="55" break="no"/>duntur a Baptismo; non
+            excludun<lb ed="#V" n="56" break="no"/>tur etiam ex defectu dispositionis, et
+            <lb ed="#V" n="57"/>ratione status; quia sicut ex Adamo, sine
+            <lb ed="#V" n="58"/>actu proprio contrahunt peccatum, sic
+            <lb ed="#V" n="59"/>etiam salutem habere possunt in Christo
+            <lb ed="#V" n="60"/>per Baptismum sine actu proprio, ut
+            pa<lb ed="#V" n="61" break="no"/>tet ad Romanos 5. Si enim unius delicto
+            <lb ed="#V" n="62"/>mors regnavit per unum, multo magis
+            <lb ed="#V" n="63"/>abundantiam gratiae et donationis, etc.
+            <lb ed="#V" n="64"/>accipientes in vita regnabunt per unum
+            <lb ed="#V" n="65"/>Jesum Christum, etc. Igitur sicut per
+            <lb ed="#V" n="66"/>unius delictum in omnes homines in
+            <lb ed="#V" n="67"/>condemnationem, sic et per unius
+            justi<lb ed="#V" n="68" break="no"/>tiam in omnes homines in justificationem
+            <lb ed="#V" n="69"/>vitae, etc. Vide quae sequuntur.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Sicut ergo condemnatio et peccatum ex
+            <lb ed="#V" n="71"/>primo parente regnat in infantibus, ita
+            <lb ed="#V" n="72"/>etiam justitia per Christum, et salus ad
+            <lb ed="#V" n="73"/>eosdem extenditur, qui venit salvum
+            fa<lb ed="#V" n="74" break="no"/>cere, quod perierat; et primario ad
+            re<lb ed="#V" n="75" break="no"/>demptionem peccati originalis, alias non
+            <lb ed="#V" n="76"/>esset vere redemptor infantum, si vel ipsi
+            <lb ed="#V" n="77"/>peccatum non haberent, vel si habent,
+            <lb ed="#V" n="78"/>non posset eis applicari remedium. Qui
+            <lb ed="#V" n="79"/>salvantur in Christo, fiunt membra ejus
+            <lb ed="#V" n="80"/>et Ecclesiae, quod non contingit lege in
+            <lb ed="#V" n="81"/>infantibus, nisi per Baptismum; et sicut
+            <lb ed="#V" n="82"/>condemnantur ex peccato, quod voluntate
+            <lb ed="#V" n="83"/>Adami, non propria, commiserunt, sic
+            <lb ed="#V" n="84"/>etiam salvantur per Christum in fide
+            Eccle<lb ed="#V" n="85" break="no"/>siae, ac virtute Baptismi. Deinde Joannis
+            <lb ed="#V" n="86"/>3. ubi ostenditur necessitas Baptismi non
+            <lb ed="#V" n="87"/>fit mentio fidei, quae quidem in adulto
+            <lb ed="#V" n="88"/>exigitur, non tamen in infante haberi
+            <pb ed="#V" n="389"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>potest, qui non est ejus capax, bene
+            ta<lb ed="#V" n="2" break="no"/>men Baptismi.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Argumenta Anabaptistarum bene
+            sol<lb ed="#V" n="4" break="no"/>vunt Doctores moderni, ut Bellarminus
+            <lb ed="#V" n="5"/>lib. 1. de Sacr. Baptismi, cap. 8. quia
+            <lb ed="#V" n="6"/>nullius sunt difficultatis; urgent enim ea
+            <lb ed="#V" n="7"/>quae de necessitate fidei ad salutem
+            lo<lb ed="#V" n="8" break="no"/>.quuntur, quae nequit in parvulis.
+            Respon<lb ed="#V" n="9" break="no"/>dent Patres quantum ad effectum
+            Bapti<lb ed="#V" n="10" break="no"/>smi et salutis in infantibus, sufficere fidem
+            <lb ed="#V" n="11"/>aliorum, vel Ecclesiae, quia non sunt sui
+            <lb ed="#V" n="12"/>arbitrii, sed in potestate aliorum, qui pro
+            <lb ed="#V" n="13"/>ipsis respondere, et spondere jure
+            pos<lb ed="#V" n="14" break="no"/>sunt; et ut respondet Doctor, parvuli cre.
+            <lb ed="#V" n="15"/>dunt habitu, licet non actu; ita
+            Innocen<lb ed="#V" n="16" break="no"/>tius cap. Majores, de Baptismo,
+            recipien<lb ed="#V" n="17" break="no"/>tes enim justitiam mediante Baptismo,
+            <lb ed="#V" n="18"/>recipiunt fidem, spem et charitatem, ex
+            <lb ed="#V" n="19"/>quibus integratur justitia; ex Tridentino
+            <lb ed="#V" n="20"/>sess. 6. cap. 7. unde infantes habent hanc
+            <lb ed="#V" n="21"/>post Baptismum, et essentialiter
+            requiri<lb ed="#V" n="22" break="no"/>tur, ideo a Graecis Patribus dicitur
+            Bapti<lb ed="#V" n="23" break="no"/>smus illuminatio.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Aliam vero, quae consistit in actu,
+            est<lb ed="#V" n="25" break="no"/>que dispositio praevia in adultis, quibus
+            <lb ed="#V" n="26"/>proponuntur primum credenda,
+            (disposi<lb ed="#V" n="27" break="no"/>tio, inquam, ad Baptismum,) non habent
+            <lb ed="#V" n="28"/>« infantes, neque requiritur in ipsis; sed
+            <lb ed="#V" n="29"/>ipsa susceptio Baptismi est professio fidei
+            <lb ed="#V" n="30"/>et legis novae ex natura actus. Unde
+            Au<lb ed="#V" n="31" break="no"/>gustinus lib. 1. de peccator. meritis, et
+            <lb ed="#V" n="32"/>remiss. cap. 27. Quis autem nescit, inquit,
+            <lb ed="#V" n="33"/>credere, esse infantibus baptizari, non
+            cre<lb ed="#V" n="34" break="no"/>dere autem non baptizari, etc. Ubi late
+            <lb ed="#V" n="35"/>probat ex Evangeliis et Scriptura, et
+            epi<lb ed="#V" n="36" break="no"/>stolis Apostolorum, necessitatem Baptismi
+            <lb ed="#V" n="37"/>quoad infantes. Videatur epistola 23. 57.
+            <lb ed="#V" n="38"/>105. serm. 10. et 14. de verbis Apostoli,
+            <lb ed="#V" n="39"/>lib. 3. de lib. arbitrio, c. 23. lib. 4. de
+            Bapti<lb ed="#V" n="40" break="no"/>smo, c. 24. et 25. et multis aliis locis, ubi
+            <lb ed="#V" n="41"/>hanc veritatem ex instituto probat contra
+            <lb ed="#V" n="42"/>Pelagianos.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

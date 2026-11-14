@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 5, Praeambulum</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 5, Praeambulum</title>
+          <date when="2026-11-14">Nov 14, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x16">Vives, Paris, 1894, volume 16</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="501"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e5218"><!-- hicjds-b4d5prae -->
+        <head>Praeambulum</head>
+        <!-- <div alias="hiq-d5prae"> -->
+          <p>
+            <lb ed="#V" n="6" type="fixed=501"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>In hac distinctione postquam hactenus
+            <lb ed="#V" n="8"/>tractavit de essentialibus Sacramenti,
+            <lb ed="#V" n="9"/>ejus effectu et suscipiente, agit de
+            mi<lb ed="#V" n="10" break="no"/>nistro quoad statum ejus; in sequenti
+            <lb ed="#V" n="11"/>vero agit de per se requisitis ex parte
+            <lb ed="#V" n="12"/>ministri. Hac ergo distinctione quaerit
+            <lb ed="#V" n="13"/>primo: An malitia ministri impediat
+            <lb ed="#V" n="14"/>effectum Sacramenti si caetera adsint,
+            <lb ed="#V" n="15"/>quae requiruntur? Secundo: an recipiens
+            <lb ed="#V" n="16"/>Sacramentum scienter a malo ministro.
+            <lb ed="#V" n="17"/>peccet mortaliter? Tertio: an licite
+            mi<lb ed="#V" n="18" break="no"/>nistretur Baptismus, quando preesumitur
+            <lb ed="#V" n="19"/>sequi periculum vitae corporalis?
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>
