@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 42, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 42, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x19">Vives, Paris, 1894, volume 19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="550"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e4788"><!-- hicjds-b4d42q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum cognatio spiritualis impediat matrimonium</head>
+        <!-- <div alias="hiq-d42q1-p1"> -->
+          <p>
+            <lb ed="#V" n="70" type="fixed=550"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>(a) Circa istam quadragesimam
+            secun<lb ed="#V" n="72" break="no"/>dam distinctionem. In hac distinctione et
+            <lb ed="#V" n="73"/>quaestione agit de cognatione spirituali et
+            <lb ed="#V" n="74"/>legali, et dividitur in duas partes;
+            qua<lb ed="#V" n="75" break="no"/>rum prima resolvit quaesitum. Secunda
+            <lb ed="#V" n="76"/>vero est anacephalaeosis, seu recapitulatio
+            <lb ed="#V" n="77"/>summaria dictorum hactenus in
+            superiori<lb ed="#V" n="78" break="no"/>bus distinctionibus, et collectio
+            impedi<lb ed="#V" n="79" break="no"/>mentorum matrimonii.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d42q1-p2"> -->
+          <p>
+            <lb ed="#V" n="76" type="fixed=551"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>(b) Respondeo cognatio spiritualis, etc.
+            <lb ed="#V" n="78"/>Definit cognationem spiritualem esse
+            vin<lb ed="#V" n="79" break="no"/>culum contractum ex dispensatione
+            Sacra<lb ed="#V" n="80" break="no"/>mentorum, specialiter Baptismi et
+            Confir<lb ed="#V" n="81" break="no"/>mationis, etc. negat ex aliis Sacramentis
+            <lb ed="#V" n="82"/>oriri, nisi ex his duobus, ut patet c.
+            Quam<lb ed="#V" n="83" break="no"/>vis, etc. de cognat. spirituali, in 6. Ex
+            <lb ed="#V" n="84"/>dispensatione autem Baptismi et
+            Confir<lb ed="#V" n="85" break="no"/>mationis oritur inter ministrum et
+            susci<lb ed="#V" n="86" break="no"/>pientes respective ad illum cui ministratur
+            <lb ed="#V" n="87"/>Sacramentum, et suscipitur, et respective
+            <lb ed="#V" n="88"/>ad parentes ejus, jure antiquo, cap. de
+            <lb ed="#V" n="89"/>eo, 30. q. 1. c. Veniens, et c. Martinus,
+            <lb ed="#V" n="90"/>etc. de cognatione spirituali, et c. 1. eodem
+            <pb ed="#V" n="552"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>in 6. Triplex erat hujus cognationis
+            spe<lb ed="#V" n="2" break="no"/>»cies: Alia, dicebatur paternitas, respective
+            <lb ed="#V" n="3"/>ad susceptum aut recipiens Sacramentum
+            <lb ed="#V" n="4"/>ex una parte, et ministrantem et
+            susci<lb ed="#V" n="5" break="no"/>pientem ipsum ex alia parte. Alia species
+            <lb ed="#V" n="6"/>fuit compaternitas inter hos, inter se et
+            <lb ed="#V" n="7"/>patrem ac matrem carnalem ejus, et haec
+            <lb ed="#V" n="8"/>etiam transibat ad uxorem suscipientis,
+            <lb ed="#V" n="9"/>quamvis solus maritus susciperet, quia
+            <lb ed="#V" n="10"/>una caro erant. Tertia species est
+            frater<lb ed="#V" n="11" break="no"/>nitatis inter filios ministrantis et
+            susci<lb ed="#V" n="12" break="no"/>pientis, ac fratres suscepti.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Tridentinum sess. 24. de matrim. cap. 2.
+            <lb ed="#V" n="14"/>sustulit cognationem hanc fraternitatis,
+            <lb ed="#V" n="15"/>et etiam compaternitatis inter baptizantem
+            <lb ed="#V" n="16"/>et suscipientem, et sustulit etiam
+            com<lb ed="#V" n="17" break="no"/>paternitatem, qua transibat ad uxorem
+            <lb ed="#V" n="18"/>suscipientis, quamvis ipsa non susciperet
+            <lb ed="#V" n="19"/>infantem.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Dubitari solet, an inter confessarium
+            <lb ed="#V" n="21"/>-et filiam spiritualem oriatur cognatio
+            spi<lb ed="#V" n="22" break="no"/>ritualis ex Sacramento Poenitentiae? Ex
+            <lb ed="#V" n="23"/>hoc dubio Doctor in descriptione
+            cogna<lb ed="#V" n="24" break="no"/>tionis spiritualis dicit esse vinculum
+            con<lb ed="#V" n="25" break="no"/>tractum ex dispensatione Sacramentorum,
+            <lb ed="#V" n="26"/>ut comprehendat etiam Sacramentum
+            <lb ed="#V" n="27"/>Poenitentiae simul cum Baptismo et
+            Con<lb ed="#V" n="28" break="no"/>firmatione, ex quibus sine controversia
+            <lb ed="#V" n="29"/>tale vinculum consurgit, et subdit
+            Decre<lb ed="#V" n="30" break="no"/>tum Bonifacii VIII. in quo haec cognatio,
+            <lb ed="#V" n="31"/>ut est impedimentum matrimonii,
+            decla<lb ed="#V" n="32" break="no"/>ratur tantum esse ex Baptismo et
+            Confir<lb ed="#V" n="33" break="no"/>matione. Caeterum hoc intelligi potest
+            <lb ed="#V" n="34"/>duobus modis, scilicet quod restrictio sit
+            <lb ed="#V" n="35"/>Juris antiqui, quod postea citabimus; vel
+            <lb ed="#V" n="36"/>quod Pontifex agat tantum de
+            impedimen<lb ed="#V" n="37" break="no"/>to proprie dicto inter personas alias
+            habi<lb ed="#V" n="38" break="no"/>les, inter quas posset secluso impedimento
+            <lb ed="#V" n="39"/>esse contractus, non autem de
+            impedi<lb ed="#V" n="40" break="no"/>mento improprie dicto, quia alias
+            confes<lb ed="#V" n="41" break="no"/>sarius in Ecclesia Latina est inhabilis ad
+            <lb ed="#V" n="42"/>contractum ex ordine; impedimentum
+            <lb ed="#V" n="43"/>autem superveniens ex Sacramento
+            tan<lb ed="#V" n="44" break="no"/>tum valeat, ut inducat peccatum incestus,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>si confessarius carnaliter misceatur suae
+            <lb ed="#V" n="46"/>filiae spirituali, et hoc Jure Ecclesiastico;
+            <lb ed="#V" n="47"/>ex aliis autem Sacramentis non oritur tale
+            <lb ed="#V" n="48"/>impedimentum.
+            <lb ed="#V" n="49"/>Prima sententia respondet nullum esse
+            <lb ed="#V" n="50"/>hic impedimentum cognationis spiritualis.
+            <lb ed="#V" n="51"/>Hanc tenet Sa in Summa, v. Confessio in
+            <lb ed="#V" n="52"/>nova edit. correcta. Romae. Negativam
+            <lb ed="#V" n="53"/>hanc tenet et Bernardus Diaz in practica
+            <lb ed="#V" n="54"/>can. in nova edit. favet et sequitur magis
+            <lb ed="#V" n="55"/>Basilius Legionensis de cognatione
+            spiri<lb ed="#V" n="56" break="no"/>tuali, 8 2. putans per Decretum Bonifacii
+            <lb ed="#V" n="57"/>fuisse sublatum, quod Jure antiquo in hoc
+            <lb ed="#V" n="58"/>statutum est, et posset videri Doctoris in
+            <lb ed="#V" n="59"/>praesenti littera.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Secunda sententia docet esse confiten.
+            <lb ed="#V" n="61"/>dam hanc circumstantiam tanquam
+            in<lb ed="#V" n="62" break="no"/>cestum; haec est communior magis tuta,
+            <lb ed="#V" n="63"/>et in praxi sequenda juxta antiqua Decreta
+            <lb ed="#V" n="64"/>cap. Omnis, 30. q. c. Si quis Sacerdos, et
+            <lb ed="#V" n="65"/>cap. finali, eodem; quam sequitur D.
+            <lb ed="#V" n="66"/>Thom. in hac dist. q. 1. art. 1. ad 8. ubi
+            <lb ed="#V" n="67"/>dicit non contrahere proprie cognationem
+            <lb ed="#V" n="68"/>spiritualem per Sacramentum Poenitentiae.
+            <lb ed="#V" n="69"/>Vide Sanchez lib. 7. disp. 55. et quos ibi
+            <lb ed="#V" n="70"/>citat. Dicendum ergo hanc circumstantiam
+            <lb ed="#V" n="71"/>inducere speciem sacrilegii contra
+            reye<lb ed="#V" n="72" break="no"/>rentiam Sacramenti, et foedus quoddam
+            <lb ed="#V" n="73"/>spirituale mediante Sacramento inductum,
+            <lb ed="#V" n="74"/>quod foedus reducitur ad virtutem
+            Reli<lb ed="#V" n="75" break="no"/>gionis ex statuto Ecclesiae; intelligitur
+            <lb ed="#V" n="76"/>autem casus hic, quando non utitur
+            con<lb ed="#V" n="77" break="no"/>fessarius ipso Sacramento ad peccatum,
+            <lb ed="#V" n="78"/>quia tum est sacrilegium, et servanda est
+            <lb ed="#V" n="79"/>Constitutio Gregoriana contra sollicitantes
+            <lb ed="#V" n="80"/>ad cap. Veniens. Patet ex dictis.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>(c) Quantum autem ad illud quaeritur,
+            <lb ed="#V" n="82"/>etc. Haec conclusio est communis, nempe
+            <lb ed="#V" n="83"/>hoc impedimentum dirimere matrimonium
+            <lb ed="#V" n="84"/>subsequens, non vero contractum, sed
+            <lb ed="#V" n="85"/>suspendit jus debiti, nisi in casu
+            neces<lb ed="#V" n="86" break="no"/>sitatis, c. Ad limina 30. q. 1. Excusat
+            <lb ed="#V" n="87"/>etiam fraus et ignorantia probabilis.
+            Pri<lb ed="#V" n="88" break="no"/>mum patet c. Fraus, c. Dictum, c. De eo,
+            <pb ed="#V" n="553"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>30. q. 1. Secundum patet cap. De his,
+            eo<lb ed="#V" n="2" break="no"/>dem. Est inductum etiam Jure
+            Ecclesiasti<lb ed="#V" n="3" break="no"/>co, patet c. Si quis filiastrum, c. De eo, et
+            <lb ed="#V" n="4"/>aliis 30. q. 1. et cap. Veniens, etc. de
+            co<lb ed="#V" n="5" break="no"/>gnatione spirituali in 6. et cap. 1. Est
+            <lb ed="#V" n="6"/>autem antiquissimi Juris Ecclesiastici, et
+            <lb ed="#V" n="7"/>-ab Apostolis derivata haec consuetudo
+            <lb ed="#V" n="8"/>Patrinorum. Dionysius Areopagita de
+            Ec<lb ed="#V" n="9" break="no"/>clesiast. Hierarch, cap. de Baptismo
+            appel<lb ed="#V" n="10" break="no"/>lat fidejussores, Justinus q. 56. ad
+            Ortho<lb ed="#V" n="11" break="no"/>doxos, offerentes, Tertullianus de Baptism.
+            <lb ed="#V" n="12"/>c. 28. sponsores, August. 1. 106. 1. 163. et
+            <lb ed="#V" n="13"/>215. fidejussores, et epistola 23. ad
+            Bonifa<lb ed="#V" n="14" break="no"/>cium, fidei Doctores, Higinus appellat
+            <lb ed="#V" n="15"/>Patrinos, cap. in Catechismo, de cons.
+            <lb ed="#V" n="16"/>dist. 4. Arelatense IV. cap. 19.
+            Mogunti<lb ed="#V" n="17" break="no"/>num sub Leone III. et alii posteriores sic
+            <lb ed="#V" n="18"/>appellant. Eorum officium erat spondere
+            <lb ed="#V" n="19"/>pro suscepto, eum docere et castigare;
+            <lb ed="#V" n="20"/>inter Decreta autem, quae exprimunt
+            im<lb ed="#V" n="21" break="no"/>pedimentum, videtur esse Canon Niceni
+            <lb ed="#V" n="22"/>21. esse primus. Plura alia subsecuta sunt,
+            <lb ed="#V" n="23"/>ut patet 30. q. 1. unus vel una ad
+            sum<lb ed="#V" n="24" break="no"/>mum admittendi ad susceptionem in
+            Ba<lb ed="#V" n="25" break="no"/>ptismo; ex Trident. sess. 24. cap. 7. ut
+            <lb ed="#V" n="26"/>unus tantum esset, habetur c. Non plures,
+            <lb ed="#V" n="27"/>de consecrat. dist. 4. quod est Leonis I.
+            <lb ed="#V" n="28"/>Idem statuit Metense cap. 3. Moguntinum
+            <lb ed="#V" n="29"/>sub Paulo III. cap. 19. caeteri non
+            contra<lb ed="#V" n="30" break="no"/>hunt hanc cognationem, quamvis tangant
+            <lb ed="#V" n="31"/>baptizatum ex Decreto Concilii Tridentini.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Admonendus Lector decretalem, quae
+            <lb ed="#V" n="33"/>nuper emanavit Deidati Pontificis in
+            qui<lb ed="#V" n="34" break="no"/>busdam verbis esse corruptam vitio
+            im<lb ed="#V" n="35" break="no"/>pressoris aut scriptoris, ut bene advertit
+            <lb ed="#V" n="36"/>Legionensis S 4. sub finem corruptam
+            <lb ed="#V" n="37"/>clausulam citans, quae est haec, et post
+            <lb ed="#V" n="38"/>expletum annum recipiant alium virum,
+            <lb ed="#V" n="39"/>similiter et vir uxorem, etc. agitur de iis
+            <lb ed="#V" n="40"/>qui proprios filios susceperunt in
+            Bapti<lb ed="#V" n="41" break="no"/>smo qui separandi sunt per annum,
+            assi<lb ed="#V" n="42" break="no"/>gnata dote aut alimentis Verba autem illa
+            <lb ed="#V" n="43"/>recipiant alium virum, etc. debent
+            intel<lb ed="#V" n="44" break="no"/>ligi, illum, aut suum virum, quia
+            matri<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>monium inseparabile est, vivente priore
+            <lb ed="#V" n="46"/>viro; vide praefatum Auctorem.
+            <lb ed="#V" n="47"/>Dubitatur an possit cognatio spiritualis
+            <lb ed="#V" n="48"/>esse inter suscipientem filium, et parentes
+            <lb ed="#V" n="49"/>infideles. Affirmat Glossa in c. 1. 30. . 1..
+            <lb ed="#V" n="50"/>Sylvester v. Matrimonium 8. q. 8. Angelus
+            <lb ed="#V" n="51"/>v. Baptism. 8. et v. Matrimonium, impedi
+            <lb ed="#V" n="52"/>ment. 7. et alii. Negant. D. Thomas,
+            Ri<lb ed="#V" n="53" break="no"/>chardus, Durandus et alii, in hac
+            distin<lb ed="#V" n="54" break="no"/>ctione; et haec omnino probabilior est,
+            <lb ed="#V" n="55"/>quia infidelis non est capax hujus
+            impedi<lb ed="#V" n="56" break="no"/>menti legis Ecclesiasticae, quae respicit
+            <lb ed="#V" n="57"/>fideles tantum c. Gaudemus, etc. de
+            <lb ed="#V" n="58"/>divortiis. Probabilius est nasci ex
+            Bapti<lb ed="#V" n="59" break="no"/>smo minus solemni dato, quia contrahitur
+            <lb ed="#V" n="60"/>ex Sacramento, non vero ex
+            sacramenta<lb ed="#V" n="61" break="no"/>libus; debet etiam suscipiens tangere
+            <lb ed="#V" n="62"/>susceptum, ut patet ex Canonibus citatis,
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>(d) Juxta quod notandum, quod cognatio
+            <lb ed="#V" n="64"/>legalis, etc. Docet etiam cognationem
+            <lb ed="#V" n="65"/>Jegalem esse impedimentum dirimens
+            ma<lb ed="#V" n="66" break="no"/>trimonium. Patet ex lege, quam citat de
+            <lb ed="#V" n="67"/>cognat. leg. cap. unico. Duplex autem est
+            <lb ed="#V" n="68"/>adoptio, alia perfecta, alia imperfecta.
+            <lb ed="#V" n="69"/>Perfecta dicitur arrogatio, et convenit ei
+            <lb ed="#V" n="70"/>qui est sui juris, et per arrogationem
+            tran<lb ed="#V" n="71" break="no"/>sit in jus adoptantis. Adoptatio est ejus,
+            <lb ed="#V" n="72"/>qui manet in potestate alterius, neque
+            <lb ed="#V" n="73"/>per eam transit in jus adoptantis, verbi
+            <lb ed="#V" n="74"/>gratia, filii qui adhuc, manet sub,
+            po<lb ed="#V" n="75" break="no"/>testate patris naturalis. Ab hac autem
+            <lb ed="#V" n="76"/>potestate solutus dicitur emancipatus,
+            <lb ed="#V" n="77"/>dum fit sui juris, non secus, ac servus
+            ma<lb ed="#V" n="78" break="no"/>numissus dicitur emancipari, id est, extra
+            <lb ed="#V" n="79"/>manum et potestatem positus patris aut
+            <lb ed="#V" n="80"/>domini, l. Non modo, C. de emancipat.
+            <lb ed="#V" n="81"/>lib. et Instit, quibus mod. vis pa, po, sol.
+            <lb ed="#V" n="82"/>Arrogatio fit auctoritate Principis l. 1. C.
+            <lb ed="#V" n="83"/>de adopt. Simplex autem adoptio
+            aucto<lb ed="#V" n="84" break="no"/>ritate Magistratus fieri potest.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Aliqui, negant cognationem legalem
+            <lb ed="#V" n="86"/>oriri ex simplici adoptione, quos
+            sequi<lb ed="#V" n="87" break="no"/>tur Sanchez lib. 7. disput. 63. nium. 9.
+          </p>
+          <p>
+            <lb ed="#V" n="88"/>Contraria opinio, quam tenet Doctor
+            <pb ed="#V" n="554"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>cum Glossa citata, est communis, et
+            pro<lb ed="#V" n="2" break="no"/>batur, quia ubi Jura de adoptione non
+            di<lb ed="#V" n="3" break="no"/>stinguunt, neque nos distinguere
+            debe<lb ed="#V" n="4" break="no"/>mus. Deinde, filius adoptivus habitat in
+            <lb ed="#V" n="5"/>domo adoptantis, sicut filius naturalis;
+            con<lb ed="#V" n="6" break="no"/>gruum ergo erat inducere impedimentum
+            <lb ed="#V" n="7"/>hoc respectu adoptati, sicut et arrogati.
+            <lb ed="#V" n="8"/>Deinde, tenetur ad reverentiam
+            ado<lb ed="#V" n="9" break="no"/>ptanti, eique succedere potest ut haeres ab
+            <lb ed="#V" n="10"/>intestato, Instit. de adoption. Hoc
+            impedi<lb ed="#V" n="11" break="no"/>mentum inductum est lege civili, 1.
+            Ado<lb ed="#V" n="12" break="no"/>ptivus, ff. de ritu nupt. et Instit. de
+            ado<lb ed="#V" n="13" break="no"/>ption. quam lex Canonica confirmavit cap.
+            <lb ed="#V" n="14"/>Ita diligere, cap. Per adoptionem 30. q. 3.
+            <lb ed="#V" n="15"/>et extra cap. unico, de cognat. legali.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Triplex est linea cognationis legalis:
+            <lb ed="#V" n="17"/>Prima est inter adoptantem et adoptatum,
+            <lb ed="#V" n="18"/>et filios adoptati, in linea recta; et haec
+            <lb ed="#V" n="19"/>sequitur naturam consanguinitatis ob
+            re<lb ed="#V" n="20" break="no"/>verentiam patris adoptantis inter
+            adoptan<lb ed="#V" n="21" break="no"/>tem et uxorem adoptati et inter
+            adopta<lb ed="#V" n="22" break="no"/>tum et uxorem adoptantis; et
+            impedimen<lb ed="#V" n="23" break="no"/>tum etiam hoc est perpetuum. Tertia linea
+            <lb ed="#V" n="24"/>est inter adoptatum et filias naturales
+            ado<lb ed="#V" n="25" break="no"/>ptantis, et haec est temporalis, quia
+            ces<lb ed="#V" n="26" break="no"/>sante adoptione cessat impedimentum, ut
+            <lb ed="#V" n="27"/>bene Doctor in littera; cessat autem
+            ado<lb ed="#V" n="28" break="no"/>ptio per mortem naturalem et civilem
+            <lb ed="#V" n="29"/>adoptantis emancipationem adoptati, aut
+            <lb ed="#V" n="30"/>alia via, qua adoptatus absolvitur a
+            po<lb ed="#V" n="31" break="no"/>testate adoptantis.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Hactenus Doctor egit de impedimentis
+            <lb ed="#V" n="33"/>irritantibus matrimonium, quae Jure
+            an<lb ed="#V" n="34" break="no"/>tiquo usque ad sua tempora viguerunt.
+            <lb ed="#V" n="35"/>Alia duo impedimenta adjecit
+            Tridenti<lb ed="#V" n="36" break="no"/>num, quorum alterum est ex defectu
+            <lb ed="#V" n="37"/>solemnitatis, alterum vero contra
+            rapto<lb ed="#V" n="38" break="no"/>res; de quibus hic breviter agendum erit
+            <lb ed="#V" n="39"/>ad complementum materiae.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Matrimonia clandestina fuisse
+            prohibi<lb ed="#V" n="41" break="no"/>ta semper, constat ex pluribus Decretis,
+            <lb ed="#V" n="42"/>quae congerit Gratianus 3. q. 5. et docet
+            <lb ed="#V" n="43"/>Trident. sess. 24. de reformat. matrimon.
+            <lb ed="#V" n="44"/>cap. 1. In hoc capite praescribit post
+            Con<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>cilium Lateranense praemitti debere
+            de<lb ed="#V" n="46" break="no"/>nuntiationes inter Missarum solemnia
+            tri<lb ed="#V" n="47" break="no"/>bus diebus festis continuis a Parocho.
+            <lb ed="#V" n="48"/>Secundo, si nullum apponatur
+            impedi<lb ed="#V" n="49" break="no"/>mentum, celebrari debere matrimonium
+            <lb ed="#V" n="50"/>in facie Ecclesiae, dicente Parocho: Ego
+            <lb ed="#V" n="51"/>vos conjungo in matrimonium, in nomine
+            <lb ed="#V" n="52"/>Patris et Filii, etc. vel alia verba juxta
+            <lb ed="#V" n="53"/>consuetudinem Provinciarum.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Tertio, si suspicio subsit probabilis
+            im<lb ed="#V" n="55" break="no"/>pediendi matrimonii, tunc praemissa una
+            <lb ed="#V" n="56"/>denuntiatione, vel saltem coram Parocho,
+            <lb ed="#V" n="57"/>et duobus vel tribus testibus praesentibus
+            <lb ed="#V" n="58"/>matrimonium celebretur. Deinde, ante
+            <lb ed="#V" n="59"/>illius consummationem fiant
+            denuntiatio<lb ed="#V" n="60" break="no"/>nes, nisi Ordinarius ex justa causa
+            remit<lb ed="#V" n="61" break="no"/>tat, cujus judicio et prudentiae id
+            commit<lb ed="#V" n="62" break="no"/>tit sancta Synodus.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Quarto, invalidat personas ad
+            contra<lb ed="#V" n="64" break="no"/>ctum, si fiat non praesente Parocho vel
+            <lb ed="#V" n="65"/>alio Sacerdote de ipsius Parochi aut
+            Ordi<lb ed="#V" n="66" break="no"/>narii licentia.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Quinto, praecipit Parochum sine testibus,
+            <lb ed="#V" n="68"/>qui adest matrimonio celebrato, aut testes
+            <lb ed="#V" n="69"/>sine Parocho, et ipsos contrahentes
+            pu<lb ed="#V" n="70" break="no"/>niendos graviter ad arbitrium Ordinarii.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Sexto, hortatur ut conjuges non
+            coha<lb ed="#V" n="72" break="no"/>bitent ante benedictionem sacerdotalem
+            <lb ed="#V" n="73"/>in templo suscipiendam.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Septimo, hanc dandam esse ab ipso
+            Pa<lb ed="#V" n="75" break="no"/>rocho, aut ab alio de licentia Ordinarii.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Octavo, statuit poenam in alios, qui
+            <lb ed="#V" n="77"/>praesumpserint eamdem benedictionem
+            <lb ed="#V" n="78"/>dare.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>Nono, ut Parochus in libro describat
+            <lb ed="#V" n="80"/>nomina contrahentium et testium, diem et
+            <lb ed="#V" n="81"/>locum contracti matrimonii.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>Decimo, ut triduo saltem ante
+            contra<lb ed="#V" n="83" break="no"/>ctum matrimonium confiteantur omnia
+            <lb ed="#V" n="84"/>peccata sua, et ad sanctissimae
+            Euchari<lb ed="#V" n="85" break="no"/>stiae Sacramentum accedant.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Inter has solemnitates diversi sunt
+            gra<lb ed="#V" n="87" break="no"/>dus, nam praesentia Parochi et testium est
+            <lb ed="#V" n="88"/>necessaria, ut substantialis solemnitas, sine
+            <pb ed="#V" n="555"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>qua contractus esset irritus. Reliquae vero
+            <lb ed="#V" n="2"/>quaedam sunt praecepti, quaedam consilii,
+            <lb ed="#V" n="3"/>quaeque in suo gradu servanda, et prout
+            <lb ed="#V" n="4"/>Concilium praescribit, servandae etiam aliae
+            <lb ed="#V" n="5"/>solemnitates, quae in Provinciis recte
+            in<lb ed="#V" n="6" break="no"/>stitutae sunt, quae Concilium etiam suo
+            De<lb ed="#V" n="7" break="no"/>creto approbat. Advertendum hanc legem
+            <lb ed="#V" n="8"/>Concilii obligare, ubi receptum est, quia
+            <lb ed="#V" n="9"/>in fine statuit Ordinariis, cum commode
+            <lb ed="#V" n="10"/>possint, eam declarare et publicare in
+            sin<lb ed="#V" n="11" break="no"/>gulis Parochiis, et publicatione ac
+            decla<lb ed="#V" n="12" break="no"/>ratione facta, obligare post triginta dies.
+            <lb ed="#V" n="13"/>Obligat tam incolas quam advenas, ubi est
+            <lb ed="#V" n="14"/>receptum, quantum ad illud statutum de
+            <lb ed="#V" n="15"/>praesentia Parochi et testium; ubi vero non
+            <lb ed="#V" n="16"/>est receptum, non obligat. Probabilius
+            <lb ed="#V" n="17"/>etiam obligat eo migrantes, et domicilium
+            <lb ed="#V" n="18"/>ponentes, quamvis alias in alio loco
+            com<lb ed="#V" n="19" break="no"/>morantes non obligarit.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Aliqui docent hanc legem semel
+            pro<lb ed="#V" n="21" break="no"/>mulgatam semper obligare, quamvis etiam
+            <lb ed="#V" n="22"/>Provincia desinat in haeresim; sed hoc
+            <lb ed="#V" n="23"/>nimis durum est, neque sic, aut in eo
+            ri<lb ed="#V" n="24" break="no"/>gore piae matris Ecclesiae debet
+            interpre<lb ed="#V" n="25" break="no"/>tari statutum obligare, ubi non est copia
+            <lb ed="#V" n="26"/>Parochorum aut Ordinariorum, si
+            defece<lb ed="#V" n="27" break="no"/>rint in Provincia; quinimo statutum ipsum
+            <lb ed="#V" n="28"/>loquitur respective ad loca et personas,
+            <lb ed="#V" n="29"/>in quibus haberi possit Ordinarius aut
+            Pa<lb ed="#V" n="30" break="no"/>rochus; neque intendit impossibile, aut
+            <lb ed="#V" n="31"/>matrimonia omnia in eo casu esse nulla,
+            <lb ed="#V" n="32"/>quo non adsunt Parochus et testes, cum
+            <lb ed="#V" n="33"/>copia Parochi non suppetat; datur ergo
+            <lb ed="#V" n="34"/>locus Epikeiae, et etiam necessitati, quae
+            <lb ed="#V" n="35"/>inducit impossibilitatem servandae legis.
+            <lb ed="#V" n="36"/>sicut et praescriptioni. Neque Ecclesia
+            an<lb ed="#V" n="37" break="no"/>nullare intendit matrimonium
+            haeretico<lb ed="#V" n="38" break="no"/>rum, qui in Provinciis admixti Catholicis
+            <lb ed="#V" n="39"/>sunt, et contemnunt hoc statutum
+            promul<lb ed="#V" n="40" break="no"/>gatum, potest matrimonium celebrari
+            co<lb ed="#V" n="41" break="no"/>ram Parocho alterutrius conjugis, sed in
+            <lb ed="#V" n="42"/>proprio districtu, aut ubi potest
+            jurisdicti<lb ed="#V" n="43" break="no"/>onem suam exercere, nam aliquando
+            ju<lb ed="#V" n="44" break="no"/>risdictio haec ligatur certo loco et
+            distri<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>ctui, ut plurimum contingit ubi Parochiae
+            <lb ed="#V" n="46"/>sunt divisae. Aliquando non ligatur loco,
+            <lb ed="#V" n="47"/>sed personis, verbi gratia, Graeci Venetiis
+            <lb ed="#V" n="48"/>habent Ministrum Graecum, cujus
+            jurisdi<lb ed="#V" n="49" break="no"/>ctio respicit personas, non locum; ita
+            <lb ed="#V" n="50"/>etiam aliquando milites, qui gaudent
+            mi<lb ed="#V" n="51" break="no"/>nistris suis propriis, a quibus recipiunt
+            <lb ed="#V" n="52"/>Sacramenta quocumque in loco, ex
+            in<lb ed="#V" n="53" break="no"/>dulto Sedis Apostolicae; sic societates
+            mer<lb ed="#V" n="54" break="no"/>catorum advenarum in quibusdam locis,
+            <lb ed="#V" n="55"/>vel eodem indulto, aut Ordinarii. De
+            reli<lb ed="#V" n="56" break="no"/>quis hic non expressis late Summistae, et
+            <lb ed="#V" n="57"/>Sanchez lib. 3. de matrimonio, explicans
+            <lb ed="#V" n="58"/>Decretum per varias disputationes quoad
+            <lb ed="#V" n="59"/>omnia sua membra.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Aliud impedimentum est raptus seu
+            <lb ed="#V" n="61"/>violenta extractio mulieris dissentientis e
+            <lb ed="#V" n="62"/>domo propria, aut parentum; si autem
+            <lb ed="#V" n="63"/>proprio consensu sequitur, non est raptus,
+            <lb ed="#V" n="64"/>ut Lucius III. ad Burgensem Episcopum
+            <lb ed="#V" n="65"/>declarat. Impedimentum naturale est
+            do<lb ed="#V" n="66" break="no"/>nec adveniat consensus sponsae, quae si
+            <lb ed="#V" n="67"/>consenserit, lege communi et ordinaria
+            <lb ed="#V" n="68"/>valebat matrimonium, quamvis in
+            aliqui<lb ed="#V" n="69" break="no"/>bus Provinciis ex Decretis Synodalibus
+            <lb ed="#V" n="70"/>erat nullum, et reddebantur inhabiles ad
+            <lb ed="#V" n="71"/>matrimonium inter se, ut statuit Synodus
+            <lb ed="#V" n="72"/>Regiaticina sub Leone IV. cap. 1. et cap.
+            <lb ed="#V" n="73"/>de puellis 36. q. 2. quod est Concilii
+            Cabi<lb ed="#V" n="74" break="no"/>lonensis, et cap. finali eod. ex
+            Aquisgra<lb ed="#V" n="75" break="no"/>nensi. Sed haec Decrata erant
+            particula<lb ed="#V" n="76" break="no"/>ria, unde valuisse matrimonium
+            consen<lb ed="#V" n="77" break="no"/>tiente rapta patet ex can. 66. Apostolorum.
+            <lb ed="#V" n="78"/>Aurelianensi I. c. 4. ex Meldensi cap. 64.
+            <lb ed="#V" n="79"/>et 65. tandem ex cap. finali de raptoribus,
+            <lb ed="#V" n="80"/>quod est Innocentii III. Tridentinum
+            <lb ed="#V" n="81"/>autem sess. 24. cap. 6. de reformat.
+            ma<lb ed="#V" n="82" break="no"/>trimonii, statuit impedimentum quo
+            matri<lb ed="#V" n="83" break="no"/>monium esset nullum, donec sponsa
+            re<lb ed="#V" n="84" break="no"/>stitueretur loco tuto, et extra
+            praesumptio<lb ed="#V" n="85" break="no"/>nem consensus coacti.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Poenae in raptores statutae sunt
+            excom<lb ed="#V" n="87" break="no"/>municatio illo can. 66. Apostolorum.
+            Ex<lb ed="#V" n="88" break="no"/>tenditur ad consentientes et adjuvantes
+            <pb ed="#V" n="556"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>a Chalcedonen. act. 11. c. 27. et si clerici
+            <lb ed="#V" n="2"/>essent, jubentur deponi. Eadem poena
+            <lb ed="#V" n="3"/>confirmatur per Concilium Romanum I.
+            <lb ed="#V" n="4"/>sub Gregorio ILc. 10. et 11. per
+            Symma<lb ed="#V" n="5" break="no"/>chum epist. 5. Romanum sub Zacharia c.
+            <lb ed="#V" n="6"/>7. Tridentinum adjungit infamiam
+            perpe<lb ed="#V" n="7" break="no"/>tuam, inhabilitatem ad omnes dignitates,
+            <lb ed="#V" n="8"/>quae poena etiam dantes consilium,
+            <lb ed="#V" n="9"/>auxilium et favorem comprehendit. Ut
+            <lb ed="#V" n="10"/>praeterea raptor teneatur raptam, sive
+            <lb ed="#V" n="11"/>eam duxerit, sive non, dotare, decenter
+            <lb ed="#V" n="12"/>arbitrio judicis, quae poena proinde
+            actio<lb ed="#V" n="13" break="no"/>nem judicis exposcit, reliquae vero ipso
+            <lb ed="#V" n="14"/>Jure incurruntur.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d42q1-p3"> -->
+          <p>
+            <lb ed="#V" n="20" type="fixed=558"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>(e) Ex dictis breviter colligo, etc. Haec
+            <lb ed="#V" n="22"/>est ultima pars hujus distinctionis, in qua
+            <lb ed="#V" n="23"/>recapitulat dicta hactenus per totam
+            ma<lb ed="#V" n="24" break="no"/>teriam de impedimentis irritantibus
+            ma<lb ed="#V" n="25" break="no"/>trimonium. Dividit primo impedimentum
+            <lb ed="#V" n="26"/>in illud quod dicitur simpliciter, et
+            irri<lb ed="#V" n="27" break="no"/>tans factum si fiat; et in illud quod
+            pro<lb ed="#V" n="28" break="no"/>hibet fieri, et non irritat factum, quod
+            <lb ed="#V" n="29"/>communiter ad distinctionem prioris
+            di<lb ed="#V" n="30" break="no"/>citur tantum impediens et non irritans;
+            <lb ed="#V" n="31"/>hoc autem nascitur ex quacumque
+            pro<lb ed="#V" n="32" break="no"/>hibitione contractus ineundi. Duo autem
+            <lb ed="#V" n="33"/>a communiter numerantur propria, quae
+            di<lb ed="#V" n="34" break="no"/>.rimentibus non communicant, ut
+            interdi<lb ed="#V" n="35" break="no"/>ctum Ecclesiae, et tempus feriarum. Alia
+            <lb ed="#V" n="36"/>etiam impedimenta sunt hujus generis,
+            <lb ed="#V" n="37"/>r quae aliquo modo ad dirimentia
+            reducun<lb ed="#V" n="38" break="no"/>. tur, ut voti simplicis impedimentum ad
+            <lb ed="#V" n="39"/>impedimentum voti solemnis,
+            impedimen<lb ed="#V" n="40" break="no"/>tum Catechismi; de quo cap. Ante
+            Bapti<lb ed="#V" n="41" break="no"/>smum, etc. de consecrat. dist. 4. et cap.
+            <lb ed="#V" n="42"/>contracto, etc. de cognat. spirituali, et
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>cap. 2. eod. in 6. ad impedimentum
+            co<lb ed="#V" n="44" break="no"/>gnationis spiritualis quod dirimit;
+            impe<lb ed="#V" n="45" break="no"/>dimentum sponsaliorum cum altera, ad
+            <lb ed="#V" n="46"/>impedimentum ligaminis; de quibus in
+            <lb ed="#V" n="47"/>titulo de sponsalibus et matrimonio.
+            An<lb ed="#V" n="48" break="no"/>numeratur etiam raptus, de quo supra
+            <lb ed="#V" n="49"/>diximus, et inquantum impedit tantum,
+            <lb ed="#V" n="50"/>potest reduci ad impedimentum criminis,
+            <lb ed="#V" n="51"/>sicut et incestus, mors mulieris seu
+            uxo<lb ed="#V" n="52" break="no"/>ris, de quo actum distinct. 37. mors
+            Pre<lb ed="#V" n="53" break="no"/>sbyteri, cap. 2. de poenitent. et remissio.
+            <lb ed="#V" n="54"/>Poenitentia etiam publica, et plura alia
+            <lb ed="#V" n="55"/>quae sub generali appellatione
+            prohibiti<lb ed="#V" n="56" break="no"/>onis comprehendit Doctor.
+            <lb ed="#V" n="57"/>Numerum autem et rationem
+            impedi<lb ed="#V" n="58" break="no"/>mentorum optime reducit ad duo, nempe
+            <lb ed="#V" n="59"/>naturam ipsius contractus, et statutum
+            <lb ed="#V" n="60"/>Ecclesiae superadditum, nam defectus et
+            <lb ed="#V" n="61"/>nullitas contractus est ex lege divina et
+            <lb ed="#V" n="62"/>naturali (eo modo quo supra diximus
+            <lb ed="#V" n="63"/>hunc contractum esse secundum legem
+            <lb ed="#V" n="64"/>naturalem), vel certe ex lege Ecclesiae
+            su<lb ed="#V" n="65" break="no"/>peraddita contractui; nam ex his solis
+            <lb ed="#V" n="66"/>potest esse defectus substantialis in
+            con<lb ed="#V" n="67" break="no"/>tractu. Lex divina quaedam afficit
+            contra<lb ed="#V" n="68" break="no"/>ctum per se, ad quem requiritur
+            consen<lb ed="#V" n="69" break="no"/>sus liber et voluntarius; hinc metus
+            ca<lb ed="#V" n="70" break="no"/>dens in virum constantem reddit nullum
+            <lb ed="#V" n="71"/>contractum; de quo impedimento egit
+            <lb ed="#V" n="72"/>Doctor dist. 29. Aliquando deficit
+            consen<lb ed="#V" n="73" break="no"/>sus ex defectu scientiae et libertatis, ut in
+            <lb ed="#V" n="74"/>furiosis, ex errore triplici, de quibus egit
+            <lb ed="#V" n="75"/>in dist. 30. nempe consensus personae et
+            <lb ed="#V" n="76"/>conditionis servilis. His accedit
+            impedi<lb ed="#V" n="77" break="no"/>mentum ex conditione apposita
+            contra<lb ed="#V" n="78" break="no"/>ctui contra tria ejus bona, de quo egit
+            <lb ed="#V" n="79"/>dist. 31. quatuor ergo impedimenta
+            oriun<lb ed="#V" n="80" break="no"/>tur ex lege divina, ut afficit, et complet
+            <lb ed="#V" n="81"/>ipsum contractum, nempe metus, erroris,
+            <lb ed="#V" n="82"/>consensus personae et conditionis servilis,
+            <lb ed="#V" n="83"/>et conditionis appositae et repugnantis
+            <lb ed="#V" n="84"/>bono matrimonii; haec ipsa reducit in fine:
+            <lb ed="#V" n="85"/>hujus paragraphi ad tria in genere, nempe
+            <lb ed="#V" n="86"/>ad metum, ad defectum notitiae requisitae,
+            <pb ed="#V" n="559"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>et ad conditionem oppositam repugnantem
+            <lb ed="#V" n="2"/>bono contractus.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>(f) Ex parte autem personarum
+            contra<lb ed="#V" n="4" break="no"/>hentium, etc. Lex divina non solum
+            affi<lb ed="#V" n="5" break="no"/>cit contractum, sed etiam materiam, in
+            <lb ed="#V" n="6"/>qua fit permutatio, nempe personas; et
+            <lb ed="#V" n="7"/>sic ex ea oritur duplex impedimentum in
+            <lb ed="#V" n="8"/>genere, nempe impotentiae naturalis aut
+            <lb ed="#V" n="9"/>casualis perpetuae, ad quam reducitur
+            im<lb ed="#V" n="10" break="no"/>potentia, quae est pro statu puerili; de his
+            <lb ed="#V" n="11"/>agitur dist. 34. et dist. 36. secundum
+            im<lb ed="#V" n="12" break="no"/>pedimentum est ligaminis ex matrimonio;
+            <lb ed="#V" n="13"/>de quo distinct. 33.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d42q1-p4"> -->
+          <p>
+            <lb ed="#V" n="47" type="fixed=559"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>(g) In speciali autem, etc. Prior collectio
+            <lb ed="#V" n="49"/>et divisio impedimentorum, quae oriuntur
+            <lb ed="#V" n="50"/>ex lege divina, ut afficit contractum et
+            <lb ed="#V" n="51"/>personas, est generica, et numero
+            quina<lb ed="#V" n="52" break="no"/>ria, metus, erroris, conditionis
+            repugnan<lb ed="#V" n="53" break="no"/>tis appositio, impotentia et ligamen. Hic
+            <lb ed="#V" n="54"/>autem in specie subdividit praedicta
+            impe<lb ed="#V" n="55" break="no"/>dimenta, juxta species causarum, ex
+            qui<lb ed="#V" n="56" break="no"/>bus oriri possunt, et subsistunt, ipsa
+            im<lb ed="#V" n="57" break="no"/>pedimenta in re et cognitione, qua
+            inve<lb ed="#V" n="58" break="no"/>stigantur et cadunt sub judicio Ecclesiae.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Primum impedimentum metus tam
+            mul<lb ed="#V" n="60" break="no"/>tiplex est quam multiplex est malum,
+            <lb ed="#V" n="61"/>quod impellit virum constantem, ut
+            se<lb ed="#V" n="62" break="no"/>cundum prudentiam eligat cedendum esse
+            <lb ed="#V" n="63"/>metui, de quibus dictum est in
+            commen<lb ed="#V" n="64" break="no"/>tario, dist. 29. Secundum impedimentum
+            <lb ed="#V" n="65"/>est triplex, nempe erroris ex dolo
+            subtra<lb ed="#V" n="66" break="no"/>cti consensus, et simulati erroris personae,
+            <lb ed="#V" n="67"/>et erroris conditionis servilis. Tertium
+            <lb ed="#V" n="68"/>impedimentum etiam multiplex est, et
+            <lb ed="#V" n="69"/>secundum naturam conditionis appositae,
+            <lb ed="#V" n="70"/>prout repugnat bono alicui ex tribus bonis
+            <lb ed="#V" n="71"/>matrimonii. Quartum impedimentum
+            con<lb ed="#V" n="72" break="no"/>tinet in viro impotentiam ex frigiditate et
+            <lb ed="#V" n="73"/>mutilatione; in muliere frigiditas non
+            im<lb ed="#V" n="74" break="no"/>pedit simpliciter, sicut neque sterilitas,
+            <lb ed="#V" n="75"/>sed sola arctitudo; in utroque est
+            impe<lb ed="#V" n="76" break="no"/>dimentum commune aetatis puerilis, et
+            po<lb ed="#V" n="77" break="no"/>test esse maleficii.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>Ultimum impedimentum est legis
+            Evan<lb ed="#V" n="79" break="no"/>gelicae, quae tollit pluralitatem uxorum;
+            <lb ed="#V" n="80"/>loquitur de hoc impedimento, ut inter
+            <lb ed="#V" n="81"/>Christianos nunc viget.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d42q1-p5"> -->
+          <p>
+            <lb ed="#V" n="14" type="fixed=561"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>(h) Ex statuto Ecclesiae, etc. Primo
+            do<lb ed="#V" n="16" break="no"/>cet Ecclesiam non immutare naturam
+            con<lb ed="#V" n="17" break="no"/>tractus directe, sed inhabilitare personas
+            <lb ed="#V" n="18"/>ad contractum, et in genere id facit ex
+            <lb ed="#V" n="19"/>ex triplici fine, nempe propter earum
+            <lb ed="#V" n="20"/>propinquitatem, vel ob applicationem
+            <lb ed="#V" n="21"/>earum ad divinum cultum, vel denique
+            <lb ed="#V" n="22"/>tertio propter enorme crimen.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Primi generis est propinquitas
+            sangui<lb ed="#V" n="24" break="no"/>nis, et alia vincula, quae naturam ejus
+            <lb ed="#V" n="25"/>sequuntur, ut affinitas, publicae
+            honesta<lb ed="#V" n="26" break="no"/>e tis justitia, cognatio spiritualis et legalis.
+            <lb ed="#V" n="27"/>De consanguinitate agit dist. 40. de
+            affi<lb ed="#V" n="28" break="no"/>nitate et publicae honestatis justitia dist,
+            <lb ed="#V" n="29"/>41. de reliquis in prima parte hujus
+            di<lb ed="#V" n="30" break="no"/>stinctionis, et citat Decreta Bonifacii VIII.
+            <lb ed="#V" n="31"/>quae suo tempore erant jus novum, quod
+            <lb ed="#V" n="32"/>non viderunt antiquiores Theologi, qui
+            <lb ed="#V" n="33"/>praecesserunt Bonifacium. In hoc ergo
+            <lb ed="#V" n="34"/>paragrapho enumerat quinque
+            impedi<lb ed="#V" n="35" break="no"/>menta, consanguinitatis, affinitatis,
+            pu<lb ed="#V" n="36" break="no"/>blicae honestatis justitiae, cognationis
+            <lb ed="#V" n="37"/>spiritualis et cognationis legalis, quas
+            <lb ed="#V" n="38"/>vocat mixti juris, id est, participare
+            <lb ed="#V" n="39"/>tam spiritualem quam carnalem
+            cog<lb ed="#V" n="40" break="no"/>nationem, et vinculum quod ex ipsis
+            <lb ed="#V" n="41"/>est, in quo differunt a tribus prioribus,
+            <lb ed="#V" n="42"/>in quibus tantum attenditur propinquitas
+            <lb ed="#V" n="43"/>carnalis ex propagine, copula aut
+            con<cb ed="#V" n="b"/><lb ed="#V" n="44" break="no"/>tractu. Reliqua duo dicuntur
+            propinqui<lb ed="#V" n="45" break="no"/>tas carnalis, quia in ordine ad conjunctos
+            <lb ed="#V" n="46"/>carne sive per sanguinem, sive per
+            affini<lb ed="#V" n="47" break="no"/>tatem in certis gradibus contrahitur;
+            dici<lb ed="#V" n="48" break="no"/>tur vero spiritualis, quia in ratione
+            pro<lb ed="#V" n="49" break="no"/>paginis aut copulae, aut contractus
+            ma<lb ed="#V" n="50" break="no"/>trimonii rati aut sponsalium, quae ad
+            co<lb ed="#V" n="51" break="no"/>pulam ordinantur, intervenit, sed ex
+            spi<lb ed="#V" n="52" break="no"/>rituali, nempe ratione Sacramenti aut
+            <lb ed="#V" n="53"/>adoptionis, quae spiritualia sunt.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d42q1-p6"> -->
+          <p>
+            <lb ed="#V" n="50" type="fixed=563"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>(i) Per applicationem autem, etc. Hic
+            <lb ed="#V" n="52"/>enumerat impedimenta ex applicatione
+            <lb ed="#V" n="53"/>ad cultum, quae sunt secundi generis
+            <lb ed="#V" n="54"/>impedimenti Ecclesiastici, nempe ex
+            or<lb ed="#V" n="55" break="no"/>dine sacro et voto solemni Religionis;
+            <lb ed="#V" n="56"/>addit tamen hoc votum solemne, tenendo
+            <lb ed="#V" n="57"/>sententiam aliorum, quam supra tractavit
+            <lb ed="#V" n="58"/>dist. 38. si Jure divino irritet
+            matrimo<lb ed="#V" n="59" break="no"/>nium, reducendum esse ad
+            impedimen<lb ed="#V" n="60" break="no"/>tum ex natura contractus, prout scilicet
+            <lb ed="#V" n="61"/>lex irritans afficit personas, et spectare
+            <lb ed="#V" n="62"/>reductive ad impedimentum ligaminis,
+            <lb ed="#V" n="63"/>quia est matrimonium spirituale, in quo
+            <lb ed="#V" n="64"/>professus transiens in potestatem
+            Reli<lb ed="#V" n="65" break="no"/>gionis et Ecclesiae per sui traditionem,
+            <lb ed="#V" n="66"/>amplius non habet potestatem sui
+            cor<lb ed="#V" n="67" break="no"/>poris, sicut neque maritus potestatem
+            <lb ed="#V" n="68"/>sui, sed uxor, respective ad matrimonium
+            <lb ed="#V" n="69"/>cum altera priore superstite. De
+            impe<lb ed="#V" n="70" break="no"/>dimento Ordinis egit dist. 37. Hoc autem
+            <lb ed="#V" n="71"/>exemplum de vocatione Beati Joannis
+            <lb ed="#V" n="72"/>Evangelistae, quod subdit ex antiquis
+            <lb ed="#V" n="73"/>Doctor supra, suo loco ibidem correctum
+            <lb ed="#V" n="74"/>est ex veriori historia.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Subdit tertium genus, quod est ex
+            cri<lb ed="#V" n="76" break="no"/>mine, ut est infidelitas et machinatio in
+            <lb ed="#V" n="77"/>mortem mariti cum adulterio, aut hoc
+            <lb ed="#V" n="78"/>cum fide data de futuro matrimonio. De
+            <lb ed="#V" n="79"/>priori agitur dist. 39. de secundo dist. 35.
+            <lb ed="#V" n="80"/>tandem servando eumdem ordinem
+            na<lb ed="#V" n="81" break="no"/>turalem, comprehendit septem versibus
+            <lb ed="#V" n="82"/>omnia impedimenta, ut ex natura
+            con<lb ed="#V" n="83" break="no"/>tractus quatuor decim, Juris Ecclesiastici
+            <lb ed="#V" n="84"/>novem, quae ex integro faciunt viginti
+            <lb ed="#V" n="85"/>tria impedimenta irritantia, quibus
+            ad<lb ed="#V" n="86" break="no"/>dendo alia duo ex Jure novo Tridentini,
+            <pb ed="#V" n="564"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>in toto sunt viginti quinque, quae his
+            <lb ed="#V" n="2"/>versibus, addendo unum prioribus,
+            com<lb ed="#V" n="3" break="no"/>prehenduntur.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Vis, fraus personae, servi, dationis, et
+            <lb ed="#V" n="5"/>amens.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Addita conditio, etc.
+            <lb ed="#V" n="7"/>Haec vi praecepti, sit huic affinis
+            hone<lb ed="#V" n="8" break="no"/>stas.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Sit praesens parochus, testes, sit libera
+            <lb ed="#V" n="10"/>rapta.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>Circa haec impedimenta tractavimus
+            <lb ed="#V" n="12"/>doctrinam necessariam suis locis, quae
+            <lb ed="#V" n="13"/>proinde hic repetenda non est.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Tandem Doctor assignat optimam
+            ra<lb ed="#V" n="15" break="no"/>-tionem sollicitudinis Ecclesiae circa
+            ma<lb ed="#V" n="16" break="no"/>trimonium rite celebrandum, quae vel
+            <lb ed="#V" n="17"/>sola sufficit ad repellendam audaciam
+            <lb ed="#V" n="18"/>haereticorum, et calumnias contra
+            Eccle<lb ed="#V" n="19" break="no"/>siam. Haec ratio autem est tam ex fine
+            <lb ed="#V" n="20"/>matrimonii quam etiam ex significatione
+            <lb ed="#V" n="21"/>mystica. Finis est cultus Dei per
+            propa<lb ed="#V" n="22" break="no"/>gationem generis humani et fidelium, ac
+            <lb ed="#V" n="23"/>proinde sicut Religio est vana, in qua
+            <lb ed="#V" n="24"/>offenditur charitas in Deum et proximum,
+            <lb ed="#V" n="25"/>et turpitudo viget exclusa honestate,
+            <lb ed="#V" n="26"/>ideo contractus ad cultum institutus
+            de<lb ed="#V" n="27" break="no"/>buit sic ordinari, ut servaretur tam
+            cha<lb ed="#V" n="28" break="no"/>ritas in ordine ad cultum, et honestas
+            <lb ed="#V" n="29"/>prout tangit societatem hnmanam,
+            com<lb ed="#V" n="30" break="no"/>munem et particularem finem, prout
+            <lb ed="#V" n="31"/>etiam ipse contractus respicit finem
+            se<lb ed="#V" n="32" break="no"/>cundarium remedii infirmitatis. Debuit
+            <lb ed="#V" n="33"/>etiam matrimonium proportionari in
+            ra<lb ed="#V" n="34" break="no"/>tione signi suo significato, quod
+            reprae<lb ed="#V" n="35" break="no"/>sentat; est enim signum conjunctionis
+            <lb ed="#V" n="36"/>Christi cum Ecclesia spiritualis; debuit
+            <lb ed="#V" n="37"/>ergo ordinari per fidem et dilectionem,
+            <lb ed="#V" n="38"/>qua conjungitur Ecclesia Christo in via,
+            <lb ed="#V" n="39"/>ut mereatur in patria per visionem et
+            <lb ed="#V" n="40"/>fruitionem eidem conjungi.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Hinc ergo colligitur in Ecclesia esse
+            <lb ed="#V" n="42"/>potestatem statuendi impedimenta
+            diri<lb ed="#V" n="43" break="no"/>mentia matrimonium inter fideles,
+            defi<lb ed="#V" n="44" break="no"/>nitur in Tridentino sess. 24. can. 3. et 4.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Patet etiam ex usu et consuetudine
+            to<lb ed="#V" n="46" break="no"/>tius Ecclesiae ab initio usque in haec
+            <lb ed="#V" n="47"/>tempora, et ex Canonibus antiquis, quos
+            <lb ed="#V" n="48"/>supra citavimus in specie de singulis
+            <lb ed="#V" n="49"/>impedimentis agentes. Eadem ratione
+            <lb ed="#V" n="50"/>patet qua constat in Ecclesia esse
+            pote<lb ed="#V" n="51" break="no"/>statem ferendi leges, et ordinandi ea
+            <lb ed="#V" n="52"/>quae ad salutem conducunt aut sunt
+            ne<lb ed="#V" n="53" break="no"/>cessaria.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Non obstat in primis institutio
+            contra<lb ed="#V" n="55" break="no"/>ctus a Deo, quia institutio divina non
+            <lb ed="#V" n="56"/>reservat potestati universali a se etiam
+            <lb ed="#V" n="57"/>institutae auctoritatem inquirendi et
+            in<lb ed="#V" n="58" break="no"/>stituendi ea quae necessaria sunt ad
+            ob<lb ed="#V" n="59" break="no"/>servantiam finis universalis salutis et
+            le<lb ed="#V" n="60" break="no"/>gis, charitatis, justitiae, honestatis et pacis
+            <lb ed="#V" n="61"/>publicae, et privatae, aut etiam ordinandi
+            <lb ed="#V" n="62"/>circa contractum matrimonii, aut
+            contra<lb ed="#V" n="63" break="no"/>hentes ea quae ad finem ejus faciunt, et
+            <lb ed="#V" n="64"/>legis specialis observantiam secludendo
+            <lb ed="#V" n="65"/>pericula quae praejudicant communi
+            so<lb ed="#V" n="66" break="no"/>cietati et particulari, ac Religioni et
+            Sa<lb ed="#V" n="67" break="no"/>cramento. Sicut ergo bonum commune
+            <lb ed="#V" n="68"/>et finis subordinat sibi bonum particulare,
+            <lb ed="#V" n="69"/>et finem matrimonii, ita etiam instituta
+            <lb ed="#V" n="70"/>potestas a Deo in ordine ad finem
+            uni<lb ed="#V" n="71" break="no"/>versalem et bonum commune, subordinat
+            <lb ed="#V" n="72"/>sibi potestatem particularem seu
+            liberta<lb ed="#V" n="73" break="no"/>tem, quam quisque habet ineundi
+            ma<lb ed="#V" n="74" break="no"/>trimonium, atque de ea decernit.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Praeterea, sicut haec libertas ad
+            ineun<lb ed="#V" n="76" break="no"/>dum matrimonium non eximit personas
+            <lb ed="#V" n="77"/>a communi lege, ita aliud est decernere
+            <lb ed="#V" n="78"/>circa personas ante contractum, et circa
+            <lb ed="#V" n="79"/>ipsum contractum positum et initum.
+            <lb ed="#V" n="80"/>Ecclesia nihil immutat circa contractum,
+            <lb ed="#V" n="81"/>sed determinat et disponit circa personas
+            <lb ed="#V" n="82"/>ea quae conducunt, ut contractus suum
+            <lb ed="#V" n="83"/>finem sortiatur, juxta institutionem ejus
+            <lb ed="#V" n="84"/>a Deo, ideoque sua potestate utitur
+            re<lb ed="#V" n="85" break="no"/>spective ad personas directe, quae etiam
+            <lb ed="#V" n="86"/>subsunt Ecclesiae directa subjectione.
+            <lb ed="#V" n="87"/>Contractus autem matrimonialis
+            institu<lb ed="#V" n="88" break="no"/>tus est ad societatis et propagationis in
+            <pb ed="#V" n="565"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>familia, et cohabitationis, sine
+            praejudi<lb ed="#V" n="2" break="no"/>cio societatis, quae fundatur in
+            reveren<lb ed="#V" n="3" break="no"/>tia et pietate et Religione, ad cujus
+            <lb ed="#V" n="4"/>conservationem, et ad excludenda
+            peri<lb ed="#V" n="5" break="no"/>cula Ecclesia recte induxit impedimenta
+            <lb ed="#V" n="6"/>matrimonii inter consanguineos, affines
+            <lb ed="#V" n="7"/>et cognatos spirituales et legales, in
+            <lb ed="#V" n="8"/>quibus est vinculum alterius societatis,
+            <lb ed="#V" n="9"/>cui connubia promiscua derogarent.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Praeterea, matrimonium ordinatur ad
+            <lb ed="#V" n="11"/>cultum et propagationem fidei in
+            po<lb ed="#V" n="12" break="no"/>steris; hic finis non debuit derogari
+            <lb ed="#V" n="13"/>Religioni aut fidei in iis quae proxime
+            <lb ed="#V" n="14"/>accedunt ad finem ejus, ad quem remote
+            <lb ed="#V" n="15"/>tantum facit contractus matrimonii;
+            ideo<lb ed="#V" n="16" break="no"/>que Ecclesia perpendens pericula et
+            sol<lb ed="#V" n="17" break="no"/>licitudinem carnalem, seu affectum uxoris
+            <lb ed="#V" n="18"/>et familiae plurimum derogare ministerio
+            <lb ed="#V" n="19"/>sacro, ideo quamvis necessitatem nulli
+            <lb ed="#V" n="20"/>imposuit, tamen hoc ministerium noluit
+            <lb ed="#V" n="21"/>esse in conjugatis, et eo assumpto
+            inha<lb ed="#V" n="22" break="no"/>bilitavit personas ad contractum, quia id
+            <lb ed="#V" n="23"/>exposcebat finis communis et bonum
+            <lb ed="#V" n="24"/>Religionis, cui cedit libertas ineundi
+            <lb ed="#V" n="25"/>matrimonii, ut etiam ordinatur ad
+            offi<lb ed="#V" n="26" break="no"/>cium naturae, quando propagatio per
+            <lb ed="#V" n="27"/>alios abunde suppletur, et nullum
+            detri<lb ed="#V" n="28" break="no"/>mentum hac in parte fides aut cultus
+            <lb ed="#V" n="29"/>patitur. Idem etiam praestitit quoad eos,
+            <lb ed="#V" n="30"/>qui sectantur voto solemni consilia
+            Evan<lb ed="#V" n="31" break="no"/>gelica, ad majorem voti observantiam,
+            <lb ed="#V" n="32"/>et ne ex gradu superiori descendant ad
+            <lb ed="#V" n="33"/>inferiorem, contra debitum voti, sicut
+            <lb ed="#V" n="34"/>ergo libertas ad matrimonium non
+            de<lb ed="#V" n="35" break="no"/>rogat potestati, quam quis habet vovendi,
+            <lb ed="#V" n="36"/>ita etiam supposito voto, Ecclesia habet
+            <lb ed="#V" n="37"/>potestatem coactivam, qua ad ejus
+            ob<lb ed="#V" n="38" break="no"/>servationem disponat media necessaria,
+            <lb ed="#V" n="39"/>et subtrahat libertatem ad oppositum,
+            <lb ed="#V" n="40"/>quae oneri et servituti in Religione
+            dero<lb ed="#V" n="41" break="no"/>garet.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Item quantum ad alia duo impedimenta,
+            <lb ed="#V" n="43"/>ut est disparitas cultus et machinatio in
+            <lb ed="#V" n="44"/>mortem mariti, eodem modo juste
+            intro<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>ducta sunt per ademptam libertatem
+            <lb ed="#V" n="46"/>ineundi matrimonii; primum enim est ex
+            <lb ed="#V" n="47"/>fine praefixo contractus, ne vel sollicitetur
+            <lb ed="#V" n="48"/>persona conjugis ad adulterium et
+            for<lb ed="#V" n="49" break="no"/>nicationem spiritualem, contra fidem et
+            <lb ed="#V" n="50"/>Religionem, et ne proles indebite
+            edu<lb ed="#V" n="51" break="no"/>cetur. Secundum contra charitatem et
+            <lb ed="#V" n="52"/>vinculum specialis societatis ex
+            contra<lb ed="#V" n="53" break="no"/>ctu et debitum justitiae quod ex eodem
+            <lb ed="#V" n="54"/>incurrunt conjuges; ergo a primo ad
+            <lb ed="#V" n="55"/>ultimum Ecclesia utens sua potestate,
+            <lb ed="#V" n="56"/>qua adimit libertatem ineundi matrimonii
+            <lb ed="#V" n="57"/>aliquibus, vel simpliciter vel respective,
+            <lb ed="#V" n="58"/>vel aliter quam servatis quibusdam
+            so<lb ed="#V" n="59" break="no"/>lemnitatibus, ut contingit in
+            impedimen<lb ed="#V" n="60" break="no"/>tis juris novi Tridentini, ad
+            propulsan<lb ed="#V" n="61" break="no"/>dam injuriam et pericula contractus, et
+            <lb ed="#V" n="62"/>adulteria et irreverentiam Sacramenti,
+            <lb ed="#V" n="63"/>utitur jure suo respective ad personas
+            <lb ed="#V" n="64"/>subditas, ne libertatem in licentiam
+            ver<lb ed="#V" n="65" break="no"/>tant, contra institutum finem contractus
+            <lb ed="#V" n="66"/>particularem, et contra universalem finem
+            <lb ed="#V" n="67"/>charitatis, honestatis, societatis et
+            justi<lb ed="#V" n="68" break="no"/>tiae, quibus talis libertas nequit derogare,
+            <lb ed="#V" n="69"/>sicut neque ipsum jus proprium juri
+            com<lb ed="#V" n="70" break="no"/>muni, hoc autem non est immutare, ut
+            <lb ed="#V" n="71"/>est a Deo institutus, sed salvare debitum
+            <lb ed="#V" n="72"/>ejus usum, et in ordide ad finem suum,
+            <lb ed="#V" n="73"/>secludendo inordinationes, quae alias
+            <lb ed="#V" n="74"/>emergerent, nisi modus poneretur
+            liber<lb ed="#V" n="75" break="no"/>tatis hominum et pronitati in malum.
+            <lb ed="#V" n="76"/>Accedit praeterea reverentia Sacramento
+            <lb ed="#V" n="77"/>annexa, quam procurare debet Ecclesia.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>Secundo patet idem, quia etiam similis
+            <lb ed="#V" n="79"/>potestas statuendi impedimentum
+            matri<lb ed="#V" n="80" break="no"/>monio infidelium est apud Principem
+            <lb ed="#V" n="81"/>civilem; ergo a fortiori competit
+            Eccle<lb ed="#V" n="82" break="no"/>siae quoad fideles. Antecedens patet, et
+            <lb ed="#V" n="83"/>supponitur ex cap. Gaudemus, etc. de
+            <lb ed="#V" n="84"/>divortiis; et patet ex pluribus legibus
+            <lb ed="#V" n="85"/>Romanorum de nuptiarum ritu. Ex
+            Con<lb ed="#V" n="86" break="no"/>cilio Triburiensi cap. 39. quod sentit
+            ma<lb ed="#V" n="87" break="no"/>trimonium contractum ante Baptismum,
+            <lb ed="#V" n="88"/>juxta leges proprias et rationi consonas
+            <pb ed="#V" n="566"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Gentilium valere. Hoc idem docet D.
+            Tho<lb ed="#V" n="2" break="no"/>mas in 4. dist. 39. quaest. unic. artic. 1.
+            <lb ed="#V" n="3"/>Sotus ibid. Paludanus dist. 26. quaest. 4.
+            <lb ed="#V" n="4"/>art. 3. Bellarminus lib. 1. de matrimonio,
+            <lb ed="#V" n="5"/>cap. 21. et 22. Sanchez lib. 7. disput. 3.
+            <lb ed="#V" n="6"/>n. 5. plures Doctores citans.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Haec impedimenta longo jam usu
+            re<lb ed="#V" n="8" break="no"/>servata sunt Conciliis generalibus et
+            Sum<lb ed="#V" n="9" break="no"/>mo Pontifici; olim autem a Conciliis
+            <lb ed="#V" n="10"/>Nationalibus et Provincialibus saepe
+            in<lb ed="#V" n="11" break="no"/>ducta sunt respective ad proprios
+            subdi<lb ed="#V" n="12" break="no"/>tos, ut patet ex pluribus Canonibus.
+            <lb ed="#V" n="13"/>Nequeunt ea inducere Principes fideles,
+            <lb ed="#V" n="14"/>Ecclesia reservante sibi auctoritatem
+            <lb ed="#V" n="15"/>hanc circa matrimonium fidelium, ut
+            pa<lb ed="#V" n="16" break="no"/>tet ex Trident, sess. 24. can. 12. c. Tuam,
+            <lb ed="#V" n="17"/>etc. de ordine cognit. cap. Multorum, etc.
+            <lb ed="#V" n="18"/>35. q. 6. c. Antecedentibus, etc. de
+            excessi<lb ed="#V" n="19" break="no"/>bus Praelatorum; et colligitur ex cap. 1.
+            <lb ed="#V" n="20"/>de sponsalibus, cap. Euphemiam 2. q. 3.
+            <lb ed="#V" n="21"/>Possunt tamen Principes in causa dotis
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="22"/>et haereditatis, quae sunt mere saecularia,
+            <lb ed="#V" n="23"/>disponere et condere legem. Quid possit
+            <lb ed="#V" n="24"/>consuetudo circa haec impedimenta, vide
+            <lb ed="#V" n="25"/>praefatum Auctorem et alios,
+            potesta<lb ed="#V" n="26" break="no"/>tem praedictam a principibus fidelibus
+            <lb ed="#V" n="27"/>respective tantum ad subditos fideles
+            <lb ed="#V" n="28"/>reservavit Ecclesia, etc.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

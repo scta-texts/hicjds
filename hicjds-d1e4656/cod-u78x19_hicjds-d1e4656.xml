@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 35, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 35, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x19">Vives, Paris, 1894, volume 19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="433"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e4656"><!-- hicjds-b4d35q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum adulterium cum aliquo, vivente viro primo, impediat matrimonium cum eadem post mortem illius viri</head>
+        <!-- <div alias="hiq-d35q1-p1"> -->
+          <p>
+            <lb ed="#V" n="3" type="fixed=433"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>(a) Circa istam trigesimam quintam
+            di<lb ed="#V" n="5" break="no"/>stinctionem quaero, etc. In hac quaestione
+            <lb ed="#V" n="6"/>agitur de impedimento criminis, quod
+            Do<lb ed="#V" n="7" break="no"/>ctor unica quaestione resolvit. Primo,
+            pro<lb ed="#V" n="8" break="no"/>ponit ipsa crimina quae impediunt
+            matri<lb ed="#V" n="9" break="no"/>monium. Secundo, proponit aliquos casus
+            <lb ed="#V" n="10"/>secundum circumstantias diversas
+            scien<lb ed="#V" n="11" break="no"/>tiae et ignorantiae, quos resolvit. Tertio,
+            <lb ed="#V" n="12"/>statuit conclusionem principalem, et solvit
+            <lb ed="#V" n="13"/>argumenta.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d35q1-p2"> -->
+          <p>
+            <lb ed="#V" n="72" type="fixed=433"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>(b) Respondeo, tria sunt crimina, etc.
+            <lb ed="#V" n="74"/>Haec crimina sunt adulterium, machinatio
+            <lb ed="#V" n="75"/>mortis conjugis legitimi, fidei datio,
+            con<lb ed="#V" n="76" break="no"/>tractus de facto, aut promissio cum
+            jura<lb ed="#V" n="77" break="no"/>mento factae adulterae. Haec tria ultima ad
+            <lb ed="#V" n="78"/>idem reducuntur. In textu habetur primo
+            <lb ed="#V" n="79"/>loco contractus cum persona conjugata, etc.
+            <lb ed="#V" n="80"/>ita hae reliquae impressiones cum
+            Antuer<lb ed="#V" n="81" break="no"/>piana, sed delevimus, quia superfluit, et
+            <lb ed="#V" n="82"/>habetur in tertio membro in illis, vel
+            con<pb ed="#V" n="434"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tractus de facto, et dicursus Doctoris ad
+            <lb ed="#V" n="2"/>adulterium tanquam primum refertur, ut
+            <lb ed="#V" n="3"/>patet S Tertium cum primo, etc.
+            Reducun<lb ed="#V" n="4" break="no"/>tur ab aliis ad duo tantum, nempe ad
+            <lb ed="#V" n="5"/>machinationem mortis cum adulterio, et
+            <lb ed="#V" n="6"/>ad contractum de praesenti aut futuro
+            <lb ed="#V" n="7"/>cum adulterio.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>(c) De his tribus dico, etc. Prima
+            con<lb ed="#V" n="9" break="no"/>clusio est, quod ultimum, nempe
+            contra<lb ed="#V" n="10" break="no"/>ctus aut fides praestita cum juramento non
+            <lb ed="#V" n="11"/>statuit impedimentum, nisi intervenerit
+            <lb ed="#V" n="12"/>aliud, scilicet adulterium aut machinatio
+            <lb ed="#V" n="13"/>mortis. Habetur cap. ultimo, Si quis, de
+            <lb ed="#V" n="14"/>eo qui duxit in matrimonium, etc. et
+            <lb ed="#V" n="15"/>c. Veniens, et cap. Propositum est, etc.
+            <lb ed="#V" n="16"/>eodem, et cap. Relatum, 31. q. 1. ubi
+            <lb ed="#V" n="17"/>concubinatus adulterium cum contractu
+            <lb ed="#V" n="18"/>aut fide data.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Secunda conclusio, fides data aut
+            con<lb ed="#V" n="20" break="no"/>tractus de facto cum adulterio impedit
+            <lb ed="#V" n="21"/>matrimonium. Patet cap. finali, de
+            <lb ed="#V" n="22"/>eo qui in matrim. et cap. Relatum, 31.
+            <lb ed="#V" n="23"/>q. 1. Ita Doctor, 8 Tertium cum
+            pri<lb ed="#V" n="24" break="no"/>mo, etc. Ad consummationem
+            impedi<lb ed="#V" n="25" break="no"/>menti requiritur copula adulterina, sine
+            <lb ed="#V" n="26"/>qua contractus de praesenti, aut fides
+            da<lb ed="#V" n="27" break="no"/>ta non statuerent impedimentum. Glossa
+            <lb ed="#V" n="28"/>in cap. finali, de eo qui in matrimon.
+            <lb ed="#V" n="29"/>Abbas, Joannes Andreas, Cardinalis et
+            <lb ed="#V" n="30"/>alii. Quod praecedat aut sequatur
+            adulte<lb ed="#V" n="31" break="no"/>rium, nihil vetat, perinde enim complet
+            <lb ed="#V" n="32"/>a impedimentum ex cap. illo finali.
+            Perin<lb ed="#V" n="33" break="no"/>de etiam ad impedimentum facit sive per
+            <lb ed="#V" n="34"/>se, sive per alium eo approbante, vel
+            <lb ed="#V" n="35"/>sollicitante fidem exegerit de matrimonio
+            <lb ed="#V" n="36"/>contrahendo, quia fraus nemini
+            patroci<lb ed="#V" n="37" break="no"/>natur, cap. Adversus, etc. de immunitate
+            <lb ed="#V" n="38"/>Ecclesiae, nam quod nomine ejus fit, per
+            <lb ed="#V" n="39"/>ipsum etiam fit; item, si factum ratificet.
+            <lb ed="#V" n="40"/>Quod si fidem datam non acceptavit, non
+            <lb ed="#V" n="41"/>ponitur impedimentum, quia forma
+            con<lb ed="#V" n="42" break="no"/>tractus non est completa, quia requiritur
+            <lb ed="#V" n="43"/>mutua promissio. Requiritur praeterea, ut
+            <lb ed="#V" n="44"/>durante priore matrimonio concurrat fides
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>seu contractus cum adulterio, quia hos
+            <lb ed="#V" n="46"/>casus explicant Canones, et stricte
+            intelli<lb ed="#V" n="47" break="no"/>gi debent; tum quia poenales; tum quia
+            <lb ed="#V" n="48"/>in praejudicium matrimonii
+            superve<lb ed="#V" n="49" break="no"/>nientis; tum quia finis eorum huc
+            <lb ed="#V" n="50"/>spectat, ne ex fide data et adulterio
+            <lb ed="#V" n="51"/>conjuncto machinetur in mortem
+            pri<lb ed="#V" n="52" break="no"/>oris conjugis, quod non praesumitur,
+            <lb ed="#V" n="53"/>si alterum tantum praecedat Item, si
+            fi<lb ed="#V" n="54" break="no"/>des data retractetur, aut contractus initus
+            <lb ed="#V" n="55"/>ante adulterium, si casu supervernerit
+            <lb ed="#V" n="56"/>hoc rescisso contractu aut promissione,
+            <lb ed="#V" n="57"/>non inducere impedimentum, quia
+            con<lb ed="#V" n="58" break="no"/>tractu revocato, aut fide, re integra
+            <lb ed="#V" n="59"/>perinde est, ac si nunquam intervenisset,
+            <lb ed="#V" n="60"/>et cessat finis legis in hoc casu, ideo
+            ad<lb ed="#V" n="61" break="no"/>ulterium sequens non complet fidem
+            <lb ed="#V" n="62"/>priorem et revocatam, aut contractum
+            <lb ed="#V" n="63"/>rescissum, neque confirmat facto.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Hinc etiam resolvitur casus
+            controver<lb ed="#V" n="65" break="no"/>sus inter Auctores, an scilicet requiratur
+            <lb ed="#V" n="66"/>ut haec duo conjungantur in eodem
+            ma<lb ed="#V" n="67" break="no"/>trimonio, vel si sufficiat, ut divisim in
+            <lb ed="#V" n="68"/>diversis matrimoniis eveniat, verbi gratia,
+            <lb ed="#V" n="69"/>fides vivente priore uxore, adulterium
+            <lb ed="#V" n="70"/>post initum matrimonium cum altera.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Respondetur hoc modo non inducere!
+            <lb ed="#V" n="72"/>impedimentum, nisi adulterium
+            commis<lb ed="#V" n="73" break="no"/>sum dicat ordinem ad primam fidem
+            da<lb ed="#V" n="74" break="no"/>tam, quae revocata est per secundum
+            <lb ed="#V" n="75"/>matrimonium. Quod si tamen secundo
+            <lb ed="#V" n="76"/>matrimonio adulterium dicat ordinem ad
+            <lb ed="#V" n="77"/>primam fidem datam, cam denuo
+            instau<lb ed="#V" n="78" break="no"/>rando, perinde est, ac si simul
+            conjungan<lb ed="#V" n="79" break="no"/>tur respective ad secundum matrimonium,
+            <lb ed="#V" n="80"/>tam fides, quae revixit, quam adulterium,
+            <lb ed="#V" n="81"/>quamvis solo adulterio non revixit, sed
+            <lb ed="#V" n="82"/>ratificatione nova.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>Petes, an requiratur promissio verbis
+            <lb ed="#V" n="84"/>expressa.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Respondetur requiri eam promissionem
+            <lb ed="#V" n="86"/>et formam ejus, quae sufficit, et requiritur
+            <lb ed="#V" n="87"/>ad contractum sponsalium, quia
+            promis<lb ed="#V" n="88" break="no"/>sio, si esset non impedita, induceret talem
+            <pb ed="#V" n="435"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>obligationem, et sufficit acceptatio ejus
+            <lb ed="#V" n="2"/>ex parte alterius sufficiens, quae compleat
+            <lb ed="#V" n="3"/>contractum de futuro.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>(d) Hoc autem intelligendum est, etc.
+            <lb ed="#V" n="5"/>Excipit casum in quo alter sit ignorans
+            <lb ed="#V" n="6"/>illud esse adulterium, aut personam, ad
+            <lb ed="#V" n="7"/>quam accedit, esse conjunctam
+            matrimo<lb ed="#V" n="8" break="no"/>nio, quia tunc non consentit in
+            adulte<lb ed="#V" n="9" break="no"/>rium, quod requiritur, sed in
+            fornicati<lb ed="#V" n="10" break="no"/>onem. Patet; cap. 1 et cap. Veniens,
+            <lb ed="#V" n="11"/>eodem titulo; est communis Theologorum
+            <lb ed="#V" n="12"/>«in hac dist. Intelligitur de impedimento
+            <lb ed="#V" n="13"/>ex parte mulieris nescientis, non ex
+            <lb ed="#V" n="14"/>parte viri conscii matrimonii, ut ibidem
+            <lb ed="#V" n="15"/>supponitur.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>(e) Sed quid si persona, etc. Movet
+            du<lb ed="#V" n="17" break="no"/>bium, si persona prius ignorans
+            impedi<lb ed="#V" n="18" break="no"/>mentum, et postea sciens, an si petat
+            <lb ed="#V" n="19"/>divortium, audiri possit? etc.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Respondet affirmative ex cap. 1. eodem.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d35q1-p3"> -->
+          <p>
+            <lb ed="#V" n="62" type="fixed=436"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>(f) Sed hic est dubium, etc. Movet
+            difficul<lb ed="#V" n="64" break="no"/>tatem in casu quo mulier nescia
+            impedi<lb ed="#V" n="65" break="no"/>menti, et postea resciens non petat
+            <lb ed="#V" n="66"/>divortium, an matrimonium constabit? an
+            <lb ed="#V" n="67"/>debeat etiam fieri divortium ad
+            petiti<lb ed="#V" n="68" break="no"/>onem viri?
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Respondet matrimonium initum cum
+            <lb ed="#V" n="70"/>impedimento esse nullum, quamvis
+            impe<lb ed="#V" n="71" break="no"/>dimentum stet ex parte viri solius, quia
+            <lb ed="#V" n="72"/>contractus cum inhabili est ipso Jure
+            nul<lb ed="#V" n="73" break="no"/>lus, licet mulierem excuset bona fides et
+            <lb ed="#V" n="74"/>ignorantia probabilis facti, quamdiu
+            du<lb ed="#V" n="75" break="no"/>rat.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Ad aliud respondet, et bene, eum non
+            <lb ed="#V" n="77"/>posse reclamare, sed mulier, si petat
+            di<lb ed="#V" n="78" break="no"/>vortium, in poenam facti vir cogetur per
+            <lb ed="#V" n="79"/>Ecclesiam consentire de novo in
+            matrimo<lb ed="#V" n="80" break="no"/>nium cum ea quam decepit, quia fraus ei
+            <lb ed="#V" n="81"/>non patrocinabitur.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>(g) Sed dices, numquid virtute primi
+            <lb ed="#V" n="83"/>consensus, etc. Quaerit an simul esse
+            pos<lb ed="#V" n="84" break="no"/>sint virtute primi consensus, quo stante
+            <lb ed="#V" n="85"/>impedimento, quamvis inscia uxore
+            su<lb ed="#V" n="86" break="no"/>perinducta, possint cohabitare?
+          </p>
+          <p>
+            <pb ed="#V" n="437"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Respondet primo requiri omnino
+            no<lb ed="#V" n="2" break="no"/>vum consensum ex parte conjugis, quae
+            <lb ed="#V" n="3"/>ignoravit impedimentum; hoc patet ex
+            <lb ed="#V" n="4"/>dictis supra dist. 29. de simultate mutui
+            <lb ed="#V" n="5"/>consensus. Novum autem consensum
+            ne<lb ed="#V" n="6" break="no"/>quit conjux ignara impedimenti habere,
+            <lb ed="#V" n="7"/>donec ipsi de impedimento constet, quia
+            <lb ed="#V" n="8"/>omnia quae spectant ad usum
+            matrimo<lb ed="#V" n="9" break="no"/>nii facit in virtute primi consensus, qui
+            <lb ed="#V" n="10"/>fuit nullus ex impedimento ex parte
+            alte<lb ed="#V" n="11" break="no"/>rius, quae est sententia Glossa; et
+            exem<lb ed="#V" n="12" break="no"/>plum etiam quod adducit de matrimonio
+            <lb ed="#V" n="13"/>cum servo ex ignorantia conditionis,
+            <lb ed="#V" n="14"/>quamvis cum eodem manumisso
+            cohabi<lb ed="#V" n="15" break="no"/>tet, ex vi prioris consensus erronei, non
+            <lb ed="#V" n="16"/>validatur matrimonium. Vide Glossam in
+            <lb ed="#V" n="17"/>cap. 1. De eo qui duxit in matrim. Hanc
+            <lb ed="#V" n="18"/>sententiam approbat Doctor infra,
+            tan<lb ed="#V" n="19" break="no"/>quam magis veram, quia alias si
+            matri<lb ed="#V" n="20" break="no"/>monium constaret, non daretur optio
+            <lb ed="#V" n="21"/>reclamandi conjugi ignarae.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Adhibet aliam solutionem, quam non
+            <lb ed="#V" n="23"/>approbat, nempe interveniente ignorantia
+            <lb ed="#V" n="24"/>ex parte alterius conjugis Jura non
+            statu<lb ed="#V" n="25" break="no"/>ere impedimentum, respective ad ipsam,
+            <lb ed="#V" n="26"/>si tantum fides praecessit cum adulterio
+            <lb ed="#V" n="27"/>vivente prima uxore, et non
+            matrimoni<lb ed="#V" n="28" break="no"/>um de praesenti; sed hoc contrahitur post
+            <lb ed="#V" n="29"/>mortem prioris, in quo casu cessat
+            impe<lb ed="#V" n="30" break="no"/>dimentum. Sed prior sententia est certior
+            <lb ed="#V" n="31"/>inquit, tum ex ratione adjecta, tum etiam
+            <lb ed="#V" n="32"/>quia Jura aequiparant dationem fidei cum
+            <lb ed="#V" n="33"/>adulterio, et contractum initum vivente
+            <lb ed="#V" n="34"/>prima uxore adjuncto adulterio; et ratio
+            <lb ed="#V" n="35"/>etiam Canonum perinde idem concludit,
+            <lb ed="#V" n="36"/>quia ex fidei datione cum adulterio potest
+            <lb ed="#V" n="37"/>oriri machinatio mortis, ergo perinde est
+            <lb ed="#V" n="38"/>quoad impedimentum, sive praecesserit
+            <lb ed="#V" n="39"/>fidei datio cum adulterio, sive ipse
+            contra<lb ed="#V" n="40" break="no"/>ctus. Et ideo hanc sententiam sequitur in
+            <lb ed="#V" n="41"/>S sequenti Doctor, tanquam propriam.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d35q1-p4"> -->
+          <p>
+            <lb ed="#V" n="80" type="fixed=438"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>(h) Tertio dico quod sive primum, etc.
+            <lb ed="#V" n="82"/>Docet adulterium, si concurrat cum
+            ma<lb ed="#V" n="83" break="no"/>chinatione mortis, vel cum fide data, aut
+            <lb ed="#V" n="84"/>contractu de praesenti, aut promissione
+            <lb ed="#V" n="85"/>cum juramento (quae eumdem effectum
+            <lb ed="#V" n="86"/>inducunt, ut in initio hujus supposuit)
+            in<lb ed="#V" n="87" break="no"/>ducere impedimentum. Haec est conclusio
+            <pb ed="#V" n="439"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>principalis, quamvis quoad casum
+            con<lb ed="#V" n="2" break="no"/>cursus adulterii cum fide dota aut
+            pro<lb ed="#V" n="3" break="no"/>missione jurata, aut contractu inito jam
+            <lb ed="#V" n="4"/>supra resolvit. De secundo ergo resolvit,
+            <lb ed="#V" n="5"/>si concurrat cum primo, aut etiam tertio,
+            <lb ed="#V" n="6"/>ut infra refert, semper dirimere
+            matri<lb ed="#V" n="7" break="no"/>monium, 8 Sic igitur; et hoc patet cap. 1.
+            <lb ed="#V" n="8"/>cap. Super hoc, cap. Significasti, et c. Si
+            <lb ed="#V" n="9"/>quis vivente, 31. q. 1. et cap.
+            Laudabi<lb ed="#V" n="10" break="no"/>lem, etc. de conversione infidelium.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>Secundo dicit ex illo c. Laudabilem, etc.
+            <lb ed="#V" n="12"/>« quamvis non praecessit adulterium, aut
+            <lb ed="#V" n="13"/>¡ fidei datio, sed sola machinatio mortis
+            <lb ed="#V" n="14"/>mariti, consentiente uxore, induci
+            impe<lb ed="#V" n="15" break="no"/>dimentum; quod intellige, quando fine
+            <lb ed="#V" n="16"/>matrimonii contrahendi fiat machinatio
+            <lb ed="#V" n="17"/>utroque consentiente. Probat, quia cap.
+            <lb ed="#V" n="18"/>Laudabilem, exprimens casum, quo
+            Sa<lb ed="#V" n="19" break="no"/>raceni interfecerunt maritos quarumdam
+            <lb ed="#V" n="20"/>fidelium Christianos in captivitate
+            deten<lb ed="#V" n="21" break="no"/>tos, quod si postea ad finem fuerint
+            con<lb ed="#V" n="22" break="no"/>versi, quo adhaereant uxoribus
+            defuncto<lb ed="#V" n="23" break="no"/>rum, non esse tolerandum ejusmodi
+            <lb ed="#V" n="24"/>matrimonium, cum damnum tali lucro
+            <lb ed="#V" n="25"/>Ecclesia compensare non velit, ubi non
+            <lb ed="#V" n="26"/>loquitur de fidei datione aut adulterio
+            <lb ed="#V" n="27"/>conjuncto; ergo sola machinatio in
+            mor<lb ed="#V" n="28" break="no"/>.tem communi consensu factam, sufficit
+            <lb ed="#V" n="29"/>ad hoc impedimentum, quia etiam ratio
+            <lb ed="#V" n="30"/>legis ad idem extenditur, ne ex spe
+            ma<lb ed="#V" n="31" break="no"/>trimonii utrimque confirmata per
+            inten<lb ed="#V" n="32" break="no"/>tionem machinationis, et concursum, licet
+            <lb ed="#V" n="33"/>absit contractus aut fides, aut etiam
+            adul<lb ed="#V" n="34" break="no"/>terium, inducit eumdem effectum; et
+            <lb ed="#V" n="35"/>ideo in aliis casibus requiruntur haec
+            <lb ed="#V" n="36"/>conjungi, ut adulterium cum contractu
+            <lb ed="#V" n="37"/>de futuro aut praesenti, quia illis magis
+            <lb ed="#V" n="38"/>sollicitatur machinatio in mortem conjugis
+            <lb ed="#V" n="39"/>innocentis, intuitu matrimonii
+            subsequen<lb ed="#V" n="40" break="no"/>di. Cum ergo ipsa machinatio, quae
+            prin<lb ed="#V" n="41" break="no"/>cipaliter submovetur per hos Canones,
+            <lb ed="#V" n="42"/>tanquam finis, communi consensu fit
+            <lb ed="#V" n="43"/>intuitu matrimonii sequentis in spe et
+            <lb ed="#V" n="44"/>intentione sufficit, et supplet reliqua quae
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>in ordine ad illum finem, quantum ad
+            <lb ed="#V" n="46"/>periculum et sollicitationem
+            praesumun<lb ed="#V" n="47" break="no"/>tur facere, et ideo prohibentur. Hanc
+            <lb ed="#V" n="48"/>sententiam docet Innocentius cap. Super
+            <lb ed="#V" n="49"/>hoc, citato, Hostiensis citans Hugonem,
+            <lb ed="#V" n="50"/>et alii plures Canonistae, et Glossa in cap.
+            <lb ed="#V" n="51"/>Laudabilem, de conversione infidelium,
+            <lb ed="#V" n="52"/>D. Antonius 3. p. tit. 1. cap. 5. Veracruz
+            <lb ed="#V" n="53"/>1. cap. Speculi, art. 33. conclus. 4.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Sed quid si inscia uxore machinetur in
+            <lb ed="#V" n="55"/>mortem mariti?
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Respondetur requiri adulterium
+            con<lb ed="#V" n="57" break="no"/>junctum machinationi, ut insinuare
+            vide<lb ed="#V" n="58" break="no"/>tur Doctor per illa verba, et adhuc
+            con<lb ed="#V" n="59" break="no"/>scia; ergo si ipsa non sit conscia, neque
+            <lb ed="#V" n="60"/>praecessit adulterium, non inducitur
+            im<lb ed="#V" n="61" break="no"/>pedimentum. Hanc sententiam sequitur
+            <lb ed="#V" n="62"/>Sanchez disput. 78. pro quo citat
+            com<lb ed="#V" n="63" break="no"/>muniter Doctores; casus enim rarus est,
+            <lb ed="#V" n="64"/>ut quis interficiat maritum alterius, fine
+            <lb ed="#V" n="65"/>ipsam ducendi, nisi praecesserit aliquod,
+            <lb ed="#V" n="66"/>in quod ex natura rei, et conniventia
+            alte<lb ed="#V" n="67" break="no"/>rius spes illa et intentio fundatur; si ergo
+            <lb ed="#V" n="68"/>non praecessit adulterium, neque
+            con<lb ed="#V" n="69" break="no"/>scientia homicidii in uxore, neque fides
+            <lb ed="#V" n="70"/>aut promissio data, tunc non fundatur
+            <lb ed="#V" n="71"/>talis praesumptio homicidae respective ad
+            <lb ed="#V" n="72"/>uxorem interfecti. Proinde Canones talem
+            <lb ed="#V" n="73"/>casum non comprehendunt, qui
+            regula<lb ed="#V" n="74" break="no"/>ris non est, aut ordinarius; neque etiam
+            <lb ed="#V" n="75"/>puniri debet innocens, ubi deest culpa
+            <lb ed="#V" n="76"/>ejus, aut praejudicari contractui, cujus
+            <lb ed="#V" n="77"/>favor alias obtinet, nisi contrarium
+            ex<lb ed="#V" n="78" break="no"/>presse decidatur per legem.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>Tertio, dicit Doctor illam
+            machinatio<lb ed="#V" n="80" break="no"/>nem debere intelligi cum effectu, ut
+            si<lb ed="#V" n="81" break="no"/>mul sit affectus et effectus ex Glossa, id
+            <lb ed="#V" n="82"/>est, intentio et homicidium ex fine
+            in<lb ed="#V" n="83" break="no"/>eundi matrimonii inter partes, quia si
+            ho<lb ed="#V" n="84" break="no"/>micidium fiat alio fine aut casu, non
+            <lb ed="#V" n="85"/>inducit impedimentum. Quod vero
+            requi<lb ed="#V" n="86" break="no"/>ratur mors illata in effectu, patet ex
+            <lb ed="#V" n="87"/>cap. Si quis vivente, 31. q. 1. et
+            quam<lb ed="#V" n="88" break="no"/>vis alia Jura secundum hoc statuentia
+            <pb ed="#V" n="440"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>non faciant mentionem mortis, sed
+            ma<lb ed="#V" n="2" break="no"/>chinationis, intelligenda sunt verba cum
+            <lb ed="#V" n="3"/>effectu, cap. Relatum, etc. de Clericis non
+            <lb ed="#V" n="4"/>residentibus. Ita communis
+            Theologo<lb ed="#V" n="5" break="no"/>rum et Canonistarum. Advertendum
+            ta<lb ed="#V" n="6" break="no"/>men, si praecesserint reliqua, et mors
+            <lb ed="#V" n="7"/>conjungatur, ex alio tamen fine,
+            Eccle<lb ed="#V" n="8" break="no"/>siam in foro externo praesumere factam
+            <lb ed="#V" n="9"/>intuitu matrimonii, et sententiam pro
+            im<lb ed="#V" n="10" break="no"/>pedimento laturam, nisi aliud probetur.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>(i) Sed quid si non conscia uxore? etc.
+            <lb ed="#V" n="12"/>Respondet ad casum expressum dicens,
+            <lb ed="#V" n="13"/>si in justo bello interfecit, non
+            impe<lb ed="#V" n="14" break="no"/>diri contractum ex parte viri; quod si
+            <lb ed="#V" n="15"/>etiam intentione matrimonii fecerit,
+            im<lb ed="#V" n="16" break="no"/>pedimentum quidem stat ex parte
+            homi<lb ed="#V" n="17" break="no"/>cidae, ut patet ex cap. 1. de eo, qui
+            du<lb ed="#V" n="18" break="no"/>xit in matrimonium, etc. ex parte
+            uxo<lb ed="#V" n="19" break="no"/>ris non ita, modo non praecesserit scientia
+            <lb ed="#V" n="20"/>aut fides, aut adulterium. Quantum ad
+            <lb ed="#V" n="21"/>casum resolutum hic, probationem ejus
+            <lb ed="#V" n="22"/>subjicit ex c. Laudabilem, etc. de convers.
+            <lb ed="#V" n="23"/>infidelium, ubi decisio ipsa in terminis
+            ha<lb ed="#V" n="24" break="no"/>betur, 8 Ad hoc Saraceni, etc. addens
+            <lb ed="#V" n="25"/>probationem a simili aut minori, quia
+            <lb ed="#V" n="26"/>si vir in mortem legitimi viri quam uxor
+            <lb ed="#V" n="27"/>causavit, non consenserit, potest illam
+            <lb ed="#V" n="28"/>ducere, ex cap. Interfectores, 33. q. 2.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Haec probatio in superficie obscura est,
+            <lb ed="#V" n="30"/>ideo ad ejus intellectionem advertendum
+            <lb ed="#V" n="31"/>est, duos casus comprehendere, alium
+            <lb ed="#V" n="32"/>a simili, alium a minori; unde illa
+            ver<lb ed="#V" n="33" break="no"/>ba, per locum a simili vel a minori, etc.
+            <lb ed="#V" n="34"/>non debent synonyme aut respective ad
+            <lb ed="#V" n="35"/>idem intelligi, sed tanquam diversa
+            mem<lb ed="#V" n="36" break="no"/>bra aut argumenta. Si uxor inscio alio,
+            <lb ed="#V" n="37"/>quem praetendit, vel cui copulari vult,
+            <lb ed="#V" n="38"/>et ex ea intentione mortem mariti est
+            <lb ed="#V" n="39"/>machinata, licet sit impedimentum ex
+            <lb ed="#V" n="40"/>parte ejus, tamen non stat impedimentum.
+            <lb ed="#V" n="41"/>ex parte alterius, quem duxit, et hoc
+            prae<lb ed="#V" n="42" break="no"/>cise, nisi praecesserit adulterium, vel
+            <lb ed="#V" n="43"/>fides data. Et hoc est argumentum a
+            <lb ed="#V" n="44"/>simili, quia si interfector mariti non
+            con<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>scia uxore, neque machinante ea mortem,
+            <lb ed="#V" n="46"/>non inducit impedimentum, nisi ipsa
+            con<lb ed="#V" n="47" break="no"/>currat ex parte uxoris, ut decisum est
+            <lb ed="#V" n="48"/>in praecedenti casu, ita etiam non statuit
+            <lb ed="#V" n="49"/>impedimentum ex parte viri, qui ignarus
+            <lb ed="#V" n="50"/>est talis homicidii.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>Alius casus est, an viricidium inducat
+            <lb ed="#V" n="52"/>impedimentum matrimonii universaliter
+            <lb ed="#V" n="53"/>cum quocumque, et consequenter cum
+            <lb ed="#V" n="54"/>noc, quem ducit de facto; et hoc
+            ar<lb ed="#V" n="55" break="no"/>gumentum est a minori, quod probat ex
+            <lb ed="#V" n="56"/>illo cap. Interfectores, ubi imponitur poena
+            <lb ed="#V" n="57"/>uxoricidis, et non matricidis, quia casus
+            <lb ed="#V" n="58"/>est rarus, ut dixi, et hac lege non
+            compre<lb ed="#V" n="59" break="no"/>henditur. Et probat hoc in genere quoad
+            <lb ed="#V" n="60"/>utrumque casum ex cap. Cum apud, etc.
+            <lb ed="#V" n="61"/>de sponsalibus: Cum prohibitorium sit
+            <lb ed="#V" n="62"/>edictum de matrimonio contrahendo,
+            qui<lb ed="#V" n="63" break="no"/>cumque non prohibetur, et per consequens
+            <lb ed="#V" n="64"/>admittitur, etc. Hanc sententiam, nempe
+            <lb ed="#V" n="65"/>viricidium non inducere impedimentum
+            <lb ed="#V" n="66"/>matrimonii, sicut uxoricidium, tenet
+            Syl<lb ed="#V" n="67" break="no"/>vester v. Matrimonium 9. q. 6. Armilla
+            <lb ed="#V" n="68"/>v. Matrimonium, Ledesma 2. part. 4. q. 62.
+            <lb ed="#V" n="69"/>artic. Tolet. lib. 7. Summae, c. 15.
+            Pro<lb ed="#V" n="70" break="no"/>batur, quia nec masculinum sub foemineo
+            <lb ed="#V" n="71"/>clauditur in odiosis et poenalibus, ff. de
+            <lb ed="#V" n="72"/>de verborum signific. l. Juxta, de leg.
+            <lb ed="#V" n="73"/>Leges non aptantur rarissime
+            contingen<lb ed="#V" n="74" break="no"/>tibus, 1. Nam ea, ff. de leg. Ratione
+            er<lb ed="#V" n="75" break="no"/>go frequentioris usus delicti leges
+            sta<lb ed="#V" n="76" break="no"/>tuunt poenam, ac proinde cum viricidium
+            <lb ed="#V" n="77"/>sit rarissimum, neque timor ejus urget,
+            <lb ed="#V" n="78"/>cum vix in foemina contingat, quae
+            ti<lb ed="#V" n="79" break="no"/>midioris est naturae et honestioris; ideo
+            <lb ed="#V" n="80"/>leges statuentes poenam, illius mentionem
+            <lb ed="#V" n="81"/>non faciunt, sed uxoricidii, quod
+            frequen<lb ed="#V" n="82" break="no"/>tius evenit, propter audaciam et
+            promp<lb ed="#V" n="83" break="no"/>titudinem viri ad simile facinus
+            perpe<lb ed="#V" n="84" break="no"/>trandum, cui leges per poenam fraenum
+            <lb ed="#V" n="85"/>injiciunt, ut in illo cap. Interfectores, 33.
+            <lb ed="#V" n="86"/>quaest. 2. cap. Admonere, cap. Quicumque,
+            <lb ed="#V" n="87"/>eodem.
+          </p>
+          <p>
+            <lb ed="#V" n="88"/>(k) Sed esto mulier, etc. Proponit
+            ca<pb ed="#V" n="441"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>sum quo inito matrimonio mulier sciens
+            <lb ed="#V" n="2"/>prioris mariti homicidium et ratum
+            ha<lb ed="#V" n="3" break="no"/>beret, quid juris? Videtur inducere
+            im<lb ed="#V" n="4" break="no"/>pedimentum, quia in maleficiis etiam
+            <lb ed="#V" n="5"/>rat ihabitio retrotrahitur, et mandato
+            <lb ed="#V" n="6"/>comparatur, cap. Cum quis, etc. de
+            sen<lb ed="#V" n="7" break="no"/>tent. excommunicat. in 6. Contrarium
+            re<lb ed="#V" n="8" break="no"/>solvit Doctor cum Glossa cap.
+            Laudabi<lb ed="#V" n="9" break="no"/>lem, etc. citato, et Glossa cap. Si quis
+            <lb ed="#V" n="10"/>vivente, 31. quaest. 1. Hostiensis, Joannes
+            <lb ed="#V" n="11"/>Andreas, Abbas, Ancharanus, Cardinalis
+            <lb ed="#V" n="12"/>in cap. Laudabilem, et plures alii, quos
+            <lb ed="#V" n="13"/>sequitur Sanchez lib. 7. disput. 78. num. 6.
+            <lb ed="#V" n="14"/>Ratihabitio enim non potest esse
+            machi<lb ed="#V" n="15" break="no"/>natio jam morte illata. Et exigitur duo
+            <lb ed="#V" n="16"/>extrema esse habilia ad actum
+            exercen<lb ed="#V" n="17" break="no"/>dum, ut comparatur mandato, alias
+            fi<lb ed="#V" n="18" break="no"/>ctio Juris, qua ratihabitio retrotrahitur,
+            <lb ed="#V" n="19"/>non subsistit. Post mortem itaque
+            illa<lb ed="#V" n="20" break="no"/>tam, sicut conjux superstes, et ignara
+            <lb ed="#V" n="21"/>non est habilis, ad machinandum mortem
+            <lb ed="#V" n="22"/>illatam, ita ratihabitio ejus nequit retrotrahi.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>(1) Et ex eodem cap. Cum apud, potest
+            <lb ed="#V" n="24"/>concluai, etc. Hic tangit illam
+            difficulta<lb ed="#V" n="25" break="no"/>tem: An simplex promissio, et non
+            vesti<lb ed="#V" n="26" break="no"/>ta, aequivaleat fidei datae aut
+            promissi<lb ed="#V" n="27" break="no"/>oni cum juramento, aut contractui de
+            <lb ed="#V" n="28"/>a praesenti? Et respondet posse ex illo
+            ca<lb ed="#V" n="29" break="no"/>pitulo concludi non aequivalere, sicut
+            <lb ed="#V" n="30"/>neque nuda sponsalia. Promissio simplex
+            <lb ed="#V" n="31"/>intelligitur, quando quis non interponit
+            <lb ed="#V" n="32"/>propriam fidem; quando autem interponit
+            <lb ed="#V" n="33"/>propriam fidem, dicendo per fidem meam,
+            <lb ed="#V" n="34"/>dicitur vestita, et vallata seu confirmata.
+            <lb ed="#V" n="35"/>ut distinguitur a promissione simplici,
+            <lb ed="#V" n="36"/>quando non interponitur fides. Fides
+            ju<lb ed="#V" n="37" break="no"/>rata dicitur, quando interventu rei sacrae,
+            <lb ed="#V" n="38"/>et facto juramento confirmatur promissio.
+            <lb ed="#V" n="39"/>Dicit ergo Doctor requiri fidem vallatam
+            <lb ed="#V" n="40"/>aut vestitam ad incurrendum
+            impedimen<lb ed="#V" n="41" break="no"/>tum, quia Canones, ex quibus est
+            impe<lb ed="#V" n="42" break="no"/>dimentum, cum sint poenales, strictissime
+            <lb ed="#V" n="43"/>intelligendi sunt, et secundum verborum
+            <lb ed="#V" n="44"/>proprietatem, neque extendenda est in
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>odiosis eorum sententia. Sed fides
+            interpo<lb ed="#V" n="46" break="no"/>sita non aequivalet simplici promissioni in
+            <lb ed="#V" n="47"/>Jure, sicut neque promissioni juratae;
+            er<lb ed="#V" n="48" break="no"/>go in his Canonibus, qui requirunt fidei
+            <lb ed="#V" n="49"/>dationem aut juramentum, non venit
+            intel<lb ed="#V" n="50" break="no"/>ligenda. Patet subsumptum cap. Relatum,
+            <lb ed="#V" n="51"/>quod est Concilii Triburiensis; et primus
+            <lb ed="#V" n="52"/>Canon in hac materia facit mentionem
+            <lb ed="#V" n="53"/>juramenti tantum relatum est, etc.
+            quon<lb ed="#V" n="54" break="no"/>dam alterius conjugem stupro violasse,
+            <lb ed="#V" n="55"/>et insuper moechae vivente viro suo
+            jura<lb ed="#V" n="56" break="no"/>mentum dedisse, etc. ubi Glossa in verb.
+            <lb ed="#V" n="57"/>Vivente: Fidem, inquit, dedit, cap. 1. de
+            <lb ed="#V" n="58"/>eo qui duxit in matrimon. etc. solius fidei
+            <lb ed="#V" n="59"/>datae mentionem facit, et cap. Cum
+            habe<lb ed="#V" n="60" break="no"/>ret uxorem, etc. pro eodem sumit fidei
+            <lb ed="#V" n="61"/>dationem juramentum, et cap.
+            Significa<lb ed="#V" n="62" break="no"/>sti, eod. titulo, facit mentionem fidei
+            <lb ed="#V" n="63"/>datae tantum, et sic cap. Veniens ad
+            prae<lb ed="#V" n="64" break="no"/>sentiam, et cap. finale, eodem titulo,
+            fa<lb ed="#V" n="65" break="no"/>ciunt mentionem fidei datae tantum; ergo
+            <lb ed="#V" n="66"/>aequivalet fides data, et juramentum quod
+            <lb ed="#V" n="67"/>exprimitur in Concilio Triburiensi,
+            secun<lb ed="#V" n="68" break="no"/>dum cujus Canonem haec decreta sunt
+            <lb ed="#V" n="69"/>ad concordiam legum, et ne verba
+            impro<lb ed="#V" n="70" break="no"/>prie sumantur in praejudicium contractus
+            <lb ed="#V" n="71"/>favorabilis.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Item cap. Ad aures, etc. de his quae vi, etc.
+            <lb ed="#V" n="73"/>Fides praestita et juramentum pro eodem
+            <lb ed="#V" n="74"/>sumuntur, ubi Joannes Andreas,
+            Innocen<lb ed="#V" n="75" break="no"/>tius, Hostiensis, Imola, Archidiaconus fidei
+            <lb ed="#V" n="76"/>interpositionem asserunt esse
+            juramen<lb ed="#V" n="77" break="no"/>tum, et solum differre, quod in
+            juramen<lb ed="#V" n="78" break="no"/>to res facta tangatur. Ita etiam Cardinalis
+            <lb ed="#V" n="79"/>et Abbas in praefatum textum, Glossa in
+            <lb ed="#V" n="80"/>cap. Constitutus, etc. de transactionibus, et
+            <lb ed="#V" n="81"/>Glossa finalis in cap. 2. de fidejussione.
+            <lb ed="#V" n="82"/>Hanc sententiam tenent nostri, Nicolaus
+            <lb ed="#V" n="83"/>de Orbellis in hac dist. Nicolaus de Nisa
+            <lb ed="#V" n="84"/>in 4. tract. 6. part. 3. q. 6. Bassolis
+            <lb ed="#V" n="85"/>in hac dist. q. unic. art. 2. Tabiena
+            <lb ed="#V" n="86"/>verbo imped. impedimento, 7. q. 3.
+            <lb ed="#V" n="87"/>Veracruz 1. part. speculi, artic. 34.
+            <lb ed="#V" n="88"/>post. 9. conclus, dub. 1. Eamdem
+            sen<pb ed="#V" n="442"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tentiam ex consequentia opinandi
+            de<lb ed="#V" n="2" break="no"/>bent sequi Auctores, qui dicunt
+            vi<lb ed="#V" n="3" break="no"/>ricidium non impedire matrimonium,
+            <lb ed="#V" n="4"/>quia hoc non invenitur in Canonibus
+            <lb ed="#V" n="5"/>praefatis comprehensum, quamvis id
+            fal<lb ed="#V" n="6" break="no"/>sum sit, quia etiam comprehendunt hoc
+            <lb ed="#V" n="7"/>delictum, ut patet ex textu.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Objicies: Promissio etiam nuda dicitur
+            <lb ed="#V" n="9"/>fides, et fidei interpositio non est
+            jura<lb ed="#V" n="10" break="no"/>mentum.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>Respondetur promissionem in pactis
+            <lb ed="#V" n="12"/>non dici fidem, nisi lato modo, non autem
+            <lb ed="#V" n="13"/>stricto modo.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Ad secundum, respondeo quod
+            con<lb ed="#V" n="15" break="no"/>trarium constat ex Canonibus, Glossis et
+            <lb ed="#V" n="16"/>Jurisperitis citatis; et quidquid sit de aliis,
+            <lb ed="#V" n="17"/>hic dicendum est sumi pro juramento,
+            <lb ed="#V" n="18"/>hoc est, ut inducit differentem
+            obligati<lb ed="#V" n="19" break="no"/>onem a nuda promissione, quia Canon
+            <lb ed="#V" n="20"/>antiquus, qui utitur nomine juramenti,
+            <lb ed="#V" n="21"/>non est immutatus; et alii Canones
+            substi<lb ed="#V" n="22" break="no"/>tuunt appellationem fidei datae, juxta
+            <lb ed="#V" n="23"/>antiquas Constitutiones; nam cap. Cum
+            <lb ed="#V" n="24"/>haberet, etc. de eo qui in matrimonium
+            <lb ed="#V" n="25"/>duxit, etc. primo utitur appellatione
+            <lb ed="#V" n="26"/>fidei praestitae et secundo appellatione
+            <lb ed="#V" n="27"/>juramenti: Hic, inquit, plus processum
+            <lb ed="#V" n="28"/>fuit, quam si fides praestita dumtaxat
+            fuis<lb ed="#V" n="29" break="no"/>set adulterae; et infra: Quod, inquit,
+            <lb ed="#V" n="30"/>connubium ubi etiam nulla intercessit
+            Reli<lb ed="#V" n="31" break="no"/>gio juramenti, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Objicies secundo rationem legis extendi
+            <lb ed="#V" n="33"/>ad hunc casum; ergo comprehenditur,
+            <lb ed="#V" n="34"/>ideoque Pontifices uti appellatione fidei
+            <lb ed="#V" n="35"/>dationis, aut jurisjurandi, quia
+            frequen<lb ed="#V" n="36" break="no"/>tius haec interponuntur; non quod etiam
+            <lb ed="#V" n="37"/>promissionem simplicem non
+            comprehen<lb ed="#V" n="38" break="no"/>dant, quia perinde inducit eumdem
+            <lb ed="#V" n="39"/>effectum machinationis
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Respondetur fidem interpositam, aut
+            ju<lb ed="#V" n="41" break="no"/>ramentum habere diversum effectum;
+            un<lb ed="#V" n="42" break="no"/>de multi contractus nulli ex sola
+            promissi<lb ed="#V" n="43" break="no"/>one non tenent, quamvis si addatur
+            jura<lb ed="#V" n="44" break="no"/>mentum, obliget jurantem ad factum,
+            do<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>nec relaxetur. Unde sicut in his est majus
+            <lb ed="#V" n="46"/>vinculum, ita etiam magis ex natura sua
+            <lb ed="#V" n="47"/>sollicitant ad machinationem mortis
+            inno<lb ed="#V" n="48" break="no"/>centis conjugis, ad quam simplex
+            promis<lb ed="#V" n="49" break="no"/>sio non ita sollicitat. Ex alia parte Jura
+            <lb ed="#V" n="50"/>comprehendunt illud, quod frequentius
+            <lb ed="#V" n="51"/>accidit, et magis sollicitat proxime ad
+            <lb ed="#V" n="52"/>effectum machinandi mortem, et
+            continu<lb ed="#V" n="53" break="no"/>andi adulterium, et sic comprehendunt
+            <lb ed="#V" n="54"/>fidem datam, sive juramentum, et non
+            <lb ed="#V" n="55"/>simplicem promissionem; ex qua non
+            <lb ed="#V" n="56"/>resultat major poenae efficacia ad
+            machina<lb ed="#V" n="57" break="no"/>tionem, quam ex spe matrimonii futuri,
+            <lb ed="#V" n="58"/>nulla interposita promissione, quam tamen
+            <lb ed="#V" n="59"/>non comprehendunt Jura, licet sit, aut
+            es<lb ed="#V" n="60" break="no"/>se possit hic et nunc causa machinationis,
+            <lb ed="#V" n="61"/>quia et ipsum adulterium magis sollicitat
+            <lb ed="#V" n="62"/>ad effectum machinationis, quam simplex
+            <lb ed="#V" n="63"/>promissio, tamen non inducit se solo
+            im<lb ed="#V" n="64" break="no"/>pedimentum. Jura ergo intendunt illud
+            <lb ed="#V" n="65"/>quod strictiorem obligationem ex natura
+            <lb ed="#V" n="66"/>sua inducit, et proximam, quae induci
+            pos<lb ed="#V" n="67" break="no"/>set, nisi esset impedimentum obstans, et
+            <lb ed="#V" n="68"/>ideo stricte loquuuntur. Ex quo patet
+            <lb ed="#V" n="69"/>ad objectionem, negando simplicem
+            pro<lb ed="#V" n="70" break="no"/>missionem inducere effectum
+            machinati<lb ed="#V" n="71" break="no"/>onis, aut ad eam extendi rationem
+            cano<lb ed="#V" n="72" break="no"/>num, quae nec in re aequivalens est fidei
+            <lb ed="#V" n="73"/>datae, aut juramento, quantum ad
+            firmita<lb ed="#V" n="74" break="no"/>tem, neque comprehenditur ratione
+            Ca<lb ed="#V" n="75" break="no"/>nonum, quia non est causa proxima
+            <lb ed="#V" n="76"/>machinationis, sed omnino remota. Unde
+            <lb ed="#V" n="77"/>si quae dicat non interveniente pacto aut
+            <lb ed="#V" n="78"/>promissione de futuro, per fidem meam,
+            <lb ed="#V" n="79"/>aut juro, etc. quod te ducerem, nisi essem,
+            <lb ed="#V" n="80"/>jam alteri ligata, non inducit
+            impedimen<lb ed="#V" n="81" break="no"/>tum, interveniente etiam adulterio,
+            quam<lb ed="#V" n="82" break="no"/>vis alter similia verba, et juramentum
+            <lb ed="#V" n="83"/>reciproce addat. Caeterum, hoc magis ex
+            <lb ed="#V" n="84"/>natura actus sollicitat ad machinationem,
+            <lb ed="#V" n="85"/>quam simplex promissio de futuro. Non
+            <lb ed="#V" n="86"/>omnia ergo, ex quibus potest esse
+            pericu<lb ed="#V" n="87" break="no"/>lum sollicitationis, prohibentur his
+            Canoni<lb ed="#V" n="88" break="no"/>bus, sed illud quod proxime, et quasi
+            or<pb ed="#V" n="443"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>dinarie ad majorem confirmationem pacti
+            <lb ed="#V" n="2"/>intervenit, quia simplex promissio, cum
+            <lb ed="#V" n="3"/>non inducat obligationem ullam, quasi
+            <lb ed="#V" n="4"/>contractus in opinione adulterorum, et
+            ha<lb ed="#V" n="5" break="no"/>betur magis pro lenocinio quam pro
+            con<lb ed="#V" n="6" break="no"/>tractu obligante, ideo addunt firmitatem
+            <lb ed="#V" n="7"/>juramenti et fidei datae, quo magis sibi
+            <lb ed="#V" n="8"/>obligentur. Qui voluerit tenere oppositum
+            <lb ed="#V" n="9"/>hujus, dicat Doctorem esse
+            problemati<lb ed="#V" n="10" break="no"/>cum, et facilis erit responsio ex dictis.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>Recolligit deinceps Doctor dicta in hac
+            <lb ed="#V" n="12"/>la- quaestione de impedimento criminis sic
+            <lb ed="#V" n="13"/>. adulterium se solo non inducere
+            impedi<lb ed="#V" n="14" break="no"/>mentum, sicut neque fides data etiam se
+            <lb ed="#V" n="15"/>sola nisi conjungatur adulterium, aut
+            <lb ed="#V" n="16"/>machinatio mortis; machinatio autem
+            <lb ed="#V" n="17"/>mortis se sola inducit impedimentum,
+            <lb ed="#V" n="18"/>quando utraque pars est conscia criminis,
+            <lb ed="#V" n="19"/>vel concurrit; potest autem uxor
+            concur<lb ed="#V" n="20" break="no"/>rere, aut approbando et ratificando
+            machi<lb ed="#V" n="21" break="no"/>nationem, qua mors subsequitur, si intuitu
+            <lb ed="#V" n="22"/>matrimonii contrahendi consentiat. Si
+            au<lb ed="#V" n="23" break="no"/>tem ex alio fine, ut in odium mariti
+            per<lb ed="#V" n="24" break="no"/>mittat, non habens animum contrahendi,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="25"/>neque fovens spem alterius, tunc non
+            <lb ed="#V" n="26"/>videtur impedimentum esse ex parte ejus,
+            <lb ed="#V" n="27"/>licet in foro externo praesumatur,
+            machi<lb ed="#V" n="28" break="no"/>nationem solam impedire contractum, ut
+            <lb ed="#V" n="29"/>docuit conclusione 3. et similiter quando
+            <lb ed="#V" n="30"/>concurrit cum adulterio: Hoc
+            impedimen<lb ed="#V" n="31" break="no"/>tum, inquit, est ex statuto Ecclesiae in
+            <lb ed="#V" n="32"/>odium adulterii et homicidii, quae
+            frequen<lb ed="#V" n="33" break="no"/>ter acciderent, si tales permitterentur
+            con<lb ed="#V" n="34" break="no"/>trahere, etc. Probat praeterea conjugium
+            <lb ed="#V" n="35"/>non impediri adulterio ex sententia
+            Augu<lb ed="#V" n="36" break="no"/>stini de nupt. et concupiscentia, cap. 10.
+            <lb ed="#V" n="37"/>sic legitur apud Magistrum; apud
+            Grati<lb ed="#V" n="38" break="no"/>anum tamen addebatur, non potest fieri
+            <lb ed="#V" n="39"/>conjugium, etc. In aliquibus editionibus,
+            <lb ed="#V" n="40"/>31. q. 1. cap. Denique, variant etiam
+            Augu<lb ed="#V" n="41" break="no"/>stini textus; sed ex discursu ejus videtur
+            <lb ed="#V" n="42"/>locutio negativa esse consentanea magis,
+            <lb ed="#V" n="43"/>quamvis in aliis desit codicibus, ut
+            nota<lb ed="#V" n="44" break="no"/>runt correctores impressionis sub
+            Grego<lb ed="#V" n="45" break="no"/>rio XIII. in notis ad praefatum capitulum.
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>(m) Ad argumenta. Ad primum patet ex
+            <lb ed="#V" n="47"/>littera.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

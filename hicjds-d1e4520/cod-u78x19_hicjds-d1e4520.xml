@@ -1,0 +1,2024 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 29, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 29, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x19">Vives, Paris, 1894, volume 19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="216"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e4520"><!-- hicjds-b4d29q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum consensus in altero vel utroque contrahentium coactus sufficiat ad contrahendum verum matrimonium</head>
+        <!-- <div alias="hiq-d29q1-p1"> -->
+          <p>
+            <lb ed="#V" n="50" type="fixed=216"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>In hac distinctione agit de consensu
+            <lb ed="#V" n="52"/>coacto, et quid valeat ad matrimonium;
+            <lb ed="#V" n="53"/>deinceps autem in sequentibus de reliquis
+            <lb ed="#V" n="54"/>impedimentis irritantibus, quorum
+            nume<lb ed="#V" n="55" break="no"/>rum et rationem exacte explicat, dist. 42.
+            <lb ed="#V" n="56"/>ac proinde in eum locum differemus
+            il<lb ed="#V" n="57" break="no"/>lum tractatum, qui evidentiam habet ex
+            <lb ed="#V" n="58"/>ex iis quae in specie ad singula spectant.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>(b) Hic dicitur, quod simpliciter non
+            <lb ed="#V" n="60"/>potest, etc. Hanc sententiam allegat
+            <lb ed="#V" n="61"/>S. Thomas in praesenti dist. quaest. unica,
+            <lb ed="#V" n="62"/>art. 3. quoestiunc. 1. in corpore. D.
+            Bo<lb ed="#V" n="63" break="no"/>naventura art. 1. q. 1. in corpore. Pro
+            <lb ed="#V" n="64"/>ea in margine Doctoris citatur Goffredus
+            <lb ed="#V" n="65"/>quodl. 13. q. 15. Tria continet haec
+            sen<lb ed="#V" n="66" break="no"/>tentia, quae impugnatur a Doctore:
+            Pri<lb ed="#V" n="67" break="no"/>mum est, quod talis sibi providere
+            suffi<lb ed="#V" n="68" break="no"/>cienter potest, dicendo verba, seu
+            consen<lb ed="#V" n="69" break="no"/>tiendo per verba, non autem corde.
+            <lb ed="#V" n="70"/>Secundum est, quod si corde consentiat,
+            <lb ed="#V" n="71"/>matrimonium valere in foro conscientiae.
+            <lb ed="#V" n="72"/>Tertium est, non valere in foro externo
+            <lb ed="#V" n="73"/>aut judicio Ecclesiae, quia Ecclesia
+            praesu<lb ed="#V" n="74" break="no"/>mit eum non consensisse in
+            matrimo<lb ed="#V" n="75" break="no"/>nium, sed in verba tantum, ut evaderet
+            <lb ed="#V" n="76"/>poenam. Primum et tertium hic impugnat;
+            <lb ed="#V" n="77"/>secundum vero infra S De secundo
+            di<lb ed="#V" n="78" break="no"/>co, etc. Primum impugnat, quia talis y
+            <lb ed="#V" n="79"/>consentiens in verba tantum, peccat mor. e
+            <lb ed="#V" n="80"/>taliter, mentiendo perniciose in re gravi.
+            <lb ed="#V" n="81"/>Hoc autem nullo modo licet ad
+            evaden<lb ed="#V" n="82" break="no"/>dam etiam mortem aut alias poenas, quia
+            <lb ed="#V" n="83"/>est majus malum peccatum mortale, quod
+            <lb ed="#V" n="84"/>separat a Deo, quam ullum malum poenae;
+            <lb ed="#V" n="85"/>metus autem non excusat, quia nequit;
+            <lb ed="#V" n="86"/>inducere ad aliquid, quod non est licitum.
+            <pb ed="#V" n="217"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Deinde, metus, de quo agunt hic Doctores,
+            <lb ed="#V" n="2"/>est cadens in constantem virum, hic
+            au<lb ed="#V" n="3" break="no"/>tem non movetur nisi ad licitum. Deus
+            se<lb ed="#V" n="4" break="no"/>cundum affectionem justitiae determinat
+            <lb ed="#V" n="5"/>prohibendo peccatum mortale; metus
+            se<lb ed="#V" n="6" break="no"/>cundum affectum commodi ad fugiendam
+            <lb ed="#V" n="7"/>poenam; obligatio autem orta ex affectu
+            <lb ed="#V" n="8"/>justitiae, non cedit commodo.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Confirmat duplici exemplo: Primum
+            <lb ed="#V" n="10"/>est de Religioso, qui obligatur voto
+            casti<lb ed="#V" n="11" break="no"/>tatis; hic neque coactus potest licite
+            ex<lb ed="#V" n="12" break="no"/>terius consentire in matrimonium, quia
+            <lb ed="#V" n="13"/>id ei prohibitum est, cum non possit
+            ha<lb ed="#V" n="14" break="no"/>bere consensum internum
+            corresponden<lb ed="#V" n="15" break="no"/>tem, impeditus per votum; ergo alter non
+            <lb ed="#V" n="16"/>Religiosus ideo potest exterius consentire
+            <lb ed="#V" n="17"/>in verba, quia etiam debet habere
+            con<lb ed="#V" n="18" break="no"/>sensum internum. Aliud exemplum, si
+            <lb ed="#V" n="19"/>proferatur juramentum, quod non ex
+            me<lb ed="#V" n="20" break="no"/>tu, vel coactus consentiat, tunc qui
+            pro<lb ed="#V" n="21" break="no"/>fert juramentum, peccat mortaliter.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Confirmat secundo ab inconvenienti et
+            <lb ed="#V" n="23"/>scandalo, quia multis daretur occasio
+            <lb ed="#V" n="24"/>mentiendi ex hac doctrina, etiam
+            pernici<lb ed="#V" n="25" break="no"/>ose.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Confirmat tertio de projiciente merces
+            <lb ed="#V" n="27"/>in mare, voluntarie quidem simpliciter,
+            <lb ed="#V" n="28"/>sed involuntarie secundum quid, nempe
+            <lb ed="#V" n="29"/>ex metu mortis imminente. Hoc
+            exem<lb ed="#V" n="30" break="no"/>plum impugnat fundamentum oppositae
+            <lb ed="#V" n="31"/>sententiae, quo dicit neminem posse cogi
+            <lb ed="#V" n="32"/>ad consensum. Rationes hae sunt receptae
+            <lb ed="#V" n="33"/>ab omnibus.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>Tertium, quod est de praesumptione,
+            <lb ed="#V" n="35"/>quam interpretatur esse Ecclesiae, optime
+            <lb ed="#V" n="36"/>refutat. Quia Ecclesia semper praesumit
+            <lb ed="#V" n="37"/>pro meliori parte, quia in re dubia
+            praesu<lb ed="#V" n="38" break="no"/>mit bonum, quod sine peccato fieri potest.
+            <lb ed="#V" n="39"/>vel ex duobus malis minus malum.
+            Pri<lb ed="#V" n="40" break="no"/>mum patet ex Jure allegato in textu:
+            <lb ed="#V" n="41"/>Estote misericordes, etc. de reg. juris,
+            <lb ed="#V" n="42"/>cap. unico, de scrutinio in ordinibus
+            fa<lb ed="#V" n="43" break="no"/>ciendo, etc. quo quis censetur idoneus,
+            <lb ed="#V" n="44"/>quando non invenitur non idoneus, neque
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>praesumit ullum delinquere in facto,
+            <lb ed="#V" n="46"/>quando per legitimas probationes non
+            <lb ed="#V" n="47"/>constiterit, lib. merito, ff. pro socio.
+            <lb ed="#V" n="48"/>Tertium exemplum patet ex cap. Is qui
+            <lb ed="#V" n="49"/>fidem, etc. de sponsalibus.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Ex duobus malis sic etiam minus
+            ma<lb ed="#V" n="51" break="no"/>lum benigne praesumit secundum
+            charita<lb ed="#V" n="52" break="no"/>tem et justitiam. Ex his autem minus
+            <lb ed="#V" n="53"/>malum sicut est eligendum, c. Cum
+            Da<lb ed="#V" n="54" break="no"/>vid, c. Si aliquid, dist. 22. Duo mala,
+            <lb ed="#V" n="55"/>dist. 23. ita etiam praesumi debet; ex
+            <lb ed="#V" n="56"/>quo sequitur responsio ad objectionem
+            <lb ed="#V" n="57"/>Durandi in hac dist. quaest. 2. Dicit enim
+            <lb ed="#V" n="58"/>Ecclesiam aliquando praesumere deterius,
+            <lb ed="#V" n="59"/>ut in favorem secundi matrimonii publice
+            <lb ed="#V" n="60"/>contracti praesumebat mentiri eum, qui
+            <lb ed="#V" n="61"/>dixit se contraxisse alias cum prima.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Respondetur minus malum esse
+            men<lb ed="#V" n="63" break="no"/>tiri, quam duo matrimonia contra
+            justi<lb ed="#V" n="64" break="no"/>tiam et reverentiam Sacramenti
+            contrahe<lb ed="#V" n="65" break="no"/>re. Deinde, non praesumit Ecclesia nisi de
+            <lb ed="#V" n="66"/>delicto, quod ipse propria confessione
+            fa<lb ed="#V" n="67" break="no"/>tetur, nempe contraxisse cum secunda,
+            <lb ed="#V" n="68"/>sciens se inhabilem ad contractum; in
+            <lb ed="#V" n="69"/>quo contractu ex confessione propria
+            <lb ed="#V" n="70"/>mentiebatur perniciose proferens verba
+            <lb ed="#V" n="71"/>sine legitimo consensu, quem habere non
+            <lb ed="#V" n="72"/>potuit, dato quod priori uxori manebat
+            <lb ed="#V" n="73"/>obligatus adhuc viventi; inter duo autem
+            <lb ed="#V" n="74"/>mendacia illud magis praesumendum erat,
+            <lb ed="#V" n="75"/>quod in probatione deficiebat, et minus
+            <lb ed="#V" n="76"/>obstabat Sacramento, quod in facie Eccle.
+            <lb ed="#V" n="77"/>siae fuit publicum, neque admitti debuit
+            <lb ed="#V" n="78"/>prior contractus in praejudicium ejus,
+            <lb ed="#V" n="79"/>nisi sufficienter probaretur, neque
+            conse<lb ed="#V" n="80" break="no"/>quenter allegatio non probata in
+            praejudi<lb ed="#V" n="81" break="no"/>cium secundae uxoris et contractus, de
+            <lb ed="#V" n="82"/>quo constabat.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d29q1-p2"> -->
+          <p>
+            <lb ed="#V" n="63" type="fixed=218"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>(c) Ad quoestionem igitur duo sunt
+            vi<lb ed="#V" n="65" break="no"/>denda, etc. Explicat definitionem
+            violen<lb ed="#V" n="66" break="no"/>ti, et naturam ejus ad propositum, quo
+            <lb ed="#V" n="67"/>doceat modum coactionis in voluntate;
+            <lb ed="#V" n="68"/>videatur in 2. dist. 18. in 4. dist. 43.
+            <lb ed="#V" n="69"/>quaest. 2. et alias saepe docet violentum
+            <lb ed="#V" n="70"/>consistere in passivo. Advertendum est
+            <lb ed="#V" n="71"/>cogi et violentari in rigore distingui, ut
+            <lb ed="#V" n="72"/>advertit Durandus in 2. dist. 16. q. 4.
+            <lb ed="#V" n="73"/>quia violentum tam in animatis quam
+            <lb ed="#V" n="74"/>inanimatis dicitur, coactio vero respective
+            <lb ed="#V" n="75"/>ad voluntatem. Angestus coactionem
+            <lb ed="#V" n="76"/>refert cap. 3. moralium, ad appetitum
+            <lb ed="#V" n="77"/>elicitum voluntatis, violentum vero ad
+            <lb ed="#V" n="78"/>inclinationem naturalem. Plures tamen
+            <lb ed="#V" n="79"/>Theologi et Philosophi non multum
+            inhae<lb ed="#V" n="80" break="no"/>rent huic distinctioni, et synonyme per
+            <lb ed="#V" n="81"/>accommodationem utrumque sumunt in
+            <lb ed="#V" n="82"/>ordine ad voluntatem, ut dicant violentari,
+            <lb ed="#V" n="83"/>quando cogitur. Coactio tamen ut
+            pluri<lb ed="#V" n="84" break="no"/>mum in moralibus attenditur secundum
+            <lb ed="#V" n="85"/>voluntarium, et involuntarium in actus,
+            <lb ed="#V" n="86"/>et denotat respectum ad causam
+            efficien<pb ed="#V" n="219"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tem, ut subest motivo fortiori impellenti
+            <lb ed="#V" n="2"/>ad actum, qui non est absolute
+            volunta<lb ed="#V" n="3" break="no"/>rius, sed ex metu majoris mali ei
+            immi<lb ed="#V" n="4" break="no"/>nentis. Doctor autem hic sumit synonyme
+            <lb ed="#V" n="5"/>coactionem et violentiam respective ad
+            <lb ed="#V" n="6"/>voluntatem.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Definitionem violenti statuit ex
+            Philo<lb ed="#V" n="8" break="no"/>sopho 3. Ethic, cap. 2. illa vero verba;
+            <lb ed="#V" n="9"/>Passo non conferente vim, explicat
+            con<lb ed="#V" n="10" break="no"/>trarie, id est, repugnante passo secundum
+            <lb ed="#V" n="11"/>suam inclinationem naturalem ad
+            actio<lb ed="#V" n="12" break="no"/>nem, quae est ab extrinseco agente tota.
+            <lb ed="#V" n="13"/>Nam eo ipso quod passum repugnat
+            secun<lb ed="#V" n="14" break="no"/>dum inclinationem passi, id est, qua
+            <lb ed="#V" n="15"/>passum est, sequitur actionem non esse
+            <lb ed="#V" n="16"/>ab ipso, quia virtus innata, si agat actione
+            <lb ed="#V" n="17"/>immanente, agit ad formam connaturalem
+            <lb ed="#V" n="18"/>subjecto, cum ordinetur ad perfectionem
+            <lb ed="#V" n="19"/>subjecti, et sui ipsius conservationem.
+            <lb ed="#V" n="20"/>Vasquez 1. 2. disput. 25. cap. 3. dicit
+            <lb ed="#V" n="21"/>illam particulam passo non conferente
+            <lb ed="#V" n="22"/>vim, referri ad inclinationem activam,
+            <lb ed="#V" n="23"/>non vero passivam. Contrarium
+            communi<lb ed="#V" n="24" break="no"/>ter docent interpretes. Hanc quaestionem
+            <lb ed="#V" n="25"/>in materia de actibus humanis tractavi
+            <lb ed="#V" n="26"/>suo loco, quae etiam praelo destinata est,
+            <lb ed="#V" n="27"/>ideoque eam in praedictum locum remitto,
+            <lb ed="#V" n="28"/>et supponi debet, ut propria ipsius
+            mate<lb ed="#V" n="29" break="no"/>riae discutiantur.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Resolutio Doctoris in hoc praesupposito
+            <lb ed="#V" n="31"/>t est, voluntatem simpliciter non posse
+            co<lb ed="#V" n="32" break="no"/>gi, hoc est, violentari ad volitionem, quia
+            <lb ed="#V" n="33"/>sic vellet nolens, aut nollet volens.
+            Voli<lb ed="#V" n="34" break="no"/>tio et nolitio, seu actus elicitus ut
+            compa<lb ed="#V" n="35" break="no"/>ratur ad potentiam nude sumptam, et in
+            <lb ed="#V" n="36"/>sensu diviso, absque omni alio actu, est
+            <lb ed="#V" n="37"/>ipsi connaturalis, quia est potentia
+            uni<lb ed="#V" n="38" break="no"/>versalis respiciens bonum aut malum in
+            <lb ed="#V" n="39"/>genere per fugam et prosecutionem,
+            ideo<lb ed="#V" n="40" break="no"/>que connaturale ipsi est velle bonum
+            <lb ed="#V" n="41"/>quodcumque, et fugere malum; nequit
+            <lb ed="#V" n="42"/>autem nolle bonum sub ratione boni, aut
+            <lb ed="#V" n="43"/>velle malum sub ratione mali.
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>Secundo, hinc deducit, licet cogi posset
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>ad aliquam passionem, ut si quis
+            detinea<lb ed="#V" n="46" break="no"/>tur in aliquo loco violente, vel ad aliquam
+            <lb ed="#V" n="47"/>actionem instrumentalem, ut si manus
+            <lb ed="#V" n="48"/>alicujus, aut caput in alium per agens
+            ex<lb ed="#V" n="49" break="no"/>trinsecum incutiatur, qui actus nati sunt
+            <lb ed="#V" n="50"/>imperari a voluntate, et fieri ab
+            extrin<lb ed="#V" n="51" break="no"/>seco, etiam voluntate repugnante; tamen
+            <lb ed="#V" n="52"/>nequit violentari voluntas ipsa ad actum
+            <lb ed="#V" n="53"/>ullum humanum elicitum, aut imperatum,
+            <lb ed="#V" n="54"/>qua actio humana est, id est, procedens
+            <lb ed="#V" n="55"/>a voluntate per actum imperantem; et
+            <lb ed="#V" n="56"/>per modum principii non potest, inquam,
+            <lb ed="#V" n="57"/>nisi secundum quid, quia si nequit cogi
+            <lb ed="#V" n="58"/>ad actum elicitum, sic etiam nequit cogi
+            <lb ed="#V" n="59"/>ad actum imperatum, qui solum est a
+            vo<lb ed="#V" n="60" break="no"/>luntate mediante actu elicito.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Tertio, docet cogi posse voluntatem
+            se<lb ed="#V" n="62" break="no"/>cundum quid per metum majoris mali
+            im<lb ed="#V" n="63" break="no"/>minentis, et ista coactio possibilis est in
+            <lb ed="#V" n="64"/>homine virtuoso aut studioso, quia
+            secun<lb ed="#V" n="65" break="no"/>dum rectam rationem potest velle aliquid,
+            <lb ed="#V" n="66"/>quod alias nollet, aut imperare, ut evitet
+            <lb ed="#V" n="67"/>inconveniens grave, ut mortem,
+            mutilati<lb ed="#V" n="68" break="no"/>onem, stuprum, et similia mala; et hic
+            <lb ed="#V" n="69"/>metus dicitur cadere in constantem virum.
+            <lb ed="#V" n="70"/>Concludit autem quod nullus metus potest
+            <lb ed="#V" n="71"/>aliquem inducere ad peccatum mortale,
+            <lb ed="#V" n="72"/>cujus ratio est, quia voluntarium ex metu
+            <lb ed="#V" n="73"/>simpliciter fit ex electione, et simpliciter
+            <lb ed="#V" n="74"/>est voluntarium, secundum quid tantum
+            <lb ed="#V" n="75"/>involuntarium, ideoque non excusat a
+            pec<lb ed="#V" n="76" break="no"/>cato mortali aut veniali, respective ad
+            <lb ed="#V" n="77"/>materiam alterutrius. Unumquodque enim
+            <lb ed="#V" n="78"/>simpliciter et absolute dicitur secundum
+            <lb ed="#V" n="79"/>id quod est in actu, et re ipsa, si
+            compare<lb ed="#V" n="80" break="no"/>tur ad id quod est in apprehensione
+            tan<lb ed="#V" n="81" break="no"/>tum, causa metus in apprehensione est;
+            <lb ed="#V" n="82"/>actus aut gestum ex metu est in ipsa re,
+            <lb ed="#V" n="83"/>et libere per electionem, quando est
+            pro<lb ed="#V" n="84" break="no"/>hibitum, et contra rectam rationem,
+            ne<lb ed="#V" n="85" break="no"/>quit excusari per causam in
+            apprehensi<lb ed="#V" n="86" break="no"/>one, quae etiamsi in re ipsa applicaretur,
+            <lb ed="#V" n="87"/>deberet refutari per observantiam legis, et
+            <lb ed="#V" n="88"/>secundum rectam rationem, quia vir fortis
+            <pb ed="#V" n="220"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>et constans debet sequi rectam rationem.
+          </p>
+          <p>
+            <lb ed="#V" n="2"/>Duas conditiones metus cadentis in
+            con<lb ed="#V" n="3" break="no"/>stantem virum assignat Doctor
+            necessa<lb ed="#V" n="4" break="no"/>rias, ut metus ille annullet contractum
+            <lb ed="#V" n="5"/>matrimonii. Prima conditio est, ut malum
+            <lb ed="#V" n="6"/>sit grave, et quod secundum rectam
+            rati<lb ed="#V" n="7" break="no"/>onem eligi non possit a viro forti et
+            con<lb ed="#V" n="8" break="no"/>stante. Haec est communis, et patet, l.
+            Me<lb ed="#V" n="9" break="no"/>tum, 8 1. ff. de eo quod met. causa,
+            in<lb ed="#V" n="10" break="no"/>constantis autem, et levis animi est
+            modi<lb ed="#V" n="11" break="no"/>cam rem timere. Haec gravitas attenditur
+            <lb ed="#V" n="12"/>ex natura mali in se, ut patet in
+            exem<lb ed="#V" n="13" break="no"/>plis, quae Doctor subjicit, non autem
+            re<lb ed="#V" n="14" break="no"/>spective ad minus malum; et patet ex
+            ver<lb ed="#V" n="15" break="no"/>bis legis, ubi dicitur, metum autem non
+            <lb ed="#V" n="16"/>vani hominis, sed qui merito, et in
+            homi<lb ed="#V" n="17" break="no"/>nem constantissimum cadat ad hoc
+            edi<lb ed="#V" n="18" break="no"/>ctum pertinere dicimus, etc. requiritur
+            er<lb ed="#V" n="19" break="no"/>go ut malum sit grave, et in se tale, non
+            <lb ed="#V" n="20"/>autem ex vana et non fundata
+            aestimati<lb ed="#V" n="21" break="no"/>one patientis aut metuentis.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Exempla hujus metus aliqua subjicit
+            <lb ed="#V" n="23"/>Doctor, ut mortis; est communis, cap.
+            <lb ed="#V" n="24"/>Cum dilectus etc. De his quae vi, met.
+            <lb ed="#V" n="25"/>causa, etc. l. Nec timorem, ff. de eo quod
+            <lb ed="#V" n="26"/>- metus causa. Secundum est,
+            incarcerati<lb ed="#V" n="27" break="no"/>onis, habetur l. Timorem, citato, est
+            com<lb ed="#V" n="28" break="no"/>munis Doctorum; distinguunt tamen
+            ali<lb ed="#V" n="29" break="no"/>qui, si incarceratio sit diuturna, et gravis
+            <lb ed="#V" n="30"/>edare causam viro constanti, id est,
+            timen<lb ed="#V" n="31" break="no"/>di; si autem sit brevis, non ita. Sed hoc
+            <lb ed="#V" n="32"/>reducendum est ad circumstantias damni,
+            <lb ed="#V" n="33"/>in vita, bonis, fama, libertate, et
+            conji<lb ed="#V" n="34" break="no"/>ciendum quando carcer sit grave malum.
+            <lb ed="#V" n="35"/>Tertium est captivitatis malum, quod
+            pro<lb ed="#V" n="36" break="no"/>culdubio aequiparatur carceri, imo excedit
+            <lb ed="#V" n="37"/>carcerem; estque servitus et amissio
+            liber<lb ed="#V" n="38" break="no"/>tatis. Quartum est mutilatio enormis cap.
+            <lb ed="#V" n="39"/>Si quis absciderit, distinct. 55. Huc etiam
+            <lb ed="#V" n="40"/>revocatur gravis cruciatus corporis, cap.
+            <lb ed="#V" n="41"/>Cum dilectus, et gravis verberatio.
+            Quin<lb ed="#V" n="42" break="no"/>tum est stuprum. Ita communiter, et l.
+            <lb ed="#V" n="43"/>Istis. 8. ff. eodem, quia in virgine
+            amis<lb ed="#V" n="44" break="no"/>sio virginitatis est grave malum.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Idem dicunt Doctores et bene, de vidua
+            <lb ed="#V" n="46"/>seu quacumque muliere honesta propter
+            <lb ed="#V" n="47"/>aestimationis detrimentum. Reliqua ex his
+            <lb ed="#V" n="48"/>conjicienda relinquit Doctor, ut est metus
+            <lb ed="#V" n="49"/>infamiae, amittendi status, fortunae et
+            hu<lb ed="#V" n="50" break="no"/>jusmodi, quae nequeunt certa regula
+            de<lb ed="#V" n="51" break="no"/>terminari, sed arbitrio judicis explicanda
+            <lb ed="#V" n="52"/>sunt, quando Jura ipsa ea non exponunt.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>Advertendum est secundo haec mala
+            <lb ed="#V" n="54"/>etiam cadere in virum constantem,
+            quam<lb ed="#V" n="55" break="no"/>vis non in persona propria timeantur, sed
+            <lb ed="#V" n="56"/>filiorum, parentum, amicorum, affinium.
+            <lb ed="#V" n="57"/>Vide Sanchez lib. 4. disput. 5.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Secunda conditio est, ut illa mala
+            im<lb ed="#V" n="59" break="no"/>mineant certo, hoc est, secundum
+            pruden<lb ed="#V" n="60" break="no"/>tem et fundatam aestimationem quae
+            suffi<lb ed="#V" n="61" break="no"/>cit ad electionem rectam in actibus
+            huma<lb ed="#V" n="62" break="no"/>nis. Est communis sententia Doctorum in
+            <lb ed="#V" n="63"/>hac distinct. et patet ex l. Nec timorem,
+            <lb ed="#V" n="64"/>ff. de eo quod met. causa, etc. et l.
+            Me<lb ed="#V" n="65" break="no"/>tum, glossa in cap. Audientes, etc. de his
+            <lb ed="#V" n="66"/>quoe vi, etc. sufficit ut sciat probabiliter
+            <lb ed="#V" n="67"/>malum inferendum, sive de praesenti, sive
+            <lb ed="#V" n="68"/>de futuro post aliquod tempus, cum nequit
+            <lb ed="#V" n="69"/>aliis mediis obstare sine contractu
+            praesen<lb ed="#V" n="70" break="no"/>ti. Non sufficit vana suspicio mali
+            inferen<lb ed="#V" n="71" break="no"/>di, ut si timeatur malum ab eo, qui
+            <lb ed="#V" n="72"/>neque per se, nec per alium illud inferre
+            <lb ed="#V" n="73"/>potest, et probabiliter inferetur, sive
+            se<lb ed="#V" n="74" break="no"/>quatur effectus, sive non ex alia causa
+            <lb ed="#V" n="75"/>incognita. Requiritur etiam ut timens non
+            <lb ed="#V" n="76"/>possit occurrere malo per alia media, quia
+            <lb ed="#V" n="77"/>non est constantis timere mala, quae per
+            <lb ed="#V" n="78"/>alia media affugere potest de facili.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>Intelligitur hic metus cadens in
+            con<lb ed="#V" n="80" break="no"/>stantem virum respective ad personas et
+            <lb ed="#V" n="81"/>qualitatem earum secundum vigorem
+            <lb ed="#V" n="82"/>animi, et constantiam, ut bene Sanchez
+            <lb ed="#V" n="83"/>juxta communem sententiam lib. 4.
+            dis<lb ed="#V" n="84" break="no"/>put. 3. unde minor causa ad incutiendum
+            <lb ed="#V" n="85"/>timorem foeminae, quae ex natura sua
+            pu<lb ed="#V" n="86" break="no"/>sillanimis est et inconstans, requiritur,
+            <lb ed="#V" n="87"/>quam in viro, in sene etiam et puero,
+            <lb ed="#V" n="88"/>quam in eo qui virili aetate floret. Et
+            <pb ed="#V" n="221"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>attendendum est quid foemina constans
+            <lb ed="#V" n="2"/>juxta communem conditionem facere
+            de<lb ed="#V" n="3" break="no"/>bet secundum rectam rationem, et sic de
+            <lb ed="#V" n="4"/>aliis, quia juxta hanc limitationem
+            exten<lb ed="#V" n="5" break="no"/>ditur illud axioma: Metus cadens in
+            con<lb ed="#V" n="6" break="no"/>stantem virum ad singulos juxta
+            commu<lb ed="#V" n="7" break="no"/>nem statum sexus, conditionis, aetatis,
+            <lb ed="#V" n="8"/>quae judicis arbitrio definienda sunt, et
+            <lb ed="#V" n="9"/>quantum ad aestimationem periculi, et
+            <lb ed="#V" n="10"/>quantum ad causam datam respective ad
+            <lb ed="#V" n="11"/>personam juxta conditionem communem
+            <lb ed="#V" n="12"/>sui status, non vero defectum
+            particula<lb ed="#V" n="13" break="no"/>rem ipsius aut pusillanimitatem aut
+            cor<lb ed="#V" n="14" break="no"/>ruptionem phantasiae et judicii sequentis;
+            <lb ed="#V" n="15"/>arbitria enim danda sunt juxta regulam
+            <lb ed="#V" n="16"/>communem aut legis aut prudentiae.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d29q1-p3"> -->
+          <p>
+            <lb ed="#V" n="64" type="fixed=221"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>(d) De secundo dico, quod consensus
+            <lb ed="#V" n="66"/>isto modo, etc. Respondet ad
+            quaesti<lb ed="#V" n="67" break="no"/>onem, dicendo matrimonium hoc modo
+            <lb ed="#V" n="68"/>contractum esse nullum in utroque foro,
+            <lb ed="#V" n="69"/>scilicet conscientiae, et externo. Haec
+            <lb ed="#V" n="70"/>conclusio est communis Theologorum et
+            <lb ed="#V" n="71"/>Canonistarum contra Cardinalem cap. 2.
+            <lb ed="#V" n="72"/>de his quae vi, etc. ubi dicit non esse ipso
+            <lb ed="#V" n="73"/>Jure nullum, sed rescindendum, sicut
+            <lb ed="#V" n="74"/>caeteri contractus; patet ex cap. Cum
+            lo<lb ed="#V" n="75" break="no"/>cum, cap. Veniens 2. cap.
+            Consultati<lb ed="#V" n="76" break="no"/>oni, etc. de sponsal. Probat praeterea
+            <lb ed="#V" n="77"/>ratione, primo a causa formali, quia ille
+            <lb ed="#V" n="78"/>contractus est datio, ac proinde debet
+            es<lb ed="#V" n="79" break="no"/>se libera. Secundo a causa efficiente
+            con<lb ed="#V" n="80" break="no"/>tractus, et instituente, qui est Deus, qui
+            <lb ed="#V" n="81"/>talem formam tribuit contractui
+            matri<lb ed="#V" n="82" break="no"/>monii, ut probat Genes. 2. et 24. et fuit
+            <lb ed="#V" n="83"/>talis forma ejus in lege naturae. Tertio,
+            <lb ed="#V" n="84"/>ex parte finis, quia ad educationem
+            pro<pb ed="#V" n="222"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>lis hoc fuit necessarium: Quod quis non
+            <lb ed="#V" n="2"/>diligit facile contemnit; 20. quoest. 3.
+            <lb ed="#V" n="3"/>et matrimonia coacta infelices exitus
+            <lb ed="#V" n="4"/>habent, cap. Requisirit, etc. de sponsal.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Aliqui limitant conclusionem, quando
+            <lb ed="#V" n="6"/>cum certa foemina contrahendi ingeritur
+            <lb ed="#V" n="7"/>metus, contractum esse nullum,
+            opposi<lb ed="#V" n="8" break="no"/>tum esse dicendum, quando cum incerta
+            <lb ed="#V" n="9"/>persona, quia permanet libera electio
+            <lb ed="#V" n="10"/>quoad determinatam personam inter
+            in<lb ed="#V" n="11" break="no"/>certas, quia sic valet electio, cap. 2. de
+            <lb ed="#V" n="12"/>elect. in 6. et inter plures datur
+            consen<lb ed="#V" n="13" break="no"/>sus electivus, 1. Servi elect. ff. de
+            le<lb ed="#V" n="14" break="no"/>gat. 1. Sic tenet Abbas cap. Cum
+            ter<lb ed="#V" n="15" break="no"/>ra, etc. de elect. Felin. cap. Cum
+            proe<lb ed="#V" n="16" break="no"/>sentia, etc. de probat. Everardus in locis
+            <lb ed="#V" n="17"/>topicis, loco a matrimonio spirituali ad
+            <lb ed="#V" n="18"/>corporale.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Respondetur tamen conclusionem
+            ab<lb ed="#V" n="20" break="no"/>solute intelligendam, quia coactio debet
+            <lb ed="#V" n="21"/>abesse, et huic contractui cum certa
+            per<lb ed="#V" n="22" break="no"/>sona ex incertis metus cadens in
+            constan<lb ed="#V" n="23" break="no"/>tem virum dat causam, et non libera
+            <lb ed="#V" n="24"/>electio requisita, quia cum nulla
+            contra<lb ed="#V" n="25" break="no"/>heret si metus abesset; ergo ex causa
+            <lb ed="#V" n="26"/>metus contrahit, ut patet ex canonibus
+            <lb ed="#V" n="27"/>citatis, quorum decisio non procedit ex
+            <lb ed="#V" n="28"/>ulla praesumptione consensus, sed
+            abso<lb ed="#V" n="29" break="no"/>lute ex metu tanquam causa irritante,
+            <lb ed="#V" n="30"/>qui in proposito similiter datur; unde
+            <lb ed="#V" n="31"/>secundum rectam rationem ex metu illato
+            <lb ed="#V" n="32"/>vir constans movetur ut contrahat cum
+            <lb ed="#V" n="33"/>una ex incertis, non contracturus
+            alio<lb ed="#V" n="34" break="no"/>quin si metus et causa metus abesset.
+            <lb ed="#V" n="35"/>Ita Covarr. 4. decret. 2. p. cap. 3. citans
+            <lb ed="#V" n="36"/>alios.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Ad objectionem respondetur, ad
+            electi<lb ed="#V" n="38" break="no"/>onem minus requiri libertatis quam ad
+            <lb ed="#V" n="39"/>matrimonium, quia lex potest restringere
+            <lb ed="#V" n="40"/>ad determinatas personas, electionem
+            <lb ed="#V" n="41"/>in iis faciendam, non ita in hoc contractu,
+            <lb ed="#V" n="42"/>in secundo casu, l. Servi, etc. illa
+            liber<lb ed="#V" n="43" break="no"/>tas est respectiva, et non plena, qualis
+            <lb ed="#V" n="44"/>requiritur ad matrimonium, et respicit
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>circumstantiam, et non substantiam
+            con<lb ed="#V" n="46" break="no"/>tractus.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Alii etiam limitant ad casum in quo
+            <lb ed="#V" n="48"/>consanguinei et amici non sint praesentes,
+            <lb ed="#V" n="49"/>quia alioquin his praesentibus non
+            praesu<lb ed="#V" n="50" break="no"/>mitur metus. Sed neque haec limitatio
+            <lb ed="#V" n="51"/>admittenda est, nisi quando praesentia
+            <lb ed="#V" n="52"/>ipsorum submoveret causam metus,
+            at<lb ed="#V" n="53" break="no"/>que adeo ipsum metum, ut quando
+            pos<lb ed="#V" n="54" break="no"/>sint vel velint submovere periculum, et id
+            <lb ed="#V" n="55"/>constaret ei, cui incutitur metus; in eo
+            <lb ed="#V" n="56"/>casu tantum allegans metum, tenetur ad
+            <lb ed="#V" n="57"/>probationem illum fuisse justum et
+            fun<lb ed="#V" n="58" break="no"/>datum per clariores probationes. Felin.
+            <lb ed="#V" n="59"/>cap. Causam matrimonii, etc. de officio
+            <lb ed="#V" n="60"/>delegati.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Hinc infertur primo requiri metum
+            <lb ed="#V" n="62"/>gravem cadentem in constantem virum, ut
+            <lb ed="#V" n="63"/>patet ex dictis et decisione Canonum,
+            <lb ed="#V" n="64"/>etiam in foro conscientiae ad annullandum
+            <lb ed="#V" n="65"/>contractum et consensum matrimonii, nec
+            <lb ed="#V" n="66"/>sufficere levem, quamvis ex dispositione
+            <lb ed="#V" n="67"/>timentis ille metus sit ipsi gravis ex causa
+            <lb ed="#V" n="68"/>in re ipsa levi. Est contra Navarr. in
+            <lb ed="#V" n="69"/>Summa latina, cap. 22. lib. 1. cons. tit.
+            <lb ed="#V" n="70"/>de his quae vi, etc. cons. 1. et 3. de reg.
+            <lb ed="#V" n="71"/>cons. 84. et patet, quia hic metus debet
+            <lb ed="#V" n="72"/>esse ex natura causae gravis, et secundum
+            <lb ed="#V" n="73"/>rectam rationem, cui debet cedi, ut bene
+            <lb ed="#V" n="74"/>Doctor, et reliqui, quia de hoc tantum in
+            <lb ed="#V" n="75"/>Canonibus fit mentio; ergo ejus ratio
+            so<lb ed="#V" n="76" break="no"/>lum habenda est. Secundo. quia casibus
+            <lb ed="#V" n="77"/>particularibus, et per accidens ex
+            corru<lb ed="#V" n="78" break="no"/>ptione particularis personae non est
+            provi<lb ed="#V" n="79" break="no"/>dendum in praejudicium matrimonii, et ex
+            <lb ed="#V" n="80"/>opposito daretur materia scrupulis.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Objicies: Metus levis virum
+            inconstan<lb ed="#V" n="82" break="no"/>tem ita necessitat, sicut gravis virum
+            <lb ed="#V" n="83"/>constantem; ergo aut uterque dirimet, aut
+            <lb ed="#V" n="84"/>neuter.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Respondetur negando consequentiam ex
+            <lb ed="#V" n="86"/>dictis, quia metus causa sufficiens in re,
+            <lb ed="#V" n="87"/>et secundum rectam rationem subsistere
+            <lb ed="#V" n="88"/>debet, et non tantum in corrupta
+            appre<lb ed="#V" n="89" break="no"/>hensione.
+          </p>
+          <p>
+            <pb ed="#V" n="223"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Objicies secundo: Metus qui sufficit ad
+            <lb ed="#V" n="2"/>alios contractus rescindendos irritat
+            ma<lb ed="#V" n="3" break="no"/>trimonium; sed metus gravis ex causa
+            <lb ed="#V" n="4"/>etiam levi sufficit ad primum; ergo etiam
+            <lb ed="#V" n="5"/>ad secundum.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Respondetur negando paritatem inter
+            <lb ed="#V" n="7"/>alios contractus, et hunc quoad causam
+            <lb ed="#V" n="8"/>propositam, nam alii contractus ratione
+            <lb ed="#V" n="9"/>injuriae factae rescinduntur. Hic autem ex
+            <lb ed="#V" n="10"/>defectu libertatis, quae major in eo
+            requi<lb ed="#V" n="11" break="no"/>ritur, quantum ad valorem contractus, ut
+            <lb ed="#V" n="12"/>non sit irritus, in quo discordat ab aliis
+            <lb ed="#V" n="13"/>contractibus, qui non sunt irriti, sed
+            irri<lb ed="#V" n="14" break="no"/>tandi. Caeterum ut matrimonium sit
+            irri<lb ed="#V" n="15" break="no"/>tum ipso Jure requiritur, ut causa metus
+            <lb ed="#V" n="16"/>sit gravis ad inducendum illum effectum
+            <lb ed="#V" n="17"/>in quo ab aliis discordat.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Petes an metus cadens in constantem
+            <lb ed="#V" n="19"/>e virum debet solum intelligi, quando
+            me<lb ed="#V" n="20" break="no"/>tus est injuste illatus, vel etiam
+            intelliga<lb ed="#V" n="21" break="no"/>tur metus juste illatus in ordine ad hunc
+            <lb ed="#V" n="22"/>effectum matrimonii irriti?
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Doctores distinguunt metum per causam
+            <lb ed="#V" n="24"/>intrinsecam aut naturalem extrinsecam
+            <lb ed="#V" n="25"/>a metu, qui incutitur a causa extrinseca
+            li<lb ed="#V" n="26" break="no"/>bera, per injuriam et coactionem, v. g. si
+            <lb ed="#V" n="27"/>quis ex metu Dei, aut inferni aut mortis,
+            <lb ed="#V" n="28"/>aut causa intrinseca naturali, ut est
+            abun<lb ed="#V" n="29" break="no"/>dantia humoris, vel ex bello, fera, peste,
+            <lb ed="#V" n="30"/>naufragio, incurrat periculum, et
+            contra<lb ed="#V" n="31" break="no"/>hat matrimonium, aut voveat religionem,
+            <lb ed="#V" n="32"/>valet matrimonium, quamvis ex metu
+            mor<lb ed="#V" n="33" break="no"/>tis contractum; et sic de voto et
+            juramen<lb ed="#V" n="34" break="no"/>to, quia ille metus non est a causa libera,
+            <lb ed="#V" n="35"/>seu ab homine incussus, sed ex naturali
+            <lb ed="#V" n="36"/>necessitate, aut causa intrinseca, cujus
+            <lb ed="#V" n="37"/>rationem proinde non habet lex, neque
+            <lb ed="#V" n="38"/>causae metus impellunt per se ad
+            matri<lb ed="#V" n="39" break="no"/>monium, sed mere per accidens ex libera
+            <lb ed="#V" n="40"/>electione contrahentis, non ex necessitate
+            <lb ed="#V" n="41"/>per se directa ad matrimonium, quodno n
+            <lb ed="#V" n="42"/>cadit sub effectu ipsorum.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Metus autem a causa extrinseca libera
+            <lb ed="#V" n="44"/>incussus potest aliquando esse justus,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>aliquando injustus, et per se tendere in
+            <lb ed="#V" n="46"/>matrimonium tanquam effectum,
+            aliquan<lb ed="#V" n="47" break="no"/>do vero solum per accidens.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>De metu injuste illato constans est
+            sen<lb ed="#V" n="49" break="no"/>tentia Doctorum annullare matrimonium,
+            <lb ed="#V" n="50"/>non ita tamen de metu juste illato. Aliqui
+            <lb ed="#V" n="51"/>docent hunc metum non irritare
+            matrimo<lb ed="#V" n="52" break="no"/>nium, v.g. si quis latroni dicat nisi duxeris
+            <lb ed="#V" n="53"/>meam filiam, te accusabo, matrimonium
+            <lb ed="#V" n="54"/>tenet. Item, si quis similiter intentet
+            ma<lb ed="#V" n="55" break="no"/>lum, quod lege inferre potest nisi ducat
+            al<lb ed="#V" n="56" break="no"/>ter uxorem, si ducat, matrimonium tenet.
+            <lb ed="#V" n="57"/>Hanc sententiam tuetur Sanchez ut
+            pro<lb ed="#V" n="58" break="no"/>babiliorem disp. 13. lib. 4. citans alios
+            <lb ed="#V" n="59"/>Doctores per consequentiam doctrinae.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Alii docent quando lex incutit metum,
+            <lb ed="#V" n="61"/>valere matrimonium, si incutiat ad
+            extor<lb ed="#V" n="62" break="no"/>quendum matrimonium, ut quando violator
+            <lb ed="#V" n="63"/>virginis cogitur eam ducere, aut
+            contra<lb ed="#V" n="64" break="no"/>hens sponsalia ea complere suo tempore,
+            <lb ed="#V" n="65"/>tamen si lex non incutiat metum ad finem
+            <lb ed="#V" n="66"/>matrimonii contrahendi, tunc metum
+            in<lb ed="#V" n="67" break="no"/>cussum a judice directe ad contractum
+            <lb ed="#V" n="68"/>irritare matrimonium. Hanc tenet Sotus in
+            <lb ed="#V" n="69"/>hac distinct. quaest. 1. art. 3. noster
+            <lb ed="#V" n="70"/>Corduba in Summa quoest. 171. puncto 1.
+            <lb ed="#V" n="71"/>Angles in 1. part. de matrimonio, q. 3.
+            <lb ed="#V" n="72"/>de consensu coacto, Barthol. Ledesma
+            <lb ed="#V" n="73"/>dub. 23. et alii.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Tertia sententia est, quam probabile
+            <lb ed="#V" n="75"/>etiam docet praefatus auctor, metum juste
+            <lb ed="#V" n="76"/>illatum annullare matrimonium, quam
+            te<lb ed="#V" n="77" break="no"/>net Covarruvias loco citato, et plures
+            <lb ed="#V" n="78"/>Canonistae, et alii quos citat Sanchez
+            sen<lb ed="#V" n="79" break="no"/>tentia prima.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Haec ultima sententia magis conformis
+            <lb ed="#V" n="81"/>est Doctori in littera, quia libertas haec
+            <lb ed="#V" n="82"/>matrimonii est, ut neque Ecclesia, neque
+            <lb ed="#V" n="83"/>Respublica possit directe et per se cogere
+            <lb ed="#V" n="84"/>ad matrimonium; et hanc libertatem habet
+            <lb ed="#V" n="85"/>contractus ex divina institutione, ut in
+            <lb ed="#V" n="86"/>littera sequenti patebit; sicut ergo nulla
+            <lb ed="#V" n="87"/>humana potestas potest derogare libertati
+            <lb ed="#V" n="88"/>matrimonii, sic nulla lex justa potest
+            <pb ed="#V" n="224"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>inducere per metum directe, et per se ad
+            <lb ed="#V" n="2"/>matrimonium contrahendum. Ita tenet
+            <lb ed="#V" n="3"/>glossa in cap. Veniens 2. de sponsalibus,
+            <lb ed="#V" n="4"/>Goffredus in Summa de his quae vi, in 2.
+            <lb ed="#V" n="5"/>solut. ad l. si mulier, etc. de eo quod
+            me<lb ed="#V" n="6" break="no"/>tus causa, Hostiensis cap. Veniens, etc.
+            <lb ed="#V" n="7"/>de sponsal. Joannes Andreas ibidem,
+            An<lb ed="#V" n="8" break="no"/>charanus, Henricus, Abbas, Praeposit.
+            <lb ed="#V" n="9"/>Alexander de Naevo, glossa in cap. 1. de
+            <lb ed="#V" n="10"/>his quoe vi, etc. asserentes hanc esse
+            prae<lb ed="#V" n="11" break="no"/>rogativam matrimonii ob summam ejus
+            <lb ed="#V" n="12"/>libertatem ultra alios contractus, qui
+            te<lb ed="#V" n="13" break="no"/>nent ex culpa, quae metui causam dedit.
+            <lb ed="#V" n="14"/>Idem patet ex cap. Gemmae, etc. de
+            spon<lb ed="#V" n="15" break="no"/>sal. cum itaque libera matrimonia esse
+            <lb ed="#V" n="16"/>debent, etc. patet ex fine matrimonii,
+            nem<lb ed="#V" n="17" break="no"/>pe pacificae societatis et rectae educationis
+            <lb ed="#V" n="18"/>prolis, quibus obest matrimonium coactum
+            <lb ed="#V" n="19"/>et extortum.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Dixi superius directe, et per se non
+            <lb ed="#V" n="21"/>posse legem aliquam obligare ad
+            matri<lb ed="#V" n="22" break="no"/>monium per coactionem, quia per accidens
+            <lb ed="#V" n="23"/>ret ex alia circumstantia potest cogi quis
+            <lb ed="#V" n="24"/>ad matrimonium per legem indirecte, quia
+            <lb ed="#V" n="25"/>potest compellere ad implendam
+            promissi<lb ed="#V" n="26" break="no"/>onem et contractum initum libere, per
+            <lb ed="#V" n="27"/>sponsalia directe, potest inferentem
+            inju<lb ed="#V" n="28" break="no"/>riam cogere ad debitam satisfactionem,
+            <lb ed="#V" n="29"/>ut si virginem defloravit, ad eam
+            ducen<lb ed="#V" n="30" break="no"/>dum vel dotandum, si per vim aut dolum
+            <lb ed="#V" n="31"/>eam seduxit; et simpliciter ad ducendam
+            <lb ed="#V" n="32"/>Illam, quam violavit per vim, quia in his
+            <lb ed="#V" n="33"/>casibus alia restitutio injuriam passae non
+            <lb ed="#V" n="34"/>est congrua, nisi ducatur, et Jura
+            decer<lb ed="#V" n="35" break="no"/>nentia coactionem inferendam, non
+            respi<lb ed="#V" n="36" break="no"/>ciunt directe libertatem matrimonii, sed
+            <lb ed="#V" n="37"/>culpam per se adjunctam violantis
+            con<lb ed="#V" n="38" break="no"/>tractum, aut inferentis injuriam et
+            volun<lb ed="#V" n="39" break="no"/>tatem ejus, ut huic oneri libere se
+            subje<lb ed="#V" n="40" break="no"/>cit, vel per contractum, vel inducendo
+            <lb ed="#V" n="41"/>damnum, quod resarciri debet per
+            condi<lb ed="#V" n="42" break="no"/>gnam restitutionem, et sic lex respicit
+            di<lb ed="#V" n="43" break="no"/>recte medium justitiae servando, indirecte
+            <lb ed="#V" n="44"/>vero et per accidens matrimonium, ut in
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>eo consistit aequalitas reddenda parti
+            <lb ed="#V" n="46"/>laesae. Unde libertas matrimonii non potest
+            <lb ed="#V" n="47"/>praejudicare legi naturali justitiae, quae
+            <lb ed="#V" n="48"/>fortius ligat. Per hoc concordari potest
+            se<lb ed="#V" n="49" break="no"/>cunda sententia et tertia nam reus facti per
+            <lb ed="#V" n="50"/>consensum voluntarium seipsum ligavit
+            <lb ed="#V" n="51"/>ordinationi legis cui est obnoxius, et
+            cau<lb ed="#V" n="52" break="no"/>sa metus ab intrinseco oritur, nempe ex
+            <lb ed="#V" n="53"/>facto in quod consensit, et quod ex lege
+            <lb ed="#V" n="54"/>exigit talem ordinationem hic et nunc ex
+            <lb ed="#V" n="55"/>hoc consensu antecedente in sponsalia,
+            <lb ed="#V" n="56"/>vel in damnum partis laesae injuste
+            illa<lb ed="#V" n="57" break="no"/>tum, quod nequit aliter resarciri, quam
+            <lb ed="#V" n="58"/>per matrimonium; consensit etiam in
+            <lb ed="#V" n="59"/>matrimonium, ad quod obligatur ex
+            fa<lb ed="#V" n="60" break="no"/>cto vel contractu, proindeque coactio
+            <lb ed="#V" n="61"/>sequens in ipsius priori consensu
+            funda<lb ed="#V" n="62" break="no"/>tur, et causa ejus ab intrinseco oritur,
+            <lb ed="#V" n="63"/>neque est metus cadens in constantem
+            <lb ed="#V" n="64"/>virum, quia secundum rectam rationem
+            <lb ed="#V" n="65"/>tenetur ad matrimonium ex consensu
+            <lb ed="#V" n="66"/>priore, et secundum affectum justitiae,
+            <lb ed="#V" n="67"/>sicut tenetur ad evitandum peccatum.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Dices, matrimonium non solum debet
+            <lb ed="#V" n="69"/>esse liberum, quantum ad priorem
+            contra<lb ed="#V" n="70" break="no"/>ctum seu consensum, sed etiam debere
+            <lb ed="#V" n="71"/>esse liberum, dum actum perficitur; ergo
+            <lb ed="#V" n="72"/>sit adhibetur coactio, redditur nullum.
+            <lb ed="#V" n="73"/>Unde Covar, supra citatus asserit sive
+            <lb ed="#V" n="74"/>juste, sive injuste incutiatur metus,
+            irrita<lb ed="#V" n="75" break="no"/>re matrimonium, prout docet Abbas
+            <lb ed="#V" n="76"/>c. Requisivit, de sponsalib. Ledesma in 1.
+            <lb ed="#V" n="77"/>part. 4. q. 49. Gutierez de juramento 1.
+            <lb ed="#V" n="78"/>part. q. 57. Manuel. 2. tom. Summ.
+            <lb ed="#V" n="79"/>cap. 93. Vega lib. 3. Summee.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Respondetur negando antecedens
+            sim<lb ed="#V" n="81" break="no"/>pliciter in illa generalitate, quia libertas
+            <lb ed="#V" n="82"/>matrimonii non excludit, ut dixi,
+            ordina<lb ed="#V" n="83" break="no"/>tionem legis ex suppositione contractus
+            <lb ed="#V" n="84"/>prioris, seu damni illati inductam, ut patet
+            <lb ed="#V" n="85"/>expresse Exodi cap. 22. Si seduxerit
+            <lb ed="#V" n="86"/>quis virginem necdum desponsatam,
+            dor<lb ed="#V" n="87" break="no"/>mieritque cum ea, dotabit eam, et
+            habe<lb ed="#V" n="88" break="no"/>bit eam uxorem, etc. ubi lex divina
+            dero<pb ed="#V" n="225"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>gat libertati matrimonii ex suppositione
+            <lb ed="#V" n="2"/>. delicti, et habetur Extra cap. 1. de
+            adul<lb ed="#V" n="3" break="no"/>teriis, et stupro, ubi etiam cap. 2. quod
+            <lb ed="#V" n="4"/>est Gregorii Papae, per intrusionem in
+            <lb ed="#V" n="5"/>monasterium, et excommunicationem
+            pu<lb ed="#V" n="6" break="no"/>nitur nolens ducere virginem a se
+            sedu<lb ed="#V" n="7" break="no"/>ctam et corruptam, quae poenae sunt
+            gra<lb ed="#V" n="8" break="no"/>ves, et coactionem inducunt ad
+            matrimo<lb ed="#V" n="9" break="no"/>nium, quia merito timendae. Item, cap.
+            <lb ed="#V" n="10"/>Ex litteris 2. de sponsalibus,
+            Alexan<lb ed="#V" n="11" break="no"/>der III. sponsalia jurata sub
+            excommuni<lb ed="#V" n="12" break="no"/>catione servanda praecipit.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Hinc ergo colligitur quod libertas
+            ma<lb ed="#V" n="14" break="no"/>trimonii non praejudicet potestati legis,
+            <lb ed="#V" n="15"/>quae supponit obligationem, ex facto aut
+            <lb ed="#V" n="16"/>contractu ad matrimonium ineundum;
+            <lb ed="#V" n="17"/>quando vero non supponitur talis
+            obliga<lb ed="#V" n="18" break="no"/>tio ex parte rei, nullum erit matrimonium
+            <lb ed="#V" n="19"/>ex metu inductum a lege, v. g. si
+            deli<lb ed="#V" n="20" break="no"/>ctum mereatur ex lege directe poenam
+            ca<lb ed="#V" n="21" break="no"/>pitis aut carceris, et nullo modo tendit in
+            <lb ed="#V" n="22"/>matrimonium, non potest judex aut
+            ma<lb ed="#V" n="23" break="no"/>gistratus compellere ad matrimonium, et
+            <lb ed="#V" n="24"/>si compellat, erit nullum. Nec refert quod
+            <lb ed="#V" n="25"/>delictum mereatur tales poenas, et juste
+            <lb ed="#V" n="26"/>imponantur, quia non juste punitur
+            deli<lb ed="#V" n="27" break="no"/>ctum, quod ex se non tendit in
+            matrimo<lb ed="#V" n="28" break="no"/>nium per coactionem ad matrimonium,
+            <lb ed="#V" n="29"/>quod liberum esse debet ex divina
+            institu<lb ed="#V" n="30" break="no"/>tione. Quod si judex aut magistratus
+            <lb ed="#V" n="31"/>directe procedat ad poenam legis, id est,
+            <lb ed="#V" n="32"/>capitis aut carceris, quae debetur delicto,
+            <lb ed="#V" n="33"/>recte potest reus ex libero suo consensu
+            <lb ed="#V" n="34"/>redimere illam poenam per contractum
+            <lb ed="#V" n="35"/>matrimonii, et judex, si eam potestatem
+            <lb ed="#V" n="36"/>habet, poenam sic commutare, et
+            matri<lb ed="#V" n="37" break="no"/>monium tenebit, quia metus poenarum
+            <lb ed="#V" n="38"/>non tendit in matrimonium, ut est a judice
+            <lb ed="#V" n="39"/>aut lege, sed in delictum commissum, cui
+            <lb ed="#V" n="40"/>debentur; redemptio autem earum
+            proce<lb ed="#V" n="41" break="no"/>dit ex libero, non coacto consensu rei, ad
+            <lb ed="#V" n="42"/>quem non compellit judex.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Ex his patet ad fundamentum primae
+            <lb ed="#V" n="44"/>sententiae, quae fundatur in eo quod metus
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>juste incutiatur, v. g. cum quis dicit
+            la<lb ed="#V" n="46" break="no"/>troni, te accusabo, nisi duxeris filiam
+            <lb ed="#V" n="47"/>uxorem, quia oritur talis metus ab
+            extrin<lb ed="#V" n="48" break="no"/>seco et ex natura delicti.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>Respondetur, licet oriatur metus ex
+            na<lb ed="#V" n="50" break="no"/>tura delicti, tamen injuste torqueri directe
+            <lb ed="#V" n="51"/>ad matrimonium inducendum hoc modo,
+            <lb ed="#V" n="52"/>quia nec minas intentas habet jus aliquod
+            <lb ed="#V" n="53"/>ex tali delicto inducendi contractus
+            ma<lb ed="#V" n="54" break="no"/>trimonialis, aut acquirendi aliquod lucrum
+            <lb ed="#V" n="55"/>ex taciturnitate, neque ob causam
+            fru<lb ed="#V" n="56" break="no"/>strati lucri aut contractus accusandi. Et
+            <lb ed="#V" n="57"/>si accusatio ex hoc motivo praecise
+            sequa<lb ed="#V" n="58" break="no"/>tur, peccat accusans contra justitiam, quia
+            <lb ed="#V" n="59"/>et accusatio ipsa, quae debet fieri ex
+            mo<lb ed="#V" n="60" break="no"/>tivo justitiae, abstrahitur a suo fine, et
+            <lb ed="#V" n="61"/>apponitur injuste finis lucri aut commodi
+            <lb ed="#V" n="62"/>proprii, quod nequit expectari ex delicto
+            <lb ed="#V" n="63"/>alterius, quod nullum ipsi damnum
+            intu<lb ed="#V" n="64" break="no"/>lit, aut intulit reo debitum praestandi lucri
+            <lb ed="#V" n="65"/>aut ineundi contractus.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Objicies secundo: In eo casu non
+            dici<lb ed="#V" n="67" break="no"/>tur incutere metum, sed auferre; ergo
+            <lb ed="#V" n="68"/>coactio ab ipso non est.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Respondetur, licet non incutiatur
+            me<lb ed="#V" n="70" break="no"/>tus, ut oritur ex delicto et lege, tamen
+            <lb ed="#V" n="71"/>incutitur metus per se a minitante
+            publi<lb ed="#V" n="72" break="no"/>cationem delicti ad finem executionis
+            poe<lb ed="#V" n="73" break="no"/>nae; quis enim hoc ignoret? et ille metus
+            <lb ed="#V" n="74"/>incussus directe tendit ad matrimonium
+            <lb ed="#V" n="75"/>contra justitiam et libertatem talis
+            contra<lb ed="#V" n="76" break="no"/>ctus.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Objicies tertio, l. Si mulier 21. in
+            prin<lb ed="#V" n="78" break="no"/>cipio, ff. de eo quod metus causa, etc.
+            <lb ed="#V" n="79"/>ubi ita habet: Si mulier contra patronum
+            <lb ed="#V" n="80"/>suum ingrata facta, sciens se ingratam,
+            <lb ed="#V" n="81"/>cum de suo statu periclitabatur, aliquid
+            <lb ed="#V" n="82"/>patrono dederit vel promiserit, ne in
+            <lb ed="#V" n="83"/>servitutem redigatur, cessat edictum, quia
+            <lb ed="#V" n="84"/>hunc sibi metum ipsa infert, etc. ubi
+            <lb ed="#V" n="85"/>ponderanda est Jurisconsulti ratio, quia
+            <lb ed="#V" n="86"/>hunc sibi metum ipsa intulit, etc. quasi
+            <lb ed="#V" n="87"/>sentiat eo ipso quo quis delictum
+            commi<lb ed="#V" n="88" break="no"/>sit, concipere timorem nemine incutiente:
+            <pb ed="#V" n="226"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Fugit enim impius neminc
+            persequen<lb ed="#V" n="2" break="no"/>te, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Respondetur hunc testum non esse ad
+            <lb ed="#V" n="4"/>propositum, quia serva a patrono restituta
+            <lb ed="#V" n="5"/>libertati ob ingratitudinem est obnoxia
+            pa<lb ed="#V" n="6" break="no"/>trono, et merito periclitatur de suo statu,
+            <lb ed="#V" n="7"/>ac proinde ipsa causam dedit, quam
+            redime<lb ed="#V" n="8" break="no"/>re potest recompensando injuriam illatam.
+            <lb ed="#V" n="9"/>Sic in proposito, violans virginem per vim
+            <lb ed="#V" n="10"/>aut dolum etiam dat causam timori, et
+            <lb ed="#V" n="11"/>obnoxius debito matrimonii, sicut serva
+            <lb ed="#V" n="12"/>ingrata debito servitutis. Si tamen
+            deli<lb ed="#V" n="13" break="no"/>ctum non tendit in matrimonium, neque
+            <lb ed="#V" n="14"/>judex, neque accusator potest intentare
+            <lb ed="#V" n="15"/>coactionem ad matrimonium, sive in
+            <lb ed="#V" n="16"/>processu, sive in executione, quando
+            de<lb ed="#V" n="17" break="no"/>lictum ipsum non tendit in matrimonium
+            <lb ed="#V" n="18"/>ex natura delicti. Unde si judex intentet
+            <lb ed="#V" n="19"/>poenas lege debitas reo nisi ducat filiam
+            <lb ed="#V" n="20"/>suam in uxorem. matrimonium erit
+            nul<lb ed="#V" n="21" break="no"/>lum, quia licet poena sit debita, et metus
+            <lb ed="#V" n="22"/>poenarum ex delicto oriatur, tamen
+            execu<lb ed="#V" n="23" break="no"/>tio est injusta, ut per se tendit in
+            matri<lb ed="#V" n="24" break="no"/>monium, et contra libertatem ejus. Quod
+            <lb ed="#V" n="25"/>si reus, ut dictum est, ex proprio
+            consen<lb ed="#V" n="26" break="no"/>su orto ex metu juste poenae offerat
+            ma<lb ed="#V" n="27" break="no"/>trimonium ad redemptionem poenae, erit
+            <lb ed="#V" n="28"/>validum matrimonium, quia judex non
+            <lb ed="#V" n="29"/>infert poenas, neque intentat directe ad
+            <lb ed="#V" n="30"/>matrimonium, sed ad finem legis, et
+            exe<lb ed="#V" n="31" break="no"/>cutionem debitam justitiae, quam
+            remit<lb ed="#V" n="32" break="no"/>tere potest per satisfactionem oblatam, ad
+            <lb ed="#V" n="33"/>quam ipse nec minis, nec opere cogit.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>Objicies quarto: Metus
+            excommunica<lb ed="#V" n="35" break="no"/>tionis justae non cadit in constantem
+            vi<lb ed="#V" n="36" break="no"/>rum, qua ipse est in culpa, ex qua poenam
+            <lb ed="#V" n="37"/>aut metum ejus patitur; ergo similiter in
+            <lb ed="#V" n="38"/>casu proposito metus non est viri
+            constan<lb ed="#V" n="39" break="no"/>tis.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Respondetur negando consequentiam,
+            <lb ed="#V" n="41"/>vel distinguendo, metus ejus ut procedit
+            <lb ed="#V" n="42"/>ex delicto ex lege, concedo, quia est
+            ju<lb ed="#V" n="43" break="no"/>stus, ut applicatur per modum coactionis
+            <lb ed="#V" n="44"/>ad matrimonium, negatur, quia sic est
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>violentus, ut refertur ad delictum furti, et
+            <lb ed="#V" n="46"/>legem, quae non respiciunt ad
+            matrimo<lb ed="#V" n="47" break="no"/>nium, neque ad illud dirigi possunt. Unde
+            <lb ed="#V" n="48"/>perinde est ac si sollicitetur ad peccatum,
+            <lb ed="#V" n="49"/>intentata accusatione delicti, licet
+            me<lb ed="#V" n="50" break="no"/>tus accusationis esset ex delicto;
+            ne<lb ed="#V" n="51" break="no"/>quit tamen intentari ad delictum aliud
+            <lb ed="#V" n="52"/>committendum, quia esset injustum.
+            Eo<lb ed="#V" n="53" break="no"/>dem modo est injusta accusatio intenta in
+            <lb ed="#V" n="54"/>finem contrahendi matrimonii, quando
+            <lb ed="#V" n="55"/>delictum non tendit ad matrimonium.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Quinto objicies: Metus justus non
+            re<lb ed="#V" n="57" break="no"/>scindit caeteros contractus; ergo neque
+            <lb ed="#V" n="58"/>irritat matrimonium.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Respondetur antecedens esse dubium,
+            <lb ed="#V" n="60"/>quod negat Molina tom. 2. de Justitia et
+            <lb ed="#V" n="61"/>Jure, disp. 326. Sotus lib. 8. q. art. 7.
+            <lb ed="#V" n="62"/>Bartol. 1. Metum praesentem, ff. de eo
+            <lb ed="#V" n="63"/>quod metus causa, etc. asserunt enim
+            <lb ed="#V" n="64"/>metum cadentem in constantem virum
+            <lb ed="#V" n="65"/>annullare ipso Jure contractus ex eo
+            pro<lb ed="#V" n="66" break="no"/>cedentes; et quidquid de hoc sit, negatur
+            <lb ed="#V" n="67"/>consequentia, quia, ut dictum est saepe,
+            <lb ed="#V" n="68"/>metus hic nec justus est, quia contra
+            li<lb ed="#V" n="69" break="no"/>bertatem matrimonii, et est cadens in
+            <lb ed="#V" n="70"/>constantem virum, ut intentatur in ordine
+            <lb ed="#V" n="71"/>ad matrimonium, qui metus omnium
+            con<lb ed="#V" n="72" break="no"/>sensu annullat contractum matrimonii
+            se<lb ed="#V" n="73" break="no"/>quentis ex ipso, quidquid sit reliquis
+            <lb ed="#V" n="74"/>contractibus.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Sexto adducitur c. de reqularibus, etc.
+            <lb ed="#V" n="76"/>de simonia, etc. ubi praecipitur
+            Mona<lb ed="#V" n="77" break="no"/>chum ob simoniam detrudendum esse in
+            <lb ed="#V" n="78"/>strictius monasterium, et certum est ibi
+            <lb ed="#V" n="79"/>debere emittere professionem, quae
+            ma<lb ed="#V" n="80" break="no"/>trimonium est spirituale, ut docet Navar.
+            <lb ed="#V" n="81"/>in prima editione cons. de reg. cons. 27.
+            <lb ed="#V" n="82"/>in 2. lib. cons. 8. de his quae vi, etc.
+            No<lb ed="#V" n="83" break="no"/>ster Manuel in Summa 2. tomo, cap. 8.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>Respondetur, quamvis id lex
+            constitu<lb ed="#V" n="85" break="no"/>erit in simoniacos monachos aut
+            mona<lb ed="#V" n="86" break="no"/>chas, cap. Quoniam, de simonia, quod est
+            <lb ed="#V" n="87"/>Lucii III. in Concilio generali, recte
+            Ec<lb ed="#V" n="88" break="no"/>clesiam id statuisse in poenam delicti, quod
+            <pb ed="#V" n="227"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>fuit etiam contra sui status professionem,
+            <lb ed="#V" n="2"/>et ex antiquis Decretis, quibus simoniaci
+            <lb ed="#V" n="3"/>ad arctam poenitentiam obligantur. Potest
+            <lb ed="#V" n="4"/>autem Ecclesia aliquem cogere ad
+            matri<lb ed="#V" n="5" break="no"/>monium spirituale, quod directe ipsi
+            su<lb ed="#V" n="6" break="no"/>best, et maxime ratione delicti, potest et
+            <lb ed="#V" n="7"/>idem etiam solvere, non ita ad
+            matrimo<lb ed="#V" n="8" break="no"/>nium corporale. Disparitas etiam est in
+            <lb ed="#V" n="9"/>casu, quia supponitur metus latronis esse
+            <lb ed="#V" n="10"/>justus, ut intentatur ad matrimonium,
+            <lb ed="#V" n="11"/>quod non admittitur. Deinde patet
+            dispa<lb ed="#V" n="12" break="no"/>ritas, quia sicut in Ecclesiae potestate est
+            <lb ed="#V" n="13"/>poenitentiam indicere ob delictum
+            simo<lb ed="#V" n="14" break="no"/>niae, ita etiam praescribere modum
+            poeni<lb ed="#V" n="15" break="no"/>tentiae; non ita licet ex lege aut facto
+            ho<lb ed="#V" n="16" break="no"/>mini privato cogere ad matrimonium ex
+            <lb ed="#V" n="17"/>delicto, quod non tendit lege aut facto ad
+            <lb ed="#V" n="18"/>matrimonium. Quod confirmatur ex cap.
+            <lb ed="#V" n="19"/>Veniens 2. de sponsalibus, etc. ubi
+            decer<lb ed="#V" n="20" break="no"/>nitur matrimonium esse irritum, ad quod
+            <lb ed="#V" n="21"/>pater coegit juvenem repertum in eodem
+            <lb ed="#V" n="22"/>lecto cum filia, quamvis delictum ipsum
+            <lb ed="#V" n="23"/>cadat in matrimonium, vel saltem praesumi
+            <lb ed="#V" n="24"/>posset. Ratio autem est, quia praesumitur
+            <lb ed="#V" n="25"/>metus ex auctoritate privata incussus
+            ir<lb ed="#V" n="26" break="no"/>ritare matrimonium, et esse cadentem in
+            <lb ed="#V" n="27"/>constantem virum, quamvis delinquens
+            <lb ed="#V" n="28"/>fuerit in culpa; ergo a fortiori metus
+            in<lb ed="#V" n="29" break="no"/>tentatus ob delictum, quod non tendit in
+            <lb ed="#V" n="30"/>matrimonium, incussus a privata persona
+            <lb ed="#V" n="31"/>irritabit matrimonium.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Petes quid dicendum sit, quando pater
+            <lb ed="#V" n="33"/>puellae aut virginis seductae intentat
+            accu<lb ed="#V" n="34" break="no"/>sationem stupratori ejus, aut mulier per
+            <lb ed="#V" n="35"/>vim oppressa per viam justitiae similiter
+            <lb ed="#V" n="36"/>intentat accusationem damni passi, nisi
+            <lb ed="#V" n="37"/>eam ducat oppressor, an matrimonium ex
+            <lb ed="#V" n="38"/>tali metu sit irritum?
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Respondetur negative ex dictis, quia et
+            <lb ed="#V" n="40"/>pars laesa habet adminiculum legis, et juste
+            <lb ed="#V" n="41"/>potest accusare, et delictum ipsum ex lege
+            <lb ed="#V" n="42"/>tendit ad matrimonium, et metus ille
+            ha<lb ed="#V" n="43" break="no"/>bet causam ab intrinseco ratione talis
+            de<lb ed="#V" n="44" break="no"/>licti.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d29q1-p4"> -->
+          <p>
+            <lb ed="#V" n="75" type="fixed=229"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>(e) Dicit etiam quidam, quod posset
+            <lb ed="#V" n="77"/>dici, etc. Haec est sententia Richardi in
+            <lb ed="#V" n="78"/>hac dist. art. 1. quoest. 1. in corpore, ubi
+            <lb ed="#V" n="79"/>tenet probabiliter dici posse
+            Ecclesi<lb ed="#V" n="80" break="no"/>am illegitimare personam pro tempore
+            <lb ed="#V" n="81"/>quo durat coactio, ac proinde
+            matrimoni<lb ed="#V" n="82" break="no"/>um esse irritum, si adhibeatur coactio ex
+            <lb ed="#V" n="83"/>Jure tantum Ecclesiastico; quam
+            senten<lb ed="#V" n="84" break="no"/>tiam tenet Durandus hic quaest. 2.
+            Palu<lb ed="#V" n="85" break="no"/>danus quoest. 1. art. 3. conclusione 2.
+            <lb ed="#V" n="86"/>Sotus quaest. 1. art. 3. Arboreus lib. 11.
+            <pb ed="#V" n="230"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Theosophice, cap. 15. Ledesma 2. p. 4.
+            <lb ed="#V" n="2"/>quaest. 49. art. 3. Henriquez lib. 11. de
+            <lb ed="#V" n="3"/>matrim. cap. 9. et alii, quos sequitur
+            <lb ed="#V" n="4"/>Sanchez lib. 4. de matrim. disp. 14.
+            <lb ed="#V" n="5"/>Conclusio Doctoris est negativa, quam
+            <lb ed="#V" n="6"/>tenet D. Thomas in hac distinct, quoest.
+            <lb ed="#V" n="7"/>unic. art. 3. quoestiunc. in corpore,
+            <lb ed="#V" n="8"/>D. Bonaventura quoest. 1. Richardus loco
+            <lb ed="#V" n="9"/>citato, Gabriel. in 3. dist. 39. quaest. 1.
+            <lb ed="#V" n="10"/>art. 2. conclus. 8. in supplemento hac
+            <lb ed="#V" n="11"/>dist. quaest. 2. art. 2. Almain q. 1.
+            Car<lb ed="#V" n="12" break="no"/>thusianus q. 2. Anton. 3. part. Summoe
+            <lb ed="#V" n="13"/>tit. 1. cap. 7. Veracruz 1. part. speculi,
+            <lb ed="#V" n="14"/>art. 8. conclus. 1. Angles in flor. 1.
+            <lb ed="#V" n="15"/>part. de matrim. quaest. 3. art. 1.
+            diffi<lb ed="#V" n="16" break="no"/>cult. 1. Bartholom. Ledesma dub. 23. de
+            <lb ed="#V" n="17"/>matrim, conclus. 3. Molina tom. 2. de
+            <lb ed="#V" n="18"/>Justitia et Jure, disput. 326. ad
+            secun<lb ed="#V" n="19" break="no"/>dum. Sotus docet esse valde probabilem.
+            <lb ed="#V" n="20"/>Covar. in 4. decret. 2. part. cap. 3.
+            <lb ed="#V" n="21"/>Victoria et alii, qui magis adhaerent
+            pri<lb ed="#V" n="22" break="no"/>mae sententiae.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Hujus conclusionis fundamenta et
+            pro<lb ed="#V" n="24" break="no"/>bationem adducit Doctor in textu
+            praece<lb ed="#V" n="25" break="no"/>denti, ubi probat matrimonium coacte
+            <lb ed="#V" n="26"/>contractum esse Jure divino invalidum ex
+            <lb ed="#V" n="27"/>causa formali, finali et efficiente.
+            Confir<lb ed="#V" n="28" break="no"/>matur, Jura quae citantur et solum
+            men<lb ed="#V" n="29" break="no"/>s tionem faciunt hujus metus cadentis in
+            <lb ed="#V" n="30"/>constantem virum, non continent
+            inha<lb ed="#V" n="31" break="no"/>bilitatem hanc, quam dicit prima
+            senten<lb ed="#V" n="32" break="no"/>tia inductam ab Ecclesia, tanquam per
+            <lb ed="#V" n="33"/>eam primo institutam, neque alibi extat
+            <lb ed="#V" n="34"/>ullus Canon continens institutionem hujus
+            <lb ed="#V" n="35"/>inhabilitatis Jure Ecclesiastico, et
+            anteri<lb ed="#V" n="36" break="no"/>or, ergo nequit institutio referri in
+            Ec<lb ed="#V" n="37" break="no"/>clesiam. Antecedens patet, quia illi
+            Ca<lb ed="#V" n="38" break="no"/>nones declarant metum constantis viri
+            <lb ed="#V" n="39"/>irritare matrimonium, et nihil in hoc
+            <lb ed="#V" n="40"/>statuunt, quia agunt de matrimonio
+            con<lb ed="#V" n="41" break="no"/>tracto, non autem contrahendo. Institutio
+            <lb ed="#V" n="42"/>autem Ecclesiastica reducitur semper ad
+            <lb ed="#V" n="43"/>suam originem, quando est nova, vel si
+            <lb ed="#V" n="44"/>ex traditione est Apostolica, illa traditio
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>habetur ex Conciliis, et antiquis Patribus.
+            <lb ed="#V" n="46"/>Casus autem praesens non ita reducitur,
+            <lb ed="#V" n="47"/>neque Ecclesia se remittit in illis
+            Canoni<lb ed="#V" n="48" break="no"/>bus ad aliquod Jus antiquum aut
+            traditi<lb ed="#V" n="49" break="no"/>onem; ergo ex natura contractus, et prout
+            <lb ed="#V" n="50"/>primum institutum est, debet referri illa
+            <lb ed="#V" n="51"/>explicatio, non vero ad institutionem
+            Ec<lb ed="#V" n="52" break="no"/>clesiae.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>Probatur consequentia, quia in primis
+            <lb ed="#V" n="54"/>c. Cum locum, etc. de sponsalibus, etc.
+            <lb ed="#V" n="55"/>intelligi debet juxta rationem et causam,
+            <lb ed="#V" n="56"/>quam adducit Pontifex irritati matrimonii
+            <lb ed="#V" n="57"/>ex metu viri constantis. Haec ratio praecise
+            <lb ed="#V" n="58"/>desumitur ex natura ipsius contractus et
+            <lb ed="#V" n="59"/>Sacramenti: Cum locum non habeat,
+            in<lb ed="#V" n="60" break="no"/>quit, consensus, ubi metus vel coactio
+            <lb ed="#V" n="61"/>intercedit, necesse est ut ubi assensus
+            cu<lb ed="#V" n="62" break="no"/>jusquam requiritur, coactionis materia
+            <lb ed="#V" n="63"/>repellatur. Matrimonium autem solo
+            con<lb ed="#V" n="64" break="no"/>sensu contrahitur, et ubi de ipso
+            quaeri<lb ed="#V" n="65" break="no"/>tur, plena debet securitate ille gaudere,
+            <lb ed="#V" n="66"/>cujus est animus indagandus, ne per
+            ti<lb ed="#V" n="67" break="no"/>morem dicat sibi placere quod odit, et
+            <lb ed="#V" n="68"/>sequatur exitus, qui de invite solet
+            nu<lb ed="#V" n="69" break="no"/>ptiis provenire, etc. ubi Pontifex primum
+            <lb ed="#V" n="70"/>sumit rationem ex natura consensu liberi
+            <lb ed="#V" n="71"/>a coactione, quod est consonum Juri
+            na<lb ed="#V" n="72" break="no"/>turali, et ex intitutione Juris divini
+            positi<lb ed="#V" n="73" break="no"/>vi. Deinde, fundat rationem quatenus per
+            <lb ed="#V" n="74"/>consensum liberum hoc modo perficitur
+            <lb ed="#V" n="75"/>tanquam per causam. Hanc eamdem
+            ra<lb ed="#V" n="76" break="no"/>tionem assignat Innocentius III. cap. Tuoe
+            <lb ed="#V" n="77"/>fraternitati, etc. de sponsalibus et
+            ma<lb ed="#V" n="78" break="no"/>trimon. etc. ubi quaeritur, an solis verbis
+            <lb ed="#V" n="79"/>contrahatur matrimonium?
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Respondetur, matrimonium vere
+            con<lb ed="#V" n="81" break="no"/>trahi per legitimum viri et mulieris
+            con<lb ed="#V" n="82" break="no"/>sensum, etc. requiri verba in ordine ad
+            <lb ed="#V" n="83"/>Ecclesiam, et surdos et mutos posse
+            con<lb ed="#V" n="84" break="no"/>trahere matrimonium per mutuum
+            con<lb ed="#V" n="85" break="no"/>sensum. Ex quibus Doctores colligunt
+            <lb ed="#V" n="86"/>contractum matrimonii ex divina, et non
+            <lb ed="#V" n="87"/>Ecclesiastica institutione fieri per
+            consen<lb ed="#V" n="88" break="no"/>sum mutuum verbis aut signis
+            expres<pb ed="#V" n="231"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>sum, quia consensus est qui inducit
+            <lb ed="#V" n="2"/>contractum, in quo consistit
+            matrimoni<lb ed="#V" n="3" break="no"/>um, sive fiat Sacramentum, sive non, de
+            <lb ed="#V" n="4"/>quo supra dictum est, ergo nullum est
+            <lb ed="#V" n="5"/>fundamentum interpretandi Pontificem in
+            <lb ed="#V" n="6"/>c. Cum locum, allegando eamdem
+            cau<lb ed="#V" n="7" break="no"/>sam, ex qua declarat matrimonium
+            co<lb ed="#V" n="8" break="no"/>actum esse nullum, loqui secundum
+            insti<lb ed="#V" n="9" break="no"/>tutionem Ecclesiae, cum causa ipsa allegata
+            <lb ed="#V" n="10"/>contineat divinam institutionem, et quae
+            <lb ed="#V" n="11"/>determinavit de natura hujus contractus.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Item, Pontifex assignat aliam rationem,
+            <lb ed="#V" n="13"/>quam supra Doctor expressit ex causa
+            <lb ed="#V" n="14"/>finali: Ne per timorem, inquit, dicat sibi
+            <lb ed="#V" n="15"/>placere quod odit, et sequatur exitus, qui
+            <lb ed="#V" n="16"/>de invitis solet nuptiis provenire, etc. cui
+            <lb ed="#V" n="17"/>concordat illud 20. q. 3. cap. Praesens,
+            <lb ed="#V" n="18"/>quod quis non diligit, facile
+            contem<lb ed="#V" n="19" break="no"/>nit, etc. et cap. Requisivit, etc. dicitur
+            <lb ed="#V" n="20"/>libera esse matrimonia, cum coactione
+            dif<lb ed="#V" n="21" break="no"/>ficiles soleant exitus frequenter
+            habe<lb ed="#V" n="22" break="no"/>re, etc. Gum ergo matrimonium sit
+            indi<lb ed="#V" n="23" break="no"/>vidua vitae societas per amorem mutuum,
+            <lb ed="#V" n="24"/>ad finem educandae prolis, ideo Deus
+            <lb ed="#V" n="25"/>instituit illud in consensu libero utriusque
+            <lb ed="#V" n="26"/>per quem contractus firmaretur, ne inviti
+            <lb ed="#V" n="27"/>a fine destinato resilirent. Eodem modo
+            <lb ed="#V" n="28"/>etiam instituit, ut idem consensus liber
+            <lb ed="#V" n="29"/>a coactione, quod non minus ad talem
+            <lb ed="#V" n="30"/>finem facit, et ad mutuum amorem cum
+            <lb ed="#V" n="31"/>pacifica cohabitatione. Primum citra
+            con<lb ed="#V" n="32" break="no"/>troversiam est divinae institutionis; ergo
+            <lb ed="#V" n="33"/>et secundum, nam quod aliqui moderni
+            <lb ed="#V" n="34"/>doceant matrimonium non potuisse
+            insti<lb ed="#V" n="35" break="no"/>tui sine mutuo consensu, ideo id docent,
+            <lb ed="#V" n="36"/>quia vel consensus est causa formalis vel
+            <lb ed="#V" n="37"/>materialis, et requisitus ad hunc nexum
+            <lb ed="#V" n="38"/>ex fine ad quem tendit, quod a fortiori
+            <lb ed="#V" n="39"/>probat consensum non esse debere
+            co<lb ed="#V" n="40" break="no"/>actum hac coactione, de qua loquimur; qui
+            <lb ed="#V" n="41"/>vero dicunt posse induci aut potuisse
+            <lb ed="#V" n="42"/>vinculum a Deo, sine dependentia a
+            vo<lb ed="#V" n="43" break="no"/>luntate conjugum, ideo de facto docent
+            <lb ed="#V" n="44"/>non fuisse sic institutum, quia non
+            con<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>gruebat fini praescripto. Unde id recte
+            <lb ed="#V" n="46"/>Doctor colligit ex illo Gen. 2. Adhoerebit
+            <lb ed="#V" n="47"/>uxori suce, etc. relinquendo, scilicet
+            pa<lb ed="#V" n="48" break="no"/>trem et matrem, non adhaeret autem nisi
+            <lb ed="#V" n="49"/>libera, et non coacta voluntate eam
+            acci<lb ed="#V" n="50" break="no"/>piat. Et hujus libertatis exemplum recte
+            <lb ed="#V" n="51"/>statuit Gen. 24. in Rebecca, cujus
+            volun<lb ed="#V" n="52" break="no"/>tas explorata fuit antequam parentes
+            <lb ed="#V" n="53"/>consensum praestiterint in matrimonium
+            <lb ed="#V" n="54"/>ejus cum Isaac; ergo haec institutio ex
+            <lb ed="#V" n="55"/>praefatis Canonibus non colligitur esse
+            <lb ed="#V" n="56"/>Ecclesiastica, sed divina ex fine et causa
+            <lb ed="#V" n="57"/>contractus assignata in proedicto cap.
+            <lb ed="#V" n="58"/>Cum locum, ex quibus procedit
+            declara<lb ed="#V" n="59" break="no"/>tio.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Secundo probatur conclusio: Contractus
+            <lb ed="#V" n="61"/>Jure divino et naturali nullus nequit esse.
+            <lb ed="#V" n="62"/>legitimus matrimonii, aut fieri legitimus;
+            <lb ed="#V" n="63"/>per Ecclesiam; sed contractus coactus per
+            <lb ed="#V" n="64"/>metum viri constantis est nullus lege
+            divi<lb ed="#V" n="65" break="no"/>na et naturali; ergo nequit esse ex eadem
+            <lb ed="#V" n="66"/>lege legitimus matrimonii. Sumo
+            con<lb ed="#V" n="67" break="no"/>tractum late, ut obnoxius est restitutioni,
+            <lb ed="#V" n="68"/>et solubilis, aut irritari potest. Major est
+            <lb ed="#V" n="69"/>certa; minor recepta ab omnibus, quia
+            <lb ed="#V" n="70"/>tales contractus sunt ipso humano Jure
+            <lb ed="#V" n="71"/>nulli, aut irritandi, quia per eum res non
+            <lb ed="#V" n="72"/>transit in justam possessionem alterius;
+            <lb ed="#V" n="73"/>aut dominium, cum hoc requirat
+            transla<lb ed="#V" n="74" break="no"/>tionem liberam, et antequam irritetur
+            <lb ed="#V" n="75"/>contractus, qui eam possidet, tenetur eam
+            <lb ed="#V" n="76"/>restituere ex divino et naturali Jure, quo
+            <lb ed="#V" n="77"/>quis nequit privari re sua injuste.
+            Proba<lb ed="#V" n="78" break="no"/>tur consequentia, quia contractus
+            matri<lb ed="#V" n="79" break="no"/>monii ex natura sua est insolubilis ex
+            di<lb ed="#V" n="80" break="no"/>vina institutione; ergo nequit fundari in
+            <lb ed="#V" n="81"/>aliquo solubili, et quod divina lege aut
+            <lb ed="#V" n="82"/>naturali irritum est, aut irritandum; ergo
+            <lb ed="#V" n="83"/>non ex sola Ecclesiastica aut humana
+            in<lb ed="#V" n="84" break="no"/>stitutione est nullus, sed ex divina, qua
+            <lb ed="#V" n="85"/>habet ut fiat per consensum legitimum et
+            <lb ed="#V" n="86"/>irrevocabilem, sive per humanam legem,
+            <lb ed="#V" n="87"/>sive etiam per propriam voluntatem; ea
+            <lb ed="#V" n="88"/>enim ratione, qua inducta est divisio
+            re<pb ed="#V" n="232"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>rum, et proprietas, Deo approbante in
+            <lb ed="#V" n="2"/>Decalogo, manet res in proprietate sui
+            <lb ed="#V" n="3"/>domini, nisi ipse eam juste transferat, et
+            <lb ed="#V" n="4"/>per liberum consensum, quando lex aliter
+            <lb ed="#V" n="5"/>non disponit in poenam negligentiae aut
+            <lb ed="#V" n="6"/>delicti, et hoc ad communem pacem et
+            so<lb ed="#V" n="7" break="no"/>cietatem legitime servandam.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Dices inde sequi quod etiam consensus
+            <lb ed="#V" n="9"/>metu levi, et inconstantis extortus
+            annul<lb ed="#V" n="10" break="no"/>lat matrimonium, quia caeteri contractus
+            <lb ed="#V" n="11"/>tali metu facti sunt obnoxii restitutioni
+            <lb ed="#V" n="12"/>in foro conscientiae, quia deficit translatio
+            <lb ed="#V" n="13"/>libera.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Contra, non sequitur, sed argumentum
+            <lb ed="#V" n="15"/>a fortiori concludit dato antecedente; et
+            <lb ed="#V" n="16"/>peto qua lege consensus coactus non
+            trans<lb ed="#V" n="17" break="no"/>ferat dominium in foro interno animae?
+            <lb ed="#V" n="18"/>Non alia quam ex lege illius fori propria,
+            <lb ed="#V" n="19"/>quae est divina et naturalis, quae judicat
+            <lb ed="#V" n="20"/>de occultis; ergo contractus nullus illa
+            <lb ed="#V" n="21"/>lege non potest esse matrimonialis
+            indu<lb ed="#V" n="22" break="no"/>cens vinculum insolubile, nisi ipsa lege et
+            <lb ed="#V" n="23"/>voluntate legislatoris suppleatur. Sed
+            con<lb ed="#V" n="24" break="no"/>sensus coactus per metum viri constantis
+            <lb ed="#V" n="25"/>non inducit contractum legitimum in foro
+            <lb ed="#V" n="26"/>conscientiae obstante divina lege; ergo
+            ne<lb ed="#V" n="27" break="no"/>que matrimonialem. Cur autem metus levis
+            <lb ed="#V" n="28"/>non annullat contractum matrimonii, non
+            <lb ed="#V" n="29"/>est ex institutione Ecclesiae, sed ex divina
+            <lb ed="#V" n="30"/>institutione, quam per declarationem
+            Ec<lb ed="#V" n="31" break="no"/>clesiae cognoscimus, quae declarat requiri
+            <lb ed="#V" n="32"/>consensum liberum a coactione, quae
+            ca<lb ed="#V" n="33" break="no"/>dat in virum constantem, ad valorem
+            ma<lb ed="#V" n="34" break="no"/>trimonii, quod non annullatur per metum
+            <lb ed="#V" n="35"/>viri inconstantis et levis, quia id non
+            de<lb ed="#V" n="36" break="no"/>clarat Ecclesia, imo excludit per
+            excepti<lb ed="#V" n="37" break="no"/>onem solius metus cadentis in constantem
+            <lb ed="#V" n="38"/>virum, divina institutio ex declaratione
+            Ec<lb ed="#V" n="39" break="no"/>clesiae est petenda, quae institutio congrua
+            <lb ed="#V" n="40"/>fuit propter praeceptum et necessitatem
+            <lb ed="#V" n="41"/>propagationis, et ad excludendos
+            praetex<lb ed="#V" n="42" break="no"/>tus faciles ad solvendum matrimonium,
+            <lb ed="#V" n="43"/>quod Deus voluit esse insolubile, nisi in
+            <lb ed="#V" n="44"/>casu praefato, aut quando deest
+            circum<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>stantia lege statuta, ut contrahentes sint
+            <lb ed="#V" n="46"/>habiles.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Tertio: Omnis ratio et congruentia,
+            <lb ed="#V" n="48"/>quae probat necessitatem consensus
+            pro<lb ed="#V" n="49" break="no"/>prii conjugum, ita ut parentes pro filiis
+            <lb ed="#V" n="50"/>infantibus contrahentes, aut tutores non
+            <lb ed="#V" n="51"/>perficiant matrimonium pupillorum
+            nomi<lb ed="#V" n="52" break="no"/>ne, quamvis alii contractus valeant
+            nomi<lb ed="#V" n="53" break="no"/>ne ipsorum. Omnis, inquam, talis ratio
+            <lb ed="#V" n="54"/>reducitur ad necessitatem consensus
+            libe<lb ed="#V" n="55" break="no"/>ri ipsorum conjugum ex divina
+            instituti<lb ed="#V" n="56" break="no"/>one; sed perinde etiam probatur
+            necessa<lb ed="#V" n="57" break="no"/>rium esse illum consensum liberum esse
+            <lb ed="#V" n="58"/>a coactione praedicta ex divina
+            instituti<lb ed="#V" n="59" break="no"/>one, ex qua consensus coactus non
+            repu<lb ed="#V" n="60" break="no"/>tatur pro vero consensu et libertatis
+            ne<lb ed="#V" n="61" break="no"/>cessariae ad contractum in foro
+            conscien<lb ed="#V" n="62" break="no"/>tiae, quia consentiens licet sit voluntarius,
+            <lb ed="#V" n="63"/>tamen electio ejus magis specificatur a
+            <lb ed="#V" n="64"/>motivo coactionis, tanquam a fine
+            operan<lb ed="#V" n="65" break="no"/>tis quam a translatione rei, in quam non
+            <lb ed="#V" n="66"/>consentit, nisi ut praecise est medium
+            li<lb ed="#V" n="67" break="no"/>berandi seipsum a coactione gravi, quae
+            <lb ed="#V" n="68"/>infertur, et ejus causa quae applicatur.
+            <lb ed="#V" n="69"/>Consensus autem liber in matrimonio, et
+            <lb ed="#V" n="70"/>personalis ideo requiritur, quia vinculum,
+            <lb ed="#V" n="71"/>amoris naturalis per individuam
+            societa<lb ed="#V" n="72" break="no"/>tem, quae prima est in genere humano,
+            <lb ed="#V" n="73"/>inducitur per matrimonium; ergo
+            requi<lb ed="#V" n="74" break="no"/>ritur consensus in eo gradu liber ex
+            divi<lb ed="#V" n="75" break="no"/>na institutione, quo specificatur a suo fine
+            <lb ed="#V" n="76"/>principaliter, et ut ex ejus motivo
+            pro<lb ed="#V" n="77" break="no"/>cedit, non autem ex motivo contrario, et
+            <lb ed="#V" n="78"/>sollicitante perpetuum dissidium et odium
+            <lb ed="#V" n="79"/>inter contrahentes, contra naturam
+            speci<lb ed="#V" n="80" break="no"/>ficam hujus contractus, et finem
+            matri<lb ed="#V" n="81" break="no"/>monii a Deo institutum, et lege
+            insepa<lb ed="#V" n="82" break="no"/>rabilem; qui enim determinat finem,
+            <lb ed="#V" n="83"/>determinat etiam media ad finem in eo
+            <lb ed="#V" n="84"/>gradu quo sunt media, et non aliter.
+            <lb ed="#V" n="85"/>Alias rationes non contemnendas pro hac
+            <lb ed="#V" n="86"/>conclusione, vide apud Sanchez loco
+            prae<lb ed="#V" n="87" break="no"/>fato.
+          </p>
+          <p>
+            <lb ed="#V" n="88"/>Objicies primo: Quia metus cadens in
+            <pb ed="#V" n="233"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>constantem virum, aut annullaret
+            contra<lb ed="#V" n="2" break="no"/>ctum Jure divino, et non Ecclesiastico ex
+            <lb ed="#V" n="3"/>defectu libertatis, aut ex injuria illata,
+            <lb ed="#V" n="4"/>sed utrumque horum perinde reperitur in
+            <lb ed="#V" n="5"/>metu levi; ergo signum est Jure
+            Eccle<lb ed="#V" n="6" break="no"/>siastico induci hoc impedimentum, non
+            <lb ed="#V" n="7"/>vero Jure divino aut naturali.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Respondetur primario est defectu
+            liber<lb ed="#V" n="9" break="no"/>tatis requisitae Jure divino, ut supra
+            pro<lb ed="#V" n="10" break="no"/>batum est, et consequenter ratione
+            inju<lb ed="#V" n="11" break="no"/>riae illatae, per coactionem talem. Neutrum
+            <lb ed="#V" n="12"/>invenitur in eo gradu in metu levi, cujus
+            <lb ed="#V" n="13"/>causa est in apprehensione erronea, et
+            <lb ed="#V" n="14"/>non subsistit in re ipsa, aut in recta
+            rati<lb ed="#V" n="15" break="no"/>one, ac proinde non tollit libertatem in
+            <lb ed="#V" n="16"/>eodem gradu quo metus constantis
+            <lb ed="#V" n="17"/>viri, quia etiam ob hunc metum Jura
+            <lb ed="#V" n="18"/>dant actionem in foro externo, non ita ob
+            <lb ed="#V" n="19"/>metum levem; magna ergo est differentia
+            <lb ed="#V" n="20"/>utriusque. Ratio adducta perinde urget
+            <lb ed="#V" n="21"/>etiam in sententia propria; quare enim
+            <lb ed="#V" n="22"/>Ecclesia annullarit contractum matrimonii
+            <lb ed="#V" n="23"/>ex metu viri constantis, et non ex metu
+            <lb ed="#V" n="24"/>levi initum, nisi ex diversitate praemissa;
+            <lb ed="#V" n="25"/>lex enim debet respicere ea quae in recta
+            <lb ed="#V" n="26"/>ratione communiter fundantur, et non quae
+            <lb ed="#V" n="27"/>ex accidenti in hoc aut illo eveniunt ex
+            <lb ed="#V" n="28"/>propria infirmitate, aut corruptione. Sicut
+            <lb ed="#V" n="29"/>ergo Ecclesia habet rationem unius, et
+            <lb ed="#V" n="30"/>non alterius metus, quantum ad nullitatem
+            <lb ed="#V" n="31"/>matrimonii, juxta primam sententiam, ita
+            <lb ed="#V" n="32"/>Deus perinde instituendo contractum
+            vo<lb ed="#V" n="33" break="no"/>luit esse liberum a coactione proveniente
+            <lb ed="#V" n="34"/>a metu gravi, et non a metu levi; et hoc
+            <lb ed="#V" n="35"/>declarat Ecclesia ex prima institutione
+            <lb ed="#V" n="36"/>contractus in consensu libero hoc modo.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Quod amplius est, dico Ecclesiam non
+            <lb ed="#V" n="38"/>potuisse hanc differentiam inducere; quod
+            <lb ed="#V" n="39"/>supposito quod vinculum hoc sit
+            indis<lb ed="#V" n="40" break="no"/>solubile ex divina institutione, et alligatum
+            <lb ed="#V" n="41"/>contractui legitimo, qui excluderet
+            defec<lb ed="#V" n="42" break="no"/>tum libertatis, et injustitiam, sicut
+            Eccle<lb ed="#V" n="43" break="no"/>sia nequit facere, quin contractus etiam
+            <lb ed="#V" n="44"/>initus per consensum extortum per metum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>levem non sit obnoxius nullitati in foro
+            <lb ed="#V" n="46"/>conscientiae, quia est contra legem
+            divi<lb ed="#V" n="47" break="no"/>nam; ita etiam ex ratione communi
+            con<lb ed="#V" n="48" break="no"/>tractus, matrimonium esset nullum, nisi
+            <lb ed="#V" n="49"/>Deus specialiter exciperet coactionem
+            <lb ed="#V" n="50"/>gravem, quia si contractus non est
+            legiti<lb ed="#V" n="51" break="no"/>mus, qui fit contra legem positivam
+            hu<lb ed="#V" n="52" break="no"/>manam, a fortiori non erit legitimus, qui
+            <lb ed="#V" n="53"/>fit contra legem Dei fortius ligantem.
+            Si<lb ed="#V" n="54" break="no"/>cut ergo Deus solus excipere potuit hunc
+            <lb ed="#V" n="55"/>contractum, ne irritaretur per metum
+            le<lb ed="#V" n="56" break="no"/>vem in foro conscientiae, ita etiam
+            insti<lb ed="#V" n="57" break="no"/>tuit, ut per solum gravem fieret ipso
+            Ju<lb ed="#V" n="58" break="no"/>re divino nullus; ex quo patet ad rationem
+            <lb ed="#V" n="59"/>adductam.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Responderi potest secundo, Jure divino
+            <lb ed="#V" n="61"/>irritari in foro conscientiae matrimonium
+            <lb ed="#V" n="62"/>quocumque metu extortum, si ipse metus
+            <lb ed="#V" n="63"/>sit tota causa consensus, et Ecclesiam
+            <lb ed="#V" n="64"/>nihil circa hoc mutasse, asserens metum
+            <lb ed="#V" n="65"/>cadentem in constantem virum reddere
+            <lb ed="#V" n="66"/>matrimonium nullum, quia Ecclesia
+            se<lb ed="#V" n="67" break="no"/>quitur praesumptionem fori externi, qui
+            <lb ed="#V" n="68"/>fundatur in causa metus, quando est
+            le<lb ed="#V" n="69" break="no"/>vis, non praesumitur coactio repugnans
+            <lb ed="#V" n="70"/>libertati; quando vero gravis,
+            contrari<lb ed="#V" n="71" break="no"/>um praesumitur, si tamen metus ex causa
+            <lb ed="#V" n="72"/>levi sit adeo gravis in affectu interno,
+            <lb ed="#V" n="73"/>ut tollat omnino spontaneum consensum,
+            <lb ed="#V" n="74"/>ita ut nullo modo patiens vellet
+            contra<lb ed="#V" n="75" break="no"/>ctum nisi ex terrore, tunc tollitur
+            consen<lb ed="#V" n="76" break="no"/>sus liber requisitus ad matrimonium, cum
+            <lb ed="#V" n="77"/>locum non habeat consensus, ubi metus et
+            <lb ed="#V" n="78"/>coactio intercedit, etc. cap. Cum
+            lo<lb ed="#V" n="79" break="no"/>cum, etc. de sponsalibus, et plena
+            liber<lb ed="#V" n="80" break="no"/>tate debet gaudere matrimonium loco
+            ci<lb ed="#V" n="81" break="no"/>tato, ut procedat ex electione spontanea,
+            <lb ed="#V" n="82"/>et non coacta. Jus enim statuens discrimen
+            <lb ed="#V" n="83"/>inter metum levem et gravem, innititur
+            <lb ed="#V" n="84"/>praesumptioni, ut dixi, ex natura causae,
+            <lb ed="#V" n="85"/>ubi autem veritas in foro occulto
+            con<lb ed="#V" n="86" break="no"/>scientiae ( de quo nequit sciri publice nisi
+            <lb ed="#V" n="87"/>ex natura causae applicatae) elidit
+            prae<lb ed="#V" n="88" break="no"/>sumptionem; in foro perinde conscientiae
+            <pb ed="#V" n="234"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>standum est veritati rei, et non
+            praesum<lb ed="#V" n="2" break="no"/>ptioni, ut patet in simili casu
+            praesum<lb ed="#V" n="3" break="no"/>ptionis, quo sponsalia per copulam ante
+            <lb ed="#V" n="4"/>Tridentinum transibant in matrimonium,
+            <lb ed="#V" n="5"/>quia Ecclesia praesumebat copulam
+            mari<lb ed="#V" n="6" break="no"/>tali consensui inniti; si tamen in veritate
+            <lb ed="#V" n="7"/>animus non fuit maritalis, sed fornicarius,
+            <lb ed="#V" n="8"/>matrimonium erat in foro conscientiae
+            nul<lb ed="#V" n="9" break="no"/>lum. Sic etiam ficto animo proferens
+            ver<lb ed="#V" n="10" break="no"/>ba exprimentia exterius, nullum contrahit
+            <lb ed="#V" n="11"/>matrimonium, quamvis in facie Ecclesiae
+            <lb ed="#V" n="12"/>praesumitur consentiens, et matrimonium
+            <lb ed="#V" n="13"/>tenet, quia in foro conscientiae veritas
+            <lb ed="#V" n="14"/>praevalet praesumptioni, c. Tuce, cap.
+            <lb ed="#V" n="15"/>Is qui fidem, etc. de sponsalibus. Si
+            <lb ed="#V" n="16"/>ergo reliqui contractus metu ex levi causa
+            <lb ed="#V" n="17"/>initi, in foro conscientiae non tenent, si
+            <lb ed="#V" n="18"/>metus solus dedit causam contractui, ita
+            <lb ed="#V" n="19"/>neque matrimonium, quod requirit
+            majo<lb ed="#V" n="20" break="no"/>rem libertatem, valebit, ubi enim caeteri
+            <lb ed="#V" n="21"/>contractus propter metum sunt
+            rescinden<lb ed="#V" n="22" break="no"/>di, matrimonium erit nullum.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Metus autem ex causa levi quoad
+            affe<lb ed="#V" n="24" break="no"/>ctum potest esse ita gravis respective ad
+            <lb ed="#V" n="25"/>personam, ut eumdem effectum inducat.
+            <lb ed="#V" n="26"/>quantum ad privationem libertatis, quem
+            <lb ed="#V" n="27"/>metus gravis in viro constante operatur.
+            <lb ed="#V" n="28"/>Hinc etiam Doctores metum gravem
+            re<lb ed="#V" n="29" break="no"/>spective ad personam attendi debere
+            di<lb ed="#V" n="30" break="no"/>cunt propter libertatem requisitam
+            con<lb ed="#V" n="31" break="no"/>sensus spontanei, sine quo non valet
+            <lb ed="#V" n="32"/>contractus. Hanc sententiam tenet noster
+            <lb ed="#V" n="33"/>Roderiquez 2. tomo Summae, cap. 8.
+            De<lb ed="#V" n="34" break="no"/>cius reg. in omnibus causis 29. ff. de reg.
+            <lb ed="#V" n="35"/>juris, Navarr. in Summa Latina cap. 22.
+            <lb ed="#V" n="36"/>lib. 3. consil. cons. 84. de requl. lib. 1.
+            <lb ed="#V" n="37"/>de his quae vi, etc. cons. 1. 3. 5. et 9.
+            <lb ed="#V" n="38"/>Jacobatius de Conciliis, lib. 4. art. 4. in
+            <lb ed="#V" n="39"/>tomo 11. tract. juris, Veracruz prima
+            <lb ed="#V" n="40"/>parte speculi art. 8. Probabilem tenet
+            Le<lb ed="#V" n="41" break="no"/>desma in 4. 2. part. q. 46. Henriq.
+            <lb ed="#V" n="42"/>lib. 11. de matrim. cap. 9. Salzedo super
+            <lb ed="#V" n="43"/>regula 592. et probabilem etiam docet
+            <lb ed="#V" n="44"/>Sanch. lib. 4. disput. 17. maxime
+            dicen<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>do metum irritare matrimonium ex
+            Ju<lb ed="#V" n="46" break="no"/>re divino.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Advertendum tamen metum gravem in
+            <lb ed="#V" n="48"/>affectu, licet ex causa levi in aestimatione
+            <lb ed="#V" n="49"/>prudentum, aliquando esse, aliquando
+            <lb ed="#V" n="50"/>vero levem, sive ex causa levi, sive ex
+            <lb ed="#V" n="51"/>causa gravi, respective ad consensum
+            <lb ed="#V" n="52"/>praestitum. Tenendo ergo hanc
+            sententi<lb ed="#V" n="53" break="no"/>am dicendum est universaliter illum metum
+            <lb ed="#V" n="54"/>esse gravem ex quacumque causa oriatur,
+            <lb ed="#V" n="55"/>gravem dico in affectu, et praejudicantem
+            <lb ed="#V" n="56"/>libertati consensus, qui non est solum
+            <lb ed="#V" n="57"/>impulsivus per modum excitantis ad
+            <lb ed="#V" n="58"/>consensum, sed dat causam finalem
+            con<lb ed="#V" n="59" break="no"/>sensui, ita ut nullo modo daretur
+            consen<lb ed="#V" n="60" break="no"/>sus nisi ad summovendum causam metus,
+            <lb ed="#V" n="61"/>et ipsum metum, et nullum sit motivum
+            <lb ed="#V" n="62"/>operandi propositum voluntati, quod
+            af<lb ed="#V" n="63" break="no"/>fectat propter se, nisi tantum summotio
+            <lb ed="#V" n="64"/>metus et causae ejus hic et nunc; talis
+            au<lb ed="#V" n="65" break="no"/>tem consensus est simpliciter coactus, et
+            <lb ed="#V" n="66"/>ut est matrimonii, non est ipsius propter
+            <lb ed="#V" n="67"/>se, sed ut est medium summovendi
+            me<lb ed="#V" n="68" break="no"/>tum. E contra sive causa levis, sive
+            gra<lb ed="#V" n="69" break="no"/>vis sit, modo metus sit levis in affectu, et
+            <lb ed="#V" n="70"/>solum excitans ad consensum, qui alias
+            <lb ed="#V" n="71"/>fit propter finem intrinsecum ipsius
+            con<lb ed="#V" n="72" break="no"/>tractus, tunc non dat causam contractui
+            <lb ed="#V" n="73"/>finalem, et valet in foro conscientiae,
+            <lb ed="#V" n="74"/>quantumlibet in foro externo praesumatur
+            <lb ed="#V" n="75"/>nullus ob causam metus gravis. Et si
+            di<lb ed="#V" n="76" break="no"/>catur, Ecclesiam induxisse impedimentum
+            <lb ed="#V" n="77"/>inhabilitatis in casu coactionis gravis ex
+            <lb ed="#V" n="78"/>causa, esset nullus, tamen tenendo
+            sen<lb ed="#V" n="79" break="no"/>tentiam quam sequimur erit validum
+            ma<lb ed="#V" n="80" break="no"/>trimonium, quia consensus spontaneus
+            <lb ed="#V" n="81"/>est, ut respicit suum motivum finale, et
+            <lb ed="#V" n="82"/>ex mera electione, licet ad eum excitet
+            <lb ed="#V" n="83"/>metus levis in affectu, v. g. aliquis
+            con<lb ed="#V" n="84" break="no"/>trahens sponsalia accedit animo maritali
+            <lb ed="#V" n="85"/>ad sponsam, quam omnino vult ducere;
+            <lb ed="#V" n="86"/>si adjiciatur ad hoc metus ex causa
+            gra<lb ed="#V" n="87" break="no"/>vi, non potest esse gravis in affectu, quia
+            <lb ed="#V" n="88"/>talis non est repugnans, sed potius
+            pro<pb ed="#V" n="235"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>movet interius consensum quem habet, in
+            <lb ed="#V" n="2"/>suum finem; metus autem est circa
+            noli<lb ed="#V" n="3" break="no"/>tum et repugnans appetitui elicito
+            vo<lb ed="#V" n="4" break="no"/>luntatis; in proposito casu voluntas non
+            <lb ed="#V" n="5"/>est repugnans, sed inclinata in
+            consen<lb ed="#V" n="6" break="no"/>sum; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Hinc sequitur Deum non instituisse
+            <lb ed="#V" n="8"/>aliquid speciale circa contractum
+            matri<lb ed="#V" n="9" break="no"/>monialem, quantum ad libertatem
+            neces<lb ed="#V" n="10" break="no"/>sariam consensus, praeter id quod
+            com<lb ed="#V" n="11" break="no"/>mune est caeteris. Doctores autem et
+            Ec<lb ed="#V" n="12" break="no"/>clesia loquentes praecise de coactione viri
+            <lb ed="#V" n="13"/>constantis, innituntur praesumptioni fori
+            <lb ed="#V" n="14"/>externi. Ex quo patet ad argumentum in
+            <lb ed="#V" n="15"/>oppositum, una vel altera via, dicendo
+            <lb ed="#V" n="16"/>scilicet quod ex divina institutione tantum
+            <lb ed="#V" n="17"/>metus cadens in constantem virum
+            annul<lb ed="#V" n="18" break="no"/>let matrimonium, attendendo tantum ad
+            <lb ed="#V" n="19"/>metum rationabilem, ut ex eo est
+            con<lb ed="#V" n="20" break="no"/>sensus, vel dicendo ex secunda
+            responsi<lb ed="#V" n="21" break="no"/>one omnem metum ex quacumque causa
+            <lb ed="#V" n="22"/>ortum, qui dat causam et finem
+            consen<lb ed="#V" n="23" break="no"/>sui, annullare contractum secundum
+            veri<lb ed="#V" n="24" break="no"/>tatem, et in foro conscientiae, non
+            secun<lb ed="#V" n="25" break="no"/>dum praesumptionem.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Objicies secundo: Baptismus requirit
+            <lb ed="#V" n="27"/>consensum adulti, tamen coactus sufficit;
+            <lb ed="#V" n="28"/>ergo etiam coactus non irritat Jure divino
+            <lb ed="#V" n="29"/>matrimonium.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Respondetur non requiri consensum
+            <lb ed="#V" n="31"/>adulti ad Baptismum, ut materia et forma,
+            <lb ed="#V" n="32"/>sicut ad matrimonium, sed ut
+            conditi<lb ed="#V" n="33" break="no"/>onem, ideoque consensum coactum
+            suffi<lb ed="#V" n="34" break="no"/>cere, per quem inclinatur voluntas
+            effica<lb ed="#V" n="35" break="no"/>citer ad receptionem ejus. Non ita in
+            <lb ed="#V" n="36"/>matrimonio, quia requiritur ut perficiatur
+            <lb ed="#V" n="37"/>contractus ejus per consensum mutuum
+            <lb ed="#V" n="38"/>personalem et liberum, in forma et
+            mate<lb ed="#V" n="39" break="no"/>ria, ex divina institutione; est enim
+            <lb ed="#V" n="40"/>contractus onerosus, ad quem Deus
+            <lb ed="#V" n="41"/>instituit hominem debere de libero suo
+            <lb ed="#V" n="42"/>consensu excludente coactionem gravem
+            <lb ed="#V" n="43"/>induci, et hoc requirit finis, et ratio
+            spe<lb ed="#V" n="44" break="no"/>cifica hujus contractus.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Objicies tertio: Nihil magis
+            contrari<lb ed="#V" n="46" break="no"/>atur contractui, quam dolus et error; sed
+            <lb ed="#V" n="47"/>hic non irritat matrimonium, nisi sit
+            per<lb ed="#V" n="48" break="no"/>sonae, aut conditionis; ergo metus non
+            ir<lb ed="#V" n="49" break="no"/>ritat, nisi solo Jure Ecclesiastico.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Respondetur negando consequentiam;
+            <lb ed="#V" n="51"/>ad antecedens vero dicetur dist. sequenti,
+            <lb ed="#V" n="52"/>quis error, et quo Jure dirimat
+            matrimoni<lb ed="#V" n="53" break="no"/>um, nempe utrumque Jure divino, et non
+            <lb ed="#V" n="54"/>Ecclesiastico dirimere ex defectu libertatis
+            <lb ed="#V" n="55"/>et consensus, sicut metus gravis, qui
+            ma<lb ed="#V" n="56" break="no"/>gis repugnat libertati consensus, quam
+            <lb ed="#V" n="57"/>ignorantia et error, quia metus positive
+            <lb ed="#V" n="58"/>repugnat, error vero solum privative, et
+            <lb ed="#V" n="59"/>ex defectu intellectus.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>(f) Contra hoc, iste coactus metu
+            sim<lb ed="#V" n="61" break="no"/>pliciter, etc. Objicit contra conclusionem
+            <lb ed="#V" n="62"/>principalem, primo, quia consensus
+            co<lb ed="#V" n="63" break="no"/>actus, supple ex metu, est absolutus, et
+            <lb ed="#V" n="64"/>transfert dominium; est enim conformis
+            <lb ed="#V" n="65"/>verbis, per quae exprimitur, quae sunt
+            si<lb ed="#V" n="66" break="no"/>gna consensus absoluti, et non
+            conditiona<lb ed="#V" n="67" break="no"/>ti. Debet autem proferens verba habere
+            <lb ed="#V" n="68"/>consensum conformem et absolutum, ne
+            <lb ed="#V" n="69"/>mentiatur perniciose, ut supra probavit.
+            <lb ed="#V" n="70"/>§ Hic dicitur, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Secundo contrahens ex metu peccati
+            <lb ed="#V" n="72"/>valide contrahit; ergo etiam contrahens ex
+            <lb ed="#V" n="73"/>metu poenae vel damni.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Tertio, contrahens ex metu mali in
+            <lb ed="#V" n="75"/>proximo valide contrahit, sive sit peccati,
+            <lb ed="#V" n="76"/>sive poenae.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>(g) Ad solutionem istorum, etc.
+            Re<lb ed="#V" n="78" break="no"/>spondet primo ex ratione Sacramenti, ad
+            <lb ed="#V" n="79"/>quod requiritur intentio libera in
+            mini<lb ed="#V" n="80" break="no"/>stro: Quamvis hoc, inquit, non sit ita
+            <lb ed="#V" n="81"/>notum, sicut notum est requiri libertatem
+            <lb ed="#V" n="82"/>ad contractum. Ministri hujus Sacramenti
+            <lb ed="#V" n="83"/>sunt ipsi contrahentes, ut dicit dist. 26.
+            <lb ed="#V" n="84"/>merito dicit non esse notum libertatem in
+            <lb ed="#V" n="85"/>eo gradu requiri ad intentionem ministri,
+            <lb ed="#V" n="86"/>sicut ad contractum, quia intentione,
+            co<lb ed="#V" n="87" break="no"/>acta etiam, ministri, salvatur intentio
+            <lb ed="#V" n="88"/>Christi et Ecclesiae, quod sufficit ad
+            perfi<pb ed="#V" n="236"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ciendum Sacramentum, adhibitis materia
+            <lb ed="#V" n="2"/>et forma. Caeterum in hoc Sacramento est
+            <lb ed="#V" n="3"/>ratio specialis, quia contrahentes
+            mini<lb ed="#V" n="4" break="no"/>strant Sacramentum, inquantum
+            contra<lb ed="#V" n="5" break="no"/>hunt, si sunt baptizati; quidquid ergo
+            re<lb ed="#V" n="6" break="no"/>quiritur ad contractum validum, requiritur
+            <lb ed="#V" n="7"/>ad Sacramentum. Quia tamen manifestior est
+            <lb ed="#V" n="8"/>ratio desumpta ex natura contractus quam
+            <lb ed="#V" n="9"/>Sacramenti, et ministri intentione, licet hic
+            <lb ed="#V" n="10"/>conjuncta sint, ideo dicit non esse ita
+            no<lb ed="#V" n="11" break="no"/>tum primum, sicut est notum secundum.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Hoc ergo praesupposito respondet
+            se<lb ed="#V" n="13" break="no"/>cundo ad primum, quod ille cui incutitur
+            <lb ed="#V" n="14"/>metus peccati mortalis, aut carceris seu
+            <lb ed="#V" n="15"/>alterius poenae, secundum rectam
+            rati<lb ed="#V" n="16" break="no"/>onem, debet dicere verba matrimonialia
+            <lb ed="#V" n="17"/>exterius, et habere consensum conformem
+            <lb ed="#V" n="18"/>interius. Intelligit metum peccati
+            morta<lb ed="#V" n="19" break="no"/>lis secundum rectam rationem, illum qui
+            <lb ed="#V" n="20"/>est mendacii (perniciosi, si ficte diceret
+            <lb ed="#V" n="21"/>verba sine consensu debito, quem
+            reprae<lb ed="#V" n="22" break="no"/>sentant, quando scilicet est constitutus
+            <lb ed="#V" n="23"/>in ea perplexitate, ut vel mentiatur
+            di<lb ed="#V" n="24" break="no"/>cendo verba ficte vel certe det
+            consen<lb ed="#V" n="25" break="no"/>sum per metum. Negat autem per talem
+            <lb ed="#V" n="26"/>consensum transferri potestatem
+            corpo<lb ed="#V" n="27" break="no"/>ris, vel ex defectu consensus liberi
+            requi<lb ed="#V" n="28" break="no"/>siti ex ratione communi contractus, vel
+            <lb ed="#V" n="29"/>quia talis in specie non ratificatur a
+            su<lb ed="#V" n="30" break="no"/>periori domino, qui est Deus.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Haec solutio trimembris patet ex
+            re<lb ed="#V" n="32" break="no"/>sponsione praemissa ad primum
+            argumen<lb ed="#V" n="33" break="no"/>tum oppositae sententiae, secundum
+            <lb ed="#V" n="34"/>utramque viam ibi assignatam;
+            consen<lb ed="#V" n="35" break="no"/>sus ergo ille, licet sit absolutus,
+            impedi<lb ed="#V" n="36" break="no"/>tur per metum; est autem absolutus,
+            <lb ed="#V" n="37"/>quamvis imbibat conditionem
+            praesuppo<lb ed="#V" n="38" break="no"/>sitam legis annullantis, quia est
+            absolu<lb ed="#V" n="39" break="no"/>tus, quantum est ex parte consentientis
+            <lb ed="#V" n="40"/>in talibus circumstantiis; ex quo patet ad
+            <lb ed="#V" n="41"/>replicam, vide textum.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>(h) Ad secundum dico, etc. Respondet
+            <lb ed="#V" n="43"/>ad secundam objectionem, nempe si
+            con<lb ed="#V" n="44" break="no"/>sensus fiat ex zelo justitiae, et ad
+            evitan<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>dum peccatum, tenere consensum, et
+            <lb ed="#V" n="46"/>contractum factum, quia nempe hic
+            con<lb ed="#V" n="47" break="no"/>sensus est ab intrinseco, et secundum
+            rec<lb ed="#V" n="48" break="no"/>tam rationem, et non ex commodo, sed ex
+            <lb ed="#V" n="49"/>justitia, de quo superius diximus, verbi
+            <lb ed="#V" n="50"/>gratia, quando aliquis contrahit cum
+            con<lb ed="#V" n="51" break="no"/>cubina metu divinae offensae, et ne
+            am<lb ed="#V" n="52" break="no"/>plius in peccatum incidat, vel aliquis
+            <lb ed="#V" n="53"/>timore scandali contrahat, et hujusmodi.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Hinc infertur primo, quod si aliquis ex
+            <lb ed="#V" n="55"/>metu reverentiali contrahat, validum esse
+            <lb ed="#V" n="56"/>contractum, si ille consensus fiat ex
+            moti<lb ed="#V" n="57" break="no"/>vo justitiae servandae, aut morem gerendi
+            <lb ed="#V" n="58"/>praecepto patris, aut consilio superiorum,
+            <lb ed="#V" n="59"/>et voluntati; quod si consensus sit ex
+            <lb ed="#V" n="60"/>metu reverentiali, cui adjunguntur minae,
+            <lb ed="#V" n="61"/>et periculum damni gravis, est cadens in
+            <lb ed="#V" n="62"/>constantem virum, et annullat
+            matrimo<lb ed="#V" n="63" break="no"/>nium, quia metus ille ex affectu commodi
+            <lb ed="#V" n="64"/>procedit, et non justitiae. Vide plura de
+            <lb ed="#V" n="65"/>hoc apud Sanchez lib. 4. disput. 6.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Infertur secundo, quod si aliquis metu
+            <lb ed="#V" n="67"/>gravi contraxit matrimonium, quod si
+            <lb ed="#V" n="68"/>eodem metu inductus fuerit ad
+            consum<lb ed="#V" n="69" break="no"/>mationem ejus, si consummatio facta sit
+            <lb ed="#V" n="70"/>ex affectu justitiae, et spontanea ne
+            pecca<lb ed="#V" n="71" break="no"/>ret, valere matrimonium, cap. Is qui
+            <lb ed="#V" n="72"/>fidem, etc. de sponsalibus, etc.
+            commu<lb ed="#V" n="73" break="no"/>niter Doctores in praesenti distinct. ut
+            <lb ed="#V" n="74"/>D. Thomas artic. 3. quoestiunc. 2. ad 2.
+            <lb ed="#V" n="75"/>D. Bonaventura. quoest. 2. Richardus
+            <lb ed="#V" n="76"/>artic. 2. quoest. 2. Paludanus quoest. 1.
+            <lb ed="#V" n="77"/>artic. 4. Glossa in cap.
+            consultati<lb ed="#V" n="78" break="no"/>oni, etc. eodem, Summistae verb.
+            Matri<lb ed="#V" n="79" break="no"/>monium, qui dicunt per copulam
+            spon<lb ed="#V" n="80" break="no"/>taneam animo maritali habitam
+            matrimo<lb ed="#V" n="81" break="no"/>nium nullum ex metu ratificari. Ratio est,
+            <lb ed="#V" n="82"/>quia metus in casu proposito mutat
+            rati<lb ed="#V" n="83" break="no"/>onem causae, quam habuit in priori
+            <lb ed="#V" n="84"/>contractus, quia in illo fuit causa non
+            <lb ed="#V" n="85"/>solum compulsiva, sed etiam finalis, et
+            <lb ed="#V" n="86"/>dans speciem actui, id est, consensum
+            <lb ed="#V" n="87"/>specificans ex solo affectu commodi ad
+            <lb ed="#V" n="88"/>removendum damnum; in casu copulae
+            <pb ed="#V" n="237"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sequentis ex animo maritali, est solum
+            <lb ed="#V" n="2"/>excitans, et consensus maritalis est novus
+            <lb ed="#V" n="3"/>et diversus, et conceptus ex regula
+            justi<lb ed="#V" n="4" break="no"/>tiae ad evitandum peccatum, quia alias
+            <lb ed="#V" n="5"/>non liceret habere copulam ex vi prioris
+            <lb ed="#V" n="6"/>consensus coacti. Consensus ergo
+            marita<lb ed="#V" n="7" break="no"/>lis superveniens specificatur ab ipso
+            con<lb ed="#V" n="8" break="no"/>tractu et fine ejus, ratificat priorem
+            con<lb ed="#V" n="9" break="no"/>tractum, et reddit copulam licitam, est
+            <lb ed="#V" n="10"/>concomitans cum consensu alterius
+            conju<lb ed="#V" n="11" break="no"/>gis, qui manet alias suspensus et nullus,
+            <lb ed="#V" n="12"/>donec accedat consensus patientis
+            coa<lb ed="#V" n="13" break="no"/>ctionem.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Idem dicendum si ex utraque parte fuit
+            <lb ed="#V" n="15"/>coactio, modo superveniat consensus
+            ma<lb ed="#V" n="16" break="no"/>ritalis mutuus in ordine ad copulam. Hoc
+            <lb ed="#V" n="17"/>matrimonium ita ratificatum per
+            consen<lb ed="#V" n="18" break="no"/>sum praemissum non est matrimonium
+            <lb ed="#V" n="19"/>praesumptum, sed reale, et secundum
+            ve<lb ed="#V" n="20" break="no"/>ritatem rei, vel in foro conscientiae, vel
+            <lb ed="#V" n="21"/>aliquando etiam in foro externo, ut si
+            me<lb ed="#V" n="22" break="no"/>tum passus affirmet de se novo
+            consenti<lb ed="#V" n="23" break="no"/>re in contractum, qui alias nullus erat
+            <lb ed="#V" n="24"/>per consensum priorem et metum,
+            asse<lb ed="#V" n="25" break="no"/>rens se consentire in copulam non ex
+            <lb ed="#V" n="26"/>coactione, quae infertur, sed ne illicita
+            <lb ed="#V" n="27"/>sit, et ad salutem animae suae, et ne ex
+            <lb ed="#V" n="28"/>facto sequatur scandalum; tunc
+            matrimo<lb ed="#V" n="29" break="no"/>nium erit validum in foro exteriori
+            sup<lb ed="#V" n="30" break="no"/>posito vero consensu maritali; si vero
+            <lb ed="#V" n="31"/>adhibeat consensum internum tantum,
+            <lb ed="#V" n="32"/>et factum externum, erit saltem
+            matri<lb ed="#V" n="33" break="no"/>monium verum in foro conscientiae, licet
+            <lb ed="#V" n="34"/>aliqui in negent.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>Dubium est, si in foro externo et coram
+            <lb ed="#V" n="36"/>Ecclesia fiet verum matrimonium. Idem
+            <lb ed="#V" n="37"/>etiam dubium non obstantibus praemissis
+            <lb ed="#V" n="38"/>manet etiam quoad valorem matrimonii in
+            <lb ed="#V" n="39"/>foro conscientiae. Qui dicunt inhabilitari
+            <lb ed="#V" n="40"/>personas pro eo tempore quo durat
+            coa<lb ed="#V" n="41" break="no"/>ctio, consequenter dicerent, quod neque
+            <lb ed="#V" n="42"/>in foro interno, neque externo valeat
+            ma<lb ed="#V" n="43" break="no"/>trimonium, quia consensus maritalis non
+            <lb ed="#V" n="44"/>perficit contractum, quia inhabiles sunt
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>personae ad contrahendum per legem,
+            <lb ed="#V" n="46"/>ideoque donec recedat coactio, nullus
+            con<lb ed="#V" n="47" break="no"/>sensus erit legitimus; haec satis
+            conse<lb ed="#V" n="48" break="no"/>quenter dicta sunt, et patet in aliis
+            impe<lb ed="#V" n="49" break="no"/>dimentis irritantibus, quamdiu persistunt,
+            <lb ed="#V" n="50"/>non valere matrimonium. Hanc tenet
+            San<lb ed="#V" n="51" break="no"/>chez disput. 18. lib. 4. Aliud
+            fundamen<lb ed="#V" n="52" break="no"/>tum esse potest, nempe durante coactione
+            <lb ed="#V" n="53"/>non posse copulam haberi ex consensu
+            <lb ed="#V" n="54"/>maritali; ergo etiam neque in foro
+            con<lb ed="#V" n="55" break="no"/>scientiae valebit matrimonium in casu
+            <lb ed="#V" n="56"/>praemisso ex utraque causa.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Alia sententia tenet matrimonium in
+            <lb ed="#V" n="58"/>foro externo valere, cap... de eo qui
+            <lb ed="#V" n="59"/>duxit in matrimonium, etc. ubi glossa
+            <lb ed="#V" n="60"/>in cap. consultationi, cum glossa cap.
+            <lb ed="#V" n="61"/>Ex litteris, de sponsalib. impub. quibus
+            <lb ed="#V" n="62"/>praesumitur matrimonium subsecuta
+            co<lb ed="#V" n="63" break="no"/>pula, ex ratione alias allegata, quia
+            nem<lb ed="#V" n="64" break="no"/>pe Ecclesia praesumit consensum
+            marita<lb ed="#V" n="65" break="no"/>lem, qui debet inesse secundum rectam
+            <lb ed="#V" n="66"/>rationem et legem. Pro hac facit Paludan.
+            <lb ed="#V" n="67"/>supplementum Gabrielis hic dubio 3.
+            <lb ed="#V" n="68"/>Sotus quaest. 1. art. 3. Angles supra
+            ci<lb ed="#V" n="69" break="no"/>tatus, et Barthol. de Ledesma dub. 23.
+            <lb ed="#V" n="70"/>Vega lib. 2. Summae casu 513. et
+            proba<lb ed="#V" n="71" break="no"/>bilem censent Henriquez et Sanchez citati.
+            <lb ed="#V" n="72"/>Idem de sponsalibus quando copula
+            sequi<lb ed="#V" n="73" break="no"/>tur etiam coacta olim transivisse in
+            matri<lb ed="#V" n="74" break="no"/>monium, docent Covarr. 4. decret. 1.
+            <lb ed="#V" n="75"/>cap. 4. Cuccus lib. 1. Institut. Major
+            <lb ed="#V" n="76"/>tit. 10. Hostiensis cap. Is qui fidem, etc.
+            <lb ed="#V" n="77"/>de sponsalibus, etc. Joannes Andreas
+            <lb ed="#V" n="78"/>ibidem, dicens foeminam posse solum
+            al<lb ed="#V" n="79" break="no"/>legare contra praesumptionem se vim
+            pas<lb ed="#V" n="80" break="no"/>sam, non autem virum, qui opprimi
+            <lb ed="#V" n="81"/>nequit.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>Dico primo praesumptionem in hoc
+            ca<lb ed="#V" n="83" break="no"/>su esse dubiam, quia eadem causa
+            ma<lb ed="#V" n="84" break="no"/>nens elidit praesumptionem, nempe
+            co<lb ed="#V" n="85" break="no"/>actio. In praedictis autem Juribus
+            funda<lb ed="#V" n="86" break="no"/>tur praesumptio in copula spontanea, ad
+            <lb ed="#V" n="87"/>quam vis exterior non compellebat, et
+            <lb ed="#V" n="88"/>cessante coactione. Unde sicut
+            Eccle<pb ed="#V" n="238"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>sia nequit praesumere consensum
+            spon<lb ed="#V" n="2" break="no"/>taneum ex causa metus in contractu
+            <lb ed="#V" n="3"/>sequente, quia metus ille praesumitur
+            <lb ed="#V" n="4"/>causa consensus, ita etiam supposita
+            <lb ed="#V" n="5"/>perseverantia ejusdem coactionis ad
+            con<lb ed="#V" n="6" break="no"/>summationem matrimonii coacti, manet
+            <lb ed="#V" n="7"/>dubia praesumptio in facto externo
+            con<lb ed="#V" n="8" break="no"/>summationis, quamdiu voluntas subest
+            <lb ed="#V" n="9"/>coactioni, quia ex offensione libertatis
+            of<lb ed="#V" n="10" break="no"/>fenditur, et deliberatio, et judicium
+            obscu<lb ed="#V" n="11" break="no"/>ratur in operante, de quo aliter
+            praesu<lb ed="#V" n="12" break="no"/>mendum est in repentinis et coactis, aliter
+            <lb ed="#V" n="13"/>vero quando spontanee et ex deliberatione
+            <lb ed="#V" n="14"/>operatur.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>Dico secundo, quidquid sit de
+            praesum<lb ed="#V" n="16" break="no"/>ptione, matrimonium esse validum in foro
+            <lb ed="#V" n="17"/>conscientiae modo praecessit consensus
+            <lb ed="#V" n="18"/>maritalis, quia nihil deest requisitum;
+            co<lb ed="#V" n="19" break="no"/>pula enim ex consensu maritali provenit.
+            <lb ed="#V" n="20"/>Ad rationem primam in contrarium alias
+            <lb ed="#V" n="21"/>dictum est, Jure divino reddi
+            matrimoni<lb ed="#V" n="22" break="no"/>um coactum nullum ex defectu libertatis,
+            <lb ed="#V" n="23"/>non autem Jure Ecclesiastico, quia
+            Eccle<lb ed="#V" n="24" break="no"/>sia declarat secundum Jus divinum, et non
+            <lb ed="#V" n="25"/>statuit. Ad secundum respondetur, sicut
+            <lb ed="#V" n="26"/>in potestate libera hominis est non peccare
+            <lb ed="#V" n="27"/>exercendo actum ad quem compelletur;
+            <lb ed="#V" n="28"/>sic etiam consentire in actum, ut fieri
+            de<lb ed="#V" n="29" break="no"/>bet sine peccato, hunc consensum ex
+            ca<lb ed="#V" n="30" break="no"/>su et occasione metus sollicitat, libera
+            ve<lb ed="#V" n="31" break="no"/>ro electio et recta ratio in homine
+            con<lb ed="#V" n="32" break="no"/>stante causat, excitat, ut dixi, metus et
+            <lb ed="#V" n="33"/>coactio, non vero specificat. In moralibus
+            <lb ed="#V" n="34"/>autem facilis est distinctio inter causam
+            <lb ed="#V" n="35"/>excitantem et specificantem actum, verbi
+            <lb ed="#V" n="36"/>gratia, stipendium oblatum Sacerdoti, ut
+            <lb ed="#V" n="37"/>sacrificium hic et nunc offerat, vel
+            praece<lb ed="#V" n="38" break="no"/>ptum superioris; tamen oblatio ad his non
+            <lb ed="#V" n="39"/>specificatur intrinsece, sed a cultu Dei,
+            <lb ed="#V" n="40"/>neque refert, ut idem medium, quod habet
+            <lb ed="#V" n="41"/>diversam efficaciam ad diversos fines,
+            <lb ed="#V" n="42"/>cadat simul sub duplici electione, quarum
+            <lb ed="#V" n="43"/>neutra communicat alteri, verbi gratia, ut
+            <lb ed="#V" n="44"/>quis emat equum ad vecturam et
+            aran<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>dum. Sic in proposito consummans ex
+            <lb ed="#V" n="46"/>metu et coactione matrimonium, intendit
+            <lb ed="#V" n="47"/>summovere metum et libertatem suam;
+            <lb ed="#V" n="48"/>consummans similiter animo matrimoniali
+            <lb ed="#V" n="49"/>intendit summovere peccatum, et sic
+            con<lb ed="#V" n="50" break="no"/>summatio ex utroque fine simul
+            continge<lb ed="#V" n="51" break="no"/>re potest, quia ut fit animo maritali, est
+            <lb ed="#V" n="52"/>medium proportionatum etiam ad
+            summo<lb ed="#V" n="53" break="no"/>vendam coactionem secundum rectam
+            re<lb ed="#V" n="54" break="no"/>tionem eligibile, et ille finis erit
+            secunda<lb ed="#V" n="55" break="no"/>rius et extrinsecus actus, intrinsecus vero
+            <lb ed="#V" n="56"/>recta ratio et honestas actus. Dici ergo
+            po<lb ed="#V" n="57" break="no"/>test metum esse solum causam
+            excitan<lb ed="#V" n="58" break="no"/>tem, et non specificantem actum, nisi
+            se<lb ed="#V" n="59" break="no"/>cundum quid et remote, ut nempe
+            conci<lb ed="#V" n="60" break="no"/>pitur secundum rectam rationem, et ex
+            <lb ed="#V" n="61"/>fine primario intrinseco.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Dico tertio, matrimonium ex metu
+            <lb ed="#V" n="63"/>coactum posse ratificari aliis modis, ut
+            <lb ed="#V" n="64"/>fiat praesumptum. Primo, per
+            cohabita<lb ed="#V" n="65" break="no"/>tionem mutuam et spontaneam, cessante
+            <lb ed="#V" n="66"/>errore, metu et causa ejus, manente altero
+            <lb ed="#V" n="67"/>in sua libertate, ut recedere possit absque
+            <lb ed="#V" n="68"/>impedimento, et reclamare contra factum
+            <lb ed="#V" n="69"/>ex coactione, quia his omnibus
+            concurren<lb ed="#V" n="70" break="no"/>tibus non praesumitur aliqua cohabitationis
+            <lb ed="#V" n="71"/>causa sufficiens, nisi ratificatio prioris
+            <lb ed="#V" n="72"/>contractus. Ita communiter Doctores. Si
+            <lb ed="#V" n="73"/>autem error, quo putaret priorem
+            contra<lb ed="#V" n="74" break="no"/>ctum fuisse validum, subsit, aut ipse
+            me<lb ed="#V" n="75" break="no"/>tus durat, aut causa metus, et subjectio
+            <lb ed="#V" n="76"/>inde proveniens, aut defectus eorum, quae
+            <lb ed="#V" n="77"/>ad recessum, aut reclamationem sunt
+            ne<lb ed="#V" n="78" break="no"/>cessaria; cohabitatio ex his sumet
+            inter<lb ed="#V" n="79" break="no"/>pretationem, et non ex ratificatione.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Ratificatur etiam si cessantibus dictis
+            <lb ed="#V" n="81"/>impedimentis spontanee, et in plena
+            li<lb ed="#V" n="82" break="no"/>bertate existentis se complectantur ut
+            <lb ed="#V" n="83"/>conjuges. Haec omnia habent locum post
+            <lb ed="#V" n="84"/>Tridentinum, modo Parochus et testes
+            ad<lb ed="#V" n="85" break="no"/>hibiti sunt praesentes contractui, et
+            igno<lb ed="#V" n="86" break="no"/>rantes impedimentum metus et coactionis;
+            <lb ed="#V" n="87"/>illi ergo actus omnes significant
+            ratifica<lb ed="#V" n="88" break="no"/>tionem matrimonii ab utrisque.
+          </p>
+          <p>
+            <pb ed="#V" n="239"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>(i) Ad tertium, etc. Supple objectionem
+            <lb ed="#V" n="2"/>superius factam, respondet, si timetur
+            <lb ed="#V" n="3"/>poena in proximo, et timor ille sit gravis,
+            <lb ed="#V" n="4"/>seu cadens in utrum constantem, irritare
+            <lb ed="#V" n="5"/>contractum. Si vero timeatur peccatum
+            <lb ed="#V" n="6"/>tantum, ut prostitutio, et hujusmodi, esse
+            <lb ed="#V" n="7"/>opus perfectum si ducatur persona, in
+            <lb ed="#V" n="8"/>qua est periculum, et valere matrimonium,
+            <lb ed="#V" n="9"/>quia procedit ex electione libera, et
+            secun<lb ed="#V" n="10" break="no"/>dum charitatem. Haec responsio quoad
+            <lb ed="#V" n="11"/>utramque partem patet ex dictis.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>(k) Ad primum argumentam, etc.
+            Re<lb ed="#V" n="13" break="no"/>spondet ad argumenta praeliminaria;
+            <lb ed="#V" n="14"/>quoad primum et secundum patet
+            respon<lb ed="#V" n="15" break="no"/>sio ex littera.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Ad tertium, negat paritatem inter
+            in<lb ed="#V" n="17" break="no"/>voluntarium ex terrore, et involuntarium
+            <lb ed="#V" n="18"/>ex blanditiis, ad sollicitandum, scilicet
+            <lb ed="#V" n="19"/>consensum voluntatis. Haec doctrina
+            <lb ed="#V" n="20"/>est communis; blanditiae enim non
+            an<lb ed="#V" n="21" break="no"/>nullant actum ex natura sua, ut tenet
+            <lb ed="#V" n="22"/>D. Bonaventura hic quoest. 1. Richardus
+            <lb ed="#V" n="23"/>art. 1. q. 1. ad 3. Durandus quaest. 2.
+            <lb ed="#V" n="24"/>ad 1. D. Thomas 1. 2. q. art. 6.
+            Ad<lb ed="#V" n="25" break="no"/>vertendum tamen id intelligendum esse ex
+            <lb ed="#V" n="26"/>natura actus, si tamen procedat a tali
+            <lb ed="#V" n="27"/>persona, quae solet damnum inferre, aut
+            <lb ed="#V" n="28"/>iliaturus merito praesumitur, et potest
+            <lb ed="#V" n="29"/>inferre, et solet, quando voluntati ejus
+            <lb ed="#V" n="30"/>non ceditur, tunc blanditiae ejus et
+            illece<lb ed="#V" n="31" break="no"/>brae, ut habent conjunctum timorem
+            <lb ed="#V" n="32"/>tantum et gravem, possunt causare
+            invo<lb ed="#V" n="33" break="no"/>luntarium ex metu, et contractum eo
+            me<lb ed="#V" n="34" break="no"/>tu factum irritare. Felinus cap. Causam
+            <lb ed="#V" n="35"/>matrimonii, etc. de officio delegati.
+            <lb ed="#V" n="36"/>Joan. Andreas c. fin. qui clerici, vel
+            <lb ed="#V" n="37"/>voven. Abb. cap. Cum dilectus, etc. de
+            <lb ed="#V" n="38"/>his quae vi, etc. Sotus in hac distinct.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="39"/>part. 1. art. 2. Manuel tomo 1. Summ.
+            <lb ed="#V" n="40"/>cap. 23. Henriquez citatus. In hoc casu
+            <lb ed="#V" n="41"/>idem dicendum est, quod de contractu ex
+            <lb ed="#V" n="42"/>metu per causam expressam et minas,
+            <lb ed="#V" n="43"/>quia metus implicitus eumdem effectum
+            <lb ed="#V" n="44"/>inducit, etiam in viro constante, et
+            perin<lb ed="#V" n="45" break="no"/>de derogat libertati consensus. Idem
+            do<lb ed="#V" n="46" break="no"/>cent aliqui de precibus, quando sunt
+            <lb ed="#V" n="47"/>instantes, importunae, et saepius
+            inculca<lb ed="#V" n="48" break="no"/>tae, quarum fastidio cedit voluntas per
+            <lb ed="#V" n="49"/>coactionem. Sed attendendum est, si
+            <lb ed="#V" n="50"/>metus conjungatur cadens in constantem
+            <lb ed="#V" n="51"/>virum, ut si sint a Principe, qui aequo
+            ani<lb ed="#V" n="52" break="no"/>mo non fert repulsam.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>Ad ultimum patet responsio ex littera,
+            <lb ed="#V" n="54"/>et iis quae diximus supra in hoc casu
+            <lb ed="#V" n="55"/>dist. 28. dub. 3. ubi juxta glossam
+            cita<lb ed="#V" n="56" break="no"/>tam interpretantur leges civiles, quibus
+            <lb ed="#V" n="57"/>statuitur, ut filii ex consensu parentum
+            <lb ed="#V" n="58"/>ineant matrimonium, de consilio id
+            ordi<lb ed="#V" n="59" break="no"/>nare, non de praecepto. Doctor autem hic
+            <lb ed="#V" n="60"/>admittere videtur esse praecepti, sed per
+            <lb ed="#V" n="61"/>Canones illa Jura fuisse correcta. Quod
+            <lb ed="#V" n="62"/>etiam verum esse, quantum ad libertatem
+            <lb ed="#V" n="63"/>filiorum, patet ex ibi dictis. Aliqui etiam
+            <lb ed="#V" n="64"/>docent quandoque illas leges fuisse
+            rece<lb ed="#V" n="65" break="no"/>ptas per Ecclesiam, et statuisse
+            impedi<lb ed="#V" n="66" break="no"/>mentum dirimens; sed hoc etiam fuit per
+            <lb ed="#V" n="67"/>posteriores Canones sublatum.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Argumentum ex matrimonio spirituali,
+            <lb ed="#V" n="69"/>licet in aliquibus teneat, non tamen in
+            <lb ed="#V" n="70"/>omnibus concludit, nisi ubi ex natura actus
+            <lb ed="#V" n="71"/>et legum praescriptione aequiparantur in
+            <lb ed="#V" n="72"/>proposito ex natura actus, ut quando quis
+            <lb ed="#V" n="73"/>eligitur sine suo consensu ad
+            Episcopa<lb ed="#V" n="74" break="no"/>tum, et Pontifex cogit ad sub eundum
+            <lb ed="#V" n="75"/>onus, conditio electi fit melior, at in
+            ma<lb ed="#V" n="76" break="no"/>trimonio corporali fit deterior.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

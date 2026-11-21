@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 33, Quaestio 3</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 33, Quaestio 3</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x19">Vives, Paris, 1894, volume 19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="384"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e4622"><!-- hicjds-b4d33q3 -->
+        <head>Quaestio 3</head>
+        <head type="question-title">Utrum in Lege Mosaica fuerit licitum repudiare uxorem</head>
+        <!-- <div alias="hiq-d33q3-p1"> -->
+          <p>
+            <lb ed="#V" n="67" type="fixed=384"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>(r) De repudio quaero, etc. Haec quaestio
+            <lb ed="#V" n="69"/>est controversa inter Patres, et etiam I
+            <lb ed="#V" n="70"/>ipsos Theologos, ac proinde problematice
+            <lb ed="#V" n="71"/>eam tractat Doctor, respondens
+            argumen<lb ed="#V" n="72" break="no"/>tis utriusque partis, sicut et D. Thomas
+            <lb ed="#V" n="73"/>et Richardus loco citato a Scholiaste. Alii
+            <lb ed="#V" n="74"/>sunt in extreme; quidam enim putant
+            <lb ed="#V" n="75"/>repudium in lege Mosaica fuisse illicitum,
+            <lb ed="#V" n="76"/>sed toleratum, ut minus malum quam
+            <lb ed="#V" n="77"/>uxoricidium; quidam docent fuisse
+            lici<lb ed="#V" n="78" break="no"/>tum. Auctores mox citabimus juxta
+            <lb ed="#V" n="79"/>sententias eorum, quas subjicit Doctor.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d33q3-p2"> -->
+          <p>
+            <lb ed="#V" n="64" type="fixed=385"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>(s) Hic dicitur quod repudiatio uxoris, etc.
+            <lb ed="#V" n="66"/>In hac sententia fuit Hieronymus lib. 1. in
+            <lb ed="#V" n="67"/>Matth. cap. 5. et lib. 3. in cap. 19. Glossa
+            <lb ed="#V" n="68"/>ordinaria in Matth. 5. Lyranus noster in
+            <lb ed="#V" n="69"/>utroque loco, et Deuteron. cap. 24.
+            Magi<lb ed="#V" n="70" break="no"/>ster in hac dist. Alensis 3. part. q. 48.
+            <lb ed="#V" n="71"/>memb. 2. art. 1. 2. et 3. Gulielmus
+            Pari<lb ed="#V" n="72" break="no"/>siensis de Sacramento matrimonii, cap.
+            ul<lb ed="#V" n="73" break="no"/>timo, Mayronis in 4. dist. 35. quaest. unica,
+            <lb ed="#V" n="74"/>Sotus in hac d. quaest. 2. art. 2. conclus. 2.
+            <lb ed="#V" n="75"/>Arboreus lib. 16. Theosophiae, cap. 2.
+            <lb ed="#V" n="76"/>Noster Castro de leg. cap. 11. Viguerius 2.
+            <lb ed="#V" n="77"/>part. Instructionum, cap. 16.
+            impedi<lb ed="#V" n="78" break="no"/>mento 10. Carthusianus in 19. Matth.
+            <lb ed="#V" n="79"/>Hugo in cap. 24. Deuteron. et ibidem,
+            <lb ed="#V" n="80"/>Gagnerus Glossa cap. Cum in lege 23.
+            <lb ed="#V" n="81"/>q. 4. Innocentius cap. Gaudemus, de
+            divor<lb ed="#V" n="82" break="no"/>tiis, Hostiensis ibidem, Cardinalis,
+            Alexan<lb ed="#V" n="83" break="no"/>der de Nevo, Archidiaconus cap. Qui
+            <lb ed="#V" n="84"/>peccat, eod. Glossa 23. quaest. 4.
+            Tiraquel<lb ed="#V" n="85" break="no"/>lus lib. 9. connub, num. 5. Navarrus
+            <lb ed="#V" n="86"/>lib. 3. Consiliorum, de convers. infidelium,
+            <lb ed="#V" n="87"/>cons. 3. in 2. editione, Covarruvias in 4.
+            <pb ed="#V" n="386"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Decret. 2. part. 2. cap. 7. Fundamenta
+            <lb ed="#V" n="2"/>hujus sententiae optime ponderat
+            Do<lb ed="#V" n="3" break="no"/>ctor ex Scriptura et ratione, ut
+            pa<lb ed="#V" n="4" break="no"/>tet, etc.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d33q3-p3"> -->
+          <p>
+            <lb ed="#V" n="21" type="fixed=387"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>(t) Alia opinio dicit, etc. Haec dicitur
+            <lb ed="#V" n="23"/>auctoris imperfecti inter opera
+            Chrysosto<lb ed="#V" n="24" break="no"/>mi homil. 34. in Matth. Tenet Albertus
+            <lb ed="#V" n="25"/>Magnus in hac distinct. art. 25. Durandus
+            <lb ed="#V" n="26"/>quaest. 3. Paludanus quaest. 1. art. 2.
+            Ma<lb ed="#V" n="27" break="no"/>jor quaest. 2. noster Medina lib. 4. de
+            <lb ed="#V" n="28"/>sacrorum hominum continentia, c. 10.
+            no<lb ed="#V" n="29" break="no"/>ster Angles in floribus 1. part. in 4. de
+            <lb ed="#V" n="30"/>matrim. quaest. 7. de bigamia, art. 2.
+            dif<lb ed="#V" n="31" break="no"/>ficultat. 2. conclus. 1. Bellarmin, lib. 1. de
+            <lb ed="#V" n="32"/>matrim. cap. 17. Henriquez lib. 11. de
+            <lb ed="#V" n="33"/>matrimonio, cap. 8. Probabiliorem sentit
+            <lb ed="#V" n="34"/>Sanchez lib. de matrim. disput. 1. et
+            plu<lb ed="#V" n="35" break="no"/>res alii, quos ibidem citat. Optime hanc
+            <lb ed="#V" n="36"/>sententiam probat Doctor; primo, quia
+            <lb ed="#V" n="37"/>id promulgavit Moyses Deuteron. 24. et
+            <lb ed="#V" n="38"/>argumenta a simili, ex auctoritate
+            Augu<lb ed="#V" n="39" break="no"/>stini, quia sicut mendacium quodcumque
+            <lb ed="#V" n="40"/>a Scriptura rejicitur propter auctoritatem
+            <lb ed="#V" n="41"/>ejus quoad veritatem et faciendam fidem;
+            <lb ed="#V" n="42"/>ita a simili cum Scriptura sit regula
+            fa<cb ed="#V" n="b"/><lb ed="#V" n="43" break="no"/>ciendorum, ostendens quid licitum, quid
+            <lb ed="#V" n="44"/>non sit licitum, et secundum voluntatem
+            <lb ed="#V" n="45"/>Dei, derogaret ejus auctoritati, si quid
+            <lb ed="#V" n="46"/>consuleret, quod non esset salutare et
+            uti<lb ed="#V" n="47" break="no"/>lius ad vitam; et consequenter quod si illa
+            <lb ed="#V" n="48"/>concessio non sit de licito, idem
+            sequere<lb ed="#V" n="49" break="no"/>tur in aliis. Item, quia nulla lex justa
+            <lb ed="#V" n="50"/>debet dare occasionem peccandi. Ex hac
+            <lb ed="#V" n="51"/>lege Deuteronomii Judaei admiserunt
+            <lb ed="#V" n="52"/>repudium, quod alias Patres non
+            admise<lb ed="#V" n="53" break="no"/>runt.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Tandem adducunt alii quod verba legis
+            <lb ed="#V" n="55"/>non permissionem, sed concessionem
+            so<lb ed="#V" n="56" break="no"/>nent. Ultimo addit Doctor ad veritatem
+            <lb ed="#V" n="57"/>hujus sententiae requiri divinam
+            dispensa<lb ed="#V" n="58" break="no"/>tionem, sine qua nequit sustineri; et hoc
+            <lb ed="#V" n="59"/>admittunt auctores moderni, qui eam
+            <lb ed="#V" n="60"/>tenent Quam declarat Doctor ex hoc,
+            <lb ed="#V" n="61"/>quod completa justitia non sit in
+            matrimo<lb ed="#V" n="62" break="no"/>nii contractu, nisi ut ratificatur a Deo;
+            li<lb ed="#V" n="63" break="no"/>cet ergo commutantes transferant
+            potes<lb ed="#V" n="64" break="no"/>tatem sui, quantum est ex consensu
+            eo<lb ed="#V" n="65" break="no"/>rum, intantum valet, inquantum illa
+            per<lb ed="#V" n="66" break="no"/>mutatio est conformis legi divinae;
+            insolu<lb ed="#V" n="67" break="no"/>bilitas autem matrimonii est ex lege
+            <lb ed="#V" n="68"/>Dei, sicut et monogamia. Sicut ergo pro
+            <lb ed="#V" n="69"/>congruitate temporum et finis,
+            dispensa<lb ed="#V" n="70" break="no"/>vit in hoc, ita etiam dispensare potest in
+            <lb ed="#V" n="71"/>solubilitate matrimonii, quod fecit in lege
+            <lb ed="#V" n="72"/>ad majus malum evitandum, propter
+            <lb ed="#V" n="73"/>duritiam cordis Judaeorum; minus enim
+            <lb ed="#V" n="74"/>malum est Reipublicae et uxori, ut solvi
+            <lb ed="#V" n="75"/>possit matrimonium, quam ut
+            occide<lb ed="#V" n="76" break="no"/>retur.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Quod si ad congruentiam ex
+            significati<lb ed="#V" n="78" break="no"/>one mystica recurrere libet, quoniam
+            ma<lb ed="#V" n="79" break="no"/>trimonium significat unionem Christi cum
+            <lb ed="#V" n="80"/>Ecclesia indissolubilem; quae unio ejus cum
+            <lb ed="#V" n="81"/>Synagoga ex reprobatione illius populi
+            <lb ed="#V" n="82"/>erat solvenda; sic etiam interpretari licet
+            <lb ed="#V" n="83"/>praefiguratam fuisse in illo libello repudii,
+            <lb ed="#V" n="84"/>et antiquandas fore figuras ejus,
+            advenien<lb ed="#V" n="85" break="no"/>te veritate, quam ipsi non erant
+            rece<lb ed="#V" n="86" break="no"/>pturi. Sic Paulus ad Hebraeos discurrit de
+            <pb ed="#V" n="388"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>utroque Testamento, et de filio ancillae et
+            <lb ed="#V" n="2"/>liberae, ut ostendat vetus Testamentum
+            <lb ed="#V" n="3"/>finem accepisse, adveniente novo, et
+            Sa<lb ed="#V" n="4" break="no"/>cerdotium Leviticum commutatum fuisse
+            <lb ed="#V" n="5"/>in illud quod est secundum ordinem
+            Mel<lb ed="#V" n="6" break="no"/>chisedech et in aeternum.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

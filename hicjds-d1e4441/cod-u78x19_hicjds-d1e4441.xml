@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 25, Quaestio 2</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 25, Quaestio 2</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x19">Vives, Paris, 1894, volume 19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="138"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e4441"><!-- hicjds-b4d25q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum sexus muliebris aut aetas puerilis impediat susceptionem Ordinum</head>
+        <!-- <div alias="hiq-d25q2-p1"> -->
+          <p>
+            <lb ed="#V" n="29" type="fixed=138"/>COMMENTARIUS
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>(a) Hic breviter dico, etc. Distinguit
+            tri<lb ed="#V" n="31" break="no"/>plicem modum suscipiendi Ordines.
+            Pri<lb ed="#V" n="32" break="no"/>mus est de susceptione cum debita
+            reve<lb ed="#V" n="33" break="no"/>rentia et dispositione, hoc est, honeste et
+            <lb ed="#V" n="34"/>debite. Secundus modus est suscipiendi
+            <lb ed="#V" n="35"/>Ordines licite et secundum leges. Tertius
+            <lb ed="#V" n="36"/>modus suscipiendi valide et quoad
+            effe<lb ed="#V" n="37" break="no"/>ctum.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Prima conclusio Doctoris est puerum
+            <lb ed="#V" n="39"/>primo modo ante usum rationis non posse
+            <lb ed="#V" n="40"/>suscipere Ordinem. Secunda neque
+            Ordi<lb ed="#V" n="41" break="no"/>nem sacrum secundo modo, posse tamen
+            <lb ed="#V" n="42"/>Ordinem non sacrum. Tertia, posse
+            Or<lb ed="#V" n="43" break="no"/>dinem suscipere tertio modo.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>Prima conclusio per se patet. Secunda
+            <lb ed="#V" n="45"/>quoad primam partem est communis,
+            <lb ed="#V" n="46"/>D. Bonavent. in hac dist. art. 2. q. 2.
+            Ri<lb ed="#V" n="47" break="no"/>chardi art. 4. q. 2. ad 3. Majoris dist. 24.
+            <lb ed="#V" n="48"/>q. 2. Paludan. in hac dist. q. 3. et aliorum.
+            <lb ed="#V" n="49"/>Ratio Doctoris est manifesta, quia votum
+            <lb ed="#V" n="50"/>continentiae, quod est adjunctum Ordini
+            <lb ed="#V" n="51"/>sacro, neque tacite, neque expresse emitti
+            <lb ed="#V" n="52"/>potest ante usum rationis et libertatis,
+            <lb ed="#V" n="53"/>quia debet esse promissio facta Deo
+            alte<lb ed="#V" n="54" break="no"/>ro istorum modo, ab eo qui obligatur per
+            <lb ed="#V" n="55"/>proprium actum emissa. Vide Vasquem
+            <lb ed="#V" n="56"/>disp. 246. c. 3. tom. 3. in 3. partem.
+            Ali<lb ed="#V" n="57" break="no"/>qui tamen non improbabilem docent, si
+            <lb ed="#V" n="58"/>rationis compos ratam habeat
+            ordinati<lb ed="#V" n="59" break="no"/>onem factam, et exerceat. actum Ordinis,
+            <lb ed="#V" n="60"/>obligari ad continentiam, quia illa
+            ratiha<lb ed="#V" n="61" break="no"/>bitio et exercitium important consensum
+            <lb ed="#V" n="62"/>in Ordinem susceptum cum onere
+            adjun<lb ed="#V" n="63" break="no"/>cto ex lege, sive divina illa sit, sive
+            hu<lb ed="#V" n="64" break="no"/>mana; quod maxine tenet, si in
+            puber<lb ed="#V" n="65" break="no"/>tate id contingat.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Secunda pars conclusionis patet, quia
+            <lb ed="#V" n="67"/>Jure antiquo septennis potuit recipere
+            <lb ed="#V" n="68"/>primam tonsuram cap. Nullus Episcopus,
+            <lb ed="#V" n="69"/>de tempore ordinandorum in 6. deinceps
+            <lb ed="#V" n="70"/>etiam insigniri minoribus cap. De iis, etc.
+            <lb ed="#V" n="71"/>dist. 28.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>(b) De tertio modo non posse dico, etc. Hic
+            <lb ed="#V" n="73"/>statuit tertiam conclusionem, nempe
+            par<lb ed="#V" n="74" break="no"/>vulos posse ordinari valide ante usum
+            ra<lb ed="#V" n="75" break="no"/>tionis. Est communis. Aliqui tamen
+            anti<lb ed="#V" n="76" break="no"/>qui negarunt infantem esse capacem
+            <lb ed="#V" n="77"/>Ordinis apud D. Thomam loco citato in
+            <lb ed="#V" n="78"/>scholio, quos postmodum secutus est
+            Du<lb ed="#V" n="79" break="no"/>randus in hac dist. q. 2. Favet Petrus de
+            <lb ed="#V" n="80"/>Soto lect. de sacramento Ordinis, quantum
+            <lb ed="#V" n="81"/>ad Ordines majores tantum. Paludanus
+            <lb ed="#V" n="82"/>requirit consensum parentum, aut
+            tuto<lb ed="#V" n="83" break="no"/>rum, sine quo etiam Baptismus collatus
+            <lb ed="#V" n="84"/>infanti esset nullus per eumdem quem
+            <lb ed="#V" n="85"/>supra de Baptismo parvulorum
+            impugna<lb ed="#V" n="86" break="no"/>vimus, S. Thomas et S. Bonaventura
+            ne<lb ed="#V" n="87" break="no"/>gant Episcopatum posse conferri infanti,
+            <pb ed="#V" n="139"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quia in Episcopatu recipitur potestas in
+            <lb ed="#V" n="2"/>corpus mysticum, et cura pastoralis, ad
+            <lb ed="#V" n="3"/>quas exigitur consensus recipientis.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Conclusio patet contra Durandum et
+            <lb ed="#V" n="5"/>Paludanum, ratione Doctoris, quia ad
+            re<lb ed="#V" n="6" break="no"/>cipiendam potestatem Ordinis non
+            requi<lb ed="#V" n="7" break="no"/>ritur, ut quis possit illum actum statim
+            <lb ed="#V" n="8"/>exercere, vel ut actus potestatis
+            concomi<lb ed="#V" n="9" break="no"/>tetur per ipsam potestatem. Ordo enim est
+            <lb ed="#V" n="10"/>gradus disponens ad ministerium; ergo
+            <lb ed="#V" n="11"/>potest inesse et communicari gradus,
+            an<lb ed="#V" n="12" break="no"/>tequam quis aptus sit exercere actum.
+            <lb ed="#V" n="13"/>Per similem rationem cap. Majores, de
+            <lb ed="#V" n="14"/>Baptismo, docet cum communi Pontifex
+            <lb ed="#V" n="15"/>infundi virtutes in Baptismo infantibus
+            <lb ed="#V" n="16"/>quoad habitum, licet non quoad usum
+            <lb ed="#V" n="17"/>ante aetatem adultam; similiter ergo
+            po<lb ed="#V" n="18" break="no"/>test esse potestas Ordinis in habitu, licet
+            <lb ed="#V" n="19"/>impediatur usus ejus pro statu infantili,
+            <lb ed="#V" n="20"/>quia in hoc nulla est ex parte rei
+            repu<lb ed="#V" n="21" break="no"/>gnantia. Confirmatur etiam ita contingere
+            <lb ed="#V" n="22"/>quantum ad divinam institutionem, quia
+            <lb ed="#V" n="23"/>non requiritur consensus, ut patet in
+            Or<lb ed="#V" n="24" break="no"/>dinibus minoribus, in quibus etiam
+            tradi<lb ed="#V" n="25" break="no"/>tur potestas in ordine ad actum
+            exercen<lb ed="#V" n="26" break="no"/>dum. Et probatur a posteriori cap. de
+            Cle<lb ed="#V" n="27" break="no"/>rico per saltum promoto, etc. ubi
+            Inno<lb ed="#V" n="28" break="no"/>centius III. praecipit eum, qui Ordines
+            <lb ed="#V" n="29"/>minores suscepit ante annos discretionis,
+            <lb ed="#V" n="30"/>et postea ordinatus est Sacerdos, sine eo
+            <lb ed="#V" n="31"/>quod prius fuerit Diaconus; praecipit,
+            in<lb ed="#V" n="32" break="no"/>quam, ut ordinetur Diaconus, non
+            prae<lb ed="#V" n="33" break="no"/>cipit, ut iterum conferantur ei Ordines
+            <lb ed="#V" n="34"/>minores; ergo supponit talem
+            ordinati<lb ed="#V" n="35" break="no"/>onem fuisse validam ante annos
+            discreti<lb ed="#V" n="36" break="no"/>onis.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Secundo, consensus infantis, neque ut
+            <lb ed="#V" n="38"/>materia, neque ut forma, neque ut
+            condi<lb ed="#V" n="39" break="no"/>tio requiritur ad effectum ordinationis,
+            lo<lb ed="#V" n="40" break="no"/>quendo etiam de consensu in se, aut in
+            <lb ed="#V" n="41"/>voluntate parentum; ergo valide
+            ordina<lb ed="#V" n="42" break="no"/>tur. Antecedens patet, quia materiam et
+            <lb ed="#V" n="43"/>formam clarum est non includere talem
+            <lb ed="#V" n="44"/>consensum, neque etiam ut conditio
+            re<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>quiritur, quia in materia et forma
+            Sacra<lb ed="#V" n="46" break="no"/>menti non colligitur specialis dependentia
+            <lb ed="#V" n="47"/>ordinationis a tali consensu magis quam
+            <lb ed="#V" n="48"/>aliorum Sacramentorum. Sed infans est
+            <lb ed="#V" n="49"/>capax Baptismi, Eucharistiae et
+            Confirma<lb ed="#V" n="50" break="no"/>tionis independenter a consensu proprio
+            <lb ed="#V" n="51"/>aut parentum, ut communis tenet; ergo
+            <lb ed="#V" n="52"/>etiam ordinationis, et ut dictum est
+            in<lb ed="#V" n="53" break="no"/>stantia de capacitate ad minores Ordines,
+            <lb ed="#V" n="54"/>probat non requiri talem consensum ad
+            <lb ed="#V" n="55"/>recipiendam potestatem characteris; ergo
+            <lb ed="#V" n="56"/>ex nullo capite requiritur. Idem dicendum
+            <lb ed="#V" n="57"/>est de Episcopatu, ut dictum est, quia
+            <lb ed="#V" n="58"/>etiam conferri potest per consecrationem
+            <lb ed="#V" n="59"/>ei, cui non confertur aliqua Ecclesia in
+            <lb ed="#V" n="60"/>titulum, quamvis per hoc non recipiat
+            <lb ed="#V" n="61"/>potestatem proximam in corpus mysticum.
+            <lb ed="#V" n="62"/>Praeterea, potestas quam recipit Sacerdos
+            <lb ed="#V" n="63"/>ligandi et solvendi, est potestas remota,
+            <lb ed="#V" n="64"/>et per D. Thomam est dignitatis et non
+            <lb ed="#V" n="65"/>Ordinis. Si ergo conferri potest infanti, ita
+            <lb ed="#V" n="66"/>etiam potestas Episcopalis, quamvis esset
+            <lb ed="#V" n="67"/>solius dignitatis; nos autem superius
+            dixi<lb ed="#V" n="68" break="no"/>mus esse Ordinis, proinde eadem est
+            ra<lb ed="#V" n="69" break="no"/>tio de ipsa et de aliis.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Objicit Durandus absurdum esse
+            infan<lb ed="#V" n="71" break="no"/>tem fieri Sacerdotem aut Episcopum.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Respondetur esse absurdum, id est,
+            illi<lb ed="#V" n="73" break="no"/>citum, non tamen absurdum, id est,
+            in<lb ed="#V" n="74" break="no"/>valide fieri.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Objicit secundo requiri consensum.
+            <lb ed="#V" n="76"/>Respondetur ex dictis contrarium
+            con<lb ed="#V" n="77" break="no"/>stare, ut patet de ordinatione in minoribus
+            <lb ed="#V" n="78"/>neque ergo ex ratione potestatis hujus,
+            <lb ed="#V" n="79"/>neque ex ratione potestatis in genere
+            re<lb ed="#V" n="80" break="no"/>quiritur talis consensus, quando
+            potesta<lb ed="#V" n="81" break="no"/>tis collatio fit per imperium, et
+            indepen<lb ed="#V" n="82" break="no"/>denter a voluntate recipientis. In adulto
+            <lb ed="#V" n="83"/>vero aliud dicendum est, quia universim
+            <lb ed="#V" n="84"/>requiritur consensus ejus praesens aut
+            prae<lb ed="#V" n="85" break="no"/>teritus ad valorem cujuslibet
+            Sacramen<lb ed="#V" n="86" break="no"/>ti, et hoc ex divina institutione, in genere
+            <lb ed="#V" n="87"/>quoad Sacramenta, quae consistunt in usu,
+            <lb ed="#V" n="88"/>nam ex communi regula permittitur suo
+            <pb ed="#V" n="140"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>arbitrio, cui non derogat institutio
+            Sacra<lb ed="#V" n="2" break="no"/>mentorum.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d25q2-p2"> -->
+          <p>
+            <lb ed="#V" n="62" type="fixed=141"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>(c) Istud tamen non posse tertio
+            mo<lb ed="#V" n="64" break="no"/>do, etc. Kataphryges seu Montanistae,
+            <lb ed="#V" n="65"/>Quintilliani, Pepusiani, qui iidem sunt
+            <lb ed="#V" n="66"/>apud Epiphan. hoeresi 49. mulieres
+            ordi<lb ed="#V" n="67" break="no"/>nabant in Diaconissas altaris, imo et in
+            <lb ed="#V" n="68"/>Sacerdotes, quod refert Augustinus lib.
+            <lb ed="#V" n="69"/>de haeresi, cap. 27. De Pepusianis, qui
+            <lb ed="#V" n="70"/>sic dicti sunt a pago, in quo nati
+            dicun<lb ed="#V" n="71" break="no"/>tur Montanus, Quintilla et Priscilla,
+            <lb ed="#V" n="72"/>Pseudoprophetissae dicti sunt ab his
+            Quin<lb ed="#V" n="73" break="no"/>tilliani et Priscilliani. Cataphrygae a
+            Phry<lb ed="#V" n="74" break="no"/>gia, Artotyritae a pane et caseo, quae
+            <lb ed="#V" n="75"/>mysteriis adhibebant.
+            <lb ed="#V" n="76"/>Conclusio posita est de fide, unde
+            Pa<lb ed="#V" n="77" break="no"/>tres citati, quantum ad Ordinem
+            Diaco<lb ed="#V" n="78" break="no"/>natus, Presbyteratus et Episcopatus,
+            tan<lb ed="#V" n="79" break="no"/>quam ex fide eum tenent, contrarium pro
+            <lb ed="#V" n="80"/>haeresi damnantes; quod et universalis
+            <lb ed="#V" n="81"/>traditio Ecclesiae docet, nunquam hanc
+            <lb ed="#V" n="82"/>potestatem explicans in Ordine ad
+            mulie<lb ed="#V" n="83" break="no"/>res. Quam recte probat Doctor ex
+            Pau<lb ed="#V" n="84" break="no"/>lo 1. ad Timoth. 2. Mulier in silentio dicat
+            <lb ed="#V" n="85"/>cum omni subjectione, docere autem
+            muli<lb ed="#V" n="86" break="no"/>eri non permitto, neque dominari in virum,
+            <pb ed="#V" n="142"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sed esse in silentio. Subdit rationem, quia
+            <lb ed="#V" n="2"/>nempe primatus ad virum spectat: Adam
+            <lb ed="#V" n="3"/>enim, inquit, primus formatus, deinde Eva,
+            <lb ed="#V" n="4"/>et Adam non est seductus; mulier autem
+            <lb ed="#V" n="5"/>seducta in praevaricatione fuit, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Insinuat Apostolus duplicem rationem,
+            <lb ed="#V" n="7"/>unde mulier silere debeat in Ecclesia,
+            <lb ed="#V" n="8"/>quia subjecta viro est primum ex
+            creati<lb ed="#V" n="9" break="no"/>one, quia ei in adjutorium facta est;
+            <lb ed="#V" n="10"/>deinde in poenam peccati, ut patet Genes.
+            <lb ed="#V" n="11"/>3. Sub potestate viri eris, et ipse
+            dominabi<lb ed="#V" n="12" break="no"/>.tur tui. Augustinus. lib. 11. de Gen. ad
+            <lb ed="#V" n="13"/>litteram, c. 37. ex divina ergo institutione
+            <lb ed="#V" n="14"/>mulier subjecta est viro, ac proinde
+            ne<lb ed="#V" n="15" break="no"/>quit esse capax gradus eminentis in
+            <lb ed="#V" n="16"/>Ecclesia, in quo praeesset viro, aut publice
+            <lb ed="#V" n="17"/>doceret ex officio, ex quo loco etiam
+            Epi<lb ed="#V" n="18" break="no"/>phanius merito impugnat praedictam
+            hae<lb ed="#V" n="19" break="no"/>resim. Sic etiam alius locus, quem citat 1.
+            <lb ed="#V" n="20"/>Cor. 14. idem probat: Mulieres in
+            Ec<lb ed="#V" n="21" break="no"/>clesia taceant, non enim permittitur eis
+            <lb ed="#V" n="22"/>loqui, sed subditas esse, sicut lex dicit
+            <lb ed="#V" n="23"/>( supple Genes. 3.), si quid autem volunt
+            <lb ed="#V" n="24"/>discere, domi viros suos interrogent. Vide
+            <lb ed="#V" n="25"/>Ambrosium et Anselmum, quod supra dixit,
+            <lb ed="#V" n="26"/>non permitto, hic dicit non permittitur, ut
+            <lb ed="#V" n="27"/>ostendat illud esse legis. Ex lege autem
+            <lb ed="#V" n="28"/>Sacerdos et Diaconus et Episcopus in
+            <lb ed="#V" n="29"/>Ecclesia docent ex officio; ergo cum haec
+            <lb ed="#V" n="30"/>nequeant mulieres ex lege divina,
+            sequi<lb ed="#V" n="31" break="no"/>tur nullo modo capaces esse hujus
+            emi<lb ed="#V" n="32" break="no"/>nentiae in Ecclesia, et qua praeessent aliis,
+            <lb ed="#V" n="33"/>et qua docere possent et deberent ex
+            <lb ed="#V" n="34"/>lege.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>Duplex ratio hujus a Doctore assignata
+            <lb ed="#V" n="36"/>est congruentissima, quia sine injuria
+            uni<lb ed="#V" n="37" break="no"/>versus sexus non posset excludi ab hoc
+            <lb ed="#V" n="38"/>gradu, si esset ejus capax; et quia talis
+            <lb ed="#V" n="39"/>gradus in lege Evangelica collatus non
+            <lb ed="#V" n="40"/>fuit ulli mulieri, etiam sanctissimae Matri,
+            <lb ed="#V" n="41"/>neque in lege naturae, aut Mosaica
+            potes<lb ed="#V" n="42" break="no"/>tas fuit sacrificandi in mulieribus.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Dicendum secundo, quod neque
+            tonsu<lb ed="#V" n="44" break="no"/>ram clericalem potest Ecclesia conferre
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>mulieri; quod est contra Paludanum et
+            <lb ed="#V" n="46"/>Almainum in praesenti distinct. q. 2. et 3.
+            <lb ed="#V" n="47"/>licet haec tonsura sit ex institutione
+            Eccle<lb ed="#V" n="48" break="no"/>siae, et non sit Ordo, tamen est dispositio
+            <lb ed="#V" n="49"/>ad Ordinem, ac proinde ut talis est, debet
+            <lb ed="#V" n="50"/>fieri in subjecto capaci. Sicut ergo nequit
+            <lb ed="#V" n="51"/>Ecclesia exorcizare aut benedicere fontem
+            <lb ed="#V" n="52"/>vini, verbi gratia, tanquam materiam
+            Bap<lb ed="#V" n="53" break="no"/>tismi, quia non est capax illius
+            benedicti<lb ed="#V" n="54" break="no"/>onis disponentis ad Sacramentum, sic
+            <lb ed="#V" n="55"/>etiam neque potest dare tonsuram
+            clerica<lb ed="#V" n="56" break="no"/>lem, quae est dispositio praesupposita ex
+            <lb ed="#V" n="57"/>Ritu ad Ordines, nisi subjecto Ordinis
+            <lb ed="#V" n="58"/>capaci, quia dispositio praevia debet fieri
+            <lb ed="#V" n="59"/>circa subjectum capax formae.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>( b) Contra hoc ubi idem agens, etc.
+            Re<lb ed="#V" n="61" break="no"/>sponsio hujus objectionis, et differentia
+            <lb ed="#V" n="62"/>inter agens voluntarium seu liberum et
+            <lb ed="#V" n="63"/>naturale, patet ex littera; quando dicit
+            <lb ed="#V" n="64"/>ad actionem ministri non necessario sequi
+            <lb ed="#V" n="65"/>effectum Sacramenti, excludit
+            necessita<lb ed="#V" n="66" break="no"/>tem naturalem et necessitatem
+            inevitabi<lb ed="#V" n="67" break="no"/>lem, non necessitatem ex pacto, et
+            suppo<lb ed="#V" n="68" break="no"/>sitis requisitis ex parte subjecti.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Ad primum argumentum patet responsio
+            <lb ed="#V" n="70"/>ex littera.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Ad secundum, nomenclatura illa ex
+            Or<lb ed="#V" n="72" break="no"/>dine quem assumebant mariti, patet ex
+            <lb ed="#V" n="73"/>Concilio Turonensi canon. 13. et 20. ex
+            Al<lb ed="#V" n="74" break="no"/>tisiodorensi canon. 21. Gregorio lib. 4.
+            <lb ed="#V" n="75"/>Dialogoram, c. 22. In Ecclesia Latina post
+            <lb ed="#V" n="76"/>obitum virorum non licebat Diaconissae,
+            <lb ed="#V" n="77"/>Subdiaconissae, Presbyterae, Episcopae
+            tran<lb ed="#V" n="78" break="no"/>sire ad secundas nuptias, quia tenebantur
+            <lb ed="#V" n="79"/>voto castitatis, quando maritis licentiam
+            <lb ed="#V" n="80"/>dabant recipiendi Ordines, ut patet ex
+            <lb ed="#V" n="81"/>Altisiodorensi et ex Concilio Romano sub
+            <lb ed="#V" n="82"/>Gregorio. De his intelligit Petrus
+            Lombar<lb ed="#V" n="83" break="no"/>dus, et post eum D. Thomas, verba
+            Apo<lb ed="#V" n="84" break="no"/>stoli 1. ad Timoth. 3. Mulieres similiter
+            <lb ed="#V" n="85"/>pudicas, etc. Chrysostomus,
+            Theodore<lb ed="#V" n="86" break="no"/>tus, Theophylactus, OEcumenius de
+            Dia<lb ed="#V" n="87" break="no"/>conissis, quarum usus fuit in Ecclesia.
+          </p>
+          <p>
+            <lb ed="#V" n="88"/>Fuerunt autem alterius conditionis
+            Dia<pb ed="#V" n="143"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>conissae, quae praeerant mulieribus, et
+            <lb ed="#V" n="2"/>serviebant in iis quae ob honestatem non
+            <lb ed="#V" n="3"/>decebant Diaconos, de quibus agit
+            Chry<lb ed="#V" n="4" break="no"/>sostomus, et alii citati, Clemens lib. 8.
+            <lb ed="#V" n="5"/>constit. cap. 19. et 20. canon. 19. Nicen.
+            <lb ed="#V" n="6"/>cap. 11. Laodiceni, Ignatius in epist. ad
+            <lb ed="#V" n="7"/>Antiochenos. De his agit fusius noster
+            Me<lb ed="#V" n="8" break="no"/>dina lib. 4. de continentia sacrorum
+            homi<lb ed="#V" n="9" break="no"/>num, Vasquez disp. 245. cap. 3.
+            Quocum<lb ed="#V" n="10" break="no"/>que modo sumatur Diaconissa nullam
+            <lb ed="#V" n="11"/>potestatem Ordinis habuit, ut patet ex
+            di<lb ed="#V" n="12" break="no"/>ctis, aut habere potuit.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Ad tertium patet ex littera; de aetate et
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="14"/>qualitate ordinandorum praeter dicta, vide
+            <lb ed="#V" n="15"/>statutum Trident. sess. 23. de reform.
+            <lb ed="#V" n="16"/>c. 11. 12. 13. 14. etc. Haec sufficiant de
+            Sa<lb ed="#V" n="17" break="no"/>cramento Ordinis. Prolixius posset quis
+            <lb ed="#V" n="18"/>haerere in hac materia, sed nobis ex
+            insti<lb ed="#V" n="19" break="no"/>tuto praesenti ad declarationem litterae
+            Do<lb ed="#V" n="20" break="no"/>ctoris visum est non extendere tractatun,
+            <lb ed="#V" n="21"/>quia materia haec passim apud Summistas,
+            <lb ed="#V" n="22"/>et casus ejus particulares legi possunt. Et
+            <lb ed="#V" n="23"/>qui plura appetit, legat Doctores citatos
+            <lb ed="#V" n="24"/>tam in scholiis quam in commentariis
+            cita<lb ed="#V" n="25" break="no"/>tos, quia brevitas temporis, et sequentis
+            <lb ed="#V" n="26"/>materiae abundantia nos vocant, etc.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

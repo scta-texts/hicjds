@@ -1,0 +1,2607 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 30, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 30, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x19">Vives, Paris, 1894, volume 19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="244"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e4538"><!-- hicjds-b4d30q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum ad contractum matrimonii requiratur consensus sequens apprehensionem non erroneam</head>
+        <!-- <div alias="hiq-d30q1-p1"> -->
+          <p>
+            <lb ed="#V" n="29" type="fixed=244"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Hic agit Doctor de consensu
+            involunta<lb ed="#V" n="31" break="no"/>rio ex errore personae et conditionis, etc.
+            <lb ed="#V" n="32"/>Dividit eam in duas quaestiones; quarum
+            <lb ed="#V" n="33"/>prima resolvit quid inferat error; secunda
+            <lb ed="#V" n="34"/>vero quaerit de matrimonio inter
+            Beatis<lb ed="#V" n="35" break="no"/>simam Virginem et sponsum ejus Joseph.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>(a) Ad istam quoestionem, etc.
+            Suppo<lb ed="#V" n="37" break="no"/>nit primo quae disseruit dist. 26. circa
+            <lb ed="#V" n="38"/>naturam hujus contractus, deinde
+            con<lb ed="#V" n="39" break="no"/>sensum liberum, qui est hujus materia,
+            <lb ed="#V" n="40"/>posse impediri ex Philosopho et Augustino.
+            <lb ed="#V" n="41"/>Per ignorantiam, si concernat conditionem
+            <lb ed="#V" n="42"/>illam, quam respicit actus voluntatis,
+            su<cb ed="#V" n="b"/><lb ed="#V" n="43" break="no"/>mit ignorantiam qua involvit errorem,
+            <lb ed="#V" n="44"/>quia ignorantia non tollit actum
+            volunta<lb ed="#V" n="45" break="no"/>tis, nisi ut est conjunctus error, et
+            appre<lb ed="#V" n="46" break="no"/>henditur aliqua conditio in objecto, quam
+            <lb ed="#V" n="47"/>intendit consentiens, et sine qua non
+            fie<lb ed="#V" n="48" break="no"/>ret consensus, quae apprehensio est
+            er<lb ed="#V" n="49" break="no"/>ronea et cum falsitate. Haec autem est
+            <lb ed="#V" n="50"/>ignorantia antecedens dans causam actui;
+            <lb ed="#V" n="51"/>de qua vide Doctores in 2. dist. 22. ubi
+            <lb ed="#V" n="52"/>eam dividit Doctor in antecedentem,
+            <lb ed="#V" n="53"/>concomitantem et consequentem.
+            Antece<lb ed="#V" n="54" break="no"/>dens facit actum involuntarium
+            conside<lb ed="#V" n="55" break="no"/>rata dispositione voluntatis quae non
+            da<lb ed="#V" n="56" break="no"/>ret consensum, si adesset scientia opposita.
+            <lb ed="#V" n="57"/>Concomitans facit non voluntarium, quia
+            <lb ed="#V" n="58"/>nihil volitum quin praecognitum; non
+            <lb ed="#V" n="59"/>tamen facit involuntarium, quia si
+            scien<lb ed="#V" n="60" break="no"/>tia opposita adesset, non prohiberet actum
+            <lb ed="#V" n="61"/>fieri, consequens est poena peccati.
+            Antece<lb ed="#V" n="62" break="no"/>dentem ibidem vocat in secunda
+            divisi<lb ed="#V" n="63" break="no"/>one ignorantiam, cui conjunctus est error,
+            <lb ed="#V" n="64"/>et potest esse facti in se, vel quoad
+            ali<lb ed="#V" n="65" break="no"/>quas circumstantias, vel quoad aliquod
+            <lb ed="#V" n="66"/>consequens. Concomitantem autem vocat
+            <lb ed="#V" n="67"/>nescientiam, quamvis ignorantia illa facti
+            <lb ed="#V" n="68"/>in ordine ad peccatum contingat; tamen in
+            <lb ed="#V" n="69"/>ordine ad contractum non contingit, quia
+            <lb ed="#V" n="70"/>nequit contractus iniri de re omnino
+            igno<lb ed="#V" n="71" break="no"/>ta. Sed contingit ignorantia alicujus
+            cir<lb ed="#V" n="72" break="no"/>cumstantiae, ut personae et qualitatis, et
+            <lb ed="#V" n="73"/>conditionis fortunae, quae respiciuntur
+            spe<lb ed="#V" n="74" break="no"/>cifice a consensu, aut supponuntur, sive ad
+            <lb ed="#V" n="75"/>circumstantiam contractus a contrahente;
+            <lb ed="#V" n="76"/>et habetur c. unico, 29. q. 1. Magister
+            <lb ed="#V" n="77"/>autem in hac dist. distinguit in quatuor
+            <lb ed="#V" n="78"/>species errorem ad propositum. In
+            erro<lb ed="#V" n="79" break="no"/>rem personae, ut cum una persona pro alia
+            <lb ed="#V" n="80"/>supponitur, ut Lia supposita est Racheli.
+            <lb ed="#V" n="81"/>Secundus error est conditionis, verbi
+            <lb ed="#V" n="82"/>gratia, servilis, ut cum quis contrahere
+            <lb ed="#V" n="83"/>intendit cum libera, quae tamen est serva.
+            <lb ed="#V" n="84"/>Tertius error contingit in qualitate, ut
+            <lb ed="#V" n="85"/>cum putat se contrahere cum nobili,
+            pul<lb ed="#V" n="86" break="no"/>chra, virgine, etc. et contrahit cum
+            igno<pb ed="#V" n="245"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>bili, deformi et corrupta. Quartus error
+            <lb ed="#V" n="2"/>est quoad fortunam et divitias, quae est
+            <lb ed="#V" n="3"/>qualitas extrinseca Antecedentem
+            igno<lb ed="#V" n="4" break="no"/>rentiam appelant Juristae, si est cum dolo,
+            <lb ed="#V" n="5"/>dolum dantem causam contractui;
+            con<lb ed="#V" n="6" break="no"/>comitantem, posteriorem vocant cadentem
+            <lb ed="#V" n="7"/>in contractum.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>(b) Ex hoc sequitur breve corollarium,
+            <lb ed="#V" n="9"/>quod, etc. Statuit conclusionem et
+            funda<lb ed="#V" n="10" break="no"/>mentum commune, nempe omnem errorem
+            <lb ed="#V" n="11"/>« contra conditionem per se requisitam ad
+            <lb ed="#V" n="12"/>contractum facere contractum nullum.
+            <lb ed="#V" n="13"/>Conclusio haec certissima est et communis,
+            <lb ed="#V" n="14"/>quia talis error est substantialis; omnis
+            <lb ed="#V" n="15"/>conditio per se requisita ad contractum
+            le<lb ed="#V" n="16" break="no"/>gitimum est substantialis. Ille error tollit
+            <lb ed="#V" n="17"/>consensum liberum et necessarium ad
+            con<lb ed="#V" n="18" break="no"/>tractum, 1. Si per errorem, ff. jurisd.
+            <lb ed="#V" n="19"/>omn. judic. et errantis nullus est
+            consen<lb ed="#V" n="20" break="no"/>sus, nec voluntas, l. Cum testamentum
+            <lb ed="#V" n="21"/>et l. Non idcirco, C. de Juris, et facti
+            <lb ed="#V" n="22"/>ignorantia.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Hinc deducit triplicem errorem
+            annul<lb ed="#V" n="24" break="no"/>lare matrimonium. Primus error est
+            per<lb ed="#V" n="25" break="no"/>sonae, ut in casu contigit, quod Jacob
+            <lb ed="#V" n="26"/>duxit Liam, putans esse Rachelem.
+            Se<lb ed="#V" n="27" break="no"/>cundus error circa conditionem
+            perso<lb ed="#V" n="28" break="no"/>nae, nempe qui ducit cum serva
+            matrimo<lb ed="#V" n="29" break="no"/>nium, putans esse liberam. Tertius error
+            <lb ed="#V" n="30"/>aunullans est circa consensum alterius
+            <lb ed="#V" n="31"/>conjugis, ut quando defecit consensus
+            <lb ed="#V" n="32"/>verus, et contraxit ficte et animo
+            fornica<lb ed="#V" n="33" break="no"/>rio, non maritali.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>(c) De primo errore patet, etc. Probat
+            <lb ed="#V" n="35"/>errorem in persona annullare
+            matrimo<lb ed="#V" n="36" break="no"/>nium, quia annullat contractum emptionis
+            <lb ed="#V" n="37"/>et venditionis, ut si quis substituat
+            auri<lb ed="#V" n="38" break="no"/>chalcum pro auro.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Sed dices, contractus venditionis et
+            <lb ed="#V" n="40"/>emptionis non attendit, nisi
+            qualita<lb ed="#V" n="41" break="no"/>tem secundum justitiam commutativam.
+            <lb ed="#V" n="42"/>Unde vendens aurum non obligatur ad hoc
+            <lb ed="#V" n="43"/>aut illud in individuo, sed in specie ad
+            <lb ed="#V" n="44"/>aurum; ergo similiter in proposito perinde
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>est sive Francisca, sive alia sit in
+            indivi<lb ed="#V" n="46" break="no"/>duo, modo servetur aequalitas, et ratio
+            <lb ed="#V" n="47"/>proinde non concludit.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Respondetur, sicut consensus ementis
+            <lb ed="#V" n="49"/>respicit rem in specie, usum et
+            commodi<lb ed="#V" n="50" break="no"/>tatem secundum naturam suam, per quam
+            <lb ed="#V" n="51"/>cadit in contractum, ita illum fieri nullum,
+            <lb ed="#V" n="52"/>si alias res supponatur diversae speciei,
+            <lb ed="#V" n="53"/>licet ejusdem possit esse valoris, non
+            <lb ed="#V" n="54"/>ejusdem tamen usus aut commoditatis,
+            <lb ed="#V" n="55"/>quia error est circa substantialem
+            con<lb ed="#V" n="56" break="no"/>ditionem et materiam, circa quam fit
+            <lb ed="#V" n="57"/>contractus. Ita in proposito, materia
+            <lb ed="#V" n="58"/>circa quam fit contractus, est
+            indi<lb ed="#V" n="59" break="no"/>vidua persona, pro cujus corpore
+            trans<lb ed="#V" n="60" break="no"/>fert consentiens suum corpus,
+            diri<lb ed="#V" n="61" break="no"/>gendo consensum ad personam
+            individua<lb ed="#V" n="62" break="no"/>lem, ad ineundum individuam cum ipsa et
+            <lb ed="#V" n="63"/>personalem societatem indivisibilem: ideo
+            <lb ed="#V" n="64"/>fit dolus in substantia contractus quoad
+            <lb ed="#V" n="65"/>materiam, quam respicit consensus per
+            <lb ed="#V" n="66"/>se, et sic annullat, sicut emens aurum
+            <lb ed="#V" n="67"/>non intendit aurichalcum; ratio ergo
+            Do<lb ed="#V" n="68" break="no"/>ctoris recte concludit.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Hinc infert, quod si error sit
+            concomi<lb ed="#V" n="70" break="no"/>tans, ita ut si sciret contrahens eam, cum
+            <lb ed="#V" n="71"/>qua contrahit non esse Franciscam, cui se
+            <lb ed="#V" n="72"/>per actualem consensum conjungit; sed
+            <lb ed="#V" n="73"/>aliam aequalis, aut melioris conditionis,
+            <lb ed="#V" n="74"/>eam duceret, adhuc matrimonium esse
+            <lb ed="#V" n="75"/>nullum, quia consensus actualis de
+            prae<lb ed="#V" n="76" break="no"/>senti est causa matrimonii, ex dist. 27.
+            <lb ed="#V" n="77"/>q. 2. et dist. 28. quoest. unica, non
+            suffi<lb ed="#V" n="78" break="no"/>cit autem habitualis, quia talis non
+            trans<lb ed="#V" n="79" break="no"/>fert dominium corporis in aliam.
+            Con<lb ed="#V" n="80" break="no"/>sensus autem praesens dirigitur tantum ad
+            <lb ed="#V" n="81"/>Franciscam, et non ad aliam; ergo.
+            Dein<lb ed="#V" n="82" break="no"/>de, consensus ex errore antecedente non
+            <lb ed="#V" n="83"/>ideo matrimonium annullat, quia infert
+            <lb ed="#V" n="84"/>vim libertati, sicut coactio facit, aut quia
+            <lb ed="#V" n="85"/>scientia quam tollit error, si adesset,
+            tol<lb ed="#V" n="86" break="no"/>leret omnem consensum, quem nunc habet
+            <lb ed="#V" n="87"/>voluntas ex dispositione consentientis, sed
+            <lb ed="#V" n="88"/>quia tollit consensum actualem requisitum
+            <pb ed="#V" n="246"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>de praesenti, et directum ad personam,
+            <lb ed="#V" n="2"/>quae cadit sub consensu, tanquam
+            mate<lb ed="#V" n="3" break="no"/>ria, sed perinde id facit ignorantia seu
+            <lb ed="#V" n="4"/>error concomitans; ergo. Non enim ad
+            valo<lb ed="#V" n="5" break="no"/>rem contractus attenditur quid facturus
+            <lb ed="#V" n="6"/>esset consentiens, si abesset error, sed
+            <lb ed="#V" n="7"/>quid de praesenti per scientiam actualem,
+            <lb ed="#V" n="8"/>qua regulatur ejus consensus, praestet; et
+            <lb ed="#V" n="9"/>quamvis ignorantia illa, quae dicitur
+            con<lb ed="#V" n="10" break="no"/>comitans, ita se habeat, quantum ad
+            di<lb ed="#V" n="11" break="no"/>spositionem habitualem voluntatis, quae
+            <lb ed="#V" n="12"/>non transit in expressum consensum cum
+            <lb ed="#V" n="13"/>alia, neque consequenter reducitur ad
+            <lb ed="#V" n="14"/>actum; est tamen antecedens ignorantia,
+            <lb ed="#V" n="15"/>ut consensus actualis ex ea causatur, ut
+            <lb ed="#V" n="16"/>praecise dirigitur ad Franciscam; neque
+            <lb ed="#V" n="17"/>illa dispositio indifferens informatur per
+            <lb ed="#V" n="18"/>alium consensum, quam per hunc
+            dire<lb ed="#V" n="19" break="no"/>ctum ad personam individuam, quae sub
+            <lb ed="#V" n="20"/>actuali notitia cadit, quam sequitur
+            volun<lb ed="#V" n="21" break="no"/>tas.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Sed quid si ipsa Francisca tunc praesens
+            <lb ed="#V" n="23"/>simul cum alia, ad quam dirigit ex errore
+            <lb ed="#V" n="24"/>vir suum consensum, reciproce praestaret
+            <lb ed="#V" n="25"/>suum, per verba de praesenti quid fieret?
+            <lb ed="#V" n="26"/>. Respondetur matrimonium esse nullum,
+            <lb ed="#V" n="27"/>et cum Francisca et cum alia, quia verba
+            <lb ed="#V" n="28"/>aut signa externa requiruntur ad
+            matri<lb ed="#V" n="29" break="no"/>monium, sive ut contractus est, sive ut
+            <lb ed="#V" n="30"/>Sacramentum, et debent respicere eamdem
+            <lb ed="#V" n="31"/>personam, et non diversas, tam consensus
+            <lb ed="#V" n="32"/>quam verba, per quae exprimitur. Verba
+            <lb ed="#V" n="33"/>autem diriguntur ad personam substitutam
+            <lb ed="#V" n="34"/>ex errore proferentis, licet consensus
+            <lb ed="#V" n="35"/>quantum ad intentionem respiciat
+            Fran<lb ed="#V" n="36" break="no"/>ciscam, quin vero ipse consensus ad
+            per<lb ed="#V" n="37" break="no"/>sonam substitutam ex eodem errore
+            diri<lb ed="#V" n="38" break="no"/>gitur, licet intentio Franciscam respiciat.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Objicies errorem personae in aliis
+            con<lb ed="#V" n="40" break="no"/>tractibus non annullare contractum, ut si
+            <lb ed="#V" n="41"/>quis vendat servum sub nomine Pauli,
+            <lb ed="#V" n="42"/>licet vocetur Petrus; vel si quis in
+            vendi<lb ed="#V" n="43" break="no"/>toris nomine erret, aut si sericum
+            Grana<lb ed="#V" n="44" break="no"/>tense vendat pro alio, aut e contra.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Respondetur errorem in nomine servi
+            <lb ed="#V" n="46"/>non facere ad contractum, modo ipsa
+            ser<lb ed="#V" n="47" break="no"/>vi persona distrahatur, quia ille error non
+            <lb ed="#V" n="48"/>est circa materiam, quae est persona
+            ser<lb ed="#V" n="49" break="no"/>vi, sic etiam si quis contrahat cum Maria
+            <lb ed="#V" n="50"/>praesente, intendens personam ejus, non
+            <lb ed="#V" n="51"/>irritat contractum, si in nomine erret,
+            <lb ed="#V" n="52"/>quia ille error non respicit consensum,
+            <lb ed="#V" n="53"/>qui dirigitur ad personam praesentem in
+            <lb ed="#V" n="54"/>individuo, et quae per se intenditur. Si
+            <lb ed="#V" n="55"/>tamen substitueretur alia persona vel in
+            <lb ed="#V" n="56"/>hoc, vel in illo contractu, quando emens
+            <lb ed="#V" n="57"/>velit personam individuam propter usum
+            <lb ed="#V" n="58"/>ejus, contractus esset nullus, quia error
+            <lb ed="#V" n="59"/>est in materia. Dixi quando emens velit,
+            <lb ed="#V" n="60"/>seu intendit personam individuam propter
+            <lb ed="#V" n="61"/>usum particularem ejus et industriam,
+            si<lb ed="#V" n="62" break="no"/>bi aliquo modo notam, quia si intenderet
+            <lb ed="#V" n="63"/>tantum emere servum, sufficit ut persona
+            <lb ed="#V" n="64"/>aequivalens illi reddatur, sicut etiam
+            quan<lb ed="#V" n="65" break="no"/>do intendit sericum Granatense, modo
+            <lb ed="#V" n="66"/>aliud sit aequale, quantum ad substantiam,
+            <lb ed="#V" n="67"/>usum et commoditatem. Idem dicerem de
+            <lb ed="#V" n="68"/>servo etiam, servata aequalitate in re
+            <lb ed="#V" n="69"/>commutata, matrimonium tamen in hoc
+            <lb ed="#V" n="70"/>specialiter distat ab aliis, necessario
+            diri<lb ed="#V" n="71" break="no"/>gatur ad personam individuam, ex natura
+            <lb ed="#V" n="72"/>transmutationis, quae intervenit, et
+            con<lb ed="#V" n="73" break="no"/>sensus requisiti.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>(d) Secunda conditio est hic
+            specia<lb ed="#V" n="75" break="no"/>lis, etc. Probat conditionem servitutis
+            <lb ed="#V" n="76"/>annullare matrimonium, quando liber
+            con<lb ed="#V" n="77" break="no"/>trahit ex errore conditionis, intendit non
+            <lb ed="#V" n="78"/>servitutem adscriptitiam, qualem habent
+            <lb ed="#V" n="79"/>illi, qui ad certas operas tenentur
+            domi<lb ed="#V" n="80" break="no"/>nis, ut qui colunt terras nunquam inde
+            <lb ed="#V" n="81"/>recessuri, et quibus tantum sumptus et
+            <lb ed="#V" n="82"/>victus cedit; neque etiam originariam
+            ser<lb ed="#V" n="83" break="no"/>vitutem, quibus obnoxii sunt filii illorum,
+            <lb ed="#V" n="84"/>sed servitutem proprie dictam, qua quis
+            <lb ed="#V" n="85"/>est obnoxius voluntati domini, ut cum
+            <lb ed="#V" n="86"/>vendat. et omnia acquirat domino, non
+            <lb ed="#V" n="87"/>sibi, aut filiis aut uxori.
+          </p>
+          <p>
+            <lb ed="#V" n="88"/>Errorem talis conditionis annullare
+            ma<pb ed="#V" n="247"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>trimonium definitum est cap. 2. et 3. et
+            <lb ed="#V" n="2"/>finali de conjugio serv. et cap. Si quis
+            <lb ed="#V" n="3"/>ingenuus 29. quoest. 2. et per totam
+            quae<lb ed="#V" n="4" break="no"/>stionem idem supponitur. Conclusionem
+            <lb ed="#V" n="5"/>probat Doctor ratione, ex eo quod liber
+            <lb ed="#V" n="6"/>intendat commutationem sui corporis
+            li<lb ed="#V" n="7" break="no"/>beram facere, pro potestate libera corporis
+            <lb ed="#V" n="8"/>alterius; sed servus non potest hanc
+            libe<lb ed="#V" n="9" break="no"/>ram facere, quia est obnoxius domino per
+            <lb ed="#V" n="10"/>servitutem, qui eum vendere potest, etiam
+            <lb ed="#V" n="11"/>extra patriam; ergo libet non censetur
+            <lb ed="#V" n="12"/>consentire scienter in servum; et sic ex
+            <lb ed="#V" n="13"/>defectu consensus liberi contractus est
+            <lb ed="#V" n="14"/>s nullus. Patet ultima consequentia, quia
+            <lb ed="#V" n="15"/>est maxima inaequalitas quoad materiam
+            <lb ed="#V" n="16"/>transmutationis in ordine ad finem
+            intrin<lb ed="#V" n="17" break="no"/>secum matrimonii, ut educandae prolis,
+            <lb ed="#V" n="18"/>cum omnia acquirat servus domino,
+            ejus<lb ed="#V" n="19" break="no"/>que alendae, sicut et uxoris, et individuae
+            <lb ed="#V" n="20"/>societatis, quae abstraherent a consensu,
+            <lb ed="#V" n="21"/>si scirentur. Consensus autem
+            matrimo<lb ed="#V" n="22" break="no"/>nialis contraria his intendit ex natura
+            ip<lb ed="#V" n="23" break="no"/>sius consensus, ut respicit finem
+            contra<lb ed="#V" n="24" break="no"/>ctus; ergo eorum error reddit consensum
+            <lb ed="#V" n="25"/>nullum, de quo non est dubium, quamvis
+            <lb ed="#V" n="26"/>dubium sit qua lege id fiat, an divina et
+            <lb ed="#V" n="27"/>naturali, an vero sola lege humana?
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Plures tenent lege Canonica tantum
+            ir<lb ed="#V" n="29" break="no"/>-ritari matrimonium ex errore conditionis,
+            <lb ed="#V" n="30"/>pro qua citatur D. Thomas in 4. dist. 36.
+            <lb ed="#V" n="31"/>quaest. unic. art. 1. ad 3. tenent D.
+            Bo<lb ed="#V" n="32" break="no"/>naventura art. 1. quoest. 2. Durandus
+            <lb ed="#V" n="33"/>quoest. 2. ad 1. Paludanus dist. 30.
+            <lb ed="#V" n="34"/>quoest. 1. art. 2. Supplementum Gabrielis
+            <lb ed="#V" n="35"/>cons. 3. et dist. 36. quaest. 1. art. 2.
+            So<lb ed="#V" n="36" break="no"/>tus distinct. 35. art. 2. post primam
+            <lb ed="#V" n="37"/>conclusionem, et plures Summistae, verb.
+            <lb ed="#V" n="38"/>Matrimonium, verb. Impedimentum, et
+            <lb ed="#V" n="39"/>alii, quos citat Sanchez lib. 7. disput. 19.
+            <lb ed="#V" n="40"/>quaest. 2. quam ut probabiliorem
+            sequi<lb ed="#V" n="41" break="no"/>tur, licet contrariam sentiat etiam
+            proba<lb ed="#V" n="42" break="no"/>bilem.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Dico Jure naturali et divino errorem
+            <lb ed="#V" n="44"/>conditionis irritare matrimonium. Hanc
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>supponit Doctor in littera praecedenti
+            as<lb ed="#V" n="46" break="no"/>serens hunc errorem esse circa
+            conditi<lb ed="#V" n="47" break="no"/>onem per se requisitam ad contractum; et
+            <lb ed="#V" n="48"/>huc tendit ratio ejus, quam supra
+            prae<lb ed="#V" n="49" break="no"/>misimus. Idem expresse docet dist. 42.
+            <lb ed="#V" n="50"/>quoest. unica, 8 Ex dictis breviter
+            colli<lb ed="#V" n="51" break="no"/>go, etc. ubi connumerat hoc
+            impedimen<lb ed="#V" n="52" break="no"/>tum inter ea quae ex natura contractus
+            ir<lb ed="#V" n="53" break="no"/>ritant; et distinguit impedimenta, quae
+            <lb ed="#V" n="54"/>Jure naturali aut divino irritant, ab aliis
+            <lb ed="#V" n="55"/>quae Jure tantum Ecclesiastico; et haec
+            <lb ed="#V" n="56"/>recenset 8 Sequenti ejusdem quaestionis.
+            <lb ed="#V" n="57"/>Hanc tenet Magister in hac dist. Mayronis
+            <lb ed="#V" n="58"/>cum aliis nostrae Scholae, Angles 1. part.
+            <lb ed="#V" n="59"/>de matrim, queest. 1. art. 1. dub. 1.
+            <lb ed="#V" n="60"/>conclusione 1. Almainus in 4. dist. 36.
+            <lb ed="#V" n="61"/>quaest. unica, Palacius dist. 30. quaest.
+            <lb ed="#V" n="62"/>unica, Petrus de Soto lect. 3. de
+            matri<lb ed="#V" n="63" break="no"/>monio, Glossa in cap. fin. de conjug. serv.
+            <lb ed="#V" n="64"/>ubi etiam Hostiensis et Goffredus, Covarr.
+            <lb ed="#V" n="65"/>4. decret. 1. part. cap. 3. Antonius Cuccus
+            <lb ed="#V" n="66"/>lib. 5. instit. Major, tit. 12. Sylvester
+            <lb ed="#V" n="67"/>verb. Matrimonium. 6. quoest. dist. 1.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Conclusio haec non ex eo probatur, ut
+            qui<lb ed="#V" n="69" break="no"/>dam putant, quod servitus repugnat
+            con<lb ed="#V" n="70" break="no"/>tractui matrimonii, quia hujus contrariam
+            <lb ed="#V" n="71"/>infra probabimus cum Doctore dist. 36.
+            <lb ed="#V" n="72"/>Sed probatio peti debet ex ea ratione,
+            <lb ed="#V" n="73"/>quam adducit Doctor, nempe ex defectu
+            <lb ed="#V" n="74"/>consensus per se requisiti ad contractum,
+            <lb ed="#V" n="75"/>quem talis error impedit. In proposito
+            <lb ed="#V" n="76"/>autem deficit talis consensus; ergo
+            con<lb ed="#V" n="77" break="no"/>tractus ex natura rei deficit. Minor
+            pro<lb ed="#V" n="78" break="no"/>batur, error circa personam de naturali
+            <lb ed="#V" n="79"/>Jure impedit contractum, ut communiter
+            <lb ed="#V" n="80"/>Doctores contra glossam 29. quoest. 1.
+            <lb ed="#V" n="81"/>asserentem Jure tantum Ecclesiastico
+            diri<lb ed="#V" n="82" break="no"/>mi, et error in qualitate, quando
+            redun<lb ed="#V" n="83" break="no"/>dat in personam, ut postea videbimus.
+            <lb ed="#V" n="84"/>etiam irrita matrimonium; sed error
+            <lb ed="#V" n="85"/>conditionis redundat in personam; ergo
+            <lb ed="#V" n="86"/>etiam eodem Jure impedit, quo error
+            <lb ed="#V" n="87"/>personae impedit. Probatur subsumptum,
+            <lb ed="#V" n="88"/>quia contrahens non solum intendit
+            con<pb ed="#V" n="248"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tractum, sed etiam aequalitatem ex vi
+            <lb ed="#V" n="2"/>praesentis consensus, ita ut transfert
+            libe<lb ed="#V" n="3" break="no"/>ram potestatem sui in alium, ita etiam
+            <lb ed="#V" n="4"/>acquirat liberam potestatem alterius. In
+            <lb ed="#V" n="5"/>contractu enim oneroso nequit
+            interpre<lb ed="#V" n="6" break="no"/>tari alius ejus consensus, quo sibi
+            prae<lb ed="#V" n="7" break="no"/>judicaret, quin per se intendat servando
+            <lb ed="#V" n="8"/>medium justitiae recipere aequalem in
+            <lb ed="#V" n="9"/>commutatione, neque solum personam
+            <lb ed="#V" n="10"/>respicere tanquam materiam contractus,
+            <lb ed="#V" n="11"/>sed etiam quoad aequalitatem dati et
+            ac<lb ed="#V" n="12" break="no"/>cepti, servando medium rei; ergo
+            con<lb ed="#V" n="13" break="no"/>sensus ejus praesens ex errore antecedente
+            <lb ed="#V" n="14"/>conditionis non solum et praecise respicit
+            <lb ed="#V" n="15"/>personam, sed etiam aequalitatem in
+            <lb ed="#V" n="16"/>commutatione, et sic personam, ut ei
+            af<lb ed="#V" n="17" break="no"/>fixa est haec conditio, qua servatur talis
+            <lb ed="#V" n="18"/>aequalitas.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Confirmatur. in justitia commutativa,
+            <lb ed="#V" n="20"/>quae versatur in medio in re ipsa, quan
+            <lb ed="#V" n="21"/>titas spectat ad substantiam contractus,
+            <lb ed="#V" n="22"/>absolute loquendo, quando aliud non
+            <lb ed="#V" n="23"/>-excipitur per formam, et ad materiam
+            <lb ed="#V" n="24"/>commutationis, ut si quis vinum aut
+            <lb ed="#V" n="25"/>granum in specie mutuavit, acquirit Jus
+            <lb ed="#V" n="26"/>recipiendi tantum in specie, quantum
+            <lb ed="#V" n="27"/>mutuavit. Sed in proposito, persona libera
+            <lb ed="#V" n="28"/>ex errore antecedente transferens
+            potesta<lb ed="#V" n="29" break="no"/>tem liberam sui corporis in aliam, quam
+            <lb ed="#V" n="30"/>putavit liberam, contrahit secundum
+            ju<lb ed="#V" n="31" break="no"/>Stitiam commutativam, ut versatur in
+            <lb ed="#V" n="32"/>medio ipsius rei; ergo consensus ejus non
+            <lb ed="#V" n="33"/>est trahendus ad inaequalitatem in re
+            ip<lb ed="#V" n="34" break="no"/>sa ex vi contractus, neque ex lege neque
+            <lb ed="#V" n="35"/>secundum rectam rationem. Probatur
+            <lb ed="#V" n="36"/>consequentia, quia contractus bonae
+            fi<lb ed="#V" n="37" break="no"/>dei, cui dolus causam dedit, est ipso Jure
+            <lb ed="#V" n="38"/>nullus, secundum sententiam communem
+            <lb ed="#V" n="39"/>Doctorum. Si autem est stricti Juris,
+            <lb ed="#V" n="40"/>est irritandus, quando autem in
+            cae<lb ed="#V" n="41" break="no"/>teris contractus est irritabilis, in
+            matri<lb ed="#V" n="42" break="no"/>monio est nullus, quia aliter subveniri
+            <lb ed="#V" n="43"/>nequit huic contractui, quia valide
+            trans<lb ed="#V" n="44" break="no"/>actus fit insolubilis, ac proinde ad eum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>requiritur consensus legitimus, et per
+            <lb ed="#V" n="46"/>legem regulatus, ut valeat, qui in
+            prae<lb ed="#V" n="47" break="no"/>senti casu non invenitur in persona
+            libe<lb ed="#V" n="48" break="no"/>ra, cujus consensus dirigitur ad
+            perso<lb ed="#V" n="49" break="no"/>nam, qua libera putatur, et secundum
+            <lb ed="#V" n="50"/>aequalitatem rei.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>Patet eadem consequentia quoad legem
+            <lb ed="#V" n="52"/>non esse consensum legitimum, quia lex
+            <lb ed="#V" n="53"/>divina et naturalis excludit dolum et
+            inae<lb ed="#V" n="54" break="no"/>qualitatem notabilem in commutatione,
+            <lb ed="#V" n="55"/>prout per dolum causatur, et non per
+            <lb ed="#V" n="56"/>consensum ejus, qui patitur; et magis
+            <lb ed="#V" n="57"/>respiciat hunc contractum secundum
+            na<lb ed="#V" n="58" break="no"/>turam contractus legitimi, et juxta
+            ordi<lb ed="#V" n="59" break="no"/>narium modum contrahendi secundum
+            <lb ed="#V" n="60"/>aequalitatem regulariter, quam ex
+            acci<lb ed="#V" n="61" break="no"/>denti annexo. Ordinarius modus, quem
+            <lb ed="#V" n="62"/>respicit prima institutio, est libera et
+            <lb ed="#V" n="63"/>aequalis translatio, quia contractus
+            insti<lb ed="#V" n="64" break="no"/>tutus est ante conditionem servitutis.
+            <lb ed="#V" n="65"/>Idque concedere debent adversarii, qui
+            <lb ed="#V" n="66"/>docent Ecclesiam instituisse hoc
+            impedi<lb ed="#V" n="67" break="no"/>mentum propter injustitiam, quae, per
+            <lb ed="#V" n="68"/>dolum fit personae liberae, et propter
+            ne<lb ed="#V" n="69" break="no"/>cessaria detrimenta, quae fini matrimonii
+            <lb ed="#V" n="70"/>in alenda et educanda prole eveniunt.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Hinc etiam patet tertium, nempe
+            con<lb ed="#V" n="72" break="no"/>sensum personae liberae secundum rectam
+            <lb ed="#V" n="73"/>rationem summovere haec impedimenta et
+            <lb ed="#V" n="74"/>detrimenta, quia neque praesumptione
+            <lb ed="#V" n="75"/>Juris aut facti potest consensus ejus illa
+            <lb ed="#V" n="76"/>includere, quia praesumptione Juris et
+            <lb ed="#V" n="77"/>facti censetur exceptus dolus, et
+            inju<lb ed="#V" n="78" break="no"/>ria notabilis redundans in finem ipsius
+            <lb ed="#V" n="79"/>contractus. Finis autem contractus est
+            <lb ed="#V" n="80"/>educatio debita prolis, et remedium
+            <lb ed="#V" n="81"/>infirmitatis, ut supra distinct. 26.
+            prae<lb ed="#V" n="82" break="no"/>misimus cum communi; ergo
+            consen<lb ed="#V" n="83" break="no"/>sus liberae personae ex dolo non
+            cense<lb ed="#V" n="84" break="no"/>tur ad contrarium horum se extendere.
+            <lb ed="#V" n="85"/>secundum rectam rationem, ex
+            praesum<lb ed="#V" n="86" break="no"/>ptione facti aut Juris, consequenter deest
+            <lb ed="#V" n="87"/>consensus liber requisitus.
+          </p>
+          <p>
+            <lb ed="#V" n="88"/>Praeterea secundo, conditio implicita in
+            <pb ed="#V" n="249"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>consensu tantum operatur, quantum
+            con<lb ed="#V" n="2" break="no"/>ditio eadem, si esset expressa, modo
+            in<lb ed="#V" n="3" break="no"/>cludatur ex natura ipsius tanquam
+            intrin<lb ed="#V" n="4" break="no"/>seca, ut respicit materiam contractus; sed
+            <lb ed="#V" n="5"/>si exprimeretur haec in consensu si es
+            li<lb ed="#V" n="6" break="no"/>ber, annullaret contractum, ergo etiam ut
+            <lb ed="#V" n="7"/>includitur ex natura consensus etiam
+            an<lb ed="#V" n="8" break="no"/>nullat contractum. Major probatur, quia
+            <lb ed="#V" n="9"/>consensus liberi ex dolo causatus includit
+            <lb ed="#V" n="10"/>illam conditionem hic et nunc, et ex
+            na<lb ed="#V" n="11" break="no"/>a tura sua respicit personam cum tali
+            limi<lb ed="#V" n="12" break="no"/>tatione, quia ex natura commutationis
+            eo<lb ed="#V" n="13" break="no"/>dem modo respicit acceptum, quo respicit
+            <lb ed="#V" n="14"/>datum secundum aequalitatem; ut autem
+            <lb ed="#V" n="15"/>est datio, est libera sui corporis translatio,
+            <lb ed="#V" n="16"/>et non reservata; est etiam translatio
+            one<lb ed="#V" n="17" break="no"/>rosa, ita ut recipiat similiter tantum,
+            <lb ed="#V" n="18"/>quantum dat; ergo non refertur ad
+            per<lb ed="#V" n="19" break="no"/>sonam servi, nisi ea libertate qua propriam
+            <lb ed="#V" n="20"/>respicit, ut sicut dominium sui liberum
+            <lb ed="#V" n="21"/>transfert, ita dominium liberum alterius
+            <lb ed="#V" n="22"/>exspectet, neque aliter dominium sui
+            libe<lb ed="#V" n="23" break="no"/>rum tradit nisi alterius respiciat.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Confirmatur, quia liber nequit transferre
+            <lb ed="#V" n="25"/>dominium sui aliter quam libere, si
+            con<lb ed="#V" n="26" break="no"/>trahat cum libera, nisi intendat
+            ingres<lb ed="#V" n="27" break="no"/>sum Religionis, quod solvit matrimonium
+            <lb ed="#V" n="28"/>sequente professione in favorem fidei, si
+            <lb ed="#V" n="29"/>sunt infideles, quando alter convertitur
+            <lb ed="#V" n="30"/>ad fidem, nec cohabitare potest. Caeterum
+            <lb ed="#V" n="31"/>contractus etiam in his casibus requirit
+            <lb ed="#V" n="32"/>liberam translationem, sine qua esset
+            nul<lb ed="#V" n="33" break="no"/>lus, licet obligatio et vinculum inde
+            se<lb ed="#V" n="34" break="no"/>quens solvatur ex institutione Dei speciali.
+            <lb ed="#V" n="35"/>In priori enim casu, licet non teneatur
+            <lb ed="#V" n="36"/>talis consummare matrimonium, tamen
+            <lb ed="#V" n="37"/>tenetur translationem facere absolutam
+            <lb ed="#V" n="38"/>et liberam suiipsius, quia tenetur eam
+            fa<lb ed="#V" n="39" break="no"/>cere ut potest, et ex vi contractus
+            exigi<lb ed="#V" n="40" break="no"/>tur, et in casu quo non ingrederetur
+            Reli<lb ed="#V" n="41" break="no"/>gionem, aut in ea non emitteret
+            professi<lb ed="#V" n="42" break="no"/>onem, perinde teneretur conjungi, ac si
+            <lb ed="#V" n="43"/>non intenderet Religionem, quando
+            con<lb ed="#V" n="44" break="no"/>traxit, quia conditione reservata et
+            inten<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>ta, non adimpleta, redit contractus ad
+            <lb ed="#V" n="46"/>suam naturam, et obligatio remota fit
+            <lb ed="#V" n="47"/>proxima; quod non esset verum, nisi
+            <lb ed="#V" n="48"/>contractus ex natura sua, ut fit, et fieri
+            <lb ed="#V" n="49"/>debet inter liberos, includeret liberam
+            <lb ed="#V" n="50"/>translationem ex natura consensus. Sed
+            <lb ed="#V" n="51"/>consensus liberi in personam servi, quam
+            <lb ed="#V" n="52"/>putavit liberam, et ex dolo causatus, seu
+            <lb ed="#V" n="53"/>errore, non debet aliter interpretari
+            <lb ed="#V" n="54"/>quam per modum consensus liberi, et inter
+            <lb ed="#V" n="55"/>liberos quantum ad naturam ipsius
+            con<lb ed="#V" n="56" break="no"/>sensus, ut fit, et respicit intrinsece suum
+            <lb ed="#V" n="57"/>objectum, aut materiam circa quam; ergo
+            <lb ed="#V" n="58"/>nullam inducit obligationem, quando
+            ma<lb ed="#V" n="59" break="no"/>teria in re ipsa est impedita per
+            servitu<lb ed="#V" n="60" break="no"/>tem repugnantem translationi liberae,
+            <lb ed="#V" n="61"/>quae solum fieri potest per talem
+            consen<lb ed="#V" n="62" break="no"/>sum, et regulariter fit.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Tertio, non invenitur aliqua lex per
+            <lb ed="#V" n="64"/>modum statuti inducens hoc
+            impedimen<lb ed="#V" n="65" break="no"/>tum, sed quidquid in hoc edidit Ecclesia,
+            <lb ed="#V" n="66"/>per modum declarationis decrevit; ergo
+            <lb ed="#V" n="67"/>potius recurrendum est ad legem
+            divi<lb ed="#V" n="68" break="no"/>nam et naturalem, quam ad
+            Ecclesiasti<lb ed="#V" n="69" break="no"/>cam non scriptam. Patet antecedens ex
+            <lb ed="#V" n="70"/>legibus quae huc spectant, et probatur
+            <lb ed="#V" n="71"/>consequentia, quia 29. quest. 2. cap.
+            <lb ed="#V" n="72"/>Omnibus nobis, etc. valor matrimonii
+            in<lb ed="#V" n="73" break="no"/>ter liberum et servum decernitur ex lege
+            <lb ed="#V" n="74"/>divina, quia omnibus unus pater est, et
+            <lb ed="#V" n="75"/>una lex in ordine ad Deum; et intendit
+            <lb ed="#V" n="76"/>Canon matrimonium scienter contractum,
+            <lb ed="#V" n="77"/>nota conditione ante contractum, ut ibi
+            <lb ed="#V" n="78"/>glossa, et patet ex cap. 5. Si foemina, etc.
+            <lb ed="#V" n="79"/>Si foemina ingenua acceperit servum,
+            <lb ed="#V" n="80"/>sciens quod servus esset, habeat eum, quia
+            <lb ed="#V" n="81"/>omnes unum patrem habemus in coelis,
+            <lb ed="#V" n="82"/>una lex erit viro et foemina, etc. Ex quo
+            <lb ed="#V" n="83"/>sic argumentatur: quando regula
+            genera<lb ed="#V" n="84" break="no"/>lis includit exceptionem, debet respective
+            <lb ed="#V" n="85"/>ad eamdem legem et causam suae veritatis
+            <lb ed="#V" n="86"/>referri tam exceptio quam regula, nisi
+            <lb ed="#V" n="87"/>aliud apponatur; sed lex de conjugio
+            ser<lb ed="#V" n="88" break="no"/>vorum scienter inito, per quam tenet, est
+            <pb ed="#V" n="250"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>divina, ut patet in praemissis
+            declarationi<lb ed="#V" n="2" break="no"/>bus; ergo etiam exceptio, quam continet,
+            <lb ed="#V" n="3"/>veritatem suam habet ex eadem lege
+            di<lb ed="#V" n="4" break="no"/>vina; ergo contractus cum errore
+            condi<lb ed="#V" n="5" break="no"/>tionis initus, qui excipitur a regula
+            gene<lb ed="#V" n="6" break="no"/>rali divinae legis, debet excipi per ipsam
+            <lb ed="#V" n="7"/>divinam legem; ergo omnes textus
+            prae<lb ed="#V" n="8" break="no"/>fati tituli, qui supponunt per legem
+            <lb ed="#V" n="9"/>divinam valere connubia inter liberum
+            <lb ed="#V" n="10"/>et ancillam, et addunt limitationem illam,
+            <lb ed="#V" n="11"/>scienter contracta, vel per modum
+            exce<lb ed="#V" n="12" break="no"/>ptionis, sive per modum limitationis
+            ma<lb ed="#V" n="13" break="no"/>teriae, quam respicit ipsa lex, a sensu
+            <lb ed="#V" n="14"/>contrario; consequenter, si non scienter
+            <lb ed="#V" n="15"/>sunt contracta inter liberum et servum,
+            <lb ed="#V" n="16"/>non sunt rata lege divina; ergo nulla.
+            <lb ed="#V" n="17"/>Et confirmari potest per rationem alias
+            <lb ed="#V" n="18"/>factam de consensu coacto annullante
+            ma<lb ed="#V" n="19" break="no"/>trimonium ex defectu libertatis. Sed hic
+            <lb ed="#V" n="20"/>similiter est defectus libertatis, sicut
+            <lb ed="#V" n="21"/>et scientiae requisitae ad libertatem; ergo
+            <lb ed="#V" n="22"/>lex divina, quae annullat matrimonia non
+            <lb ed="#V" n="23"/>libera, eumdem habet effectum, sive
+            tolla<lb ed="#V" n="24" break="no"/>tur libertas per coactionem, sive tollatur
+            <lb ed="#V" n="25"/>per ignorantiam, cum eadem causa subsit,
+            <lb ed="#V" n="26"/>et idem semper operetur; non minus enim
+            <lb ed="#V" n="27"/>requiritur ad libertatem consensus, ut
+            ab<lb ed="#V" n="28" break="no"/>sit coactio, quam ut adsit scientia
+            requi<lb ed="#V" n="29" break="no"/>sita.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Ex his facilis est solutio ad
+            fundamen<lb ed="#V" n="31" break="no"/>ta oppositae sententiae, quae in eo
+            versan<lb ed="#V" n="32" break="no"/>tur, quod conjugium cum serva valeat
+            <lb ed="#V" n="33"/>cognita ejus conditione; ergo etiam lege
+            <lb ed="#V" n="34"/>divina aut naturali non est irritum
+            matri<lb ed="#V" n="35" break="no"/>monium ex errore conditionis. Patet
+            con<lb ed="#V" n="36" break="no"/>sequentia, quia servitus ex natura sua
+            <lb ed="#V" n="37"/>non adversatur matrimonio, aut ex
+            divi<lb ed="#V" n="38" break="no"/>na lege.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Respondetur negando consequentiam,
+            <lb ed="#V" n="40"/>ad cujus probationem patet ex dictis
+            nul<lb ed="#V" n="41" break="no"/>litatem hujus contractus non provenire
+            <lb ed="#V" n="42"/>per se ex conditione servitutis, sed ex
+            <lb ed="#V" n="43"/>defectu consensus liberi, qui per se
+            re<lb ed="#V" n="44" break="no"/>quiritur ad matrimonium.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Objicies secundo: Servitus non impedit
+            <lb ed="#V" n="46"/>liberum usum matrimonii, sed certis
+            tem<lb ed="#V" n="47" break="no"/>poribus, quando dominus licite occupat
+            <lb ed="#V" n="48"/>servum; ergo non adversatur naturae
+            <lb ed="#V" n="49"/>matrimonii.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Responderi potest, quod scienti et
+            vo<lb ed="#V" n="51" break="no"/>lenti non fit injuria, quia quilibet potest
+            <lb ed="#V" n="52"/>juri suo renuntiare cognita conditione
+            <lb ed="#V" n="53"/>servitutis, si tum contrahit, non ita vero
+            <lb ed="#V" n="54"/>quando ignoratur servitus.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Respondetur secundo, hanc
+            responsi<lb ed="#V" n="56" break="no"/>onem, etsi bonam, remotam esse.
+            Dicen<lb ed="#V" n="57" break="no"/>dum ergo quod ideo matrimonium est
+            <lb ed="#V" n="58"/>nullum, quia consensus liber et per se
+            <lb ed="#V" n="59"/>requisitus deficit.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Dices consensum hunc non esse
+            errone<lb ed="#V" n="61" break="no"/>um circa substantiam matrimonii, quae
+            <lb ed="#V" n="62"/>respicit personam, sed circa qualitatem,
+            <lb ed="#V" n="63"/>et sic esse involuntarium secundum quid.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Respondetur, esse errorem in
+            substan<lb ed="#V" n="65" break="no"/>tia, quia in personam non fit consensus,
+            <lb ed="#V" n="66"/>nisi servata aequalitate, et ut libera
+            cen<lb ed="#V" n="67" break="no"/>setur, et ut excluditur grave detrimentum
+            <lb ed="#V" n="68"/>repugnans fini ipsius matrimonii, ideo
+            <lb ed="#V" n="69"/>error est in substantia contractus ex forma
+            <lb ed="#V" n="70"/>et natura consensus, quia haec est ratio.
+            <lb ed="#V" n="71"/>Si dicas Ecclesiam annullare
+            matrimoni<lb ed="#V" n="72" break="no"/>um liberi cum serva ex errore conditionis,
+            <lb ed="#V" n="73"/>cur Ecclesia illud annullet, et non
+            annul<lb ed="#V" n="74" break="no"/>lat matrimonium ex errore qualitatis
+            <lb ed="#V" n="75"/>factum, quia nempe in iis quae per se
+            se<lb ed="#V" n="76" break="no"/>quuntur ad matrimonium fit maxima
+            in<lb ed="#V" n="77" break="no"/>aequalitas ex dolo in priori, non vero in
+            <lb ed="#V" n="78"/>qualitatis errore, quae non cadit in
+            con<lb ed="#V" n="79" break="no"/>tractum ex natura consensus, quae
+            respi<lb ed="#V" n="80" break="no"/>cit substantiam ipsius quoad finem
+            con<lb ed="#V" n="81" break="no"/>tractus regularem, et sicut facit
+            transla<lb ed="#V" n="82" break="no"/>tionem liberam, ita etiam implicat
+            neces<lb ed="#V" n="83" break="no"/>sario ut tantum exspectet, quantum dat,
+            <lb ed="#V" n="84"/>neque aliter consensus ejus praesens
+            <lb ed="#V" n="85"/>subsistit. Quando vero conditio est
+            cogni<lb ed="#V" n="86" break="no"/>ta, valide contrahitur, quia liber sicut
+            <lb ed="#V" n="87"/>habet dispositionem liberam sui
+            quan<lb ed="#V" n="88" break="no"/>tum ad translationem corporis, ita potest
+            <pb ed="#V" n="251"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>etiam consentiendo sibi ipsi praejudicare.
+            <lb ed="#V" n="2"/>Sicut aliter in contractu bonae fidei, cui
+            do<lb ed="#V" n="3" break="no"/>lus dat causam, censetur, aliter vero quando
+            <lb ed="#V" n="4"/>nullus subest dolus, nam prior nullus
+            <lb ed="#V" n="5"/>est, posterior vero est validus, licet
+            alte<lb ed="#V" n="6" break="no"/>ra pars ex propria voluntate cedat jure
+            <lb ed="#V" n="7"/>suo, minus accipiens quam dat. Prior
+            <lb ed="#V" n="8"/>Jure naturali et divino est nullus;
+            secun<lb ed="#V" n="9" break="no"/>dus vero non ita. Neque alia diversitas
+            <lb ed="#V" n="10"/>est inter utrumque, nisi quod consensus
+            <lb ed="#V" n="11"/>in contractu utroque est omnino diversus
+            <lb ed="#V" n="12"/>in substantia, ut subest consensui et
+            in<lb ed="#V" n="13" break="no"/>tentioni.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Hinc ergo applicando similitudinem ex
+            <lb ed="#V" n="15"/>commutatione, quae fit in aliis rebus, ad
+            <lb ed="#V" n="16"/>propositum casum, ideo notabilis error in
+            <lb ed="#V" n="17"/>qualitate rei in contractu bonae fidei
+            irri<lb ed="#V" n="18" break="no"/>tat contractmm; et si est stricti Juris, dat
+            <lb ed="#V" n="19"/>actionem laeso, quia non sola substantia,
+            <lb ed="#V" n="20"/>aut quantitas seu mensura, et pondus
+            <lb ed="#V" n="21"/>facit ad finem intrinsecum contractus,
+            <lb ed="#V" n="22"/>qui est usus, et commodum ex re, sed
+            <lb ed="#V" n="23"/>etiam qualitas ad eumdem finem
+            potissi<lb ed="#V" n="24" break="no"/>mum facit, ac proinde error notabilis in
+            <lb ed="#V" n="25"/>qualitate derogat valori et aestimationi
+            <lb ed="#V" n="26"/>ejus, et minus utilem ad usum, et
+            com<lb ed="#V" n="27" break="no"/>modum exspectatum, et intentum facit; et
+            <lb ed="#V" n="28"/>talis error facit contractum nullum, quia
+            <lb ed="#V" n="29"/>nemo sibi praejudicare praesumitur Jure
+            <lb ed="#V" n="30"/>aut facto cum notabili injuria, et dolo
+            <lb ed="#V" n="31"/>alterius, et contra finem intentum
+            con<lb ed="#V" n="32" break="no"/>tractus, nisi rem esse vitiatam cognoscat
+            <lb ed="#V" n="33"/>et consentiat in ipsum sic affectam, quia
+            <lb ed="#V" n="34"/>tunc valet contractus.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>Sic ergo in proposito, finis contractus
+            <lb ed="#V" n="36"/>matrimonialis est individua societas, seu
+            <lb ed="#V" n="37"/>vinculum insolubile, bonum prolis,
+            reme<lb ed="#V" n="38" break="no"/>dium infirmitatis; et his notabiliter
+            dero<lb ed="#V" n="39" break="no"/>gat conditio servitutis, ideoque sive
+            <lb ed="#V" n="40"/>a Deo, sive per statutum Ecclesiae
+            irrita<lb ed="#V" n="41" break="no"/>tur contractus, qni fit cum ignorantia
+            <lb ed="#V" n="42"/>ejus, quia, inquam, notabiliter derogat
+            <lb ed="#V" n="43"/>fini contractus cum gravi detrimento.
+            Sic<lb ed="#V" n="44" break="no"/>ut ergo contractus bonae fidei in aliis
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>rebus, qui ex dolo fit, et supposito errore
+            <lb ed="#V" n="46"/>in qualitate rei tantum, fuit nullus, quia
+            <lb ed="#V" n="47"/>error est in substantia, ideoque in
+            sub<lb ed="#V" n="48" break="no"/>stantia, quia in qualitate, quam spectat
+            <lb ed="#V" n="49"/>finis contractus, qui est usus rei, ita in
+            <lb ed="#V" n="50"/>proposito error conditionis se habet ad
+            <lb ed="#V" n="51"/>finem matrimonii; ergo consentiens bona
+            <lb ed="#V" n="52"/>fide in servum, quem putat liberum, non
+            <lb ed="#V" n="53"/>consentit praesumptione Juris aut facti in
+            <lb ed="#V" n="54"/>servum, errorque ille est in ipsa
+            substan<lb ed="#V" n="55" break="no"/>tia contractus, ut ad suum finem est.
+            <lb ed="#V" n="56"/>Alius autem error in conditione non
+            <lb ed="#V" n="57"/>faciente ad finem praescriptum matrimonii
+            <lb ed="#V" n="58"/>non annullat contractum, ut error in
+            qua<lb ed="#V" n="59" break="no"/>litate, ut dicitur, quia haec extrinsecus se
+            <lb ed="#V" n="60"/>habet ad contractum, ut ad suum finem
+            <lb ed="#V" n="61"/>per se reducitur.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Unde sequitur intentum, quamvis autem
+            <lb ed="#V" n="63"/>servitus est accidens personae, ut persona
+            <lb ed="#V" n="64"/>distinguitur a suo statu, tamen ut
+            compa<lb ed="#V" n="65" break="no"/>ratur ad contractum matrimonialem, et
+            <lb ed="#V" n="66"/>finem intentum ejus qua perficitur per
+            <lb ed="#V" n="67"/>consentientem bona fide in personam,
+            <lb ed="#V" n="68"/>quam putat liberam, non est accidens aut
+            <lb ed="#V" n="69"/>circumstantia, sed conditio per se intenta
+            <lb ed="#V" n="70"/>hic et nunc per talem consensum.
+            Instan<lb ed="#V" n="71" break="no"/>tia autem adversariorum de valore
+            ma<lb ed="#V" n="72" break="no"/>trimonii supposita scientia conditionis
+            <lb ed="#V" n="73"/>jam contracti, non est ad propositum,
+            <lb ed="#V" n="74"/>quia variatur casus et consensus, sicut
+            <lb ed="#V" n="75"/>supra diximus de contractu bonae fidei, ut
+            <lb ed="#V" n="76"/>fit supposita scientia, aut dolo per varios
+            <lb ed="#V" n="77"/>consensus, quorum unus includit per se
+            <lb ed="#V" n="78"/>qualitatem rei, alius excludit. Reliqua de
+            <lb ed="#V" n="79"/>conjugio servorum, infra distinct. 36.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Ex dictis sequitur, quod si ignorantia
+            <lb ed="#V" n="81"/>crassa conditionis fuerit causa consensus,
+            <lb ed="#V" n="82"/>etiam eam irritare matrimonium Jure
+            divi<lb ed="#V" n="83" break="no"/>no, seu tenendo sententiam, quam alii
+            <lb ed="#V" n="84"/>tenent, jure Ecclesiastico, ex defectu
+            con<lb ed="#V" n="85" break="no"/>sensus; nam ignorantia crassa eumdem
+            <lb ed="#V" n="86"/>effectum, quoad nullitatem consensus
+            in<lb ed="#V" n="87" break="no"/>ducit, quem metus ex causa levi, in
+            affe<lb ed="#V" n="88" break="no"/>ctu tamen gravis, quia per se requiritur
+            <pb ed="#V" n="252"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>consensus liber, ex quacumque causa
+            de<lb ed="#V" n="2" break="no"/>ficiat, sine eo nihil fit. Hanc tenet
+            San<lb ed="#V" n="3" break="no"/>chez contra Sotum et alios lib. 7.
+            dis<lb ed="#V" n="4" break="no"/>put. 19. quoest. 2.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>(e) Et ex hoc sequitur aliud
+            corolla<lb ed="#V" n="6" break="no"/>rium, etc. Docet errorem in meliori
+            condi<lb ed="#V" n="7" break="no"/>tione non annullare matrimonium, neque
+            <lb ed="#V" n="8"/>servitutem cognitam illud annullare.
+            Er<lb ed="#V" n="9" break="no"/>ror in meliori conditione est, quando quis
+            <lb ed="#V" n="10"/>velit contrahere cum alia, quam putat esse
+            <lb ed="#V" n="11"/>servam, et est libera, quae conditio est
+            <lb ed="#V" n="12"/>melior. Idem docet infra dist. 36. q. 1.
+            <lb ed="#V" n="13"/>art. 2. S Dico ergo quantum ad istum
+            <lb ed="#V" n="14"/>articulum, etc. versu, Sed si ancilla
+            cre<lb ed="#V" n="15" break="no"/>dit, etc. ubi dicit errorem in meliori, et
+            <lb ed="#V" n="16"/>etiam aequali conditione non annullare
+            <lb ed="#V" n="17"/>matrimonium, quia in utroque casu
+            con<lb ed="#V" n="18" break="no"/>ditio contrahentts non fit deterior, sed
+            <lb ed="#V" n="19"/>melior in primo, aequalis in altero casu.
+            <lb ed="#V" n="20"/>Est commumis sententia Canonistarum et
+            <lb ed="#V" n="21"/>Theologorum, quos magno numero refert
+            <lb ed="#V" n="22"/>Sanchez loco citato, q. 3. eamque recte
+            <lb ed="#V" n="23"/>probat ratio praemissa, quia neque ex vi
+            <lb ed="#V" n="24"/>contractus, aut consensus sequitur aliqua
+            <lb ed="#V" n="25"/>inaequalitas, aut gravamen contra finem
+            <lb ed="#V" n="26"/>matrimonii, diversum ab eo cui non sit
+            <lb ed="#V" n="27"/>s ipse obnoxius ex propria conditione, verbi
+            <lb ed="#V" n="28"/>gratia, si est servus ducens ancillam,
+            <lb ed="#V" n="29"/>quam putavit esse liberam, nulla
+            inae<lb ed="#V" n="30" break="no"/>qualitas est in contractu, quae sequitur
+            <lb ed="#V" n="31"/>ex errore, aut ad quam subsisteret
+            rati<lb ed="#V" n="32" break="no"/>onabiliter consensus voluntatis
+            repugnan<lb ed="#V" n="33" break="no"/>tis, Juris aut facti praesumptione, nisi haec
+            <lb ed="#V" n="34"/>conditio redundet in personam, ut cum
+            <lb ed="#V" n="35"/>ipsi solum est persona per libertatem
+            <lb ed="#V" n="36"/>nota, verbi gratia, si quis vellet
+            alteru<lb ed="#V" n="37" break="no"/>tram ex filiabus, quarum una est libera,
+            <lb ed="#V" n="38"/>altera serva, offerre servo sub electione.
+            <lb ed="#V" n="39"/>et ille eligeret liberam, quam alias non
+            <lb ed="#V" n="40"/>novit; si supponatur serva, est error
+            per<lb ed="#V" n="41" break="no"/>sonae, quia consensus contrahentis
+            dirigi<lb ed="#V" n="42" break="no"/>tur in liberam, quam solum novit ex
+            <lb ed="#V" n="43"/>libertate; vel si contrahat per
+            procurato<lb ed="#V" n="44" break="no"/>rem cum mandato speciali, ut suo
+            nomi<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>ne contraheret cum libera, quamvis alias
+            <lb ed="#V" n="46"/>non annullet matrimonium ex communi
+            <lb ed="#V" n="47"/>sententia, nisi consensus exprimat
+            ip<lb ed="#V" n="48" break="no"/>sam qualitatem per modum conditionis
+            <lb ed="#V" n="49"/>per se intentae et honestae. Casus est, si
+            <lb ed="#V" n="50"/>aliquis primogenitam spopondit, et alter
+            <lb ed="#V" n="51"/>consentit eam accipere, quam aliter non
+            <lb ed="#V" n="52"/>novit, nisi ut erat primogenita, tunc si
+            <lb ed="#V" n="53"/>supponatur secundo genita, matrimonium
+            <lb ed="#V" n="54"/>est nullum ex errore personae, quia
+            con<lb ed="#V" n="55" break="no"/>sensus viri determinate fertur in
+            primo<lb ed="#V" n="56" break="no"/>genitam, quam aliter non novit nisi per
+            <lb ed="#V" n="57"/>hanc qualitatem; neque refert si mortua
+            <lb ed="#V" n="58"/>priori secundo genita fiat primogenita,
+            <lb ed="#V" n="59"/>quia prima cognitio et consensus ex ea
+            <lb ed="#V" n="60"/>sequens fertur in determinatam illam
+            per<lb ed="#V" n="61" break="no"/>sonam, quae fuit primogenita.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>(f) Tertia conditio generalis omni
+            con<lb ed="#V" n="63" break="no"/>tractui est, etc. Haec conclusio patet ex
+            <lb ed="#V" n="64"/>dictis dist. 26. conclus. 2. in matrimonio
+            <lb ed="#V" n="65"/>enim requiritur consensus verus, sine
+            <lb ed="#V" n="66"/>quo nihil fit. Neque hunc consensum
+            po<lb ed="#V" n="67" break="no"/>test supplere Ecclesia, licet illum
+            praesu<lb ed="#V" n="68" break="no"/>mat, donec contrarium probetur, et ad
+            <lb ed="#V" n="69"/>cohabitationem cogat; in aliis autem
+            con<lb ed="#V" n="70" break="no"/>tractibus, quae sunt secundum legem
+            hu<lb ed="#V" n="71" break="no"/>manam et ejus institutionem, aliquando
+            <lb ed="#V" n="72"/>lex ipsa supplet defectum consensus in
+            <lb ed="#V" n="73"/>poenam doli, et tunc valet contractus
+            vir<lb ed="#V" n="74" break="no"/>tute legis, ut quando contractus est stricti
+            <lb ed="#V" n="75"/>Juris, neque adest impedimentum praeter
+            <lb ed="#V" n="76"/>defectum consensus ex dolo, in
+            contra<lb ed="#V" n="77" break="no"/>ctibus tamen bonae fidei requiritur
+            consen<lb ed="#V" n="78" break="no"/>sus, et ejus defectus non suppletur. De
+            <lb ed="#V" n="79"/>his intellegit Doctor ex defectu
+            consen<lb ed="#V" n="80" break="no"/>sus fieri contractum nullum, non in aliis,
+            <lb ed="#V" n="81"/>quando lex ipsa supplet defectum
+            consen<lb ed="#V" n="82" break="no"/>sus qui deberet inesse, et praesumitur
+            <lb ed="#V" n="83"/>inesse.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d30q1-p2"> -->
+          <p>
+            <lb ed="#V" n="85" type="fixed=253"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>(g) Sed hic sunt dubia, etc. Primum
+            <lb ed="#V" n="87"/>dubium est, an bona fide contrahens
+            <pb ed="#V" n="254"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>obligetur ficto. Secundum dubium est,
+            <lb ed="#V" n="2"/>quid agere tenetur, quando fictus
+            mani<lb ed="#V" n="3" break="no"/>festat dolum?
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Ad primum, respondet matrimonium
+            <lb ed="#V" n="5"/>esse nullum ex utraque parte, licet
+            perso<lb ed="#V" n="6" break="no"/>na quae consensum verum exhibet, non
+            <lb ed="#V" n="7"/>ponat ex parte sua impedimentum facti,
+            <lb ed="#V" n="8"/>quia praestat consensum ut debet, et
+            exi<lb ed="#V" n="9" break="no"/>gitur ad contractum, quia tamen alterius
+            <lb ed="#V" n="10"/>consensus deficit, non valet
+            matrimo<lb ed="#V" n="11" break="no"/>nium.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Ad secundum, supponit regulam
+            gene<lb ed="#V" n="13" break="no"/>ralem, nempe in legem Dei neminem esse
+            <lb ed="#V" n="14"/>perplexum, supposito quocumque actu
+            <lb ed="#V" n="15"/>suo, dummodo non maneat aliquod
+            pecca<lb ed="#V" n="16" break="no"/>tum mortale, per quod fiat perplexus.
+            <lb ed="#V" n="17"/>Haec regula est verissima, quia sicut lex
+            <lb ed="#V" n="18"/>divina est medium ad salutem dirigens,
+            <lb ed="#V" n="19"/>ita non inducit necessitatem peccandi, aut
+            <lb ed="#V" n="20"/>periculum; perplexitas ergo oritur ex alia
+            <lb ed="#V" n="21"/>causa extrinseca, nempe ex errore
+            intel<lb ed="#V" n="22" break="no"/>lectus, qui non deponitur, vel ex pravo
+            <lb ed="#V" n="23"/>affectu voluntatis, qui non excluditur per
+            <lb ed="#V" n="24"/>debitam correctionem ejus. Hinc colligit
+            <lb ed="#V" n="25"/>conjugi, quae bona fide contrahit, patere
+            <lb ed="#V" n="26"/>viam salutis, et respondet ad dubium.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>(h) Dico ergo quod via tutior, etc.
+            <lb ed="#V" n="28"/>Respondet quod tutior via sit
+            conserva<lb ed="#V" n="29" break="no"/>re bonam fidem, non credendo; inter
+            <lb ed="#V" n="30"/>duo enim mala minus malum est
+            prae<lb ed="#V" n="31" break="no"/>sumendum, minus autem peccatum est
+            <lb ed="#V" n="32"/>mendacium, quod nunc praesumitur inito
+            <lb ed="#V" n="33"/>matrimonio, quam mendacium quod
+            <lb ed="#V" n="34"/>commisit ficte contrahens, quia hoc est
+            <lb ed="#V" n="35"/>perniciosum contra naturam contractus,
+            <lb ed="#V" n="36"/>illud vero non ita. Neque fidem tenetur
+            <lb ed="#V" n="37"/>dare conjux in praejudicium sui juris;
+            er<lb ed="#V" n="38" break="no"/>go cohabitet bona fide tanquam conjugi.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Quod si conscientiam nequeat deponere,
+            <lb ed="#V" n="40"/>credendo verbo alterius, peccat si reddat
+            <lb ed="#V" n="41"/>debitum, et magis peccat si recedit, quia
+            <lb ed="#V" n="42"/>alter forte mentitur, et se exponit
+            pericu<lb ed="#V" n="43" break="no"/>lo fornicationis, et aufert alteri quod
+            <lb ed="#V" n="44"/>suum est, si matrimonium subsistat. Hic
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>aliqui distinguunt dubium speculativum
+            <lb ed="#V" n="46"/>et practicum; aliqui dicunt cum dubio
+            <lb ed="#V" n="47"/>speculativo non posse conjugem reddere
+            <lb ed="#V" n="48"/>debitum, aut recedere. Pro hac citat
+            <lb ed="#V" n="49"/>Sanchez lib. 2. disput. 41. q. 4. nostrum
+            <lb ed="#V" n="50"/>Doctorem, Altisiodorensem, Medinam et
+            <lb ed="#V" n="51"/>alios; alii dicunt posse reddere, et petere
+            <lb ed="#V" n="52"/>debitum in tali dubio; alii docent teneri
+            <lb ed="#V" n="53"/>reddere debitum, et non petere; alii
+            mi<lb ed="#V" n="54" break="no"/>tigant hanc sententiam, ut vera sit
+            ante<lb ed="#V" n="55" break="no"/>quam adhibeat diligentiam requisitam
+            <lb ed="#V" n="56"/>inquirendi veritatem, ea vero adhibita,
+            <lb ed="#V" n="57"/>posse reddere et petere debitum.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Respondetur in primis non rect e
+            allega<lb ed="#V" n="59" break="no"/>ri Doctorem pro prima sententia, ut bene
+            <lb ed="#V" n="60"/>advertit Scholiastes, quia Doctor non
+            lo<lb ed="#V" n="61" break="no"/>quitur de dubio, sed de conscientia. Si
+            <lb ed="#V" n="62"/>autem, inquit, non potest tollere
+            con<lb ed="#V" n="63" break="no"/>scientiam, quam habet in verbo privativo
+            <lb ed="#V" n="64"/>alterius conjugis, stante illa conscientia
+            <lb ed="#V" n="65"/>peccat mortaliter, etc. Conscientia autem
+            <lb ed="#V" n="66"/>per ipsum in 2. dist. 37. quaest. 2. 8 Ad
+            <lb ed="#V" n="67"/>quaestiones istas, etc. est habitus seu
+            <lb ed="#V" n="68"/>actus conclusionis practicae, ac proinde
+            <lb ed="#V" n="69"/>dicit determinatum consensum practicum,
+            <lb ed="#V" n="70"/>contra quem non licet agere. Si ergo illa,
+            <lb ed="#V" n="71"/>quae est bonae fidei, adhibet fidem
+            allega<lb ed="#V" n="72" break="no"/>tioni ficti, jam habet conscientiam talem,
+            <lb ed="#V" n="73"/>qua non deposita, non licet operari, nec
+            <lb ed="#V" n="74"/>reddere debitum, nec petere, neque etiam
+            <lb ed="#V" n="75"/>recedere, quia conscientia illa non est
+            <lb ed="#V" n="76"/>adeo fundata ex motivo suo, licet ex
+            cre<lb ed="#V" n="77" break="no"/>dulitate formantis ipsam, et aliis motivis
+            <lb ed="#V" n="78"/>inducatur, quia motivum est veracitas
+            <lb ed="#V" n="79"/>dicentis, qui fatetur se mendacem in
+            pri<lb ed="#V" n="80" break="no"/>ori contractu, ac proinde indignum fide;
+            <lb ed="#V" n="81"/>neque tollitur obligatio simpliciter, quae
+            <lb ed="#V" n="82"/>est ex priori contractu ex natura motivi,
+            <lb ed="#V" n="83"/>quod perinde inclinat ad assensus
+            contra<lb ed="#V" n="84" break="no"/>rios, quod vero formans conscientiam
+            ad<lb ed="#V" n="85" break="no"/>haereat allegationi frustrati consensus
+            pri<lb ed="#V" n="86" break="no"/>oris, est ex propria levitate, non ex
+            na<lb ed="#V" n="87" break="no"/>tura motivi; nec proinde evacuatur
+            obli<lb ed="#V" n="88" break="no"/>gatio cohabitationis, licet perplexa
+            mane<pb ed="#V" n="255"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>at persona credens aut suspensa; manens
+            <lb ed="#V" n="2"/>etiam suspensa nequit operari, quia ad
+            <lb ed="#V" n="3"/>copulam supponitur, ut sit legitima,
+            re<lb ed="#V" n="4" break="no"/>gula determinata ut fiat debito modo per
+            <lb ed="#V" n="5"/>usum proprii juris, et animo maritali, ac
+            <lb ed="#V" n="6"/>proinde assensus determinatus circa
+            valo<lb ed="#V" n="7" break="no"/>rem matrimonii; licet ex allegatione
+            se<lb ed="#V" n="8" break="no"/>cunda negati consensus maneat aliqua
+            for<lb ed="#V" n="9" break="no"/>mido, de nullitate. Haec autem formido,
+            <lb ed="#V" n="10"/>sicut non transit in consensum
+            determina<lb ed="#V" n="11" break="no"/>tum, ita non inducit obligationem
+            operan<lb ed="#V" n="12" break="no"/>di secundum illam, neque est actus aliquis
+            <lb ed="#V" n="13"/>medius in intellectu inter assensum et
+            <lb ed="#V" n="14"/>dissensum; sed privatio certitudinis in
+            <lb ed="#V" n="15"/>assensu, quam prius habuit, stante bona
+            <lb ed="#V" n="16"/>fide, antequam allegavit alter fictionem
+            <lb ed="#V" n="17"/>consensus.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Advertendum ergo est ad discussionem
+            <lb ed="#V" n="19"/>casus praesentis, in intellectu non posse
+            <lb ed="#V" n="20"/>stare actum medium hic et nunc inter
+            <lb ed="#V" n="21"/>assensum et dissensum hujus veritatis,
+            <lb ed="#V" n="22"/>qui actus spectet ad judicium practicum,
+            <lb ed="#V" n="23"/>seu regulam operandi; neque assensum et
+            <lb ed="#V" n="24"/>dissensum simul circa idem, quia
+            utrum<lb ed="#V" n="25" break="no"/>que horum repugnat. Quod si motiva sint
+            <lb ed="#V" n="26"/>paris efficaciae, loquendo de contrariis,
+            <lb ed="#V" n="27"/>potest esse suspensio et inquisitio
+            verita<lb ed="#V" n="28" break="no"/>tis non tamen assensus determinatus
+            <lb ed="#V" n="29"/>conclusionis, nisi ex dispositione
+            perso<lb ed="#V" n="30" break="no"/>nae, ut in praesenti casu, si est timida, et
+            <lb ed="#V" n="31"/>facilis inclinationis ad credendum
+            po<lb ed="#V" n="32" break="no"/>tius malum, aut accedat imperium
+            volun<lb ed="#V" n="33" break="no"/>tatis, aut applicentur perfectius alia
+            prin<lb ed="#V" n="34" break="no"/>pia remota ad unam partem magis quam
+            <lb ed="#V" n="35"/>ad aliam, ex quibus determinatur
+            intelle<lb ed="#V" n="36" break="no"/>ctus ad assensum, licet apprehensio
+            con<lb ed="#V" n="37" break="no"/>trarii motivi dubitabilis faciat ne assensus
+            <lb ed="#V" n="38"/>ille sit omnino certus; est tamen
+            deter<lb ed="#V" n="39" break="no"/>minatus, sicut actus fidei humanae aut
+            <lb ed="#V" n="40"/>opinionis, et regula quam sequi debet
+            <lb ed="#V" n="41"/>voluntas operando determinate.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>In proposito ergo casu si nullum aliud
+            <lb ed="#V" n="43"/>subsit motivum dubitandi de nullitate
+            <lb ed="#V" n="44"/>consensus mere interni praeter
+            allegati<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>onem dicentis, neque ex factis, dictis aut
+            <lb ed="#V" n="46"/>aliis indiciis aut modis sit cognoscibile,
+            <lb ed="#V" n="47"/>distinctio dubii speculativi, et practici non
+            <lb ed="#V" n="48"/>habet locum, quae nulla sunt principia
+            re<lb ed="#V" n="49" break="no"/>mota, ex quibus speculative oriri posset
+            <lb ed="#V" n="50"/>dubitatio hic et nunc. Sed hae duae regulae
+            <lb ed="#V" n="51"/>immediate applicantur, quae sunt
+            practi<lb ed="#V" n="52" break="no"/>cae ut reddendum esse debitum
+            matrimo<lb ed="#V" n="53" break="no"/>niale, non esse moechandum, etc. inter
+            <lb ed="#V" n="54"/>quas non est locus suspensioni, quin
+            alter<lb ed="#V" n="55" break="no"/>utrum debeat sequi ex obligatione
+            prae<lb ed="#V" n="56" break="no"/>cepti negativi et affirmativi
+            concurren<lb ed="#V" n="57" break="no"/>tium, ex parte materiae fides allegantis
+            <lb ed="#V" n="58"/>vacillat, et perinde ad assensus contrarios
+            <lb ed="#V" n="59"/>inclinat proxime. Quod si ergo perplexus
+            <lb ed="#V" n="60"/>unum sequatur, aut alterum horum,
+            se<lb ed="#V" n="61" break="no"/>cundum illud debet operari juxta
+            con<lb ed="#V" n="62" break="no"/>scientiam quam format, quia non suppetit
+            <lb ed="#V" n="63"/>aliquod aliud medium inquirendae
+            verita<lb ed="#V" n="64" break="no"/>tis; et hic est casus, quem decidit
+            Do<lb ed="#V" n="65" break="no"/>ctor. Quod si sint alia motiva aut indicia,
+            <lb ed="#V" n="66"/>ut impedimenti affinitatis, aut si alter
+            <lb ed="#V" n="67"/>signa deceptionis alias ostendit, aut aliis
+            <lb ed="#V" n="68"/>se ficte contracturum manifestavit, tunc
+            <lb ed="#V" n="69"/>neque reddere debitum debet, neque
+            <lb ed="#V" n="70"/>petere etiam, donec examinetur veritas.
+            <lb ed="#V" n="71"/>Quod si ea examinata format conscientiam
+            <lb ed="#V" n="72"/>de nullitate matrimonii, perinde dicendum
+            <lb ed="#V" n="73"/>est, quidquid sit de veritate rei; si autem
+            <lb ed="#V" n="74"/>fidem non praestat allegationi, sed
+            in<lb ed="#V" n="75" break="no"/>haeret primo contractui per assensum
+            <lb ed="#V" n="76"/>determinatum, est secura, si oppositum
+            <lb ed="#V" n="77"/>aliunde non probatur sufficienter, quia
+            <lb ed="#V" n="78"/>innititur possessioni et praesumptioni
+            ma<lb ed="#V" n="79" break="no"/>gis fundatae, quae est in favorem
+            ma<lb ed="#V" n="80" break="no"/>trimonii, et sicut Ecclesia prudenter
+            <lb ed="#V" n="81"/>praesumit de valore matrimonii, et de
+            con<lb ed="#V" n="82" break="no"/>sensu requisito in eo casu, ita etiam
+            per<lb ed="#V" n="83" break="no"/>sona, quae bona fide contraxit, prudenter
+            <lb ed="#V" n="84"/>praesumit et adhaeret contractui, cum
+            <lb ed="#V" n="85"/>nihil urgentius praeter dictum ficti
+            oppo<lb ed="#V" n="86" break="no"/>natur, qui fide caret in praejudicium
+            con<lb ed="#V" n="87" break="no"/>jugis, et contractus in facie Ecclesiae
+            inni<lb ed="#V" n="88" break="no"/>ti, neque oppositum probet sufficienter.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d30q1-p3"> -->
+          <p>
+            <lb ed="#V" n="58" type="fixed=257"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>(i) Sed numquid iste dolosus erit
+            im<lb ed="#V" n="60" break="no"/>munis, etc. Resolutio haec Doctoris plura
+            <lb ed="#V" n="61"/>continet. Primum, non debere dolosum
+            <lb ed="#V" n="62"/>petere aut reddere debitum; quod patet
+            <lb ed="#V" n="63"/>ex dictis. Secundum est, eum teneri
+            ne<lb ed="#V" n="64" break="no"/>cessitate salutis ad satisfaciendum
+            perso<lb ed="#V" n="65" break="no"/>nae laesae, et de hoc nullum est dubium.
+            <lb ed="#V" n="66"/>Tertium, docet hanc satisfactionem esse,
+            <lb ed="#V" n="67"/>ut vere contrahat matrimonium; et ratio
+            <lb ed="#V" n="68"/>est, quia de Jure ad hoc tenetur, et ex
+            <lb ed="#V" n="69"/>vi contractus. Hanc docet S. Thomas
+            <lb ed="#V" n="70"/>dist. 27. quoest. 1. art. 2. quoestiunc. 4.
+            <lb ed="#V" n="71"/>ad 1. Major eadem dist. quaest. 1.
+            Adri<lb ed="#V" n="72" break="no"/>anus in 4. quaest. 2. de matrimonio,
+            So<lb ed="#V" n="73" break="no"/>tus dist. 27. quest. 1. art. 3. Petrus
+            <lb ed="#V" n="74"/>de Soto et alii, quos citat Scholiastes.
+            <lb ed="#V" n="75"/>Quod regulariter verum est, quia illud
+            <lb ed="#V" n="76"/>matrimonium in facie Ecclesiae tenebit, et
+            <lb ed="#V" n="77"/>mulier, quae bona fide contraxit, tenetur
+            <lb ed="#V" n="78"/>semper continenter vivere, et patitur
+            <lb ed="#V" n="79"/>damnum in fama, quod aliter resarciri
+            <lb ed="#V" n="80"/>nequit, nisi per matrimonium verum
+            con<lb ed="#V" n="81" break="no"/>tractum; his omnibus causam dedit fictus,
+            <lb ed="#V" n="82"/>ergo tenetur dare satisfactionem
+            aequa<lb ed="#V" n="83" break="no"/>lem, quod nequit aliter quam per
+            matri<lb ed="#V" n="84" break="no"/>monium. Accedit, si cognovit eam, alius
+            <lb ed="#V" n="85"/>titulus, ex quo obligatur in conscientia,
+            <lb ed="#V" n="86"/>neque debet absolvi donec actu contrahat.
+            <pb ed="#V" n="258"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Non desunt tamen, qui negant fictum
+            <lb ed="#V" n="2"/>teneri ad contrahendum denuo, nisi
+            se<lb ed="#V" n="3" break="no"/>quatur copula, ut si virginem duxit, eam
+            <lb ed="#V" n="4"/>non defloravit. Hostiens, cap. Ex
+            par<lb ed="#V" n="5" break="no"/>te. etc. de sponsalibus, Anton. 3. petit. 1.
+            <lb ed="#V" n="6"/>c. 9. Ledesma in 2. p. 4. quoest. 47.
+            <lb ed="#V" n="7"/>art. 4. Excusant aliqui ab hac obligatione
+            <lb ed="#V" n="8"/>fictum, ut quando ipse dedit signa
+            ficti<lb ed="#V" n="9" break="no"/>onis, quia foemina in eo casu sibi imputare
+            <lb ed="#V" n="10"/>debet damnum, quod advertens incurrit.
+            <lb ed="#V" n="11"/>Item, si sit magna inaequalitas inter
+            fi<lb ed="#V" n="12" break="no"/>ctum et mulierem, aut conditionis aut
+            <lb ed="#V" n="13"/>sanguinis, quia in eo casu debuit etiam
+            <lb ed="#V" n="14"/>ipsa praesumere de fraude; deinde, si
+            <lb ed="#V" n="15"/>scandalum magnum, aut exitus infelix ex
+            <lb ed="#V" n="16"/>matrimonio vero sequatur. Item, si foemina
+            <lb ed="#V" n="17"/>decipiat virum fingens se virginem, quae
+            <lb ed="#V" n="18"/>corrupta, vel si foemina cum alio mox
+            <lb ed="#V" n="19"/>decubuit, quia tunc obligatio prior
+            extin<lb ed="#V" n="20" break="no"/>guitur, nec iterum reviviscit. Item, si ipsa
+            <lb ed="#V" n="21"/>noluerit matrimonium inire cum ficto.
+            <lb ed="#V" n="22"/>extinguitur obligatio.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>(k) Sed esto quod tempore intermedio
+            <lb ed="#V" n="24"/>contrahat, etc. Haec conclusio est D.
+            Tho<lb ed="#V" n="25" break="no"/>mae, Soto, et communis, et regulariter
+            <lb ed="#V" n="26"/>intelligenda, quando scilicet damnum
+            <lb ed="#V" n="27"/>notabile intulit, quod aliter nequit
+            re<lb ed="#V" n="28" break="no"/>sarciri.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>(1) Quid de dormiente cum virgine, etc.
+            <lb ed="#V" n="30"/>Haec etiam intelligenda est in causa
+            se<lb ed="#V" n="31" break="no"/>ductionis, ut patet ex textu citato.
+            Vide<lb ed="#V" n="32" break="no"/>antur auctores citati apud Scholiastem.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>(m) Si arquatur contra solutionem
+            <lb ed="#V" n="34"/>istam, etc. Recte distinguit dationem
+            li<lb ed="#V" n="35" break="no"/>beralem cum expectatione retributionis
+            <lb ed="#V" n="36"/>de futuro, a datione quae exigit
+            commu<lb ed="#V" n="37" break="no"/>tationem de praesenti, qualis est
+            matri<lb ed="#V" n="38" break="no"/>monialis. Intelligit dationem liberalem
+            <lb ed="#V" n="39"/>cum spe recipiendi de futuro, illam quae
+            <lb ed="#V" n="40"/>fit non interveniente pacto, de
+            satisfacti<lb ed="#V" n="41" break="no"/>one recipienda pro futuro, verbi gratia,
+            <lb ed="#V" n="42"/>si quis donet mere liberaliter, ut gratiam
+            <lb ed="#V" n="43"/>alterius ineat, a quo expectat beneficia
+            <lb ed="#V" n="44"/>majora, ut officium aliquod in Republica,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>aut hujusmodi. Si tamen datio illa non
+            <lb ed="#V" n="46"/>liberalis, sed onerosa, interveniente pacto
+            <lb ed="#V" n="47"/>aut contractu de satisfactione pro futuro,
+            <lb ed="#V" n="48"/>consurgit obligatio secundum justitiam,
+            <lb ed="#V" n="49"/>nisi alia contractus sit prohibitus lege.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Asserit praeterea in ratione subjuncta
+            <lb ed="#V" n="51"/>contractum commutativum esse
+            condi<lb ed="#V" n="52" break="no"/>tionalem, etsi non conditione explicita,
+            <lb ed="#V" n="53"/>sed ex natura contractus subintellecta,
+            <lb ed="#V" n="54"/>quia nempe translatio non fit nisi cum
+            <lb ed="#V" n="55"/>onere recipiendi rem, pro qua res
+            trans<lb ed="#V" n="56" break="no"/>lata commutatur; intelligit Doctor
+            condi<lb ed="#V" n="57" break="no"/>tionem generalem, quae includitur in omni
+            <lb ed="#V" n="58"/>contractu, et explicatur per hoc, si
+            vo<lb ed="#V" n="59" break="no"/>lueris, aut consenseris. Si autem
+            condi<lb ed="#V" n="60" break="no"/>tio verbis exprimatur, dicitur conditio
+            <lb ed="#V" n="61"/>specialis, quia jam dat speciem contractui,
+            <lb ed="#V" n="62"/>et suspendit dispositionem factam, donec
+            <lb ed="#V" n="63"/>ipsa compleatur, eaque non completa
+            ni<lb ed="#V" n="64" break="no"/>hil acquiritur juris, quia dispositio illi
+            <lb ed="#V" n="65"/>alligatur; requiritur tamen ut conditio
+            <lb ed="#V" n="66"/>expressa aliter apponitur, si sit generalis,
+            <lb ed="#V" n="67"/>quam includitur in ipso contractu ex lege,
+            <lb ed="#V" n="68"/>quia sic expressa non inducit ullum
+            effe<lb ed="#V" n="69" break="no"/>ctum, quem ipse consensus ex lege non
+            <lb ed="#V" n="70"/>inducat, neque suspendit consequenter
+            <lb ed="#V" n="71"/>contractum aliter quam ex vi, legis
+            <lb ed="#V" n="72"/>suspensus est.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Unde hae conditiones adjectae in
+            matri<lb ed="#V" n="74" break="no"/>moniali consensu, ut si non es impeditus
+            <lb ed="#V" n="75"/>aliquo impedimento dirimente, ut
+            consan<lb ed="#V" n="76" break="no"/>quinitatis, etc. aut si consenseris, nihil
+            <lb ed="#V" n="77"/>efficiunt, nec suspendunt contractum,
+            <lb ed="#V" n="78"/>quin sit absolutus, quia ipsa lege tales
+            <lb ed="#V" n="79"/>conditiones includit contractus, ut iis non
+            <lb ed="#V" n="80"/>positis aut obstantibus, fiat suspensus et
+            <lb ed="#V" n="81"/>nullus. Si ergo contrahentes conantur
+            <lb ed="#V" n="82"/>serio contractum, expressio talium
+            condi<lb ed="#V" n="83" break="no"/>tionum, ut ex natura contractus inhaerent.
+            <lb ed="#V" n="84"/>non suspendunt contractum. Quia tamen
+            <lb ed="#V" n="85"/>adjectio conditionis sit expressio
+            volun<lb ed="#V" n="86" break="no"/>tatis, et talis sit contractus, nempe purus
+            <lb ed="#V" n="87"/>vel conditionatus, qualis est consensus; si
+            <lb ed="#V" n="88"/>adjectio illarum conditionum fiat ex alia
+            <pb ed="#V" n="259"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>causa, contractus erit suspensus, donec
+            <lb ed="#V" n="2"/>purificetur; verbi gratia, ad evitandum
+            <lb ed="#V" n="3"/>sacrilegium adjicitur conditio, si non es
+            <lb ed="#V" n="4"/>consanguineus, pro majori reverentia
+            Sa<lb ed="#V" n="5" break="no"/>cramenti; ad evitandam poenam, quae in
+            <lb ed="#V" n="6"/>contrahentes cum tali impedimento est a
+            <lb ed="#V" n="7"/>Jure, vel ab homine lata; ad tollendum
+            <lb ed="#V" n="8"/>scandalum ex praesumptione in contrarium
+            <lb ed="#V" n="9"/>in re dubia, quando certum non est ipsis,
+            <lb ed="#V" n="10"/>aut aliis praesentibus eos non esse in
+            <lb ed="#V" n="11"/>gradu prohibito consanguinitatis; vel ex
+            <lb ed="#V" n="12"/>alio fine et circumstantia, quae ex
+            qua<lb ed="#V" n="13" break="no"/>litate personarum hic et nunc concurrunt,
+            <lb ed="#V" n="14"/>expressio talis conditionis non est
+            super<lb ed="#V" n="15" break="no"/>flua, et alio modo adjicitur quam ex lege
+            <lb ed="#V" n="16"/>importatur, ita ut sit expressio consensus
+            <lb ed="#V" n="17"/>conditionati, et non puri, et maneat
+            con<lb ed="#V" n="18" break="no"/>sensus suspensus, ut in casu jam
+            expres<lb ed="#V" n="19" break="no"/>so, donec constet ipsis de veritate rei.
+            <lb ed="#V" n="20"/>Hinc sequitur veritas illius extremi
+            as<lb ed="#V" n="21" break="no"/>sumpti in textu Doctoris, nempe
+            contra<lb ed="#V" n="22" break="no"/>ctus conditionatus non est, non stante
+            <lb ed="#V" n="23"/>conditione, etc. universaliter esse verum,
+            <lb ed="#V" n="24"/>loquendo de conditione late sumpta, et
+            <lb ed="#V" n="25"/>quando conditio ex ipsa lege inhaeret, vel
+            <lb ed="#V" n="26"/>de conditionato specialiter sumpto, qui
+            <lb ed="#V" n="27"/>proprie conditionatus est.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Ad majorem hujus intelligentiam non
+            <lb ed="#V" n="29"/>erit superfluum hic adjicere breviter
+            ali<lb ed="#V" n="30" break="no"/>quid de conditionibus, quae ad
+            matrimo<lb ed="#V" n="31" break="no"/>nium ejusque consensum adjici possunt,
+            <lb ed="#V" n="32"/>et quid operentur. De quibus alii Doctores
+            <lb ed="#V" n="33"/>in hac materia tractant, D. Thomas in 4.
+            <lb ed="#V" n="34"/>dist. 29. D. Bonaventura dist. 28. et late
+            <lb ed="#V" n="35"/>moderni agentes de hoc contractu in
+            spe<lb ed="#V" n="36" break="no"/>cie. Thomas Scanchez lib. 5. de
+            matrimo<lb ed="#V" n="37" break="no"/>nio per totum, et Extra de conditionibus
+            <lb ed="#V" n="38"/>appositis, plura huc spectantia traduntur,
+            <lb ed="#V" n="39"/>cap. 1. 3. 5. 8. et 7. in quibus plures
+            ca<lb ed="#V" n="40" break="no"/>sus matrimoniales deciduntur
+            dependen<lb ed="#V" n="41" break="no"/>dentes a conditione apposita.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Conditionem etiam apponi tam ex parte
+            <lb ed="#V" n="43"/>,consensus quam ex parte contractus non
+            <lb ed="#V" n="44"/>,repugnat, quia sicut consensus est liber,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>ita etiam dari potest sub conditione, si
+            <lb ed="#V" n="46"/>alias non sit prohibita, et contractus tam
+            <lb ed="#V" n="47"/>matrimonialis quam alii admittunt
+            conditi<lb ed="#V" n="48" break="no"/>ones. Consensus autem, ut inhaeret
+            condi<lb ed="#V" n="49" break="no"/>tioni, dicitur ex objecto conditionatus, ut
+            <lb ed="#V" n="50"/>distinguitur a consensu puro seu
+            absolu<lb ed="#V" n="51" break="no"/>to, cui non admiscetur conditio.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Adjiciuntur aliqua contractui variis
+            mo<lb ed="#V" n="53" break="no"/>dis: Primo, per modum temporis, ut do
+            <lb ed="#V" n="54"/>tibi equum in diem crastinum, ante
+            au<lb ed="#V" n="55" break="no"/>tem tempus adjectum non transit in jus
+            <lb ed="#V" n="56"/>donatarii. Aliquando per modum oneris,
+            <lb ed="#V" n="57"/>do tibi equum, ut sis bonus. Aliquando
+            <lb ed="#V" n="58"/>per modum causae, do tibi equum, quia
+            <lb ed="#V" n="59"/>es amicus. Aliquando per modum
+            specifi<lb ed="#V" n="60" break="no"/>cationis aut demonstrationis, ut do tibi
+            <lb ed="#V" n="61"/>equum, qui es fortis, etc. Aliquando per
+            <lb ed="#V" n="62"/>modum conditionis suspendentis
+            consen<lb ed="#V" n="63" break="no"/>sum et contractum, donec conditio
+            pona<lb ed="#V" n="64" break="no"/>tur, ut si quis contrahat cum Francisca,
+            <lb ed="#V" n="65"/>si patri placuerit, aut si dos consignetur
+            <lb ed="#V" n="66"/>tanta, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Aliae sunt conditiones de futuro, aliae
+            <lb ed="#V" n="68"/>de praeterito, aliae de praesenti, aliae
+            pos<lb ed="#V" n="69" break="no"/>sibiles, aliae impossibiles, impossibilitate
+            <lb ed="#V" n="70"/>rei aut Juris, ut sunt conditiones turpes,
+            <lb ed="#V" n="71"/>et reprobatae Jure naturali, aut positivo;
+            <lb ed="#V" n="72"/>alia etiam est conditio necessaria
+            eventu<lb ed="#V" n="73" break="no"/>ra, alia contingenter,
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Dico primo in omni contractu
+            spectan<lb ed="#V" n="75" break="no"/>dam esse intentionem contrahentium, ut
+            <lb ed="#V" n="76"/>fertur in objectum, seu materiam circa
+            <lb ed="#V" n="77"/>quam ipsius contractus, nam talis est
+            dis<lb ed="#V" n="78" break="no"/>positio, qualem inducit consensus
+            dispo<lb ed="#V" n="79" break="no"/>nentis de re sua, quae in libera potestate
+            <lb ed="#V" n="80"/>est, ut eam sic vel sic transferat, hoc
+            <lb ed="#V" n="81"/>est, absolute, non adjecta conditione,
+            <lb ed="#V" n="82"/>aut alia limitatione, vel aliter, his
+            adje<lb ed="#V" n="83" break="no"/>ctis.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>Dico secundo requiri ad contractum,
+            <lb ed="#V" n="85"/>ut intentio haec sit efficax ex natura sua,
+            <lb ed="#V" n="86"/>et operetur modo humano, id est, ut sit
+            <lb ed="#V" n="87"/>conatus per se requisitus ad
+            commutati<lb ed="#V" n="88" break="no"/>onem, quantum est ex dispositione
+            prae<pb ed="#V" n="260"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>senti contrahentis, et non fictus aut
+            ir<lb ed="#V" n="2" break="no"/>risorius, quia requiritur ut iniens
+            contra<lb ed="#V" n="3" break="no"/>ctum conferat ex parte voluntatis eum
+            <lb ed="#V" n="4"/>actum, quia essentialiter requiritur ad
+            <lb ed="#V" n="5"/>dationem onerosam, aut liberalem rei;
+            <lb ed="#V" n="6"/>alias non potest abdicare dominium ejus,
+            <lb ed="#V" n="7"/>neque etiam acquirere per contractum
+            <lb ed="#V" n="8"/>dominium rei, in quod commutare
+            inten<lb ed="#V" n="9" break="no"/>dit id quod est proprium, et sui juris.
+            <lb ed="#V" n="10"/>Oportet ergo ut iniens contractum applicet
+            <lb ed="#V" n="11"/>se per actum ex genere suo requisitum
+            <lb ed="#V" n="12"/>ad contractum, si illum intendit, qui
+            <lb ed="#V" n="13"/>actus ex natura sua est consensus in rei
+            <lb ed="#V" n="14"/>commutationem, hoc vel illo modo, et
+            <lb ed="#V" n="15"/>natura sua efficax universaliter loquendo,
+            <lb ed="#V" n="16"/>sive ille actus sit inhaerens conditioni,
+            <lb ed="#V" n="17"/>sive non, ut absolutus; quod maxime
+            no<lb ed="#V" n="18" break="no"/>tandum est circa conditiones ex natura
+            <lb ed="#V" n="19"/>rei impossibiles, ut postea videbimus, et
+            <lb ed="#V" n="20"/>quae cognoscuntur impossibiles.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Dico tertio, sicut universaliter ad
+            trans<lb ed="#V" n="22" break="no"/>lationem rei requiruntur tria, nempe ut
+            <lb ed="#V" n="23"/>persona sit habilis ad transferendum, et
+            <lb ed="#V" n="24"/>persona in quam transfertur ad
+            acqui<lb ed="#V" n="25" break="no"/>rendum dominium, et materia circa quam
+            <lb ed="#V" n="26"/>sit subjecta translationi; ita etiam in
+            con<lb ed="#V" n="27" break="no"/>tractu haec requiruntur, ac proinde non
+            <lb ed="#V" n="28"/>solum spectato Jure naturali, aut
+            Gen<lb ed="#V" n="29" break="no"/>tium, sed lege positiva, capacitas ex parte
+            <lb ed="#V" n="30"/>personarum et materiae inhaereat, ita ut
+            <lb ed="#V" n="31"/>legi positivae disponenti de rerum usu et
+            <lb ed="#V" n="32"/>dominio non repugnet. Intentio ergo
+            ef<lb ed="#V" n="33" break="no"/>ficax, ut sit talis in gradu quo requiritur
+            <lb ed="#V" n="34"/>ad contractum legitimum, debet respicere
+            <lb ed="#V" n="35"/>legem non solum naturalem, sed etiam
+            <lb ed="#V" n="36"/>positivam, ut sit vera intentio et requisita
+            <lb ed="#V" n="37"/>ad contractum; verbi gratia, habens
+            sa<lb ed="#V" n="38" break="no"/>cros Ordines in Ecclesia Latina, aut votum
+            <lb ed="#V" n="39"/>emittens solemne Religionis,
+            quantumli<lb ed="#V" n="40" break="no"/>bet consentiat in matrimonium, non
+            po<lb ed="#V" n="41" break="no"/>test dici habere intentionem efficacem ad
+            <lb ed="#V" n="42"/>illum contractum, ad quem est inhabilis;
+            <lb ed="#V" n="43"/>sicut universaliter in moralibus, nullus
+            <lb ed="#V" n="44"/>potest intendere finem efficaciter,
+            quan<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>tumlibet in objectum feratur ardenter,
+            <lb ed="#V" n="46"/>quando nequit prosequi finem, aut ad
+            <lb ed="#V" n="47"/>hoc est inhabilis; ergo similiter nemo
+            <lb ed="#V" n="48"/>potest efficaciter intendere, contractum,
+            <lb ed="#V" n="49"/>supposita scientia requisita ad naturam
+            <lb ed="#V" n="50"/>talis contractus, nisi ad contractum
+            inten<lb ed="#V" n="51" break="no"/>dat, juxta praescriptum legis inhaerentis
+            <lb ed="#V" n="52"/>contractui quoad substantiam, quia
+            nul<lb ed="#V" n="53" break="no"/>lus potest inire obligationem ex justitia
+            <lb ed="#V" n="54"/>per proprium actum efficaciter, nisi
+            ser<lb ed="#V" n="55" break="no"/>vatis iis quae ad naturam hujus
+            obligati<lb ed="#V" n="56" break="no"/>onis spectant.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>His ergo suppositis de natura
+            consen<lb ed="#V" n="58" break="no"/>sus requisiti ad contractum in genere, et
+            <lb ed="#V" n="59"/>spectata rei veritate, et non sola
+            praesum<lb ed="#V" n="60" break="no"/>ptione, et ut confusio evitetur ex variis
+            <lb ed="#V" n="61"/>Doctorum in hac materia limitationibus
+            <lb ed="#V" n="62"/>et modis dicendi desumptis ex libertate,
+            <lb ed="#V" n="63"/>et modis operandi voluntatis, inquantum
+            <lb ed="#V" n="64"/>potest actum habere absolutum, aut
+            de<lb ed="#V" n="65" break="no"/>pendentem a conditione adjecta, facilior
+            <lb ed="#V" n="66"/>erit resolutio in reliquis.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Dico quarto consensum ad contractum
+            <lb ed="#V" n="68"/>requisitum non posse admittere
+            conditi<lb ed="#V" n="69" break="no"/>onem impossibilem utroque modo supra
+            <lb ed="#V" n="70"/>expresso, sive sit impossibilis ex natura
+            <lb ed="#V" n="71"/>rei, sive sit impossibilis ex lege irritante,
+            <lb ed="#V" n="72"/>modo praesupponatur in contrahente
+            <lb ed="#V" n="73"/>scientia de impossibilitate conditionis.
+            <lb ed="#V" n="74"/>Haec conclusio patet primo ex dictis, quia
+            <lb ed="#V" n="75"/>consensus in contractum debet esse ex
+            <lb ed="#V" n="76"/>natura sua efficax et inducens
+            obligati<lb ed="#V" n="77" break="no"/>onem justitiae per translationem rei
+            inten<lb ed="#V" n="78" break="no"/>tam hoc modo, et acquisitionem alterius,
+            <lb ed="#V" n="79"/>pro qua commutatur, et hoc per viam
+            <lb ed="#V" n="80"/>contractus; ergo nequit involvere aliquid
+            <lb ed="#V" n="81"/>ex natura sua repugnans intentioni efficaci
+            <lb ed="#V" n="82"/>et requisitae ad illam translationem, et
+            <lb ed="#V" n="83"/>consequenter nequit suspendi ad illam
+            <lb ed="#V" n="84"/>conditionem, quae ex natura aut lege
+            re<lb ed="#V" n="85" break="no"/>pugnat translationi, supposita ejus
+            co<lb ed="#V" n="86" break="no"/>gnitione, alioquin vel idem actus
+            invol<lb ed="#V" n="87" break="no"/>veret contradictionem, aut assent simul in
+            <lb ed="#V" n="88"/>voluntate duo actus incompatibiles,
+            utrum<pb ed="#V" n="261"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>.que horum perinde repugnat. Si ergo vult
+            <lb ed="#V" n="2"/>efficaciter contractum et translationem
+            <lb ed="#V" n="3"/>per ipsum fieri, nequit respicere id, quod
+            <lb ed="#V" n="4"/>est repugnans substantiae contractus, aut
+            <lb ed="#V" n="5"/>translationi intentae, sicut qui vult dare
+            <lb ed="#V" n="6"/>mutuum, nequit velle efficaciter dare
+            <lb ed="#V" n="7"/>mutuum, retenta re sibi aut ejus
+            proprie<lb ed="#V" n="8" break="no"/>tate quoad usum et dominium, quia hoc
+            <lb ed="#V" n="9"/>intrinsece repugnat substantiae hujus
+            con<lb ed="#V" n="10" break="no"/>tractus; ergo idem dicendum de omni
+            <lb ed="#V" n="11"/>contractu, in eo qui sincere et efficaciter
+            <lb ed="#V" n="12"/>intendit contractum, non posse eum
+            in<lb ed="#V" n="13" break="no"/>volvere aliquid repugnans substantiae ejus,
+            <lb ed="#V" n="14"/>quod scit repugnare, vel ex natura rei,
+            <lb ed="#V" n="15"/>vel Jure.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Hinc sequitur veritas illius axiomatis,
+            <lb ed="#V" n="17"/>seu communis regulae: Conditio quae est
+            <lb ed="#V" n="18"/>s de facto aut Jure impossibilis, vitiat
+            <lb ed="#V" n="19"/>r dispositionem, aut hobetur pro non
+            ad<lb ed="#V" n="20" break="no"/>jecta, etc. si enim tollit intentionem
+            con<lb ed="#V" n="21" break="no"/>trahendi, irritat contractum; si autem
+            <lb ed="#V" n="22"/>non tollit, habetur pro non adjecta.
+            Utrum<lb ed="#V" n="23" break="no"/>que verum est, si supponatur scientia
+            <lb ed="#V" n="24"/>conditionis, quantum est ex natura
+            con<lb ed="#V" n="25" break="no"/>tractus legitimi, et consensus requisiti
+            <lb ed="#V" n="26"/>eum irritate, aute pro non adjecta haberi;
+            <lb ed="#V" n="27"/>habetur autem pro non adjecta, quando
+            <lb ed="#V" n="28"/>intentio fuit serio contrahendi, quia tum
+            <lb ed="#V" n="29"/>licet adjiciatur conditio, non
+            comprehen<lb ed="#V" n="30" break="no"/>ditur sub intentione, neque illam respicit,
+            <lb ed="#V" n="31"/>sed impertinenter, aut joco adjicitur. Quod
+            <lb ed="#V" n="32"/>si cadat sub intentione, repugnat
+            consen<lb ed="#V" n="33" break="no"/>sui, et trahit voluntatem ad dissensum,
+            <lb ed="#V" n="34"/>seu non consensum, spectata rei natura,
+            <lb ed="#V" n="35"/>et modo quo voluntas fertur in
+            contra<lb ed="#V" n="36" break="no"/>ctum per conditionem irritantem utroque
+            <lb ed="#V" n="37"/>modo, lib. Non solum, 31 fr. De action.
+            <lb ed="#V" n="38"/>et obligat. Quia, inquit, omnium ea
+            cogi<lb ed="#V" n="39" break="no"/>tatio est, ut nihil agi existiment apposita
+            <lb ed="#V" n="40"/>ea conditione, quam sciant esse
+            impossi<lb ed="#V" n="41" break="no"/>bilem, etc. nempe cum qua non potest
+            <lb ed="#V" n="42"/>esse contractus aut translatio, vel ex
+            na<lb ed="#V" n="43" break="no"/>tura rei, si taliter sit conditio impossibilis.
+            <lb ed="#V" n="44"/>vel certe inviolata lege, quae contractum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>irritat, ut si professus Religionem,
+            ma<lb ed="#V" n="46" break="no"/>trimonium, sciens impedimentum,
+            con<lb ed="#V" n="47" break="no"/>trahat.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Sequitur secundo si illa conditio sit
+            <lb ed="#V" n="49"/>ignota, qua impossibilis est, posse stare
+            <lb ed="#V" n="50"/>consensum seu intentionem requisitam ad
+            <lb ed="#V" n="51"/>contractum ex natura actus et intentionis,
+            <lb ed="#V" n="52"/>quae suspenditur ad conditionem, qua
+            <lb ed="#V" n="53"/>existimatur possibilis, licet in re ipsa
+            <lb ed="#V" n="54"/>sit impossibilis quia ad concipiendam
+            <lb ed="#V" n="55"/>intentionem sufficit ut finis
+            existime<lb ed="#V" n="56" break="no"/>tur possibilis, respective ad conatum
+            prae<lb ed="#V" n="57" break="no"/>sentem voluntatis et operantis; eodem
+            <lb ed="#V" n="58"/>modo ad suspendendum consensum
+            suf<lb ed="#V" n="59" break="no"/>ficit ut conditio existimetur possibilis, et
+            <lb ed="#V" n="60"/>tunc nascetur obligatio hinc inde in
+            opi<lb ed="#V" n="61" break="no"/>nione contrahentium, suspensa ad
+            condi<lb ed="#V" n="62" break="no"/>tionem oppositam, quae obligatio oritur
+            <lb ed="#V" n="63"/>ex conscientia erronea, deposito autem
+            <lb ed="#V" n="64"/>errore desinit.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Dico quinto, conditionem impossibilem
+            <lb ed="#V" n="66"/>aliquando haberi pro non adjecta, vel ipso
+            <lb ed="#V" n="67"/>Jure, vel praesumptione in re dubia; ipso
+            <lb ed="#V" n="68"/>Jure habetur pro non adjecta in
+            testamen<lb ed="#V" n="69" break="no"/>tis, quantum ad institutionem haeredis,
+            <lb ed="#V" n="70"/>fideicommissum, legatum, et donationem
+            <lb ed="#V" n="71"/>factam in causa mortis ut constat l. 1.
+            <lb ed="#V" n="72"/>4. 6. 8. et 9. de conditionibus
+            institu<lb ed="#V" n="73" break="no"/>tionum, et 8 Impossibilis, Institut, de
+            <lb ed="#V" n="74"/>hoered. instituend. Quod intelligendum
+            <lb ed="#V" n="75"/>est in utroque foro, quia sive fuerit
+            con<lb ed="#V" n="76" break="no"/>sensus testantis dependens ab illa
+            condi<lb ed="#V" n="77" break="no"/>tione, sive non, dispositio tenet ex lege
+            <lb ed="#V" n="78"/>supplente defectum consensus, quia res
+            <lb ed="#V" n="79"/>externae subsunt dispositioni legis directe,
+            <lb ed="#V" n="80"/>quando illa dispositio habet justam
+            cau<lb ed="#V" n="81" break="no"/>sam, quia mortuo testatore, nemo est
+            <lb ed="#V" n="82"/>qui posset voluntatem ejus interpretari,
+            <lb ed="#V" n="83"/>et ne dispositio ab eo facta reddatur
+            inu<lb ed="#V" n="84" break="no"/>tilis, ad evitandas lites, jus supplet
+            defe<lb ed="#V" n="85" break="no"/>ctum, vel in poenam testatoris, vel etiam
+            <lb ed="#V" n="86"/>in favorem; in poenam quidem, si
+            condi<lb ed="#V" n="87" break="no"/>tio sit turpis; in favorem ut dispositio
+            <lb ed="#V" n="88"/>ejus sortiatur effectum.
+          </p>
+          <p>
+            <pb ed="#V" n="262"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Quod si constet adjectam esse
+            conditi<lb ed="#V" n="2" break="no"/>onem ex errore, vel quia putabatur
+            pos<lb ed="#V" n="3" break="no"/>sibilis aut licita, aliqui dicunt non valere
+            <lb ed="#V" n="4"/>testamentum, sed reddi irritum. Sed
+            op<lb ed="#V" n="5" break="no"/>positum videtur, quia lex non confirmat
+            <lb ed="#V" n="6"/>dispositionem ex interpretatione aut
+            prae<lb ed="#V" n="7" break="no"/>sumptione, sed ex absoluta potestate,
+            <lb ed="#V" n="8"/>quam habet in bona testata, et supplens
+            <lb ed="#V" n="9"/>defectum testatoris, cujus voluntati
+            succe<lb ed="#V" n="10" break="no"/>dit ordinatio legis in defectu, et sicut
+            ex<lb ed="#V" n="11" break="no"/>tenditur ad conditionem impossibilem ex
+            <lb ed="#V" n="12"/>scientia adjectam, ita etiam ad ipsam, si
+            <lb ed="#V" n="13"/>in re est impossibilis, videtur extendi;
+            a<lb ed="#V" n="14" break="no"/>liud dicendum esset, si solum
+            praesumpti<lb ed="#V" n="15" break="no"/>oni lex inniteretur. Priorem tamen
+            senten<lb ed="#V" n="16" break="no"/>tiam docet Gomezius de legatis num. 65.
+            <lb ed="#V" n="17"/>ex I. servo manumisso 58. de conditione
+            <lb ed="#V" n="18"/>indebiti, et plures alii; tunc dicendum est
+            <lb ed="#V" n="19"/>legem non extendi nisi ad casus, quos
+            <lb ed="#V" n="20"/>comprehendit, cum alioquin in caeteris
+            ir<lb ed="#V" n="21" break="no"/>ritat contractum, per talem conditionem
+            <lb ed="#V" n="22"/>adjectam, qua praesumit dissensum.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>In contractu matrimonii conditio
+            im<lb ed="#V" n="24" break="no"/>possibilis, aut turpis habetur pro non
+            <lb ed="#V" n="25"/>adjecta, quia praesumitur in favorem
+            ma<lb ed="#V" n="26" break="no"/>trimonii, cap. fin de conditionibus
+            appo<lb ed="#V" n="27" break="no"/>sitis, et contrahentes serio egisse in re
+            <lb ed="#V" n="28"/>tanti momenti, et sancta. Haec ordinatio
+            <lb ed="#V" n="29"/>ideo innititur soli praesumptioni, quia
+            <lb ed="#V" n="30"/>nequit Ecclesia dare potestatem mutuam
+            <lb ed="#V" n="31"/>hujus contractus sine consensu
+            contra<lb ed="#V" n="32" break="no"/>hentium; requiritur autem ut constet vel
+            <lb ed="#V" n="33"/>joco illam conditionem adjectam, vel
+            <lb ed="#V" n="34"/>sciant contrahentes illam conditionem esse
+            <lb ed="#V" n="35"/>impossibilem, et ex ordinatione legis
+            <lb ed="#V" n="36"/>pro non adjecta reputari, et nihilominus
+            <lb ed="#V" n="37"/>contrahunt scientes a Jure eam haberi
+            <lb ed="#V" n="38"/>pro non adjecta, quia tum praesumitur
+            <lb ed="#V" n="39"/>eam joco, et impertinenter adjectam; vel
+            <lb ed="#V" n="40"/>etiam in dubio praesumuntur etiam valide
+            <lb ed="#V" n="41"/>per debitum consensum contraxisse, ne
+            <lb ed="#V" n="42"/>vivant in adulterio, aut certe irrisorie
+            <lb ed="#V" n="43"/>agant in re sancta et gravi. Caeterum in
+            <lb ed="#V" n="44"/>foro externo illa priesumptio valet in foro
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>vero interno, si nullus fuit consensus,
+            <lb ed="#V" n="46"/>nihil fit.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Dubium est si contrahentes sciant
+            statu<lb ed="#V" n="48" break="no"/>tum Pontificis, et velint nihilominus
+            con<lb ed="#V" n="49" break="no"/>trahere per consensum alligatum
+            conditi<lb ed="#V" n="50" break="no"/>oni, an valeat matrimonium? Ratio
+            diffi<lb ed="#V" n="51" break="no"/>cultatis est, quia illud cap. finale innititur
+            <lb ed="#V" n="52"/>praesumptioni, quae non variat factum, et
+            <lb ed="#V" n="53"/>falsa est quando veritas non subest, quae
+            <lb ed="#V" n="54"/>praesumitur.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Respondetur valere matrimonium in re
+            <lb ed="#V" n="56"/>ipsa, si contrahentes habuerunt animum
+            <lb ed="#V" n="57"/>serio contrahendi, hoc est, ineundi
+            contra<lb ed="#V" n="58" break="no"/>ctum; nam Ecclesiae statutum in eo
+            capi<lb ed="#V" n="59" break="no"/>tulo tantum efficit, ut contrahentes non
+            <lb ed="#V" n="60"/>possint alligare consensum tali conditioni,
+            <lb ed="#V" n="61"/>quam voluit pro non adjecta haberi, sicut
+            <lb ed="#V" n="62"/>potest instituere alias solemnitates hujus
+            <lb ed="#V" n="63"/>contractus, sine quibus contractus non
+            <lb ed="#V" n="64"/>esset legitimus; ita etiam instituere, ut
+            <lb ed="#V" n="65"/>conditiones aliquae habeantur pro non
+            <lb ed="#V" n="66"/>adjectis, et impossibilitare personas ad eas
+            <lb ed="#V" n="67"/>trahendas in contractum. Itaque intentio
+            <lb ed="#V" n="68"/>sincera ineundi contractum, refertur ad
+            <lb ed="#V" n="69"/>substantiam ejus, et non ad conditionem a
+            <lb ed="#V" n="70"/>eo casu appositam, quam de Jure non
+            po<lb ed="#V" n="71" break="no"/>tuerunt intendere, aut substantialem
+            face<lb ed="#V" n="72" break="no"/>re contra statuti dispositionem. Potest
+            <lb ed="#V" n="73"/>autem intentio concipi primario ineundi
+            <lb ed="#V" n="74"/>contractum legitimum, et apponi ex
+            vo<lb ed="#V" n="75" break="no"/>luntate contrahentium secundario illa
+            <lb ed="#V" n="76"/>conditio, ut respicit primarium finem,
+            in<lb ed="#V" n="77" break="no"/>tentio valet et consensus ex ea datus, et
+            <lb ed="#V" n="78"/>conditio illa sicut non specificat
+            intenti<lb ed="#V" n="79" break="no"/>onem, ita etiam neque consensum, et
+            ha<lb ed="#V" n="80" break="no"/>betur pro non adjecta. Quod si intentio
+            <lb ed="#V" n="81"/>primo respiciat ipsam conditionem, et
+            ac<lb ed="#V" n="82" break="no"/>cessorie tantum, aut secundario
+            contra<lb ed="#V" n="83" break="no"/>ctum, tunc deest animus serio
+            contrahen<lb ed="#V" n="84" break="no"/>di, et matrimonium est nullum, et si
+            <lb ed="#V" n="85"/>constat etiam de tali intentione Ecclesiae,
+            <lb ed="#V" n="86"/>non praesumit de valore matrimonii. Tunc
+            <lb ed="#V" n="87"/>enim conditio non est apposita, sed
+            pri<lb ed="#V" n="88" break="no"/>mario intenta ex dissensu, et magis ipse
+            <pb ed="#V" n="263"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>contractus est appositus conditioni, quae
+            <lb ed="#V" n="2"/>primario, ut causa dissensus intenditur,
+            <lb ed="#V" n="3"/>vel certe ut signum non consensus veri in
+            <lb ed="#V" n="4"/>contractum, sed frustratorii.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Dices, in omni casu, quo intenditur
+            <lb ed="#V" n="6"/>conditio impossibilis, frustrari veram
+            in<lb ed="#V" n="7" break="no"/>terpretationem contrahendi, ac proinde
+            <lb ed="#V" n="8"/>contractum esse nullum.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Respondetur distinguendo antecedens,
+            <lb ed="#V" n="10"/>quando finis per se intentus est vinculum,
+            <lb ed="#V" n="11"/>seu ipse contractus, negando antecedens,
+            <lb ed="#V" n="12"/>quia potest subsistere talis intentio in
+            or<lb ed="#V" n="13" break="no"/>dine ad materiam non impeditam; et quia
+            <lb ed="#V" n="14"/>voluntas primario movetur ex fine,
+            con<lb ed="#V" n="15" break="no"/>tractus de facto subsistit, quamdiu ratio
+            <lb ed="#V" n="16"/>finis non immutatur, neque affectus
+            vo<lb ed="#V" n="17" break="no"/>luntatis circa finem. Quod si ulterius
+            ad<lb ed="#V" n="18" break="no"/>datur conditio impossibilis, habetur pro
+            <lb ed="#V" n="19"/>non adjecta, quia adjectio ejus non est
+            <lb ed="#V" n="20"/>principalis causa operandi ex parte
+            volun<lb ed="#V" n="21" break="no"/>tatis circa contractum, neque medium
+            <lb ed="#V" n="22"/>inducendi contractum, qui per se
+            intendi<lb ed="#V" n="23" break="no"/>tur, et a cujus intentione non distrahitur
+            <lb ed="#V" n="24"/>voluntas; illa ergo adjectio conditionis
+            <lb ed="#V" n="25"/>consequenter se habet ad intentionem
+            <lb ed="#V" n="26"/>absolutam contrahendi, quae non vitiat
+            <lb ed="#V" n="27"/>factum ex intentione priori, et non est
+            <lb ed="#V" n="28"/>consequens ex natura rei, aut ipsius
+            in<lb ed="#V" n="29" break="no"/>tentionis primariae, sed mere ex libertate
+            <lb ed="#V" n="30"/>et impertinenter ac otiose, quia nullum
+            <lb ed="#V" n="31"/>inducit effectum.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Exemplum esse potest in ministro
+            Sa<lb ed="#V" n="33" break="no"/>cramenti, qui ex intentione faciendi, quod
+            <lb ed="#V" n="34"/>facit Ecclesia, valide ministrat
+            Sacramen<lb ed="#V" n="35" break="no"/>tum, quamvis ipse adjiciat aliam
+            intenti<lb ed="#V" n="36" break="no"/>onem particularem ex errore conceptam,
+            <lb ed="#V" n="37"/>quae quidem est contra veritatem
+            Sacra<lb ed="#V" n="38" break="no"/>menti, tamen non repugnat priori
+            intenti<lb ed="#V" n="39" break="no"/>oni, per quam primario movetur ad
+            ope<lb ed="#V" n="40" break="no"/>randum. Et sicut potest stare scientia in
+            <lb ed="#V" n="41"/>universali, v. g. omnem mulam esse
+            <lb ed="#V" n="42"/>sterilem cum ignorantia particulari, an
+            <lb ed="#V" n="43"/>haec mula sit sterilis in eodem intellectu.
+            <lb ed="#V" n="44"/>ita etiam in voluntate eadem potest esse
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>intentio universalis ineundi contractum
+            <lb ed="#V" n="46"/>hic et nunc, cum alia particulari et minus
+            <lb ed="#V" n="47"/>principali concomitante, quae non derogat
+            <lb ed="#V" n="48"/>priori, quae magis principalis est seu
+            pri<lb ed="#V" n="49" break="no"/>maria, v. g. si haereticus velit serio
+            con<lb ed="#V" n="50" break="no"/>trahere matrimonium, et ex errore quo
+            <lb ed="#V" n="51"/>vellet repugnare statuto Ecclesiae in
+            con<lb ed="#V" n="52" break="no"/>temptum, adjiceret conditionem
+            impossi<lb ed="#V" n="53" break="no"/>bilem, matrimonium in utroque foro
+            tene<lb ed="#V" n="54" break="no"/>ret; tum quia talis conditionis adjectio non
+            <lb ed="#V" n="55"/>esset ex fine principali, quo vellet
+            contra<lb ed="#V" n="56" break="no"/>ctum absolute, et necessarium consensum,
+            <lb ed="#V" n="57"/>et adjicit conditionem ex fine extraneo,
+            <lb ed="#V" n="58"/>nempe contemptus, et non ipsius
+            contra<lb ed="#V" n="59" break="no"/>ctus; tum quia ex statuto Ecclesiae adjectio
+            <lb ed="#V" n="60"/>talis conditionis esset frustratoria, si
+            alio<lb ed="#V" n="61" break="no"/>quin intentio contractus seria reducitur in
+            <lb ed="#V" n="62"/>actum per consensum proportionatum.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Quod si vero intentio primaria
+            contra<lb ed="#V" n="64" break="no"/>ctus pendeat, aut inhaereat conditioni per
+            <lb ed="#V" n="65"/>se, tunc nihil fit, quia adjectio conditionis
+            <lb ed="#V" n="66"/>impossibilis principaliter intenditur ad
+            <lb ed="#V" n="67"/>frustrandum contractum; et quamvis
+            in<lb ed="#V" n="68" break="no"/>telligatur per modum prosecutionis, ut
+            <lb ed="#V" n="69"/>tendit in conditionem, tamen ut reducitur
+            <lb ed="#V" n="70"/>in contractum per conditionem sic
+            inten<lb ed="#V" n="71" break="no"/>tam, est dissensus seu non consensus in
+            <lb ed="#V" n="72"/>ipsum contractum. Et in eo casu non
+            ha<lb ed="#V" n="73" break="no"/>bet intentionem per se perficiendi
+            contra<lb ed="#V" n="74" break="no"/>ctus diversam, ab ea quae adjicit
+            conditi<lb ed="#V" n="75" break="no"/>onem impossibilem et frustratoriam
+            con<lb ed="#V" n="76" break="no"/>tractus, ut non teneat.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Hos autem diversos modos intentionis,
+            <lb ed="#V" n="78"/>ut respicit tam contractum serio
+            ineun<lb ed="#V" n="79" break="no"/>dum quam frustratorie, non solum
+            possi<lb ed="#V" n="80" break="no"/>biles esse, sed etiam in praxi contingere,
+            <lb ed="#V" n="81"/>patet, quia praesumptio Juris civilis
+            <lb ed="#V" n="82"/>fundatur in possibilitate rei, et prout in
+            <lb ed="#V" n="83"/>plurimum, vel secundum rectam rationem
+            <lb ed="#V" n="84"/>contingit praesumptio in favorem
+            matri<lb ed="#V" n="85" break="no"/>monii, adjecta tali conditione, fundatur in
+            <lb ed="#V" n="86"/>eo quod animus serio contrahendi inesse
+            <lb ed="#V" n="87"/>possit, quamvis conditio adjiciatur,
+            spe<lb ed="#V" n="88" break="no"/>ctata scilicet intentione, quam debent
+            con<pb ed="#V" n="264"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>trahentes habere, et quae ut in plurimum
+            <lb ed="#V" n="2"/>inest. Praesumptio etiam Juris civilis
+            quo<lb ed="#V" n="3" break="no"/>ad ultimas voluntates, fundatur in
+            contra<lb ed="#V" n="4" break="no"/>ctu favorabili, et ideo statuit secundum
+            <lb ed="#V" n="5"/>intentionem, quae praesumitur et debet
+            <lb ed="#V" n="6"/>inesse. In aliis autem contractibus
+            praesu<lb ed="#V" n="7" break="no"/>mit, ex conditione adjecta impossibili, non
+            <lb ed="#V" n="8"/>fuisse, consensum firmum in contractum,
+            <lb ed="#V" n="9"/>aut serium; ergo sicut utraque
+            praesum<lb ed="#V" n="10" break="no"/>ptio recta ratione fundatur, ita etiam
+            in<lb ed="#V" n="11" break="no"/>tentio, uno aut altero modo concipi
+            po<lb ed="#V" n="12" break="no"/>test. Unde si conditio impossibilis,
+            quo<lb ed="#V" n="13" break="no"/>cumque modo adjecta, tollit intentionem
+            <lb ed="#V" n="14"/>absolutam et necessariam ad contractum,
+            <lb ed="#V" n="15"/>nulla ratione posset Ecclesia declarare
+            <lb ed="#V" n="16"/>has conditiones haberi ut non adjectas,
+            <lb ed="#V" n="17"/>quia nequit supplere consensum
+            requisi<lb ed="#V" n="18" break="no"/>tum hoc modo, aut immutare naturam
+            <lb ed="#V" n="19"/>ejus in ordine ad matrimonium, quod non
+            <lb ed="#V" n="20"/>subest directe ejus voluntati. Talis enim
+            <lb ed="#V" n="21"/>est consensus in contractum, qualis
+            prae<lb ed="#V" n="22" break="no"/>cessit intentio contrahentis; et talis est
+            <lb ed="#V" n="23"/>intentio, qualis est finis primario intentus,
+            <lb ed="#V" n="24"/>qui inclinat voluntatem ad contractum
+            <lb ed="#V" n="25"/>ineundum.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Dices, intentio non facit ad contractum,
+            <lb ed="#V" n="27"/>si non exprimarur, v. g. si quis
+            mutua<lb ed="#V" n="28" break="no"/>tur animo usurario et intuitu lucri, nisi
+            <lb ed="#V" n="29"/>r. trahat in contractum seu pactum talem
+            <lb ed="#V" n="30"/>intentionem, non redditur per eam
+            contra<lb ed="#V" n="31" break="no"/>ctus usurarius; ad contractum enim
+            re<lb ed="#V" n="32" break="no"/>quiritur consensus respective ad
+            contra<lb ed="#V" n="33" break="no"/>hentem, seu partem expressus, ut inducit
+            <lb ed="#V" n="34"/>obligationem ex contractu. Sed intentio
+            <lb ed="#V" n="35"/>seria contrahendi non exprimitur
+            respe<lb ed="#V" n="36" break="no"/>ctive ad partem, nisi ut inhaeret
+            conditi<lb ed="#V" n="37" break="no"/>oni; ergo non inducit obligationem
+            abso<lb ed="#V" n="38" break="no"/>lutam, sed talem quae nata est induci per
+            <lb ed="#V" n="39"/>contractum conditionatum, spectata
+            natu<lb ed="#V" n="40" break="no"/>ra ipsius conditionis adjectae. Minor
+            pro<lb ed="#V" n="41" break="no"/>batur, quia contrahens sub hac forma:
+            <lb ed="#V" n="42"/>Ego te accipio in meam, si coelum digito
+            <lb ed="#V" n="43"/>tetigeris, aut si detrahas lunam, non
+            ex<lb ed="#V" n="44" break="no"/>primit alium consensum respective ad
+            al<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>teram personam, quam consensum
+            inhae<lb ed="#V" n="46" break="no"/>rentem conditioni; ergo neque alia
+            obli<lb ed="#V" n="47" break="no"/>gatio sequitur, quam illa quae nata est
+            <lb ed="#V" n="48"/>ex natura expressa consensus de praesenti
+            <lb ed="#V" n="49"/>sequi.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Respondetur negando subsumptum,
+            <lb ed="#V" n="51"/>quia consensus, ut inhaeret praesumptioni
+            <lb ed="#V" n="52"/>Juris, intelligitur ille qui procedit ex
+            in<lb ed="#V" n="53" break="no"/>tentione seria contrahendi, cum statutum
+            <lb ed="#V" n="54"/>Ecclesiae impossibilitet ad talem
+            conditi<lb ed="#V" n="55" break="no"/>onem, in praesenti contractu; ex natura
+            <lb ed="#V" n="56"/>autem facti praesumitur ctiam iniens
+            ta<lb ed="#V" n="57" break="no"/>lem contractum, intendere obligationem
+            <lb ed="#V" n="58"/>connaturalem contractui, ac proinde
+            debi<lb ed="#V" n="59" break="no"/>tam intentionem, sine qua nequit oriri.
+            <lb ed="#V" n="60"/>Ad probationem patet, quia forma illa ut
+            <lb ed="#V" n="61"/>exprimit consensum, ita etiam exprimit
+            <lb ed="#V" n="62"/>eumdem, ut supponitur inhaerere debitae
+            <lb ed="#V" n="63"/>intentioni, sive subsit, sive non. Deinde,
+            <lb ed="#V" n="64"/>non solum seria intentio exprimitur per
+            <lb ed="#V" n="65"/>verba, sed etiam per signa, ut si taliter
+            <lb ed="#V" n="66"/>contrahens se gerat ut sponsus, si
+            acce<lb ed="#V" n="67" break="no"/>ptet dotem, si cohabitet, et in reliquis se
+            <lb ed="#V" n="68"/>gerat ut sponsum, et tanquam
+            agnoscen<lb ed="#V" n="69" break="no"/>tem ex tali contractu in ea forma se
+            obli<lb ed="#V" n="70" break="no"/>gatum sponsae. Requiritur ergo ad
+            ex<lb ed="#V" n="71" break="no"/>pressionem intentionis frustratoriae et
+            <lb ed="#V" n="72"/>malignae, praeter consensum in ea forma
+            <lb ed="#V" n="73"/>expressum, ut interveniant alia, quibus
+            <lb ed="#V" n="74"/>declaret se non serio agere; non ita vero
+            <lb ed="#V" n="75"/>requiritur talis declaratio, quando inest
+            <lb ed="#V" n="76"/>debita intentio. Exemplum quod
+            proponi<lb ed="#V" n="77" break="no"/>tur de usurario, non perinde se habet,
+            <lb ed="#V" n="78"/>quia intentio ejus maligna non facit
+            <lb ed="#V" n="79"/>ad contractum qua maligna est, nec
+            <lb ed="#V" n="80"/>exprimitur, quae neque Jure, neque
+            <lb ed="#V" n="81"/>facto ex vi contractus supponitur; ideo
+            <lb ed="#V" n="82"/>extranea est contractui, nullumque
+            effe<lb ed="#V" n="83" break="no"/>ctum respective ad contractum parit.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>Superest ex praedictis declarandum,
+            <lb ed="#V" n="85"/>quid contineat statutum Ecclesiae in cap.
+            <lb ed="#V" n="86"/>finali de conditionibus appositis. Potior
+            <lb ed="#V" n="87"/>enim difficultas jam tacta est, quomodo
+            <lb ed="#V" n="88"/>possit inesse voluntati animus seu
+            inten<pb ed="#V" n="265"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tio efficax contrahendi, et seria simul cum
+            <lb ed="#V" n="2"/>conditione adjecta de impossibili, quae
+            <lb ed="#V" n="3"/>non vitiat contractum. Dixi autem hoc
+            <lb ed="#V" n="4"/>contingere vel per diversos actus modo
+            <lb ed="#V" n="5"/>explicato, vel per eumdem etiam actum,
+            <lb ed="#V" n="6"/>qui primaria intentione fertur in ipsum
+            <lb ed="#V" n="7"/>contractum; ex secundaria vero, et ex
+            <lb ed="#V" n="8"/>alio motivo extrinseco contractui in
+            con<lb ed="#V" n="9" break="no"/>ditionem, quo casu conditio adjecta non
+            <lb ed="#V" n="10"/>redundat in contractum; neque conse.
+            <lb ed="#V" n="11"/>quenter illud vitiat, sed in ordine ad eum
+            <lb ed="#V" n="12"/>habetur pro non adjecta. Quantum autem
+            <lb ed="#V" n="13"/>ad praedictum statutum varias ejus
+            inter<lb ed="#V" n="14" break="no"/>pretationes adducit Sanchez lib. 5.
+            di<lb ed="#V" n="15" break="no"/>sput. 3. Durandus in 4. dist. 39. revocat
+            <lb ed="#V" n="16"/>in dubium quomodo Ecclesia potuerit
+            <lb ed="#V" n="17"/>praesumere pro matrimonio cui adjicitur
+            <lb ed="#V" n="18"/>talis conditio, cum potius fundamentum
+            <lb ed="#V" n="19"/>praesumptionis in oppositum inclinet. Et
+            <lb ed="#V" n="20"/>Jura in caeteris contractibus similibus
+            <lb ed="#V" n="21"/>praesumant nullitatem aut defectum
+            con<lb ed="#V" n="22" break="no"/>sensus requisiti. Basilius in tract de
+            impe<lb ed="#V" n="23" break="no"/>dimentis, cap. 17. S Secundo colligo.
+            <lb ed="#V" n="24"/>dicit spectato Jure naturali ita
+            interpre<lb ed="#V" n="25" break="no"/>tandam esse, sed ex statuto Ecclesiae in
+            <lb ed="#V" n="26"/>dicto cap. finali, de condit. appositis, etc.
+            <lb ed="#V" n="27"/>aliter dicendum esse de matrimonio. Alii
+            <lb ed="#V" n="28"/>cum Adriano in 4. de matrimon. q. 3.
+            <lb ed="#V" n="29"/>dub. 7. intelligendum esse de conditione
+            <lb ed="#V" n="30"/>impossibili, existimata tamen possibili.
+            <lb ed="#V" n="31"/>Alii intelligunt de conditionibus
+            resoluti<lb ed="#V" n="32" break="no"/>vis, et non suspendentibus contractum;
+            <lb ed="#V" n="33"/>suspenditur contractus, quando contractus
+            <lb ed="#V" n="34"/>non habet effectum; resolvitur autem in
+            <lb ed="#V" n="35"/>conditionem, quando a principio habuit
+            <lb ed="#V" n="36"/>effectum obligationis, sed ad eventum
+            <lb ed="#V" n="37"/>conditionis.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Alii, ut Sotus dist. 29. intelligunt
+            prae<lb ed="#V" n="39" break="no"/>sumptionem illius statuti fundari, quando
+            <lb ed="#V" n="40"/>ex aliis signis praesumitur adfuisse
+            consen<lb ed="#V" n="41" break="no"/>sum, alioquin conditionem impossibilem
+            <lb ed="#V" n="42"/>adjectam annullare contractum.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Alii, ut Lopez in 2. part. instruct. de
+            <lb ed="#V" n="44"/>matrimon. cap. 43. docent consensum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>praesumi in matrimonium ex appetentia
+            <lb ed="#V" n="46"/>naturae, quae in illud inclinat, et eo ipso
+            <lb ed="#V" n="47"/>quod intelligatur conditionis
+            impossibili<lb ed="#V" n="48" break="no"/>tatem non est voluntatem eam
+            adjicien<lb ed="#V" n="49" break="no"/>tis, ut ab altero observetur aut
+            accepte<lb ed="#V" n="50" break="no"/>tur, cum voluntas non sit impossibilium,
+            <lb ed="#V" n="51"/>supple intentio, ex Philosopho.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Alii cum Covarr. in 4. decret. 2. part.
+            <lb ed="#V" n="53"/>cap. 3. docent statutum intelligi debere
+            <lb ed="#V" n="54"/>de conditionibus, non quae sunt natura
+            <lb ed="#V" n="55"/>impossibiles, sed de impossibili
+            respe<lb ed="#V" n="56" break="no"/>ctive ad contrahentem. Priori modo
+            dici<lb ed="#V" n="57" break="no"/>tur ex se absolute impossibilis; secundo
+            <lb ed="#V" n="58"/>licet possibilis sit, tamen respective ad
+            <lb ed="#V" n="59"/>contrahentem fit impossibilis, ut si
+            con<lb ed="#V" n="60" break="no"/>trahat cum paupere sub conditione, si
+            <lb ed="#V" n="61"/>montem aureum in dotem praestet. Hos
+            <lb ed="#V" n="62"/>modos optime explicat et impugnat
+            San<lb ed="#V" n="63" break="no"/>chez loco praefato. Declinant enim in
+            <lb ed="#V" n="64"/>extrema, ut vel locum declarationi
+            Pon<lb ed="#V" n="65" break="no"/>tificis non concedant, vel ex alia parte
+            <lb ed="#V" n="66"/>doceant, hoc statutum supplere posse
+            <lb ed="#V" n="67"/>consensum, cum non sit, sed potius
+            dis<lb ed="#V" n="68" break="no"/>sensus, quando a tali conditione pendet
+            <lb ed="#V" n="69"/>per se voluntas contrahentium; vel
+            de<lb ed="#V" n="70" break="no"/>nique, ut Covarruvias, non recte
+            distin<lb ed="#V" n="71" break="no"/>guunt conditionem in impossibilem a
+            na<lb ed="#V" n="72" break="no"/>tura, et impossibilem respective, cum haec
+            <lb ed="#V" n="73"/>eumdem effectum habeat in
+            contrahen<lb ed="#V" n="74" break="no"/>tibus, ut hic et nunc intendunt finem, qui
+            <lb ed="#V" n="75"/>debet esse in potestate ipsorum.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Tandem ipse Sanchez quibusdam
+            fun<lb ed="#V" n="77" break="no"/>damentis praesuppositis docet in dubio
+            <lb ed="#V" n="78"/>praesumendum esse pro matrimonio, et
+            <lb ed="#V" n="79"/>in favorem ejus. Primum fundamentum
+            <lb ed="#V" n="80"/>est, quod conditio impossibilis existimata
+            <lb ed="#V" n="81"/>possibilis suspendat contractum, et illum
+            <lb ed="#V" n="82"/>annullat adveniente scientia de
+            impossi<lb ed="#V" n="83" break="no"/>bilitate talis conditionis, quia consensus
+            <lb ed="#V" n="84"/>ab ea pendebat ex intentione
+            contrahen<lb ed="#V" n="85" break="no"/>tium. Secundum fundamentum est, ut
+            <lb ed="#V" n="86"/>nota sit contrahentibus tam conditionem
+            <lb ed="#V" n="87"/>esse impossibilem, quam etiam statutum
+            <lb ed="#V" n="88"/>Ecclesiae, quo habetur pro non adjecta.
+            <pb ed="#V" n="266"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Tertium fundamentum est, in dubio
+            prae<lb ed="#V" n="2" break="no"/>sumendum esse in favorem matrimonii,
+            <lb ed="#V" n="3"/>quia in dubio sententia pro matrimonio
+            <lb ed="#V" n="4"/>ferenda est, cap. fin. de sent. et re
+            judi<lb ed="#V" n="5" break="no"/>cata, etc. quia sic tutius est
+            contrahen<lb ed="#V" n="6" break="no"/>tibus. Ex quibus colligit cum fideles
+            <lb ed="#V" n="7"/>scientes conditionem esse impossibilem,
+            <lb ed="#V" n="8"/>et pro non adjecta haberi ab Ecclesia,
+            <lb ed="#V" n="9"/>et recipientes Sacramenta velint ea
+            reci<lb ed="#V" n="10" break="no"/>pere prout convenit, et secundum
+            in<lb ed="#V" n="11" break="no"/>tentionem Ecclesiae, videantur velle inire
+            <lb ed="#V" n="12"/>contractum serio et pure, et sic Ecclesia
+            <lb ed="#V" n="13"/>praesumit, nisi aliter de intentione
+            con<lb ed="#V" n="14" break="no"/>-stet. In hoc ergo favor matrimonii
+            sta<lb ed="#V" n="15" break="no"/>tuitur in illo decreto, quod conditio talis
+            <lb ed="#V" n="16"/>habeatur pro non adjecta, neque vitiet
+            <lb ed="#V" n="17"/>contractum, qui alioquin naturae
+            conditi<lb ed="#V" n="18" break="no"/>onis impossibilis relictus esset nullus.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Sed haec resolutio, licet valeat ad
+            prae<lb ed="#V" n="20" break="no"/>sumptionem, qua fundatur valor
+            matrimo<lb ed="#V" n="21" break="no"/>nii in foro externo, tamen nihil aliud
+            <lb ed="#V" n="22"/>continet, quod a reliquis discrepet,
+            quan<lb ed="#V" n="23" break="no"/>tum ad forum conscientiae, in quo si
+            <lb ed="#V" n="24"/>defuit consensus requisitus, Ecclesia
+            ne<lb ed="#V" n="25" break="no"/>quit supplere, neque intendit supplere,
+            <lb ed="#V" n="26"/>sicut Jus positivum humanum potest
+            sup<lb ed="#V" n="27" break="no"/>plere consensum in contractu civili, et
+            <lb ed="#V" n="28"/>rejicere hujusmodi conditiones, tanquam
+            <lb ed="#V" n="29"/>impertinentes ex potestate directa, quam
+            <lb ed="#V" n="30"/>habet in testatorem, et res ejus, et sic
+            <lb ed="#V" n="31"/>contra voluntatem ejus favere
+            testamen<lb ed="#V" n="32" break="no"/>to; nequit autem Ecclesia sic favere
+            ma<lb ed="#V" n="33" break="no"/>trimonio contra voluntatem
+            contrahen<lb ed="#V" n="34" break="no"/>tium, quin etiam neque in foro externo
+            <lb ed="#V" n="35"/>favere potest, si constet de nullitate
+            con<lb ed="#V" n="36" break="no"/>sensus, licet in dubio praeferatur
+            matri<lb ed="#V" n="37" break="no"/>monium.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Inhaerendo ergo dictis, dico de Jure
+            <lb ed="#V" n="39"/>naturae matrimonium esse purum, quoties
+            <lb ed="#V" n="40"/>fuit intentio serio contrahendi, et
+            condi<lb ed="#V" n="41" break="no"/>tionem impossibilem adjectam non posse
+            <lb ed="#V" n="42"/>haberi pro adjecta, neque contractum
+            <lb ed="#V" n="43"/>initum cum tali intentione eam respicere,
+            <lb ed="#V" n="44"/>vel ei inhaerere, quia id repugnat ex
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>natura ipsius actus qui est efficax, ac
+            <lb ed="#V" n="46"/>perinde nequit inhaerere alicui
+            impossi<lb ed="#V" n="47" break="no"/>bili cum scientia impossibilitatis ejus;
+            <lb ed="#V" n="48"/>omnis intentio efficax reducitur in suum
+            <lb ed="#V" n="49"/>finem per media possibilia tantum.
+            Quam<lb ed="#V" n="50" break="no"/>vis ergo dissensus in contractum
+            matri<lb ed="#V" n="51" break="no"/>monii possit inhaerere conditioni
+            impos<lb ed="#V" n="52" break="no"/>sibili, tamen consensus nequit inhaerere,
+            <lb ed="#V" n="53"/>si est expressus et efficax, qualis
+            requi<lb ed="#V" n="54" break="no"/>ritur ad translationem dominii. Neque
+            <lb ed="#V" n="55"/>perinde in ordine ad consensum
+            judican<lb ed="#V" n="56" break="no"/>dum est ex natura rei respective ad
+            <lb ed="#V" n="57"/>conditionem possibilem, et respective
+            <lb ed="#V" n="58"/>ad impossibilem, quia possibilis potest
+            <lb ed="#V" n="59"/>adjungi etiam consensui, cum non
+            re<lb ed="#V" n="60" break="no"/>pugnet intentioni verae contrahendi, et
+            <lb ed="#V" n="61"/>adimpleri possit; non ita impossibilis,
+            <lb ed="#V" n="62"/>quae ex natura sua destruit intentionem
+            <lb ed="#V" n="63"/>serio agendi, quando non supponitur
+            <lb ed="#V" n="64"/>error, nempe quo judicaretur
+            impossibi<lb ed="#V" n="65" break="no"/>lis, ut possibilis. In eo ergo stante in
+            <lb ed="#V" n="66"/>actu seria intentione contrahendi, et
+            <lb ed="#V" n="67"/>consensu ei conformi, conditio
+            impossi<lb ed="#V" n="68" break="no"/>bilis habetur pro non adjecta in ordine
+            <lb ed="#V" n="69"/>ad substantiam contractus, et nihil
+            ope<lb ed="#V" n="70" break="no"/>ratur; perinde ergo inter fideles et
+            in<lb ed="#V" n="71" break="no"/>fideles valet matrimonium si serio
+            contra<lb ed="#V" n="72" break="no"/>hant, non obstante tali conditione, quia
+            <lb ed="#V" n="73"/>ex natura contractus sic initi habetur pro
+            <lb ed="#V" n="74"/>non adjecta. Et si sunt fideles, notitia
+            <lb ed="#V" n="75"/>hujus statuti, licet in iis augeat
+            praesum<lb ed="#V" n="76" break="no"/>ptionem in favorem matrimonii, qua
+            prae<lb ed="#V" n="77" break="no"/>sumitur eos serio contraxisse, tamen ipse
+            <lb ed="#V" n="78"/>contractus non innititur tali scientiae, sed
+            <lb ed="#V" n="79"/>veritati rei et intentionis, quae excludit
+            <lb ed="#V" n="80"/>conditionem, et trahit secum effectum
+            <lb ed="#V" n="81"/>consensus absoluti, perinde ac si non
+            <lb ed="#V" n="82"/>adjiceretur conditio.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>Unde sequitur illud capitulum finale
+            <lb ed="#V" n="84"/>esse declaratorium partim, partim etiam
+            <lb ed="#V" n="85"/>habere rationem statuti. Est
+            declarato<lb ed="#V" n="86" break="no"/>rium quatenus docet conditionem
+            adje<lb ed="#V" n="87" break="no"/>ctam contra substantiam matrimonii
+            an<lb ed="#V" n="88" break="no"/>nullare contractum. Unde si dicatur:
+            <pb ed="#V" n="267"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Contraho tecum si generationem prolis
+            <lb ed="#V" n="2"/>evitas, quia licet contractus sit
+            favora<lb ed="#V" n="3" break="no"/>bilis, nequit salvari cum conditione contra
+            <lb ed="#V" n="4"/>ejus substantiam et finem intrinsecum,
+            <lb ed="#V" n="5"/>qui est generatio et educatio prolis. Item,
+            <lb ed="#V" n="6"/>si dicitur: Contraho tecum donec inveniam
+            <lb ed="#V" n="7"/>aliam pulchriorem aut ditiorem, etc.
+            <lb ed="#V" n="8"/>quia vinculum est insolubile, et nequit
+            <lb ed="#V" n="9"/>fieri solubile. Item, si dicatur: Contraho
+            <lb ed="#V" n="10"/>tecum, si pro quaestu adulterandam te
+            <lb ed="#V" n="11"/>praebeas, etc. quia est hoc est contra
+            <lb ed="#V" n="12"/>fidem, quae est bonum substantiale
+            ma<lb ed="#V" n="13" break="no"/>trimonii.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>In altera parte dicitur, quod
+            conditi<lb ed="#V" n="15" break="no"/>ones turpes et impossibiles, quae non sunt
+            <lb ed="#V" n="16"/>contra substantiam matrimonii, habeantur
+            <lb ed="#V" n="17"/>pro non adjectis in favorem matrimonii.
+            <lb ed="#V" n="18"/>Hic supponitur cum talibus conditionibus
+            <lb ed="#V" n="19"/>expressis posse stare consensum
+            contra<lb ed="#V" n="20" break="no"/>hendi verum, quia per tales non vitiatur,
+            <lb ed="#V" n="21"/>quia, ut dictum est, Pontifex nequit
+            sup<lb ed="#V" n="22" break="no"/>plere talem consensum. Rejicitur autem
+            <lb ed="#V" n="23"/>praesumptio legis civilis in contrarium,
+            <lb ed="#V" n="24"/>inquantum annullat contractum, qui per
+            <lb ed="#V" n="25"/>conditionem impossibilem aut turpem
+            <lb ed="#V" n="26"/>celebratur, exceptis casibus, in quibus
+            <lb ed="#V" n="27"/>ordinatur, tales conditiones pro non
+            ad<lb ed="#V" n="28" break="no"/>jectis haberi in favorem ultimae
+            volun<lb ed="#V" n="29" break="no"/>tatis, ut statuitur, C. de instit, et substit.
+            <lb ed="#V" n="30"/>ff. de condit. instit. et C. de his, quae
+            <lb ed="#V" n="31"/>poen. nomin. in test. ff. de legat. 1. Turpia.
+            <lb ed="#V" n="32"/>cap. finali, de pactis, etc. juxta legitimas
+            <lb ed="#V" n="33"/>sanctiones, pactum turpe, vel rei turpis,
+            <lb ed="#V" n="34"/>aut impossibilis de Jure, vel de facto
+            <lb ed="#V" n="35"/>nullam obligationem inducit, etc. ubi
+            <lb ed="#V" n="36"/>glossa has leges citat.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>In proposito contractu matrimonii
+            sta<lb ed="#V" n="38" break="no"/>tuitur pactum de turpi aut impossibili
+            <lb ed="#V" n="39"/>conditione haberi debere pro non
+            adje<lb ed="#V" n="40" break="no"/>cta in favorem matrimonii, quando non
+            <lb ed="#V" n="41"/>est contra substantiam ejus, non
+            obstan<lb ed="#V" n="42" break="no"/>tibus aliis statutis, quae talia pacta
+            irri<lb ed="#V" n="43" break="no"/>tant; et eodem modo voluit tales
+            condi<lb ed="#V" n="44" break="no"/>tiones pro non adjectis haberi, sicut
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>habentur pro non adjectis in causa
+            ulti<lb ed="#V" n="46" break="no"/>mae voluntatis Jure civili, et relinquendum
+            <lb ed="#V" n="47"/>esse matrimonium suae naturae, ut
+            subja<lb ed="#V" n="48" break="no"/>cet intentioni contrahentium, quae si est
+            <lb ed="#V" n="49"/>in contractum, valet Jure naturae; si vero
+            <lb ed="#V" n="50"/>non inest intentio contrahendi seria, nihil
+            <lb ed="#V" n="51"/>fit, etiam Jure naturae, ob defectum
+            con<lb ed="#V" n="52" break="no"/>sensus. Rationes, quae militant contra
+            <lb ed="#V" n="53"/>hanc resolutionem adducit Sanchez loco
+            <lb ed="#V" n="54"/>citato, et solvit; facilius autem solvuntur
+            <lb ed="#V" n="55"/>dicendo Jure naturae intentionem seriam
+            <lb ed="#V" n="56"/>contrahendi evacuare conditionem, ita ut
+            <lb ed="#V" n="57"/>nequeat haberi pro adjecta, quoad
+            sub<lb ed="#V" n="58" break="no"/>stantiam contractus cum tali intentione
+            <lb ed="#V" n="59"/>perfecti; jus vero civile in poenam
+            con<lb ed="#V" n="60" break="no"/>trahentium annullat contractum cum
+            ta<lb ed="#V" n="61" break="no"/>libus conditionibus expressum,
+            quantum<lb ed="#V" n="62" break="no"/>libet intentio seria contractus inerat,
+            <lb ed="#V" n="63"/>exceptis iis casibus, quos ipsum jus
+            <lb ed="#V" n="64"/>excipit. Pontifex etiam excipit
+            matrimo<lb ed="#V" n="65" break="no"/>nium, quae exceptio spectat ad
+            matrimo<lb ed="#V" n="66" break="no"/>nium fidelium. Quoad infideles vero, qui
+            <lb ed="#V" n="67"/>non subsunt legibus positivis irritantibus
+            <lb ed="#V" n="68"/>contractum hoc modo, valide contrahunt,
+            <lb ed="#V" n="69"/>non obstante conditione, si adest
+            consen<lb ed="#V" n="70" break="no"/>sus contrahendi; si vero conditio
+            adjicia<lb ed="#V" n="71" break="no"/>tur in favorem dissensus, nihil fit.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Dico sexto conditionem impossibilem
+            <lb ed="#V" n="73"/>tam de futuro quam de praesenti et
+            prae<lb ed="#V" n="74" break="no"/>terito perinde haberi pro non adjecta, si
+            <lb ed="#V" n="75"/>alias consensus salvetur modo supra
+            <lb ed="#V" n="76"/>expresso. Est contra Sylvestrum et alios,
+            <lb ed="#V" n="77"/>quos citat Sanchez disput. 4. qui hanc
+            <lb ed="#V" n="78"/>conclusionem tenet. Patet, quia Pontifex
+            <lb ed="#V" n="79"/>in cap. finali, de conditionibus appositis,
+            <lb ed="#V" n="80"/>etc. absolute loquitur, non limitando
+            <lb ed="#V" n="81"/>conditionem ad ullam differentiam
+            tem<lb ed="#V" n="82" break="no"/>poris; ergo sic debet intelligi, non solum
+            <lb ed="#V" n="83"/>comprehendere conditionem de futuro,
+            <lb ed="#V" n="84"/>sed etiam de praesenti et praeterito, quod
+            <lb ed="#V" n="85"/>negat prior sententia.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Deinde, finis Pontificis, et favor
+            matri<lb ed="#V" n="87" break="no"/>monii, et natura contractus, ut subest
+            <lb ed="#V" n="88"/>intentioni, perinde respiciunt
+            quamcum<pb ed="#V" n="268"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>que impossibilem, et perinde etiam
+            con<lb ed="#V" n="2" break="no"/>ditio impossibilis de praeterito et praesenti
+            <lb ed="#V" n="3"/>suspendit actum, si ab ea pendet, et
+            si<lb ed="#V" n="4" break="no"/>gnificat dissensum. Deinde, in testamento
+            <lb ed="#V" n="5"/>conditiones praedictae habentur pro non
+            <lb ed="#V" n="6"/>adjectis, l. Si Maevia. 45. ff. de haered.
+            <lb ed="#V" n="7"/>instit. Conditio, si filia testatoris vivet, in
+            <lb ed="#V" n="8"/>casu quo nunquam habuit filiam.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Dices, conditio de praeterito aut
+            prae<lb ed="#V" n="10" break="no"/>senti non est proprie conditio, quia non
+            <lb ed="#V" n="11"/>suspendit actum.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Respondetur, Pontificem spectare
+            im<lb ed="#V" n="13" break="no"/>possibilitatem conditionis, quae reperitur
+            <lb ed="#V" n="14"/>in conditionibus de praeterito et praesenti,
+            <lb ed="#V" n="15"/>et praetendere valorem matrimonii, non
+            <lb ed="#V" n="16"/>obstante tali conditione adjecta, ne vitiet
+            <lb ed="#V" n="17"/>contractum, sicut perinde vitiat
+            contra<lb ed="#V" n="18" break="no"/>ctus alios, sive sit de futuro, sive de
+            prae<lb ed="#V" n="19" break="no"/>terito aut praesenti, ad quod respicit
+            <lb ed="#V" n="20"/>Pontifex in illo contractu, ideoque, ut
+            <lb ed="#V" n="21"/>dixi, in causa testamenti habentur pro
+            <lb ed="#V" n="22"/>non adjectis per exceptionem, quamvis
+            <lb ed="#V" n="23"/>in aliis contractibus irritent lege factum.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Dico septimo conditionem Jure
+            impos<lb ed="#V" n="25" break="no"/>s sibilem haberi pro non adjecta, ut si quis
+            <lb ed="#V" n="26"/>contrahat sic: Duco te in matrimonium, si
+            <lb ed="#V" n="27"/>inter sanquineos possit esse in gradu
+            pro<lb ed="#V" n="28" break="no"/>hibito, etc. Supposito quod contrahentes
+            <lb ed="#V" n="29"/>non sunt in gradu prohibito, talis conditio
+            <lb ed="#V" n="30"/>habetur pro non adjecta, quia impossibile
+            <lb ed="#V" n="31"/>est quo Jure nequit, l. Nepos Proculo, ff.
+            <lb ed="#V" n="32"/>de verbor. signif. et rejicitur similiter
+            <lb ed="#V" n="33"/>talis conditio a testamento. 1. 1. ff. de
+            <lb ed="#V" n="34"/>cond. instit. l. continuus, ff. de verbor.
+            <lb ed="#V" n="35"/>obligat. vide Sanchez dub. 3. Idem dico
+            <lb ed="#V" n="36"/>de conditione, quae facto impossibilis
+            <lb ed="#V" n="37"/>dicitur, ut si pauperi dicatur, contraho
+            <lb ed="#V" n="38"/>tecum, si dederis montem auri, etc. quia
+            <lb ed="#V" n="39"/>possibilitas aut impossibilitas conditionis
+            <lb ed="#V" n="40"/>spectanda est secundum facultatem
+            con<lb ed="#V" n="41" break="no"/>trahentium, et illa simpliciter est
+            impos<lb ed="#V" n="42" break="no"/>sibilis, quae per eos nullo modo impleri
+            <lb ed="#V" n="43"/>possit, aut per alios sperari possit
+            im<lb ed="#V" n="44" break="no"/>plenda. Alii contrarium hujus docent, ex
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>eo quod talis conditio non sit simpliciter
+            <lb ed="#V" n="46"/>de natura impossibilis. Verum dicta
+            re<lb ed="#V" n="47" break="no"/>solutio tenenda videtur, quia non refert
+            <lb ed="#V" n="48"/>quod conditio sit possibilis per alias
+            cau<lb ed="#V" n="49" break="no"/>sas, quae non sunt in facultate
+            contra<lb ed="#V" n="50" break="no"/>hentis, practice loquendo, cum neque
+            <lb ed="#V" n="51"/>in re, neque in exspectatione fundata sit
+            <lb ed="#V" n="52"/>in potestate contrahentis, quia contractus
+            <lb ed="#V" n="53"/>celebratur per media possibilia operanti;
+            <lb ed="#V" n="54"/>unde illa quae possibilia non sunt ipsi,
+            <lb ed="#V" n="55"/>habentur simpliciter impossibilia respectu
+            <lb ed="#V" n="56"/>ejus. Aliud dicendum est, si conditio sit
+            <lb ed="#V" n="57"/>probabilis in opinione contrahentis, v. g.
+            <lb ed="#V" n="58"/>si quis dicat: Contraho tecum, si es virgo,
+            <lb ed="#V" n="59"/>etc. quae licet corrupta sit, et conditio
+            <lb ed="#V" n="60"/>illa in re sit impossibilis pro statu
+            prae<lb ed="#V" n="61" break="no"/>senti, tamen induit naturam probabilis
+            <lb ed="#V" n="62"/>in opinione contrahentis, non secus ac
+            <lb ed="#V" n="63"/>conditio impossibilis apprehensa ut
+            pos<lb ed="#V" n="64" break="no"/>sibilis, inducit conditionem in aestimatione
+            <lb ed="#V" n="65"/>erronea. Quod si vero sciat certo non esse
+            <lb ed="#V" n="66"/>virginem, tum conditio illa habetur pro
+            <lb ed="#V" n="67"/>non adjecta, et pro impossibili. Si ergo
+            <lb ed="#V" n="68"/>conditio sit impossibilis natura aut facto,
+            <lb ed="#V" n="69"/>aut Jure, aut transcursu temporis, ut
+            <lb ed="#V" n="70"/>quando ad praeteritum non datur
+            poten<lb ed="#V" n="71" break="no"/>tia, ut in ultimo casu, si supponatur
+            <lb ed="#V" n="72"/>scientia impossibilitatis, dico haberi pro
+            <lb ed="#V" n="73"/>non adjecta, et consensum serium non
+            <lb ed="#V" n="74"/>vitiari ex vi conditionis.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Dico octavo, conditio necessaria de
+            <lb ed="#V" n="76"/>futuro adjecta matrimonio, seu
+            contra<lb ed="#V" n="77" break="no"/>ctui, non suspendit contractum, sed de
+            <lb ed="#V" n="78"/>praesenti est validus; ita communis
+            Do<lb ed="#V" n="79" break="no"/>ctorum, quo citat Sanchez disput. 2.
+            Li<lb ed="#V" n="80" break="no"/>mita primo, si addatur per modum
+            con<lb ed="#V" n="81" break="no"/>ditionis, veram esse conclusionem; nam
+            <lb ed="#V" n="82"/>si addatur ut determinatio temporis, pro
+            <lb ed="#V" n="83"/>quo intenditur obligationem consummari,
+            <lb ed="#V" n="84"/>sic manebit suspensa usque ad praefatum
+            <lb ed="#V" n="85"/>tempus quo conditio adimplenda sit.
+            Li<lb ed="#V" n="86" break="no"/>mita secundo, si sciatur a contrahentibus
+            <lb ed="#V" n="87"/>necessaria, oppositum erit, si putetur
+            <lb ed="#V" n="88"/>contingens. Limitant tertio aliqui, si
+            con<pb ed="#V" n="269"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ditio sit certa in causis naturalibus et
+            <lb ed="#V" n="2"/>proximis, quia fundamentum conclusionis
+            <lb ed="#V" n="3"/>est, quod effectus necessarius in
+            deter<lb ed="#V" n="4" break="no"/>minatione causarum sit etiam in se
+            prae<lb ed="#V" n="5" break="no"/>sens moraliter, ut in causis spectatur.
+            <lb ed="#V" n="6"/>Caeterum sufficit ut effectus sciatur esse
+            <lb ed="#V" n="7"/>necessarius in dispositione primae causae
+            <lb ed="#V" n="8"/>et immutabilis, ut si dicatur: Contraho
+            <lb ed="#V" n="9"/>tecum, si Antichristus erit, quia per fidem
+            <lb ed="#V" n="10"/>haec determinatio est certior, quam quod
+            <lb ed="#V" n="11"/>effectus sit in dispositione causarum
+            pro<lb ed="#V" n="12" break="no"/>ximarum. Limita etiam si effectus ita sit
+            <lb ed="#V" n="13"/>necessarius ut impediri naturaliter non
+            <lb ed="#V" n="14"/>posset, vel saltem ita reputatur a
+            contra<lb ed="#V" n="15" break="no"/>hentibus. Non refert etiam si conditio
+            di<lb ed="#V" n="16" break="no"/>em certum non habet, modo necessario
+            <lb ed="#V" n="17"/>sit eventura.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Dico nono, conditio honesta, possibilis
+            <lb ed="#V" n="19"/>et de futuro, adjecta contractui
+            matrimo<lb ed="#V" n="20" break="no"/>niali, ipsum suspendit usque ad eventum
+            <lb ed="#V" n="21"/>conditionis, qua posita purificatur
+            contra<lb ed="#V" n="22" break="no"/>ctus, ut contraho tecum, si pater tuus vult,
+            <lb ed="#V" n="23"/>etc. Et idem est, si sit de praesenti et
+            prae<lb ed="#V" n="24" break="no"/>terito, quia sic statim valet contractus, si
+            <lb ed="#V" n="25"/>conditio subsit; aut irritus est, si desit.
+            <lb ed="#V" n="26"/>Patet prima pars conclusionis ex cap.
+            Su<lb ed="#V" n="27" break="no"/>per eo, et cap. de illis, de conditionibus
+            <lb ed="#V" n="28"/>appositis, etc. Intelligitur conclusio de
+            <lb ed="#V" n="29"/>conditione apposita ipsi contractui,
+            quan<lb ed="#V" n="30" break="no"/>do inhaeret consensus substantialis ipsi
+            <lb ed="#V" n="31"/>conditioni, quo casu non refert si conditio
+            <lb ed="#V" n="32"/>adjiciatur, v. g. dependens a consensu
+            al<lb ed="#V" n="33" break="no"/>terius, ut patris, vel si adhaereat pactio de
+            <lb ed="#V" n="34"/>dote, conversione ad fidem, vel
+            hujusmo<lb ed="#V" n="35" break="no"/>di, quia spectanda est juxta mentem et
+            <lb ed="#V" n="36"/>consensum contrahentis, et prout
+            expri<lb ed="#V" n="37" break="no"/>mitur ipse consensus, ut adhaerens tali
+            <lb ed="#V" n="38"/>conditioni. Ex tali autem consensu oritur
+            <lb ed="#V" n="39"/>obligatio in specie, a qua nequit resilire
+            <lb ed="#V" n="40"/>contrahens, et ad eventum conditionis
+            <lb ed="#V" n="41"/>pendet quantum ad consummationem, ita
+            <lb ed="#V" n="42"/>ut alter altero invito nequeat resilire.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Dubitatur, an adveniente conditione in
+            <lb ed="#V" n="44"/>effectu transeat prior consensus in
+            abso<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>lutam, ita ut non sit necessarius consensus
+            <lb ed="#V" n="46"/>alius de novo, qui sit absolutus et
+            inde<lb ed="#V" n="47" break="no"/>pendens ab omni conditione? Qua in re
+            <lb ed="#V" n="48"/>duae sunt sententiae: Prima est
+            Canoni<lb ed="#V" n="49" break="no"/>starum communis, quae docet non requiri
+            <lb ed="#V" n="50"/>novum consensum, Innocentius c. 1. et
+            <lb ed="#V" n="51"/>cap. Super eo, de conditionibus appositis,
+            <lb ed="#V" n="52"/>Hostiens, cap. 1. Joan. Andr. ibid. et cap.
+            <lb ed="#V" n="53"/>de illis eodem, Abbas cap. De illis, et
+            reli<lb ed="#V" n="54" break="no"/>qui in praefatos textus, Navarr. in Summ.
+            <lb ed="#V" n="55"/>Latina cap. 22. Paludanus in 4. distinct.
+            <lb ed="#V" n="56"/>29. quaest. 2. art. 5. Petrus a Soto lect, 3. de
+            <lb ed="#V" n="57"/>matrimon. noster Manuel tom. 1. Summae,
+            <lb ed="#V" n="58"/>in 2. aedit. cap. 219. Sanchez lib. 5. disp.
+            <lb ed="#V" n="59"/>8. quaest. 1.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Secunda sententia est communis
+            Theo<lb ed="#V" n="61" break="no"/>logorum, quam tenet D. Thomas in 4.
+            <lb ed="#V" n="62"/>distinct. 29. quaest. unic. art. 3. quaestiunc.
+            <lb ed="#V" n="63"/>3. D. Bonaventura dist. 28. quaest. 3.
+            Du<lb ed="#V" n="64" break="no"/>rand. quaest. 2. Richardus art. 2. quaest. 2.
+            <lb ed="#V" n="65"/>Major dist. 27. quaest. 4. Adrianus art. 1.
+            <lb ed="#V" n="66"/>conclus. 3. Navarr. lib. 4. cons. tract. de
+            <lb ed="#V" n="67"/>sponsalibus, cons. 14. Covarr, in 4. decret.
+            <lb ed="#V" n="68"/>2. part. cap. 3. et reliqui Theologi. Prima
+            <lb ed="#V" n="69"/>sententia fundatur in valore et natura
+            con<lb ed="#V" n="70" break="no"/>tractus conditionati, purificata conditione,
+            <lb ed="#V" n="71"/>qui transit in absolutum; ergo similiter in
+            <lb ed="#V" n="72"/>proposito, cum in matrimonio servetur
+            <lb ed="#V" n="73"/>natura contractus legitimi; ille autem
+            con<lb ed="#V" n="74" break="no"/>tractus est de praesenti, licet sub
+            conditi<lb ed="#V" n="75" break="no"/>one adimplenda; ergo non est contractus
+            <lb ed="#V" n="76"/>sponsalitius, ut docet secunda sententia,
+            <lb ed="#V" n="77"/>quia ille est promissio de futuro, non
+            con<lb ed="#V" n="78" break="no"/>tractus de matrimonio pro praesenti, et
+            <lb ed="#V" n="79"/>Ecclesia talem contractum sub conditione
+            <lb ed="#V" n="80"/>admittit; ergo, etc. Secunda sententia
+            <lb ed="#V" n="81"/>fundatur in ratione Sacramenti, quod
+            per<lb ed="#V" n="82" break="no"/>ficitur dum contractus per consensum
+            con<lb ed="#V" n="83" break="no"/>ditionatum tunc non fit quando conditio
+            <lb ed="#V" n="84"/>purificatur, et quia ratio Sacramenti debet
+            <lb ed="#V" n="85"/>esse sensibilis in usu quando perficitur.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Inter sententias mediari possit, dicendo
+            <lb ed="#V" n="87"/>illum consensum conditionatum de
+            prae<lb ed="#V" n="88" break="no"/>senti transire in contractum absolutum et
+            <pb ed="#V" n="270"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ratum, adimpleta conditione, prout
+            rati<lb ed="#V" n="2" break="no"/>ones primae sententiae recte probant, quia
+            <lb ed="#V" n="3"/>a consensus conditionatus, purificata
+            condi<lb ed="#V" n="4" break="no"/>tione, transit in absolutum, l. Haec venditio
+            <lb ed="#V" n="5"/>7. ff. de contrahent. empt. et l. potior. 11.
+            <lb ed="#V" n="6"/>ff. qui potior. in pig. hab. et supponitur in
+            <lb ed="#V" n="7"/>illis tractatibus citatis de condit, appositis.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Tamen dicendum est talem contractum
+            <lb ed="#V" n="9"/>non esse Sacramentum, quia ex regula
+            <lb ed="#V" n="10"/>generali de Sacramentis requiritur ut
+            ma<lb ed="#V" n="11" break="no"/>teria et forma sit in actu, et non in habitu
+            <lb ed="#V" n="12"/>ad causandum effectum Sacramentalem,
+            <lb ed="#V" n="13"/>et per ministros applicentur. Ministri
+            au<lb ed="#V" n="14" break="no"/>tem Sacramenti Matrimonii sunt ipsi
+            con<lb ed="#V" n="15" break="no"/>trahentes, et per consensum
+            conditiona<lb ed="#V" n="16" break="no"/>tum non ponitur materia et forma
+            Sacra<lb ed="#V" n="17" break="no"/>menti in effectu, quia requiritur
+            consen<lb ed="#V" n="18" break="no"/>sus absolutus de praesenti verbis
+            expres<lb ed="#V" n="19" break="no"/>sus, ut fiat Sacramentum, cujus effectus
+            <lb ed="#V" n="20"/>neque per arbitrium ministri, neque
+            alte<lb ed="#V" n="21" break="no"/>rius, cujus est conditionem adimplere,
+            <lb ed="#V" n="22"/>suppleri potest.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Dices materiam et formam Sacramenti
+            <lb ed="#V" n="24"/>consistere in consensu seu contractu nihil
+            <lb ed="#V" n="25"/>immutato; sed hic contractus est
+            legiti<lb ed="#V" n="26" break="no"/>mus, et inducit vinculum indissolubile;
+            <lb ed="#V" n="27"/>ergo et Sacramentum.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Contra, ex Florentino requiruntur res
+            <lb ed="#V" n="29"/>et verba, vel his aequivalentia;
+            requirun<lb ed="#V" n="30" break="no"/>tur ergo haec ut actu applicentur, et sint
+            <lb ed="#V" n="31"/>ad effectum Sacramenti. Sed consensus
+            <lb ed="#V" n="32"/>conditionatus non est completus et
+            indu<lb ed="#V" n="33" break="no"/>cens vinculum consummatum matrimonii
+            <lb ed="#V" n="34"/>quando est; quando vero impletur
+            condi<lb ed="#V" n="35" break="no"/>tio, quae etiam dormientibus
+            contrahenti<lb ed="#V" n="36" break="no"/>bus impleri potest, tunc non est; ergo
+            <lb ed="#V" n="37"/>nequit esse materia Sacramenti, aut
+            for<lb ed="#V" n="38" break="no"/>ma, aut tum applicari per intentionem
+            <lb ed="#V" n="39"/>ministri; ergo neque esse Sacramentum,
+            <lb ed="#V" n="40"/>quod requirit contractum completum et
+            <lb ed="#V" n="41"/>consummatum, ut inducatur vinculum,
+            <lb ed="#V" n="42"/>cujus intuitu datur gratia. Potest ergo
+            vin<lb ed="#V" n="43" break="no"/>culum matrimonii induci absque eo quod
+            <lb ed="#V" n="44"/>Sacramentum, quod concomitanter se
+            ha<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>bet, conferatur, quia praeter rationem
+            le<lb ed="#V" n="46" break="no"/>gitimam contractus, requiritur ut sit
+            com<lb ed="#V" n="47" break="no"/>pletus et absolutus de praesenti ex vi
+            con<lb ed="#V" n="48" break="no"/>sensus, verbis expressi, ut sit Sacramentum.
+            <lb ed="#V" n="49"/>Dices sequi etiam matrimonium factum
+            <lb ed="#V" n="50"/>per procuratores aut litteras, non esse
+            <lb ed="#V" n="51"/>Sacramentum, quia consensus praeteritus
+            <lb ed="#V" n="52"/>absentis tunc non est.
+            <lb ed="#V" n="53"/>Respondetur plures admittere, sed
+            ne<lb ed="#V" n="54" break="no"/>gatur consequentia et paritas, quia non
+            <lb ed="#V" n="55"/>est praeteritus, qui virtute manet in suo
+            <lb ed="#V" n="56"/>effectu; manet autem consensus domini
+            <lb ed="#V" n="57"/>expressus in mandato et in litteris, quae
+            <lb ed="#V" n="58"/>aequivalent verbis de praesenti, non ita
+            <lb ed="#V" n="59"/>consensus conditionatus, qui neque
+            com<lb ed="#V" n="60" break="no"/>pletus est, sicut prior, neque manet in
+            <lb ed="#V" n="61"/>ullo suo effectu sensibili, qui ei
+            aequiva<lb ed="#V" n="62" break="no"/>leat, quando conditio purificatur; ergo
+            <lb ed="#V" n="63"/>magna est disparitas.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Dices, consensum conditionatum alligari.
+            <lb ed="#V" n="65"/>conditioni, et tunc esse quando conditio
+            <lb ed="#V" n="66"/>impletur, sicut voluntas domini sic
+            alliga<lb ed="#V" n="67" break="no"/>tur mandato, ut fiat Sacramentum virtute
+            <lb ed="#V" n="68"/>ejus. Constituunt enim contrahentes
+            con<lb ed="#V" n="69" break="no"/>sensum suum in arbitrio parentum, v. g.
+            <lb ed="#V" n="70"/>quando contrahunt cum ea conditione, si
+            <lb ed="#V" n="71"/>parentibus non displiceat aut placeat.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Contra, in ejus virtute perficitur
+            Sacra<lb ed="#V" n="73" break="no"/>mentum, in cujus virtute perficitur
+            contra<lb ed="#V" n="74" break="no"/>ctus; sed contractus perficitur ex vi
+            con<lb ed="#V" n="75" break="no"/>sensus conditionati praesentis, per
+            contra<lb ed="#V" n="76" break="no"/>hentes habiti, qui licet pendeat a
+            conditi<lb ed="#V" n="77" break="no"/>one, tamen conditio ipsa tantum est
+            con<lb ed="#V" n="78" break="no"/>ditio, et non causa contractus aut
+            indu<lb ed="#V" n="79" break="no"/>cens obligationem et vinculum, licet
+            con<lb ed="#V" n="80" break="no"/>sensus conditionatus non inducat
+            vincu<lb ed="#V" n="81" break="no"/>lum completum donec ponatur conditio.
+            <lb ed="#V" n="82"/>Item, ipsi contrahentes ministri sunt
+            Sa<lb ed="#V" n="83" break="no"/>cramenti, non vero causa, quae ponit
+            con<lb ed="#V" n="84" break="no"/>ditionem, non ita est alligatus consensus
+            <lb ed="#V" n="85"/>domini mandato et consensui praesentis
+            <lb ed="#V" n="86"/>procuratoris, qui nomine illius exhibetur,
+            <lb ed="#V" n="87"/>sed alligatur tanquam causa suo effectui
+            <lb ed="#V" n="88"/>et signo sensibili, per quod exprimitur.
+            <pb ed="#V" n="271"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Quamvis ergo conditio sit in arbitrio
+            alte<lb ed="#V" n="2" break="no"/>rius, non tamen consensus de praesenti
+            <lb ed="#V" n="3"/>conditionatus est in arbitrio ejus, sed
+            tan<lb ed="#V" n="4" break="no"/>tum est in potestate ejus impedire
+            sub<lb ed="#V" n="5" break="no"/>tracta conditione, ne ille consensus
+            tran<lb ed="#V" n="6" break="no"/>seat in absolutum, neque induit personam
+            <lb ed="#V" n="7"/>contrahentis, sicut procurator personam
+            <lb ed="#V" n="8"/>mandantis; unde potest quis vel per se,
+            <lb ed="#V" n="9"/>vel per alium suo nomine contrahere
+            vin<lb ed="#V" n="10" break="no"/>culum, et ministrare Sacramentum, ut
+            su<lb ed="#V" n="11" break="no"/>pra d. 26. praemissum est.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Petes quid operetur conditio posita in
+            <lb ed="#V" n="13"/>arbitrio alterius, v. g. si Pontifex
+            dispen<lb ed="#V" n="14" break="no"/>saverit in gradu consanguinitatis: Accipio
+            <lb ed="#V" n="15"/>te in meam, vel si patri placuerit.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Respondetur primo esse validum
+            con<lb ed="#V" n="17" break="no"/>tractum, et non solius promissionis
+            virtu<lb ed="#V" n="18" break="no"/>te, ut dicit Henriquez lib. 12. de matrim.
+            <lb ed="#V" n="19"/>cap. 13. Alii vero dicunt, neque ratione
+            <lb ed="#V" n="20"/>promissionis valere, quia talis conditio
+            <lb ed="#V" n="21"/>pro impossibili, et non adjecta habetur,
+            <lb ed="#V" n="22"/>et promissio recedendi a Jure communi
+            <lb ed="#V" n="23"/>est nulla. Caeterum responsionem datam
+            <lb ed="#V" n="24"/>tenet Navarr. lib. 4. consil. cons. 1.
+            Co<lb ed="#V" n="25" break="no"/>varr. 4. decret. 2. part. cap. 3. Tabiena et
+            <lb ed="#V" n="26"/>Armilla vers. sponsalia. Adrian. in 4. de
+            <lb ed="#V" n="27"/>matrimon. quaest. 3. dub. 10. Sanchez lib.
+            <lb ed="#V" n="28"/>5. disput. 5. quaest. 1. et 2. quia contractus
+            <lb ed="#V" n="29"/>ille non est inter impeditos, qua impediti
+            <lb ed="#V" n="30"/>sunt, sed qua conditione impleta tollitur
+            <lb ed="#V" n="31"/>impedimentum, et fiunt habiles; potest
+            <lb ed="#V" n="32"/>ergo suspendi usque ad conditionis
+            im<lb ed="#V" n="33" break="no"/>plendae tempus, per quam transit in
+            abso<lb ed="#V" n="34" break="no"/>lutum, et tollitur impedimentum.
+            Adver<lb ed="#V" n="35" break="no"/>i tendum tamen illam conditionem haberi
+            <lb ed="#V" n="36"/>. pro impossibili, quando non solet Pontifex
+            <lb ed="#V" n="37"/>in tali impedimento dispensare, ut quando
+            <lb ed="#V" n="38"/>est tale, ut non fiat dispensatio, nisi ob
+            <lb ed="#V" n="39"/>gravissimas causas, quae non semper
+            con<lb ed="#V" n="40" break="no"/>tingunt, ut quod existens in sacris
+            Ordini<lb ed="#V" n="41" break="no"/>bus dispensetur ad matrimonium, hoc
+            <lb ed="#V" n="42"/>enim rarissimum est, ei non fit sine gravi
+            <lb ed="#V" n="43"/>causa. Ideoque si illa causa non subsit,
+            <lb ed="#V" n="44"/>neque spes fundatur obtinendae
+            dispensa<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>tionis, reddit conditionem impossibilem in
+            <lb ed="#V" n="46"/>effectu, et moraliter, et consequenter
+            con<lb ed="#V" n="47" break="no"/>tractum omnino nullum.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Conclusio itaque intelligatur quando
+            di<lb ed="#V" n="49" break="no"/>spensatio de facili conceditur, et subest
+            <lb ed="#V" n="50"/>legitima causa et spes ejus obtinendae,
+            <lb ed="#V" n="51"/>quia sicut institutio spurii, si Princeps eum
+            <lb ed="#V" n="52"/>legitimaverit, est valida, ita etiam alii
+            con<lb ed="#V" n="53" break="no"/>tractus pendentes a voluntate Principis, ut
+            <lb ed="#V" n="54"/>venditio majoratus, si placeat Principi,
+            vo<lb ed="#V" n="55" break="no"/>tum Episcopi ad ingressum Religionis, si
+            <lb ed="#V" n="56"/>Pontifex dispensaverit. Et patet ratione
+            <lb ed="#V" n="57"/>praemissa, quia ipse contractus involvit
+            <lb ed="#V" n="58"/>conditionem, quae in existentia posita
+            tol<lb ed="#V" n="59" break="no"/>lit impedimentum, et contractus ipse
+            in<lb ed="#V" n="60" break="no"/>telligitur sicut involvit conditionem, ita
+            <lb ed="#V" n="61"/>tantum inducere obligationem ex
+            intenti<lb ed="#V" n="62" break="no"/>one contrahentium, pro tempore
+            conditi<lb ed="#V" n="63" break="no"/>onis impletae, sic autem nihil repugnat;
+            <lb ed="#V" n="64"/>ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Hoc ergo supposito, difficultas est
+            quan<lb ed="#V" n="66" break="no"/>do ita dependet a consensu alterius, ut
+            <lb ed="#V" n="67"/>conditione, quis ejus consensus intelligi
+            <lb ed="#V" n="68"/>debeat, an primo rogatus, si sit
+            dissenti<lb ed="#V" n="69" break="no"/>ens ipso facto solvatur contractus, et
+            con<lb ed="#V" n="70" break="no"/>ditio censetur non impleta, quantumlibet
+            <lb ed="#V" n="71"/>post primum dissensum postea consentiat.
+            <lb ed="#V" n="72"/>Communius tenetur conditionem respicere
+            <lb ed="#V" n="73"/>primum ejus arbitrium expressum per
+            dis<lb ed="#V" n="74" break="no"/>sensum aut consensum, ut vel transeat
+            <lb ed="#V" n="75"/>in absolutum, vel certe fiat nullus
+            con<lb ed="#V" n="76" break="no"/>tractus.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Respondetur tamen hoc decidendum
+            <lb ed="#V" n="78"/>esse secundum naturam intentionis, et
+            <lb ed="#V" n="79"/>contractus ex una parte, et circumstantias
+            <lb ed="#V" n="80"/>praevisas, quia non temerarie, sed humano
+            <lb ed="#V" n="81"/>modo admiscenda est conditio in hoc
+            con<lb ed="#V" n="82" break="no"/>tractu, et quae aliquid momenti habet
+            re<lb ed="#V" n="83" break="no"/>spective ad bonum contractus, vel
+            contra<lb ed="#V" n="84" break="no"/>hentium vel aliorum. Unde si praevisa
+            dif<lb ed="#V" n="85" break="no"/>ficultate aut praesumpta, obtinendi
+            con<lb ed="#V" n="86" break="no"/>sensus, v. g. parentum, celebratur
+            con<lb ed="#V" n="87" break="no"/>tractus serio, et ut debet, tunc
+            compre<lb ed="#V" n="88" break="no"/>henditur etiam mora necessaria, et
+            appli<pb ed="#V" n="272"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>catio sufficiens, et matura mediorum
+            <lb ed="#V" n="2"/>requisitorum ad sollicitandum consensum,
+            <lb ed="#V" n="3"/>quia ex intentione contrahentium in his
+            <lb ed="#V" n="4"/>circumstantiis alligatur consensus ad
+            con<lb ed="#V" n="5" break="no"/>ditionem difficilem, licet possibilem, ac
+            <lb ed="#V" n="6"/>proinde involvitur mora congrua
+            superan<lb ed="#V" n="7" break="no"/>dae difficultatis; sicut v. g. si
+            consangui<lb ed="#V" n="8" break="no"/>nei contrahunt sub conditione obtinendae
+            <lb ed="#V" n="9"/>dispensationis, intendunt moram et
+            petiti<lb ed="#V" n="10" break="no"/>onem, et expensas necessarias, quibus
+            <lb ed="#V" n="11"/>redditur talis conditio, et non aliter
+            pos<lb ed="#V" n="12" break="no"/>sibilis, et deinde debet constare sponsis
+            <lb ed="#V" n="13"/>de mediis applicatis, et subtracta aut
+            im<lb ed="#V" n="14" break="no"/>pleta conditione antequam resilire posse
+            <lb ed="#V" n="15"/>censeantur, vel certe si negligentia et
+            <lb ed="#V" n="16"/>contemptus mediorum intervenit, tunc
+            <lb ed="#V" n="17"/>censendi sunt renuntiasse conditioni, vel
+            <lb ed="#V" n="18"/>consensisse in irritationem contractus, vel
+            <lb ed="#V" n="19"/>certe ratificationem, ut si animo maritali
+            <lb ed="#V" n="20"/>commisceantur, antequam conditionem
+            <lb ed="#V" n="21"/>impletam, aut non impletum sciverint, tunc
+            <lb ed="#V" n="22"/>censentur contraxisse de novo per
+            con<lb ed="#V" n="23" break="no"/>sensum absolutum, et renuntiasse
+            condi<lb ed="#V" n="24" break="no"/>tioni priori.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Addunt praeterea Doctores casum, in
+            <lb ed="#V" n="26"/>quo quis contrahat cum duabus sub
+            con<lb ed="#V" n="27" break="no"/>ditione dotis, an impleta conditione
+            utra<lb ed="#V" n="28" break="no"/>que simul, aut successive, valet contractus
+            <lb ed="#V" n="29"/>ille, si conditio simul aut successive
+            im<lb ed="#V" n="30" break="no"/>pleatur?
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Respondetur, si contractus simul fiat, et
+            <lb ed="#V" n="32"/>conditio simul adimpletur, fieri nullum,
+            <lb ed="#V" n="33"/>quia incertum matrimonium pro nullo
+            ha<lb ed="#V" n="34" break="no"/>betur, cap. Ex litteris 2. de sponsalibus,
+            <lb ed="#V" n="35"/>etc. et ex regula ubi repugnantia, ff. de
+            <lb ed="#V" n="36"/>reg. Juris, ubi repugnantia inter se in
+            <lb ed="#V" n="37"/>testamento invenirentur, neutrum ratum
+            <lb ed="#V" n="38"/>est; ita etiam in proposito perinde se
+            ha<lb ed="#V" n="39" break="no"/>beret contrahens, ac si simul cum
+            con<lb ed="#V" n="40" break="no"/>sensu absoluto contraheret cum duabus.
+            <lb ed="#V" n="41"/>Quod si simul contraxit cum duabus sub
+            <lb ed="#V" n="42"/>tali conditione, valet contractus cum ea
+            <lb ed="#V" n="43"/>quae prius implevit conditionem, nisi
+            ad<lb ed="#V" n="44" break="no"/>jecta fuerit determinatio temporis, ad
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>quod tam contractus quam conditionis
+            <lb ed="#V" n="46"/>adimpletio determinatur; si enim tum ab
+            <lb ed="#V" n="47"/>utraque simul conditio ponatur, perinde
+            <lb ed="#V" n="48"/>censendum est, sicut in priori casu, quia
+            <lb ed="#V" n="49"/>anticipatio conditionis non juvat ante
+            tem<lb ed="#V" n="50" break="no"/>pus adjectum, ad quod pendet
+            contra<lb ed="#V" n="51" break="no"/>ctus, et pactum conditionis.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Quod si successive ineatur talis
+            contra<lb ed="#V" n="53" break="no"/>ctus semper valet prior, nisi revocetur
+            <lb ed="#V" n="54"/>consensus, aut subtrahatur conditio, quia
+            <lb ed="#V" n="55"/>contractus cum secunda non valet, nisi
+            <lb ed="#V" n="56"/>prius revocetur prior initus. Aliqui tamen
+            <lb ed="#V" n="57"/>probabiliter docent secundum contractum
+            <lb ed="#V" n="58"/>valere, quia ipso facto revocatur prior.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Dico decimo, conditionem turpem
+            ha<lb ed="#V" n="60" break="no"/>beri pro non adjecta ex cap. fin. de
+            con<lb ed="#V" n="61" break="no"/>ditionibus appositis, quia invitat ad
+            pec<lb ed="#V" n="62" break="no"/>catum. Tales sunt, si virgo inveniaris,
+            <lb ed="#V" n="63"/>explorando virginitatem per tactum
+            illici<lb ed="#V" n="64" break="no"/>tum, scilicet si in primo coitu placueris, si
+            <lb ed="#V" n="65"/>tui copiam feceris ante contractum, etc.
+            <lb ed="#V" n="66"/>De conditionibus contra substantiam
+            ma<lb ed="#V" n="67" break="no"/>trimonii dicemus in sequenti distinct.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>(n) Ad primum argumentum, etc. Haec
+            <lb ed="#V" n="69"/>responsio est communis, et patet ex ipso
+            <lb ed="#V" n="70"/>textu Jacob consensisse in Liam. Ad
+            se<lb ed="#V" n="71" break="no"/>cundum respondet ex doctrina Augustini
+            <lb ed="#V" n="72"/>lib. 6. de civit. c. 37. Theodoretus quaest.
+            <lb ed="#V" n="73"/>79. in Genes. et sic supponitur hoc modo
+            <lb ed="#V" n="74"/>benedictionem initio non fuisse firmam,
+            <lb ed="#V" n="75"/>sed post extasim confirmatam, tanquam
+            <lb ed="#V" n="76"/>a Deo ratam. Alii docent mentem Isaac
+            <lb ed="#V" n="77"/>fuisse benedicere filium praesentem,
+            qui<lb ed="#V" n="78" break="no"/>cumque fuisset. Ad reliqua patet ex
+            <lb ed="#V" n="79"/>littera.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

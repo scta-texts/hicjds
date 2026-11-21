@@ -1,0 +1,1237 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 33, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 33, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x19">Vives, Paris, 1894, volume 19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="359"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e4600"><!-- hicjds-b4d33q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum fuerit licita aliquando bigamia</head>
+        <!-- <div alias="hiq-d33q1-p1"> -->
+          <p>
+            <lb ed="#V" n="5" type="fixed=359"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>(a) Circa distinctionem trigesimam
+            ter<lb ed="#V" n="7" break="no"/>tiam, etc. In hac distinctione in qua
+            Magi<lb ed="#V" n="8" break="no"/>ster agit de conjugio antiquorum Patrum,
+            <lb ed="#V" n="9"/>proponit duas quaestiones principales,
+            qua<lb ed="#V" n="10" break="no"/>rum prima est de bigamia, secunda de
+            <lb ed="#V" n="11"/>repudio. Sed primam dividit in duas:
+            Pri<lb ed="#V" n="12" break="no"/>mo quaerens an fuerit bigamia licita in
+            <lb ed="#V" n="13"/>lege naturae, aut Mosaica. Secundo, an
+            <lb ed="#V" n="14"/>bigamus possit ordinari, vel an
+            Bapti<lb ed="#V" n="15" break="no"/>smus tollat bigamiam; hinc secunda, quae
+            <lb ed="#V" n="16"/>principalis exponitur tertio loco.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d33q1-p2"> -->
+          <p>
+            <lb ed="#V" n="21" type="fixed=360"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>(b) Hic primo videndum est, etc. In
+            <lb ed="#V" n="23"/>hoc puncto sunt diversae Doctorum
+            sen<lb ed="#V" n="24" break="no"/>tentiae, quae tamen magis versantur in
+            <lb ed="#V" n="25"/>diversa Juris naturalis et positivi
+            accep<lb ed="#V" n="26" break="no"/>tione, quam in re ipsa, ut concernunt
+            <lb ed="#V" n="27"/>materiam hujus contractus, tres
+            senten<lb ed="#V" n="28" break="no"/>tias in proposito excogitavit Sanchez
+            <lb ed="#V" n="29"/>lib. 7. de matrimonio, disput. 80. Prima
+            <lb ed="#V" n="30"/>est negativa, nempe polygamiam non esse
+            <lb ed="#V" n="31"/>contra Jus naturae in uxoribus, quin
+            plu<lb ed="#V" n="32" break="no"/>res possint eidem conjungi. Pro hac citat
+            <lb ed="#V" n="33"/>Durandum in hac dist, q. 1. Gerson
+            <lb ed="#V" n="34"/>Alphabeto 25. lit. 1. Cajet. in Genes. 16.
+            <lb ed="#V" n="35"/>Abulensem 1. Reg. 8. queest. 15. et in
+            <lb ed="#V" n="36"/>Matth. 19. queest. 30. in solut. ad 1. et
+            <lb ed="#V" n="37"/>quaest. 30. in corp. et ad 1. nostrum
+            Me<lb ed="#V" n="38" break="no"/>dinam de sacrorum hominum continentia.
+            <lb ed="#V" n="39"/>cap. 9. controv. 1. Veracruz 2. part.
+            <lb ed="#V" n="40"/>speculat. art. 15. conclus. 1. et 2.
+            Pala<lb ed="#V" n="41" break="no"/>cios in hac distinct. q. 1. Doctorem
+            no<lb ed="#V" n="42" break="no"/>strum in 2. art. queest. 2. forte queest. 1.
+            <lb ed="#V" n="43"/>Supplementum Gabrielis quaest. 1. artic. 2.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>in fine. Secundam sententiam
+            affirmati<lb ed="#V" n="45" break="no"/>vam docet esse Aureoli apud Capreolum
+            <lb ed="#V" n="46"/>in hac dist. q. 1. art. 2. Victoriae in
+            re<lb ed="#V" n="47" break="no"/>lect. de matrimonio priori, quoest. 1.
+            <lb ed="#V" n="48"/>et Menochii lib. 2. centur. 5. casu 420.
+            <lb ed="#V" n="49"/>Petri de Ledesma de matrimonio q. 63.
+            <lb ed="#V" n="50"/>art. 1. conclus. 2. et duabus sequentib.
+            <lb ed="#V" n="51"/>Tertia sententia, per ipsum, est media,
+            <lb ed="#V" n="52"/>quae dicit non esse Juris naturalis quoad
+            <lb ed="#V" n="53"/>principia necessaria, sed aliquo modo
+            ad<lb ed="#V" n="54" break="no"/>versatur naturae, ut opponitur ipsis
+            con<lb ed="#V" n="55" break="no"/>clusionibus deductis ex primis et
+            univer<lb ed="#V" n="56" break="no"/>salibus principiis, in quibus tamen Deus
+            <lb ed="#V" n="57"/>aliter ordinare potest; pro hac citat D.
+            Tho<lb ed="#V" n="58" break="no"/>mam hic queest. 1. Richardum,
+            Paluda<lb ed="#V" n="59" break="no"/>num, Capreolum, et plures alios Doctores.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Caeterum hae sententiae, si reducuntur
+            <lb ed="#V" n="61"/>ad sua principia, vix, aut omnino in re
+            <lb ed="#V" n="62"/>ipsa non differunt, nam prima excludit
+            <lb ed="#V" n="63"/>Jus naturale indispensabile. Secunda sub
+            <lb ed="#V" n="64"/>Jure naturali comprehendit etiam Dei
+            or<lb ed="#V" n="65" break="no"/>dinationem pro statu legis naturalis.
+            Ter<lb ed="#V" n="66" break="no"/>tia intelligenda est de lege naturali
+            conso<lb ed="#V" n="67" break="no"/>na, seu de conclusionibus, quae non
+            neces<lb ed="#V" n="68" break="no"/>sario deducuntur ex primis principiis,
+            <lb ed="#V" n="69"/>(nam hae sunt necessariae veritatis, sine
+            <lb ed="#V" n="70"/>quibus veritas principiorum nequit
+            consi<lb ed="#V" n="71" break="no"/>stere), sed de conclusionibus licet
+            contin<lb ed="#V" n="72" break="no"/>gentibus, quae conformes tamen sunt
+            prin<lb ed="#V" n="73" break="no"/>cipiis naturalibus et conclusionibus primo
+            <lb ed="#V" n="74"/>modo sumptis; nam fides docet Deum in
+            <lb ed="#V" n="75"/>polygamia virorum ex pluribus
+            uxori<lb ed="#V" n="76" break="no"/>bus dispensare posse, ac proinde illud non
+            <lb ed="#V" n="77"/>esse contra Jus naturale strictissime
+            sump<lb ed="#V" n="78" break="no"/>tum, sed tantum contra Jus naturale late
+            <lb ed="#V" n="79"/>sumptum, eo modo quo Doctor saepius
+            <lb ed="#V" n="80"/>in superioribus dixit matrimonium, et
+            de<lb ed="#V" n="81" break="no"/>bitum ejus esse de Jure naturali hoc
+            se<lb ed="#V" n="82" break="no"/>cundo modo, sicut et conjunctionem
+            <lb ed="#V" n="83"/>unius cum una tantum.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>Exponemus ergo primo Doctorem, qui
+            <lb ed="#V" n="85"/>optime hanc controversiam reducit ad sua
+            <lb ed="#V" n="86"/>principia, et deinde facilis erit solutio
+            <lb ed="#V" n="87"/>fundamentorum praemissarum
+            sententia<pb ed="#V" n="361"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>rum, inquantum repugnat magis verbis
+            <lb ed="#V" n="2"/>quam re ipsa. Advertendum ergo
+            contra<lb ed="#V" n="3" break="no"/>ctum matrimonii considerari posse
+            secun<lb ed="#V" n="4" break="no"/>dum regulas generales justitiae
+            commu<lb ed="#V" n="5" break="no"/>tativae, inquantum est permutatio facta
+            <lb ed="#V" n="6"/>per consensum contrahentium. Alio modo
+            <lb ed="#V" n="7"/>considerari potest, ut subest Dei legi
+            spe<lb ed="#V" n="8" break="no"/>ciali disponenti circa ipsum specialiter.
+            <lb ed="#V" n="9"/>Lex generalis justitiae est, ut absit fraus
+            <lb ed="#V" n="10"/>et ignorantia, et servetur medium in
+            <lb ed="#V" n="11"/>commutationibus, aut secundum
+            aequiva<lb ed="#V" n="12" break="no"/>lentiam rei, aut certe secundum
+            aequiva<lb ed="#V" n="13" break="no"/>lentiam rectae rationis. Haec autem recta
+            <lb ed="#V" n="14"/>ratio in practicis sumitur a fine, seu ab
+            <lb ed="#V" n="15"/>ipsius rei commoditate et fructu. Unde
+            <lb ed="#V" n="16"/>haec commoditas potest etiam aestimari
+            <lb ed="#V" n="17"/>secundum rectam rationem, prout major
+            <lb ed="#V" n="18"/>aut minor est respectu permutantis; unde
+            <lb ed="#V" n="19"/>emanant illa principia de damno
+            emer<lb ed="#V" n="20" break="no"/>gente, aut lucro cessante, quae trahi
+            <lb ed="#V" n="21"/>possunt in pactum, quia non tantum
+            ap<lb ed="#V" n="22" break="no"/>pretiatur res secundum communem ejus
+            <lb ed="#V" n="23"/>conditionem alias, sed etiam prout suo
+            <lb ed="#V" n="24"/>domino valet, qui censetur non solum rem
+            <lb ed="#V" n="25"/>permutare, sed etiam commoditatem
+            cer<lb ed="#V" n="26" break="no"/>tam et specialem, quam ex re ipsa hic
+            <lb ed="#V" n="27"/>et nunc carpit, de quibus dictum est
+            di<lb ed="#V" n="28" break="no"/>stinctione 15. q. 2. de contractu
+            empti<lb ed="#V" n="29" break="no"/>onis et venditionis. De matrimonio ergo.
+            <lb ed="#V" n="30"/>ut est contractus justitiae commutativae,
+            <lb ed="#V" n="31"/>et in ordine ad finem suum seu
+            com<lb ed="#V" n="32" break="no"/>moditatem contrahentium, possumus loqui
+            <lb ed="#V" n="33"/>secundum legem illam generalem
+            justi<lb ed="#V" n="34" break="no"/>tiae, aut secundum legem specialem Dei
+            <lb ed="#V" n="35"/>determinantis medium permutationis, et
+            <lb ed="#V" n="36"/>positivam.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Hinc patet littera Doctoris: Primo
+            pro<lb ed="#V" n="38" break="no"/>ponit hunc contractum posse considerari
+            <lb ed="#V" n="39"/>secundum strictam justitiam
+            commutati<lb ed="#V" n="40" break="no"/>vam, ut dictum est, secundum regulas
+            <lb ed="#V" n="41"/>generales sibi et aliis contractibus
+            com<lb ed="#V" n="42" break="no"/>munes. Secundo, posse considerari
+            secun<lb ed="#V" n="43" break="no"/>dum ordinationem Superioris, nempe Dei,
+            <lb ed="#V" n="44"/>ut speciali lege aliquid ordinavit ad
+            me<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>dium hujus contractus, quae ordinatio recte
+            <lb ed="#V" n="46"/>vocatur a Doctore complementum justitiae,
+            <lb ed="#V" n="47"/>quia matrimonium, ut est contractus, seu
+            <lb ed="#V" n="48"/>medium justitiae commutativae,
+            communi<lb ed="#V" n="49" break="no"/>cat cum aliis, ita ut exigat fieri secundum
+            <lb ed="#V" n="50"/>aequalitatem. Ut autem in specie ab aliis
+            <lb ed="#V" n="51"/>distinguitur, habet specialem legem,
+            <lb ed="#V" n="52"/>quae modum aequalitatis decernit, quae
+            <lb ed="#V" n="53"/>lex dicitur in specie matrimonialis, et
+            <lb ed="#V" n="54"/>complet in hoc contractu, quoad illud,
+            <lb ed="#V" n="55"/>quod lex generalis non decernit.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>(c) De primo dico, etc. Statuit duas
+            <lb ed="#V" n="57"/>conclusiones, supposito principio
+            univer<lb ed="#V" n="58" break="no"/>sali de medio, ut possibile est, et se
+            cun<lb ed="#V" n="59" break="no"/>dum aequalitatem servandam ex justitia
+            <lb ed="#V" n="60"/>commutativa, et hoc in ordine ad illum
+            <lb ed="#V" n="61"/>finem propter quem fit commutatio. In
+            <lb ed="#V" n="62"/>matrimonio autem duplex est finis, nempe
+            <lb ed="#V" n="63"/>primarius, quo ordinatur ad
+            procreati<lb ed="#V" n="64" break="no"/>onem prolis; secundarius, ut ordinatur
+            <lb ed="#V" n="65"/>in natura lapsa in remedium
+            concupi<lb ed="#V" n="66" break="no"/>scentiae.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Prima conclusio est, quantum ad finem
+            <lb ed="#V" n="68"/>primarium corpus viri, sicut magis
+            ido<lb ed="#V" n="69" break="no"/>neum est ad generationem
+            multiplican<lb ed="#V" n="70" break="no"/>dam, ita excedere corpus mulieris, quia
+            <lb ed="#V" n="71"/>potest plures foecundare, quamvis muliera
+            <lb ed="#V" n="72"/>a pluribus foecundari non possit, aut
+            <lb ed="#V" n="73"/>certe rarissime, ut aliqui dicunt, posse
+            <lb ed="#V" n="74"/>mulierem praegnantem superpraegnari; sed
+            <lb ed="#V" n="75"/>hoc rarum est, et dato opposito, non
+            <lb ed="#V" n="76"/>aequivalet corpus mulieris, ut patet ex
+            <lb ed="#V" n="77"/>ratione Doctoris, et experientia.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>Secunda conclusio est, commutationem
+            <lb ed="#V" n="79"/>hanc, ut respicit finem secundarium,
+            ser<lb ed="#V" n="80" break="no"/>vare aequalitatem inter duos tantum, quia
+            <lb ed="#V" n="81"/>quoad hoc aequale est corpus utriusque;
+            <lb ed="#V" n="82"/>unde infert commutationem istam, ut est
+            <lb ed="#V" n="83"/>ad utrumque finem cumulative, seu
+            co<lb ed="#V" n="84" break="no"/>pulative, exigere ut sit unius cum una
+            <lb ed="#V" n="85"/>tantum. et non cum pluribus. Hoc tamen
+            <lb ed="#V" n="86"/>dicit esse ex ordinatione Dei, per modum
+            <lb ed="#V" n="87"/>complementi justitiae hujus contractus, ut
+            <lb ed="#V" n="88"/>contingit in aliis contractibus a legislatore
+            <pb ed="#V" n="362"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>eos habere suam firmitatem et
+            comple<lb ed="#V" n="2" break="no"/>mentum.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Dices, duo corpora in ordine ad finem
+            <lb ed="#V" n="4"/>secundarium aequalia sunt per jam dicta;
+            <lb ed="#V" n="5"/>ergo non sumunt complementum
+            transmu<lb ed="#V" n="6" break="no"/>tata ab ordinatione extrinseca Dei.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Respondetur, intelligere eum per
+            com<lb ed="#V" n="8" break="no"/>plementum firmitatem et stabilitatem
+            <lb ed="#V" n="9"/>contractus, ita ut neque aliter teneret
+            <lb ed="#V" n="10"/>aut servaretur medium, quia sicut est
+            <lb ed="#V" n="11"/>institutus a Deo ipse contractus, ita etiam
+            <lb ed="#V" n="12"/>et perpetuitas ejus, et medium statutum,
+            <lb ed="#V" n="13"/>ut duo tantum se invicem permutarent,
+            <lb ed="#V" n="14"/>quia alioquin nolenti et volenti non fit
+            in<lb ed="#V" n="15" break="no"/>juria. Ideo sicut quis posset permutare
+            <lb ed="#V" n="16"/>aliquid, non servata, aut expectata
+            aequa<lb ed="#V" n="17" break="no"/>litate rigorosa, quin per alia media
+            com<lb ed="#V" n="18" break="no"/>pensari posset, verbi gratia, si plebeia
+            <lb ed="#V" n="19"/>Principi nuberet, consentiendo ut aliam
+            <lb ed="#V" n="20"/>etiam duceret, posset non solum
+            secun<lb ed="#V" n="21" break="no"/>dum leges generales justitiae cedere juri
+            <lb ed="#V" n="22"/>suo, sed etiam nuptiae Principis essent
+            <lb ed="#V" n="23"/>sufficiens recompensatio inaequalitatis,
+            <lb ed="#V" n="24"/>quam alias pateretur.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Quod ergo unius cum una, quoad
+            fi<lb ed="#V" n="26" break="no"/>nem secundarium, permutatio habeat non
+            <lb ed="#V" n="27"/>solum firmitatem a Dei ordinatione
+            sta<lb ed="#V" n="28" break="no"/>tuente, sed etiam ut medium contractus
+            <lb ed="#V" n="29"/>sic servetur, provenit ab eadem, ita ut
+            <lb ed="#V" n="30"/>neque juri suo altera pars valide cedat,
+            <lb ed="#V" n="31"/>neque defectus aequalitatis in permutatis,
+            <lb ed="#V" n="32"/>per aliud aequivalens compensari possit;
+            <lb ed="#V" n="33"/>et hoc est quod vocat Doctor
+            complemen<lb ed="#V" n="34" break="no"/>mentum justitiae generalis, quod nempe
+            <lb ed="#V" n="35"/>per regulas generales commutativae non
+            <lb ed="#V" n="36"/>habeatur, quin ex consensu partium, et
+            <lb ed="#V" n="37"/>aliis viis sine offensione illarum possit
+            <lb ed="#V" n="38"/>justitia commutativa in hoc contractu
+            ser<lb ed="#V" n="39" break="no"/>o vari. Nam manendo etiam in principiis
+            <lb ed="#V" n="40"/>explicatis in statu innocentiae, ut dicit
+            <lb ed="#V" n="41"/>Doctor, non esset bigamia, tamen hoc
+            <lb ed="#V" n="42"/>etiam ex lege Dei speciali eveniret, quia ibi
+            <lb ed="#V" n="43"/>cessaret finis secundarius matrimonii; et
+            <lb ed="#V" n="44"/>quantum ad finem primarium excederet
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>vir mulierem in ordine ad multiplicandam
+            <lb ed="#V" n="46"/>generationem; in statu etiam naturae
+            lap<lb ed="#V" n="47" break="no"/>sae, licet quantum ad finem
+            secundari<lb ed="#V" n="48" break="no"/>um aequivaleat corpus mulieris corpori
+            vi<lb ed="#V" n="49" break="no"/>ri, tamen excedit corpus viri quantum ad
+            <lb ed="#V" n="50"/>primarium finem, nempe foecunditatis et
+            <lb ed="#V" n="51"/>procreationis, ut docet etiam Augustinus,
+            <lb ed="#V" n="52"/>lib. 3. de doctrina Christina, c. 12.
+            <lb ed="#V" n="53"/>Ergo comparando utrumque secundum
+            <lb ed="#V" n="54"/>diversos fines praescriptos, si aequalitas
+            <lb ed="#V" n="55"/>justitiae rigorosae et strictae in
+            permu<lb ed="#V" n="56" break="no"/>tatis consideretur, est excessus in viro,
+            <lb ed="#V" n="57"/>quod compensari posset in permutatione,
+            <lb ed="#V" n="58"/>ut fit ad finem secundarium per
+            liberta<lb ed="#V" n="59" break="no"/>tem, qua vir alteram ducere posset; quod
+            <lb ed="#V" n="60"/>ergo non possit non est ex qualitate
+            stri<lb ed="#V" n="61" break="no"/>ctae justitiae, ut est ex regulis generalibus,
+            <lb ed="#V" n="62"/>quia sic vir gravatur, sed ex ordinatione
+            <lb ed="#V" n="63"/>Dei statuentis complementum justitiae, et
+            <lb ed="#V" n="64"/>modum quo medium hoc servari debeat,
+            <lb ed="#V" n="65"/>et non aliter.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d33q1-p3"> -->
+          <p>
+            <pb ed="#V" n="365"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=365"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="2"/>(d) De secundo articulo, etc. Dicit
+            di<lb ed="#V" n="3" break="no"/>spensationem esse Juris declarationem,
+            <lb ed="#V" n="4"/>aut Juris revocationem, sic definiunt
+            di<lb ed="#V" n="5" break="no"/>spensationem esse Juris relaxationem
+            <lb ed="#V" n="6"/>cognita causa, ab eo qui potest, etc.
+            Glos<lb ed="#V" n="7" break="no"/>sa cap. Requiritis, q. 7. Navarrus in
+            Sum<lb ed="#V" n="8" break="no"/>ma praelud. 9. Innocentius c. Dilectus, etc.
+            <lb ed="#V" n="9"/>de tempor. ordin. ubi Joannes Andreas, et
+            <lb ed="#V" n="10"/>Abbas cap. fin. eodem, Cardinalis quoest. 2.
+            <lb ed="#V" n="11"/>noster Rodriquez tomo 2. quaestion. Reg.
+            <lb ed="#V" n="12"/>q. 46. art. 1. Caeterum aliquando sumitur
+            <lb ed="#V" n="13"/>»dispensatio pro Juris declaratione, cap.
+            <lb ed="#V" n="14"/>Quintavallis, etc. de jurejurand. extremis
+            <lb ed="#V" n="15"/>verbis, ut notat Speculator titulo de
+            dis<lb ed="#V" n="16" break="no"/>pensatione, paulo post principium. Sumit
+            <lb ed="#V" n="17"/>ergo Doctor dispensationem late ut dicitur
+            <lb ed="#V" n="18"/>Juris interpretatio per Principem facta,
+            <lb ed="#V" n="19"/>secundum quam excluditur casus ab
+            obli<lb ed="#V" n="20" break="no"/>gatione legis, quatenus ipsum non
+            com<lb ed="#V" n="21" break="no"/>prehendit ex mente legislatoris. Dicit
+            <lb ed="#V" n="22"/>alio modo sumi dispensationem pro Juris
+            <lb ed="#V" n="23"/>revocatione, in casu scilicet, ut postea
+            <lb ed="#V" n="24"/>declarat, et sic sumitur stricte
+            dispensa<lb ed="#V" n="25" break="no"/>tio, ut definitur a praefatis Doctoribus, et
+            <lb ed="#V" n="26"/>differt ab irritatione legis, et abrogatione,
+            <lb ed="#V" n="27"/>nam irritare est legem, quae dependet
+            <lb ed="#V" n="28"/>a confirmatione Principis, verbi gratia,
+            la<lb ed="#V" n="29" break="no"/>tam a civibus negata confirmatione
+            cas<lb ed="#V" n="30" break="no"/>sare, ut vim obligandi non habeat;
+            abro<lb ed="#V" n="31" break="no"/>gare est legem factam et obligantem
+            <lb ed="#V" n="32"/>omnino revocare et cassare, ut amplius
+            <lb ed="#V" n="33"/>,non obliget. Differt a derogatione, quod
+            <lb ed="#V" n="34"/>haec sit legis in parte, ut habetur ff. de
+            <lb ed="#V" n="35"/>verborum significatione, l. Derogatur.
+            Dif<lb ed="#V" n="36" break="no"/>fert etiam dispensatio a privilegio, quod
+            <lb ed="#V" n="37"/>hoc aliquando sine causa, et praeter Jus
+            <lb ed="#V" n="38"/>concedi potest; dispensatio autem
+            requi<lb ed="#V" n="39" break="no"/>rit causam cognitam, ut licite fiat.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>His suppositis resolvit Doctor
+            difficulta<lb ed="#V" n="41" break="no"/>tem principalem quaesiti, asserens Deum
+            <lb ed="#V" n="42"/>potuisse declarasse legem instituti
+            matri<lb ed="#V" n="43" break="no"/>monii quantum ad aequalitatem
+            servan<cb ed="#V" n="b"/><lb ed="#V" n="44" break="no"/>dam, et sic late dispensasse in ea lege vel
+            <lb ed="#V" n="45"/>certe revocare, id est, relaxare ipsam
+            <lb ed="#V" n="46"/>legem in eo casu, et rationabiliter
+            pro<lb ed="#V" n="47" break="no"/>pter causam paucitatis hominum, et
+            ne<lb ed="#V" n="48" break="no"/>cessitatem ampliandi divini cultus per
+            <lb ed="#V" n="49"/>multiplicationem prolis, ita ut corpus
+            <lb ed="#V" n="50"/>unius viri commutari possit pro pluribus
+            <lb ed="#V" n="51"/>mulierum, et sic dispensatum praesumitur
+            <lb ed="#V" n="52"/>cum Abraham et aliis Patribus, inquit.
+            <lb ed="#V" n="53"/>(e) Qualiter autem ibi salvatur
+            justi<lb ed="#V" n="54" break="no"/>tia, etc. Declarat deinceps Doctor
+            quali<lb ed="#V" n="55" break="no"/>ter cum polygamia dispensata salvari
+            <lb ed="#V" n="56"/>possit justitia? Et proponit hanc
+            maxi<lb ed="#V" n="57" break="no"/>mam, nempe quando aliquid ordinatur
+            <lb ed="#V" n="58"/>ad duos fines, quorum unus est principalis,
+            <lb ed="#V" n="59"/>alius minus principalis, rationabile est uti
+            <lb ed="#V" n="60"/>illo in ordine ad finem principalem, ut
+            <lb ed="#V" n="61"/>magis valet, quamvis aliquid detrahatur
+            <lb ed="#V" n="62"/>de fine minus principali. Subjicit
+            exem<lb ed="#V" n="63" break="no"/>plum de cibo, qui minus principaliter
+            <lb ed="#V" n="64"/>ordinatur ad delectationem, magis
+            princi<lb ed="#V" n="65" break="no"/>paliter ad nutritionem; debet usus ejus
+            fi<lb ed="#V" n="66" break="no"/>eri ad nutritionem, quamvis cesset usus in
+            <lb ed="#V" n="67"/>ordine ad delectationem, ut patet in
+            infir<lb ed="#V" n="68" break="no"/>mis et stomacho languentibus. Ita in
+            pro<lb ed="#V" n="69" break="no"/>posito se habet matrimonium ad
+            procre<lb ed="#V" n="70" break="no"/>ationem prolis, ut ad finem principalem;
+            <lb ed="#V" n="71"/>ad remedium, ut ad finem minus
+            principa<lb ed="#V" n="72" break="no"/>lem et occasionatum in natura lapsa ex
+            <lb ed="#V" n="73"/>peccato et concupiscentia; ergo
+            secun<lb ed="#V" n="74" break="no"/>dum rectam rationem potest esse usus
+            <lb ed="#V" n="75"/>ejus inter partes, prout magis ordinatur
+            <lb ed="#V" n="76"/>ad finem principalem, quamvis in aliquo
+            <lb ed="#V" n="77"/>derogetur fini minus principali. In
+            <lb ed="#V" n="78"/>polygamia autem attingitur finis
+            princi<lb ed="#V" n="79" break="no"/>palis perfectius, licet derogetur fini
+            mi<lb ed="#V" n="80" break="no"/>nus principali; ergo secundum rectam
+            <lb ed="#V" n="81"/>rationem potest esse usus ejus quoad
+            <lb ed="#V" n="82"/>finem principalem, cum aliquo detrimento
+            <lb ed="#V" n="83"/>finis minus principalis, maxime in casu
+            <lb ed="#V" n="84"/>necessitatis finis principalis, aut
+            multipli<lb ed="#V" n="85" break="no"/>cationis hominum ad divinum cultum,
+            <lb ed="#V" n="86"/>quando sunt pauciores, et hoc
+            detrimen<lb ed="#V" n="87" break="no"/>tum finis minus principalis seclusa alias
+            <pb ed="#V" n="366"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>prohibitione legis superioris contemni
+            <lb ed="#V" n="2"/>potest.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Ad majorem hujus maximae
+            declarati<lb ed="#V" n="4" break="no"/>onem, intelligenda est primo, quando
+            <lb ed="#V" n="5"/>finis principalis est per se sufficiens ad
+            <lb ed="#V" n="6"/>s intentionem secundum rectam rationem
+            <lb ed="#V" n="7"/>et electionem subinde medii. Secundo,
+            <lb ed="#V" n="8"/>quando necessitas finis principalis
+            ur<lb ed="#V" n="9" break="no"/>get, neque attingi posset commode sine
+            <lb ed="#V" n="10"/>detrimento finis minus principalis, et his
+            <lb ed="#V" n="11"/>positis patet veritas principii, quia inter
+            <lb ed="#V" n="12"/>duo mala majus malum secundum rectam
+            <lb ed="#V" n="13"/>rationem est fugiendum; ergo similiter in
+            <lb ed="#V" n="14"/>prosecutione idem est servandum, ut
+            <lb ed="#V" n="15"/>majus bonum praeferatur minori, et
+            con<lb ed="#V" n="16" break="no"/>sequenter dispendium minoris boni
+            post<lb ed="#V" n="17" break="no"/>ponatur dispendio majoris boni,
+            secun<lb ed="#V" n="18" break="no"/>dum rectam rationem. Patet
+            consequen<lb ed="#V" n="19" break="no"/>tia, quia ideo malum fugiendum est,
+            <lb ed="#V" n="20"/>quia adversatur bono, quod est
+            ample<lb ed="#V" n="21" break="no"/>ctendum, et ideo minus malum
+            permit<lb ed="#V" n="22" break="no"/>tendum, quia bonum, quo privat, et cujus
+            <lb ed="#V" n="23"/>dispendium affert, postponitur bono
+            ma<lb ed="#V" n="24" break="no"/>jori, quo privat majus malum; ergo si
+            <lb ed="#V" n="25"/>dispendium alterutrius necessario sequi et
+            <lb ed="#V" n="26"/>permitti debet, secundum rectam
+            rati<lb ed="#V" n="27" break="no"/>onem permitti debet dispendium minoris
+            <lb ed="#V" n="28"/>boni hic et nunc, ubi necessitas alterius
+            <lb ed="#V" n="29"/>imminet.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Sed in proposito ita se habet finis
+            pri<lb ed="#V" n="31" break="no"/>marius matrimonii, et secundarius, tam
+            <lb ed="#V" n="32"/>ex natura rei quam etiam ex natura finis
+            <lb ed="#V" n="33"/>et contractus, ut ad finem ordinatur;
+            er<lb ed="#V" n="34" break="no"/>go idem sequitur. Probatur subsumptum,
+            <lb ed="#V" n="35"/>quia detrimentum finis primarii nequit
+            <lb ed="#V" n="36"/>aliter suppleri, quam per bigamiam aut
+            <lb ed="#V" n="37"/>polygamiam; detrimentum autem finis
+            <lb ed="#V" n="38"/>secundarii potest commodissime suppleri
+            <lb ed="#V" n="39"/>per alia media, quibus summoveri potest
+            <lb ed="#V" n="40"/>periculum fornicationis, et quibus
+            timen<lb ed="#V" n="41" break="no"/>tes Deum utuntur, ut sunt jejunia, oratio,
+            <lb ed="#V" n="42"/>maceratio corporis, et his mediis
+            perfe<lb ed="#V" n="43" break="no"/>ctius attingitur finis secundarius, quam
+            <lb ed="#V" n="44"/>obsequendo concupiscentiae, et majori
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>merito, quia per usum matrimonii
+            ceden<lb ed="#V" n="46" break="no"/>do fragilitati, et ad satisfactionem
+            con<lb ed="#V" n="47" break="no"/>cupiscentiae tantum, secundum plerosque
+            <lb ed="#V" n="48"/>Patres et Doctores vix abest peccatum
+            <lb ed="#V" n="49"/>aliquod, saltem veniale, estque tantum
+            <lb ed="#V" n="50"/>indulgentia infirmitatis, non opus
+            hone<lb ed="#V" n="51" break="no"/>stum, nisi ut fit ex motivo justitiae seu
+            de<lb ed="#V" n="52" break="no"/>biti; ergo quantum ad naturam rei non
+            <lb ed="#V" n="53"/>eadem est necessitas aut possibilitas
+            re<lb ed="#V" n="54" break="no"/>sarciendi detrimenti utriusque finis, quia,
+            <lb ed="#V" n="55"/>ut dixi, finis primarii detrimentum hic et
+            <lb ed="#V" n="56"/>nunc nequit aliter resarciri, non ita
+            detri<lb ed="#V" n="57" break="no"/>mentum finis secundarii, quo l tantum est
+            <lb ed="#V" n="58"/>ex periculo mali, quod tamen per alia
+            <lb ed="#V" n="59"/>media, et majori, fructu potest declinari.
+            <lb ed="#V" n="60"/>Spectanto ergo ordinato modo electionem
+            <lb ed="#V" n="61"/>finis, et hic et nunc necessitatem
+            multipli<lb ed="#V" n="62" break="no"/>cationis hominum in cultum Dei, quando
+            <lb ed="#V" n="63"/>sunt pauci, inevitabilitatem detrimenti
+            <lb ed="#V" n="64"/>finis primarii, inevitabilitatem detrimenti
+            <lb ed="#V" n="65"/>finis secundarii, et seclusa alia ordinatione
+            <lb ed="#V" n="66"/>legis superioris, sequitur rectam rationem
+            <lb ed="#V" n="67"/>in eo casu, ut ordinate procedit ex
+            prin<lb ed="#V" n="68" break="no"/>cipiis desumptis a fine contractus,
+            di<lb ed="#V" n="69" break="no"/>ctare admittendum detrimentum hoc
+            <lb ed="#V" n="70"/>finis secundarii ad majorem perfectionem
+            <lb ed="#V" n="71"/>primarii et in hoc casu necessariam ex
+            <lb ed="#V" n="72"/>vi contractus, ut in officium naturae est
+            <lb ed="#V" n="73"/>institutus.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Probatur altera pars illius subsumpti
+            <lb ed="#V" n="75"/>principalis ex natura utriusque finis, quia
+            <lb ed="#V" n="76"/>procreatio est finis per se contractus, et
+            <lb ed="#V" n="77"/>ab intrinseco regulariter loquendo,
+            scili<lb ed="#V" n="78" break="no"/>cet de matrimonio, ut consummatur, et
+            <lb ed="#V" n="79"/>sequitur in omni statu viae tanquam
+            prae<lb ed="#V" n="80" break="no"/>scriptus ex primaeva institutione, et est
+            <lb ed="#V" n="81"/>ideo in praecepto respectu communitatis,
+            <lb ed="#V" n="82"/>quin etiam respectu particularium in casu
+            <lb ed="#V" n="83"/>quo deficerent homines ad progationem
+            <lb ed="#V" n="84"/>apti, ut supra alias dictum est, dist. 26.
+            <lb ed="#V" n="85"/>quaest unic. Sed finis secundarius, neque
+            <lb ed="#V" n="86"/>est ex natura contractus prima
+            instituti<lb ed="#V" n="87" break="no"/>one intentus, neque in omni statu,
+            nem<lb ed="#V" n="88" break="no"/>pe innocentiae, sequens ad contractum,
+            <pb ed="#V" n="367"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>neque in statu naturae lapsae per se sub
+            <lb ed="#V" n="2"/>praecepto, sed toleratus et concomitans;
+            <lb ed="#V" n="3"/>per accidens autem in praecepto ratione
+            <lb ed="#V" n="4"/>periculi; ergo non est par ratio ejus, et
+            <lb ed="#V" n="5"/>finis primarii, quantum ad bonitatem
+            in<lb ed="#V" n="6" break="no"/>tentam contractus, quantum ad legem
+            <lb ed="#V" n="7"/>obligantem per se ratione contractus,
+            ne<lb ed="#V" n="8" break="no"/>que consequenter per se statutam
+            contra<lb ed="#V" n="9" break="no"/>ctui. Quamvis enim permutatio corporum
+            <lb ed="#V" n="10"/>inducit obligationem debiti reddendi, si
+            <lb ed="#V" n="11"/>petatur, ex praecepto affirmativo,
+            supposi<lb ed="#V" n="12" break="no"/>to composito contractu, tamen nulla est
+            <lb ed="#V" n="13"/>obligatio per se ineundi contractus in
+            <lb ed="#V" n="14"/>ordine ad finem satisfaciendae
+            concupi<lb ed="#V" n="15" break="no"/>scentiae, sicut est obligatio ineundi
+            con<lb ed="#V" n="16" break="no"/>tractus modo explicato ad
+            multiplicatio<lb ed="#V" n="17" break="no"/>nem populi Dei; obligatio enim ad
+            debi<lb ed="#V" n="18" break="no"/>tum reddendum oritur ex ipso contractu,
+            <lb ed="#V" n="19"/>et respicit usum tantum matrimonii;
+            obli<lb ed="#V" n="20" break="no"/>gatio ineundi contractus respicit finem
+            <lb ed="#V" n="21"/>propagationis, et habet necessitatem
+            prae<lb ed="#V" n="22" break="no"/>cepti; sicut ergo finis primarius et
+            con<lb ed="#V" n="23" break="no"/>tractus, ut ad ipsum tendit, involvit talem
+            <lb ed="#V" n="24"/>necessitatem, ad finem autem
+            secunda<lb ed="#V" n="25" break="no"/>rium nulla est necessitas praecepti per se,
+            <lb ed="#V" n="26"/>quia praeceptum reddendi debitum et
+            <lb ed="#V" n="27"/>petendi oritur ex natura contractus,
+            <lb ed="#V" n="28"/>ut tendit in finem primarium, licet per
+            <lb ed="#V" n="29"/>accidens hic et nunc ille finis non
+            sequa<lb ed="#V" n="30" break="no"/>tur in effectu, tamen praeceptum debiti
+            <lb ed="#V" n="31"/>ad finem illum per se tendit, et non ad
+            <lb ed="#V" n="32"/>secundarium. Unde ad finem secundarium
+            <lb ed="#V" n="33"/>nullum praeceptum obligat per se,
+            quam<lb ed="#V" n="34" break="no"/>vis indulgeat lex, ut utens finem
+            secun<lb ed="#V" n="35" break="no"/>darium intendat, non tamen obligat ad
+            ta<lb ed="#V" n="36" break="no"/>lem finem per se intendendum ex lege
+            <lb ed="#V" n="37"/>speciali contractus affirmative, licet
+            nega<lb ed="#V" n="38" break="no"/>tive obliget ne alteri commisceatur, ( vel
+            <lb ed="#V" n="39"/>per accidens etiam ratione periculi, ut dixi,
+            <lb ed="#V" n="40"/>quando alia media negliguntur, et ceditur
+            <lb ed="#V" n="41"/>concupiscentiae), et hoc ex fide et justitia
+            <lb ed="#V" n="42"/>ipsius contractus, ut est inter duos,
+            se<lb ed="#V" n="43" break="no"/>cundum legem Superioris, quam nunc
+            <lb ed="#V" n="44"/>excludimus in casu polygamiae, in quo
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>loquimur praecise de contractu, ut
+            inniti<lb ed="#V" n="46" break="no"/>tur consensui contrahentium, et
+            secun<lb ed="#V" n="47" break="no"/>dum generales regulas justitiae et rectae
+            <lb ed="#V" n="48"/>rationis, seclusa illa speciali ordinatione
+            <lb ed="#V" n="49"/>Dei. Intentum enim Doctoris in hoc
+            di<lb ed="#V" n="50" break="no"/>scursu est, probare dispensationem factam
+            <lb ed="#V" n="51"/>a Deo cum Patribus antiquis non derogare
+            <lb ed="#V" n="52"/>aequitati justitiae naturalis et
+            commuta<lb ed="#V" n="53" break="no"/>tivae, considerato contractu, ut innititur
+            <lb ed="#V" n="54"/>suo fini per se.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Ex quibus sic breviter sequitur
+            inten<lb ed="#V" n="56" break="no"/>tum: Ille finis est primarius contractus, et
+            <lb ed="#V" n="57"/>per se ejus, qui ex prima institutione et in
+            <lb ed="#V" n="58"/>omni statu sequitur ad ipsum, et ex quo
+            <lb ed="#V" n="59"/>praeceptum ineundi contractus tanquam
+            <lb ed="#V" n="60"/>ex motivo sumitur, et ad quem praecepta
+            <lb ed="#V" n="61"/>justitiae, supposito contractu, primario et
+            <lb ed="#V" n="62"/>per se obligant; ergo ut comparatur ad
+            <lb ed="#V" n="63"/>finem secundarium, qui non est in
+            praece<lb ed="#V" n="64" break="no"/>pto, et magis toleratus quam praescriptus,
+            <lb ed="#V" n="65"/>debet secundum rectam rationem
+            praefer<lb ed="#V" n="66" break="no"/>ri, et consequenter excludi dispendium
+            <lb ed="#V" n="67"/>finis primarii magis quam secundarii
+            se<lb ed="#V" n="68" break="no"/>cundum rectam rationem.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Dices, petens debitum in ordine ad
+            fi<lb ed="#V" n="70" break="no"/>nem secundarium utitur jure suo, et
+            ne<lb ed="#V" n="71" break="no"/>gans peccaret contra justitiam; ergo etiam
+            <lb ed="#V" n="72"/>finis secundarius cadit sub praecepto per
+            <lb ed="#V" n="73"/>se contractus.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Contra, praeceptum affirmativum
+            red<lb ed="#V" n="75" break="no"/>dendi debiti oritur ex natura contractus,
+            <lb ed="#V" n="76"/>ut est ad finem primarium, et ideo
+            quan<lb ed="#V" n="77" break="no"/>do cedit petitio in periculum prolis, ut
+            <lb ed="#V" n="78"/>dictum est superiori distinctione, regula
+            <lb ed="#V" n="79"/>secunda, non obligat; quod ergo petens
+            <lb ed="#V" n="80"/>jure suo utatur, quod habet ex vi
+            contra<lb ed="#V" n="81" break="no"/>ctus, et dominio in corpus alterius, id
+            <lb ed="#V" n="82"/>provenit ex lege contractus, ut in finem
+            <lb ed="#V" n="83"/>primarium tendit per se. Quod autem utatur
+            <lb ed="#V" n="84"/>illo jure ad finem secundarium, est per
+            ac<lb ed="#V" n="85" break="no"/>cidens; non est ex natura praecepti aut
+            con<lb ed="#V" n="86" break="no"/>tractus, quamvis ex natura contractus
+            ac<lb ed="#V" n="87" break="no"/>quirat dominium non impeditum in corpus
+            <lb ed="#V" n="88"/>alterius, et indulgetur talis usus dominii.
+          </p>
+          <p>
+            <pb ed="#V" n="368"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Unde licet usus dominii fiat in istum
+            fi<lb ed="#V" n="2" break="no"/>nem, non tamen ex natura praecepti
+            dirigi<lb ed="#V" n="3" break="no"/>tur in talem. Sicut qui debet aliquid
+            credito<lb ed="#V" n="4" break="no"/>ri, et illud restituit ex praecepto justitiae,
+            <lb ed="#V" n="5"/>quamvis sciat creditorem male usurum
+            <lb ed="#V" n="6"/>debito, neque restitutio, neque praeceptum
+            <lb ed="#V" n="7"/>ejus respicit talem finem, sed honestatem
+            <lb ed="#V" n="8"/>intrinsecam justitiae, qua suum alteri
+            red<lb ed="#V" n="9" break="no"/>dit. Sic etiam conjux reddens debitum
+            <lb ed="#V" n="10"/>petenti ex justitia, quae oritur ex
+            contra<lb ed="#V" n="11" break="no"/>ctu, seu potius praeceptum ad hoc
+            obli<lb ed="#V" n="12" break="no"/>gans non respicit finem secundarium
+            in<lb ed="#V" n="13" break="no"/>tentum a petente, quamvis ille finis
+            hone<lb ed="#V" n="14" break="no"/>stus sit per ipsum contractum, et
+            tolere<lb ed="#V" n="15" break="no"/>tur; honestatur autem per contractum,
+            <lb ed="#V" n="16"/>ut contractus est ad finem primarium ex
+            <lb ed="#V" n="17"/>natura sua. Ideo Doctor distinct. 26. S Sed
+            <lb ed="#V" n="18"/>hic est dubium, etc. totam honestatem
+            <lb ed="#V" n="19"/>usus matrimonii ad finem secundarium,
+            <lb ed="#V" n="20"/>qua est remedium infirmitatis, reducit in
+            <lb ed="#V" n="21"/>contractum ipsum, ut est ad finem
+            prima<lb ed="#V" n="22" break="no"/>rium, et in divinam institutionem, non
+            <lb ed="#V" n="23"/>approbantem talem usum, sed
+            indulgen<lb ed="#V" n="24" break="no"/>tem et tolerantem ob infirmitatem, ad
+            <lb ed="#V" n="25"/>evitandum majus malum; sic dicunt
+            Pa<lb ed="#V" n="26" break="no"/>tres, usum matrimonii ex hoc fine esse
+            <lb ed="#V" n="27"/>venialem, et Paulus indulgentiam, ut
+            ibi<lb ed="#V" n="28" break="no"/>dem adnotavimus. Licet ergo praeceptum
+            <lb ed="#V" n="29"/>affirmativum de reddendo debito obliget
+            <lb ed="#V" n="30"/>ex natura contractus, ut refertur in finem
+            <lb ed="#V" n="31"/>primarium, non tamen extenditur ad
+            se<lb ed="#V" n="32" break="no"/>cundarium finem utentis, quamvis licitus
+            <lb ed="#V" n="33"/>sit. Considerando ergo naturam
+            contra<lb ed="#V" n="34" break="no"/>ctus et legem ejus, ut est ad finem suum,
+            <lb ed="#V" n="35"/>magis secundum rectam rationem deberet
+            <lb ed="#V" n="36"/>eligi detrimentum finis secundarii quam
+            <lb ed="#V" n="37"/>primarii; ergo salva aequalitate quantum
+            <lb ed="#V" n="38"/>ad finem primarium contractus et per se
+            <lb ed="#V" n="39"/>ejus, in casu necessitatis propagandi,
+            <lb ed="#V" n="40"/>potest salvari aequalitas justitiae quoad
+            <lb ed="#V" n="41"/>finem primarium et per se, cum aliquo
+            <lb ed="#V" n="42"/>detrimento et inaequalitate quoad
+            secun<lb ed="#V" n="43" break="no"/>darium; et hoc medium erit secundum
+            <lb ed="#V" n="44"/>rectam rationem aequale, propter quod
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>debet pars remittere aliquid de fine
+            se<lb ed="#V" n="46" break="no"/>cundario, ut acquirat aequivalens in
+            pri<lb ed="#V" n="47" break="no"/>mario, maxime quando urget necessitas
+            <lb ed="#V" n="48"/>finis primarii, nempe prolis, ut explicat
+            <lb ed="#V" n="49"/>Doctor applicando maximam adductam ad
+            <lb ed="#V" n="50"/>matrimonium, ut est contractum in ordine
+            <lb ed="#V" n="51"/>ad utrumque finem.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>(f) Ex hoc patet quomodo, etc.
+            Appli<lb ed="#V" n="53" break="no"/>cat praedictam doctrinam generalem,
+            <lb ed="#V" n="54"/>asserens servari in casu polygamiae
+            me<lb ed="#V" n="55" break="no"/>dium rationis, attingendo bonum prolis,
+            <lb ed="#V" n="56"/>qui est finis primarius contractus, ob
+            <lb ed="#V" n="57"/>quem debet potius eligere detrimentum
+            <lb ed="#V" n="58"/>voluntarium finis particularis, quam
+            <lb ed="#V" n="59"/>frustrari contractum fine primario, ut in
+            <lb ed="#V" n="60"/>aliis commutationibus fit, verbi gratia, si
+            <lb ed="#V" n="61"/>quis mutuavit pecuniam, si debitor nequit
+            <lb ed="#V" n="62"/>pecuniam, quae magis utilis esset,
+            mutu<lb ed="#V" n="63" break="no"/>anti restituere, secundum rectam
+            rati<lb ed="#V" n="64" break="no"/>onem debet eligere restitutionem in
+            <lb ed="#V" n="65"/>aequivalenti magis quam frustrari in toto.
+            <lb ed="#V" n="66"/>Et hoc necessarium est, et tenetur
+            admit<lb ed="#V" n="67" break="no"/>tere si accedat mandatum Superioris, ita
+            <lb ed="#V" n="68"/>in matrimonio, quando urget praeceptum
+            <lb ed="#V" n="69"/>ejus ineundi ad finem propagationis hic
+            <lb ed="#V" n="70"/>et nunc, ut fuit in Patribus, et Deo
+            dispen<lb ed="#V" n="71" break="no"/>sante in polygamia secundum rectam
+            <lb ed="#V" n="72"/>rationem debet servari aequalitas, quoad
+            <lb ed="#V" n="73"/>finem principalem, et eligi etiam cum
+            <lb ed="#V" n="74"/>detrimento finis minus principalis.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Adducit exemplum Sarae, Genes. 16.
+            <lb ed="#V" n="76"/>cogentis Abraham intrare ad Agar, ut vel
+            <lb ed="#V" n="77"/>sic haberet filium de ancilla, quem ex
+            <lb ed="#V" n="78"/>ipsa habere non potuit. Hinc intendit
+            Do<lb ed="#V" n="79" break="no"/>ctor, et dispensationem Dei non
+            sustulis<lb ed="#V" n="80" break="no"/>se medium justitiae secundum rectam
+            rati<lb ed="#V" n="81" break="no"/>onem in contractu, superinducta
+            polyga<lb ed="#V" n="82" break="no"/>mia; et secundo intendit polygamiam non
+            <lb ed="#V" n="83"/>esse contra Jus naturale contractus, ut Jus
+            <lb ed="#V" n="84"/>naturale comprehendit tam prima
+            princi<lb ed="#V" n="85" break="no"/>pia quam conclusiones necessarias
+            se<lb ed="#V" n="86" break="no"/>quentes; neque destruxisse etiam
+            natu<lb ed="#V" n="87" break="no"/>ralem aut aequalitatem contractus, ut
+            <lb ed="#V" n="88"/>fertur in suum finem primarium; neque
+            <pb ed="#V" n="369"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>detrimentum finis secundarii tollere
+            me<lb ed="#V" n="2" break="no"/>dium, quod convenit contractui secundum
+            <lb ed="#V" n="3"/>rationem naturalem, ut formatur ex
+            prin<lb ed="#V" n="4" break="no"/>cipiis justitiae commutativae contractus, ut
+            <lb ed="#V" n="5"/>fertur in suum finem principalem, sed
+            <lb ed="#V" n="6"/>tantum dispensare in lege sua positiva,
+            <lb ed="#V" n="7"/>qua primo voluit matrimonium esse
+            duo<lb ed="#V" n="8" break="no"/>rum tantum in carne una. Ultimo intendit
+            <lb ed="#V" n="9"/>declarare aequissimam fuisse illam
+            dispen<lb ed="#V" n="10" break="no"/>sationem, etiam spectato fine ipsius
+            con<lb ed="#V" n="11" break="no"/>tractus principali, ut defluente scilicet
+            <lb ed="#V" n="12"/>universo mundo in idololatriam, et vocato
+            <lb ed="#V" n="13"/>Abraham, ut fieret caput credentium, et
+            <lb ed="#V" n="14"/>pater; polygamiam, inquam, fuisse
+            ne<lb ed="#V" n="15" break="no"/>cessariam in eo casu, non quo simpliciter
+            <lb ed="#V" n="16"/>propagatio fieret hominum, sed quo fieret
+            <lb ed="#V" n="17"/>in cultum Dei, et vera ejus fide, quae in
+            <lb ed="#V" n="18"/>aliis desivit.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Hoc confirmat Augustinus de bono
+            con<lb ed="#V" n="20" break="no"/>jugali, cap. 25. nam cum in priori
+            dixis<lb ed="#V" n="21" break="no"/>set Sanctos Patres in pluralitate uxorum
+            <lb ed="#V" n="22"/>habuisse continentiam conjugii in animo,
+            <lb ed="#V" n="23"/>quantum ad bonum fidei, quod versatur
+            <lb ed="#V" n="24"/>in copula unius cum una, ex obedientia
+            <lb ed="#V" n="25"/>seu praecepto Dei habuisse aequivalens
+            <lb ed="#V" n="26"/>meritum talis continentiae in polygamia;
+            <lb ed="#V" n="27"/>subdit: Quae cum ita sint, inquit, haereticis,
+            <lb ed="#V" n="28"/>sive Manichaeis, sive quicumque alii,
+            Patri<lb ed="#V" n="29" break="no"/>bus veteris Testamenti de pluribus
+            calum<lb ed="#V" n="30" break="no"/>niantur uxoribus, hoc esse argumentum,
+            <lb ed="#V" n="31"/>deputantes, quo eorum convincant
+            inconti<lb ed="#V" n="32" break="no"/>nentiam, satis superque responsum est, si
+            <lb ed="#V" n="33"/>tamen capiunt non esse peccatum, quod
+            ne<lb ed="#V" n="34" break="no"/>que contra naturam committitur, quia non
+            <lb ed="#V" n="35"/>lasciviendi, sed gignendi causa illis foeminis
+            <lb ed="#V" n="36"/>utebantur, neque contra morem, quia illis
+            <lb ed="#V" n="37"/>temporibus ea factitabantur, neque contra
+            <lb ed="#V" n="38"/>praeceptum, quia nulla lege
+            prohibeban<lb ed="#V" n="39" break="no"/>tur, etc. Idem habet lib. 22. contra
+            Faus<lb ed="#V" n="40" break="no"/>tum, c. 47. et sequenti.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Dicit ergo Sanctus Augustinus Sanctos
+            <lb ed="#V" n="42"/>Patres in polygamia non peccasse; tum
+            <lb ed="#V" n="43"/>quia divino mandato contraxerunt; tum
+            <lb ed="#V" n="44"/>quia non peccarunt contra naturam, cum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>ex sola voluntate procreandi liberos se
+            <lb ed="#V" n="46"/>conjunxerunt; non contra morem, quia
+            il<lb ed="#V" n="47" break="no"/>lius temporis mos ille fuit; non contra
+            <lb ed="#V" n="48"/>legem, quia nulla lex id prohibet, nisi
+            sci<lb ed="#V" n="49" break="no"/>licet divina, in qua Deus ipse dispensavit,
+            <lb ed="#V" n="50"/>praecipiens Patribus, ut praesumitur, ut
+            <lb ed="#V" n="51"/>alias uxores causa liberorum assumerent.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Unde sequitur ex parte virorum non
+            <lb ed="#V" n="53"/>fuisse contra naturam aut ejus principia,
+            <lb ed="#V" n="54"/>cum causa liberorum plures uxores
+            admit<lb ed="#V" n="55" break="no"/>tebant supposita divina dispensatione et
+            <lb ed="#V" n="56"/>necessitate primarii finis obtinendi: Quia,
+            <lb ed="#V" n="57"/>inquit Augustinus, non lasciviendi, sed
+            gi<lb ed="#V" n="58" break="no"/>gnendi causa illis foeminis utebantur, etc.
+            <lb ed="#V" n="59"/>Idem dicit de foeminis lib. illo 22. cap. 48.
+            <lb ed="#V" n="60"/>Sed quid de viris loquar, inquit, quibus
+            <lb ed="#V" n="61"/>excellentissimum testimonium divina voce
+            <lb ed="#V" n="62"/>perhibetur, cum ipsas foeminas satis
+            eluce<lb ed="#V" n="63" break="no"/>at nihil aliud in concubitu appetiisse quam
+            <lb ed="#V" n="64"/>filios, quippe ubi se minime parere
+            vide<lb ed="#V" n="65" break="no"/>runt, famulas suas dederunt viro suo, ut
+            <lb ed="#V" n="66"/>illas matres facerent carne, ipsae fierent
+            <lb ed="#V" n="67"/>voluntate, etc. Ex quibus colligitur
+            secun<lb ed="#V" n="68" break="no"/>dum sententiam Augustini, et licite, hoc
+            <lb ed="#V" n="69"/>est sine laesione juris naturae, a Patribus
+            <lb ed="#V" n="70"/>admissam esse polygamiam, ex finis
+            prin<lb ed="#V" n="71" break="no"/>cipalis matrimonii intentione, et
+            conse<lb ed="#V" n="72" break="no"/>quenter posse illum contractum in
+            circum<lb ed="#V" n="73" break="no"/>stantiis necessitatis procreationis populi,
+            <lb ed="#V" n="74"/>admitti inter pares cum detrimento finis
+            <lb ed="#V" n="75"/>secundarii, et hoc secundum rectam
+            rati<lb ed="#V" n="76" break="no"/>onem, ut bene Doctor. Aliud ergo est
+            lo<lb ed="#V" n="77" break="no"/>qui de Jure naturae, sumendo Jus naturae
+            <lb ed="#V" n="78"/>stricte pro principiis et conclusionibus
+            ne<lb ed="#V" n="79" break="no"/>cessariis, in quae non cadit mutatio neque
+            <lb ed="#V" n="80"/>dispensatio. Aliud loqui de Jure naturae
+            <lb ed="#V" n="81"/>late sumpto, ut dicitur consonum priori.
+            <lb ed="#V" n="82"/>bus, secundum rectam rationem, nam Jus
+            <lb ed="#V" n="83"/>naturae hoc modo sumptum sicut in
+            omni<lb ed="#V" n="84" break="no"/>bus circumstantiis non dicit conformitatem
+            <lb ed="#V" n="85"/>ad principia et conclusiones necessarias
+            se<lb ed="#V" n="86" break="no"/>quentes, ita etiam id quod in certis
+            circum<lb ed="#V" n="87" break="no"/>stantiis est consonum Juri naturae primo
+            <lb ed="#V" n="88"/>modo sumptum, in aliis circumstantiis non
+            <pb ed="#V" n="370"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>o est consonum, in quibus materia ipsa
+            mu<lb ed="#V" n="2" break="no"/>tatur; sic quotquot dicunt praecepta
+            Deca<lb ed="#V" n="3" break="no"/>logi esse indispensabilia, respondent ad
+            <lb ed="#V" n="4"/>exempla Scripturae, ex quibus dispensatio
+            <lb ed="#V" n="5"/>probatur, non fieri tunc dispensationem,
+            <lb ed="#V" n="6"/>neque factam fuisse, sed declaratum
+            mate<lb ed="#V" n="7" break="no"/>riam legis naturalis per tales
+            circumstan<lb ed="#V" n="8" break="no"/>tias mutari, ut in iis non comprehendatur
+            <lb ed="#V" n="9"/>sub lege. Si ergo ita mutabilis est materia
+            <lb ed="#V" n="10"/>Juris naturalis stricte sumpti per
+            particu<lb ed="#V" n="11" break="no"/>lares circumstantias, non est mirum, si
+            <lb ed="#V" n="12"/>materia Juris naturalis secundo modo
+            <lb ed="#V" n="13"/>sumpti per mutationem circumstantiarum,
+            <lb ed="#V" n="14"/>et ipsa mutetur, ita ut quae alias fuit
+            con<lb ed="#V" n="15" break="no"/>sona, in aliis circumstantiis non sit
+            conso<lb ed="#V" n="16" break="no"/>na, neque consequenter Juris naturalis,
+            <lb ed="#V" n="17"/>hoc secundo modo dicti.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Ad propositum, cum matrimonium ex
+            <lb ed="#V" n="19"/>natura contractus, et secundum justitiam
+            <lb ed="#V" n="20"/>ejus ordinetur ad finem tam primarium
+            <lb ed="#V" n="21"/>quam secundarium, in iis circumstantiis,
+            <lb ed="#V" n="22"/>in quibus alterutrum sine detrimento
+            alte<lb ed="#V" n="23" break="no"/>rius attingere potest, obligat secundum
+            <lb ed="#V" n="24"/>naturam contractus in ordine ad utrumque
+            <lb ed="#V" n="25"/>finem, et sic polygamia est contra Jus
+            <lb ed="#V" n="26"/>naturae, quia finis primarius non derogat
+            <lb ed="#V" n="27"/>secundario in his circumstantiis, neque
+            <lb ed="#V" n="28"/>consequenter contrahentes debent
+            ordi<lb ed="#V" n="29" break="no"/>nate contrahere, ut consentiunt in
+            utrum<lb ed="#V" n="30" break="no"/>que finem contractus, quem non debent
+            <lb ed="#V" n="31"/>abstrahere ab alterutro, neque sibi invicem
+            <lb ed="#V" n="32"/>praejudicare. Hae circumstantiae sunt,
+            <lb ed="#V" n="33"/>quando nulla est necessitas
+            multiplicati<lb ed="#V" n="34" break="no"/>onis populi Dei, neque consequenter
+            <lb ed="#V" n="35"/>pluralitatis uxorum ad hunc finem, qui est
+            <lb ed="#V" n="36"/>primarius, et ex cujus tantum necessitate
+            <lb ed="#V" n="37"/>liceret dicta pluralitas. In circumstantia
+            <lb ed="#V" n="38"/>necessitatis finis primarii aliter evenit,
+            <lb ed="#V" n="39"/>quia magis consonum rectae rationi, ut
+            <lb ed="#V" n="40"/>usus contractus fiat juxta exigentiam
+            fi<lb ed="#V" n="41" break="no"/>nis primarii quam finis secundarii cum
+            de<lb ed="#V" n="42" break="no"/>trimento primarii, ut constat ex dictis
+            su<lb ed="#V" n="43" break="no"/>pra, cum praeceptum matrimonii sive
+            di<lb ed="#V" n="44" break="no"/>vinum sive naturale, urgeat ad ineundum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>contractum, et in ordine ad finem
+            primari<lb ed="#V" n="46" break="no"/>um, magis consonum legi naturae stricte
+            <lb ed="#V" n="47"/>sumptae, ut ineatur eo modo quo subvenit
+            <lb ed="#V" n="48"/>necessitati et detrimento finis primarii,
+            <lb ed="#V" n="49"/>quam ut favet fini secundario cum
+            detri<lb ed="#V" n="50" break="no"/>mento prioris, et hoc in his
+            circumstan<lb ed="#V" n="51" break="no"/>tiis, magis consonum rectae rationi et
+            ele<lb ed="#V" n="52" break="no"/>ctioni quam contrarium. Unde sequitur
+            <lb ed="#V" n="53"/>polygamiam in talibus circumstantiis non
+            <lb ed="#V" n="54"/>esse contra Jus naturae, considerando
+            ju<lb ed="#V" n="55" break="no"/>stitiam in hoc casu et circumstantiis ex
+            <lb ed="#V" n="56"/>parte contractus et contrahentium, et
+            <lb ed="#V" n="57"/>supposito divino mandato et
+            dispensati<lb ed="#V" n="58" break="no"/>one in lege positiva, qua vetatur
+            poly<lb ed="#V" n="59" break="no"/>gamia. Haec doctrina desumitur a Doctore
+            <lb ed="#V" n="60"/>in responsione ad primum argumentum,
+            <lb ed="#V" n="61"/>quae optime declarat illud quod dicit
+            Au<lb ed="#V" n="62" break="no"/>gustinus supra, Patres ex polygamia non
+            <lb ed="#V" n="63"/>peccasse contra Jus naturae, aut positivum
+            <lb ed="#V" n="64"/>Dei. Tertium autem quod dicit
+            Augusti<lb ed="#V" n="65" break="no"/>nus de more aut consuetudine, postea
+            <lb ed="#V" n="66"/>videbimus.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Ex his facilis est responsio ad ea quae
+            <lb ed="#V" n="68"/>objiciuntur pro sententia negativa, qua
+            <lb ed="#V" n="69"/>dicitur polygamiam esse contra Jus naturae
+            <lb ed="#V" n="70"/>stricte sumptum.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Contra quam sententiam urget, quod
+            <lb ed="#V" n="72"/>hoc Jus sit indispensabile; e contra tamen
+            <lb ed="#V" n="73"/>dispensatum esse constat ex dictis, et
+            sup<lb ed="#V" n="74" break="no"/>ponitur Deuteron. 20. Item in ea lege, qua
+            <lb ed="#V" n="75"/>licebat fratri superstiti suscitare semen
+            <lb ed="#V" n="76"/>defuncto ex superstite ejus uxore.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Objiciunt ergo primo ex Apostolo 1. ad
+            <lb ed="#V" n="78"/>Corinth. 7. Mulier sui corporis potestatem
+            <lb ed="#V" n="79"/>non habet, sed vir; similiter et vir, etc.
+            <lb ed="#V" n="80"/>Absque mutua autem corporum
+            permuta<lb ed="#V" n="81" break="no"/>tione non consistit matrimonium, nequit
+            <lb ed="#V" n="82"/>autem res uni tradita, reddi alteri; ergo
+            <lb ed="#V" n="83"/>repugnat naturae matrimonii, ut vir corpus
+            <lb ed="#V" n="84"/>suum per matrimonium tradat pluribus in
+            <lb ed="#V" n="85"/>solidum.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Respondetur Apostolum loqui de
+            matri<lb ed="#V" n="87" break="no"/>monio, ut reformatum est in lege nova,
+            <lb ed="#V" n="88"/>juxta primaevam institutionem ejus, et
+            <pb ed="#V" n="371"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sic excludere polygamiam, non autem
+            <lb ed="#V" n="2"/>agit de matrimonio in casu nostro, et
+            sup<lb ed="#V" n="3" break="no"/>posita divina dispensatione et necessitate
+            <lb ed="#V" n="4"/>propagationis in cultum Dei. Ad
+            assump<lb ed="#V" n="5" break="no"/>tum, concedo non posse consistere
+            ma<lb ed="#V" n="6" break="no"/>trimonium sine mutua permutatione; haec
+            <lb ed="#V" n="7"/>tamen permutatio in casu polygamiae non
+            <lb ed="#V" n="8"/>fuit in solidum, quantum ad finem
+            secun<lb ed="#V" n="9" break="no"/>darium, et prout fit in monogamia; sed
+            <lb ed="#V" n="10"/>fuit permutatio prout exigebat finis
+            pri<lb ed="#V" n="11" break="no"/>marius matrimonii, et secundum medium
+            <lb ed="#V" n="12"/>rectae rationis in iis circumstantiis
+            decla<lb ed="#V" n="13" break="no"/>ratis, quoniam corpus viri in ordine ad
+            <lb ed="#V" n="14"/>finem primarium aequivalet pluribus
+            cor<lb ed="#V" n="15" break="no"/>poribus mulierum in ordine ad
+            generatio<lb ed="#V" n="16" break="no"/>nem. Et licet non fuerit in solidum haec
+            <lb ed="#V" n="17"/>permutatio corporis viri cuilibet ex
+            pluri<lb ed="#V" n="18" break="no"/>bus, ita ut illi soli deberetur, fuit tamen
+            <lb ed="#V" n="19"/>sufficiens in ordine ad generationem ex
+            <lb ed="#V" n="20"/>ipsa, et ea permutatio in ordine ad finem
+            <lb ed="#V" n="21"/>intentum, et per se matrimonii
+            aequivale<lb ed="#V" n="22" break="no"/>bat corpori mulieris; et negatur
+            conse<lb ed="#V" n="23" break="no"/>quentia.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Objicies secundo, mulier nisi in solidum
+            <lb ed="#V" n="25"/>traderet suum corpus viro, non esset
+            le<lb ed="#V" n="26" break="no"/>gitimum matrimonium de Jure naturae,
+            <lb ed="#V" n="27"/>neque validum ullo Jure; ergo similiter, ut
+            <lb ed="#V" n="28"/>validum sit, debet vir in solidum
+            permu<lb ed="#V" n="29" break="no"/>tare corpus suum.
+            <lb ed="#V" n="30"/>Respondetur negando consequentiam
+            <lb ed="#V" n="31"/>et paritatem in his circumstantiis, quia
+            <lb ed="#V" n="32"/>corpus mulieris redditur ineptum ad finem
+            <lb ed="#V" n="33"/>primarium matrimonii, si pluribus viris
+            <lb ed="#V" n="34"/>adhaereat, et nunquam licuit, aut licet
+            <lb ed="#V" n="35"/>per se contractus hic, ut est ad finem
+            se<lb ed="#V" n="36" break="no"/>cundarium tantum cum destructione
+            pri<lb ed="#V" n="37" break="no"/>marii ex natura rei, illa autem
+            permuta<lb ed="#V" n="38" break="no"/>tio esset tantum ad secundarium cum
+            <lb ed="#V" n="39"/>exclusione primarii.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Objicies tertio, tolleretur obligatio
+            de<lb ed="#V" n="41" break="no"/>biti, quae est de substantia matrimonii.
+            <lb ed="#V" n="42"/>Respondetur, quoties mulier exigeret
+            de<lb ed="#V" n="43" break="no"/>bitum aut obligationem ejus pro tempore
+            <lb ed="#V" n="44"/>congruo et ordinate, ut est ad finem
+            pri<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>marium, quod in hoc casu ad substantiam
+            <lb ed="#V" n="46"/>matrimonii spectat. Inter plures autem
+            <lb ed="#V" n="47"/>servaretur ordo, ut servavit Jacob inter
+            <lb ed="#V" n="48"/>Rachelem et Liam, ut bene Augustinus
+            <lb ed="#V" n="49"/>cap. 49. contra Faustum.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Objicies quarto, contra primum
+            princi<lb ed="#V" n="51" break="no"/>pium naturae est, ut vir erga uxorem id
+            <lb ed="#V" n="52"/>faciat, quod circa se nollet fieri, nollet
+            au<lb ed="#V" n="53" break="no"/>tem uxorem alteri nubere simul; ergo
+            pe<lb ed="#V" n="54" break="no"/>rinde est contra primum principium, ut
+            <lb ed="#V" n="55"/>ipse ducat alteram: Quod tibi non vis
+            fie<lb ed="#V" n="56" break="no"/>re, alteri ne feceris. Deinde, illud est de
+            <lb ed="#V" n="57"/>Jure naturae ad matrimonii substantiam
+            <lb ed="#V" n="58"/>spectans, quod ex prima sui institutione
+            <lb ed="#V" n="59"/>eidem competit; sed illud est, ut vir sit
+            <lb ed="#V" n="60"/>unius uxoris tantum, ergo etc.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Respondetur distinguendo majorem, in
+            <lb ed="#V" n="62"/>iis quae inferunt praejudicium simile uxori,
+            <lb ed="#V" n="63"/>concedo; in aliis, nego, in quibus de lege
+            <lb ed="#V" n="64"/>et justitia aliquid competit viro, quod
+            <lb ed="#V" n="65"/>non uxori; et concessa minori, negatur
+            <lb ed="#V" n="66"/>consequentia ex dictis.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Ad ultimum respondetur distinguendo
+            <lb ed="#V" n="68"/>majorem; in quibuscumque circumstantiis
+            <lb ed="#V" n="69"/>extraordinariis, nego; regulariter
+            conce<lb ed="#V" n="70" break="no"/>do. Patet distinctio ex doctrina Augustini
+            <lb ed="#V" n="71"/>et Doctoris supra explicata.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Alia argumenta pro sententia media,
+            <lb ed="#V" n="73"/>quam vocat Sanchez, de repugnantia
+            bi<lb ed="#V" n="74" break="no"/>gamiae ad finem secundarium, facile
+            con<lb ed="#V" n="75" break="no"/>cedo, quia id admittit Doctor, neque huic
+            <lb ed="#V" n="76"/>opinioni adversatur, in iis tamen
+            circum<lb ed="#V" n="77" break="no"/>stantiis, in quibus potest uterque finis
+            <lb ed="#V" n="78"/>attingi. Caeterum in aliis circumstantiis, in
+            <lb ed="#V" n="79"/>quibus supposita divina dispensatione
+            <lb ed="#V" n="80"/>finis primarius debet praeferri secundario,
+            <lb ed="#V" n="81"/>et hujus detrimentum aliquod postponi,
+            <lb ed="#V" n="82"/>ut necessitati finis primarii subveniatur,
+            <lb ed="#V" n="83"/>tunc hoc detrimentum finis secundarii est
+            <lb ed="#V" n="84"/>eligibile secundum rectam rationem, ut
+            <lb ed="#V" n="85"/>contractus finem primarlum sine
+            dispen<lb ed="#V" n="86" break="no"/>dio sortiatur.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>(g) Si objicitur, quod pro tempore
+            mo<lb ed="#V" n="88" break="no"/>derno, etc. Docet nunc polygamiam esse
+            <pb ed="#V" n="372"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>illicitam, quam revocavit Christus, Matt. 19.
+            <lb ed="#V" n="2"/>et cessante necessitate finis principalis
+            <lb ed="#V" n="3"/>ex multiplicatione fidelium, ac proinde
+            <lb ed="#V" n="4"/>non debet praejudicari fini secundario.
+            <lb ed="#V" n="5"/>Si tamen actus eveniret, ut viri deficerent
+            <lb ed="#V" n="6"/>in Ecclesia, tunc polygamia non esset
+            <lb ed="#V" n="7"/>contra Jus naturae, et accedente
+            comple<lb ed="#V" n="8" break="no"/>mento justitiae hujus contractus
+            polyga<lb ed="#V" n="9" break="no"/>miae in hoc casu, scilicet divina
+            dispensa<lb ed="#V" n="10" break="no"/>tione et approbatione, quae forte Ecclesiae
+            <lb ed="#V" n="11"/>revelaretur, esset licita polygamia,
+            perin<lb ed="#V" n="12" break="no"/>de ac fuit licita Patribus.
+            <lb ed="#V" n="13"/>Hinc confutatur haeresis improba
+            Luthe<lb ed="#V" n="14" break="no"/>ri et Anabaptistarum, qui contendunt
+            <lb ed="#V" n="15"/>exemplo Patriarcharum pluralitatem
+            uxo<lb ed="#V" n="16" break="no"/>rum esse licitam; de quibus vide late
+            Bel<lb ed="#V" n="17" break="no"/>larminum lib. 1. de matrimonto, cap. 9. 10.
+            <lb ed="#V" n="18"/>et 11. et passim Theologos in hac
+            distin<lb ed="#V" n="19" break="no"/>ctione. Quem errorem damnavit Syricius
+            <lb ed="#V" n="20"/>Papa epistola. 1. et Innocentius 1.
+            episto<lb ed="#V" n="21" break="no"/>la 9. et multi alii, ut patet ex titulo de
+            spon<lb ed="#V" n="22" break="no"/>sa duorum, de divortiis, de sponsalibus et
+            <lb ed="#V" n="23"/>matrimon. quae passim occurrunt, et cap.
+            <lb ed="#V" n="24"/>An non, 24. quaest. 3. ex Genes. 2. Matth. 19.
+            <lb ed="#V" n="25"/>ubi communiter Patres et expositores,
+            <lb ed="#V" n="26"/>Hieronymus, Chrysostomus, Beda,
+            Ansel<lb ed="#V" n="27" break="no"/>mus, Theophylactus, Hieronym, etiam
+            con<lb ed="#V" n="28" break="no"/>tra Jovinianum, lib. 1. Ambros, in lib. de
+            <lb ed="#V" n="29"/>viduis, Augustin. lib. 1. de nuptiis et
+            con<lb ed="#V" n="30" break="no"/>cupiscentia, cap. 9. Quinimo verba Christi
+            <lb ed="#V" n="31"/>id clare continent Matth. 19. Erunt duo in
+            <lb ed="#V" n="32"/>carne una, etc. et Paulus locis citatis
+            su<lb ed="#V" n="33" break="no"/>pra, semper loquitur de hoc contractu, ut
+            <lb ed="#V" n="34"/>est tantum duorum. Definit Tridentinum
+            <lb ed="#V" n="35"/>sess. 24. cap. Doctrinali, et can. 2. et hanc
+            <lb ed="#V" n="36"/>fuisse primaevam institutionem hujus
+            con<lb ed="#V" n="37" break="no"/>tractus, alias cum Doctore explicatum est,
+            <lb ed="#V" n="38"/>dist. 26. et dist. 31. 8 Ad quaestionem, etc.
+            <lb ed="#V" n="39"/>Hinc omnes, et merito rejiciunt
+            expositi<lb ed="#V" n="40" break="no"/>onem Cajetani in illa 1. ad Timoth. 3.
+            <lb ed="#V" n="41"/>Oportet Episcopum esse unius uxoris
+            vi<lb ed="#V" n="42" break="no"/>rum, etc. qui asserit tunc multos habuisse
+            <lb ed="#V" n="43"/>plures uxores; quod et historiae repugnat
+            <lb ed="#V" n="44"/>et Evangelio; in Marci etiam 10. ait legem
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>de uxoris unitate nullibi haberi in
+            Cano<lb ed="#V" n="46" break="no"/>nicis libris, et in Matth. 19. Contrarium
+            <lb ed="#V" n="47"/>etiam declarat Trident. sess. 24. in c.
+            Do<lb ed="#V" n="48" break="no"/>ctrinali: Hoc autem vinculo, inquit, duos
+            <lb ed="#V" n="49"/>tantummodo conjungi et copulari,
+            Chri<lb ed="#V" n="50" break="no"/>stus Dominus apertius docuit, cum
+            postre<lb ed="#V" n="51" break="no"/>ma illa verba tanquam a Deo prolata
+            <lb ed="#V" n="52"/>referens dixit: itaque jam non sunt duo,
+            <lb ed="#V" n="53"/>sed una caro; quae verba habentur
+            <lb ed="#V" n="54"/>Matth. 19. et can. 2. Damnat non solum
+            <lb ed="#V" n="55"/>asserentem licere Christianis plures
+            uxo<lb ed="#V" n="56" break="no"/>res habere, sed etiam asserentem id
+            <lb ed="#V" n="57"/>nulla lege divina esse prohibitum; alludit
+            <lb ed="#V" n="58"/>nempe ad verba Christi, Matth. 19.
+            prae<lb ed="#V" n="59" break="no"/>missa in cap. Doctrinali, in quibus hanc
+            <lb ed="#V" n="60"/>prohibitionem contentam esse docet, sicut
+            <lb ed="#V" n="61"/>et Genes. 2. ex eodem cap. Idem asserit
+            <lb ed="#V" n="62"/>Innocentius I. epistola 3. ad Exuperium,
+            <lb ed="#V" n="63"/>cap. 6. Augustinus lib. 1. de adulterin.
+            <lb ed="#V" n="64"/>conjug. cap. 11. et Patres citati. Quod fuse
+            <lb ed="#V" n="65"/>probat Arboreus lib. 1. Theosoph. cap. 1.
+            <lb ed="#V" n="66"/>Rejicitur sententia Abulensis inMatth. 19.
+            <lb ed="#V" n="67"/>quast. 15. asserentis, nunc Gentilibus
+            li<lb ed="#V" n="68" break="no"/>citam esse uxorem pluralitatem;
+            contrari<lb ed="#V" n="69" break="no"/>um enim constat ex c. Gaudemus, et cap.
+            <lb ed="#V" n="70"/>Quanto, etc. de divortiis, etc. et lex
+            Chri<lb ed="#V" n="71" break="no"/>sti generalis obtinet contra polygamiam,
+            <lb ed="#V" n="72"/>qua reducitur matrimonium ad primum
+            <lb ed="#V" n="73"/>statum et institutionem, ut sit unius cum
+            <lb ed="#V" n="74"/>una, et non cum pluribus. Dubium tamen
+            <lb ed="#V" n="75"/>est si olim etiam polygamia licuit
+            Gentili<lb ed="#V" n="76" break="no"/>bus. Licuisse aliqui putant probabile, ut
+            <lb ed="#V" n="77"/>Bellarm. lib. 1. de matrimonio, cap. 11. et
+            <lb ed="#V" n="78"/>Valentia 4. part. disp. 10. q. 1. puncto 5.
+            <lb ed="#V" n="79"/>Ledesma 2. part. 5. quaest. 67. artic. 2.
+            <lb ed="#V" n="80"/>Negant autem Sotus in hac dist. quaest. 1.
+            <lb ed="#V" n="81"/>art. 2. conclus. 7. noster Angles in
+            flori<lb ed="#V" n="82" break="no"/>bus 1. part. de matrimonio, q. 7. art. 1.
+            <lb ed="#V" n="83"/>difficultat. 3. Henriquez lib. 11. de
+            ma<lb ed="#V" n="84" break="no"/>trimonio, cap. 2. et lib. 12. c. 6.
+            Bartholo<lb ed="#V" n="85" break="no"/>maeus Ledesma de matrimon. dub. 72.
+            <lb ed="#V" n="86"/>conclus. 6. quos sequitur Sanchez. Et
+            ra<lb ed="#V" n="87" break="no"/>tio est, quia finit dispensationis in illis
+            <lb ed="#V" n="88"/>cessavit, nempe multiplicatio populi Dei.
+            <pb ed="#V" n="373"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Sed hoc limitandum judico quoad eos, in
+            <lb ed="#V" n="2"/>quibus non fuit cultus Dei secundum
+            le<lb ed="#V" n="3" break="no"/>gem naturae, aut fides; in aliis autem, in
+            <lb ed="#V" n="4"/>quibus conservabatur adhuc fides,
+            perin<lb ed="#V" n="5" break="no"/>de etiam viguit finit dispensationis. Et boc
+            <lb ed="#V" n="6"/>indicare videtur Augustinus lib. 22. contra
+            <lb ed="#V" n="7"/>Faustum, cap. 27. cum dicit morem fuisse
+            <lb ed="#V" n="8"/>illius temporis, quamvis ambiguum sit, an
+            <lb ed="#V" n="9"/>alludat ad genus Abrahae tantum, an ad
+            <lb ed="#V" n="10"/>alios; quamvis ratio haec, quam adducit,
+            <lb ed="#V" n="11"/>videatur extendi tantum ad ipsum
+            Abraha<lb ed="#V" n="12" break="no"/>mum, per quam excusat Patres a peccato,
+            <lb ed="#V" n="13"/>et conjicere licet, Pharaonem et
+            Abime<lb ed="#V" n="14" break="no"/>lech, qui Saram in uxorem suam
+            assum<lb ed="#V" n="15" break="no"/>pserunt, non fuisse coelibes, sed etiam
+            ha<lb ed="#V" n="16" break="no"/>buisse alias; quando autem incepit hic
+            <lb ed="#V" n="17"/>mos, incertum est. Lamech legitur
+            ha<lb ed="#V" n="18" break="no"/>buisse duas uxores, in quo, ut dicit Doctor
+            <lb ed="#V" n="19"/>responsione ad primum in fine, juxta
+            se<lb ed="#V" n="20" break="no"/>cundam sententiam praemissam, ait posse
+            <lb ed="#V" n="21"/>concedi eum peccasse, quia contra Jus
+            <lb ed="#V" n="22"/>naturale et divinum; quod pro illo
+            tempo<lb ed="#V" n="23" break="no"/>re ante diluvium non videtur fuisse
+            di<lb ed="#V" n="24" break="no"/>spensatum, cum non viguerit idololatria
+            <lb ed="#V" n="25"/>ante diluvium, neque necessitas
+            dispen<lb ed="#V" n="26" break="no"/>sandi. Tertulianus exhortatione ad
+            castita<lb ed="#V" n="27" break="no"/>tem, cap. 5. Numerus matrimonii a
+            maledi<lb ed="#V" n="28" break="no"/>cto viro coepit, primus Lamech duabus
+            ma<lb ed="#V" n="29" break="no"/>ritatus, tres in unam carnem effecit, etc.
+            <lb ed="#V" n="30"/>Idem Isidorus lib. 2. de offic. Eccles. c. 19.
+            <lb ed="#V" n="31"/>Nicolaus 1. ad Lotharium, et habetur 24.
+            <lb ed="#V" n="32"/>quaest. 3. cap. An non districta, etc.
+            La<lb ed="#V" n="33" break="no"/>mech, et flagitium initiatus esse
+            dignosce<lb ed="#V" n="34" break="no"/>ris.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>Si petas, an matrimonium cum pluribus
+            <lb ed="#V" n="36"/>repraesentet conjunctionem Christi cum
+            <lb ed="#V" n="37"/>Ecclesia.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Respondetur quod non, ut unius cum
+            <lb ed="#V" n="39"/>una sponsa, sed qua indissolubile, sic
+            <lb ed="#V" n="40"/>repraesentare. Significat etiam ex parte
+            <lb ed="#V" n="41"/>uxorum unionem omnium Ecclesiarum
+            <lb ed="#V" n="42"/>Gentium cum Christo, ut refert
+            Augusti<lb ed="#V" n="43" break="no"/>nus de bono conjugali, cap. 18. et habetur
+            <lb ed="#V" n="44"/>cap. Acutius, dist. 26. Hinc evacuatur
+            ar<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>gumentum, quod aliqui objiciunt ex
+            defe<lb ed="#V" n="46" break="no"/>ctu significationis in polygamia. Significat
+            <lb ed="#V" n="47"/>etiam unionem plurium animarum ad
+            <lb ed="#V" n="48"/>Christum mediante charitate.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>(h) Ad argumenta. Ad primum. Haec
+            res<lb ed="#V" n="50" break="no"/>ponsio patet ex littera, et ex dictis in
+            cor<lb ed="#V" n="51" break="no"/>pore quaestionis quorum est recapitulatio
+            <lb ed="#V" n="52"/>quaedam, quantum ad resolutionem
+            prin<lb ed="#V" n="53" break="no"/>cipalem. Ad secundum pariter respondet,
+            <lb ed="#V" n="54"/>nunquam licuisse de lege divina aut
+            natu<lb ed="#V" n="55" break="no"/>rali uni uxori conjungi simul duobus; et
+            <lb ed="#V" n="56"/>ratio patet ex littera et ex dictis.
+            Augusti<lb ed="#V" n="57" break="no"/>nus lib. 3. de doctrina Christiana, c. 12.
+            <lb ed="#V" n="58"/>Sufficiendae prolis causa erat uxorum
+            <lb ed="#V" n="59"/>plurium simul uni viro habendarum
+            incul<lb ed="#V" n="60" break="no"/>pabilis consuetudo, et ideo unam foeminam
+            <lb ed="#V" n="61"/>maritos habuisse plurimos honestum non
+            <lb ed="#V" n="62"/>erat; non enim mulier eo est foecundior, sed
+            <lb ed="#V" n="63"/>meretricia potius turpitudo est, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Ad ultimum, respondet utramque
+            cau<lb ed="#V" n="65" break="no"/>sam requiri, ut licita sit polygamia, nempe
+            <lb ed="#V" n="66"/>necessitatem finis principalis, et divinam
+            <lb ed="#V" n="67"/>approbationem, et sine istis dicit, vel
+            alte<lb ed="#V" n="68" break="no"/>ra illarum, nempe divina
+            dispensati<lb ed="#V" n="69" break="no"/>one, non licere; et si praecesserit illa
+            <lb ed="#V" n="70"/>dispensatio, quamvis non sit necessitas
+            <lb ed="#V" n="71"/>finis, sufficit ad contrahendum cum
+            pluri<lb ed="#V" n="72" break="no"/>bus sine peccato, non tamen sufficit sola
+            <lb ed="#V" n="73"/>necessitas finis principalis sine
+            dispensa<lb ed="#V" n="74" break="no"/>tione. Praesumitur autem Sanctos Patres
+            <lb ed="#V" n="75"/>per divinam dispensationem et ex
+            neces<lb ed="#V" n="76" break="no"/>sitate finis principalis concessam ita
+            con<lb ed="#V" n="77" break="no"/>traxisse; quod docet Innocentius III. cap.
+            <lb ed="#V" n="78"/>Gaudemus, etc. de divortiis, et passim
+            in<lb ed="#V" n="79" break="no"/>terpretes contra Manichaeos.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Hactenus de polygamia et pluralitate
+            <lb ed="#V" n="81"/>uxorum simul. Obiter dicendum, an
+            se<lb ed="#V" n="82" break="no"/>cundae nuptiae sint licitae mortuo marito.
+            <lb ed="#V" n="83"/>uxori superstiti, et soluto matrimonio. In
+            <lb ed="#V" n="84"/>hoc fuit haeresis Montani et Cataphrygum,
+            <lb ed="#V" n="85"/>qui damnabant secundas nuptias.
+            Augus<lb ed="#V" n="86" break="no"/>tinus de haeres. cap. 26. in quo errore fuit
+            <lb ed="#V" n="87"/>Tertullianus lib. 1. de Monogamia, ut idem
+            <lb ed="#V" n="88"/>Augustinus haeres. 86. et Catharin.
+            hae<pb ed="#V" n="374"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>res. 38. Novatiani ex canone 8. Niceni.
+            <lb ed="#V" n="2"/>Contrarium est de fide, et patet ad
+            Ro<lb ed="#V" n="3" break="no"/>man. 7. et 1. ad Corinth. 7. Si dormierit,
+            <lb ed="#V" n="4"/>inquit, vir ejus, cui vult nubat, etc. 1. ad
+            <lb ed="#V" n="5"/>Timoth. 5. Volo juniores nubere, Nicenum
+            <lb ed="#V" n="6"/>citatum, Florentinum in Decreto unionis
+            <lb ed="#V" n="7"/>Armenorum, consuetudo universalis
+            Eccle<lb ed="#V" n="8" break="no"/>siae. Augustinus lib. 1. contra advers. legis
+            <lb ed="#V" n="9"/>et Prophet. Hieronymus in Apolog. contra
+            <lb ed="#V" n="10"/>Jovinianum, Chrysostomus homil. 20. in
+            <lb ed="#V" n="11"/>r epistolam ad Ephesios. Verum est
+            bene<lb ed="#V" n="12" break="no"/>s dictionem denegari in secundis nuptiis,
+            <lb ed="#V" n="13"/>quando alteri conjugi in prioribus nuptiis
+            <lb ed="#V" n="14"/>est data, ne repetita in contemptum
+            ce<lb ed="#V" n="15" break="no"/>dat; nihilque obstat contractui, quia per
+            <lb ed="#V" n="16"/>mortem alterius superstes solvitur
+            obliga<lb ed="#V" n="17" break="no"/>tione legis, quae tantum pro viatoribus data
+            <lb ed="#V" n="18"/>est. Verum est aliquos Patres improbare
+            <lb ed="#V" n="19"/>secundas nuptias, non tanquam illicitas,
+            <lb ed="#V" n="20"/>sed ut ex nimio affectu libidinis ineantur.
+            <lb ed="#V" n="21"/>Caeterum in iis uterque finis matrimonii
+            <lb ed="#V" n="22"/>servatur et Sacramentum ut causans
+            gra<lb ed="#V" n="23" break="no"/>tiam, quod non esset verum, si essent
+            <lb ed="#V" n="24"/>illicitae. Deest quidem significatio perfecta
+            <lb ed="#V" n="25"/>conjunctionis Christi cum Ecclesia, ut
+            <lb ed="#V" n="26"/>in quaestione sequenti dicetur; et quamvis
+            <lb ed="#V" n="27"/>aliquae leges civiles statuerint poenas in
+            <lb ed="#V" n="28"/>secundas nuptias, correctae sunt per
+            Ca<lb ed="#V" n="29" break="no"/>nones tanquam illicitae contra libertatem
+            <lb ed="#V" n="30"/>matrimonii.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

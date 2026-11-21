@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 27, Quaestio 2</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 27, Quaestio 2</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x19">Vives, Paris, 1894, volume 19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="200"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e4486"><!-- hicjds-b4d27q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum consensus expressus verbis sit causa efficiens matrimonii</head>
+        <!-- <div alias="hiq-d27q2-p1"> -->
+          <p>
+            <lb ed="#V" n="63" type="fixed=200"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>(b) Solutio istius quaestionis patet ex
+            se<lb ed="#V" n="65" break="no"/>cunda conclusione, etc. Haec solutio patet ex
+            <lb ed="#V" n="66"/>dictis in locum citatum. Negat consensum
+            <lb ed="#V" n="67"/>expressum per verba esse causam
+            effici<lb ed="#V" n="68" break="no"/>entem proprie dictam respectu vinculi,
+            <lb ed="#V" n="69"/>etc. Sed dispositionem praeviam, sicut
+            <lb ed="#V" n="70"/>baptizari et ordinari ad characterem,
+            intel<lb ed="#V" n="71" break="no"/>ligit causam efficientem physicam non
+            <lb ed="#V" n="72"/>esse, sed moralem, seu imitari modum
+            <lb ed="#V" n="73"/>causandi dispositionis praeviae, ut
+            compa<lb ed="#V" n="74" break="no"/>ratur ad formam sequentem; de hoc
+            mo<lb ed="#V" n="75" break="no"/>do causandi, quem tribuit dist. 1. 4. S Ad
+            <lb ed="#V" n="76"/>primam ergo quaestionem, etc.
+            Sacramen<lb ed="#V" n="77" break="no"/>tis, ibidem diximus.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>(c) Ad primum argumentum, etc. Bene
+            <lb ed="#V" n="79"/>explicat certitudinem necessariam ad
+            con<lb ed="#V" n="80" break="no"/>tractum et fundamentum talis
+            certitudi<lb ed="#V" n="81" break="no"/>nis, ut innititur fidei humanae et veracitati;
+            <lb ed="#V" n="82"/>adhaeret autem alia certitudo ex lege
+            pu<lb ed="#V" n="83" break="no"/>blica, per quam fraus et dolus excluditur,
+            <lb ed="#V" n="84"/>de qua infra dist. 30.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Ad secundum, respondet hunc
+            contra<pb ed="#V" n="201"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>rctum fieri posse per parentes nomine
+            fili<lb ed="#V" n="2" break="no"/>orum, et ex consensu ipsorum, fieri etiam
+            <lb ed="#V" n="3"/>posse per litteras.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Hanc sententiam tenet etiam Felinus
+            <lb ed="#V" n="5"/>cap. Ex parte, etc. de rescriptis,
+            Covarru<lb ed="#V" n="6" break="no"/>vias 4. Decret. 2. p. cap. 4. plures pro ea
+            <lb ed="#V" n="7"/>referens, Navarr, lib. 4. consil. cons. 2.
+            <lb ed="#V" n="8"/>alias 6. Molina tom. 2. de Justit. et Jure,
+            <lb ed="#V" n="9"/>disput. 254. Sotus in hac dist. q. 1. artic. 3.
+            <lb ed="#V" n="10"/>Patet ex l. Mulierem, ff. de ritu
+            nupti<lb ed="#V" n="11" break="no"/>arum, l. Sufficit, ff. de sponsalibus, Glossa
+            <lb ed="#V" n="12"/>in cap. Nec illud, 30. quaest. 5.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="13"/>An sit autem Sacramentum, relinquit
+            <lb ed="#V" n="14"/>Doctor sub resolutione data concl. 4. dist.
+            <lb ed="#V" n="15"/>26. Esse Sacramentum probatur iisdem
+            <lb ed="#V" n="16"/>rationibus, quibus probatum est
+            contra<lb ed="#V" n="17" break="no"/>ctum per procuratores initum esse
+            Sacra<lb ed="#V" n="18" break="no"/>mentum, quia in hoc Tridentinum nihil
+            <lb ed="#V" n="19"/>innovavit. Est autem contractus legitimus,
+            <lb ed="#V" n="20"/>modo adhibeatur Parochus et testes; ergo
+            <lb ed="#V" n="21"/>Sacramentum inter baptizatos, nam
+            epi<lb ed="#V" n="22" break="no"/>stola lecta coram Parocho et testibus, et
+            <lb ed="#V" n="23"/>altero praesente acceptante, completur
+            <lb ed="#V" n="24"/>contractus legitimus.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

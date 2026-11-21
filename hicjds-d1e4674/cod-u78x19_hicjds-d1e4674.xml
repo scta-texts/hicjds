@@ -1,0 +1,1040 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 36, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 36, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x19">Vives, Paris, 1894, volume 19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="447"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e4674"><!-- hicjds-b4d36q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum servitus impediat matrimonium</head>
+        <!-- <div alias="hiq-d36q1-p1"> -->
+          <p>
+            <lb ed="#V" n="59" type="fixed=447"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>In hac distinctione, in qua Magister agit
+            <lb ed="#V" n="61"/>de impedimento servitutis et aetatis in
+            or<lb ed="#V" n="62" break="no"/>dine ad matrimonium, subjicit Doctor
+            <lb ed="#V" n="63"/>duas quaestiones, quarum prima est de
+            <lb ed="#V" n="64"/>impedimento servitutis; secunda vero de
+            <lb ed="#V" n="65"/>impedimento aetatis puerilis.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>(a) Hic duo sunt videnda, etc. Dividit
+            quae<lb ed="#V" n="67" break="no"/>stionem in duos articulos; primus quaerit
+            <lb ed="#V" n="68"/>qua lege inducta est servitus; secundus
+            <lb ed="#V" n="69"/>vero, an impediat matrimonium? Quoad
+            <lb ed="#V" n="70"/>primum fusius illud resolutum est distinct.
+            <lb ed="#V" n="71"/>15. de divisione rerum, ac proinde hanc
+            <lb ed="#V" n="72"/>difficultatem denuo tractare est
+            super<lb ed="#V" n="73" break="no"/>fluum, et sic transibimus ad secundum
+            <lb ed="#V" n="74"/>articulum, qui ad praesens institutum
+            <lb ed="#V" n="75"/>spectat. Hic obiter advertendum est non
+            <lb ed="#V" n="76"/>agi de conjugio servorum ex errore
+            con<lb ed="#V" n="77" break="no"/>ditionis, de quo supra tractavit, sed de
+            <lb ed="#V" n="78"/>ipsa servitute, ut inducit aliquod
+            impedi<lb ed="#V" n="79" break="no"/>mentum.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d36q1-p2"> -->
+          <p>
+            <lb ed="#V" n="67" type="fixed=448"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>(b) De secundo dicunt aliqui, etc.
+            Addu<lb ed="#V" n="69" break="no"/>cit duas rationes, quibus alii utuntur, ut
+            <lb ed="#V" n="70"/>D. Thomas et Richardus in hac distinctione.
+            <lb ed="#V" n="71"/>Quarum prima est, quod matrimonium sit
+            <lb ed="#V" n="72"/>de lege naturae; servitus autem de lege
+            <lb ed="#V" n="73"/>positiva aut Jure Gentium; sed obligatio
+            <lb ed="#V" n="74"/>inducta per legem positivam non
+            praeju<lb ed="#V" n="75" break="no"/>dicat ei, quod est concessum lege
+            na<lb ed="#V" n="76" break="no"/>turae.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Secunda ratio est, quia servus non est
+            <lb ed="#V" n="78"/>ita domini, quin sit sui juris quoad actus
+            <lb ed="#V" n="79"/>naturales pertinentes ad conservationem
+            <lb ed="#V" n="80"/>individui; potest enim uti cibis
+            necessa<lb ed="#V" n="81" break="no"/>riis ad vitam; ergo similiter quantum ad
+            <lb ed="#V" n="82"/>actus necessarios ad conservationem
+            spe<lb ed="#V" n="83" break="no"/>ciei, quia hoc est magis bonum naturale,
+            <lb ed="#V" n="84"/>quam sit conservatio individui.
+            <lb ed="#V" n="85"/>(c) Rationes istae possunt solvi, etc. Has
+            <lb ed="#V" n="86"/>rationes docet non esse concludentes, et
+            <pb ed="#V" n="449"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>merito, quia principia illa generalia non
+            <lb ed="#V" n="2"/>concludunt universaliter in omni materia.
+            <lb ed="#V" n="3"/>Instat contra primam, quia obligatio, quae
+            <lb ed="#V" n="4"/>non est de lege naturae, potest impedire
+            <lb ed="#V" n="5"/>aliquid, quod permittitur de lege naturae,
+            <lb ed="#V" n="6"/>non autem praecipitur, hoc est dicere,
+            <lb ed="#V" n="7"/>quod praeceptum quidem positivum licet
+            <lb ed="#V" n="8"/>cedat praecepto legis naturae, tamen non
+            <lb ed="#V" n="9"/>cedit libertati legis naturae, aut ei quod
+            <lb ed="#V" n="10"/>lege naturae permittitur, et non praecipitur;
+            <lb ed="#V" n="11"/>materia enim illa libera de lege naturae est
+            <lb ed="#V" n="12"/>indifferens, et capax obligationis;
+            indiffe<lb ed="#V" n="13" break="no"/>rens, inquam, ut refertur ad legem
+            natu<lb ed="#V" n="14" break="no"/>rae. Si accedat ergo praeceptum aliquod
+            <lb ed="#V" n="15"/>alterius legis, jam redditur materia
+            deter<lb ed="#V" n="16" break="no"/>minata, et sub obligatione illius praecepti,
+            <lb ed="#V" n="17"/>et sic se habet omnis materia legis
+            positi<lb ed="#V" n="18" break="no"/>vae, quia ablata lege positiva simpliciter
+            <lb ed="#V" n="19"/>est indifferens et libera, ut refertur ad
+            <lb ed="#V" n="20"/>legem naturae; loquor autem de materia,
+            <lb ed="#V" n="21"/>quae non est prohibita lege naturae, quia eo
+            <lb ed="#V" n="22"/>ipso quod naturae lex non reservat illam
+            <lb ed="#V" n="23"/>materiam, permittit eam liberam sub
+            di<lb ed="#V" n="24" break="no"/>spositione voluntatis. Si ergo voluntas
+            <lb ed="#V" n="25"/>Principis aut Reipublicae disponit
+            particu<lb ed="#V" n="26" break="no"/>lariter de illa materia, quae secundum
+            di<lb ed="#V" n="27" break="no"/>spositionem legis naturae dat regulam
+            vo<lb ed="#V" n="28" break="no"/>luntati particulari hujus aut illius (lex
+            <lb ed="#V" n="29"/>enim positiva justa descendit a lege
+            divi<lb ed="#V" n="30" break="no"/>na et naturali) magis consonum erit legi
+            <lb ed="#V" n="31"/>naturae, ut servetur talis dispositio, quam
+            <lb ed="#V" n="32"/>ut contra fiat secundum libertatem, quam
+            <lb ed="#V" n="33"/>ipsa lex permittit.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>Ideo enim lex naturae non omnia
+            com<lb ed="#V" n="35" break="no"/>prehendit, quia debet suppleri per
+            posi<lb ed="#V" n="36" break="no"/>tivam, prout hic et nunc in certis
+            circum<lb ed="#V" n="37" break="no"/>stantiis expedit; quae circumstantiae sicut
+            <lb ed="#V" n="38"/>non sequuntur ad naturam inseparabiliter,
+            <lb ed="#V" n="39"/>sed mere contingenter ex libera rerum
+            <lb ed="#V" n="40"/>dispositione, inde est quod materia in his
+            <lb ed="#V" n="41"/>circumstantiis non comprehenditur a lege
+            <lb ed="#V" n="42"/>naturae, sed permittitur dispositioni liberae,
+            <lb ed="#V" n="43"/>quae ut est a voluntate superioris tenet
+            <lb ed="#V" n="44"/>contra dispositionem particularem et
+            pri<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>vatam inferioris, et hoc magis consonun.
+            <lb ed="#V" n="46"/>est legi naturali.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Exemplum subjicit Doctor: Quamvis de
+            <lb ed="#V" n="48"/>lege naturae nihil tibi debeo, tamen si
+            vo<lb ed="#V" n="49" break="no"/>veo tibi obedientiam, teneor tibi
+            obedi<lb ed="#V" n="50" break="no"/>re, etc. ut Religiosus vovens obedientiam
+            <lb ed="#V" n="51"/>superiori.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Dices hoc debitum esse ex eo quod Deo
+            <lb ed="#V" n="53"/>vovet quis obedientiam in statu
+            perfecti<lb ed="#V" n="54" break="no"/>onis.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Contra, si libertas legis naturae praevalet
+            <lb ed="#V" n="56"/>praecepto positivo, ut lex naturae sumitur
+            <lb ed="#V" n="57"/>stricte, ita etiam praevalet voto, quod non
+            <lb ed="#V" n="58"/>est de lege naturae eo modo quo principia
+            <lb ed="#V" n="59"/>aut conclusiones necessariae
+            indispensabi<lb ed="#V" n="60" break="no"/>les sunt legis naturae, quia votum
+            dispen<lb ed="#V" n="61" break="no"/>sabile est; non ideo enim libertas legis
+            na<lb ed="#V" n="62" break="no"/>turae praevalet legi positivae, quia positiva
+            <lb ed="#V" n="63"/>est, sed quia minus obligans; ergo si
+            <lb ed="#V" n="64"/>minus obligat votum quam libertas legis
+            <lb ed="#V" n="65"/>naturae, etiam haec praevalebit voto.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Dices legem naturae permittere, ut quis
+            <lb ed="#V" n="67"/>emittat votum et emissum tenere.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Contra, ergo permittit ut emittat votum
+            <lb ed="#V" n="69"/>castitatis, sicut et obedientiae, et
+            conse<lb ed="#V" n="70" break="no"/>quenter permittat, ut non ineat
+            matrimo<lb ed="#V" n="71" break="no"/>nium, imo se inhabilitet ad illud ineundum;
+            <lb ed="#V" n="72"/>ergo ex libertate matrimonii ineundi, ut
+            <lb ed="#V" n="73"/>est haec ex lege naturae, non infertur
+            ser<lb ed="#V" n="74" break="no"/>vitutem ut inducit rationem debiti,
+            loquen<lb ed="#V" n="75" break="no"/>do de justa servitute, non impedire
+            ma<lb ed="#V" n="76" break="no"/>trimonium ex eo praecise quod
+            matrimo<lb ed="#V" n="77" break="no"/>nium sit sub libertate legis naturae; sicut
+            <lb ed="#V" n="78"/>eadem servitus impedit votum Religionis
+            <lb ed="#V" n="79"/>solemne et ordinationem, quae tamen in
+            <lb ed="#V" n="80"/>circumstantiis, in quibus non obstat
+            prae<lb ed="#V" n="81" break="no"/>ceptum legis naturae de utroque fine
+            ma<lb ed="#V" n="82" break="no"/>trimonii, sunt magis permissa, et ratione
+            <lb ed="#V" n="83"/>status et perfectionis magis consona legi
+            <lb ed="#V" n="84"/>naturae, quae ad illud quod est magis
+            per<lb ed="#V" n="85" break="no"/>fectum et conforme rectae rationi,
+            magis<lb ed="#V" n="86" break="no"/>que facit ad laudem et praemium,
+            incli<lb ed="#V" n="87" break="no"/>nat fortius.
+          </p>
+          <p>
+            <lb ed="#V" n="88"/>Secundo instat contra rationem allatam,
+            <pb ed="#V" n="450"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>aut fundamentum ejus, quia matrimonium
+            <lb ed="#V" n="2"/>non est de lege naturae stricte sumpta,
+            <lb ed="#V" n="3"/>sed tantum secundario, quando scilicet
+            <lb ed="#V" n="4"/>non urgent praecepta matrimonii hic et
+            <lb ed="#V" n="5"/>nunc ineundi. Reddere autem debitum
+            ali<lb ed="#V" n="6" break="no"/>cui est de lege naturae primario, et sub
+            <lb ed="#V" n="7"/>praecepto; ergo ex quo per obligationem
+            <lb ed="#V" n="8"/>justam servus se fecit domini, tenetur jure
+            <lb ed="#V" n="9"/>lege justitiae reddere illi quod suum est,
+            <lb ed="#V" n="10"/>et abstinere ab illo quod impedit jura
+            ser<lb ed="#V" n="11" break="no"/>vitutis praestitae. Haec instantia seu ratio
+            <lb ed="#V" n="12"/>est a priori.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Contra secundam rationem instat, quod
+            <lb ed="#V" n="14"/>non omnis qui tenetur ad conservationem
+            <lb ed="#V" n="15"/>individui, tenetur ad conservationem
+            spe<lb ed="#V" n="16" break="no"/>ciei; servus autem hic et nunc, ubi non
+            <lb ed="#V" n="17"/>est necessitas ulla propagationis, non
+            te<lb ed="#V" n="18" break="no"/>netur ad conservationem speciei; ergo
+            <lb ed="#V" n="19"/>per aliquam obligationem potest excludi
+            <lb ed="#V" n="20"/>illa propagatio. Et confirmatur, quia jure
+            <lb ed="#V" n="21"/>servitutis tenetur ad haec et illa servitia,
+            <lb ed="#V" n="22"/>quibus non satisfacit minus reddens; ergo
+            <lb ed="#V" n="23"/>tenetur non inducere impedimentum
+            debi<lb ed="#V" n="24" break="no"/>tae servitutis.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Respondet Sanchez lib. 7. disput. 21.
+            <lb ed="#V" n="26"/>licet istae rationes non concludant in
+            om<lb ed="#V" n="27" break="no"/>nibus, concludere tamen in hac materia;
+            <lb ed="#V" n="28"/>d et negat paritatem quoad primam
+            rati<lb ed="#V" n="29" break="no"/>onem, quia libertas homini concessa est in
+            <lb ed="#V" n="30"/>bonum privatum ipsius, cui potest
+            re<lb ed="#V" n="31" break="no"/>nuntiare, ac proinde Jus Gentium potuit
+            <lb ed="#V" n="32"/>inducere servitutem. At matrimonium
+            or<lb ed="#V" n="33" break="no"/>dinatum est ad bonum commune et
+            publi<lb ed="#V" n="34" break="no"/>cum propagationis, in remedium
+            concu<lb ed="#V" n="35" break="no"/>piscentiaae, et ad evitandam fornicationem
+            <lb ed="#V" n="36"/>et flagitia carnis, quia nulli Juri positivo
+            <lb ed="#V" n="37"/>id permissum est, ut possit matrimonium
+            <lb ed="#V" n="38"/>interdicere, nisi ipsemet perfectiori statui
+            <lb ed="#V" n="39"/>continentiae se obliget.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Ad secundum Doctoris respondet, quod
+            <lb ed="#V" n="41"/>conservatio speciei ita est naturae opus,
+            <lb ed="#V" n="42"/>sicut conservatio individui; sicut ergo
+            <lb ed="#V" n="43"/>illud permittitur, ita et hoc, non obstante
+            <lb ed="#V" n="44"/>servitute.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Contra, ratio deducta ex principiis legis
+            <lb ed="#V" n="46"/>naturae est universalis, et perinde in omni
+            <lb ed="#V" n="47"/>materia concludit, quando fortius
+            praece<lb ed="#V" n="48" break="no"/>ptum ipsius legis naturae non concurrit.
+            <lb ed="#V" n="49"/>Si ergo ratio illa in aliis non concludit, ita
+            <lb ed="#V" n="50"/>etiam neque in hac materia, ac proinde
+            <lb ed="#V" n="51"/>libertas matrimonii non obstante servitute
+            <lb ed="#V" n="52"/>debet ad aliquod aliud speciale
+            princi<lb ed="#V" n="53" break="no"/>pium ex natura servitutis et matrimonii,
+            <lb ed="#V" n="54"/>ut comparantur et concurrunt, desumi;
+            <lb ed="#V" n="55"/>non ex illo principio generali, quod in
+            <lb ed="#V" n="56"/>aliis materiis non concludit. Conclusio
+            <lb ed="#V" n="57"/>enim practica, ut procedit ex principiis,
+            <lb ed="#V" n="58"/>non sortitur aliam veritatem quam
+            medi<lb ed="#V" n="59" break="no"/>atam, quae infertur ex virtute et veritate
+            <lb ed="#V" n="60"/>principiorum, et prout ipsis innititur
+            so<lb ed="#V" n="61" break="no"/>lum tenet quae deducta est. Recte ergo
+            <lb ed="#V" n="62"/>infertur principium fallens in alia materia
+            <lb ed="#V" n="63"/>non concludere in hoc ex vi sua; ergo
+            re<lb ed="#V" n="64" break="no"/>stringi debet ex propriis hujus
+            conclusi<lb ed="#V" n="65" break="no"/>onis, ut det causam veritatis ejus.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Praeterea, disparitas assignata non solvit
+            <lb ed="#V" n="67"/>argumentum, quia libertati matrimonii
+            <lb ed="#V" n="68"/>perinde renuntiare potest, sicut et
+            liber<lb ed="#V" n="69" break="no"/>tati propriae, qua se privat per servitutem,
+            <lb ed="#V" n="70"/>quia nullo Jure divino aut humano
+            tene<lb ed="#V" n="71" break="no"/>tur hic et nunc servus inire matrimonium,
+            <lb ed="#V" n="72"/>ut bene probat secunda ratio Doctoris;
+            <lb ed="#V" n="73"/>nequit ergo privare bono quod
+            Reipubli<lb ed="#V" n="74" break="no"/>cae debetur, quamvis bono privato
+            <lb ed="#V" n="75"/>renuntiare possit, verbi gratia, clericus
+            <lb ed="#V" n="76"/>non potest se privare privilegio Canonis,
+            <lb ed="#V" n="77"/>neque judex exemptione suae personae,
+            <lb ed="#V" n="78"/>quia haec debentur statui ex communi lege
+            <lb ed="#V" n="79"/>quae dispositioni horum privatae non
+            sub<lb ed="#V" n="80" break="no"/>est, quae et servanda lex ipsa praecipit.
+            <lb ed="#V" n="81"/>Non ita tamen se habet matrimonium
+            ser<lb ed="#V" n="82" break="no"/>vi, quod nulla lege obligat ad illud
+            <lb ed="#V" n="83"/>ineundum, et cujus libertati ipse potest
+            <lb ed="#V" n="84"/>renuntiare auctoritate privata, sicut et
+            <lb ed="#V" n="85"/>eadem auctoritate potest subire servitutem
+            <lb ed="#V" n="86"/>se privando libertate et dispositione sui
+            <lb ed="#V" n="87"/>ipsius; si ergo ipse potest privare se
+            liber<lb ed="#V" n="88" break="no"/>tate matrimonii, ita etiam per legem
+            pri<pb ed="#V" n="451"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>vari potest eadem libertate, quia quidquid
+            <lb ed="#V" n="2"/>potest ipse de se abdicare, si ratio subest,
+            <lb ed="#V" n="3"/>potest etiam per legem eo spoliari,
+            quin<lb ed="#V" n="4" break="no"/>imo potest inhabilitari ad matrimonium per
+            <lb ed="#V" n="5"/>legem positivam ex crimine, sicut
+            inhabi<lb ed="#V" n="6" break="no"/>litatur ad votum. Sic enim de facto per
+            <lb ed="#V" n="7"/>legem inhabilitantur adulteri ut
+            contra<lb ed="#V" n="8" break="no"/>hant, quando machinati sunt in mortem
+            <lb ed="#V" n="9"/>conjugum ex communi consensu, et non
+            <lb ed="#V" n="10"/>solum antiquitus inhabilitabantur inter se
+            <lb ed="#V" n="11"/>contrahere, sed etiam cum ullo
+            contrahe<lb ed="#V" n="12" break="no"/>re, ut patet cap. Si quis vivente, 31.
+            <lb ed="#V" n="13"/>quaest. 1. et cap. Interfectores, 33.
+            <lb ed="#V" n="14"/>quaest. 2. et cap. Admonere te cum
+            <lb ed="#V" n="15"/>lacrymis, etc. eodem, et cap. Cum haberet
+            <lb ed="#V" n="16"/>uxorem, etc. de eo, qui duxit in
+            matrimo<lb ed="#V" n="17" break="no"/>nium, etc. ergo haec libertas juri positivo
+            <lb ed="#V" n="18"/>subest, sicut et propriae voluntati.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Neque ex eo quod aliquid sit institutum
+            <lb ed="#V" n="20"/>in bonum commune, subditum tamen
+            pri<lb ed="#V" n="21" break="no"/>vatae cujusque particularis dispositioni,
+            <lb ed="#V" n="22"/>inducit praejudicium auctoritati publicae,
+            <lb ed="#V" n="23"/>quando dispositio illius non est speciali
+            <lb ed="#V" n="24"/>lege reservata legislatori, nam eo ipso
+            <lb ed="#V" n="25"/>quod privatae dispositioni subdatur liberae,
+            <lb ed="#V" n="26"/>cessat omnis ejus reservatio; quamvis
+            er<lb ed="#V" n="27" break="no"/>go matrimonium institutum sit in bonum
+            <lb ed="#V" n="28"/>publicum, tamen voluntati propriae
+            cujus<lb ed="#V" n="29" break="no"/>que, quando non obligat finis ejus,
+            reli<lb ed="#V" n="30" break="no"/>ctum est illud inire vel renuntiare tali
+            li<lb ed="#V" n="31" break="no"/>bertati, et impedimentum ejus statuere.
+            <lb ed="#V" n="32"/>Sicut ergo servitus inducta statuit
+            <lb ed="#V" n="33"/>impedimentum voto solemni ex
+            incompa<lb ed="#V" n="34" break="no"/>tibilitate juris utriusque, ita etiam ex his
+            <lb ed="#V" n="35"/>principiis non ostenditur ratio cur non
+            <lb ed="#V" n="36"/>statuat simile impedimentum matrimonio,
+            <lb ed="#V" n="37"/>spectato solo Jure naturae, cum domino
+            <lb ed="#V" n="38"/>nihil possit praejudicare servus.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Deinde, ipsum matrimonium est
+            quae<lb ed="#V" n="40" break="no"/>dam servitus, quam non posset homo inire
+            <lb ed="#V" n="41"/>secundum rectam rationem, ut praefatus
+            <lb ed="#V" n="42"/>Auctor alias asserit ( de quo actum est
+            <lb ed="#V" n="43"/>supra distinct. 31. quaest. unic. 8 Hic
+            dici<lb ed="#V" n="44" break="no"/>tur,) ob detrimenta annexa, nisi per
+            ma<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>trimonii tria bona compensaretur; ergo
+            <lb ed="#V" n="46"/>consideratis his detrimentis secundum
+            <lb ed="#V" n="47"/>rectam rationem et legem naturalem,
+            <lb ed="#V" n="48"/>libertas matrimonii non est adeo connexa
+            <lb ed="#V" n="49"/>naturae aut legi ejus, quin omitti et
+            impe<lb ed="#V" n="50" break="no"/>diri possit, quando urget praeceptum.
+            <lb ed="#V" n="51"/>Obligatio tamen servitutis justae est in
+            <lb ed="#V" n="52"/>praecepto legis naturae, sicut alteri solvere
+            <lb ed="#V" n="53"/>debitum; ergo supposita servitute,
+            liber<lb ed="#V" n="54" break="no"/>tas matrimonii nequit ei derogare, ut
+            <lb ed="#V" n="55"/>utrumque subest praecise legi naturae.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Praeterea, obligatio servitutis praevalet
+            <lb ed="#V" n="57"/>obligationi matrimonii, quantum ad
+            sub<lb ed="#V" n="58" break="no"/>trahendam cohabitationem, et reddendum
+            <lb ed="#V" n="59"/>debitum petente uxore, si subtrahatur
+            ser<lb ed="#V" n="60" break="no"/>vitus necessaria, et cum notabili damno
+            <lb ed="#V" n="61"/>domini; ergo magis impedit servitus
+            ma<lb ed="#V" n="62" break="no"/>trimonium contrahendum, quando officit
+            <lb ed="#V" n="63"/>servituti ( et loquor semper de obligatione
+            <lb ed="#V" n="64"/>legis naturae), quia si praeceptum
+            matri<lb ed="#V" n="65" break="no"/>monii contracti cedit obligationi praecepti
+            <lb ed="#V" n="66"/>servitutis, quando utrumque simul
+            repu<lb ed="#V" n="67" break="no"/>gnant, a fortiori libertas matrimonii
+            contra<lb ed="#V" n="68" break="no"/>hendi cedit obligationi servitutis, quando
+            <lb ed="#V" n="69"/>non cohaerent.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Ex his patet ad responsionem praefati
+            <lb ed="#V" n="71"/>Auctoris contra secundam rationem
+            Do<lb ed="#V" n="72" break="no"/>ctoris, nempe de libertate conservandi
+            <lb ed="#V" n="73"/>individui, et consequenter speciei per
+            <lb ed="#V" n="74"/>matrimonium, quia non est par ratio;
+            con<lb ed="#V" n="75" break="no"/>servatio enim individui est in praecepto
+            <lb ed="#V" n="76"/>legis naturae stricte, ac proinde non est
+            <lb ed="#V" n="77"/>liberum ipsi, aut subjectum voluntati et
+            <lb ed="#V" n="78"/>dispositioni ejus, sicut ipsi est
+            libe<lb ed="#V" n="79" break="no"/>rum contrahere, vel non contrahere,
+            <lb ed="#V" n="80"/>matrimonium. Deinde, jura
+            servitu<lb ed="#V" n="81" break="no"/>tis, quae sunt tantum ad operas servi,
+            <lb ed="#V" n="82"/>non impediunt conservationem individui,
+            <lb ed="#V" n="83"/>imo nec essario supponunt, sicut et vitam,
+            <lb ed="#V" n="84"/>quia servitus ipsa personalis finitur cum
+            <lb ed="#V" n="85"/>morte, opponitur tamen matrimonio et
+            <lb ed="#V" n="86"/>debito ex eo proveniente, qua servus fit
+            <lb ed="#V" n="87"/>obligatus uxori, filiis et familiae. Ad reliqua
+            <lb ed="#V" n="88"/>patet ex dictis.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d36q1-p3"> -->
+          <p>
+            <lb ed="#V" n="38" type="fixed=453"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>(d) Dico ergo quantum ad istum
+            articu<lb ed="#V" n="40" break="no"/>tum, etc. Haec conclusio est communis, et
+            <lb ed="#V" n="41"/>patet 29. quaest. 2. per totam, et maxime
+            <lb ed="#V" n="42"/>cap. 1.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>Secundo asserit Doctor, si onus
+            matri<lb ed="#V" n="44" break="no"/>monii sit in aliquo repugnans servitiis
+            <lb ed="#V" n="45"/>consuetis, dominus concedens licentiam
+            <lb ed="#V" n="46"/>ineundi matrimonium, tacite ipsi
+            remitte<lb ed="#V" n="47" break="no"/>re videtur illa servitia consueta, quia
+            nem<lb ed="#V" n="48" break="no"/>pe dans licentiam ineundi matrimonii
+            <lb ed="#V" n="49"/>juri suo cedit quoad ea quae necessario
+            <lb ed="#V" n="50"/>conjuncta sunt matrimonio; nam concesso
+            <lb ed="#V" n="51"/>principali, conceditur accessorium, cap.
+            <lb ed="#V" n="52"/>Prudentiam, etc. de officio delegati.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>Tertio inde deducit, si obstaculum
+            red<lb ed="#V" n="54" break="no"/>dat revocando concessionem, et impediat
+            <lb ed="#V" n="55"/>ex toto ab usu matrimonii, ut eum
+            sepa<lb ed="#V" n="56" break="no"/>rando vel implicando operibus, ut nullo
+            <lb ed="#V" n="57"/>modo vacet uxori, vel vendendo in
+            lon<lb ed="#V" n="58" break="no"/>ginquas partes, eum peccare lethaliter,
+            <lb ed="#V" n="59"/>nempe contra justitiam, in re gravi, et in
+            <lb ed="#V" n="60"/>manifestis esset per Ecclesiam
+            corrigen<lb ed="#V" n="61" break="no"/>dus. Hanc conclusionem esse
+            commu<lb ed="#V" n="62" break="no"/>niorem censeo quantum ad hoc quod
+            <lb ed="#V" n="63"/>servus de voluntate domini contrahens
+            <lb ed="#V" n="64"/>majorem libertatem acquirat vacandi
+            uxo<lb ed="#V" n="65" break="no"/>ri, quam si eo invito contraheret. Et hanc
+            <lb ed="#V" n="66"/>distinctionem communiter tam Theologi
+            <lb ed="#V" n="67"/>quam Canonistae admittunt. Ex qua
+            resol<lb ed="#V" n="68" break="no"/>vitur illa difficultas, quando scilicet urget
+            <lb ed="#V" n="69"/>utrimque necessitas ex parte uxoris, et ex
+            <lb ed="#V" n="70"/>parte domini, cui simul nequit a servo
+            <lb ed="#V" n="71"/>satisfieri, utri magis debeat obedire?
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Respondetur enim ex hac resolutione
+            <lb ed="#V" n="73"/>Doctoris in iis, quae necessaria sunt
+            conju<lb ed="#V" n="74" break="no"/>gio, ut reddere debitum in periculo
+            for<lb ed="#V" n="75" break="no"/>nicationis praesenti eum magis obligari
+            <lb ed="#V" n="76"/>uxori, si aliter evitari non possit hoc
+            pe<lb ed="#V" n="77" break="no"/>riculum, quia quoad hoc obligatur jure
+            <lb ed="#V" n="78"/>matrimonii, et non praejudicat domino,
+            <lb ed="#V" n="79"/>qui in hoc consensit dans licentiam
+            con<lb ed="#V" n="80" break="no"/>tractui. Unde sicut si servus de voluntate
+            <lb ed="#V" n="81"/>domini locaret suas operas alteri,
+            tenere<lb ed="#V" n="82" break="no"/>tur illas praestare etiam domino
+            reclaman<lb ed="#V" n="83" break="no"/>te, quando non est res integra, quia in
+            <lb ed="#V" n="84"/>eo casu dominus cessit juri suo in servum
+            <lb ed="#V" n="85"/>quoad eas operas, neque potest revocare
+            <lb ed="#V" n="86"/>non integra re, consensum datum. Sed in
+            <pb ed="#V" n="454"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>proposito res non est integra, quia
+            ma<lb ed="#V" n="2" break="no"/>trimonium de licentia ejus contractum
+            <lb ed="#V" n="3"/>est, et consensus domini validat
+            contrac<lb ed="#V" n="4" break="no"/>tum ex parte sua, quoad necessario
+            con<lb ed="#V" n="5" break="no"/>juncta; ergo, etc. Praeterea, si dominus
+            <lb ed="#V" n="6"/>donaret servum integrae libertati, ita ut
+            <lb ed="#V" n="7"/>suo juri ex toto renuntiaret, non posset
+            <lb ed="#V" n="8"/>postea eum sine culpa revocare in
+            servi<lb ed="#V" n="9" break="no"/>tutem; ergo similiter ea ratione, qua in
+            <lb ed="#V" n="10"/>parte eum relaxavit, non potest ipsi
+            prae<lb ed="#V" n="11" break="no"/>judicare; consentiens autem in
+            matrimo<lb ed="#V" n="12" break="no"/>nium servi, eum relaxavit quoad jura
+            ne<lb ed="#V" n="13" break="no"/>cessaria conjugii, et sine quibus stare non
+            <lb ed="#V" n="14"/>potest; ergo tunc obligatio servitutis in hoc
+            <lb ed="#V" n="15"/>casu commutatur voluntate domini
+            con<lb ed="#V" n="16" break="no"/>sentientis in jura matrimonii quoad casus
+            <lb ed="#V" n="17"/>necessarios qui urgent.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Dices dominum consentientem in
+            ma<lb ed="#V" n="19" break="no"/>trimonium servi, non censeri per hoc
+            re<lb ed="#V" n="20" break="no"/>laxare aliqua jura servitutis.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Contra, quia hoc ipso, quod consentiat
+            <lb ed="#V" n="22"/>in matrimonium servi, tacite consentit, ut
+            <lb ed="#V" n="23"/>servus vacet illi contractui, et stet ejus
+            <lb ed="#V" n="24"/>obligationi in circumstantiis necessariis,
+            <lb ed="#V" n="25"/>nam omnes DD. admittunt aliter se
+            habe<lb ed="#V" n="26" break="no"/>re ad jura matrimonii servum
+            consen<lb ed="#V" n="27" break="no"/>tiente domino contrahentem, et eo invito
+            <lb ed="#V" n="28"/>contrahentem; ergo aliquid libertatis
+            ac<lb ed="#V" n="29" break="no"/>quirit ille ex consensu domini, quod non
+            <lb ed="#V" n="30"/>acquirit hic, nam ille consensus non habet
+            <lb ed="#V" n="31"/>rationem purae permissionis, sed
+            aequiva<lb ed="#V" n="32" break="no"/>let mandato aut missioni respective ad
+            <lb ed="#V" n="33"/>actum in quem consentit.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>Sed dices, quid sit ipse dominus sit in
+            <lb ed="#V" n="35"/>periculo vitae constitutus, aut in alio simili
+            <lb ed="#V" n="36"/>aequivalenti, cui nequit aliter succurri,
+            ni<lb ed="#V" n="37" break="no"/>si per operam praesentem servi?
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Dicerem obligari domino jure charitatis
+            <lb ed="#V" n="39"/>et servitutis, quinimo si esset liber
+            dimis<lb ed="#V" n="40" break="no"/>sus titulo gratitudinis et charitatis, quia
+            <lb ed="#V" n="41"/>non, judico haec pericula paria esse, quin
+            <lb ed="#V" n="42"/>in potestate uxoris sit continere si velit,
+            <lb ed="#V" n="43"/>et alia media opportuna adhibeat, neque
+            <lb ed="#V" n="44"/>eidem proinde judico in simili casu
+            extre<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>mae necessitatis alterius vacandum esse,
+            <lb ed="#V" n="46"/>omittendo opera charitatis obligantia hic
+            <lb ed="#V" n="47"/>et nunc, quibus aliter non possit subveniri,
+            <lb ed="#V" n="48"/>neque putarem jus debiti in tali casu
+            <lb ed="#V" n="49"/>obligare in praejudicium charitatis et
+            debi<lb ed="#V" n="50" break="no"/>tae servitutis, quibus tenetur maritus; sed
+            <lb ed="#V" n="51"/>et uxor etiam tenetur illa non impedire,
+            <lb ed="#V" n="52"/>ergo non exigere debitum, ex quo
+            alte<lb ed="#V" n="53" break="no"/>rius mors aut damnum inevitabile
+            sequi<lb ed="#V" n="54" break="no"/>tur; nam, ut supra Doctor, jus debiti est
+            <lb ed="#V" n="55"/>praecepti affirmativi, quod in certis et
+            de<lb ed="#V" n="56" break="no"/>terminatis circumstantiis obligat, et non
+            <lb ed="#V" n="57"/>aliter, quarum una est praecepti majoris
+            <lb ed="#V" n="58"/>concurrentis et repugnantis; alias dicam
+            <lb ed="#V" n="59"/>cum periculo infantis et vitae propriae aut
+            <lb ed="#V" n="60"/>infirmitatis gravis, obligare jus debiti
+            con<lb ed="#V" n="61" break="no"/>jugalis, quod non admittitur. Cum ergo
+            <lb ed="#V" n="62"/>periculum lapsus non sit periculum
+            inevi<lb ed="#V" n="63" break="no"/>tabile, quod summoveri non possit alia
+            <lb ed="#V" n="64"/>via, nequit comparari periculo mortis
+            do<lb ed="#V" n="65" break="no"/>mini, et notabilis damni, cui subvenire
+            te<lb ed="#V" n="66" break="no"/>netur servus, neque consensus prior
+            <lb ed="#V" n="67"/>domini in matrimonium servi ad casum
+            <lb ed="#V" n="68"/>hunc est extrahendus, cum rationabiliter,
+            <lb ed="#V" n="69"/>eo praeviso, esset invitus; sed ad
+            relaxa<lb ed="#V" n="70" break="no"/>tionem moderatam, in iis servitiis, quae
+            <lb ed="#V" n="71"/>majoris lucri sunt, non tamen necessario,
+            <lb ed="#V" n="72"/>et relaxatio intelligenda venit, cum qua
+            <lb ed="#V" n="73"/>compatitur onus servitutis, maxime in
+            ne<lb ed="#V" n="74" break="no"/>cessariis, et prout solum important
+            liber<lb ed="#V" n="75" break="no"/>tatem aliquam vacandi matrimonio, non
+            <lb ed="#V" n="76"/>in eo gradu quo liberi vacant. Attendendae
+            <lb ed="#V" n="77"/>ergo sunt circumstantiae, et prout pondus
+            <lb ed="#V" n="78"/>hujus negotii trahit, ei cedendum est, aut
+            <lb ed="#V" n="79"/>necessitas.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Alii reducunt resolutionem hanc in
+            an<lb ed="#V" n="81" break="no"/>terius jus, quorum aliqui censent esse
+            <lb ed="#V" n="82"/>servitutis, alii matrimonii, et pro anteriori
+            <lb ed="#V" n="83"/>jure standum est, quia res cum suo onere
+            <lb ed="#V" n="84"/>transit ad possessorem, cap. Ex litteris, etc.
+            <lb ed="#V" n="85"/>de pignoribus, etc. qui prior est tempore,
+            <lb ed="#V" n="86"/>potior est jure, de reg. jur. in 6. Sed cum
+            <lb ed="#V" n="87"/>utrumque jus perinde cohaereant, in casu
+            <lb ed="#V" n="88"/>quo hicet nunc repugnent, spectandae
+            ma<pb ed="#V" n="455"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>gis sunt circumstantiae, quam ordo
+            utrius<lb ed="#V" n="2" break="no"/>que juris, nam si circumstantia adjecta
+            <lb ed="#V" n="3"/>magis determinat materiam in favorem
+            <lb ed="#V" n="4"/>juris posterioris, illi favendum erit.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Servum non posse vendi in patribus
+            re<lb ed="#V" n="6" break="no"/>motis, qui voluntate domini, et consensu
+            <lb ed="#V" n="7"/>contraxit, docet etiam S. Bonaventura in
+            <lb ed="#V" n="8"/>hac dist. in exposit. litterae, Richardus
+            <lb ed="#V" n="9"/>art. 4. quaest. 2. Henriquez lib. 11. de
+            ma<lb ed="#V" n="10" break="no"/>trimonio, cap. 10. Toletus lib. 7. Summ.
+            <lb ed="#V" n="11"/>cap. 3. Navarr. in Summam, cap. 22.
+            Syl<lb ed="#V" n="12" break="no"/>vest. verb. Penitus, quaest. 7. Petrus
+            Lede<lb ed="#V" n="13" break="no"/>sma de matrim. q. 52. Angelus verb.
+            Ma<lb ed="#V" n="14" break="no"/>trimonium 3. impedim. quin etiam S.
+            Tho<lb ed="#V" n="15" break="no"/>mas in hac dist. a fortiori id asserit, q.
+            <lb ed="#V" n="16"/>unic. art. 2. ad 4. Paludan. quaest. 2.
+            <lb ed="#V" n="17"/>art. 1. conclus. Glossa cap. 1. de conjugio
+            <lb ed="#V" n="18"/>servorum, verb. Servitia, Turrecremata
+            <lb ed="#V" n="19"/>cap. finali, 29. quaest. 2. Viguerius lib.
+            <lb ed="#V" n="20"/>instit. cap. 16. impedim. 2. Ludovicus
+            Lo<lb ed="#V" n="21" break="no"/>pez lib. 1. de contract. cap. 5.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Contrarium hujus tenet Sanchez lib. 7.
+            <lb ed="#V" n="23"/>disputat. 21. modo uxor possit sequi
+            ser<lb ed="#V" n="24" break="no"/>vum, quocumque vendetur, quia licet
+            do<lb ed="#V" n="25" break="no"/>minus consensit in matrimonium servi, ita
+            <lb ed="#V" n="26"/>ut habeat jus servus, eo etiam invito, ne
+            <lb ed="#V" n="27"/>impediatur usus matrimonii, tamen
+            quan<lb ed="#V" n="28" break="no"/>do, verbi gratia, uxor est libera, potest et
+            <lb ed="#V" n="29"/>tenetur sequi servum maritum, et tunc
+            <lb ed="#V" n="30"/>non impeditur usus matrimonii a
+            domi<lb ed="#V" n="31" break="no"/>no. Secundo, quia servus, si
+            manumit<lb ed="#V" n="32" break="no"/>teretur, posset ubique eligere domicilium,
+            <lb ed="#V" n="33"/>et uxor teneretur eum sequi. Tertio,
+            <lb ed="#V" n="34"/>quia nullum onus imponitur uxori, quod
+            <lb ed="#V" n="35"/>ipsa non assumpsit ducens servum, et
+            <lb ed="#V" n="36"/>quem teneatur sequi. Et idem asserit de
+            <lb ed="#V" n="37"/>servo si manumittatur, tenere sequi
+            uxo<lb ed="#V" n="38" break="no"/>rem ancillam venditam in longinquas
+            par<lb ed="#V" n="39" break="no"/>tes, si commode potest, tamen si nequit
+            <lb ed="#V" n="40"/>commode, aut uxor sequi virum, aut e
+            con<lb ed="#V" n="41" break="no"/>tra vir uxorem, nequit dominus eos
+            ven<lb ed="#V" n="42" break="no"/>dere cum impedimento usus matrimonii,
+            <lb ed="#V" n="43"/>modo ipse consenserit primum in
+            matri<lb ed="#V" n="44" break="no"/>monium juxta hanc modificationem videtur
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>loqui Doctor, quia intendit eum non
+            remit<lb ed="#V" n="46" break="no"/>ti posse in partes longinquas, quando
+            im<lb ed="#V" n="47" break="no"/>pediretur usus matrimonii, et in hoc sensu
+            <lb ed="#V" n="48"/>loquuntur caeteri Doctores, quia regulariter
+            <lb ed="#V" n="49"/>nequit conjux vendi in partes longinquas,
+            <lb ed="#V" n="50"/>ita ut uxor maritum, aut maritus uxorem
+            <lb ed="#V" n="51"/>commode sequi possit, quia si libera est,
+            <lb ed="#V" n="52"/>subjicit se periculo servitutis, et aliis, quae
+            <lb ed="#V" n="53"/>in longinquis partibus inferri possunt,
+            sic<lb ed="#V" n="54" break="no"/>ut et ordinarie infertur advenis et servis.
+            <lb ed="#V" n="55"/>Deinde, usus matrimonii impedietur,
+            <lb ed="#V" n="56"/>quando non datur recursus ad judicem, qui
+            <lb ed="#V" n="57"/>difficilis est in aliis partibus, et pluribus
+            <lb ed="#V" n="58"/>injuriis subjicietur libera aut liber, quae
+            <lb ed="#V" n="59"/>praevenire aut providere non potuit,
+            quan<lb ed="#V" n="60" break="no"/>do matrimonium iniit rebus in priori statu
+            <lb ed="#V" n="61"/>manentibus, quando conditio utriusque
+            <lb ed="#V" n="62"/>non deterioratur per venditionem servi,
+            <lb ed="#V" n="63"/>tunc facile admittendus est casus.
+            Adver<lb ed="#V" n="64" break="no"/>tendum tamen dominum consentientem
+            <lb ed="#V" n="65"/>in matrimonium servi, debere ipsum
+            ven<lb ed="#V" n="66" break="no"/>dere cum hoc onere, ut possit vacare
+            <lb ed="#V" n="67"/>matrimonio, quamvis pretium ejus
+            neces<lb ed="#V" n="68" break="no"/>sarium sit diminuere, quia nequit servum
+            <lb ed="#V" n="69"/>aliter vendere, nisi ut ipsum possidet, et
+            <lb ed="#V" n="70"/>salva fiunt ei sua jura, quae remissa sunt
+            <lb ed="#V" n="71"/>a domino consentiente in matrimonium.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>(e) Potest etiam contrahere domino
+            invi<lb ed="#V" n="73" break="no"/>to, etc. Patet ex cap. 1. de conjugio
+            ser<lb ed="#V" n="74" break="no"/>vorum, etc. nec inter servos debent
+            matri<lb ed="#V" n="75" break="no"/>monia ullatenus prohiberi, et si
+            contradi<lb ed="#V" n="76" break="no"/>centibus dominis et invitis contracta fuerint
+            <lb ed="#V" n="77"/>nulla ratione sunt propter hoc
+            solven<lb ed="#V" n="78" break="no"/>da, etc. Rationem hujus optimam assignat
+            <lb ed="#V" n="79"/>Doctor, quia dominus non habet
+            potesta<lb ed="#V" n="80" break="no"/>tem in corpus servi, sed in operas ejus,
+            <lb ed="#V" n="81"/>neque lex civilis, aut Jus Gentium potuit
+            <lb ed="#V" n="82"/>dare illam potestatem; neque servus ipse
+            <lb ed="#V" n="83"/>ex propria voluntate, quia solus Deus est
+            <lb ed="#V" n="84"/>dominus vitae et mortis, animae et
+            corpo<lb ed="#V" n="85" break="no"/>ris, et permisit tantum potestatem usus
+            <lb ed="#V" n="86"/>corporis in ordine ad matrimonium,
+            quam<lb ed="#V" n="87" break="no"/>vis reliquus ejus usus, quantum ad
+            ope<lb ed="#V" n="88" break="no"/>ras subjecit nostrae voluntati. Servus ergo
+            <pb ed="#V" n="456"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>vendens suam libertatem solum vendit
+            <lb ed="#V" n="2"/>operas suas, et non corpus secundum
+            <lb ed="#V" n="3"/>omnem libertatem, quam habet; ergo
+            ma<lb ed="#V" n="4" break="no"/>net ipsi jus corporis commutandi in
+            ordi<lb ed="#V" n="5" break="no"/>ne ad matrimonium, quod non est pretio
+            <lb ed="#V" n="6"/>aestimabile, nisi ut recepit aliud aequale in
+            <lb ed="#V" n="7"/>ordine ad usum corporis, quem Deus
+            res<lb ed="#V" n="8" break="no"/>pective ad hunc solum contractum ei
+            per<lb ed="#V" n="9" break="no"/>misit. Et haec commutatio non derogat
+            <lb ed="#V" n="10"/>juri servitutis, quia contrahens cum servo
+            <lb ed="#V" n="11"/>remittit de suo jure, quod alias ipsi ex
+            <lb ed="#V" n="12"/>vi contractus competeret, ne praejudicium
+            <lb ed="#V" n="13"/>tertii sequatur, et sic tenet contractus.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Dices ergo de Jure naturae tenet
+            matri<lb ed="#V" n="15" break="no"/>monium et ejus libertas, quod supra
+            impu<lb ed="#V" n="16" break="no"/>gnatum est, contra jura servitutis.
+            <lb ed="#V" n="17"/>Respondetur tenere de Jure speciali
+            <lb ed="#V" n="18"/>naturae, ratione materiae, in qua versatur
+            <lb ed="#V" n="19"/>commutatio, cujus dominium nequit
+            ple<lb ed="#V" n="20" break="no"/>num cum servitute transferri, sed in
+            <lb ed="#V" n="21"/>ordine ad certum usum et operas. Manet
+            <lb ed="#V" n="22"/>autem dominium corporis ex Dei
+            conces<lb ed="#V" n="23" break="no"/>sione servo in ordine ad usum
+            matrimo<lb ed="#V" n="24" break="no"/>nii tantum, et sustentationis propriae, sine
+            <lb ed="#V" n="25"/>praejudicio tamen juris alterius, quod
+            <lb ed="#V" n="26"/>acquisivit per inductam servitutem, quia
+            <lb ed="#V" n="27"/>nequit servus vacare matrimonio, nisi
+            <lb ed="#V" n="28"/>quoad usum aliqualem, qui non impedit
+            <lb ed="#V" n="29"/>aut subtrahit consueta servitia, ut
+            praedi<lb ed="#V" n="30" break="no"/>cto capite primo potest, de conjug. serv.
+            <lb ed="#V" n="31"/>ubi decernit Adrianus Pontifex: Debita
+            <lb ed="#V" n="32"/>tamen, inquit, et consueta servitia non
+            <lb ed="#V" n="33"/>minus debent consuetis dominis
+            exhibe<lb ed="#V" n="34" break="no"/>ri, etc. ubi Glossa; quamvis ergo servus
+            <lb ed="#V" n="35"/>habeat libertatem ineundi conjugii, non
+            <lb ed="#V" n="36"/>habet libertatem cum detrimento domini
+            <lb ed="#V" n="37"/>ad usum talis conjugii, sed tantum
+            quan<lb ed="#V" n="38" break="no"/>do servitia consueta non substrahantur.
+            <lb ed="#V" n="39"/>rDoctor autem supra non impugnat
+            con<lb ed="#V" n="40" break="no"/>clusionem, sed rationes, quibus probatur,
+            <lb ed="#V" n="41"/>et ipse proinde ex ratione in specie, et
+            <lb ed="#V" n="42"/>a priori probat conclusionem ex natura
+            <lb ed="#V" n="43"/>contractus, servitutis et juris tantum
+            ac<lb ed="#V" n="44" break="no"/>quisiti, et quoad secundum in ordine
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>ad operas est, non privando servum omni
+            <lb ed="#V" n="46"/>sua libertate, quam per politicam
+            servitu<lb ed="#V" n="47" break="no"/>tem transferre non potest, neque etiam
+            <lb ed="#V" n="48"/>per matrimonium subtrahere jura
+            servitu<lb ed="#V" n="49" break="no"/>tis, nisi dominus consenserit in
+            matrimo<lb ed="#V" n="50" break="no"/>nium, quia ad liberum usum matrimonii et
+            <lb ed="#V" n="51"/>cohabitationis potest servus suum corpus
+            <lb ed="#V" n="52"/>commutare cum detrimento domini,
+            ne<lb ed="#V" n="53" break="no"/>que dominus praejudicare potest usui
+            cor<lb ed="#V" n="54" break="no"/>poris servi in ordine ad matrimonium in
+            <lb ed="#V" n="55"/>neccssariis, quia non acquirit plenum
+            do<lb ed="#V" n="56" break="no"/>minium corporis ejus per servitutem, ac
+            <lb ed="#V" n="57"/>proinde quoad usum cui non est
+            subje<lb ed="#V" n="58" break="no"/>ctus servus, est liber, alias peccaret
+            con<lb ed="#V" n="59" break="no"/>tra justitiam, qui vel in uno, vel in altero
+            <lb ed="#V" n="60"/>subtraheret debitum.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Dices, potest dominus uti servo non
+            <lb ed="#V" n="62"/>solum ad servitia consueta, sed etiam ad
+            <lb ed="#V" n="63"/>extraordinaria.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Respondeo servitia consueta intelligi in
+            <lb ed="#V" n="65"/>praefato textu, illa quae ex voluntate
+            domi<lb ed="#V" n="66" break="no"/>ni, et jure servitutis praescribuntur;
+            ex<lb ed="#V" n="67" break="no"/>cluduntur tantum illa quae praejudicant
+            <lb ed="#V" n="68"/>libertati servi, et usui necessario
+            matrimo<lb ed="#V" n="69" break="no"/>pii, quia in ordine ad haec impedienda,
+            <lb ed="#V" n="70"/>jus non acquisivit dominus in servum
+            <lb ed="#V" n="71"/>a principio.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>(f) Ex hoc sequitur quod servus potest
+            <lb ed="#V" n="73"/>contrahere cum libera, etc. Hunc casum
+            <lb ed="#V" n="74"/>supra resolvimus dist. 34. et patet ex
+            titu<lb ed="#V" n="75" break="no"/>lo de conjugio servorum, matrimonium
+            <lb ed="#V" n="76"/>esse validum non ignorata conditione; si
+            <lb ed="#V" n="77"/>ignoratur esse invalidum ex defectu
+            con<lb ed="#V" n="78" break="no"/>sensus requisiti, et hoc Jure naturae.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>(g). Sed esto in casu isto contrahant
+            <lb ed="#V" n="80"/>sine, etc. Quaeritur an possint
+            contrahen<lb ed="#V" n="81" break="no"/>tes sive ancilla et servus ( quando invito
+            <lb ed="#V" n="82"/>domino, aut non consentiente contrahunt)
+            <lb ed="#V" n="83"/>possint vendi in diversas partes.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>Respondet inducendos esse dominos
+            <lb ed="#V" n="85"/>ne id faciant, cum contractus sit
+            favorabi<lb ed="#V" n="86" break="no"/>lis. Sed si facerent, non apparet quomodo
+            <lb ed="#V" n="87"/>contra justitiam, supposita servitute,
+            face<lb ed="#V" n="88" break="no"/>rent, quia ex voluntate particulari
+            ipso<pb ed="#V" n="457"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>e rum conjugum non acquirunt jus aliquod
+            <lb ed="#V" n="2"/>s in praejudicium servitutis et dominorum,
+            <lb ed="#V" n="3"/>quod ante non habuerunt, cum domini
+            <lb ed="#V" n="4"/>non consenserint, antea autem id licuit
+            <lb ed="#V" n="5"/>dominis secundum justitiam; ergo etiam
+            <lb ed="#V" n="6"/>nunc. Hanc sententiam tenet Cardinalis
+            <lb ed="#V" n="7"/>in cap. 1. de conjugio servorum, Almainus
+            <lb ed="#V" n="8"/>in hac dist. quaest. unica, art. 3.
+            Supple<lb ed="#V" n="9" break="no"/>mentum Gabrielis quaet. 1. art. 3. dub. 3.
+            <lb ed="#V" n="10"/>conclus. 3. quamvis oppositum probabile
+            <lb ed="#V" n="11"/>etiam sit; Angelus supra citatus, et
+            plu<lb ed="#V" n="12" break="no"/>res alii quos citavimus, maxime si est
+            ne<lb ed="#V" n="13" break="no"/>cessitas vendendi, quamvis haec
+            senten<lb ed="#V" n="14" break="no"/>r tia sit probabilis, tamen quia videtur
+            du<lb ed="#V" n="15" break="no"/>ra, interpretarer Doctorem loqui de
+            ju<lb ed="#V" n="16" break="no"/>stitia politica et civili, quantum ad eam
+            <lb ed="#V" n="17"/>spectat, non esse peccatum sic divendere
+            <lb ed="#V" n="18"/>in partes remotas, quia ratio ejus
+            addu<lb ed="#V" n="19" break="no"/>cta huc spectat.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Caeterum innitendo illi rationi, quam
+            <lb ed="#V" n="21"/>pro secunda conclusione subjicit,
+            dicen<lb ed="#V" n="22" break="no"/>do servos invitis dominis contrahere
+            pos<lb ed="#V" n="23" break="no"/>se, quia aliquod jus sui corporis habent,
+            <lb ed="#V" n="24"/>quo non privantur per servitutem,
+            dicen<lb ed="#V" n="25" break="no"/>dum videtur non posse sic distrahi
+            ma<lb ed="#V" n="26" break="no"/>ritum et uxorem, ut usus matrimonii fiat
+            <lb ed="#V" n="27"/>impossibilis simpliciter, quia corpus servi
+            <lb ed="#V" n="28"/>non subest domino quantum ad
+            liberta<lb ed="#V" n="29" break="no"/>tem sufficientem ad matrimonium, ita ut
+            <lb ed="#V" n="30"/>hoc impedire possit, ita etiam neque
+            <lb ed="#V" n="31"/>quantum ad usum, qui ex tali
+            contra<lb ed="#V" n="32" break="no"/>ctu, considerata conditione servili,
+            se<lb ed="#V" n="33" break="no"/>quitur; ergo nequit habere jus vendendi
+            <lb ed="#V" n="34"/>servum cum impedimento usus
+            matrimo<lb ed="#V" n="35" break="no"/>nii contracti, et sicut Ecclesia tenetur,
+            <lb ed="#V" n="36"/>si fideles sunt, subvenire, ne
+            impedi<lb ed="#V" n="37" break="no"/>mentum statuatur contrahendo, ita etiam
+            <lb ed="#V" n="38"/>ne impedimentum statuatur contracto.
+            <lb ed="#V" n="39"/>Imo judex civilis et Respublica debent
+            <lb ed="#V" n="40"/>subvenire servis conservando eorum
+            <lb ed="#V" n="41"/>jura; erit ergo contra justitiam et
+            cha<lb ed="#V" n="42" break="no"/>ritatem talis venditio. Contra, inquam,
+            <lb ed="#V" n="43"/>justitiam ex ratione allegata Doctoris;
+            <lb ed="#V" n="44"/>contra charitatem ob periculum spirituale
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>utriusque conjugis. Accedit praeterea
+            con<lb ed="#V" n="46" break="no"/>tractum esse favorabilem; sicut ergo non
+            <lb ed="#V" n="47"/>potest dominus praejudicare servo quoad
+            <lb ed="#V" n="48"/>potestatem corporis in ordine ad
+            matri<lb ed="#V" n="49" break="no"/>monium, sic etiam neque praejudicare
+            <lb ed="#V" n="50"/>potest usui talis potestatis.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>Dubitatur an possit maritus vendere se
+            <lb ed="#V" n="52"/>in servitutem vivente uxore? Partem
+            affir<lb ed="#V" n="53" break="no"/>mativam communius tenent Doctores,
+            <lb ed="#V" n="54"/>quos citat Sanchez lib. 7. dist. 23.
+            Caete<lb ed="#V" n="55" break="no"/>rum, salvo meliori judicio, videtur mihi
+            <lb ed="#V" n="56"/>praeferenda sententia Glossae, cap.
+            Perla<lb ed="#V" n="57" break="no"/>tum, 29. quaest. 2. quam tenet etiam
+            no<lb ed="#V" n="58" break="no"/>ster Angles in flor. 4. 1. part. q. 10. de
+            <lb ed="#V" n="59"/>errore conditionis artic. 3. Palacios in 4.
+            <lb ed="#V" n="60"/>disput. 30. Probatur, jura matrimonii
+            <lb ed="#V" n="61"/>obstant primo, quia ex Apostolo: Vir
+            <lb ed="#V" n="62"/>potestatem sui corporis non habet, sed
+            <lb ed="#V" n="63"/>uxor, etc. quia contractus ipse consistit
+            <lb ed="#V" n="64"/>in aequalitate, ut per commutationem sui
+            <lb ed="#V" n="65"/>corporis tantumdem recipiat, quando suo
+            <lb ed="#V" n="66"/>juri non cedit. Secundo, obligatio debiti
+            <lb ed="#V" n="67"/>libera ex primo contractu ei debetur:
+            <lb ed="#V" n="68"/>haec autem nulla ratione compatitur cum
+            <lb ed="#V" n="69"/>obligatione servitutis proprie dictae.
+            Ter<lb ed="#V" n="70" break="no"/>tio, nequit res alterius, sine proprio ejus:
+            <lb ed="#V" n="71"/>consensu disponi aut reddi pejoris
+            condi<lb ed="#V" n="72" break="no"/>tionis et fructus, domino invito, quia
+            <lb ed="#V" n="73"/>haec esset injusta usurpatio rei alienae,
+            <lb ed="#V" n="74"/>nequit dominus praejudicare matrimonio
+            <lb ed="#V" n="75"/>inito in praejudicium contractus, et
+            uxo<lb ed="#V" n="76" break="no"/>ris aut ipsius servi, quamvis in servitute
+            <lb ed="#V" n="77"/>contraxit; ergo neque maritus
+            praejudica<lb ed="#V" n="78" break="no"/>re matrimonio contracto aut conjugi;
+            prae<lb ed="#V" n="79" break="no"/>judicaret autem per servitutem, ut res
+            <lb ed="#V" n="80"/>nota est, quia nequit duobus dominis
+            <lb ed="#V" n="81"/>servire; uxor autem per anticipatum
+            ma<lb ed="#V" n="82" break="no"/>trimonium acquisivit servitutem in corpus
+            <lb ed="#V" n="83"/>mariti, cui praejudicat servitus politica,
+            <lb ed="#V" n="84"/>per quam consueta servitia debet domino,
+            <lb ed="#V" n="85"/>neque implere potest eum satisfactione
+            <lb ed="#V" n="86"/>prioris oneris et obligationis.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>Quinto, non solum tenetur maritus ad
+            <lb ed="#V" n="88"/>debitum quando petitur, sed etiam tenetur
+            <pb ed="#V" n="458"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>non imponere impedimentum, unde
+            red<lb ed="#V" n="2" break="no"/>datur inhabilis ad reddendum quoties
+            ju<lb ed="#V" n="3" break="no"/>ste petitur; ergo neque servitutem
+            super<lb ed="#V" n="4" break="no"/>inducere. Sexto, quia tenetur ad
+            cohabita<lb ed="#V" n="5" break="no"/>tionem thori et domus, quae non patiuntur
+            <lb ed="#V" n="6"/>cum jure servitutis, quo domino
+            adhaere<lb ed="#V" n="7" break="no"/>re tenetur. Septimo, quia sicut nequit
+            di<lb ed="#V" n="8" break="no"/>vortium propria auctoritate, et sine causa
+            <lb ed="#V" n="9"/>facere aut petere, quia hoc est contra
+            per<lb ed="#V" n="10" break="no"/>petuitatem vinculi et obligationes ex eo
+            <lb ed="#V" n="11"/>innatas; servitus autem in parte divortium
+            <lb ed="#V" n="12"/>est, quia separatio thori et cohabitationis.
+            <lb ed="#V" n="13"/>si ita placuerit, et utilitas domini exegerit
+            <lb ed="#V" n="14"/>pro majori tempore.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>Octavo, conditio ignorata, quando
+            an<lb ed="#V" n="16" break="no"/>nullat matrimonium, nequit induci ex sola
+            <lb ed="#V" n="17"/>voluntate alterius, contracto matrimonio;
+            <lb ed="#V" n="18"/>sed servitus ignota annullat matrimonium,
+            <lb ed="#V" n="19"/>ut supra visum est, quia subest fraus,
+            <lb ed="#V" n="20"/>quam non comprehendit consensus
+            sub<lb ed="#V" n="21" break="no"/>stantialiter, et sic deest ipse consensus ob
+            <lb ed="#V" n="22"/>notabilem deceptionem in materia
+            com<lb ed="#V" n="23" break="no"/>mutata; ergo quae contraxit cum libero
+            <lb ed="#V" n="24"/>sciens esse liberum, et nullo modo
+            con<lb ed="#V" n="25" break="no"/>tractura, si esset servus, consensum suum
+            <lb ed="#V" n="26"/>dirigit substantialiter, non solum ad
+            per<lb ed="#V" n="27" break="no"/>sonam, sed etiam ad conditionem ejus;
+            <lb ed="#V" n="28"/>ergo ex vi talis consensus, cui innititur
+            <lb ed="#V" n="29"/>contractus initus, debetur ei corpus li.
+            <lb ed="#V" n="30"/>berum ab omni servitute, sed contractus
+            <lb ed="#V" n="31"/>ille est irrevocabilis; ergo non potest
+            <lb ed="#V" n="32"/>maritus superinducere servitutem
+            matri<lb ed="#V" n="33" break="no"/>monio inito, sine manifesta injuria
+            uxo<lb ed="#V" n="34" break="no"/>ris, cum haec conditio fuerit substantialis
+            <lb ed="#V" n="35"/>in contractu et commutatione, ita ut non
+            <lb ed="#V" n="36"/>solum acquisierit jus per commutationem
+            <lb ed="#V" n="37"/>in corpus ejus, sed etiam in illud, ut erat
+            <lb ed="#V" n="38"/>liberum ab omni onere servitutis.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Nono, tenetur maritus ad bonum prolis,
+            <lb ed="#V" n="40"/>ejusque rectam educationem ad
+            providen<lb ed="#V" n="41" break="no"/>dum uxori et familae, et consequenter ad
+            <lb ed="#V" n="42"/>assistentiam necessariam, quae non
+            com<lb ed="#V" n="43" break="no"/>patiuntur cum servitute; accedit nota
+            in<lb ed="#V" n="44" break="no"/>famiae, et dispendium honoris, quae incurrit
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>uxor ingenua, et proles ejus, ex
+            superin<lb ed="#V" n="46" break="no"/>ducta servitute, et dari pluribus
+            occasi<lb ed="#V" n="47" break="no"/>onem hoc modo, ut subterfugiant onera
+            <lb ed="#V" n="48"/>debita matrimonii. Unde mihi valde
+            du<lb ed="#V" n="49" break="no"/>rum videtur, quod maritus vendens se in
+            <lb ed="#V" n="50"/>servitutem posset venundari in partes
+            re<lb ed="#V" n="51" break="no"/>motas, si uxor eum commode sequi
+            tene<lb ed="#V" n="52" break="no"/>tur, ut dicit Sanchez, quasi ipsa
+            tenere<lb ed="#V" n="53" break="no"/>tur subjicere se damnis et periculis, quae
+            <lb ed="#V" n="54"/>in uxorem servi, atque in alienis partibus,
+            <lb ed="#V" n="55"/>quarum linguam non novit, etiam viro
+            <lb ed="#V" n="56"/>ipsa renitente in servum se vendente,
+            <lb ed="#V" n="57"/>vel quasi fingatur uxor commode posse:
+            <lb ed="#V" n="58"/>sic sequi virum, qui non est casus
+            practi<lb ed="#V" n="59" break="no"/>cus, sed mere speculativus, cum
+            incom<lb ed="#V" n="60" break="no"/>moditas et uxoris et prolis ex migratione
+            <lb ed="#V" n="61"/>longinqua sequendi conditionem servilem
+            <lb ed="#V" n="62"/>illius, a quo ibi commodum reportare non
+            <lb ed="#V" n="63"/>possunt, redundare semper videatur.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Pro opposita sententia non adducitur
+            <lb ed="#V" n="65"/>alia ratio, nisi quod maritus sit caput
+            <lb ed="#V" n="66"/>uxoris, et utatur jure suo, et possit uti
+            <lb ed="#V" n="67"/>sine detrimento debiti conjugalis.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Respondeo hanc suppositionem non
+            <lb ed="#V" n="69"/>esse subsistentem, nempe non frustrari
+            <lb ed="#V" n="70"/>per servitutem debitum conjugale, quod
+            <lb ed="#V" n="71"/>ex primo contractu aequale debetur. Dico
+            <lb ed="#V" n="72"/>ergo esse contra justitiam et fidem datam
+            <lb ed="#V" n="73"/>et leges matrimonii, nec refert quod vir
+            <lb ed="#V" n="74"/>sit caput uxoris, quia id intelligitur quoad
+            <lb ed="#V" n="75"/>ea quae communia sunt in gubernatione
+            <lb ed="#V" n="76"/>familiae et domus, et secluso jure proprio
+            <lb ed="#V" n="77"/>uxoris. Imo videtur magis consentaneum,
+            <lb ed="#V" n="78"/>ut vir possit vendere uxorem ea invita in
+            <lb ed="#V" n="79"/>servitutem, quia sic uteretur re sua et
+            <lb ed="#V" n="80"/>dominio, quod habet in uxorem ejusque
+            <lb ed="#V" n="81"/>corpus, quam quod se ipsum vendere
+            <lb ed="#V" n="82"/>possit, quia nullum habet dominium in
+            <lb ed="#V" n="83"/>corpus sum in praejudicium uxoris, cujus
+            <lb ed="#V" n="84"/>est corpus viri; nullum ergo jus ipsi favet,
+            <lb ed="#V" n="85"/>et contra favent uxori.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Imo illam esse sufficientem causam non
+            <lb ed="#V" n="87"/>solum divortii judico cum Henriquez lib.11
+            <lb ed="#V" n="88"/>de matrimon. c. 10. et Bartholomaeo
+            Ledes<pb ed="#V" n="459"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ma de matrimonio, quaest. 52. et 53. sed
+            <lb ed="#V" n="2"/>etiam negandi debitum conjugale et
+            <lb ed="#V" n="3"/>cohabitationis, ob violatam fidem primi
+            <lb ed="#V" n="4"/>contractus, et propulsandum opprobrium,
+            <lb ed="#V" n="5"/>quod ille contranitente uxore contra jura
+            <lb ed="#V" n="6"/>matrimonii ei debita induxit; nam si
+            po<lb ed="#V" n="7" break="no"/>test negare debitum ob causam
+            subtra<lb ed="#V" n="8" break="no"/>ctorum alimentorum sibi et proli, ut
+            plu<lb ed="#V" n="9" break="no"/>res tenent, eadem ratio currit in
+            propo<lb ed="#V" n="10" break="no"/>sito, cum ob jura servitutis inductae, ipse
+            <lb ed="#V" n="11"/>se privat omni possibilitate alendi
+            uxo<lb ed="#V" n="12" break="no"/>rem et prolem, cum omnia quae acquirat,
+            <lb ed="#V" n="13"/>suo domino acquirat, et nihil uxori, sed
+            <lb ed="#V" n="14"/>sibi tantum necessaria ad
+            sustentati<lb ed="#V" n="15" break="no"/>onem sui.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Dices pretium venditae libertatis posse
+            <lb ed="#V" n="17"/>sufficere uxori ad alimoniam.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Respondeo, si ratio prioris sententiae
+            <lb ed="#V" n="19"/>subsistat, eum se posse gratis constituere
+            <lb ed="#V" n="20"/>servum, quia sic utitur jure suo, neque
+            <lb ed="#V" n="21"/>adeo tribuendum est potestati viri in
+            uxo<lb ed="#V" n="22" break="no"/>rem, ut Sacramento et debito uxoris
+            de<lb ed="#V" n="23" break="no"/>trahatur, cum ex prima institutione
+            Sacra<lb ed="#V" n="24" break="no"/>menti: Vir relinquere debeat patrem et
+            <lb ed="#V" n="25"/>matrem, etc. et adhaerere uxori suae; ergo
+            <lb ed="#V" n="26"/>si major haec sit conjunctio, si filius sub
+            <lb ed="#V" n="27"/>potestate patris constitutus nequeat
+            se<lb ed="#V" n="28" break="no"/>ipsum vendere parte renitente, minus
+            <lb ed="#V" n="29"/>potest renitente uxore. Quod autem
+            dici<lb ed="#V" n="30" break="no"/>tur sufficere ne ipsi subtrahat debitum
+            <lb ed="#V" n="31"/>conjugale, vel impedimentum ei statuat
+            <lb ed="#V" n="32"/>ob periculum fornicationis, non subsistit,
+            <lb ed="#V" n="33"/>quia ei impedimentum statuit, prout ex
+            <lb ed="#V" n="34"/>vi prioris contractus ei debetur, qui initus
+            <lb ed="#V" n="35"/>est cum libero, acquirendo dominium, et
+            <lb ed="#V" n="36"/>illud transferendo, sine ullo onere aut
+            <lb ed="#V" n="37"/>impedimento. Amplius etiam dico non ex
+            <lb ed="#V" n="38"/>hoc solo venditionem esse contra
+            justi<lb ed="#V" n="39" break="no"/>tiam, sed ex aliis etiam causis educationis
+            <lb ed="#V" n="40"/>prolis debitae, gubernationis et
+            assisten<lb ed="#V" n="41" break="no"/>tiae, alimoniarum et cohabitationis. Unde
+            <lb ed="#V" n="42"/>si in casu redderetur impotens post
+            con<lb ed="#V" n="43" break="no"/>tractum matrimonium et consummatum,
+            <lb ed="#V" n="44"/>adhuc non posset se vendere renitente
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>uxore, sicut neque separare aut ingredi
+            <lb ed="#V" n="46"/>Religionem, aut suscipere sacros Ordines,
+            <lb ed="#V" n="47"/>quibus tamen contractus magis favet
+            <lb ed="#V" n="48"/>quam servituti voluntariae inductae, qua
+            <lb ed="#V" n="49"/>posita, redditur inhabilis uxori ad
+            <lb ed="#V" n="50"/>usum matrimonii, sive debiti, dato quod
+            <lb ed="#V" n="51"/>sit factus impotens, sive ad alia commoda
+            <lb ed="#V" n="52"/>enumerata, quibus procurandis tenetur.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>(h) Sed si ancilla credit contrahere, etc.
+            <lb ed="#V" n="54"/>De hoc casu videantur dicta dist. 30.
+            <lb ed="#V" n="55"/>quaest. 1. circa errorem conditionis.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>(i) Ad argumentum, patet ex littera et
+            <lb ed="#V" n="57"/>ex dictis.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

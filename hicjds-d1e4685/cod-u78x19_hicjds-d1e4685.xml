@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 36, Quaestio 2</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 36, Quaestio 2</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x19">Vives, Paris, 1894, volume 19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="460"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e4685"><!-- hicjds-b4d36q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum aetas puerilis possit impedire matrimonium</head>
+        <!-- <div alias="hiq-d36q2-p1"> -->
+          <p>
+            <pb ed="#V" n="460"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=460"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="2"/>(a) Secundo quaero, utrum aetas, etc. De
+            <lb ed="#V" n="3"/>impotentia puerilis aetatis ad
+            contrahen<lb ed="#V" n="4" break="no"/>dum agit Magister in calce hujus
+            quaesti<lb ed="#V" n="5" break="no"/>onis, ideo de ca breviter Doctor hic agit.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d36q2-p2"> -->
+          <p>
+            <lb ed="#V" n="54" type="fixed=460"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>(b) Respondeo, sicut dictum est
+            su<lb ed="#V" n="56" break="no"/>pra, etc. Conclusio haec est communis,
+            <lb ed="#V" n="57"/>patet ex cap. Quod sedem, etc. de frigidis
+            <lb ed="#V" n="58"/>et maleficiatis, etc. Probat Doctor ratione,
+            <lb ed="#V" n="59"/>quia sicut impotentia perpetua inhabilitat
+            <lb ed="#V" n="60"/>ad matrimonium, ita etiam impotentia ad
+            <lb ed="#V" n="61"/>tempus in pueris similiter inhabilitat,
+            <lb ed="#V" n="62"/>quia contractus de praesenti debet esse
+            <lb ed="#V" n="63"/>datio corporis potentis aut habilis ad
+            ge<lb ed="#V" n="64" break="no"/>nerationem. Videtur ergo reducere hoc
+            <lb ed="#V" n="65"/>impedimentum ad Jus naturale et
+            divi<lb ed="#V" n="66" break="no"/>num, perinde ac reducitur impotentia
+            per<lb ed="#V" n="67" break="no"/>petua, et non ad jus positivum, sicut
+            <lb ed="#V" n="68"/>infra dist. 42. quaest. unica, 5 In speciali
+            <lb ed="#V" n="69"/>autem, etc. eam comprehendit sub
+            impe<lb ed="#V" n="70" break="no"/>dimento impotentiae.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Contrarium docent plures apud Sanchez
+            <lb ed="#V" n="72"/>lib. 7. disput. 404. quaest. 1. num. 9. esse
+            <lb ed="#V" n="73"/>impedimentum Juris Ecclesiastici et
+            posi<lb ed="#V" n="74" break="no"/>tivi. Ratio tamen Doctoris est optima, quia
+            <lb ed="#V" n="75"/>nequit esse materia habilis ad
+            contra<lb ed="#V" n="76" break="no"/>ctum de praesenti corpus pueri.
+            Confirma<lb ed="#V" n="77" break="no"/>tur, materia apta huic commutationi
+            de<lb ed="#V" n="78" break="no"/>bet esse capax obligationis de praesenti,
+            <lb ed="#V" n="79"/>quam inducit contractus, si absit
+            ignoran<lb ed="#V" n="80" break="no"/>tia; sed notum est corpus pueri, quando
+            <lb ed="#V" n="81"/>malitia non supplet aetatem, non esse
+            <lb ed="#V" n="82"/>aptam materiam aut capacem obligationis
+            <lb ed="#V" n="83"/>hujus contractus; ergo neque ipsius
+            con<lb ed="#V" n="84" break="no"/>tractus.
+          </p>
+          <p>
+            <pb ed="#V" n="461"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Dices impedimentum temporale non
+            <lb ed="#V" n="2"/>dirimere matrimonium, ut supra visum
+            <lb ed="#V" n="3"/>dist. 34. quaest. unic. Sed hoc
+            impedimen<lb ed="#V" n="4" break="no"/>tum pueri est temporale, quod cessat
+            <lb ed="#V" n="5"/>perveniente puero ad pubertatem; ergo
+            <lb ed="#V" n="6"/>valet matrimonium.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Contra, ideo dixi requiri, ut absit
+            igno<lb ed="#V" n="8" break="no"/>rantia, quia impedimentum temporale in
+            <lb ed="#V" n="9"/>adultis ideo non dirimit, quia est ignotum,
+            <lb ed="#V" n="10"/>et non praesumitur, et consensus
+            dirigi<lb ed="#V" n="11" break="no"/>tur ad personam habilem secundum
+            cur<lb ed="#V" n="12" break="no"/>sum communem et praesumptionem
+            fun<lb ed="#V" n="13" break="no"/>datam in principiis naturae, et capacitas
+            <lb ed="#V" n="14"/>materiae stat in opinione, quod sufficit ut
+            <lb ed="#V" n="15"/>contractus inducat obligationem de
+            prae<lb ed="#V" n="16" break="no"/>senti, et expectetur sublatio impedimenti
+            <lb ed="#V" n="17"/>casualis, quia contractus hic regulatur
+            <lb ed="#V" n="18"/>per ea quae communiter accidunt, et non
+            <lb ed="#V" n="19"/>per casuale non perpetuum; et sic non
+            <lb ed="#V" n="20"/>inducit ex lege sua obligationem, quia
+            <lb ed="#V" n="21"/>materia est capax secundum
+            aestima<lb ed="#V" n="22" break="no"/>tionem fundatam, sed in pueris
+            impedi<lb ed="#V" n="23" break="no"/>mentum de praesenti est notum; ergo
+            <lb ed="#V" n="24"/>contractus, qui est de praesenti neque in
+            <lb ed="#V" n="25"/>re, neque in opinione subsistit ad
+            mate<lb ed="#V" n="26" break="no"/>riam capacem contractus, ut de lege
+            na<lb ed="#V" n="27" break="no"/>turae, et divina inducit obligationem de
+            <lb ed="#V" n="28"/>praesenti ipsius contractus; ergo lex ipsa
+            <lb ed="#V" n="29"/>excludit pueros, de quorum impedimento
+            <lb ed="#V" n="30"/>est certa scientia, quamvis non excludat
+            <lb ed="#V" n="31"/>adultos, de quibus nequit esse cognitio,
+            <lb ed="#V" n="32"/>neque praesumi debet ex principiis
+            na<lb ed="#V" n="33" break="no"/>turae.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>Confirmatur, contractus matrimonii, et
+            <lb ed="#V" n="35"/>de praesenti debet celebrari ut valeat, et
+            <lb ed="#V" n="36"/>in ordine ad finem institutum matrimonii,
+            <lb ed="#V" n="37"/>quae est propagatio; ergo ubi certum est
+            <lb ed="#V" n="38"/>de praesenti finem non posse conjungi
+            <lb ed="#V" n="39"/>contractu, sicut est certum in pueris, non
+            <lb ed="#V" n="40"/>ita conjungi posse; nequit ergo fieri
+            con<lb ed="#V" n="41" break="no"/>tractus de praesenti inter pueros
+            conjun<lb ed="#V" n="42" break="no"/>ctus cum fine suo; ergo etiam neque
+            obli<lb ed="#V" n="43" break="no"/>gatio connaturalis contractui esse de
+            prae<lb ed="#V" n="44" break="no"/>senti. Probatur consequentia, quia
+            con<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>tractus ex natura sua non suspendit
+            <lb ed="#V" n="46"/>obligationem pro futuro, sed eam inducit
+            <lb ed="#V" n="47"/>de praesenti; ergo ad hoc requiritur
+            mate<lb ed="#V" n="48" break="no"/>ria apta in re aut praesumptione ut
+            veri<lb ed="#V" n="49" break="no"/>ficetur, vel teneat ipse contractus de
+            prae<lb ed="#V" n="50" break="no"/>senti inducens obligationem; ac proinde
+            <lb ed="#V" n="51"/>ubi est certum materiam non esse aptam
+            <lb ed="#V" n="52"/>de praesenti, nequit contractus de praesenti
+            <lb ed="#V" n="53"/>in eadem materia incapaci in re et
+            aesti<lb ed="#V" n="54" break="no"/>matione celebrari, quamvis sit capax
+            con<lb ed="#V" n="55" break="no"/>tractus de futuro.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Dices, eo ipso quo pueri sunt,
+            contra<lb ed="#V" n="57" break="no"/>hens cum illis, aut ipsi inter se cedunt
+            <lb ed="#V" n="58"/>juri suo, nempe petendi debiti; debitum
+            <lb ed="#V" n="59"/>vero non obligat, nisi quando petitur; ergo
+            <lb ed="#V" n="60"/>potest salvari obligatio de praesenti in
+            <lb ed="#V" n="61"/>tali matrimonio, quamvis suspendatur
+            de<lb ed="#V" n="62" break="no"/>bitum usque ad tempus idoneum.
+            <lb ed="#V" n="63"/>Contra, nullus juri suo cedit, nisi ubi
+            <lb ed="#V" n="64"/>jus ipsum acquiritur; ergo nequit
+            inter<lb ed="#V" n="65" break="no"/>pretari cessio juris, sed impedimentum
+            <lb ed="#V" n="66"/>juris acquirendi de praesenti, et
+            conse<lb ed="#V" n="67" break="no"/>quenter contractus.
+            <lb ed="#V" n="68"/>Secundo, in cap. Quod sedem, de
+            fri<lb ed="#V" n="69" break="no"/>gidis et maleficiatis, aequiparatur puer,
+            <lb ed="#V" n="70"/>quantum ad impotentiam et inhabilitatem
+            <lb ed="#V" n="71"/>contrahendi impotentiae perpetuae: Sicut,
+            <lb ed="#V" n="72"/>inquit Pontifex, puer, qui non potest
+            red<lb ed="#V" n="73" break="no"/>dere debitum, non est aptus conjugio, sic
+            <lb ed="#V" n="74"/>qui impotentes sunt, minime apti ad
+            con<lb ed="#V" n="75" break="no"/>trahenda matrimonia reputantur, etc. ita
+            <lb ed="#V" n="76"/>Alexander III. Idem etiam cap. Nobis, etc.
+            <lb ed="#V" n="77"/>de sponsalibus impuberum, etc. rogatus
+            <lb ed="#V" n="78"/>an qui ante annos nubiles, id est, aptos
+            <lb ed="#V" n="79"/>matrimonio, contrahunt, liceat iis a
+            matri<lb ed="#V" n="80" break="no"/>monio discedere.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Respondet, quod pro eo quod ante
+            nu<lb ed="#V" n="82" break="no"/>biles annos conjugalem consensum non
+            ha<lb ed="#V" n="83" break="no"/>beat, aetatem expectare tenetur, etc. ubi
+            <lb ed="#V" n="84"/>per conjugalem consensum, intelligit
+            il<lb ed="#V" n="85" break="no"/>lum, qui fit inter aptos matrimonio,
+            se<lb ed="#V" n="86" break="no"/>clusa impotentia reddendi debitum; non
+            <lb ed="#V" n="87"/>aut em consensum, qui potest esse liber,
+            <lb ed="#V" n="88"/>et ex discretione, quia illum possunt
+            <pb ed="#V" n="462"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>habere ante discretionem. Unde postea
+            <lb ed="#V" n="2"/>subjungit, si pervenientes ad annos
+            dis<lb ed="#V" n="3" break="no"/>cretionis, simul esse noluerint ut
+            sepa<lb ed="#V" n="4" break="no"/>rentur: Nisi, inquit, carnalis commixtio
+            <lb ed="#V" n="5"/>ante intervenerit, cum interdum illa tempus
+            <lb ed="#V" n="6"/>anticipare soleat pubertatis, etc. Haec
+            <lb ed="#V" n="7"/>exceptio est ratione potentiae reddendi
+            <lb ed="#V" n="8"/>debiti, quatenus inest ante annos
+            puberta<lb ed="#V" n="9" break="no"/>tis; ergo a contrario sensu ideo non sunt
+            <lb ed="#V" n="10"/>capaces consensus matrimonialis ante
+            <lb ed="#V" n="11"/>annos pubertatis, quia sunt impotentes.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Idem etiam cap. De illis, etc. eodem. etc.
+            <lb ed="#V" n="13"/>de illis qui in minori aetate desponsantur,
+            <lb ed="#V" n="14"/>respondet, quod si ita fuerint aetati
+            pro<lb ed="#V" n="15" break="no"/>ximi, quod potuerint copula carnali
+            con<lb ed="#V" n="16" break="no"/>jungi, minoris aetatis intuitu separari non
+            <lb ed="#V" n="17"/>debent, si unus in alium visus fuerit
+            con<lb ed="#V" n="18" break="no"/>sensisse, etc. et dat rationem, cum in eis
+            <lb ed="#V" n="19"/>aetatem supplevisse malitia videatur, ubi
+            <lb ed="#V" n="20"/>Glossa in illud: Copula carnali, etc. Hoc
+            <lb ed="#V" n="21"/>solum, inquit, consideratur, ut possint
+            <lb ed="#V" n="22"/>conjugali vinculo sociari, etc. Malitia autem
+            <lb ed="#V" n="23"/>hic intelligitur ipsa conjunctio carnalis, ut
+            <lb ed="#V" n="24"/>ibidem Glossa; et ita tenet Hostiensis cap.
+            <lb ed="#V" n="25"/>Puberes, eod. Cardinalis, Praeposit.
+            Henri<lb ed="#V" n="26" break="no"/>cus, Anchar. Joan. Andreas cap.
+            Contine<lb ed="#V" n="27" break="no"/>batur, etc. eodem, etc. et alii plures
+            Cano<lb ed="#V" n="28" break="no"/>nistae, quamvis alibi intelligatur
+            pruden<lb ed="#V" n="29" break="no"/>tia; nullitas ergo matrimonii reducitur
+            <lb ed="#V" n="30"/>in impotentiam pueri, quae si absit ante
+            <lb ed="#V" n="31"/>annos pubertatis valide contrahet, quod
+            <lb ed="#V" n="32"/>supponitur cap. Attestationes, et cap. Ex
+            <lb ed="#V" n="33"/>litteris, eodem.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>Confirmatur cap. Puberes, eodem:
+            Cer<lb ed="#V" n="35" break="no"/>tum autem est, eum puberem esse, qui ex
+            <lb ed="#V" n="36"/>habitu corporis pubertatem ostendit, et
+            ge<lb ed="#V" n="37" break="no"/>nerare jam potest, et puerperae sunt, quae
+            <lb ed="#V" n="38"/>in annis puerilibus pariunt, etc. Unde
+            col<lb ed="#V" n="39" break="no"/>ligitur Canones Ecclesiae in hac materia
+            <lb ed="#V" n="40"/>de sponsalibus impuberum non esse
+            Con<lb ed="#V" n="41" break="no"/>stitutiones, sed declarationes Juris
+            natura<lb ed="#V" n="42" break="no"/>lis, quatenus matrimonium requirit
+            mate<lb ed="#V" n="43" break="no"/>riam capacem hujus obligationis de
+            prae<lb ed="#V" n="44" break="no"/>senti, ut dicit Doctor; ex cujus defectu
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Ecclesia declarat matrimonium esse
+            nul<lb ed="#V" n="46" break="no"/>lum in pueris, nisi malitia et pubertas
+            <lb ed="#V" n="47"/>praevenerit aetatem, et supponatur
+            poten<lb ed="#V" n="48" break="no"/>tia ad generandum.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>Tertio, quia vel ex defectu consensus
+            <lb ed="#V" n="50"/>requisiti, vel ex defectu potentiae pueri
+            <lb ed="#V" n="51"/>sunt inhabiles ad matrimonium, quorum
+            <lb ed="#V" n="52"/>utrumque perinde dirimit matrimonium,
+            <lb ed="#V" n="53"/>ex divina et naturali institutione, non ex
+            <lb ed="#V" n="54"/>defectu consensus, etiam praesumpti ab
+            <lb ed="#V" n="55"/>Ecclesia, quia qui potest habere
+            discreti<lb ed="#V" n="56" break="no"/>onem et consensum idoneum ad
+            sponsa<lb ed="#V" n="57" break="no"/>lia, potest etiam habere consensum ad
+            <lb ed="#V" n="58"/>matrimonium sufficientem, perinde est
+            <lb ed="#V" n="59"/>quantum ad libertatem et discretionem
+            <lb ed="#V" n="60"/>requisitam, ut contractus sit de praesenti
+            <lb ed="#V" n="61"/>aut futuro. Sed sponsalia possunt
+            contra<lb ed="#V" n="62" break="no"/>hi ante annos pubertatis, non ita
+            matrimo<lb ed="#V" n="63" break="no"/>nium, nisi pubertas praeveniat annos, et
+            <lb ed="#V" n="64"/>tunc matrimonium est validum; ergo
+            so<lb ed="#V" n="65" break="no"/>lum ex defectu pubertatis pueri sunt
+            <lb ed="#V" n="66"/>incapaces matrimonii, et ideo anni
+            nubi<lb ed="#V" n="67" break="no"/>les dicuntur anni pubertatis, quia haec jure
+            <lb ed="#V" n="68"/>divino et naturali exigitur ad contractum
+            <lb ed="#V" n="69"/>matrimonii; unde in cap. Quod autem, 27.
+            <lb ed="#V" n="70"/>quaest. 2. et 33. quaest. 1. nubere pro
+            co<lb ed="#V" n="71" break="no"/>pula sumitur.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Ex his patet ad fundamenta oppositae
+            <lb ed="#V" n="73"/>sententiae.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Objiciunt enim primo illud quod est
+            <lb ed="#V" n="75"/>supra impugnatum, nempe impotentiam
+            <lb ed="#V" n="76"/>temporariam non dirimere matrimonium;
+            <lb ed="#V" n="77"/>sed talis est in pueris; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>Respondetur, quando est nota et certa,
+            <lb ed="#V" n="79"/>nego; quando ignota, et praesumitur
+            po<lb ed="#V" n="80" break="no"/>tentia in opinione, concedo. Pueri autem
+            <lb ed="#V" n="81"/>impotentia est per se nota, eamque
+            Ponti<lb ed="#V" n="82" break="no"/>fex supra comparat impotentiae frigidi et
+            <lb ed="#V" n="83"/>maleficiati perpetuae, quantum ad
+            inhabi<lb ed="#V" n="84" break="no"/>litatem et incapacitatem contractus de
+            <lb ed="#V" n="85"/>praesenti; si non placet haec responsio,
+            se<lb ed="#V" n="86" break="no"/>quere aliam proximam.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>Objiciunt secundo, impotentia quae
+            di<lb ed="#V" n="88" break="no"/>rimit matrimonium, debet esse talis, ut
+            <pb ed="#V" n="463"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>natura aut arte nequeat superari, sed
+            <lb ed="#V" n="2"/>tantum per miraculum; at impotentia
+            <lb ed="#V" n="3"/>pueri potest superari, quia ipsi naturae et
+            <lb ed="#V" n="4"/>tempori cedit; ergo.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Respondetur majorem intelligi, quando
+            <lb ed="#V" n="6"/>impotentia praesumitur non esse, dum
+            <lb ed="#V" n="7"/>contrahitur, quia tunc consensus subsistit
+            <lb ed="#V" n="8"/>ad materiam capacem, et in reipsa
+            quan<lb ed="#V" n="9" break="no"/>tum est ex principiis ejus intrinsecis,
+            li<lb ed="#V" n="10" break="no"/>cet casualiter et per accidens impediatur,
+            <lb ed="#V" n="11"/>et etiam in opinione. Sed aliud est de
+            <lb ed="#V" n="12"/>pueris, qui inhabiles sunt, non solum
+            ca<lb ed="#V" n="13" break="no"/>sualiter et per accidens, sed etiam ex
+            <lb ed="#V" n="14"/>principiis intrinsecis et causis
+            universali<lb ed="#V" n="15" break="no"/>bus, atque id notum est; lex autem
+            matri<lb ed="#V" n="16" break="no"/>monii respicit ea quae ordinario accidunt,
+            <lb ed="#V" n="17"/>non autem quae casualiter ex dispositione
+            <lb ed="#V" n="18"/>accidentali. Unde aliud est considerare
+            <lb ed="#V" n="19"/>potentiam generativam, ut conceditur a
+            <lb ed="#V" n="20"/>natura in principiis proximis; aliud vero
+            <lb ed="#V" n="21"/>ut tantum conceditur in principiis remotis,
+            <lb ed="#V" n="22"/>pueris tantum conceditur in principiis
+            <lb ed="#V" n="23"/>remotis, et non in proximis; adultis
+            <lb ed="#V" n="24"/>vero, quibus inest impedimentum ad
+            tem<lb ed="#V" n="25" break="no"/>pus, conceditur in principiis proximis, et
+            <lb ed="#V" n="26"/>usus tantum impeditur quoad tempus,
+            <lb ed="#V" n="27"/>a ideo sunt materia capax hujus
+            commuta<lb ed="#V" n="28" break="no"/>tionis, quia impotentia eorum est tantum
+            <lb ed="#V" n="29"/>secundum quid, et superabilis. Pueri
+            <lb ed="#V" n="30"/>autem, quibus non est concessa potentia
+            <lb ed="#V" n="31"/>generativa in principiis proximis, sunt
+            in<lb ed="#V" n="32" break="no"/>capaces simpliciter, et impotentes
+            negati<lb ed="#V" n="33" break="no"/>ve, quia nunquam receperunt potentiam
+            <lb ed="#V" n="34"/>generandi in causis proximis, neque ejus
+            <lb ed="#V" n="35"/>a erant capaces. Materia autem hujus
+            com<lb ed="#V" n="36" break="no"/>mutationis est corpus potens, saltem
+            po<lb ed="#V" n="37" break="no"/>tentia proxima in causis, quamvis per
+            ac<lb ed="#V" n="38" break="no"/>cidens impediatur quoad tempus ab usu;
+            <lb ed="#V" n="39"/>ideoque qui simpliciter sunt potentes, et
+            <lb ed="#V" n="40"/>secundum quid tantum impotentes,
+            capa<lb ed="#V" n="41" break="no"/>ces sunt obligationis, quod nequit dici de
+            <lb ed="#V" n="42"/>pueris, quia licet habituri sunt potentiam,
+            <lb ed="#V" n="43"/>tamen quia eam nunquam habuerunt,
+            <lb ed="#V" n="44"/>neque jam habent in causis proximis,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>ideo nequeunt dici potentes simpliciter,
+            <lb ed="#V" n="46"/>cap. Ergo fraternitatis tuae, etc. de
+            frigi<lb ed="#V" n="47" break="no"/>dis et maleficiatis, etc. ubi discernitur
+            per<lb ed="#V" n="48" break="no"/>petua impotentia illa, quae neque natura,
+            <lb ed="#V" n="49"/>neque arte auferri potest, et ex contrario
+            <lb ed="#V" n="50"/>sensu illam esse temporalem non
+            diri<lb ed="#V" n="51" break="no"/>mentem, quae auferri potest, intelligitur
+            <lb ed="#V" n="52"/>tantum respective ad adultos, et non ad
+            <lb ed="#V" n="53"/>pueros, qui vel lege naturali, ut nos
+            dici<lb ed="#V" n="54" break="no"/>mus, vel Ecclesiastica, ut alii volunt, ad
+            <lb ed="#V" n="55"/>matrimonium sunt inhabiles, non ergo
+            <lb ed="#V" n="56"/>comprehenduntur in illo titulo;
+            disparita<lb ed="#V" n="57" break="no"/>tem autem assignavimus inter
+            ipsos<lb ed="#V" n="58" break="no"/>et adultos impeditos casualiter ab usu
+            <lb ed="#V" n="59"/>potentiae, et tantum ad tempus. Et sic
+            in<lb ed="#V" n="60" break="no"/>fantes ex eo praecise quod recipiunt
+            in<lb ed="#V" n="61" break="no"/>tellectum et voluntatem, et consequenter
+            <lb ed="#V" n="62"/>potentiam remotam consensus, non recte
+            <lb ed="#V" n="63"/>per hoc dicuntur habere potentiam
+            con<lb ed="#V" n="64" break="no"/>sentiendi requisitam ad contractum, ita
+            <lb ed="#V" n="65"/>etiam neque materia contractus, quae
+            de<lb ed="#V" n="66" break="no"/>bet esse corpus capax obligationis, et
+            <lb ed="#V" n="67"/>idoneum generationi, potest dici materia
+            <lb ed="#V" n="68"/>sufficiens per potentiam in causis
+            re<lb ed="#V" n="69" break="no"/>motis.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Objiciunt tertio, quia qui non est
+            sol<lb ed="#V" n="71" break="no"/>vendo, potest recipere obligationem
+            sol<lb ed="#V" n="72" break="no"/>vendi pro futuro; ergo etiam puer.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Respondetur negando consequentiam
+            <lb ed="#V" n="74"/>et paritatem, quia hic ex vi contractus
+            <lb ed="#V" n="75"/>matrimonialis requiritur ut sit potens
+            sol<lb ed="#V" n="76" break="no"/>vere de praesenti, quia obligatio quam
+            <lb ed="#V" n="77"/>incurrit, est pro praesenti, ut patet ex
+            di<lb ed="#V" n="78" break="no"/>ctis; neque suspenditur obligatio pro
+            <lb ed="#V" n="79"/>futuro, licet possit non reddi debitum pro
+            <lb ed="#V" n="80"/>praesenti ex consensu partium, aut
+            impe<lb ed="#V" n="81" break="no"/>dimento legis, non tamen ex incapacitate
+            <lb ed="#V" n="82"/>de praesenti inducitur suspensio pro
+            fu<lb ed="#V" n="83" break="no"/>turo, quia quando contractus est nullus
+            <lb ed="#V" n="84"/>ex defectu materiae, de qua agimus, non
+            <lb ed="#V" n="85"/>inducitur jus quod suspendi posset quoad
+            <lb ed="#V" n="86"/>usum manente obligatione. Hinc
+            rejiciun<lb ed="#V" n="87" break="no"/>tur corollaria quae deducit Sanchez,
+            nem<lb ed="#V" n="88" break="no"/>pe Pontificem posse dispensare, ut pueri
+            <pb ed="#V" n="464"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ante pubertatem contraherent, aut
+            infide<lb ed="#V" n="2" break="no"/>les sic contrahentes inire verum
+            matrimo<lb ed="#V" n="3" break="no"/>nium, quia legibus Ecclesiae non tenentur,
+            <lb ed="#V" n="4"/>aut etiam Episcopos in hoc impedimento
+            <lb ed="#V" n="5"/>posse dispensare ex causa.
+            <lb ed="#V" n="6"/>(c) Ideo potest nunc promittere potentiam
+            <lb ed="#V" n="7"/>pro tempore futuro, etc. Hoc patet ex
+            titu<lb ed="#V" n="8" break="no"/>lo de sponsalibus impuberum, quia etiam
+            <lb ed="#V" n="9"/>matrimonium initum per verba de
+            praesen<lb ed="#V" n="10" break="no"/>ti inter impuberes, aliqui dicunt potestate
+            <lb ed="#V" n="11"/>Juris habere vim sponsalium, ut Glossa in
+            <lb ed="#V" n="12"/>cap. A nobis, quia Jura volunt, ut is
+            con<lb ed="#V" n="13" break="no"/>tractus, qui in usu est, valeat, non valet ut
+            <lb ed="#V" n="14"/>matrimonialis ex defectu aetatis; valere
+            <lb ed="#V" n="15"/>ergo tantum potest ut sponsalitius. Sed
+            <lb ed="#V" n="16"/>probabile etiam est non esse sponsalitium,
+            <lb ed="#V" n="17"/>quia nisi confirment matrimonium,
+            quan<lb ed="#V" n="18" break="no"/>do perveniunt ad legitimam aetatem,
+            Cano<lb ed="#V" n="19" break="no"/>nes permittunt ut ad alia vota transeant
+            <lb ed="#V" n="20"/>libere altero resiliente, quae permissio
+            lo<lb ed="#V" n="21" break="no"/>cum non haberet, si matrimonium
+            praece<lb ed="#V" n="22" break="no"/>dens haberet vim sponsaliorum. Deinde,
+            <lb ed="#V" n="23"/>non minus requiritur consensus ad
+            spon<lb ed="#V" n="24" break="no"/>salia quam ad matrimonium; ad
+            matrimo<lb ed="#V" n="25" break="no"/>nium autem de praesenti requiritur, et
+            <lb ed="#V" n="26"/>non extenditur talis consensus ad futurum,
+            <lb ed="#V" n="27"/>neque Jura videntur eam potestatem
+            ha<lb ed="#V" n="28" break="no"/>bere, vel saltem exercere in praejudicium
+            <lb ed="#V" n="29"/>consensus liberi et requisiti, neque
+            trahe<lb ed="#V" n="30" break="no"/>re consensum illum de praesenti, ut fiat
+            <lb ed="#V" n="31"/>consensus sponsalitius, et vim habeat
+            <lb ed="#V" n="32"/>consensus de futuro, et si haberet,
+            Eccle<lb ed="#V" n="33" break="no"/>sia non faciliter permitteret, reclamante
+            <lb ed="#V" n="34"/>parte, rescissionem contractus. Pro priori
+            <lb ed="#V" n="35"/>sententia facit cap. fin. de sponsal.
+            impu<lb ed="#V" n="36" break="no"/>berum.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>(d) Ratio autem quae ibi ponitur, etc. Hic
+            <lb ed="#V" n="38"/>breviter tangit fundamentum aliorum, quo
+            <lb ed="#V" n="39"/>putant matrimonium impuberum esse
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="40"/>nullum ex defectu consensus et
+            discretio<lb ed="#V" n="41" break="no"/>nis ante pubertatem; improbat autem ex
+            <lb ed="#V" n="42"/>eo quod prius habere possit discretionem
+            <lb ed="#V" n="43"/>sufficienter ad matrimonii intentionem,
+            <lb ed="#V" n="44"/>quam sit materia capax in ipso, id est,
+            <lb ed="#V" n="45"/>potentia proxima generandi.
+            <lb ed="#V" n="46"/>Objicies capitulum finale jam citatum,
+            <lb ed="#V" n="47"/>in quo ponderatur an puella contrahens
+            <lb ed="#V" n="48"/>proxima pubertati, habuerit prudentiam,
+            <lb ed="#V" n="49"/>quae suppleret aetatem? et cap.
+            Contine<lb ed="#V" n="50" break="no"/>batur etc. eodem, ponderat puellam, ut
+            <lb ed="#V" n="51"/>proxima erat pubertati; ergo ad
+            consen<lb ed="#V" n="52" break="no"/>sum matrimonialem requiritur discretio
+            <lb ed="#V" n="53"/>major, ex cujus defectu non possit esse
+            <lb ed="#V" n="54"/>consensus.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Respondetur ante annos pubertatis
+            suf<lb ed="#V" n="56" break="no"/>ficientem discretionem habere posse, quo
+            <lb ed="#V" n="57"/>discernat obligationem et finem
+            contra<lb ed="#V" n="58" break="no"/>ctus, et hanc sufficere ad consensum,
+            <lb ed="#V" n="59"/>quamvis nondum insit pubertas. In primo
+            <lb ed="#V" n="60"/>autem loco citato ex cap. finali, per
+            pru<lb ed="#V" n="61" break="no"/>dentiam in muliere intelligitur ipsa
+            puber<lb ed="#V" n="62" break="no"/>tas, seu concupiscentia, ut dicit Glossa,
+            <lb ed="#V" n="63"/>carnalis, quia in foeminis illo modo
+            loquen<lb ed="#V" n="64" break="no"/>di honesto explicatur, et praesumitur ex
+            <lb ed="#V" n="65"/>maturitate et discretione; in viris
+            appel<lb ed="#V" n="66" break="no"/>latur malitia. Ad secundum locum per
+            <lb ed="#V" n="67"/>proximationem pubertati. comprehenditur
+            <lb ed="#V" n="68"/>acceleratio ejus et capacitas matrimonii,
+            <lb ed="#V" n="69"/>ut requiritur in puella, aut ejus
+            praesum<lb ed="#V" n="70" break="no"/>ptio.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>(e) Si quaeras tempus pubertatis, etc.
+            <lb ed="#V" n="72"/>Hoc tempus praescriptum est Jure civili,
+            <lb ed="#V" n="73"/>et etiam Canonico, cap. Puberes, cap.
+            <lb ed="#V" n="74"/>Continebatur cap. Ex cap. litteris,
+            Attes<lb ed="#V" n="75" break="no"/>tationes, etc. de sponsalibus
+            impube<lb ed="#V" n="76" break="no"/>rum, etc. quando malitia non supplet
+            <lb ed="#V" n="77"/>aetatem. Caetera patent ex littera.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

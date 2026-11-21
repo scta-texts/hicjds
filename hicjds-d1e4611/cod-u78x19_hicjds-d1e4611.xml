@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 33, Quaestio 2</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 33, Quaestio 2</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x19">Vives, Paris, 1894, volume 19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="374"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e4611"><!-- hicjds-b4d33q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum 'bigamus ante baptismum' possit post baptismum ad sacros Ordines promoveri</head>
+        <!-- <div alias="hiq-d33q2-p1"> -->
+          <p>
+            <lb ed="#V" n="63" type="fixed=374"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>(1) Ad secundum arguitur, etc. In hac
+            <lb ed="#V" n="65"/>quaestione agit de irregularitate ex
+            biga<lb ed="#V" n="66" break="no"/>mia, an per Baptismum tollatur, et tangit
+            <lb ed="#V" n="67"/>controversam quaestionem olim inter
+            Au<lb ed="#V" n="68" break="no"/>gustinum et Hieronymum; ideoque
+            pro<lb ed="#V" n="69" break="no"/>ponit in argumentis subjectis quaesito
+            utri<lb ed="#V" n="70" break="no"/>usque auctoritatem. Tenuit autem
+            Hiero<lb ed="#V" n="71" break="no"/>nymus bigamiam ante Baptismum
+            contra<lb ed="#V" n="72" break="no"/>ctam in casibus in quibus post Baptismum
+            <lb ed="#V" n="73"/>induceret irregularitatem, per Baptismum
+            <lb ed="#V" n="74"/>deleri in loco citato a Doctore, et 1. ad
+            <lb ed="#V" n="75"/>Timoth. 3. et habetur 28. quaest. 3. cap.
+            <lb ed="#V" n="76"/>1. et in epist. ad Tit. 1. cap. Quem
+            sequi<lb ed="#V" n="77" break="no"/>tur Major in 4. dist. 25. q. 1. Glossa
+            ordi<lb ed="#V" n="78" break="no"/>naria et Lyranus in I. ad Timoth. 3.
+            Op<lb ed="#V" n="79" break="no"/>positum tenet Augustinus loco citato a
+            <lb ed="#V" n="80"/>Doctore.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d33q2-p2"> -->
+          <p>
+            <lb ed="#V" n="68" type="fixed=375"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>(k) Hic sunt duo videnda, etc. Dividit
+            <lb ed="#V" n="70"/>quaestionem in duos articulos. In primo
+            <lb ed="#V" n="71"/>resolvit, quid sit tenendum; in secundo,
+            <lb ed="#V" n="72"/>cur non deleat Baptismus irregularitatem
+            <lb ed="#V" n="73"/>hanc ex defectu Sacramenti seu
+            significa<lb ed="#V" n="74" break="no"/>tionis, sicut tollit alias ex culpa, ut
+            homi<lb ed="#V" n="75" break="no"/>cidii, vel etiam illam quae est ex
+            homici<lb ed="#V" n="76" break="no"/>dio licito in judice, quae est ex defectu
+            <lb ed="#V" n="77"/>significationis, ut lenitatis.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>(1) De primo concordant omnes, etc.
+            Sta<lb ed="#V" n="79" break="no"/>tuit conclusionem, nempe Baptismum non
+            <lb ed="#V" n="80"/>tollere irregularitatem ex bigamia, quam
+            <lb ed="#V" n="81"/>dicit communem. Est Augustini in
+            episto<lb ed="#V" n="82" break="no"/>lam ad Titum, et habetur dist. 26. cap. 2.
+            <lb ed="#V" n="83"/>lib. de bono conjugali, cap. 18. et habetur
+            <lb ed="#V" n="84"/>cap. Acutius, 28. q. 3. Advertendum circa
+            <lb ed="#V" n="85"/>citationem priorem, Doctorem
+            desumpsis<lb ed="#V" n="86" break="no"/>se illam ex Glossa ordinaria in epistolam
+            <pb ed="#V" n="376"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ad Titum, et ex Gratiano dist. 26. cap.
+            <lb ed="#V" n="2"/>Acutius, et in collectaneis, Bedae in eamdem
+            <lb ed="#V" n="3"/>in c. 1. Verba tamen sunt Augustini ex lib.
+            <lb ed="#V" n="4"/>de bono conjugali, c. 18. Est Ambrosii lib. 1.
+            <lb ed="#V" n="5"/>de officiis, c. ultimo, et habetur d. 26.
+            <lb ed="#V" n="6"/>cap. Una tantum, Innocent. 1. epistola 22.
+            <lb ed="#V" n="7"/>cap. 2. ad Episcopos Macedoniae, et
+            <lb ed="#V" n="8"/>habetur cap. Deinde, dist. 26. et epistola 2.
+            <lb ed="#V" n="9"/>ad Victricium Rothomagensem, cap. 5.
+            <lb ed="#V" n="10"/>habetur dist. 34. cap. 13. et dist. 50. c. 8.
+            <lb ed="#V" n="11"/>Si quis viduam, idem etiam habetur c. 14.
+            <lb ed="#V" n="12"/>et 15. eodem, idem docetur cap.
+            Gaude<lb ed="#V" n="13" break="no"/>mus etc. de divortiis, etc. Quam
+            senten<lb ed="#V" n="14" break="no"/>tiam Canonistae sequuntur in illos textus,
+            <lb ed="#V" n="15"/>et Theologi in 4. dist. 27.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Secunda conclusio est, homicidam ante
+            <lb ed="#V" n="17"/>Baptismum, post Baptismum susceptum
+            <lb ed="#V" n="18"/>non manere irregularem, ut patet dist. 50.
+            <lb ed="#V" n="19"/>cap. Si quis viduam, v. Post Baptismum,
+            <lb ed="#V" n="20"/>et Glossa per argumentum a contrario
+            <lb ed="#V" n="21"/>quia limitatio adjecta homicidio, et non
+            <lb ed="#V" n="22"/>adjecta bigamiae diversitatem hanc inducit;
+            <lb ed="#V" n="23"/>dicitur enim ducens viduam absolute non
+            <lb ed="#V" n="24"/>admitti ad Ordines, non limitando
+            sta<lb ed="#V" n="25" break="no"/>tum, aut tempus; homicidium tamen post
+            <lb ed="#V" n="26"/>Baptismum factum inducere
+            irregularita<lb ed="#V" n="27" break="no"/>tem, et non alias. Haec sententia est
+            <lb ed="#V" n="28"/>communis, cujus rationem in articulo
+            se<lb ed="#V" n="29" break="no"/>quenti bene assignat Doctor, cur scilicet
+            <lb ed="#V" n="30"/>non maneat irregularitas seu
+            impedimen<lb ed="#V" n="31" break="no"/>tum ex homicidio post Baptismum ex
+            de<lb ed="#V" n="32" break="no"/>fectu lenitatis, maneat autem bigamiae
+            <lb ed="#V" n="33"/>impedimentum.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>In reliquo hujus articuli impugnat
+            quod<lb ed="#V" n="35" break="no"/>dam dictum Henrici, seu rationem ejus
+            <lb ed="#V" n="36"/>pro illa communi sententia; dicit enim
+            nul<lb ed="#V" n="37" break="no"/>lam irregularitatem incurri ante
+            Baptis<lb ed="#V" n="38" break="no"/>mum, quia tunc non potest habere
+            priva<lb ed="#V" n="39" break="no"/>tionem, quando non est capax habitus;
+            <lb ed="#V" n="40"/>ante Baptismum non est capax Ordinis, ut
+            <lb ed="#V" n="41"/>patet de Presbytero non baptizato, cap.
+            <lb ed="#V" n="42"/>Si quis Presbyter. Sic etiam catulus non
+            <lb ed="#V" n="43"/>est coecus ante diem nonum, quia non est
+            <lb ed="#V" n="44"/>capax privationis aut habitus ante illum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>diem; ergo idem de irregularitate. Hoc
+            <lb ed="#V" n="46"/>dictum non impugnat Doctor, quia ipse
+            <lb ed="#V" n="47"/>etiam, et communis admittit neminem
+            es<lb ed="#V" n="48" break="no"/>se irregularem ante Baptismum, quia
+            <lb ed="#V" n="49"/>jurisdictio Ecclesiae non extenditur in
+            <lb ed="#V" n="50"/>infideles, neque inhabilitates, qui foris
+            <lb ed="#V" n="51"/>sunt, ad quos proinde impedimenta per
+            <lb ed="#V" n="52"/>Canones inducta non spectant. Et hanc
+            <lb ed="#V" n="53"/>veritatem supponit impugnatio Doctoris;
+            <lb ed="#V" n="54"/>impugnat ergo non dari sufficientem
+            ra<lb ed="#V" n="55" break="no"/>tionem per hoc ipsius conclusionis, et
+            <lb ed="#V" n="56"/>impugnatio est clara, quia licet
+            irregula<lb ed="#V" n="57" break="no"/>ritas non possit incurri ante Baptismum,
+            <lb ed="#V" n="58"/>neque privatio insit ante tempus idoneum,
+            <lb ed="#V" n="59"/>in quo natus est inesse habitus, tamen
+            <lb ed="#V" n="60"/>impedimentum praecedere potest habitus!
+            <lb ed="#V" n="61"/>ponendi, ex quo sequetur privatio.
+            Dein<lb ed="#V" n="62" break="no"/>de, irregularitas non est proprie privatio
+            <lb ed="#V" n="63"/>Ordinis, sed impedimentum, ne quis sit
+            <lb ed="#V" n="64"/>capax Ordinis post Baptismum, et licet
+            pri<lb ed="#V" n="65" break="no"/>vatio ante tempus, quo natus est inesse
+            <lb ed="#V" n="66"/>habitus, non insit, tamen causa privationis
+            <lb ed="#V" n="67"/>inesse potest. Quod etiam verum est in
+            <lb ed="#V" n="68"/>proposito, quia defectus significationis
+            po<lb ed="#V" n="69" break="no"/>test esse, et inest bigamo ante
+            Baptis<lb ed="#V" n="70" break="no"/>mum ergo nequit recte per illam rationem
+            <lb ed="#V" n="71"/>ostendi, cur non possit etiam manere
+            defec<lb ed="#V" n="72" break="no"/>tus lenitatis per modum impedimenti et
+            <lb ed="#V" n="73"/>causae privationis Ordinum
+            suscipiendo<lb ed="#V" n="74" break="no"/>rum post Baptismum, et sic etiam de aliis
+            <lb ed="#V" n="75"/>quae sunt ex delicto, aut alia causa quae
+            <lb ed="#V" n="76"/>Baptismum praecessit.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d33q2-p3"> -->
+          <p>
+            <lb ed="#V" n="14" type="fixed=379"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>(m) De secundo, aliud est loqui, etc. Hic
+            <lb ed="#V" n="16"/>s assignat in secundo articulo seu membro
+            <lb ed="#V" n="17"/>quaesiti. 1. distinctionem inter causam
+            <lb ed="#V" n="18"/>congruitatis et necessitatis. Causam
+            con<lb ed="#V" n="19" break="no"/>gruitatis optime assignat, quia bigamus
+            <lb ed="#V" n="20"/>nequit ut Sacerdos repraesentare Christum
+            <lb ed="#V" n="21"/>in Ecclesia, ut unum sponsum unius
+            spon<lb ed="#V" n="22" break="no"/>sae, quia bigamus est divisus in plures
+            <lb ed="#V" n="23"/>sponsas vere, aut interpretative, et
+            secun<lb ed="#V" n="24" break="no"/>dum fictionem Juris, ut postea videbitur.
+            <lb ed="#V" n="25"/>Littera est clara, et ratio communis.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>(n) Sed quaerendo causam
+            necessita<lb ed="#V" n="27" break="no"/>tis, etc. Adducit causam hujus necessitatis
+            <lb ed="#V" n="28"/>ex quibusdam Canonistis. Ratio stat in hoc
+            <lb ed="#V" n="29"/>quod Baptismus tollat omne peccatum et
+            <lb ed="#V" n="30"/>sequelam peccati, vel ejus quod natum
+            <lb ed="#V" n="31"/>est esse peccatum; quod intelligunt
+            tan<lb ed="#V" n="32" break="no"/>tum de peccato personali, et non originali.
+            <lb ed="#V" n="33"/>Ideo ergo defectus ex homicidio etiam
+            <lb ed="#V" n="34"/>justo tollitur per Baptismum, quia est
+            se<lb ed="#V" n="35" break="no"/>quela peccati personalis, aut illius actus
+            <lb ed="#V" n="36"/>personalis, qui potest esse peccatum, nisi
+            <lb ed="#V" n="37"/>circumstantiae excusarent. Hanc impugnat
+            <lb ed="#V" n="38"/>Doctor, quia etiam bigamia posset esse
+            <lb ed="#V" n="39"/>hoc modo ex peccato, sicut homicidium,
+            <lb ed="#V" n="40"/>quia posset esse ex matrimonio illicito et
+            <lb ed="#V" n="41"/>invalido consummato; ergo tunc esset
+            se<lb ed="#V" n="42" break="no"/>quela peccati, et tolli deberet per
+            Bapti<cb ed="#V" n="b"/><lb ed="#V" n="43" break="no"/>smum, quod est falsum secundum
+            opinan<lb ed="#V" n="44" break="no"/>tes. Deinde, ex Augustino cap. Acutius,
+            <lb ed="#V" n="45"/>si catechumena ante Baptismum est
+            cor<lb ed="#V" n="46" break="no"/>rupta, nequit post Baptismum velari,
+            po<lb ed="#V" n="47" break="no"/>tuit illa corruptio esse sequela proprii
+            <lb ed="#V" n="48"/>peccati; ergo Baptismus non tollit omnes
+            <lb ed="#V" n="49"/>illas sequelas. Tertio denique ex hac
+            ser<lb ed="#V" n="50" break="no"/>tentia sequeretur, quod Ecclesia non
+            pos<lb ed="#V" n="51" break="no"/>set tollere bigamiae impedimentum, quia
+            <lb ed="#V" n="52"/>non potest tribuere bigamiae, ut sit
+            pecca<lb ed="#V" n="53" break="no"/>tum vel sequela ejus. Haec tertia ratio
+            <lb ed="#V" n="54"/>Doctoris explicatur, quia quod inest
+            inde<lb ed="#V" n="55" break="no"/>pendenter ab Ecclesia, nequit tolli per
+            <lb ed="#V" n="56"/>Ecclesiam, nisi virtute Sacramenti;
+            Sacra<lb ed="#V" n="57" break="no"/>mentum autem Baptismi tantum applicari
+            <lb ed="#V" n="58"/>potest per Ecclesiam ad tollenda
+            impedi<lb ed="#V" n="59" break="no"/>menta, quae praecesserunt Et hoc nequit
+            <lb ed="#V" n="60"/>tollere, nisi ut institutum est contra
+            pec<lb ed="#V" n="61" break="no"/>catum et sequelam peccati, secundum
+            <lb ed="#V" n="62"/>opinantem, talis non est bigamia, quae
+            <lb ed="#V" n="63"/>praesupponitur ad Baptismum; et idem
+            <lb ed="#V" n="64"/>etiam diceretur consequenter de
+            quacum<lb ed="#V" n="65" break="no"/>que sequente non posse deleri per
+            poeni<lb ed="#V" n="66" break="no"/>tentiam aut alia Sacramenta. Unde ex hac
+            <lb ed="#V" n="67"/>sententia sequitur bigamiam esse
+            indi<lb ed="#V" n="68" break="no"/>spensabilem, et hoc Jure divino. E contra
+            <lb ed="#V" n="69"/>vero defectum homicidii deleri Jure divino
+            <lb ed="#V" n="70"/>per ipsum Sacramentum, alias frustra
+            <lb ed="#V" n="71"/>recurreret ad Sacramentum, seclusa omni
+            <lb ed="#V" n="72"/>ordinatione Ecclesiae, ut ostenderet
+            irre<lb ed="#V" n="73" break="no"/>gularitatem homicidii deleri per
+            Sacra<lb ed="#V" n="74" break="no"/>mentum quia est peccatum aut sequela
+            <lb ed="#V" n="75"/>peccati, et non bigamiae irregularitatem
+            <lb ed="#V" n="76"/>a sensu contrario.
+            <lb ed="#V" n="77"/>(o) Alia opinio dicit, etc. Haec non
+            dif<lb ed="#V" n="78" break="no"/>fert a priori in conclusione; asserit enim
+            <lb ed="#V" n="79"/>utraque bigamiam esse Juris divini, et
+            in<lb ed="#V" n="80" break="no"/>dispensabilem ab Ecclesia, quamvis haec
+            <lb ed="#V" n="81"/>aliam causam assignet, nempe ea quae ex
+            <lb ed="#V" n="82"/>natura actus sequuntur, non posse tolli per
+            <lb ed="#V" n="83"/>Ecclesiam; hujus autem generis est
+            biga<lb ed="#V" n="84" break="no"/>mia. Quae autem ex statuto Ecclesiae
+            se<lb ed="#V" n="85" break="no"/>quuntur, Ecclesia potest tollere, et sic
+            ir<lb ed="#V" n="86" break="no"/>regularitas ex homicidio sequitur, non ex
+            <pb ed="#V" n="380"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>natura actus, sed ex statuto Ecclesiae,
+            <lb ed="#V" n="2"/>et ideo per Sacramentum primum
+            Ec<lb ed="#V" n="3" break="no"/>clesiae tollitur haec irregularitas, et non
+            <lb ed="#V" n="4"/>illa. Hanc sententiam, et perinde est de
+            <lb ed="#V" n="5"/>priori, impugnat Doctor ex
+            inconvenien<lb ed="#V" n="6" break="no"/>ti, quod scilicet sequeretur Ecclesiam non
+            <lb ed="#V" n="7"/>posse dispensare in hae irregularitate,
+            <lb ed="#V" n="8"/>quod falsum est, ut patet cap. Lector.
+            <lb ed="#V" n="9"/>dist. 34. et cap. Si quis viduam, dist. 50.
+            <lb ed="#V" n="10"/>Glossa in cap. Lector. referens etiam
+            di<lb ed="#V" n="11" break="no"/>spensationem factam a Lucio Papa cum
+            <lb ed="#V" n="12"/>«Panormitano qui fuit bigamus; quae est
+            <lb ed="#V" n="13"/>communis sententia Theologorum, d. 27.
+            <lb ed="#V" n="14"/>et Jurisperitorum in cap. Lector; et patet,
+            <lb ed="#V" n="15"/>quia non est hoc contra ullum praeceptum
+            <lb ed="#V" n="16"/>legis naturae aut divinum; neque etiam
+            <lb ed="#V" n="17"/>contra praecepta legis, quae concernunt
+            <lb ed="#V" n="18"/>Sacramenta et eorum administrationem,
+            <lb ed="#V" n="19"/>quorum nullum prohibet ne bigamus ad
+            <lb ed="#V" n="20"/>sacros Ordines admitteretur.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Dices cum Glossa in cap. Lector, esse
+            <lb ed="#V" n="22"/>contra Paulum, 1. ad Timoth. 3.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Contra, Paulus ibi non proponit
+            praece<lb ed="#V" n="24" break="no"/>ptum divinum, sed institutionis
+            Aposto<lb ed="#V" n="25" break="no"/>licae, in qua potest Ecclesia dispensare,
+            <lb ed="#V" n="26"/>sicut patet ex Concilio Gangrensi cap.
+            <lb ed="#V" n="27"/>finali. 82. dist. ubi ibi Glossa. Quam etiam
+            <lb ed="#V" n="28"/>dispensationem confirmant posteriores
+            Ca<lb ed="#V" n="29" break="no"/>nones, et novissime Tridentinum sess. 25.
+            <lb ed="#V" n="30"/>de reformat. cap. 14. Canon Apostolicus
+            <lb ed="#V" n="31"/>deponendum praecepit Presbyterum in
+            <lb ed="#V" n="32"/>fornicationem lapsum, quem rigorem
+            <lb ed="#V" n="33"/>temperavit Sylvester Papa, et Clemens,
+            <lb ed="#V" n="34"/>et Calixtus, ut ibi Concilium. Nec obstat
+            <lb ed="#V" n="35"/>cap. 2. de bigamis, ubi dicitur non licere
+            <lb ed="#V" n="36"/>dispensare, quia, ut bene Doctor in littera,
+            <lb ed="#V" n="37"/>non licet sine magna causa, quia difficilis
+            <lb ed="#V" n="38"/>dispensatio censetur impossibilis
+            praesum<lb ed="#V" n="39" break="no"/>ptione et interpretatione Juris; acceden
+            <lb ed="#V" n="40"/>te tamen causa licet dispensare per
+            Ponti<lb ed="#V" n="41" break="no"/>ficem, non per alios inferiores, maxime
+            <lb ed="#V" n="42"/>in bigamia vera et notoria.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>(p) Dico ergo quod causa
+            irregularita<lb ed="#V" n="44" break="no"/>tis, etc. Hic statuit conclusionem hujus
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>articuli, nempe causam irregularitatis
+            bi<lb ed="#V" n="46" break="no"/>gamiae esse ex defectu significationis, et
+            <lb ed="#V" n="47"/>ante Baptismum independenter a
+            consti<lb ed="#V" n="48" break="no"/>tutione Ecclesiae; irregularitatem autem
+            <lb ed="#V" n="49"/>esse ex solo statuto Ecclesiae, quo voluit
+            <lb ed="#V" n="50"/>remanente causa eum non promoveri ad
+            <lb ed="#V" n="51"/>sacros Ordines, quam causam non tollit
+            <lb ed="#V" n="52"/>Baptismus; tollit autem causam seu
+            de<lb ed="#V" n="53" break="no"/>fectum significationis homicidii, quae
+            ori<lb ed="#V" n="54" break="no"/>tur ex horrore sanguinis, propter mutatum
+            <lb ed="#V" n="55"/>statum homicidae per Baptismum, ex lupo
+            <lb ed="#V" n="56"/>per Baptismum, ex lupo in agnum, et sic
+            <lb ed="#V" n="57"/>deposita feritate induit lenitatem, quae
+            tol<lb ed="#V" n="58" break="no"/>lit priorem defectum, et sic rationabiliter
+            <lb ed="#V" n="59"/>Ecclesiae statutum diversum fundatur.
+            <lb ed="#V" n="60"/>(q) Ad argumenta. Ad primum, etc.
+            Ex<lb ed="#V" n="61" break="no"/>plicat Hieronymum ex Ambrosio, quem
+            <lb ed="#V" n="62"/>communiter tamen negant Canonistae
+            prae<lb ed="#V" n="63" break="no"/>ter opinantes superius impugnatos; et ad
+            <lb ed="#V" n="64"/>secundum, negat paritatem inter
+            irregu<lb ed="#V" n="65" break="no"/>laritatem ex defectu significationis in
+            ho<lb ed="#V" n="66" break="no"/>micidio et bigamia.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Petes quis possit dispensare in
+            irregu<lb ed="#V" n="68" break="no"/>laritate bigamiae? Triplex genus bigamiae
+            <lb ed="#V" n="69"/>aliqui Doctores assignant cum
+            Speculato<lb ed="#V" n="70" break="no"/>re, tit de dispensatione. Primum est
+            biga<lb ed="#V" n="71" break="no"/>miae verae, qua quis duplex matrimonium
+            <lb ed="#V" n="72"/>contrahit et consummat. Secundum est
+            <lb ed="#V" n="73"/>bigamiae interpretativae, ut cum duplex
+            ma<lb ed="#V" n="74" break="no"/>trimonium quis init et consummat,
+            quam<lb ed="#V" n="75" break="no"/>vis utrumque, vel alterum fuerit
+            invali<lb ed="#V" n="76" break="no"/>dum; vel quando ducit viduam, vel
+            quan<lb ed="#V" n="77" break="no"/>do propriam uxorem post adulterium
+            <lb ed="#V" n="78"/>cognoscit. Tertium genus bigamiae dicitur
+            <lb ed="#V" n="79"/>similitudinariae, ut quando constitutus in
+            <lb ed="#V" n="80"/>Ordine sacro, aut professus in Religione
+            <lb ed="#V" n="81"/>ducit etiam virginem, et consummat cum
+            <lb ed="#V" n="82"/>ea matrimonium. Hanc speciem aliqui
+            re<lb ed="#V" n="83" break="no"/>ducunt ad priores. Sed parum hoc refert,
+            <lb ed="#V" n="84"/>quia diversam habet legem, sive sic, sive
+            <lb ed="#V" n="85"/>aliter dicatur. Nulla harum incurritur, nisi
+            <lb ed="#V" n="86"/>intervenerit consummatio matrimonii, ut
+            <lb ed="#V" n="87"/>patet cap. Debitum, de bigamis; cujus
+            ra<lb ed="#V" n="88" break="no"/>tio assignatur, quia matrimonium ratum,
+            <pb ed="#V" n="381"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>et non consummatum non significat
+            uni<lb ed="#V" n="2" break="no"/>onem Christi cum Ecclesia per carnis
+            <lb ed="#V" n="3"/>assumptionem. Idem patet cap. finali,
+            <lb ed="#V" n="4"/>dist. 34. ubi contrahens cum vidua, quam
+            <lb ed="#V" n="5"/>non cognovit, non fit irregularis.
+            Con<lb ed="#V" n="6" break="no"/>trarium hujus docuit Magister dist. 27.
+            <lb ed="#V" n="7"/>Idem tenetur non solum in bigamia vera,
+            <lb ed="#V" n="8"/>sed etiam similitudinaria contra Rosellam
+            <lb ed="#V" n="9"/>v. Bigamia, ut communiter Doctores
+            te<lb ed="#V" n="10" break="no"/>nent requiri in hac etiam copulam. Neque
+            <lb ed="#V" n="11"/>obstat cap. Quotquot, 27. q. 1. quia ibi
+            lo<lb ed="#V" n="12" break="no"/>quitur textus de transgressione voti
+            secu<lb ed="#V" n="13" break="no"/>to effectu, scilicet consummationis;
+            loqui<lb ed="#V" n="14" break="no"/>tur enim de matrimonio, ut communiter
+            <lb ed="#V" n="15"/>intelligitur, consummato: Quotquot, inquit,
+            <lb ed="#V" n="16"/>virginitatem pollicitam praevaricatae sunt
+            <lb ed="#V" n="17"/>professione contempta, inter bigamos, id
+            <lb ed="#V" n="18"/>est, qui ad secundas nuptias transierant,
+            <lb ed="#V" n="19"/>haberi debebant, etc. Ad bigamiam autem
+            <lb ed="#V" n="20"/>in his requiritur consummatio matrimonii
+            <lb ed="#V" n="21"/>in utrisque nuptiis; ergo in iis, qui
+            per<lb ed="#V" n="22" break="no"/>inde se habent, vel inter illos
+            numeran<lb ed="#V" n="23" break="no"/>tur; et requiritur non solum consummatio
+            <lb ed="#V" n="24"/>in bigamia vera, sed etiam
+            similitudina<lb ed="#V" n="25" break="no"/>ria, ut irregularitas haec incurratur, licet
+            <lb ed="#V" n="26"/>in foro externo purgari debeat
+            praesum<lb ed="#V" n="27" break="no"/>ptio, et probari contrarium, quia ad
+            de<lb ed="#V" n="28" break="no"/>fectum significationis requiritur, ut quis
+            <lb ed="#V" n="29"/>suam carnem dividat per copulam, ut
+            pa<lb ed="#V" n="30" break="no"/>tet locis citatis supra.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>In primo genere bigamiae vera
+            signifi<lb ed="#V" n="32" break="no"/>catio deest; in secundo vero, etsi
+            contra<lb ed="#V" n="33" break="no"/>ctus sit nullus quoad unam, vel quoad
+            <lb ed="#V" n="34"/>utramque, deest significatio
+            interpreta<lb ed="#V" n="35" break="no"/>tive, quantum ad affectum secuto facto.
+            <lb ed="#V" n="36"/>Hic casus non reperitur expressus in Jure,
+            <lb ed="#V" n="37"/>sed eum communiter Doctores deducunt
+            <lb ed="#V" n="38"/>ex cap. Nuper, etc. de bigamis, etc. ubi
+            <lb ed="#V" n="39"/>declaratur ille esse bigamus, qui ante
+            <lb ed="#V" n="40"/>sacrum Ordinem contraxit matrimonium,
+            <lb ed="#V" n="41"/>et post sacrum Ordinem contraxit alium
+            <lb ed="#V" n="42"/>non ob defectum Sacramenti, cum
+            poste<lb ed="#V" n="43" break="no"/>rius fuerit irritum, sed ob intentionis
+            affe<lb ed="#V" n="44" break="no"/>ctum adduo matrimonia cum opere
+            secu<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>to per consummationem; ita communis.
+            <lb ed="#V" n="46"/>Merito enim hanc inhabilitatem induxit
+            <lb ed="#V" n="47"/>Ecclesia, quia talis quantum ad
+            inten<lb ed="#V" n="48" break="no"/>tionem et factum, caret significatione,
+            <lb ed="#V" n="49"/>licet de Jure non ita, cum secundum
+            <lb ed="#V" n="50"/>matrimonium fuerit nullum.
+            <lb ed="#V" n="51"/>Tertium genus habetur in multis
+            Cano<lb ed="#V" n="52" break="no"/>nibus in dist. 34. ut cap. Curandum, cap.
+            <lb ed="#V" n="53"/>Praecipimus, cap. Si quis viduam, 1. et 2.
+            <lb ed="#V" n="54"/>eod. cap. Si quis viduam, dist. 50. cap.
+            <lb ed="#V" n="55"/>Qui in aliquo crimine, dist. 51. c. Qualiter
+            <lb ed="#V" n="56"/>30. q. 5. cap. Nemo, dist. 32. cap.
+            Matri<lb ed="#V" n="57" break="no"/>monium, dist. 32. cap. 1. de bigamis, et
+            <lb ed="#V" n="58"/>cap. Debitum, eodem cap. de clericis
+            <lb ed="#V" n="59"/>conjugatis in 6. Perinde est quod
+            cor<lb ed="#V" n="60" break="no"/>rupta fuerit alias corrupta interveniente
+            <lb ed="#V" n="61"/>matrimonio, sive per fornicationem ab
+            <lb ed="#V" n="62"/>alio cognita; neque ignorantia
+            ducen<lb ed="#V" n="63" break="no"/>tem excusat, quamvis existimavit se
+            <lb ed="#V" n="64"/>ducere virginem, quia irregularitas est ex
+            <lb ed="#V" n="65"/>defectu significationis, et nequit
+            reprae<lb ed="#V" n="66" break="no"/>sentare unionem Christi cum Ecclesia
+            <lb ed="#V" n="67"/>virgine. An requiratur ut matrimonium.
+            <lb ed="#V" n="68"/>sit in re validum? Aliqui tenent non esse
+            <lb ed="#V" n="69"/>irregularem, quando est nullum; ita
+            Na<lb ed="#V" n="70" break="no"/>varr. in Summa Latina, cap. 27. et lib. 1.
+            <lb ed="#V" n="71"/>consil. cons. 1. de bigamis, citans
+            deci<lb ed="#V" n="72" break="no"/>sionem Poenitentiariae Apostolicae, et ita
+            <lb ed="#V" n="73"/>plures moderni. Sed antiquiores, ut
+            Ri<lb ed="#V" n="74" break="no"/>chardus dist 27. art. 4. quaest. 3.
+            Paluda<lb ed="#V" n="75" break="no"/>nus, Covarruvias in Clement. Si furiosus;
+            <lb ed="#V" n="76"/>et alii tenent contrarium argumento cap.
+            <lb ed="#V" n="77"/>finalis, de bigamis, ubi declaratur Clericum
+            <lb ed="#V" n="78"/>in sacris Ordinibus contrahentem fieri
+            bi<lb ed="#V" n="79" break="no"/>gamum, quia ille Clericus contraxit
+            qui<lb ed="#V" n="80" break="no"/>dem ante Ordines verum matrimonium,
+            <lb ed="#V" n="81"/>post Ordines autem, et si nullum fuerit
+            <lb ed="#V" n="82"/>matrimonium, tamen intentio opere secuto
+            <lb ed="#V" n="83"/>declaratur sufficere, supposito priori
+            matri<lb ed="#V" n="84" break="no"/>monio. Hic autem non fuit matrimonium
+            <lb ed="#V" n="85"/>in re ipsa validum et unicum fuit; pro
+            <lb ed="#V" n="86"/>qua sententia facit communis decisio
+            Do<lb ed="#V" n="87" break="no"/>ctorum, qui asserunt ex duobus
+            matrimo<lb ed="#V" n="88" break="no"/>niis in re ipsa invalidis contrahi
+            irregu<pb ed="#V" n="382"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>laritatem argumento illius capitis; nam
+            <lb ed="#V" n="2"/>si requiratur, ut matrimonium sit in re ipsa
+            <lb ed="#V" n="3"/>validum, sive unum, sive plura matrimonia
+            <lb ed="#V" n="4"/>init contrahens, perinde est, quia non
+            per<lb ed="#V" n="5" break="no"/>dit significationem Sacramenti, cum
+            nul<lb ed="#V" n="6" break="no"/>lum verum fuit matrimonium. Quam
+            sen<lb ed="#V" n="7" break="no"/>tentiam tenet etiam Goffredus in Summ.
+            <lb ed="#V" n="8"/>tit. de bigamis, Hostiensis ibidem,
+            Alberi<lb ed="#V" n="9" break="no"/>cus in suo dictionario, littera B, v.
+            Biga<lb ed="#V" n="10" break="no"/>mus. Summa Astensis.
+            <lb ed="#V" n="11"/>Alia est difficultas, an qui a se
+            deflora<lb ed="#V" n="12" break="no"/>tam postea ducit, fiat bigamus? Aliqui
+            <lb ed="#V" n="13"/>affirmant, Glossa in cap. Maritum, verb.
+            <lb ed="#V" n="14"/>Concubinam, dist. 33. et in cap. Nemo,
+            <lb ed="#V" n="15"/>dist. 32. Negativa est communis, quia ille
+            <lb ed="#V" n="16"/>non divisit carnem suam cum alia, neque
+            <lb ed="#V" n="17"/>uxor etiam cum alio, et matrimonium
+            <lb ed="#V" n="18"/>sequens purgat vitium antecedens
+            retro<lb ed="#V" n="19" break="no"/>trahens contractum, c. Tanta, qui sint
+            <lb ed="#V" n="20"/>filii legitimi.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Ultimum genus hujus bigamiae habetur
+            <lb ed="#V" n="22"/>c. Si cujus, dist. 34. ex Concil.
+            Neocaesa<lb ed="#V" n="23" break="no"/>riensi can. 8. neque refert sive sciverit
+            <lb ed="#V" n="24"/>adulterium, sive non, ut communis tenet,
+            <lb ed="#V" n="25"/>sicut etiam si quis ducit corruptam, putans
+            <lb ed="#V" n="26"/>esse virginem; haec enim bigamia non
+            <lb ed="#V" n="27"/>est poena, sed defectus Sacramenti.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Bigamia similitudinaria ad praedictas
+            <lb ed="#V" n="29"/>confertur tanquam aliquo modo
+            partici<lb ed="#V" n="30" break="no"/>pans naturam earum. An autem dicatur
+            <lb ed="#V" n="31"/>per modum poenae ob peccatum contra
+            <lb ed="#V" n="32"/>votum professionis, et sacro Ordini
+            adje<lb ed="#V" n="33" break="no"/>ctum, an autem ex defectu aliquo
+            si<lb ed="#V" n="34" break="no"/>gnificationis, variant Doctores. Quod ad
+            <lb ed="#V" n="35"/>rem attinet, non refert, modo admittatur
+            <lb ed="#V" n="36"/>esse irregularitas. Similitudinaria dici
+            po<lb ed="#V" n="37" break="no"/>-test ob eumdem effectum, et praeterea
+            <lb ed="#V" n="38"/>etiam quia a matrimonio spirituali per
+            <lb ed="#V" n="39"/>consensum et votum inito, est transiens
+            <lb ed="#V" n="40"/>ad matrimonium corporale, in quo dividit
+            <lb ed="#V" n="41"/>vinculum, seu consensum interiorem, quo
+            <lb ed="#V" n="42"/>Christo et Ecclesiae ligatur, admittens
+            <lb ed="#V" n="43"/>aliud quantum ad intentionem et affectum
+            <lb ed="#V" n="44"/>subsecuta copula intuitu matrimonii
+            car<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>nalis contracti, licet fuerit nullum Jure ob
+            <lb ed="#V" n="46"/>impedimentum voti solemnis aut Ordinis
+            <lb ed="#V" n="47"/>sacri. De irregularitate, quam contrahunt
+            <lb ed="#V" n="48"/>ordinati Ordine sacro per matrimonium,
+            <lb ed="#V" n="49"/>habetur cap. Nuper, etc. de bigamis in
+            fi<lb ed="#V" n="50" break="no"/>ne. Idem de Religiosis asserunt Doctores
+            <lb ed="#V" n="51"/>ex cap. Quotquot citato, 27. quaest. 2.
+            <lb ed="#V" n="52"/>quamvis ibi sit sermo per se de
+            virgini<lb ed="#V" n="53" break="no"/>bus, quia par ratio est, et quod impedit
+            <lb ed="#V" n="54"/>foeminas religiosas inter Virgines aut
+            Dia<lb ed="#V" n="55" break="no"/>conissas numerari, idem etiam ex
+            si<lb ed="#V" n="56" break="no"/>mili extensione transgressionis, et
+            ser<lb ed="#V" n="57" break="no"/>vata proportione in hoc facit viros
+            <lb ed="#V" n="58"/>irregulares, quando contrahunt contra
+            <lb ed="#V" n="59"/>votum.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>His positis, respondeo ad dubium,
+            pos<lb ed="#V" n="61" break="no"/>se Pontificem in omni irregularitate
+            di<lb ed="#V" n="62" break="no"/>spensare; de aliis inferioribus Praelatis,
+            <lb ed="#V" n="63"/>aliqui negant, aliqui affirmant. Communis
+            <lb ed="#V" n="64"/>sententia est ad Ordines sacros, saltem
+            <lb ed="#V" n="65"/>Diaconatus et Presbyteratus non posse
+            <lb ed="#V" n="66"/>alium quam Pontificem dispensare; et
+            <lb ed="#V" n="67"/>hanc supponit Doctor in textu, S Sed
+            quae<lb ed="#V" n="68" break="no"/>dam Glossa, etc. ubi in his non solere
+            Ec<lb ed="#V" n="69" break="no"/>clesiam dispensare docet. In iis autem
+            <lb ed="#V" n="70"/>casibus, in quibus Ecclesia non solet
+            di<lb ed="#V" n="71" break="no"/>spensare, censetur reservari jus soli
+            Pon<lb ed="#V" n="72" break="no"/>tifici. Quoad minores Ordines decetur,
+            <lb ed="#V" n="73"/>Episcopum posse dispensare ex cap.
+            Le<lb ed="#V" n="74" break="no"/>ctor; alias enim fuit prohibitio generalis
+            <lb ed="#V" n="75"/>excludens bigamos ab Ordinibus
+            quibus<lb ed="#V" n="76" break="no"/>cumque. Hic autem ex indulto Martini
+            <lb ed="#V" n="77"/>Papae permittitur, ut maneat Lector; lex
+            <lb ed="#V" n="78"/>ergo generalis tenet, nisi in iis in quibus
+            <lb ed="#V" n="79"/>derogatur. Hinc autem recte colligitur,
+            <lb ed="#V" n="80"/>non licuisse alias Episcopis ordinare
+            biga<lb ed="#V" n="81" break="no"/>mos in ullo gradu Ordinis; hic conceditur,
+            <lb ed="#V" n="82"/>ut in minoribus possint ordinare. Manet
+            <lb ed="#V" n="83"/>ergo lex generalis quoad alios gradus
+            <lb ed="#V" n="84"/>non concessos. In hoc capite permittit
+            <lb ed="#V" n="85"/>Pontifex, si necessitas urgeat, ut
+            promo<lb ed="#V" n="86" break="no"/>veatur in Subdiaconum, nihil autem supra
+            <lb ed="#V" n="87"/>recipiat. Unde recte colligitur legem
+            il<lb ed="#V" n="88" break="no"/>lam Apostolicam a pluribus Pontificibus et
+            <pb ed="#V" n="383"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Conciliis approbatam et receptam obti.
+            <lb ed="#V" n="2"/>nere etiamnum in iis in quibus non fuit
+            <lb ed="#V" n="3"/>relaxata.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>De Subdiacono est controversia; aliqui
+            <lb ed="#V" n="5"/>enim putant, nec nunc Subdiaconum
+            fa<lb ed="#V" n="6" break="no"/>cere bigamum etiam posse Episcopos,
+            <lb ed="#V" n="7"/>quia post illam concessionem Martini
+            fa<lb ed="#V" n="8" break="no"/>ctus est Ordo sacer, ac proinde cum aliis
+            <lb ed="#V" n="9"/>eamdem legem sortitur. Ita Sanchez lib. 7.
+            <lb ed="#V" n="10"/>disput. 86. num. 14. Sed haec ratio non
+            <lb ed="#V" n="11"/>subsistit, quia diu ante Martinum
+            Subdia<lb ed="#V" n="12" break="no"/>conatus fuit Ordo sacer, nam et Concilum
+            <lb ed="#V" n="13"/>Ancyranum circa tempora Niceni
+            praeci<lb ed="#V" n="14" break="no"/>pit continentiam Subdiaconis can. 33. et
+            <lb ed="#V" n="15"/>Concilium Africanum VI. cui interfuit
+            Au<lb ed="#V" n="16" break="no"/>gustinus cap. 28. Idem statuit Leo Papa I.
+            <lb ed="#V" n="17"/>epistola 84. alias 82. hujus tanquam
+            uni<lb ed="#V" n="18" break="no"/>versalis et antiquioris in Latina Ecclesia
+            <lb ed="#V" n="19"/>observatae meminit. Idem supponit
+            Grego<lb ed="#V" n="20" break="no"/>rius Magnus lib. 1. epistolarum, epist. 42.
+            <lb ed="#V" n="21"/>et refertur can. Ante triennium, dist. 31.
+            <lb ed="#V" n="22"/>et lib. 3. epistolarum, epistola 34. et
+            <lb ed="#V" n="23"/>refertur can. Multorum, 27. quaest. 2.
+            <lb ed="#V" n="24"/>qui omnes praecesserunt Martinum. Non
+            <lb ed="#V" n="25"/>ideo ergo tunc Martinus in praefato
+            ca<lb ed="#V" n="26" break="no"/>none Lector, dedit hanc facultatem
+            Episco<lb ed="#V" n="27" break="no"/>pis, quia suo tempore non fuit sacer Ordo
+            <lb ed="#V" n="28"/>Subdiaconatus, voto continentiae ei
+            ad<lb ed="#V" n="29" break="no"/>jecto, sicut et aliis superioribus, ac
+            <lb ed="#V" n="30"/>proinde cum non reperiatur haec
+            con<lb ed="#V" n="31" break="no"/>cessio per aliam posteriorem correcta,
+            <lb ed="#V" n="32"/>non est quod censeatur Jure revocata.
+            <lb ed="#V" n="33"/>Alludere videtur Martinus ad cap. 3.
+            Tole<lb ed="#V" n="34" break="no"/>tani I. in quo prohibetur Lector ducens
+            <lb ed="#V" n="35"/>viduam alterius, amplius promoveri, nisi
+            <lb ed="#V" n="36"/>forte fiat Subdiaconus. Restringit tamen
+            <lb ed="#V" n="37"/>Martinus Canonem ad casum necessitatis
+            <lb ed="#V" n="38"/>et retinet illam facultatem, postquam
+            in<lb ed="#V" n="39" break="no"/>ter sacros Ordines Subdiaconatus relatus
+            <lb ed="#V" n="40"/>est.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Quantum ad similitudinariam potest
+            <lb ed="#V" n="42"/>Episcopus peracta poenitentia dispensare
+            <lb ed="#V" n="43"/>in ea irregularitate, quantum ad hoc ut
+            <lb ed="#V" n="44"/>ministret in Ordine suscepto irregularis,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>ut patet cap. Sane Sacerdotes, etc. de
+            <lb ed="#V" n="46"/>cleric. conjugatis, etc. et indulgentia,
+            in<lb ed="#V" n="47" break="no"/>quit, sui Episcopi ejus habere
+            executi<lb ed="#V" n="48" break="no"/>onem, etc. supple poterunt executionem
+            <lb ed="#V" n="49"/>Ordinis suscepti habere. Hoc a
+            quibus<lb ed="#V" n="50" break="no"/>dam limitatur ad casum quo cum virgine
+            <lb ed="#V" n="51"/>contraxerunt, et non cum vidua aut
+            cor<lb ed="#V" n="52" break="no"/>rupta, ne repugnet c. Nuper, et cap.
+            fi<lb ed="#V" n="53" break="no"/>nali, de clericis, etc. in quibus dicitur non
+            <lb ed="#V" n="54"/>licere dispensare, quando cum viduis
+            <lb ed="#V" n="55"/>aut corruptis contraxerunt. Sed hos non
+            <lb ed="#V" n="56"/>videtur cohaerere, quia cap. Sane
+            Sacer<lb ed="#V" n="57" break="no"/>dotes, etc. est Alexandri III. c. Nuper, et
+            <lb ed="#V" n="58"/>finale, de bigamis, Innocentii III. qui fuit
+            <lb ed="#V" n="59"/>posterior, ideoque potius statutum ejus est
+            <lb ed="#V" n="60"/>correctio prioris, quia decreta absolute
+            <lb ed="#V" n="61"/>loquuntur; neque est inconveniens, ut
+            <lb ed="#V" n="62"/>posterius repugnet priori, eidemque
+            de<lb ed="#V" n="63" break="no"/>roget. Dici potest tamen decreta
+            Innocen<lb ed="#V" n="64" break="no"/>tii intelligi absolute, quantum ad
+            promoti<lb ed="#V" n="65" break="no"/>onem ad ulteriores Ordines, et etiam
+            <lb ed="#V" n="66"/>quantum ad impedimentum incursum;
+            <lb ed="#V" n="67"/>quo Jure removentur a ministerio in
+            rece<lb ed="#V" n="68" break="no"/>ptis, quia hi sunt actus, qui proponuntur,
+            <lb ed="#V" n="69"/>et de quibus quaeritur quid juris; non
+            <lb ed="#V" n="70"/>derogant ergo priori decreto, quia casus
+            <lb ed="#V" n="71"/>est diversus, et spectans restitutionem
+            <lb ed="#V" n="72"/>supposita poenitentia. Prior interpretatio
+            <lb ed="#V" n="73"/>est Glossae in cap. Sane Sacerdotes, quam
+            <lb ed="#V" n="74"/>sequitur Sanchez et Covarruvias,
+            Clementi<lb ed="#V" n="75" break="no"/>na si furiosus, et plures alii. Vide c. 2. Qui
+            <lb ed="#V" n="76"/>cler. vel voventes. An autem Episcopi
+            pos<lb ed="#V" n="77" break="no"/>sint cum talibus dispensare, ut
+            promo<lb ed="#V" n="78" break="no"/>verentur ad alios Ordines, non reperio
+            <lb ed="#V" n="79"/>concessionem, nisi dicatur quod facultas
+            <lb ed="#V" n="80"/>dispensandi in restitutione supposita
+            <lb ed="#V" n="81"/>poenitentia etiam extendatur ad
+            promoti<lb ed="#V" n="82" break="no"/>onem quoad alios Ordines.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>Caeterum, cum decreta universalia
+            sub<lb ed="#V" n="84" break="no"/>trahant auctoritatem Episcopis, et praefata
+            <lb ed="#V" n="85"/>statuta concedant auctoritatem in specie
+            <lb ed="#V" n="86"/>ad restitutionem in gradibus susceptis, et
+            <lb ed="#V" n="87"/>ministerium in iisdem, non videtur Jure
+            <lb ed="#V" n="88"/>concessa facultas promovendi, quia haec
+            <pb ed="#V" n="384"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>major est, et minus conveniens, nisi forte
+            <lb ed="#V" n="2"/>ex consuetudine habeant illam facultatem.
+            <lb ed="#V" n="3"/>Neque refert hanc irregularitatem esse ex
+            <lb ed="#V" n="4"/>delicto per modum poenae, et si occulta
+            <lb ed="#V" n="5"/>sit, posse dispensari ab Episcopo ex
+            con<lb ed="#V" n="6" break="no"/>cessione Tridentini sess. 24. cap. 6. quia
+            <lb ed="#V" n="7"/>haec concessio ad occultas tantum referri
+            <lb ed="#V" n="8"/>potest. Caeterum, sententiae communi
+            Do<lb ed="#V" n="9" break="no"/>ctorum in hoc standum est, quorum
+            inter<lb ed="#V" n="10" break="no"/>pretatio praxim sequitur, vel invectam
+            <lb ed="#V" n="11"/>approbat, aut certe novam inducit.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

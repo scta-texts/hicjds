@@ -1,0 +1,1808 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 25, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 25, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x19">Vives, Paris, 1894, volume 19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="113"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e4430"><!-- hicjds-b4d25q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum poena canonica impediat a susceptione et collatione Ordinum</head>
+        <!-- <div alias="hiq-d25q1-p1"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45" type="fixed=113"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>In hac distinctione agit Doctor de
+            impe<lb ed="#V" n="47" break="no"/>dimentis seu inhabilitate, quibus persona
+            <lb ed="#V" n="48"/>excluditur a receptionc Ordinis, aut
+            mini<lb ed="#V" n="49" break="no"/>sterio in receptis. Dividitur in duas
+            quae<lb ed="#V" n="50" break="no"/>stiones, quarum prima continet
+            inhabilita<lb ed="#V" n="51" break="no"/>tem ex poena Canonica; secunda vero
+            <lb ed="#V" n="52"/>impedimentum ex sexu et aetate.
+            <lb ed="#V" n="53"/>(a) In ista quaestione, etc. Dividit
+            quae<lb ed="#V" n="54" break="no"/>stionem in duos articulos. In primo agit de
+            <lb ed="#V" n="55"/>definitione et divisione poenae Canonicae,
+            <lb ed="#V" n="56"/>breviter et clare comprehendens
+            funda<lb ed="#V" n="57" break="no"/>menta legum et earum resolutionem. In
+            <lb ed="#V" n="58"/>secundo articulo agit de effectu poenae
+            <lb ed="#V" n="59"/>Canonicae quoad impedimenta Ordinis
+            <lb ed="#V" n="60"/>conferendi, aut etiam in eo ministrandi,
+            <lb ed="#V" n="61"/>quem amplius declarat in responsione ad
+            <lb ed="#V" n="62"/>argumenta principalia, quae idem tangunt.
+            <lb ed="#V" n="63"/>(b) Circa primum, poena Canonica, etc.
+            <lb ed="#V" n="64"/>Hic sumit poena late, ut comprehendit
+            <lb ed="#V" n="65"/>tam censuras proprie dictas, ut est
+            ex<lb ed="#V" n="66" break="no"/>communicatio, suspensio, interdictum,
+            <lb ed="#V" n="67"/>quam etiam impedimenta, seu privationes
+            <lb ed="#V" n="68"/>per Canones inductas, quae sunt ad actus
+            <lb ed="#V" n="69"/>spirituales, seu Ordinis; et dicuntur poenae
+            <lb ed="#V" n="70"/>late sumptae, sive propter delictum
+            incur<lb ed="#V" n="71" break="no"/>rantur, sive ob inobedientiam; et poena
+            <lb ed="#V" n="72"/>hoc modo sumpta est genus respectu
+            <lb ed="#V" n="73"/>censurae, sic etiam intelligenda est illa
+            <lb ed="#V" n="74"/>particula definitionis punitum per
+            correla<lb ed="#V" n="75" break="no"/>tionem ad poenam late sumptam; ex
+            qui<lb ed="#V" n="76" break="no"/>bus patet definitio. Sunt autem septem
+            <lb ed="#V" n="77"/>poenae hoc modo sumptae, ut in littera
+            pa<lb ed="#V" n="78" break="no"/>tet.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>(c) Prima, scilicet depositio est maxima,
+            <lb ed="#V" n="80"/>etc. Haec poena invenitur proprie in
+            Eccle<lb ed="#V" n="81" break="no"/>siasticis personis, ut est spiritualis, quia est
+            <lb ed="#V" n="82"/>privatio gradus et functionis eorum ab
+            Or<lb ed="#V" n="83" break="no"/>dine, ab officio, et consequenter a
+            benefi<lb ed="#V" n="84" break="no"/>cio, quod datur propter officium, et quando
+            <lb ed="#V" n="85"/>est depositio ex toto, aufert etiam statum,
+            <lb ed="#V" n="86"/>seu privilegium clericale;
+            excommunica<pb ed="#V" n="114"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>« tio et interdictum privationem inducunt
+            <lb ed="#V" n="2"/>eorum, quae communia sunt omnibus
+            fi<lb ed="#V" n="3" break="no"/>delibus; suspensio in aliquo convenit cum
+            <lb ed="#V" n="4"/>depositione, quod illa etiam sit clericorum
+            <lb ed="#V" n="5"/>et propter delictum, sicut depositio.
+            Ta<lb ed="#V" n="6" break="no"/>men depositio reddit personam perpetuo
+            <lb ed="#V" n="7"/>inhabilem ex natura propria hujus poenae,
+            <lb ed="#V" n="8"/>et per restitutionem personae in pristinum
+            <lb ed="#V" n="9"/>gradum, potest tantum tolli, quamvis
+            le<lb ed="#V" n="10" break="no"/>gitime depositus nunquam aut raro
+            resti<lb ed="#V" n="11" break="no"/>tuitur; suspensio vero non reddit
+            perso<lb ed="#V" n="12" break="no"/>nam inhabilem simpliciter, et tolli potest
+            <lb ed="#V" n="13"/>per dispensationem. Hac ergo ratione
+            di<lb ed="#V" n="14" break="no"/>cit Doctor hanc esse maximam poenam,
+            <lb ed="#V" n="15"/>tum quia quia extensive tollit omnem
+            gra<lb ed="#V" n="16" break="no"/>dum Ecclesiasticum, et etiam, quando est
+            <lb ed="#V" n="17"/>ex integro, statum clericalem, et natura
+            <lb ed="#V" n="18"/>sua est perpetua et irrevocabilis ex usu
+            <lb ed="#V" n="19"/>Canonum et Ecclesiae, licet simpliciter
+            re<lb ed="#V" n="20" break="no"/>vocari posset a Pontifice per restitutionem
+            <lb ed="#V" n="21"/>personae in integrum.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Dicit praeterea depositionem et
+            degrada<lb ed="#V" n="23" break="no"/>tionem, quando, est ab omni gradu et
+            <lb ed="#V" n="24"/>privilegio Ecclesiatico, esse easdem;
+            <lb ed="#V" n="25"/>quando vero degradatio est ab uno gradu
+            <lb ed="#V" n="26"/>tantum, ut depositio a Sacerdotio
+            manen<lb ed="#V" n="27" break="no"/>tibus reliquis, degradationem esse
+            partia<lb ed="#V" n="28" break="no"/>lem depositionem. In prima acceptione
+            <lb ed="#V" n="29"/>degradationis loquitur in sensu et modo
+            <lb ed="#V" n="30"/>Canonistarum, et quorumdam Canonum,
+            <lb ed="#V" n="31"/>qui utramque synonyme aliquando
+            ca<lb ed="#V" n="32" break="no"/>piunt, et perinde significat degradatio
+            <lb ed="#V" n="33"/>depositionem a quocumque gradu, sive
+            <lb ed="#V" n="34"/>sit proprie ordo, sive ordo late sumptus
+            <lb ed="#V" n="35"/>pro quocumque gradu eminenti in
+            Eccle<lb ed="#V" n="36" break="no"/>sia, etiam officii et dignitatis, ut patet ex
+            <lb ed="#V" n="37"/>cap. 2. de poenis in 6. cap. Tuae, de poenis,
+            <lb ed="#V" n="38"/>ut ibidem Abbas c. Ne Clerici, vel voventes.
+            <lb ed="#V" n="39"/>In loco secundo distinguens
+            degradatio<lb ed="#V" n="40" break="no"/>nem a depositione, loquitur insensu
+            Theo<lb ed="#V" n="41" break="no"/>logico, quatenus de gradatio est
+            deposi<lb ed="#V" n="42" break="no"/>tio a gradu ordinis proprie dicto, et
+            priva<lb ed="#V" n="43" break="no"/>tionem ejus infert quantum ad usum et
+            <lb ed="#V" n="44"/>exercitium et in quantum eam
+            infer<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>re potest. Nam sicut gradus proprie dictus
+            <lb ed="#V" n="46"/>denotat ordinationis effectum, in ordine
+            <lb ed="#V" n="47"/>ad ministerium Sacramentorum proxime
+            <lb ed="#V" n="48"/>aut remote, et potissimum Eucharistiae;
+            <lb ed="#V" n="49"/>ita degradatio proprie dicta est motus ad
+            <lb ed="#V" n="50"/>amotionem dicti gradus quoad usum, non
+            <lb ed="#V" n="51"/>vero quoad deletionem simpliciter, ut
+            <lb ed="#V" n="52"/>recte Doctor in S seq. de quo dictum est
+            <lb ed="#V" n="53"/>in quaest. praeced.
+            <lb ed="#V" n="54"/>Alii discernunt inter haec, quod
+            deposi<lb ed="#V" n="55" break="no"/>tio, quando est totalis amotio ab ordine
+            <lb ed="#V" n="56"/>officio et statu clericali, se habet ut
+            sen<lb ed="#V" n="57" break="no"/>tentia lata in ordine ad degradationem
+            <lb ed="#V" n="58"/>realem quae fit per quamdam solemnitatem,
+            <lb ed="#V" n="59"/>quae est executio sententiaelatae, et per eam
+            <lb ed="#V" n="60"/>consignatur persona judici saeculari
+            pu<lb ed="#V" n="61" break="no"/>nienda juxta leges fori civilis, et
+            qualita<lb ed="#V" n="62" break="no"/>tem criminis. Haec etiam distinctio recte
+            <lb ed="#V" n="63"/>probatur ex c. Degradatio, de poenis in 6.
+            <lb ed="#V" n="64"/>quod citat Doctor, etc. Vovimus, de
+            ver<lb ed="#V" n="65" break="no"/>bor. significat. quamvis dici posset
+            de<lb ed="#V" n="66" break="no"/>gradationem, seu ipsam depositionem
+            <lb ed="#V" n="67"/>actualem fieri per sententiam, reliqua
+            <lb ed="#V" n="68"/>spectare ad solemnitatem et formam
+            exe<lb ed="#V" n="69" break="no"/>cutionis.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>(d) Ista poena qualiter infligitur, etc.
+            <lb ed="#V" n="71"/>Respondet nunquam a Jure infligi hanc
+            <lb ed="#V" n="72"/>poenam, nempe ut est amotio ab omni
+            <lb ed="#V" n="73"/>statu et privilegio Ecclesiastico, sed a
+            judi<lb ed="#V" n="74" break="no"/>cet infligi; quae est sententia communis, et
+            <lb ed="#V" n="75"/>patet ex forma quae traditur in c. Illo
+            cita<lb ed="#V" n="76" break="no"/>to, Degradatio, de poenis, quae requirit
+            <lb ed="#V" n="77"/>actionem judicis et sententiam, talis est:
+            <lb ed="#V" n="78"/>Auctoritate Dei omnipotentis, Patris et Filii
+            <lb ed="#V" n="79"/>et Spiritus sancti, ac nostra, tibi
+            auferi<lb ed="#V" n="80" break="no"/>mus habitum clericalem, et exuimus te
+            om<lb ed="#V" n="81" break="no"/>ni ordine, beneficio ac privilegio clericali,
+            <lb ed="#V" n="82"/>etc. Debet autem judex Ecclesiasticus
+            ef<lb ed="#V" n="83" break="no"/>ficaciter pro eo intercedere, ut citra
+            mor<lb ed="#V" n="84" break="no"/>tis periculum, sententiam circa reum
+            <lb ed="#V" n="85"/>moderetur judex civilis, ex cap. Novimus,
+            <lb ed="#V" n="86"/>de verborum significatione.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>Ad Episcopi depositionem requiruntur
+            <lb ed="#V" n="88"/>praeter Metropolitanum duodecim Episcopi
+            <pb ed="#V" n="115"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>i ad sententiam ferendam; si Sacerdos
+            de<lb ed="#V" n="2" break="no"/>ponatur, sex, praeter proprium
+            Episco<lb ed="#V" n="3" break="no"/>pum. Panormitanus in cap. Non potest
+            <lb ed="#V" n="4"/>etc. de re judicata. Si est Diaconus aut
+            <lb ed="#V" n="5"/>Subdiaconus, tres, 15. quaest. 7. c. Felix
+            <lb ed="#V" n="6"/>etc. Degradatio in 6. de poenis. Si non est
+            <lb ed="#V" n="7"/>in sacris, sufficit Episcopus cum Capitulo.
+            <lb ed="#V" n="8"/>Panormit. supra, Sylvest. v. Degradatio.
+            <lb ed="#V" n="9"/>Hic numerus requiritur tantum ad
+            sen<lb ed="#V" n="10" break="no"/>tentiam ferendam, qua lata, Episcopus aut
+            <lb ed="#V" n="11"/>Metropolitanus potest procedere ad
+            exe<lb ed="#V" n="12" break="no"/>cutionem per realem degradationem, ut
+            <lb ed="#V" n="13"/>docet Panormitanus cap. Qualiter 2. de
+            <lb ed="#V" n="14"/>Accusationibus. Vide cap. Si quis, cap.
+            Fe<lb ed="#V" n="15" break="no"/>lia, cap. Si autem 15. quaest. 7.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Novissime Tridentinum sess. 13. de
+            <lb ed="#V" n="17"/>reformatione, cap. 4. statuit ad
+            degradati<lb ed="#V" n="18" break="no"/>onem Presbyteri, et reliquorum
+            inferi<lb ed="#V" n="19" break="no"/>orum posse substitui alias personas,
+            <lb ed="#V" n="20"/>quando nequit haberi numerus
+            Episcopo<lb ed="#V" n="21" break="no"/>rum a Canonibus praescriptus. Ad verbalem
+            <lb ed="#V" n="22"/>depositionem procedere potest Vicarius
+            <lb ed="#V" n="23"/>generalis Episcopi; ad realem autem
+            <lb ed="#V" n="24"/>solus Episcopus, ut ibidem decernitur.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>(e) Causae autem propter quas
+            infligen<lb ed="#V" n="26" break="no"/>da est, etc. Enumerat causas aliquas, ob
+            <lb ed="#V" n="27"/>quas infligenda est ex Canonibus; sed in
+            <lb ed="#V" n="28"/>tertio casu non intelligitur degradatio
+            <lb ed="#V" n="29"/>realis a statu clericali, quia textus id non
+            <lb ed="#V" n="30"/>comprehendit, cum dicat depositum
+            <lb ed="#V" n="31"/>a gradus Sacerdotali, detrudendum esse
+            <lb ed="#V" n="32"/>in monasterium ad agendum poenitentiam
+            <lb ed="#V" n="33"/>perpetuam. Poenae autem restringendae
+            <lb ed="#V" n="34"/>sunt; intendit ergo degradationem ab
+            <lb ed="#V" n="35"/>ordine, et verbalem, ut est depositio
+            <lb ed="#V" n="36"/>simplex et perpetua, non respectiva ad
+            <lb ed="#V" n="37"/>degradationem actualem et realem. Voluit
+            <lb ed="#V" n="38"/>enim exemplum utriusque degradationis
+            <lb ed="#V" n="39"/>subjicere ex Canonibus, non
+            comprehen<lb ed="#V" n="40" break="no"/>dendo omnes casus; nam cum haec poena
+            <lb ed="#V" n="41"/>a judice feratur, plures circumstantiae
+            <lb ed="#V" n="42"/>concurrere possunt, quae crimen alias
+            <lb ed="#V" n="43"/>simplex dignum faciant hac poena, neque
+            <lb ed="#V" n="44"/>certa regula statui potest; quod supponit
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>etiam Doctor dicens crimen esse debere
+            <lb ed="#V" n="46"/>atrox, et illa exempla subjicit. Additur
+            <lb ed="#V" n="47"/>etiam a Doctoribus crimen falsificantis
+            lit<lb ed="#V" n="48" break="no"/>teras Apostolicas: Ad falsariorum, de
+            <lb ed="#V" n="49"/>crimine falsi. Item, calumnia gravis
+            con<lb ed="#V" n="50" break="no"/>tra Episcopum, cap. Si quis
+            Sacerdo<lb ed="#V" n="51" break="no"/>tum. 11. quaest. 1. quamvis autem glossa
+            <lb ed="#V" n="52"/>in cap. ad Abolendam, dicat, ultra tres
+            <lb ed="#V" n="53"/>casus haeresis, falsificationis litterae Papae,
+            <lb ed="#V" n="54"/>et convicii in Episcopum non solere trad
+            <lb ed="#V" n="55"/>curiae saeculari. Panormitanus tamen in
+            <lb ed="#V" n="56"/>cap. Novimus, dicit pro crimine atroci et
+            <lb ed="#V" n="57"/>pernicioso degradari posse; et id
+            suppo<lb ed="#V" n="58" break="no"/>nere videtur Tridentinum et praxis. Huic
+            <lb ed="#V" n="59"/>poenae degradationis, quantum ad effectum
+            <lb ed="#V" n="60"/>privationis privilegii clericalis, affinis est
+            <lb ed="#V" n="61"/>poena clerici diffidati, in c. Pro humani,
+            <lb ed="#V" n="62"/>de homicid. in 6. ut docet Geminianus
+            <lb ed="#V" n="63"/>ibidem, quia hic est extra omnem
+            prote<lb ed="#V" n="64" break="no"/>ctionem Ecclesiasticam, et habet eumdem
+            <lb ed="#V" n="65"/>effectum, quem degradatio et traditio
+            <lb ed="#V" n="66"/>personae judicio saeculari; imo amplius
+            <lb ed="#V" n="67"/>quod diffidatus aliquando a privato
+            pos<lb ed="#V" n="68" break="no"/>sit interfici.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>(f) Qualiter remittitur ista poena? etc.
+            <lb ed="#V" n="70"/>Haec resolutio est communis, et patet ea
+            <lb ed="#V" n="71"/>dist. 50. cap. 1. et 2. Restituitur autem
+            <lb ed="#V" n="72"/>per traditionem solemnenr omnium
+            in<lb ed="#V" n="73" break="no"/>strumentorum et aliorum, quae ablata
+            <lb ed="#V" n="74"/>sunt per degradationem. Degradatus
+            <lb ed="#V" n="75"/>etiam non alleviatur oneribus Ordinis
+            sa<lb ed="#V" n="76" break="no"/>cri, quia manet inhabilis ad matrimonium,
+            <lb ed="#V" n="77"/>et obligatus ad officium divinum, quia
+            <lb ed="#V" n="78"/>poena aufert honores, et non onera.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>(8) Secunda poena est infamiae, etc. De
+            <lb ed="#V" n="80"/>infamia et fama aliqua dicta sunt
+            genera<lb ed="#V" n="81" break="no"/>liter dist. 15. quaest. 4. ad effectum
+            resti<lb ed="#V" n="82" break="no"/>tutionis famae. Hic autem agitur de
+            infa<lb ed="#V" n="83" break="no"/>mia, ut est impedimentum Canonicum, et
+            <lb ed="#V" n="84"/>inducit irregularitatem.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Primo definit quod sit infamia et fama;
+            <lb ed="#V" n="86"/>et patet definitio ex lib. Cognitionem, ff.
+            <lb ed="#V" n="87"/>de varii, et extraordinariis criminibus, ubi
+            <lb ed="#V" n="88"/>dicitur quod fama sit illaesae dignitatis
+            <pb ed="#V" n="116"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>status, vita et moribus comprobatus, et in
+            <lb ed="#V" n="2"/>nullo diminutus; infamia vero per
+            argu<lb ed="#V" n="3" break="no"/>mentum a contrario, est status seu
+            quali<lb ed="#V" n="4" break="no"/>tas laesae dignitatis, vita et moribus
+            <lb ed="#V" n="5"/>reprobatus.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Secundo discernit infamem et
+            infama<lb ed="#V" n="7" break="no"/>tum; infamari enim quis potest per
+            <lb ed="#V" n="8"/>accusationem sui de aliquo crimine; sed
+            <lb ed="#V" n="9"/>non ideo erit infamis, hoc est, non
+            incur<lb ed="#V" n="10" break="no"/>ret poenam infamiae, nisi ipsum peccatum
+            <lb ed="#V" n="11"/>sit publicum et notorie commissum, et
+            <lb ed="#V" n="12"/>ultra hoc requiritur ut sit tale peccatum,
+            <lb ed="#V" n="13"/>cui a Jure vel a judice talis sit annexa
+            <lb ed="#V" n="14"/>poena. Ita ut, inquit Doctor, omnis
+            <lb ed="#V" n="15"/>infamis est publice notatus de aliquo
+            <lb ed="#V" n="16"/>crimine, quod Jus punit poena infamiae;
+            <lb ed="#V" n="17"/>nam etiamsi quis committat aliquod
+            <lb ed="#V" n="18"/>crimen notorium, cui de jure non sit
+            <lb ed="#V" n="19"/>annexa talis poena, erit quidem in
+            opi<lb ed="#V" n="20" break="no"/>nione hominum indignus officiis et
+            di<lb ed="#V" n="21" break="no"/>gnitatibus ex natura rei; non tamen per
+            <lb ed="#V" n="22"/>poenam canonicam aut civilem infamiae,
+            <lb ed="#V" n="23"/>sine adminiculo Juris infligentis poenam
+            <lb ed="#V" n="24"/>ob tale factum, ideo collatio officii et
+            <lb ed="#V" n="25"/>dignitatis in ipsum erit valida.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Dicit tertio, aliquando incurri infamiam
+            <lb ed="#V" n="27"/>ipso Jure, aliquando per sententiam
+            ju<lb ed="#V" n="28" break="no"/>dicis infligentis, scilicet talem poenam
+            <lb ed="#V" n="29"/>secundum Jus; aliquando ab utroque, ubi
+            <lb ed="#V" n="30"/>tangit divisionem vulgarem infamiae in
+            <lb ed="#V" n="31"/>illam, quae est facti, et eam, quae est Juris.
+            <lb ed="#V" n="32"/>De priori habetur cap. Licet, etc. de
+            <lb ed="#V" n="33"/>testibus, et cap. Licet, etc. de
+            probationi<lb ed="#V" n="34" break="no"/>bus. De infamia Juris habetur cap.
+            infa<lb ed="#V" n="35" break="no"/>mes, 3. quaest 7. in lib. 1. 2. 3. fr. de his
+            <lb ed="#V" n="36"/>qui notantur infamia. Infamia facti
+            voca<lb ed="#V" n="37" break="no"/>tur a Doctore infamia Juris, quia nempe ex
+            <lb ed="#V" n="38"/>sententia legis incurritur absque sententia
+            <lb ed="#V" n="39"/>judicis, aut Ordine judiciario. Haec ipsa
+            di<lb ed="#V" n="40" break="no"/>citur facti, nempe ex ipso delicto, cui
+            an<lb ed="#V" n="41" break="no"/>nexa est ex sententia lata legis, et
+            incurri<lb ed="#V" n="42" break="no"/>tur sine ulla actione judicis, ut quando lex
+            <lb ed="#V" n="43"/>dicit: Ipso jure, ipso facto, eo ipso absque
+            <lb ed="#V" n="44"/>alia declaratione, etc. Ad hanc ergo
+            in<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>currendam non requiritur notitia publica,
+            <lb ed="#V" n="46"/>sed commissio delicti, licet sit occultum;
+            <lb ed="#V" n="47"/>excipitur si lex inurat ipso facto poenam
+            <lb ed="#V" n="48"/>ob delictum notorium et manifestum,
+            <lb ed="#V" n="49"/>tunc enim poena non extenditur ultra
+            <lb ed="#V" n="50"/>materiam expressam, quia poenae sunt
+            <lb ed="#V" n="51"/>restringendae. Quod si delictum fiat
+            pu<lb ed="#V" n="52" break="no"/>blicum et notorium, tunc incurritur poena
+            <lb ed="#V" n="53"/>legis, quae etiam retrahitur ad tempus
+            <lb ed="#V" n="54"/>commissi delicti quantum ad effectum
+            <lb ed="#V" n="55"/>nullitatis actuum, quia lex annullat, ut
+            <lb ed="#V" n="56"/>fiunt ab infami. Excipiuntur actus
+            publi<lb ed="#V" n="57" break="no"/>cae administrationis, qui tenent ex titulo
+            <lb ed="#V" n="58"/>existimato, ne Respublica, aut alii ex
+            <lb ed="#V" n="59"/>fraude particularis, patiatur damnum;
+            <lb ed="#V" n="60"/>actus tamen particulares, qui respiciunt
+            <lb ed="#V" n="61"/>favorem personalem, declarantur irriti, ut
+            <lb ed="#V" n="62"/>ordinatio recepta, quantum ad usum,
+            <lb ed="#V" n="63"/>dist. 81. tantis Daniel, etc. cadit
+            dignita<lb ed="#V" n="64" break="no"/>tibus, de excessibus Praelatorum, c. Inter
+            <lb ed="#V" n="65"/>dilectos, reg. infamibus, de reg. Juris in 6.
+            <lb ed="#V" n="66"/>et 3. quaest. 7.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Sed quid agendum tali, quando crimen
+            <lb ed="#V" n="68"/>est occultum? Respondetur secundum
+            <lb ed="#V" n="69"/>Panormitanum in cap. ut si Clerici, etc.
+            <lb ed="#V" n="70"/>de Judiciis, quod renuntiare debet
+            Prae<lb ed="#V" n="71" break="no"/>latus, ut evadat sententiam infamiae. Hoc
+            <lb ed="#V" n="72"/>quidem bene, si sine suiipsius proditione,
+            <lb ed="#V" n="73"/>et nota renuntiare potest, abstinere
+            tene<lb ed="#V" n="74" break="no"/>tur quantum potest ab illis actibus, ad
+            <lb ed="#V" n="75"/>quos ex poena incursa redditur inhabilis
+            <lb ed="#V" n="76"/>ipso facto, tamen nemo in seipsum poenam
+            <lb ed="#V" n="77"/>hanc legis exequi tenetur cum tam gravi
+            <lb ed="#V" n="78"/>detrimento; sollicitare ergo debet sui
+            <lb ed="#V" n="79"/>restitutionem prudendi modo, quo sibi et
+            <lb ed="#V" n="80"/>conscientiae consultat, nam licet dominio
+            <lb ed="#V" n="81"/>suae famae ex legis sententia privetur,
+            ta<lb ed="#V" n="82" break="no"/>men non privatur usu, et possessione
+            <lb ed="#V" n="83"/>facti, donec crimen fiat notorium, quamvis
+            <lb ed="#V" n="84"/>lex etiam crimini quomodocumque
+            per<lb ed="#V" n="85" break="no"/>petrato talem poenam inducat, ad quam
+            <lb ed="#V" n="86"/>sufficit conscientia facti, et reipsa inducit
+            <lb ed="#V" n="87"/>effectus legales, scilicet privationem
+            ac<lb ed="#V" n="88" break="no"/>quisitae dignitatis, et inhabilitatem
+            acqui<pb ed="#V" n="117"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>rendae. Quia tamen his annexa est
+            posses<lb ed="#V" n="2" break="no"/>sio actualis famae, quam nemo tenetur
+            <lb ed="#V" n="3"/>per se ipsum abdicare, antequam sit
+            con<lb ed="#V" n="4" break="no"/>victus notoreitate facti aut sententia, et
+            <lb ed="#V" n="5"/>Ordine judiciario servato, non tenetur
+            <lb ed="#V" n="6"/>exequi poenam legis in praejudicium
+            actua<lb ed="#V" n="7" break="no"/>lis possessionis famae, sed tenetur
+            quan<lb ed="#V" n="8" break="no"/>tum potest abstinere ab actibus legitimis
+            <lb ed="#V" n="9"/>et providere sibi procurando
+            restitutio<lb ed="#V" n="10" break="no"/>nem.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>Noster Castro lib. 2. de lege poenali
+            <lb ed="#V" n="12"/>cap. 15. quamvis conclus. 4. teneat poenam
+            <lb ed="#V" n="13"/>civilem ipso Jure latam contra crimen
+            eti<lb ed="#V" n="14" break="no"/>am occultum tenere, excipit in fine poenam
+            <lb ed="#V" n="15"/>infamiae, ex eo quod infamia dependeat
+            <lb ed="#V" n="16"/>a communi opinione, quae manet integra
+            <lb ed="#V" n="17"/>ei, cujus crimen non est notorium, sed
+            <lb ed="#V" n="18"/>occultum. Caeterum infamia, ut hic
+            sumi<lb ed="#V" n="19" break="no"/>tur per modum poenae privantis officiis et
+            <lb ed="#V" n="20"/>dignitate, et inhabilitantis ad eas
+            acqui<lb ed="#V" n="21" break="no"/>rendas, longe differt ab infamia, qua quis
+            <lb ed="#V" n="22"/>diffamatur apud alios de crimine
+            commis<lb ed="#V" n="23" break="no"/>so, ut recte Doctor advertit in initio hujus
+            <lb ed="#V" n="24"/>textus. Crimen ergo perpetratum
+            consum<lb ed="#V" n="25" break="no"/>mat causam poenae per sententiam latam
+            <lb ed="#V" n="26"/>ipsius legis, et superveniens ejus cognitio
+            <lb ed="#V" n="27"/>publica illud habet, ut tollat etiam
+            actua<lb ed="#V" n="28" break="no"/>lem possessionem famae, quantum ad
+            ac<lb ed="#V" n="29" break="no"/>tus legitimos, quibus talis privatur.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Infamia Juris est, quando intervenit
+            sen<lb ed="#V" n="31" break="no"/>tentia et processus judiciarius; requitur
+            <lb ed="#V" n="32"/>autem sententia definitiva ad eam
+            incur<lb ed="#V" n="33" break="no"/>rendam, nec sufficit interlocutoria, 1.
+            <lb ed="#V" n="34"/>Verbum, c. Ex quibus causis, et cap. ultimo
+            <lb ed="#V" n="35"/>de temporibus ordinandorum, ubi glossa
+            <lb ed="#V" n="36"/>et communiter Doctores, et in cap. Vestra
+            <lb ed="#V" n="37"/>et cap. ultimo, de cohabitat. clericor. et
+            <lb ed="#V" n="38"/>mulier. cap. 1. de excceptionibus, etc. Ad
+            <lb ed="#V" n="39"/>infamiam, ut poena canonica, requiritur
+            <lb ed="#V" n="40"/>processus judiciarius ex capitulo citato de
+            <lb ed="#V" n="41"/>temporibus ordinandorum: Si proposita
+            <lb ed="#V" n="42"/>crimina, inquit, ordine judiciario
+            compro<lb ed="#V" n="43" break="no"/>bantur, etc. ordo autem judiciarius exigit
+            <lb ed="#V" n="44"/>accusationem. Unde Abbas in cap.
+            Inqui<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>sitionis, etc. de accusat. dicit non valere
+            <lb ed="#V" n="46"/>sententiam per viam inquisitionis datam,
+            <lb ed="#V" n="47"/>sine ordine judiciario. Requiritur itaque
+            <lb ed="#V" n="48"/>ad hanc infamiam incurrendam factum
+            <lb ed="#V" n="49"/>Jure notatum tali infamia, et sententia
+            in<lb ed="#V" n="50" break="no"/>fligens poenam, ut actu incurratur. Hoc
+            <lb ed="#V" n="51"/>autem contingit, vel quando delictum non
+            <lb ed="#V" n="52"/>sit notorium, nisi per processum
+            judicia<lb ed="#V" n="53" break="no"/>rium, et sententiam declarativam; vel
+            <lb ed="#V" n="54"/>quando lex ipso facto non imponit poenam,
+            <lb ed="#V" n="55"/>sed praescribit imponendam per
+            senten<lb ed="#V" n="56" break="no"/>tiam judicis.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Ex quibus patet triplex modus incurrendi
+            <lb ed="#V" n="58"/>hanc poenam, quem praescribit Doctor,
+            <lb ed="#V" n="59"/>nempe ipso Jure, vel a judice, vel ab
+            utro<lb ed="#V" n="60" break="no"/>que simul. Ipso Jure, quando lex ipsa
+            tra<lb ed="#V" n="61" break="no"/>hit et applicat poenam ipso facto sine
+            sen<lb ed="#V" n="62" break="no"/>tentia judicis; a judice vero quando lex
+            <lb ed="#V" n="63"/>non comprehendit sententiam latam, sed
+            <lb ed="#V" n="64"/>ferendam a judice. Utroque modo
+            quan<lb ed="#V" n="65" break="no"/>do delictum est occultum, ex quo
+            incur<lb ed="#V" n="66" break="no"/>ritur ipso facto poena, et per processum
+            <lb ed="#V" n="67"/>judicialem probatur, et fit notoria per
+            <lb ed="#V" n="68"/>sententiam publicam et declarativam, quia
+            <lb ed="#V" n="69"/>tunc complete amittitur fama quoad
+            do<lb ed="#V" n="70" break="no"/>minium et possessionem etiam facti, ita ut
+            <lb ed="#V" n="71"/>sine injustitia possit quilibet de crimine
+            <lb ed="#V" n="72"/>loqui in publico, quod alias non liceret
+            <lb ed="#V" n="73"/>quamdiu crimen non fuit probatum et
+            sen<lb ed="#V" n="74" break="no"/>tentia lata, licet contra charitatem in hoc
+            <lb ed="#V" n="75"/>offendi posset in aliquibus circumstantiis.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>(h) Sed quae est causa, propter
+            <lb ed="#V" n="77"/>quam? etc. Hic textus patet ex allegata
+            <lb ed="#V" n="78"/>lege; citat autem duos textus cap.
+            Infa<lb ed="#V" n="79" break="no"/>mes, et cap. Omnes vero infames, etc. qui
+            <lb ed="#V" n="80"/>habentur 6. quaest. 1. et cap. Beatus
+            Pe<lb ed="#V" n="81" break="no"/>trus, eodem. Advertendum cum glossa in
+            <lb ed="#V" n="82"/>cap. Omnes, non omnem infamiam Jure
+            <lb ed="#V" n="83"/>civili inductam esse receptam a jure
+            Ca<lb ed="#V" n="84" break="no"/>nonico, qualis est illa quam incurrit vidua
+            <lb ed="#V" n="85"/>intra luctum nubens.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Haec infamia Juris civilis reddit
+            impedi<lb ed="#V" n="87" break="no"/>mentum Canonicum, in quantum per
+            Ca<lb ed="#V" n="88" break="no"/>nones est recepta in Ordine ad hunc
+            effe<pb ed="#V" n="118"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ctum. Praeterea, sunt alia crimina, ob quae
+            <lb ed="#V" n="2"/>ipsi Canones infligunt infamiam directe,
+            <lb ed="#V" n="3"/>et numerantur cap Infames. Hinc habetur
+            <lb ed="#V" n="4"/>divisio illa infamiae in civilem et
+            Canoni<lb ed="#V" n="5" break="no"/>cam, etc.
+            <lb ed="#V" n="6"/>(i) Quod remedium contra istam
+            poe<lb ed="#V" n="7" break="no"/>nam? etc. Resolutio haec communis est,
+            <lb ed="#V" n="8"/>purgatio Canonica tollit infamiam ex
+            opi<lb ed="#V" n="9" break="no"/>nione criminis, quae dicitur vulgaris, et
+            <lb ed="#V" n="10"/>non probatur legitime. Infamia ex publico
+            <lb ed="#V" n="11"/>peccato tollitur per poenitentiam, si
+            alio<lb ed="#V" n="12" break="no"/>quin non est speciali poena infamiae
+            nota<lb ed="#V" n="13" break="no"/>tum. Haec etiam Canonica est ex dicto
+            <lb ed="#V" n="14"/>capitulo, quamdiu persona in tali statu
+            <lb ed="#V" n="15"/>perseverat. Infamia civilis tolli potest
+            dire<lb ed="#V" n="16" break="no"/>cte per Principem, qua cessante, cessat
+            <lb ed="#V" n="17"/>etiam impedimentum Canonicum
+            indire<lb ed="#V" n="18" break="no"/>cte, nisi alias peccatum, ob quod
+            incur<lb ed="#V" n="19" break="no"/>ritur, notatur infamia per Canonem in
+            <lb ed="#V" n="20"/>specie; poenitentia non sufficit ad
+            tollen<lb ed="#V" n="21" break="no"/>dam infamiam, quae est poena specialis per
+            <lb ed="#V" n="22"/>legem, sed requiritur restitutio in
+            inte<lb ed="#V" n="23" break="no"/>grum, ut bene Doctor et communis. Major
+            <lb ed="#V" n="24"/>est haec poena, quam depositio quoad
+            vi<lb ed="#V" n="25" break="no"/>tam civilem, inquit Doctor, nisi ipsa
+            depo<lb ed="#V" n="26" break="no"/>sitio includat infamiam. Depositio nempe
+            <lb ed="#V" n="27"/>realis ob crimen, et verbalis indirecte
+            in<lb ed="#V" n="28" break="no"/>cludit infamiam, seu eam infert ipso
+            Ju<lb ed="#V" n="29" break="no"/>re, non tamen quaevis depositio ab aliquo
+            <lb ed="#V" n="30"/>gradu infert infamiam, ut si contingat
+            <lb ed="#V" n="31"/>aliquem male promoveri, bona tamen
+            <lb ed="#V" n="32"/>fide ex parte ejus, licet aliunde irrepat
+            <lb ed="#V" n="33"/>vitium, v. g si suspensus ab Ordine
+            ordi<lb ed="#V" n="34" break="no"/>net ignorantem, esse eum suspensum.
+            <lb ed="#V" n="35"/>Alio modo intelligi potest, nempe
+            deposi<lb ed="#V" n="36" break="no"/>tionem directe et ex intento legis
+            indu<lb ed="#V" n="37" break="no"/>centis talem poenam, loquendo de
+            com<lb ed="#V" n="38" break="no"/>pleta, etiam indirecte trahere infamiam,
+            <lb ed="#V" n="39"/>quam lex infamiae concurrens directe
+            in<lb ed="#V" n="40" break="no"/>fert. Caeterum si non est depositio
+            comple<lb ed="#V" n="41" break="no"/>ta, non necessario infert hanc poenam nisi
+            <lb ed="#V" n="42"/>Jure aut facto eadem causa concurrat et
+            <lb ed="#V" n="43"/>depositionis et infamiae. De hac materia
+            <lb ed="#V" n="44"/>videantur Doctores in textus citatos, et in
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>materia de accusatione, de testibus, de
+            <lb ed="#V" n="46"/>electione, de exceptionibus, de infamia et
+            <lb ed="#V" n="47"/>irregularitate ex ea redundante, de
+            cen<lb ed="#V" n="48" break="no"/>suris, ubi Suarez copiose hanc materiam
+            <lb ed="#V" n="49"/>tractat disput. 48.
+            <lb ed="#V" n="50"/>1) Tertia poena est irregularitas, etc. Haec
+            <lb ed="#V" n="51"/>definitio ita intelligitur, ut irregularitas i
+            <lb ed="#V" n="52"/>per se et directe sit inhabilitas suscipiendi
+            <lb ed="#V" n="53"/>Ordines, etiam primam tonsuram, et
+            red<lb ed="#V" n="54" break="no"/>dit personam ex Jure Ecclesiastico
+            inhabi<lb ed="#V" n="55" break="no"/>lem ad statum clericalem, et Ordinis.
+            <lb ed="#V" n="56"/>Haec inhabilitas personam directe
+            respe<lb ed="#V" n="57" break="no"/>ctive ad Ordines, et per se afficit, sive ut
+            <lb ed="#V" n="58"/>Ordinem suscipiat, sive ut in eo ministret,
+            <lb ed="#V" n="59"/>ex quo possumus colligere differentiam
+            <lb ed="#V" n="60"/>hujus impedimenti ab aliis, primo a
+            depo<lb ed="#V" n="61" break="no"/>sitione et suspensione etiam perpetua ab
+            <lb ed="#V" n="62"/>Ordine, cum quibus magis communicat
+            ir<lb ed="#V" n="63" break="no"/>regularitas, quia irregularitas respicit
+            pri<lb ed="#V" n="64" break="no"/>mo et per se personam, ita ut per accidens
+            <lb ed="#V" n="65"/>sit, an sit laicus, an Ecclesiasticus,
+            red<lb ed="#V" n="66" break="no"/>dendo ipsam incapacem Ordinis positive,
+            <lb ed="#V" n="67"/>et ministerii, directe quantum fieri potest
+            <lb ed="#V" n="68"/>ab Ecclesia. Depositio vero realis et
+            verba<lb ed="#V" n="69" break="no"/>lis sicut et suspensio etiam,
+            per<lb ed="#V" n="70" break="no"/>petua per modum privationis, se habent
+            <lb ed="#V" n="71"/>auferendo gradum et usum, ut depositio,
+            <lb ed="#V" n="72"/>quem alias habuit; vel solum usum, ut
+            <lb ed="#V" n="73"/>suspensio, non statuendo impedimentum
+            <lb ed="#V" n="74"/>positivum per modum inhabilitatis, per
+            <lb ed="#V" n="75"/>quod subjectum fieret incapax positive,
+            <lb ed="#V" n="76"/>sed solum privationem ejus gradus, quem
+            <lb ed="#V" n="77"/>habuit, aut certe usus; sicut ergo in
+            Phy<lb ed="#V" n="78" break="no"/>sicis diversa sunt in reipsa subjectum
+            <lb ed="#V" n="79"/>constitui incapax formae, quod denotat
+            <lb ed="#V" n="80"/>defectum potentiae proxime ad ejus
+            rece<lb ed="#V" n="81" break="no"/>ptionem et subjectum solum privari
+            for<lb ed="#V" n="82" break="no"/>ma, quam habet; ita et in moralibus
+            di<lb ed="#V" n="83" break="no"/>versa sunt subjectum reddere incapax
+            <lb ed="#V" n="84"/>positive auferendo ipsam capacitatem ad
+            <lb ed="#V" n="85"/>formam, et subjectum informatum privari
+            <lb ed="#V" n="86"/>forma quam habet, sive eam privando
+            <lb ed="#V" n="87"/>quantum ad esse, sive quantum ad usum;
+            <lb ed="#V" n="88"/>intelligo semper prout alias dictum est,
+            in<pb ed="#V" n="119"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>habilitatem et privationem, ut ab Ecclesia
+            <lb ed="#V" n="2"/>induci possunt, quia non agitur de iis, quae
+            <lb ed="#V" n="3"/>ex divina institutione spectant ad
+            Sacra<lb ed="#V" n="4" break="no"/>mentum, characterem et ejus potestatem,
+            <lb ed="#V" n="5"/>quod aliquoties advertisse sufficit, ne quae
+            <lb ed="#V" n="6"/>dicta aut dicenda sunt, ad haec
+            referan<lb ed="#V" n="7" break="no"/>tur. Irregularitas ergo est inhabilitas
+            posi<lb ed="#V" n="8" break="no"/>tiva, ut dixi, ad Ordinem, et usum ejus
+            <lb ed="#V" n="9"/>in genere, vel in particulari, juxta naturam
+            <lb ed="#V" n="10"/>ejus, prout lege est praescripta respective
+            <lb ed="#V" n="11"/>ad unum, seu ad plures.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>(m) Ista incurritur frequenter a Jure,
+            <lb ed="#V" n="13"/>quamvis, etc. Dividit hanc poenam per
+            or<lb ed="#V" n="14" break="no"/>dinem ad causam efficientem in eam, quae
+            <lb ed="#V" n="15"/>a Jure infligitur, et eam quae aliquando
+            <lb ed="#V" n="16"/>a judice infligi potest. De primo membro
+            <lb ed="#V" n="17"/>nulla est controversia; de secundo,
+            scili<lb ed="#V" n="18" break="no"/>cet an possit imponi ab homine, est
+            du<lb ed="#V" n="19" break="no"/>bium. Negativam partem tenet Soto in 4.
+            <lb ed="#V" n="20"/>dist. 22. quaest. 3. art. 1. Ledesma quaest, 26.
+            <lb ed="#V" n="21"/>art. 2. Noster Castro libro 2. de lege
+            poe<lb ed="#V" n="22" break="no"/>nali, cap. ult. Navarr. in Summa cap. 27.
+            <lb ed="#V" n="23"/>Covarr. Clem. unica de homicid. in 1.
+            <lb ed="#V" n="24"/>part. Suarez disp. 40. sect. 4. dub. 2. Et in
+            <lb ed="#V" n="25"/>eamdem sententiam citari etiam potest
+            <lb ed="#V" n="26"/>Doctor, sicut ibi explicuimus, dist. 13.
+            <lb ed="#V" n="27"/>quaest. 3. S Restat ergo videre in fine, ubi
+            <lb ed="#V" n="28"/>ait poenam irregularitatis non incurrere
+            <lb ed="#V" n="29"/>concubinarium celebrantem, usurarium,
+            <lb ed="#V" n="30"/>infamem, qui poenituit, et celebrat ante
+            <lb ed="#V" n="31"/>restitutionem etiam, non fieri irregularem,
+            <lb ed="#V" n="32"/>quia talis poena non est Jure expressa, ac
+            <lb ed="#V" n="33"/>proinde non est amplianda. Tenendo ergo
+            <lb ed="#V" n="34"/>hanc sententiam, quae est frequentior
+            Ju<lb ed="#V" n="35" break="no"/>ris prudentium, quae fundatur in cap. Is
+            <lb ed="#V" n="36"/>qui, de sentent. excommunic. in 6. et in
+            <lb ed="#V" n="37"/>usu Ecclesiae intelligit Doctor, quantum
+            <lb ed="#V" n="38"/>est ex natura poenae non repugnare
+            sim<lb ed="#V" n="39" break="no"/>pliciter, quin a judice imponi possit
+            se<lb ed="#V" n="40" break="no"/>cundum Jura, quia nullum Jus id
+            prohi<lb ed="#V" n="41" break="no"/>bet. Illud vero capitulum citatum intelligi
+            <lb ed="#V" n="42"/>potest de irregularitate Jure incursa, de
+            <lb ed="#V" n="43"/>qua tantum quaestio interrogabat: An
+            sci<lb ed="#V" n="44" break="no"/>licet celebrans in Ecclesia polluta factus
+            <lb ed="#V" n="45"/>sit irregularis; neque hoc speciale est in
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="46"/>irregularitate, sed commune omnibus
+            <lb ed="#V" n="47"/>poenis, quarum nulla incurritur ex vi
+            Cano<lb ed="#V" n="48" break="no"/>nis, nisi in ipso Canone expresse
+            com<lb ed="#V" n="49" break="no"/>prehendatur per sententiam latam, ut
+            <lb ed="#V" n="50"/>communis est sententia.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>Sicut ergo judex est lex viva, neque
+            <lb ed="#V" n="52"/>aliunde per Canones potestas ejus
+            limita<lb ed="#V" n="53" break="no"/>tur quoad hanc poenam, magis quam quoad
+            <lb ed="#V" n="54"/>aliam, neque alioquin excedit potestatem
+            <lb ed="#V" n="55"/>ejus ordinariam, nisi ostendatur limitatio
+            <lb ed="#V" n="56"/>aut reservatio hujus potestatis, quae inter
+            <lb ed="#V" n="57"/>Canones non invenitur. Sequitur ex hoc
+            <lb ed="#V" n="58"/>capite posse imponi a judice secundum
+            <lb ed="#V" n="59"/>Jura, id est, in crimine simili, in quo Jus
+            <lb ed="#V" n="60"/>talem poenam imponit. Et saltem dubium
+            <lb ed="#V" n="61"/>non est, quin Romanus Pontifex ob
+            deli<lb ed="#V" n="62" break="no"/>ctum hoc vel illud privatae personae hanc
+            <lb ed="#V" n="63"/>poenam imponere possit per modum
+            sen<lb ed="#V" n="64" break="no"/>tentiae; illud ergo solum obstat, quod ex
+            <lb ed="#V" n="65"/>usu et consuetudine haec poena a solo
+            Ca<lb ed="#V" n="66" break="no"/>none infligatur. An autem hic usus
+            indu<lb ed="#V" n="67" break="no"/>cat vim legis, incertum est, quamvis in
+            <lb ed="#V" n="68"/>praxi sit sequendus, et jam videtur haec
+            <lb ed="#V" n="69"/>poena soli Romano Pontifici reservari
+            sta<lb ed="#V" n="70" break="no"/>tuenda. Neque video quid summopere
+            re<lb ed="#V" n="71" break="no"/>pugnent aliqui ex praedictis Doctoribus
+            <lb ed="#V" n="72"/>huic sententiae, qui dicunt aliquam
+            irre<lb ed="#V" n="73" break="no"/>gularitatem esse proprie censuram, ut
+            <lb ed="#V" n="74"/>Soto et Corduba, aliique quidam
+            recenti<lb ed="#V" n="75" break="no"/>ores; sive enim medicinalis, sive vere
+            vin<lb ed="#V" n="76" break="no"/>dicativa dicatur, non videtur excedere
+            <lb ed="#V" n="77"/>potestatem judicis, sicut neque aliae
+            cen<lb ed="#V" n="78" break="no"/>surae, ut suspensio etiam perpetua ab
+            Or<lb ed="#V" n="79" break="no"/>dine. Quidquid etiam dicatur de
+            irregula<lb ed="#V" n="80" break="no"/>ritate ad susceptionem Ordinum,
+            irregula<lb ed="#V" n="81" break="no"/>ritas ab usu Ordinum non videtur excedere
+            <lb ed="#V" n="82"/>in ratione poenae suspensionem perpetuam
+            <lb ed="#V" n="83"/>aut dispositionem ab Ordine, quae possunt
+            <lb ed="#V" n="84"/>fieri ab homine.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Neque alioquin desunt aliqua exempla
+            <lb ed="#V" n="86"/>Juris, quae possunt commode de hac poena
+            <lb ed="#V" n="87"/>intelligi, et continent privationem Ordinis
+            <lb ed="#V" n="88"/>per verbum futuri, quae est nota
+            senten<lb ed="#V" n="89" break="no"/>tiae ferendae, sicut verbum praesentis et
+            <pb ed="#V" n="120"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>praeteriti sententiae latae, ex communi in
+            <lb ed="#V" n="2"/>l. Si quis major. C. de transactione Abbas,
+            <lb ed="#V" n="3"/>Decius c. At si Clerici, etc. de Judiciis,
+            <lb ed="#V" n="4"/>Tiraquellus in l. Si unquam, C. de
+            revo<lb ed="#V" n="5" break="no"/>cat. donat. cap. Si qui Episcopi male
+            ordi<lb ed="#V" n="6" break="no"/>nantes, ordinationis Jus amplius non
+            habe<lb ed="#V" n="7" break="no"/>bunt, etc. cap. Si de his, eodem, vana est
+            <lb ed="#V" n="8"/>habenda ordinatio, cap, quoniam, dist. 47.
+            <lb ed="#V" n="9"/>de Clericis usurariis, etc. dejiciatur a
+            cle<lb ed="#V" n="10" break="no"/>ro, et alienus existat a regula, id est,
+            ex<lb ed="#V" n="11" break="no"/>tra regulam Ecclesiasticam, quod est esse
+            <lb ed="#V" n="12"/>irregularem ex communi interpretatione
+            <lb ed="#V" n="13"/>vocis, cap. Quoniam, dist. 48. cesset a
+            cle<lb ed="#V" n="14" break="no"/>ro, praecipitabitur a statu sui cleri, c.
+            Cle<lb ed="#V" n="15" break="no"/>ricus qui, distinct. 46. ut intelligit Majolus,
+            <lb ed="#V" n="16"/>denotant irregularitatem ferendam, non
+            <lb ed="#V" n="17"/>latam tamen, cap. Cum illorum, de
+            sen<lb ed="#V" n="18" break="no"/>tent excommunic. ubi agitur de ordinatis
+            <lb ed="#V" n="19"/>in excommunicatione in perpetuum
+            de<lb ed="#V" n="20" break="no"/>ponendis. Item 41. q. 3. cap. Si quis
+            Epi<lb ed="#V" n="21" break="no"/>scopus, ubi decernitur poena
+            irregulari<lb ed="#V" n="22" break="no"/>tatis in Episcopum, Presbyterum et
+            Diaco<lb ed="#V" n="23" break="no"/>num, qui in excommunicatione
+            praesum<lb ed="#V" n="24" break="no"/>pserint facere oblationem, vel matutinum
+            <lb ed="#V" n="25"/>et vespertinum sacrificium, quasi in officio
+            <lb ed="#V" n="26"/>suo agere sicut prius, non liceat ei in
+            <lb ed="#V" n="27"/>Concilio spem reconciliationis habere, nec
+            <lb ed="#V" n="28"/>ultra recolligi, etc. In quibus verbis non
+            <lb ed="#V" n="29"/>intelligitur reconciliatio ab
+            excommunica<lb ed="#V" n="30" break="no"/>tione, quia haec poenitenti non negatur,
+            <lb ed="#V" n="31"/>sed dispensatio ab irregularitate, ut
+            com<lb ed="#V" n="32" break="no"/>munis cum Glossa; est idem canon 4.
+            <lb ed="#V" n="33"/>Antiocheni, et in Concilio Martini Papae 37.
+            <lb ed="#V" n="34"/>Item cap. Theaqualdum. codem titulo, ubi
+            <lb ed="#V" n="35"/>in Concilio Nicolaus Papa depositis
+            Colo<lb ed="#V" n="36" break="no"/>niensi et Trevirensi, ab omni dignitate
+            <lb ed="#V" n="37"/>Ecclesiastica, statuit eamdem poenam;
+            <lb ed="#V" n="38"/>Definientes, inquit, quod si juxta
+            praece<lb ed="#V" n="39" break="no"/>dentem consuetudinem tanquam Episcopi
+            <lb ed="#V" n="40"/>ausi fuerint aliquid de sacro mysterio
+            <lb ed="#V" n="41"/>contingere, nullo modo liceat eis neque in
+            <lb ed="#V" n="42"/>alia Synodo restitutionis spem aut locum
+            <lb ed="#V" n="43"/>habere satisfactionis. Haec sententia licet
+            <lb ed="#V" n="44"/>secundum Canones hic fertur a judice, et
+            <lb ed="#V" n="45"/>intelligitur de irregularitate.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="46"/>Alio modo intelligi potest Doctor,
+            vide<lb ed="#V" n="47" break="no"/>licet non intendere hic irregularitatem
+            im<lb ed="#V" n="48" break="no"/>poni per sententiam judicis, nisi lato
+            <lb ed="#V" n="49"/>modo, nempe in re dubia per
+            declarati<lb ed="#V" n="50" break="no"/>vam, qua definit in hoc, aut illo casu
+            du<lb ed="#V" n="51" break="no"/>bio intervenire irregularitatem secundum
+            <lb ed="#V" n="52"/>jura. Haec interpretatio concordat, et ipsi
+            <lb ed="#V" n="53"/>Doctori loco supra citato et communi
+            <lb ed="#V" n="54"/>sententiae et praxi, ideoque tenenda;
+            <lb ed="#V" n="55"/>unde illa verba ejus: Quamvis posset
+            ali<lb ed="#V" n="56" break="no"/>quando infligi a judice secundum Jura, id
+            <lb ed="#V" n="57"/>tantum important, cum enim Jura non
+            in<lb ed="#V" n="58" break="no"/>ducunt, neque faciunt mentionem
+            irregu<lb ed="#V" n="59" break="no"/>laritatis incurrendae, sed ex sententia lata
+            <lb ed="#V" n="60"/>incursae, ut communiter interpretes in
+            <lb ed="#V" n="61"/>caput citatum; ita judex non imponeret
+            <lb ed="#V" n="62"/>secundum Jura hanc poenam aliquando,
+            <lb ed="#V" n="63"/>nec posset secundum Jura, cum nec
+            ar<lb ed="#V" n="64" break="no"/>bitraria sit, neque Jura sub judicis
+            arbi<lb ed="#V" n="65" break="no"/>trio eam disponunt, sicut disponunt alias
+            <lb ed="#V" n="66"/>poenas, quae ab homine imponi possunt.
+            <lb ed="#V" n="67"/>Unde quod dicat tantum aliquando et
+            se<lb ed="#V" n="68" break="no"/>cundum Jura, referri debet ad hoc
+            tan<lb ed="#V" n="69" break="no"/>tum quod in casu dubio requiratur
+            sen<lb ed="#V" n="70" break="no"/>tentia ejus declarativa.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Posset etiam tertio explicari, eum hic
+            <lb ed="#V" n="72"/>intelligere suspensionem perpetuam, quae
+            <lb ed="#V" n="73"/>aequivalet irregularitati, quia agens de
+            <lb ed="#V" n="74"/>suspensione videtur sentire eam esse ad
+            <lb ed="#V" n="75"/>tempus tantum; irregularitas autem est
+            <lb ed="#V" n="76"/>perpetua ex natura sua, et difficilis
+            dis<lb ed="#V" n="77" break="no"/>pensationis.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>(n) Incurritur autem a Jure ex quibus
+            <lb ed="#V" n="79"/>criminibus? etc. Dividit secundo
+            irregu<lb ed="#V" n="80" break="no"/>laritatem ex materia seu causa, ob quam
+            <lb ed="#V" n="81"/>incurritur, in tria membra. Primo, ut est
+            <lb ed="#V" n="82"/>ex crimine. Secundo, ut est ex non
+            cri<lb ed="#V" n="83" break="no"/>mine. Tertio, ut est ex iis quae aliquando
+            <lb ed="#V" n="84"/>sunt crimen, aliquando non. Hoc tertium
+            <lb ed="#V" n="85"/>membrum generali divisione reduci potest
+            <lb ed="#V" n="86"/>ad duo prima, sicut reducit D. Thomas 64.
+            <lb ed="#V" n="87"/>2. q. 64. art. 7. ad 3. et quaest. 108. art.
+            <lb ed="#V" n="88"/>4. ad 2. Richardus in praesenti distinct.
+            <lb ed="#V" n="89"/>art. 4. quaest. 3. ad. 1. et communis, quia
+            <pb ed="#V" n="121"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>tamen in ordine ad effectum moralem
+            <lb ed="#V" n="2"/>et dispensationem, diversa ratio habetur
+            <lb ed="#V" n="3"/>irregularitatis quando est conjuncta
+            cul<lb ed="#V" n="4" break="no"/>pae, ab ea quam habet sine culpa, ideo
+            <lb ed="#V" n="5"/>distinguit ut tertium membrum.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Dubitari solet an irregularitas ex culpa
+            <lb ed="#V" n="7"/>sit censura? Partem affirmativam docet
+            <lb ed="#V" n="8"/>Soto in distinct. 22. loco citato, et alii.
+            <lb ed="#V" n="9"/>Hinc infert, quando in Bulla Cruciatae
+            da<lb ed="#V" n="10" break="no"/>tur facultas absolvendi a censuris,
+            com<lb ed="#V" n="11" break="no"/>prehendi irregularitatem ex culpa.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Respondetur tamen oppositum esse
+            se<lb ed="#V" n="13" break="no"/>quendum, ut patet ex cap. Quaerenti, etc.
+            <lb ed="#V" n="14"/>de verborum significatione, ubi sub
+            censu<lb ed="#V" n="15" break="no"/>ra non comprehenduntur, nisi
+            excommu<lb ed="#V" n="16" break="no"/>nicatio, suspensio, interdictum, sub
+            qui<lb ed="#V" n="17" break="no"/>bus non comprehenditur irregularitas.
+            <lb ed="#V" n="18"/>Secundo, quia a censuris datur potestas
+            <lb ed="#V" n="19"/>absolvendi, irregularitas autem non
+            tolli<lb ed="#V" n="20" break="no"/>tur per absolutionem, sed per
+            dispensa<lb ed="#V" n="21" break="no"/>tionem, ut constat. Deinde tertio, quia
+            <lb ed="#V" n="22"/>in Bulla Cruciatae, et aliis similibus
+            expri<lb ed="#V" n="23" break="no"/>mitur concessio seu facultas absolvendi
+            <lb ed="#V" n="24"/>a censuris et peccatis reservatis tanquam
+            <lb ed="#V" n="25"/>diversa a facultate dispensandi in votis,
+            <lb ed="#V" n="26"/>et irregularitatibus, in quibus additur
+            con<lb ed="#V" n="27" break="no"/>fessio nova.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Dices beneficia Principis largissime
+            <lb ed="#V" n="29"/>interpretanda esse, lib. de benef, de
+            con<lb ed="#V" n="30" break="no"/>stit. Princip. privilegia esse amplianda,
+            <lb ed="#V" n="31"/>can. Olim, etc. de verborum significatione.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Respondetur limitari privilegia ad
+            for<lb ed="#V" n="33" break="no"/>mam verborum, et rigorem et materiam
+            <lb ed="#V" n="34"/>subjectam. Irregularitas non venit nomine
+            <lb ed="#V" n="35"/>censurae, sublatio ejus non venit
+            appella<lb ed="#V" n="36" break="no"/>tione absolutionis, sed dispensationis;
+            sic<lb ed="#V" n="37" break="no"/>ut ergo potestas absolvendi a censura
+            <lb ed="#V" n="38"/>nequit extendi ad id quod non est
+            censu<lb ed="#V" n="39" break="no"/>ra, et sicut potestas absolvendi nequit
+            <lb ed="#V" n="40"/>exerceri nisi per absolutionem, quae in
+            <lb ed="#V" n="41"/>alia forma et modo fit differenti a
+            dispen<lb ed="#V" n="42" break="no"/>satione, per quam tollitur irregularitas,
+            <lb ed="#V" n="43"/>sic etiam neque potestas absolvendi a
+            <lb ed="#V" n="44"/>censura comprehendit irregularitatem, in
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>qua per potestatem datam dispensatur,
+            <lb ed="#V" n="46"/>non absolvitur.
+            <lb ed="#V" n="47"/>(9) Ex criminibus quatuor pertinentibus
+            <lb ed="#V" n="48"/>ad Ordines, etc. Primum crimen est
+            si<lb ed="#V" n="49" break="no"/>monia in ordine, scienter commissa. Hanc
+            <lb ed="#V" n="50"/>inducere irregularitatem probat ex 1.
+            <lb ed="#V" n="51"/>quaest. 1. cap. de caetero, et locis citatis in
+            <lb ed="#V" n="52"/>argumento ad oppositum, in eodem
+            titu<lb ed="#V" n="53" break="no"/>lo. Plura capita eamdem poenam habent.
+            <lb ed="#V" n="54"/>Deinde, dicit dispensationem spectare ad
+            <lb ed="#V" n="55"/>solum Pontificem, ex cap. Nobis, de
+            Simo<lb ed="#V" n="56" break="no"/>nia; ita discernenda est allegatio Doctoris.
+            <lb ed="#V" n="57"/>Tertio, dicit, quod si, ignorante illo,
+            com<lb ed="#V" n="58" break="no"/>misssa sit Simonia ab alio, qui pretium in
+            <lb ed="#V" n="59"/>favorem ejus dedit, eum non effici
+            irregu<lb ed="#V" n="60" break="no"/>larem, nisi cum constiterit de errore, quia
+            <lb ed="#V" n="61"/>tunc manet suspensus ab Ordine, donec
+            li<lb ed="#V" n="62" break="no"/>beretur. Quod si in eo statu exequatur
+            <lb ed="#V" n="63"/>actum Ordinis, manet irregularis.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Quoad primum, qui putant ex cap. Is
+            <lb ed="#V" n="65"/>qui, sentent excommun. in 6. non incurri
+            <lb ed="#V" n="66"/>irregularitatem, nisi poena sit Jure
+            expres<lb ed="#V" n="67" break="no"/>sa. Item, non posse imponi consequenter
+            <lb ed="#V" n="68"/>ab homine, negant illa Jura
+            comprehende<lb ed="#V" n="69" break="no"/>re irregularitatem, sed poenam
+            depositio<lb ed="#V" n="70" break="no"/>nis aut degradationis aut suspensionis; et
+            <lb ed="#V" n="71"/>hoc consequenter, quia ut constat ex illo
+            <lb ed="#V" n="72"/>titulo plures continent sententiam etiam
+            <lb ed="#V" n="73"/>judicis, et eadem forma verborum
+            expri<lb ed="#V" n="74" break="no"/>mitur modus poenae, alias dicendum esset,
+            <lb ed="#V" n="75"/>hanc fpoenam posse aliquando esse a
+            judi<lb ed="#V" n="76" break="no"/>ce. Sed oritur inde inconveniens, nempe
+            <lb ed="#V" n="77"/>poenam irregularitatis vix probari posse
+            <lb ed="#V" n="78"/>ex antiquis Decretis fuisse in usu, cum
+            <lb ed="#V" n="79"/>nullam ejus sub propria appellatione
+            <lb ed="#V" n="80"/>mentionem faciunt, sed utantur vocabulo
+            <lb ed="#V" n="81"/>depositionis, suspensionis, ejectionis,
+            irrita<lb ed="#V" n="82" break="no"/>tionis, et hujusmodi.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>Secundo dicunt per Simoniam per se
+            <lb ed="#V" n="84"/>non incurri irregularitatem in Ordine, sed
+            <lb ed="#V" n="85"/>ratione excommunicationis aut
+            suspensi<lb ed="#V" n="86" break="no"/>onis adjunctae, aut interdicti. Hoc etiam
+            <lb ed="#V" n="87"/>non videtur subsistere, quia decreta
+            an<lb ed="#V" n="88" break="no"/>tiqua loquuntur expresse de psa Simonia,
+            <pb ed="#V" n="122"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ob quam inducunt poenas, ut patet
+            percur<lb ed="#V" n="2" break="no"/>rendo illum titulum causa I. quaest. 1. vel
+            <lb ed="#V" n="3"/>ergo in antiquis Decretis non includitur
+            <lb ed="#V" n="4"/>haec poena, vel incurritur propter
+            pecca<lb ed="#V" n="5" break="no"/>tum Simoniae. Item, Extra de Simonia,
+            <lb ed="#V" n="6"/>cap. Nobis, etc. in fine, ubi electio
+            Simo<lb ed="#V" n="7" break="no"/>niaca dicitur reprobata, et dispensari non
+            <lb ed="#V" n="8"/>posse cum electo per Episcopum;
+            dispen<lb ed="#V" n="9" break="no"/>satio autem supponit irregularitatem.
+            <lb ed="#V" n="10"/>Item cap. per tuas, etc. decernitur ut
+            si<lb ed="#V" n="11" break="no"/>moniace ordinatus Diaconus non ascendat
+            <lb ed="#V" n="12"/>ad superiores Ordines, neque in
+            susce<lb ed="#V" n="13" break="no"/>ptis ministret, nisi fuerit dispensatus, cap.
+            <lb ed="#V" n="14"/>Si quis ordinaverit, etc. in fine. Ordinatus
+            <lb ed="#V" n="15"/>simoniace manet ab Ordine suspensus
+            <lb ed="#V" n="16"/>donec fuerit dispensatus; per illam autem
+            <lb ed="#V" n="17"/>suspensionem intelligi potest
+            irregulari<lb ed="#V" n="18" break="no"/>tas, quia suspensio non proprie
+            dispensa<lb ed="#V" n="19" break="no"/>tur, ut censura. Ex quibus patet ordinatum
+            <lb ed="#V" n="20"/>simoniace incurrere hanc poenam ob
+            ip<lb ed="#V" n="21" break="no"/>sam simoniam, et non solum ob censuram
+            <lb ed="#V" n="22"/>annexam.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>In Jure autem novo, ut Extravaganti
+            <lb ed="#V" n="24"/>Pauli II. Cum detestabile, simonia realis
+            <lb ed="#V" n="25"/>punitur excommunicatione, et reliquis
+            <lb ed="#V" n="26"/>censuris et poenis contra simoniacos
+            quo<lb ed="#V" n="27" break="no"/>libet modo latis. Tridentinum sess. 21.
+            <lb ed="#V" n="28"/>cap. 1. easdem poenas contra simoniace
+            <lb ed="#V" n="29"/>ordinantes statuit. Item, Decretis Sixti V.
+            <lb ed="#V" n="30"/>contra male promoventes et promotos,
+            <lb ed="#V" n="31"/>quam licet quod alia Clemens VIII,
+            redu<lb ed="#V" n="32" break="no"/>xit ad terminos Juris communis; tamen
+            <lb ed="#V" n="33"/>quoad poenam in male promotos et
+            pro<lb ed="#V" n="34" break="no"/>moventes simoniace, reliquit in suo
+            vigo<lb ed="#V" n="35" break="no"/>re; per haec ergo Jura reviviscit poena
+            <lb ed="#V" n="36"/>irregularitatis, si unquam lata fuit
+            <lb ed="#V" n="37"/>contra Simoniacos in Ordine. Videtur
+            er<lb ed="#V" n="38" break="no"/>go dicendum quod suspensio per modum
+            <lb ed="#V" n="39"/>poenae latae in Jure antiquo contra male
+            <lb ed="#V" n="40"/>promotos simoniace, et quae ab aliquibus
+            <lb ed="#V" n="41"/>dicitur perpetua, non differat ab
+            irregu<lb ed="#V" n="42" break="no"/>laritate, neque esse proprie censuram, sed
+            <lb ed="#V" n="43"/>illam suspensionem medicinalem et
+            tem<lb ed="#V" n="44" break="no"/>porariam, quae supponit contumaciam,
+            <lb ed="#V" n="45"/>esse censuram.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="46"/>Tertium dictum Doctoris tenet Felinus
+            <lb ed="#V" n="47"/>in cap. Per tuas, de Simonia, asserens
+            <lb ed="#V" n="48"/>esse communem. Et patet argumento
+            <lb ed="#V" n="49"/>cap. Nobis fuit, etc. de Simonia, quem
+            ci<lb ed="#V" n="50" break="no"/>tat Doctor gloss. in cap. de Simoniace,
+            <lb ed="#V" n="51"/>eodem titulo. Contrarium hujus docent
+            <lb ed="#V" n="52"/>aliqui ex fundamento supra allegato, quia
+            <lb ed="#V" n="53"/>nempe illa poena non est Jure expressa;
+            <lb ed="#V" n="54"/>ita Navarrus in Summa cap. 25. et alii
+            <lb ed="#V" n="55"/>posteriores. Sed contra licet ipse non
+            con<lb ed="#V" n="56" break="no"/>trahat irregularitatem, tamen quia Simo.
+            <lb ed="#V" n="57"/>nia ex culpa aliorum intervenit, in odium
+            <lb ed="#V" n="58"/>ejus haec videntur statuta expresse, ut ex
+            <lb ed="#V" n="59"/>titulo de Simonia variis capitulis
+            conti<lb ed="#V" n="60" break="no"/>netur aequivalenter in beneficiis et officiis,
+            <lb ed="#V" n="61"/>quibus intervenit Simonia ex culpa
+            alio<lb ed="#V" n="62" break="no"/>rum, nesciente promoto, quae officia
+            de<lb ed="#V" n="63" break="no"/>bent dimitti et resignari, quando constat de
+            <lb ed="#V" n="64"/>Simonia. Haec autem Jura non sunt nova
+            <lb ed="#V" n="65"/>decreta, sed declaratio antiquorum, quae
+            <lb ed="#V" n="66"/>perinde comprehendunt, vel a fortiori
+            <lb ed="#V" n="67"/>Simoniam in Ordine commissam
+            quomo<lb ed="#V" n="68" break="no"/>documque, nisi in fraudem ordinati fiat,
+            <lb ed="#V" n="69"/>ordinationemque ipsa irritam statuunt.
+            <lb ed="#V" n="70"/>Vide Glossam cum additione c. At si
+            <lb ed="#V" n="71"/>Clerici, etc. de judiciis, ubi illas poenas
+            <lb ed="#V" n="72"/>intelligit de irregularitate.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d25q1-p2"> -->
+          <p>
+            <lb ed="#V" n="65" type="fixed=123"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>(p) Sioniacus autem in beneficio, etc.
+            <lb ed="#V" n="67"/>Hic agit de eo cui collatum est beneficium
+            <lb ed="#V" n="68"/>simoniace, ipso tamen ignorante, dicit eum
+            <lb ed="#V" n="69"/>dum sciverit, teneri ad resignationem
+            be<lb ed="#V" n="70" break="no"/>neficii, et ad restitutionem fructuum, quia
+            <lb ed="#V" n="71"/>nempe non fecit illos suos, cum collatio
+            <lb ed="#V" n="72"/>ipso Jure fuerit nulla; vide Scholium et
+            <lb ed="#V" n="73"/>auctores, quos citat Extrav. detestabile
+            <lb ed="#V" n="74"/>Reliqua hujus litterae patent ex Canonibus
+            <lb ed="#V" n="75"/>allegatis. Aliqui in superiori sententia
+            <lb ed="#V" n="76"/>manentes negant eum, qui censura
+            in<lb ed="#V" n="77" break="no"/>nodatus suscipit Ordines, fieri
+            irregu<lb ed="#V" n="78" break="no"/>larem proprie, sed suspensum, ut Suarez
+            <lb ed="#V" n="79"/>disput. 42. de censuris, sect. 3. casu. 7.
+            <lb ed="#V" n="80"/>Sed Jura aliter disponunt et interpretari
+            <lb ed="#V" n="81"/>debent, ut communis Doctorum et
+            glos<lb ed="#V" n="82" break="no"/>sae intelligunt.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d25q1-p3"> -->
+          <p>
+            <lb ed="#V" n="57" type="fixed=124"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>(q) Sequitur etiam irregularitas tria non
+            <lb ed="#V" n="59"/>crimina, etc. Ex conditione servitutis, ut
+            <lb ed="#V" n="60"/>opponitur libertati, oritur irregularitas,
+            <lb ed="#V" n="61"/>quamdiu est obnoxius servus domino, seu
+            <lb ed="#V" n="62"/>servituti subjectus. Patet distinct. 54. ex
+            <lb ed="#V" n="63"/>toto titulo de servis non ordinandis,
+            Au<lb ed="#V" n="64" break="no"/>thent. Si servus, C. de Episcopis et Clericis,
+            <lb ed="#V" n="65"/>ex communi Theologorum in hac distinct.
+            <lb ed="#V" n="66"/>Ratio, quam assignat Doctor, est Leonis
+            <lb ed="#V" n="67"/>Papae epist. 1. cap. 16. habetur capitulo
+            <lb ed="#V" n="68"/>Generalis, et cap. 1. Ordinatus inscio
+            domi<lb ed="#V" n="69" break="no"/>no et invito, si repetatur, debet reddi, nisi
+            <lb ed="#V" n="70"/>sit Sacerdos, cap. Ex antiquis, sed
+            peculi<lb ed="#V" n="71" break="no"/>um reddere debet. Haec irregularitas
+            tolli<lb ed="#V" n="72" break="no"/>tur per manumissionem, aut quacumque
+            <lb ed="#V" n="73"/>via restituatur libertati servus.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>(r) Sequitur etiam illegitimatum, etc.
+            <lb ed="#V" n="75"/>Haec irregularitas patet ex textu citato, et
+            <lb ed="#V" n="76"/>in 6. in cap. consuluit, etc. juxta glossam,
+            <lb ed="#V" n="77"/>de servis non ordinandis, cap. Per
+            venerabi<lb ed="#V" n="78" break="no"/>lem, etc. qui filii sint legitimi, et dist. 56.
+            <lb ed="#V" n="79"/>per multos textus in principio,
+            intelligun<lb ed="#V" n="80" break="no"/>tur illegitimi, qui non nascuntur ex
+            <lb ed="#V" n="81"/>matrimonio vero aut probabili, etiam ex
+            <lb ed="#V" n="82"/>bona fide alterius conjugis, quae sufficit ad
+            <lb ed="#V" n="83"/>legitimationem prolis, modo matrimonium
+            <lb ed="#V" n="84"/>non fuerit clandestinum, cap. Ex tenore,
+            <lb ed="#V" n="85"/>qui sint filii legitimi, cap. Cum inhibitio,
+            <pb ed="#V" n="125"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>etc. de clandestino desponsat.
+            Legitiman<lb ed="#V" n="2" break="no"/>tur nati ex soluto et soluta, qui habiles
+            <lb ed="#V" n="3"/>erant ad matrimonium, ipso
+            supervenicn<lb ed="#V" n="4" break="no"/>te, cap. Tanta, etc. qui sint filii legitimi.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>(s) Sequitur etiam tertium, etc.
+            Irregula<lb ed="#V" n="6" break="no"/>ritas ex mutilatione aliquando est cum
+            <lb ed="#V" n="7"/>culpa, aliquando sine culpa. Cum culpa fit
+            <lb ed="#V" n="8"/>etiam per voluntarium indirectum ut
+            quan<lb ed="#V" n="9" break="no"/>do ipse dedit mutilationi in parte aut in toto
+            <lb ed="#V" n="10"/>membro causam, etiam occulto, ut si
+            ab<lb ed="#V" n="11" break="no"/>sciderit sibi partem, membrum aliquod
+            <lb ed="#V" n="12"/>aut partem membri, tunc est irregularis,
+            <lb ed="#V" n="13"/>ut patet cap Qui partem, distinct. 55. Quoad
+            <lb ed="#V" n="14"/>partis non notabilis abscissionem
+            requiri<lb ed="#V" n="15" break="no"/>tur voluntas directa, et non sufficit
+            indire<lb ed="#V" n="16" break="no"/>cta, ut docet Navarr. c. 27. ut si in duello
+            <lb ed="#V" n="17"/>aliqua pars digiti fuerit abscissa ab alio,
+            <lb ed="#V" n="18"/>non facit irregularem a quia longe
+            atro<lb ed="#V" n="19" break="no"/>cius est, ut quis in seipsum ferrum
+            strin<lb ed="#V" n="20" break="no"/>gat, quam ut ab alio indicatur; voluntas
+            <lb ed="#V" n="21"/>ergo directa, ut habet actum, est, quae
+            pu<lb ed="#V" n="22" break="no"/>nitur in illo textu. Quod si causam dedit,
+            <lb ed="#V" n="23"/>membrum etiam occultum abscindatur
+            in<lb ed="#V" n="24" break="no"/>tegre, ut si fiat Eunuchus ex poena deli cti,
+            <lb ed="#V" n="25"/>fit irregularis secundum eumdem, qui citat
+            <lb ed="#V" n="26"/>Hostiensem et Joannem Andream, et
+            com<lb ed="#V" n="27" break="no"/>munem sententiam. Et patet ex cap. Ex
+            <lb ed="#V" n="28"/>parte, etc. de corpore vitiatis, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Oppositum hujus est etiam probabile, si
+            <lb ed="#V" n="30"/>rigor Canonum, et proprietas inspiciatur,
+            <lb ed="#V" n="31"/>qui videntur semper loqui de voluntate
+            <lb ed="#V" n="32"/>directa, ut indicat quamdam in seipsum
+            <lb ed="#V" n="33"/>ferocitatem, ut patet ex Canon. 22. et 23.
+            <lb ed="#V" n="34"/>Apostol. cap. Hi qui, distinct. 55. et cap.
+            <lb ed="#V" n="35"/>Maritum 33. distinct. etc. cap. Qui partem.
+            <lb ed="#V" n="36"/>Prior sententia, quia communis, securior
+            <lb ed="#V" n="37"/>est. Ad irregularitem ex voluntate directa
+            <lb ed="#V" n="38"/>culpabili sufficit, ut pars membri
+            abscin<lb ed="#V" n="39" break="no"/>datur. Ad irregularitatem ex voluntate
+            in<lb ed="#V" n="40" break="no"/>i directa, requiritur totum membrum
+            absin<lb ed="#V" n="41" break="no"/>di. Si mutilatio fiat sine culpa, incurritur
+            <lb ed="#V" n="42"/>quando ex carentia membri inducitur
+            no<lb ed="#V" n="43" break="no"/>tabilis difformitas et indecentia, vel certe
+            <lb ed="#V" n="44"/>inhabilitas ad sacrum ministerium. Est
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>communis, et patet ex titulis citatis a
+            <lb ed="#V" n="46"/>Doctore.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Quando autem neutrum horum
+            inducti<lb ed="#V" n="48" break="no"/>tur, non incurritur irregularitas. Canon. 22.
+            <lb ed="#V" n="49"/>Apostolorum, ubi dicitur Eunuchos
+            fac<lb ed="#V" n="50" break="no"/>tos sine sua culpa non esse irrregulares,
+            <lb ed="#V" n="51"/>cap. 1. et 2. de corpore vitiatis, ubi
+            defini<lb ed="#V" n="52" break="no"/>tur eos defectus, qui non inducunt
+            impe<lb ed="#V" n="53" break="no"/>dimentum ministerii, aut deformitatem,
+            <lb ed="#V" n="54"/>non inducere irregularitatem. Item, c. Si
+            <lb ed="#V" n="55"/>partem. cap. Lator, cap. Praecepta, dist. 55.
+            <lb ed="#V" n="56"/>impedimentum usus Ordinis, et
+            defor<lb ed="#V" n="57" break="no"/>mitas in laico inferunt irregularitatem
+            <lb ed="#V" n="58"/>simpliciter; in clerico vero ne ascendat
+            <lb ed="#V" n="59"/>ad Superiores Ordines; in ordinato quoad
+            <lb ed="#V" n="60"/>usum si superveniat, respective ad usum
+            <lb ed="#V" n="61"/>illius Ordinis tantum ad quem impeditur,
+            <lb ed="#V" n="62"/>vel quem nequit sine scandalo fexercere.
+            <lb ed="#V" n="63"/>Si tamen aliquem actum Ordinis exercere
+            <lb ed="#V" n="64"/>potest sine scandalo, ad eum non fit
+            irre<lb ed="#V" n="65" break="no"/>gularis, ut si Sacerdos, si careat manibus,
+            <lb ed="#V" n="66"/>nequit celebrare, potest tamen audire
+            <lb ed="#V" n="67"/>Confessiones. Si sit surdus, nequit hoc,
+            <lb ed="#V" n="68"/>potest illud, potest solemniter exercere
+            <lb ed="#V" n="69"/>officium Diaconi et Subdiaconi, nisi ad
+            <lb ed="#V" n="70"/>haec sit impeditus.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Morbus similiter incurabilis inducit
+            irre<lb ed="#V" n="72" break="no"/>gularitatem, quando habet annexum impe.
+            <lb ed="#V" n="73"/>dimentum perpetuum aut deformitatem.
+            <lb ed="#V" n="74"/>Patet ex Canonibus citatis de corpore
+            <lb ed="#V" n="75"/>vitiatis, et de clerico aegroto, distinct. 55.
+            <lb ed="#V" n="76"/>requiritur ut sit incurabilis, ut inferat hanc
+            <lb ed="#V" n="77"/>irregularitatem, et ut impedimentum aut
+            <lb ed="#V" n="78"/>deformitas sit perpetua irregularitatis,
+            <lb ed="#V" n="79"/>quae ex vitio corporis incurritur, ad solum
+            <lb ed="#V" n="80"/>Papam spectat dispensatio, ut tenet
+            com<lb ed="#V" n="81" break="no"/>munis.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d25q1-p4"> -->
+          <p>
+            <lb ed="#V" n="66" type="fixed=126"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>(f) Sequuntur etiam duo, etc. Agit de
+            <lb ed="#V" n="68"/>irregularitate, quae est ex homicidio et
+            <lb ed="#V" n="69"/>bigamia; dicit etiam contingere aliquando
+            <lb ed="#V" n="70"/>ex culpa, aliquando sine culpa. Ad
+            distin<lb ed="#V" n="71" break="no"/>ctionem hujus a priori, nam licet mutilatio
+            <lb ed="#V" n="72"/>sui ipsius contingat cum culpa, ut
+            supe<lb ed="#V" n="73" break="no"/>rius supponit, quia tamen raro contingit,
+            <lb ed="#V" n="74"/>et in moralibus frequenter contingentium
+            <lb ed="#V" n="75"/>habetur ratio, ideo in divisione generali
+            <lb ed="#V" n="76"/>eam reducit ad irregularitatem, quae est
+            <lb ed="#V" n="77"/>indecentia et deformitate; ex quibus
+            pri<lb ed="#V" n="78" break="no"/>mario resultat, quamvis etiam culpa ipsa
+            <lb ed="#V" n="79"/>puniatur in mutilatione se in parte aut
+            <lb ed="#V" n="80"/>toto membro.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Haec autem irregularitas, quae ex
+            defec<lb ed="#V" n="82" break="no"/>tu Sacramenti seu significationis ut in
+            bi<lb ed="#V" n="83" break="no"/>gamia, vel ex defectu lenitatis, ut in
+            ho<lb ed="#V" n="84" break="no"/>micidio contingit, est frequenter cum
+            <lb ed="#V" n="85"/>peccato; aliquando etiam sine peccato,
+            <lb ed="#V" n="86"/>quod sufficit ad praesentem differentiam,
+            <lb ed="#V" n="87"/>quae accidentalis est, et non substantialis,
+            <lb ed="#V" n="88"/>quia per accidens est ut conjungatur culpa,
+            <lb ed="#V" n="89"/>licet in ordine ad dispensationem
+            obti<pb ed="#V" n="127"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>nendam plurimum spectatur tam culpa
+            <lb ed="#V" n="2"/>quam modus culpae, quo quis homicidium
+            <lb ed="#V" n="3"/>committit directe aut indirecte.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Distinguit autem Doctor tria genera
+            ho<lb ed="#V" n="5" break="no"/>micidii, nempe voluntarii simpliciter,
+            vo<lb ed="#V" n="6" break="no"/>luntarii secundum quid, et voluntarii
+            ca<lb ed="#V" n="7" break="no"/>sualis. Voluntarium simpliciter est, quando
+            <lb ed="#V" n="8"/>occisio intenditur in se, vel in sua causa
+            <lb ed="#V" n="9"/>proxima et inevitabili mortis, v. g. cum
+            <lb ed="#V" n="10"/>quis intendit alium occidere directe, vel
+            <lb ed="#V" n="11"/>etiamsi non concipiat occisionem
+            inferan<lb ed="#V" n="12" break="no"/>dam directe, intendit tamen actionem quae
+            <lb ed="#V" n="13"/>per se est illativa mortis inevitabiliter,
+            <lb ed="#V" n="14"/>ut percutere aliquem gladio, et quantum
+            <lb ed="#V" n="15"/>potest, et ubicumque potest, aut eum
+            <lb ed="#V" n="16"/>praecipitare ex turri, aut propinare
+            vene<lb ed="#V" n="17" break="no"/>num per se lethiferum, quia vult causam
+            <lb ed="#V" n="18"/>proximam, vult etiam effectum, si sequatur
+            <lb ed="#V" n="19"/>quantum est ex se. In homicidio autem
+            <lb ed="#V" n="20"/>voluntario ex stylo Juris distinguunt
+            Docto<lb ed="#V" n="21" break="no"/>res homicidium, ut est contra justitiam, et
+            <lb ed="#V" n="22"/>homicidium licitum, vel certe illicitum, ut
+            <lb ed="#V" n="23"/>si fiat contra charitatem, v. g. cum judex
+            <lb ed="#V" n="24"/>occid secundum justitiam reum, cui ex
+            <lb ed="#V" n="25"/>lege talis poena debetur, est homicidium
+            <lb ed="#V" n="26"/>licitum. Cum vero occidit ex odio aliquem,
+            <lb ed="#V" n="27"/>secundum tamen justitiam, et ob
+            demeri<lb ed="#V" n="28" break="no"/>tum, peccat contra charitatem, et non
+            <lb ed="#V" n="29"/>contra justitiam, quia talis poena debetur
+            <lb ed="#V" n="30"/>ex lege; homicidium autem voluntarium
+            <lb ed="#V" n="31"/>utroque modo inducit irregularitatem, ut
+            <lb ed="#V" n="32"/>dicit Doctor, et patet ex legibus citatis.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Sed in ordine ad irregularitatem,
+            ejus<lb ed="#V" n="34" break="no"/>que reservationem, homicidium
+            volunta<lb ed="#V" n="35" break="no"/>rium intelligitur homicidium injuste
+            fa<lb ed="#V" n="36" break="no"/>ctum, qued Pontifici soli reservatur, ut
+            <lb ed="#V" n="37"/>patet ex tenore Jubilaei, Cruciatae et
+            Privi<lb ed="#V" n="38" break="no"/>legiorum, in quibus facultas dispensandi
+            <lb ed="#V" n="39"/>in hoc homicidio reservatur Pontifici, et
+            <lb ed="#V" n="40"/>ex Concilio Tridentino sessione 24. cap. 6.
+            <lb ed="#V" n="41"/>quantumlibet homicidium sit occultum.
+            <lb ed="#V" n="42"/>Unde colligunt Doctores, quando
+            concedi<lb ed="#V" n="43" break="no"/>tur facultas dispensandi in omnibus
+            irre<lb ed="#V" n="44" break="no"/>gularitatibus, excepta illa, quae est ex
+            homi<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>cidio voluntario, intelligi tantum
+            homici<lb ed="#V" n="46" break="no"/>dium injuste perpetratum directe volitum
+            <lb ed="#V" n="47"/>in se, vel in sua causa proxima, ac
+            proin<lb ed="#V" n="48" break="no"/>de in caeteris ex delicto occulto posse.
+            <lb ed="#V" n="49"/>dispensari per alios, ut communiter
+            Doc<lb ed="#V" n="50" break="no"/>tores, nisi deducantur ad forum publicum.
+            <lb ed="#V" n="51"/>Deducitur autem ad forum publicum
+            <lb ed="#V" n="52"/>per denuntiationem et accusationem
+            <lb ed="#V" n="53"/>instituto processu judiciario, quando
+            pro<lb ed="#V" n="54" break="no"/>bari nequit crimen, recidit ad eumdem
+            <lb ed="#V" n="55"/>statum, in quo fuit prius, quantum ad
+            <lb ed="#V" n="56"/>facultatem dispensandi, quia non mutatur
+            <lb ed="#V" n="57"/>status ejus, ut quidam volunt, maxime
+            <lb ed="#V" n="58"/>deficiente plena et semiplena probatione.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>De homicidio voluntario hoc sensu
+            lo<lb ed="#V" n="60" break="no"/>quitur Doctor, quando dicit homicidium;
+            <lb ed="#V" n="61"/>voluntarium nunquam deleri, nisi per
+            <lb ed="#V" n="62"/>Baptismum, quia infra distinct. 33. q. 2.
+            <lb ed="#V" n="63"/>supponit tolli per dispensationem, sicut
+            <lb ed="#V" n="64"/>et bigamiam quae etiam post Baptismum
+            <lb ed="#V" n="65"/>manet, ut ibi docet. Imo etiam in Ordine
+            <lb ed="#V" n="66"/>ad summum Pontificem dispensatio haec
+            <lb ed="#V" n="67"/>reputatur in eo sensu impossibilis, quo
+            <lb ed="#V" n="68"/>est valide difficilis dispensatio, neque
+            con<lb ed="#V" n="69" break="no"/>cedenda nisi ex gravissimis causis. Unde
+            <lb ed="#V" n="70"/>Tridentinum citatum hoc ipsum significar e
+            <lb ed="#V" n="71"/>voluit sessione 14. cap. 7. dicens: nullo
+            <lb ed="#V" n="72"/>tempore ad sacros Ordines promoveri
+            pos<lb ed="#V" n="73" break="no"/>sit, etc. omni Ordine perpetuo careat, etc.
+            <lb ed="#V" n="74"/>Vide cap. Miror, distinct. 50. cap.
+            Inquisi<lb ed="#V" n="75" break="no"/>tionis, etc. de accusat. cap. Non ab
+            homi<lb ed="#V" n="76" break="no"/>ne etc. de judic.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Ad homicidium voluntarium hoc modo
+            <lb ed="#V" n="78"/>reducitur homicidium etiam aliquando
+            <lb ed="#V" n="79"/>indirecte volitum praesumptione fori, ut
+            <lb ed="#V" n="80"/>si quis alium vulneravit aut percusserit,
+            <lb ed="#V" n="81"/>non intendens eum interficere aut
+            mutila<lb ed="#V" n="82" break="no"/>re, secuta morte aut mutilat ione incurrit
+            <lb ed="#V" n="83"/>irregularitatem homicidii voluntarii,
+            prae<lb ed="#V" n="84" break="no"/>sumptione fori, quae in facto fundatur;
+            <lb ed="#V" n="85"/>non tamen in conscientia est homicida
+            <lb ed="#V" n="86"/>voluntarius, hoc modo, quia rei veritas
+            <lb ed="#V" n="87"/>secundum conscientiam attenditur, et
+            <lb ed="#V" n="88"/>voluntas percutientis, quae requiri potest
+            <lb ed="#V" n="89"/>ex circumstantiis et confessione ipsius,
+            <pb ed="#V" n="128"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>nempe ex modo et aliis concurrentibus.
+            <lb ed="#V" n="2"/>Quamvis ergo praesumptione fori habeatur
+            <lb ed="#V" n="3"/>homicida voluntarius ex proposito, quia
+            <lb ed="#V" n="4"/>voluntatem ex ipso facto praesumit, tamen
+            <lb ed="#V" n="5"/>in conscientiae foro aliter judicandum est,
+            <lb ed="#V" n="6"/>licet irregularis sit ex delicto in utroque
+            <lb ed="#V" n="7"/>fe ro, tamen non est ex proposito aut
+            <lb ed="#V" n="8"/>intentione homicida, quod requiritur ad
+            <lb ed="#V" n="9"/>homicidium voluntarium, modo adhibuit
+            <lb ed="#V" n="10"/>moderamen conforme intentioni; neque
+            <lb ed="#V" n="11"/>ex natura actionis praevidere potuit aut
+            <lb ed="#V" n="12"/>debuit secuturam mortem aut
+            mutilati<lb ed="#V" n="13" break="no"/>onem, alias in utroque foro esset homicida
+            <lb ed="#V" n="14"/>voluntarius, quia intentio illa esset ficta,
+            <lb ed="#V" n="15"/>quando sufficiens cautela non adjungitur,
+            <lb ed="#V" n="16"/>aut modus, per quem ex natura actionis
+            <lb ed="#V" n="17"/>praecavetur effectus mortis aut
+            mutilati<lb ed="#V" n="18" break="no"/>onis, qui ex casu sequitur,
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Addit praeterea Doctor homicidium
+            vo<lb ed="#V" n="20" break="no"/>luntarium secundum quid inducere
+            irre<lb ed="#V" n="21" break="no"/>gularitatem, ut quando fit cum
+            defensi<lb ed="#V" n="22" break="no"/>one inculpatae tutelae; hoc verum erat
+            <lb ed="#V" n="23"/>tum, quando haec scripsit, Jure antiquo,
+            <lb ed="#V" n="24"/>sed postea sublata est haec iregularitas
+            <lb ed="#V" n="25"/>per Clement. unicam, de homicid. etc.
+            <lb ed="#V" n="26"/>Hoc homicidium dicitur a Canonistis
+            homi<lb ed="#V" n="27" break="no"/>cidium dicitur a Canonistis homicidium
+            <lb ed="#V" n="28"/>ex necessitate. Glossa in cap. De his,
+            <lb ed="#V" n="29"/>dist. 50. Archidiacon. et Praepos. ibidem,
+            <lb ed="#V" n="30"/>glossa in cap. Sicut dignum, de homicid.
+            <lb ed="#V" n="31"/>Trident. sess. 14. cap. 7. quam
+            necessita<lb ed="#V" n="32" break="no"/>tem dividunt in evitabilem, quae non
+            ex<lb ed="#V" n="33" break="no"/>cusat ab irregularitate, et inevitabilem,
+            <lb ed="#V" n="34"/>quae excusat, v. g. si mutilando evaderet,
+            <lb ed="#V" n="35"/>tunc occidendo fieret irregularis, et
+            pecca<lb ed="#V" n="36" break="no"/>ret; si etiam defensio transeat in
+            aggres<lb ed="#V" n="37" break="no"/>sionem, non excusatur, quia in illo
+            exces<lb ed="#V" n="38" break="no"/>su non est defensio, neque necessaria
+            <lb ed="#V" n="39"/>est ad evasionem mortis, tamen occidens
+            <lb ed="#V" n="40"/>etiam in eo casu non censetur homicida
+            <lb ed="#V" n="41"/>voluntarius primo modo; unde
+            irregulari<lb ed="#V" n="42" break="no"/>tas quae ex tali homicidio incurritur,
+            redu<lb ed="#V" n="43" break="no"/>citur a quibusdam ad eam, quae est ex
+            <lb ed="#V" n="44"/>homicidio casuali.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Quoad tertiam speciem, quae est
+            homici<lb ed="#V" n="46" break="no"/>dii casualis, doctrina circa hoc, quam
+            <lb ed="#V" n="47"/>tradit Doctor, est com munis, videatur cap.
+            <lb ed="#V" n="48"/>Dilectae, etc, cum tribus sequentibus, cap.
+            <lb ed="#V" n="49"/>Joannes, cap. ultimo, de homicidio, ubi
+            <lb ed="#V" n="50"/>Doctores et Theologi in hac distinct. et 1. 2.
+            <lb ed="#V" n="51"/>quaest. 73. et 2. 2. q. 64. art. 8. Covarr.
+            <lb ed="#V" n="52"/>Clement. Si furiosus 2. part. Navarr.
+            <lb ed="#V" n="53"/>cap. 27. Hic culpatur potissimum
+            negli<lb ed="#V" n="54" break="no"/>gentia ad evitandum homicidium et ejus
+            <lb ed="#V" n="55"/>periculum. Circa autem irregularitatem
+            <lb ed="#V" n="56"/>ex homicidio his tribus modis
+            provenien<lb ed="#V" n="57" break="no"/>tem formantur regulae generales, et casus a
+            <lb ed="#V" n="58"/>Doctoribus in specie, quae passim
+            occur<lb ed="#V" n="59" break="no"/>runt in Summistis, quas hic proinde omitto
+            <lb ed="#V" n="60"/>brevitatis causa; nam sufficit aliqua in
+            <lb ed="#V" n="61"/>genere dicere ad declarationem textus,
+            <lb ed="#V" n="62"/>cum tractatus integer sine prolixitate
+            ne<lb ed="#V" n="63" break="no"/>quit exhiberi. Est praeterea irregularitas
+            <lb ed="#V" n="64"/>alia homicidii, quae non est ex delicto, sed
+            <lb ed="#V" n="65"/>ex defectu lenitatis seu significationis,
+            <lb ed="#V" n="66"/>quam vocant Sacramenti, ut quando
+            <lb ed="#V" n="67"/>judex occidit malefactores secundum
+            poe<lb ed="#V" n="68" break="no"/>nam legis. Circa haec omnia videatur
+            Sua<lb ed="#V" n="69" break="no"/>rez de censuris, disp. 44. et seq. ubi
+            diffu<lb ed="#V" n="70" break="no"/>se hanc materiam tractat. Quoad regulas
+            <lb ed="#V" n="71"/>generales et casus particulares, de
+            irre<lb ed="#V" n="72" break="no"/>gularitate ex bigamia agit Doctor infra
+            <lb ed="#V" n="73"/>distinct. 33. q. 2. quam ibi breviter
+            expli<lb ed="#V" n="74" break="no"/>cabimus.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d25q1-p5"> -->
+          <p>
+            <lb ed="#V" n="5" type="fixed=130"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>(u) Quarta poena est
+            excommunica<lb ed="#V" n="7" break="no"/>tio, etc. Vide Scholium, quod
+            summa<lb ed="#V" n="8" break="no"/>rie fundamentum hujus doctrinae exponit;
+            <lb ed="#V" n="9"/>quoad numerum vero vide Toletum in
+            <lb ed="#V" n="10"/>Summa, lib. 1. c. 14. et deinceps, Suarez
+            <lb ed="#V" n="11"/>tom. 5. de censuris, Reginaldum in praxi
+            <lb ed="#V" n="12"/>lib. 9. Sayrum de censuris, lib. 3. et
+            Na<lb ed="#V" n="13" break="no"/>varr, in Suma, c. 27. Summistas verb.
+            Ex<lb ed="#V" n="14" break="no"/>communicatio. Fertur ob peccatum
+            mor<lb ed="#V" n="15" break="no"/>tale et grave, cui annexa est contumacia,
+            <lb ed="#V" n="16"/>et idem de interdicto et suspensione.
+            Tri<lb ed="#V" n="17" break="no"/>dentin. sess. 25. cap. 3. de reformat. cap.
+            <lb ed="#V" n="18"/>Praesenti 5. q. 2. Veritatis, etc. de dolo et
+            <lb ed="#V" n="19"/>contumacia, cap. 2. de testibus cogendis,
+            <lb ed="#V" n="20"/>cap. Honoratus d. 75. August. de corrept.
+            <lb ed="#V" n="21"/>et gratia, cap. 15. cap. Nullus 11.
+            <lb ed="#V" n="22"/>quaest. 3. Est communis. Abbas in cap.
+            <lb ed="#V" n="23"/>ultimo, de cohabitatione clericorum et
+            mu<lb ed="#V" n="24" break="no"/>lierum, Felinus in cap. Apostolicae, etc.
+            <lb ed="#V" n="25"/>de exceptione. Ideoque non pro omni
+            pec<lb ed="#V" n="26" break="no"/>cato etiam mortali ferenda est, sed pro
+            <lb ed="#V" n="27"/>gravi, cui annexa est contumacia, ut
+            di<lb ed="#V" n="28" break="no"/>cit Doctor. Et ratio quam assignat, est
+            <lb ed="#V" n="29"/>efficax, quia haec potestas data Ecclesiae
+            <lb ed="#V" n="30"/>explicatur in illo loco, quem insinuat
+            <lb ed="#V" n="31"/>Doctor Matth. 18. et ejus exercitium
+            de<lb ed="#V" n="32" break="no"/>claratur fieri debere contra eos, qui non
+            <lb ed="#V" n="33"/>audiunt Ecclesiam, qui sunt contumaces,
+            <lb ed="#V" n="34"/>ut docet D. Thom. in 4. distinct. 18.
+            <lb ed="#V" n="35"/>quaest. 2. artic. 1. quaestiunc. 3. Noster
+            <lb ed="#V" n="36"/>Castro lib. 2. de lege poenali, concl. 4.
+            <lb ed="#V" n="37"/>Covarr. in cap. Alma mater, Navarr. in
+            <lb ed="#V" n="38"/>Summa, cap. 27. num. 9. et 11. Soto
+            <lb ed="#V" n="39"/>in 4. distinct. 22. quaest. 1. artic. 2. et lib. 5.
+            <lb ed="#V" n="40"/>de Justitia et Jure, quaest. 6. artic. 2.
+            <lb ed="#V" n="41"/>Suarez disput. 4. sect. 5. Quin etiam haec
+            <lb ed="#V" n="42"/>censura non debet fieri, nisi in casu quo
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>alia remedia et monitiones nullum habeant
+            <lb ed="#V" n="44"/>effectum. Unde Tridentinum sess. 25. de
+            <lb ed="#V" n="45"/>reformat. c. 14. in casu concubinatus
+            cle<lb ed="#V" n="46" break="no"/>ricorum sic ordinat procedendum, ut
+            pri<lb ed="#V" n="47" break="no"/>mo admoneantur. Secundo, nisi emendati
+            <lb ed="#V" n="48"/>fuerint, priventur tertia parte fructuum.
+            <lb ed="#V" n="49"/>Tertio, privatione beneficii, officii,
+            porti<lb ed="#V" n="50" break="no"/>onum, pensionum, et inhabiles fiant ad
+            <lb ed="#V" n="51"/>dignitates, officia, beneficia. Quarto,
+            tan<lb ed="#V" n="52" break="no"/>dem excommunicentur, si in delicto
+            hae<lb ed="#V" n="53" break="no"/>serint, aut intermissum consortiun
+            repe<lb ed="#V" n="54" break="no"/>tant. Quis autem sit Minister juris? etc.
+            <lb ed="#V" n="55"/>vide distinct. 19.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>(X) Qualiter relaxatur? etc. Tenet
+            com<lb ed="#V" n="57" break="no"/>munem sententiam de absolutione ab
+            <lb ed="#V" n="58"/>excommunicatione non reservata exc c.
+            <lb ed="#V" n="59"/>Nuper, etc. de sentent. excommunicat. Sed
+            <lb ed="#V" n="60"/>probationem ex illo capite dicit non esse
+            <lb ed="#V" n="61"/>efficacem, quantum ad vim consequentiae,
+            <lb ed="#V" n="62"/>quia simpliciter non sequitur; conditor
+            <lb ed="#V" n="63"/>Canonis non reservat, ergo concessit. Non
+            <lb ed="#V" n="64"/>sequitur, inquam, per ipsa Jura, ex
+            regu<lb ed="#V" n="65" break="no"/>la: Quod non est concessum, videtur esse
+            <lb ed="#V" n="66"/>prohibitum. Et clarum est rationem
+            prae<lb ed="#V" n="67" break="no"/>dictam non tenere universaliter in materia
+            <lb ed="#V" n="68"/>jurisdictionis, neque ex natura rei, neque
+            <lb ed="#V" n="69"/>etiam de Jure, universaliter loquendo,
+            <lb ed="#V" n="70"/>quod requiritur ad vim consequentiae;
+            <lb ed="#V" n="71"/>non ex natura rei, quia inferior nequit
+            di<lb ed="#V" n="72" break="no"/>spensare in lege superioris, ut Parochus
+            <lb ed="#V" n="73"/>in statuto Episcopali, aut Episcopus in lege
+            <lb ed="#V" n="74"/>Pontificia; neque consequenter potest
+            <lb ed="#V" n="75"/>propria auctoritate tollere effectum legis,
+            <lb ed="#V" n="76"/>aut poenam, quae ex lege est auctoritate
+            <lb ed="#V" n="77"/>propria; non sequitur eadem
+            consequen<lb ed="#V" n="78" break="no"/>tia universaliter secundum Jura, ut patet de
+            <lb ed="#V" n="79"/>dispensasione legum, et irregularitatum,
+            <lb ed="#V" n="80"/>alias sequeretur quod Episcopus posset
+            <lb ed="#V" n="81"/>dispensare in gradibus prohibitis, verbi
+            <lb ed="#V" n="82"/>gratia, contrahendi matrimonium, eo ipso
+            <lb ed="#V" n="83"/>quod non sit prohibita dispensatio; saepe
+            <lb ed="#V" n="84"/>enim in lege non fit expressa mentio
+            con<lb ed="#V" n="85" break="no"/>cessionis, verbi gratia, in cap. Dilectus, etc.
+            <lb ed="#V" n="86"/>de temporibus ordin. expresse dicitur quod
+            <pb ed="#V" n="131"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Archiepiscopus non potuerit dispensare
+            <lb ed="#V" n="2"/>cum Episcopo, ut eodem die tres sacros
+            <lb ed="#V" n="3"/>Ordines conferret: Quia hujusmodi
+            di<lb ed="#V" n="4" break="no"/>spensatio, inquit Pontifex, a Canone
+            mini<lb ed="#V" n="5" break="no"/>me est permissa, ubi glossa colligit non
+            <lb ed="#V" n="6"/>posse Episcopos dispensare in Jure
+            ordi<lb ed="#V" n="7" break="no"/>nario, nisi in casibus sibi permissis.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Ante autem declarationem illam
+            Pontifi<lb ed="#V" n="9" break="no"/>cis non legitur prohibitio specialis facta in
+            <lb ed="#V" n="10"/>illo casu, aut reservatio expressa
+            potesta<lb ed="#V" n="11" break="no"/>tis, praeter illam solam, quae ex vi legis,
+            <lb ed="#V" n="12"/>ut a potestate superiori emanavit, orta
+            <lb ed="#V" n="13"/>est. Simile est illud Tridentini sess. 7.
+            <lb ed="#V" n="14"/>de Sacram. in genere, canon. 13. ubi
+            <lb ed="#V" n="15"/>negatur posse Episcopos aut alios
+            Prae<lb ed="#V" n="16" break="no"/>latos Ecclesiae habere potestatem mutandi
+            <lb ed="#V" n="17"/>aut innovandi Ritus communes Ecclesiae,
+            <lb ed="#V" n="18"/>ministrandi Sacramenta. Videantur
+            Do<lb ed="#V" n="19" break="no"/>ctores in capitulo, et si Clerici, etc. de
+            <lb ed="#V" n="20"/>« judiciis, etc. cum glossa. Ratio ergo
+            Pon<lb ed="#V" n="21" break="no"/>,tificis in c. Nuper, de sentent, excommun.
+            <lb ed="#V" n="22"/>intelligenda est de absolutione ab
+            excom<lb ed="#V" n="23" break="no"/>municatione, quia id conceditur vel
+            <lb ed="#V" n="24"/>supponitur concessum ex usu et praxi
+            <lb ed="#V" n="25"/>Ecclesiae, cujus optima congruentia est
+            <lb ed="#V" n="26"/>illa, quam Doctor infra insinuat S
+            Compa<lb ed="#V" n="27" break="no"/>rando, etc. de facilitate remissionis seu
+            <lb ed="#V" n="28"/>absolutionis ab excommunicatione: ideo,
+            <lb ed="#V" n="29"/>inquit, facilius remittitur, quia gravissima
+            <lb ed="#V" n="30"/>est, et a pluribus excludit, ob periculum
+            <lb ed="#V" n="31"/>itaque animarum, et quia non debet
+            <lb ed="#V" n="32"/>protrahi absolutio, quando reus satisfacit,
+            <lb ed="#V" n="33"/>et se disponit cap. Qua fronte, etc. de
+            <lb ed="#V" n="34"/>appellat. ideo ex intentione Ecclesiae
+            aufe<lb ed="#V" n="35" break="no"/>renda est; et haec potestas ad Praelatos
+            <lb ed="#V" n="36"/>ordinarios emanat, non ex propria
+            aucto<lb ed="#V" n="37" break="no"/>ritate, sed ex Ecclesiae et Pontificis
+            indul<lb ed="#V" n="38" break="no"/>gentia. Diversam rationem ab hoc inducit
+            <lb ed="#V" n="39"/>potestas dispensandi in lege aut aliis
+            <lb ed="#V" n="40"/>poenis. Ideoque non valet illud axioma:
+            <lb ed="#V" n="41"/>Quidquid potest Papa in universali,
+            Eccle<lb ed="#V" n="42" break="no"/>sia, potest Episcopus in sua dioecesi, nisi
+            <lb ed="#V" n="43"/>prohibeatur, etc. Fallit enim in pluribus,
+            <lb ed="#V" n="44"/>quia plura potest Pontifex circa
+            irritati<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>onem aliquorum actuum, quod nequit
+            <lb ed="#V" n="46"/>Episcopus; plura impedimenta statuere
+            <lb ed="#V" n="47"/>et inhabilitates, quod nequit Episcopus.
+            <lb ed="#V" n="48"/>Item, statuere circa ministerium
+            Sacra<lb ed="#V" n="49" break="no"/>mentorum plura, quae nequit Episcopus.
+            <lb ed="#V" n="50"/>Idem patet in dispensationibus etiam.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d25q1-p6"> -->
+          <p>
+            <lb ed="#V" n="32" type="fixed=132"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>(y) Quinta poena est interdictum, etc.
+            <lb ed="#V" n="34"/>Definit interdictum quod sit arctatio a
+            <lb ed="#V" n="35"/>quibusdam actibus Ecclesiasticis
+            exercen<lb ed="#V" n="36" break="no"/>dis, vel ab assistendo illis actibus. Dicitur
+            <lb ed="#V" n="37"/>artactio seu prohibitio, seu privatio, quae
+            <lb ed="#V" n="38"/>communis est omnibus poenis. Dicitur a
+            <lb ed="#V" n="39"/>quibusdam actibus Ecclesiasticis
+            exercen<lb ed="#V" n="40" break="no"/>dis, vel ab assistendo, etc. ut
+            comprehen<lb ed="#V" n="41" break="no"/>dat usum tam activum quam passivum,
+            <lb ed="#V" n="42"/>quia utrumque modum aliquando
+            inclu<cb ed="#V" n="b"/><lb ed="#V" n="43" break="no"/>dit haec poena, quoad laicos passivum,
+            <lb ed="#V" n="44"/>quoad clericos activum etiam. Dicit etiam
+            <lb ed="#V" n="45"/>ab aliquibus actibus, etc. quia quidam
+            <lb ed="#V" n="46"/>actus excipiuntur, ut conferre Baptismum
+            <lb ed="#V" n="47"/>et Chrisma, poenitentiam, viaticum,
+            prohi<lb ed="#V" n="48" break="no"/>betur extrema unctio, sepultura, et juxta
+            <lb ed="#V" n="49"/>aliquos matrimonium, et Ordo, si
+            confe<lb ed="#V" n="50" break="no"/>rendus sit laicis, et divina officia. Differt
+            <lb ed="#V" n="51"/>haec poena ab excommunicatione quoad
+            <lb ed="#V" n="52"/>actus, quibus privat, quod
+            excommunica<lb ed="#V" n="53" break="no"/>tio sit privatio eorum, ratione
+            communi<lb ed="#V" n="54" break="no"/>onis. Interdictum vero privat directe usu
+            <lb ed="#V" n="55"/>illorum actuum, et per se quatenus res
+            <lb ed="#V" n="56"/>sacrae sunt, et independenter a
+            communi<lb ed="#V" n="57" break="no"/>one membrorum, quam spectat
+            excom<lb ed="#V" n="58" break="no"/>municatio. Differt a suspensione, quod
+            <lb ed="#V" n="59"/>haec privat usu activo, et respective ad
+            per<lb ed="#V" n="60" break="no"/>sonas particulares, nempe Ecclesiasticas.
+            <lb ed="#V" n="61"/>Interdictum comprehendit utrumque
+            <lb ed="#V" n="62"/>usum, et etiam communiter, seu usum
+            <lb ed="#V" n="63"/>eorum, quae communia sunt populo et
+            <lb ed="#V" n="64"/>clero.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Interdictum dividit in locale, personale
+            <lb ed="#V" n="66"/>et mixtum, si dirigatur ad locum erit
+            loca<lb ed="#V" n="67" break="no"/>le; si ad personam, personale;
+            utrum<lb ed="#V" n="68" break="no"/>que potest esse generale et particulare,
+            <lb ed="#V" n="69"/>quorum differentia et natura ex forma
+            <lb ed="#V" n="70"/>interdicti colligi potest. Et quia de natura
+            <lb ed="#V" n="71"/>poenae est, ut non comprehendat nisi eos
+            <lb ed="#V" n="72"/>ad quos dirigitur, tunc spectanda est
+            <lb ed="#V" n="73"/>proprietas verborum, et quid importatur
+            <lb ed="#V" n="74"/>per subjectum, ad quod dirigitur poena;
+            <lb ed="#V" n="75"/>nam si clerus interdicitur, non
+            compre<lb ed="#V" n="76" break="no"/>henditur populus, neque si populus,
+            <lb ed="#V" n="77"/>comprehenditur clerus, neque etiam alii,
+            <lb ed="#V" n="78"/>qui non sunt membra populi, sed omnes
+            <lb ed="#V" n="79"/>et singulos illius corporis tantum
+            compre<lb ed="#V" n="80" break="no"/>hendit poena. Circumstantia sententiae, et
+            <lb ed="#V" n="81"/>materia spectanda est, ut verus sensus
+            <lb ed="#V" n="82"/>ejus comprehendatur, ut, v. g. si
+            interdi<lb ed="#V" n="83" break="no"/>catur clerus, quia ex usu Ecclesiastico
+            <lb ed="#V" n="84"/>saepe haec vox sumitur pro clero saeculari
+            <lb ed="#V" n="85"/>solo; aliquando etiam ut comprehendit
+            <lb ed="#V" n="86"/>regularem, dubium esse potest an in
+            <pb ed="#V" n="133"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>odiosis appellatione cleri veniant
+            Regula<lb ed="#V" n="2" break="no"/>res, spectanda est forma sententiae, et
+            <lb ed="#V" n="3"/>materia ut intelligatur, si sententia
+            <lb ed="#V" n="4"/>etiam ad regulares extendatur; nam
+            <lb ed="#V" n="5"/>quando in materia, seu causa non
+            com<lb ed="#V" n="6" break="no"/>municant, sic etiam in poena non videntur
+            <lb ed="#V" n="7"/>comprehendi, nisi aliud forma sententiae
+            <lb ed="#V" n="8"/>declaret. Non comprehendi autem in
+            <lb ed="#V" n="9"/>odiosis nomine cleri Regulares, docet
+            <lb ed="#V" n="10"/>Sylvester Interdictum 5. Sed in hoc
+            re<lb ed="#V" n="11" break="no"/>gula generalis assignari nequit; spectanda
+            <lb ed="#V" n="12"/>enim est forma sententiae, ut cap. Si
+            sen<lb ed="#V" n="13" break="no"/>tentia, de sententia excommunicationis
+            <lb ed="#V" n="14"/>in 6. ubi nomine cleri comprehenduntur
+            <lb ed="#V" n="15"/>Regulares. Sed casus ille ad totam
+            com<lb ed="#V" n="16" break="no"/>munitatem oppidi spectabat, cujus onera
+            <lb ed="#V" n="17"/>sentire debebant; quando autem causa
+            <lb ed="#V" n="18"/>est particularis cleri secularis, tunc non
+            <lb ed="#V" n="19"/>videntur comprehendi Regulares nomine
+            <lb ed="#V" n="20"/>cleri, nisi alias ex sententia ipsa constet,
+            <lb ed="#V" n="21"/>vel certe in causa communicent.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Interdictum mixtum est, quando non
+            <lb ed="#V" n="23"/>solum locus interdicitur, sed etiam aeque
+            <lb ed="#V" n="24"/>specialiter persona determinate vel
+            inde<lb ed="#V" n="25" break="no"/>terminate, vel communitas; aut certe
+            <lb ed="#V" n="26"/>quando primario persona interdicitur, ut
+            <lb ed="#V" n="27"/>Princeps, et locus ad quemcumque
+            per<lb ed="#V" n="28" break="no"/>venerit; quod interdictum dicitur a
+            qui<lb ed="#V" n="29" break="no"/>busdam ambulatorium vel
+            deambulato<lb ed="#V" n="30" break="no"/>rium. Ejus mentio fit in c. Non est vobis,
+            <lb ed="#V" n="31"/>etc. de sponsalibus, etc. Dilectis filiis, etc.
+            <lb ed="#V" n="32"/>de appellationibus. Interdictum generale
+            <lb ed="#V" n="33"/>locale non includit interdictum generale
+            <lb ed="#V" n="34"/>personale, neque e contra, per se
+            loquen<lb ed="#V" n="35" break="no"/>do, quamvis a judice conjungi possint,
+            pa<lb ed="#V" n="36" break="no"/>tet cap. Si sententia, allegato.
+            Interdi<lb ed="#V" n="37" break="no"/>ctum particulare personale non infert
+            in<lb ed="#V" n="38" break="no"/>terdictum particulare locale; at contra
+            <lb ed="#V" n="39"/>interdictum particulare locale infert
+            parti<lb ed="#V" n="40" break="no"/>culare personale, nempe ejus qui dedit
+            <lb ed="#V" n="41"/>causam interdicto locali, qui simpliciter
+            <lb ed="#V" n="42"/>est interdictus ubique, donec satisfacienti
+            <lb ed="#V" n="43"/>relaxatur poena, ex dicto capitulo, si
+            sen<lb ed="#V" n="44" break="no"/>tentia, etc. Idem dicas de interdicto
+            ge<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>nerali locali inferre personale, quoad eos,
+            <lb ed="#V" n="46"/>qui causam interdicto dederunt, quia
+            lo<lb ed="#V" n="47" break="no"/>cus non interdicitur nisi ratione delicti
+            <lb ed="#V" n="48"/>personarum, quos poena primario
+            compre<lb ed="#V" n="49" break="no"/>hendit ex suo motivo et causa; ubique
+            <lb ed="#V" n="50"/>enim dans causam subest poenae, nisi
+            rela<lb ed="#V" n="51" break="no"/>xetur.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>(z) Relaxatur per illum, qui posuit
+            in<lb ed="#V" n="53" break="no"/>terdictum, etc. Hic adducit etiam
+            mode<lb ed="#V" n="54" break="no"/>rationem Bonifacii VIII. in causa
+            interdi<lb ed="#V" n="55" break="no"/>cti, quae habetur cap. Alma mater, etc. de
+            <lb ed="#V" n="56"/>sentent. excomm. in 6. Primo quantum ad
+            <lb ed="#V" n="57"/>Sacramentum Poenitentiae ministrandum
+            <lb ed="#V" n="58"/>tempore interdicti. Secundo, quantum ad
+            <lb ed="#V" n="59"/>officia divina et Missas celebrandas januis
+            <lb ed="#V" n="60"/>clausis, et submissa voce, non pulsatis
+            <lb ed="#V" n="61"/>campanis in loco interdicti. Tertio, de
+            sus<lb ed="#V" n="62" break="no"/>pensione interdicti in festivitatibus Natalis
+            <lb ed="#V" n="63"/>Domini, Paschae et Pentecostes, et
+            Assum<lb ed="#V" n="64" break="no"/>ptionis Beatissimae Virginis, ut continetur
+            <lb ed="#V" n="65"/>in constitutione; et hoc est quod intendit
+            <lb ed="#V" n="66"/>Doctor de relaxatione interdicti in certis
+            <lb ed="#V" n="67"/>casibus.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Poena eorum, qui violant interdictum si
+            <lb ed="#V" n="69"/>clerici sunt, habetur c. Is cui. de sent.
+            ex<lb ed="#V" n="70" break="no"/>comm. in 6. et cap. 1. eod. et cap. 1. de
+            <lb ed="#V" n="71"/>sententia, et re judicata, etc. Unde
+            colli<lb ed="#V" n="72" break="no"/>gunt Doctores incurrere eos
+            irregularita<lb ed="#V" n="73" break="no"/>tem, si Missas, si officia divina celebrant
+            <lb ed="#V" n="74"/>cum solemnitate, exceptis casibus
+            conces<lb ed="#V" n="75" break="no"/>sis, si ministrent Sacramenta, quae
+            prohi<lb ed="#V" n="76" break="no"/>bentur.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>(a) Sexta poena est suspensio, etc. Definit
+            <lb ed="#V" n="78"/>suspensionem, quod sit prohibitio ab
+            ali<lb ed="#V" n="79" break="no"/>quo alias conveniente, et hoc ad tempus,
+            <lb ed="#V" n="80"/>etc. non tollit ergo potestatem, sed usum
+            <lb ed="#V" n="81"/>ejus, et hoc, inquit, ad tempus, etc.
+            Qui<lb ed="#V" n="82" break="no"/>bus verbis significat distinctionem hujus
+            <lb ed="#V" n="83"/>poenae ab aliis. Loquitur de suspensione,
+            <lb ed="#V" n="84"/>qua est mere poena diversa ab aliis, nam
+            <lb ed="#V" n="85"/>ut fertur per modum censurae, supponit
+            <lb ed="#V" n="86"/>contumaciam, et includitur in
+            excommuni<lb ed="#V" n="87" break="no"/>catione, tanquam pars in toto; neque
+            ha<lb ed="#V" n="88" break="no"/>bet tempus limitatum, cum dependeat
+            <pb ed="#V" n="134"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>a conditione ponenda ex parte suspensi,
+            <lb ed="#V" n="2"/>nempe correctione aut emendatione; qua
+            <lb ed="#V" n="3"/>autem est mera poena vindicativa, non
+            <lb ed="#V" n="4"/>imponitur, nisi quoad tempus. Idem
+            do<lb ed="#V" n="5" break="no"/>cent Canonistae, Innocent. c. 1. de
+            excessi<lb ed="#V" n="6" break="no"/>bus Praelatorum, Abbas in cap.
+            Reprehen<lb ed="#V" n="7" break="no"/>sibilis, etc. et c. Saepe, etc. de appellat.
+            <lb ed="#V" n="8"/>Patet ex c. Eos, etc. de tempor. ord. in 6.
+            <lb ed="#V" n="9"/>c. fin. eod. cap. Si quis ordinaverit, etc.
+            <lb ed="#V" n="10"/>de Simonia, c. Cum in cunctis, etc. de
+            <lb ed="#V" n="11"/>elect. c. cum Medicinalis, etc, de sentent.
+            <lb ed="#V" n="12"/>excom. in 6. c. Sacro, etc. de sentent.
+            <lb ed="#V" n="13"/>excomm. c. 1. de sentent. et re judicata
+            <lb ed="#V" n="14"/>in 6. c. fin. de offic. judic. delegati,
+            <lb ed="#V" n="15"/>etc. in 6. Clem. Multorum, etc. de
+            hae<lb ed="#V" n="16" break="no"/>reticis, Clem. etc. de vita et honestate
+            cle<lb ed="#V" n="17" break="no"/>ricorum. Ex quibus patet hanc poenam
+            <lb ed="#V" n="18"/>ut plurimum a Jure latam esse
+            temporari<lb ed="#V" n="19" break="no"/>am, nisi in casu contumaciae et
+            satisfacti<lb ed="#V" n="20" break="no"/>onis exhibendae, qualis est illa, quae fertur
+            <lb ed="#V" n="21"/>cap. Quia saepe, etc. de elect. in 6. et c.
+            <lb ed="#V" n="22"/>Praesenti, etc. de officio judicis ordin.
+            <lb ed="#V" n="23"/>cap. Exigit. et cap. Felicis, etc. de
+            censi<lb ed="#V" n="24" break="no"/>bus in 6.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Quod si suspensio perpetua feratur,
+            <lb ed="#V" n="26"/>potius habet rationem depositionis quam
+            <lb ed="#V" n="27"/>suspensionis; vel certe non plurimum,
+            <lb ed="#V" n="28"/>differt a depositione, vel ab aliis poenis
+            <lb ed="#V" n="29"/>quae perpetuae sunt. Quod si quis velit
+            <lb ed="#V" n="30"/>cum aliis dari suspensionem perpetuam,
+            <lb ed="#V" n="31"/>tunc intelligendus est Doctor notasse
+            <lb ed="#V" n="32"/>differentiam, quae ut plurimum convenit
+            <lb ed="#V" n="33"/>suspensioni, eique soli, quod in re
+            mora<lb ed="#V" n="34" break="no"/>li sufficit; nam caeterae poenae non
+            limi<lb ed="#V" n="35" break="no"/>tant tempus ex natura sua, quia
+            excom<lb ed="#V" n="36" break="no"/>municatio et interdictum manent,
+            quam<lb ed="#V" n="37" break="no"/>diu causa eorum manet, et non tolluntur
+            <lb ed="#V" n="38"/>nisi per absolutionem seu relaxationem,
+            <lb ed="#V" n="39"/>posita satisfactione. Irregularitas,
+            infa<lb ed="#V" n="40" break="no"/>mia, per sententiam, sunt etiam natura
+            <lb ed="#V" n="41"/>sua perpetuae, sicut et depositio et
+            degra<lb ed="#V" n="42" break="no"/>datio, neque ex se desinunt, sed per
+            <lb ed="#V" n="43"/>dispensationem et restitutionem;
+            suspen<lb ed="#V" n="44" break="no"/>sio autem temporaria ex natura sua
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>definit, et finito tempore finitur etiam
+            <lb ed="#V" n="46"/>poena, absque ulla sententia judicis, aut
+            <lb ed="#V" n="47"/>officio aut declaratione. Per hoc ergo recte
+            <lb ed="#V" n="48"/>statuit haec differentia a Doctore in
+            remo<lb ed="#V" n="49" break="no"/>rali, nam caetera, quae conveniunt
+            sus<lb ed="#V" n="50" break="no"/>pensioni, conveniunt etiam in toto, vel
+            <lb ed="#V" n="51"/>in parte aliis poenis, praeter differentiam
+            <lb ed="#V" n="52"/>annotatam.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>(b) Haec autem multiplex est, etc. Ab
+            offi<lb ed="#V" n="54" break="no"/>cio, beneficio, ab ingressu Ecclesiae, ab
+            <lb ed="#V" n="55"/>executione Ordinis suscepti ab eo qui
+            exe<lb ed="#V" n="56" break="no"/>cuticnem dare non potuit, et idem de
+            <lb ed="#V" n="57"/>Ordine scienter suscepto a simoniaco.
+            <lb ed="#V" n="58"/>Non commemorat Doctor suspensionem
+            <lb ed="#V" n="59"/>ab Ordine, quia haec includitur in
+            suspen<lb ed="#V" n="60" break="no"/>sione ab officio absolute lata, quae privat:
+            <lb ed="#V" n="61"/>omni usu Ordinis, jurisdictionis et
+            mune<lb ed="#V" n="62" break="no"/>ris Ecclesiastici, ut communis tradit, cap.
+            <lb ed="#V" n="63"/>Cum dilectus, etc. de consuetud.
+            Panormi<lb ed="#V" n="64" break="no"/>tanus, Clement. capientes, Caveant. etc.
+            <lb ed="#V" n="65"/>de sentent. excomunic. in 6. cap. ultim. de
+            <lb ed="#V" n="66"/>cleric. excommun. injuste, suspensus ab
+            <lb ed="#V" n="67"/>officio, et idem de suspenso ab Ordine,
+            <lb ed="#V" n="68"/>exercens actum Ordinis fit irregularis,
+            <lb ed="#V" n="69"/>cap Cum aeterni, de sententia, et re judicata
+            <lb ed="#V" n="70"/>in 6. Haec suspensio ab officio intelligitur
+            <lb ed="#V" n="71"/>ab Ordine et jurisdictione, non tamen
+            <lb ed="#V" n="72"/>a beneficio, ut glossa in Clement.
+            Ca<lb ed="#V" n="73" break="no"/>pientes. Patet ex praxi, quia saepe fertur
+            <lb ed="#V" n="74"/>suspensio ab officio et beneficio simul, quae
+            <lb ed="#V" n="75"/>additio esset superflua, si suspensio ab
+            <lb ed="#V" n="76"/>officio esset etiam a beneficio. Suspensus
+            <lb ed="#V" n="77"/>a beneficio non ideo est suspensus ab
+            of<lb ed="#V" n="78" break="no"/>ficio; glossa in cap. Unitoniensis, etc. de
+            <lb ed="#V" n="79"/>elect. Panormitan. cap. Cum dilectus, etc.
+            <lb ed="#V" n="80"/>de consuetud. Limitat Navarrus quando
+            <lb ed="#V" n="81"/>jurisdictio non competit solum ratione
+            be<lb ed="#V" n="82" break="no"/>neficii, cap. 27. in Summa. Suspensus
+            <lb ed="#V" n="83"/>a beneficio est suspensus a perceptione e
+            <lb ed="#V" n="84"/>fructuum; quando simpliciter fertur
+            su<lb ed="#V" n="85" break="no"/>spensio, intelligitur major, id est,
+            su<lb ed="#V" n="86" break="no"/>spendi ab omnibus, quia nihil limitat, et
+            <lb ed="#V" n="87"/>oportet effectum suum habere
+            determina<lb ed="#V" n="88" break="no"/>tum, alias esset inefficax.
+          </p>
+          <p>
+            <pb ed="#V" n="135"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Suspensus ab Ordine minori est
+            suspen<lb ed="#V" n="2" break="no"/>sus a majori, non e contra. Ostiens. cap.
+            <lb ed="#V" n="3"/>Dilectus filius, etc. de tempor, ordin, cum
+            <lb ed="#V" n="4"/>communi. Suspensus a minori non potest
+            <lb ed="#V" n="5"/>ascendere ad majores; suspensus a
+            colla<lb ed="#V" n="6" break="no"/>tione minorum, nequit conferre majores;
+            <lb ed="#V" n="7"/>e contra si a majori conferendo tantum,
+            <lb ed="#V" n="8"/>potest etiam minores conferre. Abbas in
+            <lb ed="#V" n="9"/>cap. final. de Apostat. et alii.
+            <lb ed="#V" n="10"/>Suspensus ab ingressu Ecclesiae nequit
+            <lb ed="#V" n="11"/>exercere in ea Ordinem; aut audire in
+            <lb ed="#V" n="12"/>ea divina. Joannes Andreas, Geminian.
+            <lb ed="#V" n="13"/>Anc. in c. Is cui, etc. de sentent.
+            ex<lb ed="#V" n="14" break="no"/>communic. in 6. nequit in ea
+            sepe<lb ed="#V" n="15" break="no"/>liri, aut in coemeterio ejus, nisi poenitens
+            <lb ed="#V" n="16"/>absolvatur, potest tamen omnia extra
+            il<lb ed="#V" n="17" break="no"/>lam percipere Sacramenta. Plura circa
+            <lb ed="#V" n="18"/>haec vide apud Doctores et Summistas.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d25q1-p7"> -->
+          <p>
+            <lb ed="#V" n="40" type="fixed=136"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>(c) De secundo articulo principali, etc.
+            <lb ed="#V" n="42"/>Haec conclusio est certa et de fide,
+            quan<lb ed="#V" n="43" break="no"/>tum ad primum membrum, has poenas non
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>impedire, quin ordo valide conferatur;
+            <lb ed="#V" n="45"/>quod vero illicite talis suscipiat Ordinem
+            <lb ed="#V" n="46"/>nisi ignorantia excuset, certum est ex
+            <lb ed="#V" n="47"/>communi Theologorum eum peccare
+            mor<lb ed="#V" n="48" break="no"/>taliter, quia contra prohibitionem
+            Eccle<lb ed="#V" n="49" break="no"/>siae in re gravissima transgreditur, et
+            sa<lb ed="#V" n="50" break="no"/>crilege suscipit Sacramentum. Hoc ipsum
+            <lb ed="#V" n="51"/>patet ex rigore poenae et Canonum. Addit
+            <lb ed="#V" n="52"/>praeterea Doctor dubium esse si Episcopus
+            <lb ed="#V" n="53"/>degradatus conferat valide Ordines ob
+            <lb ed="#V" n="54"/>controversiam, quam supra explicuimus
+            <lb ed="#V" n="55"/>distinct. praeced. quaest. unica, artic. 1. ubi
+            <lb ed="#V" n="56"/>defendimus partem affirmativam, et alias
+            <lb ed="#V" n="57"/>de ministro Ordinis, explicando
+            definiti<lb ed="#V" n="58" break="no"/>onem art. 2. Idem ipsum dixi de
+            Episco<lb ed="#V" n="59" break="no"/>patu ac de aliis, excepta prima tonsura,
+            <lb ed="#V" n="60"/>quamvis aliqui etiam hanc valide conferri
+            <lb ed="#V" n="61"/>a degradato Episcopo existimant, quia non
+            <lb ed="#V" n="62"/>invenitur Ecclesia annullasse collationem
+            <lb ed="#V" n="63"/>ejus. Sed tenendo tonsuram non esse
+            Or<lb ed="#V" n="64" break="no"/>dinem, et potestatem ejus conferendae ab
+            <lb ed="#V" n="65"/>Ecclesia esse, magis consequenter
+            dicen<lb ed="#V" n="66" break="no"/>dum spectando rigorem Juris collationem
+            <lb ed="#V" n="67"/>esse omnino invalidam, quia degradatus
+            <lb ed="#V" n="68"/>amittit officium, et jurisdictionem eam
+            <lb ed="#V" n="69"/>conferendi. Quod si casus aliquis offerri
+            <lb ed="#V" n="70"/>possit, ubi talis tonsura ab Ecclesia non
+            <lb ed="#V" n="71"/>iteratur, dicendum est fieri validam per
+            <lb ed="#V" n="72"/>ratihabitionem, quae retrotrahit actum, et
+            <lb ed="#V" n="73"/>non aliter ex vi primae collationis a
+            de<lb ed="#V" n="74" break="no"/>gradato.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Per haec patet ad primum argumentum
+            <lb ed="#V" n="76"/>et secundum argumentum. Ad tertium
+            <lb ed="#V" n="77"/>patet ex littera. Ad quartum patet ex
+            di<lb ed="#V" n="78" break="no"/>ctis ordinationem esse validam etiamsi fiat
+            <lb ed="#V" n="79"/>a praeciso et condemnato Episcopo. Ad
+            <lb ed="#V" n="80"/>reliqua patet ex littera, et ex dictis in
+            <lb ed="#V" n="81"/>responsione ad ultimum sumit legem
+            <lb ed="#V" n="82"/>naturae late ut comprehendit perfectionem
+            <lb ed="#V" n="83"/>ejus, sive naturalem, sive supernaturalem
+            <lb ed="#V" n="84"/>et modum agendi causae primae
+            imprimen<lb ed="#V" n="85" break="no"/>tis characterem ut indelebilem, qui non
+            <lb ed="#V" n="86"/>subest corruptioni morali aut naturali
+            <lb ed="#V" n="87"/>causae creatae.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 41, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 41, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x19">Vives, Paris, 1894, volume 19</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="537"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e4770"><!-- hicjds-b4d41q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum affinitas impediat matrimonium</head>
+        <!-- <div alias="hiq-d41q1-p1"> -->
+          <p>
+            <lb ed="#V" n="48" type="fixed=537"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>(a) Circa istam quadragesimam primam
+            <lb ed="#V" n="50"/>distinctionem, etc. In hac quaestione agit
+            <lb ed="#V" n="51"/>de impedimento affinitatis. Dividitur in
+            <lb ed="#V" n="52"/>duas: Prima describit affinitatem, tradit
+            <lb ed="#V" n="53"/>regulam ex qua gradus ejus
+            dignoscun<lb ed="#V" n="54" break="no"/>tur, et assignat causas ejus et species.
+            <lb ed="#V" n="55"/>Secunda pars respondet ad quaestionem
+            <lb ed="#V" n="56"/>propositam, et declarat qualiter
+            impedi<lb ed="#V" n="57" break="no"/>mentum sit irritans matrimonium, et
+            re<lb ed="#V" n="58" break="no"/>spondet ad rationes oppositas.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d41q1-p2"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45" type="fixed=538"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>(b) Hic breviter ratio affinitatis potest
+            <lb ed="#V" n="47"/>poni, etc. Affinitas hic definitur: Affinitas
+            <lb ed="#V" n="48"/>est vinculum quoddam personae ad
+            perso<lb ed="#V" n="49" break="no"/>nam aliquam, ex carnali copula cum
+            per<lb ed="#V" n="50" break="no"/>sona alteri consanquinea contractum, etc.
+            <lb ed="#V" n="51"/>Haec definitio eadem est cum illa communi
+            <lb ed="#V" n="52"/>Doctorum, qua definitur propinquitas,
+            <lb ed="#V" n="53"/>personarum ex carnali copula
+            proveni<lb ed="#V" n="54" break="no"/>ens, omni carens parentela. Dicitur
+            vin<lb ed="#V" n="55" break="no"/>culum, etc. aut propinquitas, quia in
+            <lb ed="#V" n="56"/>hoc convenit cum consanguinitate; est
+            <lb ed="#V" n="57"/>enim quaedam conjunctio et societas
+            pro<lb ed="#V" n="58" break="no"/>veniens ex carnali commercio duarum
+            <lb ed="#V" n="59"/>personarum ad invicem, cap.
+            Fraternita<lb ed="#V" n="60" break="no"/>tis, 35. quoest. 10. Si una caro fuerit,
+            <lb ed="#V" n="61"/>quomodo poterit aliquis eorum
+            propin<lb ed="#V" n="62" break="no"/>quus uni pertinere, nisi pertineat
+            alte<lb ed="#V" n="63" break="no"/>ri, etc. Et Glossa in cap. Non debet, ver.
+            <lb ed="#V" n="64"/>in 2. persona addita personae per carnis
+            <lb ed="#V" n="65"/>copulam mutat genus, et non gradum, etc.
+            <lb ed="#V" n="66"/>Mutare genus, est acquirere novam
+            pro<lb ed="#V" n="67" break="no"/>pinquitatem, quam antea non habuit,
+            <lb ed="#V" n="68"/>quia per copulam redditur affinis
+            consan<lb ed="#V" n="69" break="no"/>guineis personae, cui commiscetur; non
+            <lb ed="#V" n="70"/>mutat gradum, quia gradus affinitatis
+            se<lb ed="#V" n="71" break="no"/>quitur gradum consanguinitatis, ita ut in
+            <lb ed="#V" n="72"/>eodem sit gradu affinitatis ad
+            consangui<lb ed="#V" n="73" break="no"/>neos personae, cum qua fit una caro, quo
+            <lb ed="#V" n="74"/>ipsi consanguinei sunt secundum
+            distan<lb ed="#V" n="75" break="no"/>tiam aut propinquitatem, ut colligitur ex
+            <lb ed="#V" n="76"/>cap. Porro. 35. queest. 5. Dicitur
+            perso<lb ed="#V" n="77" break="no"/>nae ad personam, etc. quia in his est
+            <lb ed="#V" n="78"/>ipsa conjunctio per copulam carnalem,
+            <lb ed="#V" n="79"/>quia ex illa fit una caro, et est
+            funda<lb ed="#V" n="80" break="no"/>mentum propinquitatis aut vinculi; et
+            <lb ed="#V" n="81"/>intelligitur tam de licita quam de illicita
+            <lb ed="#V" n="82"/>copula. Additur autem in definitione
+            com<lb ed="#V" n="83" break="no"/>muni omni carens parentela, ut
+            denote<lb ed="#V" n="84" break="no"/>tur causa per se affinitatis, et praecisa;
+            <lb ed="#V" n="85"/>unde per accidens est si concomitetur
+            con<lb ed="#V" n="86" break="no"/>sanguinitas ex alio vinculo, quia inde non
+            <lb ed="#V" n="87"/>resultat affinitas, neque mutatur.
+          </p>
+          <p>
+            <pb ed="#V" n="539"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Haec definitio est nominis, et expositio
+            <lb ed="#V" n="2"/>ejus, quia affinis est accessio ad finem
+            <lb ed="#V" n="3"/>aut finium conjunctio et indistantia, qua
+            <lb ed="#V" n="4"/>sic duae cognationes inter se copulentur
+            <lb ed="#V" n="5"/>per nuptias et copulam personarum
+            car<lb ed="#V" n="6" break="no"/>nalem, l. Non facile, ff. de grad.
+            consan<lb ed="#V" n="7" break="no"/>quin.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>(c) Quoto gradu consanguinitatis, etc.
+            <lb ed="#V" n="9"/>Haec regula communis est, et patet ex
+            <lb ed="#V" n="10"/>cap. Porro, citato; extenditur enim
+            affi<lb ed="#V" n="11" break="no"/>nitas ad septimum gradum, sicut et
+            con<lb ed="#V" n="12" break="no"/>sanguinitas, juxta antiqua Decreta. Qui
+            <lb ed="#V" n="13"/>autem copulantur, non censentur affines
+            <lb ed="#V" n="14"/>sed una caro, quia affinitas est distantium
+            <lb ed="#V" n="15"/>propinquitas, conjuncti enim sunt truncus
+            <lb ed="#V" n="16"/>seu stipes ipse, a quo sumitur initium
+            <lb ed="#V" n="17"/>affinitatis; unde numerando parentes
+            uxo<lb ed="#V" n="18" break="no"/>ris, eodem gradu affinitatis distant a
+            ma<lb ed="#V" n="19" break="no"/>rito quo gradu consanguinei ab
+            eo<lb ed="#V" n="20" break="no"/>dem distant et propinquant secundum
+            <lb ed="#V" n="21"/>consanguinitatem, et vice versa; ita
+            Mo<lb ed="#V" n="22" break="no"/>guntinum sub Rabano cap. 30.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>(d) Non dico uxor, etc. Ita statutum
+            <lb ed="#V" n="24"/>fuit Jure antiquo perinde incurri
+            affinita<lb ed="#V" n="25" break="no"/>tem ex copula matrimoniali, et ex copula
+            <lb ed="#V" n="26"/>fornicaria aut incestuosa usque ad
+            septi<lb ed="#V" n="27" break="no"/>mum gradum, vel usque ad quartum,
+            <lb ed="#V" n="28"/>juxta restrictionem factam in Concilio
+            <lb ed="#V" n="29"/>Lateranensi sub Innocentio III. c. Non
+            <lb ed="#V" n="30"/>debet, etc. de consanguinitate et
+            affini<lb ed="#V" n="31" break="no"/>tate. Sed ex statuto novo Concilii
+            Tri<lb ed="#V" n="32" break="no"/>dentini sess. 24. de reformat, matrimon.
+            <lb ed="#V" n="33"/>cap. 4. restringitur affinitas ex copula
+            <lb ed="#V" n="34"/>fornicaria ad primum et secundum
+            gra<lb ed="#V" n="35" break="no"/>dum inclusive, et non ultra.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>(c) Non sufficit ad affinitatem proprie
+            <lb ed="#V" n="37"/>dictam, etc. Docet ad affinitatem proprie
+            <lb ed="#V" n="38"/>dictam requiri copulam, et patet ex cap.
+            <lb ed="#V" n="39"/>Fraternitatis, 35. quoest. 10. et patet ex
+            <lb ed="#V" n="40"/>definitionibus allegatis et causa affinitatis,
+            <lb ed="#V" n="41"/>quae est copula; unde affinitas nascitur
+            <lb ed="#V" n="42"/>ex sola fornicaria, ubi non intercedit
+            <lb ed="#V" n="43"/>vinculum matrimoniale, et omnia Decreta
+            <lb ed="#V" n="44"/>ex quibus hoc impedimentum statuitur,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>referunt affinitatem ad copulam. Hinc
+            <lb ed="#V" n="46"/>colligit ad affinitatem proprie dictam non
+            <lb ed="#V" n="47"/>sufficere matrimonium ratum tantum,
+            <lb ed="#V" n="48"/>quia etsi potestas corporum transferatur
+            <lb ed="#V" n="49"/>in hoc matrimonio, tamen non inde
+            <lb ed="#V" n="50"/>consurgit affinitas proprie dicta nisi
+            ac<lb ed="#V" n="51" break="no"/>cedat copula qua fiant una caro; ideo
+            affi<lb ed="#V" n="52" break="no"/>nitas ex matrimonio rato tantum est largo
+            <lb ed="#V" n="53"/>modo dicta; proprie autem spectat ad
+            pu<lb ed="#V" n="54" break="no"/>blicae honestatis justitiam, quae inducit
+            <lb ed="#V" n="55"/>impedimentum, et ita appellatur, cap.
+            <lb ed="#V" n="56"/>Porro, 3. q. 3. quod et tenet Glossa in
+            <lb ed="#V" n="57"/>cap. Si quis desponsaverit, 27. q. 2. Si
+            <lb ed="#V" n="58"/>quis desponsaverit sibi aliquam, et
+            proe<lb ed="#V" n="59" break="no"/>veniente mortis articulo eam
+            cogno<lb ed="#V" n="60" break="no"/>scere non potuerit: frater ejus non
+            <lb ed="#V" n="61"/>potest eam ducere in uxorem, etc. ubi
+            <lb ed="#V" n="62"/>Glossa intelligit textum de sponsa de
+            <lb ed="#V" n="63"/>praesenti, et non pro futuro, et subdit: Et
+            <lb ed="#V" n="64"/>hoec causa est impedimentum publicae
+            <lb ed="#V" n="65"/>honestatis justitiae, non affinitatis, quia
+            <lb ed="#V" n="66"/>illa non est, nisi interveniat carnalis
+            <lb ed="#V" n="67"/>copula, et cap. Lex divinae, eodem; docet
+            <lb ed="#V" n="68"/>Pontifex aliter non fieri virum et
+            mulie<lb ed="#V" n="69" break="no"/>rem unam carnem, nisi per copulam
+            <lb ed="#V" n="70"/>carnalem; et subdit: Propinquitas enim
+            <lb ed="#V" n="71"/>sanguinis verbis dicitur, non verbis
+            effi<lb ed="#V" n="72" break="no"/>citur, sed neque osculum parit
+            propin<lb ed="#V" n="73" break="no"/>quitatem, quod nullam facit sanguinis
+            <lb ed="#V" n="74"/>commixtionem, etc. Idem docet Abbas,
+            <lb ed="#V" n="75"/>cap. Juvenis. et cap. Sponsam, etc. de
+            <lb ed="#V" n="76"/>sponsalibus, Cardinalis, et Praeposit, cap.
+            <lb ed="#V" n="77"/>Sponsam, Covarruvias in 2. part.
+            Decre<lb ed="#V" n="78" break="no"/>ti, cap. 6. Navarrus lib. 4. consiliorum,
+            <lb ed="#V" n="79"/>consil. 33. de sponsal, consil 8. de
+            con<lb ed="#V" n="80" break="no"/>sanguin. alias de sponsal. consil. 11. de
+            <lb ed="#V" n="81"/>consanguin. consil. 4. Bassolis, Nicolaus
+            <lb ed="#V" n="82"/>de Orbellis, Suplementum Gabrielis in hac
+            <lb ed="#V" n="83"/>dist. Sanchez lib. 7. de matrimonio,
+            <lb ed="#V" n="84"/>disput. 54. quoest. ultim. plures citans.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d41q1-p3"> -->
+          <p>
+            <lb ed="#V" n="63" type="fixed=540"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>(f) Ad quoestionem ergo dico, etc. Haec
+            <lb ed="#V" n="65"/>prima conclusio hujus articuli est:
+            Affi<lb ed="#V" n="66" break="no"/>nitas simpliciter impedit
+            matrimoni<lb ed="#V" n="67" break="no"/>um, etc. Probatur cap. Si mulier 35.
+            <lb ed="#V" n="68"/>queest. 10. cap. de propinquis,
+            Eliberi<lb ed="#V" n="69" break="no"/>tanum cap. 61. et 66. Neocaesariense c. 2.
+            <lb ed="#V" n="70"/>Agathense cap. 30. Epannen. cap. 30.
+            <lb ed="#V" n="71"/>Tolet. II. c. 5. Aurelianense I. c. 20.
+            <lb ed="#V" n="72"/>Secundum cap. 10. Tertium cap. 10.
+            <lb ed="#V" n="73"/>Arvernense cap. 11. Turonense II.
+            <lb ed="#V" n="74"/>cap. 21. Parisiense III. cap. 4.
+            Lugdu<lb ed="#V" n="75" break="no"/>nense II. cap. 4. Matisconense II.
+            <lb ed="#V" n="76"/>cap. 18. Altisiodorense cap. 27. 28.
+            <lb ed="#V" n="77"/>et 29. Concil. Romanum I. sub Zacharia
+            <lb ed="#V" n="78"/>c. 6. Arelatense IV. cap. 11.
+            Cabilonen<lb ed="#V" n="79" break="no"/>se II. cap. 29. Moguntinum sub Leone III.
+            <lb ed="#V" n="80"/>cap. 54. et 56. sub Rabano, cap. 29.
+            <lb ed="#V" n="81"/>et 30. Alexander III. in appendice
+            Con<lb ed="#V" n="82" break="no"/>cilii Lateranensis, p. 6. cap. 32.
+            Tri<lb ed="#V" n="83" break="no"/>dentin. sess. 24. cap. 3. Accedunt
+            pluri<lb ed="#V" n="84" break="no"/>ma Decreta Romanorum Pontificum, ut
+            <lb ed="#V" n="85"/>Higini et Fabiani, quorum sunt illa duo
+            <lb ed="#V" n="86"/>capita primum enumerata, Julii I. cap.
+            <lb ed="#V" n="87"/>Nullum in utroque 35. q. 5. Vigilii
+            epi<pb ed="#V" n="541"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>stola 3. Gregorii I. lib. 12. epistola 31.
+            <lb ed="#V" n="2"/>interrog. 6. et 7. et epist. 32. Secundi
+            <lb ed="#V" n="3"/>epist. 14. Zachariae epist, 1. Septimi
+            <lb ed="#V" n="4"/>lib. 7. epistolarum, epist. 9. lib. 8.
+            <lb ed="#V" n="5"/>epist. 3. Ex quibus patet conclusio
+            <lb ed="#V" n="6"/>et reprobata Novatorum protervia,
+            <lb ed="#V" n="7"/>qui contra tot Canones et
+            antiquita<lb ed="#V" n="8" break="no"/>tem pugnant, recipientes tamen
+            impedi<lb ed="#V" n="9" break="no"/>menta, quae lege civili statuta sunt
+            <lb ed="#V" n="10"/>matrimonii.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>Secunda conclusio Doctoris, hoc
+            impe<lb ed="#V" n="12" break="no"/>dimentum esse Juris tantum Ecclesiastici.
+            <lb ed="#V" n="13"/>Ex hac conclusione sequitur primo
+            impe<lb ed="#V" n="14" break="no"/>dimentum ex copula illicita non irritare
+            <lb ed="#V" n="15"/>matrimonium Jure naturali; est contra
+            <lb ed="#V" n="16"/>Joannem Andream cap. 1. de convers.
+            <lb ed="#V" n="17"/>infidelium, et quosdam alios. Patet, quia
+            <lb ed="#V" n="18"/>non invenitur vinculum aliquod amicitiae
+            <lb ed="#V" n="19"/>et societatis inter consanguineos
+            utrius<lb ed="#V" n="20" break="no"/>que; neque reverentiae debitum aliquod
+            <lb ed="#V" n="21"/>ex tali copula. Deinde, quia Jure antiquo
+            <lb ed="#V" n="22"/>Romanorum non oriebatur affinitas ex tali
+            <lb ed="#V" n="23"/>copula. l. Non facile, ff. de gradibus
+            <lb ed="#V" n="24"/>consanguinitatis, neque in l. Levitici,
+            <lb ed="#V" n="25"/>habetur mentio talis affinitatis. Tertio,
+            <lb ed="#V" n="26"/>quia Tridentinum revocavit talem
+            affini<lb ed="#V" n="27" break="no"/>tatem ad duos gradus tantum. Si autem
+            <lb ed="#V" n="28"/>Jure naturae matrimonium talis copula
+            <lb ed="#V" n="29"/>irrritaret, haberetur aliquo modo
+            expres<lb ed="#V" n="30" break="no"/>sum in legibus praedictis, et dilataretur
+            <lb ed="#V" n="31"/>affinitas ad ulteriores gradus, sicut et
+            <lb ed="#V" n="32"/>consanguinitas, et fundaret aliquam
+            ami<lb ed="#V" n="33" break="no"/>citiam et societatem, quam non fundari
+            <lb ed="#V" n="34"/>experientia docet; ergo Jure tantum
+            Ec<lb ed="#V" n="35" break="no"/>clesiastico fundatur hoc impedimentum,
+            <lb ed="#V" n="36"/>quamvis innitatur ut consonum Juri
+            <lb ed="#V" n="37"/>naturali et similitudine quadam ad
+            affini<lb ed="#V" n="38" break="no"/>tatem ex legitimis nuptiis contractam,
+            <lb ed="#V" n="39"/>non vero proprietate. Hinc patet ad
+            ali<lb ed="#V" n="40" break="no"/>qua loca Patrum, qui matrimonium cum
+            <lb ed="#V" n="41"/>ea, quae cognita est a consanguineo
+            for<lb ed="#V" n="42" break="no"/>nicarie, vocant incestum; idem enim Jure
+            <lb ed="#V" n="43"/>antiquo Ecclesiastico verum fuit, et
+            qua<lb ed="#V" n="44" break="no"/>dam accommodatione ad Jus naturale, ex
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>eo quod ex ea copula facti sint una caro,
+            <lb ed="#V" n="46"/>sed quia affinitas nata est inducere
+            vin<lb ed="#V" n="47" break="no"/>culum naturalis societatis, quod in
+            propo<lb ed="#V" n="48" break="no"/>sito non inducit, ideo non accedit ad
+            affi<lb ed="#V" n="49" break="no"/>nitatem, quae est ex copula conjugali.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Sequitur secundo affinitatem ex copula
+            <lb ed="#V" n="51"/>conjugali etiam Jure Ecclesiastico
+            dirime<lb ed="#V" n="52" break="no"/>re matrimonium tam in linea recta quam
+            <lb ed="#V" n="53"/>transversali, non autem Jure naturae. Est
+            <lb ed="#V" n="54"/>contra plures, qui docent in linea rectai
+            <lb ed="#V" n="55"/>dirimere matrimonium in infinitum, ut
+            <lb ed="#V" n="56"/>Joannes Andreas in arbore affinitatis, et
+            <lb ed="#V" n="57"/>aliquot alii Canonistae, Paludanus et
+            Sup<lb ed="#V" n="58" break="no"/>plementum Gabrielis in praesenti
+            distin<lb ed="#V" n="59" break="no"/>ctione. Alii vero docent in linea recta
+            <lb ed="#V" n="60"/>esse prohibitum Jure naturae quoad
+            pri<lb ed="#V" n="61" break="no"/>mum gradum, non quoad reliquos
+            ulteri<lb ed="#V" n="62" break="no"/>ores; et hanc sententiam docet D. Thomas
+            <lb ed="#V" n="63"/>in illud 1. ad Corinth. 1. Omnino auditur
+            <lb ed="#V" n="64"/>inter vos fornicatio, etc. et plurimi alii,
+            <lb ed="#V" n="65"/>quos citat Sanchez lib. 7. disput. 56.
+            <lb ed="#V" n="66"/>Sotus in hac distinct, quoest. unic. art. 3.
+            <lb ed="#V" n="67"/>Covarruvias citatus, Bellarminus lib. 1.
+            <lb ed="#V" n="68"/>de matrimon. cap. 28.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Conclusionem sequelae tenent Alensis 2.
+            <lb ed="#V" n="70"/>part. q. 169. memb. 2. et 3. part.
+            <lb ed="#V" n="71"/>memb. 4. art. 3. quoest. 35. memb. 6.
+            <lb ed="#V" n="72"/>et videtur D. Thom. 2. 2. quoest. 154.
+            <lb ed="#V" n="73"/>art. 9. ad 3. ubi Cajetanus, Sanchez
+            <lb ed="#V" n="74"/>num. 7. alios citans. Probatio autem
+            <lb ed="#V" n="75"/>conclusionis quoad lineam rectam est
+            <lb ed="#V" n="76"/>difficilior, quia in hoc non habetur
+            exem<lb ed="#V" n="77" break="no"/>plum in Ecclesia aut lege veteri, quamvis
+            <lb ed="#V" n="78"/>apud Gentiles alicubi fuerint quaedam
+            <lb ed="#V" n="79"/>exempla rara, quae tamen non sufficiunt
+            <lb ed="#V" n="80"/>ad hanc probationem, quia non apud
+            <lb ed="#V" n="81"/>omnes Gentiles viguit observantia
+            perfe<lb ed="#V" n="82" break="no"/>cta legis naturalis, quoad conclusiones
+            <lb ed="#V" n="83"/>remotiores; neque alia ratio, quae
+            adduci<lb ed="#V" n="84" break="no"/>tur ex fine matrimonii primario et
+            se<lb ed="#V" n="85" break="no"/>cundario etiam probat, quia inter patrem
+            <lb ed="#V" n="86"/>et filiam etiam ille finis propagationis et
+            <lb ed="#V" n="87"/>educationis prolis ac remedii salvari
+            po<lb ed="#V" n="88" break="no"/>test, quamvis matrimonium inter ipsos
+            <pb ed="#V" n="542"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Jure naturae irritum (loquendo de Jure
+            <lb ed="#V" n="2"/>naturae late eo modo quo diximus supra
+            <lb ed="#V" n="3"/>distinctione proecedenti,) neque etiam
+            <lb ed="#V" n="4"/>ratio, quae petitur ex eo quod in linea
+            <lb ed="#V" n="5"/>transversali in primo gradu matrimonium
+            <lb ed="#V" n="6"/>valeat; nam inde non recte infertur
+            va<lb ed="#V" n="7" break="no"/>lere in primo gradu lineae rectae, quia in
+            <lb ed="#V" n="8"/>his habemus exempla legis divinae
+            vete<lb ed="#V" n="9" break="no"/>ris, et plura exempla in lege nova, et
+            De<lb ed="#V" n="10" break="no"/>creto Pontificum, ex quibus id colligamus
+            <lb ed="#V" n="11"/>et in primo gradu lineae rectae nullum
+            <lb ed="#V" n="12"/>suppetit exemplum.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Unica ratio videtur mihi magis idonea,
+            <lb ed="#V" n="14"/>nempe quod matrimonium cum secunda
+            <lb ed="#V" n="15"/>.uxore, sicut dividit carnem parentis, et
+            <lb ed="#V" n="16"/>fit bigamus ex hac divisione, neque
+            re<lb ed="#V" n="17" break="no"/>praesentet perfecte Sacramentum unionis
+            <lb ed="#V" n="18"/>Christi cum unica sponsa, quae est
+            Eccle<lb ed="#V" n="19" break="no"/>sia, ita etiam respective ad filios ex prima
+            <lb ed="#V" n="20"/>uxore novercam, sicut non est
+            principi<lb ed="#V" n="21" break="no"/>um dandi esse, sic magis discindere
+            so<lb ed="#V" n="22" break="no"/>cietatem, quae est ex matrimonio
+            respe<lb ed="#V" n="23" break="no"/>ctive ad priores filios et familiam, ut
+            <lb ed="#V" n="24"/>experientia constat, quia proprios etiam
+            <lb ed="#V" n="25"/>in praejudicium privigni fovet, et amorem
+            <lb ed="#V" n="26"/>paternum discindit, ipsum ad suos
+            pro<lb ed="#V" n="27" break="no"/>prios filios retrahens. Hinc ergo sequitur
+            <lb ed="#V" n="28"/>non attingere illam societatem perfectam,
+            <lb ed="#V" n="29"/>et vinculum in ea fundatum, et debitum
+            <lb ed="#V" n="30"/>reverentiae, quae est inter filium et veram
+            <lb ed="#V" n="31"/>matrem, ac proinde non reperiri
+            eam<lb ed="#V" n="32" break="no"/>dem congruentiam irritandi contractum
+            <lb ed="#V" n="33"/>in affinitate, quoad primum gradum
+            <lb ed="#V" n="34"/>in linea recta, sicut reperitur in
+            li<lb ed="#V" n="35" break="no"/>nea recta consanguinitatis quoad primum
+            <lb ed="#V" n="36"/>gradum.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Haec quidem ratio, etsi vera sit in
+            <lb ed="#V" n="38"/>principiis, est valde dubitabilis quoad
+            <lb ed="#V" n="39"/>conclusionem, neque alia mihi offertur,
+            <lb ed="#V" n="40"/>qua fundaretur disparitas inter primum
+            <lb ed="#V" n="41"/>gradum consanguinitatis et affinitatis in
+            <lb ed="#V" n="42"/>linea recta. Cui placuerit haec ratio, potest
+            <lb ed="#V" n="43"/>sequendo conclusionem, quam Doctor
+            <lb ed="#V" n="44"/>proponit absolute, et tenent post eum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>alii, dicere matrimonium in linea recta
+            <lb ed="#V" n="46"/>affinitatis quoad primum gradum, sicut
+            <lb ed="#V" n="47"/>aliter participat finem matrimonii quoad
+            <lb ed="#V" n="48"/>vinculum societatis inter propagatos, ita
+            <lb ed="#V" n="49"/>etiam aliter affici lege matrimonii divina,
+            <lb ed="#V" n="50"/>( quam vocat Doctor naturalem in
+            propo<lb ed="#V" n="51" break="no"/>sito, juxta alias dicta,) nempe esse
+            qui<lb ed="#V" n="52" break="no"/>dem interdictum, non tamen irritum illa
+            <lb ed="#V" n="53"/>lege, sive dicatur divina, sive naturalis,
+            <lb ed="#V" n="54"/>non ita matrimonium, quod est in primo
+            <lb ed="#V" n="55"/>gradu consanguinitatis, quia illud etiam
+            <lb ed="#V" n="56"/>est irritum. Lex autem sicut respicit
+            sub<lb ed="#V" n="57" break="no"/>jectum aut materiam in ordine ad finem,
+            <lb ed="#V" n="58"/>ita etiam quae aliter attingunt ipsum
+            <lb ed="#V" n="59"/>finem, sic etiam aliter et aliter afficit,
+            <lb ed="#V" n="60"/>verbi gratia, praeceptum de fine
+            compre<lb ed="#V" n="61" break="no"/>hendit ea quae sunt necessaria ad finem
+            <lb ed="#V" n="62"/>per modum praecepti, ea vero quae
+            condu<lb ed="#V" n="63" break="no"/>cunt ad finem, et non necessario, respicit
+            <lb ed="#V" n="64"/>per modum consilii. Ita in proposito
+            ma<lb ed="#V" n="65" break="no"/>trimonium, quod ordinatur ad finem
+            so<lb ed="#V" n="66" break="no"/>cietatis, et praeceptum hujus finis, id est,
+            <lb ed="#V" n="67"/>societatis, quo major est societas, eo
+            ma<lb ed="#V" n="68" break="no"/>gis comprehenditur, et in differenti gradu
+            <lb ed="#V" n="69"/>sub lege; unde ex opposito quo magis
+            <lb ed="#V" n="70"/>recedit a vinculo societatis, eo etiam
+            mi<lb ed="#V" n="71" break="no"/>nus comprehenditur sub lege; hic autem
+            <lb ed="#V" n="72"/>non datur medium, nisi praecepti
+            simpli<lb ed="#V" n="73" break="no"/>cis aut irritantis ex fine societatis; dici
+            <lb ed="#V" n="74"/>ergo potest respective ad matrem esse
+            <lb ed="#V" n="75"/>irritans matrimonium, respective ad
+            no<lb ed="#V" n="76" break="no"/>vercam prohibens, et sic responderi potest
+            <lb ed="#V" n="77"/>ad quaedam loca Patrum et Scripturae,
+            <lb ed="#V" n="78"/>quibus hoc matrimonium reprobatur.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>Confirmari potest, quia non ex vi solius
+            <lb ed="#V" n="80"/>contractus lege divina aut naturali est
+            <lb ed="#V" n="81"/>impedimentum irritans, ut patet ex dictis;
+            <lb ed="#V" n="82"/>non ex copula sola, ut etiam patet ex
+            di<lb ed="#V" n="83" break="no"/>ctis de copula fornicaria, non ex utroque
+            <lb ed="#V" n="84"/>simul, quia hoc matrimonium non inducit
+            <lb ed="#V" n="85"/>vinculum amoris indissolubilis respective
+            <lb ed="#V" n="86"/>ad filium, sed magis discindit amorem
+            <lb ed="#V" n="87"/>naturalem patris, qui adhaeret uxori, et
+            <lb ed="#V" n="88"/>amorem etiam novercae, quae, ut
+            experi<pb ed="#V" n="543"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>entia constat, magis in seipsam et
+            pro<lb ed="#V" n="2" break="no"/>prios inclinatur, et negligit privignum,
+            <lb ed="#V" n="3"/>eique invidet.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>His non obstantibus, ergo magis inclino
+            <lb ed="#V" n="5"/>in illam sententiam, quae docet
+            matrimo<lb ed="#V" n="6" break="no"/>nium in primo gradu affinitatis esse
+            om<lb ed="#V" n="7" break="no"/>nino irritum lege divina seu naturali, ut
+            <lb ed="#V" n="8"/>alii vocant. Primo, quia Levit. 18.
+            perin<lb ed="#V" n="9" break="no"/>de dicitur non revelandam turpitudinem
+            <lb ed="#V" n="10"/>matris et uxoris patris, et dat eamdem
+            <lb ed="#V" n="11"/>rationem, quia turpitudo patris tui est;
+            <lb ed="#V" n="12"/>ergo simili lege comprehenditur
+            utrum<lb ed="#V" n="13" break="no"/>que, et eadem regulatur. Secundo, quia
+            <lb ed="#V" n="14"/>nullum omnino talis matrimonii
+            exem<lb ed="#V" n="15" break="no"/>plum suppetit in divinis aut Ecclesiasticis
+            <lb ed="#V" n="16"/>Scripturis. Tertio, quia Genes, 49. Jacob
+            <lb ed="#V" n="17"/>maledixit Ruben ex eo quod thorum
+            <lb ed="#V" n="18"/>patris maculasset. Tertio, Paulus loco
+            <lb ed="#V" n="19"/>citato, 1. ad Corinth. 5. tanquam
+            abomi<lb ed="#V" n="20" break="no"/>nabile persequitur tale factum Corinthii,
+            <lb ed="#V" n="21"/>qui uxorem patris sui polluit; et dicit
+            <lb ed="#V" n="22"/>neque inter Gentes talem fornicationem
+            <lb ed="#V" n="23"/>fuisse; tum quarto, quia reverentiae
+            pa<lb ed="#V" n="24" break="no"/>ternae id plurimum repugnat, cui lex
+            <lb ed="#V" n="25"/>matrimonii non debuit praejudicare, quae
+            <lb ed="#V" n="26"/>minus obligat, quia reverentia paterna
+            <lb ed="#V" n="27"/>est stricti Juris naturalis, non ita lex
+            ma<lb ed="#V" n="28" break="no"/>r trimonii, aut libertas et habilitas data ad
+            <lb ed="#V" n="29"/>,matrimonium. Quinto, quia noverca fit
+            <lb ed="#V" n="30"/>caro patris, et magis gradus hic affinitatis
+            <lb ed="#V" n="31"/>contingit stipitem, quam matrimonium
+            <lb ed="#V" n="32"/>cum uxore fratris. Hoc autem non licuit
+            <lb ed="#V" n="33"/>nisi in casu quo necessarium erat
+            susci<lb ed="#V" n="34" break="no"/>tare semen defuncto, qui sine prole
+            disce<lb ed="#V" n="35" break="no"/>deret; alias non fuit concessum, et ideo
+            <lb ed="#V" n="36"/>Joannes Baptista recte reprehendit
+            Hero<lb ed="#V" n="37" break="no"/>dem propter Herodiadem, quam tulit
+            <lb ed="#V" n="38"/>fratri suo Philippo uxorem; ergo a
+            forti<lb ed="#V" n="39" break="no"/>ori in proposito matrimonium illud erat
+            <lb ed="#V" n="40"/>irritum, quia cessat finis etiam successionis
+            <lb ed="#V" n="41"/>cum filius ducens novercam sit patri
+            su<lb ed="#V" n="42" break="no"/>perstes. Sexto, quia Salomon Rex
+            sapien<lb ed="#V" n="43" break="no"/>tissimus severe vindicavit in Adoniam
+            <lb ed="#V" n="44"/>fratrem, quod sollicitarit nuptias cum
+            Su<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>namitide, quae erat uxor sui patris,
+            quam<lb ed="#V" n="46" break="no"/>vis eam non cognoverit. Accedit praeterea
+            <lb ed="#V" n="47"/>septimo exemplum David, qui, nunquam
+            <lb ed="#V" n="48"/>ingressus est ad eas quas Absalon filius
+            <lb ed="#V" n="49"/>polluit. Octavo, quia cap. Gaudemus, etc.
+            <lb ed="#V" n="50"/>de divortiis, etc. ubi permittitur
+            infideli<lb ed="#V" n="51" break="no"/>bus conversis permanere in matrimonio
+            <lb ed="#V" n="52"/>ante conversionem inito cum uxoribus
+            <lb ed="#V" n="53"/>conjunctis alias, non fit mentio, nisi de
+            <lb ed="#V" n="54"/>conjunctis in secundo aut tertio gradu,
+            <lb ed="#V" n="55"/>non autem in primo gradu, de quo
+            nun<lb ed="#V" n="56" break="no"/>quam alias videtur fuisse dubitatio. Quod
+            <lb ed="#V" n="57"/>si dicas sermonem esse de
+            consanguinita<lb ed="#V" n="58" break="no"/>te, et non de affinitate, textus id non
+            <lb ed="#V" n="59"/>exprimit; et patet in lege illa Levitici
+            <lb ed="#V" n="60"/>affinitatem in aliquo gradu fuisse vetitam
+            <lb ed="#V" n="61"/>ex lege matrimonii non solum Judaeis,
+            <lb ed="#V" n="62"/>sed ctiam anterioribus Chananaeis, et pro
+            <lb ed="#V" n="63"/>lege naturae consequenter, quando majus
+            <lb ed="#V" n="64"/>bonum non praeferebatur.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Tenendo itaque hanc sententiam quae
+            <lb ed="#V" n="66"/>probabilis est, respondeo Doctorem
+            age<lb ed="#V" n="67" break="no"/>re de affinitate, juxta praescriptum
+            Ca<lb ed="#V" n="68" break="no"/>nonum, quos citat, ut est propinquitas
+            <lb ed="#V" n="69"/>ex copula carnali duorum ad invicem,
+            <lb ed="#V" n="70"/>quia, ut dictum est, affinitas sequitur
+            <lb ed="#V" n="71"/>regulam consanguinitatis, in qua non
+            <lb ed="#V" n="72"/>nmeratur stipes, sed qui uniuntur ad
+            <lb ed="#V" n="73"/>stipitem propinquitate sanguinis. Unde et
+            <lb ed="#V" n="74"/>affinitas etiam non comprehendit in
+            sup<lb ed="#V" n="75" break="no"/>putatione truncum, sed personas
+            descen<lb ed="#V" n="76" break="no"/>dentes et collaterales, ut ad se invicem
+            <lb ed="#V" n="77"/>appropinquant in stipite. Ideoque
+            conclu<lb ed="#V" n="78" break="no"/>sio ejus de his intelligenda est de quibus
+            <lb ed="#V" n="79"/>agunt Canones, non vero de matrimonio
+            <lb ed="#V" n="80"/>cum ipso stipite, nam filius descendens,
+            <lb ed="#V" n="81"/>sicut est ipsa caro patris, ita non
+            consti<lb ed="#V" n="82" break="no"/>tuit gradum respective ad patrem, sed ad
+            <lb ed="#V" n="83"/>alios descendentes, juxta supputationem
+            <lb ed="#V" n="84"/>Canonicam, quae requirit duas
+            generati<lb ed="#V" n="85" break="no"/>ones ad unum gradum.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Quoad gradum primum in linea
+            trans<lb ed="#V" n="87" break="no"/>versali affinitatis conclusio praemissa
+            <lb ed="#V" n="88"/>magis patet, estque tenenda maxime si
+            <pb ed="#V" n="544"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>subest legitima causa majoris boni; nam
+            <lb ed="#V" n="2"/>et lex ipsa divina in hoc gradu
+            dispensa<lb ed="#V" n="3" break="no"/>vit, ut frater defuncti ex relicta suscitaret
+            <lb ed="#V" n="4"/>ei semen, in c. Gaudemus, etc. de
+            divor<lb ed="#V" n="5" break="no"/>tiis, etc. permittitur tale
+            matrimoni<lb ed="#V" n="6" break="no"/>s um infidelibus conversis. Et ratio quam
+            <lb ed="#V" n="7"/>adducit Pontifex, nempe inter infideles
+            <lb ed="#V" n="8"/>esse matrimonium verum, et ad eos non
+            <lb ed="#V" n="9"/>extendi pro statu infidelitatis
+            impedimen<lb ed="#V" n="10" break="no"/>ta Canonum, supponit haec matrimonia
+            <lb ed="#V" n="11"/>non esse Jure divino aut naturali irrita,
+            <lb ed="#V" n="12"/>et accedente fine honestante, esse licita,
+            <lb ed="#V" n="13"/>etiam in Levit, cap. 20. Longe alia est
+            <lb ed="#V" n="14"/>poena ducentis uxorem fratris sui et
+            du<lb ed="#V" n="15" break="no"/>centis novercam aut sororem propriam,
+            <lb ed="#V" n="16"/>quia his statuitur poena mortis; illis autem
+            <lb ed="#V" n="17"/>quod erant sine liberis: Qui duxerit
+            <lb ed="#V" n="18"/>uxorem fratris sui, rem facit illicitam,
+            <lb ed="#V" n="19"/>turpitudinem fratris sui revelavit, absque
+            <lb ed="#V" n="20"/>liberis erunt, etc. Alexander VI. in eodem
+            <lb ed="#V" n="21"/>gradu dispensavit cum Rege Lusitaniae,
+            <lb ed="#V" n="22"/>Julius II. cum Henrico VIII. et Catharina
+            <lb ed="#V" n="23"/>Regibus Angliae, quam confirmavit mox
+            <lb ed="#V" n="24"/>Clemens VII. consultis primariis
+            universi<lb ed="#V" n="25" break="no"/>tatibus totius Europae, cujus Decretum
+            <lb ed="#V" n="26"/>adducit Castro de lege poenali, cap. 12.
+            <lb ed="#V" n="27"/>patet Exod. 12. quia Jacob duxit duas
+            <lb ed="#V" n="28"/>uxores, Lyam et Rachelem Genes. 29.
+            <lb ed="#V" n="29"/>Judas duos fratres conjunxit cum sua
+            <lb ed="#V" n="30"/>nuru Thamar. Et hanc conclusionem viri
+            <lb ed="#V" n="31"/>doctissimi propugnarunt in praedicta
+            con<lb ed="#V" n="32" break="no"/>troversia inter reges Angliae, quos
+            sequi<lb ed="#V" n="33" break="no"/>tur et citat Sanchez praedicta disput. 66.
+            <lb ed="#V" n="34"/>quaest. 1. et 2. Bellarminus et alii citati.
+            <lb ed="#V" n="35"/>Neque reprehensio Herodis a Joanne
+            <lb ed="#V" n="36"/>Baptista huc spectat, qui, ut aliqui dicunt,
+            <lb ed="#V" n="37"/>vivente Philippo duxit uxorem ejus, et
+            <lb ed="#V" n="38"/>etiam nata ex Philippo Herodiade filia
+            <lb ed="#V" n="39"/>superstite.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>(g) Et in eodem gradu impedit
+            matri<lb ed="#V" n="41" break="no"/>monium, etc. Hoc recte juxta statutum
+            <lb ed="#V" n="42"/>cap. Non debet, de consanguin. et affinit.
+            <lb ed="#V" n="43"/>et tenet de facto quoad affinitatem ex
+            co<lb ed="#V" n="44" break="no"/>pula conjugali; quoad affinitatem vero ex
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>copula fornicaria et illicita, restrictum est
+            <lb ed="#V" n="46"/>Jus antiquum per statutum supra
+            praemis<lb ed="#V" n="47" break="no"/>sum Tridentini.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Quaeri solet an copula illicita cum
+            con<lb ed="#V" n="49" break="no"/>sanguinea uxoris, ultra tertium gradum,
+            <lb ed="#V" n="50"/>vel in tertio gradu privet maritum jure
+            <lb ed="#V" n="51"/>petendi debiti ex hoc capite, quod
+            perin<lb ed="#V" n="52" break="no"/>de est ac quaerere, an Jura antiqua sublata
+            <lb ed="#V" n="53"/>sint ex toto per statutum Tridentini, an
+            <lb ed="#V" n="54"/>solum quoad impedimentum matrimonii?
+            <lb ed="#V" n="55"/>Probabilius est non privari jure debiti,
+            <lb ed="#V" n="56"/>quia Jura antiqua accessorie tantum
+            indu<lb ed="#V" n="57" break="no"/>cebant hanc poenam, ex eo quod statuerint
+            <lb ed="#V" n="58"/>affinitatem; haec autem sublata est per
+            <lb ed="#V" n="59"/>Tridentinum, ergo et illa poena accessoria.
+            <lb ed="#V" n="60"/>Ita Navarrus lib. 4. consil, cons. 30. de
+            <lb ed="#V" n="61"/>consanguinit. Sanchez disp. 66. n. 8.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Advertendum est Jure antiquo triplex
+            <lb ed="#V" n="63"/>affinitatis genus fuisse statutum. Primum
+            <lb ed="#V" n="64"/>genus est, de quo hactenus est tractatum,
+            <lb ed="#V" n="65"/>ut inter fratrem et uxorem sui fratris, et
+            <lb ed="#V" n="66"/>oritur ex consanguinitate haec affinitas.
+            <lb ed="#V" n="67"/>Secundum genus est, quod fundatur
+            pro<lb ed="#V" n="68" break="no"/>xime in hac affinitate, verbi gratia, si
+            <lb ed="#V" n="69"/>frater moritur, et uxor ejus ducit alium
+            <lb ed="#V" n="70"/>maritum, tunc oritur affinitas secundi
+            <lb ed="#V" n="71"/>generis inter maritum secundum, qui
+            di<lb ed="#V" n="72" break="no"/>catur Petrus, et sororem primi mariti
+            <lb ed="#V" n="73"/>ejusdem uxoris, quae nupta fuit Paulo
+            <lb ed="#V" n="74"/>primo marito. Tertium genus affinitatis
+            <lb ed="#V" n="75"/>fuit fundatum in hac secunda
+            affinita<lb ed="#V" n="76" break="no"/>te, verbi gratia, si discesserit uxor Petri,
+            <lb ed="#V" n="77"/>quae primum nupta fuit Paulo, et Petrus
+            <lb ed="#V" n="78"/>ducat aliam; haec alia ex nuptiis cum
+            <lb ed="#V" n="79"/>Petro conjungitur affinitate cum Joanne
+            <lb ed="#V" n="80"/>fratre Pauli. Primum ergo genus
+            affinita<lb ed="#V" n="81" break="no"/>tis est Joannis cum uxore sui fratris
+            Pau<lb ed="#V" n="82" break="no"/>li. Secundum genus est cum secundo
+            <lb ed="#V" n="83"/>marito ejusdem uxoris. Tertium genus cum
+            <lb ed="#V" n="84"/>secunda uxore ejus mariti. Haec duo
+            ge<lb ed="#V" n="85" break="no"/>nera exprimuntur in c. Porro, et in cap.
+            <lb ed="#V" n="86"/>de propinquis 35. quoest. 5. revocata sunt
+            <lb ed="#V" n="87"/>cap. Non debet, etc. de consanguin. et
+            <lb ed="#V" n="88"/>affinitate, ut recte monet Doctor in
+            proe<pb ed="#V" n="545"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>cedenti distint. et Glossa in illud
+            capi<lb ed="#V" n="2" break="no"/>tulum.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>(h) Consimiliter de affinitate
+            commu<lb ed="#V" n="4" break="no"/>niter, etc. Extendit hoc impedimentum ad
+            <lb ed="#V" n="5"/>affinitatem, quae dicitur publicae
+            honesta<lb ed="#V" n="6" break="no"/>tis justitia, et dici esse Juris Ecclesiastici,
+            <lb ed="#V" n="7"/>comprehendendo ipsam sub generali
+            <lb ed="#V" n="8"/>assertione conclusionis praemissae, hoc
+            <lb ed="#V" n="9"/>impedimentum causam habet ex solo
+            Ec<lb ed="#V" n="10" break="no"/>clesiae statuto, cujus motivum fuit
+            hone<lb ed="#V" n="11" break="no"/>stas servanda, quia vel oritur ex
+            sponsa<lb ed="#V" n="12" break="no"/>libus, quae sunt initium matrimonii, vel
+            <lb ed="#V" n="13"/>ex matrimonio rato, ac proinde Ecclesiae
+            <lb ed="#V" n="14"/>et Religionis honestati congruit, et paci
+            <lb ed="#V" n="15"/>inter parentes consanguineos, ut a sponsa
+            <lb ed="#V" n="16"/>aut sponso, tam de praesenti quam de
+            <lb ed="#V" n="17"/>s futuro arcerentur. De hoc impedimento
+            <lb ed="#V" n="18"/>habetur titulo de sponsalibus, cap.
+            Juve<lb ed="#V" n="19" break="no"/>nis, cap. Veniens, cap. Ad audientiam,
+            <lb ed="#V" n="20"/>cap. Sponsam, et eodem in 6. cap. unico,
+            <lb ed="#V" n="21"/>et cap. Litteras, etc. de sponsalibus
+            im<lb ed="#V" n="22" break="no"/>puberum. Contrahitur cum consanguineis
+            <lb ed="#V" n="23"/>tantum, etiam illegitimis, non cum
+            affini<lb ed="#V" n="24" break="no"/>bus; extenditur ad eos gradus ad quos
+            <lb ed="#V" n="25"/>consanguinitas extenditur, ut colligit
+            <lb ed="#V" n="26"/>Glossa in cap. unico, de sponsalibus in 6.
+            <lb ed="#V" n="27"/>et ibi Doctores; sicut enim ad nullos
+            gra<lb ed="#V" n="28" break="no"/>dus lege ipsa restringitur, ita sequitur
+            <lb ed="#V" n="29"/>naturam ejus, ad cujus similitudinem est
+            <lb ed="#V" n="30"/>inducta haec affinitas, nempe affinitatis
+            <lb ed="#V" n="31"/>proprie dictae. Ita communis. Oritur jure
+            <lb ed="#V" n="32"/>antiquo ex sponsalibus tam validis quam
+            <lb ed="#V" n="33"/>irritis, ut patet cap. illo unico, modo non
+            <lb ed="#V" n="34"/>sint irrita ex defectu consensus, ut sunt
+            <lb ed="#V" n="35"/>sponsalia puerorum et furiosorum,
+            ideo<lb ed="#V" n="36" break="no"/>que non tollitur, si sponsalia sint irrita
+            <lb ed="#V" n="37"/>ex impedimento voti aut impotentiae, aut
+            <lb ed="#V" n="38"/>hujusmodi. Idem supponit capitulum Ad
+            <lb ed="#V" n="39"/>audientiam, etc. de sponsalibus, etc.
+            re<lb ed="#V" n="40" break="no"/>quiritur autem consensus naturalis et
+            <lb ed="#V" n="41"/>liber, ut valeant inducere hoc
+            impedimen<lb ed="#V" n="42" break="no"/>tum, quamvis alioquin sit persona alio
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>impedimento subjecta. Id statutum est ad
+            <lb ed="#V" n="44"/>excludendum praetextus et dolum.
+          </p>
+          <p>
+            <lb ed="#V" n="45"/>Lex nova Tridentini sess. 24. cap. 3.
+            <lb ed="#V" n="46"/>corrigit Jus antiquum in duobus. Primum
+            <lb ed="#V" n="47"/>est, ut non consurgat ex sponsalibus
+            qua<lb ed="#V" n="48" break="no"/>cumque ratione invalidis et irritis.
+            Secun<lb ed="#V" n="49" break="no"/>dum est, ut non excedat primum gradum,
+            <lb ed="#V" n="50"/>id est, sive in linea recta, sive
+            transver<lb ed="#V" n="51" break="no"/>sali, quia plura incommoda ex opposito
+            <lb ed="#V" n="52"/>tunc dierum sequebantur. Hoc
+            impedi<lb ed="#V" n="53" break="no"/>mentum est etiam perpetuum, ut deciditur
+            <lb ed="#V" n="54"/>cap. Sponsam, de sponsalibus, cap. Si
+            <lb ed="#V" n="55"/>quis uxorem, et c. Si quos desponsaverit
+            <lb ed="#V" n="56"/>2. 27. quaest. 2. colligitur ex cap.
+            Frater<lb ed="#V" n="57" break="no"/>nitatis 35. quaest. 10. Ita Glossa cap.
+            <lb ed="#V" n="58"/>unico, de sponsalibus in 6. et alii in
+            prae<lb ed="#V" n="59" break="no"/>dicta Jura. Immerito ergo Saa de
+            impedi<lb ed="#V" n="60" break="no"/>mentis diriment. v. Matrimon. n. 12.
+            <lb ed="#V" n="61"/>excipit casum quo dissolvantur sponsalia
+            <lb ed="#V" n="62"/>ex consensu partium, quia etiam mortuo
+            <lb ed="#V" n="63"/>sponso dissolvuntur' sponsalia, tamen
+            <lb ed="#V" n="64"/>manet impedimentum, ad quod sufficit
+            <lb ed="#V" n="65"/>contractum fuisse verum; absolutum et
+            <lb ed="#V" n="66"/>legitimum, sive matrimonium subsecutum
+            <lb ed="#V" n="67"/>sit, sive non.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Non oritur impedimentum publicae
+            <lb ed="#V" n="69"/>honestatis dirimens priora sponsalia ex
+            <lb ed="#V" n="70"/>subsequentibus sponsalibus cum
+            consan<lb ed="#V" n="71" break="no"/>guinea prioris, ut patet cap. unico, de
+            <lb ed="#V" n="72"/>sponsalib. in 6. et hoc recte est statutum,
+            <lb ed="#V" n="73"/>ne scandalum oriatur, et injuria prioris
+            <lb ed="#V" n="74"/>sponsae, et ut secludatur fraus ex
+            sponsa<lb ed="#V" n="75" break="no"/>libus sub conditione initis; non oritur
+            <lb ed="#V" n="76"/>hoc impedimentum, donec transeant in
+            <lb ed="#V" n="77"/>absoluta, et purificetur conditio.
+            Adver<lb ed="#V" n="78" break="no"/>tendum Concilium Tridentinum nihil
+            <lb ed="#V" n="79"/>innovasse circa hoc impedimentum, ut
+            <lb ed="#V" n="80"/>est ex matrimonio rato tantum, ac proinde
+            <lb ed="#V" n="81"/>standum erit Juri antiquo, ita ut ad
+            quar<lb ed="#V" n="82" break="no"/>tum gradum extendatur, et consurgat ex
+            <lb ed="#V" n="83"/>matrimonio etiam invalido.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>Ad argumenta, patet ex littera.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>
