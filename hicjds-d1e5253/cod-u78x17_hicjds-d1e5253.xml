@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 10, Praeambulum</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 10, Praeambulum</title>
+          <date when="2026-11-20">Nov 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x17">Vives, Paris, 1894, volume 17</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="151"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e5253"><!-- hicjds-b4d10prae -->
+        <head>Praeambulum</head>
+        <!-- <div alias="hiq-d10prae"> -->
+          <p>
+            <lb ed="#V" n="80" type="fixed=151"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>In hac distinctione agitur de reali
+            <lb ed="#V" n="82"/>existentia Christi in Eucharistia, circa
+            <lb ed="#V" n="83"/>quam Doctor primo quaerit de
+            possibili<lb ed="#V" n="84" break="no"/>tate mysterii; secundo ex occasione
+            <lb ed="#V" n="85"/>hujus quaerit, an idem corpus possit esse
+            <pb ed="#V" n="152"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>simul in diversis locis, modo connaturali
+            <lb ed="#V" n="2"/>existendi; tertio, an possit esse in
+            diver<lb ed="#V" n="3" break="no"/>sis locis in uno secundum modum
+            natu<lb ed="#V" n="4" break="no"/>ralem, in alio sacramentaliter; quarto, an
+            <lb ed="#V" n="5"/>in Sacramento habeat partes; quinto,
+            <lb ed="#V" n="6"/>quaenam actio Christo inest in
+            Sacramen<lb ed="#V" n="7" break="no"/>to; sexto, an possit inesse motus;
+            sep<lb ed="#V" n="8" break="no"/>timo, an possit sic existens aliquid aliud
+            <lb ed="#V" n="9"/>a se transmutare; octavo, an possit
+            vide<lb ed="#V" n="10" break="no"/>ri naturaliter in Sacramento ab intellectu
+            <lb ed="#V" n="11"/>creato; nono, an possit sic existens
+            vide<lb ed="#V" n="12" break="no"/>ri oculo corporeo. Divisio autem
+            princi<lb ed="#V" n="13" break="no"/>palis hujus distinctionis est in tres
+            arti<lb ed="#V" n="14" break="no"/>culos; primus continet tres quaestiones
+            <lb ed="#V" n="15"/>de possibilitate mysterii; secundus tres
+            <lb ed="#V" n="16"/>quaestiones de iis quae insunt corpori
+            <lb ed="#V" n="17"/>Christi in Eucharistia; tertius, alias
+            <lb ed="#V" n="18"/>tres de actione ipsi competenti.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

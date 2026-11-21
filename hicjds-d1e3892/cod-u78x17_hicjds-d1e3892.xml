@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 10, Pars 3, Quaestio 2</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 10, Pars 3, Quaestio 2</title>
+          <date when="2026-11-20">Nov 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x17">Vives, Paris, 1894, volume 17</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="284"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3892"><!-- hicjds-b4d10p3q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum aliquis intellectus creatus possit naturaliter videre exsistentiam corporis Christi in eucharistia</head>
+        <!-- <div alias="hiq-d10q8-p1"> -->
+          <p>
+            <lb ed="#V" n="54" type="fixed=284"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>(a) Hic dicitur, etc. D. Thomas negat
+            <lb ed="#V" n="56"/>posse videri ab intellectu creato modum
+            <lb ed="#V" n="57"/>existendi sacramentalem virtute naturali;
+            <lb ed="#V" n="58"/>quem sequuntur D. Bonaventura,
+            Henri<lb ed="#V" n="59" break="no"/>cus, Richardus a Scholiaste citati; et in
+            <lb ed="#V" n="60"/>hac dist. Durandus quaest. 4. Sotus,
+            Caje<lb ed="#V" n="61" break="no"/>tanus, Suarez disp. 53. sect. 5. et
+            com<lb ed="#V" n="62" break="no"/>munis doctrina est in schola D. Thomae.
+            <lb ed="#V" n="63"/>Arguitur hic de intellectione Angeli,
+            ani<lb ed="#V" n="64" break="no"/>mae separatae et Beati. Docet D. Thomas
+            <lb ed="#V" n="65"/>videri quidem in Verbo hunc modum
+            <lb ed="#V" n="66"/>existendi, non tamen in proprio genere.
+            <lb ed="#V" n="67"/>Richardus admittit a Beato posse videri
+            <lb ed="#V" n="68"/>in genere proprio; non virtute naturalis
+            <lb ed="#V" n="69"/>luminis, sed per lumen supernaturale
+            <lb ed="#V" n="70"/>gloriae omnia mysteria fidei. Alii, ut
+            Ca<lb ed="#V" n="71" break="no"/>jetanus admittit per speciem infusam
+            <lb ed="#V" n="72"/>posse Angelum videre corporis Christi
+            <lb ed="#V" n="73"/>existentiam in Eucharistia, non tamen
+            <lb ed="#V" n="74"/>modum existendi. Approbat Suarez
+            quam<lb ed="#V" n="75" break="no"/>vis per actum consequentem talem
+            spe<lb ed="#V" n="76" break="no"/>ciem non videretur, ubi esset corpus
+            <lb ed="#V" n="77"/>existens, sed ejus existentia.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d10q8-p2"> -->
+          <p>
+            <lb ed="#V" n="73" type="fixed=287"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>(a) Respondeo ad quaestionem, etc.
+            Suppo<lb ed="#V" n="75" break="no"/>nit explicationem terminorum, et reducit
+            <lb ed="#V" n="76"/>ad sensum quaestionis, qui est: an possit
+            in<lb ed="#V" n="77" break="no"/>tellectus separatus a materia ut
+            Angeli<lb ed="#V" n="78" break="no"/>cus, et animae separatae, vel se habens in
+            <lb ed="#V" n="79"/>operando, ut separatus, sicut intellectus
+            <lb ed="#V" n="80"/>Beati intelligere, non abstractive, sed
+            in<lb ed="#V" n="81" break="no"/>tuitive Christum, ut subest speciebus
+            sa<lb ed="#V" n="82" break="no"/>cramentalibus, etiam quoad modum
+            exi<lb ed="#V" n="83" break="no"/>stendi, ita ut hic modus videatur etiam
+            <lb ed="#V" n="84"/>naturaliter. Hanc quaestionem resolvit per
+            <lb ed="#V" n="85"/>duas conclusiones:
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Prima est negativa, quantum ad
+            intel<pb ed="#V" n="288"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>lectum nostrum in via; et haec est
+            com<lb ed="#V" n="2" break="no"/>munis utriusque scholae, et bene probatur
+            <lb ed="#V" n="3"/>in littera.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Secunda conclusio est affirmativa quoad
+            <lb ed="#V" n="5"/>intellectum separatum, quam tenet etiam
+            <lb ed="#V" n="6"/>Major hic quodlibeto 5. Palacius disput. 3.
+            <lb ed="#V" n="7"/>concl. 7. Occham in 4. quaest. 5. Gabriel
+            <lb ed="#V" n="8"/>lect. 45. in canon. AEgidius Theor. 16. et
+            <lb ed="#V" n="9"/>omnes nostrae scholae auctores, quos citat
+            <lb ed="#V" n="10"/>Scholiastes. Rationes autem Doctoris
+            pro<lb ed="#V" n="11" break="no"/>cedunt ex his principiis cognoscendi,
+            <lb ed="#V" n="12"/>nempe ex objecto primo intellectus
+            An<lb ed="#V" n="13" break="no"/>gelici, aut separati, ex prioritate
+            exi<lb ed="#V" n="14" break="no"/>stentiae ad modum existendi, et
+            excel<lb ed="#V" n="15" break="no"/>lentia objecti cognoscibilis, alias ad
+            in<lb ed="#V" n="16" break="no"/>tellectu lumine naturali prae tali modo,
+            <lb ed="#V" n="17"/>tam in esse entis quam in esse
+            cogno<lb ed="#V" n="18" break="no"/>scibilis. Haec ratio impugnat
+            fundamen<lb ed="#V" n="19" break="no"/>tum oppositae, sententiae, quod sumitur ex
+            <lb ed="#V" n="20"/>perfectione supernaturalis modi.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Tertio denique, quia supernaturalitas
+            <lb ed="#V" n="22"/>illius modi non impedit, quin positus in
+            <lb ed="#V" n="23"/>reipsa videatur, sicut alia entia
+            supernatu<lb ed="#V" n="24" break="no"/>ralia, verbi gratia, virtutes
+            supernatura<lb ed="#V" n="25" break="no"/>les; procedit ergo per principia
+            contra<lb ed="#V" n="26" break="no"/>dictoria. Et quamvis tota difficultas
+            redu<lb ed="#V" n="27" break="no"/>catur ad hoc ultimum, nempe
+            supernatu<lb ed="#V" n="28" break="no"/>ralitatem modi existendi, et an entia, quae
+            <lb ed="#V" n="29"/>sunt supernaturalia respective ad esse et
+            <lb ed="#V" n="30"/>produci, sint etiam supernaturalia ad
+            co<lb ed="#V" n="31" break="no"/>gnosci, non licet eam hic ex proposito
+            di<lb ed="#V" n="32" break="no"/>sputare aut inquirere, in quo est
+            differen<lb ed="#V" n="33" break="no"/>tia entis naturalis et supernaturalis, cum
+            <lb ed="#V" n="34"/>hoc commodius agetur infra in materia de
+            <lb ed="#V" n="35"/>beatitudine et appetitu naturali ad ipsam
+            <lb ed="#V" n="36"/>dist. 49. quaest. 9.
+            <lb ed="#V" n="37"/>Eadem ergo conclusio probatur contra
+            <lb ed="#V" n="38"/>modernos Thomistas, replicando eadem
+            <lb ed="#V" n="39"/>principia, primo, quia totum hoc visibile
+            <lb ed="#V" n="40"/>cadit sub objecto naturali intellectus
+            An<lb ed="#V" n="41" break="no"/>gelici; ergo tollitur repugnantia posito
+            <lb ed="#V" n="42"/>concursu sufficiente ex parte Dei, qui
+            in<lb ed="#V" n="43" break="no"/>telligitur adesse. Antecedens patet, quia
+            <lb ed="#V" n="44"/>intellectus Angelicus est totius entis finiti,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>quod non respicit aliquid, quod excedit
+            <lb ed="#V" n="46"/>virtutem naturalem intellectus
+            essentiali<lb ed="#V" n="47" break="no"/>ter, sicut unio hypostatica, vel similis ordo
+            <lb ed="#V" n="48"/>intrinsecus rerum, qui est ad Deum sub
+            <lb ed="#V" n="49"/>ratione propria, qua excedit intellectum
+            <lb ed="#V" n="50"/>creatum et objectum ejus naturale
+            moti<lb ed="#V" n="51" break="no"/>vum et terminativum; sed existentia
+            in<lb ed="#V" n="52" break="no"/>divisibilis non est talis, quia est inter
+            cor<lb ed="#V" n="53" break="no"/>pus Christi, et species, quorum quodlibet
+            <lb ed="#V" n="54"/>est contentum sub objecto naturali
+            intel<lb ed="#V" n="55" break="no"/>lectus Angelici; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Respondent adversarii totam
+            repugnan<lb ed="#V" n="57" break="no"/>tiam esse in eo, quod haec existentia sit
+            <lb ed="#V" n="58"/>supernaturalis. Contra, gratia et virtutes
+            <lb ed="#V" n="59"/>infusae sunt supernaturales, tamen videri
+            <lb ed="#V" n="60"/>possunt, et cognosci ab Angelis per
+            natu<lb ed="#V" n="61" break="no"/>ralem virtutem, et species concreatas
+            <lb ed="#V" n="62"/>ipsis; deinde supernaturalitas non variat
+            <lb ed="#V" n="63"/>rationem rei in se formalem, quia est
+            tan<lb ed="#V" n="64" break="no"/>tum ordo ad agens, quia substantia per
+            <lb ed="#V" n="65"/>se est prior omni modo essendi, qui
+            con<lb ed="#V" n="66" break="no"/>venit ipsi per accidens; ergo, et sic cadit
+            <lb ed="#V" n="67"/>sub cognitione intellectus Angelici; ergo
+            <lb ed="#V" n="68"/>et cognoscibilis est secundum se, non
+            ob<lb ed="#V" n="69" break="no"/>stante modo illo accidentali. Probatur
+            con<lb ed="#V" n="70" break="no"/>sequentia, quia talis modus non est ipsi
+            <lb ed="#V" n="71"/>ratio substantialis essendi in se, neque
+            <lb ed="#V" n="72"/>ratio intelligibilitatis, quia neque motiva,
+            <lb ed="#V" n="73"/>neque terminativa cognitionis.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Respondet Cajetanus, concedendo
+            to<lb ed="#V" n="75" break="no"/>tum, et negat cognosci modum illum
+            <lb ed="#V" n="76"/>existendi ejus indivisibilem respective ad
+            <lb ed="#V" n="77"/>species. Contra, in primis idem
+            argumen<lb ed="#V" n="78" break="no"/>tum potest etiam fieri de quantitate, sub e
+            <lb ed="#V" n="79"/>ratione sua absoluta, ut distinguitur a sua
+            <lb ed="#V" n="80"/>extensione, et modo essendi in loco
+            divi<lb ed="#V" n="81" break="no"/>sibili vel indivisibili; et eadem responsio
+            <lb ed="#V" n="82"/>etiam dari potest, quam confirmant
+            exem<lb ed="#V" n="83" break="no"/>plo humanitatis Christi Domini, quae
+            vide<lb ed="#V" n="84" break="no"/>batur ab Angelo, non tamen modus ejus
+            <lb ed="#V" n="85"/>unionis. Sed hoc exemplum non est ad
+            <lb ed="#V" n="86"/>propositum, quia, ut suo loco dicetur, ille
+            <lb ed="#V" n="87"/>modus essentialiter respicit terminum,
+            si<lb ed="#V" n="88" break="no"/>ne quo nequit intelligi, aut videri, qui
+            ter<pb ed="#V" n="289"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>minus excedit virtutem intellectus
+            Ange<lb ed="#V" n="2" break="no"/>lici; in proposito non datur talis ratio,
+            <lb ed="#V" n="3"/>quia supernaturalitas non obstat.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Quod probatur, species, ut separantur a
+            <lb ed="#V" n="5"/>natura panis, habent modum existendi
+            <lb ed="#V" n="6"/>supernaturalem; sed hoc non obstante
+            <lb ed="#V" n="7"/>possunt cognosci in esse separato sine sua
+            <lb ed="#V" n="8"/>inhaerentia existere, quia cognoscitur
+            sub<lb ed="#V" n="9" break="no"/>stantia panis non esse praesens, aut
+            co<lb ed="#V" n="10" break="no"/>gnosci potest, et accidens non habere
+            <lb ed="#V" n="11"/>propriam inhaerentiam aut subjectum sibi
+            <lb ed="#V" n="12"/>connaturale, hoc autem est supernaturale.
+            <lb ed="#V" n="13"/>Potest cognosci idem corpus positum in
+            <lb ed="#V" n="14"/>diversis locis naturaliter; ergo
+            superna<lb ed="#V" n="15" break="no"/>turalitas non obstat.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Deinde cognoscitur substantia corporis
+            <lb ed="#V" n="17"/>Christi, ut hic nimirum, esse sub
+            specie<lb ed="#V" n="18" break="no"/>bus, ut admittit Cajetanus; sed
+            cognosci<lb ed="#V" n="19" break="no"/>citur non esse cum sua extensione, ergo
+            <lb ed="#V" n="20"/>sine extensione; cognoscitur autem tota
+            <lb ed="#V" n="21"/>sub qualibet parte specierum, ergo ut est
+            <lb ed="#V" n="22"/>indivisibiliter sub speciebus. Probatur,
+            <lb ed="#V" n="23"/>consequentia, divisibiliter existere sub
+            <lb ed="#V" n="24"/>speciebus, et indivisibiliter, appellant
+            su<lb ed="#V" n="25" break="no"/>per extrema contradictionis; sed
+            cogno<lb ed="#V" n="26" break="no"/>scitur naturaliter non esse extensa, et esse
+            <lb ed="#V" n="27"/>hic in loco specierum, et ut indistans ab
+            <lb ed="#V" n="28"/>ipsis, quia quodlibet horum cadit sub
+            co<lb ed="#V" n="29" break="no"/>gnitione et objecto naturali intellectus
+            An<lb ed="#V" n="30" break="no"/>gelici, nempe, substantia secundum
+            ra<lb ed="#V" n="31" break="no"/>tionem absolutam cum quantitate; et esse
+            <lb ed="#V" n="32"/>eam in hoc loco determinato, nempe in
+            <lb ed="#V" n="33"/>circulo hostiae, et esse indistantem a
+            quo<lb ed="#V" n="34" break="no"/>libet parte hostiae totam; ergo totum hoc
+            <lb ed="#V" n="35"/>complexum, simul ergo ordo omnium ad
+            <lb ed="#V" n="36"/>invicem, et consequenter praesentia
+            co<lb ed="#V" n="37" break="no"/>gnoscitur.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Patet prima consequentia, quia
+            comple<lb ed="#V" n="39" break="no"/>xum nihil superaddit extremis; patet
+            con<lb ed="#V" n="40" break="no"/>sequentia secunda. Ad cognitionem
+            ali<lb ed="#V" n="41" break="no"/>cujus relationis, aut modi dicentis
+            rela<lb ed="#V" n="42" break="no"/>tionem inter extrema, nihil requiritur,
+            ni<lb ed="#V" n="43" break="no"/>si ut cognoscantur extrema, qua fundant
+            <lb ed="#V" n="44"/>talem ordinem ad invicem; sed species et
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>corpus Christi ratione indistantiae fundant
+            <lb ed="#V" n="46"/>praesentiam ad invicem, et cognoscuntur
+            <lb ed="#V" n="47"/>secundum quod indistantia, nempe qua
+            <lb ed="#V" n="48"/>neutrum est loco separatum ab altero;
+            <lb ed="#V" n="49"/>ergo et praesentia ipsorum. Major patet,
+            <lb ed="#V" n="50"/>quia nihil aliud requiritur ad esse et
+            co<lb ed="#V" n="51" break="no"/>gnitionem talis relationis, quam ipsa
+            ex<lb ed="#V" n="52" break="no"/>trema esse et esse cognita, qua dicunt
+            ta<lb ed="#V" n="53" break="no"/>lem ordinem fundamentaliter.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Dices, id verum esse, quando ordo
+            fun<lb ed="#V" n="55" break="no"/>datur inter ipsa, ex natura rei non
+            <lb ed="#V" n="56"/>vero secundum potentiam obedientialem
+            <lb ed="#V" n="57"/>virtute agentis extrinseci. Contra, licet
+            <lb ed="#V" n="58"/>potentia obedientialis passiva non
+            cogno<lb ed="#V" n="59" break="no"/>scitur semper, non inde sequitur, quin
+            <lb ed="#V" n="60"/>terminus, seu actus ejus productus in esse
+            <lb ed="#V" n="61"/>cognosci possit, verbi gratia, substantiam
+            <lb ed="#V" n="62"/>corpoream, et quantam esse sine
+            extensi<lb ed="#V" n="63" break="no"/>one actuali partis extra partem, est actus
+            <lb ed="#V" n="64"/>potentiae obedientialis; accidens esse sine
+            <lb ed="#V" n="65"/>subjecto et inhaerentia, similiter est
+            po<lb ed="#V" n="66" break="no"/>tentiae obedientialis actus. Haec in re
+            posi<lb ed="#V" n="67" break="no"/>ta cognoscuntur ab Angelo naturaliter,
+            <lb ed="#V" n="68"/>quia videt non esse extensam illam; haec
+            <lb ed="#V" n="69"/>autem esse separata absque inhaerentia
+            <lb ed="#V" n="70"/>ad subjectum, haec et illa esse indistantia
+            <lb ed="#V" n="71"/>localiter; corpus Christi non esse
+            extensi<lb ed="#V" n="72" break="no"/>ve in loco, aut aliqua ejus parte, esse
+            ta<lb ed="#V" n="73" break="no"/>men in loco hoc determinato, ergo
+            se<lb ed="#V" n="74" break="no"/>cundum praesentiam indivisibilem.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Deinde connaturale est corpori esse in
+            <lb ed="#V" n="76"/>loco definito, quia non est ubique, sed si
+            <lb ed="#V" n="77"/>non extensim in loco, nequit esse in ipso
+            <lb ed="#V" n="78"/>aliter, quam non extensim, inter quae non
+            <lb ed="#V" n="79"/>est medium; ergo indivisibiliter hoc est
+            <lb ed="#V" n="80"/>totum in toto, et totum in qualibet parte;
+            <lb ed="#V" n="81"/>ergo, etc. Sed non habere extensionem
+            <lb ed="#V" n="82"/>videt Angelus, quia videt caput non
+            di<lb ed="#V" n="83" break="no"/>stare a pedibus, et extensionem, qui est
+            <lb ed="#V" n="84"/>modus naturalis essendi, videret, si
+            ades<lb ed="#V" n="85" break="no"/>set: ergo et ejus negationem, quia
+            ejus<lb ed="#V" n="86" break="no"/>dem potentiae est extrema contradictionis
+            <lb ed="#V" n="87"/>cognoscere.
+          </p>
+          <p>
+            <lb ed="#V" n="88"/>Secundo principaliter, si substantia
+            es<pb ed="#V" n="290"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>set in puncto, cognosceretur ad Angelo,
+            <lb ed="#V" n="2"/>et ipsa puncta cognoscuntur; et modus
+            <lb ed="#V" n="3"/>essendi indivisibilis cognoscitur
+            sui<lb ed="#V" n="4" break="no"/>ipsius, et animae separatae, et potest
+            <lb ed="#V" n="5"/>cognoscere extensionem majorem vel
+            <lb ed="#V" n="6"/>minorem ejusdem rei, imo et nos
+            <lb ed="#V" n="7"/>eamdem cognoscimus per sensum:
+            <lb ed="#V" n="8"/>ergo cognoscere potest omnem
+            de<lb ed="#V" n="9" break="no"/>terminatum, saltem extensionem
+            sepa<lb ed="#V" n="10" break="no"/>rabilem esse a corpore, quia sub
+            qua<lb ed="#V" n="11" break="no"/>cumque forma subjectum manet
+            invaria<lb ed="#V" n="12" break="no"/>tum, ipsa mutata, non dependet ab ea
+            <lb ed="#V" n="13"/>subjectum; adde quod videat etiam
+            cor<lb ed="#V" n="14" break="no"/>pus, ut hic carere extensione, ergo nihil
+            <lb ed="#V" n="15"/>in ipso excedit lumen naturale
+            intelle<lb ed="#V" n="16" break="no"/>ctus Angelici.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Patet consequentia, quia vel ideo
+            ex<lb ed="#V" n="18" break="no"/>cederet, quia indivisibilis est praesentia,
+            <lb ed="#V" n="19"/>vel quia corporis est, non qua indivisibilis,
+            <lb ed="#V" n="20"/>quia sic nec seipsum in loco videret; non
+            <lb ed="#V" n="21"/>i- qua corporis, quia quod praesentia
+            indivi<lb ed="#V" n="22" break="no"/>«sibilis, non addit nisi negationem
+            exten<lb ed="#V" n="23" break="no"/>sionis in ordine ad locum, et esse in loco,
+            <lb ed="#V" n="24"/>totum hoc cognoscit Angelus; deinde illam
+            <lb ed="#V" n="25"/>praesentiam esse corporis magis quam
+            <lb ed="#V" n="26"/>spiritus, non variat rationem formalem
+            <lb ed="#V" n="27"/>praesentiae, licet subjecto non debeatur,
+            <lb ed="#V" n="28"/>ergo neque, ut afficit subjectum, variatur
+            <lb ed="#V" n="29"/>ejus intelligibilitas; sicut non aliter
+            mu<lb ed="#V" n="30" break="no"/>tat sensum albedo separata, quam in
+            sub<lb ed="#V" n="31" break="no"/>jecto, licet esse illud separatum ei non
+            de<lb ed="#V" n="32" break="no"/>beatur; sic etiam, si divinitus poneretur
+            <lb ed="#V" n="33"/>in AEthiope, cederet sub sensum et int
+            el<lb ed="#V" n="34" break="no"/>lectum.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>Confirmatur corpus esse indivisibiliter
+            <lb ed="#V" n="36"/>in loco potest a nobis intelligi et concipi
+            <lb ed="#V" n="37"/>in via, tanquam ratio vera, nihil habens
+            <lb ed="#V" n="38"/>implicantiae, quia quod posterius est et
+            <lb ed="#V" n="39"/>realiter diversum, separari potest a priore
+            <lb ed="#V" n="40"/>divina virtute, et concipi prius sine ipso,
+            <lb ed="#V" n="41"/>imo et cum ejus opposito, sicut et corvus
+            <lb ed="#V" n="42"/>cum albedine; ergo a fortiori illud idem
+            <lb ed="#V" n="43"/>cadit sub objecto intellectus Angelici,
+            er<lb ed="#V" n="44" break="no"/>go in re positum ab ipso videtur, quia
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>ejusdem potentiae est cognoscere objecti
+            <lb ed="#V" n="46"/>praesentiam, cujus est objectum.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Neque refert hic dicere illud esse
+            obje<lb ed="#V" n="48" break="no"/>ctum supernaturale, quia est effectus
+            su<lb ed="#V" n="49" break="no"/>pernaturalis; non enim sequitur esse
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>objectum supernaturale respective ad
+            po<lb ed="#V" n="51" break="no"/>tentiam cognitivam, quamvis sit
+            superna<lb ed="#V" n="52" break="no"/>turalis effectus in ordine ad potentiam
+            <lb ed="#V" n="53"/>activam, quia cognoscit Angelus
+            natura<lb ed="#V" n="54" break="no"/>liter aliquos effectus supernaturaliter
+            <lb ed="#V" n="55"/>posse fieri a Deo, cognoscit enim
+            poten<lb ed="#V" n="56" break="no"/>tiam Dei non esse exhaustam per ea quae
+            <lb ed="#V" n="57"/>facta sunt. Item extendi ad omne illud
+            <lb ed="#V" n="58"/>quod non involvit contradictionem,
+            quam<lb ed="#V" n="59" break="no"/>vis excederet virtutem creaturae, ut caecum
+            <lb ed="#V" n="60"/>illuminare, mortuum suscitare, etc. Et
+            <lb ed="#V" n="61"/>cognoscit insuper haec non involvere
+            con<lb ed="#V" n="62" break="no"/>tradictionem ab intrinseco, sicut et multa
+            <lb ed="#V" n="63"/>alia, quae divinitus fieri possunt et
+            exce<lb ed="#V" n="64" break="no"/>dunt naturam; ergo supernaturalitas
+            effe<lb ed="#V" n="65" break="no"/>ctus non ponit aliquid repugnans
+            intelle<lb ed="#V" n="66" break="no"/>ctui Angeli, et abstrahens objectum a
+            lu<lb ed="#V" n="67" break="no"/>mine ejus naturali.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Tertio, ut patebit, videri potest oculo
+            <lb ed="#V" n="69"/>corporeo corpus Christi, ut hic miraculose,
+            <lb ed="#V" n="70"/>et docent adversarii; ergo naturaliter
+            <lb ed="#V" n="71"/>etiam videri potest ab Angelo. Probatur
+            <lb ed="#V" n="72"/>consequentia, quia objectum quodcumque
+            <lb ed="#V" n="73"/>potentiae inferioris continetur sub objecto
+            <lb ed="#V" n="74"/>potentiae superioris; et quod in
+            proposi<lb ed="#V" n="75" break="no"/>to etiam apparet sub naturali objecto, quia
+            <lb ed="#V" n="76"/>repugnantia, quae in proposito est ad
+            natu<lb ed="#V" n="77" break="no"/>ralem visionem sensibilem corporis Christi
+            <lb ed="#V" n="78"/>sub speciebus contenti, est propter
+            mo<lb ed="#V" n="79" break="no"/>dum operandi potentiae et objecti
+            respecti<lb ed="#V" n="80" break="no"/>ve ad ipsam ab extensione objecti in
+            or<lb ed="#V" n="81" break="no"/>dine ad locum, quia potentia materialis
+            <lb ed="#V" n="82"/>est, et objectum respectu ejus est etiam
+            <lb ed="#V" n="83"/>materiale.
+            <lb ed="#V" n="84"/>Sed nihil horum concludit respective
+            <lb ed="#V" n="85"/>ad intellectum Angeli, qui potest
+            abstra<lb ed="#V" n="86" break="no"/>here species a rebus quibuscumque
+            prae<lb ed="#V" n="87" break="no"/>sentibus, etiam materialibus, secundum
+            <lb ed="#V" n="88"/>scholam nostram; vel certe habet
+            conge<pb ed="#V" n="291"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>nitas secundum adversarios, quae aeque
+            <lb ed="#V" n="2"/>rem praesentem et absentem repraesentant
+            <lb ed="#V" n="3"/>independenter ab objecto ipso, saltem in
+            <lb ed="#V" n="4"/>ratione moventis; ergo potest videri, ut
+            <lb ed="#V" n="5"/>hic, corpus Christi ab Angelo per tales
+            <lb ed="#V" n="6"/>species, quia materialitas objecti non
+            ob<lb ed="#V" n="7" break="no"/>stat, alias semper obstaret, neque modus
+            <lb ed="#V" n="8"/>essendi, ad quem elevari etiam potest
+            <lb ed="#V" n="9"/>oculus, et qui alioquin cadit sub
+            intelle<lb ed="#V" n="10" break="no"/>ctualitate Angeli, quae abstrahit a materia.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>Objiciunt adversarii, quia intellectus
+            se<lb ed="#V" n="12" break="no"/>paratus nequit recipere species a corpore
+            <lb ed="#V" n="13"/>Christi, quia habet species congenitas, et
+            <lb ed="#V" n="14"/>nullam habet, nisi quae debetur; non
+            de<lb ed="#V" n="15" break="no"/>betur eidem species repraesentans corpus
+            <lb ed="#V" n="16"/>Christi sub speciebus, quia
+            supernatura<lb ed="#V" n="17" break="no"/>lis est talis modus essendi, ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Respondetur, Angelum et abstrahere
+            <lb ed="#V" n="19"/>species a rebus, et cognoscere eas
+            prae<lb ed="#V" n="20" break="no"/>sentes, neque in hoc esse ullam
+            repu<lb ed="#V" n="21" break="no"/>gnantiam; demus etiam contrarium. Dico,
+            <lb ed="#V" n="22"/>quod Angelo debetur cognitio omnium,
+            <lb ed="#V" n="23"/>quae ponuntur in esse, et continentur sub
+            <lb ed="#V" n="24"/>objecto naturali sui intellectus, ergo etiam
+            <lb ed="#V" n="25"/>species earum, si per species tantum
+            co<lb ed="#V" n="26" break="no"/>gnosci debent. Videt ergo Angelus
+            intuiti<lb ed="#V" n="27" break="no"/>ve praesens ipsum corpus Christi, et hoc
+            <lb ed="#V" n="28"/>naturaliter.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Secundo objiciunt quod potest Angelus
+            <lb ed="#V" n="30"/>naturaliter intueri, dum est praesens,
+            po<lb ed="#V" n="31" break="no"/>test etiam naturaliter cognoscere, ut est
+            <lb ed="#V" n="32"/>possibile; sed hoc in proposito est
+            fal<lb ed="#V" n="33" break="no"/>sum, ergo et antecedens. Respondetur in
+            <lb ed="#V" n="34"/>primis negando minorem, in iis, scilicet
+            <lb ed="#V" n="35"/>quorum non repugnantia est manifesta
+            <lb ed="#V" n="36"/>Angelo ex principiis intrinsecis ipsorum,
+            <lb ed="#V" n="37"/>ut idem corpus poni posse in diversis
+            lo<lb ed="#V" n="38" break="no"/>cis simul, extensionem posse separari a
+            <lb ed="#V" n="39"/>corpore, quia ab ea non dependet;
+            vide<lb ed="#V" n="40" break="no"/>tur ergo etiam Angelus (probabiliter
+            lo<lb ed="#V" n="41" break="no"/>quendo) potuisse attingere lumine
+            natu<lb ed="#V" n="42" break="no"/>rali intelligibilitatem hujus mysterii, et
+            <lb ed="#V" n="43"/>possibilitatem; quae videtur sufficienter
+            <lb ed="#V" n="44"/>probari potuisse ex natura rei, et
+            inde<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>pendentia subjecti a modo essendi
+            quan<lb ed="#V" n="46" break="no"/>to, sicut etiam resurrectionis possibilitas
+            <lb ed="#V" n="47"/>ab Angelo demonstrari potest ex natura
+            <lb ed="#V" n="48"/>ipsorum extremorum, et idem de
+            restau<lb ed="#V" n="49" break="no"/>ratione caeci nati.
+            <lb ed="#V" n="50"/>Dices, illud ens est supernaturale
+            facti<lb ed="#V" n="51" break="no"/>bile; ergo supernaturale cognoscibile, vel
+            <lb ed="#V" n="52"/>si supernaturaliter fit, ergo
+            supernatura<lb ed="#V" n="53" break="no"/>liter tantum cognoscitur. Respondetur ex
+            <lb ed="#V" n="54"/>Doctore, si Iy supernaturale determinat
+            <lb ed="#V" n="55"/>tam in antecedente quam in consequente,
+            <lb ed="#V" n="56"/>totum est verum, nam sicut quod est
+            tan<lb ed="#V" n="57" break="no"/>tum supernaturaliter factibile, nequit fieri
+            <lb ed="#V" n="58"/>virtute naturali, sic etiam quod est
+            su<lb ed="#V" n="59" break="no"/>pernaturaliter cognoscibile, nequit virtute
+            <lb ed="#V" n="60"/>naturali cognosci; si tamen supernaturale
+            <lb ed="#V" n="61"/>determinat tantum rationem entis, et non
+            <lb ed="#V" n="62"/>cognoscibilitatis, falsum erit consequens,
+            <lb ed="#V" n="63"/>nempe non posse cognosci nisi
+            superna<lb ed="#V" n="64" break="no"/>turaliter.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Objicies tertio, quodcumque
+            cognosci<lb ed="#V" n="66" break="no"/>bile per fidem, excedit quodcumque
+            cog<lb ed="#V" n="67" break="no"/>noscibile naturaliter. Respondetur,
+            quod<lb ed="#V" n="68" break="no"/>cumque cognoscibile tantum per fidem
+            <lb ed="#V" n="69"/>respective ad cognoscibile naturaliter
+            re<lb ed="#V" n="70" break="no"/>spective ad eumdem intellectum et
+            sta<lb ed="#V" n="71" break="no"/>tum, verum esse, non tamen ad diversum
+            <lb ed="#V" n="72"/>intellectum et statum comparatum.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Unde aliquid pro statu viae, tam in
+            An<lb ed="#V" n="74" break="no"/>gelo quam in homine, non est
+            cognosci<lb ed="#V" n="75" break="no"/>bile nisi per fidem, ut unio hypostatica,
+            <lb ed="#V" n="76"/>capacitas gloriae in anima et ejusmodi,
+            <lb ed="#V" n="77"/>quae sunt simpliciter ordinis
+            supernatura<lb ed="#V" n="78" break="no"/>lis, quantum ad cognosci a creatura
+            vir<lb ed="#V" n="79" break="no"/>tute sui objecti primi motivi et contenti
+            <lb ed="#V" n="80"/>naturaliter sub ipso.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Aliquid tamen cognoscibile est ab
+            intel<lb ed="#V" n="82" break="no"/>lectu nostro pro statu viae tantum per
+            <lb ed="#V" n="83"/>fidem, quod cognosci potest naturaliter ab
+            <lb ed="#V" n="84"/>intellectu nostro separato, ut accidens.
+            <lb ed="#V" n="85"/>esse sine subjecto, corpus sine
+            extensi<lb ed="#V" n="86" break="no"/>one, duo corpora esse in eodem loco
+            pe<lb ed="#V" n="87" break="no"/>netrative, quod videri potuit ab Angelo
+            <lb ed="#V" n="88"/>sibi dimisso, imo etiam a quibusdam
+            vi<pb ed="#V" n="292"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>atoribus, aliqua sunt credita tantum, quae
+            <lb ed="#V" n="2"/>aliis fuerunt scita, ut Crux Christi, et
+            <lb ed="#V" n="3"/>mors a nobis creduntur; aliis tamen, qui
+            <lb ed="#V" n="4"/>fuerunt praesentes, visa evidenter sunt,
+            <lb ed="#V" n="5"/>et non credita, neque probabiliter
+            dein<lb ed="#V" n="6" break="no"/>ceps etiam erat in ipsis objectum fidei,
+            <lb ed="#V" n="7"/>quia remansit in rememorativa species
+            <lb ed="#V" n="8"/>eas repraesentans cum evidentia actus
+            <lb ed="#V" n="9"/>praeteriti; habitus autem fidei, licet in
+            <lb ed="#V" n="10"/>utrisque sit idem, tamen nequit applicari
+            <lb ed="#V" n="11"/>ad objectum, nisi quod obscure tantum
+            <lb ed="#V" n="12"/>proponitur.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Objicies quarto, sequi quod mali Angeli
+            <lb ed="#V" n="14"/>possint naturaliter cognoscere existentiam
+            <lb ed="#V" n="15"/>corporis Christi in Eucharistia, quia
+            natu<lb ed="#V" n="16" break="no"/>ralia in ipsis manserunt integra secundum
+            <lb ed="#V" n="17"/>Dionysium 4. de Divinis nominibus; sed
+            <lb ed="#V" n="18"/>hoc est falsum, quia inimici gratiae non
+            <lb ed="#V" n="19"/>cognoscunt Sacramenta gratiae.
+            Responde<lb ed="#V" n="20" break="no"/>tur, quod sibi dimissi possint cognoscere,
+            <lb ed="#V" n="21"/>sicut et integritatem Virginis, cogitationes
+            <lb ed="#V" n="22"/>cordium, et multa alia ex natura sua, quae
+            <lb ed="#V" n="23"/>non permittuntur eis, ut Magister in 2.
+            <lb ed="#V" n="24"/>dist. 7. inter quae est integritas Virginis,
+            <lb ed="#V" n="25"/>secundum Ambrosium super illud Lucae
+            <lb ed="#V" n="26"/>1. Missus est, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>Dices, Damascenus lib. 4. cap. 5.
+            lo<lb ed="#V" n="28" break="no"/>quens de hoc Sacramento: Vere, inquit,
+            <lb ed="#V" n="29"/>Spiritus operatio haec, quae supra naturam
+            <lb ed="#V" n="30"/>sunt operatur, quae non potest capere nisi
+            <lb ed="#V" n="31"/>sola fides; et infra: interrogas qualiter
+            <lb ed="#V" n="32"/>panis fit corpus Christi, dico Spiritus
+            san<lb ed="#V" n="33" break="no"/>ctus supervenit hic, et facit haec, quae sunt
+            <lb ed="#V" n="34"/>super rationem et intellectum. Respondeo,
+            <lb ed="#V" n="35"/>eum loqui de nobis tantum, qui solum
+            <lb ed="#V" n="36"/>attingimus illam veritatem per fidem.
+            <lb ed="#V" n="37"/>Dices, nullum futurum contingens potest
+            <lb ed="#V" n="38"/>ab intellectu, quamdiu futurum est,
+            co<lb ed="#V" n="39" break="no"/>gnosci, sed existentia corporis Christi in
+            <lb ed="#V" n="40"/>Eucharistia est aeque indeterminata, sicut
+            <lb ed="#V" n="41"/>quodlibet futurum; ergo, etc.
+            Responde<lb ed="#V" n="42" break="no"/>tur, quamdiu futurum est in virtute suae
+            <lb ed="#V" n="43"/>causae, non posse sciri ab intellectu
+            cre<lb ed="#V" n="44" break="no"/>ato, sed quando positum est in esse, sicut
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>habet determinatam entitatem, sic etiam
+            <lb ed="#V" n="46"/>cadit determinate sub cognitionem; sic
+            <lb ed="#V" n="47"/>ergo intellectus non cognoscit, quod sub
+            <lb ed="#V" n="48"/>ista hostia fiet corpus Christi, positum
+            <lb ed="#V" n="49"/>tamen cognosci potest ab intellectu
+            Chri<lb ed="#V" n="50" break="no"/>Sti, et alio separato. Ex his patet
+            respon<lb ed="#V" n="51" break="no"/>sio Doctoris in littera ad argumenta ad
+            <lb ed="#V" n="52"/>oppositum, quae ferme eadem sunt, sicut
+            <lb ed="#V" n="53"/>et responsio data, quae est ipsius Doctoris
+            <lb ed="#V" n="54"/>in terminis, solum accommodata hic, ad
+            <lb ed="#V" n="55"/>modum quo moderni formant rationes in
+            <lb ed="#V" n="56"/>oppositum.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d10q8-p3"> -->
+          <p>
+            <lb ed="#V" n="18" type="fixed=295"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>(a) Tertia conclusio est, etc. Haec
+            con<lb ed="#V" n="20" break="no"/>clusio est contra eosdem, et recte
+            pro<lb ed="#V" n="21" break="no"/>batur, quia id non spectat ad objectum
+            <lb ed="#V" n="22"/>Beatitudinis, quae perficitur in objecto
+            <lb ed="#V" n="23"/>primario, neque ex natura ejus
+            neces<lb ed="#V" n="24" break="no"/>sario extenditur ad objectum hoc
+            secun<lb ed="#V" n="25" break="no"/>darium, sicut non extenditur ad effectus
+            <lb ed="#V" n="26"/>aliorum Sacramentorum, quamvis
+            perin<lb ed="#V" n="27" break="no"/>de ad fidem spectat in viatore.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>(b) Addo juxta hoc, etc. Est quarta
+            <lb ed="#V" n="29"/>conclusio contra Richardum, non videri
+            <lb ed="#V" n="30"/>necessario scilicet existentiam corporis
+            <lb ed="#V" n="31"/>Christi a Beatis in genere proprio ex vi
+            <lb ed="#V" n="32"/>luminis beatifici, quia minus, inquit, hoc
+            <lb ed="#V" n="33"/>spectat ad beatitudinem, quam visio
+            ejus<lb ed="#V" n="34" break="no"/>dem in Verbo, et facile est probatu, quia
+            <lb ed="#V" n="35"/>¡ lumen beatificum non transcendit
+            natu<lb ed="#V" n="36" break="no"/>ram sui objecti primarii, quod est Deus
+            <lb ed="#V" n="37"/>in se, sicut neque visio; ergo non
+            ex<lb ed="#V" n="38" break="no"/>tenditur ad aliquod objectum, ad quod
+            <lb ed="#V" n="39"/>non determinatur, aut movet objectum
+            <lb ed="#V" n="40"/>beatificum; objectum autem beatificum
+            <lb ed="#V" n="41"/>est ratio cognoscendi cognita, ideoque,
+            <lb ed="#V" n="42"/>ut movet ad objecta secundaria, movet
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>ad ipsa, ut cognoscuntur in ipso cognito,
+            <lb ed="#V" n="44"/>seu ad ipsum ut primo cognitum.
+          </p>
+          <p>
+            <lb ed="#V" n="45"/>Dices, fidei succedit visio, sed
+            existen<lb ed="#V" n="46" break="no"/>tia Christi in Eucharistia est objectum
+            <lb ed="#V" n="47"/>fidei; ergo, etc. Respondetur succedere
+            <lb ed="#V" n="48"/>fidei visionem quoad objectum primarium,
+            <lb ed="#V" n="49"/>non quoad omnia secundaria, alias
+            vide<lb ed="#V" n="50" break="no"/>ret Beatus in Verbo conferri gratiam per
+            <lb ed="#V" n="51"/>Baptismum, et alia Sacramenta hic et
+            <lb ed="#V" n="52"/>nunc applicata; videri semper
+            Incarna<lb ed="#V" n="53" break="no"/>tionem, nativitatem, passionem et caetera
+            <lb ed="#V" n="54"/>mysteria, quae de Christo credidit in via;
+            <lb ed="#V" n="55"/>ex natura enim beatitudinis hoc non
+            de<lb ed="#V" n="56" break="no"/>ducitur, neque est omnino necessarium.
+            <lb ed="#V" n="57"/>Ex his patent caetera, ut responsio ad
+            ar<lb ed="#V" n="58" break="no"/>gumenta principalia, et ad argumenta
+            <lb ed="#V" n="59"/>pro opinione.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

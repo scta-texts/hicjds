@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 11, Pars 1, Articulus 1, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 11, Pars 1, Articulus 1, Quaestio 1</title>
+          <date when="2026-11-20">Nov 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x17">Vives, Paris, 1894, volume 17</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="319"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3932"><!-- hicjds-b4d11p1a1q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum sit possibilis transubstantiatio</head>
+        <!-- <div alias="hiq-d11q1-p1"> -->
+          <p>
+            <lb ed="#V" n="26" type="fixed=319"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>(a) Ad primum sic proceditur, etc. In hac
+            <lb ed="#V" n="28"/>quaestione sunt tres articuli; primus, de
+            <lb ed="#V" n="29"/>significatione nominis; secundus, de re
+            <lb ed="#V" n="30"/>substrata ejusque possibilitate; tertius
+            <lb ed="#V" n="31"/>quid sit? Circa haec omnis controversia,
+            <lb ed="#V" n="32"/>quae fuit inter antiquos, versatur tantum
+            <lb ed="#V" n="33"/>in eo, an transubstantiatio contineatur
+            <lb ed="#V" n="34"/>sub genere mutationis? de quo agit
+            Do<lb ed="#V" n="35" break="no"/>ctor in 3. articulo; inter posteriores tamen
+            <lb ed="#V" n="36"/>succrevit magna varietas quaestionum,
+            <lb ed="#V" n="37"/>quibus respondendum erit. Controversiam
+            <lb ed="#V" n="38"/>cum haereticis supra praemissimus; in hac
+            <lb ed="#V" n="39"/>autem quaestione tantum movetur
+            contro<lb ed="#V" n="40" break="no"/>versia Scholastica.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d11q1-p2"> -->
+          <p>
+            <lb ed="#V" n="63" type="fixed=320"/>COMMENTARIUS
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>(a) De primo dico, etc. Praemissa
+            divi<lb ed="#V" n="65" break="no"/>sione quaestionis, explicat quid nominis,
+            <lb ed="#V" n="66"/>dicens, transubstantiationem esse
+            transiti<lb ed="#V" n="67" break="no"/>onem totalem substantiae in substantiam.
+            <lb ed="#V" n="68"/>Distinguit transubstantiationem a
+            generati<lb ed="#V" n="69" break="no"/>one, ex eo quod in utraque sit transitio
+            <lb ed="#V" n="70"/>totius in totum, sed aliter, quia in
+            gene<lb ed="#V" n="71" break="no"/>ratione totum non succedit toti secundum
+            <lb ed="#V" n="72"/>omnes partes suas, quia eadem materia
+            <lb ed="#V" n="73"/>communis manet in genito, quae fuit in
+            <lb ed="#V" n="74"/>corrupto. In transubtantiatione fit
+            muta<lb ed="#V" n="75" break="no"/>tio totius in totum, et totalis secundum
+            <lb ed="#V" n="76"/>omnes partes categorematice sumptas, ut
+            <lb ed="#V" n="77"/>nulla, quae fuit in termino a quo, maneat
+            <lb ed="#V" n="78"/>in termino ad quem, sed substantia tota
+            <lb ed="#V" n="79"/>et totalis collective quoad partes, et totum
+            <lb ed="#V" n="80"/>sumpta transeat in terminum ad quem.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Excluditur etiam alteratio, quae est
+            mu<lb ed="#V" n="82" break="no"/>tatio totius secundum quid, in aliud
+            se<lb ed="#V" n="83" break="no"/>cundum quid, et non totius simpliciter,
+            <lb ed="#V" n="84"/>quod est subjectum manens sub utroque
+            <lb ed="#V" n="85"/>termino.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Dicitur substantiae in substantiam, etc.
+            <pb ed="#V" n="321"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>non eo modo quo primo Physicorum,
+            <lb ed="#V" n="2"/>dicit subjectum transire de privatione in
+            <lb ed="#V" n="3"/>formam; aut de forma corrupta in
+            for<lb ed="#V" n="4" break="no"/>mam genitam seu eductam, vel qua
+            cor<lb ed="#V" n="5" break="no"/>ruptum dicitur transire in genitum, sed
+            <lb ed="#V" n="6"/>modo jam explicato. Unde excluditur per
+            <lb ed="#V" n="7"/>has particulas transmutatio, qua unum
+            <lb ed="#V" n="8"/>accidens in aliud convertitur, quia illa
+            <lb ed="#V" n="9"/>transaccidentatio est, non
+            transubstanti<lb ed="#V" n="10" break="no"/>atio. Doctor autem explicat
+            transubstantia<lb ed="#V" n="11" break="no"/>tionem, et describit eo modo quo sumitur
+            <lb ed="#V" n="12"/>a Patribus et Conciliis in hoc mysterio,
+            <lb ed="#V" n="13"/>quatenus nihil termini a quo, quoad
+            sub<lb ed="#V" n="14" break="no"/>stantiam manet, sed totus cum partibus
+            <lb ed="#V" n="15"/>transit in terminum ad quem.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d11q1-p3"> -->
+          <p>
+            <pb ed="#V" n="322"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=322"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="2"/>(a) De secundo articulo, etc. Hic
+            po<lb ed="#V" n="3" break="no"/>nit duas conclusiones. Prima, quod
+            tran<lb ed="#V" n="4" break="no"/>substantiatio modo dicto in priori sit
+            pos<lb ed="#V" n="5" break="no"/>sibilis. Secunda, quod haec possibilitas
+            <lb ed="#V" n="6"/>respiciat solum virtutem divinam, non
+            <lb ed="#V" n="7"/>creatam. Prima probatur, quia quidquid
+            <lb ed="#V" n="8"/>potest esse totaliter, id est, secundum
+            <lb ed="#V" n="9"/>totum et partes novum, potest etiam
+            suc<lb ed="#V" n="10" break="no"/>cedere alteri, quod secundum totum et
+            <lb ed="#V" n="11"/>partes potest desinere esse, quia nec
+            in<lb ed="#V" n="12" break="no"/>ceptio totalis unius, neque desitio totalis
+            <lb ed="#V" n="13"/>alterius, nec ordo successionis utriusque
+            <lb ed="#V" n="14"/>ad invicem repugnat. Haec ratio supponit
+            <lb ed="#V" n="15"/>propositionem creditam, nempe Deum
+            <lb ed="#V" n="16"/>habere omnipotentiam, quam Theologi
+            as<lb ed="#V" n="17" break="no"/>serunt, et agere posse independenter ab
+            <lb ed="#V" n="18"/>omni causa creata, et causam materialem
+            <lb ed="#V" n="19"/>a Deo dependere et creari posse, nempe
+            <lb ed="#V" n="20"/>materiam primam, ab eoque conservari,
+            <lb ed="#V" n="21"/>quod non admitterent Philosophi, ut
+            vi<lb ed="#V" n="22" break="no"/>sum est dist. 1. quoest. 1.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Secunda conclusio probatur ex eo, quod
+            <lb ed="#V" n="24"/>solus Deus agere possit independenter a
+            <lb ed="#V" n="25"/>subjecto, et non causa creata; ergo esse
+            <lb ed="#V" n="26"/>et non esse totale substantiae est in sola
+            <lb ed="#V" n="27"/>potestate divina, prout esse et non esse
+            <lb ed="#V" n="28"/>comprehendunt totum et partes. Hae
+            rati<lb ed="#V" n="29" break="no"/>ones quantum ad principia ex quibus
+            <lb ed="#V" n="30"/>dependent, jam tractatae sunt loco citato;
+            <lb ed="#V" n="31"/>unde non est quod hic amplius eis
+            insi<lb ed="#V" n="32" break="no"/>stamus, solum superest explicandum, an
+            <lb ed="#V" n="33"/>panis desinat per annihilationem? an ex
+            <lb ed="#V" n="34"/>repugnantia aliqua ex natura rei? quod
+            <lb ed="#V" n="35"/>in sequentibus tractabitur.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d11q1-p4"> -->
+          <p>
+            <lb ed="#V" n="64" type="fixed=324"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>(a) Quantum ad tertium articulum, etc.
+            <lb ed="#V" n="66"/>Mutatio distinguitur a quibusdam in
+            sub<lb ed="#V" n="67" break="no"/>jectivam et objectivam. Subjectiva est
+            <lb ed="#V" n="68"/>illa, quae est subjecti, ut aliter se habet
+            <lb ed="#V" n="69"/>nunc quam alias, et transit de forma in
+            <lb ed="#V" n="70"/>formam in mutationibus positivis ex
+            par<lb ed="#V" n="71" break="no"/>te utriusque termini; vel certe in
+            priva<lb ed="#V" n="72" break="no"/>tivis et negativis, ut succedit in eo
+            <lb ed="#V" n="73"/>privatio et negatio formae, aut e
+            con<lb ed="#V" n="74" break="no"/>tra. Objectiva mutatio est ex parte
+            ter<lb ed="#V" n="75" break="no"/>mini partialis, aut totalis, qui incipit
+            <lb ed="#V" n="76"/>vel desinit, estque inter esse vel non esse
+            <lb ed="#V" n="77"/>termini. In hoc articulo tertio tangitur
+            <lb ed="#V" n="78"/>controversia magis de proprietate
+            nomi<lb ed="#V" n="79" break="no"/>nis, juxta mentem Philosophi, ejusque
+            <lb ed="#V" n="80"/>significato, quam de re ipsa; nam eo
+            <lb ed="#V" n="81"/>modo quo creatio et annihilatio dicuntur
+            <lb ed="#V" n="82"/>mutationes improprie et objective, et
+            <lb ed="#V" n="83"/>terminus ipse transire de potentia
+            obje<lb ed="#V" n="84" break="no"/>ctiva ad esse cum quamdam sui
+            mutatio<lb ed="#V" n="85" break="no"/>ne, qua recipit esse post non esse, et
+            <lb ed="#V" n="86"/>haec in eo succedunt; ita etiam omnis
+            <pb ed="#V" n="325"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>transmutatio dicitur aliquo modo mutatio
+            <lb ed="#V" n="2"/>improprie sumpta; vide Doctorem in 2.
+            <lb ed="#V" n="3"/>dist. 1. quaest 4. ad 5. et dist. 2.
+            <lb ed="#V" n="4"/>quoest. 4. ad 5.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Impugnat ergo Doctor asserentes
+            mu<lb ed="#V" n="6" break="no"/>tationem proprie dictam dici de
+            transub<lb ed="#V" n="7" break="no"/>stantiatione, et prout mutationem definit
+            <lb ed="#V" n="8"/>Philosophus, 6. Physicorum, qua dicitur
+            <lb ed="#V" n="9"/>aliquid se habere aliter quam prius;
+            <lb ed="#V" n="10"/>quae ratio nominis non convenit termino,
+            <lb ed="#V" n="11"/>sed subjecto, ut idem manet sub utroque
+            <lb ed="#V" n="12"/>termino, sed aliter et aliter se habens,
+            <lb ed="#V" n="13"/>et ut supponitur utrique termino.
+            Re<lb ed="#V" n="14" break="no"/>spondent aliqui, quod Philosophus non
+            <lb ed="#V" n="15"/>agnovit aliam mutationem, nisi ex
+            subje<lb ed="#V" n="16" break="no"/>cto, quia non agnovit creationem et
+            an<lb ed="#V" n="17" break="no"/>nihilationem, quas Theologi cognoscunt,
+            <lb ed="#V" n="18"/>neque transubstantiationem; ergo potest
+            <lb ed="#V" n="19"/>ipsi attribui ratio mutationis. Contra,
+            <lb ed="#V" n="20"/>Philosophus rationem propriam alicujus
+            <lb ed="#V" n="21"/>non extenderet ad aliud, in quo res, cui
+            <lb ed="#V" n="22"/>proprie competit, non includitur; illam
+            <lb ed="#V" n="23"/>rationem tanquam mutationis dixit
+            pro<lb ed="#V" n="24" break="no"/>priam, ergo, etc. deinde Philosophus
+            <lb ed="#V" n="25"/>agnovit rem transire de non esse ad
+            es<lb ed="#V" n="26" break="no"/>se, tamen non comprehendit hunc
+            transi<lb ed="#V" n="27" break="no"/>tum sub mutatione.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Secunda responsio est, quod per ly
+            <lb ed="#V" n="29"/>aliter intellexerit Philosophus aliquid
+            po<lb ed="#V" n="30" break="no"/>sitivum, quia est differentia entis per
+            <lb ed="#V" n="31"/>ipsum, sicut idem ait, 10. Metaph.
+            <lb ed="#V" n="32"/>text. com 11. sed subjectum nunc
+            <lb ed="#V" n="33"/>existens sub privatione succedente formae
+            <lb ed="#V" n="34"/>aliter se habet, quamvis privatio non sit
+            <lb ed="#V" n="35"/>ejus positivum. Contra Doctor, quia licet
+            <lb ed="#V" n="36"/>particula aliter sumatur, ut commune
+            <lb ed="#V" n="37"/>etiam privativo et positivo, tamen se
+            <lb ed="#V" n="38"/>habere sumitur, ut denotat subjectum
+            <lb ed="#V" n="39"/>commune, quod aliter se habet, sub
+            utro<lb ed="#V" n="40" break="no"/>que termino successive; sic etiam sumunt
+            <lb ed="#V" n="41"/>communiter Theologi mutationem.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>(b) Posset etiam argui, etc. terminus ad
+            <lb ed="#V" n="43"/>quem hic non mutatur, etc. nempe
+            sub<lb ed="#V" n="44" break="no"/>stantialiter; agitur enim de mutatione,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>ut includitur in transubstantiatione, ac
+            <lb ed="#V" n="46"/>proinde de substantiali juxta opinantes.
+            <lb ed="#V" n="47"/>Dices, saltem est mutatio ratione panis,
+            <lb ed="#V" n="48"/>qui desinit esse substantialiter. Respondet
+            <lb ed="#V" n="49"/>negando consequentiam, quia nihil ejus
+            <lb ed="#V" n="50"/>manet, quod aliter se haberet. Dices,
+            cor<lb ed="#V" n="51" break="no"/>ruptum est mutatum objective, non
+            sub<lb ed="#V" n="52" break="no"/>jective, quia non manet. Respondet dici
+            <lb ed="#V" n="53"/>denominative mutari, quia quod convenit
+            <lb ed="#V" n="54"/>parti per se, per accidens dicitur de
+            to<lb ed="#V" n="55" break="no"/>to, 5. Physic. text. com. 1. et 7. Physic.
+            <lb ed="#V" n="56"/>text. com. 1. et 2. et pars corrupti
+            <lb ed="#V" n="57"/>manet, quae per se mutatur, et ideo
+            de<lb ed="#V" n="58" break="no"/>nominatio per accidens transit ad
+            to<lb ed="#V" n="59" break="no"/>tum.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Vide quasdam limitationes hujus in 3.
+            <lb ed="#V" n="61"/>dist. 11. quaest. 1. nempe quando
+            deno<lb ed="#V" n="62" break="no"/>minatio a parte repugnat absolute toti,
+            <lb ed="#V" n="63"/>non denominat totum nisi cum
+            limitati<lb ed="#V" n="64" break="no"/>one; nihil autem panis manet, quod per
+            <lb ed="#V" n="65"/>se denominaretur, et primo, ideo neque
+            <lb ed="#V" n="66"/>totum denominari potest per accidens,
+            <lb ed="#V" n="67"/>quia per accidens reducitur ad per se,
+            sic<lb ed="#V" n="68" break="no"/>ut contingens ad necessarium.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>(c) Ad aliam ergo persuasionem, etc.
+            <lb ed="#V" n="70"/>Dicit quod aliud dicitur generari
+            subjecti<lb ed="#V" n="71" break="no"/>ve et objective aliud, et has acceptiones
+            <lb ed="#V" n="72"/>non esse generationis in diversas
+            spe<lb ed="#V" n="73" break="no"/>cies divisionem, sed diversas habitudines
+            <lb ed="#V" n="74"/>ejusdem formae et denominationes, ut
+            <lb ed="#V" n="75"/>comparatur ad diversa, verbi gratia, ad
+            <lb ed="#V" n="76"/>subjectum et ad terminum; qua enim
+            <lb ed="#V" n="77"/>recipitur in subjecto, dicitur generatio per
+            <lb ed="#V" n="78"/>modum mutationis, qua autem respicit
+            <lb ed="#V" n="79"/>terminum, dicitur generatio per modum
+            <lb ed="#V" n="80"/>productionis; non licet autem
+            mutati<lb ed="#V" n="81" break="no"/>onem, qua mutatio est, sumere aliter,
+            <lb ed="#V" n="82"/>quam in ordine ad subjectum; non
+            dici<lb ed="#V" n="83" break="no"/>tur mutari aliquid objective, sicut dicitur
+            <lb ed="#V" n="84"/>generari.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d11q1-p5"> -->
+          <p>
+            <lb ed="#V" n="11" type="fixed=327"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>(a) Dico ergo proprie loquendo, quod
+            <lb ed="#V" n="13"/>transubstantiatio non est mutatio, etc.
+            <lb ed="#V" n="14"/>Haec est conclusio principalis hujus
+            <lb ed="#V" n="15"/>quaestionis, ad quam caetera reducuntur
+            <lb ed="#V" n="16"/>quae breviter recapitulata sunt in com.
+            <lb ed="#V" n="17"/>Eam tenent antiqui Theologi, et omnes
+            <lb ed="#V" n="18"/>nostrae scholae, Altisiodorensis lib. 4.
+            <lb ed="#V" n="19"/>tract. 5. c. 2. Alensis in 4. quoest. 10.
+            <lb ed="#V" n="20"/>m. 5. art. 3. D. Thomas. 3. p. quoest. 75.
+            <lb ed="#V" n="21"/>art. 4. et in hac dist. quoest. 1. art. 3.
+            <lb ed="#V" n="22"/>quaestiuncula 1. ad 3. D. Bonaventura,
+            <lb ed="#V" n="23"/>ibidem part. 1. art. 1. quoest. 2.
+            Richar<lb ed="#V" n="24" break="no"/>dus art. 1. et alii. Sed antequam ad
+            <lb ed="#V" n="25"/>probationem communis sententiae
+            pro<lb ed="#V" n="26" break="no"/>cedamus, subjungendi et impugnandi
+            <lb ed="#V" n="27"/>sunt modi dicendi aliorum.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Circa autem hoc quaesitum variae sunt
+            <lb ed="#V" n="29"/>sententiae, et repugnant conclusioni, quae
+            <lb ed="#V" n="30"/>vix ad summam reduci possunt, et ut
+            <lb ed="#V" n="31"/>bene Vasquez, magis confundunt
+            myste<lb ed="#V" n="32" break="no"/>rium quam explicant; imo aliquae
+            tra<lb ed="#V" n="33" break="no"/>dunt occasionem adversariis fidei, ut
+            <lb ed="#V" n="34"/>plures fingant impossibilitates ejus.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>Prima sententia est Durandi, quae jam
+            <lb ed="#V" n="36"/>impugnata est, nempe ad
+            transubstan<lb ed="#V" n="37" break="no"/>tiationem requiri, ut subjectum commune
+            <lb ed="#V" n="38"/>maneat sub utroque termino; et sic in
+            <lb ed="#V" n="39"/>hac conversione nihil aliud fieri docet,
+            <lb ed="#V" n="40"/>nisi materiam panis fieri sub corpore
+            <lb ed="#V" n="41"/>Christi. Constat ergo productionem esse
+            <lb ed="#V" n="42"/>respectu termini ad quem et
+            substan<lb ed="#V" n="43" break="no"/>tialem.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>Alii docentes actionem esse productivam
+            <lb ed="#V" n="45"/>terminum ejus statuunt modum
+            quem<lb ed="#V" n="46" break="no"/>dam, quo Christus est in hoc
+            Sacramen<lb ed="#V" n="47" break="no"/>to; terminatur ergo ad ipsum, ut habet
+            <lb ed="#V" n="48"/>talem modum, non autem ad aliquod
+            <lb ed="#V" n="49"/>ejus antiquum esse. Si intelligas de modo
+            <lb ed="#V" n="50"/>praesentiae localis, aliqui citant nostrum
+            <lb ed="#V" n="51"/>Doctorem pro eadem sententia, eam
+            <lb ed="#V" n="52"/>sequitur Soto dist. 9. q. 2. art. 2. Alii
+            <lb ed="#V" n="53"/>magis declarant hunc modum
+            substan<lb ed="#V" n="54" break="no"/>tialem esse, ut defendant actionem hanc
+            <lb ed="#V" n="55"/>esse substantialem, ne cogerentur
+            pro<lb ed="#V" n="56" break="no"/>bare transubstantiationem esse actionem
+            <lb ed="#V" n="57"/>accidentalem. Modum autem illum sic
+            <lb ed="#V" n="58"/>declarant, ut ex vi ejus necessario ex
+            <lb ed="#V" n="59"/>natura rei desinat substantia panis et
+            <lb ed="#V" n="60"/>vini, ac proinde asserunt inesse corpori
+            <lb ed="#V" n="61"/>et sanguini Christi, ne cogantur asserere
+            <lb ed="#V" n="62"/>praeter inconveniens allatum, annihilari
+            <lb ed="#V" n="63"/>substantiam panis et vini, et tollerent
+            <lb ed="#V" n="64"/>rationem verae conversionis eorum in
+            <lb ed="#V" n="65"/>corpus et sanguinem Christi. Hunc modum
+            <lb ed="#V" n="66"/>dicunt substantialem, quia si esset
+            acci<lb ed="#V" n="67" break="no"/>dentalis non repugnaret ex natura rei
+            <lb ed="#V" n="68"/>cum substantia panis et vini; et docent
+            <lb ed="#V" n="69"/>esse unionem substantialem corporis et
+            <lb ed="#V" n="70"/>sanguinis cum speciebus, mediante qua, ea
+            <lb ed="#V" n="71"/>sustentat, sine ulla inhaesione harum ad
+            <lb ed="#V" n="72"/>ipsa et sine imperfectione. Alii, statuunt
+            <lb ed="#V" n="73"/>esse conservationem ipsius Christi novam
+            <lb ed="#V" n="74"/>virtute verborum continuatam; ita Gabriel
+            <lb ed="#V" n="75"/>in 4. dist 11. quaest. 1. art. 3. dub. 2.
+            <lb ed="#V" n="76"/>et lect. 40. in canon. haec placet Suarez
+            <lb ed="#V" n="77"/>disp. 58. sect. 4.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>Prima conclusio Ad hanc conversionem
+            <lb ed="#V" n="79"/>non requiritur, ut materia eadem maneat
+            <lb ed="#V" n="80"/>sub utroque termino. Haec est contra
+            <lb ed="#V" n="81"/>Durandum, probatur, quia haec conversio
+            <lb ed="#V" n="82"/>est alterius rationis a reliquis omnibus,
+            <lb ed="#V" n="83"/>quia totius in totum, ut definiunt
+            Con<lb ed="#V" n="84" break="no"/>cilia; ergo nihil commune manet
+            utrius<lb ed="#V" n="85" break="no"/>que, quod sit substantiale et intrinsecum
+            <lb ed="#V" n="86"/>utrique, sed hoc infra latius.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>Secunda conclusio. Terminus
+            transub<pb ed="#V" n="328"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>stantiationis non est modus aliquis
+            <lb ed="#V" n="2"/>substantialis, ut alii supra explicant
+            <lb ed="#V" n="3"/>talem. Probatur primo, quia sic
+            transub<lb ed="#V" n="4" break="no"/>stantiatio esset ad illum modum, non
+            <lb ed="#V" n="5"/>vero ad corpus Christi. Sed Concilia et
+            <lb ed="#V" n="6"/>Patres dicunt transubstantiationem
+            ter<lb ed="#V" n="7" break="no"/>minari ad corpus Christi, in quo fit
+            <lb ed="#V" n="8"/>mutatio panis; ergo terminus ad quem
+            <lb ed="#V" n="9"/>non erit ille modus. Antecedens patet,
+            <lb ed="#V" n="10"/>quia secundum ipsos transubstantiatio est
+            <lb ed="#V" n="11"/>motus productivus termini, ex natura rei
+            <lb ed="#V" n="12"/>repugnantis cum substantia panis sub
+            <lb ed="#V" n="13"/>speciebus; sed id totum convenit isti
+            <lb ed="#V" n="14"/>modo, et non corpori Christi secundum
+            <lb ed="#V" n="15"/>se, quia neque producitur corpus, neque
+            <lb ed="#V" n="16"/>repugnat per se substantiae panis sub
+            spe<lb ed="#V" n="17" break="no"/>ciebus; ergo non erit terminus contra
+            <lb ed="#V" n="18"/>Concilia et Patres supra citatos, et
+            potis<lb ed="#V" n="19" break="no"/>simum Lateranense et Tridentinum, quod
+            <lb ed="#V" n="20"/>postquam declaravit hic conversionem
+            <lb ed="#V" n="21"/>fieri totius panis in substantiam corporis,
+            <lb ed="#V" n="22"/>et totius vini in substantiam sanguinis,
+            <lb ed="#V" n="23"/>ait: Quae conversio, inquit, convenienter
+            <lb ed="#V" n="24"/>et proprie a Sancta catholica Ecclesia
+            <lb ed="#V" n="25"/>transubstantiatio est appellata; ergo
+            <lb ed="#V" n="26"/>etiam rem habet transubstantiationis, ut
+            <lb ed="#V" n="27"/>conversio est ad corpus Christi praecise,
+            <lb ed="#V" n="28"/>non vero ad aliquid superadditum.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Secundo, iste modus est fictitius et
+            <lb ed="#V" n="30"/>imaginarius, de quo aliter et aliter isti
+            <lb ed="#V" n="31"/>auctores censent, nam aliqui dicunt esse
+            <lb ed="#V" n="32"/>substantialem in entitate, aliqui esse
+            ac<lb ed="#V" n="33" break="no"/>cidentalem; sed ratione termini a quo,
+            <lb ed="#V" n="34"/>cum quo repugnat, nempe substantiae
+            <lb ed="#V" n="35"/>panis et vini, dici substantialem.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Haec omnia imaginaria sunt, et sine
+            <lb ed="#V" n="37"/>necessitate adinventa, quin etiam
+            obscu<lb ed="#V" n="38" break="no"/>rant mysterium; minus enim capit ratio
+            <lb ed="#V" n="39"/>modum illum in alieno subjecto repugnare
+            <lb ed="#V" n="40"/>corpori Christi, quam ipsum corpus poni
+            <lb ed="#V" n="41"/>sub speciebus modo sacramentali, et non
+            <lb ed="#V" n="42"/>circumscriptivo, quia hoc involvit solum
+            <lb ed="#V" n="43"/>difficultatem illam essendi cum alio
+            cor<lb ed="#V" n="44" break="no"/>pore circumscriptive, quae tollitur; vel
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>aliam, nempe posse poni sub speciebus
+            <lb ed="#V" n="46"/>modo indivisibili,
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Sed moderni amplius addunt, nempe
+            <lb ed="#V" n="48"/>ad hoc dari modum praefatum: ergo
+            <lb ed="#V" n="49"/>obscurant, quia nequit ostendi ex quo
+            <lb ed="#V" n="50"/>capite repugnaret modus ex natura rei
+            <lb ed="#V" n="51"/>substantiae panis et vini, imo falsum
+            <lb ed="#V" n="52"/>est, quia non opponuntur circa idem
+            <lb ed="#V" n="53"/>subjectum.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Dices, hoc ipso quo separantur
+            acci<lb ed="#V" n="55" break="no"/>dentia a pane, et uniuntur corpori Christi,
+            <lb ed="#V" n="56"/>desinere substantiam panis ex natura rei,
+            <lb ed="#V" n="57"/>quia dependet in esse et conservari ab
+            <lb ed="#V" n="58"/>illis speciebus. Contra, accidentia
+            depen<lb ed="#V" n="59" break="no"/>dent a substantia, ut subjecto, in esse cui
+            <lb ed="#V" n="60"/>inhaerent, quia accidentis esse est inesse
+            <lb ed="#V" n="61"/>ex philosopho; ergo non dependet
+            sub<lb ed="#V" n="62" break="no"/>jectum ab accidentibus. Deinde accidentia
+            <lb ed="#V" n="63"/>supponunt subjectum; terminus autem
+            <lb ed="#V" n="64"/>dependentiae alicujus ad ipsum supponitur
+            <lb ed="#V" n="65"/>saltem natura. Deinde, subjectum non
+            <lb ed="#V" n="66"/>habet existentiam substantialem ab
+            acci<lb ed="#V" n="67" break="no"/>dentibus, sed a suis causis prioribus; unde
+            <lb ed="#V" n="68"/>cum haec existentia sit completa et
+            sub<lb ed="#V" n="69" break="no"/>sistens, non mutatur separatione
+            acci<lb ed="#V" n="70" break="no"/>dentium.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Dices accidentia conservare, ut
+            remo<lb ed="#V" n="72" break="no"/>vens prohibens subjectum. Contra, licet
+            <lb ed="#V" n="73"/>in hoc genere accidentia faciant ad
+            con<lb ed="#V" n="74" break="no"/>servationem subjecti, inquantum agunt,
+            <lb ed="#V" n="75"/>vel resistunt contrario corrumpenti,
+            ta<lb ed="#V" n="76" break="no"/>men in proposito sequitur contrarium,
+            <lb ed="#V" n="77"/>quia separatis accidentibus a subjecto, non
+            <lb ed="#V" n="78"/>est capax actionis aut passionis ab agente
+            <lb ed="#V" n="79"/>naturali, quia hoc nequit agere, nisi in
+            <lb ed="#V" n="80"/>quantum; ergo nequit agere in
+            substan<lb ed="#V" n="81" break="no"/>tiam non quantam, qualis in eo casu
+            <lb ed="#V" n="82"/>esset substantia panis.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>Demus ergo modum illum unionis esse
+            <lb ed="#V" n="84"/>substantialem aut accidentalem, nullum
+            <lb ed="#V" n="85"/>invenitur fundamentum illius
+            repugnan<lb ed="#V" n="86" break="no"/>tiae, quia neque substantiae panis
+            absolu<lb ed="#V" n="87" break="no"/>te repugnat; alias quilibet panis etiam
+            <lb ed="#V" n="88"/>non consecratus eo posito desineret,
+            ne<pb ed="#V" n="329"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>que etiam ratione separationis specierum
+            <lb ed="#V" n="2"/>ab hoc pane, qui converti dicitur; ergo
+            <lb ed="#V" n="3"/>inutilis est.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Secundo probatur involvere falsum, et
+            <lb ed="#V" n="5"/>repugnantia. In primis, quod dicitur
+            sub<lb ed="#V" n="6" break="no"/>stantialis videtur imaginarium, quia
+            cor<lb ed="#V" n="7" break="no"/>e pus Christi gloriosum et completum non
+            <lb ed="#V" n="8"/>est in potentia ad aliquod complementum,
+            <lb ed="#V" n="9"/>aut actum substantialem, si dicatur
+            sub<lb ed="#V" n="10" break="no"/>stantialis ratione termini a quo, propter
+            <lb ed="#V" n="11"/>repugnantiam. Probo, quidquid dicatur,
+            <lb ed="#V" n="12"/>non esse talem repugnantiam, quia
+            <lb ed="#V" n="13"/>accidentia separata ante separationem
+            <lb ed="#V" n="14"/>nihil recipiunt intrinsece, quod
+            inhae<lb ed="#V" n="15" break="no"/>rentiae eorum ad substantiam panis
+            repu<lb ed="#V" n="16" break="no"/>gnet; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Antecedens probatur, quia ille modus,
+            <lb ed="#V" n="18"/>vel est in ipsis speciebus, vel in corpore
+            <lb ed="#V" n="19"/>Christi; non in ipsis speciebus, ut
+            sup<lb ed="#V" n="20" break="no"/>ponit opinio, quia dicitur inesse Christo.
+            <lb ed="#V" n="21"/>qui est terminus ad quem; ergo habebit
+            <lb ed="#V" n="22"/>modum essendi, quem habet Christus
+            de<lb ed="#V" n="23" break="no"/>finitivum. Sed nullum accidens tale
+            repu<lb ed="#V" n="24" break="no"/>gnat accidenti, quod ex natura sua est in
+            <lb ed="#V" n="25"/>subjecto quanto, quia sunt diversi
+            gene<lb ed="#V" n="26" break="no"/>ris, et unum est spirituale et
+            supernatu<lb ed="#V" n="27" break="no"/>rale, vel quasi supernaturale; aliud vero
+            <lb ed="#V" n="28"/>materiale, estque in diverso subjecto hic
+            <lb ed="#V" n="29"/>nempe aliud in corpore, aliud in
+            spe<lb ed="#V" n="30" break="no"/>ciebus.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Deinde demus aliud accidens seu
+            uni<lb ed="#V" n="32" break="no"/>onem inesse speciebus, non opponitur
+            <lb ed="#V" n="33"/>ipsis, quia haec tantum est continentis ad
+            <lb ed="#V" n="34"/>contentum, non formae ad subjectum:
+            <lb ed="#V" n="35"/>ergo alterius rationis, et consequenter
+            <lb ed="#V" n="36"/>nullius in reipsa repugnantiae ad
+            inhaeren<lb ed="#V" n="37" break="no"/>tiam, quia de potentia absoluta posset sic
+            <lb ed="#V" n="38"/>institui Sacramentum, ut maneret
+            sub<lb ed="#V" n="39" break="no"/>stantia panis, ut supra probatum est. Et
+            <lb ed="#V" n="40"/>a probatur amplius, nihil repugnat
+            inhae<lb ed="#V" n="41" break="no"/>rentiae ex modo essendi positive, nisi
+            <lb ed="#V" n="42"/>quod supplet dependentiam accidentis ad
+            <lb ed="#V" n="43"/>subjectum; sed illa unio non supplet
+            ta<lb ed="#V" n="44" break="no"/>lem dependentiam; ergo, etc.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Major patet exemplis et ratione; primo,
+            <lb ed="#V" n="46"/>patet in omnibus quae non sunt
+            privati<lb ed="#V" n="47" break="no"/>ve, aut contradictorie opposita, quae
+            <lb ed="#V" n="48"/>oppositio non est in proposito, ut
+            supponi<lb ed="#V" n="49" break="no"/>mus, quia neque illa unio et inhaerentia
+            <lb ed="#V" n="50"/>accidentis sunt formae maxime distantes
+            <lb ed="#V" n="51"/>sub eodem genere, cum sint diversi
+            gene<lb ed="#V" n="52" break="no"/>ris, neque consequenter contrariae.
+            Utra<lb ed="#V" n="53" break="no"/>que est positiva, ac proinde removentur
+            <lb ed="#V" n="54"/>aliae species oppositionis; in reliquis
+            au<lb ed="#V" n="55" break="no"/>tem quae sibi opponuntur ex limitatione
+            <lb ed="#V" n="56"/>potentiae et subjecti, ut sunt formae
+            sub<lb ed="#V" n="57" break="no"/>stantiales circa eamdem materiam,
+            quae<lb ed="#V" n="58" break="no"/>libet est actus adaequatus per se materiae,
+            <lb ed="#V" n="59"/>et supplet alteram, quia constituit
+            mate<lb ed="#V" n="60" break="no"/>riam in actu completo.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>In causis extrinsecis, quando una tollit
+            <lb ed="#V" n="62"/>influxum alterius, seu ut productivum seu
+            <lb ed="#V" n="63"/>conservativum sui effectus, qui potest
+            <lb ed="#V" n="64"/>esse ab alterutra, supplet etiam
+            concur<lb ed="#V" n="65" break="no"/>sum alterius, ut patet in causis
+            universa<lb ed="#V" n="66" break="no"/>libus, maxime prima; ergo nequit tolli
+            <lb ed="#V" n="67"/>dependentia accidentis ad subjectum hoc
+            <lb ed="#V" n="68"/>modo, nisi suppleatur influxus subjecti in
+            <lb ed="#V" n="69"/>ipsum.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Deinde idem patet ratione, quia
+            depen<lb ed="#V" n="71" break="no"/>dentia accidentis est per se; ergo
+            quid<lb ed="#V" n="72" break="no"/>quid repugnat ipsi, debet esse aequivalens
+            <lb ed="#V" n="73"/>quoad hoc, subjecto, alias non adveniret
+            <lb ed="#V" n="74"/>tanquam aliquid repugnans accidenti in
+            <lb ed="#V" n="75"/>subjecto, neque conservaret accidens
+            <lb ed="#V" n="76"/>seorsim a subjecto; modus ergo hujus
+            im<lb ed="#V" n="77" break="no"/>possibilitatis esset praecise ex eo quod
+            <lb ed="#V" n="78"/>repugnaret accidens dependere a duabus
+            <lb ed="#V" n="79"/>causis totalibus simul, unde altera tollit
+            <lb ed="#V" n="80"/>influxum alterius, et adaequat tanquam
+            <lb ed="#V" n="81"/>aequivalens; sed id etiam non contingit
+            <lb ed="#V" n="82"/>in proposito.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>Patet subsumptum, quae est
+            principa<lb ed="#V" n="84" break="no"/>lis minor, quia nihil supplet concursum
+            <lb ed="#V" n="85"/>ad accidens, nisi subjectum, vel causa
+            <lb ed="#V" n="86"/>includens totum genus subjecti in alio
+            <lb ed="#V" n="87"/>genere, ut causa prima; unde tota
+            na<lb ed="#V" n="88" break="no"/>tura non posset separare accidens in esse
+            <pb ed="#V" n="330"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>permanenti a subjecto, alias non esset
+            <lb ed="#V" n="2"/>miraculum. Ratio est praedicta, quia nulla
+            <lb ed="#V" n="3"/>causa in natura includit genus subjecti
+            <lb ed="#V" n="4"/>praeter solam primam, quantum ad posse
+            <lb ed="#V" n="5"/>supplere ejus causalitatem.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Sed corpus Christi, ut contentum sub
+            <lb ed="#V" n="7"/>speciebus, non habet rationem subjecti
+            <lb ed="#V" n="8"/>et repugnat, ut habeat etiam de potentia
+            <lb ed="#V" n="9"/>absoluta, eo modo quo nunc est
+            indivi<lb ed="#V" n="10" break="no"/>sibiliter, quia accidentia extensa nequeunt
+            <lb ed="#V" n="11"/>ut sic, convenire subjecto, nisi
+            propor<lb ed="#V" n="12" break="no"/>tionato. tale enim non est corpus Christi.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Sed neque corpus Christi habet
+            activi<lb ed="#V" n="14" break="no"/>tatem, aut actionem physicam, ut est
+            <lb ed="#V" n="15"/>sub Sacramento, quia sicut nequit
+            pro<lb ed="#V" n="16" break="no"/>pter modum essendi subjectum esse
+            re<lb ed="#V" n="17" break="no"/>spectu actionis agentis naturalis extensi,
+            <lb ed="#V" n="18"/>sic etiam neque habere actionem propriam
+            <lb ed="#V" n="19"/>quae supponit modum quantitativum.
+            <lb ed="#V" n="20"/>Neque corpus Christi continet genus
+            sub<lb ed="#V" n="21" break="no"/>jecti in seipso, sicut causa prima, aut
+            <lb ed="#V" n="22"/>supplere potest ejus influxum; ergo unio
+            <lb ed="#V" n="23"/>ad corpus Christi, ut contenti, non
+            re<lb ed="#V" n="24" break="no"/>pugnat inhaerentiae accidentium, ac
+            proin<lb ed="#V" n="25" break="no"/>de imaginaria est, neque salvat aliquid
+            <lb ed="#V" n="26"/>requisitum in hoc mysterio, et repugnat
+            <lb ed="#V" n="27"/>rationi naturali.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Dices cum adversariis, corpus Christi
+            <lb ed="#V" n="29"/>ut terminum per modum suppositi,
+            ter<lb ed="#V" n="30" break="no"/>minare dependentiam accidentium. Contra
+            <lb ed="#V" n="31"/>in primis accidentia non sunt nata
+            de<lb ed="#V" n="32" break="no"/>pendere a supposito extrinseco
+            imme<lb ed="#V" n="33" break="no"/>diate, nec nata sunt referri ad suppositum
+            <lb ed="#V" n="34"/>nisi qua inhaerent, quia accidentis esse
+            <lb ed="#V" n="35"/>est inesse, id est, inhaerere; non autem
+            <lb ed="#V" n="36"/>subsistere, qui est modus essendi
+            sub<lb ed="#V" n="37" break="no"/>stantiae; unde si separaretur forma
+            sub<lb ed="#V" n="38" break="no"/>stantialis panis, manerent accidentia
+            <lb ed="#V" n="39"/>uniformiter in forma, sicut nunc manent
+            <lb ed="#V" n="40"/>in quantitate, quamvis non esset
+            sup<lb ed="#V" n="41" break="no"/>positum ( et sic anima in esse separato
+            <lb ed="#V" n="42"/>intelligit, quamvis non sit suppositum),
+            <lb ed="#V" n="43"/>ex eo praecise, quia accidentia non dicunt
+            <lb ed="#V" n="44"/>dependentiam ad suppositum, qua tale,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>sed subjectum, qua tale, sed qua
+            sub<lb ed="#V" n="46" break="no"/>jectum, ideoque nequit aliquod accidens
+            <lb ed="#V" n="47"/>uniri immediate hypostatice personae
+            <lb ed="#V" n="48"/>divinae, quanto minus creatae?
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>Sed dato etiam opposito, sic
+            argu<lb ed="#V" n="50" break="no"/>mentor, nequeunt dependere a supposito
+            <lb ed="#V" n="51"/>nisi prius dependeant a subjecto, quia
+            <lb ed="#V" n="52"/>dependentia ad subjectum est immediata
+            <lb ed="#V" n="53"/>et demus dependere a supposito, haec
+            <lb ed="#V" n="54"/>dependentia est posterior inhaerentia, qua
+            <lb ed="#V" n="55"/>referuntur ad subjectum. Item corpus
+            <lb ed="#V" n="56"/>Christi nequit esse terminus essendi
+            <lb ed="#V" n="57"/>accidentium, nisi ut suppositum, vel ut
+            <lb ed="#V" n="58"/>subjectum; neutrum ipsi convenit, qua
+            <lb ed="#V" n="59"/>est contentum hic per modum
+            signifi<lb ed="#V" n="60" break="no"/>cati expressi, quamvis enim simul
+            in<lb ed="#V" n="61" break="no"/>sit suppositum divinum, tamen
+            acciden<lb ed="#V" n="62" break="no"/>tia non respiciunt illud, tanquam
+            signa<lb ed="#V" n="63" break="no"/>tum formale suum; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Deinde non evacuatur difficultas, quia
+            <lb ed="#V" n="65"/>accidentia corporea et extensa nequeunt
+            <lb ed="#V" n="66"/>dependere a supposito, nisi extenso,
+            sic<lb ed="#V" n="67" break="no"/>ut exigunt etiam supposito, sicut
+            exi<lb ed="#V" n="68" break="no"/>gunt etiam subjectum extensum, nihil
+            ho<lb ed="#V" n="69" break="no"/>rum est in proposito, ergo nulla
+            opposi<lb ed="#V" n="70" break="no"/>tio ex natura rei inter inhaerentiam et
+            <lb ed="#V" n="71"/>unionem illam praetensam.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Et confirmatur totum, quia non major
+            <lb ed="#V" n="73"/>est repugnantia ex natura rei inter illam
+            <lb ed="#V" n="74"/>unionem et inhaerentiam ad subjectum
+            <lb ed="#V" n="75"/>remotum, quam inhaerentiam ad
+            subje<lb ed="#V" n="76" break="no"/>ctum proximum, quod est quantitas. Sed
+            <lb ed="#V" n="77"/>reliquorum accidentium inhaerentia manet
+            <lb ed="#V" n="78"/>ad quantitatem, qua non obstante
+            uniun<lb ed="#V" n="79" break="no"/>tur corpori Christi; ergo inhaerentia illa
+            <lb ed="#V" n="80"/>ad subjectum remotum, nempe
+            substan<lb ed="#V" n="81" break="no"/>tiae, non tollitur per repugnantiam
+            natura<lb ed="#V" n="82" break="no"/>lem ejus ad unionem praefatam. Haec
+            <lb ed="#V" n="83"/>ratio specialiter urget eos, qui dicunt
+            <lb ed="#V" n="84"/>inhaerentiam ad quantitatem et
+            substanti<lb ed="#V" n="85" break="no"/>am seu subjectum remotum esse eamdem;
+            <lb ed="#V" n="86"/>de quo infra dicetur distinctione sequenti.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>Aliis etiam rationibus impugnant
+            <lb ed="#V" n="88"/>moderni sententiam illam oppositam,
+            <pb ed="#V" n="331"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quae ad fundamenta incerta
+            reducun<lb ed="#V" n="2" break="no"/>tur; haec nobis sufficiunt petita ex natura
+            <lb ed="#V" n="3"/>rei, et sufficit unicum illud, nempe
+            my<lb ed="#V" n="4" break="no"/>sterium reddi obscurum et difficile in
+            <lb ed="#V" n="5"/>ratione naturali sine fundamento, et dari
+            <lb ed="#V" n="6"/>haereticis occasionem cavillandi; neque
+            <lb ed="#V" n="7"/>fundamentum ullum esse ex revelatis, aut
+            <lb ed="#V" n="8"/>ratione naturali, unde debeat sic explicari
+            <lb ed="#V" n="9"/>transubstantiatio, quia modus ille videtur
+            <lb ed="#V" n="10"/>impossibilis.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>Tertia conclusio. Transubstantiatio non
+            <lb ed="#V" n="12"/>fit per novam conservationem corporis
+            <lb ed="#V" n="13"/>Christi, et substantialem. Haec est contra
+            <lb ed="#V" n="14"/>Gabrielem et Suarez. Probatur omnibus
+            <lb ed="#V" n="15"/>principiis, ex quibus apparet
+            contradi<lb ed="#V" n="16" break="no"/>ctio, quod idem effectus possit esse a
+            <lb ed="#V" n="17"/>duabus causis totalibus sic: Conservatio in
+            <lb ed="#V" n="18"/>re ipsa est continuata actio; sicut ergo
+            <lb ed="#V" n="19"/>i nequit dari duplex actio totalis respectu
+            <lb ed="#V" n="20"/>ejusdem effectus in esse, sic neque duplex
+            <lb ed="#V" n="21"/>conservatio. Sed corpus sive in se, sive in
+            <lb ed="#V" n="22"/>Sacramento non mutatur substantialiter;
+            <lb ed="#V" n="23"/>ergo neque ejus conservatio. Patet minor,
+            <lb ed="#V" n="24"/>quia in Sacramento non recipit aliquod esse
+            <lb ed="#V" n="25"/>substantiale aut existentiam, neque in
+            <lb ed="#V" n="26"/>toto, neque in parte, neque in modo, alias
+            <lb ed="#V" n="27"/>non esset idem corpus in coelo et in
+            Sa<lb ed="#V" n="28" break="no"/>cramento quoad substantialia, quod est
+            <lb ed="#V" n="29"/>falsum et contra veritatem mysterii, juxta
+            <lb ed="#V" n="30"/>illud hymni: se dat suis manibus.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Secundo, desinente corpore Christi
+            <lb ed="#V" n="32"/>simpliciter, ut in se est, desineret etiam
+            <lb ed="#V" n="33"/>in Sacramento; ergo esse absolutum ejus
+            <lb ed="#V" n="34"/>idem est, ac proinde eadem conservatio,
+            <lb ed="#V" n="35"/>eadem existentia. Haec ratio saepius
+            de<lb ed="#V" n="36" break="no"/>ducta est ex Philosophis; unde ubi
+            nul<lb ed="#V" n="37" break="no"/>lum est esse novum substantiale, non
+            <lb ed="#V" n="38"/>invenitur fundamentum, aut necessitas
+            <lb ed="#V" n="39"/>novae actionis substantialis aut
+            conserva<lb ed="#V" n="40" break="no"/>tionis. Dices, dari corpus Christi sub
+            <lb ed="#V" n="41"/>speciebus. Contra, esse et non esse
+            prae<lb ed="#V" n="42" break="no"/>dicantur de substantia et quolibet
+            abso<lb ed="#V" n="43" break="no"/>luto in ordine ad se, non in ordine ad
+            <lb ed="#V" n="44"/>aliud, quia esse abstrahit a loco, qui est
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>posterius, et a praesentia ad aliud; ergo
+            <lb ed="#V" n="46"/>etiam conservatio. Deinde esse praesens
+            <lb ed="#V" n="47"/>speciebus non est praedicatum
+            substanti<lb ed="#V" n="48" break="no"/>ale, sed accidentale; ergo non infert
+            con<lb ed="#V" n="49" break="no"/>servationem novam substantialem, alias
+            <lb ed="#V" n="50"/>mutato loco et praesentia, mutaretur esse
+            <lb ed="#V" n="51"/>et conservatio, quod est inauditum.
+            Dein<lb ed="#V" n="52" break="no"/>de effectus ille praesentiae non exigit
+            <lb ed="#V" n="53"/>actionem superioris generis, quia est
+            <lb ed="#V" n="54"/>mere accidens; ergo non substantialem
+            <lb ed="#V" n="55"/>novam, consequentia patet, quia actio
+            <lb ed="#V" n="56"/>specificatur a termino formali.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Tertio, corpus Christi penetrative
+            po<lb ed="#V" n="58" break="no"/>situm cum alio in eodem loco, ut quando
+            <lb ed="#V" n="59"/>exivit de utero Virginis clauso, de
+            se<lb ed="#V" n="60" break="no"/>pulcro, ingressus est ad discipulos clauso
+            <lb ed="#V" n="61"/>ostio, penetravit coelum, non exigebat
+            <lb ed="#V" n="62"/>conservationem novam substantialem,
+            <lb ed="#V" n="63"/>sicut neque corpora Beatorum
+            inquan<lb ed="#V" n="64" break="no"/>tum habent dotem penetrabilitatis; ergo
+            <lb ed="#V" n="65"/>neque positum sub speciebus in
+            Sacra<lb ed="#V" n="66" break="no"/>mento. Antecedens nemo negat,
+            conse<lb ed="#V" n="67" break="no"/>quentia probatur, quia quantum est ex
+            <lb ed="#V" n="68"/>ratione loci et locati, major est
+            repugnan<lb ed="#V" n="69" break="no"/>tia unum corpus penetrative poni cum alio
+            <lb ed="#V" n="70"/>in eodem loco quantitative, quam poni
+            in<lb ed="#V" n="71" break="no"/>divisibiliter corpus sub speciebus
+            quanti<lb ed="#V" n="72" break="no"/>tatis; ergo illud magis argueret actionem
+            <lb ed="#V" n="73"/>substantialem quam hoc.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Dices, corpus penetrative positum
+            po<lb ed="#V" n="75" break="no"/>nitur secundum modum naturalem
+            essen<lb ed="#V" n="76" break="no"/>di, ac proinde non requiri novam
+            conser<lb ed="#V" n="77" break="no"/>vationem; non ita in proposito. Contra,
+            <lb ed="#V" n="78"/>quantum ad priorem casum quoad praesen
+            <lb ed="#V" n="79"/>tiam modus essendi est magis, vel aeque
+            <lb ed="#V" n="80"/>supernaturalis ob repugnantiam
+            quantita<lb ed="#V" n="81" break="no"/>tis et extensionis hinc et inde. Quantum
+            <lb ed="#V" n="82"/>ad secundum non est alius essendi modus
+            <lb ed="#V" n="83"/>supernaturalis, nisi quod tollatur extensio
+            <lb ed="#V" n="84"/>quae non est variatio secundum esse, sed
+            <lb ed="#V" n="85"/>respective ad locum, seu secundum
+            prin<lb ed="#V" n="86" break="no"/>cipium essendi in loco, modo naturali
+            <lb ed="#V" n="87"/>quantitative; estque tantum variatio
+            se<lb ed="#V" n="88" break="no"/>cundum accidens, ergo non infert
+            mutati<pb ed="#V" n="332"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>onem substantialem, neque actionem,
+            ma<lb ed="#V" n="2" break="no"/>gis quam prior modus.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Quarto, forma verborum non habet
+            <lb ed="#V" n="4"/>causalitatem physicam respectu corporis
+            <lb ed="#V" n="5"/>Christi, neque etiam species, sed tantum
+            <lb ed="#V" n="6"/>moralem, ut suppono nunc ex tractatu
+            <lb ed="#V" n="7"/>de Sacramentis in genere in 1. dist. ergo
+            <lb ed="#V" n="8"/>haec conservatio non est vi verborum, ut
+            <lb ed="#V" n="9"/>dicit illa sententia; ergo neque ex alio
+            <lb ed="#V" n="10"/>principio. Probatur prima consequentia,
+            <lb ed="#V" n="11"/>quia illud ex vi verborum, vel denotat
+            <lb ed="#V" n="12"/>causam, a qua est conservatio physice; et
+            <lb ed="#V" n="13"/>hoc non, quia verba non sunt, quando
+            <lb ed="#V" n="14"/>Christus ponitur sub speciebus, et talis
+            <lb ed="#V" n="15"/>actio verbis repugnat, quia tantum causant
+            <lb ed="#V" n="16"/>ex instituto, quod non est principium, aut
+            <lb ed="#V" n="17"/>modus causandi physice, cum sit
+            denomi<lb ed="#V" n="18" break="no"/>natio adhaerens ex voluntate instituentis
+            <lb ed="#V" n="19"/>aut denominatio extrinseca, ut alii volunt
+            <lb ed="#V" n="20"/>aut intrinseca rationis.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Vel esse ex vi verborum, denotat hoc
+            <lb ed="#V" n="22"/>requiri ad veritatem formae, ut conservatio
+            <lb ed="#V" n="23"/>illa sit nova. Contra, ad veritatem formae
+            <lb ed="#V" n="24"/>non requiritur aliud, quam rem esse ut
+            <lb ed="#V" n="25"/>affirmat, hoc est, ut corpus, quod
+            enun<lb ed="#V" n="26" break="no"/>tiat esse praesens, sit praesens
+            sacramen<lb ed="#V" n="27" break="no"/>taliter. Sed hoc potest effici per
+            adducti<lb ed="#V" n="28" break="no"/>onem, et unionem ad species accidentalem,
+            <lb ed="#V" n="29"/>quae dicitur praesentia sine nova actione
+            <lb ed="#V" n="30"/>substantiali; ergo, etc. Patet
+            subsum<lb ed="#V" n="31" break="no"/>ptum, quia neque adductio, neque
+            praesen<lb ed="#V" n="32" break="no"/>tia ad quam est sunt substantiales per
+            <lb ed="#V" n="33"/>modum actionis aut termini, ergo non
+            ar<lb ed="#V" n="34" break="no"/>guunt actionem esse substantialem.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>Confirmatur, prius natura est corpus
+            <lb ed="#V" n="36"/>Christi sub speciebus, quam conservatur
+            <lb ed="#V" n="37"/>sub ipsis, sed hoc esse est ex vi et
+            cau<lb ed="#V" n="38" break="no"/>salitate seu efficacia verborum, quae
+            ne<lb ed="#V" n="39" break="no"/>quit esse physica; neque arguit actionem
+            <lb ed="#V" n="40"/>substantialem, aut productionem novam
+            <lb ed="#V" n="41"/>corporis Christi. Non creationem, quia
+            sup<lb ed="#V" n="42" break="no"/>ponit non esse simpliciter termini, non
+            <lb ed="#V" n="43"/>aliam ex subjecto praeexistente, quia haec
+            <lb ed="#V" n="44"/>repugnat, quia corpus includit primam
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>ergo productio illa seu potius positio
+            cor<lb ed="#V" n="46" break="no"/>poris sub speciebus ex vi verborum, non
+            <lb ed="#V" n="47"/>est substantialis productio ejus; sed
+            con<lb ed="#V" n="48" break="no"/>servatio non excedit priorem actionem
+            <lb ed="#V" n="49"/>productivam, quia nulla est ratio
+            exces<lb ed="#V" n="50" break="no"/>sus, imo destrueret mysterium, quia si
+            <lb ed="#V" n="51"/>essent alterius rationis, sequeretur corpus
+            <lb ed="#V" n="52"/>Christi permanenter habere aliud esse, et
+            <lb ed="#V" n="53"/>modum sub speciebus diversum ab eo,
+            <lb ed="#V" n="54"/>quem habet ex vi verborum, et
+            conse<lb ed="#V" n="55" break="no"/>quenter contra Florentinum, quod verba
+            <lb ed="#V" n="56"/>hoc est, etc. non essent effectiva
+            praesen<lb ed="#V" n="57" break="no"/>tiae sacramentalis; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Praeter haec adduci possunt superius
+            <lb ed="#V" n="59"/>exposita, quod neque hic modus habeat
+            <lb ed="#V" n="60"/>fundamentum ex auctoritate aut ratione,
+            <lb ed="#V" n="61"/>et reddit mysterium magis difficile et
+            ob<lb ed="#V" n="62" break="no"/>scurum; ergo non admittendus est.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Omnes praedictae sententiae fundantur in
+            <lb ed="#V" n="64"/>eo, quod putent transubstantiationem
+            ali<lb ed="#V" n="65" break="no"/>ter non posse defendi aut explicari, et
+            <lb ed="#V" n="66"/>quod illi modi non involvant
+            contradicti<lb ed="#V" n="67" break="no"/>onem. Ad hoc ex argumentis factis
+            re<lb ed="#V" n="68" break="no"/>sponsionem habent; ex sequenti patebit
+            <lb ed="#V" n="69"/>oppositum illius, nempe
+            transubstantiati<lb ed="#V" n="70" break="no"/>onem salvari vere sine illis inventis;
+            quo<lb ed="#V" n="71" break="no"/>rum impugnatio legi potest apud Vasquez
+            <lb ed="#V" n="72"/>disput. 181.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Conclusio ergo Doctoris patet ex
+            impu<lb ed="#V" n="74" break="no"/>gnatione praemissarum opinionum, quae
+            <lb ed="#V" n="75"/>contendunt transubstantiationem esse
+            for<lb ed="#V" n="76" break="no"/>maliter actionem et mutationem. De
+            sen<lb ed="#V" n="77" break="no"/>tentia autem propria non est locus
+            ambi<lb ed="#V" n="78" break="no"/>gendi, aut eam declarandi aliter quam
+            <lb ed="#V" n="79"/>sonant verba; dicit enim
+            transubstantiati<lb ed="#V" n="80" break="no"/>onem esse conversionem totius substantiae
+            <lb ed="#V" n="81"/>in substantiam, et nihil aliud includere
+            <lb ed="#V" n="82"/>quam duos terminos cum ordine
+            successi<lb ed="#V" n="83" break="no"/>onis; ita declarat art. 1. rationem
+            no<lb ed="#V" n="84" break="no"/>minis, ita art. 2. probat rei substratae
+            pos<lb ed="#V" n="85" break="no"/>sibilitatem, et art. 3. ex praedictis negat
+            <lb ed="#V" n="86"/>esse mutationem. In conclusione autem
+            <lb ed="#V" n="87"/>posita idem ipsum declarat, nihil
+            admit<lb ed="#V" n="88" break="no"/>tens in transubstantiatione, nisi subjectum
+            <pb ed="#V" n="333"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>conversum et terminum in quem
+            conver<lb ed="#V" n="2" break="no"/>titur, et ordinem successionis unius ad
+            <lb ed="#V" n="3"/>aliud in esse hic.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Et infra quoest. 4. idem docet ostendens
+            <lb ed="#V" n="5"/>panem non annihilari, sed converti in
+            <lb ed="#V" n="6"/>corpus Christi ut hic, desinente pane ut
+            <lb ed="#V" n="7"/>hic, et non acquirente esse alibi. Dicit
+            au<lb ed="#V" n="8" break="no"/>tem converti panem in corpus Christi ut
+            <lb ed="#V" n="9"/>hic, quo denotat hanc conversionem, quae
+            <lb ed="#V" n="10"/>est de facto, habere actionem
+            addu<lb ed="#V" n="11" break="no"/>ctivam concomitantem, in quo distinguitur
+            <lb ed="#V" n="12"/>ab aliis conversionibus substantialibus,
+            <lb ed="#V" n="13"/>quae fiunt per productionem termini.
+            <lb ed="#V" n="14"/>Quamvis autem requiratur illa praesentia
+            <lb ed="#V" n="15"/>per adductionem, non est terminus
+            forma<lb ed="#V" n="16" break="no"/>lis conversionis, sed ipsum corpus, quia
+            <lb ed="#V" n="17"/>juxta superius determinata posset dari
+            <lb ed="#V" n="18"/>praesentia illa corporis ad accidentia, et
+            <lb ed="#V" n="19"/>substantiam panis, manente ipsa
+            sub<lb ed="#V" n="20" break="no"/>stantia panis, quo casu nulla fieret
+            con<lb ed="#V" n="21" break="no"/>versio.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Sicut autem conclusio haec sic
+            explica<lb ed="#V" n="23" break="no"/>ta est antiquorum Theologorum, ita et
+            <lb ed="#V" n="24"/>veritatem mysterii, et proprietatem
+            <lb ed="#V" n="25"/>loquendi, quam servant Patres et
+            Conci<lb ed="#V" n="26" break="no"/>lia, explicando naturam hujus
+            conversi<lb ed="#V" n="27" break="no"/>onis, retinet; neque aliquid, quod rationi
+            <lb ed="#V" n="28"/>naturali repugnat, inducit, nec obscurat
+            <lb ed="#V" n="29"/>fidem, neque locum dat cavillationibus
+            <lb ed="#V" n="30"/>haereticorum. Sive enim per verbum
+            tran<lb ed="#V" n="31" break="no"/>substantiationis, quo utuntur
+            Lateranen<lb ed="#V" n="32" break="no"/>se et Tridentinum, mysterium declaratur,
+            <lb ed="#V" n="33"/>recte declaratur per conversionem panis
+            <lb ed="#V" n="34"/>in corpus Christi cum ordine successionis
+            <lb ed="#V" n="35"/>termino ad quem ad terminum a quo,
+            <lb ed="#V" n="36"/>et nihil aliud exigitur.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Probatur ergo conclusio ex verbis
+            Tri<lb ed="#V" n="38" break="no"/>dentini: Hoec Synodus declarat per
+            con<lb ed="#V" n="39" break="no"/>secrationem panis et vini, conversionem
+            <lb ed="#V" n="40"/>fieri totius substantiae panis in
+            substan<lb ed="#V" n="41" break="no"/>tiam corporis Christi, etc. quae conversio
+            <lb ed="#V" n="42"/>convenienter et proprie a Sancta
+            Catho<lb ed="#V" n="43" break="no"/>lica Ecclesia transubstantiatio est
+            appel<cb ed="#V" n="b"/><lb ed="#V" n="44" break="no"/>lata, etc. Quibus verbis comparatur
+            sub<lb ed="#V" n="45" break="no"/>stantia panis ad substantiam corporis
+            <lb ed="#V" n="46"/>Christi, tanquam duo extrema, inter quae
+            <lb ed="#V" n="47"/>secundum substantiam intervenit
+            conver<lb ed="#V" n="48" break="no"/>sio, ut una sit consequenter inter illos
+            ter<lb ed="#V" n="49" break="no"/>minos, tanquam a quo et ad quem
+            secun<lb ed="#V" n="50" break="no"/>dum substantiam; ergo omnis actio seu
+            <lb ed="#V" n="51"/>mutatio, quae est ad panem, non qua
+            con<lb ed="#V" n="52" break="no"/>vertitur secundum substantiam in corpus
+            <lb ed="#V" n="53"/>Christi, non spectat ad intrinsecam
+            rati<lb ed="#V" n="54" break="no"/>onem conversionis; et similiter omnis
+            ac<lb ed="#V" n="55" break="no"/>tio et mutatio, quae est ad corpus Christi,
+            <lb ed="#V" n="56"/>non praecise qua est terminus ad quem
+            <lb ed="#V" n="57"/>conversionis, non est de ratione, aut de
+            <lb ed="#V" n="58"/>conceptu conversionis, quae est praecise
+            <lb ed="#V" n="59"/>inter utrumque terminum respective ad
+            <lb ed="#V" n="60"/>invicem et secundum substantiam.
+            Prae<lb ed="#V" n="61" break="no"/>ter autem terminos, nihil dicit conversio,
+            <lb ed="#V" n="62"/>nisi ordinem inter ipsos terminos, quo
+            <lb ed="#V" n="63"/>unus transit in alium; hic autem ordo
+            <lb ed="#V" n="64"/>recte explicatur per ordinem
+            succes<lb ed="#V" n="65" break="no"/>sionis activae unius ad alterum, ergo
+            <lb ed="#V" n="66"/>nihil aliud significat transubstantiatio,
+            <lb ed="#V" n="67"/>nullumque praeterea respectum, aut
+            mo<lb ed="#V" n="68" break="no"/>dum aut mutationem includit intrinsece.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Neque aliter declarant Patres hoc
+            <lb ed="#V" n="70"/>mysterium, sive utantur verbo
+            transmu<lb ed="#V" n="71" break="no"/>tandi, ut Cyrillus Jerosolymitanus
+            Cate<lb ed="#V" n="72" break="no"/>ches. 4. Gregorius Nyssenus in orat.
+            <lb ed="#V" n="73"/>Cateches, cap. 37. et alii; sive verbo
+            <lb ed="#V" n="74"/>convertendi, ut Cyrillus Alexandrinus
+            epi<lb ed="#V" n="75" break="no"/>stola ad Colossyrium, et alii; sive verbo
+            <lb ed="#V" n="76"/>vertendi, ut Damascenus lib. 4. cap. 14.
+            <lb ed="#V" n="77"/>sive faciendi, ut Tertullianus lib. 4.
+            con<lb ed="#V" n="78" break="no"/>tra Marcionem, cap 40. Auctor serm. de
+            <lb ed="#V" n="79"/>Coena Domini apud Cyprianum et
+            Li<lb ed="#V" n="80" break="no"/>turgiae antiquae cum canone Latinae
+            Eccle<lb ed="#V" n="81" break="no"/>siae; sive consecrandi, ut Ambrosius
+            <lb ed="#V" n="82"/>lib. 4. de Sacram. cap 4. quibus verbis
+            <lb ed="#V" n="83"/>consuescunt ubi Patres in hoc mysterio,
+            <lb ed="#V" n="84"/>ut denotant conversionem.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Sive autem hoc vel illo utantur, nihil
+            <lb ed="#V" n="86"/>aliud insinuant quam panem transmutari,
+            <lb ed="#V" n="87"/>converti, etc. in corpus Christi; et ipsam
+            <pb ed="#V" n="334"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>factionem, versionem, conversionem,
+            <lb ed="#V" n="2"/>transmutationem, consecrationem, etc.
+            ex<lb ed="#V" n="3" break="no"/>presse denotant esse inter hos terminos
+            <lb ed="#V" n="4"/>panem et corpus quoad substantiam
+            <lb ed="#V" n="5"/>utriusque, et consequenter nullum alium
+            <lb ed="#V" n="6"/>modum aut mutationem, quae non est
+            in<lb ed="#V" n="7" break="no"/>ter hos terminos formaliter secundum
+            es<lb ed="#V" n="8" break="no"/>se substantiale utriusque respective ad
+            <lb ed="#V" n="9"/>successionem jam declaratam, exprimere
+            <lb ed="#V" n="10"/>vere, proprie, et in rigore naturam
+            con<lb ed="#V" n="11" break="no"/>versionis, ut traditur a Patribus.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Hinc respondetur in primis ad
+            auctori<lb ed="#V" n="13" break="no"/>tates Patrum, quos pro se adducit Suarez,
+            <lb ed="#V" n="14"/>qui propositam conclusionem declarant,
+            <lb ed="#V" n="15"/>nam quod mutatio panis et conversio fiat
+            <lb ed="#V" n="16"/>in corpus Christi, non denotat
+            producti<lb ed="#V" n="17" break="no"/>onem, aut mutationem ullam
+            substantia<lb ed="#V" n="18" break="no"/>lem in termino ad quem; aut in ea
+            <lb ed="#V" n="19"/>versari ipsam conversionem, sed omnino
+            <lb ed="#V" n="20"/>oppositum colligitur. Si enim dicerent
+            <lb ed="#V" n="21"/>mutari corpus secundum substantiam
+            <lb ed="#V" n="22"/>aliquid faveret, sed e contra, cum dicant
+            <lb ed="#V" n="23"/>mutari panem et vinum substantialiter
+            <lb ed="#V" n="24"/>in ipsum corpus et sanguinem
+            Chri<lb ed="#V" n="25" break="no"/>sti, et hoc affirmant de pane et vino,
+            <lb ed="#V" n="26"/>non autem de corpore, sequitur ex
+            <lb ed="#V" n="27"/>mente ipsorum non mutari corpus
+            sub<lb ed="#V" n="28" break="no"/>stantialiter. Vide Vasquez, qui minute
+            <lb ed="#V" n="29"/>ad singula respondet cap. 13. Fabrum,
+            <lb ed="#V" n="30"/>et Aretinum hic.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Objicit secundo, quod per solam
+            acti<lb ed="#V" n="32" break="no"/>onem adductivam non recte explicatur,
+            <lb ed="#V" n="33"/>quia per illam non fit transubstantiatio,
+            <lb ed="#V" n="34"/>sed translocatio. Respondetur concedendo
+            <lb ed="#V" n="35"/>antecedens, et negando consequentiam,
+            <lb ed="#V" n="36"/>quae infertur, nempe fieri per actionem
+            <lb ed="#V" n="37"/>substantialem.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Tertio objicit, actio conservans corpus
+            <lb ed="#V" n="39"/>Christi, ut in caelo, non est sufficiens ad
+            <lb ed="#V" n="40"/>conservandum illum in Sacramento, ergo
+            <lb ed="#V" n="41"/>requiritur nova actio substantialis; patet
+            <lb ed="#V" n="42"/>antecedens, quia existit modo
+            superna<lb ed="#V" n="43" break="no"/>turali; unaquaeque autem res, ut
+            conser<lb ed="#V" n="44" break="no"/>vetur sine modo naturali, majorem
+            influ<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>xum requirit, ut est accidentis
+            conserva<lb ed="#V" n="46" break="no"/>tio extra subjectum. Deinde ut Deus
+            <lb ed="#V" n="47"/>conservet materiam sine forma, aut
+            sub<lb ed="#V" n="48" break="no"/>stantiam materialem sine quantitate, et
+            <lb ed="#V" n="49"/>aliis accidentibus, necesse est ut mutet
+            <lb ed="#V" n="50"/>actionem conservativam.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>Respondetur corpus Christi considerari
+            <lb ed="#V" n="52"/>dupliciter: primo, secundum esse
+            sub<lb ed="#V" n="53" break="no"/>stantiale; secundo, secundum esse in loco
+            <lb ed="#V" n="54"/>et modum essendi, quae sunt accidentalia.
+            <lb ed="#V" n="55"/>Primo modo est eadem actio quoad
+            sub<lb ed="#V" n="56" break="no"/>stantiam, seu esse substantiale, quod non
+            <lb ed="#V" n="57"/>variatur in Sacramento, aut extra
+            Sacra<lb ed="#V" n="58" break="no"/>mentum; quoad esse locale non est eadem
+            <lb ed="#V" n="59"/>actio, sed requiritur adductio, vel
+            quae<lb ed="#V" n="60" break="no"/>cumque illa actio sit, aut appellatur, per a
+            <lb ed="#V" n="61"/>quam habetur praesentia Christi sub
+            spe<lb ed="#V" n="62" break="no"/>ciebus, quam nos vocamus adductionem,
+            <lb ed="#V" n="63"/>quia per eam tantum recipitur esse in loco
+            <lb ed="#V" n="64"/>definitive modo sacramentali.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Exemplum hujus est, quia alia actione
+            <lb ed="#V" n="66"/>anima recipit esse substantiale, alia
+            reci<lb ed="#V" n="67" break="no"/>pit esse in corpore, nempe mediante
+            <lb ed="#V" n="68"/>unione; illa nu nquam variatur sive
+            ani<lb ed="#V" n="69" break="no"/>ma sit in corpore, sive extra; corpus
+            <lb ed="#V" n="70"/>haec autem sic. Ratio est, quia variato
+            <lb ed="#V" n="71"/>accidente non variatur substantia, neque
+            <lb ed="#V" n="72"/>consequenter actio ad ipsam.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Ex quo patet ad argumentum, negando
+            <lb ed="#V" n="74"/>antecedens, loquendo de actione
+            substan<lb ed="#V" n="75" break="no"/>tiali, imo oppositum absurdum est, sicut
+            <lb ed="#V" n="76"/>absurdum esset dicere, quod mutato loco
+            <lb ed="#V" n="77"/>naturali mutaretur substantia, aut actio
+            <lb ed="#V" n="78"/>conservativa ejus. Si intelligatur de
+            acti<lb ed="#V" n="79" break="no"/>one non simpliciter conservativa, sed
+            <lb ed="#V" n="80"/>tantum in tali loco determinato, verum
+            <lb ed="#V" n="81"/>est; sicut locus est alius et alius, ita
+            re<lb ed="#V" n="82" break="no"/>quirere aliam et aliam actionem, tam
+            <lb ed="#V" n="83"/>productivam quam conservativam.
+            Nega<lb ed="#V" n="84" break="no"/>tur autem consequentia, quia est fallacia
+            <lb ed="#V" n="85"/>a secundum quid ad simpliciter in hac
+            <lb ed="#V" n="86"/>forma, quia non est eadem actio, qua
+            <lb ed="#V" n="87"/>conservatur in hoc loco et in illo; ergo
+            <lb ed="#V" n="88"/>alia et alia substantialis. Negatur
+            conse<pb ed="#V" n="335"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>quentia, quia ex mutatione et
+            multipli<lb ed="#V" n="2" break="no"/>catione posterioris, non licet mutare, aut
+            <lb ed="#V" n="3"/>multiplicare prius, neque ex varietate
+            <lb ed="#V" n="4"/>actionis secundum esse accidentale et
+            <lb ed="#V" n="5"/>secundum quid, licet inferre actionem
+            <lb ed="#V" n="6"/>simpliciter, aut substantialem ad esse
+            <lb ed="#V" n="7"/>rei.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Ad probationem antecedentis
+            responde<lb ed="#V" n="9" break="no"/>tur existere modo praeternaturali quoad esse
+            <lb ed="#V" n="10"/>secundum quid et accidentale, non autem
+            <lb ed="#V" n="11"/>quoad esse simpliciter et substantiale;
+            <lb ed="#V" n="12"/>unde sicut quoad hoc esse non variatur,
+            <lb ed="#V" n="13"/>sic etiam neque influxus in idem esse
+            <lb ed="#V" n="14"/>mutatur, licet mutetur secundum accidens
+            <lb ed="#V" n="15"/>utrumque, nempe esse in loco, et influxus
+            <lb ed="#V" n="16"/>secundum esse in loco. Ad exempla et
+            ra<lb ed="#V" n="17" break="no"/>tionem transeat pro nunc, de qua infra,
+            <lb ed="#V" n="18"/>et negatur paritas, quia nempe subjectum
+            <lb ed="#V" n="19"/>se habet ut prius, et tanquam per se
+            cau<lb ed="#V" n="20" break="no"/>sa accidentis; ergo si eo subtracto
+            vari<lb ed="#V" n="21" break="no"/>etur actio, qua suppleatur ejus influxus
+            <lb ed="#V" n="22"/>in accidens dependens, non sequitur in
+            <lb ed="#V" n="23"/>proposito idem, quia esse substantiale est
+            <lb ed="#V" n="24"/>prius ad esse in loco et causa, et
+            subje<lb ed="#V" n="25" break="no"/>ctum ejus; neque dependet a loco, ac
+            <lb ed="#V" n="26"/>proinde non variatur in se substantialiter,
+            <lb ed="#V" n="27"/>quamvis locus aut modus essendi in ipso
+            <lb ed="#V" n="28"/>varietur. Alia exempla sunt etiam falsa,
+            <lb ed="#V" n="29"/>quia neque materia recipit suum esse
+            sub<lb ed="#V" n="30" break="no"/>stantiale a forma, sed a causa prima per
+            <lb ed="#V" n="31"/>creationem; neque substantia similiter
+            <lb ed="#V" n="32"/>dependet a quantitate, nisi secundum
+            <lb ed="#V" n="33"/>quid, nempe in ordine ad actionem et
+            <lb ed="#V" n="34"/>passionem tanquam dispositione requisita
+            <lb ed="#V" n="35"/>et in ordine ad locum. Alia etiam
+            acci<lb ed="#V" n="36" break="no"/>dentia naturalia non influunt in esse
+            sub<lb ed="#V" n="37" break="no"/>jecti, nisi ut sunt principia agendi et
+            re<lb ed="#V" n="38" break="no"/>sistendi in ordine ad extrinsecum
+            corru<lb ed="#V" n="39" break="no"/>ptivum.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

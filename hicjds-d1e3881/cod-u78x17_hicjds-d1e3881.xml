@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 10, Pars 3, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 10, Pars 3, Quaestio 1</title>
+          <date when="2026-11-20">Nov 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x17">Vives, Paris, 1894, volume 17</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="276"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3881"><!-- hicjds-b4d10p3q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum Christus in eucharistia exsistens possit per aliquam virtutem naturalem transmutare aliquid aliud a se</head>
+        <!-- <div alias="hiq-d10q7-p1"> -->
+          <p>
+            <lb ed="#V" n="9" type="fixed=276"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>(a) Ad primum arguitur quod sic, etc.
+            <lb ed="#V" n="11"/>Hic incipit tertium articulum hujus
+            distin<lb ed="#V" n="12" break="no"/>tionis, in quo agit tribus his quaestionibus
+            <lb ed="#V" n="13"/>de actione, quae Christo convenit in
+            Eu<lb ed="#V" n="14" break="no"/>charistia.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d10q7-p2"> -->
+          <p>
+            <lb ed="#V" n="53" type="fixed=279"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>(a) Respondeo, sicut homo compositus,
+            <lb ed="#V" n="55"/>etc. Potentias hominis reducit ad tria
+            ge<lb ed="#V" n="56" break="no"/>nera; primum est mere spiritualium, ut
+            <lb ed="#V" n="57"/>est voluntas et intellectus, quae dicuntur
+            <lb ed="#V" n="58"/>potentiae rationabiles, et conveniunt
+            pri<lb ed="#V" n="59" break="no"/>mo; secundum genus est potentiarum,
+            <lb ed="#V" n="60"/>quae sequuntur naturam corporis
+            viven<lb ed="#V" n="61" break="no"/>tis, ut potentiae animae vegetativae, ut
+            <lb ed="#V" n="62"/>sunt nutritiva, augmentativa, expulsiva;
+            <lb ed="#V" n="63"/>tertium genus, quod sequitur ad corpus
+            <lb ed="#V" n="64"/>animatum, anima sensitiva, ut sunt
+            sen<lb ed="#V" n="65" break="no"/>sus externi et interni.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>(b) Et sit prima conclusio, quod Christus
+            <lb ed="#V" n="67"/>in Eucharistia, etc. Negat usum potentiae
+            <lb ed="#V" n="68"/>corporeae a Christo in Eucharistia, et
+            ac<lb ed="#V" n="69" break="no"/>tionem, quae ipsi in eo statu primum
+            <lb ed="#V" n="70"/>conveniat. Eadem conclusio perinde vera
+            <lb ed="#V" n="71"/>est de passione mediante potentia
+            re<lb ed="#V" n="72" break="no"/>ceptiva, ut probavit Doctor in
+            praeceden<lb ed="#V" n="73" break="no"/>tibus quaestionibus, et potissimum
+            quaesti<lb ed="#V" n="74" break="no"/>one sexta. Eamdem tamen addo hic ex
+            <lb ed="#V" n="75"/>occasione contrariae sententiae, qua
+            re<lb ed="#V" n="76" break="no"/>spondeatur aliquibus ejus fundamentis;
+            <lb ed="#V" n="77"/>illa est sententia Nominalium, et
+            affir<lb ed="#V" n="78" break="no"/>mativa, Occham in 4. quaest. 4. Aliacus
+            <lb ed="#V" n="79"/>quaest. 5. art. 2. Major in hac dist. quaest.
+            <lb ed="#V" n="80"/>5. Gabriel lect. 45. in canonem.
+            <lb ed="#V" n="81"/>Conclusionem praemissam tenent
+            com<lb ed="#V" n="82" break="no"/>muniter Theologi citati a Scholiaste.
+            Pro<lb ed="#V" n="83" break="no"/>batur primo ratione philosophica, quia
+            <lb ed="#V" n="84"/>quantitas extensa est conditio agendi et
+            <lb ed="#V" n="85"/>patiendi in substantia corporea, ut
+            expe<lb ed="#V" n="86" break="no"/>rientia docet. Alii probant, quia agentia
+            <pb ed="#V" n="280"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>naturalia agunt per contactum, qui
+            ne<lb ed="#V" n="2" break="no"/>«quit esse sine quantitate. Sed haec ratio
+            <lb ed="#V" n="3"/>non valet, quia dari potest actio indistans
+            <lb ed="#V" n="4"/>per solum contactum virtutis, non autem
+            <lb ed="#V" n="5"/>quantitativum, seu mathematicum.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Secundo haec dependentia actionis et
+            <lb ed="#V" n="7"/>passionis in substantia corporea ab
+            ex<lb ed="#V" n="8" break="no"/>tensione probatur in materia rara et
+            <lb ed="#V" n="9"/>a densa; aliter enim ferrum candens
+            ca<lb ed="#V" n="10" break="no"/>lefacit, aliter stupa, in quibus est
+            dif<lb ed="#V" n="11" break="no"/>ferentia tantum secundum quantitatem,
+            <lb ed="#V" n="12"/>quia idem est principium agendi, idem
+            <lb ed="#V" n="13"/>passum utrique applicatum, eadem
+            ap<lb ed="#V" n="14" break="no"/>plicatio, solum differunt secundum
+            quan<lb ed="#V" n="15" break="no"/>titatem. Patet idem in actione sensibili,
+            <lb ed="#V" n="16"/>.in sensum quodlibet minimum non agit
+            <lb ed="#V" n="17"/>quamvis habeat, et easdem qualitates
+            <lb ed="#V" n="18"/>sensibiles, quas habet magnum, et
+            so<lb ed="#V" n="19" break="no"/>lum differt secundum extensionem.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Tertio, quia quantitas est subjectum quo
+            <lb ed="#V" n="21"/>formarum, saltem accidentalium; ergo
+            <lb ed="#V" n="22"/>ab ipsa dependent in fieri, sicut in facto
+            <lb ed="#V" n="23"/>esse.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Quarto, quidquid recipitur in aliquo,
+            <lb ed="#V" n="25"/>per modum recipientis recipitur; ergo
+            <lb ed="#V" n="26"/>divisibiliter, si est divisibile, et
+            conse<lb ed="#V" n="27" break="no"/>quenter passio et actio, ut sumuntur pro
+            <lb ed="#V" n="28"/>re acta, dependent a quantitate. Deinde
+            <lb ed="#V" n="29"/>forma corporis quaecumque, praeter
+            ani<lb ed="#V" n="30" break="no"/>mam rationalem, non est tota in toto, et
+            <lb ed="#V" n="31"/>tota in qualibet parte, sed divisibilis
+            se<lb ed="#V" n="32" break="no"/>cundum partem in parte; sed actio
+            se<lb ed="#V" n="33" break="no"/>quitur modum essendi formae, ergo agit
+            <lb ed="#V" n="34"/>actione divisibili, ergo in aliquid
+            divisi<lb ed="#V" n="35" break="no"/>bile, et consequenter ab extensione. Ex
+            <lb ed="#V" n="36"/>quibus sequitur corpus secundum
+            mo<lb ed="#V" n="37" break="no"/>dum existendi sacramentalem non
+            ha<lb ed="#V" n="38" break="no"/>bere actionem transeuntem in aliud,
+            ne<lb ed="#V" n="39" break="no"/>que posse pati ab alio divisibili.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Objicies, agens nihil aliud postulat
+            <lb ed="#V" n="41"/>praeter principium agendi, et
+            applicati<lb ed="#V" n="42" break="no"/>onem ejus secundum indistantiam, quae
+            <lb ed="#V" n="43"/>conveniunt corpori etiam indivisibiliter
+            <lb ed="#V" n="44"/>existenti; ergo, etc. Respondetur
+            negan<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>do antecedens ex dictis, quia modus
+            <lb ed="#V" n="46"/>agendi corporis supponit modum essendi
+            <lb ed="#V" n="47"/>connaturalem ejus; unde male Suarez
+            <lb ed="#V" n="48"/>admittit posse fieri actionem transeuntem
+            <lb ed="#V" n="49"/>a corpore indivisibiliter existente,
+            quam<lb ed="#V" n="50" break="no"/>vis nequeat pati, neque disparitas
+            assi<lb ed="#V" n="51" break="no"/>gnata ab ipso subsistit, quia, inquit,
+            <lb ed="#V" n="52"/>quidquid recipitur per modum
+            recipien<lb ed="#V" n="53" break="no"/>tis recipitur, ideoque nequit forma
+            ex<lb ed="#V" n="54" break="no"/>tensa, aut actio ab extenso recipi in id,
+            <lb ed="#V" n="55"/>quod indivisibile est. E contra, cum actio
+            <lb ed="#V" n="56"/>transiens recipiatur non in agente, sed
+            <lb ed="#V" n="57"/>in passo, nihil repugnat, quin possit esse
+            <lb ed="#V" n="58"/>ab agente indivisibiliter existente; ergo
+            <lb ed="#V" n="59"/>a corpore, cum habeat virtutem activam,
+            <lb ed="#V" n="60"/>et sufficiat contactus virtutis.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Retorqueo eamdem rationem, quia
+            sic<lb ed="#V" n="62" break="no"/>ut se habet corpus ad actionem, ita et
+            <lb ed="#V" n="63"/>ad passionem, quia potentia non activa
+            <lb ed="#V" n="64"/>quam passiva in ipso manet indivisibiliter
+            <lb ed="#V" n="65"/>existenti, ac etiam formae, quae
+            sequun<lb ed="#V" n="66" break="no"/>tur, ut proprietates absolutae, et
+            praesen<lb ed="#V" n="67" break="no"/>tia, et reliqua quae insunt in ordine ad
+            <lb ed="#V" n="68"/>locum indivisibilem; ergo quantum est
+            <lb ed="#V" n="69"/>ex parte ejus, eadem est ratio; ergo si
+            <lb ed="#V" n="70"/>potest agere actione transeunte in aliud
+            <lb ed="#V" n="71"/>extensum, ita et pati ab ipso, quia
+            quid<lb ed="#V" n="72" break="no"/>quid recipitur in aliquo, per modum
+            <lb ed="#V" n="73"/>recipientis recipitur, quia actio sequitur
+            <lb ed="#V" n="74"/>naturam passi, et modum ejus existendi;
+            <lb ed="#V" n="75"/>ergo passio et actio, quae fierent in
+            <lb ed="#V" n="76"/>corpus indivisibiliter existens, essent
+            in<lb ed="#V" n="77" break="no"/>divisibiles, et sic non repugnarent. Sicut
+            <lb ed="#V" n="78"/>neque passionem et actionem esse ab
+            <lb ed="#V" n="79"/>ipso in aliud divisibile, quia sequerentur
+            <lb ed="#V" n="80"/>modum essendi subjecti non agentis.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Utrumque ergo asserendum est, vel
+            <lb ed="#V" n="82"/>negandum; communis negat ex
+            rationi<lb ed="#V" n="83" break="no"/>bus supra allatis, quia sicut in esse
+            de<lb ed="#V" n="84" break="no"/>pendet corpus a quantitate, ita etiam in
+            <lb ed="#V" n="85"/>agere magis quam in pati, quia divina
+            <lb ed="#V" n="86"/>virtute potest, et Angelica posset
+            exer<lb ed="#V" n="87" break="no"/>ceri actio circa corpus indivisibiliter
+            exi<lb ed="#V" n="88" break="no"/>stens; ergo de facto nequit pati ab agente
+            <pb ed="#V" n="281"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>corporeo, quia ab hoc nequit esse actio
+            <lb ed="#V" n="2"/>nisi in illud quod est extensum, loquendo
+            <lb ed="#V" n="3"/>de reali actione, ideoque requiritur a
+            <lb ed="#V" n="4"/>Philosopho, et astruitur intellectus agens
+            <lb ed="#V" n="5"/>propter hanc improportionem phantasiae,
+            <lb ed="#V" n="6"/>quae est materialis ad intellectum, ut
+            <lb ed="#V" n="7"/>passum. Eadem ratione negant Theologi
+            <lb ed="#V" n="8"/>ignem inferni agere in spiritum physice,
+            <lb ed="#V" n="9"/>quamvis non repugnat materiale agere
+            <lb ed="#V" n="10"/>in immateriale partialiter; repugnat
+            ta<lb ed="#V" n="11" break="no"/>men ut causam totalem sic agere.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Objicies tamen secundo, quod
+            indivi<lb ed="#V" n="13" break="no"/>sibile possit moveri localiter, quia
+            quod<lb ed="#V" n="14" break="no"/>libet indivisibile sphaerae potest
+            descri<lb ed="#V" n="15" break="no"/>bere planum; ergo neque repugnat
+            cor<lb ed="#V" n="16" break="no"/>pus etiam indivisibiliter existens agere
+            <lb ed="#V" n="17"/>et pati. Antecedens est Doctoris in 2.
+            <lb ed="#V" n="18"/>dist. 2. quaest. 6. S Ad tertium
+            argumen<lb ed="#V" n="19" break="no"/>tum principale. Respondetur indivisibile
+            <lb ed="#V" n="20"/>in continuo moveri posse per accidens,
+            <lb ed="#V" n="21"/>et secundario ab agente etiam corporeo,
+            <lb ed="#V" n="22"/>quod primo potest movere totum, non
+            <lb ed="#V" n="23"/>tamen primo movetur indivisibile; unde,
+            <lb ed="#V" n="24"/>ut supra praemisi, non est repugnantia ex
+            <lb ed="#V" n="25"/>parte ipsius indivisibilis simpliciter, quin
+            <lb ed="#V" n="26"/>recipere possit formam a Deo, aut
+            An<lb ed="#V" n="27" break="no"/>gelo, aut etiam ab agente corporeo, sed
+            <lb ed="#V" n="28"/>repugnantia est ex parte agentis, quia
+            <lb ed="#V" n="29"/>nequit producere actionem, nisi
+            suppo<lb ed="#V" n="30" break="no"/>sita extensione sui, quia proxime non
+            <lb ed="#V" n="31"/>applicatur virtus ejus creativa, nisi ut
+            <lb ed="#V" n="32"/>extensiva est.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Nam sicut nequit agere agens
+            corpo<lb ed="#V" n="34" break="no"/>reum substantiale primo per actionem
+            <lb ed="#V" n="35"/>formae substantialis, nisi agat per
+            for<lb ed="#V" n="36" break="no"/>mam accidentalem prius, ut ignis per
+            <lb ed="#V" n="37"/>calorem, non ob subordinationem, quae
+            <lb ed="#V" n="38"/>est inter formas simpliciter, sed
+            respecti<lb ed="#V" n="39" break="no"/>ve ad passum, a quo debet primum
+            ex<lb ed="#V" n="40" break="no"/>pelli qualitas contraria conservativa suae
+            <lb ed="#V" n="41"/>formae, quae si abesset, posset esse actio
+            <lb ed="#V" n="42"/>substantialis primo in ipsum.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Ita etiam in proposito, subordinatio,
+            <lb ed="#V" n="44"/>quae est inter passum et agens, ratione
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>extensionis, oritur primo ex natura
+            agen<lb ed="#V" n="46" break="no"/>tis, quod nequit agere, nisi ipsum sit
+            <lb ed="#V" n="47"/>extensum, qui est modus naturalis essendi
+            <lb ed="#V" n="48"/>ejus; unde si posset agere, posset etiam
+            <lb ed="#V" n="49"/>passum recipere, et reciperet a virtute
+            <lb ed="#V" n="50"/>activa proportionata, illa solum est divina
+            <lb ed="#V" n="51"/>quoad omnia; Angelica quoad motum
+            <lb ed="#V" n="52"/>localem, si sibi dimitteretur, non quoad
+            <lb ed="#V" n="53"/>alias formas creatas corporeas; demus
+            <lb ed="#V" n="54"/>etiam virtutem activam, quoad has
+            Ange<lb ed="#V" n="55" break="no"/>lo, idem erit. Ratio est, quia quaelibet
+            <lb ed="#V" n="56"/>forma corporea ex natura sua exigit
+            tan<lb ed="#V" n="57" break="no"/>quam modum naturalem essendi esse
+            <lb ed="#V" n="58"/>extensum, a quo absolvi solum potest a
+            <lb ed="#V" n="59"/>solo Deo; unde cum virtus quaecumque
+            <lb ed="#V" n="60"/>creata, quae respiciat effectum seu formam
+            <lb ed="#V" n="61"/>ipsam continet in sua virtute, secundum
+            <lb ed="#V" n="62"/>modum naturalem essendi, nequit eam
+            <lb ed="#V" n="63"/>aliter producere. Motus tamen localis ad
+            <lb ed="#V" n="64"/>ubi indivisibile, supposito miraculo, potest
+            <lb ed="#V" n="65"/>convenire corpori, ut passo, sicut et
+            exi<lb ed="#V" n="66" break="no"/>stentia indivisibilis; potest etiam fieri ab
+            <lb ed="#V" n="67"/>Angelo, quia subjectum est capax ejus,
+            <lb ed="#V" n="68"/>licet nequeat fieri ab agente corporeo ob
+            <lb ed="#V" n="69"/>rationem datam.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Objicies tertio, quia corpus vivens in
+            <lb ed="#V" n="71"/>Eucharistia, et passibile, ut potuit esse
+            <lb ed="#V" n="72"/>Christus saltem in via, necessario
+            nutri<lb ed="#V" n="73" break="no"/>tur; ergo haberet actus nutritivae. Item
+            <lb ed="#V" n="74"/>necessario respirat, ergo habet actus
+            <lb ed="#V" n="75"/>respirativae. Respondetur utrumque
+            ante<lb ed="#V" n="76" break="no"/>cedens esse falsum, sed secundum magis.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Quantum ad primum antecedens
+            re<lb ed="#V" n="78" break="no"/>spondet Doctor in quaestione praecedenti
+            <lb ed="#V" n="79"/>in corollario post responsionem ad
+            quar<lb ed="#V" n="80" break="no"/>tum; post ergo responsionem ad
+            secun<lb ed="#V" n="81" break="no"/>dum quod movet in littera, dicit
+            nutri<lb ed="#V" n="82" break="no"/>tionem, si corpus alibi secundum modum
+            <lb ed="#V" n="83"/>naturalem essendi nutriretur, quod etiam
+            <lb ed="#V" n="84"/>quantum ad aggenerationem per
+            conco<lb ed="#V" n="85" break="no"/>mitantiam nutriretur in Eucharistia. In
+            <lb ed="#V" n="86"/>corollario autem supponendo, quod
+            cor<lb ed="#V" n="87" break="no"/>pus non haberet modum alium essendi,
+            <lb ed="#V" n="88"/>nisi. sacramentalem, movet dubium; et
+            <pb ed="#V" n="282"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>respondet, quod semper ibi maneret et
+            <lb ed="#V" n="2"/>viveret sine nutritione et respiratione, et
+            <lb ed="#V" n="3"/>aliis, quae ad vitam mortalem communiter
+            <lb ed="#V" n="4"/>requiruntur.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Ratio autem hujus est, quia corpus
+            <lb ed="#V" n="6"/>vivens, ut existens sacramentaliter, manet
+            <lb ed="#V" n="7"/>in eadem dispositione naturali, in qua
+            <lb ed="#V" n="8"/>primo ponitur praesens sacramentaliter,
+            <lb ed="#V" n="9"/>quae natura sua est permanens, donec
+            <lb ed="#V" n="10"/>corrumpatur actione extrinseci contrarii;
+            <lb ed="#V" n="11"/>ut est autem in Eucharistia, nequit pati ab
+            <lb ed="#V" n="12"/>ullo agente corporeo, neque una ejus
+            <lb ed="#V" n="13"/>pars propter inextensionem agit, aut
+            pati<lb ed="#V" n="14" break="no"/>tur ab alia; ac proinde, nec partes sic
+            <lb ed="#V" n="15"/>sunt in fluxu, quorum restauratio
+            depen<lb ed="#V" n="16" break="no"/>deret a nutritione, neque pulmo patitur a
+            <lb ed="#V" n="17"/>calore, ut ideo exigat respirationem. Vide
+            <lb ed="#V" n="18"/>etiam responsionem ad tertium in hac
+            <lb ed="#V" n="19"/>quaestione.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>(c) Conclusio secunda est, quod Christus,
+            <lb ed="#V" n="21"/>etc. Dicit quod Christus, ut in Eucharistia,
+            <lb ed="#V" n="22"/>possit habere actiones intellectus et
+            vo<lb ed="#V" n="23" break="no"/>luntatis; fundamentum hujus est ab
+            oppo<lb ed="#V" n="24" break="no"/>sito ejus, quo probavit non posse habere
+            <lb ed="#V" n="25"/>usum potentiarum naturalium et
+            faculta<lb ed="#V" n="26" break="no"/>tum corporalium, propter dependentiam
+            <lb ed="#V" n="27"/>earum in agendo et patiendo a
+            quantita<lb ed="#V" n="28" break="no"/>te extensa. Per oppositum ergo, sicut haec
+            <lb ed="#V" n="29"/>dependentia non exigitur in voluntate aut
+            <lb ed="#V" n="30"/>intellectu ex parte principii, aut termini.
+            <lb ed="#V" n="31"/>id est, potentiae et actus, possint exire in
+            <lb ed="#V" n="32"/>suos actus.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Dices dependere intellectum a
+            phanta<lb ed="#V" n="34" break="no"/>smatibus; ergo nequit operari sine
+            phan<lb ed="#V" n="35" break="no"/>tasmate, aut non operante simul
+            phanta<lb ed="#V" n="36" break="no"/>sia, quia quando intellectus intelligit,
+            <lb ed="#V" n="37"/>phantasia phantasiatur ex Philosopho, et
+            <lb ed="#V" n="38"/>experientia, quam habemus de nobis.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Respondetur, quidquid sit de natura
+            <lb ed="#V" n="40"/>intellectus et intellectionis nostrae pro hoc
+            <lb ed="#V" n="41"/>statu, quod exigit longiorem
+            dissertati<lb ed="#V" n="42" break="no"/>onem, saltem conclusionem veram esse in
+            <lb ed="#V" n="43"/>intellectu, quoad ea in quibus non
+            de<lb ed="#V" n="44" break="no"/>pendet a phantasia, et habente objectum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>sibi praesens; non ita tamen intellectus
+            <lb ed="#V" n="46"/>dependet a phantasia, etiam pro hoc
+            sta<lb ed="#V" n="47" break="no"/>tu, quin operatio possit esse primo ab
+            <lb ed="#V" n="48"/>ipso intellectu, atque determinatio
+            ope<lb ed="#V" n="49" break="no"/>randi; hanc habere posset in Sacramento,
+            <lb ed="#V" n="50"/>licet phantasia non operatur, in statu
+            <lb ed="#V" n="51"/>autem glorioso, et animae etiam separatae,
+            <lb ed="#V" n="52"/>non est dubium quin intellectus sine
+            de<lb ed="#V" n="53" break="no"/>pendentia a phantasmate operari possit,
+            <lb ed="#V" n="54"/>ut infra latius patebit dist. 45. quaest. 2.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Dicit tertio, quod potest Christus
+            mo<lb ed="#V" n="56" break="no"/>vere aliud corpus vicinum per potentiam
+            <lb ed="#V" n="57"/>motivam, non organicam; quod perinde
+            <lb ed="#V" n="58"/>dicendum est de corpore proprio, nisi
+            <lb ed="#V" n="59"/>divina voluntas obstaret, utrumque
+            po<lb ed="#V" n="60" break="no"/>test praestare Angelus, quantum est ex
+            <lb ed="#V" n="61"/>se; Christus ergo posset loqui mentaliter
+            <lb ed="#V" n="62"/>Angelo, et illum illuminare, posset etiam
+            <lb ed="#V" n="63"/>uti potentia motiva non organica, qua
+            <lb ed="#V" n="64"/>primo posset movere suum aut alienum
+            <lb ed="#V" n="65"/>corpus non organice. Hanc secundam
+            par<lb ed="#V" n="66" break="no"/>tem videtur negare Suarez disp. 53. sect. 1.
+            <lb ed="#V" n="67"/>Dependet resolutio et probatio ex
+            asser<lb ed="#V" n="68" break="no"/>tione hujus potentiae motivae non
+            orga<lb ed="#V" n="69" break="no"/>nicae; quod remitto, quantum ad praesens,
+            <lb ed="#V" n="70"/>ad ea quae breviter hic perstringit Doctor,
+            <lb ed="#V" n="71"/>et major per se infra dist. 49. quaest. 14.
+            <lb ed="#V" n="72"/>ubi fusius, et in proprio loco agemus;
+            <lb ed="#V" n="73"/>admittendo namque talem potentiam
+            mo<lb ed="#V" n="74" break="no"/>tivam, non est fundamentum denegandi
+            <lb ed="#V" n="75"/>actum ejus proprium hic habere posse
+            <lb ed="#V" n="76"/>circa ea, quae simpliciter subsunt potestati
+            <lb ed="#V" n="77"/>creaturae. Supponatur ergo pro nunc
+            an<lb ed="#V" n="78" break="no"/>tecedens, et facilis est conclusio ex dictis.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

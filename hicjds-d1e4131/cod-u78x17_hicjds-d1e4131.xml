@@ -1,0 +1,1348 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 13, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 13, Quaestio 1</title>
+          <date when="2026-11-20">Nov 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x17">Vives, Paris, 1894, volume 17</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="661"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e4131"><!-- hicjds-b4d13q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum sola actione divina possit confici corpus Christi</head>
+        <!-- <div alias="hiq-d13q1-p1"> -->
+          <p>
+            <lb ed="#V" n="84" type="fixed=661"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>(b) Ad primum. In hac quaestione juxta
+            <lb ed="#V" n="86"/>petitionem argumentorum sunt tres
+            arti<lb ed="#V" n="87" break="no"/>culi. Primum et secundum argumentum
+            <pb ed="#V" n="662"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sunt ex natura actionis; et an possit esse
+            <lb ed="#V" n="2"/>in Deo respective ad hunc terminum?
+            <lb ed="#V" n="3"/>huic correspondet primus: An scilicet
+            <lb ed="#V" n="4"/>actione divina confici possit hoc
+            Sacramen<lb ed="#V" n="5" break="no"/>tum? Tertium est et quartum de potentia
+            <lb ed="#V" n="6"/>agentis naturalis ad conversionem;
+            qui<lb ed="#V" n="7" break="no"/>bus correspondet articulus secundus: An,
+            <lb ed="#V" n="8"/>scilicet, agens naturale, ut principalis
+            <lb ed="#V" n="9"/>causa, possit concurrere ad eamdem
+            con<lb ed="#V" n="10" break="no"/>versionem. Ultimum argumentum tangit
+            <lb ed="#V" n="11"/>causalitatem instrumentalem; huic
+            re<lb ed="#V" n="12" break="no"/>spondet tertius articulus, de causa
+            instru<lb ed="#V" n="13" break="no"/>mentali aut ministeriali consecrationis.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d13q1-p2"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="42" type="fixed=663"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>(c) Ad solutionem, etc. Praemissa
+            parti<lb ed="#V" n="44" break="no"/>tione jam notata, prosequitur
+            resoluti<lb ed="#V" n="45" break="no"/>onem primi articuli in hoc paragrapho,
+            <lb ed="#V" n="46"/>praemittens sententiam communem
+            alio<lb ed="#V" n="47" break="no"/>rum, nempe actionem, licet includat
+            re<lb ed="#V" n="48" break="no"/>spectum, differre tamen a genere
+            rela<lb ed="#V" n="49" break="no"/>tionis. Subjicit quinque rationes ad
+            con<lb ed="#V" n="50" break="no"/>clusionem affirmativam, probans actione
+            <lb ed="#V" n="51"/>distincta a relatione fieri conversionem.
+            <lb ed="#V" n="52"/>Primo, quia si conversio fieret in non
+            <lb ed="#V" n="53"/>praeexistens, esset media actione, sed
+            <lb ed="#V" n="54"/>quod fiat in praeexistens non est minoris
+            <lb ed="#V" n="55"/>virtutis et actionis; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Secundo, quia creatio est actio, non
+            <lb ed="#V" n="57"/>relatio, alias creare esset referri; sed
+            <lb ed="#V" n="58"/>haec conversio aequivalet creationi, quia
+            <lb ed="#V" n="59"/>posset esse in non praeexistens, quod
+            <lb ed="#V" n="60"/>reciperet esse per creationem; ergo non
+            <lb ed="#V" n="61"/>est relatio, sed actio.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Tertio, quia Deus habet actionem ad
+            <lb ed="#V" n="63"/>intra distinctam a relatione, alias generare
+            <lb ed="#V" n="64"/>esset tantum referri.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Quarto, producens, inquantum talis est
+            <lb ed="#V" n="66"/>causa producti, est prior illo ad intra, non
+            <lb ed="#V" n="67"/>ita relativum est causa correlativi, quia
+            <lb ed="#V" n="68"/>sunt natura simul; ergo non constituitur
+            <lb ed="#V" n="69"/>producens relatione.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Ultimo, relatio secundi modi fundatur
+            <lb ed="#V" n="71"/>super actione et passione, sed relatio non
+            <lb ed="#V" n="72"/>fundatur in relatione; ergo, etc. Quod
+            <lb ed="#V" n="73"/>autem asseritur ex Boetio, Augustino, et
+            <lb ed="#V" n="74"/>aliis duo genera manere in Deo, nempe
+            <lb ed="#V" n="75"/>Substantiae et Relationis; ergo non manet
+            <lb ed="#V" n="76"/>genus actionis ab his diversum.
+            Respon<lb ed="#V" n="77" break="no"/>detur comprehendi actionem sub
+            relati<lb ed="#V" n="78" break="no"/>one, quia dicit respectum, licet sit diversa
+            <lb ed="#V" n="79"/>a relatione. Secundum hanc sententiam
+            <lb ed="#V" n="80"/>ponitur actio in aliquo absoluto, quod
+            <lb ed="#V" n="81"/>moderni communiter appellant modum,
+            <lb ed="#V" n="82"/>qui dicit relationem transcendentalem,
+            <pb ed="#V" n="664"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sicut de aliis sex Praedicamentis
+            philoso<lb ed="#V" n="2" break="no"/>phantur, et statuunt eam in passo.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d13q1-p3"> -->
+          <p>
+            <lb ed="#V" n="15" type="fixed=666"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>(d) Ad hujus autem difficultatis
+            intelli<lb ed="#V" n="17" break="no"/>gentiam, etc. Resolvit in hoc paragrapho
+            <lb ed="#V" n="18"/>actionem consistere in relatione, contra
+            <lb ed="#V" n="19"/>primam sententiam, non vero in absoluto,
+            <lb ed="#V" n="20"/>et paragrapho sequenti eam subjectari in
+            <lb ed="#V" n="21"/>agente, non in passo.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Conclusio ergo ejus prima est:
+            Acti<lb ed="#V" n="23" break="no"/>onem non esse absolutam, sed relationem.
+            <lb ed="#V" n="24"/>Probat primo, quia si esset forma
+            abso<lb ed="#V" n="25" break="no"/>luta, sequeretur quod ad actionem
+            dare<lb ed="#V" n="26" break="no"/>tur actio, et sic in infinitum contra
+            Philo<lb ed="#V" n="27" break="no"/>sophum 5. Physic. com. 13. qui hac
+            rati<lb ed="#V" n="28" break="no"/>one probat ad actionem non esse motum,
+            <lb ed="#V" n="29"/>quia esset processus in infinitum.
+            Proba<lb ed="#V" n="30" break="no"/>tur sequela, quia omnis forma absoluta
+            <lb ed="#V" n="31"/>realiter distincta a subjecto non est a se.
+            <lb ed="#V" n="32"/>neque a nihilo; ergo ab agente; ergo
+            <lb ed="#V" n="33"/>media actione et dependentia sui.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>Ad hanc rationem respondetur, non
+            <lb ed="#V" n="35"/>urgere de forma absoluta, quae est actus
+            <lb ed="#V" n="36"/>productivus, quia in ea est status, et
+            im<lb ed="#V" n="37" break="no"/>-mediate exit a virtute activa. Nam perinde
+            <lb ed="#V" n="38"/>eadem ratio urget etiam de relatione, si
+            <lb ed="#V" n="39"/>ea ponatur actio, quia non est a se; ergo
+            <lb ed="#V" n="40"/>ab aliquo agente, ergo media actione.
+            <lb ed="#V" n="41"/>Contra, haec ratio magis urget in forma
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="42"/>absoluta, inquantum absoluta non est ad
+            <lb ed="#V" n="43"/>aliud, sed tantum ad se; omnis autem
+            <lb ed="#V" n="44"/>effectus ut fit est ad aliud a quo fit, ergo
+            <lb ed="#V" n="45"/>per aliquid superadditum, non absolutum,
+            <lb ed="#V" n="46"/>sed relativum; ergo mediante hoc
+            respi<lb ed="#V" n="47" break="no"/>cit praecise agens, et virtutem activam
+            <lb ed="#V" n="48"/>ejus ut principium, et consequenter
+            se<lb ed="#V" n="49" break="no"/>cluso hoc non respiceret; ergo relatio illa
+            <lb ed="#V" n="50"/>erit ratio secundum quam est ab agente,
+            <lb ed="#V" n="51"/>et consequenter erit actio, seu influxus
+            <lb ed="#V" n="52"/>agentis in ipsa.
+            <lb ed="#V" n="53"/>Patet consequentia, quia nihil potest
+            <lb ed="#V" n="54"/>reduci in virtutem causae, nisi effectus et
+            <lb ed="#V" n="55"/>actio; si est effectus, mediate reducitur,
+            <lb ed="#V" n="56"/>nempe mediante actione; si actio,
+            imme<lb ed="#V" n="57" break="no"/>diate reducitur, sed illud absolutum non
+            <lb ed="#V" n="58"/>reducitur seipso immediate in virtutem
+            <lb ed="#V" n="59"/>agentis; ergo erit effectus proprie, qui
+            <lb ed="#V" n="60"/>mediante relatione illa tanquam sui
+            de<lb ed="#V" n="61" break="no"/>pendentia ad virtutem agentis reducitur.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Dices eamdem sibi realiter illam
+            relati<lb ed="#V" n="63" break="no"/>onem. Contra, hoc non impedit quin sit
+            <lb ed="#V" n="64"/>actio seu dependentia per modum actionis
+            <lb ed="#V" n="65"/>et productionis sui, quia relatio creaturae
+            <lb ed="#V" n="66"/>ad Deum, ita etiam identificatur realiter
+            <lb ed="#V" n="67"/>creaturae; est tamen productio passiva
+            <lb ed="#V" n="68"/>ejus, qua terminatur creatura ut effectus,
+            <lb ed="#V" n="69"/>et ejus dependentia ad Deum, et
+            univer<lb ed="#V" n="70" break="no"/>saliter omnis dependentia ad causam in
+            <lb ed="#V" n="71"/>quocumque genere est causatio
+            depen<lb ed="#V" n="72" break="no"/>dentis causati ad causam, ut accidentis
+            <lb ed="#V" n="73"/>inhaerentia ad subjectum; et sic de
+            reli<lb ed="#V" n="74" break="no"/>quis, atque seclusa illa nullus est influxus
+            <lb ed="#V" n="75"/>causae, aut ordo effectus ad causam, aut
+            <lb ed="#V" n="76"/>causae ad effectum.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Eadem ratio potest etiam fieri de
+            acti<lb ed="#V" n="78" break="no"/>one, qua est ordo causae ad effectum,
+            <lb ed="#V" n="79"/>quia absolutum inquantum absolutum,
+            <lb ed="#V" n="80"/>nequit esse ratio referendi causam ad
+            <lb ed="#V" n="81"/>effectum, vel attingendi ipsum effectum
+            <lb ed="#V" n="82"/>per virtutem causae; ergo illud absolutum,
+            <lb ed="#V" n="83"/>quod ponitur actio, nequit, qua
+            absolu<lb ed="#V" n="84" break="no"/>tum est, esse formalis ordo causae ad
+            <lb ed="#V" n="85"/>effectum, aut effectus ad causam, ac
+            pro<pb ed="#V" n="667"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>inde nequit esse actio in passum, aut
+            pro<lb ed="#V" n="2" break="no"/>ductio in terminum.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Haec inconvenientia non urgent in
+            rela<lb ed="#V" n="4" break="no"/>tione, quae immediate est inter extrema,
+            <lb ed="#V" n="5"/>et seipsa ordinat extrema ad invicem, in
+            <lb ed="#V" n="6"/>quo ordine, qua talis est, secundum
+            spe<lb ed="#V" n="7" break="no"/>ciem, consistit actio, quae exigit agens et
+            <lb ed="#V" n="8"/>passum, producens et productum;
+            super<lb ed="#V" n="9" break="no"/>fluit ergo omnis ratio formae absolutae ad
+            <lb ed="#V" n="10"/>hunc effectum. Et sicut alias supra quaest.
+            <lb ed="#V" n="11"/>3. praeced. distinct. dictum est de
+            inhae<lb ed="#V" n="12" break="no"/>rentia actuali, non debet poni aliqua
+            per<lb ed="#V" n="13" break="no"/>fectio in causa, quae praecise exigitur
+            ne<lb ed="#V" n="14" break="no"/>cessitate effectus, quam non exigit
+            con<lb ed="#V" n="15" break="no"/>ceptus formalis effectus in se.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Et ne in hoc amplius inhaereamus, huc
+            <lb ed="#V" n="17"/>transferri possunt ea quae ibi dicta sunt,
+            <lb ed="#V" n="18"/>quae perinde huic quaestioni deserviunt,
+            <lb ed="#V" n="19"/>mutando dependentiae genus, nempe
+            for<lb ed="#V" n="20" break="no"/>mae ad subjectum, independentiam
+            effe<lb ed="#V" n="21" break="no"/>ctus ad causam efficientem et
+            causalita<lb ed="#V" n="22" break="no"/>tem efficientis ad ipsum.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Probat secundo, quia si est in agente,
+            <lb ed="#V" n="24"/>ergo omne agens prius mutaretur
+            secun<lb ed="#V" n="25" break="no"/>dum formam absolutam in se, quam
+            mu<lb ed="#V" n="26" break="no"/>taretur passum ab ipso, quod est
+            incon<lb ed="#V" n="27" break="no"/>veniens, quia non prius est agens in actu
+            <lb ed="#V" n="28"/>secundo quam passum; licet enim in
+            <lb ed="#V" n="29"/>exercitio, motus incipiat ab efficiente,
+            ne<lb ed="#V" n="30" break="no"/>quit tamen concipi ut efficiens et
+            trans<lb ed="#V" n="31" break="no"/>mutans, quin concipiatur passum ut
+            <lb ed="#V" n="32"/>patiens, actio ut est ad terminum, quia
+            <lb ed="#V" n="33"/>actio causae creatae nequit esse nisi
+            de<lb ed="#V" n="34" break="no"/>pendenter a subjecto; et actio secundum
+            <lb ed="#V" n="35"/>auctorem de sex Principiis requirit id
+            <lb ed="#V" n="36"/>quod agat, et id in quod agatur.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Sequela probatur, quia si actio consistit
+            <lb ed="#V" n="38"/>in forma absoluta, quae est in agente,
+            ne<lb ed="#V" n="39" break="no"/>cessario agens mutatur ad ipsum,
+            inquan<lb ed="#V" n="40" break="no"/>tum est ejus susceptivum, et est sub
+            <lb ed="#V" n="41"/>privatione ejus, in actu primo et tempore
+            <lb ed="#V" n="42"/>prius quam agat.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Dices, haec ratio perinde urget
+            mutati<lb ed="#V" n="44" break="no"/>onem agentis etiam per formam
+            relati<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>vam, quae supponit sui privationem.
+            Con<lb ed="#V" n="46" break="no"/>tra, vis rationis non consistit in hoc, sed
+            <lb ed="#V" n="47"/>in eo quod agens transmutaretur
+            ante<lb ed="#V" n="48" break="no"/>quam passum transmutaretur; quod
+            se<lb ed="#V" n="49" break="no"/>quitur peculiariter in eo quod diceretur
+            <lb ed="#V" n="50"/>actio forma absoluta, quia
+            quantumcum<lb ed="#V" n="51" break="no"/>que se habet agens aliter in ordine ad se
+            <lb ed="#V" n="52"/>per formam absolutam, non concipitur
+            <lb ed="#V" n="53"/>passum se habere aliter per talem
+            for<lb ed="#V" n="54" break="no"/>mam, neque per virtutem agentis
+            trans<lb ed="#V" n="55" break="no"/>mutari. Sed non ita est de forma relativa
+            <lb ed="#V" n="56"/>quae nequit concipi in esse, nisi sit hujus
+            <lb ed="#V" n="57"/>fundamenti cujus est, ad aliud ad quod
+            <lb ed="#V" n="58"/>est, et sic nisi sit agentis ad passum.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Dices, quamvis agens diceret
+            relati<lb ed="#V" n="60" break="no"/>onem ad passum, non sequitur passum se
+            <lb ed="#V" n="61"/>aliter habere. Respondetur, non sequitur
+            <lb ed="#V" n="62"/>ex communi ratione formae respectivae,
+            <lb ed="#V" n="63"/>quando non est mutua relatio, sed ex
+            ra<lb ed="#V" n="64" break="no"/>tione particulari hujus formae sequitur,
+            <lb ed="#V" n="65"/>quia habet concomitantem passionem, ut
+            <lb ed="#V" n="66"/>correlationem, utraque simul sunt. Et
+            <lb ed="#V" n="67"/>quia haec relatio ex specie sua est actus
+            <lb ed="#V" n="68"/>productivus termini; agens enim non
+            ali<lb ed="#V" n="69" break="no"/>ter se habet ad passum, nisi passum
+            ali<lb ed="#V" n="70" break="no"/>ter se habeat ad agens.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Si dicatur actio esse in passo, sequitur
+            <lb ed="#V" n="72"/>aliud inconveniens, nempe quod
+            subje<lb ed="#V" n="73" break="no"/>ctum nunquam pateretur secundum
+            for<lb ed="#V" n="74" break="no"/>mam absolutam de genere Quantitatis et
+            <lb ed="#V" n="75"/>Qualitatis, quin concomitanter patiatur
+            <lb ed="#V" n="76"/>secundum formam alterius generis
+            abso<lb ed="#V" n="77" break="no"/>lutam, nempe Actionis; hoc autem esse
+            <lb ed="#V" n="78"/>inconveniens videtur, quia quantitas et
+            <lb ed="#V" n="79"/>qualitas sunt formae priores manentes
+            <lb ed="#V" n="80"/>transeunte actione.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Dices, hoc non esse inconveniens, quia
+            <lb ed="#V" n="82"/>idem dicendum, etiamsi actio poneretur
+            <lb ed="#V" n="83"/>forma respectiva; magis enim
+            inconveni<lb ed="#V" n="84" break="no"/>ens est, ut constituendo actionem in
+            ali<lb ed="#V" n="85" break="no"/>quo, quod imperfectius est, concomitetur
+            <lb ed="#V" n="86"/>has formas, quam si dicatur esse
+            absolu<lb ed="#V" n="87" break="no"/>tum. Contra, hoc non est inconveniens,
+            <lb ed="#V" n="88"/>imo necessarium, quia absolutum nequit
+            <pb ed="#V" n="668"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>se habere aliter, nisi mediante respectivo,
+            <lb ed="#V" n="2"/>neque etiam inesse, si distinguatur
+            reali<lb ed="#V" n="3" break="no"/>ter, et insit per modum formae; hic enim
+            <lb ed="#V" n="4"/>effectus est relationis, ut sit ordo inter
+            <lb ed="#V" n="5"/>absoluta, sed id non competit absolutae
+            <lb ed="#V" n="6"/>formae; ergo si actio esset forma
+            absolu<lb ed="#V" n="7" break="no"/>ta, sequeretur inconveniens praemissum,
+            <lb ed="#V" n="8"/>quod non est inconveniens in forma
+            rela<lb ed="#V" n="9" break="no"/>tiva. Tertio tandem probat actionem non
+            <lb ed="#V" n="10"/>posse dici coaevam agenti, et ratio est in
+            <lb ed="#V" n="11"/>se manifesta.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d13q1-p4"> -->
+          <p>
+            <pb ed="#V" n="670"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=670"/>COMMENTARIUS
+          </p>
+          <p>
+            <lb ed="#V" n="2"/>(e) Si ergo debet salvari, etc. Concludit
+            <lb ed="#V" n="3"/>ex divisione Praedicamentorum in decem
+            <lb ed="#V" n="4"/>genera celebrata a Philosophis antiquis,
+            <lb ed="#V" n="5"/>relationem dividi in illam, quae est
+            intrin<lb ed="#V" n="6" break="no"/>secus adveniens, et sequitur extrema
+            po<lb ed="#V" n="7" break="no"/>-sita in actu; et relationem extrinsecus
+            <lb ed="#V" n="8"/>advenientem, quae praeter extrema in actu
+            <lb ed="#V" n="9"/>posita exigit aliquid aliud, ut insit
+            diver<lb ed="#V" n="10" break="no"/>x sum ab extremis; et haec dividitur in sex
+            <lb ed="#V" n="11"/>genera, de quibus auctor sex
+            Principio<lb ed="#V" n="12" break="no"/>rum, et sic actio erit relatio extrinsecus
+            <lb ed="#V" n="13"/>adveniens.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Dices, relationes secundi generis
+            Praedi<lb ed="#V" n="15" break="no"/>camenti ad aliquid, fundari super actione
+            <lb ed="#V" n="16"/>et passione, quae sunt aliquid extrinsecum,
+            <lb ed="#V" n="17"/>seu diversum ab extremis, quia extrema
+            <lb ed="#V" n="18"/>possunt simpliciter esse sine tali relatione,
+            <lb ed="#V" n="19"/>ut si effectus, verbi gratia, qui natus est
+            es<lb ed="#V" n="20" break="no"/>se, et est de facto ab hac causa, poneretur
+            <lb ed="#V" n="21"/>vel a Deo solo, vel ab alia causa, in cujus
+            <lb ed="#V" n="22"/>virtute includitur, eo casu esset effectus,
+            <lb ed="#V" n="23"/>sine relatione ad hanc causam, a qua est
+            <lb ed="#V" n="24"/>modo, etiam ipsa existente; ergo erit
+            re<lb ed="#V" n="25" break="no"/>latio hoc modo extrinsecus adveniens, et
+            <lb ed="#V" n="26"/>consequenter non subsistet differentia
+            <lb ed="#V" n="27"/>praemissa.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Respondetur, quod esse alicujus
+            impor<lb ed="#V" n="29" break="no"/>tat omnia, quae ordinantur ad ipsum esse
+            <lb ed="#V" n="30"/>hic et nunc, et consequenter ordinem ad
+            <lb ed="#V" n="31"/>determinatas causas essendi, inquantum
+            <lb ed="#V" n="32"/>. est per ipsas; ideo actio quae est actus
+            <lb ed="#V" n="33"/>productivus, et passio quae est causae
+            ma<lb ed="#V" n="34" break="no"/>terialis causalitas, vel eam connotat per
+            <lb ed="#V" n="35"/>se, supponitur ad esse effectus, quamvis
+            <lb ed="#V" n="36"/>esse sit ab his diversum, tamen est per
+            <lb ed="#V" n="37"/>haec in suo genere.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Relatio autem extrinsecus adveniens
+            <lb ed="#V" n="39"/>ideo dicitur, quia non solum supponit
+            <lb ed="#V" n="40"/>extrema in esse, et quidquid ordinatur ad
+            <lb ed="#V" n="41"/>esse determinatum ipsorum; sed ulterius
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="42"/>requirit aliquam determinationem
+            poste<lb ed="#V" n="43" break="no"/>rius advenientem, quae est accidentaria
+            <lb ed="#V" n="44"/>extremis, inquantum sunt, et posterius
+            <lb ed="#V" n="45"/>adveniens ipsis in esse.
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>Non ita se habent relationes secundi
+            <lb ed="#V" n="47"/>modi, quia licet extrema ipsorum possint
+            <lb ed="#V" n="48"/>esse, simpliciter loquendo, sine ipsa, si
+            <lb ed="#V" n="49"/>effectus esset modo dicto ab alia causa,
+            <lb ed="#V" n="50"/>tamen ut sunt hoc determinato modo,
+            <lb ed="#V" n="51"/>nequeunt esse sine relatione fundata in
+            <lb ed="#V" n="52"/>hoc determinato esse effectus; cum ergo
+            <lb ed="#V" n="53"/>supponant actionem et passionem, eas
+            <lb ed="#V" n="54"/>supponunt, tanquam rationes per quas
+            <lb ed="#V" n="55"/>servatur ordo causarum per se, ut infra
+            <lb ed="#V" n="56"/>explicabitur ad effectum ponendum, non
+            <lb ed="#V" n="57"/>vero ut aliquid posterius, et accidentaliter
+            <lb ed="#V" n="58"/>adveniens; sicut est illud, quod supponit
+            <lb ed="#V" n="59"/>relatio extrinsecus adveniens, ut actio
+            <lb ed="#V" n="60"/>applicationem, ubi indistantiam loci et e
+            <lb ed="#V" n="61"/>locati, situs positionem partium in quanto
+            <lb ed="#V" n="62"/>in ordine ad se, qua una pars est extra
+            <lb ed="#V" n="63"/>aliam in ordine ad locum; et sic tempus
+            <lb ed="#V" n="64"/>coexistentiam inter temporarium et
+            tem<lb ed="#V" n="65" break="no"/>pus, et commensurationem in modo
+            es<lb ed="#V" n="66" break="no"/>sendi, etc. Sed haec remittendo ad sua
+            <lb ed="#V" n="67"/>loca in Metaphysica et Philosophia, ubi
+            <lb ed="#V" n="68"/>per se tractantur, incidenter autem hic
+            <lb ed="#V" n="69"/>non vacat jam eas fusius tractare.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Addit Doctor secundam conclusionem
+            <lb ed="#V" n="71"/>hujus quaestionis, nempe, actionem esse in
+            <lb ed="#V" n="72"/>agente, ut in subjecto. Haec conclusio
+            ne<lb ed="#V" n="73" break="no"/>cessaria est supposita priori, nempe
+            acti<lb ed="#V" n="74" break="no"/>onem esse relationem; et optime probatur,
+            <lb ed="#V" n="75"/>quia fundamentum actionis est potentia
+            <lb ed="#V" n="76"/>activa, sed relatio non separatur a
+            funda<lb ed="#V" n="77" break="no"/>mento, in quo est; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>Secundo. quia respectus oppositi non
+            <lb ed="#V" n="79"/>sunt in eodem simul et ad idem, actio et
+            <lb ed="#V" n="80"/>passio sunt tales, et passio est in passo;
+            <lb ed="#V" n="81"/>ergo actio non est in ipso. Dices, quando
+            <lb ed="#V" n="82"/>idem agit in seipsum, est agens et
+            pas<lb ed="#V" n="83" break="no"/>sum; ergo dicit simul hos respectus.
+            Re<lb ed="#V" n="84" break="no"/>spondetur, probabilius est juxta illam
+            <lb ed="#V" n="85"/>conditionem relationis realis, qua dicitur
+            <pb ed="#V" n="671"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>inter extrema realiter diversa, non esse
+            <lb ed="#V" n="2"/>ejusdem ad seipsum relationem actionis
+            <lb ed="#V" n="3"/>aut passionis; sed quidquid sit de hoc,
+            <lb ed="#V" n="4"/>limitatur major per hoc quod addatur
+            <lb ed="#V" n="5"/>sub eadem ratione, et sic tollitur
+            instan<lb ed="#V" n="6" break="no"/>tia; passum autem non habet nisi unam
+            <lb ed="#V" n="7"/>et simplicem rationem causandi, nempe
+            <lb ed="#V" n="8"/>potentiae passivae, et secundum hanc
+            com<lb ed="#V" n="9" break="no"/>paratur ad agens, ut ab ea transmutatur
+            <lb ed="#V" n="10"/>et movetur, et secundum eamdem
+            ratio<lb ed="#V" n="11" break="no"/>nem comparatur ad terminum motus; ergo
+            <lb ed="#V" n="12"/>non dicit relationes oppositas ad agens,
+            <lb ed="#V" n="13"/>seu ad terminum simul. Potest etiam illud
+            <lb ed="#V" n="14"/>principium intelligi de relatione, quae
+            in<lb ed="#V" n="15" break="no"/>est ex natura rei; non autem de ea quae
+            <lb ed="#V" n="16"/>inest per conditionem accidentalem
+            diver<lb ed="#V" n="17" break="no"/>sam, ex qua ordo diversus potest oriri
+            <lb ed="#V" n="18"/>ejusdem ad seipsum, non simpliciter, sed
+            <lb ed="#V" n="19"/>juxta diversas determinationes.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Tertio probat, quia si actio esset in
+            pas<lb ed="#V" n="21" break="no"/>so, tribueret ipsi denominationem ut esse
+            <lb ed="#V" n="22"/>agentis, utrumque ipsi repugnat, sicut
+            <lb ed="#V" n="23"/>fundamentum utriusque, quod est potentia
+            <lb ed="#V" n="24"/>activa. Ad hoc instatur respondendo esse
+            <lb ed="#V" n="25"/>formas, quae denominant extrinsece et
+            <lb ed="#V" n="26"/>intrinsece; denominatio intrinseca
+            passio<lb ed="#V" n="27" break="no"/>nis est in passo, extrinsece autem
+            deno<lb ed="#V" n="28" break="no"/>minat activam agentem, sic dicitur Deus
+            <lb ed="#V" n="29"/>creator per relationem, quae est in
+            creatu<lb ed="#V" n="30" break="no"/>ra, per quam ipsa creatura denominatur
+            <lb ed="#V" n="31"/>intrinsece passive. Contra, haec ratio
+            Docto<lb ed="#V" n="32" break="no"/>ris supponit primam ejus conclusionem,
+            <lb ed="#V" n="33"/>nempe actionem et passionem esse
+            diver<lb ed="#V" n="34" break="no"/>sas, et consistere in relatione. Hoc posito.
+            <lb ed="#V" n="35"/>passio nequit tribuere nomen aut
+            effe<lb ed="#V" n="36" break="no"/>ctum actionis, neque e contra actio
+            <lb ed="#V" n="37"/>passionis; actio tamen sicut est diversa
+            <lb ed="#V" n="38"/>in effectu formali et ratione, tribuit
+            no<lb ed="#V" n="39" break="no"/>men, alias frustra poneretur dare
+            diver<lb ed="#V" n="40" break="no"/>sum effectum, vel exigeretur; nequit
+            au<lb ed="#V" n="41" break="no"/>tem tribuere nomen agentis passo,
+            <lb ed="#V" n="42"/>neque illud referre per modum agentis,
+            <lb ed="#V" n="43"/>quia id convenit activo; ergo bene
+            <lb ed="#V" n="44"/>sequitur non esse in passo.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Aliqui nostri sumunt hinc fundamentum
+            <lb ed="#V" n="46"/>non dari denominationes extrinsecas, e
+            <lb ed="#V" n="47"/>juxta mentem Doctoris; sed male, quia
+            <lb ed="#V" n="48"/>oppositum docet variis in locis,
+            potissi<lb ed="#V" n="49" break="no"/>mum in 1. dist. 30. ubi dicit Deum dici
+            <lb ed="#V" n="50"/>Dominum relatione servitutis, quae est in
+            <lb ed="#V" n="51"/>creatura; ad quam doctrinam, ut
+            appro<lb ed="#V" n="52" break="no"/>batam, se remittit infra hac ipsa
+            quae<lb ed="#V" n="53" break="no"/>stione, S Contra ea quae dicta sunt de
+            <lb ed="#V" n="54"/>actione Dei, etc. respons. ad 3. et S Ad
+            <lb ed="#V" n="55"/>propositum ergo, etc. in fine, et respons.
+            <lb ed="#V" n="56"/>ad 2. pro opinione; videatur in 2. dist. 1.
+            <lb ed="#V" n="57"/>quaest. 5.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Argumentum ergo Doctoris est ex
+            <lb ed="#V" n="59"/>suppositione jam dicta, et sic
+            conclu<lb ed="#V" n="60" break="no"/>dit non aliter, quia denominatio creatoris
+            <lb ed="#V" n="61"/>est activa; actio enim ut conjungitur suo
+            <lb ed="#V" n="62"/>principio activo nequit denominare, nisi
+            <lb ed="#V" n="63"/>per modum causae, a qua exit effectus
+            <lb ed="#V" n="64"/>efficienter, quia aliter ipsam non respicit.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Dices, quare ergo non diceretur actio
+            <lb ed="#V" n="66"/>etiam sic se habere, ut per modum
+            Passi<lb ed="#V" n="67" break="no"/>onis denominet effectum et passum, per
+            <lb ed="#V" n="68"/>modum actionis principium activum,
+            <lb ed="#V" n="69"/>quamvis in re esset una forma, quia non
+            <lb ed="#V" n="70"/>sunt multiplicanda entia sine necessitate.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Respondetur ex eo quod Praedicamenta
+            <lb ed="#V" n="72"/>sunt intra se realiter diversa, et Actio et
+            <lb ed="#V" n="73"/>Passio, tanquam talia reducuntur directe
+            <lb ed="#V" n="74"/>ad suam propriam classem. Secundo, quia
+            <lb ed="#V" n="75"/>diversa fundamenta realiter arguunt
+            di<lb ed="#V" n="76" break="no"/>versitatem formae relativae. Tertio, quia
+            <lb ed="#V" n="77"/>perinde etiam in creaturis relatio causae
+            <lb ed="#V" n="78"/>et effectus ad se invicem sic posset
+            con<lb ed="#V" n="79" break="no"/>stitui una relatio ex parte solius effectus,
+            <lb ed="#V" n="80"/>quod non conceditur; quamvis ergo Deus
+            <lb ed="#V" n="81"/>sit causa activa, nullam tamen fundat ex
+            <lb ed="#V" n="82"/>perfectione sua relationem ad effectum
+            <lb ed="#V" n="83"/>realem, sive per modum actionis, sive per
+            <lb ed="#V" n="84"/>modum productionis, quia immediate sua
+            <lb ed="#V" n="85"/>virtute infinita, seclusa omni
+            determina<lb ed="#V" n="86" break="no"/>tione per modum actus secundi, ut in
+            <lb ed="#V" n="87"/>ipso potest attingere effectum; non ita
+            <lb ed="#V" n="88"/>causa secunda, quae requirit
+            determina<pb ed="#V" n="672"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tionem novam intrinsecam per modum
+            <lb ed="#V" n="2"/>actus secundi, et ideo desinente tali
+            de<lb ed="#V" n="3" break="no"/>terminatione, virtus ejus amplius nequit
+            <lb ed="#V" n="4"/>attingere effectum in esse positum, sicut
+            <lb ed="#V" n="5"/>virtus Dei tam in fieri, quam in facto esse
+            <lb ed="#V" n="6"/>semper attingit effectum, et necessario
+            <lb ed="#V" n="7"/>inquantum est.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Advertendum autem est, sicut
+            cogno<lb ed="#V" n="9" break="no"/>scitur a nobis pro hoc statu prima causa
+            <lb ed="#V" n="10"/>ex creaturis et modis causandi earum,
+            <lb ed="#V" n="11"/>seclusis imperfectionibus, sic etiam
+            deno<lb ed="#V" n="12" break="no"/>minari Deum respective ad creaturas
+            se<lb ed="#V" n="13" break="no"/>cundum proportionem servatam in
+            crea<lb ed="#V" n="14" break="no"/>turis, et translatam ad primam causam,
+            <lb ed="#V" n="15"/>praescindendo imperfectionem, secundum
+            <lb ed="#V" n="16"/>quam in creaturis salvatur ipsa
+            denomi<lb ed="#V" n="17" break="no"/>natio. In creaturis autem denominatio
+            <lb ed="#V" n="18"/>sumitur ab actu secundo causae creatae in
+            <lb ed="#V" n="19"/>ordine ad effectum per illam formam,
+            <lb ed="#V" n="20"/>secundum quam terminatur et refertur
+            <lb ed="#V" n="21"/>virtus ejus activa ad effectum, ut per eam
+            <lb ed="#V" n="22"/>transit in esse, et forma est actio; haec
+            <lb ed="#V" n="23"/>non transfertur in Deum per modum
+            for<lb ed="#V" n="24" break="no"/>mae, ut dixi, quia voluntas ejus, seu velle
+            <lb ed="#V" n="25"/>substantiale, ut terminat eam effectus,
+            <lb ed="#V" n="26"/>non est medium sicut in causis creatis
+            <lb ed="#V" n="27"/>inter virtutem activam et effectum, sed
+            <lb ed="#V" n="28"/>est ipsum principium, a quo exit seu
+            <lb ed="#V" n="29"/>emanat effectus immediate, ideo in Deo
+            <lb ed="#V" n="30"/>supra virtutem non datur aliqua forma
+            <lb ed="#V" n="31"/>media per modum actionis, qua dicatur
+            <lb ed="#V" n="32"/>agens, neque requiritur, quia ipsa ejus
+            <lb ed="#V" n="33"/>volitio infinita continet omnem
+            determi<lb ed="#V" n="34" break="no"/>nationem actus secundi per modum
+            acti<lb ed="#V" n="35" break="no"/>onis sumptam; non ita virtus causae
+            crea<lb ed="#V" n="36" break="no"/>tae, quae seipsa non attingit, neque
+            attin<lb ed="#V" n="37" break="no"/>gere potest effectum, nisi praeterea
+            acce<lb ed="#V" n="38" break="no"/>dat alia forma per modum actus secundi
+            <lb ed="#V" n="39"/>diversa a virtute et potentia actus primi,
+            <lb ed="#V" n="40"/>et haec est actio ejus.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Quia tamen creatura intelligitur fluere
+            <lb ed="#V" n="42"/>et exire a Deo per modum effectus, et
+            <lb ed="#V" n="43"/>respective ad Deum, intelligatur semper
+            <lb ed="#V" n="44"/>esse in fieri, id est, dependens in suo
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>esse, sumitur quidam conceptus servata
+            <lb ed="#V" n="46"/>proportione ad actum secundum causae
+            <lb ed="#V" n="47"/>creatae ab illa dependentia effectus qua
+            <lb ed="#V" n="48"/>unitur semper virtuti causae primae
+            influen<lb ed="#V" n="49" break="no"/>tis esse illa proportione, qua effectus
+            <lb ed="#V" n="50"/>dicitur in fieri, ut est a causa creata
+            <lb ed="#V" n="51"/>producente illum actualiter, et per ipsam
+            <lb ed="#V" n="52"/>actionem uniri effectum, ut fit, virtuti
+            <lb ed="#V" n="53"/>causae producentis. Haec denominatio,
+            <lb ed="#V" n="54"/>quia nequit sumi a Deo, sumitur ex ipsa
+            <lb ed="#V" n="55"/>dependentia, quae est in creatura, ut
+            con<lb ed="#V" n="56" break="no"/>notat suum principium, nempe
+            volunta<lb ed="#V" n="57" break="no"/>tem divinam, denominat per modum
+            acti<lb ed="#V" n="58" break="no"/>onis, et servata quadam proportione
+            me<lb ed="#V" n="59" break="no"/>diat inter substantiam effectus, et Deum
+            <lb ed="#V" n="60"/>causantem; ideo non est alia similitudo
+            <lb ed="#V" n="61"/>inter denominationes has, nisi
+            propor<lb ed="#V" n="62" break="no"/>tionis, non vero entitatis aut modi.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>(f) Dicatur erge, etc. Concludit actionem
+            <lb ed="#V" n="64"/>esse relationem extrinsecus advenientem,
+            <lb ed="#V" n="65"/>subjectari in agente, fundari in potentia
+            <lb ed="#V" n="66"/>ejus activa; passio e contra in passo
+            sub<lb ed="#V" n="67" break="no"/>jectatur et fundatur in potentia ejus
+            pas<lb ed="#V" n="68" break="no"/>siva. Distinguit actionem a relatione
+            pro<lb ed="#V" n="69" break="no"/>ducentis ad productum, quae est ad totum,
+            <lb ed="#V" n="70"/>et a relatione educentis ad eductum, quae
+            <lb ed="#V" n="71"/>est ad formam; et hae sunt quarti
+            Praedi<lb ed="#V" n="72" break="no"/>camenti et secundi generis: Actio vero
+            <lb ed="#V" n="73"/>est relatio transmutantis ad transmutatum,
+            <lb ed="#V" n="74"/>nempe ad passum, quia ex Philosopho 5.
+            <lb ed="#V" n="75"/>Metaphysicae textu com. 17. definitur
+            po<lb ed="#V" n="76" break="no"/>tentia activa quod sit principium
+            trans<lb ed="#V" n="77" break="no"/>mutandi aliud, inquantum aliud, id est,
+            <lb ed="#V" n="78"/>passum; actus autem illius potentiae est
+            <lb ed="#V" n="79"/>actio ipsa, ergo est ad transmutationem
+            <lb ed="#V" n="80"/>et ad passum.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Differentia harum relationum, ut melius
+            <lb ed="#V" n="82"/>colligatur potest objici frustra multiplicari,
+            <lb ed="#V" n="83"/>quia agens, inquantum educens formam,
+            <lb ed="#V" n="84"/>est transmutans passum de privatione ad
+            <lb ed="#V" n="85"/>actum, neque aliter potest transmutare
+            <lb ed="#V" n="86"/>inquantum etiam educens est producens,
+            <lb ed="#V" n="87"/>quia eo ipso quod forma ponatur in
+            sub<lb ed="#V" n="88" break="no"/>jecto in fleri, aut facto esse, ponitur
+            <lb ed="#V" n="89"/>totum in fieri et facto esse.
+          </p>
+          <p>
+            <pb ed="#V" n="673"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Praeterea, actio si est praecise respectu
+            <lb ed="#V" n="2"/>passi, non erit productio termini, aut via
+            <lb ed="#V" n="3"/>in terminum, aut causalitas efficientis,
+            <lb ed="#V" n="4"/>imo prius natura communicatur forma
+            <lb ed="#V" n="5"/>subjecto in fieri et facto esse, quam
+            con<lb ed="#V" n="6" break="no"/>cipitur subjectum transmutari, et seclusa
+            <lb ed="#V" n="7"/>omni alia relatione habetur per hoc solum
+            <lb ed="#V" n="8"/>subjectum transmutatum; ergo non datur
+            <lb ed="#V" n="9"/>alia relatio, quae sit diversa.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Praeterea, virtus activa agentis reducitur
+            <lb ed="#V" n="11"/>ad actum secundum per talem
+            educti<lb ed="#V" n="12" break="no"/>onem; ergo et potentia passiva subjecti.
+            <lb ed="#V" n="13"/>Praeterea, debet servari proportio inter
+            <lb ed="#V" n="14"/>causam secundam et primam, quantum
+            <lb ed="#V" n="15"/>est ad actum secundum; sed causa prima
+            <lb ed="#V" n="16"/>ad intra et ad extra reducitur in actum per
+            <lb ed="#V" n="17"/>solam productionem, et non per actionem,
+            <lb ed="#V" n="18"/>ergo et secunda.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Respondetur hic non esse
+            multiplica<lb ed="#V" n="20" break="no"/>tionem entium sine necessitate; et haec
+            <lb ed="#V" n="21"/>tria ab omnibus passim distingui, quia
+            <lb ed="#V" n="22"/>relationes educentis et producentis
+            ma<lb ed="#V" n="23" break="no"/>nent praeterita actione et passione,
+            quo<lb ed="#V" n="24" break="no"/>rum esse est in fieri secundum
+            commu<lb ed="#V" n="25" break="no"/>nem.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Advertendum ergo alium esse ordinem
+            <lb ed="#V" n="27"/>causarum ad invicem, alium vero
+            ordi<lb ed="#V" n="28" break="no"/>nem effectus ad causas, vel causarum ad
+            <lb ed="#V" n="29"/>ipsos effectus; passum dicit ordinem
+            po<lb ed="#V" n="30" break="no"/>tentiae passivae ad activam, inquantum
+            <lb ed="#V" n="31"/>per hanc reducitur ad actum; activa
+            <lb ed="#V" n="32"/>eodem modo ad passivam inquantum est
+            <lb ed="#V" n="33"/>principium transmutandi, et praeterea, in
+            <lb ed="#V" n="34"/>ipsa sua causalitate et effectu dependens
+            <lb ed="#V" n="35"/>a causa materiali; jam suppono actionem
+            <lb ed="#V" n="36"/>utramque in suo rigore convenire tantum
+            <lb ed="#V" n="37"/>causae secundae, ut denotat dependentiam
+            <lb ed="#V" n="38"/>suae virtutis in agendo a passo.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>His suppositis, sicut diversa sunt
+            extre<lb ed="#V" n="40" break="no"/>ma, ita sunt diversae relationes. Est ergo
+            <lb ed="#V" n="41"/>dependentia causarum a se invicem, et
+            <lb ed="#V" n="42"/>ordo diversae rationis a dependentia,
+            <lb ed="#V" n="43"/>effectus ad causas, vel e contra; actio
+            <lb ed="#V" n="44"/>autem, ut est in passum, non praescindit
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>a termino, seu a re acta, quam
+            communi<lb ed="#V" n="46" break="no"/>cat in fieri aut facto esse subjecto.
+            <lb ed="#V" n="47"/>Licet ergo actio et eductio sint simul et
+            <lb ed="#V" n="48"/>concomitanter, alius tamen est ordo
+            <lb ed="#V" n="49"/>actionis ad passum, et involvit
+            materiali<lb ed="#V" n="50" break="no"/>ter id quod communicat seu connotat in
+            <lb ed="#V" n="51"/>esse rei; unde in motu haec distinguuntur,
+            <lb ed="#V" n="52"/>nempe ipse motus et forma secundum
+            <lb ed="#V" n="53"/>quam est motus. Et dicitur terminus
+            reci<lb ed="#V" n="54" break="no"/>piens esse per motum, tanquam per
+            ra<lb ed="#V" n="55" break="no"/>tionem, qua fit et transit de non esse ad
+            <lb ed="#V" n="56"/>esse, ut est a causa efficiente ut ab hoc,
+            <lb ed="#V" n="57"/>et est a subjecto ut in hoc, et sic involvit
+            <lb ed="#V" n="58"/>actionem et passionem, qui sunt respectus
+            <lb ed="#V" n="59"/>activi et passivi, ut prius natura
+            compa<lb ed="#V" n="60" break="no"/>rantur ad invicem causae secundum
+            pro<lb ed="#V" n="61" break="no"/>portionem activi et passivi; et passivum
+            <lb ed="#V" n="62"/>est in potentia, ut reducatur per activum
+            <lb ed="#V" n="63"/>in actum, et mediante actione attingit
+            <lb ed="#V" n="64"/>virtus agentis suum passum, ipsum
+            <lb ed="#V" n="65"/>actuando seu transmutando, licet, ut
+            <lb ed="#V" n="66"/>dixi, secundum formam, quae est in fluxu
+            <lb ed="#V" n="67"/>mediante virtute agentis, ut applicatur
+            <lb ed="#V" n="68"/>passo per actionem, quae est ad passum.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Ut ergo actio est actus activi, ut
+            com<lb ed="#V" n="70" break="no"/>paratur ad passum, et passio passivi, ut
+            <lb ed="#V" n="71"/>comparatur ad agens, ita hae relationes
+            ipso<lb ed="#V" n="72" break="no"/>rum insunt, qua prius natura dicunt
+            ordi<lb ed="#V" n="73" break="no"/>nem immediatum ad invicem, qui
+            conno<lb ed="#V" n="74" break="no"/>tat illud secundum quod dicunt ordinem,
+            <lb ed="#V" n="75"/>nempe formam materialiter sumptam in
+            <lb ed="#V" n="76"/>ratione communicati actus ab agente, et
+            <lb ed="#V" n="77"/>succedentis in potentia quae virtute
+            agen<lb ed="#V" n="78" break="no"/>tis mutatur ab .opposito privativo, et
+            ter<lb ed="#V" n="79" break="no"/>minatur ejus appetitus.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Ut in simili potest declarari, verbi gratia.
+            <lb ed="#V" n="81"/>in causa prima et secunda, inter quas est
+            <lb ed="#V" n="82"/>ordo essentialis secundum actionem, nam
+            <lb ed="#V" n="83"/>causa secunda dependet in agendo a
+            <lb ed="#V" n="84"/>prima, non solum ratione termini
+            commu<lb ed="#V" n="85" break="no"/>nis producti, quia sic etiam causae
+            partia<lb ed="#V" n="86" break="no"/>les a se invicem dependent, sed etiam
+            <lb ed="#V" n="87"/>in actione ipsa, quia virtus participata et
+            <lb ed="#V" n="88"/>dependens in actu secundo est a causa
+            <pb ed="#V" n="674"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>prima. Haec dependentia non est ipsa
+            <lb ed="#V" n="2"/>actio, licet sit secundum actionem, sed est
+            <lb ed="#V" n="3"/>ordo et dependentia secundum actionem
+            <lb ed="#V" n="4"/>ad causam primam, a qua participatur
+            <lb ed="#V" n="5"/>actio ipsa, quam importat actio ipsa
+            con<lb ed="#V" n="6" break="no"/>notative et materialiter ipse ordo et
+            de<lb ed="#V" n="7" break="no"/>pendentia agentis ab agente.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Simili modo in proposito actio connotat
+            <lb ed="#V" n="9"/>formam secundum quam mutatur passum,
+            <lb ed="#V" n="10"/>ut fit in passo, tamen ipsa actio est ordo
+            <lb ed="#V" n="11"/>activi ad ipsum passum, inquantum est
+            <lb ed="#V" n="12"/>passum, et prior natura ordine agentis ad
+            <lb ed="#V" n="13"/>ipsam formam; quo sensu dicuntur
+            rela<lb ed="#V" n="14" break="no"/>tiones secundi modi fundari in actione et
+            <lb ed="#V" n="15"/>passione a Philosopho.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Ordo educentis ad formam eductam
+            <lb ed="#V" n="17"/>s denotat dependentiam formae ad
+            educen<lb ed="#V" n="18" break="no"/>tem, qua forma transit de non esse ad esse
+            <lb ed="#V" n="19"/>dependenter a potentia subjecti simul
+            <lb ed="#V" n="20"/>concurrentis in suo genere; hic ordo est
+            <lb ed="#V" n="21"/>posterior priore, quia prius natura causae
+            <lb ed="#V" n="22"/>se invicem respiciunt, et dependent a se
+            <lb ed="#V" n="23"/>invicem, quam respiciunt effectum, qui
+            <lb ed="#V" n="24"/>posterior est secundum dependentiam.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Tertius ordo est producentis ad
+            produ<lb ed="#V" n="26" break="no"/>ctum, sive sit compositum accidentale,
+            <lb ed="#V" n="27"/>sive substantiale, quia compositum dicit
+            <lb ed="#V" n="28"/>unionem saltem supra formam, et ab ipsa
+            <lb ed="#V" n="29"/>diversam, et ad compositum comparatur
+            <lb ed="#V" n="30"/>etiam forma ipsa, ut dat esse per modum
+            <lb ed="#V" n="31"/>causae formalis, non ut recipit esse per
+            <lb ed="#V" n="32"/>modum termini a suis causis prioribus,
+            <lb ed="#V" n="33"/>quia perinde daret idem esse, etiamsi
+            <lb ed="#V" n="34"/>esset improducta; unde sequitur hunc
+            <lb ed="#V" n="35"/>ordinem esse diversum a priori; ex his
+            <lb ed="#V" n="36"/>. autem, quia conjuncti sunt, facilis est
+            <lb ed="#V" n="37"/>transitus, de uno in alium secundum
+            fal<lb ed="#V" n="38" break="no"/>laciam accidentis; conveniunt nempe in
+            <lb ed="#V" n="39"/>uno quod materialiter connotant, nempe in
+            <lb ed="#V" n="40"/>forma, secundum quam omnia contingunt,
+            <lb ed="#V" n="41"/>seu in termino; differunt tamen in suo
+            <lb ed="#V" n="42"/>formali secundum ordinem, tam formae
+            <lb ed="#V" n="43"/>quam termini, quam etiam causarum ad
+            <lb ed="#V" n="44"/>invicem.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Ad objectionem ergo patet, negando
+            <lb ed="#V" n="46"/>hic multiplicari respectus superflue, quia
+            <lb ed="#V" n="47"/>multiplicantur secundum exigentiam
+            ex<lb ed="#V" n="48" break="no"/>tremorum. Ad primam probationem
+            re<lb ed="#V" n="49" break="no"/>spondetur, negando antecedens in sensu
+            <lb ed="#V" n="50"/>formali, quia educens inquantum
+            edu<lb ed="#V" n="51" break="no"/>cens, est tantum dans esse formae
+            concur<lb ed="#V" n="52" break="no"/>rente materia, et eductio ex parte termini
+            <lb ed="#V" n="53"/>denotat simplicem, et propriam ejus
+            de<lb ed="#V" n="54" break="no"/>pendentiam ab efficiente simul cum
+            ma<lb ed="#V" n="55" break="no"/>teria; actio autem denotat dependentiam
+            <lb ed="#V" n="56"/>passi, seu ordinem agentis ad passum,
+            <lb ed="#V" n="57"/>inquantum activum et passivum sunt, qui
+            <lb ed="#V" n="58"/>ordo est prior natura in causis etiam ut
+            <lb ed="#V" n="59"/>comparantur ad invicem in actu secundo,
+            <lb ed="#V" n="60"/>quam ordo eorum, qua dante esse formae
+            <lb ed="#V" n="61"/>tanquam termino; et hic ordo est
+            secun<lb ed="#V" n="62" break="no"/>dum prioritatem dependentiae, quae
+            sup<lb ed="#V" n="63" break="no"/>ponitur inter activum et passivum ad
+            or<lb ed="#V" n="64" break="no"/>dinem dependentiae formae ab ipsis; unde
+            <lb ed="#V" n="65"/>sicut in ipsa forma prior est ordo ejus ad
+            <lb ed="#V" n="66"/>agens, qua recipit esse per eductionem ab
+            <lb ed="#V" n="67"/>agente, quam ordo ejusdem formae ad
+            <lb ed="#V" n="68"/>idem agens, inquantum simul concurrit
+            <lb ed="#V" n="69"/>cum caeteris causis ad effectum
+            commu<lb ed="#V" n="70" break="no"/>nem, sic materia, inquantum potentia
+            <lb ed="#V" n="71"/>actuabilis virtute agentis, prius dicit
+            ordi<lb ed="#V" n="72" break="no"/>nem ad agens, et agens ad ipsam, quam
+            <lb ed="#V" n="73"/>utrumque simul ad dandum esse formae;
+            <lb ed="#V" n="74"/>prius, inquam, secundum ordinem
+            de<lb ed="#V" n="75" break="no"/>pendentiae, licet simul concurrat hic alius
+            <lb ed="#V" n="76"/>ordo ad formam secundum quam
+            trans<lb ed="#V" n="77" break="no"/>mutatio fit in materia.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>Ad secundam probationem, negatur
+            <lb ed="#V" n="79"/>antecedens cum sua probatione, nisi
+            in<lb ed="#V" n="80" break="no"/>telligatur consecutive, quia, sicut dictum
+            <lb ed="#V" n="81"/>est, prius forma recipit esse, quam nata
+            <lb ed="#V" n="82"/>est causare effectum communem sibi, et
+            <lb ed="#V" n="83"/>caeteris causis.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>Ad tertiam probationem patebit in
+            ex<lb ed="#V" n="85" break="no"/>positione litterae sequentis; et pro nunc
+            <lb ed="#V" n="86"/>respondetur actionem formaliter sumptam
+            <lb ed="#V" n="87"/>non esse productionem, esse tamen
+            pro<lb ed="#V" n="88" break="no"/>ductionem ratione connotati, nempe
+            for<pb ed="#V" n="675"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>mae et compositi, ut jam cum Doctore
+            <lb ed="#V" n="2"/>explicabitur.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d13q1-p5"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44" type="fixed=677"/>COMMENTARIUS
+          </p>
+          <p>
+            <lb ed="#V" n="45"/>(g) Ex dictis patet aequivocatio, etc.
+            <lb ed="#V" n="46"/>Hic exponit Doctor quinque acceptiones
+            <lb ed="#V" n="47"/>actionis, secundum quas contingit
+            multi<lb ed="#V" n="48" break="no"/>plex aequivocatio nominis. Primo, sumitur
+            <lb ed="#V" n="49"/>pro operatione potentiae vitalis, et sic est
+            <lb ed="#V" n="50"/>qualitas absoluta, ut patet ex 1. dist. 3.
+            <lb ed="#V" n="51"/>quaest. ult. Secundo, sumitur respectu
+            <lb ed="#V" n="52"/>producentis ad productum, sic dicitur
+            <lb ed="#V" n="53"/>pater causa agens filii. Tertio, pro
+            respe<lb ed="#V" n="54" break="no"/>ctu educentis ad eductum, ut calidum
+            <lb ed="#V" n="55"/>causa agens calorem in lignum. Quarto,
+            <lb ed="#V" n="56"/>sumitur pro relatione transmutantis ad
+            <lb ed="#V" n="57"/>transmutatum, ut hic sumitur.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Et sic describitur in lib. de Sex
+            Princi<lb ed="#V" n="59" break="no"/>piis cap. de Actione, secundum quam in
+            <lb ed="#V" n="60"/>illud quod subjicitur, agere dicimur, etc.
+            <lb ed="#V" n="61"/>et est actus potentiae activae, quae definitur
+            <lb ed="#V" n="62"/>a Philosopho 5. Metaphys. text. com. 17.
+            <lb ed="#V" n="63"/>Principium transmutandi aliud
+            inquan<lb ed="#V" n="64" break="no"/>tum aliud, et sic constituit proprium
+            <lb ed="#V" n="65"/>Praedicamentum.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Quinto modo sumitur pro re acta, et
+            <lb ed="#V" n="67"/>sic pertinet ad illud genus ad quod
+            <lb ed="#V" n="68"/>pertinet res ipsa seu terminus;
+            secun<lb ed="#V" n="69" break="no"/>dum hanc acceptionem explicat
+            Philo<lb ed="#V" n="70" break="no"/>sophum 3. Physicor, textu 19. de motu,
+            <lb ed="#V" n="71"/>ubi dicit, quod actio est opus et finis
+            hu<lb ed="#V" n="72" break="no"/>jus, id est, activi, quod debet intelligi de
+            <lb ed="#V" n="73"/>re acta in qua constituitur finis agentis;
+            <lb ed="#V" n="74"/>unde ibi dicit quod motus est actus activi
+            <lb ed="#V" n="75"/>et passivi; activi, ut ab hoc, passivi, ut in
+            <lb ed="#V" n="76"/>ipso.
+            <lb ed="#V" n="77"/>Ille autem motus secundum
+            Commen<lb ed="#V" n="78" break="no"/>tatorem est forma fluens, et sic definitur
+            <lb ed="#V" n="79"/>etiam ibidem: motus actus entis in
+            poten<lb ed="#V" n="80" break="no"/>tia, secundum quod in potentia; illa
+            par<lb ed="#V" n="81" break="no"/>ticula ut ab ipso, potest denotare, ut a
+            <lb ed="#V" n="82"/>transmutante, vel a producente et
+            indu<lb ed="#V" n="83" break="no"/>cente, et utrumque debet intelligi
+            ter<lb ed="#V" n="84" break="no"/>minative
+            <pb ed="#V" n="678"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Ex his patet actionem de genere
+            Acti<lb ed="#V" n="2" break="no"/>onis non esse formaliter productionem,
+            <lb ed="#V" n="3"/>aut viam in terminum, prout haec via
+            <lb ed="#V" n="4"/>denotat transitum termini de non esse ad
+            <lb ed="#V" n="5"/>esse, quia productio est respectus agentis
+            <lb ed="#V" n="6"/>ad id quod recipit esse; actio vero ad id
+            <lb ed="#V" n="7"/>quod transmutatur; via in terminum est,
+            <lb ed="#V" n="8"/>vel respectus producentis, vel certe ipse
+            <lb ed="#V" n="9"/>terminus realiter, ut est in fluxu et
+            tran<lb ed="#V" n="10" break="no"/>situ de non esse ad esse; actio est
+            causa<lb ed="#V" n="11" break="no"/>litas efficientis respectu materiae; sed
+            <lb ed="#V" n="12"/>productio est causalitas ejus respectu
+            <lb ed="#V" n="13"/>termini.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Ex quo patet ad reliqua objectionis
+            <lb ed="#V" n="15"/>superius praemissae. Ad aliud negatur
+            <lb ed="#V" n="16"/>per eductionem reduci virtutem activam
+            <lb ed="#V" n="17"/>agentis formaliter in actum secundum,
+            <lb ed="#V" n="18"/>nisi praecise, qua est inductiva, aut
+            edu<lb ed="#V" n="19" break="no"/>ctiva formae; neque etiam habetur
+            forma<lb ed="#V" n="20" break="no"/>lis conceptus transmutationis passi per
+            <lb ed="#V" n="21"/>eductionem, sed habetur conceptus
+            su<lb ed="#V" n="22" break="no"/>stentationis, quia materia ad eductionem
+            <lb ed="#V" n="23"/>comparatur, ut causa ejus, qua dat esse
+            <lb ed="#V" n="24"/>formae; hoc autem non est materiam
+            for<lb ed="#V" n="25" break="no"/>maliter transmutari aut reduci ad actum
+            <lb ed="#V" n="26"/>ab agente, sed dare simul cum agente
+            <lb ed="#V" n="27"/>esse formae, licet utrumque se mutuo
+            <lb ed="#V" n="28"/>connotent:
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Ad ultimum respondetur in Deo non
+            <lb ed="#V" n="30"/>esse actionem, sed productionem ad
+            <lb ed="#V" n="31"/>extra; in agente vero creato intrinsece
+            <lb ed="#V" n="32"/>est actio simul, et productio; unde Deus
+            <lb ed="#V" n="33"/>ex sua actualitate constituitur agens in
+            <lb ed="#V" n="34"/>actu secundo per principium agendi, ut
+            <lb ed="#V" n="35"/>est ad terminum, vel per denominationem
+            <lb ed="#V" n="36"/>extrinsecam ab effectu, non ita causa
+            <lb ed="#V" n="37"/>secunda, quae requirit determinationem
+            <lb ed="#V" n="38"/>actus secundi intrinsecam sibi, sive
+            di<lb ed="#V" n="39" break="no"/>catur actio, sive productio, sive eductio,
+            <lb ed="#V" n="40"/>quae connotant idem quidem materiale ex
+            <lb ed="#V" n="41"/>parte rei, quae fit; tamen sunt diversi
+            re<lb ed="#V" n="42" break="no"/>spectus ad diversos terminos, et
+            secun<lb ed="#V" n="43" break="no"/>dum ordinem dependentiae per se
+            di<lb ed="#V" n="44" break="no"/>versum propter identitatem rei connotatae
+            <lb ed="#V" n="45"/>saepe sumuntur pro se invicem
+          </p>
+        <!-- </div>
+    <div alias="hiq-d13q1-p6"> -->
+          <p>
+            <lb ed="#V" n="50" type="fixed=679"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>(h) Ad propositum ergo, etc. Excludit
+            <lb ed="#V" n="52"/>actionem proprie dictam a Deo ad intra,
+            <lb ed="#V" n="53"/>et etiam ad extra, ut producit
+            indepen<lb ed="#V" n="54" break="no"/>denter a materia, quia ad intra omnia
+            <lb ed="#V" n="55"/>ex natura extremorum necessario se
+            <lb ed="#V" n="56"/>habent, et non per aliquid extrinsecus
+            <lb ed="#V" n="57"/>adveniens; ad extra vero etiam effectus
+            <lb ed="#V" n="58"/>necessario se habet ad primam causam,
+            <lb ed="#V" n="59"/>et ex modo productionis excluditur
+            con<lb ed="#V" n="60" break="no"/>cursus potentialis, secundum quod
+            re<lb ed="#V" n="61" break="no"/>sultat actio et passio; ad intra tamen,
+            <lb ed="#V" n="62"/>et extra est aliquid correspondens suo
+            <lb ed="#V" n="63"/>modo passioni et actioni, quod aequivoce
+            <lb ed="#V" n="64"/>dicitur actio et passio, nempe ipsa
+            pro<lb ed="#V" n="65" break="no"/>ductio activa et passiva. An autem Deo
+            <lb ed="#V" n="66"/>correspondeat aliqua passio in materia,
+            <lb ed="#V" n="67"/>ut simul cum causa secunda eam
+            trans<lb ed="#V" n="68" break="no"/>mutat, respondet S sequenti, in quo id
+            <lb ed="#V" n="69"/>affirmat.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d13q1-p7"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="46" type="fixed=680"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>(i) Sed in propositio de ista conversione,
+            <lb ed="#V" n="48"/>numquid, etc. Hic tandem, explicata
+            hacte<lb ed="#V" n="49" break="no"/>nus natura actionis et passionis in creatis,
+            <lb ed="#V" n="50"/>etut secundum proportionem transfertur in
+            <lb ed="#V" n="51"/>Deum, resolvit quid dicendum sit in
+            pro<lb ed="#V" n="52" break="no"/>posito de conversione, et est conclusio
+            <lb ed="#V" n="53"/>principalis hujus articuli. Dicit ergo
+            pri<lb ed="#V" n="54" break="no"/>mo dari actionem rationis, nempe
+            volun<lb ed="#V" n="55" break="no"/>tatem Dei, qua mutat unam substantiam
+            <lb ed="#V" n="56"/>in aliam; Deo enim soli competit mutatio
+            <lb ed="#V" n="57"/>totalis substantiae in substantiam, juxta
+            <lb ed="#V" n="58"/>dicta dist. 11. quaest. 6.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Quantum autem ad actionem
+            produ<lb ed="#V" n="60" break="no"/>ctivam et correspondentem actioni de
+            <lb ed="#V" n="61"/>genere Actionis, si ponenda sit,
+            respon<lb ed="#V" n="62" break="no"/>det, tenendo hic esse conversionem per
+            <lb ed="#V" n="63"/>transubstantiationem adductivam dari
+            ta<lb ed="#V" n="64" break="no"/>lem actionem, nempe productionem novae
+            <lb ed="#V" n="65"/>praesentiae in corpore Christi, in quo est
+            <lb ed="#V" n="66"/>passio proprie dicta per modum
+            trans<lb ed="#V" n="67" break="no"/>mutationis, neque haec repugnat Deo;
+            <lb ed="#V" n="68"/>potest enim transmutare aliquod passum,
+            <lb ed="#V" n="69"/>sicut natura transmutat, ita ut
+            transmu<lb ed="#V" n="70" break="no"/>tatio passiva sit passio proprie dicta;
+            <lb ed="#V" n="71"/>activa vero sit actio per modum
+            produ<lb ed="#V" n="72" break="no"/>ctionis.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Unde sequitur quod praedicamentum
+            <lb ed="#V" n="74"/>Actionis possit in Deum transferri, sed
+            <lb ed="#V" n="75"/>non ad intra, inquantum scilicet passio,
+            <lb ed="#V" n="76"/>quae est in materia, est a Deo; unde
+            se<lb ed="#V" n="77" break="no"/>quitur passionem, quae sit de genere
+            Ac<lb ed="#V" n="78" break="no"/>tionis, dari posse sine actione, quae sit
+            <lb ed="#V" n="79"/>de eodem, licet non sine actione, quae
+            <lb ed="#V" n="80"/>sit productio passiva formae, secundum
+            <lb ed="#V" n="81"/>quam est passio. De utraque sententia
+            <lb ed="#V" n="82"/>satis dictum est supra d. 10. quaest. 3.
+            <lb ed="#V" n="83"/>et 4. et in commento utriusque quaest.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>(K) Harum duarum sententiarum, etc.
+            <lb ed="#V" n="85"/>Intelligit primam, quae est aliorum, nempe
+            <lb ed="#V" n="86"/>converti panem in corpus Christi sine
+            <lb ed="#V" n="87"/>aliqua novitate in corpore, quam suo
+            <pb ed="#V" n="681"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>loco supra impugnat, eo ipso quod detur
+            <lb ed="#V" n="2"/>nova actio, necessario dari terminum
+            <lb ed="#V" n="3"/>illius, et cum non sit aliquod absolutum
+            <lb ed="#V" n="4"/>in corpore Christi, qui fit praesens per
+            <lb ed="#V" n="5"/>conversionem, necessario dandam esse
+            <lb ed="#V" n="6"/>relationem, quae est praesentia ejus nova
+            <lb ed="#V" n="7"/>ad species.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d13q1-p8"> -->
+          <p>
+            <lb ed="#V" n="70" type="fixed=685"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>(1) Ad argumenta contra istum articulum.
+            <lb ed="#V" n="72"/>Egregie solvit, et per abundantem
+            <lb ed="#V" n="73"/>doctrinam quinque argumenta supra facta
+            <lb ed="#V" n="74"/>in favorem opinionis, quae statuit actionem
+            <lb ed="#V" n="75"/>et productionem consistere in positivo
+            <lb ed="#V" n="76"/>absoluto. Ad primum, quod est
+            productio<lb ed="#V" n="77" break="no"/>nem fieri actione, et non relatione; ergo
+            <lb ed="#V" n="78"/>actio non est relatio. Respondet instando
+            <lb ed="#V" n="79"/>contra illam minorem, et non relatione.
+            <lb ed="#V" n="80"/>etc. quia productio passiva, qua creatura
+            <lb ed="#V" n="81"/>emanat a Deo, non est aliquid absolutum,
+            <lb ed="#V" n="82"/>sed respectivum; non est autem magis
+            <lb ed="#V" n="83"/>inconveniens, quod relatione media
+            tan<lb ed="#V" n="84" break="no"/>quam actu productivo passivo aliquid
+            pro<lb ed="#V" n="85" break="no"/>ducatur, quam quod mediante respectu
+            <lb ed="#V" n="86"/>aliquid producatur, quia ideo relationt
+            <lb ed="#V" n="87"/>repugnaret, quia per se differt, et qua
+            <pb ed="#V" n="686"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>differt a forma absoluta, si ex hoc medio
+            <lb ed="#V" n="2"/>non solum removeatur a relatione esse
+            <lb ed="#V" n="3"/>productionem, sed consequenter
+            transfer<lb ed="#V" n="4" break="no"/>tur in absolutam formam, quia absolutum,
+            <lb ed="#V" n="5"/>qua absolutum, perinde excludit
+            respe<lb ed="#V" n="6" break="no"/>ctum, sicut relationem.
+            <lb ed="#V" n="7"/>Secundo, quia creatio passiva, per
+            <lb ed="#V" n="8"/>quam creatura recipit esse, est relatio.
+            <lb ed="#V" n="9"/>Ostendit praeterea committi
+            amphibolo<lb ed="#V" n="10" break="no"/>giam, et fallaciam figurae dictionis, ut
+            cla<lb ed="#V" n="11" break="no"/>rum est ex textu. Notanda illa maxima;
+            <lb ed="#V" n="12"/>nempe in concretis denotantibus respectum,
+            <lb ed="#V" n="13"/>formam in abstracto construi in ablatino
+            <lb ed="#V" n="14"/>casu, vel ut denominat principium
+            proxi<lb ed="#V" n="15" break="no"/>mum vel remotum.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Ad secundum, mutatur Ad aliquid in
+            <lb ed="#V" n="17"/>absolutum secundum figuram dictionis,
+            <lb ed="#V" n="18"/>unde creare, ut dicit actum ex parte Dei,
+            <lb ed="#V" n="19"/>supponit pro actu voluntatis divinae, et
+            <lb ed="#V" n="20"/>connotat objectum extra, seu transitum
+            <lb ed="#V" n="21"/>ejus in objectum; importat autem
+            princi<lb ed="#V" n="22" break="no"/>paliter ipsum actum, qui est principium
+            <lb ed="#V" n="23"/>effectus. Creare passive denotat
+            principa<lb ed="#V" n="24" break="no"/>liter relationem creaturae, seu
+            productio<lb ed="#V" n="25" break="no"/>nem passivam ejus, et connotat actum
+            <lb ed="#V" n="26"/>divinae voluntatis, ut transit in objectum;
+            <lb ed="#V" n="27"/>creatio autem, ut est in termino, est
+            <lb ed="#V" n="28"/>relatio seu productio passiva, unde non
+            <lb ed="#V" n="29"/>sequitur, si creatio est relatio, ergo creare
+            <lb ed="#V" n="30"/>est referri; transitur enim de creatione,
+            <lb ed="#V" n="31"/>ut in creatura ad principium ejus, a quo
+            <lb ed="#V" n="32"/>est, nempe divinae voluntatis secundum
+            <lb ed="#V" n="33"/>figuram dictionis.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>Ad tertium respondet, quod generare
+            <lb ed="#V" n="35"/>etiam ad intra est relatio, et generare
+            <lb ed="#V" n="36"/>referri taliter, id est, secundum speciem
+            <lb ed="#V" n="37"/>talis relationis, nempe relatione originis.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Ad quartum, negat majorem, et merito,
+            <lb ed="#V" n="39"/>quia Pater, qua Pater, est causa Filii, et
+            <lb ed="#V" n="40"/>uterque, qua spirator, est causa Spiritus
+            <lb ed="#V" n="41"/>sancti, sumendo causam late, ut
+            exten<lb ed="#V" n="42" break="no"/>ditur ad producens. Ad minorem
+            respon<lb ed="#V" n="43" break="no"/>detur, relativa esse natura, et cognitione
+            <lb ed="#V" n="44"/>simul, non vero origine, ut dictum est in
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>1. dist. 28. quaest. 3. Deinceps explicat,
+            <lb ed="#V" n="46"/>quomodo aliqua possint esse simul in
+            <lb ed="#V" n="47"/>intellectu, et non esse simul in re
+            <lb ed="#V" n="48"/>extra, et tunc simultas in intellectu
+            appel<lb ed="#V" n="49" break="no"/>lat modum cognoscendi, et non modum
+            <lb ed="#V" n="50"/>essendi. Item, quomodo aliqua
+            denomina<lb ed="#V" n="51" break="no"/>tione sunt simul, ut subsunt respectui,
+            <lb ed="#V" n="52"/>tamen per se fundamentaliter sumpta
+            <lb ed="#V" n="53"/>dicunt ordinem, et non sunt simul, sed
+            <lb ed="#V" n="54"/>unum alteri praesupponitur, verbi gratia,
+            <lb ed="#V" n="55"/>pater et filius in creatis sunt simul, qua
+            <lb ed="#V" n="56"/>dicunt relationem ad invicem, non sunt
+            <lb ed="#V" n="57"/>tamen simul secundum denominata, quia
+            <lb ed="#V" n="58"/>unum alteri supponitur in esse.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Ad quintum respondet, exponendo
+            <lb ed="#V" n="60"/>Philosophum tripliciter; primo, negando
+            <lb ed="#V" n="61"/>relationes secundi modi fundari in actione
+            <lb ed="#V" n="62"/>et passione, ut fundamento, sed praemitti
+            <lb ed="#V" n="63"/>ut dispositiones quasdam, vel conditiones
+            <lb ed="#V" n="64"/>fundandi. Secundo, respondet posse
+            intel<lb ed="#V" n="65" break="no"/>ligi actionem pro productione, et fundari in
+            <lb ed="#V" n="66"/>potentia activa tanquam fundamento.
+            Ter<lb ed="#V" n="67" break="no"/>tio, quod Philosophus non tantum ibi
+            po<lb ed="#V" n="68" break="no"/>nat species relationis, sed modos,
+            secun<lb ed="#V" n="69" break="no"/>dum quos aliquid ad aliud dicitur.
+            Videa<lb ed="#V" n="70" break="no"/>tur textus.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d13q1-p9"> -->
+          <p>
+            <lb ed="#V" n="76" type="fixed=689"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>(n) De secundo articulo, etc. Conclusio
+            <lb ed="#V" n="78"/>est negativa, et communis. Haec
+            conclu<lb ed="#V" n="79" break="no"/>sio probata est dist. 11. quaest. 1 et 2.
+            <lb ed="#V" n="80"/>quia conversio totalis non praesupponit
+            <lb ed="#V" n="81"/>subjectum, quod requirit causa creata.
+            <lb ed="#V" n="82"/>Et si dicas saltem posset causa creata
+            <lb ed="#V" n="83"/>agere ad praesentiam, quae est in corpore
+            <lb ed="#V" n="84"/>Christi. Respondetur negative, quia
+            ne<lb ed="#V" n="85" break="no"/>que causa creata de facto est applicata,
+            <lb ed="#V" n="86"/>neque de potentia absoluta applicari
+            <pb ed="#V" n="690"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>potest applicatione virtutis, neque nequit
+            <lb ed="#V" n="2"/>aliquid agere ad modum essendi
+            ali<lb ed="#V" n="3" break="no"/>cujus, nisi sit naturalis ejus, et
+            quan<lb ed="#V" n="4" break="no"/>tum, si res ipsa est quanta; unde nequit
+            <lb ed="#V" n="5"/>agere ad separationem accidentis, minus
+            <lb ed="#V" n="6"/>autem ad modum indivisibilem essendi
+            <lb ed="#V" n="7"/>corporis Christi.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Ita etiam omnes Patres in Deum solum
+            <lb ed="#V" n="9"/>auctorem hanc conversionem, tanquam
+            <lb ed="#V" n="10"/>in causam Physicam, referunt. Irenaeus
+            <lb ed="#V" n="11"/>lib. 4. cap. 34. dicit, indivisibili Spiritus
+            <lb ed="#V" n="12"/>sancti operatione et virtute fieri hanc
+            <lb ed="#V" n="13"/>conversionem. Sic Eusebius Caesariensis
+            <lb ed="#V" n="14"/>apud Damascenum in parallelis lib. 3.
+            <lb ed="#V" n="15"/>cap. 45. Per Spiritum sanctum
+            proposi<lb ed="#V" n="16" break="no"/>ta dona consecrat, etc. Cyrillus
+            Jeroso<lb ed="#V" n="17" break="no"/>Iymitanus Catechesi 4. ad divinam
+            opera<lb ed="#V" n="18" break="no"/>tionem refert eamdem conversionem,
+            <lb ed="#V" n="19"/>sicut et conversionem aquae in vinum in
+            <lb ed="#V" n="20"/>Cana Galileae. Theophilus Alexandrinus
+            <lb ed="#V" n="21"/>epist 1. Paschali. Cyrill. Alexandrinus
+            <lb ed="#V" n="22"/>epist. ad Calofirium; Condescendens
+            <lb ed="#V" n="23"/>Deus nostris fragilitatibus influit oblatis
+            <lb ed="#V" n="24"/>vim vitae, convertens ea in veritatem
+            <lb ed="#V" n="25"/>propride carnis, etc. Damascenus lib. 4.
+            <lb ed="#V" n="26"/>Orthodoxae fidei, cap. 14. Idem fuse
+            <lb ed="#V" n="27"/>prosequitur Ambrosius lib. de
+            Sacramen<lb ed="#V" n="28" break="no"/>tis, cap. Gaudentius tractatu 2. de
+            Exo<lb ed="#V" n="29" break="no"/>do: Ipse igitur naturarum creator et
+            <lb ed="#V" n="30"/>Dominus, qui producit de terra panem;
+            <lb ed="#V" n="31"/>de pane rursus (quia et potest et
+            pro<lb ed="#V" n="32" break="no"/>misit) efficit proprium corpus, et qui de
+            <lb ed="#V" n="33"/>aqua vinum fecit, et de vino sangainem
+            <lb ed="#V" n="34"/>suuan, etc. Augustinus lib. 3. de Trinit.
+            <lb ed="#V" n="35"/>cap. 4. loquens de eodem Sacramento:
+            <lb ed="#V" n="36"/>Quod inquit, cum per manus hominum
+            <lb ed="#V" n="37"/>ad illam visibilem speciem perducitur.
+            <lb ed="#V" n="38"/>non sanctificatur ut sit tam magnum
+            <lb ed="#V" n="39"/>Sacramentum, nisi operante invisibiliter
+            <lb ed="#V" n="40"/>Spiritu Dei, etc. Eucherius Lugdunensis
+            <lb ed="#V" n="41"/>hom. 5. de Paschate: Sicut ad nutum
+            <lb ed="#V" n="42"/>praecipientis Domini repente ex nihilo
+            <lb ed="#V" n="43"/>substiterunt excelsa coelorum, etc. verbi
+            <lb ed="#V" n="44"/>praecipit veritas, et servit effectus, nec
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>dubitet quisquam primarias creaturas
+            <lb ed="#V" n="46"/>nutu potentiae, praesentia majestatis
+            <lb ed="#V" n="47"/>in Dominici corporis transire posse
+            <lb ed="#V" n="48"/>naturam, etc. Isidorus lib. 1.
+            Offici<lb ed="#V" n="49" break="no"/>orum, cap. 118. et post reliquias.
+            Tri<lb ed="#V" n="50" break="no"/>dentinum sess. 13. cap. 10. ad solam
+            <lb ed="#V" n="51"/>Dei potestatem recurrit, qua haec
+            conver<lb ed="#V" n="52" break="no"/>sio fit. Hinc excluduntur deliria
+            haereti<lb ed="#V" n="53" break="no"/>corum, neque enim tanta divinae
+            omni<lb ed="#V" n="54" break="no"/>potentiae operatio ex Patribus ad nudum
+            <lb ed="#V" n="55"/>signum corporis et sanguinis Christi
+            <lb ed="#V" n="56"/>exigeretur. Ad rationes in oppositum,
+            <lb ed="#V" n="57"/>ad primum, negatur minor. Ad reliqua
+            <lb ed="#V" n="58"/>de infinitate intellectus et voluntatis et
+            <lb ed="#V" n="59"/>operationum et essentiae divinae, patet
+            <lb ed="#V" n="60"/>et hic et suis locis, videatur in 1. dist. 8.
+            <lb ed="#V" n="61"/>quoest. 4. et quodl. 1. et 5. Ad
+            secun<lb ed="#V" n="62" break="no"/>dum patet ex quoest. 4. 5. et 6. dist.
+            <lb ed="#V" n="63"/>praeced.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d13q1-p10"> -->
+          <p>
+            <lb ed="#V" n="77" type="fixed=693"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>(o) De tertio articulo, etc. Hic proponit
+            <lb ed="#V" n="79"/>rationes ad conclusionem affirmativam,
+            <lb ed="#V" n="80"/>quae sunt D. Thomae, non videtur
+            conclu<lb ed="#V" n="81" break="no"/>sio ipsius esse, nisi reducatur ad
+            senten<lb ed="#V" n="82" break="no"/>tiam, qua dicit Sacramenta causare
+            effe<lb ed="#V" n="83" break="no"/>ctum suum instrumentaliter Physice; sed
+            <lb ed="#V" n="84"/>de hoc egimus in prima distinctione. Hic
+            <lb ed="#V" n="85"/>autem ex proposito videtur Doctor
+            impu<lb ed="#V" n="86" break="no"/>gnare fundamentum illud, quo asseritur
+            <pb ed="#V" n="694"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>accidens producere substantiam, ac
+            <lb ed="#V" n="2"/>proinde hic dicta revocanda sunt ad
+            com<lb ed="#V" n="3" break="no"/>plementum quaestionis tertiae
+            praeceden<lb ed="#V" n="4" break="no"/>tis, ubi disseritur haec difficultas ex
+            rati<lb ed="#V" n="5" break="no"/>onibus communibus; hic autem ex
+            prin<lb ed="#V" n="6" break="no"/>cipiis particularibus adversando et
+            impu<lb ed="#V" n="7" break="no"/>gnando speciale fundamentum D. Thomae.
+            <lb ed="#V" n="8"/>Argumentum secundum infra tractabitur
+            <lb ed="#V" n="9"/>in materia de Beatitudine circa
+            distincti<lb ed="#V" n="10" break="no"/>onem potentiarum. Interim videatur
+            litte<lb ed="#V" n="11" break="no"/>ra; et quidquid sit de veritate
+            antece<lb ed="#V" n="12" break="no"/>dentis, negatur consequentia, quia, ut
+            <lb ed="#V" n="13"/>dictum est in S antecedenti, agens
+            crea<lb ed="#V" n="14" break="no"/>tum exigit subjectum proportionatum,
+            <lb ed="#V" n="15"/>sive agat instrumentaliter Physice, sive
+            <lb ed="#V" n="16"/>principaliter. In proposito quantum ad
+            <lb ed="#V" n="17"/>conversionem neque terminus a quo,
+            <lb ed="#V" n="18"/>neque ad quem subesse potest creaturae,
+            <lb ed="#V" n="19"/>ut cadunt sub conversionem.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d13q1-p11"> -->
+          <p>
+            <lb ed="#V" n="58" type="fixed=695"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>(p) Quantum ergo ad istum articulum,
+            <lb ed="#V" n="60"/>sicut, etc. Conclusio hujus articuli est
+            com<lb ed="#V" n="61" break="no"/>munis, et magis patebit ex quaestione
+            se<lb ed="#V" n="62" break="no"/>quenti; modus autem explicandi superius
+            <lb ed="#V" n="63"/>declaratus est dist. 1. q. 2. et 5. et dist.
+            <lb ed="#V" n="64"/>6. q. 5. Loquitur hic de instrumento,
+            <lb ed="#V" n="65"/>ut extenditur ad omne per se institutum
+            <lb ed="#V" n="66"/>ad conficiendum Sacramentum ex divina
+            <lb ed="#V" n="67"/>ordinatione, et sic comprehendit
+            mate<lb ed="#V" n="68" break="no"/>riam, formam et ministrum.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Inter haec tamen discernendo, actio
+            <lb ed="#V" n="70"/>ministri dicitur ministerialis, non solum
+            <lb ed="#V" n="71"/>applicando materiam et formam, sed
+            <lb ed="#V" n="72"/>etiam in suo ordine attingendo effectum
+            <lb ed="#V" n="73"/>Sacramenti; materia vero et forma
+            con<lb ed="#V" n="74" break="no"/>currunt, ut signa practica effectus,
+            respe<lb ed="#V" n="75" break="no"/>ctive autem ad materiam et formam
+            ma<lb ed="#V" n="76" break="no"/>gis proprie salvatur actio instrumentalis,
+            <lb ed="#V" n="77"/>quam ad ministrum, qui potius dici debet
+            <lb ed="#V" n="78"/>causa secunda, ut exponit Doctor dist. 6.
+            <lb ed="#V" n="79"/>quaest. 5. respon. ad primum.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Ad argumenta in oppositum, ad
+            pri<lb ed="#V" n="81" break="no"/>mum et secundum patet ex art. 1. et ex
+            <lb ed="#V" n="82"/>littera. Ad tertium, patet ex art. 2. sicut
+            <lb ed="#V" n="83"/>et ad quartum. Ad ultimum patet, ex hoc
+            <lb ed="#V" n="84"/>articulo notanda est specialiter doctrina
+            <lb ed="#V" n="85"/>responsionis ad quartum. Negatur primo
+            <lb ed="#V" n="86"/>omne principium alicujus sub determinato
+            <pb ed="#V" n="696"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>modo essendi posse esse principium ejus
+            <lb ed="#V" n="2"/>sub omni modo essendi, et patet in causa
+            <lb ed="#V" n="3"/>secunda respectu effectus creationis.
+            <lb ed="#V" n="4"/>quamvis enim includit formam in sua
+            vir<lb ed="#V" n="5" break="no"/>tute, non potest eam seorsim producere
+            <lb ed="#V" n="6"/>a subjecto, neque potest accidens
+            sepa<lb ed="#V" n="7" break="no"/>rare, licet possit illud destruere in
+            sub<lb ed="#V" n="8" break="no"/>jecto.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Secundo, et sequitur ex priori, licet
+            <lb ed="#V" n="10"/>aliquid non repugnet simpliciter,
+            repu<lb ed="#V" n="11" break="no"/>gnat tamen cum determinatione ad
+            ali<lb ed="#V" n="12" break="no"/>quod extrinsecum principium, a quo
+            ne<lb ed="#V" n="13" break="no"/>quit esse cum hoc modo essendi.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Tertio, quod non sequitur ex posse in
+            <lb ed="#V" n="15"/>aliquid perfectum posse in id quod
+            im<lb ed="#V" n="16" break="no"/>perfectius est; perfectior enim est forma
+            <lb ed="#V" n="17"/>quam materia, potest causa secunda
+            ta<lb ed="#V" n="18" break="no"/>men in formam, non potest in materiam;
+            <lb ed="#V" n="19"/>haec impossibilitas oritur ex limitato modo
+            <lb ed="#V" n="20"/>agendi causarum.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

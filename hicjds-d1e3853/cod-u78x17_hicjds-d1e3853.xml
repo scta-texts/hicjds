@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 10, Pars 2, Quaestio 2</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 10, Pars 2, Quaestio 2</title>
+          <date when="2026-11-20">Nov 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x17">Vives, Paris, 1894, volume 17</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="256"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3853"><!-- hicjds-b4d10p2q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum quaelibet actio immanens quae est in Christo naturaliter exsistente, eadem insit sibi ut in eucharistia sacramentaliter exsistenti</head>
+        <!-- <div alias="hiq-d10q5-p1"> -->
+          <p>
+            <lb ed="#V" n="70" type="fixed=256"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>(a) Respondeo primo, etc. Praemittit
+            di<lb ed="#V" n="72" break="no"/>stinctionem inter ea, quae primo insunt
+            <lb ed="#V" n="73"/>subjecto, ut est in loco determinato seu
+            <lb ed="#V" n="74"/>praesentia, et ea quae concomitanter
+            in<lb ed="#V" n="75" break="no"/>sunt; et dicit illa, quae non inessent
+            sub<lb ed="#V" n="76" break="no"/>jecto, si nullibi esset hic, nisi esse primo
+            <lb ed="#V" n="77"/>in subjecto ut hic; concomitanter autem
+            <lb ed="#V" n="78"/>aliquid inest subjecto, ut hic, quod
+            pri<lb ed="#V" n="79" break="no"/>mo inest ipsi, ut alibi, propter identitatem
+            <lb ed="#V" n="80"/>subjecti et formae.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Pro intellectione hujus advertendum
+            <lb ed="#V" n="82"/>est, quod subjectum potest ad duo
+            compa<lb ed="#V" n="83" break="no"/>rari, nempe ad agens et actionem, per
+            <lb ed="#V" n="84"/>quam transmutatur; secundo,
+            compara<lb ed="#V" n="85" break="no"/>tur ad ipsam formam, quam habet
+            trans<lb ed="#V" n="86" break="no"/>eunte actione, quae est terminus ipsius
+            <pb ed="#V" n="257"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>actionis, vel quod idem est, comparari
+            <lb ed="#V" n="2"/>ad formam in fieri et in facto esse,
+            in<lb ed="#V" n="3" break="no"/>telligendo formam in fieri, ut exit a
+            vir<lb ed="#V" n="4" break="no"/>tute agentis transmutantis subjectum.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Si comparetur ad formam in fieri, et
+            <lb ed="#V" n="6"/>mediante ipsa ad agens, sequitur modum
+            <lb ed="#V" n="7"/>et determinationem agentis in ordine ad
+            <lb ed="#V" n="8"/>locum, ita ut quando agens nequit
+            causa<lb ed="#V" n="9" break="no"/>re formam, nisi indeterminata distantia,
+            <lb ed="#V" n="10"/>et exigens applicationem passi, tunc
+            for<lb ed="#V" n="11" break="no"/>ma recipitur primo in passo, ut est intra
+            <lb ed="#V" n="12"/>talem distantiam, quam nequit attingere
+            <lb ed="#V" n="13"/>virtus agentis, nisi ut in tali distantia
+            <lb ed="#V" n="14"/>est; cum ergo subjectum non ex se
+            ha<lb ed="#V" n="15" break="no"/>bet formam, sed per virtutem agentis,
+            <lb ed="#V" n="16"/>ideo dicitur primo habere formam
+            <lb ed="#V" n="17"/>in eo loco, in quo subest virtuti et
+            acti<lb ed="#V" n="18" break="no"/>oni agentis. Si autem forma est talis,
+            <lb ed="#V" n="19"/>ut deinceps posita in esse absolvatur
+            <lb ed="#V" n="20"/>a dependentia ad agens, erit
+            concomi<lb ed="#V" n="21" break="no"/>tanter in omni loco, ubi est subjectum:
+            <lb ed="#V" n="22"/>Propter identitatem formae et subjecti,
+            <lb ed="#V" n="23"/>inquit Doctor, nempe respective ad
+            prae<lb ed="#V" n="24" break="no"/>dicata contradictoria, quia posita jam
+            for<lb ed="#V" n="25" break="no"/>ma in esse, sicut non dependet amplius ab
+            <lb ed="#V" n="26"/>agente, ita etiam non dependet a loco,
+            <lb ed="#V" n="27"/>aut distantia determinata ad agens, ad
+            <lb ed="#V" n="28"/>illa nempe ideo praecise dependebat,
+            <lb ed="#V" n="29"/>quia dependebat ad agens, et ejus
+            vir<lb ed="#V" n="30" break="no"/>tutem limitatam. Unde ex natura
+            subje<lb ed="#V" n="31" break="no"/>cti, qua praecise comparatur ad formam
+            <lb ed="#V" n="32"/>ut perfectibile, et ex natura formae, qua
+            <lb ed="#V" n="33"/>est actus informans et perficiens, nulla
+            <lb ed="#V" n="34"/>habetur determinatio ad locum aut
+            distan<lb ed="#V" n="35" break="no"/>tiam, quae mere extrinseca sunt, et si
+            <lb ed="#V" n="36"/>poneretur subjectum in spatiis
+            imagina<lb ed="#V" n="37" break="no"/>riis, aut vacuo, perinde se haberet ad
+            <lb ed="#V" n="38"/>formam, et forma ad ipsam, ac si essent
+            <lb ed="#V" n="39"/>in loco.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Quod si autem forma sit talis, ut
+            con<lb ed="#V" n="41" break="no"/>tinuo dependeat ab influxu suae causae,
+            <lb ed="#V" n="42"/>et semper sit in fieri, ut ea quae
+            essen<lb ed="#V" n="43" break="no"/>tialiter sunt influxu, verum erit quantum
+            <lb ed="#V" n="44"/>ad fieri semper dependere a loco
+            deter<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>minato, si tamen illud fieri habeat etiam
+            <lb ed="#V" n="46"/>factum esse consequens in forma etiam
+            <lb ed="#V" n="47"/>secundum esse, forma erit in subjecto
+            <lb ed="#V" n="48"/>alibi, et concomitanter ut infra dicit
+            <lb ed="#V" n="49"/>Doctor, et ibidem explicabitur, nisi
+            depen<lb ed="#V" n="50" break="no"/>deat a loco, aut supponat locum
+            essen<lb ed="#V" n="51" break="no"/>tialiter.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Hoc supposito tres conclusiones
+            sub<lb ed="#V" n="53" break="no"/>jicit, et suo ordine declarat et probat.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Prima conclusio: Quod Christo in
+            Eu<lb ed="#V" n="55" break="no"/>charistia inest concomitanter omnis
+            ope<lb ed="#V" n="56" break="no"/>ratio immanens, quae primo ipsi inest, ut
+            <lb ed="#V" n="57"/>in coelo est. Probat primo, ex ratione
+            ge<lb ed="#V" n="58" break="no"/>nerali, quia operatio est forma absoluta,
+            <lb ed="#V" n="59"/>quae non mutatur propter respectum
+            ad<lb ed="#V" n="60" break="no"/>venientem extrinsecus; vide ipsum alibi,
+            <lb ed="#V" n="61"/>ut in primo dist. 3. quoest. 6. et 7. dist. 27.
+            <lb ed="#V" n="62"/>quoest. 1. dist. 12. quoest. 1. dist. 6.
+            <lb ed="#V" n="63"/>quaest. 1. in 4. dist. 11. quaest. 2.
+            quodli<lb ed="#V" n="64" break="no"/>beto 13. et 15. et alias saepe. Dices
+            depen<lb ed="#V" n="65" break="no"/>dere ab objecto, contra, sic etiam
+            quan<lb ed="#V" n="66" break="no"/>titas et qualitas in suo fieri dependent ab
+            <lb ed="#V" n="67"/>agente, tamen in suo esse concomitantur
+            <lb ed="#V" n="68"/>esse subjecti, ut si calefieret in coelo, aut
+            <lb ed="#V" n="69"/>in Cruce, etiam esset calidum in pyxide.
+            <lb ed="#V" n="70"/>Circa hoc punctum quod generalius est. 1
+            <lb ed="#V" n="71"/>quam praesens quaestio, est controversia:
+            <lb ed="#V" n="72"/>aliqui enim negant virtute agentis
+            natura<lb ed="#V" n="73" break="no"/>lis posse inesse mutationes in subjecto
+            <lb ed="#V" n="74"/>alibi posito concomitanter, sed
+            commo<lb ed="#V" n="75" break="no"/>dius quaestione sequenti id declarabitur.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Adducit responsionem aliorum, qui
+            <lb ed="#V" n="77"/>dicunt operationes magis includere
+            respe<lb ed="#V" n="78" break="no"/>ctum, quam qualitates alias, quia tantum
+            <lb ed="#V" n="79"/>in fieri requirunt praesentiam agentis,
+            <lb ed="#V" n="80"/>non in facto esse, non ita operatio, quae
+            <lb ed="#V" n="81"/>exigit praesentiam objecti tam in fieri,
+            <lb ed="#V" n="82"/>quam in facto esse. Respondet, quod nec
+            <lb ed="#V" n="83"/>inde sequitur quin per concomitantiam
+            <lb ed="#V" n="84"/>etiam subjecto alibi insit. Ratio est, quia,
+            <lb ed="#V" n="85"/>ut supra dixi, ex virtute agentis et
+            ap<lb ed="#V" n="86" break="no"/>proximatione habet forma, ut primo sit
+            <lb ed="#V" n="87"/>hic in subjecto; non tamen ex virtute
+            <lb ed="#V" n="88"/>agentis habet postquam inest, ut alibi
+            in<pb ed="#V" n="258"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>sit subjecto per concomitantiam, sed ex
+            <lb ed="#V" n="2"/>identitate subjecti et formae, quod
+            uni<lb ed="#V" n="3" break="no"/>versim verum est tanquam ex causa
+            prae<lb ed="#V" n="4" break="no"/>cisa.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Unde si idem subjectum replicaretur
+            in<lb ed="#V" n="6" break="no"/>tra eamdem sphaeram activitatis, postquam
+            <lb ed="#V" n="7"/>primo accepit formam in fieri ab agente,
+            <lb ed="#V" n="8"/>eamdem etiam haberet (subjectum
+            repli<lb ed="#V" n="9" break="no"/>catum non ex virtute agentis, sed ex
+            <lb ed="#V" n="10"/>identitate subjecti et formae (et hoc etiam
+            <lb ed="#V" n="11"/>intelligitur, tantum de formis, quae non
+            <lb ed="#V" n="12"/>dependent a loco), quia licet subjectum
+            <lb ed="#V" n="13"/>replicaretur, non ideo actio, ut transiens
+            <lb ed="#V" n="14"/>ab agente replicaretur, sed maneret
+            respe<lb ed="#V" n="15" break="no"/>ctive ad subjectum, praecise in eadem
+            <lb ed="#V" n="16"/>distantia et situ collocatum, quo fuit
+            <lb ed="#V" n="17"/>primum elicita; neque aliam differentem
+            <lb ed="#V" n="18"/>numero posset recipere subjectum
+            repli<lb ed="#V" n="19" break="no"/>catum, quia jam haberet formam eamdem,
+            <lb ed="#V" n="20"/>neque est ad ipsam in potentia.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>(b) Et si objicias ad operationem
+            <lb ed="#V" n="22"/>- requiritur, etc. Hic videtur asserere ad
+            <lb ed="#V" n="23"/>cognitionem intituitivam non requiri
+            <lb ed="#V" n="24"/>objectum terminativum praesens. Contra,
+            <lb ed="#V" n="25"/>docet variis in locis, ut infra dist. 45.
+            <lb ed="#V" n="26"/>quaest, 2. 8 Ad quoestionem. etc. in
+            pro<lb ed="#V" n="27" break="no"/>batione secundi, et in 3. dist. 14. q. 3.
+            <lb ed="#V" n="28"/>et in 2. dist. 3. quaest. et alia scepe,
+            <lb ed="#V" n="29"/>intuitivam esse ait rei existentis et
+            <lb ed="#V" n="30"/>praesentis. Sed respondetur eum loqui
+            <lb ed="#V" n="31"/>hic de cognitione intuitiva late, cujus
+            <lb ed="#V" n="32"/>plures modos assignat, ut patet in 3.
+            <lb ed="#V" n="33"/>dist.14. quoest. 3. ubi distinguit perfectam
+            <lb ed="#V" n="34"/>et imperfectam intuitivam. Quando ergo
+            <lb ed="#V" n="35"/>dicit non requiri praesentiam objecti ad
+            <lb ed="#V" n="36"/>terminandum intuitivam, intelligit de
+            <lb ed="#V" n="37"/>intuitiva improprie dicta, seu imperfecta,
+            <lb ed="#V" n="38"/>ut exemplum subjectum indicat, de quo
+            <lb ed="#V" n="39"/>in primo dist. 2. quaest. 4. Potest et
+            <lb ed="#V" n="40"/>teneri universaliter doctrina, quia ideo
+            <lb ed="#V" n="41"/>requiritur praesentia objecti, quia seipso
+            <lb ed="#V" n="42"/>immediate concurrit in propria
+            existen<lb ed="#V" n="43" break="no"/>tia et praesentia ad intuitivam; quod ergo
+            <lb ed="#V" n="44"/>sit ipsius, ut praesentis, tanquam
+            termi<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>nativi, ideo est, quia sic est ipsius, ut
+            <lb ed="#V" n="46"/>motivi et moventis. Sed de hac
+            quae<lb ed="#V" n="47" break="no"/>stione alias agendum erit.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Quantum ad objectionem non requirit
+            <lb ed="#V" n="49"/>discussionem hujus quaestionis, quia unus
+            <lb ed="#V" n="50"/>et idem actus unam tantum habet
+            tenden<lb ed="#V" n="51" break="no"/>tiam, neque constituit eamdem potentiam
+            <lb ed="#V" n="52"/>operantem aliter; visio ergo, ut est in
+            <lb ed="#V" n="53"/>coelo, constituit videntem, non vero ut in
+            <lb ed="#V" n="54"/>Sacramento, licet ibi etiam sit
+            concomi<lb ed="#V" n="55" break="no"/>tanter, quantum ad absolutum
+            operati<lb ed="#V" n="56" break="no"/>onis, non autem quantum ad attingentiam
+            <lb ed="#V" n="57"/>objecti.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Hoc existimo dicendum juxta principia
+            <lb ed="#V" n="59"/>hactenus tradita de iis, quae consequuntur
+            <lb ed="#V" n="60"/>loci praesentiam, quoniam haec oportet
+            <lb ed="#V" n="61"/>variari secundum diversitatem locorum;
+            <lb ed="#V" n="62"/>unde Christus si desineret visio sub modo
+            <lb ed="#V" n="63"/>naturali in coelo, Deo conservante
+            absolu<lb ed="#V" n="64" break="no"/>tum visionis corporalis in ipso in
+            Eucha<lb ed="#V" n="65" break="no"/>ristia, nihil videret, quia ad visionem in
+            <lb ed="#V" n="66"/>genere requiritur, ut objectum sit praesens
+            <lb ed="#V" n="67"/>in se, vel saltem in aliquo eminenter
+            con<lb ed="#V" n="68" break="no"/>tinente objectum, neutrum horum esset
+            <lb ed="#V" n="69"/>in eo casu; ergo non videretur. Hoc idem
+            <lb ed="#V" n="70"/>patet ex secunda conclusione, quae docet
+            <lb ed="#V" n="71"/>nullam sensationem posse esse in Christo,
+            <lb ed="#V" n="72"/>primo ut est in Eucharistia; in eo autem
+            <lb ed="#V" n="73"/>casu esset in eo sensatio primo, ut est in
+            <lb ed="#V" n="74"/>Eucharistia, quantum ad conservari
+            sal<lb ed="#V" n="75" break="no"/>tem, si videret objectum.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Dices hinc colligi, quod neque
+            absolu<lb ed="#V" n="77" break="no"/>tum sensationis in eo conservari posset.
+            <lb ed="#V" n="78"/>Respondetur negando sequelam, quia
+            <lb ed="#V" n="79"/>secunda conclusio intelligitur tam de
+            ab<lb ed="#V" n="80" break="no"/>soluto quam respectivo, ut patet ex
+            funda<lb ed="#V" n="81" break="no"/>mento ipsius propter indispositionem
+            <lb ed="#V" n="82"/>potentiae, quae est materialis, et exigit
+            <lb ed="#V" n="83"/>extensionem sui, ut tendat in objectum,
+            <lb ed="#V" n="84"/>et objectum requirit extensionem sui, ut
+            <lb ed="#V" n="85"/>terminet potentiam, vel agat in ipsam,
+            <lb ed="#V" n="86"/>ut patebit infra quaest. 9. 8 Secundo
+            <lb ed="#V" n="87"/>dico, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="88"/>Non minus autem requiri extensionem
+            <pb ed="#V" n="259"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ex parte potentiae, ad hoc ut actu sentiat
+            <lb ed="#V" n="2"/>mediante operatione, id est, tendat in
+            <lb ed="#V" n="3"/>objectum, patet ex 4. ad oppositum et
+            <lb ed="#V" n="4"/>responsione ejus; admittit enim
+            antece<lb ed="#V" n="5" break="no"/>dens, et negat consequentiam. Patet etiam
+            <lb ed="#V" n="6"/>ex responsione ad secundum et ad
+            pri<lb ed="#V" n="7" break="no"/>mum. Prima autem conclusio Doctoris de
+            <lb ed="#V" n="8"/>concomitantia visionis in oculo, ut hic est,
+            <lb ed="#V" n="9"/>intelligi debet quoad absolutum tantum;
+            <lb ed="#V" n="10"/>patet, quia de absoluto tantum procedit
+            <lb ed="#V" n="11"/>argumentum ejus.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Sed quomodo potest esse absolutum
+            <lb ed="#V" n="13"/>.operationis sine eo quod oculus, etiam ut
+            <lb ed="#V" n="14"/>hic, habens tale absolutum, videat actu
+            <lb ed="#V" n="15"/>objectum, cum operatio juxta principia
+            <lb ed="#V" n="16"/>nostrae scholae, consistat in receptione
+            <lb ed="#V" n="17"/>formae, tanquam effectus ejus formalis?
+            <lb ed="#V" n="18"/>effectus autem formalis nequeat separari
+            <lb ed="#V" n="19"/>a forma in subjecto; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Respondetur facilem esse solutionem
+            <lb ed="#V" n="21"/>ex principiis nostrae scholae, quia, ut
+            Doc<lb ed="#V" n="22" break="no"/>tor in quodlibeto 13. art. 2. operatio
+            in<lb ed="#V" n="23" break="no"/>quantum est principium, seu medium
+            uni<lb ed="#V" n="24" break="no"/>endi potentiam objecto, exigit relationem
+            <lb ed="#V" n="25"/>realem attingentiae, si est objecti ut
+            exi<lb ed="#V" n="26" break="no"/>stentis et praesentis, et hoc primo, ut se
+            <lb ed="#V" n="27"/>habere debet visio exterior; haec autem
+            <lb ed="#V" n="28"/>relatio distinguitur a fundamento et
+            ter<lb ed="#V" n="29" break="no"/>mino, et nequit poni nisi objecto realiter
+            <lb ed="#V" n="30"/>existente et praesente respectu visionis
+            <lb ed="#V" n="31"/>externae. In eo autem casu, neque
+            ob<lb ed="#V" n="32" break="no"/>jectum est praesens, neque necessario
+            ex<lb ed="#V" n="33" break="no"/>istens, vel si existat respective ad illam
+            <lb ed="#V" n="34"/>visionem) sive productam, sive
+            conser<lb ed="#V" n="35" break="no"/>vatam a Deo in oculo indivisibiliter
+            exi<lb ed="#V" n="36" break="no"/>stente) se habet tanquam non existens,
+            <lb ed="#V" n="37"/>quantum ad influxum et terminationem,
+            <lb ed="#V" n="38"/>inde sequitur deesse illam relationem,
+            ne<lb ed="#V" n="39" break="no"/>que absolutum operationis creatae sine
+            <lb ed="#V" n="40"/>illa, unquam potest esse medium uniendi;
+            <lb ed="#V" n="41"/>quia inquantum unit extrema, debet
+            ne<lb ed="#V" n="42" break="no"/>cessario respicere extrema, alioquin
+            ne<lb ed="#V" n="43" break="no"/>quiret ipsa sibi invicem communicare,
+            <lb ed="#V" n="44"/>neque ipsum in se esse medium commune
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>ab ipsis suo modo participatum. Sed
+            abso<lb ed="#V" n="46" break="no"/>lutum inquantum absolutum praecise
+            ni<lb ed="#V" n="47" break="no"/>hil respicit; ergo absolutum operationis
+            <lb ed="#V" n="48"/>secluso respectu, nequit unire potentiam
+            <lb ed="#V" n="49"/>objecto, sicut autem ex intelligibili et
+            <lb ed="#V" n="50"/>intellectu fit unum, ita ex visibili et
+            po<lb ed="#V" n="51" break="no"/>tentia visiva fit unum.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Praeterea, id ipsum patet quantum ad
+            <lb ed="#V" n="53"/>effectum primarium formae in ratione talis
+            <lb ed="#V" n="54"/>qualitatis, quantumlibet enim intrinsece
+            <lb ed="#V" n="55"/>se habeat ad subjectum, seu ad
+            poten<lb ed="#V" n="56" break="no"/>tiam, quantum ad instantiam, nequit ipsi
+            <lb ed="#V" n="57"/>communicare effectum ullum formalem,
+            <lb ed="#V" n="58"/>etiam eum qui est primarius ejus, nisi
+            <lb ed="#V" n="59"/>interveniat primum respectus uniens
+            ip<lb ed="#V" n="60" break="no"/>sam subjecto, qui est unio aut inhaerentia
+            <lb ed="#V" n="61"/>formae ad subjectum; eodem ergo modo,
+            <lb ed="#V" n="62"/>nequit unire potentiam objecto, nisi
+            in<lb ed="#V" n="63" break="no"/>terveniat relatio ad objectum.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Haec doctrina est pervia in principiis
+            <lb ed="#V" n="65"/>Doctoris, quia ex hac ratione contingit
+            <lb ed="#V" n="66"/>intellectum animae Christi non videre
+            <lb ed="#V" n="67"/>omnia actu in Verbo, sed habitu, ut patet
+            <lb ed="#V" n="68"/>ex 3. dist. 4. quaest. 2. nunc has, nunc
+            <lb ed="#V" n="69"/>illas creaturas ab libitum, non variata
+            <lb ed="#V" n="70"/>substantia aut entitate visionis, sed per
+            <lb ed="#V" n="71"/>diversas attingentias extensa visione
+            me<lb ed="#V" n="72" break="no"/>diantibus respectibus ad has vel illas,
+            <lb ed="#V" n="73"/>quas actu videt; sic etiam contingit in
+            <lb ed="#V" n="74"/>aliis Beatis, inquantum in Verbo vident
+            <lb ed="#V" n="75"/>nunc unas, nunc alias creaturas.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Ad rationem dubitandi respondetur,
+            <lb ed="#V" n="77"/>quod operatio in subjecto tribuit semper
+            <lb ed="#V" n="78"/>effectum formalem primarium, qui
+            conve<lb ed="#V" n="79" break="no"/>nit ipsi, ut est qualitas absoluta; effectum
+            <lb ed="#V" n="80"/>vero secundarium et completum, qui est
+            <lb ed="#V" n="81"/>perfectissimus et finalis ejus, non potest
+            <lb ed="#V" n="82"/>tribuere se sola, sine conditione requisita,
+            <lb ed="#V" n="83"/>inquantum enim est medium uniendi
+            <lb ed="#V" n="84"/>potentiam objecto ( qui est finis ejus
+            <lb ed="#V" n="85"/>ultimus), requirit praeter absolutum
+            or<lb ed="#V" n="86" break="no"/>dinem ad ipsum objectum in genere
+            <lb ed="#V" n="87"/>conditionis; voco primum effectum
+            pri<lb ed="#V" n="88" break="no"/>marium ejus ordine generationis;
+            secun<pb ed="#V" n="260"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>dum vero ordine causae finalis et
+            per<lb ed="#V" n="2" break="no"/>fectionis. Sed non est quod fusius de
+            <lb ed="#V" n="3"/>hoc agamus hic.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Dici etiam potest, quod visio etiam
+            <lb ed="#V" n="5"/>sub ratione operationis sit in Eucharistia, et
+            <lb ed="#V" n="6"/>non solum sub ratione qualitatis,
+            quo<lb ed="#V" n="7" break="no"/>niam id secunda probatio et tertia
+            Docto<lb ed="#V" n="8" break="no"/>ris de concomitantia intellectionis
+            intuiti<lb ed="#V" n="9" break="no"/>vae et sensationis seu visionis, et de
+            con<lb ed="#V" n="10" break="no"/>comitantia actionis et passionis ad
+            invi<lb ed="#V" n="11" break="no"/>cem, videtur importare, et tunc dicendum
+            <lb ed="#V" n="12"/>est, quod visio sub ratione operationis sit
+            <lb ed="#V" n="13"/>concomitanter ad objectum in
+            Euchari<lb ed="#V" n="14" break="no"/>stia; de quo non est verum, quod sit
+            sim<lb ed="#V" n="15" break="no"/>pliciter distans, sed tantum distans
+            secun<lb ed="#V" n="16" break="no"/>dum quid, nempe ut oculus est hic, qui
+            <lb ed="#V" n="17"/>alibi habet objectum praesens; ratio
+            au<lb ed="#V" n="18" break="no"/>tem est pervia, quia licet respectus ad
+            <lb ed="#V" n="19"/>objectum praesens in operatione sit
+            neces<lb ed="#V" n="20" break="no"/>sarius, ut haec sit operatio in esse
+            com<lb ed="#V" n="21" break="no"/>pleto et actu uniat objectum et
+            poten<lb ed="#V" n="22" break="no"/>tiam. Supposita tamen hac unione, visio
+            <lb ed="#V" n="23"/>sub ratione visionis sequitur ubicumque
+            <lb ed="#V" n="24"/>est, quia hoc ipsum, quod est
+            constitu<lb ed="#V" n="25" break="no"/>ere operantem complete et actu, est
+            effe<lb ed="#V" n="26" break="no"/>tus absolutus operationis, quamvis
+            depen<lb ed="#V" n="27" break="no"/>deat a relatione illa, ut conditione,
+            ideo<lb ed="#V" n="28" break="no"/>que talis effectus sequitur ad formam
+            <lb ed="#V" n="29"/>concomitanter ubicumque est.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Quod si desineret tamen in coelo
+            se<lb ed="#V" n="31" break="no"/>cundum modum naturalem essendi, jam
+            <lb ed="#V" n="32"/>amplius licet conservaretur in Eucharistia
+            <lb ed="#V" n="33"/>etiam visio sub ratione qualitatis, nihil
+            <lb ed="#V" n="34"/>operaretur potentia, ex defectu relationis
+            <lb ed="#V" n="35"/>requisitae ad attingentiam objecti, quae
+            <lb ed="#V" n="36"/>nequit inesse nisi respectu praesentis et
+            <lb ed="#V" n="37"/>proportionati terminativi, et
+            concomi<lb ed="#V" n="38" break="no"/>tanter desineret etiam effectus vitalis
+            ope<lb ed="#V" n="39" break="no"/>rationis, qui concomitanter tantum est
+            <lb ed="#V" n="40"/>in potentia, ut in Eucharistia est. Ex his
+            <lb ed="#V" n="41"/>deinceps patet conclusio secunda et
+            ter<lb ed="#V" n="42" break="no"/>tia, quae ex eisdem fundamentis
+            resolvi<lb ed="#V" n="43" break="no"/>tur, sicut et responsio ad argumenta.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 8, Praeambulum</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 8, Praeambulum</title>
+          <date when="2026-11-20">Nov 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x17">Vives, Paris, 1894, volume 17</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="5"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e5243"><!-- hicjds-b4d8prae -->
+        <head>Praeambulum</head>
+        <!-- <div alias="hiq-d8prae"> -->
+          <p>
+            <lb ed="#V" n="56" type="fixed=5"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>In praesenti distinctione Magister
+            ag<lb ed="#V" n="58" break="no"/>greditur tractatum de venerabili
+            Sacra<lb ed="#V" n="59" break="no"/>mento Eucharistiae, quem deinceps
+            pro<lb ed="#V" n="60" break="no"/>ducit usque ad distinctionem decimam
+            <lb ed="#V" n="61"/>quartam exclusive; quem ordinem
+            se<lb ed="#V" n="62" break="no"/>quitur Doctor, et reliqui Sententiarii.
+            <lb ed="#V" n="63"/>Supra ostendimus ex Dionysio et aliis
+            <lb ed="#V" n="64"/>Patribus, hunc ordinem servatum esse
+            <lb ed="#V" n="65"/>in ministerio Sacramentorum, ut primum
+            <lb ed="#V" n="66"/>Baptismus daretur in regenerationem;
+            <lb ed="#V" n="67"/>secundo, daretur Confirmatio in robur
+            <lb ed="#V" n="68"/>et consummationem Baptismi; tertio loco
+            <lb ed="#V" n="69"/>daretur Eucharistia qua nutrimur, et in
+            <lb ed="#V" n="70"/>bono consummatur; et haec tria
+            Sacra<lb ed="#V" n="71" break="no"/>menta in primitiva Ecclesia simul
+            daban<lb ed="#V" n="72" break="no"/>tur, servato ordine praemisso Ratio
+            <lb ed="#V" n="73"/>ergo postulat, ut sequendo ordinem
+            qua<lb ed="#V" n="74" break="no"/>si generationis (secundum quam procedit
+            <lb ed="#V" n="75"/>natura et scientia, tanquam de potentia ad
+            <lb ed="#V" n="76"/>actum) priori tractatui de Baptismo et
+            <lb ed="#V" n="77"/>Confirmatione succederet tractatus de
+            Eu<lb ed="#V" n="78" break="no"/>charistia; quem stylum reliqui etiam
+            <lb ed="#V" n="79"/>Theologi observant, ut Alexander 3. part.
+            <lb ed="#V" n="80"/>queest. 10. Divus Thomas 3. part, quaest.
+            <lb ed="#V" n="81"/>73. usque ad 82. et reliqui ejus discipuli.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>De hoc Sacramento agunt Patres in
+            <lb ed="#V" n="83"/>Joan. 6. et 13. Matth. 26. Marci 14.
+            <lb ed="#V" n="84"/>Luc. 22. 1. ad Corinth. 11. ubi
+            commu<lb ed="#V" n="85" break="no"/>niter interpretes. Trident. sess. 13. et
+            <pb ed="#V" n="6"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sess. 21. et 22. et plera antiquiora
+            Con<lb ed="#V" n="2" break="no"/>cilia contra Berengarium, contra quem
+            <lb ed="#V" n="3"/>etiam propriis tractatibus disseruerunt
+            <lb ed="#V" n="4"/>Paschasius, Algerus, Lantfrancus; de
+            <lb ed="#V" n="5"/>eodem agunt Canonistae de consec.
+            <lb ed="#V" n="6"/>dist. 2. et cap. firmiter, de summa
+            Tri<lb ed="#V" n="7" break="no"/>nitate et fide Catholica, cap. Cum Martha,
+            <lb ed="#V" n="8"/>et reliquis, de Celebratione Missarum.
+            <lb ed="#V" n="9"/>Sed frequentissime moderni scriptores,
+            <lb ed="#V" n="10"/>et luculenter contra hujus temporis
+            No<lb ed="#V" n="11" break="no"/>vatores, ut Castro contra haereses, verbo
+            <lb ed="#V" n="12"/>Eucharistia, Lyndanus lib. 4. panoplice,
+            <lb ed="#V" n="13"/>Driedo lib. 4. de dogmatibus, cap. 5.
+            <lb ed="#V" n="14"/>part. 2. et 5. Waldens. tom. 2. de
+            Sa<lb ed="#V" n="15" break="no"/>cramentis, qui secutus ordinem
+            dignita<lb ed="#V" n="16" break="no"/>tis ab hoc Sacramento orditur tractatum,
+            <lb ed="#V" n="17"/>Bellarm. in 2. tom. de Sacramentis,
+            <lb ed="#V" n="18"/>Hosius in confessione, Arboreus lib. 5.
+            <lb ed="#V" n="19"/>Theosophice, Alanus et Turrianus et alii
+            <lb ed="#V" n="20"/>sine numero, qui veritatem Catholicam
+            <lb ed="#V" n="21"/>latissime propugnant; videatur prae
+            reli<lb ed="#V" n="22" break="no"/>quis Coccius in Thesauro tom 2. lib. 6.
+            <lb ed="#V" n="23"/>ubi auctoritates Patrum, Conciliorum et
+            <lb ed="#V" n="24"/>Scholasticorum Antiquiorum congerit per
+            <lb ed="#V" n="25"/>omnia saecula, in probationem hujus
+            ve<lb ed="#V" n="26" break="no"/>ritatis.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>Praesentem distinctionem transigit
+            Do<lb ed="#V" n="28" break="no"/>ctor tribus quaestionibus. Prima, utrum
+            <lb ed="#V" n="29"/>Eucharistia sit Sacramentum novae legis?
+            <lb ed="#V" n="30"/>Secunda, de forma consecrationis
+            corpo<lb ed="#V" n="31" break="no"/>ris? Tertia vero de quadam dispositione
+            <lb ed="#V" n="32"/>requisita ex parte sumentis corpus
+            Do<lb ed="#V" n="33" break="no"/>mini, quale est jejunium.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

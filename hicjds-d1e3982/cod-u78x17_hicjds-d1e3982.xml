@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 11, Pars 1, Articulus 2, Quaestio 3</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 11, Pars 1, Articulus 2, Quaestio 3</title>
+          <date when="2026-11-20">Nov 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x17">Vives, Paris, 1894, volume 17</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="469"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3982"><!-- hicjds-b4d11p1a2q3 -->
+        <head>Quaestio 3</head>
+        <head type="question-title">Quibus propositionibus conversio panis in corpus Christi possit vere exprimi</head>
+        <!-- <div alias="hiq-d11q5-p1"> -->
+          <p>
+            <lb ed="#V" n="74" type="fixed=469"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>(a) Ultimo quaeritur sine argumentis,
+            <lb ed="#V" n="76"/>etc. Assignat regulas quoad modum
+            lo<lb ed="#V" n="77" break="no"/>quendi in hoc mysterio. Prima regula
+            <lb ed="#V" n="78"/>est per Doctorem, non posse significari
+            <lb ed="#V" n="79"/>hanc conversionem per verbum essendi
+            <lb ed="#V" n="80"/>aut fiendi. Ratio est, quia verbum
+            essen<lb ed="#V" n="81" break="no"/>di significat unionem extremorum, vel
+            <lb ed="#V" n="82"/>essentialem vel accidentalem pro aliqua
+            <pb ed="#V" n="470"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>differentia temporis, sed panis nunquam
+            <lb ed="#V" n="2"/>fuit corpus Christi in esse, aut e contra;
+            <lb ed="#V" n="3"/>neque uniuntur in esse, quia desinit unus
+            <lb ed="#V" n="4"/>terminus adveniente altero, et hoc exigit
+            <lb ed="#V" n="5"/>natura conversionis. Ratio secundi, quia
+            <lb ed="#V" n="6"/>fieri, ut praedicatur tertium adjacens,
+            <lb ed="#V" n="7"/>denotat subjectum fieri secundum
+            for<lb ed="#V" n="8" break="no"/>mam, quae importatur per praedicatum;
+            <lb ed="#V" n="9"/>sed sic corpus Christi nunquam fit panis,
+            <lb ed="#V" n="10"/>aut e contra.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>Secunda regula est, quando
+            praedica<lb ed="#V" n="12" break="no"/>tur unum extremum hujus conversionis
+            <lb ed="#V" n="13"/>de altero in recto, propositionem non
+            <lb ed="#V" n="14"/>esse veram de rigore sermonis, quia
+            <lb ed="#V" n="15"/>neutrum inest alteri; praedicari ergo
+            <lb ed="#V" n="16"/>possunt sumendo alterum in obliquo
+            <lb ed="#V" n="17"/>denotando ordinem extremi ad
+            extre<lb ed="#V" n="18" break="no"/>mum, cum praepositione ex, vel de, ut
+            <lb ed="#V" n="19"/>de pane fit caro Christi; ex pane fit
+            <lb ed="#V" n="20"/>caro Christi, panis convertitur in corpus
+            <lb ed="#V" n="21"/>Christi, et omnes aliae locutiones ad has
+            <lb ed="#V" n="22"/>reduci debent. Suarez ait, quod prima
+            <lb ed="#V" n="23"/>propositio denotat consubstantialitatem,
+            <lb ed="#V" n="24"/>et est falsa. Respondetur id non esse
+            <lb ed="#V" n="25"/>verum semper, quia Philosophus dicit, 2.
+            <lb ed="#V" n="26"/>Metaph. cap. 3. quod ex mane fit
+            me<lb ed="#V" n="27" break="no"/>ridies; denotat ergo quandoque
+            conver<lb ed="#V" n="28" break="no"/>sionem et ordinem terminorum,
+            aliquan<lb ed="#V" n="29" break="no"/>do consubstantialitatem; et illa
+            propo<lb ed="#V" n="30" break="no"/>sitio est Ambrosii lib. 4. de Sacramentis,
+            <lb ed="#V" n="31"/>cap. 4.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

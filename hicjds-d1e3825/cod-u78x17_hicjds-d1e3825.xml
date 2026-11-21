@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 10, Pars 1, Quaestio 3</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 10, Pars 1, Quaestio 3</title>
+          <date when="2026-11-20">Nov 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x17">Vives, Paris, 1894, volume 17</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="225"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3825"><!-- hicjds-b4d10p1q3 -->
+        <head>Quaestio 3</head>
+        <head type="question-title">Utrum corpus Christi possit simul esse localiter in caelo et in eucharistia</head>
+        <!-- <div alias="hiq-d10q3-p1"> -->
+          <p>
+            <lb ed="#V" n="65" type="fixed=225"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>(a) Conclusio est certa, etc. Statuit
+            <lb ed="#V" n="67"/>conclusionem, quae est de fide, ut in
+            com<lb ed="#V" n="68" break="no"/>mento quoest. 1. cum ipso probatum est.
+            <lb ed="#V" n="69"/>Impugnat fundamentum D. Thomae, qui
+            <lb ed="#V" n="70"/>refert possibilitatem existendi Christi sub
+            <lb ed="#V" n="71"/>speciebus in solam conversionem. Hoc,
+            <lb ed="#V" n="72"/>inquam, impugnat Doctor hic ad scopum
+            <lb ed="#V" n="73"/>quaestionis praesentis; supra vero quoest. 1.
+            <lb ed="#V" n="74"/>idem fundamentum impugnavit, quatenus
+            <lb ed="#V" n="75"/>ex illo fundamento inferebatur nullam
+            <lb ed="#V" n="76"/>esse mutationem in corpore Christi, ut
+            <lb ed="#V" n="77"/>fit sub speciebus, et inquantum etiam
+            <lb ed="#V" n="78"/>praesentia sacramentalis infertur ex
+            na<lb ed="#V" n="79" break="no"/>tura conversionis, in genere termini a quo
+            <lb ed="#V" n="80"/>in terminum ad quem. Hic autem eamdem
+            <lb ed="#V" n="81"/>rationem impugnat inquantum ad eam
+            <lb ed="#V" n="82"/>limitatur possibilitas ponendi corporis sub
+            <lb ed="#V" n="83"/>speciebus, sive indivisibiliter, sive
+            quan<lb ed="#V" n="84" break="no"/>titative, atque adeo in alia materia,
+            nem<lb ed="#V" n="85" break="no"/>pe ut applicatur ad diversam
+            conclusi<lb ed="#V" n="86" break="no"/>onem.
+          </p>
+          <p>
+            <pb ed="#V" n="226"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Impugnat autem sic, quia Deus potest
+            <lb ed="#V" n="2"/>facere in creatura aliquid sine eo, quod
+            <lb ed="#V" n="3"/>non est ratio formalis essendi, nec aliquo
+            <lb ed="#V" n="4"/>modo de ejus essentia; sed neque
+            con<lb ed="#V" n="5" break="no"/>versio, neque Sacramentum, id est,
+            spe<lb ed="#V" n="6" break="no"/>cies separata est ratio formalis corpori
+            <lb ed="#V" n="7"/>essendi hic, nec aliquo modo de essentia
+            <lb ed="#V" n="8"/>ejus; ergo Deus potest facere ipsum
+            cor<lb ed="#V" n="9" break="no"/>pus praesens hic sine conversione
+            sub<lb ed="#V" n="10" break="no"/>stantiae panis in ipsum, et sine
+            separati<lb ed="#V" n="11" break="no"/>one specierum; potest ergo facere corpus
+            <lb ed="#V" n="12"/>praesens manente substantia panis.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Minor probatur, quia neque conversio
+            <lb ed="#V" n="14"/>ut praesens est ratio essendi, quia
+            trans<lb ed="#V" n="15" break="no"/>eunte conversione manet Christus
+            prae<lb ed="#V" n="16" break="no"/>sens; neque etiam ut praeterita, quia Deus
+            <lb ed="#V" n="17"/>nequit facere quin praeterita, ut praeterita
+            <lb ed="#V" n="18"/>sint praeterita, potest autem destruere
+            <lb ed="#V" n="19"/>praesentiam sacramentalem. Patet minor
+            <lb ed="#V" n="20"/>etiam quoad alterum membrum, quia
+            <lb ed="#V" n="21"/>species non sunt in corpore Christi, sed
+            <lb ed="#V" n="22"/>sunt terminus suae praesentiae; ergo non
+            <lb ed="#V" n="23"/>sunt modus formalis essendi corpori.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Si dicas praesentiam sacramentalem
+            <lb ed="#V" n="25"/>corporis exigere terminum, qui sunt
+            spe<lb ed="#V" n="26" break="no"/>cies; contra urget, quia sicut praesentia
+            <lb ed="#V" n="27"/>illa de facto salvatur in ordine ad species,
+            <lb ed="#V" n="28"/>sic etiam salvaretur in ordine ad
+            substan<lb ed="#V" n="29" break="no"/>tiam panis quantam, seclusa conversione.
+            <lb ed="#V" n="30"/>Non est enim major repugnantia corpus
+            <lb ed="#V" n="31"/>Christi esse simul cum substantia panis,
+            <lb ed="#V" n="32"/>quam cum quantitate panis, ut probat
+            <lb ed="#V" n="33"/>secunda ratione. Probat etiam corpus
+            <lb ed="#V" n="34"/>Christi posse esse praesens modo
+            quanti<lb ed="#V" n="35" break="no"/>tativo, tam speciebus quam substantiae
+            <lb ed="#V" n="36"/>panis, sine ulla repugnantia; sed de his
+            <lb ed="#V" n="37"/>sufficienter actum est in praecedentibus.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Haec autem quaestio magis movetur,
+            <lb ed="#V" n="39"/>ut solvantur argumenta ad oppositum.
+            <lb ed="#V" n="40"/>Primum est ex auctoritate Augustini, quae
+            <lb ed="#V" n="41"/>ponitur dist. 2. prima haeresis: Corpus
+            <lb ed="#V" n="42"/>Christi sursum est, et in illo loco esse
+            <lb ed="#V" n="43"/>oportet; ergo tantum est in coelo.
+            Respon<lb ed="#V" n="44" break="no"/>detur negando consequentiam, circa quae
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>nihil occurrit, quod alias non fuerit
+            di<lb ed="#V" n="46" break="no"/>ctum.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>In responsione ad tertium dicit, quod
+            <lb ed="#V" n="48"/>unitas extremorum inter se ratione tertii
+            <lb ed="#V" n="49"/>non possit concludi major, quam sit
+            uni<lb ed="#V" n="50" break="no"/>tas ipsius tertii; de hoc vide ipsum in
+            <lb ed="#V" n="51"/>primo dist. 2. part. 2. quoest. 1. ubi
+            dis<lb ed="#V" n="52" break="no"/>putatur, an illud axioma: Quaecumque
+            <lb ed="#V" n="53"/>sunt eadem uni tertio, sint eadem inter
+            <lb ed="#V" n="54"/>se, etc. verificetur in divinis. Et bene
+            <lb ed="#V" n="55"/>dicit Doctor verificari, sed cum illa
+            limi<lb ed="#V" n="56" break="no"/>tatione, quam hic adjungit, nempe eo
+            <lb ed="#V" n="57"/>modo quo sunt unum in tertio, vel ipsum
+            <lb ed="#V" n="58"/>unitate tertii, unde tres personae unitate
+            <lb ed="#V" n="59"/>Deitatis et essentiae sunt unum realiter
+            <lb ed="#V" n="60"/>inter se, id est, in essentia; nec licet
+            <lb ed="#V" n="61"/>inde inferre esse unas inter se unitate
+            <lb ed="#V" n="62"/>suppositi, quia hanc non habent ab
+            essen<lb ed="#V" n="63" break="no"/>tia, ut ad eam comparantur, sed solum
+            <lb ed="#V" n="64"/>essentialem, sic extrema nequeunt aliter
+            <lb ed="#V" n="65"/>ad se invicem referri in conclusione,
+            <lb ed="#V" n="66"/>quam ut in praemissis referuntur ad
+            me<lb ed="#V" n="67" break="no"/>dium, quia veritas conclusionis est
+            me<lb ed="#V" n="68" break="no"/>diata, et ratione medii conveniens. Unde
+            <lb ed="#V" n="69"/>si medium per se uniretur alteri extremo,
+            <lb ed="#V" n="70"/>per accidens alteri, hinc non habetur
+            <lb ed="#V" n="71"/>unio extremorum in conclusione aliter
+            <lb ed="#V" n="72"/>quam per accidens, talis qualis est
+            uni<lb ed="#V" n="73" break="no"/>tas alterius extremi, quod per accidens
+            <lb ed="#V" n="74"/>tantum unitur medio. Unde in
+            demon<lb ed="#V" n="75" break="no"/>stratione a priori, licet definitio quae est
+            <lb ed="#V" n="76"/>medium per se, primo modo praedicetur
+            <lb ed="#V" n="77"/>de subjecto, tamen passio in conclusione
+            <lb ed="#V" n="78"/>non praedicatur de ipso, nisi in secundo
+            <lb ed="#V" n="79"/>modo, quia sic tantum praedicatur in
+            prae<lb ed="#V" n="80" break="no"/>missis de medio seu definitione,
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Hinc etiam habetur illud vulgare
+            axi<lb ed="#V" n="82" break="no"/>oma quod conclusio sequatur debiliorem
+            <lb ed="#V" n="83"/>partem sude causae; quando enim plures
+            <lb ed="#V" n="84"/>causae per se concurrunt ad effectum
+            com<lb ed="#V" n="85" break="no"/>munem, actualitas seu perfectio unius
+            <lb ed="#V" n="86"/>non est nata supplere defectum alterius,
+            <lb ed="#V" n="87"/>loquendo in causis particularibus, ac
+            pro<lb ed="#V" n="88" break="no"/>inde in effectu communi redundat
+            defe<pb ed="#V" n="227"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ctus ex causae imperfectione. Ratio autem
+            <lb ed="#V" n="2"/>horum est, quia effectus non excedit
+            <lb ed="#V" n="3"/>perfectionem suae causae; unde si
+            conclu<lb ed="#V" n="4" break="no"/>deretur major unitas extremorum ad
+            in<lb ed="#V" n="5" break="no"/>vicem, quam sit unitas eorum ad medium,
+            <lb ed="#V" n="6"/>seu medii ad ipsa extrema excessus in
+            <lb ed="#V" n="7"/>effectu, id est, unitate ad se invicem, non
+            <lb ed="#V" n="8"/>supponeret causam, et sequerentur
+            con<lb ed="#V" n="9" break="no"/>tradictoria, nempe, esse una et non esse
+            <lb ed="#V" n="10"/>propter medium; primum sequeretur,
+            <lb ed="#V" n="11"/>quia nullam aliam habent causam suae
+            <lb ed="#V" n="12"/>unitatis; secundum sequeretur, quia
+            ex<lb ed="#V" n="13" break="no"/>cessus unitatis constituit speciem
+            distin<lb ed="#V" n="14" break="no"/>ctam unitatis, quae non continetur in
+            <lb ed="#V" n="15"/>causa, vel secundum, vel prout influit
+            <lb ed="#V" n="16"/>esse et unitatem in extrema.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Ex hoc ulterius declarat, quod ea quae
+            <lb ed="#V" n="18"/>sunt simul cum tertio, sint simul inter
+            <lb ed="#V" n="19"/>r se; quae ratio intelligitur tantum de iis,
+            <lb ed="#V" n="20"/>quae sunt simul cum tertio adaequate, non
+            <lb ed="#V" n="21"/>vero secundum quid, vel secundum
+            par<lb ed="#V" n="22" break="no"/>tem, quia ex eo quod superficies ex una
+            <lb ed="#V" n="23"/>parte sit simul cum locato, non sequitur
+            <lb ed="#V" n="24"/>quod sit simul cum altera superficie
+            di<lb ed="#V" n="25" break="no"/>stante, quamvis haec sit simul cum locato,
+            <lb ed="#V" n="26"/>quantum est ex parte ipsius superficiei;
+            <lb ed="#V" n="27"/>intelligitur ergo in loco et locato, quae se
+            <lb ed="#V" n="28"/>adaequant, sed quando locatum est
+            illu<lb ed="#V" n="29" break="no"/>minatum, non sequitur etiam in his.
+            <lb ed="#V" n="30"/>Ratio est jam assignata, quia sicut neque
+            <lb ed="#V" n="31"/>una superficies loci adaequat totum
+            loca<lb ed="#V" n="32" break="no"/>tum, licet ipsa quantum est ex parte
+            <lb ed="#V" n="33"/>superficiei, sit simul cum locato, ita
+            <lb ed="#V" n="34"/>quando locatum est in pluribus locis unus
+            <lb ed="#V" n="35"/>locus non adaequat locatum; unde non
+            <lb ed="#V" n="36"/>sequitur quod locus, qui est simul cum
+            <lb ed="#V" n="37"/>ipso in determinata distantia et situ, sit
+            <lb ed="#V" n="38"/>simul cum ipso in alia differentia
+            distan<lb ed="#V" n="39" break="no"/>tiae et situs, sicut non sequitur, anima
+            <lb ed="#V" n="40"/>est cum pede simul in eodem loco, et
+            <lb ed="#V" n="41"/>eadem anima est cum capite simul, ergo
+            <lb ed="#V" n="42"/>pes et caput sunt simul; anima est
+            illi<lb ed="#V" n="43" break="no"/>mitata, illimitatum autem aequivalet
+            plu<lb ed="#V" n="44" break="no"/>ribus determinatis.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Dat etiam exemplum Doctor in
+            aeterni<lb ed="#V" n="46" break="no"/>tate, quae est tota simul cum diversis
+            <lb ed="#V" n="47"/>partibus temporum, inde non tollitur
+            ip<lb ed="#V" n="48" break="no"/>sas partes esse simul; quod autem in
+            <lb ed="#V" n="49"/>tempore facit successio, ne partes ejus
+            <lb ed="#V" n="50"/>simul esse possint, hoc in locis facit
+            di<lb ed="#V" n="51" break="no"/>stantia per spatium intermedium, ita ut
+            <lb ed="#V" n="52"/>simul esse non possint localiter,
+            quam<lb ed="#V" n="53" break="no"/>vis idem corpus possit esse in
+            distanti<lb ed="#V" n="54" break="no"/>bus locis ex illimitatione sui ad locum
+            de<lb ed="#V" n="55" break="no"/>terminatum, ut subest divinae
+            omnipoten<lb ed="#V" n="56" break="no"/>tiae.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>In responsione ad quartum docet
+            uni<lb ed="#V" n="58" break="no"/>tatem per continuitatem convenire
+            parti<lb ed="#V" n="59" break="no"/>bus in toto ut comparantur ad se invicem;
+            <lb ed="#V" n="60"/>unitatem autem totius non esse
+            continu<lb ed="#V" n="61" break="no"/>itatis, quia non continuatur alteri, sed
+            <lb ed="#V" n="62"/>esse identitatis. Ex hoc forte nonnulli
+            Do<lb ed="#V" n="63" break="no"/>ctores nostrae scholae distinguunt realiter
+            <lb ed="#V" n="64"/>totum continuum a suis partibus unitis,
+            <lb ed="#V" n="65"/>sed textus id non continet, neque etiam
+            <lb ed="#V" n="66"/>contrarium, quamvis verum sit quod unitas
+            <lb ed="#V" n="67"/>per se totius, ut ipsi primo convenit,
+            <lb ed="#V" n="68"/>non sit unitas partium sub denominatione
+            <lb ed="#V" n="69"/>continuitatis, quae limitatio concernit
+            mo<lb ed="#V" n="70" break="no"/>dum unitatis partium ad se invicem in
+            to<lb ed="#V" n="71" break="no"/>to. Tamen si hoc totum non est aliud a
+            par<lb ed="#V" n="72" break="no"/>tibus unitis realiter, unitas formalis
+            inte<lb ed="#V" n="73" break="no"/>gra partium est unitas ejus, non sub illa
+            <lb ed="#V" n="74"/>denominatione, quae materialis est, et
+            re<lb ed="#V" n="75" break="no"/>spicit partes, sed sub ratione qua ipsi
+            pri<lb ed="#V" n="76" break="no"/>mo competit et connotat negationem
+            con<lb ed="#V" n="77" break="no"/>tinuitatis ejus ad aliud quantum et
+            <lb ed="#V" n="78"/>terminum suae extensionis, et sic recte
+            <lb ed="#V" n="79"/>dicitur potius identitas quam
+            conti<lb ed="#V" n="80" break="no"/>nuitas.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Si dicatur etiam quod distinguitur
+            re<lb ed="#V" n="82" break="no"/>aliter hoc totum a partibus, per me licet,
+            <lb ed="#V" n="83"/>quia non est hujus loci disputare de hac
+            <lb ed="#V" n="84"/>quaestione. Ad quintum ut jacet in forma
+            <lb ed="#V" n="85"/>responsum est alias, sed in specie, ut
+            <lb ed="#V" n="86"/>tangit mysterium praesens, remittit
+            solu<lb ed="#V" n="87" break="no"/>tionem ejus in quaestionem sextam in
+            or<lb ed="#V" n="88" break="no"/>dine.
+            <pb ed="#V" n="228"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>(b) Circa secundum principale, etc.
+            <lb ed="#V" n="2"/>Hanc distinctionem divisit in tres
+            articu<lb ed="#V" n="3" break="no"/>los principales, quorum primus declararet
+            <lb ed="#V" n="4"/>possibilitatem mysterii, prout jam in
+            prae<lb ed="#V" n="5" break="no"/>missis tribus quaestionibus declaravit;
+            <lb ed="#V" n="6"/>secundus est, qui agit de iis, quae insunt
+            <lb ed="#V" n="7"/>corpori Christi in Eucharistia; de
+            qui<lb ed="#V" n="8" break="no"/>bus agit in tribus sequentibus
+            quaesti<lb ed="#V" n="9" break="no"/>onibus.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

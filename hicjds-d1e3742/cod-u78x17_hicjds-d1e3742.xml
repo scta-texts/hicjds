@@ -1,0 +1,2358 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 8, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 8, Quaestio 1</title>
+          <date when="2026-11-20">Nov 20, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x17">Vives, Paris, 1894, volume 17</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="10"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e3742"><!-- hicjds-b4d8q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum eucharistia sit sacramentum Novae Legis</head>
+        <!-- <div alias="hiq-d8q1-p1"> -->
+          <p>
+            <lb ed="#V" n="72" type="fixed=10"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>(a) Hic tria videnda sunt, etc. Dividit
+            <lb ed="#V" n="74"/>quaestionem in tria membra principalia.
+            <lb ed="#V" n="75"/>Primum est definitio, seu ratio nominis
+            <lb ed="#V" n="76"/>Sacramenti Secundum, de substrato seu
+            <lb ed="#V" n="77"/>definitio, comprehendens institutionem
+            <lb ed="#V" n="78"/>Sacramenti, et ejus congruitatem. Tertium
+            <lb ed="#V" n="79"/>membrum respondet ad quaestionem
+            <lb ed="#V" n="80"/>principalem, et simul tractat de unitate et
+            <lb ed="#V" n="81"/>perfectione Sacramenti.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>(b) Ratio nominis Eucharistiae, etc.
+            <lb ed="#V" n="83"/>De appellationibus hujus Sacramenti
+            <lb ed="#V" n="84"/>plura moderni. Eucharistiae nomen, quo
+            <lb ed="#V" n="85"/>utitur Doctor, frequentissimum est in
+            <pb ed="#V" n="11"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Conciliis et Patribus, et magis commune
+            <lb ed="#V" n="2"/>apud omnes, quando Sacramentum unico
+            <lb ed="#V" n="3"/>verbo exprimunt. Antiquissimum est,
+            <lb ed="#V" n="4"/>cujus mentionem facit Irenaeus lib. 4.
+            ad<lb ed="#V" n="5" break="no"/>versus hoereses, cap. 36. Dionys.
+            Eccle<lb ed="#V" n="6" break="no"/>siast. hierarch. c. 2. Justinus in Apolog.
+            <lb ed="#V" n="7"/>2. ad Antoninum Pium, Ignat. epist. ad
+            <lb ed="#V" n="8"/>Smyrnenses, apud Theodoretum Dialogo
+            <lb ed="#V" n="9"/>3. Latine sonat, bona gratia, vel quia
+            <lb ed="#V" n="10"/>Christum auctorem gratiae realiter
+            conti<lb ed="#V" n="11" break="no"/>net, vel quia significat futuram
+            glo<lb ed="#V" n="12" break="no"/>riam; et ideo appellatur pignus
+            haeredita<lb ed="#V" n="13" break="no"/>tis, vel quia in memoriam passionis
+            <lb ed="#V" n="14"/>Christi et mortis in gratiarum actionem
+            <lb ed="#V" n="15"/>consecratur, ut dicit Remigius in 1. ad
+            <lb ed="#V" n="16"/>Cor. 11. Et haec acceptio alludit ad verba
+            <lb ed="#V" n="17"/>Evangelistarum, in quibus institutio
+            Sa<lb ed="#V" n="18" break="no"/>cramenti habetur, servato verbo gratiae.
+            <lb ed="#V" n="19"/>Luc. 22. Et accepto pane gratias egit;
+            <lb ed="#V" n="20"/>Graece legitur sogaptorocas, pro quo Matth.
+            <lb ed="#V" n="21"/>Benedixit ac fregit, Marc. Benedicens
+            <lb ed="#V" n="22"/>fregit; Graece autem sohoyocas, id est,
+            <lb ed="#V" n="23"/>benedixit; in consecratione autem calicis
+            <lb ed="#V" n="24"/>utuntur priori participio soyagigracas
+            <lb ed="#V" n="25"/>quod est, gratias agens. Hinc Iren. lib.
+            <lb ed="#V" n="26"/>4. c. 34. Quomodo autem constabit eis,
+            <lb ed="#V" n="27"/>eum panem, in quo gratice actoe sunt,
+            <lb ed="#V" n="28"/>corpus esse Domini, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Inter caeteras autem appellationes, una
+            <lb ed="#V" n="30"/>Coenae Dominicae, quae, etsi in Augustino
+            <lb ed="#V" n="31"/>de sermone Domini in monte legatur,
+            <lb ed="#V" n="32"/>tamen non est trahenda in usum, quia
+            <lb ed="#V" n="33"/>eam haeretici in falsam significationem
+            <lb ed="#V" n="34"/>torserunt, alioquin habet congruam
+            signi<lb ed="#V" n="35" break="no"/>ficationem, modo veritas substrata non
+            <lb ed="#V" n="36"/>corrumpatur, vel quia hoc Sacramentum
+            <lb ed="#V" n="37"/>in Coena fuit institutum, vel quia Coena
+            <lb ed="#V" n="38"/>legalis, id est, Agnus Paschalis, ejus fuit
+            <lb ed="#V" n="39"/>figura, vel certe quia est Coena mystica.
+            <lb ed="#V" n="40"/>Haeretici praetendunt se proprietatem
+            lo<lb ed="#V" n="41" break="no"/>cutionis retinere ex Apostolo 1. ad
+            Co<lb ed="#V" n="42" break="no"/>rinth. 11. ubi ait: Non est Dominicam
+            <lb ed="#V" n="43"/>Coenam manducare, etc. Sed advertant
+            <lb ed="#V" n="44"/>proprietatem in sensu, non in verbis
+            ma<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>gis attendi, nam destructa significatione
+            <lb ed="#V" n="46"/>vera, nequit proprietas verbi manere, quae
+            <lb ed="#V" n="47"/>est qualitas significationis; non
+            vocabu<lb ed="#V" n="48" break="no"/>lum ergo reprehenditur, sed suppositus
+            <lb ed="#V" n="49"/>error, qui non admittitur.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Rationem hujus nominis, ut est in usu
+            <lb ed="#V" n="51"/>Ecclesiae et Sanctorum, intendit Doctor
+            <lb ed="#V" n="52"/>definitionem esse, quam assignat:
+            Eu<lb ed="#V" n="53" break="no"/>charistia, inquit, est Sacramentum
+            corpo<lb ed="#V" n="54" break="no"/>ris Christi et sanguinis veraciter
+            con<lb ed="#V" n="55" break="no"/>tenti sub speciebus panis et vini, post
+            <lb ed="#V" n="56"/>consecrationem factam, etc. Hanc
+            defini<lb ed="#V" n="57" break="no"/>tionem non explicat hic verbatim, quia
+            <lb ed="#V" n="58"/>per plures quaestiones suo loco eam
+            tra<lb ed="#V" n="59" break="no"/>ctat. Supponit igitur hanc rationem, nos
+            <lb ed="#V" n="60"/>similiter supponimus remittendo quaeque
+            <lb ed="#V" n="61"/>in sua propria loca; hic tantum
+            adver<lb ed="#V" n="62" break="no"/>tendum est, definitionem intelligi eo
+            mo<lb ed="#V" n="63" break="no"/>do quo supra exponit ipse, reliquas
+            defi<lb ed="#V" n="64" break="no"/>nitiones similes. Sacramentum, etc.
+            <lb ed="#V" n="65"/>denotat genus definiti, scilicet, relationem
+            <lb ed="#V" n="66"/>in recto; corporis et sanguinis, etc.
+            ter<lb ed="#V" n="67" break="no"/>minum seu significatum; sub speciebus
+            <lb ed="#V" n="68"/>panis et vini, etc. denotant
+            fundamen<lb ed="#V" n="69" break="no"/>tum proximum et materiam conversionis;
+            <lb ed="#V" n="70"/>post consecrationem, etc. denotat
+            acti<lb ed="#V" n="71" break="no"/>onem sacramentalem; a Sacerdote,
+            <lb ed="#V" n="72"/>ministrum; certis verbis, formam; ex
+            <lb ed="#V" n="73"/>institutione divina veraciter
+            signifi<lb ed="#V" n="74" break="no"/>cans, etc. modum significandi.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>(c) De secundo dico, etc. Docet non
+            es<lb ed="#V" n="76" break="no"/>se rationem falsam, intelligit autem
+            <lb ed="#V" n="77"/>rationem falsam, eo modo quo
+            Philoso<lb ed="#V" n="78" break="no"/>phus eam sumit, 5. Metaph. cap. de
+            fal<lb ed="#V" n="79" break="no"/>so, pro ratione includente repugnantia, et
+            <lb ed="#V" n="80"/>prout ipse supra dist. 1. quoest. 2. art. 2.
+            <lb ed="#V" n="81"/>S ex istis sequitur, explicat rationem
+            fal<lb ed="#V" n="82" break="no"/>sam, quae excludit definitionem. Vide
+            <lb ed="#V" n="83"/>quae ibidem dicta sunt; de possibilitate
+            <lb ed="#V" n="84"/>autem rei substratae, infra agetur dist. 10.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Ulterius dico, quod sibi subest aliquod
+            <lb ed="#V" n="86"/>ens in effectu, etc. Docet institutionem
+            <lb ed="#V" n="87"/>Sacramenti ex Scriptura, quae plana est,
+            <lb ed="#V" n="88"/>quia promissio facta Joan. 6. est
+            adim<pb ed="#V" n="12"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>pleta in ultima Coena, ex locis quae citat
+            <lb ed="#V" n="2"/>in textu. Tandem subjungit duraturum
+            <lb ed="#V" n="3"/>hoc Sacramentum cum Ecclesia militanti
+            <lb ed="#V" n="4"/>usque ad consummationem, ex illis verbis
+            <lb ed="#V" n="5"/>Pauli 1. Cor. 11. Mortem Domini
+            annun<lb ed="#V" n="6" break="no"/>tiabitis, donec veniat, etc. quod patet ex
+            <lb ed="#V" n="7"/>Chrysostomo, Theophylacto hic, Hieron.
+            <lb ed="#V" n="8"/>Theodoreto in Danielis 12. Irenaeo lib. 5.
+            <lb ed="#V" n="9"/>Primasio in c. 11. Apocalypsis.
+            Hippoly<lb ed="#V" n="10" break="no"/>to tract. de consummatione saeculi. Hic
+            <lb ed="#V" n="11"/>cultus et usus Eucharistiae publicus in
+            <lb ed="#V" n="12"/>Ecclesia erit usque ad tempus Antichristi;
+            <lb ed="#V" n="13"/>. ille autem auferet juge sacrificium,
+            quan<lb ed="#V" n="14" break="no"/>tum ad cultum publicum, sicut
+            perseque<lb ed="#V" n="15" break="no"/>tur Ecclesiam et fidem Christi, sed in
+            pri<lb ed="#V" n="16" break="no"/>vato frequentabitur a Sanctis et fidelibus
+            <lb ed="#V" n="17"/>ita ut non desinat usus ejus, donec
+            Chri<lb ed="#V" n="18" break="no"/>stus venerit ad judicium.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>(d) Quod hoc sit congruum
+            proba<lb ed="#V" n="20" break="no"/>tur, etc. Fuisse congruam et
+            convenien<lb ed="#V" n="21" break="no"/>tem hujus Sacramenti institutionem
+            osten<lb ed="#V" n="22" break="no"/>dit, primo ex fine cultus et religionis circa
+            <lb ed="#V" n="23"/>Christum, quia altaria, Ecclesiae ministri,
+            <lb ed="#V" n="24"/>et reliqua divini cultus ad hoc
+            Sacramen<lb ed="#V" n="25" break="no"/>tum ordinantur, et jam potestas in
+            cor<lb ed="#V" n="26" break="no"/>pus mysticum fundatur in potestate circa
+            <lb ed="#V" n="27"/>corpus ejus verum, vel ad eam
+            reduci<lb ed="#V" n="28" break="no"/>tur; et sicut Paulus ex translatione
+            Sa<lb ed="#V" n="29" break="no"/>cerdotii ad Hebraeos, et sacrificii, probat
+            <lb ed="#V" n="30"/>translationem legis, ita recte colligitur
+            <lb ed="#V" n="31"/>legem novam primario ordinari ad hoc
+            <lb ed="#V" n="32"/>Sacramentum, et sacrificium in ratione
+            <lb ed="#V" n="33"/>cultus. Si loquamur etiam de fine legis,
+            <lb ed="#V" n="34"/>quae est charitas, plenitudo legis, cum.
+            <lb ed="#V" n="35"/>finis hujus Sacramenti sit nutritio et
+            <lb ed="#V" n="36"/>conservatio ejus, recte caetera media legis
+            <lb ed="#V" n="37"/>ad idem ordinari congruit, suo modo.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Secunda congruentia est, ex
+            necessi<lb ed="#V" n="39" break="no"/>tate ipsius Sacramenti, quia generationi
+            <lb ed="#V" n="40"/>spirituali congruum fuit augere
+            nutri<lb ed="#V" n="41" break="no"/>mentum spirituale hominis viatoris,
+            sub<lb ed="#V" n="42" break="no"/>jecti variis tentationibus; de hac
+            neces<lb ed="#V" n="43" break="no"/>sitate infra dicemus.
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>Tertia congruentia est, quod
+            conveni<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>ebat instituere, idem etiam sub signo
+            <lb ed="#V" n="46"/>sensibili, quia congruit, ut per modum
+            <lb ed="#V" n="47"/>nutrimenti spiritualis daretur sub specie
+            <lb ed="#V" n="48"/>et proportione nutrimenti sensibilis, ut
+            <lb ed="#V" n="49"/>dicit ordinem ad verba, quibus fit, et ut
+            <lb ed="#V" n="50"/>constaret de veritate Sacramenti, ejus
+            <lb ed="#V" n="51"/>usu et applicatione.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Congruit ulterius ut ejus minister esset
+            <lb ed="#V" n="53"/>in gradu excellenti constitutus in
+            Eccle<lb ed="#V" n="54" break="no"/>sia; tum propter excellentiam Sacramenti;
+            <lb ed="#V" n="55"/>tum quia est etiam sacrificium unicum
+            <lb ed="#V" n="56"/>legis novae.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Tandem institutionem hanc ex facto
+            <lb ed="#V" n="58"/>convenientem fuisse, est de fide, ex
+            <lb ed="#V" n="59"/>Trident. sess. 7. de Sacram. in genere
+            <lb ed="#V" n="60"/>can. 5. Omnia Sacramenta fuerunt a
+            <lb ed="#V" n="61"/>Christo Domino instituta
+            convenientissi<lb ed="#V" n="62" break="no"/>ma ratione, et sess. 13. c. 2.
+            Convenien<lb ed="#V" n="63" break="no"/>tiam hanc docet ex amore Christi
+            infide<lb ed="#V" n="64" break="no"/>les, nam. ut Joan. 13. Cum dilexisset
+            <lb ed="#V" n="65"/>suos, in finem dilexit eos; secundo, ut
+            <lb ed="#V" n="66"/>memoria suae passionis ac mortis jugis
+            <lb ed="#V" n="67"/>colatur usque ad adventum; tertio ut
+            es<lb ed="#V" n="68" break="no"/>set nutrimentum; quarto, ut esset pignus
+            <lb ed="#V" n="69"/>haereditatis, etiam futurae, quam
+            sum<lb ed="#V" n="70" break="no"/>entibus hoc Sacramentum Joan. 6.
+            promi<lb ed="#V" n="71" break="no"/>sit; quinto, ut esset Symbolum corporis
+            <lb ed="#V" n="72"/>mystici, cujus ipse est caput. Quod item
+            <lb ed="#V" n="73"/>sumitur ex Paulo 1. ad Cor. 11. Omnes
+            <lb ed="#V" n="74"/>unum corpus sumus qui de uno pane, et
+            <lb ed="#V" n="75"/>de uno calice participamus; et ex cap.
+            <lb ed="#V" n="76"/>Firmiter, de Summa Trinitate et fide
+            <lb ed="#V" n="77"/>Catholica; cap. Cum Marthoe, de
+            celebra<lb ed="#V" n="78" break="no"/>tione Missarum. Ad quam unitatem
+            al<lb ed="#V" n="79" break="no"/>ludunt saepe Patres agentes de hoc
+            Sacra<lb ed="#V" n="80" break="no"/>mento.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>(e) De tertio dico, quod illud, etc. est
+            <lb ed="#V" n="82"/>Sacramentum, etc. Est de fide ex Trident. 1
+            <lb ed="#V" n="83"/>sess. 7. de Sacram. in genere, can. 1.
+            <lb ed="#V" n="84"/>sess. 13. per totam, et sess. 21. in
+            cano<lb ed="#V" n="85" break="no"/>ne fidei, Florentini in litteris unionis.
+            <lb ed="#V" n="86"/>Lateranens. cap. Firmiter, de Summa
+            <lb ed="#V" n="87"/>Trinitate, et fide Catholica. Sed et idem
+            <lb ed="#V" n="88"/>docent antiquiora Concilia, Nicenum
+            <pb ed="#V" n="13"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>can. 18. et lib. 3. de divina mensa.
+            Con<lb ed="#V" n="2" break="no"/>stant. VI. Act. 8. Trullen, can. 26. et
+            <lb ed="#V" n="3"/>102. Nicenum secundum, Act. 6.
+            Arela<lb ed="#V" n="4" break="no"/>tens. secundum can. 15. Turonen.
+            secun<lb ed="#V" n="5" break="no"/>dum cap. 3. Hispalense secundum cap. 7.
+            <lb ed="#V" n="6"/>Toletan. XII. cap. 5. Et patet idem ex
+            omni<lb ed="#V" n="7" break="no"/>bus Patribus et multis Pontificibus. Ratio
+            <lb ed="#V" n="8"/>autem obvia est, applicando definitionem
+            <lb ed="#V" n="9"/>Sacramenti quocumque modo assignatur
+            <lb ed="#V" n="10"/>ad hoc mysterium. Neque in hac
+            quae<lb ed="#V" n="11" break="no"/>stione magna est controversia, licet
+            ali<lb ed="#V" n="12" break="no"/>qui antiqui haeretici male senserint de
+            <lb ed="#V" n="13"/>Sacramento, contra efficaciam, modum et
+            <lb ed="#V" n="14"/>ritum Ecclesiae, aut usum ipsius
+            Sacra<lb ed="#V" n="15" break="no"/>menti, vel certe ita absurde
+            dogmati<lb ed="#V" n="16" break="no"/>zarint, ut quaestioni locum non
+            relique<lb ed="#V" n="17" break="no"/>rint, aut disputationi, insanientes magis,
+            <lb ed="#V" n="18"/>quam aliquid, quod ratione aut
+            appa<lb ed="#V" n="19" break="no"/>rentia niteretur, adducentes ut
+            Bogo<lb ed="#V" n="20" break="no"/>moli apud Eutychium 2. part. Panoplice,
+            <lb ed="#V" n="21"/>tit. 23. cap. 17. asserentes Eucharistiam
+            <lb ed="#V" n="22"/>esse orationem Dominicam et Evangelium,
+            <lb ed="#V" n="23"/>nihil aliud. Alii negabant fructum et
+            <lb ed="#V" n="24"/>realem potentiam Christi Domini, de
+            qui<lb ed="#V" n="25" break="no"/>bus agemus suo loco, dist. 10. Admittunt
+            <lb ed="#V" n="26"/>antiqui, et moderni esse Sacramentum.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>(f) De unitate hujus Sacramenti
+            di<lb ed="#V" n="28" break="no"/>co, etc. In hoc puncto variant Doctores,
+            <lb ed="#V" n="29"/>-tam de unitate specifica, quam
+            numeri<lb ed="#V" n="30" break="no"/>ca hujus Sacramenti. Aliqui docent esse
+            <lb ed="#V" n="31"/>diversa Sacramenta, ut Aureolus in hac
+            <lb ed="#V" n="32"/>distinctione. Major admittit unitatem
+            si<lb ed="#V" n="33" break="no"/>gnificati tantum. Gabriel etiam docet tam
+            <lb ed="#V" n="34"/>in esse entis et Sacramenti, esse diversa,
+            <lb ed="#V" n="35"/>quam etiam significati, loquendo de
+            si<lb ed="#V" n="36" break="no"/>gnificato, quod ex vi verborum inest
+            <lb ed="#V" n="37"/>speciebus. Verum nisi praedicti respiciant
+            <lb ed="#V" n="38"/>ad aliam opinionem, nempe
+            Sacramen<lb ed="#V" n="39" break="no"/>tum in recto consistere in verbis, forte
+            <lb ed="#V" n="40"/>contendunt de modo loquendi tantum.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Conclusic Doctoris est communis
+            Scho<lb ed="#V" n="42" break="no"/>lasticorum, nempe Sacramentum esse
+            <lb ed="#V" n="43"/>unum in specie unitate integritatis, Alens.
+            <lb ed="#V" n="44"/>.4. part. quoest. 31. m. 1. D.
+            Bonaventu<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>ra in 4. dist. 8. quaest. ultima. D.
+            Tho<lb ed="#V" n="46" break="no"/>mas ibidem, et 3. p. quoest. 73. art. 2.
+            <lb ed="#V" n="47"/>Richardus art. 1. queest. 2. Durandus.
+            <lb ed="#V" n="48"/>quaest. 1. art. 2. Suarez 3. p. disp. 39.
+            <lb ed="#V" n="49"/>sect. 3. et 4. et reliqui locis citatis in
+            Ma<lb ed="#V" n="50" break="no"/>gistrum, ubi Doctores nostrae scholae.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>Probatur conclusio ex Catechismo Pii V.
+            <lb ed="#V" n="52"/>Non plura, inquit, sed unum tantum
+            Sa<lb ed="#V" n="53" break="no"/>cramentum Ecclesice auctoritate ducti
+            <lb ed="#V" n="54"/>confitemur, etc. Sic etiam Trident. sess.
+            <lb ed="#V" n="55"/>7. can. 1. et sess. 13. agit de hoc
+            Sacra<lb ed="#V" n="56" break="no"/>mento ut uno; et frequentius Patres et
+            <lb ed="#V" n="57"/>Concilia. Caeterum, ut dixi, controversia
+            <lb ed="#V" n="58"/>magis est de nomine, quam de re ipsa,
+            <lb ed="#V" n="59"/>itaque ex modo explicandi dependet ejus
+            <lb ed="#V" n="60"/>decisio. Extrema recte nobis Doctor
+            con<lb ed="#V" n="61" break="no"/>cordat in littera ex duplici acceptione
+            cor<lb ed="#V" n="62" break="no"/>poris, nam uno modo sumitur pro eo
+            <lb ed="#V" n="63"/>quod includit solum partes animatas: Et
+            <lb ed="#V" n="64"/>sic, inquit, sanquis, cum non sit
+            anima<lb ed="#V" n="65" break="no"/>tus, non est de ratione corporis hoc modo
+            <lb ed="#V" n="66"/>sumpti, et sic potest habere proprium
+            <lb ed="#V" n="67"/>signum. Alio modo sumitur corpus, ut
+            in<lb ed="#V" n="68" break="no"/>cludit omnia requisita ad veritatem
+            corpo<lb ed="#V" n="69" break="no"/>ris organici, et sic includit sanguinem
+            <lb ed="#V" n="70"/>Primo modo sumendo corpus et
+            sangui<lb ed="#V" n="71" break="no"/>nem, sunt primo diversa signata; quo
+            sen<lb ed="#V" n="72" break="no"/>su loquuntur Auctores primo citati, et sic
+            <lb ed="#V" n="73"/>etiam frequens est usus Ecclesiae,
+            appellan<lb ed="#V" n="74" break="no"/>do illa ut plura, ut in collecta Missae de
+            <lb ed="#V" n="75"/>Sanctissimo Sacramento: Sacramenta,
+            <lb ed="#V" n="76"/>inquit, quae sumpsimus; et in collecta de
+            <lb ed="#V" n="77"/>B. Virgine in Missa communi: Sumptis
+            <lb ed="#V" n="78"/>Domine, salutis nostrae subsidiis, etc. et
+            <lb ed="#V" n="79"/>in variis aliis collectis locutio pluralis est
+            <lb ed="#V" n="80"/>frequens, qua utitur etiam Concilium
+            Afri<lb ed="#V" n="81" break="no"/>canum cap. 4. Carthagin. V. c. 24. 25.
+            <lb ed="#V" n="82"/>Auctor sermonis de Coena Domini apud
+            <lb ed="#V" n="83"/>Cyprianum, Ambrosius lib. 5. de Sacram.
+            <lb ed="#V" n="84"/>c. 1. et in cap. Sacramenta, cap. In
+            Sa<lb ed="#V" n="85" break="no"/>cramentis, cap. Comperimus, de consecr.
+            <lb ed="#V" n="86"/>dist. 2. Ignatius epist. ad Smyrnenses
+            <lb ed="#V" n="87"/>Alexander 1. epist. cap. 4. Tertullianus
+            <lb ed="#V" n="88"/>contra Marcionem lib. 1. cap. 14.
+          </p>
+          <p>
+            <pb ed="#V" n="14"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Patet ulterius haec sententia, quia
+            diver<lb ed="#V" n="2" break="no"/>sa materia, diversa forma, diversus modus
+            <lb ed="#V" n="3"/>significandi, et diversitas significati, et
+            <lb ed="#V" n="4"/>cenfectio unius seorsim ab alio, arguunt
+            <lb ed="#V" n="5"/>hanc diversitatem; unde si triduo
+            confice<lb ed="#V" n="6" break="no"/>retur, neque corpus essetsub specie
+            san<lb ed="#V" n="7" break="no"/>guinis, neque e contra. Neque corpus
+            secun<lb ed="#V" n="8" break="no"/>do modo sumptum, est significatum, quod
+            <lb ed="#V" n="9"/>ex vi verborum ponitur sub specie panis,
+            <lb ed="#V" n="10"/>ut patet ex ratione jam praemissa, et ex
+            <lb ed="#V" n="11"/>Trident. sess. 13. cap. 3. sed corpus
+            pri<lb ed="#V" n="12" break="no"/>emo modo sumptum qua aptum animari,
+            <lb ed="#V" n="13"/>seu ut est subjectum animae;
+            concomitan<lb ed="#V" n="14" break="no"/>ter autem anima, sanguis, et caetera vi
+            <lb ed="#V" n="15"/>naturalis connexionis, quando haec inest,
+            <lb ed="#V" n="16"/>quae in triduo fuit destructa. Sumendo
+            er<lb ed="#V" n="17" break="no"/>go haec ratione signi practici ( sive
+            loqua<lb ed="#V" n="18" break="no"/>mur de formis verborum, et confectione
+            <lb ed="#V" n="19"/>Sacramenti, sive etiam de speciebus ipsis,
+            <lb ed="#V" n="20"/>quarum significatio sacramentalis
+            mensu<lb ed="#V" n="21" break="no"/>rates, et efficacia formae, per quam fit
+            <lb ed="#V" n="22"/>Sacramentum) sunt diversa signa in
+            rigo<lb ed="#V" n="23" break="no"/>re significationis practicae, quod intendit
+            <lb ed="#V" n="24"/>Doctor et D. Thomas, qui negant ea
+            es<lb ed="#V" n="25" break="no"/>se unum unitate indivisibilitatis, sed
+            in<lb ed="#V" n="26" break="no"/>tegritatis.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>Et huic sententiae favet modus
+            loquen<lb ed="#V" n="28" break="no"/>di, et usus Ecclesiae contra Bohemos, ut
+            <lb ed="#V" n="29"/>Trident. sess. 21. cap. 3. ubi asserit
+            fa<lb ed="#V" n="30" break="no"/>tendum esse etiam sub altera tantum
+            spe<lb ed="#V" n="31" break="no"/>cie totum atque integrum Christum
+            ve<lb ed="#V" n="32" break="no"/>rumque Sacramentum sumi: Ac
+            propter<lb ed="#V" n="33" break="no"/>ea, quod ad fructum attinet nulla gratia
+            <lb ed="#V" n="34"/>necessaria ad salutem eos defraudari qui
+            <lb ed="#V" n="35"/>unam speciem solam accipiunt, etc. Quod
+            <lb ed="#V" n="36"/>maxime admittere debent, qui negant
+            <lb ed="#V" n="37"/>per plures species majorem, aut diversam
+            <lb ed="#V" n="38"/>gratiam conferri, quam per unam tantum,
+            <lb ed="#V" n="39"/>Sicut ergo in pluribus particulis et
+            sepa<lb ed="#V" n="40" break="no"/>ratis ejusdem speciei salvatur diversitas
+            <lb ed="#V" n="41"/>numerica hujus Sacramenti, ita etiam in
+            <lb ed="#V" n="42"/>diversis speciebus, servata proportione,
+            <lb ed="#V" n="43"/>debet salvari diversitas specifica, quae
+            <lb ed="#V" n="44"/>etiam probari potest ex eodem
+            fundamen<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>to, quo ex fine institutionis ejus sumitur
+            <lb ed="#V" n="46"/>unitas integritatis, quia se habet ut
+            ali<lb ed="#V" n="47" break="no"/>mentum cibi et potus, quae diversitatem
+            <lb ed="#V" n="48"/>Physicam specificam in se continent, ut
+            <lb ed="#V" n="49"/>ad invicem comparantur, licet integritate
+            <lb ed="#V" n="50"/>faciant unum completum alimentum. In
+            <lb ed="#V" n="51"/>hac ergo parte non video magnam
+            diffe<lb ed="#V" n="52" break="no"/>rentiam inter Doctores esse, nisi in modo
+            <lb ed="#V" n="53"/>loquendi.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Sumendo corpus secundo modo, sicut
+            <lb ed="#V" n="55"/>non solum comprehendit corpus
+            organi<lb ed="#V" n="56" break="no"/>cum potentia vitam habens, seu
+            subje<lb ed="#V" n="57" break="no"/>ctum animae, sed etiam reliqua, quae ad
+            <lb ed="#V" n="58"/>integritatem ejus modo dicto faciunt, et
+            <lb ed="#V" n="59"/>consistentiam, potest esse unum
+            signa<lb ed="#V" n="60" break="no"/>tum totale: Et ita, inquit Doctor, signum
+            <lb ed="#V" n="61"/>proprium corporis primo modo sumpti,
+            <lb ed="#V" n="62"/>ac proprium sanguinis possunt integrare
+            <lb ed="#V" n="63"/>unum signum unitate integritatis, non
+            <lb ed="#V" n="64"/>indivisibilitatis. Et hoc modo intelligitur
+            <lb ed="#V" n="65"/>secunda sententia.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Recte ergo Doctor explicat hanc
+            unita<lb ed="#V" n="67" break="no"/>tem integritatis inter duas species
+            Sacra<lb ed="#V" n="68" break="no"/>menti, qua Sacramentum sunt, et signa
+            <lb ed="#V" n="69"/>practica secundum ipsam Sacramentalem
+            <lb ed="#V" n="70"/>significationem, et melius quam alii, qui
+            <lb ed="#V" n="71"/>recurrunt ad significationem mysticam,
+            <lb ed="#V" n="72"/>qua denotatur corpus mysticum; vel ad
+            <lb ed="#V" n="73"/>rememorativam, qua denotatur sacrificium
+            <lb ed="#V" n="74"/>cruentum, quia etsi haec conveniant huic
+            <lb ed="#V" n="75"/>mysterio, non tamen spectant ad
+            signifi<lb ed="#V" n="76" break="no"/>cationem practicam et causativam sui
+            si<lb ed="#V" n="77" break="no"/>gnificati, qua praecise est Sacramentum;
+            <lb ed="#V" n="78"/>ut patet ex dictis dist. 1. q. 2. agendo de
+            <lb ed="#V" n="79"/>vera ratione et formali Sacramenti.
+            Ne<lb ed="#V" n="80" break="no"/>que recte etiam declaratur haec unitas in
+            <lb ed="#V" n="81"/>ordine ad effectum gratiae. sive
+            nutrimen<lb ed="#V" n="82" break="no"/>ti spiritualis, tenendo eumdem causari per
+            <lb ed="#V" n="83"/>alterutram speciem, quia sic magis essent
+            <lb ed="#V" n="84"/>signa univoca in causando, quam
+            aequivo<lb ed="#V" n="85" break="no"/>ca seu heterogenea, ut ita dicam, et
+            inte<lb ed="#V" n="86" break="no"/>grantia unum totale, quia in vocibus,
+            <lb ed="#V" n="87"/>signa synonyma, non sunt idem signum
+            <lb ed="#V" n="88"/>numero; ergo etiam in diversis speciebus
+            <pb ed="#V" n="15"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>et diversae significationis nequit esse
+            <lb ed="#V" n="2"/>unitas integralis significationis practicae
+            <lb ed="#V" n="3"/>ex eodem effectu gratiae uniformiter
+            cau<lb ed="#V" n="4" break="no"/>satae ab alterutra specie, sed potius se
+            <lb ed="#V" n="5"/>habent ut causae aequivalentes non
+            subor<lb ed="#V" n="6" break="no"/>dinatae, neque ad se invicem ordinatae in
+            <lb ed="#V" n="7"/>causando; sive enim ipsa species sit
+            ra<lb ed="#V" n="8" break="no"/>tio causandi, ut continet significatum
+            <lb ed="#V" n="9"/>proximum, nempe totum Christum, sive
+            <lb ed="#V" n="10"/>etiam ratione contenti causet, neque una
+            <lb ed="#V" n="11"/>in ordine ad aliam causat, aut continet
+            <lb ed="#V" n="12"/>Christum, neque ut alteri subordinatur,
+            <lb ed="#V" n="13"/>neque ut est compars tertii, sed ex
+            pro<lb ed="#V" n="14" break="no"/>pria ratione et institutione. Sic etiam in
+            <lb ed="#V" n="15"/>signis speculativis salvatur diversitas
+            <lb ed="#V" n="16"/>totalis, quamvis idem significent, diverso
+            <lb ed="#V" n="17"/>tamen modo, ut nomen, et definitio;
+            pe<lb ed="#V" n="18" break="no"/>rinde ergo erit in practicis et
+            quan<lb ed="#V" n="19" break="no"/>tum ad praesens, in diversis speciebus.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Neque recte etiam haec unitas
+            integra<lb ed="#V" n="21" break="no"/>lis explicatur ex modo significandi
+            alio<lb ed="#V" n="22" break="no"/>rum Sacramentorum, in quibus plures res
+            <lb ed="#V" n="23"/>sensibiles cum verbis concurrunt ad
+            si<lb ed="#V" n="24" break="no"/>gnificationem sacramentalem, quia in his
+            <lb ed="#V" n="25"/>significatio est indivisibilis, quorum
+            neu<lb ed="#V" n="26" break="no"/>trum seorsim ab altero et sine ordine ad
+            <lb ed="#V" n="27"/>ipsum significat; sive significatio
+            funde<lb ed="#V" n="28" break="no"/>tur in aliquo uno, cui accedunt reliqua, ut
+            <lb ed="#V" n="29"/>circumstantiae determinantes, sive in
+            om<lb ed="#V" n="30" break="no"/>nibus simul fundetur. In proposito autem
+            <lb ed="#V" n="31"/>quaelibet species seorsim, et divisibiliter
+            <lb ed="#V" n="32"/>significat; oportet ergo unitatem
+            integra<lb ed="#V" n="33" break="no"/>lem in praesenti, sumi in ordine aliquo
+            <lb ed="#V" n="34"/>modo ad aliquod significatum unum et
+            <lb ed="#V" n="35"/>proximum, quod aliud non est nisi
+            cor<lb ed="#V" n="36" break="no"/>pus dicto modo sumptum.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Sed adhuc etiam restat difficultas,
+            quo<lb ed="#V" n="38" break="no"/>modo illud possit specificare
+            significati<lb ed="#V" n="39" break="no"/>onem unam integralem utriusque speciei,
+            <lb ed="#V" n="40"/>si ex vi verborum neutra species continet
+            <lb ed="#V" n="41"/>sic corpus, ut patet ex dictis non
+            contine<lb ed="#V" n="42" break="no"/>re, quia in triduo non fieret corpus sub
+            <lb ed="#V" n="43"/>specie sanguinis, neque e contra sanguis
+            <lb ed="#V" n="44"/>sub specie corporis, neque de facto aliter,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>quam concomitanter contineat.
+            Responde<lb ed="#V" n="46" break="no"/>tur, ex natura rei et connexione naturali
+            <lb ed="#V" n="47"/>sanguinem ordinari ad corpus, ut est pars
+            <lb ed="#V" n="48"/>ejus, sumendo corpus hoc secundo modo;
+            <lb ed="#V" n="49"/>sicut ergo forma verborum est signum
+            <lb ed="#V" n="50"/>practicum seu effectivum, quo ponitur
+            <lb ed="#V" n="51"/>sanguis sub speciebus in esse, et
+            secun<lb ed="#V" n="52" break="no"/>dum modum alias essendi, quem sanguis
+            <lb ed="#V" n="53"/>habet in re ipsa (perinde dicendum est
+            <lb ed="#V" n="54"/>de forma consecrandi panis in corpus),
+            <lb ed="#V" n="55"/>ita etiam significat sanguinem practice,
+            <lb ed="#V" n="56"/>secundum ordinem rei causatae, et causat
+            <lb ed="#V" n="57"/>ut in corpore est, quia existentia
+            sangui<lb ed="#V" n="58" break="no"/>nis in Sacramento supponit existentiam
+            <lb ed="#V" n="59"/>ejus in re, cum in Sacramento non
+            pro<lb ed="#V" n="60" break="no"/>ducatur de novo, ut infra fusius
+            probabi<lb ed="#V" n="61" break="no"/>tur; sed adducitur supponendc
+            existen<lb ed="#V" n="62" break="no"/>tiam naturalem ejus, a qua dependet
+            si<lb ed="#V" n="63" break="no"/>gnificatio sacramentalis de facto,
+            quid<lb ed="#V" n="64" break="no"/>quid sit de potentia absoluta spectando
+            <lb ed="#V" n="65"/>voluntatem efficaciam Dei quae inesse
+            <lb ed="#V" n="66"/>posset, aut forte inest, de qua suo loco
+            in<lb ed="#V" n="67" break="no"/>fra dicetur.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Inde sequitur formam sanguinis
+            inte<lb ed="#V" n="69" break="no"/>grare causam totalem cum forma panis, i
+            <lb ed="#V" n="70"/>et signum practicum ad positionem
+            cor<lb ed="#V" n="71" break="no"/>poris Christi, servata unione partium
+            <lb ed="#V" n="72"/>animatarum et sanguinis ad invicem,
+            <lb ed="#V" n="73"/>prout in re ipsa supponuntur; et hoc
+            <lb ed="#V" n="74"/>etiam comprehendit finis institutionis,
+            <lb ed="#V" n="75"/>quo Christus voluit seipsum totum dare
+            <lb ed="#V" n="76"/>sumendum sub altera specie, et sub ea
+            <lb ed="#V" n="77"/>contineri; corpus ergo primo modo
+            sum<lb ed="#V" n="78" break="no"/>ptum, et sanguis sunt significata
+            explici<lb ed="#V" n="79" break="no"/>ta, quae tamen in re ipsa vivente
+            neque<lb ed="#V" n="80" break="no"/>unt separari a toto quod integrant; unde
+            <lb ed="#V" n="81"/>recte signum practicum unius, et signum
+            <lb ed="#V" n="82"/>practicum alterius ponendi sub speciebus
+            <lb ed="#V" n="83"/>integrant causam, et signum totale
+            respe<lb ed="#V" n="84" break="no"/>ctu ejusdem, quod integrant.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Quod dico de utraque forma verborum
+            <lb ed="#V" n="86"/>in esse signi practici, hoc ipsum dico de
+            <lb ed="#V" n="87"/>speciebus consecratis, quia sicut verba se
+            <lb ed="#V" n="88"/>habent in fieri ad praesentiam
+            sacramenta<pb ed="#V" n="16"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>lem, ita et species quantum ad conservari
+            <lb ed="#V" n="2"/>ejusdem in facto, quia destructa specie,
+            <lb ed="#V" n="3"/>destruitur; quia ergo significatio practica
+            <lb ed="#V" n="4"/>Sacramenti limitatur ad modum essendi
+            <lb ed="#V" n="5"/>signatorum in reipsa, illumque
+            suppo<lb ed="#V" n="6" break="no"/>nit, tam ex vi institutionis, ut modo facta
+            <lb ed="#V" n="7"/>est, quam ex fine, ideo non abstrahit a
+            <lb ed="#V" n="8"/>modo naturali essendi signatorum, ut
+            <lb ed="#V" n="9"/>partes sunt actu vel aptitudine ejusdem
+            <lb ed="#V" n="10"/>totius. Quod denotat etiam significatio
+            <lb ed="#V" n="11"/>rememorativa sacrificii cruenti, quae
+            <lb ed="#V" n="12"/>inest huic mysterio, quatenus in
+            separa<lb ed="#V" n="13" break="no"/>tione harum partium ab invicem
+            redem<lb ed="#V" n="14" break="no"/>ptio adimpleta fuit, nam nequit sanguis
+            <lb ed="#V" n="15"/>Christi, ut est sanguis Christi, significari
+            <lb ed="#V" n="16"/>ex vi verborum, quin connotet hunc
+            ordi<lb ed="#V" n="17" break="no"/>nem ad corpus quod integrat modo dicto,
+            <lb ed="#V" n="18"/>vel integravit, et cui inest, vel infuit
+            <lb ed="#V" n="19"/>(quod dico propter separationem ejus in
+            <lb ed="#V" n="20"/>triduo) neque actu, neque aptitudine
+            po<lb ed="#V" n="21" break="no"/>test esse Christi, nisi ut integrat corpus
+            <lb ed="#V" n="22"/>modo dicto, quem ordinem forma
+            verbo<lb ed="#V" n="23" break="no"/>rum significat explicite: Hic est calix
+            <lb ed="#V" n="24"/>sanguinis mei, etc. Hoc est corpus
+            <lb ed="#V" n="25"/>meum, etc. ubi pronomen possessivum
+            <lb ed="#V" n="26"/>denotat ordinem utriusque ad Christum
+            <lb ed="#V" n="27"/>ut partium inclusarum. Significatio ctiam
+            <lb ed="#V" n="28"/>mystica corporis mystici, quae in hoc
+            Sa<lb ed="#V" n="29" break="no"/>cramento includitur, eumdem ordinem
+            <lb ed="#V" n="30"/>integritatis denotat, ut bene Augustinus
+            <lb ed="#V" n="31"/>tract. 26. in Joan. optime ergo Doctor
+            <lb ed="#V" n="32"/>per hunc ordinem explicat unitatem
+            Sa<lb ed="#V" n="33" break="no"/>cramenti.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>Subjicit mox congruentiam hujus
+            uni<lb ed="#V" n="35" break="no"/>tatis per integritatem ex proportione ad
+            <lb ed="#V" n="36"/>nutrimentum corporis, et similitudinem,
+            <lb ed="#V" n="37"/>quia sicut nutrimentum completum
+            cor<lb ed="#V" n="38" break="no"/>poris consistit, non in cibo tantum, sed
+            <lb ed="#V" n="39"/>in potu simul, ita congruit nutrimentum
+            <lb ed="#V" n="40"/>animae instituere in iis, quae integrant
+            <lb ed="#V" n="41"/>nutrimentum corporis. Hic forte insinuat
+            <lb ed="#V" n="42"/>illam sententiam, quae docet per
+            utram<lb ed="#V" n="43" break="no"/>que speciem majorem gratiam conferri;
+            <lb ed="#V" n="44"/>sed quidquid de hoc sit, resolutionem
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>differendo in suum locum, saltem denotat
+            <lb ed="#V" n="46"/>similitudinem, quae in rebus ipsis causa
+            <lb ed="#V" n="47"/>instructionis habetur, quod unum est ex
+            <lb ed="#V" n="48"/>motivis, propter quae in rebus sensibilibus
+            <lb ed="#V" n="49"/>institutio Sacramentorum facta est,
+            se<lb ed="#V" n="50" break="no"/>cundum Patres, ut supra dist. 1. quoest. 2.
+            <lb ed="#V" n="51"/>tractatur, et ut plenitudo spiritualis
+            con<lb ed="#V" n="52" break="no"/>vivii ex integritate convivii corporalis
+            <lb ed="#V" n="53"/>significetur.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Hic dubitatur, an praeter
+            significati<lb ed="#V" n="55" break="no"/>onem partium, seu diversarum specierum
+            <lb ed="#V" n="56"/>in hoc Sacramento sit alia significatio
+            <lb ed="#V" n="57"/>totalis simplex aut composita, id est,
+            <lb ed="#V" n="58"/>complexa aut incomplexa. Capreolus
+            do<lb ed="#V" n="59" break="no"/>cet esse incomplexam in toto dist. 8. ad 5.
+            <lb ed="#V" n="60"/>contra secundam conclusionem, et ad 5.
+            <lb ed="#V" n="61"/>contra quintam conclusionem, et Suarez
+            <lb ed="#V" n="62"/>sect. 3. dub. in calce, idipsum docet. Sed
+            <lb ed="#V" n="63"/>haec non cohaeret cum communi
+            senten<lb ed="#V" n="64" break="no"/>tia praemissa, qua negatur unitas
+            indivi<lb ed="#V" n="65" break="no"/>sibilitatis, seu incomplexa in
+            Sacra<lb ed="#V" n="66" break="no"/>mento; neque fundamentum aliquod
+            hu<lb ed="#V" n="67" break="no"/>jus significationis totalis incomplexae
+            <lb ed="#V" n="68"/>ostendi potest, quia neque verba, neque
+            <lb ed="#V" n="69"/>species faciunt unum unitate
+            compositi<lb ed="#V" n="70" break="no"/>onis in significatione, efficacia, materia,
+            <lb ed="#V" n="71"/>aut modo significandi. Neque illa
+            signi<lb ed="#V" n="72" break="no"/>ficatio dici potest practica, quia nec
+            <lb ed="#V" n="73"/>effectum habet diversum ab effectu
+            signi<lb ed="#V" n="74" break="no"/>ficationis partium; nihil enim ponitur sub
+            <lb ed="#V" n="75"/>speciebus, aut conservatur praeter corpus
+            <lb ed="#V" n="76"/>et sanguinem primo, reliqua ad haec per
+            <lb ed="#V" n="77"/>concomitantiam. Unitas ergo hujus
+            signi<lb ed="#V" n="78" break="no"/>ficationis est illa, quam jam explicavimus
+            <lb ed="#V" n="79"/>ex Doctore, neque alia datur significatio
+            <lb ed="#V" n="80"/>ab illa, quae est partium diversa, aut
+            in<lb ed="#V" n="81" break="no"/>complexa; neque ex significatione
+            par<lb ed="#V" n="82" break="no"/>tium coalescit una, nisi ratione proximi
+            <lb ed="#V" n="83"/>signati, qua refertur ad tertium colascens
+            <lb ed="#V" n="84"/>ex utroque signato.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Superest alia difficultas in eo quod
+            sup<lb ed="#V" n="86" break="no"/>ponit Doctor supra, nempe, sanguinem
+            <lb ed="#V" n="87"/>non esse animatum; plures enim
+            The<lb ed="#V" n="88" break="no"/>ologi sub Pio II. orta quaestione illa, an
+            <pb ed="#V" n="17"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sanguis extra corpus in triduo fieret
+            uni<lb ed="#V" n="2" break="no"/>tus hypostatice, contendebant sanguinem
+            <lb ed="#V" n="3"/>.esse animatum, Sylvester etiam in Rosa
+            <lb ed="#V" n="4"/>aurea tract. 3. ut vim argumenti
+            susi<lb ed="#V" n="5" break="no"/>stineret, distinxit inter sanguinem
+            nutri<lb ed="#V" n="6" break="no"/>mentalem non coctum et coctum, et dicit
+            <lb ed="#V" n="7"/>hunc fuisse unitum et animatum, sicut
+            <lb ed="#V" n="8"/>etiam in animali est animatus, quem
+            <lb ed="#V" n="9"/>sequitur Cajetanus 3. p. q. 54. art. 2.
+            <lb ed="#V" n="10"/>Primam quaestionem tractavimus in
+            ma<lb ed="#V" n="11" break="no"/>teria de Incarnatione contra eumdem
+            <lb ed="#V" n="12"/>Svlvestrum, et Directorium Inquisitorum
+            <lb ed="#V" n="13"/>(quorum uterque causa fuit opinandi
+            gra<lb ed="#V" n="14" break="no"/>vibus Theologis modernis, quantum ad
+            <lb ed="#V" n="15"/>decisionem praetensam quaestionis) et
+            <lb ed="#V" n="16"/>alios, quae hic locum non habent.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Alterum, quod hic Doctor asserit, est
+            <lb ed="#V" n="18"/>communis sententia Philosophorum et
+            <lb ed="#V" n="19"/>Medicorum, quam etiam docent moderni,
+            <lb ed="#V" n="20"/>et eamdem est sententia Doctoris in 3.
+            <lb ed="#V" n="21"/>dist. 3. queest. 2. Alens. in 2. p. q. 92.
+            <lb ed="#V" n="22"/>m. 7. D. Thomas 1. p. quaest. ultima,
+            <lb ed="#V" n="23"/>art. 1. ad 3. et 3. p. quaest. 31. art. 5.
+            <lb ed="#V" n="24"/>D. Bonaventura in 4. dist. 44. art. 1.
+            <lb ed="#V" n="25"/>quoest. 1. ad. 2. Richardus art. 1.
+            <lb ed="#V" n="26"/>queest. 2. Gabriel in Supplemento eadem
+            <lb ed="#V" n="27"/>dist. quoest. 1. Durand. dist. 10. quoest. 1.
+            <lb ed="#V" n="28"/>Soto ibid. art. 2. et plures alii, ut
+            Vas<lb ed="#V" n="29" break="no"/>quez in 3. p. disp. 36. Suar, disp. 15.
+            <lb ed="#V" n="30"/>ibidem docet.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Probatur ex Philosopho lib. 3. partibus
+            <lb ed="#V" n="32"/>animalium, c. 5. qui docet sanguinem
+            <lb ed="#V" n="33"/>esse materiam corporis, quod non esset
+            <lb ed="#V" n="34"/>verum, si sanguis esset vivus aliter
+            <lb ed="#V" n="35"/>quam in potentia, qua in corpus
+            mu<lb ed="#V" n="36" break="no"/>tetur per nutritionem, quia alimentum
+            <lb ed="#V" n="37"/>est alterius naturae a substantia aliti.
+            <lb ed="#V" n="38"/>Hinc lib. 2. cap. 3. Cum omnis, inquit,
+            <lb ed="#V" n="39"/>alimenti, omnisque excrementi
+            concepta<lb ed="#V" n="40" break="no"/>culum aliquod habere necesse sit
+            <lb ed="#V" n="41"/>venceque quasi vasa sunt sanquinis;
+            <lb ed="#V" n="42"/>patet sanguinem esse animalibus
+            <lb ed="#V" n="43"/>sanquineis ultimum alimentum, etc.
+            <lb ed="#V" n="44"/>Alimentum autem per mutationem
+            sub<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>stantialem convertitur in substantiam
+            <lb ed="#V" n="46"/>aliti; sed haec co nversio nunquam fit ad
+            <lb ed="#V" n="47"/>eamdem formam quam habet
+            conver<lb ed="#V" n="48" break="no"/>sum, quia nihil agit in sibi simile aut
+            <lb ed="#V" n="49"/>aequale; et omnis mutatio proprie dicta
+            <lb ed="#V" n="50"/>supponit subjectum in potentia respectu
+            <lb ed="#V" n="51"/>formae, quae est terminus formalis
+            mu<lb ed="#V" n="52" break="no"/>tationis, quod perinde se habet in
+            muta<lb ed="#V" n="53" break="no"/>tione substantiali, quae fit per
+            corrupti<lb ed="#V" n="54" break="no"/>onem prioris formae, et ex privatione
+            <lb ed="#V" n="55"/>formae productae. Si ergo sanguis esset
+            <lb ed="#V" n="56"/>animatus, non posset converti in
+            sub<lb ed="#V" n="57" break="no"/>stantiam aliti maxime in opinione illa,
+            <lb ed="#V" n="58"/>quae tenet corpus constitui in vivente per
+            <lb ed="#V" n="59"/>animam, nec dari plures formas
+            substan<lb ed="#V" n="60" break="no"/>tiales in eodem supposito aut subjecto.
+            <lb ed="#V" n="61"/>Deinde Philosophus lib. 3. de partibus
+            <lb ed="#V" n="62"/>animalium, cap. 15. et lib 2. de Anima.
+            <lb ed="#V" n="63"/>dicit sanguinem manere irriguum per
+            <lb ed="#V" n="64"/>venas, sicut aqua per sulcos derivata, fit
+            <lb ed="#V" n="65"/>alimentum oleribus et herbis. Deinde
+            <lb ed="#V" n="66"/>nullum est argumentum aut
+            fundamen<lb ed="#V" n="67" break="no"/>tum, unde colligatur sanguinem esse
+            <lb ed="#V" n="68"/>animatum, quia non nutritur, neque
+            au<lb ed="#V" n="69" break="no"/>getur more animantium per intus
+            sus<lb ed="#V" n="70" break="no"/>ceptionem partium, sed per appositionem
+            <lb ed="#V" n="71"/>more aliorum liquorum.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Distinctio autem Cajetani et Sylvestri
+            <lb ed="#V" n="73"/>non habet fundamentum, neque facit ad
+            <lb ed="#V" n="74"/>quaestionem Theologicam ullo modo, quia
+            <lb ed="#V" n="75"/>perinde sustineri potest unio hypostatica
+            <lb ed="#V" n="76"/>sanguinis, sive animatus sit, sive non
+            <lb ed="#V" n="77"/>sit animatus, neque alius locus sanguinis
+            <lb ed="#V" n="78"/>animati dari potest nisi venae, in quibus
+            <lb ed="#V" n="79"/>nulla ratio cogit, aut apparenter
+            osten<lb ed="#V" n="80" break="no"/>dit esse partim animatum, partim non
+            <lb ed="#V" n="81"/>animatum, cum idem sit agens, et eadem
+            <lb ed="#V" n="82"/>applicatio ejus uni et alteri parti,
+            perin<lb ed="#V" n="83" break="no"/>deque concurrant contra hanc sententiam
+            <lb ed="#V" n="84"/>rationes et auctoritates adductae.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Quantum ad unitatem numericam
+            Sa<lb ed="#V" n="86" break="no"/>cramenti facilis est ex dictis resolutio.
+            <lb ed="#V" n="87"/>sumitur ab integritate numerica specie.
+            <lb ed="#V" n="88"/>rum, hic et nunc propositarum per
+            <pb ed="#V" n="18"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>modum unius convivii, ut quidam volunt;
+            <lb ed="#V" n="2"/>sed haec unitas non est proprie
+            desum<lb ed="#V" n="3" break="no"/>pta a Sacramento in ordine ad primarium
+            <lb ed="#V" n="4"/>significatum, quae est gratia subsistens,
+            <lb ed="#V" n="5"/>et magis spectat ad usum Sacramenti,
+            <lb ed="#V" n="6"/>quam ad ipsum Sacramentum, quia haec
+            <lb ed="#V" n="7"/>unitas est per ordinem ad sumptionem,
+            <lb ed="#V" n="8"/>quae una est vel plures; melius ergo
+            <lb ed="#V" n="9"/>sumitur unitas integralis numerica
+            Sa<lb ed="#V" n="10" break="no"/>cramenti in ordine ad species consecratas
+            <lb ed="#V" n="11"/>diversas, et una consecratione ab eodem
+            <lb ed="#V" n="12"/>ministro consecratas, quia sicut una est
+            <lb ed="#V" n="13"/>actio integralis, ita et unus terminus,
+            <lb ed="#V" n="14"/>modo supradicto.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>Quoad species ejusdem generis Sotus
+            <lb ed="#V" n="16"/>et Ledesma, eodem modo dicunt esse
+            <lb ed="#V" n="17"/>unum numero Sacramentum, quotquot
+            <lb ed="#V" n="18"/>simul proponuntur vel sumuntur per
+            <lb ed="#V" n="19"/>modum unius, quia non requiritur ad
+            <lb ed="#V" n="20"/>unitatem numericam continuatio
+            Physi<lb ed="#V" n="21" break="no"/>ca, sed sufficit moralis, sicut varii cibi,
+            <lb ed="#V" n="22"/>et fercula per modum unius convivii
+            <lb ed="#V" n="23"/>proposita, faciunt unum convivium; et
+            <lb ed="#V" n="24"/>juxta hunc modum dicendi plures hostiae
+            <lb ed="#V" n="25"/>in eadem pyxide faciunt unum numero,
+            <lb ed="#V" n="26"/>donec disjungantur moraliter,
+            distribuen<lb ed="#V" n="27" break="no"/>do eas seorsim.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Contra, sequeretur quod hostiae a
+            di<lb ed="#V" n="29" break="no"/>versis consecratae, facerent unum numero
+            <lb ed="#V" n="30"/>Sacramentum, quod videtur inconveniens,
+            <lb ed="#V" n="31"/>quia sicut spectant ad diversa numero
+            <lb ed="#V" n="32"/>sacrificia, ita etiam ad diversa numero
+            <lb ed="#V" n="33"/>Sacramenta, et per diversas consecrationes
+            <lb ed="#V" n="34"/>ministros, in diversis loco et tempore
+            <lb ed="#V" n="35"/>consecratae. Deinde secundo proponi in
+            <lb ed="#V" n="36"/>eodem loco, altari, aut eidem, aut
+            di<lb ed="#V" n="37" break="no"/>versis sumendas, non est per se spectans
+            <lb ed="#V" n="38"/>ad Sacramentum, sed mere accidentarium
+            <lb ed="#V" n="39"/>et extrinsecum dependens a solo arbitrio
+            <lb ed="#V" n="40"/>humano; sed unitas numerica debet esse
+            <lb ed="#V" n="41"/>ab aliquo per se intrinseco Sacramenti,
+            <lb ed="#V" n="42"/>et non ab arbitrio humano, a quo non
+            <lb ed="#V" n="43"/>dependet Sacramentum in fieri aut
+            con<lb ed="#V" n="44" break="no"/>servari, verbi gratia, a Diacono, qui in
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>unam pyxidem omnes hostias simul
+            con<lb ed="#V" n="46" break="no"/>servandas congerere potest, aut plures
+            <lb ed="#V" n="47"/>eidem sumendas proponere, debetque
+            <lb ed="#V" n="48"/>eadem unitas permanenter convenire
+            Sa<lb ed="#V" n="49" break="no"/>cramento, sicut et significatio; ergo non
+            <lb ed="#V" n="50"/>fundatur in differentia assignata.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>Tertio, a priori nulla particula
+            ejus<lb ed="#V" n="52" break="no"/>dem generis ab alia diversa, integrat
+            <lb ed="#V" n="53"/>cum alia disjuncta aliquid in ratione
+            <lb ed="#V" n="54"/>signi sacramentalis, ex eo quod simul
+            <lb ed="#V" n="55"/>sint loco, aut sumptione magis, quam
+            <lb ed="#V" n="56"/>si essent disjuncta hoc modo, nequer
+            <lb ed="#V" n="57"/>ambae sunt partes alicujus tertii, sub.
+            <lb ed="#V" n="58"/>quo contineatur primo Christus, sicut se
+            <lb ed="#V" n="59"/>habent partes continuatae ad invicem;
+            <lb ed="#V" n="60"/>ergo non faciunt unum numero in
+            rati<lb ed="#V" n="61" break="no"/>one signi sacramentalis, quod requiritur
+            <lb ed="#V" n="62"/>ad unitatem numericam Sacramenti, quae
+            <lb ed="#V" n="63"/>debet desumi ab esse ipsius, et
+            signifi<lb ed="#V" n="64" break="no"/>catione, qua constituitur.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Quarto, hic modus videtur alludere ad
+            <lb ed="#V" n="66"/>unitatem numericam diversarum
+            specie<lb ed="#V" n="67" break="no"/>rum, ut corporis et sanguinis, sed
+            <lb ed="#V" n="68"/>male, ut patet ex dictis, quia illae
+            <lb ed="#V" n="69"/>species diversae ordinantur ad aliquid
+            <lb ed="#V" n="70"/>unum integrale quocumque modo
+            ex<lb ed="#V" n="71" break="no"/>plicetur, quantum ad ipsam
+            significati<lb ed="#V" n="72" break="no"/>onem et vim etiam verborum et
+            con<lb ed="#V" n="73" break="no"/>secrationis, et institutionis, et finis, et
+            <lb ed="#V" n="74"/>hoc per se; non ita autem plures
+            spe<lb ed="#V" n="75" break="no"/>cies ejusdem generis discontinuae, quae
+            <lb ed="#V" n="76"/>mere per accidens se habent ad invicem,
+            <lb ed="#V" n="77"/>et quaelibet est totalis in eodem genere,
+            <lb ed="#V" n="78"/>quantum ad significationem et modum
+            <lb ed="#V" n="79"/>significandi, et neutra significat aliquid,
+            <lb ed="#V" n="80"/>quod est de alterius complemento, aut
+            <lb ed="#V" n="81"/>tertii, quod ad utramque comparari possit,
+            <lb ed="#V" n="82"/>ut totum ad partes.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>Hinc rejicitur modus dicendi tertius in
+            <lb ed="#V" n="84"/>ordine apud Suarem, sive proprius sit,
+            <lb ed="#V" n="85"/>sive aliorum, nempe species consecratas
+            <lb ed="#V" n="86"/>sive simul, sive seorsim positas esse unum
+            <lb ed="#V" n="87"/>numero Sacramentum, propter unitatem
+            <lb ed="#V" n="88"/>Christi, qui idem est in omnibus, et cum
+            <pb ed="#V" n="19"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ipsis speciebus componit unum
+            Sacra<lb ed="#V" n="2" break="no"/>mentum. Sed hoc nequit dici, quia alias
+            <lb ed="#V" n="3"/>etiam species diversae facerent hoc modo
+            <lb ed="#V" n="4"/>unum numero Sacramentum hac unitate,
+            <lb ed="#V" n="5"/>quia quaelibet continet Christum totum;
+            <lb ed="#V" n="6"/>sed hoc est falsum, quia Ecclesia et Patres
+            <lb ed="#V" n="7"/>loquuntur de his tanquam diversis, et ad
+            <lb ed="#V" n="8"/>minimum diversitas est numerica sub
+            di<lb ed="#V" n="9" break="no"/>versis speciebus, signis tantum, et non
+            re<lb ed="#V" n="10" break="no"/>bus latent res eximiae, etc. in prosa
+            Se<lb ed="#V" n="11" break="no"/>quentiae Missae. Deinde dato etiam quod
+            <lb ed="#V" n="12"/>Christus componeret Sacramentum, nihil
+            <lb ed="#V" n="13"/>juvat, quia et species saltem integrant
+            <lb ed="#V" n="14"/>Sacramentum, quae diversae sunt;
+            quae<lb ed="#V" n="15" break="no"/>cumque autem diversitas sufficit ad
+            diffe<lb ed="#V" n="16" break="no"/>rentiam saltem numericam, si est
+            intrin<lb ed="#V" n="17" break="no"/>seca; ergo, etc.
+            <lb ed="#V" n="18"/>Neque ratio opposita valet, quia si
+            <lb ed="#V" n="19"/>Verbum divinum, inquit, assumeret plures
+            <lb ed="#V" n="20"/>naturas humanas, non essent plures
+            ho<lb ed="#V" n="21" break="no"/>mines, sed unus homo. Respondetur
+            <lb ed="#V" n="22"/>negando assumptum, ut suo loco
+            disse<lb ed="#V" n="23" break="no"/>ruimus, sed dato antecedente, negatur
+            con<lb ed="#V" n="24" break="no"/>sequentia intenta, quae longe recedit, quia
+            <lb ed="#V" n="25"/>qui dicunt non multiplicari concreta
+            sub<lb ed="#V" n="26" break="no"/>stantialia, aut numerari in casu proposito,
+            <lb ed="#V" n="27"/>in eo fundantur, quod suppositum, quod
+            <lb ed="#V" n="28"/>unum est, solum numeratur, et
+            nume<lb ed="#V" n="29" break="no"/>rari potest in concreto; sed hic Christus
+            <lb ed="#V" n="30"/>ut contentus sub speciebus, non est
+            Sa<lb ed="#V" n="31" break="no"/>cramentum; seu signum sacramentale, sed
+            <lb ed="#V" n="32"/>signatum; signum autem est, quod
+            <lb ed="#V" n="33"/>numeratur. Deinde demus Christum
+            inte<lb ed="#V" n="34" break="no"/>grare Sacramentum, ( quod falsum est.
+            <lb ed="#V" n="35"/>ut mox videbitur) ipsi non competit tota
+            <lb ed="#V" n="36"/>ratio numerata Sacramenti.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Secundo, quod adjicit ex 1. Corinth.
+            <lb ed="#V" n="38"/>10. Omnes unum corpus sumus, qui de
+            <lb ed="#V" n="39"/>novo pane participamus. Item ex
+            Am<lb ed="#V" n="40" break="no"/>brosio in cap. 10. ad Hebroeos, et habetur
+            <lb ed="#V" n="41"/>capitulo: In Christo, de consecrat. d. 2.
+            <lb ed="#V" n="42"/>ubi dicitur unam esse hostiam, et non
+            <lb ed="#V" n="43"/>multas, quam Christus obtulit, et omnes
+            <lb ed="#V" n="44"/>Sacerdotes offerunt. Respondetur in primo
+            <lb ed="#V" n="45"/>designari unitatem speciei et repraesen
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="46"/>tati, non autem illam de qua est sermo.
+            <lb ed="#V" n="47"/>In secundo loco loquitur Ambrosius
+            simi<lb ed="#V" n="48" break="no"/>liter respective ad plures hostias, quae
+            <lb ed="#V" n="49"/>offerebantur in lege veteri; unde
+            conse<lb ed="#V" n="50" break="no"/>crat. dist. 2. cap. In tribus gradibus,
+            <lb ed="#V" n="51"/>dicit Clemens, tot holocausta offerenda
+            <lb ed="#V" n="52"/>esse in altari, quot populo possint
+            suf<lb ed="#V" n="53" break="no"/>ficere, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Dicendum ergo hanc unitatem sumi a
+            <lb ed="#V" n="55"/>separatis partibus in actu, quia et
+            signi<lb ed="#V" n="56" break="no"/>ficatio sacramentalis diversa est in
+            <lb ed="#V" n="57"/>ipsis; diversa, inquam, numero et
+            reli<lb ed="#V" n="58" break="no"/>qua, quae ad distinctionem numericam,
+            <lb ed="#V" n="59"/>tam in esse rei quam Sacramenti, quam
+            <lb ed="#V" n="60"/>causae institutionis, per quam habet
+            <lb ed="#V" n="61"/>quaelibet particula separata, ut totum
+            <lb ed="#V" n="62"/>Christum significet, et causet gratiam
+            <lb ed="#V" n="63"/>independenter ab alia. Neque hoc tantum
+            <lb ed="#V" n="64"/>verum est secundum rigorem
+            Philosophi<lb ed="#V" n="65" break="no"/>cum, sed etiam Theologicum, qua
+            veri<lb ed="#V" n="66" break="no"/>tas Sacramenti et institutionis Christi
+            <lb ed="#V" n="67"/>spectatur, ut magis patebit explicando
+            <lb ed="#V" n="68"/>infra essentiam hujus Sacramenti in
+            <lb ed="#V" n="69"/>recto.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>(8) Ex dictis patet quadruplex
+            diffe<lb ed="#V" n="71" break="no"/>rentia et excellentia hujus
+            Sacramen<lb ed="#V" n="72" break="no"/>ti ad alia, etc. Quatuor excellentias hujus
+            <lb ed="#V" n="73"/>Sacramenti exponit Doctor; postquam
+            <lb ed="#V" n="74"/>enim praemisit ejus definitionem,
+            insti<lb ed="#V" n="75" break="no"/>tutionem, ejusque congruitatem, ac
+            tan<lb ed="#V" n="76" break="no"/>dem unitatem, subjungit ejus dignitatem
+            <lb ed="#V" n="77"/>super reliquis Sacramentis, quae patet
+            <lb ed="#V" n="78"/>ex can. Nihil, de consecrat. dist. 2.
+            <lb ed="#V" n="79"/>ubi dicitur: in sacrificiis et Sacramentis
+            <lb ed="#V" n="80"/>nihil esse dignius corpore et sanguine
+            <lb ed="#V" n="81"/>Domini. Trident. sess. 7. de
+            Sacramen<lb ed="#V" n="82" break="no"/>tis, in genere, can. 3. Si quis, inquit,
+            <lb ed="#V" n="83"/>dixerit haec septem Sacramenta ita esse
+            <lb ed="#V" n="84"/>inter se paria, ut nulla ratione aliud
+            <lb ed="#V" n="85"/>sit alio dignius, anathema sit. Qui
+            potis<lb ed="#V" n="86" break="no"/>simum Canon intelligitur propter
+            Eucha<lb ed="#V" n="87" break="no"/>ristiam, ideoque Marginator recte citat
+            <lb ed="#V" n="88"/>praedictum Canonem: Nihil. Haec eadem
+            <lb ed="#V" n="89"/>praestantia ex dictis in initio colligitur,
+            <pb ed="#V" n="20"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>eamque pluribus epithetis Concilium sess.
+            <lb ed="#V" n="2"/>13. significat, nam cap. 1. divinum,
+            <lb ed="#V" n="3"/>mirabile, sacrosanctum appellati cap. 2.
+            <lb ed="#V" n="4"/>Christum in hoc Sacramento memoriam
+            <lb ed="#V" n="5"/>fecisse suorum mirabilium, et velut sui
+            <lb ed="#V" n="6"/>amoris divitias effudisse; cap. 3.
+            super<lb ed="#V" n="7" break="no"/>effert ipsum reliquis, quod ipsam in
+            <lb ed="#V" n="8"/>se sanctitatem contineat, reliqua autem
+            <lb ed="#V" n="9"/>vim tantum sanctificandi.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Hanc autem dignitatem Doctor ad
+            qua<lb ed="#V" n="11" break="no"/>tuor capita revocat:
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Primum est, quod in significando sit
+            <lb ed="#V" n="13"/>veracissimum, locutio est comparativa,
+            <lb ed="#V" n="14"/>et respective ad alia Sacramenta. Suarez
+            <lb ed="#V" n="15"/>disp. 39. sect. 2. hoc ait sano modo
+            <lb ed="#V" n="16"/>intelligendum esse, quia reliquorum
+            Sacra<lb ed="#V" n="17" break="no"/>mentorum formae sunt infallibiles in
+            signi<lb ed="#V" n="18" break="no"/>ficando, eo modo quo significant, sed non
+            <lb ed="#V" n="19"/>. est quod scrupulum moveat. Hunc enim
+            <lb ed="#V" n="20"/>gradum certitudinis probat Doctor, et
+            dif<lb ed="#V" n="21" break="no"/>ferentiam ipsam, quam adjungit praefatus
+            <lb ed="#V" n="22"/>Auctor expressit: Alia, inquit, Sacramenta
+            <lb ed="#V" n="23"/>veracia sunt, quantum est ex se, tamen
+            <lb ed="#V" n="24"/>quandoque non habent effectum suum
+            <lb ed="#V" n="25"/>signatum propter indispositionem
+            susci<lb ed="#V" n="26" break="no"/>pientis; istud autem nunquam caret suo
+            <lb ed="#V" n="27"/>signato, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Primum membrum, quod attingit
+            veri<lb ed="#V" n="29" break="no"/>tatem formae sacramentalis in aliis
+            Sacra<lb ed="#V" n="30" break="no"/>mentis, quantum ad actum primum et
+            <lb ed="#V" n="31"/>secundum significat Trident. sess. 7. de
+            <lb ed="#V" n="32"/>1 Sacramentis in genere, can. 6. et 7.
+            <lb ed="#V" n="33"/>nempe quantum est ex parte Sacramenti
+            <lb ed="#V" n="34"/>et formae, dari effectum Sacramenti non
+            <lb ed="#V" n="35"/>ponentibus obicem; et quantum ad
+            con<lb ed="#V" n="36" break="no"/>tinentiam virtualem semper esse
+            infallibi<lb ed="#V" n="37" break="no"/>lem, de quo modo significandi plura
+            <lb ed="#V" n="38"/>dicta sunt dist. 1. quoest. 2. et dist. 4.
+            <lb ed="#V" n="39"/>de Baptismo Virginis, quaest. 6. et in
+            <lb ed="#V" n="40"/>hac acceptione non est comparatio
+            prae<lb ed="#V" n="41" break="no"/>sens, sed quantum ad veritatem
+            practi<lb ed="#V" n="42" break="no"/>cam in actu secundo, qua Sacramentum
+            <lb ed="#V" n="43"/>conjungitur cum suo effectu in re ipsa,
+            <lb ed="#V" n="44"/>quam etiam attingit Concilium in dictis
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Canonibus. Sumendo veritatem hoc
+            mo<lb ed="#V" n="46" break="no"/>do, quantum ad certitudinem actus
+            se<lb ed="#V" n="47" break="no"/>cundi, excedit Eucharistia, ex ratione
+            <lb ed="#V" n="48"/>praemissa universaliter loquendo, et non
+            <lb ed="#V" n="49"/>in casu et circumstantiis determinatis,
+            <lb ed="#V" n="50"/>in quibus subjectum, cui applicatur
+            <lb ed="#V" n="51"/>Sacramentum, non habet impedimentum,
+            <lb ed="#V" n="52"/>aut dispositionem, quae subtrahi posset,
+            <lb ed="#V" n="53"/>et a qua dependet ex parte suscipientis,
+            <lb ed="#V" n="54"/>qualiter se habet Baptismus et
+            Confir<lb ed="#V" n="55" break="no"/>matio infantum, in quibus semper forma
+            <lb ed="#V" n="56"/>est verax in actu secundo, quia nulla
+            <lb ed="#V" n="57"/>est dispositio requisita in illis ad
+            veri<lb ed="#V" n="58" break="no"/>tatem effectus; in reliquis tamen
+            susci<lb ed="#V" n="59" break="no"/>pientibus adultis, sicut reliqua
+            Sacra<lb ed="#V" n="60" break="no"/>menta verificantur circa subjectum, a
+            <lb ed="#V" n="61"/>cujus consensu, dispositione, aut statu
+            <lb ed="#V" n="62"/>dependent, et consequenter a libero
+            <lb ed="#V" n="63"/>ejus arbitrio, per quod consentiat vel
+            <lb ed="#V" n="64"/>disponat se ad gratiam et effectum
+            <lb ed="#V" n="65"/>sacramentalem, aut susceptionem
+            Sacra<lb ed="#V" n="66" break="no"/>menti, quodque obstare, potest, inde
+            <lb ed="#V" n="67"/>aliquando subtrahitur effectus Sacramenti
+            <lb ed="#V" n="68"/>ex obice dissensus, vel totus, vel in
+            par<lb ed="#V" n="69" break="no"/>te ex obice peccati.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Sacramentum autem Eucharistiae, et
+            <lb ed="#V" n="71"/>forma ejus, tam verbalis transiens quam
+            <lb ed="#V" n="72"/>realis permanens, non verificantur circa
+            <lb ed="#V" n="73"/>hominem, aut suscipientem, ideoque non
+            <lb ed="#V" n="74"/>dependet ab ejus dispositione fallibili
+            <lb ed="#V" n="75"/>Inter causas autem et signa practica, illud
+            <lb ed="#V" n="76"/>est certius quod minus suspendi potest
+            <lb ed="#V" n="77"/>a suo effectu, unde Baptismus infantis
+            <lb ed="#V" n="78"/>est certior in actu secundo, quam adulti
+            <lb ed="#V" n="79"/>peccatoris quoad effectum gratiae, ex hac
+            <lb ed="#V" n="80"/>ratione; ergo, etc. Hic autem gradus
+            <lb ed="#V" n="81"/>certitudinis in Eucharistia prae reliquis
+            <lb ed="#V" n="82"/>sumitur per ordinem ad gratiam
+            subsi<lb ed="#V" n="83" break="no"/>stentem, et non ad gratiam sanctificantem,
+            <lb ed="#V" n="84"/>quia quoad hanc sicut dignius est
+            sacra<lb ed="#V" n="85" break="no"/>mentum, ita convenit ut majori
+            dispositi<lb ed="#V" n="86" break="no"/>one sumatur, et ab existentibus in gratia,
+            <lb ed="#V" n="87"/>ideoque in hac parte non habet majorem
+            <lb ed="#V" n="88"/>certitudinem.
+          </p>
+          <p>
+            <pb ed="#V" n="21"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Secundus gradus excellentiae est, quod
+            <lb ed="#V" n="2"/>hoc Sacramentum realiter contineat suum
+            <lb ed="#V" n="3"/>significatum, alia vero non realiter, sed
+            <lb ed="#V" n="4"/>in virtute tantum et efficacia.
+            Tri<lb ed="#V" n="5" break="no"/>dent. sess. 13. cap. 3. Commune
+            qui<lb ed="#V" n="6" break="no"/>dem Eucharistiae cum caeteris Sacramentis
+            <lb ed="#V" n="7"/>symbolum esse rei sacrae et invisibilis
+            <lb ed="#V" n="8"/>gratice formam visibilem; verum illud
+            <lb ed="#V" n="9"/>in ea excellens et singulare reperitur,
+            <lb ed="#V" n="10"/>quod reliqua Sacramenta tum primum
+            <lb ed="#V" n="11"/>sanctificandi vim habent, cum quis illis
+            <lb ed="#V" n="12"/>utitur; at in Eucharistia ipse sanctitatis
+            <lb ed="#V" n="13"/>Auctor ante usum est, etc. et sess. etiam
+            <lb ed="#V" n="14"/>7. de Sacramentis in genere can. 6. 7. 8.
+            <lb ed="#V" n="15"/>tribuit illum modum continendi
+            san<lb ed="#V" n="16" break="no"/>ctitatem Sacramentis; et patet ex
+            defi<lb ed="#V" n="17" break="no"/>nitione Sacramenti in genere quam tradit
+            <lb ed="#V" n="18"/>Magister, et ad quam, verbis allatis,
+            allu<lb ed="#V" n="19" break="no"/>dit Concilium.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Tertius gradus et quartus patet ex
+            <lb ed="#V" n="21"/>praemissis et verbis allegatis Concilii, in
+            <lb ed="#V" n="22"/>quibus quartus gradus exponitur.
+            Sub<lb ed="#V" n="23" break="no"/>jungit autem Doctor congruitatem, unde
+            <lb ed="#V" n="24"/>Sacramentum sit permanens, quia nempe
+            <lb ed="#V" n="25"/>juxta promissionem Christi: Vobiscum
+            <lb ed="#V" n="26"/>sum usque ad consummationem sceculi;
+            <lb ed="#V" n="27"/>congruum ergo fuit, ut permanentia ejus
+            <lb ed="#V" n="28"/>denotaretur signo sacramentali et visibili.
+            <lb ed="#V" n="29"/>cum ipse secundum modum naturalem
+            <lb ed="#V" n="30"/>essendi sedeat ad dexteram Patris,
+            ven<lb ed="#V" n="31" break="no"/>turus suo tempore in forma visibili ad
+            <lb ed="#V" n="32"/>judicium.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Negat praeterea Doctor hic
+            consecrati<lb ed="#V" n="34" break="no"/>onem Sacramenti, aut sumptionem ejus
+            <lb ed="#V" n="35"/>i pertinere ad essentiam Sacramenti,
+            quam<lb ed="#V" n="36" break="no"/>vis in utrisque cum debita dispositione
+            <lb ed="#V" n="37"/>t. factis conferatur gratia, sed magis in
+            <lb ed="#V" n="38"/>sumptione, quia significat nutritionem
+            <lb ed="#V" n="39"/>spiritualem. An autem conficienti
+            Sacra<lb ed="#V" n="40" break="no"/>mentum detur gratia praecise, qua
+            confi<lb ed="#V" n="41" break="no"/>ciens est, ex opere operato, an ex opere
+            <lb ed="#V" n="42"/>operantis, non determinat hic. Ad
+            veri<lb ed="#V" n="43" break="no"/>tatem autem dicti sufficit, ut ex opere
+            <lb ed="#V" n="44"/>operantis conferatur gratia Sacerdoti,
+            in<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>quantum conficit Sacramentum praecise,
+            <lb ed="#V" n="46"/>quia Sacramenta non habent effectum ex
+            <lb ed="#V" n="47"/>opere operato, nisi inquantum
+            applican<lb ed="#V" n="48" break="no"/>tur subjecto, in quo est usus ipsorum
+            <lb ed="#V" n="49"/>Sacramentorum. An autem conferatur
+            <lb ed="#V" n="50"/>gratia eidem, inquantum est sacrificans,
+            <lb ed="#V" n="51"/>id est, conficiens et offerens sacrificium
+            <lb ed="#V" n="52"/>ex opere operato, dependet ab effectu
+            <lb ed="#V" n="53"/>Eucharistiae, qua est sacrificium. Pro nunc
+            <lb ed="#V" n="54"/>referatur in suum locum, supponendo
+            <lb ed="#V" n="55"/>non dari nisi impetratorie, et non
+            im<lb ed="#V" n="56" break="no"/>mediate gratiam sanctificantem per
+            sa<lb ed="#V" n="57" break="no"/>crificium, quia dare gratiam
+            sanctifican<lb ed="#V" n="58" break="no"/>tem immediate, et ex opere operato spectat
+            <lb ed="#V" n="59"/>tantum ad Sacramenta, quae ad
+            sanctifi<lb ed="#V" n="60" break="no"/>cationem hominis primario sunt instituta;
+            <lb ed="#V" n="61"/>sacrificium vero ad cultum Dei.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Haec littera, sicut et responsio ad
+            argu<lb ed="#V" n="63" break="no"/>menta, ad primum, secundum et tertium,
+            <lb ed="#V" n="64"/>cum interrogatione duplici incidenter
+            <lb ed="#V" n="65"/>subjuncta, et responsione ad utramque,
+            <lb ed="#V" n="66"/>item definitio praemissa Eucharitiae docet,
+            <lb ed="#V" n="67"/>in quo consistat Sacramentum in recte,
+            <lb ed="#V" n="68"/>quod solum superest explicandum in hac
+            <lb ed="#V" n="69"/>quaestione, nam reliqua patent ex dictis
+            <lb ed="#V" n="70"/>hic, et in dist. 1. quaest. 4. et 5. de
+            effi<lb ed="#V" n="71" break="no"/>cacia Sacramenti in genere. Antequam
+            <lb ed="#V" n="72"/>autem probemus sententiam Doctoris,
+            <lb ed="#V" n="73"/>expedit proponere aliorum sententias,
+            <lb ed="#V" n="74"/>easque discutere.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Prima refertur Sacramentum consistere
+            <lb ed="#V" n="76"/>in ipsa gratia invisibili, id est, Christum
+            <lb ed="#V" n="77"/>ut praesentem esse Sacramentum. Hanc
+            <lb ed="#V" n="78"/>imponit Sotus Waldensi tom. 2. de
+            Sa<lb ed="#V" n="79" break="no"/>cram. cap. 21. quam tamen non defendit,
+            <lb ed="#V" n="80"/>si recte inspiciatur, ut bene notavit
+            Vas<lb ed="#V" n="81" break="no"/>quez, neque subsistit, quia ex communi
+            <lb ed="#V" n="82"/>Patrum et Theologorum, Sacramentum
+            <lb ed="#V" n="83"/>debet esse sensibile, per se loquendo
+            <lb ed="#V" n="84"/>de Sacramento stricte sumpto, quod de
+            <lb ed="#V" n="85"/>Eucharistia tanquam commune sibi et
+            <lb ed="#V" n="86"/>reliquis docet Trident. sess. 13. cap. 3.
+            <lb ed="#V" n="87"/>in principio, applicans ei definitionem
+            <lb ed="#V" n="88"/>Sacramenti vulgarem, et a Magistro
+            tra<lb ed="#V" n="89" break="no"/>ditam.
+          </p>
+          <p>
+            <pb ed="#V" n="22"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Secunda sententia est, essentiam
+            Sacra<lb ed="#V" n="2" break="no"/>menti consistere in sola forma verbali
+            <lb ed="#V" n="3"/>consecrationis; tribuitur Marsilio in 4.
+            <lb ed="#V" n="4"/>quaest. 1. art. 1. et quaest. 6. art. 2. et
+            <lb ed="#V" n="5"/>D. Thomae in hac distinctione quaest. 1.
+            <lb ed="#V" n="6"/>art. 1. Haec etiam non subsistit, loquendo
+            <lb ed="#V" n="7"/>de forma constitutiva Sacramenti, quia
+            <lb ed="#V" n="8"/>ex communi Theologorum, et Trident.
+            <lb ed="#V" n="9"/>loco citato, Sacramentum hoc est
+            per<lb ed="#V" n="10" break="no"/>manens, et tota sessio 13. de ipso ut
+            ali<lb ed="#V" n="11" break="no"/>quid permanens est, agit, sicut et sess.
+            <lb ed="#V" n="12"/>21. ergo nequit constitui per verba, quae
+            <lb ed="#V" n="13"/>transeunt, facta prolatione et remanente
+            <lb ed="#V" n="14"/>Sacramento. Dices formam manere
+            mo<lb ed="#V" n="15" break="no"/>raliter tanquam in effectu, in ipsis
+            specie<lb ed="#V" n="16" break="no"/>bus consecratis, sicut consensus
+            praete<lb ed="#V" n="17" break="no"/>ritus manet in dormiente, verbi gratia,
+            <lb ed="#V" n="18"/>consensus matrimonialis, qui semper
+            <lb ed="#V" n="19"/>manere dicitur. Contra, moralis tantum
+            <lb ed="#V" n="20"/>existentia non est existentia physica et
+            <lb ed="#V" n="21"/>sacramentalis, seu sensibilis signi, qua
+            <lb ed="#V" n="22"/>signum est; ergo non sufficit talis
+            exi<lb ed="#V" n="23" break="no"/>stentia formae ad constituendum
+            Sacra<lb ed="#V" n="24" break="no"/>mentum sensibile permanens.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Confirmatur, quia absolutio praeterita
+            <lb ed="#V" n="26"/>sacramentalis, et forma Baptismi collati
+            <lb ed="#V" n="27"/>a sic etiam possent dici existere, quia
+            <lb ed="#V" n="28"/>perseverat eorum effectus, nempe
+            gra<lb ed="#V" n="29" break="no"/>tia vel character; sed hoc est falsum
+            <lb ed="#V" n="30"/>(loquendo de existentia earum
+            sacramen<lb ed="#V" n="31" break="no"/>tali) et a nemine adhuc receptum, alias
+            <lb ed="#V" n="32"/>verum esset dicere, quod Baptismus non
+            <lb ed="#V" n="33"/>sit transiens aut transactus, sed nunc
+            <lb ed="#V" n="34"/>esse, sicut dicitur quod Eucharistia manet
+            <lb ed="#V" n="35"/>facta consecratione; ergo talis existentia
+            <lb ed="#V" n="36"/>formae consecrationis non sufficit, ut
+            di<lb ed="#V" n="37" break="no"/>catur Eucharistia nunc esse, quantum
+            <lb ed="#V" n="38"/>ad rationem Sacramenti sensibilem et
+            <lb ed="#V" n="39"/>permanentem. Neque instantia allata
+            fa<lb ed="#V" n="40" break="no"/>cit ad propositum, quia consensus
+            prae<lb ed="#V" n="41" break="no"/>teritus non retractatus manet in habitu
+            <lb ed="#V" n="42"/>et in vinculo, quod inducit ex lege,
+            ne<lb ed="#V" n="43" break="no"/>que aliter dicitur manere in seipo, sed
+            <lb ed="#V" n="44"/>in effectu; sic etiam reliqua omnia
+            Sa<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>cramenta, quae in usu consistunt,
+            ma<lb ed="#V" n="46" break="no"/>nent etiam in suo effectu, quamdiu
+            ef<lb ed="#V" n="47" break="no"/>fectus manet. Sed illa non est existentia
+            <lb ed="#V" n="48"/>Sacramenti, quae requiritur ad usum et
+            <lb ed="#V" n="49"/>applicationem et efficaciam ejus, sed
+            exi<lb ed="#V" n="50" break="no"/>stentia realis ejus et successiva, si est
+            <lb ed="#V" n="51"/>transiens, vel tota simul, si est
+            perma<lb ed="#V" n="52" break="no"/>nens, ut est Eucharistia.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>Dices, forma Baptismi dicitur esse,
+            <lb ed="#V" n="54"/>quando etiam proferuntur ultima verba
+            <lb ed="#V" n="55"/>ejus, et continuari materiae, quamvis
+            <lb ed="#V" n="56"/>materia non sit hic et nunc physice, sed
+            <lb ed="#V" n="57"/>antecessit vel subsequitur, et quamdiu
+            <lb ed="#V" n="58"/>manet aliqua pars Sacramenti, dicitur
+            <lb ed="#V" n="59"/>ipsum Sacramentum esse; ergo similiter
+            <lb ed="#V" n="60"/>in proposito sufficit, quod species
+            ma<lb ed="#V" n="61" break="no"/>neant, quamvis forma praecesserit, ad
+            <lb ed="#V" n="62"/>hoc ut dicatur ipsa forma manere, vel
+            <lb ed="#V" n="63"/>certe Sacramentum manere consistens
+            <lb ed="#V" n="64"/>ex forma. Contra, ad existentiam
+            suc<lb ed="#V" n="65" break="no"/>cessivi sufficit, ut aliqua ejus pars
+            exi<lb ed="#V" n="66" break="no"/>stat, quia aliter existere nequit, ut est
+            <lb ed="#V" n="67"/>Sacramentum, quod est in usu tantum,
+            <lb ed="#V" n="68"/>et quod componitur ex successivis
+            tan<lb ed="#V" n="69" break="no"/>quam partibus, materia scilicet et forma,
+            <lb ed="#V" n="70"/>inter quas sufficit continuatio moralis,
+            <lb ed="#V" n="71"/>sicut integrant unum tantum morale, et
+            <lb ed="#V" n="72"/>ex instituto. Sed Eucharistia est
+            per<lb ed="#V" n="73" break="no"/>manens, ergo exigit ut secundum omnes
+            <lb ed="#V" n="74"/>partes simul existat; ergo nequit
+            consi<lb ed="#V" n="75" break="no"/>stere in aliquo successivo, tanquam
+            for<lb ed="#V" n="76" break="no"/>mali totali constituente, neque tanquam
+            <lb ed="#V" n="77"/>partialiter constituente, quia successivum
+            <lb ed="#V" n="78"/>et permanens nequeunt unum componere
+            <lb ed="#V" n="79"/>in esse signi permanentis aut successivi,
+            <lb ed="#V" n="80"/>realis et sensibilis, quia nequeunt simul
+            <lb ed="#V" n="81"/>esse, aut simul causare, quod requiritur
+            <lb ed="#V" n="82"/>ad signum practicum, quod amplius
+            de<lb ed="#V" n="83" break="no"/>clarabitur respondendo ad fundamenta
+            hu<lb ed="#V" n="84" break="no"/>jus opinionis.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Objicies primo, Florentinum in Decreto
+            <lb ed="#V" n="86"/>unionis, ubi dicit Sacramentum in genere
+            <lb ed="#V" n="87"/>perfici ex tribus, rebus, ut materia,
+            ver<lb ed="#V" n="88" break="no"/>bis, ut forma, et persona ministri
+            inten<pb ed="#V" n="23"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>dentis facere, quod facit Ecclessia.
+            Re<lb ed="#V" n="2" break="no"/>spondetur, ut dictum est dist. 3. quaest. 2.
+            <lb ed="#V" n="3"/>et fusius ibidem explicatum est,
+            mate<lb ed="#V" n="4" break="no"/>riam et formam sumi secundum
+            propor<lb ed="#V" n="5" break="no"/>tionem, et non secundum rigorem. Ad
+            <lb ed="#V" n="6"/>propositum sumitur forma, ut
+            compre<lb ed="#V" n="7" break="no"/>hendit tam effectivam, quam
+            constituti<lb ed="#V" n="8" break="no"/>vam, quam etiam determinativam per
+            <lb ed="#V" n="9"/>modum circumstantiae tantum, et
+            funda<lb ed="#V" n="10" break="no"/>menti significationis sacramentalis, prout
+            <lb ed="#V" n="11"/>explicat Doctor definitionem Baptismi
+            tra<lb ed="#V" n="12" break="no"/>ditam a Magistro, et definitionem
+            Confir<lb ed="#V" n="13" break="no"/>mationis dist. 7. quaest. 1. Forma verbalis
+            <lb ed="#V" n="14"/>Eucharistiae se habet, ut effectiva, et
+            con<lb ed="#V" n="15" break="no"/>versiva est panis et vini in corpus et
+            san<lb ed="#V" n="16" break="no"/>guinem, non vero ut constitutiva. Unde
+            <lb ed="#V" n="17"/>idem Concilium de hoc Sacramento:
+            <lb ed="#V" n="18"/>Forma, inquit, hujus Sacramenti sunt
+            <lb ed="#V" n="19"/>verba Salvatoris, qui hoc conficit
+            Sacra<lb ed="#V" n="20" break="no"/>mentum; nam ipsorum virtute substantia
+            <lb ed="#V" n="21"/>panis in corpus, et substantia vini in
+            san<lb ed="#V" n="22" break="no"/>quinem convertuntur, etc. Forma ergo
+            <lb ed="#V" n="23"/>sumitur secundum causalitatem, ut
+            ef<lb ed="#V" n="24" break="no"/>fectiva est Sacramenti; ita etiam
+            Ambro<lb ed="#V" n="25" break="no"/>sius lib. 4. de Sacram. et Trident, sess.
+            <lb ed="#V" n="26"/>13. cap. 4. Sed cap. 3. docet nostram
+            <lb ed="#V" n="27"/>sententiam statuens differentiam inter
+            <lb ed="#V" n="28"/>hoc et reliqua Sacramenta, in eo quod
+            <lb ed="#V" n="29"/>reliqua habeant vim sanctificandi tantum
+            <lb ed="#V" n="30"/>in usu, hoc autem contineat ipsam
+            san<lb ed="#V" n="31" break="no"/>ctitatem, seu auctorem ejus in esse, et
+            <lb ed="#V" n="32"/>ante usum; ergo oportet id quod
+            conti<lb ed="#V" n="33" break="no"/>a net hanc sanctitatem per modum
+            Sacra<lb ed="#V" n="34" break="no"/>menti, permanere in esse, quod nequit dici
+            <lb ed="#V" n="35"/>de forma consecrationis, quae perinde est
+            <lb ed="#V" n="36"/>in usu transeunte, sicut et reliqua
+            Sa<lb ed="#V" n="37" break="no"/>cramenta. Patet etiam ex aliis
+            locutioni<lb ed="#V" n="38" break="no"/>bus, quibus dicit adorari, servari, deferri
+            <lb ed="#V" n="39"/>in processionibus, etc. quae nequeunt
+            <lb ed="#V" n="40"/>intelligi de constituto per formam
+            trans<lb ed="#V" n="41" break="no"/>euntem, neque ut tota ratione
+            Sacramen<lb ed="#V" n="42" break="no"/>ti, neque ut parte ejus, quia causa et
+            <lb ed="#V" n="43"/>effectus, seu signum et signatum
+            ne<lb ed="#V" n="44" break="no"/>queunt complere eamdem rationem signi
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>sensibilis et sacramentalis, ut contra alios
+            <lb ed="#V" n="46"/>dicetur.
+            <lb ed="#V" n="47"/>Objicies secundo, illud est
+            Sacramen<lb ed="#V" n="48" break="no"/>tum, quod est signum seu effectivum sui
+            <lb ed="#V" n="49"/>signati, sed hoc tantum competit formae
+            <lb ed="#V" n="50"/>verbali, et non speciebus, quae non
+            effi<lb ed="#V" n="51" break="no"/>ciunt Sacramentum, aut rem
+            Sacramen<lb ed="#V" n="52" break="no"/>ti, quae est praesentia sacramentalis;
+            er<lb ed="#V" n="53" break="no"/>go, etc. Respondetur negando minorem,
+            <lb ed="#V" n="54"/>quia species consecratae per assistentiam
+            <lb ed="#V" n="55"/>Dei habent virtutem conservativam sui
+            <lb ed="#V" n="56"/>signati praesentis, tamdiu enim manet,
+            <lb ed="#V" n="57"/>quamdiu species conservantur sine
+            cor<lb ed="#V" n="58" break="no"/>ruptione; virtus autem conservativa
+            re<lb ed="#V" n="59" break="no"/>ducitur ad idem genus, ad quod
+            reduci<lb ed="#V" n="60" break="no"/>tur consecrativa et conversiva; ex
+            effi<lb ed="#V" n="61" break="no"/>cacia ergo consecrationis per
+            assisten<lb ed="#V" n="62" break="no"/>tiam Dei fit praesens Christus sub
+            spe<lb ed="#V" n="63" break="no"/>ciebus, ex efficacia specierum cum eadem
+            <lb ed="#V" n="64"/>assistentia conservatur praesens; et sic
+            <lb ed="#V" n="65"/>species sunt signum efficax continuatae
+            <lb ed="#V" n="66"/>praesentiae.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Contra, eadem est efficacia hinc inde,
+            <lb ed="#V" n="68"/>et idem modus causandi per signum
+            sen<lb ed="#V" n="69" break="no"/>sibile, et idem modus significandi
+            prae<lb ed="#V" n="70" break="no"/>sentiae Christi, quia verba significant
+            pra<lb ed="#V" n="71" break="no"/>ctice praesentiam Christi, et absentiam
+            <lb ed="#V" n="72"/>panis et vini per conversionem eorum
+            <lb ed="#V" n="73"/>in corpus Christi, et separationem etiam
+            <lb ed="#V" n="74"/>specierum; neque species sunt signum
+            <lb ed="#V" n="75"/>praesentiae Christi, nisi qua connotant
+            ver<lb ed="#V" n="76" break="no"/>ba, per quae fit praesens, ergo non est
+            <lb ed="#V" n="77"/>major ratio, cur dicatur species
+            Sacra<lb ed="#V" n="78" break="no"/>mentum, quam ipsa verba.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>Respondetur negando consequentiam.
+            <lb ed="#V" n="80"/>Ad antecedens respondetur Christum, ut
+            <lb ed="#V" n="81"/>permanenter praesens est, ex institutione
+            <lb ed="#V" n="82"/>peculiari hujus Sacramenti esse signatum
+            <lb ed="#V" n="83"/>sacramentale, quia ille est finis
+            intrinse<lb ed="#V" n="84" break="no"/>cus institutionis, et usus ipsius
+            Sacramen<lb ed="#V" n="85" break="no"/>menti. Hanc autem praesentiam habet per
+            <lb ed="#V" n="86"/>species tantum, quae sunt signum
+            pra<lb ed="#V" n="87" break="no"/>cticum modo dicto, et ulterius
+            demon<lb ed="#V" n="88" break="no"/>strativum praesentis, quod requiritur ad
+            <pb ed="#V" n="24"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>omnem usum hujus Sacramenti.
+            Suppo<lb ed="#V" n="2" break="no"/>nunt autem ipsam praesentiam in fieri
+            <lb ed="#V" n="3"/>per consecrationem et verba, quia
+            con<lb ed="#V" n="4" break="no"/>fectio Sacramentorum debet fieri ex
+            com<lb ed="#V" n="5" break="no"/>muni institutione et lege, per ministros
+            <lb ed="#V" n="6"/>visibiles Ecclesiae, eorumque verba, tum
+            <lb ed="#V" n="7"/>qua Sacramentum est, tum qua
+            sacrifi<lb ed="#V" n="8" break="no"/>cium est.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Haec autem consecratio, quia est in
+            <lb ed="#V" n="10"/>usu et transiens, nequit esse
+            proporti<lb ed="#V" n="11" break="no"/>onata institutioni particulari et usui
+            hu<lb ed="#V" n="12" break="no"/>jus Sacramenti; tum quia permanens est
+            <lb ed="#V" n="13"/>Sacramentum; tum etiam, quia in
+            con<lb ed="#V" n="14" break="no"/>secratione, quae perficitur in materia
+            <lb ed="#V" n="15"/>extrinseca circa quam, per solam
+            con<lb ed="#V" n="16" break="no"/>versionem ejus in terminum ad quem, et
+            <lb ed="#V" n="17"/>non applicatur ad aliquod subjectum
+            hu<lb ed="#V" n="18" break="no"/>manum sanctificandum per usum
+            Sacra<lb ed="#V" n="19" break="no"/>menti, nequit consistere ratio formalis
+            <lb ed="#V" n="20"/>Sacramenti, de cujus essentia est, ut
+            pos<lb ed="#V" n="21" break="no"/>sit sanctificare et dare salutem, dum
+            <lb ed="#V" n="22"/>est; et secundum eamdem rationem
+            for<lb ed="#V" n="23" break="no"/>malem suam constitutivam, sui, inquam,
+            <lb ed="#V" n="24"/>et sensibilem, applicari posse ad effectum
+            <lb ed="#V" n="25"/>sanctificationis per gratiam, et ut
+            con<lb ed="#V" n="26" break="no"/>tingit in aliis Sacramentis, quae sunt in usu,
+            <lb ed="#V" n="27"/>et secundum rationem formalem
+            appli<lb ed="#V" n="28" break="no"/>cantur personae, in qua causant
+            sancti<lb ed="#V" n="29" break="no"/>tatem; hoc nequit convenire formae
+            ver<lb ed="#V" n="30" break="no"/>bali Eucharistiae, ideoque nequit esse, aut
+            <lb ed="#V" n="31"/>spectare ad constitutionem ipsius
+            Eucha<lb ed="#V" n="32" break="no"/>ristiae, qua Sacramentum est, et in esse
+            <lb ed="#V" n="33"/>Sacramenti applicabile ad usum
+            sancti<lb ed="#V" n="34" break="no"/>ficationis. Signum itaque practicum, quod
+            <lb ed="#V" n="35"/>constituit sacramentum ex ratione sua,
+            <lb ed="#V" n="36"/>debet esse applicabile ad effectum
+            san<lb ed="#V" n="37" break="no"/>ctificationis, eamque posse causare, ut
+            <lb ed="#V" n="38"/>proxime applicatur; hoc, inquam nequit
+            <lb ed="#V" n="39"/>convenire formae verborum neque ex vi
+            <lb ed="#V" n="40"/>sermonis, qui completur circa materiam
+            <lb ed="#V" n="41"/>extrinsecam homini sanctificando, neque
+            <lb ed="#V" n="42"/>ad modum quo hoc Sacramentum
+            san<lb ed="#V" n="43" break="no"/>ctificat per modum nutrimenti
+            continen<lb ed="#V" n="44" break="no"/>tis cibum et potum, ex quo sequitur
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>principale intentum contra praemissam
+            <lb ed="#V" n="46"/>sententiam. Et respondetur objectioni,
+            <lb ed="#V" n="47"/>quia licet caetera conveniant, deest hoc
+            <lb ed="#V" n="48"/>quod ad significationem sacramentalem
+            <lb ed="#V" n="49"/>exigitur, et constitutionem Sacramenti.
+            <lb ed="#V" n="50"/>Merito ergo Doctor asserit in littera, s
+            <lb ed="#V" n="51"/>ultima differentia, etc. usum formae
+            ver<lb ed="#V" n="52" break="no"/>balis esse viam ad Sacramentum, non
+            <lb ed="#V" n="53"/>sacramentum ipsum, aut aliquid
+            consti<lb ed="#V" n="54" break="no"/>tutivum ejus, quem sequitur Gabriel,
+            <lb ed="#V" n="55"/>Sotus, Vasquez infra citandus.
+            <lb ed="#V" n="56"/>Hunc tamen modum non approbat
+            Sua<lb ed="#V" n="57" break="no"/>rez, quia esse viam ad Sacramentum magis
+            <lb ed="#V" n="58"/>competit ipsi consecrationi quam formae;
+            <lb ed="#V" n="59"/>sed respondetur quando Doctor dicit
+            <lb ed="#V" n="60"/>formam esse viam ad Sacramentum,
+            com<lb ed="#V" n="61" break="no"/>prehendit ipsam consecrationem et
+            pro<lb ed="#V" n="62" break="no"/>lationem formae; loquitur enim de forma,
+            <lb ed="#V" n="63"/>ut est in usu, prout loquitur Tridentinum
+            <lb ed="#V" n="64"/>et caeteri Doctores de aliis Sacramentis,
+            <lb ed="#V" n="65"/>per differentiam ad hoc Sacramentum,
+            <lb ed="#V" n="66"/>quod illa ut sunt in usu habeant vim
+            <lb ed="#V" n="67"/>sanctificandi. Usus autem ille, quia est
+            <lb ed="#V" n="68"/>successivus per fluxum et motum,
+            appel<lb ed="#V" n="69" break="no"/>latur commode via in terminum, quia est
+            <lb ed="#V" n="70"/>dispositio necessitas ex pacto Dei ad
+            ter<lb ed="#V" n="71" break="no"/>minum, ut ponatur a causa principali
+            <lb ed="#V" n="72"/>physice; ad differentiam autem actionis
+            <lb ed="#V" n="73"/>recte potest dici via in terminum, et
+            <lb ed="#V" n="74"/>dispositio ad ipsum, confectio
+            Sacramen<lb ed="#V" n="75" break="no"/>ti, sicut consecratio Eucharistiae, quod non
+            <lb ed="#V" n="76"/>tollit a Sacramento, aut a forma
+            conse<lb ed="#V" n="77" break="no"/>crationis causalitatem ipsi competentem
+            <lb ed="#V" n="78"/>in genere instrumenti; non loquitur ergo
+            <lb ed="#V" n="79"/>Doctor de forma absolute, et quasi in
+            <lb ed="#V" n="80"/>actu primo, sed de usu formae.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Respondet ergo ipse Suarez potius dici
+            <lb ed="#V" n="82"/>debere esse formam extrinsecam et
+            ef<lb ed="#V" n="83" break="no"/>ficientem Sacramenti; sed haec responsio,
+            <lb ed="#V" n="84"/>ut jam annotavimus, non facit ad
+            propo<lb ed="#V" n="85" break="no"/>situm difficultatis, quia Doctores
+            loquun<lb ed="#V" n="86" break="no"/>tur de forma, ut est in usu consecrandi,
+            <lb ed="#V" n="87"/>seu ut annexa est ipsa consecratio, quae est
+            <lb ed="#V" n="88"/>efficientia Sacramenti, vel Sacramentum
+            <pb ed="#V" n="25"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>in fieri, et terminatur ad Sacramentum in
+            <lb ed="#V" n="2"/>esse, de qua efficientia quaerunt, an sit
+            <lb ed="#V" n="3"/>significatio practica sacramentalis, seu per
+            <lb ed="#V" n="4"/>modum Sacramenti. Respondet secundo,
+            <lb ed="#V" n="5"/>quod sit actio sacrificandi, seu confectio
+            <lb ed="#V" n="6"/>sacrificii in cultum Dei; verum licet
+            <lb ed="#V" n="7"/>sit hoc verum, non est tamen adaequata
+            <lb ed="#V" n="8"/>consideratio rei, quia non solum
+            institu<lb ed="#V" n="9" break="no"/>tum est hoc per modum sacrificii, sed
+            <lb ed="#V" n="10"/>etiam Sacramenti, quae sunt diversae
+            ra<lb ed="#V" n="11" break="no"/>tiones, ut cadunt sub intentione et
+            insti<lb ed="#V" n="12" break="no"/>tutione Dei; ergo sicut verba
+            consecrati<lb ed="#V" n="13" break="no"/>onis ordinata sunt, ut cadunt sub
+            inten<lb ed="#V" n="14" break="no"/>tione Dei instituentis sacrificium ad
+            offe<lb ed="#V" n="15" break="no"/>rendum sacrificium proxime, ita etiam ut
+            <lb ed="#V" n="16"/>cadunt sub intentione Dei instituentis
+            Sa<lb ed="#V" n="17" break="no"/>cramentum, eadem verba ordinantur ad
+            <lb ed="#V" n="18"/>conficiendum Sacramentum.
+            Consequen<lb ed="#V" n="19" break="no"/>tia patet, quia licet illae intentiones
+            respi<lb ed="#V" n="20" break="no"/>d ciant eamdem materiam, non
+            confundun<lb ed="#V" n="21" break="no"/>tur, neque subordinantur sibi invicem,
+            <lb ed="#V" n="22"/>et respiciunt diversos fines; ergo forma,
+            <lb ed="#V" n="23"/>ut est medium respectu utriusque, aeque
+            <lb ed="#V" n="24"/>primo etiam ordinatur ad utrumque
+            fi<lb ed="#V" n="25" break="no"/>nem, et non per aliquam
+            subordinati<lb ed="#V" n="26" break="no"/>onem, qua primo ad unum, secundo ad
+            <lb ed="#V" n="27"/>alterum ordinaretur, quasi secundario
+            in<lb ed="#V" n="28" break="no"/>tentum, quia inter media quae sunt ad
+            <lb ed="#V" n="29"/>finem ex sola voluntate instituentis, nulla
+            <lb ed="#V" n="30"/>est subordinatio, quando inter ipsos fines
+            <lb ed="#V" n="31"/>atque intentiones non est talis
+            subordi<lb ed="#V" n="32" break="no"/>natio.
+            <lb ed="#V" n="33"/>In proposito autem non ideo est
+            Sacra<lb ed="#V" n="34" break="no"/>mentum Eucharistia, quia est sacrificium,
+            <lb ed="#V" n="35"/>aut e contra, sed aeque primo utraque
+            <lb ed="#V" n="36"/>ratio intenditur, sicut si quis emat equum,
+            <lb ed="#V" n="37"/>et ad arandum, et ad vecturam,
+            utrum<lb ed="#V" n="38" break="no"/>que finem per se primo intendens,
+            em<lb ed="#V" n="39" break="no"/>ptio et commutatio pecuniae non magis
+            <lb ed="#V" n="40"/>primo ordinatur ad arationem, quam ad
+            <lb ed="#V" n="41"/>vecturam; ad utrumque autem aeque
+            pri<lb ed="#V" n="42" break="no"/>mo, et per diversas intentiones non
+            su<lb ed="#V" n="43" break="no"/>bordinatas ordinatur, quarum quaelibet
+            <lb ed="#V" n="44"/>independenter ab altera, sufficeret ad
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>commutationem, et determinaret
+            facien<lb ed="#V" n="46" break="no"/>dam simpliciter, quia sufficit diversa, et
+            <lb ed="#V" n="47"/>non subordinata proportio medii ad
+            utrum<lb ed="#V" n="48" break="no"/>que finem, ut eligatur diversa
+            ordinati<lb ed="#V" n="49" break="no"/>one ad utrumque. Ita in proposito
+            con<lb ed="#V" n="50" break="no"/>tingit, considerando voluntatem Dei ex
+            <lb ed="#V" n="51"/>modo nostro concipiendi, ut transit in
+            <lb ed="#V" n="52"/>diversa objecta, vel in idem secundum
+            <lb ed="#V" n="53"/>diversas rationes non subordinatas, neque
+            <lb ed="#V" n="54"/>formaliter sibi invicem communicantes,
+            <lb ed="#V" n="55"/>quasi una formaliter aliam includeret,
+            <lb ed="#V" n="56"/>qualis est ratio sacrificii et Sacramenti, et
+            <lb ed="#V" n="57"/>utriusque confectio.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Praefatus autem auctor videtur in eo
+            <lb ed="#V" n="59"/>vim facere, quod sacrificium in usu
+            con<lb ed="#V" n="60" break="no"/>sistat, Sacramentum vero sit permanens. s
+            <lb ed="#V" n="61"/>Sed haec consideratio non est plena hujus
+            <lb ed="#V" n="62"/>mysterii, quia et potestas ordinis in
+            mi<lb ed="#V" n="63" break="no"/>nistro ad utrumque conficiendum
+            ordina<lb ed="#V" n="64" break="no"/>tur, et materia et forma et institutio
+            <lb ed="#V" n="65"/>utrumque etiam respicit; si enim
+            conse<lb ed="#V" n="66" break="no"/>cratio haberet tantum vim oblationis, non
+            <lb ed="#V" n="67"/>recte diceretur panis et vinum esse
+            ma<lb ed="#V" n="68" break="no"/>teria Sacramenti, prout Concilia, Patres
+            <lb ed="#V" n="69"/>et Doctores asserunt, quod indubitabile
+            <lb ed="#V" n="70"/>est. Dicendum ergo, quod sicut ad
+            sacri<lb ed="#V" n="71" break="no"/>ficium exigitur consecratio, tam corporis
+            <lb ed="#V" n="72"/>quam sanguinis seorsim, ex vi verborum,
+            <lb ed="#V" n="73"/>ad significandum sacrificium cruentum, in
+            <lb ed="#V" n="74"/>quo immolatus est Christus per
+            separati<lb ed="#V" n="75" break="no"/>onem sanguinis a suo sacrato corpore,
+            <lb ed="#V" n="76"/>ita etiam non minus id requiri ad
+            Sacra<lb ed="#V" n="77" break="no"/>mentum, quod institutum est per modum
+            <lb ed="#V" n="78"/>completi nutrimenti et convivii ex cibo
+            <lb ed="#V" n="79"/>et potu, ut corpus sub specie panis per
+            <lb ed="#V" n="80"/>modum cibi, sanguis sub specie vini
+            po<lb ed="#V" n="81" break="no"/>tabilis seorsim sumerentur et
+            conficeren<lb ed="#V" n="82" break="no"/>tur. Quod et Tridentinum, et communiter
+            <lb ed="#V" n="83"/>Patres ac Doctores statuunt, explicantes
+            <lb ed="#V" n="84"/>materiam, formam, institutionem, finem
+            <lb ed="#V" n="85"/>et congruentiam institutionis; bene ergo
+            <lb ed="#V" n="86"/>Doctor cum reliquis docet consecrationem
+            <lb ed="#V" n="87"/>esse viam ad Sacramentum.
+          </p>
+          <p>
+            <lb ed="#V" n="88"/>Possunt extrema haec conciliari
+            com<pb ed="#V" n="26"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>mode, dicendo: Eucharistiam habere
+            du<lb ed="#V" n="2" break="no"/>pliccm rationem, aliam in fieri, et sic
+            con<lb ed="#V" n="3" break="no"/>stitui intrinsece per formam verborum;
+            <lb ed="#V" n="4"/>aliam in facto esse, et ut est Sacramentum
+            <lb ed="#V" n="5"/>permanens, et sic forma ejus sunt
+            spe<lb ed="#V" n="6" break="no"/>cies, et in re ipsa non erit differentia.
+            <lb ed="#V" n="7"/>Et ad rationem superius datam, qua
+            nega<lb ed="#V" n="8" break="no"/>tur consecratio esse signum
+            sacramenta<lb ed="#V" n="9" break="no"/>le, quia nempe non potest applicari ad
+            <lb ed="#V" n="10"/>causandam gratiam proxime,
+            responde<lb ed="#V" n="11" break="no"/>tur, quod proxime causat gratiam
+            subsi<lb ed="#V" n="12" break="no"/>stentem, remote vero gratiam
+            sanctifi<lb ed="#V" n="13" break="no"/>cantem, eo modo quo aliqui docent
+            cha<lb ed="#V" n="14" break="no"/>racterem causare gratiam Sacramenti,
+            <lb ed="#V" n="15"/>cujus est, recedente fictione. Quod
+            suffi<lb ed="#V" n="16" break="no"/>cit ad efficaciam ipsius Sacramenti
+            sal<lb ed="#V" n="17" break="no"/>vandam, etiam in ordine ad effectum
+            gra<lb ed="#V" n="18" break="no"/>tiae in eo casu.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Tertia sententia principalis est,
+            essenti<lb ed="#V" n="20" break="no"/>am hujus Sacramenti esse compositam ex
+            <lb ed="#V" n="21"/>speciebus, et sanguine ac corpore Christi,
+            <lb ed="#V" n="22"/>ac proinde corpus Christi pertinere ad
+            <lb ed="#V" n="23"/>constitutionem Sacramenti in recto.
+            Cita<lb ed="#V" n="24" break="no"/>tur pro hac D. Thomas in hac dist. quaest.
+            <lb ed="#V" n="25"/>1. art. 1. quaestiuncula ad 2. Bonaventura
+            <lb ed="#V" n="26"/>in expositione litterae Magistri, Capreolus,
+            <lb ed="#V" n="27"/>sed non recte, quia haec sententia inventa
+            <lb ed="#V" n="28"/>est a modernis scriptoribus, ut quasdam
+            <lb ed="#V" n="29"/>Patrum locutiones salvent, quae
+            composi<lb ed="#V" n="30" break="no"/>tionem denotant inter species et res
+            sub<lb ed="#V" n="31" break="no"/>stratas, ex quibus etiam haec sententia ab
+            <lb ed="#V" n="32"/>ipsis probatur, Eam tenet Alanus lib 1.
+            <lb ed="#V" n="33"/>de Eucharistia, cap. 3. 4. et 5. citatur
+            <lb ed="#V" n="34"/>Claudius Sanctes, sed neque expresse
+            vi<lb ed="#V" n="35" break="no"/>detur ejus opinionis, quam tamen docent
+            <lb ed="#V" n="36"/>ex professo Suarez disp. 42. sect. 3. et
+            <lb ed="#V" n="37"/>Vasquez disp. 167. cap. 5.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Contra hanc sententiam primo, definitio
+            <lb ed="#V" n="39"/>r Sacramenti supra assignata repugnat
+            <lb ed="#V" n="40"/>Christo, ut est sub speciebus; ergo
+            ne<lb ed="#V" n="41" break="no"/>quit integrare, aut componere rationem
+            <lb ed="#V" n="42"/>hujus Sacramenti in recto. Antecedens
+            <lb ed="#V" n="43"/>patet, quia Sacramentum est res sensibilis
+            <lb ed="#V" n="44"/>per se, ut dist. 1. quaest. 2. juxta
+            commu<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>nem doctrinam et definitionem traditam
+            <lb ed="#V" n="46"/>constat, quae est etiam Tridentini sess. 13.
+            <lb ed="#V" n="47"/>cap. 8. commune, inquit, hoc quidem est
+            <lb ed="#V" n="48"/>sanctissimae Eucharistiae cum caeteris
+            Sa<lb ed="#V" n="49" break="no"/>cramentis symbolum esse rei sacrae et
+            invi<lb ed="#V" n="50" break="no"/>sibilis gratiae formam visibilem, verum
+            <lb ed="#V" n="51"/>illud in ea excellens et singulare reperitur,
+            <lb ed="#V" n="52"/>quod reliqua Sacramenta tunc primum
+            <lb ed="#V" n="53"/>sanctificandi vim habent, cum quis illis
+            <lb ed="#V" n="54"/>utitur; at in Eucharistia ipse sanctitatis
+            <lb ed="#V" n="55"/>auctor ante usum est. Et infra: Et semper
+            <lb ed="#V" n="56"/>haec fides in Ecclesia Dei fuit statim post
+            <lb ed="#V" n="57"/>consecrationem verum Domini corpus,
+            ve<lb ed="#V" n="58" break="no"/>rumque ejus sanguinem, sub panis et vini
+            <lb ed="#V" n="59"/>specie, una cum ipsius anima et divinitate
+            <lb ed="#V" n="60"/>existere, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Ex quibus probatur antecedens, esse
+            <lb ed="#V" n="62"/>symbolum rei sacrae, et esse formam
+            <lb ed="#V" n="63"/>visibilem gratiae invisibilis, in quibus
+            <lb ed="#V" n="64"/>consistit definitio Sacramenti, est
+            com<lb ed="#V" n="65" break="no"/>mune Eucharistiae cum aliis Sacramentis.
+            <lb ed="#V" n="66"/>At aliis hoc competit ratione materiae
+            <lb ed="#V" n="67"/>et formae verbalis, et qua sunt signa
+            <lb ed="#V" n="68"/>sensibilia distincta a suo significato;
+            <lb ed="#V" n="69"/>ergo et Eucharistiae eodem modo et
+            <lb ed="#V" n="70"/>gradu conveniunt. Probatur
+            consequen<lb ed="#V" n="71" break="no"/>tia, quia gratiae invisibilis, cujus forma
+            <lb ed="#V" n="72"/>visibilis est Eucharistia, res sacra,
+            cu<lb ed="#V" n="73" break="no"/>jus est symbolum, est ipse Christus, ut
+            <lb ed="#V" n="74"/>praesens est. Loquitur enim Concilium de
+            <lb ed="#V" n="75"/>Eucharistia, ut est Sacramentum
+            subsi<lb ed="#V" n="76" break="no"/>stens et permanenter includens suum
+            si<lb ed="#V" n="77" break="no"/>gnatum sacrum, et gratiam invisibilem
+            <lb ed="#V" n="78"/>ante usum, in quo distinguitur ab aliis
+            <lb ed="#V" n="79"/>Sacramentis, quae in usu tantum
+            conti<lb ed="#V" n="80" break="no"/>nent virtutem sanctificandi, ut patet ex
+            <lb ed="#V" n="81"/>verbis sequentibus, in quibus haec
+            diffe<lb ed="#V" n="82" break="no"/>rentia tantum ponitur, tanquam
+            particu<lb ed="#V" n="83" break="no"/>laris hujus Sacramenti ab aliis; sed haec,
+            <lb ed="#V" n="84"/>id est, symbolum et forma visibilis
+            di<lb ed="#V" n="85" break="no"/>stinguuntur expresse a Concilio, et
+            neces<lb ed="#V" n="86" break="no"/>sario distinguenda sunt a gratia et re
+            in<lb ed="#V" n="87" break="no"/>visibili, quia Christus in Eucharistia non
+            <lb ed="#V" n="88"/>st symbolum, aut forma visibilis
+            suiipsi<pb ed="#V" n="27"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>us, neque integrat tale symbolum, sicut
+            <lb ed="#V" n="2"/>nec unum correlativorum est de
+            constitu<lb ed="#V" n="3" break="no"/>tione aut integritate intrinseca sui
+            corre<lb ed="#V" n="4" break="no"/>lativi; ergo Concilium loquitur de ipsis
+            <lb ed="#V" n="5"/>speciebus praecise, distinguens signatum
+            <lb ed="#V" n="6"/>et signum permanens, formam visibilem
+            <lb ed="#V" n="7"/>et gratiam invisibilem a se invicem, sicut
+            <lb ed="#V" n="8"/>in aliis Sacramentis distinguuntur.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Differentia enim, quae est specialis
+            hu<lb ed="#V" n="10" break="no"/>jus Sacramenti, non est distrahens
+            rati<lb ed="#V" n="11" break="no"/>onem communem Sacramenti, sed
+            perfi<lb ed="#V" n="12" break="no"/>ciens, quod manifestum est ex Concilii
+            <lb ed="#V" n="13"/>verbis: At in Eucharistia, inquit, ipse
+            san<lb ed="#V" n="14" break="no"/>ctitatis auctor ante usum est, etc, nempe
+            <lb ed="#V" n="15"/>res sacra in symbolo, gratia invisibilis in
+            <lb ed="#V" n="16"/>forma visibili realiter, formaliter,
+            perma<lb ed="#V" n="17" break="no"/>nenter scilicet, non vero in virtute
+            tan<lb ed="#V" n="18" break="no"/>tum et in usu, sicut in aliis Sacramentis.
+            <lb ed="#V" n="19"/>Sed respondent adversarii esse Christum
+            <lb ed="#V" n="20"/>in Eucharistia, sicut pars est in toto, et
+            <lb ed="#V" n="21"/>anima in homine.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Contra, haec interpretatio arguit
+            Conci<lb ed="#V" n="23" break="no"/>lium de processu aequivoco et vitioso, et
+            <lb ed="#V" n="24"/>tollit comparationem Eucharistiae ad alia
+            <lb ed="#V" n="25"/>Sacramenta institutam, secundum quod
+            <lb ed="#V" n="26"/>conveniunt; comparantur enim ad invicem.
+            <lb ed="#V" n="27"/>et qua signum sunt, et in modo quo
+            con<lb ed="#V" n="28" break="no"/>tinent sua significata sacra secundum
+            <lb ed="#V" n="29"/>convenientiam et differentiam
+            assigna<lb ed="#V" n="30" break="no"/>tam, et dicit in Eucharistia contineri
+            <lb ed="#V" n="31"/>Christum ante usum. Intelligit ergo per
+            <lb ed="#V" n="32"/>modum signati praesentis et demonstrati
+            <lb ed="#V" n="33"/>quod non competit aliis Sacramentis,
+            <lb ed="#V" n="34"/>quam praesentiam in verbis sequentibus
+            <lb ed="#V" n="35"/>explicat per existentiam sub speciebus,
+            <lb ed="#V" n="36"/>tanquam sub signo sacramentali scilicet,
+            <lb ed="#V" n="37"/>ut patet c. 1. quo explicat realem
+            prae<lb ed="#V" n="38" break="no"/>sentiam: Docet sancta Synodus, etc. post
+            <lb ed="#V" n="39"/>panis et vini consecrationem Dominum
+            no<lb ed="#V" n="40" break="no"/>strum Jesum Christum, etc. vere, realiter
+            <lb ed="#V" n="41"/>ac substantialiter, sub specie illarum
+            re<lb ed="#V" n="42" break="no"/>rum sensibilium contineri, etc. Et infra
+            <lb ed="#V" n="43"/>dicens non repugnare mysterium, nempe
+            <lb ed="#V" n="44"/>Christum secundum modum naturalem
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>essendi, esse in coelo, et secundum
+            prae<lb ed="#V" n="46" break="no"/>sentiam sacramentalem esse in variis
+            lo<lb ed="#V" n="47" break="no"/>cis, declarat modum hunc existendi
+            re<lb ed="#V" n="48" break="no"/>spective ad species seu Sacramentum:
+            <lb ed="#V" n="49"/>Sacramentaliter, inquit, praesens sua
+            sub<lb ed="#V" n="50" break="no"/>stantia nobis adsit, etc.
+            <lb ed="#V" n="51"/>Et hoc sensu intelligendi sunt canon.
+            <lb ed="#V" n="52"/>1. 2. 3. 4. 5. 6. et 8. Concilii, qui dicunt
+            <lb ed="#V" n="53"/>Christum in Eucharistia contineri; et sess.
+            <lb ed="#V" n="54"/>21. cap. 1. primo dicit non obligari
+            fide<lb ed="#V" n="55" break="no"/>les laicos et clericos non conficientes, ad
+            <lb ed="#V" n="56"/>Eucharistiae Sacramentum, sub utraque
+            <lb ed="#V" n="57"/>specie sumendum; et subjungit, alterius
+            <lb ed="#V" n="58"/>speciei communionem ad salutem
+            suffice<lb ed="#V" n="59" break="no"/>re, quod in loco sumit synonyme
+            Sacra<lb ed="#V" n="60" break="no"/>mentum Eucharistiae, et ipsas species, ut
+            <lb ed="#V" n="61"/>denotant illa verba: Sacramentum
+            Eu<lb ed="#V" n="62" break="no"/>charistiae sub utraque specie, etc. et illa:
+            <lb ed="#V" n="63"/>quin illis alterius speciei communio, etc.
+            <lb ed="#V" n="64"/>deinde subdit rationem: Nam etsi
+            Chri<lb ed="#V" n="65" break="no"/>stus Dominus in ultima Coena, venerabile
+            <lb ed="#V" n="66"/>hoc Sacramentum, in panis et vini
+            speci<lb ed="#V" n="67" break="no"/>ebus instituit, etc. Et sic eodem et
+            se<lb ed="#V" n="68" break="no"/>quenti capite utramque speciem pro
+            Sa<lb ed="#V" n="69" break="no"/>cramento exprimit. Et sess. 22. cap. 1.
+            <lb ed="#V" n="70"/>docet sub symbolis panis et vini Christum
+            <lb ed="#V" n="71"/>dedisse corpus et sanguinem Apostolis;
+            <lb ed="#V" n="72"/>distinguit ergo illud, quod est signum et
+            <lb ed="#V" n="73"/>Sacramentum, ab ipso corpore et
+            san<lb ed="#V" n="74" break="no"/>guine.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Secundo, ita canit Ecclesia in
+            sequen<lb ed="#V" n="76" break="no"/>tia Missae: Fracto demum Sacramento, ne
+            <lb ed="#V" n="77"/>vacilles, sed memento, tantum esse sub
+            fra<lb ed="#V" n="78" break="no"/>gmento, quantum toto tegitur, etc
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>Fractio autem est specierum, non
+            con<lb ed="#V" n="80" break="no"/>tenti, ut patet ex sequenti; Signi
+            tan<lb ed="#V" n="81" break="no"/>tum fit fractura, qua nec status, nec
+            sta<lb ed="#V" n="82" break="no"/>tura signati minuitur. Huc spectant
+            lo<lb ed="#V" n="83" break="no"/>cutiones Patrum, quae pluraliter agunt
+            <lb ed="#V" n="84"/>de hoc Sacramento, ut supra significatum
+            <lb ed="#V" n="85"/>est: Sacramenta quae sumpsimus, in
+            Col<lb ed="#V" n="86" break="no"/>lecta Missae; Africanum cap. 3.
+            Carthagi<lb ed="#V" n="87" break="no"/>nense III. cap. 24. et 25. Auctor sermonis
+            <lb ed="#V" n="88"/>de Coena Domini apud Cyprianum;
+            Am<pb ed="#V" n="28"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>brosius lib. 5. de Sacram. cap. 1. in
+            capi<lb ed="#V" n="2" break="no"/>tulo Sacramenta, cap. In Sacramentis,
+            <lb ed="#V" n="3"/>cap. Comperimus, de consecrat. dist. 2.
+            <lb ed="#V" n="4"/>Haec autem pluralitas locutionis nequit
+            <lb ed="#V" n="5"/>fieri ad signatum, quia idem Christus
+            to<lb ed="#V" n="6" break="no"/>tus est sub alterutra specie; idem habet
+            <lb ed="#V" n="7"/>Tertullianus contra Marcionem lib. 1. cap.
+            <lb ed="#V" n="8"/>14. Alexander I. epist. 1. cap. 4. Ignatius
+            <lb ed="#V" n="9"/>in epistola ad Smyrnenses.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Item, in capitulo Ego Berengarius,
+            dici<lb ed="#V" n="11" break="no"/>tur post consecrationem non solum
+            ma<lb ed="#V" n="12" break="no"/>nere in altari Sacramentum, sed etiam
+            <lb ed="#V" n="13"/>ipsum Christum. Capitulo, Cum Marthae,
+            <lb ed="#V" n="14"/>-de celebrat. Missarum, dicit Pontifex tria
+            <lb ed="#V" n="15"/>discerni in hoc mysterio, nempe
+            Sacra<lb ed="#V" n="16" break="no"/>-mentum tantum, quae sunt species, rem
+            <lb ed="#V" n="17"/>et Sacramentum simul, ut corpus Christi,
+            <lb ed="#V" n="18"/>etc. rem tantum, quae est gratia, quam in
+            <lb ed="#V" n="19"/>sumptione causat; quam doctrinam tradit
+            <lb ed="#V" n="20"/>.Magister in hac distinctione, et reliqui
+            <lb ed="#V" n="21"/>Sententiarii antiqui in eadem distinctione.
+            <lb ed="#V" n="22"/>Hugo de sancto Victore tom. 3. lib. 2. de
+            <lb ed="#V" n="23"/>Sacram. part. 8. cap. 7. unde in Canone:
+            <lb ed="#V" n="24"/>Hoc est, de consecrat. dist. 2. vocatur corpus
+            <lb ed="#V" n="25"/>Christi res Sacramenti; et subdit:
+            Confi<lb ed="#V" n="26" break="no"/>citur, inquit, sacrificium Ecclesiae duobus,
+            <lb ed="#V" n="27"/>Sacramento et re Sacramenti, id est,
+            cor<lb ed="#V" n="28" break="no"/>pore Christi; et cap. Nos autem, etc. in
+            <lb ed="#V" n="29"/>specie panis et vini, quam videmus, res
+            in<lb ed="#V" n="30" break="no"/>visibiles, id est, carnem et sanquinem
+            ho<lb ed="#V" n="31" break="no"/>noramus, etc. Plura alia afferri possunt,
+            <lb ed="#V" n="32"/>quae rationem Sacramenti attribuunt solis
+            <lb ed="#V" n="33"/>speciebus; et hoc variis in locis docent
+            <lb ed="#V" n="34"/>auctores, qui scripserunt contra
+            Beren<lb ed="#V" n="35" break="no"/>garium, ut Lantfrancus, Algerius et alii,
+            <lb ed="#V" n="36"/>et universim antiqui Scholastici hoc genus
+            <lb ed="#V" n="37"/>compositionis ignorarunt, qua corpus
+            <lb ed="#V" n="38"/>Christi cum speciebus componeret
+            ali<lb ed="#V" n="39" break="no"/>quid, quod in recto supponeret pro
+            Sa<lb ed="#V" n="40" break="no"/>cramento proprie dicto. Si autem sermo
+            <lb ed="#V" n="41"/>esset de Sacramento, ut est res et
+            Sacra<lb ed="#V" n="42" break="no"/>mentum simul, non est differentia,
+            ne<lb ed="#V" n="43" break="no"/>que etiam, si dicatur res hujus
+            Sacra<lb ed="#V" n="44" break="no"/>menti significare Christum, secundum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>modum naturalem essendi, quem habuit
+            <lb ed="#V" n="46"/>in sacrificio incruento.
+            <lb ed="#V" n="47"/>Tertio, ratione impugnatur praedicta
+            <lb ed="#V" n="48"/>sententia, species cum contento nequeunt
+            <lb ed="#V" n="49"/>simul facere unum constitutum et
+            compo<lb ed="#V" n="50" break="no"/>situm, nisi interveniat unio requisita, ut
+            <lb ed="#V" n="51"/>admittunt praefati auctores intervenire;
+            <lb ed="#V" n="52"/>sed haec nequit esse per modum unionis
+            <lb ed="#V" n="53"/>materiae et formae, quia nequeunt species
+            <lb ed="#V" n="54"/>et contentum habere proportionem
+            requi<lb ed="#V" n="55" break="no"/>sitam. Dices esse partes integrantes
+            <lb ed="#V" n="56"/>unum, contra, vel integrant unum
+            sensi<lb ed="#V" n="57" break="no"/>bile, vel non; primum dici nequit, quia
+            <lb ed="#V" n="58"/>corpus Christi, ut est in Eucharistia, non
+            <lb ed="#V" n="59"/>est sensibile, nisi per species, ac proinde
+            <lb ed="#V" n="60"/>nihil in esse sensibilis potest addere
+            speci<lb ed="#V" n="61" break="no"/>ebus; si non integrant aliquod unum in
+            <lb ed="#V" n="62"/>esse sensiblii jam non componunt
+            Sacra<lb ed="#V" n="63" break="no"/>mentum, quod nequit componi proxime,
+            <lb ed="#V" n="64"/>qua Sacramentum, nisi ex sensibilibus
+            <lb ed="#V" n="65"/>per se.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Praeterea, signum quod est
+            Sacramen<lb ed="#V" n="67" break="no"/>tum, est practicum signum, qua est
+            Sa<lb ed="#V" n="68" break="no"/>cramentum novae legis, et distinguitur a
+            <lb ed="#V" n="69"/>Sacramentis veteris legis, ut suo loco
+            di<lb ed="#V" n="70" break="no"/>ctum est ex Florentino et Tridentino;
+            <lb ed="#V" n="71"/>ergo quidquid componit Sacramentum,
+            <lb ed="#V" n="72"/>qua Sacramentum novae legis, debet
+            ne<lb ed="#V" n="73" break="no"/>cessario componere ipsum in esse signi
+            <lb ed="#V" n="74"/>practici et causae sui effectus. Sed nequit
+            <lb ed="#V" n="75"/>haec causalitas, aut integratio salvari in
+            <lb ed="#V" n="76"/>proposito, quia licet respectu
+            sanctifican<lb ed="#V" n="77" break="no"/>tis gratiae possit salvari, tamen primaria
+            <lb ed="#V" n="78"/>consideratio hujus Sacramenti est esse
+            <lb ed="#V" n="79"/>permanens, ac proinde Tridentinum hanc
+            <lb ed="#V" n="80"/>differentiam ejus statuit ab aliis, c. 3. Sed
+            <lb ed="#V" n="81"/>hac ratione nequit intelligi, quomodo
+            <lb ed="#V" n="82"/>contentum integrare possit signum
+            pra<lb ed="#V" n="83" break="no"/>cticum, aut seipsum causare, quia neque
+            <lb ed="#V" n="84"/>species, neque seipsum causat ex
+            insti<lb ed="#V" n="85" break="no"/>tuto, ut competit Sacramento; sed e
+            con<lb ed="#V" n="86" break="no"/>tra species causant ipsum conservando;
+            <lb ed="#V" n="87"/>ergo non integrat cum speciebus
+            Sacra<lb ed="#V" n="88" break="no"/>mentum proprie dictum, nisi ut
+            signa<pb ed="#V" n="29"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tum requisitum et relatum ad species,
+            <lb ed="#V" n="2"/>ut ad Sacramentum et signum. Hoc
+            au<lb ed="#V" n="3" break="no"/>tem non est constituere proprie dictum
+            <lb ed="#V" n="4"/>Sacramentum, neque integrare sub
+            ra<lb ed="#V" n="5" break="no"/>tione praecisa Sacramenti, nisi quis velit
+            <lb ed="#V" n="6"/>invertere proprietatem et usum
+            loquen<lb ed="#V" n="7" break="no"/>di, atque adeo rem ipsam, quae est ratio
+            <lb ed="#V" n="8"/>et definitio Sacramenti, ut accipitur in
+            <lb ed="#V" n="9"/>scholis.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Aliqui dicunt facere unum per modum
+            <lb ed="#V" n="11"/>subjecti et accidentis, habitus et
+            habi<lb ed="#V" n="12" break="no"/>tuati, loci et locati; sed neque haec
+            re<lb ed="#V" n="13" break="no"/>sponsio in re quidpiam ponit, quod
+            na<lb ed="#V" n="14" break="no"/>turae hujus mysterii quadrat. Primo enim
+            <lb ed="#V" n="15"/>species nequeunt se habere, ut forma
+            <lb ed="#V" n="16"/>accidentalis nisi respectu subjecti, quod
+            <lb ed="#V" n="17"/>nequit esse Christus indivisibiliter
+            exi<lb ed="#V" n="18" break="no"/>stens, et alias incapax talium
+            acci<lb ed="#V" n="19" break="no"/>dentium. Demus etiam oppositum,
+            sub<lb ed="#V" n="20" break="no"/>jectum et accidens, licet in esse entis
+            <lb ed="#V" n="21"/>faciant unum, tamen in esse sensibilis
+            <lb ed="#V" n="22"/>non componunt unum loquendo de
+            sub<lb ed="#V" n="23" break="no"/>jecto substantiali; unde in hoc
+            myste<lb ed="#V" n="24" break="no"/>rio oculus, et intellectus lumine naturali
+            <lb ed="#V" n="25"/>non discernit absentiam substantiae panis
+            <lb ed="#V" n="26"/>et vini; cognosceret autem, si substantia
+            <lb ed="#V" n="27"/>in esse sensibili aliquid superadderet
+            <lb ed="#V" n="28"/>accidentibus; sed quidquid componit
+            Sa<lb ed="#V" n="29" break="no"/>cramentum, qua Sacramentum est,
+            debe<lb ed="#V" n="30" break="no"/>ret in esse sensibili aliquid superaddere,
+            <lb ed="#V" n="31"/>alias nihil faceret ad significationem, ut
+            <lb ed="#V" n="32"/>ratio partialis ejus.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Perinde rejiciuntur reliqua exempla,
+            <lb ed="#V" n="34"/>quia neque habituatum, componit
+            ha<lb ed="#V" n="35" break="no"/>bitum in esse habitus, neque locatum
+            <lb ed="#V" n="36"/>locum in esse loci; ergo neque signatum
+            <lb ed="#V" n="37"/>signum in esse signi, alias eodem modo
+            <lb ed="#V" n="38"/>diceretur effectus omnium
+            Sacramento<lb ed="#V" n="39" break="no"/>rum componere ipsa Sacramenta in esse
+            <lb ed="#V" n="40"/>Sacramenti, quod nemo hactenus dixit.
+            <lb ed="#V" n="41"/>Neque video cur res Sacramenti
+            dicere<lb ed="#V" n="42" break="no"/>tur magis componere cum speciebus
+            ali<lb ed="#V" n="43" break="no"/>quod unum in esse Sacramenti, quam e
+            <lb ed="#V" n="44"/>contra Sacramentum aliquid cum re in
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>esse signati, quia eadem est oppositio
+            <lb ed="#V" n="46"/>hinc inde, et magis ordinatur
+            Sacramen<lb ed="#V" n="47" break="no"/>tum ad rem Sacramenti, ut ad finem,
+            <lb ed="#V" n="48"/>quam e contra res ad Sacramentum.
+            <lb ed="#V" n="49"/>Respondet ergo Suarez Christum, ut
+            <lb ed="#V" n="50"/>est in Sacramento, esse formam hujus
+            <lb ed="#V" n="51"/>Sacramenti, id est, specierum, quia est
+            <lb ed="#V" n="52"/>nobilior, et quia est virtus ipsarum
+            spe<lb ed="#V" n="53" break="no"/>cierum, sanctificans ipsas sicut verbum
+            <lb ed="#V" n="54"/>sanctificat naturam assumptam, et sicut
+            <lb ed="#V" n="55"/>contritio comparatur ad confessionem,
+            <lb ed="#V" n="56"/>ut virtus sanctificans ipsam, licet
+            confes<lb ed="#V" n="57" break="no"/>sio dolorosa sit materia Sacramenti.
+            Con<lb ed="#V" n="58" break="no"/>tra, primum ostendi deberet ratio
+            com<lb ed="#V" n="59" break="no"/>positionis, deinde laborat responsio in
+            <lb ed="#V" n="60"/>aequivoco, licet enim Christus sanctificet
+            <lb ed="#V" n="61"/>species, sanctificat tantum per modum
+            <lb ed="#V" n="62"/>signati praesentis et contenti realiter sub
+            <lb ed="#V" n="63"/>speciebus, quae est sanctificatio formalis
+            <lb ed="#V" n="64"/>in ordine ad cultum et adorationem. Non
+            <lb ed="#V" n="65"/>sanctificat autem per modum efficientis
+            <lb ed="#V" n="66"/>(et sic non est virtus), sed haec
+            sanctifi<lb ed="#V" n="67" break="no"/>catio specierum fit per consecrationem,
+            <lb ed="#V" n="68"/>ut per se notum est, qua fit ipse
+            <lb ed="#V" n="69"/>Christus praesens, et species separatae
+            <lb ed="#V" n="70"/>et continentes Christum. Si autem
+            lo<lb ed="#V" n="71" break="no"/>quamur de sanctitate conveniente
+            spe<lb ed="#V" n="72" break="no"/>ciebus per modum rationis causandi
+            <lb ed="#V" n="73"/>practice, sive ipsam gratiam
+            san<lb ed="#V" n="74" break="no"/>ctificantem, sive Christum, ut
+            conten<lb ed="#V" n="75" break="no"/>tum sub speciebus permanenter
+            conser<lb ed="#V" n="76" break="no"/>vando praesentiam sacramentalem,
+            utra<lb ed="#V" n="77" break="no"/>que sanctificatio competit speciebus per
+            <lb ed="#V" n="78"/>assistentiam et institutionem Dei et
+            Chri<lb ed="#V" n="79" break="no"/>sti, qua auctor est Sacramentorum, et
+            <lb ed="#V" n="80"/>causa meritoria, in cujus virtute causant
+            <lb ed="#V" n="81"/>suum effectum, quia agunt ut causa
+            in<lb ed="#V" n="82" break="no"/>strumentalis, cum subordinatione ad
+            cau<lb ed="#V" n="83" break="no"/>sam principalem, a qua solum
+            partici<lb ed="#V" n="84" break="no"/>pant actionem et virtutem suo modo.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Christus autem, ut sub speciebus est,
+            <lb ed="#V" n="86"/>neque est causa principalis, neque etiam
+            <lb ed="#V" n="87"/>ipsa assistentia, aut institutio recepta in
+            <lb ed="#V" n="88"/>Sacramento, quae est ratio seu virtus, a
+            <pb ed="#V" n="30"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>qua est actio Sacramenti, etc. Si ergo
+            <lb ed="#V" n="2"/>loquamur de sumptione Sacramenti per
+            <lb ed="#V" n="3"/>modum cibi et potus, illa est ejus usus,
+            <lb ed="#V" n="4"/>et non Sacramentum, et ut infra
+            dice<lb ed="#V" n="5" break="no"/>mus, competit etiam ex parte ratione
+            <lb ed="#V" n="6"/>specierum non praescindendo eos a
+            si<lb ed="#V" n="7" break="no"/>gnato, a quo non possunt separari, licet
+            <lb ed="#V" n="8"/>diversa sit ratio unius et alterius.
+            <lb ed="#V" n="9"/>Si vero loquamur de ratione
+            conser<lb ed="#V" n="10" break="no"/>vandi Christum, ut est res sacramentalis,
+            <lb ed="#V" n="11"/>sic Christus non conservat, neque est
+            <lb ed="#V" n="12"/>virtus conservandi se, sed conservatur
+            <lb ed="#V" n="13"/>per assistentiam Dei, et institutionem, ut
+            <lb ed="#V" n="14"/>dictum est; imo neque talis conservatio
+            <lb ed="#V" n="15"/>est a Christo etiam moraliter, ut est sub
+            <lb ed="#V" n="16"/>speciebus, ut patet ex dictis, minus
+            au<lb ed="#V" n="17" break="no"/>tem eidem competit, ut sit ab eo realiter
+            <lb ed="#V" n="18"/>et physice; ergo nequit comparari ad
+            <lb ed="#V" n="19"/>species ut forma, et virtus sanctificans
+            <lb ed="#V" n="20"/>hoc modo, et qua sunt Sacramentum,
+            <lb ed="#V" n="21"/>id est, signum practicum sub qua ratione
+            <lb ed="#V" n="22"/>compositio admittitur, vel adstruitur ab
+            <lb ed="#V" n="23"/>auctore praefato.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>xempla autem adducta nihil
+            convin<lb ed="#V" n="25" break="no"/>cunt, quia sanctificatio naturae assumptae
+            <lb ed="#V" n="26"/>per verbum est formalis, quocumque
+            <lb ed="#V" n="27"/>modo explicetur et aequiparatur sanctitati
+            <lb ed="#V" n="28"/>specierum in ordine ad cultum et
+            ado<lb ed="#V" n="29" break="no"/>rationem, non autem sanctificationi
+            ea<lb ed="#V" n="30" break="no"/>rum secundum alios gradus quos
+            decla<lb ed="#V" n="31" break="no"/>ravimus, quorum ultimus spectat ad
+            <lb ed="#V" n="32"/>essentiam Sacramenti, ejusque
+            composi<lb ed="#V" n="33" break="no"/>tionem, eamque non habet a signato.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>Quod additur de contritione falsum
+            <lb ed="#V" n="35"/>est, quia magis per se exigitur
+            confes<lb ed="#V" n="36" break="no"/>sio ad Sacramentum Poenitentiae ex
+            pro<lb ed="#V" n="37" break="no"/>pria institutione Sacramenti, quam
+            con<lb ed="#V" n="38" break="no"/>tritio, licet haec etiam connumeretur ut
+            <lb ed="#V" n="39"/>necessaria, et tanquam pars diversa
+            Sa<lb ed="#V" n="40" break="no"/>cramenti; contritio enim fuit semper
+            ne<lb ed="#V" n="41" break="no"/>cessaria, et de communi lege in omni
+            <lb ed="#V" n="42"/>statu naturae lapsae, in adulto peccante
+            <lb ed="#V" n="43"/>mortaliter ad remissionem peccati, ut
+            <lb ed="#V" n="44"/>patet sess. 14. Trident. cap 1. et 4. sess.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>6. cap. 6. et 16. requirebatur enim
+            retra<lb ed="#V" n="46" break="no"/>ctatio peccati ad remissionem et
+            condona<lb ed="#V" n="47" break="no"/>tionem ejus obtinendam. Et hunc modum
+            <lb ed="#V" n="48"/>habet contritio etiam in Sacramento (ut
+            <lb ed="#V" n="49"/>patebi suo loco), sed confessio requiritur
+            <lb ed="#V" n="50"/>ex speciali institutione hujus Sacramenti
+            <lb ed="#V" n="51"/>in forma judiciali, et ad informationem
+            ju<lb ed="#V" n="52" break="no"/>dicis, quod ipsi confessioni, ut
+            condistin<lb ed="#V" n="53" break="no"/>guitur ab aliis partibus, competit, ut
+            pa<lb ed="#V" n="54" break="no"/>tet cap. 5. sess. 14. Trident. non ergo
+            <lb ed="#V" n="55"/>in virtute contritionis habet effectum, sed
+            <lb ed="#V" n="56"/>ex institutione dicta, et qua elevatur
+            vir<lb ed="#V" n="57" break="no"/>tute clavium, licet requiratur etiam
+            con<lb ed="#V" n="58" break="no"/>tritio, ut compars, et mere per modum
+            <lb ed="#V" n="59"/>dispositionis.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Ultima sententia est communis
+            anti<lb ed="#V" n="61" break="no"/>quorum, quam docet Doctor locis
+            alle<lb ed="#V" n="62" break="no"/>gatis, nempe Sacramentum in recto esse
+            <lb ed="#V" n="63"/>ipsas species; eam docet Magister, Hugo,
+            <lb ed="#V" n="64"/>et alii citati supra, et vetus auctor
+            al<lb ed="#V" n="65" break="no"/>tercationis Ecclesiae cum Synagoga cap.
+            <lb ed="#V" n="66"/>8. et manet probata ex dictis; superest
+            <lb ed="#V" n="67"/>tantum, ut respondeamus ad fundamenta
+            <lb ed="#V" n="68"/>prioris sententiae.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Objicies primo loca plurima Patrum,
+            <lb ed="#V" n="70"/>in quibus praedicatur de hoc
+            Sacramen<lb ed="#V" n="71" break="no"/>to in recto corpus et sanguis Christi;
+            <lb ed="#V" n="72"/>ergo spectant ad Sacramentum in recto.
+            <lb ed="#V" n="73"/>Antecedens patet ex Theodoreto in
+            Dia<lb ed="#V" n="74" break="no"/>logis dialogo 3. ubi citat haec verba
+            Igna<lb ed="#V" n="75" break="no"/>tii in epistola ad Smyrnenses:
+            Euchari<lb ed="#V" n="76" break="no"/>stias et oblationes non admittunt, quod non
+            <lb ed="#V" n="77"/>confiteantur Eucharistiam esse carnem
+            <lb ed="#V" n="78"/>Salvatoris Jesu Christi pro peccatis, quae
+            <lb ed="#V" n="79"/>pro peccatis nostris passa est, quam Pater
+            <lb ed="#V" n="80"/>sua benignitate suscitavit, etc. Justinus
+            <lb ed="#V" n="81"/>in Apologia ad Antoninum Imperatorem:
+            <lb ed="#V" n="82"/>Alimentum hoc appellatur Eucharistia,
+            <lb ed="#V" n="83"/>neque ut communem panem ista sumimus,
+            <lb ed="#V" n="84"/>sed quemadmodum per verbum Dei caro
+            <lb ed="#V" n="85"/>factus Christus Jesus servator noster, et
+            <lb ed="#V" n="86"/>carnem et sanguinem salutis nostrae
+            cau<lb ed="#V" n="87" break="no"/>sa habuit; ad eumdem modum etiam eam
+            <lb ed="#V" n="88"/>alimoniam, etc. Incarnati illius Jesu
+            car<pb ed="#V" n="31"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>nem et sanquinem esse hujus edocti, etc.
+            <lb ed="#V" n="2"/>Patet etiam ex forma consecrationis, et
+            <lb ed="#V" n="3"/>ex Joannis 6. Panis quem ego dabo,
+            ca<lb ed="#V" n="4" break="no"/>ro est pro mundi vita; ergo corpus et
+            <lb ed="#V" n="5"/>sanguis constituunt Sacramentum.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Respondetur negando consequentiam,
+            <lb ed="#V" n="7"/>neque antecedens quidpiam probat, quia
+            <lb ed="#V" n="8"/>si loquamur in rigore logico, pars in
+            <lb ed="#V" n="9"/>abstracto non praedicatur de toto; ad
+            <lb ed="#V" n="10"/>salvandum ergo vigorem et veritatem
+            lo<lb ed="#V" n="11" break="no"/>cutionis tam Patrum quam Scripturae
+            <lb ed="#V" n="12"/>non conducit compositio dicta, sed
+            ma<lb ed="#V" n="13" break="no"/>gis eam enervat; verum secundum
+            <lb ed="#V" n="14"/>usum sermonis magis salvatur proprietas
+            <lb ed="#V" n="15"/>locutionis, sumendo signum pro signato,
+            <lb ed="#V" n="16"/>pro quo natum est supponere et sumi,
+            <lb ed="#V" n="17"/>et maxime quando est signum
+            demon<lb ed="#V" n="18" break="no"/>strativum, quod nequit a suo signato
+            di<lb ed="#V" n="19" break="no"/>vidi aut separari. Recte enim dicimus,
+            <lb ed="#V" n="20"/>video Petrum, video panem, quamvis
+            <lb ed="#V" n="21"/>visio non extendatur ad substantiam
+            <lb ed="#V" n="22"/>subjectam, aut contentam, sed ad sola
+            <lb ed="#V" n="23"/>accidentia, quae pro ipsa supponunt; sic
+            <lb ed="#V" n="24"/>Lucae 22. Hic Calix novum Testamentum,
+            <lb ed="#V" n="25"/>etc. 1. ad Corinth. 11. Hic est Calix
+            <lb ed="#V" n="26"/>novum Testamentum, etc. Calix supponit
+            <lb ed="#V" n="27"/>pro contento et sanguine Christi; ergo
+            vi<lb ed="#V" n="28" break="no"/>ce versa, vel potest sumi appellatio
+            myste<lb ed="#V" n="29" break="no"/>rii a solo contento, vel etiam a solis
+            spe<lb ed="#V" n="30" break="no"/>ciebus, vel ab utrisque; et
+            fundamen<lb ed="#V" n="31" break="no"/>tum appellationis est, quia signum et
+            <lb ed="#V" n="32"/>signatum, continens et contentum
+            con<lb ed="#V" n="33" break="no"/>notant se mutuo in esse et appellatione,
+            <lb ed="#V" n="34"/>et unum non subsistit sine altero. Sic
+            <lb ed="#V" n="35"/>Irenaeus lib. 4. contra haereses, cap. 34.
+            <lb ed="#V" n="36"/>idem declarat: Panem, inquit,
+            percipien<lb ed="#V" n="37" break="no"/>tem Dei vocationem jam non communem
+            <lb ed="#V" n="38"/>panem esse, etc. ubi denominationem
+            su<lb ed="#V" n="39" break="no"/>mi posse a contento, docet. Item cap.
+            <lb ed="#V" n="40"/>Hoc est, de consecrat. dist 2. Vocatur.
+            <lb ed="#V" n="41"/>inquit, ipsa immolatio curnis, quae
+            Sa<lb ed="#V" n="42" break="no"/>cerdotis manibus fit, Christi passio, mors,
+            <lb ed="#V" n="43"/>crucifixio, non rei veritate, sed
+            significa<lb ed="#V" n="44" break="no"/>tione mysterii, etc. Si itaque ex mystica
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>repraesentatione mutuatur nomen
+            proto<lb ed="#V" n="46" break="no"/>typi, quanto magis ex vera et reali
+            signi<lb ed="#V" n="47" break="no"/>ficatione, species sument nomen sui
+            si<lb ed="#V" n="48" break="no"/>gnificati, sicut et ipsum signatum nomen
+            <lb ed="#V" n="49"/>panis et vini? Si quis manducaverit ex
+            <lb ed="#V" n="50"/>hoc pane, vivet in aeternum. Panis quem
+            <lb ed="#V" n="51"/>ego dabo, caro mea est pro mundi vita.
+            <lb ed="#V" n="52"/>Probet autem seipsum homo, et sic de
+            <lb ed="#V" n="53"/>pane illo edat, etc. Et postea dicitur
+            cor<lb ed="#V" n="54" break="no"/>pus Domini: Non dijudicans Corpus
+            Do<lb ed="#V" n="55" break="no"/>mini, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Frequentius autem sumitur nomen a
+            re<lb ed="#V" n="57" break="no"/>praesentato quam a repraesentante, quia
+            <lb ed="#V" n="58"/>hoc ab illo specificatur, et ab aliis
+            discer<lb ed="#V" n="59" break="no"/>nitur, ut patet in imaginibus et statuis,
+            <lb ed="#V" n="60"/>et ejusmodi; unde in hoc mysterio
+            su<lb ed="#V" n="61" break="no"/>mitur stylo frequenti Patrum, a
+            conten<lb ed="#V" n="62" break="no"/>to, ut ostendatur realis praesentia Christi
+            <lb ed="#V" n="63"/>in Sacramento, magnitudo rei et fides ac
+            <lb ed="#V" n="64"/>devotio commendetur.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Alii respondent corpus Christi dici
+            Sa<lb ed="#V" n="66" break="no"/>cramentum, quia est res et
+            Sacramen<lb ed="#V" n="67" break="no"/>tum simul; sed haec responsio non
+            <lb ed="#V" n="68"/>quadrat, quia etsi vera sit, non tamen
+            <lb ed="#V" n="69"/>satisfacit cum praedictis et multis aliis
+            <lb ed="#V" n="70"/>in locis ipsum sensibile Sacramentum
+            ap<lb ed="#V" n="71" break="no"/>pellatur corpus Christi, ideo melius
+            in<lb ed="#V" n="72" break="no"/>telligitur modo dicto, et seclusa
+            compo<lb ed="#V" n="73" break="no"/>sitione illa, quam praefati objicientes
+            prae<lb ed="#V" n="74" break="no"/>tendunt, ad salvandam veritatem
+            locu<lb ed="#V" n="75" break="no"/>tionis, cum jam ostensum sit per
+            com<lb ed="#V" n="76" break="no"/>positionem illam, locutiones in abstracto
+            <lb ed="#V" n="77"/>non posse salvari in rigore sermonis;
+            ta<lb ed="#V" n="78" break="no"/>men in rigore et usu sermonis salvantur
+            <lb ed="#V" n="79"/>locutiones modo a nobis explicato,
+            ne<lb ed="#V" n="80" break="no"/>que debet ingeri mysteriis fidei major
+            ob<lb ed="#V" n="81" break="no"/>scuritas, quam rei natura patitur, et
+            my<lb ed="#V" n="82" break="no"/>sterii ratio, quae illam compositionem
+            <lb ed="#V" n="83"/>non petunt, imo ipsi repugnat alia quam
+            <lb ed="#V" n="84"/>illa, quae est conjunctionis inseparabilis
+            <lb ed="#V" n="85"/>per praesentiam sacramentalem, quae non
+            <lb ed="#V" n="86"/>recte explicatur per compositionem, qua
+            <lb ed="#V" n="87"/>contentum spectaret ad constitutionem
+            <lb ed="#V" n="88"/>Sacramenti in recto.
+          </p>
+          <p>
+            <pb ed="#V" n="32"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Licet ergo corpus Christi, ut in
+            Sacra<lb ed="#V" n="2" break="no"/>mento, significet corpus mysticum, quod
+            <lb ed="#V" n="3"/>est Ecclesia, vel etiam seipsum quoad
+            <lb ed="#V" n="4"/>modum naturalem existendi, ut patet ex
+            <lb ed="#V" n="5"/>capitulo praemisso, tamen ut sic sumptum
+            <lb ed="#V" n="6"/>magis supponeret pro significato mystico,
+            <lb ed="#V" n="7"/>quam pro se ipso; ideoque locutiones
+            <lb ed="#V" n="8"/>Scripturae et Patrum, quae de vero
+            cor<lb ed="#V" n="9" break="no"/>pore in Sacramento contento
+            exprimun<lb ed="#V" n="10" break="no"/>tur, nequeunt commode in praedicto
+            sen<lb ed="#V" n="11" break="no"/>su sumi, quo intelligeretur pro
+            significa<lb ed="#V" n="12" break="no"/>to mystico tantum, vel etiam in ordine
+            <lb ed="#V" n="13"/>ad mysticum significatum.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Objicies secundo, aliqui Patres dicunt
+            <lb ed="#V" n="15"/>Eucharistiam esse compositam ex
+            duo<lb ed="#V" n="16" break="no"/>bus, nempe speciebus, et corpore Christi,
+            <lb ed="#V" n="17"/>ut in capitulo: Hoc, est, citato. Hoc,
+            in<lb ed="#V" n="18" break="no"/>quit, modis omnibus probare contendimus,
+            <lb ed="#V" n="19"/>sacrificium Ecclesiae duobus confici,
+            duo<lb ed="#V" n="20" break="no"/>bus constare, visibili elementorum specie,
+            <lb ed="#V" n="21"/>et invisibili Domini nostri Jesu Christi
+            <lb ed="#V" n="22"/>carne et sanguine, Sacramento et re
+            Sa<lb ed="#V" n="23" break="no"/>cramenti, id est, corpore Christi, etc.
+            Ire<lb ed="#V" n="24" break="no"/>naeus supra citatus dicit Eucharistiam
+            <lb ed="#V" n="25"/>duabus rebus constare, terrena et
+            coe<lb ed="#V" n="26" break="no"/>. lesti, etc. Item, Ambros. lib. 4. de Sacr.
+            <lb ed="#V" n="27"/>c. 4. et ha betur, c. In hoc Sacramento;
+            <lb ed="#V" n="28"/>et lib. de iis qui initiantur, cap. 9. In
+            <lb ed="#V" n="29"/>priori loco ait, in hoc Sacramento esse
+            <lb ed="#V" n="30"/>corpus Christi, et in secundo loco dicit
+            <lb ed="#V" n="31"/>constare speciebus, et corpore et
+            san<lb ed="#V" n="32" break="no"/>guine Christi.
+            <lb ed="#V" n="33"/>Respondetur non recte illa loca
+            pro<lb ed="#V" n="34" break="no"/>bare intentum, aut applicari ad
+            pro<lb ed="#V" n="35" break="no"/>positum, quo dicatur rem Sacramenti
+            <lb ed="#V" n="36"/>spectare ad Sacramentum in recto, aut
+            <lb ed="#V" n="37"/>componere cum speciebus essentiam
+            <lb ed="#V" n="38"/>Sacramenti, ut hic loquimur de
+            Sacra<lb ed="#V" n="39" break="no"/>mento in significatione propria, et
+            su<lb ed="#V" n="40" break="no"/>pra dist. 1. quaest 2. definito.
+            Adverten<lb ed="#V" n="41" break="no"/>dum ergo ex Tridentino, et ut supra in
+            <lb ed="#V" n="42"/>commento probavimus, conclusionem
+            <lb ed="#V" n="43"/>tertiam Doctoris exponendo
+            Sacramen<lb ed="#V" n="44" break="no"/>tum Eucharistiae esse permanens, et in
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>hoc distingui ab aliis, quae sunt in usu,
+            <lb ed="#V" n="46"/>inquantum haec non continent realiter et
+            <lb ed="#V" n="47"/>formaliter suum significatum, sed tantum
+            <lb ed="#V" n="48"/>virtute, neque simul in rigore physico
+            <lb ed="#V" n="49"/>existunt, quia effectus, verbi gratia,
+            Ba<lb ed="#V" n="50" break="no"/>ptismi causatur in instanti extrinseco
+            <lb ed="#V" n="51"/>completae prolationis formae; in quo
+            ve<lb ed="#V" n="52" break="no"/>rum est dicere formam non esse, quae
+            <lb ed="#V" n="53"/>antea fuit, et gratiam seu effectum
+            Ba<lb ed="#V" n="54" break="no"/>ptismi jam esse, qui antea non fuit; et
+            <lb ed="#V" n="55"/>sic separantur in esse, hoc modo,
+            Sacra<lb ed="#V" n="56" break="no"/>mentum et effectus ejus, inquantum non
+            <lb ed="#V" n="57"/>sunt simul, sed hic sequatur in esse ad
+            <lb ed="#V" n="58"/>illud.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Contrario modo se habet Eucharistia,
+            <lb ed="#V" n="60"/>quia nequit Sacramentum esse, nisi simul
+            <lb ed="#V" n="61"/>sit etiam res Sacramenti, ita ut
+            insepa<lb ed="#V" n="62" break="no"/>rabiliter simul sint, et ponantur et
+            desi<lb ed="#V" n="63" break="no"/>nant; est enim signum practicum et
+            de<lb ed="#V" n="64" break="no"/>monstrativum species respectu corporis
+            <lb ed="#V" n="65"/>et sanguinis, non tanquam effectus in
+            <lb ed="#V" n="66"/>alio, aut extra species subsistentis aut
+            <lb ed="#V" n="67"/>existentis, sicut se habet effectus aliorum
+            <lb ed="#V" n="68"/>Sacramentorum, qui est anima; sed
+            <lb ed="#V" n="69"/>existentis sub ipsis speciebus per
+            <lb ed="#V" n="70"/>praesentiam sacramentalem, qua est
+            tan<lb ed="#V" n="71" break="no"/>quam contentum in tota specie, et in
+            qua<lb ed="#V" n="72" break="no"/>libet ejus parte realiter et substantialiter.
+            <lb ed="#V" n="73"/>Et hanc praesentiam ejus intelligunt
+            Pa<lb ed="#V" n="74" break="no"/>tres, unde neque species in esse, aut
+            si<lb ed="#V" n="75" break="no"/>gnificatione sacramentali separari potest a
+            <lb ed="#V" n="76"/>Christo, neque Christus ut res contenta a
+            <lb ed="#V" n="77"/>specie, quamvis diversae rationes sunt
+            <lb ed="#V" n="78"/>significatio practica et demonstrativa
+            spe<lb ed="#V" n="79" break="no"/>ciei, et significatum esse Christum; neque
+            <lb ed="#V" n="80"/>debeant confundi, quamvis enim
+            separa<lb ed="#V" n="81" break="no"/>biles non sint ab invicem, tamen distinctae
+            <lb ed="#V" n="82"/>sunt, non ergo est alia compositio aut
+            <lb ed="#V" n="83"/>unio, quam continentis hoc modo, et
+            con<lb ed="#V" n="84" break="no"/>tenti, qui est modus loquendi Conciliorum
+            <lb ed="#V" n="85"/>et Patrum, quo declarant mysterium et
+            <lb ed="#V" n="86"/>rationem signi et signati hoc peculiari
+            <lb ed="#V" n="87"/>modo, salvando distinctionem et ordinem
+            <lb ed="#V" n="88"/>utriusque ad invicem cum
+            inseparabilita<pb ed="#V" n="33"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>te, in quo discernitur specialis ratio hujus
+            <lb ed="#V" n="2"/>Sacramenti ab aliis Sacramentis, quae
+            se<lb ed="#V" n="3" break="no"/>parari possunt ab effectu, vel reipsa
+            sem<lb ed="#V" n="4" break="no"/>per hoc modo separantur, qui effectus
+            <lb ed="#V" n="5"/>Sacramenti, quod est in usu, desinente
+            <lb ed="#V" n="6"/>ipso, est et fit et permanet sine ipso
+            <lb ed="#V" n="7"/>Sacramento; ex quibus patet ad
+            objecti<lb ed="#V" n="8" break="no"/>onem.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Ad primum locum capituli: Hoc est,
+            <lb ed="#V" n="10"/>etc. respondetur esse ad oppositum, quia
+            <lb ed="#V" n="11"/>extremis verbis, ut supra praemissum est,
+            <lb ed="#V" n="12"/>tenet conclusionem Doctoris; dicit enim
+            <lb ed="#V" n="13"/>Sacramentum esse species, rem
+            Sacra<lb ed="#V" n="14" break="no"/>menti esse corpus Christi, et sic intellexit
+            <lb ed="#V" n="15"/>Hugo, Magister et reliqui Sententiarii.
+            <lb ed="#V" n="16"/>Loquuntur etiam de compositione
+            sacri<lb ed="#V" n="17" break="no"/>ficii, in quo offertur Christus sub
+            specie<lb ed="#V" n="18" break="no"/>bus, et non de compositione Sacramenti.
+            <lb ed="#V" n="19"/>Ad locum Irenaei, per duas res intelligit
+            <lb ed="#V" n="20"/>duas naturas, divinam et humanam, ut
+            <lb ed="#V" n="21"/>patet ex contextu; et bene advertit
+            Vas<lb ed="#V" n="22" break="no"/>quez ex Claudio Sancte. Si contendas
+            <lb ed="#V" n="23"/>etiam oppositum, non refert, quia aliud
+            <lb ed="#V" n="24"/>est loqui de hoc mysterio sub
+            appella<lb ed="#V" n="25" break="no"/>tione Eucharistiae et Sacramenti, quia
+            <lb ed="#V" n="26"/>prior appellatio importat Christum etiam
+            <lb ed="#V" n="27"/>in recto, secunda vero tantum in obliquo;
+            <lb ed="#V" n="28"/>adhiberi potest solutio superius data his
+            <lb ed="#V" n="29"/>verbis denotare modum peculiarem hujus
+            <lb ed="#V" n="30"/>Sacramenti, et inseparabilitatem signi a
+            <lb ed="#V" n="31"/>signato; idem intendit Ambrosius.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Objicies tertio, hoc Sacramentum est
+            <lb ed="#V" n="33"/>pastus spiritualis, inquantum includit
+            <lb ed="#V" n="34"/>Christum; ergo Christus spectat ad
+            inte<lb ed="#V" n="35" break="no"/>gritatem ejus, deinde adoratur latria
+            pro<lb ed="#V" n="36" break="no"/>pter Christum, ex Trident. sess. 13. can. 5.
+            <lb ed="#V" n="37"/>et can. 6.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Respondetur ad primum, Christum non
+            <lb ed="#V" n="39"/>esse pastum spiritualem in actu secundo,
+            <lb ed="#V" n="40"/>nisi in usu Sacramenti, ut alias dictum
+            <lb ed="#V" n="41"/>est. Eucharistia vero est Sacramentum,
+            <lb ed="#V" n="42"/>qua subsistens est ante usum et
+            sumpti<lb ed="#V" n="43" break="no"/>onem.
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>Quod si petas, an species habeat
+            effi<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>caciam ad pastum spiritualem et gratiam. A.
+            <lb ed="#V" n="46"/>Respondet Cajetanus 3. part. quaest. 80.
+            <lb ed="#V" n="47"/>art. 12. dub. 2. Ledesma 1. part. 4. quaest.
+            <lb ed="#V" n="48"/>14. art. 1. dubio 3. negantque speciem
+            <lb ed="#V" n="49"/>habere ullam efficaciam respectu gratiae
+            <lb ed="#V" n="50"/>sanctificantis, quia tota vis agendi est in A
+            <lb ed="#V" n="51"/>corpore Christi et sanguine. Contra, p
+            <lb ed="#V" n="52"/>auctor de Coena Domini inter opera
+            Cy<lb ed="#V" n="53" break="no"/>priani: Cibus hic, inquit, verus et
+            since<lb ed="#V" n="54" break="no"/>rus per speciem et Sacramentum nos
+            <lb ed="#V" n="55"/>tactu suo sanctificat, etc. in
+            antecedenti<lb ed="#V" n="56" break="no"/>bus dixit: visibilibus Sacramentis inesse
+            <lb ed="#V" n="57"/>vitae aeternae effectum. Secundo,
+            Sacra<lb ed="#V" n="58" break="no"/>menta significant quod efficiunt, sed hoc
+            <lb ed="#V" n="59"/>Sacramentum causat unionem spiritualem
+            <lb ed="#V" n="60"/>mediante charitate cum Christo; ergo
+            effi<lb ed="#V" n="61" break="no"/>cit eamdem unionem. Augustinus tract. 26.
+            <lb ed="#V" n="62"/>in Joannem: Propterea quippe, inquit,
+            <lb ed="#V" n="63"/>sicut ante nos intellexerunt homines Dei,
+            <lb ed="#V" n="64"/>Dominus noster Jesus Christus corpus et
+            <lb ed="#V" n="65"/>sanquinem suum in iis rebus commendavit,
+            <lb ed="#V" n="66"/>quae ad unum aliquid rediguntur, etc.
+            <lb ed="#V" n="67"/>Confirmatur, Sacramenta novae legis
+            effi<lb ed="#V" n="68" break="no"/>ciunt gratiam, quam significant. Trident.
+            <lb ed="#V" n="69"/>sess. 7. can. 6. 7. et 8. de
+            Sacra<lb ed="#V" n="70" break="no"/>mentis in genere; hic autem a ratione
+            <lb ed="#V" n="71"/>Sacramenti non excluditur species, neque:
+            <lb ed="#V" n="72"/>excludi potest. Unde sess. 13. cap. 8.
+            tri<lb ed="#V" n="73" break="no"/>plex sumptio Sacramenti assignata ex
+            <lb ed="#V" n="74"/>Patribus idipsum importat, nam sumptio
+            <lb ed="#V" n="75"/>sacramentalis tantum, et sumptio
+            sacra<lb ed="#V" n="76" break="no"/>mentalis et spiritualis simul, denotat
+            <lb ed="#V" n="77"/>etiam species, in quibus fit usus
+            sumpti<lb ed="#V" n="78" break="no"/>onis; ergo etiam effectus est ab iisdem
+            <lb ed="#V" n="79"/>speciebus, sicut ergo sunt signum sacrum
+            <lb ed="#V" n="80"/>gratiae subsistentis, sic etiam sunt signum
+            <lb ed="#V" n="81"/>gratiae sanctificantis.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>Ad argumentum ergo in forma
+            respon<lb ed="#V" n="83" break="no"/>detur, distinguendo antecedens; si
+            par<lb ed="#V" n="84" break="no"/>ticula inquantum sumatur reduplicative,
+            <lb ed="#V" n="85"/>et ut denotat causam praecisam, negatur
+            <lb ed="#V" n="86"/>antecedens; si autem sumatur
+            specifica<lb ed="#V" n="87" break="no"/>tive, conceditur antecedens, et negatur
+            <lb ed="#V" n="88"/>consequentia; mediantibus enim
+            specie<pb ed="#V" n="34"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>bus habet corpus Christi, ut sit pastus,
+            <lb ed="#V" n="2"/>quamvis in ratione pastus nequeat corpus
+            <lb ed="#V" n="3"/>separari a speciebus, ut patet ex
+            Triden<lb ed="#V" n="4" break="no"/>tin. sess. 13. can. 8. et cap. 8. neque
+            spe<lb ed="#V" n="5" break="no"/>cies a corpore; sic neque species haberent
+            <lb ed="#V" n="6"/>efficaciam, nisi ut includunt corpus, neque
+            <lb ed="#V" n="7"/>e contra corpus sine speciebus. Causare
+            <lb ed="#V" n="8"/>autem gratiam convenit ipsis ex dicta
+            <lb ed="#V" n="9"/>institutione, quae respicit signum ut
+            inclu<lb ed="#V" n="10" break="no"/>dit signatum, scilicet Christum, atque
+            <lb ed="#V" n="11"/>etiam ex motivo signati principaliter haec
+            <lb ed="#V" n="12"/>efficacia competit speciebus per
+            institu<lb ed="#V" n="13" break="no"/>tionem. Sumptio autem est utriusque per
+            <lb ed="#V" n="14"/>modum unius pastus, quia tam species
+            <lb ed="#V" n="15"/>quam Christus realiter sumitur, et utrique
+            <lb ed="#V" n="16"/>attribuitur gratia ut effectus, quem tam
+            <lb ed="#V" n="17"/>Christus quam species causant. Aliud
+            <lb ed="#V" n="18"/>ergo est loqui de hoc Sacramento, ut est
+            <lb ed="#V" n="19"/>pastus, quia sic utrumque involvit; aliud
+            <lb ed="#V" n="20"/>est loqui de ipso, ut est Sacramentum in
+            <lb ed="#V" n="21"/>recto gratiae subsistentis, quia hoc solis
+            <lb ed="#V" n="22"/>speciebus competit, licet ex modo
+            pecu<lb ed="#V" n="23" break="no"/>liari significandi includant suum
+            significa<lb ed="#V" n="24" break="no"/>tum realiter et formaliter.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Ad secundum respondetur, cultum
+            la<lb ed="#V" n="26" break="no"/>triae deberi huic Sacramento, qua includit
+            <lb ed="#V" n="27"/>per concomitantiam Deitatem, et ob ejus
+            <lb ed="#V" n="28"/>praesentiam hanc eamdem rationem
+            moti<lb ed="#V" n="29" break="no"/>vam cultus subjicit Concilium: Nam illum,
+            <lb ed="#V" n="30"/>inquit, eumdem Deum praesentem in eo
+            <lb ed="#V" n="31"/>adesse credimus, quem Pater aeternus
+            in<lb ed="#V" n="32" break="no"/>troducens in orbem terrarum, dicit: Et
+            <lb ed="#V" n="33"/>adorent eum omnes Angeli ejus, etc. non
+            <lb ed="#V" n="34"/>recte inde sequitur Deitatem in recto
+            <lb ed="#V" n="35"/>spectare ad essentiam Sacramenti. Deinde
+            <lb ed="#V" n="36"/>ad adorationem latriae sufficit
+            repraesen<lb ed="#V" n="37" break="no"/>tatio et tactus, ut patet in cruce et
+            imagi<lb ed="#V" n="38" break="no"/>nibus, in Venerabili Sacramento includitur
+            <lb ed="#V" n="39"/>realiter Christus, et demonstratur
+            prae<lb ed="#V" n="40" break="no"/>sens; hoc ergo argumentum non urget
+            <lb ed="#V" n="41"/>praesentem difficultatem, sed magis realem
+            <lb ed="#V" n="42"/>praesentiam Christi probat.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>
