@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 48, Quaestio 2</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 48, Quaestio 2</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x20">Vives, Paris, 1894, volume 20</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="523"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e5058"><!-- hicjds-b4d48q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum in iudicio vel post cessabit motus corporum caelestium</head>
+        <!-- <div alias="hiq-d48q2-p1"> -->
+          <p>
+            <lb ed="#V" n="73" type="fixed=523"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>(a) Secundo quaero, utrum in judicio,
+            <lb ed="#V" n="75"/>etc. In hac quaestione adducit primo
+            sen<lb ed="#V" n="76" break="no"/>tentiam Philosophi cum suis fundamentis.
+            <lb ed="#V" n="77"/>Secundo, adducit sententiam
+            Theologo<lb ed="#V" n="78" break="no"/>rum, et primo D. Thomae. Tertio, resolvit
+            <lb ed="#V" n="79"/>quaestionem. Quarto, urget contra
+            resolu<lb ed="#V" n="80" break="no"/>tionem, et solvit. Ultimo respondet ad
+            <lb ed="#V" n="81"/>argumenta principalia.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d48q2-p2"> -->
+          <p>
+            <lb ed="#V" n="65" type="fixed=525"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>(b) In ista quaestione primo videndum
+            <lb ed="#V" n="67"/>est, etc. Subjicit sententiam Philosophi
+            <lb ed="#V" n="68"/>negativam, quod enim motus coeli
+            perpe<lb ed="#V" n="69" break="no"/>tuo sit duraturus, docuit Philosophus, qui
+            <lb ed="#V" n="70"/>etiam mundi aeternitatem statuit, et Deum
+            <lb ed="#V" n="71"/>agere necessario ad extra, ut visum est
+            <lb ed="#V" n="72"/>d. 43. q. 1. Prima ratio est ex fine 12.
+            <lb ed="#V" n="73"/>Met. Omnem, inquit, substantiam
+            impassi<lb ed="#V" n="74" break="no"/>bilem optimum sortitum esse finem, est
+            <lb ed="#V" n="75"/>aestimare, etc. Ex quo sic formatur
+            argu<lb ed="#V" n="76" break="no"/>mentum. Optimus finis substantiae
+            separa<lb ed="#V" n="77" break="no"/>tae est latio; non potest cessare a fine suo
+            <lb ed="#V" n="78"/>perfectissimo; ergo nec a latione. Si dicas 1
+            <lb ed="#V" n="79"/>Philosophum 10. Ethic, contradicere sibi,
+            <lb ed="#V" n="80"/>quia ibidem cap. 8. constituit finem
+            sub<lb ed="#V" n="81" break="no"/>stantiae separatae in speculatione, non n
+            <lb ed="#V" n="82"/>latione. Contra urget Doctor, duplicem
+            <lb ed="#V" n="83"/>finem assignari a Philosophis, nempe
+            fi<lb ed="#V" n="84" break="no"/>nem perficientem, et ille ultimus est
+            sim<lb ed="#V" n="85" break="no"/>pliciter, et consistit in operatione; alius
+            <lb ed="#V" n="86"/>est finis consequens ex perfectione, qua
+            <pb ed="#V" n="526"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>-illa redundat in effectum, et hic est motus
+            <lb ed="#V" n="2"/>coelorum, quo mediante influit in reliqua;
+            <lb ed="#V" n="3"/>utrumque autem necessarium sortitur
+            <lb ed="#V" n="4"/>substantia separata ex sententia
+            Philoso<lb ed="#V" n="5" break="no"/>phi, ideoque docet Deum necessario
+            age<lb ed="#V" n="6" break="no"/>re ad extra et mundum consequenter
+            <lb ed="#V" n="7"/>esse ab aeterno, et in aeternum duraturum.
+            <lb ed="#V" n="8"/>Vide litteram Doctoris.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Secunda ratio Philosophi est, quod
+            <lb ed="#V" n="10"/>permanentis et sempiterni idem sit ordo
+            <lb ed="#V" n="11"/>ad aliud permanens et sempiternum, quia
+            <lb ed="#V" n="12"/>ordo et habitudo nequit variari, nisi
+            per<lb ed="#V" n="13" break="no"/>mutationem utriusque, vel alterius
+            extre<lb ed="#V" n="14" break="no"/>mi; sed Intelligentia et coelum ita se
+            <lb ed="#V" n="15"/>habent, ergo, etc. Subjungit occurrens
+            <lb ed="#V" n="16"/>responsioni, quod difformis habitudo in
+            <lb ed="#V" n="17"/>motu oriatur a causis inferioribus,
+            uni<lb ed="#V" n="18" break="no"/>formitas vero ut est a sempiternis
+            secun<lb ed="#V" n="19" break="no"/>dum Philosophum.
+            <lb ed="#V" n="20"/>Tertia ratio est ex divisione entis in
+            ne<lb ed="#V" n="21" break="no"/>cessarium et contingens,
+            subdividend<lb ed="#V" n="22" break="no"/>- necessarium in simpliciter, vel ut in
+            plu<lb ed="#V" n="23" break="no"/>ribus; et probat coelum ejusque motum
+            <lb ed="#V" n="24"/>regulatum, esse simpliciter necessarium
+            <lb ed="#V" n="25"/>ut patet experientia, et quia alioquin
+            op<lb ed="#V" n="26" break="no"/>positum esset in tali corpore imperfectio
+            <lb ed="#V" n="27"/>repugnans, quia quod tantum ut in
+            pluri<lb ed="#V" n="28" break="no"/>bus evenit, simpliciter in aliquo potest
+            <lb ed="#V" n="29"/>evenire oppositum, itaque ex fine ex
+            ha<lb ed="#V" n="30" break="no"/>bitudine uniformi in sempiternis, et ex
+            <lb ed="#V" n="31"/>necessitate essendi deducit Philosophus
+            <lb ed="#V" n="32"/>suam conclusionem.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d48q2-p3"> -->
+          <p>
+            <lb ed="#V" n="25" type="fixed=527"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>(c) Theologi autem communiter tenent
+            <lb ed="#V" n="27"/>oppositum, etc. Ita enim omnes docent
+            <lb ed="#V" n="28"/>in praesenti distinctione, et sequitur ex
+            <lb ed="#V" n="29"/>dictis in praecedentibus; probatur ex illo
+            <lb ed="#V" n="30"/>Isaiae 60. Non erit ibi Sol amplius ad
+            lu<lb ed="#V" n="31" break="no"/>cendum per diem, etc. Haec auctoritas
+            <lb ed="#V" n="32"/>quoad litteralem sensum intelligitur de
+            Je<lb ed="#V" n="33" break="no"/>rusalem coelesti, ut exponit Hieronymus, et
+            <lb ed="#V" n="34"/>patet ex contextu, quia quoad officium
+            <lb ed="#V" n="35"/>non erit Sol aut Luna, quia, ut dicitur
+            <lb ed="#V" n="36"/>Apocal. 21. Civitas non eget Sole.
+            Addu<lb ed="#V" n="37" break="no"/>citur praeterea locus ille Apocalypsis:
+            <lb ed="#V" n="38"/>Juravit Angelus quod post tempus amplius
+            <lb ed="#V" n="39"/>non erit, etc. Haec potest intelligi de
+            tem<lb ed="#V" n="40" break="no"/>pore prophetiae et peregrinationis.
+            Addu<lb ed="#V" n="41" break="no"/>cuntur rationes etiam ad id probandum
+            <lb ed="#V" n="42"/>ex fine motus, ad quas respondet Doctor
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>in textu, eas non concludere, necessario
+            <lb ed="#V" n="44"/>scilicet.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d48q2-p4"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44" type="fixed=528"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="45"/>(d) Ad quaestionem potest dici, etc Re
+            <lb ed="#V" n="46"/>spondet ad quaestionem quod neque
+            Phi<lb ed="#V" n="47" break="no"/>losophus probat suam conclusionem
+            ne<lb ed="#V" n="48" break="no"/>cessario et demonstrative, neque
+            Theolo<lb ed="#V" n="49" break="no"/>gus per rationem evidentem, neque per
+            <lb ed="#V" n="50"/>Scripturam, etiam evidentem, quia loca
+            <lb ed="#V" n="51"/>praemissa Scripturae habent alium sensum
+            <lb ed="#V" n="52"/>magis principalem et litteralem, ut patet
+            <lb ed="#V" n="53"/>ex dictis sicut et alia loca, quae citantur,
+            <lb ed="#V" n="54"/>ut Zachariae 14. Erit dies una, etc. quae
+            <lb ed="#V" n="55"/>dies magis explicatur de tempore
+            Ma<lb ed="#V" n="56" break="no"/>chabaeorum, quod partim fuit participans de
+            <lb ed="#V" n="57"/>Dei favoribus, et pace antecedente;
+            par<lb ed="#V" n="58" break="no"/>tim vero de persecutione Antiochi, ita ut
+            <lb ed="#V" n="59"/>neque dies clarus fuerit sine nubilo,
+            ne<lb ed="#V" n="60" break="no"/>que etiam nox obscura sine lumine divini
+            <lb ed="#V" n="61"/>adjutorii. Citatur etiam Habacuc ultimo:
+            <lb ed="#V" n="62"/>Sol et Luna steterunt, etc. ubi Propheta
+            <lb ed="#V" n="63"/>ad litteram alludit ad miraculum factum
+            <lb ed="#V" n="64"/>Josue in Gabaon. Videantur auctores, quos
+            <lb ed="#V" n="65"/>citat Scholiastes.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>(c) Prima pars probabilius videtur
+            pro<lb ed="#V" n="67" break="no"/>bare, etc. Haec censura Doctoris quoad
+            <lb ed="#V" n="68"/>utramque sententiam. Prima autem pars
+            <lb ed="#V" n="69"/>intelligitur quantum ad rationem
+            natura<lb ed="#V" n="70" break="no"/>lem et necessariam ex principiis Physicis
+            <lb ed="#V" n="71"/>motus, de qua tantum agit Doctor. Dices,
+            <lb ed="#V" n="72"/>ratio Philosophorum est falsa, et ex
+            prin<lb ed="#V" n="73" break="no"/>cipiis erroneis de necessitate motus ex
+            <lb ed="#V" n="74"/>parte causarum et finis; concludit etiam
+            <lb ed="#V" n="75"/>in virtute propositionis falsae, nempe
+            ge<lb ed="#V" n="76" break="no"/>nerationem in sublunaribus semper
+            per<lb ed="#V" n="77" break="no"/>mansuram, ac proinde motum. Item, Deum
+            <lb ed="#V" n="78"/>et Intelligentias agere necessario; ergo
+            <lb ed="#V" n="79"/>eorum ratio non est magis probabilis,
+            <lb ed="#V" n="80"/>etiam ex principiis motus. Deinde, ratio
+            <lb ed="#V" n="81"/>Theologorum est vera, quia cessante fine
+            <lb ed="#V" n="82"/>motus, debet et ipse motus cessare;
+            ces<lb ed="#V" n="83" break="no"/>sat autem finis motus renovato mundo, et
+            <lb ed="#V" n="84"/>destructis mixtis et causis particularibus
+            <lb ed="#V" n="85"/>motus, sine quibus nequit esse
+            genera<pb ed="#V" n="529"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tio ob ordinem necessarium causarum,
+            <lb ed="#V" n="2"/>quem statuerunt Philosophi; ergo neque
+            <lb ed="#V" n="3"/>motus coeli est ut ilis ad talem finem, qui
+            <lb ed="#V" n="4"/>attingi nequit per solam virtutem coelorum,
+            <lb ed="#V" n="5"/>et cum natura abhorreat superfluum,
+            ma<lb ed="#V" n="6" break="no"/>gis est conveniens quies coelorum quam
+            <lb ed="#V" n="7"/>motus, ex quo nullus potest esse effectus
+            <lb ed="#V" n="8"/>intentus naturae, aut primario et per se.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Respondetur, rationem Philosophorum
+            <lb ed="#V" n="10"/>in hoc esse magis probabilem, non qua
+            <lb ed="#V" n="11"/>reducitur ad principium erroneum de
+            ne<lb ed="#V" n="12" break="no"/>cessitate movendi ex parte motoris, sed
+            <lb ed="#V" n="13"/>quatenus a posteriori innititur experientia,
+            <lb ed="#V" n="14"/>qua compertum est motum coelorum, ut
+            <lb ed="#V" n="15"/>procedit a primo motore, esse regularem
+            <lb ed="#V" n="16"/>et uniformem, et sive ulla, quae hactenus
+            <lb ed="#V" n="17"/>apparuit, mutatione aut difformitate.
+            Se<lb ed="#V" n="18" break="no"/>cundo, quatenus etiam a priori probatur
+            <lb ed="#V" n="19"/>sufficiens virtus applicata et infatigabilis,
+            <lb ed="#V" n="20"/>et nullum subesse imp edimentum ex
+            par<lb ed="#V" n="21" break="no"/>te mobilis aut inferioris causae; quae ratio
+            <lb ed="#V" n="22"/>admittitur a Theologis, ex qua deducitur
+            <lb ed="#V" n="23"/>bene, quod ex nulla causa naturali possit
+            <lb ed="#V" n="24"/>oriri illa cessatio, et hoc supposito,
+            qua<lb ed="#V" n="25" break="no"/>tenus natura tendit in suam perfectionem
+            <lb ed="#V" n="26"/>et conservationem partium universi ab
+            in<lb ed="#V" n="27" break="no"/>trinseco fine; sequitur etiam aeternitatem
+            <lb ed="#V" n="28"/>talis motus magis esse consentaneam
+            <lb ed="#V" n="29"/>naturae et perfectioni causarum, quam
+            <lb ed="#V" n="30"/>cessatio; in hoc ergo versatur ratio
+            Philo<lb ed="#V" n="31" break="no"/>sophorum, et secundum solum lumen
+            <lb ed="#V" n="32"/>naturae, non se extendens ad aliam
+            di<lb ed="#V" n="33" break="no"/>spositionem causae primae, aut finem
+            ex<lb ed="#V" n="34" break="no"/>trinsecum et supernaturalem, qui scitur
+            <lb ed="#V" n="35"/>tantum ex revelatis.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Ratio autem Theologorum procedit ex
+            <lb ed="#V" n="37"/>revelatis, quibus innititur, nam illam
+            pro<lb ed="#V" n="38" break="no"/>positionem, cessante fine motus cessaret
+            <lb ed="#V" n="39"/>ipse motus, admitteret Philosophus; sed
+            <lb ed="#V" n="40"/>hunc finem cessaturum non probat
+            Theo<lb ed="#V" n="41" break="no"/>logus aliter quam ex revelatis, vel ex
+            <lb ed="#V" n="42"/>iis quae sunt consentanea revelatis, in
+            <lb ed="#V" n="43"/>quorum veritate extrema minoris
+            uniun<lb ed="#V" n="44" break="no"/>tur, et ideo conclusio sequitur naturam
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>minoris, et sic non est veritas naturaliter
+            <lb ed="#V" n="46"/>probata. Hic est scopus censurae, ex quo
+            <lb ed="#V" n="47"/>patet ad objectionem quia hic agitur de
+            <lb ed="#V" n="48"/>ratione Physica et naturaliter
+            concluden<lb ed="#V" n="49" break="no"/>te per causas naturali lumine notas.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Praeterea, dato etiam quod generatio
+            <lb ed="#V" n="51"/>humana cessabit post judicium, non inde
+            <lb ed="#V" n="52"/>sequitur illius motus finem integrum
+            ces<lb ed="#V" n="53" break="no"/>sare, quia etsi per ignem conflagrationis
+            <lb ed="#V" n="54"/>purgabitur orbis, et delebuntur mixta;
+            <lb ed="#V" n="55"/>tamen possunt iterum quaedam mixta
+            re<lb ed="#V" n="56" break="no"/>produci ex elementis, quae ad ornatum
+            <lb ed="#V" n="57"/>elementorum facerent, nam ut Dionysius
+            <lb ed="#V" n="58"/>Carthusianus in hac distinctione refert ex
+            <lb ed="#V" n="59"/>Gulielmo Parisiensi, aliqui senserunt
+            ter<lb ed="#V" n="60" break="no"/>ram fore viridem et floridam, quod etiam
+            <lb ed="#V" n="61"/>sentire videtur Anselmus in Elucidario:
+            <lb ed="#V" n="62"/>Terra, inquit, quae in gremio suo Domini
+            <lb ed="#V" n="63"/>corpus confovit, tota erit ut Paradisus,
+            <lb ed="#V" n="64"/>et quae Sanctorum sanguine est irrigata
+            <lb ed="#V" n="65"/>odoriferis floribus, et rosis, et violis
+            im<lb ed="#V" n="66" break="no"/>marcescentibus erit perpetuo decorata, etc.
+            <lb ed="#V" n="67"/>Itaque dici similiter posset quaedam
+            <lb ed="#V" n="68"/>alia mixta ad complementum et decorem
+            <lb ed="#V" n="69"/>universi esse producenda, quo posito,
+            <lb ed="#V" n="70"/>salvaretur sufficiens finis motus coelorum;
+            <lb ed="#V" n="71"/>sicut ergo incertum est quaenam sit futura
+            <lb ed="#V" n="72"/>renovatio mundi, quia illa erit talis,
+            qua<lb ed="#V" n="73" break="no"/>lem Deus disposuit sua voluntate, ita
+            in<lb ed="#V" n="74" break="no"/>certum est, spectata ratione naturali, an
+            <lb ed="#V" n="75"/>cessabit motus coelorum, ideoque
+            resolu<lb ed="#V" n="76" break="no"/>lio reducitur ad communem Doctorum, et
+            <lb ed="#V" n="77"/>loca citata, et Patrum, qui ita docent.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>(f) Possibilitas utriusque partis probari
+            <lb ed="#V" n="79"/>potest, etc. Hic transit ad aliud, quod est
+            <lb ed="#V" n="80"/>certius, nempe utramque partem probari
+            <lb ed="#V" n="81"/>possibilem, et in primis sententia
+            Philoso<lb ed="#V" n="82" break="no"/>phorum, quoad possibilitatem motus
+            fu<lb ed="#V" n="83" break="no"/>turi aeterni et infinibilis facile probari
+            po<lb ed="#V" n="84" break="no"/>test; et probatur ab ipsis Theologis ex
+            <lb ed="#V" n="85"/>sufficientia virtutis applicatae, et remotione
+            <lb ed="#V" n="86"/>impedimenti et fatigationis. Possibilitas
+            <lb ed="#V" n="87"/>secundae partis probatur ex eo quod
+            pri<lb ed="#V" n="88" break="no"/>mus motor, et aliae Intelligentiae proxime
+            <pb ed="#V" n="530"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>moventes, moveant mere, libere, ac
+            proin<lb ed="#V" n="2" break="no"/>de cessare possunt a motu. Antecedens
+            <lb ed="#V" n="3"/>negaret Philosophus, sed in hoc erravit.
+            <lb ed="#V" n="4"/>Ratio ergo illa est ex parte causae
+            efficien<lb ed="#V" n="5" break="no"/>tis. Secunda ratio est ex parte mobilis,
+            <lb ed="#V" n="6"/>quatenus per quietem tollitur ab eo
+            im<lb ed="#V" n="7" break="no"/>perfectio, quia scilicet non naturaliter
+            <lb ed="#V" n="8"/>movetur, id est, per motum naturalem, ad
+            <lb ed="#V" n="9"/>quem ex natura sua inclinatur, ut ignis
+            <lb ed="#V" n="10"/>ad calorem, sed movetur motu neutro;
+            <lb ed="#V" n="11"/>ergo si cesset non repugnat ejus
+            perfe<lb ed="#V" n="12" break="no"/>ctioni.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d48q2-p5"> -->
+          <p>
+            <lb ed="#V" n="85" type="fixed=532"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>(g) Contra secundam viam, etc.
+            Oppo<lb ed="#V" n="87" break="no"/>nit quatuor rationes contra sententiam
+            <pb ed="#V" n="533"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Theologorum, quibus mox respondet.
+            Pri<lb ed="#V" n="2" break="no"/>ma ratio est, quia ibi erit successio in
+            co<lb ed="#V" n="3" break="no"/>gitationibus et imaginationibus; ergo
+            tem<lb ed="#V" n="4" break="no"/>pus, juxta Averroem in 4. Phys. cap. de
+            <lb ed="#V" n="5"/>-Tempore, ubi dicit quod percipiens
+            flu<lb ed="#V" n="6" break="no"/>xum imaginationis, percipit tempus, hoc
+            <lb ed="#V" n="7"/>est u ensura motus secundum
+            Philoso<lb ed="#V" n="8" break="no"/>phum ibi. Confirmari potest, quia ibi
+            <lb ed="#V" n="9"/>cogitationes quaecumque in proprio
+            ge<lb ed="#V" n="10" break="no"/>nere non semper stabunt permanenter;
+            <lb ed="#V" n="11"/>ergo aliquae desinent, quarum mox
+            recor<lb ed="#V" n="12" break="no"/>datio esse potest ut praeteriti; ergo erunt
+            <lb ed="#V" n="13"/>secundum differentiam temporis.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Secundo, si semper staret Sol,
+            seque<lb ed="#V" n="15" break="no"/>retur immoderata actio in illo
+            hemisphae<lb ed="#V" n="16" break="no"/>rio, et corrumperentur elementa, et
+            se<lb ed="#V" n="17" break="no"/>queretur vacuum, aut condensatio
+            im<lb ed="#V" n="18" break="no"/>moderata, quod est inconveniens.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Tertio, in quolibet ordine essentiali
+            <lb ed="#V" n="20"/>destructo primo, destruuntur reliqua in
+            <lb ed="#V" n="21"/>eodem ordine; sed motus coeli in genere
+            <lb ed="#V" n="22"/>motus est primus 8. Phys, ergo eo
+            de<lb ed="#V" n="23" break="no"/>structo, etiam reliqui destruuntur. Hoc
+            <lb ed="#V" n="24"/>est falsum, quia potest esse motus localis
+            <lb ed="#V" n="25"/>Beatorum, et alii, ut patet ex articulo
+            Pa<lb ed="#V" n="26" break="no"/>risiensi: ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>Quarto, si Sol staret in opposita parte
+            <lb ed="#V" n="28"/>terrae, esset umbra, quod est
+            inconveni<lb ed="#V" n="29" break="no"/>ens, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>(h) Ad primum dicitur, etc. espondet ad
+            <lb ed="#V" n="31"/>primam, et docet quid addat tempus
+            su<lb ed="#V" n="32" break="no"/>pra motum, dicit quod non quantitatem
+            <lb ed="#V" n="33"/>diversam, quia sic duae quantitates
+            subje<lb ed="#V" n="34" break="no"/>ctarentur in eodem, nempe duae
+            successi<lb ed="#V" n="35" break="no"/>vae, quod est inconveniens; addit ergo
+            <lb ed="#V" n="36"/>formaliter solam rationem mensurae,
+            con<lb ed="#V" n="37" break="no"/>not indo ipsum motum materialiter, ut est
+            <lb ed="#V" n="38"/>uniformis regularis et velox est; ergo
+            re<lb ed="#V" n="39" break="no"/>spectus conformitatis ad motum
+            inferio<lb ed="#V" n="40" break="no"/>rem. Haec autem conformitas
+            coexistenti<lb ed="#V" n="41" break="no"/>am utriusque motus, dicit etiam
+            cognitio<lb ed="#V" n="42" break="no"/>nem ex parte mensurae, ut temporis, quia
+            <lb ed="#V" n="43"/>est magis nota quantitas, per quam ex
+            ap<lb ed="#V" n="44" break="no"/>plicatione cognoscitur quantitas ignota
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>cui applicatur, tanquam ratio cognoscendi
+            <lb ed="#V" n="46"/>ignotam; tunc ergo non manebit tempus,
+            <lb ed="#V" n="47"/>quatenus nunc ponitur passio primi
+            mo<lb ed="#V" n="48" break="no"/>bilis, neque erit alius motus primus in
+            ra<lb ed="#V" n="49" break="no"/>tione mensurae. Dices, mensuratum non
+            po<lb ed="#V" n="50" break="no"/>test esse sine mensura. Respondet id
+            ve<lb ed="#V" n="51" break="no"/>rum esse de mensura quidditativa, non
+            <lb ed="#V" n="52"/>vero quantitativa, et ad propositum patet
+            <lb ed="#V" n="53"/>exemplum ex illo Josue 10. qui pugnavit
+            <lb ed="#V" n="54"/>stante Sole. Ad propositum ergo erunt
+            <lb ed="#V" n="55"/>ibi cogitationum successio, quantum
+            <lb ed="#V" n="56"/>ad actus succedentes, qui tamen tempore
+            <lb ed="#V" n="57"/>non mensurantur, sed aevo, non erit
+            suc<lb ed="#V" n="58" break="no"/>cessio respective ad mensuram
+            extrinse<lb ed="#V" n="59" break="no"/>cam, sicut patet etiam in pugna
+            Israelita<lb ed="#V" n="60" break="no"/>rum contra hostes, stante Sole, quae fuit
+            <lb ed="#V" n="61"/>successiva sine successione in motu coeli.
+            <lb ed="#V" n="62"/>Ad confirmationem patet ex dictis, quia
+            <lb ed="#V" n="63"/>potest stare successio sine motu coeli, et
+            <lb ed="#V" n="64"/>memoria illa actus praeteriti quantum
+            prae<lb ed="#V" n="65" break="no"/>teritus non est secundum differentiam
+            <lb ed="#V" n="66"/>mensurae extrinsecae, sed quantum ad
+            <lb ed="#V" n="67"/>durationem intrinsecam actus.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>(i) Ad secundum, etc. Respondet quod
+            <lb ed="#V" n="69"/>inconveniens adductum etiam de facto,
+            <lb ed="#V" n="70"/>sequitur etiam moto Sole, qui successive
+            <lb ed="#V" n="71"/>perlustrat partes mundi nunc has, nunc
+            <lb ed="#V" n="72"/>illas, quibus secundum diversa signa
+            zo<lb ed="#V" n="73" break="no"/>diaci applicatur, cujus motus localis non
+            <lb ed="#V" n="74"/>facit ad generationem, nisi ut per eum
+            ap<lb ed="#V" n="75" break="no"/>plicatur causa per se generationis; neque
+            <lb ed="#V" n="76"/>motus localis est ipsi ratio agendi in suo
+            <lb ed="#V" n="77"/>ordine causae universalis, causa enim
+            ge<lb ed="#V" n="78" break="no"/>nerationis proxima est agens particulare
+            <lb ed="#V" n="79"/>ut subordinatur superiori secundum
+            de<lb ed="#V" n="80" break="no"/>terminatum situm, ad quem facit latio
+            So<lb ed="#V" n="81" break="no"/>lis, et non ad actionem, ut principium, vel
+            <lb ed="#V" n="82"/>actus productivus; idem etiam
+            sequere<lb ed="#V" n="83" break="no"/>tur, Sole stante, respective ad causam
+            in<lb ed="#V" n="84" break="no"/>feriorem ejusque effectum. Quod ergo de
+            <lb ed="#V" n="85"/>facto non sequatur actio immoderata, est
+            <lb ed="#V" n="86"/>ex resistentia causarum uniformiter
+            appli<lb ed="#V" n="87" break="no"/>catarum ad idem passum, v. g. Sol et
+            Sa<lb ed="#V" n="88" break="no"/>turnus ut applicati ad pugillum terrae, se
+            <pb ed="#V" n="534"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>mutuo impediunt, et sic de aliis causis
+            <lb ed="#V" n="2"/>universalibus, ut comparentur ad
+            conser<lb ed="#V" n="3" break="no"/>vationem partium universi, non permittunt
+            <lb ed="#V" n="4"/>immoderatam consumptionem
+            elemento<lb ed="#V" n="5" break="no"/>rum, quae 1esistentia etiam maneret stante
+            <lb ed="#V" n="6"/>Sole. Accedit etiam quod hoc
+            impedimen<lb ed="#V" n="7" break="no"/>tum potest reduci ad causam primam non
+            <lb ed="#V" n="8"/>concurrentem, prout status mundi ab eo
+            <lb ed="#V" n="9"/>disponetur post renovationem ejus,
+            pur<lb ed="#V" n="10" break="no"/>gatis etiam elementis non erit materia
+            <lb ed="#V" n="11"/>putrefactibilis ex mixtione apta
+            generati<lb ed="#V" n="12" break="no"/>oni, et forma elementaris subiget suam
+            <lb ed="#V" n="13"/>materiam perfecte forte, sicut nunc forma
+            <lb ed="#V" n="14"/>coeli propriam materiam subigit per suam
+            <lb ed="#V" n="15"/>actualitatem, ut sit incapax alterius formae
+            <lb ed="#V" n="16"/>ab agente creato.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>(k) Ad tertium. Respondet primitatem
+            <lb ed="#V" n="18"/>motus coeli non esse causam, a qua
+            de<lb ed="#V" n="19" break="no"/>pendent essentialiter motus inferiores,
+            <lb ed="#V" n="20"/>sed esse primitatem quantum ad aliquas
+            <lb ed="#V" n="21"/>conditiones motus, ut est regularitas et
+            <lb ed="#V" n="22"/>velocitas aptae ad mensuram, quae facit
+            <lb ed="#V" n="23"/>devenire in cognitionem quantitatem
+            <lb ed="#V" n="24"/>ignotam successionis in motu inferiore.
+            <lb ed="#V" n="25"/>Unde Philosophus 2. de Gen. t. com. 55.
+            <lb ed="#V" n="26"/>Nihil, inquit, facit latio ad generationem
+            <lb ed="#V" n="27"/>nisi quia adducit generans, etc. et
+            conse<lb ed="#V" n="28" break="no"/>quenter si esset generans applicatum,
+            <lb ed="#V" n="29"/>alias sine tali latione generaret; erit
+            <lb ed="#V" n="30"/>autem applicatum etiam Sole stante
+            ali<lb ed="#V" n="31" break="no"/>quibus partibus, ergo; etc.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>(1) Ad quartum, etc. Non habetur
+            in<lb ed="#V" n="33" break="no"/>conveniens talis umbra, et in hoc rejicitur
+            <lb ed="#V" n="34"/>ratio adducta ab Isidoro, et supra
+            expres<lb ed="#V" n="35" break="no"/>sa in argumento pro parte affirmativa ad
+            <lb ed="#V" n="36"/>oppositum quaestionis, quatenus dicit
+            So<lb ed="#V" n="37" break="no"/>lem staturum, ne damnatis luceat, quia
+            <lb ed="#V" n="38"/>damnati sunt in centro terrae, non in
+            ali<lb ed="#V" n="39" break="no"/>qua superficie ejus, sicut sunt Antipodes
+            <lb ed="#V" n="40"/>respectu nostri. Deinde etiam quod
+            as<lb ed="#V" n="41" break="no"/>seritur ab eodem, nempe quod Sol et
+            <lb ed="#V" n="42"/>Luna stabunt in eodem ordine quo sunt
+            <lb ed="#V" n="43"/>creati, quia hoc non videtur concordare
+            <lb ed="#V" n="44"/>periodis motuum coelestium, quas
+            assi<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>gnant Astrologi; nona enim Sphaera juxta
+            <lb ed="#V" n="46"/>Ptolemaeum, quem sequitur Doctor,
+            tri<lb ed="#V" n="47" break="no"/>ginta sex millibus annorum, juxta
+            tabu<lb ed="#V" n="48" break="no"/>las vero Alphonsi, quadraginta novem
+            <lb ed="#V" n="49"/>millibus, vel ut vult Albatagnius annis
+            <lb ed="#V" n="50"/>23760. perficit circulum; vel oporteret
+            <lb ed="#V" n="51"/>ergo mundum durare tot annis ante
+            ju<lb ed="#V" n="52" break="no"/>dicium, quod non est probabile, ad hoc
+            <lb ed="#V" n="53"/>ut possint redire ad eumdem situm
+            re<lb ed="#V" n="54" break="no"/>spective ad nonum coelum. Deinde,
+            vi<lb ed="#V" n="55" break="no"/>dentur luminaria fuisse creata in situ
+            <lb ed="#V" n="56"/>maxime convenienti generationi rerum,
+            <lb ed="#V" n="57"/>et post judicium fore in situ magis
+            conve<lb ed="#V" n="58" break="no"/>nienti quieti. Dici posset divina virtute
+            <lb ed="#V" n="59"/>coelos reduci ad situm, in quo fuerunt
+            <lb ed="#V" n="60"/>creati; sed pro hoc non est auctoritas
+            prae<lb ed="#V" n="61" break="no"/>ter illam Isidori, quae etiam interpretari
+            <lb ed="#V" n="62"/>potest de situ Solis et Lunae respective ad
+            <lb ed="#V" n="63"/>mundum inferiorem, et non ad superiores
+            <lb ed="#V" n="64"/>orbes. Quantum autem ad principalem
+            <lb ed="#V" n="65"/>difficultatem de illa pyramide umbrosa,
+            <lb ed="#V" n="66"/>potest negari, dato quod Sol septies
+            am<lb ed="#V" n="67" break="no"/>plius lucebit, et terra fiet transparens et
+            <lb ed="#V" n="68"/>diaphana sicut vitrum, ut aliqui dicunt.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d48q2-p6"> -->
+          <p>
+            <lb ed="#V" n="75" type="fixed=536"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>(m) Ad argumenta principalia. Ad
+            pri<lb ed="#V" n="77" break="no"/>mum, etc. Hoc fuit ex illo Gen. Fiant
+            <lb ed="#V" n="78"/>luminaria, etc. et sint in tempora, et
+            <lb ed="#V" n="79"/>signa, et dies, et annos, etc. Item cap. 8.
+            <lb ed="#V" n="80"/>Cunctis diebus terrae aestas et hyems, nox
+            <lb ed="#V" n="81"/>et dies, non requiescent, etc. ergo hic
+            <lb ed="#V" n="82"/>est finis luminarium et creationis eorum.
+            <lb ed="#V" n="83"/>Respondet esse finem sub fine, et
+            se<lb ed="#V" n="84" break="no"/>cundarium. Finis primarius fuit vita
+            ho<lb ed="#V" n="85" break="no"/>minum in peregrinatione indigentium tali
+            <pb ed="#V" n="537"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>distinctione cunctis diebus, quibus utilis
+            <lb ed="#V" n="2"/>est sementis et messibus.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>(n) Ad aliud. Quod est ex nono
+            Meta<lb ed="#V" n="4" break="no"/>phys. ejusque probationes ex eodem
+            <lb ed="#V" n="5"/>cap. 17. et 2. Coeli tit. 2. quatenus
+            con<lb ed="#V" n="6" break="no"/>tendit Philosophus non contingere
+            ces<lb ed="#V" n="7" break="no"/>sationem a motu, nisi ob fatigationem
+            <lb ed="#V" n="8"/>virtutis, aut propter potentiam
+            contradi<lb ed="#V" n="9" break="no"/>ctionis, qua forma inducitur diversa in
+            <lb ed="#V" n="10"/>mobili. Respondet Philosophum errasse,
+            <lb ed="#V" n="11"/>quia motus, quem putavit necessarium,
+            <lb ed="#V" n="12"/>est liber et contingens, a quo cessare
+            <lb ed="#V" n="13"/>potest agens voluntarium ex propria
+            <lb ed="#V" n="14"/>libertate; non est ergo sola fatigatio
+            <lb ed="#V" n="15"/>causa cessationis in motore, quamvis illa
+            <lb ed="#V" n="16"/>sufficiat in eo qui fatigatur, sed etiam
+            <lb ed="#V" n="17"/>libertas. Potentia etiam contradictionis
+            <lb ed="#V" n="18"/>s nulla est est in coelo, nisi ad motum et
+            <lb ed="#V" n="19"/>lationem, nullamque perfectionem per
+            <lb ed="#V" n="20"/>illum acquirit, sine quo esset
+            imperfe<lb ed="#V" n="21" break="no"/>ctum; neque movetur modo ad
+            perfecti<lb ed="#V" n="22" break="no"/>onem aliquam intrinsecam
+            consequen<lb ed="#V" n="23" break="no"/>dam, in quo est potentia neutra ad
+            <lb ed="#V" n="24"/>quietem et motum. Quamvis autem quies
+            <lb ed="#V" n="25"/>sub ratione negationis comparata ad
+            <lb ed="#V" n="26"/>motum sit imperfectior, quia hic est
+            ali<lb ed="#V" n="27" break="no"/>quid positivum, tamen ut connotat
+            actu<lb ed="#V" n="28" break="no"/>alitatem subjecti completi, et uniformiter
+            <lb ed="#V" n="29"/>se habentis est longe perfectior motu ex
+            <lb ed="#V" n="30"/>genere, qui est actus entis in potentia et
+            <lb ed="#V" n="31"/>secundum quod est in potentia, et connotat
+            <lb ed="#V" n="32"/>potentiam incompletam et passivam in
+            <lb ed="#V" n="33"/>subjecto.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>(o) Ad tertium, nempe motum coeli esse
+            <lb ed="#V" n="35"/>naturalem aut violentum. Respondet ex
+            <lb ed="#V" n="36"/>parte passi passi esse neutrum, licet
+            <lb ed="#V" n="37"/>Philosophi ex parte agentis posuerint
+            ne<lb ed="#V" n="38" break="no"/>cessarium, in quo errarunt, quia est mere
+            <lb ed="#V" n="39"/>liber.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>(p) Ad rationes factas pro Philosophis.
+            <lb ed="#V" n="41"/>Ad primam ex fine desumptam, quasi
+            <lb ed="#V" n="42"/>optimus finis intelligentiae sit movere
+            <lb ed="#V" n="43"/>coelum. Respondet quod si admitteretur
+            <lb ed="#V" n="44"/>Intelligentiam esse productivam
+            substan<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>tiae, hic esset perfectior quam sit latio
+            <lb ed="#V" n="46"/>ipsa, seu motus coeli; sed hoc non
+            <lb ed="#V" n="47"/>admittitur communiter, juxta ea quae
+            dis<lb ed="#V" n="48" break="no"/>seruit d. 1. hujus quaest. 1. Dato etiam
+            <lb ed="#V" n="49"/>opposito quod immediate produceret
+            sub<lb ed="#V" n="50" break="no"/>stantiam, non sequitur quod necessario
+            <lb ed="#V" n="51"/>et sempiterne, quia productio illa esset
+            <lb ed="#V" n="52"/>ad perfectionem universi, et non ad
+            per<lb ed="#V" n="53" break="no"/>fectionem ipsius Intelligentiae: Et in hoc,
+            <lb ed="#V" n="54"/>inquit, esset Theologo adlaborandum, ut ex
+            <lb ed="#V" n="55"/>creditis, vel ratione probaret quod
+            perfe<lb ed="#V" n="56" break="no"/>ctio universi magis, vel aeque requirat
+            <lb ed="#V" n="57"/>generationem cessare quam continuari
+            <lb ed="#V" n="58"/>ultra. Haec probatio non habetur per
+            rati<lb ed="#V" n="59" break="no"/>onem factam de motu, sicut responsum fuit
+            <lb ed="#V" n="60"/>ad rationem pro opinione Philosophorum,
+            <lb ed="#V" n="61"/>sed oportet ostendere quod quies universi
+            <lb ed="#V" n="62"/>magis requireret quietem istorum
+            corpo<lb ed="#V" n="63" break="no"/>rum, vel aeque permitteret, etc. Hic non
+            <lb ed="#V" n="64"/>continetur reprehensio, sed insinuatur
+            <lb ed="#V" n="65"/>medium, ex quo debet procedi ad
+            proba<lb ed="#V" n="66" break="no"/>tionem conclusionis ex creditis et ratione,
+            <lb ed="#V" n="67"/>quia Philosophi in hoc insistunt ex
+            perfe<lb ed="#V" n="68" break="no"/>ctione universi necessaria, ad quam
+            di<lb ed="#V" n="69" break="no"/>cunt motum coelestium corporum requiri,
+            <lb ed="#V" n="70"/>ad salvandas species in mundo inferiori
+            <lb ed="#V" n="71"/>et elementari, quae species nequit salvari,
+            <lb ed="#V" n="72"/>nisi per succiduam generationem
+            indivi<lb ed="#V" n="73" break="no"/>duorum, quae individua nequeunt
+            conser<lb ed="#V" n="74" break="no"/>vari sempiterne, quia sunt corruptibilia ab
+            <lb ed="#V" n="75"/>intrinseco et ab extrinseco; hinc
+            Philoso<lb ed="#V" n="76" break="no"/>phi contendunt motum esse sempiternum
+            <lb ed="#V" n="77"/>et necessarium tam ex parte finis
+            conser<lb ed="#V" n="78" break="no"/>vationis universi, quam ex parte causarum
+            <lb ed="#V" n="79"/>superiorum. Ut probetur ergo motum non
+            <lb ed="#V" n="80"/>esse necessarium ex parte finis,
+            proban<lb ed="#V" n="81" break="no"/>dum est non spectare ad perfectionem
+            <lb ed="#V" n="82"/>universi magis quam quietem. Ex creditis
+            <lb ed="#V" n="83"/>autem satis probant Theologi
+            resurrecti<lb ed="#V" n="84" break="no"/>onem, et judicium finale, et purgationem
+            <lb ed="#V" n="85"/>elementorum, et corruptionem omnium
+            <lb ed="#V" n="86"/>mixtorum, praeter solum hominem, ut
+            pa<lb ed="#V" n="87" break="no"/>tet ex locis allegatis, et ex Paulo ad Rom.
+            <lb ed="#V" n="88"/>8. dicente quod creatura ingemiscit
+            libera<pb ed="#V" n="538"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tionem a servitute. An autem Deus iterum
+            <lb ed="#V" n="2"/>renovando mundum restaurabit aliqua
+            <lb ed="#V" n="3"/>mixta, ex creditis non probatur, vel hoc,
+            <lb ed="#V" n="4"/>vel oppositum, ideoque cessatio motus
+            <lb ed="#V" n="5"/>luminarium non est tam evidens ex
+            cre<lb ed="#V" n="6" break="no"/>ditis, sicut est veritas, ex qua deducitur a
+            <lb ed="#V" n="7"/>Theologis, quia ille motus posset
+            conti<lb ed="#V" n="8" break="no"/>nuari ex alio fine, quia ille finis
+            genera<lb ed="#V" n="9" break="no"/>tionis rerum messis et sementis, et
+            distin<lb ed="#V" n="10" break="no"/>ctio temporum, qui exprimitur in
+            Scriptu<lb ed="#V" n="11" break="no"/>ra, locis citatis desinit, ideo Theologi ex
+            <lb ed="#V" n="12"/>ejus cessatione deducunt cessationem
+            <lb ed="#V" n="13"/>motus, accommodando etiam aliqua loca
+            <lb ed="#V" n="14"/>Scripturae, quae id insinuant, saltem ex
+            <lb ed="#V" n="15"/>,sensu secundario. Caeterum quia in Genesi
+            <lb ed="#V" n="16"/>finis etiam creationis luminarium solus
+            <lb ed="#V" n="17"/>ille exponatur, quamvis Theologi omnes,
+            <lb ed="#V" n="18"/>et Patres, quos supra citavimus, negent
+            <lb ed="#V" n="19"/>Solem et Lunam desituros, et colligitur ex
+            <lb ed="#V" n="20"/>ipsa Scriptura, ut ibi visum est. Enervatur
+            <lb ed="#V" n="21"/>hinc argumentum desumptum ex fine
+            <lb ed="#V" n="22"/>motus coelorum, quatenus incertum sit, an
+            <lb ed="#V" n="23"/>ille solus fuerit ejus finis, qui est
+            expres<lb ed="#V" n="24" break="no"/>sus, vel an alium permansurum Deus
+            prae<lb ed="#V" n="25" break="no"/>fixit, quia negativa magis probatur ex
+            <lb ed="#V" n="26"/>communi sententia, quam sequitur
+            Do<lb ed="#V" n="27" break="no"/>ctor, quam ex Scriptura expressa, quia
+            <lb ed="#V" n="28"/>stante alio fine illius motus particulari,
+            <lb ed="#V" n="29"/>tunc ad perfectionem universi, vel
+            deco<lb ed="#V" n="30" break="no"/>rem diceretur motus perpetuandus.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Probatio itaque completa et convincens
+            <lb ed="#V" n="32"/>ex revelatis in hoc non habetur. Quantum
+            <lb ed="#V" n="33"/>autem ad rationem naturalem, sicut
+            ne<lb ed="#V" n="34" break="no"/>quit resurrectio, et electio, et beatitudo
+            <lb ed="#V" n="35"/>seu finis supernaturalis probari, aut
+            pur<lb ed="#V" n="36" break="no"/>gatio mundi per principia Physica et
+            na<lb ed="#V" n="37" break="no"/>turalia, ita etiam nequit probari finis ille,
+            <lb ed="#V" n="38"/>ad quem ordinata est creatio et
+            consum<lb ed="#V" n="39" break="no"/>matio. Procedendo itaque mixtim ex
+            cre<lb ed="#V" n="40" break="no"/>ditis et ratione morali, recte probatur
+            <lb ed="#V" n="41"/>Philosophos mancos esse in assignanda
+            <lb ed="#V" n="42"/>perfectione universi, et causarum,
+            quate<lb ed="#V" n="43" break="no"/>nus negant eam actualitatem a causis, per
+            <lb ed="#V" n="44"/>quam possint species inferiores conservari
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>in aliquibus individuis per virtutem primae
+            <lb ed="#V" n="46"/>causae, quatenus hanc perfectionem aliter
+            <lb ed="#V" n="47"/>posse reduci ad actum negant, nisi
+            suc<lb ed="#V" n="48" break="no"/>cessive, et semper in aliqua potentia
+            ma<lb ed="#V" n="49" break="no"/>neat perfectio universi per ipsos ex
+            defe<lb ed="#V" n="50" break="no"/>ctu virtutis in causis, quae aliter nequeunt
+            <lb ed="#V" n="51"/>dare universo perfectionem. Ex defectu,
+            <lb ed="#V" n="52"/>inquam, virtutis, quam applicare non
+            <lb ed="#V" n="53"/>possunt, quamvis Philosophi fingant id
+            <lb ed="#V" n="54"/>provenire ex perfectione causae primae, et
+            <lb ed="#V" n="55"/>imperfectione effectus, ne redundaret in
+            <lb ed="#V" n="56"/>causam primam, si ab ea immediate
+            pro<lb ed="#V" n="57" break="no"/>duceretur aut conservaretur, nam
+            admit<lb ed="#V" n="58" break="no"/>tendo causam primam esse infinitam,
+            <lb ed="#V" n="59"/>necessario concedi debet eam includere
+            <lb ed="#V" n="60"/>omnem activitatem causarum inferiorum.
+            <lb ed="#V" n="61"/>Quid ergo subsit ne eadem virtus
+            imme<lb ed="#V" n="62" break="no"/>diate etiam exerceri possit sine causa
+            <lb ed="#V" n="63"/>inferiori? Ratio tantum est, quia causa
+            <lb ed="#V" n="64"/>inferior essentialiter requiritur propter
+            <lb ed="#V" n="65"/>imperfectionem effectus, quae redundat in
+            <lb ed="#V" n="66"/>causam proximam, non vero in primam.
+            <lb ed="#V" n="67"/>Hinc ab illis statuitur ordo necessarius
+            <lb ed="#V" n="68"/>causarum ob imperfectionem effectus.
+            <lb ed="#V" n="69"/>Posuerunt praeterea Philosophi Deum
+            <lb ed="#V" n="70"/>necessario agere ad extra, et viderunt
+            <lb ed="#V" n="71"/>in effectibus inferioribus contingentiam,
+            <lb ed="#V" n="72"/>quam in concursum causarum inferiorum
+            <lb ed="#V" n="73"/>difformem reduxerunt; ideo non
+            po<lb ed="#V" n="74" break="no"/>tuerunt consequenter dicere Deum agere
+            <lb ed="#V" n="75"/>necessario, et posse producere hunc
+            <lb ed="#V" n="76"/>effectum causae inferioris se solo, quia
+            <lb ed="#V" n="77"/>si necessario ageret, sic etiam necessario
+            <lb ed="#V" n="78"/>ageret uniformiter, et necessario
+            con<lb ed="#V" n="79" break="no"/>servaret effectum a se solo productum
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>His positis, argumentor contra
+            Philoso<lb ed="#V" n="81" break="no"/>phos: Perfectio universi consistit in actu,
+            <lb ed="#V" n="82"/>et non in potentia passiva; sed illud
+            con<lb ed="#V" n="83" break="no"/>cedendum est naturae quod involvit
+            perfe<lb ed="#V" n="84" break="no"/>ctionem; ergo universum, quoad partes
+            <lb ed="#V" n="85"/>per se ejus, potest in actu esse, ita ut ei
+            <lb ed="#V" n="86"/>non repugnet. Major est vera, et facile
+            <lb ed="#V" n="87"/>probatur, et admittitur a Philosophis, quia
+            <lb ed="#V" n="88"/>finis omnis motus est quies et actus, quo
+            <pb ed="#V" n="539"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>posito cessat motus. Minorem etiam
+            <lb ed="#V" n="2"/>concederent, si perfectio est possibilis, et
+            <lb ed="#V" n="3"/>negant consequentiam. Probatur
+            conse<lb ed="#V" n="4" break="no"/>quentia, quia non repugnat universum
+            <lb ed="#V" n="5"/>fieri simul in actu quoad omnes per se
+            <lb ed="#V" n="6"/>partes ejus; ergo potest sic fieri virtute
+            <lb ed="#V" n="7"/>causae primae. Patet antecedens, per se
+            <lb ed="#V" n="8"/>partes universi sunt species, earumque
+            <lb ed="#V" n="9"/>conservatio, quatenus spectant ad finem
+            <lb ed="#V" n="10"/>universi, quia finis per se causarum est
+            <lb ed="#V" n="11"/>propagatio speciei ejusque conservatio;
+            <lb ed="#V" n="12"/>per accidens autem intendunt
+            propagati<lb ed="#V" n="13" break="no"/>onem individuorum, in quibus nullus est
+            <lb ed="#V" n="14"/>per se ordo, sicut constituitur inter
+            spe<lb ed="#V" n="15" break="no"/>cies. Sed conservatio speciei potest esse
+            <lb ed="#V" n="16"/>virtute primae causae in determinatis
+            indi<lb ed="#V" n="17" break="no"/>viduis, et in iis conservari sempiterne,
+            <lb ed="#V" n="18"/>quo casu universi perfectio consisteret in
+            <lb ed="#V" n="19"/>actu, et nulla esset necessitas motus aut
+            <lb ed="#V" n="20"/>propagationis talis speciei ad finem
+            con<lb ed="#V" n="21" break="no"/>servationis ejus. Probatur subsumptum,
+            <lb ed="#V" n="22"/>nulla est repugnantia ex parte effectus,
+            <lb ed="#V" n="23"/>quantum est ex se, quin fieri possit in actu,
+            <lb ed="#V" n="24"/>et conservari per eamdem causam
+            applica<lb ed="#V" n="25" break="no"/>tam, maxime si in activitate
+            incomparabi<lb ed="#V" n="26" break="no"/>lis sit ad omnem aliam destructivam
+            effe<lb ed="#V" n="27" break="no"/>ctus; non est etiam repugnantia ex parte
+            <lb ed="#V" n="28"/>causae primae, quin possit sic producere
+            <lb ed="#V" n="29"/>et conservare; ergo nulla est
+            repugnan<lb ed="#V" n="30" break="no"/>tia in toto conjuncto. Non esse
+            repugnan<lb ed="#V" n="31" break="no"/>tiam ex parte causae primae patet, quia
+            <lb ed="#V" n="32"/>haec est infinitae virtutis; potest ergo in
+            <lb ed="#V" n="33"/>omnem effectum causae inferioris, qui non
+            <lb ed="#V" n="34"/>involvit imperfectionem redundantem in
+            <lb ed="#V" n="35"/>causam. Sed in proposito nulla est talis
+            <lb ed="#V" n="36"/>imperfectio, quae sic redundaret in causam
+            <lb ed="#V" n="37"/>primam; primo quod effectus sit finitae et
+            <lb ed="#V" n="38"/>limitatae profectionis, non redundat in
+            <lb ed="#V" n="39"/>causam primam, quia secunda.
+            Intelligen<lb ed="#V" n="40" break="no"/>tia est etiam finitae perfectionis; haec
+            <lb ed="#V" n="41"/>tamen non est a se, sed a prima; ergo
+            <lb ed="#V" n="42"/>sicut effectus finitus et limitatus quoad
+            <lb ed="#V" n="43"/>hanc imperfectionem non attribuitur
+            cau<lb ed="#V" n="44" break="no"/>sae, aut ejus imperfectae virtuti, sed solis
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>intrinsecis causis essendi ipsius effectus,
+            <lb ed="#V" n="46"/>ita etiam aliae imperfectiones
+            contingen<lb ed="#V" n="47" break="no"/>tes nequeunt tribui causae primae, sed
+            <lb ed="#V" n="48"/>causis intrinsecis ipsius effectus;
+            contin<lb ed="#V" n="49" break="no"/>gentia etiam effectus intrinseca nequit
+            <lb ed="#V" n="50"/>tribui causae producenti eodem modo,
+            <lb ed="#V" n="51"/>sed materiae, quae est in potentia
+            contra<lb ed="#V" n="52" break="no"/>dictionis ad alias formas, in eo casu quo
+            <lb ed="#V" n="53"/>Deus immediatione causae et suppositi,
+            <lb ed="#V" n="54"/>ageret se solo ad conservationem formae
+            <lb ed="#V" n="55"/>in materia, maneret effectus, et non esset
+            <lb ed="#V" n="56"/>contingens in actu, quantum ad sui
+            cor<lb ed="#V" n="57" break="no"/>ruptionem. Non obstat corporeitas aut
+            <lb ed="#V" n="58"/>materialitas effectus, quia etiam
+            Intelli<lb ed="#V" n="59" break="no"/>gentia movet coelum, quod est corpus
+            <lb ed="#V" n="60"/>quantum, et ipsum coelum produxit, juxta
+            <lb ed="#V" n="61"/>quorumdam Philosophorum opinionem,
+            <lb ed="#V" n="62"/>vel juxta alios, fuit productum a Deo, non
+            <lb ed="#V" n="63"/>obstat alia imperfectio ex parte effectus
+            <lb ed="#V" n="64"/>quae redundaret in Deum; ergo nihil
+            <lb ed="#V" n="65"/>obstat.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Dices obstare necessitatem Dei in
+            agen<lb ed="#V" n="67" break="no"/>do, ut colligitur a posteriori ex
+            contingen<lb ed="#V" n="68" break="no"/>tia effectuum, qui a Deo procedunt de
+            fac<lb ed="#V" n="69" break="no"/>to, et subsunt corruptioni; unde colligitur
+            <lb ed="#V" n="70"/>Deum non agere sine causis secundis ad
+            <lb ed="#V" n="71"/>effectum ipsorum, neque posse agere,
+            <lb ed="#V" n="72"/>quia agens necessario agit quod potest,
+            <lb ed="#V" n="73"/>quo non obstante, est contingentia in
+            ef<lb ed="#V" n="74" break="no"/>fectibus ex difformitate causarum
+            inferio<lb ed="#V" n="75" break="no"/>rum in agendo. Contra, dato quod Deus
+            <lb ed="#V" n="76"/>necessario agit ( quod est falsum, et error
+            <lb ed="#V" n="77"/>inventus a Philosopho) adhuc, magis
+            se<lb ed="#V" n="78" break="no"/>quitur contrarium, quia ideo non posset
+            <lb ed="#V" n="79"/>agere effectum causae inferioris, vel quia
+            <lb ed="#V" n="80"/>deficit virtus ejus agendi, ita ut non possit
+            <lb ed="#V" n="81"/>quod repugnat infinitae virtuti, vel si
+            po<lb ed="#V" n="82" break="no"/>test, agit etiam quantum potest, si
+            ne<lb ed="#V" n="83" break="no"/>cessario agit, quia secundum extremum
+            <lb ed="#V" n="84"/>virtutis juxta capacitatem effectus, et sui
+            <lb ed="#V" n="85"/>esse; ergo agit totaliter, et agere potest,
+            <lb ed="#V" n="86"/>quod est intentum. Vel ideo non potest
+            <lb ed="#V" n="87"/>agere, propter ordinem illum essentialem
+            <lb ed="#V" n="88"/>causarum, quem fingunt Philosophi, et
+            <pb ed="#V" n="540"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quia effectus exigit necessario et
+            essen<lb ed="#V" n="2" break="no"/>tialiter produci a causis secundis; sed hoc
+            <lb ed="#V" n="3"/>falsum est, quia effectus non dicit, qua
+            <lb ed="#V" n="4"/>est possibilis ad esse, ordinem ad
+            cau<lb ed="#V" n="5" break="no"/>sam, nisi haec habet completam
+            virtu<lb ed="#V" n="6" break="no"/>tem producendi effectum; sed ut
+            admit<lb ed="#V" n="7" break="no"/>tunt Philosophi, Deus est infinitae et
+            com<lb ed="#V" n="8" break="no"/>pletae virtutis activae; ergo continet in se
+            <lb ed="#V" n="9"/>omnem virtutem causarum inferiorum
+            <lb ed="#V" n="10"/>perfectissimo modo, quam in ipsis
+            inveni<lb ed="#V" n="11" break="no"/>tur; ergo possibilitas effectus potest
+            com<lb ed="#V" n="12" break="no"/>plete, et secundum omnem essentialem
+            <lb ed="#V" n="13"/>dependentiam terminari a Deo producente
+            <lb ed="#V" n="14"/>effectum. Deinde, ut est probatum, nulla
+            <lb ed="#V" n="15"/>est repugnantia ex parte effectus, quin a
+            <lb ed="#V" n="16"/>Deo sine ulla sui imperfectione produci
+            <lb ed="#V" n="17"/>possit. Praeterea, nullum est fundamentum
+            <lb ed="#V" n="18"/>talis dependentiae effectus ad causas
+            se<lb ed="#V" n="19" break="no"/>cundas, loquendo de essentiali
+            dependen<lb ed="#V" n="20" break="no"/>tia, et de effectu perfecto et absoluto,
+            <lb ed="#V" n="21"/>quia homo, v. g. nequit produci a toto
+            <lb ed="#V" n="22"/>ordine causarum sine proximis
+            generan<lb ed="#V" n="23" break="no"/>tibus, sed ab his mere contingenter
+            pro<lb ed="#V" n="24" break="no"/>ducitur, et non secundum dependentiam
+            <lb ed="#V" n="25"/>causae essentialis; ergo a reliquis non
+            de<lb ed="#V" n="26" break="no"/>pendet, nisi contingenter ejus productio
+            <lb ed="#V" n="27"/>hic et nunc.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Confirmatur, quia species humana licet
+            <lb ed="#V" n="29"/>-juxta hoc commentum Philosophorum
+            <lb ed="#V" n="30"/>fuerit ab aeterno, sicut et mundus, tamen
+            <lb ed="#V" n="31"/>non fuit a se, sicut neque Intelligertiae
+            <lb ed="#V" n="32"/>inferiores, sed a Deo, vel ab aliis causis
+            <lb ed="#V" n="33"/>prioribus. Peto a quibus recepit esse in
+            in<lb ed="#V" n="34" break="no"/>stanti aeternitatis? non a seipsa, quia
+            sup<lb ed="#V" n="35" break="no"/>poneretur esse a se; non per viam
+            genera<lb ed="#V" n="36" break="no"/>tionis, quae supponit generantes, ut causas
+            <lb ed="#V" n="37"/>proximas; non ab aliis causis inferioribus
+            <lb ed="#V" n="38"/>Deo, quia sic etiam posset fieri homo ab
+            <lb ed="#V" n="39"/>illis sine homine; ergo a. Deo; ergo in
+            <lb ed="#V" n="40"/>aliquibus individuis, sine quibus nequit
+            <lb ed="#V" n="41"/>concipi in esse; ergo si Deus dedit esse
+            <lb ed="#V" n="42"/>speciei humanae, et non sit a se, sicut
+            <lb ed="#V" n="43"/>neque lux Solis est a se, licet coaeva Soli,
+            <lb ed="#V" n="44"/>sic etiam non repugnat Deo producere
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>seipso immediate, et conservare speciem
+            <lb ed="#V" n="46"/>humanam in aliquibus individuis sine
+            ge<lb ed="#V" n="47" break="no"/>nerantibus, quod tamen repugnat
+            reli<lb ed="#V" n="48" break="no"/>quis omnibus causis producere sine
+            gene<lb ed="#V" n="49" break="no"/>rante proximo. Nec refert dicere quod
+            <lb ed="#V" n="50"/>sicut species humana fuit ab aeterno, sic
+            <lb ed="#V" n="51"/>etiam semper praecessit generans, quia de
+            <lb ed="#V" n="52"/>hoc non est quaestio, an fuerit ab aeterno,
+            <lb ed="#V" n="53"/>sed an fuerit a se; quod si a se esset,
+            <lb ed="#V" n="54"/>etiam a se maneret in esse; quod si ergo
+            <lb ed="#V" n="55"/>ab alia causa fuit, et reeepit esse,
+            quaeri<lb ed="#V" n="56" break="no"/>tur quomodo fuit, et recepit esse ut
+            poste<lb ed="#V" n="57" break="no"/>rior secundum dependentiam a sua causa
+            <lb ed="#V" n="58"/>producente, a qua recepit esse.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>His ergo suppositis, sequitur partes per
+            <lb ed="#V" n="60"/>se mundi reduci posse ad actum sicut
+            <lb ed="#V" n="61"/>fides docet, per virtutem infinitam Dei, et
+            <lb ed="#V" n="62"/>conservari in illo esse; ergo cessaret motus
+            <lb ed="#V" n="63"/>ex fine suo intrinseco. Probatur
+            conse<lb ed="#V" n="64" break="no"/>quentia, quia cessante fine per se motus
+            <lb ed="#V" n="65"/>cessaret ipse motus, neque sufficeret finis
+            <lb ed="#V" n="66"/>ejus per accidens ad continuandum
+            mo<lb ed="#V" n="67" break="no"/>tum, quia intentio causarum, aut naturae,
+            <lb ed="#V" n="68"/>non respicit finem per accidens, nisi ut
+            <lb ed="#V" n="69"/>medium, aut viam ad finem per se, v. g.
+            <lb ed="#V" n="70"/>productionem individuorum ad
+            conserva<lb ed="#V" n="71" break="no"/>tionem speciei, quae desinit in aliis per
+            <lb ed="#V" n="72"/>corruptionem; aut certe respicit finem per
+            <lb ed="#V" n="73"/>accidens, quatenus conducit ad
+            conser<lb ed="#V" n="74" break="no"/>vationem finis per se, nempe
+            generati<lb ed="#V" n="75" break="no"/>onem eorum, quae conducunt ad
+            con<lb ed="#V" n="76" break="no"/>servandam vitam hominis, ut sunt
+            anima<lb ed="#V" n="77" break="no"/>lia, fructus, et caetera mixta.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>Restat ergo probandum finem per se
+            hu<lb ed="#V" n="79" break="no"/>jus mundi inferioris esse solum hominem,
+            <lb ed="#V" n="80"/>atque adeo eo conservato virtute causae
+            <lb ed="#V" n="81"/>primae, quantum sat est ad perfectionem
+            <lb ed="#V" n="82"/>speciei, haec reliqua desinere, et motum
+            <lb ed="#V" n="83"/>consequenter coelestium corporum, qui ad
+            <lb ed="#V" n="84"/>hoc tantum ordinatur, probatur, quia sicut
+            <lb ed="#V" n="85"/>ordo per se assignatur in causis
+            efficien<lb ed="#V" n="86" break="no"/>tibus sic, etiam assignandus est in causis
+            <lb ed="#V" n="87"/>finalibus, a quibus movetur efficiens ad
+            <lb ed="#V" n="88"/>motum, et sine cujus motione non
+            move<pb ed="#V" n="541"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ret maxime Intelligentia agens per
+            volun<lb ed="#V" n="2" break="no"/>tatem et intellectum ex motivo
+            communi<lb ed="#V" n="3" break="no"/>candae perfectionis, quae perfectio non
+            <lb ed="#V" n="4"/>haberet rationem motivi, nisi vel ipsa in se
+            <lb ed="#V" n="5"/>esset finis alicujus, vel ordinatae ad aliud,
+            <lb ed="#V" n="6"/>quod esset finis ejus. Sed haec inferiora
+            <lb ed="#V" n="7"/>praeter hominem, neque immediate,
+            ne<lb ed="#V" n="8" break="no"/>que per se respiciunt bonum universi,
+            <lb ed="#V" n="9"/>sed mediate (alias in rebus et partibus
+            uni<lb ed="#V" n="10" break="no"/>versi non servaretur ordo) quatenus
+            re<lb ed="#V" n="11" break="no"/>ducuntur ad aliquem finem proximum,
+            <lb ed="#V" n="12"/>eoque mediante ad finem communem,
+            <lb ed="#V" n="13"/>nempe bonum universi, servato ordine
+            <lb ed="#V" n="14"/>inter fines; ergo quando remotiora non
+            <lb ed="#V" n="15"/>conducunt ad proxima, ad quae ordinantur
+            <lb ed="#V" n="16"/>tanquam ad finem immediatum, sic etiam
+            <lb ed="#V" n="17"/>nequeunt conducere ad bonum
+            univer<lb ed="#V" n="18" break="no"/>si; ergo finis motus, quod est bonum
+            uni<lb ed="#V" n="19" break="no"/>versale universi, cessat movere causas, ut
+            <lb ed="#V" n="20"/>continuent motum et influentiam in dicta
+            <lb ed="#V" n="21"/>remotiora, quando cessat utilitas eorum
+            <lb ed="#V" n="22"/>ad finem suum proximum; et eadem
+            <lb ed="#V" n="23"/>etiam utilitate cessante respective ad
+            fi<lb ed="#V" n="24" break="no"/>nem proximum, cessat etiam movere
+            cau<lb ed="#V" n="25" break="no"/>sas ad influxum (causas, inquam,
+            univer<lb ed="#V" n="26" break="no"/>sales ad influxum per motum corporum
+            <lb ed="#V" n="27"/>coelestium), sive ut est pars universi
+            attin<lb ed="#V" n="28" break="no"/>gens perfectionem finis communis
+            imme<lb ed="#V" n="29" break="no"/>diate, sive etiam ut finis proximus est et
+            <lb ed="#V" n="30"/>particularis.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Confirmatur secundo, ordo in causis
+            <lb ed="#V" n="32"/>efficientibus est talis secundum
+            Philoso<lb ed="#V" n="33" break="no"/>phos, ut cessante causa proxima, et non
+            <lb ed="#V" n="34"/>applicata ad motum, cesset etiam causa
+            <lb ed="#V" n="35"/>remota et universalis, quae se sola nequit
+            <lb ed="#V" n="36"/>attingere effectum causae particularis sine
+            <lb ed="#V" n="37"/>ipsa particulari, ut hominem, aut bovem
+            <lb ed="#V" n="38"/>sine generantibus proximis; ergo
+            simili<lb ed="#V" n="39" break="no"/>ter cessante fine, quae est utilitas et ordo
+            <lb ed="#V" n="40"/>inferiorum ad proxima, quatenus per
+            re<lb ed="#V" n="41" break="no"/>motiora suppletur aliqua imperfectio, v. g.
+            <lb ed="#V" n="42"/>corruptio in proximis finibus, aut fine,
+            ces<lb ed="#V" n="43" break="no"/>sat etiam actio causarum universalium, et
+            <lb ed="#V" n="44"/>finis agendi per motum coeli, qui ad hoc
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>tantum intenditur, ut dicit Philosophus, 2.
+            <lb ed="#V" n="46"/>de Gen. text. com. 55. Nihil facit latio ad
+            <lb ed="#V" n="47"/>generationem, nisi quia adducit generans,
+            <lb ed="#V" n="48"/>etc. sed generatio ut est in aliis rebus ad
+            <lb ed="#V" n="49"/>conservationem et profectionem finis
+            pro<lb ed="#V" n="50" break="no"/>ximi, nempe speciei humanae cessat
+            ces<lb ed="#V" n="51" break="no"/>sante ejus utilitate. Haec autem utilitas
+            <lb ed="#V" n="52"/>cessat posita specie sufficienter in actu,
+            <lb ed="#V" n="53"/>cessat perinde necessitas motus corporum
+            <lb ed="#V" n="54"/>coelestium in ordine ad generationem
+            ipsi<lb ed="#V" n="55" break="no"/>us speciei, quia generatio est ejus, quod
+            <lb ed="#V" n="56"/>est in potentia, et non in actu essendi;
+            <lb ed="#V" n="57"/>ergo a primo ad ultimum cessat motus
+            <lb ed="#V" n="58"/>coeli, ut est ex fine generationis et
+            com<lb ed="#V" n="59" break="no"/>municandae perfectionis aliis, quem solum
+            <lb ed="#V" n="60"/>finem praetexunt Philosophi. Probatur
+            <lb ed="#V" n="61"/>consequentia, quia natura non agit
+            fru<lb ed="#V" n="62" break="no"/>stra et otiose, neque agere potest, nisi ut
+            <lb ed="#V" n="63"/>procedit de potentia ad actum, de non
+            <lb ed="#V" n="64"/>esse ad esse, qui sunt termini motus;
+            spe<lb ed="#V" n="65" break="no"/>cie autem humana sufficienter reducta ad
+            <lb ed="#V" n="66"/>actum, et conservata in actu, nihil est ejus
+            <lb ed="#V" n="67"/>in potentia, quod faciat ad perfectionem
+            <lb ed="#V" n="68"/>necessariam actus, aut finis universi; ergo
+            <lb ed="#V" n="69"/>hoc dato, quies corporum coelestium est
+            <lb ed="#V" n="70"/>perfectio major universi quam motus.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Confirmatur tertio, finis naturae in motu
+            <lb ed="#V" n="72"/>non est alius quam finis causarum, et
+            ma<lb ed="#V" n="73" break="no"/>xime primae causae, et auctoris naturae.
+            <lb ed="#V" n="74"/>Sed prima causa voluit alia viventia, et
+            <lb ed="#V" n="75"/>motum coelestium corporum in ordine ad
+            <lb ed="#V" n="76"/>hominem, cujus gratia creavit haec
+            infe<lb ed="#V" n="77" break="no"/>riora, tanquam utilia, loquendo de
+            ge<lb ed="#V" n="78" break="no"/>nerabilibus et corruptibilibus; ergo
+            ces<lb ed="#V" n="79" break="no"/>sante utilitate horum ac ipsius motus
+            <lb ed="#V" n="80"/>coelestis, ut ordinatur ad generationem
+            <lb ed="#V" n="81"/>hominis, et conservationem, cessat finis
+            <lb ed="#V" n="82"/>movendi. Quoniam hac ratio magis est
+            <lb ed="#V" n="83"/>Theologica, probatur aliter, quia ut ipse
+            <lb ed="#V" n="84"/>Philosophus 2. Phys. text. 24. Sumus
+            <lb ed="#V" n="85"/>quodammodo finis omnium, etc. Et
+            pa<lb ed="#V" n="86" break="no"/>tet ratione, quia inter generabilia et
+            <lb ed="#V" n="87"/>corruptibilia datur ordo perfectionis, et
+            <lb ed="#V" n="88"/>inter haec omnia solus homo excedit,
+            est<pb ed="#V" n="542"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>que medium participans de ordine
+            intel<lb ed="#V" n="2" break="no"/>lectualium et corporalium; ergo homo
+            <lb ed="#V" n="3"/>comparando ipsum ad inferiora, est finis
+            <lb ed="#V" n="4"/>proximus ipsorum, ad quem proxime
+            cae<lb ed="#V" n="5" break="no"/>tera ordinantur. Hinc ergo Theologi recte
+            <lb ed="#V" n="6"/>concludunt, cessante hoc fine motus
+            coe<lb ed="#V" n="7" break="no"/>li, cessare ipsum motum, quia esset
+            inuti<lb ed="#V" n="8" break="no"/>lis et superfluus. Alius autem finis ejus vix
+            <lb ed="#V" n="9"/>excogitari possit, quia ad perfectionem
+            <lb ed="#V" n="10"/>Intelligentiae, aut ipsius mobilis, non
+            or<lb ed="#V" n="11" break="no"/>dinatur etiam secundum Philosophos, quia
+            <lb ed="#V" n="12"/>illa sunt sempiterna per eos, et
+            incorru<lb ed="#V" n="13" break="no"/>ptibilia. Ordinatur autem ad perfectionem,
+            <lb ed="#V" n="14"/>ut volunt, communicandam his
+            inferiori<lb ed="#V" n="15" break="no"/>bus per generationem et conservationem
+            <lb ed="#V" n="16"/>speciei; ergo cessante hoc fine, cessabit
+            <lb ed="#V" n="17"/>motus, quia nullus erit finis movendi;
+            <lb ed="#V" n="18"/>perfectio universi magis exigit quietem,
+            <lb ed="#V" n="19"/>per quam fit in actu quam motum; neque
+            <lb ed="#V" n="20"/>derogat ejus perfectioni quod partes
+            po<lb ed="#V" n="21" break="no"/>tientiales et accidentales, ut sunt alia
+            ge<lb ed="#V" n="22" break="no"/>nerabilia praeter hominem, fluant in
+            interi<lb ed="#V" n="23" break="no"/>¡ tum, quia usus earum cessat manente
+            ho<lb ed="#V" n="24" break="no"/>mine immortali et incorruptibili, ad quem
+            <lb ed="#V" n="25"/>ordinantur; sicut in ipso homine partes
+            <lb ed="#V" n="26"/>potentiales, quae ordinantur ad
+            substanti<lb ed="#V" n="27" break="no"/>ales et formales, licet fluant, non ideo
+            ho<lb ed="#V" n="28" break="no"/>mo desinit, et tunc actu fluunt, quando
+            <lb ed="#V" n="29"/>nullus est usus ipsarum ad conservandam
+            <lb ed="#V" n="30"/>vitam hominis. Eodem ergo modo
+            dicen<lb ed="#V" n="31" break="no"/>dum de aliis generabilibus, ad quae
+            ordi<lb ed="#V" n="32" break="no"/>natur motus coeli ad finem conservandi
+            <lb ed="#V" n="33"/>hominis, quando per immortalitatem
+            con<lb ed="#V" n="34" break="no"/>servatur homo, jam desinit usus
+            ipsa<lb ed="#V" n="35" break="no"/>rum, et finis, ad quem a causis
+            superio<lb ed="#V" n="36" break="no"/>ribus ordinantur, quae est ratio quam
+            Theo<lb ed="#V" n="37" break="no"/>logi pro sua conclusione adducunt.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>(q) Ad secundum, etc. Quod facit pro
+            <lb ed="#V" n="39"/>Philosophis deductum ex eadem
+            habitu<lb ed="#V" n="40" break="no"/>dine sempiterni ad quodvis sempiternum,
+            <lb ed="#V" n="41"/>respondetur negando majorem in agente
+            <lb ed="#V" n="42"/>voluntario, quod eadem antiqua voluntate
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>potest aliter agere, seu se habere ad
+            pas<lb ed="#V" n="44" break="no"/>sum cum sui immutabilitate. Hoc
+            declara<lb ed="#V" n="45" break="no"/>tur, quia voluntas antiqua efficax et
+            per<lb ed="#V" n="46" break="no"/>severans pro illo instante aut tempore
+            <lb ed="#V" n="47"/>potest exire in effectum, pro quo ipsa
+            <lb ed="#V" n="48"/>voluntas determinavit effectum fieri. Deus
+            <lb ed="#V" n="49"/>ergo voluntate antiqua, qua voluit motum
+            <lb ed="#V" n="50"/>coelorum pro determinato tantum
+            tempo<lb ed="#V" n="51" break="no"/>re, et non ultra, finito illo tempore, exit
+            <lb ed="#V" n="52"/>in effectum oppositum, seu quietis
+            coelo<lb ed="#V" n="53" break="no"/>rum, manente uniformiter non solum
+            <lb ed="#V" n="54"/>quoad omnia sua intrinseca; imo quod
+            <lb ed="#V" n="55"/>magis est, agere difformiter in passum
+            <lb ed="#V" n="56"/>antiquum, quando in eo corrumpitur
+            for<lb ed="#V" n="57" break="no"/>ma prior, aut desinit, et inducitur forma
+            <lb ed="#V" n="58"/>nova, per hoc patet ad probationem
+            ma<lb ed="#V" n="59" break="no"/>joris, scilicet inter extrema non esse
+            no<lb ed="#V" n="60" break="no"/>vam habitudinem sine variatione
+            extre<lb ed="#V" n="61" break="no"/>morum, aut alterius, quae repugnat in
+            <lb ed="#V" n="62"/>sempiternis. Respondet esse variationem
+            <lb ed="#V" n="63"/>non in natura agentis et passi absoluta,
+            <lb ed="#V" n="64"/>nempe Dei et coelorum, sed penes novam
+            <lb ed="#V" n="65"/>formam, quaenam autem sit illa est situs,
+            <lb ed="#V" n="66"/>et ubi sequens quietem et cessationem a
+            <lb ed="#V" n="67"/>motu, et habitudo coelorum inter se, et
+            <lb ed="#V" n="68"/>ad reliqua, in quo situ Deus coelos
+            con<lb ed="#V" n="69" break="no"/>servat.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>(r) Ad tertium. Respondet sicut alias
+            di<lb ed="#V" n="71" break="no"/>xit motum coeli non esse naturalem, aut
+            <lb ed="#V" n="72"/>violentum (ut hae differentiae motus
+            su<lb ed="#V" n="73" break="no"/>muntur ab inclinatione passi ad formam,
+            <lb ed="#V" n="74"/>seu terminum motus) dari medium, nempe
+            <lb ed="#V" n="75"/>motum neutrum, ad quem ita se habet
+            <lb ed="#V" n="76"/>coelum quantum ad propriam
+            inclinati<lb ed="#V" n="77" break="no"/>onem, sicut ad quietem oppositam, quia
+            <lb ed="#V" n="78"/>ad neutrum sua natura inclinatur. Hanc
+            <lb ed="#V" n="79"/>quaestionem de motu coeli, item alia, quae
+            <lb ed="#V" n="80"/>superius tangit de tempore, ut
+            distingui<lb ed="#V" n="81" break="no"/>tur a motu, et qua ratione habet esse
+            <lb ed="#V" n="82"/>mensuram, fusius a Philosophis tractantur,
+            <lb ed="#V" n="83"/>quos in hunc locum revocare non est
+            <lb ed="#V" n="84"/>visum.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

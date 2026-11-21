@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 47, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 47, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x20">Vives, Paris, 1894, volume 20</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="492"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e5018"><!-- hicjds-b4d47q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum universale iudicium sit futurum</head>
+        <!-- <div alias="hiq-d47q1-p1"> -->
+          <p>
+            <lb ed="#V" n="57" type="fixed=492"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>In hac et sequenti distinctione agitur
+            <lb ed="#V" n="59"/>de judicio universali et extremo, et iis
+            <lb ed="#V" n="60"/>quae circa locum, tempus et modum
+            <lb ed="#V" n="61"/>succedent; in hac autem Doctor agit de
+            <lb ed="#V" n="62"/>judicio, an fiet et de loco ejus duabus
+            <lb ed="#V" n="63"/>quaestionibus, quarum prima est de ipso
+            <lb ed="#V" n="64"/>judicio; secunda de loco judicii.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>(a) Circa istam distinctionem, etc.
+            Divi<lb ed="#V" n="66" break="no"/>ditur quaestio in quatuor articulos, In
+            <lb ed="#V" n="67"/>primo agitur de acceptione varia nominis.
+            <lb ed="#V" n="68"/>In secundo vero de veritate rei;
+            respon<lb ed="#V" n="69" break="no"/>detur quaesito principali. In tertio de
+            <lb ed="#V" n="70"/>praeviis ad judicium. In quarto de modo
+            <lb ed="#V" n="71"/>judicii et discussione causae, et de loco
+            <lb ed="#V" n="72"/>in quo exercebitur; deinde respondet
+            <lb ed="#V" n="73"/>ad argumenta principalia.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d47q1-p2"> -->
+          <p>
+            <lb ed="#V" n="9" type="fixed=494"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>(b) Respondeo judicium generaliter, etc.
+            <lb ed="#V" n="11"/>Exponit septem acceptiones judicii. Prima
+            <lb ed="#V" n="12"/>est, qua accommodatur operationi sensus
+            <lb ed="#V" n="13"/>magis distinctae 2. de Anima, et text. 145.
+            <lb ed="#V" n="14"/>dicitur sensus communis judicare.
+            Secun<lb ed="#V" n="15" break="no"/>do modo sumitur pro cognitione certa
+            <lb ed="#V" n="16"/>intellectiva 1. Eth. cap. 3. Certitudo magis
+            <lb ed="#V" n="17"/>proprie est in intellectu, et ita haec
+            acce<lb ed="#V" n="18" break="no"/>ptio est strictior, quia excludit illusionem
+            <lb ed="#V" n="19"/>et errorem. Tertio, sumitur strictius pro
+            <lb ed="#V" n="20"/>cognitione complexa et vera per aliud.
+            <lb ed="#V" n="21"/>Augustinus in 3. de libero arbitrio. Haec
+            <lb ed="#V" n="22"/>acceptio est specialior quam secunda,
+            <lb ed="#V" n="23"/>quia sumitur judicium ut distinguitur ab
+            <lb ed="#V" n="24"/>apprehensione, et prout comprehendit
+            <lb ed="#V" n="25"/>assensum per causam ut principii per
+            <lb ed="#V" n="26"/>terminos, conclusionis per principium.
+            <lb ed="#V" n="27"/>Quarto, sumitur strictius pro conclusione,
+            <lb ed="#V" n="28"/>cui quis assentitur per causam. Quinto
+            <lb ed="#V" n="29"/>.modo sumitur pro conclusione practica
+            <lb ed="#V" n="30"/>consona justitiae seu rectitudini. Sexto
+            <lb ed="#V" n="31"/>sumitur specialius pro determinatione
+            le<lb ed="#V" n="32" break="no"/>gis quoad bona et mala, praemium et
+            <lb ed="#V" n="33"/>poenas. Ultimo tandem sumitur pro
+            deter<lb ed="#V" n="34" break="no"/>minatione ejus, qui habet auctoritatem, et
+            <lb ed="#V" n="35"/>prout est excrcitium ipsius auctoritatis, et
+            <lb ed="#V" n="36"/>definitur sic:
+            <lb ed="#V" n="37"/>Judicium est completa determinatio et
+            <lb ed="#V" n="38"/>authentica tradendi alicui secundum
+            meri<lb ed="#V" n="39" break="no"/>ta sua, etc. Dicitur completa, quia includit
+            <lb ed="#V" n="40"/>firmam determinationem ex parte
+            volunta<lb ed="#V" n="41" break="no"/>tis potentis et volentis secundum
+            deter<lb ed="#V" n="42" break="no"/>minationem intellectus retribuere. Additur
+            <lb ed="#V" n="43"/>authentica ut ostendatur auctoritas, et
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>potestas coactiva, et retributiva, reliqua
+            <lb ed="#V" n="45"/>designant materiam circa quam, ut
+            bo<lb ed="#V" n="46" break="no"/>num vel malum opus. Dividit autem
+            judi<lb ed="#V" n="47" break="no"/>cium hoc modo sumptum ad propositume
+            <lb ed="#V" n="48"/>quaestionis, in approbativum et
+            condemna<lb ed="#V" n="49" break="no"/>tivum, in expulsivum et absolutivum.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d47q1-p3"> -->
+          <p>
+            <lb ed="#V" n="41" type="fixed=495"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>(c) De secundo dico, etc. Hic statuit
+            <lb ed="#V" n="43"/>conclusionem fidei, quae passim ex
+            Scri<cb ed="#V" n="b"/><lb ed="#V" n="44" break="no"/>pturis occurrit Job. 31. Eccles. 12. Sap. 5.
+            <lb ed="#V" n="45"/>Isaiae 3. 13. 66. Jerem. 23. Danielis 7.
+            <lb ed="#V" n="46"/>Joel. 2. et 3. Sophon. 1. Zachar, 14.
+            <lb ed="#V" n="47"/>Malach. 3. et 4. secundi Machab. 7.
+            <lb ed="#V" n="48"/>Matth. 12. 24. 25. Joan. 5. Act. 10. et 17.
+            <lb ed="#V" n="49"/>ad Rom. 14. primae ad Corinth. 15. secundae
+            <lb ed="#V" n="50"/>Petri 2. et 3. Apocalyp. 20. Patet ex
+            Sym<lb ed="#V" n="51" break="no"/>bolo Apostolorum, Constantinop. et
+            Atha<lb ed="#V" n="52" break="no"/>nasii, Clement. Rom. lib. 3. et 9.
+            Recogni<lb ed="#V" n="53" break="no"/>tionum, Justin, oratione ad Gentes, et lib.
+            <lb ed="#V" n="54"/>de Monarchia Dei, Theophil. Antiochen.
+            <lb ed="#V" n="55"/>lib. 2. ad Antilochum, Athenagor, legatione
+            <lb ed="#V" n="56"/>pro Christianis, Hippolytus Martyr oratione
+            <lb ed="#V" n="57"/>de consummat. mundi, Origen. hom. 9. in
+            <lb ed="#V" n="58"/>diversis lit. 9. in cap. 14. epist. ad Rom. et
+            <lb ed="#V" n="59"/>lib. 2. in cap. 2. Athanasius de humanttate
+            <lb ed="#V" n="60"/>Verbi, Cyrillus Jeros. Cateches. 4. et 15.
+            <lb ed="#V" n="61"/>Nazianz. in Jambico, Chrysost. hom. 47. ad
+            <lb ed="#V" n="62"/>populum Antiochenum, et hom. 5. ad Rom.
+            <lb ed="#V" n="63"/>et 2. de poenit. Cyrill. Alex. orat. de exitu
+            <lb ed="#V" n="64"/>animae, et secundo Christi adventu,
+            Dama<lb ed="#V" n="65" break="no"/>scenus lib. 4. fidei orth. cap. 28. et orat.
+            <lb ed="#V" n="66"/>de defunctis, Tertull. de praescript.
+            adver<lb ed="#V" n="67" break="no"/>sus haeres. cap. 13. de testimonio animae,
+            <lb ed="#V" n="68"/>cap. 4. de spectaculis, cap. 30. Cyprian.
+            <lb ed="#V" n="69"/>ad Demetriadem, Lactantius lib. 7. Instit,
+            <lb ed="#V" n="70"/>cap. 1. 19. et 20. Hilar, can. 28. in Matth.
+            <lb ed="#V" n="71"/>Ambros. de fide resurrectionis, Hieronym.
+            <lb ed="#V" n="72"/>ad cap. 30. Ezechielis, et locis citatis
+            su<lb ed="#V" n="73" break="no"/>pra, epistola etiam ad Heliodorum,
+            <lb ed="#V" n="74"/>August. de Civit. Dei, lib. 20. cap. 21. et
+            <lb ed="#V" n="75"/>30. et reliqui posteriores, qui omnes legi
+            <lb ed="#V" n="76"/>possunt apud Coccium lib. 10. art. 5.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>In primis Doctor asserit hanc veritatem
+            <lb ed="#V" n="78"/>non posse demonstrari, sicut neque
+            resur<lb ed="#V" n="79" break="no"/>rectio, ratione scilicet naturali et
+            necessa<lb ed="#V" n="80" break="no"/>ria. Probat eam ratione morali, primo,
+            <lb ed="#V" n="81"/>quia congruum est finaliter separari bonos
+            <lb ed="#V" n="82"/>a malis, quia non communicat bonus cum
+            <lb ed="#V" n="83"/>malis, nisi ad hoc ut corrigatur, vel ut
+            <lb ed="#V" n="84"/>bonus per eum exerceatur, etc. Juxta
+            <lb ed="#V" n="85"/>Augustinum et eamdem congruentiam
+            <lb ed="#V" n="86"/>tradit super Psalm. 54. Nunc autem venit
+            <lb ed="#V" n="87"/>finalis determinatio, ubi nec ultra boni
+            <pb ed="#V" n="496"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>exerceantur, nec mali corrigantur, etc.
+            <lb ed="#V" n="2"/>Hanc rationem habemus ex similitudine
+            <lb ed="#V" n="3"/>pastoris segregantis oves ab hoedis
+            <lb ed="#V" n="4"/>Matth. 23. ut in parabola tritici et
+            zinani<lb ed="#V" n="5" break="no"/>orum, et in parabola ventilantis aream.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Secunda ratio est ad manifestationem
+            <lb ed="#V" n="7"/>judicii secreti publice, quam assignat
+            <lb ed="#V" n="8"/>Apostolus ad Roman. 14. et 2. ad
+            Corin<lb ed="#V" n="9" break="no"/>thios 5.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Tertia ratio est ex correspondentia
+            prin<lb ed="#V" n="11" break="no"/>cipii et finis per finalem et generalem
+            <lb ed="#V" n="12"/>sententiam, in qua omnia reducuntur ad
+            <lb ed="#V" n="13"/>exitum, sicut in creatione ad ortum.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Quarta ratio est, quia judicium
+            particu<lb ed="#V" n="15" break="no"/>lare quod fit de quolibet est judicium
+            <lb ed="#V" n="16"/>secundum legem de hoc et illo; sed lex
+            <lb ed="#V" n="17"/>exigit ut fiat judicium publicum et
+            com<lb ed="#V" n="18" break="no"/>mune de tota multitudine ad quam ipsa
+            <lb ed="#V" n="19"/>lex primo dirigitur, ac proinde separatio
+            <lb ed="#V" n="20"/>incolarum utriusque civitatis Dei et
+            Babv<lb ed="#V" n="21" break="no"/>lonis per inscriptionem publicam, quae
+            <lb ed="#V" n="22"/>omnibus sit nota, et per quam, qui
+            adscri<lb ed="#V" n="23" break="no"/>pti sunt regno, recipiant possessionem;
+            <lb ed="#V" n="24"/>qui vero poenis et carceri, damnationem
+            <lb ed="#V" n="25"/>per publicam sententiam et discussionem.
+            <lb ed="#V" n="26"/>Aliae rationes adduci possunt ex fine
+            re<lb ed="#V" n="27" break="no"/>surrectionis, prout d. 43. disseritur.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d47q1-p4"> -->
+          <p>
+            <lb ed="#V" n="35" type="fixed=497"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>(d) De tertio in illo judicio, etc. Hic
+            ex<lb ed="#V" n="37" break="no"/>plicat formam judicii universalis quantum
+            <lb ed="#V" n="38"/>ad cognitionem causae, et ipsam
+            senten<lb ed="#V" n="39" break="no"/>tiam terminativam ejus; et dicit primo
+            <lb ed="#V" n="40"/>quod omnia merita et demerita erunt
+            <lb ed="#V" n="41"/>nota. Dubium est, an omnibus in genere
+            <lb ed="#V" n="42"/>haec notitia sit communicanda, fut singuli
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>omnium opera hominum et Angelorum
+            <lb ed="#V" n="44"/>cognoscant. Negat Durandus in hac d.q. 2.
+            <lb ed="#V" n="45"/>id esse necessarium, sicut et Paludanus
+            <lb ed="#V" n="46"/>q. 1. art. 2. Contrarium docent D.
+            Bona<lb ed="#V" n="47" break="no"/>ventura in d. 43. art. 3. D. Thomas
+            ibi<lb ed="#V" n="48" break="no"/>dem q. 1. art. 3. q. 3. Richard. 4. et in d.
+            <lb ed="#V" n="49"/>praesenti art. 1. q. 3. et alii. Doctor autem
+            <lb ed="#V" n="50"/>ostendit quod sit possibile, et non quid
+            <lb ed="#V" n="51"/>fiet, primo dicit possibile esse ut
+            singulo<lb ed="#V" n="52" break="no"/>rum merita innotescant singula singulis,
+            <lb ed="#V" n="53"/>et de aliis operibus peccati; potest autem
+            <lb ed="#V" n="54"/>contingere duobus modis: Primo, ut
+            osten<lb ed="#V" n="55" break="no"/>sio ex parte objecti aut medii sit
+            superna<lb ed="#V" n="56" break="no"/>turalis; modus autem cognoscendi ex
+            par<lb ed="#V" n="57" break="no"/>te intellectus sit naturalis, ita ut non
+            om<lb ed="#V" n="58" break="no"/>nia ostensa simul cognosceret, sed
+            <lb ed="#V" n="59"/>successive secundum capacitatem virtutis
+            <lb ed="#V" n="60"/>creatae intellectualis, quae nequit in omnia
+            <lb ed="#V" n="61"/>simul eliciendo tot actus perfectos et
+            di<lb ed="#V" n="62" break="no"/>stinctos, sed aliquos determinate. Alio
+            <lb ed="#V" n="63"/>modo contingere potest, si Deus producat
+            <lb ed="#V" n="64"/>seipso intellectiones tam personarum
+            <lb ed="#V" n="65"/>quam operum, prout ipsi possibile est
+            <lb ed="#V" n="66"/>cum non excedunt numerum finitum.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Alius modus est possibilis, nempe ut
+            <lb ed="#V" n="68"/>unicuique sua opera manifestentur in
+            spe<lb ed="#V" n="69" break="no"/>cie et numero; opera vero aliorum in
+            ge<lb ed="#V" n="70" break="no"/>nerali, sive cognoscat personas tantum
+            <lb ed="#V" n="71"/>in generali, sive in particulari; in
+            genera<lb ed="#V" n="72" break="no"/>li, inquam, ex situ et loco, et habitu, ut
+            <lb ed="#V" n="73"/>quod constituti in terra, et a sinitris sint
+            <lb ed="#V" n="74"/>poenae destinati; constituti in aere sint
+            <lb ed="#V" n="75"/>etiam destinati praemio propter merita.
+            <lb ed="#V" n="76"/>Quid autem horum sit futurum non
+            de<lb ed="#V" n="77" break="no"/>cernit, sed in sequenti articulo dicit
+            se<lb ed="#V" n="78" break="no"/>cundam sententiam esse magis
+            confor<lb ed="#V" n="79" break="no"/>mem Evangelio. Prior forma judicii
+            <lb ed="#V" n="80"/>videtur insinuata, Matth. 25. in quo
+            decla<lb ed="#V" n="81" break="no"/>ratur sententia universalis respective ad
+            <lb ed="#V" n="82"/>eos qui erunt a sinistris, et causa in
+            ge<lb ed="#V" n="83" break="no"/>nere exprimitur, et idem de iis quae
+            <lb ed="#V" n="84"/>erunt a dextris.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Verum alia forma, quam tenet secunda
+            <lb ed="#V" n="86"/>sententia, videtur exponi, Danielis 7.
+            <pb ed="#V" n="498"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Apocal 20. ad Corinth. 4. Joel. 3. Et
+            con<lb ed="#V" n="2" break="no"/>gruentiae, quae probant judicium generale
+            <lb ed="#V" n="3"/>futurum id ipsum confirmant, ut omnes
+            <lb ed="#V" n="4"/>Dei justitiam cognoscant publice per
+            <lb ed="#V" n="5"/>discussionem causae, ejusque notitiam,
+            <lb ed="#V" n="6"/>Dubium autem quomodo haec cognitio
+            <lb ed="#V" n="7"/>fiet, an instanti, an in tempore, res
+            om<lb ed="#V" n="8" break="no"/>nino est incerta; probabile est fore partem
+            <lb ed="#V" n="9"/>in tempore per vocem sensibilem qua
+            <lb ed="#V" n="10"/>reprehendatur aliqua peccata, et
+            lauden<lb ed="#V" n="11" break="no"/>tur opera aliqua, partim etiam fieri
+            men<lb ed="#V" n="12" break="no"/>taliter, vel si utrumque fiat in tempore,
+            <lb ed="#V" n="13"/>illud erit breve, nam de hoc nihil certi
+            <lb ed="#V" n="14"/>colligi potest ex Scriptura.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d47q1-p5"> -->
+          <p>
+            <lb ed="#V" n="60" type="fixed=498"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>(e) De quarto, si erit, etc. Magis inclinat
+            <lb ed="#V" n="62"/>disceptationem fore vocalem et
+            senten<lb ed="#V" n="63" break="no"/>tiam, sive disceptatio illa manifestatur
+            <lb ed="#V" n="64"/>singulis, vel in parvo tempore, vel in
+            <lb ed="#V" n="65"/>magno; nam in hoc illud supponendum
+            <lb ed="#V" n="66"/>est, perfectam judicii formam esse
+            ser<lb ed="#V" n="67" break="no"/>vandam, quae variis modis fieri potest a
+            <lb ed="#V" n="68"/>divina sapientia, et potentia inquantum
+            <lb ed="#V" n="69"/>requiritur quoad manifestationem justitiae,
+            <lb ed="#V" n="70"/>et solemnitatem discussionis, et
+            capaci<lb ed="#V" n="71" break="no"/>tatem creaturae judicandae; modum autem
+            <lb ed="#V" n="72"/>certum determinare non expedit sine
+            fun<lb ed="#V" n="73" break="no"/>damento. Illud quidem certum est,
+            judi<lb ed="#V" n="74" break="no"/>cium fore visibile et publicum quantum
+            <lb ed="#V" n="75"/>ad discussionem et sententiam. Reliquum
+            <lb ed="#V" n="76"/>patet tantum conjecturis desumptis ex
+            <lb ed="#V" n="77"/>forma judicii publici, et capacitate
+            judi<lb ed="#V" n="78" break="no"/>candorum, et manifestatione operum
+            <lb ed="#V" n="79"/>congrua.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>(f) De loco autem, etc. Locum judicii
+            <lb ed="#V" n="81"/>plures interpretantur esse vallem Josaphat
+            <lb ed="#V" n="82"/>inter Jerosolymam et Montem Oliveti ex
+            <lb ed="#V" n="83"/>Joel. 3. Ita Albertus in 4. d. 48. art. 8.
+            <lb ed="#V" n="84"/>D. Thom. d. 40. q. 1. art. 4. q. 4. Paludanus
+            <lb ed="#V" n="85"/>in hac d. q. 1. art. 2. et alii. Alii per
+            val<lb ed="#V" n="86" break="no"/>lem Josaphat intelligunt terram, quae
+            val<pb ed="#V" n="499"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>lis est respectu coeli, ita ut idem sit Vallis
+            <lb ed="#V" n="2"/>Josaphat ac Vallis judicii Domini, Glossa
+            <lb ed="#V" n="3"/>ordinaria, Magister in 4. d. sequenti, et
+            <lb ed="#V" n="4"/>Anselmus in Elucidario, cujus illa est
+            in<lb ed="#V" n="5" break="no"/>terpretatio; et ratio ad hoc adducitur, quia
+            <lb ed="#V" n="6"/>vallis illa est minor, quam ut tota
+            multitu<lb ed="#V" n="7" break="no"/>do judicandorum exigat. Doctor, autem
+            <lb ed="#V" n="8"/>dicit primo ex Apostolo 1. ad Thess. 4.
+            <lb ed="#V" n="9"/>electos, et Judicem in aere fore
+            constitu<lb ed="#V" n="10" break="no"/>tos, et priorem interpretationem ita
+            intel<lb ed="#V" n="11" break="no"/>ligi debere ut vallis Josaphat ponatur
+            <lb ed="#V" n="12"/>pars pro toto, ita ut damnati, et ibi et in
+            <lb ed="#V" n="13"/>locis circumjacentibus in terra consistant.
+            <lb ed="#V" n="14"/>Conjici etiam potest Judicem forte ad
+            in<lb ed="#V" n="15" break="no"/>feriorem regionen aeris descensurum, in
+            <lb ed="#V" n="16"/>qua fuit transfiguratus, vel thronum
+            judi<lb ed="#V" n="17" break="no"/>cii statuendum supra vallem Josaphat, et
+            <lb ed="#V" n="18"/>inde denominari hunc locum exercendi
+            <lb ed="#V" n="19"/>judicii a sessione Judicis.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d47q1-p6"> -->
+          <p>
+            <lb ed="#V" n="18" type="fixed=500"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>(g) Ad primum argumentum, etc. Illud
+            <lb ed="#V" n="20"/>fuit ex Joan. 12. Nunc judicium est
+            mun<lb ed="#V" n="21" break="no"/>di, etc. Respondet ex verbis sequentibus,
+            <lb ed="#V" n="22"/>in quibus specificatur illud judicium:
+            <lb ed="#V" n="23"/>Nunc princeps mundi hujus ejicietur
+            fo<lb ed="#V" n="24" break="no"/>ras, etc. scilicet Diabolus, qui eousque
+            <lb ed="#V" n="25"/>principabatur mundo per peccatum,
+            solu<lb ed="#V" n="26" break="no"/>to autem pretio redemptionis, ejectus
+            <lb ed="#V" n="27"/>est per Christum, et fidem ejus, quae
+            <lb ed="#V" n="28"/>praevaluit. Videantur Augustinus tract. 20.
+            <lb ed="#V" n="29"/>in Joan. et Chrysost. hom. 66.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>(h) Ad secundum, etc. Secundum fuit,
+            <lb ed="#V" n="31"/>quod Deus non puniat bis in idipsum, et
+            <lb ed="#V" n="32"/>quod status sit immutabilis, inquantum
+            <lb ed="#V" n="33"/>terminus viae producitur uniformis juxta
+            <lb ed="#V" n="34"/>Augustinum, usque ad ultimum saeculi
+            <lb ed="#V" n="35"/>diem, et praeterea quia judicium
+            unius<lb ed="#V" n="36" break="no"/>cujusque fit quando moritur, etc.
+            Respon<lb ed="#V" n="37" break="no"/>det Doctor haec intelligi de judicio
+            perso<lb ed="#V" n="38" break="no"/>nali et privato cujusque, juxta statum in
+            <lb ed="#V" n="39"/>quo invenit eum mors, sive in peccato
+            <lb ed="#V" n="40"/>mortali, sive in gratia, secundum quae
+            <lb ed="#V" n="41"/>uterque status opponitur; non autem
+            <lb ed="#V" n="42"/>extenditur ad animas Purgatorii,
+            secun<cb ed="#V" n="b"/><lb ed="#V" n="43" break="no"/>dum eum statum. Judicatur itaque privato
+            <lb ed="#V" n="44"/>judicio et personali; in judicio vero
+            ex<lb ed="#V" n="45" break="no"/>tremo judicatur ut est pars familiae, ut
+            <lb ed="#V" n="46"/>deputatur ad civitatem supernam aut
+            car<lb ed="#V" n="47" break="no"/>cerem.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>(i) Et per idem apparet ad dictum
+            Gre<lb ed="#V" n="49" break="no"/>gorii, etc. Ordines quatuor statuit
+            Grego<lb ed="#V" n="50" break="no"/>rius lib. 26. Moral. cap. 24. nam ex
+            re<lb ed="#V" n="51" break="no"/>probis alii non judicantur et pereunt, ut
+            <lb ed="#V" n="52"/>infideles, qui Christum non noverunt,
+            <lb ed="#V" n="53"/>neque fidem ejus, juxta illud Joannis 3.
+            <lb ed="#V" n="54"/>Qui non credit jam judicatus, etc Alii qui
+            <lb ed="#V" n="55"/>judicabuntur et condemnabuntur, ut qui
+            <lb ed="#V" n="56"/>fidem receperunt, et non servarunt legem,
+            <lb ed="#V" n="57"/>et his dicetur Matth. 25. Esurivi, et non
+            <lb ed="#V" n="58"/>dedistis mihi manducare, etc. Alii qui
+            ju<lb ed="#V" n="59" break="no"/>dicabuntur et salvabuntur, ut poenitentes,
+            <lb ed="#V" n="60"/>et exercentes opera misericordiae, quibus
+            <lb ed="#V" n="61"/>dicitur: Esurivi, et dedistis mihi
+            mandu<lb ed="#V" n="62" break="no"/>care, etc. Alii denique regnabunt, et non
+            <lb ed="#V" n="63"/>judicabuntur, sed judicabunt, ut sunt
+            <lb ed="#V" n="64"/>perfecti, qui observarunt non solum
+            prae<lb ed="#V" n="65" break="no"/>cepta legis, sed et consilia.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Propter hos ordines discernendos, Doctor
+            <lb ed="#V" n="67"/>et reliqui Scholastici antiqui cum
+            Magi<lb ed="#V" n="68" break="no"/>stro in hac distinctione, discernunt duplex
+            <lb ed="#V" n="69"/>judicium; aliud discussionis et examinis,
+            <lb ed="#V" n="70"/>aliud damnationis et salvationis, seu
+            sen<lb ed="#V" n="71" break="no"/>tentiae latae. Quantum ad primum, dicunt
+            <lb ed="#V" n="72"/>quod infideles non sint judicandi judicio
+            <lb ed="#V" n="73"/>discussionis in particulari quoad singulos
+            <lb ed="#V" n="74"/>in generali judicio, sed sunt judicandi
+            ju<lb ed="#V" n="75" break="no"/>dico condemnationis. Fundamentum ex
+            <lb ed="#V" n="76"/>Scriptura est: Qui non credit, jam
+            judica<lb ed="#V" n="77" break="no"/>tus est, Joan. 3. et illud Psal. Non
+            resur<lb ed="#V" n="78" break="no"/>gent impii in judicio. Psal. 1. et auctoritas
+            <lb ed="#V" n="79"/>plurium Patrum est, ut Hilarii, Ambrosii
+            <lb ed="#V" n="80"/>Basilii, in Psal. 118. Lactant. lib. 6. cap.
+            <lb ed="#V" n="81"/>20. Nec tamen tunc universi a Deo
+            judica<lb ed="#V" n="82" break="no"/>buntur, sed ii tantum qui sunt in Dei
+            reli<lb ed="#V" n="83" break="no"/>gione versati; et Augustinus sermone 38. de
+            <lb ed="#V" n="84"/>Sanctis: Ad judicium, inquit, non veniunt,
+            <lb ed="#V" n="85"/>nec pagani, nec haeretici, nec Judaei, quia
+            <lb ed="#V" n="86"/>de illis Scriptum est: Qui non credit, jam
+            <pb ed="#V" n="501"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>judicatus est, etc. Gregorius etiam loco
+            <lb ed="#V" n="2"/>citato, Anselmus in Elucidario, Isidorus
+            <lb ed="#V" n="3"/>lib. 1. de summo bono, cap. 30. et
+            Scho<lb ed="#V" n="4" break="no"/>lastici modo dicto limitantes hoc ad
+            judi<lb ed="#V" n="5" break="no"/>cium discussionis, quia de alio judicio
+            <lb ed="#V" n="6"/>sententiae et condemnationis constat ex
+            <lb ed="#V" n="7"/>Matth. 25. et aliis locis allegatis. Cum
+            <lb ed="#V" n="8"/>ergo in processu judiciali judicii forma
+            <lb ed="#V" n="9"/>extenditur ad discussionem causae, et
+            <lb ed="#V" n="10"/>prolationem sententiae, si causa per se
+            <lb ed="#V" n="11"/>est manifesta, superfluit discussio, et ita
+            <lb ed="#V" n="12"/>contingit in iis qui sunt infideles; hanc
+            <lb ed="#V" n="13"/>rationem insinuat ipse Gregorius: Non
+            <lb ed="#V" n="14"/>enim eorum tunc causa discutitur, quia ad
+            <lb ed="#V" n="15"/>conspectum stricti Judicis jam cum
+            dam<lb ed="#V" n="16" break="no"/>natione suae infldelitatis tenebris ejus
+            <lb ed="#V" n="17"/>quem despe xerunt, invectione redarqui non
+            <lb ed="#V" n="18"/>merentur, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Hanc distinctionem rejicit Suarez in 3.
+            <lb ed="#V" n="20"/>part. tom. 2. disp. 57. sect. 5. quia
+            in<lb ed="#V" n="21" break="no"/>fideles comparebunt ante Tribunal
+            Chri<lb ed="#V" n="22" break="no"/>sti, ut referant prout gesserunt in corpore
+            <lb ed="#V" n="23"/>suo, sive bonum, sive malum, ad Rom. 14.
+            <lb ed="#V" n="24"/>Item, Jeremiae 25. Judicium Domini cum
+            <lb ed="#V" n="25"/>gentibus, etc. ubi Hieronymus: Quia sunt,
+            <lb ed="#V" n="26"/>inquit, gentium merita diversa, etc. et
+            <lb ed="#V" n="27"/>infra, judicantur ipsi cum omni carne,
+            <lb ed="#V" n="28"/>ut nullus injudicatus abeat, etc. Item
+            <lb ed="#V" n="29"/>Joelis 3. Congregabo omnes gentes, et
+            <lb ed="#V" n="30"/>adducam eas in Vallem Josaphat, et
+            di<lb ed="#V" n="31" break="no"/>sceptabo cum eis super populo meo, et
+            <lb ed="#V" n="32"/>haereditate mea Israel, etc. ergo judicium
+            <lb ed="#V" n="33"/>disceptationis erit cum gentibus et
+            infi<lb ed="#V" n="34" break="no"/>delibus. Deinde, ratio postulat ut recipiant
+            <lb ed="#V" n="35"/>secundum opera. Et videtur etiam hoc
+            <lb ed="#V" n="36"/>insinuari Sapientiae 5. Tunc stabunt justi
+            <lb ed="#V" n="37"/>in magna constantia adversus eos qui se
+            <lb ed="#V" n="38"/>angustiaverunt, et qui abstulerunt labores
+            <lb ed="#V" n="39"/>eorum, videntes turbabuntur timore
+            horri<lb ed="#V" n="40" break="no"/>bili, et mirabuntur in subitatione insperatae
+            <lb ed="#V" n="41"/>salutis, dicentes intra se, poenitentiam
+            agen<lb ed="#V" n="42" break="no"/>tes, et prae angustia gementes: Hi sunt
+            <lb ed="#V" n="43"/>quos aliquando habuimus in derisum, et
+            <lb ed="#V" n="44"/>in similitudinem improperii, etc. ergo
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>improperabuntur opera injusta, et
+            per<lb ed="#V" n="46" break="no"/>secutio in electos facta ab infidelibus, et
+            <lb ed="#V" n="47"/>id ipsum indicare videtur illa vox
+            Marty<lb ed="#V" n="48" break="no"/>rum, Apocal. Vindica sanguinem
+            no<lb ed="#V" n="49" break="no"/>strum, etc. ergo distinctio illa non
+            subsi<lb ed="#V" n="50" break="no"/>stit, et videtur magis metaphorica quam
+            <lb ed="#V" n="51"/>realis, et accommodata rei proprietati.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Respondetur tamen distinctionem esse
+            <lb ed="#V" n="53"/>fundatam non in eo sensu quasi opera
+            <lb ed="#V" n="54"/>infidelium non sint judicanda aut
+            discer<lb ed="#V" n="55" break="no"/>nenda, et poenae, sed ex alio capite; nam
+            <lb ed="#V" n="56"/>judicium fit secundum legem, cum sit
+            <lb ed="#V" n="57"/>conclusio legis, intelligitur autem per
+            le<lb ed="#V" n="58" break="no"/>gem universaliter lex fidei, et divina, qua
+            <lb ed="#V" n="59"/>ordinatur quisque ad salutem per media
+            <lb ed="#V" n="60"/>legis receptae. Discrepantia est autem
+            in<lb ed="#V" n="61" break="no"/>ter infideles et fideles, quod illi legem
+            <lb ed="#V" n="62"/>nescierunt, aut non receperunt
+            per<lb ed="#V" n="63" break="no"/>severantes in sua infidelitate, fideles
+            <lb ed="#V" n="64"/>autem receperunt, sed non
+            observa<lb ed="#V" n="65" break="no"/>runt; ideoque hi per legem ipsam, et
+            <lb ed="#V" n="66"/>ex lege convincentur quam
+            recepe<lb ed="#V" n="67" break="no"/>runt, et non observarunt, ut indicat
+            <lb ed="#V" n="68"/>disceptatio, quam exprimit Lucas 13. et
+            <lb ed="#V" n="69"/>parabola virginum Matth. 25. et alia quae
+            <lb ed="#V" n="70"/>ibidem exprimuntur. His enim ex lege
+            <lb ed="#V" n="71"/>defensio suffragatur, quamvis eam ex lege
+            <lb ed="#V" n="72"/>praetendent, juxta illud: In nomine tuo
+            <lb ed="#V" n="73"/>daemonia ejecimus, signa fecimus, etc.
+            <lb ed="#V" n="74"/>Infideles autem, qui legem nescierunt, et
+            <lb ed="#V" n="75"/>fidem, in quibus tantum promittitur et
+            da<lb ed="#V" n="76" break="no"/>tur vita, hoc ipso judicium
+            condemnati<lb ed="#V" n="77" break="no"/>onis et mortis habent, quia nunquam
+            le<lb ed="#V" n="78" break="no"/>gem vitae, aut ipsam in lege vitam
+            con<lb ed="#V" n="79" break="no"/>tentam habuerunt. Hi ergo, ut dicit
+            Aposto<lb ed="#V" n="80" break="no"/>lus ad Rom. 3. Sine lege peccaverunt, et
+            <lb ed="#V" n="81"/>sine lege peribunt, quia non ex lege fidei,
+            <lb ed="#V" n="82"/>quam ignorarunt, judicabuntur, et
+            secun<lb ed="#V" n="83" break="no"/>dum quam principaliter ordinatur
+            judi<lb ed="#V" n="84" break="no"/>cium discussionis, sed ex operibus, et
+            <lb ed="#V" n="85"/>lege naturali, et consentaneis, quale est
+            <lb ed="#V" n="86"/>jus gentium et politicum, quod ad
+            civi<lb ed="#V" n="87" break="no"/>tatem terrenam et societatem ordinatur
+            <lb ed="#V" n="88"/>stabiliendam, et secundum rectum
+            dicta<lb ed="#V" n="89" break="no"/>men practicum et naturale.
+          </p>
+          <p>
+            <pb ed="#V" n="502"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Distinctio ergo praemissa in hoc
+            funda<lb ed="#V" n="2" break="no"/>tur, non quasi quisque non judicetur
+            ju<lb ed="#V" n="3" break="no"/>dicio discussionis secundum opera prout
+            <lb ed="#V" n="4"/>gessit, et recipiat poenam
+            corresponden<lb ed="#V" n="5" break="no"/>tem; sed quod judicium discussionis ex
+            <lb ed="#V" n="6"/>lege divina et fidei non extendetur ad
+            <lb ed="#V" n="7"/>infideles, qui extra legem vixerunt, sed
+            <lb ed="#V" n="8"/>ad fideles, qui eam acceptarunt, et ipsam
+            <lb ed="#V" n="9"/>fidem, licet mortuam, habuerunt, quae est
+            <lb ed="#V" n="10"/>fundamentum et radix justitiae et vitae, et
+            <lb ed="#V" n="11"/>per quam judicabuntur ex lege recepta
+            <lb ed="#V" n="12"/>ejus. Hanc expositionem insinuat
+            Hierony<lb ed="#V" n="13" break="no"/>mus loco citato: Quia sunt, inquit,
+            gen<lb ed="#V" n="14" break="no"/>tium merita diversa, et ideo qui non credit,
+            <lb ed="#V" n="15"/>judicatus quidem est in eo quod non credit,
+            <lb ed="#V" n="16"/>quia nempe manet in morte, sed ipsi qui
+            <lb ed="#V" n="17"/>non credunt inter se diversis afficientur
+            sup<lb ed="#V" n="18" break="no"/>pliciis, judicantur ipsi cum omni carne,
+            <lb ed="#V" n="19"/>ut nullus injudicatus abeat, etc.
+            Judicabun<lb ed="#V" n="20" break="no"/>tur ergo omnes, non tamen secundum
+            le<lb ed="#V" n="21" break="no"/>gem fidei, judicabuntur infideles, ut qui
+            <lb ed="#V" n="22"/>eam nescierunt, sed secundum legem
+            ope<lb ed="#V" n="23" break="no"/>rum in qua vixerunt, scilicet naturalem;
+            <lb ed="#V" n="24"/>nam judicium fiet secundum legem, in qua
+            <lb ed="#V" n="25"/>vixerunt, et contra quam peccaverunt, et
+            <lb ed="#V" n="26"/>quae promulgata fuit in cordibus, nam
+            <lb ed="#V" n="27"/>materia discussionis est peccatum contra
+            <lb ed="#V" n="28"/>legem factum, et cum ejus cognitione
+            <lb ed="#V" n="29"/>necessaria, et sine qua nequit esse
+            pec<lb ed="#V" n="30" break="no"/>catum.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Quod si haec solutio non placet, sed
+            <lb ed="#V" n="32"/>retinenda sit distinctio quoad rigorem,
+            <lb ed="#V" n="33"/>prout eam videtur Gregorius cum aliis
+            <lb ed="#V" n="34"/>retinere, explicanda est absolute
+            Scriptu<lb ed="#V" n="35" break="no"/>ra allata de judicio universali damnationis
+            <lb ed="#V" n="36"/>et reprobationis, non vero de judicio
+            di<lb ed="#V" n="37" break="no"/>scussionis, quia in re notoria non
+            requi<lb ed="#V" n="38" break="no"/>ritur discussio aut inquisitio, sed statim
+            <lb ed="#V" n="39"/>procedetur ad sententiam, quia
+            notorie<lb ed="#V" n="40" break="no"/>tas facti excludit omnem defensionem et
+            <lb ed="#V" n="41"/>probationem tanquam superflam; infideles
+            <lb ed="#V" n="42"/>autem, ut dicit Gregorius, praejudicati
+            in<lb ed="#V" n="43" break="no"/>fidelitatis suae tenebris ejus quem
+            de<lb ed="#V" n="44" break="no"/>spexerunt, invectione redargui non
+            me<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>rentur, etc. Illi ergo discussionis judicium
+            <lb ed="#V" n="46"/>subibunt, qui ex fide et lege defensionem
+            <lb ed="#V" n="47"/>praetendent; per judicium vero
+            reprobati<lb ed="#V" n="48" break="no"/>onis et damnationis infideles recipient
+            <lb ed="#V" n="49"/>secundum peccata sua, quamvis ergo
+            ju<lb ed="#V" n="50" break="no"/>dicium improperii et redargutionis manet
+            <lb ed="#V" n="51"/>omnes infideles, et damnationis, non
+            ta<lb ed="#V" n="52" break="no"/>men disceptationis aut discussionis, quia
+            <lb ed="#V" n="53"/>nullam excusationem praetendere possunt
+            <lb ed="#V" n="54"/>in Christo; non ita fideles damnati, qui
+            <lb ed="#V" n="55"/>misericordiam Judicis implorabunt ex fide
+            <lb ed="#V" n="56"/>et lege, et beneficiis receptis
+            praedicati<lb ed="#V" n="57" break="no"/>onis, sacramentorum, doctrinae, signorum,
+            <lb ed="#V" n="58"/>ut patet Luc. 13. Cum autem intraverit
+            <lb ed="#V" n="59"/>Paterfamilias, et clauserit hostium, et
+            <lb ed="#V" n="60"/>incipietis foris stare, et pulsare hostium,
+            <lb ed="#V" n="61"/>dicentes: Domine aperi nobis, et
+            respon<lb ed="#V" n="62" break="no"/>dens dicet vobis, nescio vos unde sitis; tunc
+            <lb ed="#V" n="63"/>incipietis dicere, manducavimus coram te,
+            <lb ed="#V" n="64"/>et bibimus, et in plateis nostris docuisti, et
+            <lb ed="#V" n="65"/>dicet vobis, nescio vos unde sitis. Infideles
+            <lb ed="#V" n="66"/>ergo, qui respuerunt judicem Christum,
+            <lb ed="#V" n="67"/>legem ejus, justitiam et fidem, non
+            resur<lb ed="#V" n="68" break="no"/>gunt in judicio disceptationis, quia ut
+            <lb ed="#V" n="69"/>dicit Theodoretus Heracleotes in Catena:
+            <lb ed="#V" n="70"/>Fur in delicto deprehensus non perducitur
+            <lb ed="#V" n="71"/>ad Judicem, ut de facto notorio quaestionem
+            <lb ed="#V" n="72"/>habeat, sed ut sententiam damnationis
+            <lb ed="#V" n="73"/>accipiat. Et Cyrillus Hierosolymitanus
+            <lb ed="#V" n="74"/>Cateches. 18. ita explicat illud Joannis 3.
+            <lb ed="#V" n="75"/>Qui non credit, jam judicatus est, etc.
+            <lb ed="#V" n="76"/>asserit ideo dici, quia non requiritur
+            ma<lb ed="#V" n="77" break="no"/>gna inquisitio causae notoriae, etc. Si ergo
+            <lb ed="#V" n="78"/>discussio sumitur pro notitia causae, verum
+            <lb ed="#V" n="79"/>est juxta superius dicta, omnium peccata
+            <lb ed="#V" n="80"/>propalanda etiam infidelium; sed
+            sumen<lb ed="#V" n="81" break="no"/>do discussionem strictius pro inquisitione
+            <lb ed="#V" n="82"/>causae per allegationem contrariam rei, sic
+            <lb ed="#V" n="83"/>erit in fidelibus peccatoribus modo dicto,
+            <lb ed="#V" n="84"/>in quibus fuit fides, et aliqua opera et
+            <lb ed="#V" n="85"/>beneficia Christi. De hac discussione
+            intel<lb ed="#V" n="86" break="no"/>liguntur Patres citati supra et Doctores
+            <lb ed="#V" n="87"/>scholastici, non vero de priori, et sic per
+            <lb ed="#V" n="88"/>distinctionem praemissam recte concordant
+            <lb ed="#V" n="89"/>Scripturas.
+          </p>
+          <p>
+            <pb ed="#V" n="503"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Ex his patet quid dicendum sit de
+            infan<lb ed="#V" n="2" break="no"/>tibus, qui in peccato originali decesserunt,
+            <lb ed="#V" n="3"/>fore in ipsis etiam judicium discussionis
+            <lb ed="#V" n="4"/>late sumptum pro notorietate facti, non
+            <lb ed="#V" n="5"/>vero stricte sumptum, quia nulla habent
+            <lb ed="#V" n="6"/>opera. De justis etiam beatis, qui per
+            <lb ed="#V" n="7"/>poenitentiam a peccatis mortalibus
+            surre<lb ed="#V" n="8" break="no"/>xerunt, erit discussio utroque modo ad
+            <lb ed="#V" n="9"/>manifestandam Dei justitiam et
+            misericor<lb ed="#V" n="10" break="no"/>diam, et praeterea judicium approbationis;
+            <lb ed="#V" n="11"/>patet ex distinctione praemissa, quam
+            <lb ed="#V" n="12"/>etiam sequitur Origenes hom. 21. in Num.
+            <lb ed="#V" n="13"/>Aliqui tamen docent nulla peccata
+            justo<lb ed="#V" n="14" break="no"/>rum esse propalanda in judicio, ut
+            Magi<lb ed="#V" n="15" break="no"/>ster d. 43. Vignerius cap. 21. Son. in
+            <lb ed="#V" n="16"/>tractatu de extremo judicio. Haec sententia
+            <lb ed="#V" n="17"/>fundatur in locis Scripturae, in quibus
+            <lb ed="#V" n="18"/>efficacia poenitentiae et operum ad
+            deleti<lb ed="#V" n="19" break="no"/>onem peccatorum significatur, ut Psal. 31.
+            <lb ed="#V" n="20"/>et 50. Isaiae cap. 43. et 63. Exechielis 2.
+            <lb ed="#V" n="21"/>Contrarium magis sequendum, quia
+            judi<lb ed="#V" n="22" break="no"/>cium publicum et finale exigit ut causa in
+            <lb ed="#V" n="23"/>publico etiam transigatur ad
+            manifestati<lb ed="#V" n="24" break="no"/>onem justitiae et potestatis judiciariae in
+            <lb ed="#V" n="25"/>omnes. Hanc docet Augustinus 20. de Civ.
+            <lb ed="#V" n="26"/>cap. 14. Gregorius supra, et super Psal.
+            <lb ed="#V" n="27"/>88. et patet ex Scripturis allegatis, et
+            <lb ed="#V" n="28"/>communi scholasticorum.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Sed quid de Sanctis praecellentibus et
+            <lb ed="#V" n="30"/>assessoribus judicis. Respondetur ex
+            di<lb ed="#V" n="31" break="no"/>ctis, probabilius non esse judicandos,
+            <lb ed="#V" n="32"/>judicio discussionis stricte sumptae,
+            maxi<lb ed="#V" n="33" break="no"/>me ii qui non peccaverunt mortaliter, sed
+            <lb ed="#V" n="34"/>conservarunt primam stolam, quam in
+            <lb ed="#V" n="35"/>Christo receperunt, quamvis enim
+            habu<lb ed="#V" n="36" break="no"/>erint aliqua venialia, peccatum veniale
+            <lb ed="#V" n="37"/>non est causa aut materia per se hujus
+            <lb ed="#V" n="38"/>judicii, quia non constituit statum finalem.
+            <lb ed="#V" n="39"/>judicium autem extremum fiet ad
+            discer<lb ed="#V" n="40" break="no"/>nendas familias civitatis supernae et
+            infi<lb ed="#V" n="41" break="no"/>mae, secundum opera quae per se
+            ordi<lb ed="#V" n="42" break="no"/>nantur ad statum damnationis aut gloriae,
+            <lb ed="#V" n="43"/>quae sunt peccata mortalia, aut opera
+            <lb ed="#V" n="44"/>bona et meritoria. Quod autem non sint
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>judicandi tales Sancti judicio discussionis,
+            <lb ed="#V" n="46"/>sed tantum approbationis, est Gregorii
+            <lb ed="#V" n="47"/>supra citati, Origenis et aliorum, quia
+            <lb ed="#V" n="48"/>haec exemptio ipsis competit praerogativa
+            <lb ed="#V" n="49"/>sanctitatis et muneris concessi, quo alios
+            <lb ed="#V" n="50"/>judicabunt participatione potestatis a
+            Chri<lb ed="#V" n="51" break="no"/>sto receptae, quam promisit Matth. 19.
+            <lb ed="#V" n="52"/>renuntiantibus omnibus bonis terrenis
+            <lb ed="#V" n="53"/>propter Christum, ut ibidem communiter
+            <lb ed="#V" n="54"/>Patres et expositores. Hi ergo recipient
+            <lb ed="#V" n="55"/>judicium approbationis a Christo, sicut et
+            <lb ed="#V" n="56"/>Angeli boni, non vero discussionis stricte
+            <lb ed="#V" n="57"/>sumptae. Quod si admittatur discussio late
+            <lb ed="#V" n="58"/>sumpta per notitiam omnium operum,
+            <lb ed="#V" n="59"/>non est plurimum repugnandum. Ex his
+            <lb ed="#V" n="60"/>patet ad reliqua hujus quaestionis.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

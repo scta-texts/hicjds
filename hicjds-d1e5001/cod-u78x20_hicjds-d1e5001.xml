@@ -1,0 +1,2386 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 46, Quaestio 4</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 46, Quaestio 4</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x20">Vives, Paris, 1894, volume 20</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="453"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e5001"><!-- hicjds-b4d46q4 -->
+        <head>Quaestio 4</head>
+        <head type="question-title">Utrum in punitione malorum concurrat ex parte Dei punientis iustitia cum misericordia</head>
+        <!-- <div alias="hiq-d46q4-p1"> -->
+          <p>
+            <lb ed="#V" n="33" type="fixed=453"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="34"/>(a) Ad quartum sic proceditur, etc. In
+            <lb ed="#V" n="35"/>hac quaestione supponit modum
+            probabi<lb ed="#V" n="36" break="no"/>lem, quem tenet D. Thomas, et illum
+            <lb ed="#V" n="37"/>examinat. Secundo respondet ad
+            quaesti<lb ed="#V" n="38" break="no"/>onem, dividendo quaestionem in quatuor
+            <lb ed="#V" n="39"/>articulos. Primus est de punitione
+            malo<lb ed="#V" n="40" break="no"/>rum. Secundus, quomodo sit a Deo.
+            Ter<lb ed="#V" n="41" break="no"/>tius, quomodo ex justitia. Quartus,
+            quo<lb ed="#V" n="42" break="no"/>modo et an sit ex misericordia, et deinde
+            <lb ed="#V" n="43"/>respondet ad argumenta.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d46q4-p2"> -->
+          <p>
+            <lb ed="#V" n="59" type="fixed=454"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>(b) Ad istam quaestionem. etc. Subdit
+            <lb ed="#V" n="61"/>conclusionem probabilem, nempe in omni
+            <lb ed="#V" n="62"/>opere Dei concurrere justitiam et
+            miseri<lb ed="#V" n="63" break="no"/>cordiam, quam docet Alensis 1. part.
+            <lb ed="#V" n="64"/>quaest. 39. m. 3. D. Thomas hic art. 4.
+            <lb ed="#V" n="65"/>et 1. part. quaest. 21. art. 4. Durandus
+            <lb ed="#V" n="66"/>hic quaest. 3. Paludanus quaest. 1. art. 3.
+            <lb ed="#V" n="67"/>concl. 3. et alii, Augustinus lib. de
+            peccato<lb ed="#V" n="68" break="no"/>rum meritis et remissione cap. 19.
+            Miseri<lb ed="#V" n="69" break="no"/>cordiam et veritatem diligit Deus. Psal. 83.
+            <lb ed="#V" n="70"/>Misericordia et veritas obviaverunt sibi.
+            <lb ed="#V" n="71"/>Psal. 84. Universae viae Domini
+            misericor<lb ed="#V" n="72" break="no"/>dia et veritas. Psal. 24. Et quis explicet,
+            <lb ed="#V" n="73"/>inquit, quam crebro haec duo conjuncta
+            <lb ed="#V" n="74"/>divina Scriptura commemoret? aliquando
+            <lb ed="#V" n="75"/>etiam mutatis nominibus, ut gratia pro
+            <lb ed="#V" n="76"/>misericordia ponatur. Unde est: Et
+            <lb ed="#V" n="77"/>vidimus gloriam ejus sicut unigeniti,
+            ple<lb ed="#V" n="78" break="no"/>nam gratia et veritate; aliquando pro
+            <lb ed="#V" n="79"/>veritate judicium, sicut est, misericordiam
+            <lb ed="#V" n="80"/>et judicium cantabo tibi Domine, etc.
+            <lb ed="#V" n="81"/>Adducitur ratio talis, quia artifex
+            produ<lb ed="#V" n="82" break="no"/>cens voluntate conformiter regulae suae,
+            <lb ed="#V" n="83"/>justus est, quia justitia reddit unicuique
+            <lb ed="#V" n="84"/>quod sibi debetur, artificiato maxime
+            de<lb ed="#V" n="85" break="no"/>betur conformitas ad regulam. Sed Deus
+            <lb ed="#V" n="86"/>est talis artifex respectu omnis creaturae,
+            <pb ed="#V" n="455"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>aliis. ergo reddit ipsi tale debitum
+            confor<lb ed="#V" n="2" break="no"/>mitatis; similiter misericordia est ubvenire
+            <lb ed="#V" n="3"/>indigenti, vel praeveniendo ne insit, vel
+            <lb ed="#V" n="4"/>tollendo praesentem. Deus etiam
+            produ<lb ed="#V" n="5" break="no"/>cendo creaturam sic subvenit; ergo, etc.
+            <lb ed="#V" n="6"/>Accedit et congruentia, quatenus
+            concur<lb ed="#V" n="7" break="no"/>rentibus pluribus simul virtutibus, opus
+            <lb ed="#V" n="8"/>redditur perfectius; possibile autem est
+            <lb ed="#V" n="9"/>in Deo concurrere sic per justitiam et
+            <lb ed="#V" n="10"/>misericordiam, cujus operi debet tribui
+            <lb ed="#V" n="11"/>omnis perfectio possibilis; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>(c) Sed prima ratio, etc. Docet sumi
+            <lb ed="#V" n="13"/>justitiam et misericordiam valde large in
+            <lb ed="#V" n="14"/>e prima, nam justitia proprie est in
+            redden<lb ed="#V" n="15" break="no"/>do debitum, et sic nullum est debitum
+            <lb ed="#V" n="16"/>proprie dictum in artificiato, nisi voluntas
+            <lb ed="#V" n="17"/>artificis, neque in Deo est debitum
+            respe<lb ed="#V" n="18" break="no"/>ctu artificiati, nisi prout vult artificiatum
+            <lb ed="#V" n="19"/>hoc vel illo modo producere; neque alia
+            <lb ed="#V" n="20"/>regula prior sua voluntate qua vult
+            artifi<lb ed="#V" n="21" break="no"/>ciatum hoc vel illo modo; ergo non est
+            <lb ed="#V" n="22"/>debitum, neque justitia stricte sumpta in
+            <lb ed="#V" n="23"/>Deo respectu artificiati in genere, in quo
+            <lb ed="#V" n="24"/>nulla est exigentia respectu Dei, qui hoc
+            <lb ed="#V" n="25"/>vel illo modo, sub rationibus etiam
+            op<lb ed="#V" n="26" break="no"/>positis, respicit Deum juxta suam
+            omni<lb ed="#V" n="27" break="no"/>potentiam, quae in rebus creatis non
+            stri<lb ed="#V" n="28" break="no"/>cte respicit aliquod debitum
+            determina<lb ed="#V" n="29" break="no"/>tum, sed tantum prout operatur, et prout
+            <lb ed="#V" n="30"/>disponit.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Idem docet de misericordia, eam valde
+            <lb ed="#V" n="32"/>large sumi, quia praecise, et stricte
+            sum<lb ed="#V" n="33" break="no"/>pta respicit miseriam, quae non
+            compre<lb ed="#V" n="34" break="no"/>hendit omnem defectum. Quantum etiam
+            <lb ed="#V" n="35"/>ad congruentiam de concursu virtutum
+            <lb ed="#V" n="36"/>includit, inquit, dubium, quia non est
+            <lb ed="#V" n="37"/>certum in voluntate posse esse aliquam
+            <lb ed="#V" n="38"/>virtutem, non solum re (quod certum est),
+            <lb ed="#V" n="39"/>sed neque formaliter distinctam, nam
+            <lb ed="#V" n="40"/>ipsa voluntas ex eo quod sit formaliter
+            <lb ed="#V" n="41"/>infinita, magis sufficit ad omnem
+            rectitu<lb ed="#V" n="42" break="no"/>dinem actus, quam aliqua virtus
+            qualiter<lb ed="#V" n="43" break="no"/>cumque distincta, quod superius quaest. 1.
+            <lb ed="#V" n="44"/>probatum est. Quamvis etiam detur talis
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>virtus distincta, non requiritur concursus
+            <lb ed="#V" n="46"/>ejus ad opus ad summam perfectionem
+            <lb ed="#V" n="47"/>operis, quia quaecumque perfectio limitata
+            <lb ed="#V" n="48"/>operis potest esse a divina voluntate
+            <lb ed="#V" n="49"/>in omni termino suae perfectionis,
+            quam<lb ed="#V" n="50" break="no"/>vis nulla virtus ad illud concurrat.
+            Prae<lb ed="#V" n="51" break="no"/>terea, esto quod istae rationes
+            conclude<lb ed="#V" n="52" break="no"/>rent de effectu Dei positivo, quia ibi est
+            <lb ed="#V" n="53"/>manifesta rectitudo, et etiam exclusio
+            <lb ed="#V" n="54"/>indigentiae, quia divina bonitas ei
+            commu<lb ed="#V" n="55" break="no"/>nicatur, inquantum est ejus capax; tamen
+            <lb ed="#V" n="56"/>quia in punitione malorum infligitur
+            ali<lb ed="#V" n="57" break="no"/>quod malum, ita quod magis sit indigens
+            <lb ed="#V" n="58"/>per malum quam ante, non videtur quod
+            <lb ed="#V" n="59"/>aeque concurrant in proposito justitia et
+            <lb ed="#V" n="60"/>misericordia, quia misericordia non est
+            <lb ed="#V" n="61"/>inflictiva.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Haec ratio magis declaratur in
+            misericor<lb ed="#V" n="63" break="no"/>dia, quatenus tollit malum culpae contra
+            <lb ed="#V" n="64"/>debitum, vel propter omne debitum
+            pecca<lb ed="#V" n="65" break="no"/>toris, et idem etiam, quando praeveniendo
+            <lb ed="#V" n="66"/>tollit idem malum seu miseriam. Hic
+            discur<lb ed="#V" n="67" break="no"/>sus eo tendit, ut probet non sufficere illam
+            <lb ed="#V" n="68"/>generalem rationem, in qua per
+            accommo<lb ed="#V" n="69" break="no"/>dationem justitia et misericordia omnibus
+            <lb ed="#V" n="70"/>Dei operibus tribuitur ad scopum
+            praesen<lb ed="#V" n="71" break="no"/>tis quaestionis, in qua quaeritur de his
+            <lb ed="#V" n="72"/>virtutibus, prout exercentur circa
+            damna<lb ed="#V" n="73" break="no"/>tos secundum proprietatem. Unde in
+            <lb ed="#V" n="74"/>quaestione secunda docuit misericordiam
+            <lb ed="#V" n="75"/>non sumi pro omni nolitione mali circa
+            <lb ed="#V" n="76"/>creaturam, sed solum pro nolitione
+            mi<lb ed="#V" n="77" break="no"/>seriae stricte sumptae, quae est peccatum,
+            <lb ed="#V" n="78"/>vel poena debita, alioquin Doctor non
+            <lb ed="#V" n="79"/>respuit illam communem
+            accommodati<lb ed="#V" n="80" break="no"/>onem, sed indicat quaestionem pertinere
+            <lb ed="#V" n="81"/>ad strictam acceptionem, tam justitiae ut
+            <lb ed="#V" n="82"/>esse potest in Deo, quam etiam
+            miseri<lb ed="#V" n="83" break="no"/>cordiae, ideoque quamvis accommodate
+            <lb ed="#V" n="84"/>intelligantur Scripturae de omnibus
+            ope<lb ed="#V" n="85" break="no"/>ribus Dei, sumpta justitia et misericordia
+            <lb ed="#V" n="86"/>late, tamen id non sufficit ad praesentem
+            <lb ed="#V" n="87"/>quaestionem, ideoque illud Psalm. 24.
+            Uni<lb ed="#V" n="88" break="no"/>versae viae Domini, et aliter explicantur ab
+          </p>
+          <p>
+            <pb ed="#V" n="456"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Aliqui intelligunt de iis, qui
+            misericor<lb ed="#V" n="2" break="no"/>diam consequuntur, et remissionis
+            pecca<lb ed="#V" n="3" break="no"/>torum, et vocationis ad fidem, et
+            perve<lb ed="#V" n="4" break="no"/>niunt ad cognitionem veritatis per
+            Scri<lb ed="#V" n="5" break="no"/>pturas. Alii intelligunt de misericordia, qua
+            <lb ed="#V" n="6"/>data est lex, et aliae Scripturae Judaeis, in
+            <lb ed="#V" n="7"/>qua fit contestatio Dei, et futurorum.
+            Ba<lb ed="#V" n="8" break="no"/>silius et Theodoretus intelligunt
+            miseri<lb ed="#V" n="9" break="no"/>cordiam respectu poenitentium, et
+            justi<lb ed="#V" n="10" break="no"/>tiam ut punit vel praemiat. Caeterum
+            <lb ed="#V" n="11"/>tenendo explicationem Augustini in loco
+            <lb ed="#V" n="12"/>praemisso agitur de concursu illorum
+            at<lb ed="#V" n="13" break="no"/>tributorum, vel certe affectuum ad
+            sco<lb ed="#V" n="14" break="no"/>pum praesentis quaestionis, sumendo
+            justi<lb ed="#V" n="15" break="no"/>tiam et misericordiam proprie, ut inveniri
+            <lb ed="#V" n="16"/>possunt in Deo, ideoque Doctor ad
+            re<lb ed="#V" n="17" break="no"/>solutionem ejus hoc sensu procedit.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d46q4-p3"> -->
+          <p>
+            <lb ed="#V" n="78" type="fixed=457"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>(d) Ad quaestionem primo videndum
+            <lb ed="#V" n="80"/>est, etc. Dividit quaestionem, prout supra
+            <lb ed="#V" n="81"/>ad titulum est subnotatum, et in hoc
+            <lb ed="#V" n="82"/>primo articulo agit de punitione
+            damna<lb ed="#V" n="83" break="no"/>torum; quoniam autem poena et tristitia,
+            <lb ed="#V" n="84"/>seu miseria consistit, vel in privatione
+            <lb ed="#V" n="85"/>boni in creatura rationali, vel in praesentia
+            <lb ed="#V" n="86"/>mali, quarum utraque est perceptibilis,
+            <pb ed="#V" n="458"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ideo definit utrumque membrum sub
+            dis<lb ed="#V" n="2" break="no"/>junctione: Punitio, inquit, est
+            perceptibi<lb ed="#V" n="3" break="no"/>lis carentia boni convenientis in natura
+            in<lb ed="#V" n="4" break="no"/>tellectuali, vel perceptibilis praesentia mali
+            <lb ed="#V" n="5"/>disconvenientis in eadem, etc. Requiritur
+            <lb ed="#V" n="6"/>ut utraque sit perceptibilis, quia mediante
+            <lb ed="#V" n="7"/>cognitione causat poenam et tristitiam,
+            <lb ed="#V" n="8"/>ideoque debet percipi a creatura
+            rationa<lb ed="#V" n="9" break="no"/>li, in qua est tristitia seu poena ex
+            utra<lb ed="#V" n="10" break="no"/>que causa.
+            <lb ed="#V" n="11"/>at Deinde, quantum ad primam poenam,
+            <lb ed="#V" n="12"/>quae consistit in carentia boni, dividit
+            bo<lb ed="#V" n="13" break="no"/>num in honestum et commodum, seu
+            dele<lb ed="#V" n="14" break="no"/>ctabile; ad alterum vero reducit bonum
+            <lb ed="#V" n="15"/>utile, quod est medium propter aliud non
+            <lb ed="#V" n="16"/>propter se volitum. Utrumque bonum tam
+            <lb ed="#V" n="17"/>honestum quam commodum possunt in
+            <lb ed="#V" n="18"/>eodem concurrere, licet respiciunt
+            diver<lb ed="#V" n="19" break="no"/>sam inclinationem voluntatis; de facto
+            <lb ed="#V" n="20"/>autem concurrunt in beatitudine, quae est
+            <lb ed="#V" n="21"/>summum honestum creaturae, et summum
+            <lb ed="#V" n="22"/>etiam commodum ejusdem, licet sub
+            di<lb ed="#V" n="23" break="no"/>versa ratione utrumque voluntatis
+            appe<lb ed="#V" n="24" break="no"/>titum satiant. Poena correspondens est
+            <lb ed="#V" n="25"/>privatio justitiae, quae opponitur bono
+            ho<lb ed="#V" n="26" break="no"/>nesto, et obstinatio in peccato dici potest.
+            <lb ed="#V" n="27"/>Poena correspondens bono convenienti
+            <lb ed="#V" n="28"/>commodo, est poena damni vel damnum,
+            <lb ed="#V" n="29"/>vel damnatio. Loquitur de poena, ut
+            con<lb ed="#V" n="30" break="no"/>sistit in carentia boni justitiae, et sic
+            prae<lb ed="#V" n="31" break="no"/>cise est obstinatio in peccato, quae est
+            <lb ed="#V" n="32"/>primaria miseria et principalis in
+            cre<lb ed="#V" n="33" break="no"/>atura rationali, ad quam sequitur etiam
+            <lb ed="#V" n="34"/>privatio commodi, nempe beatitudinis,
+            <lb ed="#V" n="35"/>qua commodum est.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>(e) Malum disconveniens in natura, etc.
+            <lb ed="#V" n="37"/>Declarat alterum membrum, in quo
+            con<lb ed="#V" n="38" break="no"/>sistit poena positiva ex malo
+            disconveni<lb ed="#V" n="39" break="no"/>enti, repetitis iis, quae supra disseruit
+            <lb ed="#V" n="40"/>d. 44. q. 2. quae ibidem declarata sunt.
+            <lb ed="#V" n="41"/>Dicit ergo nullam operationem absolute
+            <lb ed="#V" n="42"/>sumptam esse disconvenientem naturae
+            <lb ed="#V" n="43"/>mere intellectuali, ut Angelo et animae,
+            <lb ed="#V" n="44"/>quia omnis operatio est connaturalis his,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>et secundum inclinationem, quae operatio
+            <lb ed="#V" n="46"/>versatur circa objectum naturale ipsarum
+            <lb ed="#V" n="47"/>potentiarum. Nihil ergo invenitur, quod
+            <lb ed="#V" n="48"/>sit positive disconveniens, praeter
+            passi<lb ed="#V" n="49" break="no"/>onem aut operationem, non absolute, sed
+            <lb ed="#V" n="50"/>quatenus infert passionem talem, qua
+            <lb ed="#V" n="51"/>operatio ipsa est nolita, quia
+            universali<lb ed="#V" n="52" break="no"/>ter omne nolitum positum in esse est
+            <lb ed="#V" n="53"/>natum causare tristitiam ex se, et in
+            effe<lb ed="#V" n="54" break="no"/>ctu in potentia suae naturae relicta.
+            <lb ed="#V" n="55"/>In damnatis hujusmodi operatio nolita
+            <lb ed="#V" n="56"/>est detentio intensa intellectus in
+            conside<lb ed="#V" n="57" break="no"/>ratione ignis; et idem dicendum de
+            de<lb ed="#V" n="58" break="no"/>tentione spiritus in igne, quae potius est
+            <lb ed="#V" n="59"/>passio quam operatio. Tristitia autem ibi
+            <lb ed="#V" n="60"/>est quadruplex, duplex de privatione boni
+            <lb ed="#V" n="61"/>convenientis, tam honesti quam commodi;
+            <lb ed="#V" n="62"/>tristatur enim de peccato, quatenus est
+            <lb ed="#V" n="63"/>demeritum, quo privatur bono. Tristitia
+            <lb ed="#V" n="64"/>non est in damnato ex affectu justitiae,
+            <lb ed="#V" n="65"/>cujus nullum habet, sed quia peccatum
+            <lb ed="#V" n="66"/>est, quo privatur commodo, quod
+            arden<lb ed="#V" n="67" break="no"/>ter desiderat. Haec poena potest dici
+            ver<lb ed="#V" n="68" break="no"/>mis et remorsus, non quia peccatum, sed
+            <lb ed="#V" n="69"/>quia causa damni. Tristitia alia, quae est
+            <lb ed="#V" n="70"/>de carentia boni commodi, recte dicitur
+            <lb ed="#V" n="71"/>absorptiva, quia desiderium maxime inest
+            <lb ed="#V" n="72"/>naturae sui commodi, quando non
+            regula<lb ed="#V" n="73" break="no"/>tur affectu justitiae. Poenam tandem
+            du<lb ed="#V" n="74" break="no"/>pliciter dici posse asserit, nempe ut sit
+            <lb ed="#V" n="75"/>poena de damno, id est, tristitia
+            conce<lb ed="#V" n="76" break="no"/>pta de damno, vel ut ipsum damnum, et
+            <lb ed="#V" n="77"/>carentia boni convenientis ex qua oritur
+            <lb ed="#V" n="78"/>ipsa tristitia. Primo sumitur transitive,
+            <lb ed="#V" n="79"/>secundo autem modo intransitive.
+            Du<lb ed="#V" n="80" break="no"/>plex etiam est poena sensus, nempe
+            de<lb ed="#V" n="81" break="no"/>tentionis in igne, ut loco et carcere, et
+            <lb ed="#V" n="82"/>etiam detentionis in igne ut objecto, de
+            <lb ed="#V" n="83"/>quibus satis dictum est d. 44. quaestione
+            <lb ed="#V" n="84"/>secunda; dubia quaedam de poena damni
+            <lb ed="#V" n="85"/>et sensus explicabimus infra d. 49. q. 7.
+            <lb ed="#V" n="86"/>et 50. q. 6.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d46q4-p4"> -->
+          <p>
+            <lb ed="#V" n="82" type="fixed=459"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>(f) De secundo articulo, etc. Suppositis
+            <lb ed="#V" n="84"/>iis, quae declaravit in primo articulo de
+            <lb ed="#V" n="85"/>poenis damnatorum, prosequitur causam,
+            <pb ed="#V" n="460"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>a qua insunt, et quomodo sunt a Deo.
+            <lb ed="#V" n="2"/>Quantum ad primam poenam, quae est
+            <lb ed="#V" n="3"/>obstinationis in peccato, dicit illius
+            cau<lb ed="#V" n="4" break="no"/>sam positivam non esse Deum, sed
+            tan<lb ed="#V" n="5" break="no"/>tum negativam, quatenus non remittit.
+            <lb ed="#V" n="6"/>Causa autem demeritoria hujus
+            remissi<lb ed="#V" n="7" break="no"/>onis est ipsa voluntas positive, et etiam
+            <lb ed="#V" n="8"/>negative, quia prius peccato demeruit
+            <lb ed="#V" n="9"/>Dei misericordiam et remissionem,
+            qua<lb ed="#V" n="10" break="no"/>tenus libere peccavit, et continuavit
+            pec<lb ed="#V" n="11" break="no"/>catum, vel actu, vel certe habitu, et sic
+            <lb ed="#V" n="12"/>meruerit a Deo deseri et derelinqui in
+            <lb ed="#V" n="13"/>peccato. Haec est assertio communis
+            <lb ed="#V" n="14"/>Theologorum, quam etiam docent in 2.
+            <lb ed="#V" n="15"/>dist. 7. ubi Doctor quaestione prima,
+            <lb ed="#V" n="16"/>quamvis D. Thomas 1. p. quaest. 61.
+            as<lb ed="#V" n="17" break="no"/>signet etiam causam ex parte Angelorum,
+            <lb ed="#V" n="18"/>ex immutabilitate eorum in modo
+            ope<lb ed="#V" n="19" break="no"/>randi, quae ibidem examinatur. Hic
+            pos<lb ed="#V" n="20" break="no"/>set esse locus disserendi de natura et
+            <lb ed="#V" n="21"/>causis, tam obcaecationis quam
+            obstina<lb ed="#V" n="22" break="no"/>tionis, in via et in patria; sed potior
+            lo<lb ed="#V" n="23" break="no"/>cus est tractandi hanc quaestionem suo
+            <lb ed="#V" n="24"/>loco in 2. d. 37. ad quam hanc
+            quaesti<lb ed="#V" n="25" break="no"/>onem remitto, de qua aliquid infra
+            di<lb ed="#V" n="26" break="no"/>cendum erit. Videatur Augustinus lib. 5.
+            <lb ed="#V" n="27"/>contra Julianum, cap. 3. epistola 105. Non
+            <lb ed="#V" n="28"/>enim, inquit, indurat Deus impertiendo
+            <lb ed="#V" n="29"/>malitiam, sed non impertiendo
+            miseri<lb ed="#V" n="30" break="no"/>cordiam, etc. et tract. 53. in Joannem,
+            <lb ed="#V" n="31"/>lib. 1. ad Simplicianum quaest. 2. Chrys.
+            <lb ed="#V" n="32"/>homilia 3. in epist. ad Romanos,
+            Damas<lb ed="#V" n="33" break="no"/>cenus lib. 4. fid. orthod. cap. 20.
+            Grego<lb ed="#V" n="34" break="no"/>rius 5. lib. Moralium cap. 13. Isidorus
+            <lb ed="#V" n="35"/>lib. 2. sentent. cap. 9. qui eamdem
+            cau<lb ed="#V" n="36" break="no"/>sam substractae misericordiae et desertae
+            <lb ed="#V" n="37"/>voluntatis pravae, assignant obdurationis.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Dicit secundo secundam poenam quae
+            <lb ed="#V" n="39"/>est privatio beatitudinis, non habere
+            <lb ed="#V" n="40"/>Deum ut causam positivam, sed
+            negati<lb ed="#V" n="41" break="no"/>vam, quia non conferentem beatitudinem
+            <lb ed="#V" n="42"/>ob demeritum creaturae. Utriusque ratio
+            <lb ed="#V" n="43"/>est, quia privationis non datur per se
+            <lb ed="#V" n="44"/>causa positiva per influxum, sed tantum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>negativa per ejus suspensionem. Aliarum
+            <lb ed="#V" n="46"/>duarum poenarum, quae consistunt in
+            po<lb ed="#V" n="47" break="no"/>sitivo, et spectant ad poenam sensus, Deus
+            <lb ed="#V" n="48"/>est causa positiva. Sic patet ex littera, et
+            <lb ed="#V" n="49"/>superius est explicatum dist. 44. quaest. 2.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d46q4-p5"> -->
+          <p>
+            <lb ed="#V" n="10" type="fixed=464"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>(g) De tertio articulo, etc. Prima
+            conclu<lb ed="#V" n="12" break="no"/>sio hujus articuli est: in Ista punitione
+            <lb ed="#V" n="13"/>damnatorum intervenire non solum
+            ju<lb ed="#V" n="14" break="no"/>stitiam late sumptam, ut definitur ab
+            An<lb ed="#V" n="15" break="no"/>selmo, sed etiam justitiam, prout respicit
+            <lb ed="#V" n="16"/>creaturam secundum exigentiam, qua
+            <lb ed="#V" n="17"/>juste ordinatur culpa per poenam. Haec
+            <lb ed="#V" n="18"/>conclusio est de fide, et patet ex locis
+            <lb ed="#V" n="19"/>Scripturae supra allatis et multis aliis, in
+            <lb ed="#V" n="20"/>in quibus Dei justitia commendatur.
+            Pro<lb ed="#V" n="21" break="no"/>bat Doctor discurrendo per singulas suas
+            <lb ed="#V" n="22"/>poenas. Quantum ad primam poenam non
+            <lb ed="#V" n="23"/>e est inflicta a Deo, neque posset juste
+            <lb ed="#V" n="24"/>infligi, quia Deus nequit esse auctor
+            <lb ed="#V" n="25"/>peccati, ut late probatur in 2. dist. 37.
+            <lb ed="#V" n="26"/>ubi noster Doctor late disserit, probans
+            <lb ed="#V" n="27"/>non esse austorem et causam peccati.
+            <lb ed="#V" n="28"/>Non Deus volens iniquitatem tu es, Psal. 5.
+            <lb ed="#V" n="29"/>Odio sunt Deo iniquus et iniquitas ejus.
+            <lb ed="#V" n="30"/>Sap. 14. Omne excrementum erroris odit
+            <lb ed="#V" n="31"/>Dominus, et non erit amabile diligentibus
+            <lb ed="#V" n="32"/>eum, Eccles. 15. Mundi sunt oculi tui, ne
+            <lb ed="#V" n="33"/>videas malum, et respicere ad iniquitatem
+            <lb ed="#V" n="34"/>non poteris, etc. Habacuc 1. et multa
+            simi<lb ed="#V" n="35" break="no"/>lia. Vide Auraus. 11. c. 23. Trident.
+            <lb ed="#V" n="36"/>Sess. 6. can. 6. Caeterum inquantum
+            pecca<lb ed="#V" n="37" break="no"/>tor deseritur in sua iniquitate a Deo, sic
+            <lb ed="#V" n="38"/>peccatum ejus continuatum et permanens
+            <lb ed="#V" n="39"/>est poena; quod probat ex Augustino in
+            <lb ed="#V" n="40"/>psal. 5. Cum punit Deus peccatores, malum
+            <lb ed="#V" n="41"/>suum non infert, sed suis malis malos
+            re<lb ed="#V" n="42" break="no"/>linquit, etc.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>Circa hoc esse potest dubium, quomodo
+            <lb ed="#V" n="44"/>peccatum possit esse poena, cum sit
+            <lb ed="#V" n="45"/>potius demeritum, ex quo inducitur
+            <lb ed="#V" n="46"/>poena, et ejus debitum per modum
+            retri<lb ed="#V" n="47" break="no"/>butionis, qua suo genere distingui videtur
+            <lb ed="#V" n="48"/>a demerito cui correspondet, ac proinde
+            <lb ed="#V" n="49"/>D. Thomas 1. 2. quaest. 87. art. 2.
+            Cajeta<lb ed="#V" n="50" break="no"/>nus, et alii, Durandus in 2. dist. 36.
+            Curi<lb ed="#V" n="51" break="no"/>el, et Medina, in D. Thomam Vasquez
+            <lb ed="#V" n="52"/>1. 2. disp. 140. negant unum peccatum
+            <lb ed="#V" n="53"/>esse poenam alterius, a fortiori posse esse
+            <lb ed="#V" n="54"/>poenam sui ipsius.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>Conclusio Doctoris docetur a Magistro
+            <lb ed="#V" n="56"/>in 2. disp. 36. ubi D. Bonaventura art. 2.
+            <lb ed="#V" n="57"/>q. 1. Richardus, Gabriel art. 2. concl. 1.
+            <lb ed="#V" n="58"/>et 3. Patet ex Paulo ad Romanos 1.
+            Tra<lb ed="#V" n="59" break="no"/>didit Deus eos in passiones ignominiae, etc.
+            <lb ed="#V" n="60"/>ad Thessal. 2. Mittet illis operationem
+            <lb ed="#V" n="61"/>erroris. Apocal. 1. Qui in sordibus est,
+            <lb ed="#V" n="62"/>sordescat adhuc. Psal. 68. Appone
+            ini<lb ed="#V" n="63" break="no"/>quitatem super iniquitatem eorum, etc.
+            <lb ed="#V" n="64"/>Patet idem ex Patribus in praefata loca, et
+            <lb ed="#V" n="65"/>Augustino locis supra citatis, qui
+            univer<lb ed="#V" n="66" break="no"/>sim asserunt obdurationem et
+            obcaeca<lb ed="#V" n="67" break="no"/>tionem esse in poenam peccati. Haec
+            au<lb ed="#V" n="68" break="no"/>tem contingunt peccando, et quatenus
+            <lb ed="#V" n="69"/>voluntas derelinquitur sibi ob peccatum
+            <lb ed="#V" n="70"/>commissum, ut patet ex loco Pauli citato;
+            <lb ed="#V" n="71"/>ergo potest peccatum esse poena.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>Confirmatur ratione, quia peccatum
+            <lb ed="#V" n="73"/>est maximum damnum quod potest
+            eve<lb ed="#V" n="74" break="no"/>nire, et principalis miseria; ergo ea
+            rati<lb ed="#V" n="75" break="no"/>one, qua potest peccatum esse a Deo,
+            po<lb ed="#V" n="76" break="no"/>test esse poena. Probatur consequentia
+            <lb ed="#V" n="77"/>quia ad poenam nihil aliud requiritur,
+            ni<lb ed="#V" n="78" break="no"/>si quod sit disconveniens et involuntaria
+            <lb ed="#V" n="79"/>patienti. Sed peccatum est disconveniens,
+            <lb ed="#V" n="80"/>est etiam involuntarium, quia voluntas
+            <lb ed="#V" n="81"/>non vult, neque velle potest peccatum
+            <lb ed="#V" n="82"/>formaliter, qua peccatum est, imo non
+            <lb ed="#V" n="83"/>vult peccatum quantum ad explicitum
+            <lb ed="#V" n="84"/>affectum, qua peccatum, quia licet velit
+            <lb ed="#V" n="85"/>absolute subtractum ex affectu commodi
+            <lb ed="#V" n="86"/>et delectabilis, tamen ex eodem affectu
+            <pb ed="#V" n="465"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>vellet non esse peccatum propter
+            incom<lb ed="#V" n="2" break="no"/>modum, quod inde sequitur divinae
+            com<lb ed="#V" n="3" break="no"/>minationis et poenae, et praeterea propter
+            <lb ed="#V" n="4"/>dispendium quod incurritur per ipsum
+            <lb ed="#V" n="5"/>peccatum ob turpitudinem peccati, cui
+            <lb ed="#V" n="6"/>repugnat conscientia et lex, sicut qui
+            <lb ed="#V" n="7"/>projicit merces in mare, quamvis
+            volun<lb ed="#V" n="8" break="no"/>tarie projicit ad salvandam vitam, tamen
+            <lb ed="#V" n="9"/>secundum quid est involuntarius, ita ut
+            <lb ed="#V" n="10"/>in eo causetur tristitia, magis est
+            repu<lb ed="#V" n="11" break="no"/>gnantia ad peccatum, quod neque
+            for<lb ed="#V" n="12" break="no"/>maliter et explicite potest voluntas velle,
+            <lb ed="#V" n="13"/>sicut et potest projicere merces; ergo
+            <lb ed="#V" n="14"/>peccatum ut est damnum animae, habet
+            <lb ed="#V" n="15"/>rationem poenae involuntariae in eo gradu,
+            <lb ed="#V" n="16"/>quo non solum est damnum et
+            nocumen<lb ed="#V" n="17" break="no"/>tum simpliciter, sed etiam qua causat
+            <lb ed="#V" n="18"/>tristitiam, et inducit poenam, et
+            dispen<lb ed="#V" n="19" break="no"/>dium commodi, quod effectat voluntas;
+            <lb ed="#V" n="20"/>sed sic est a Deo deserente peccatorem,
+            <lb ed="#V" n="21"/>ergo erit poena.
+            <lb ed="#V" n="22"/>Dices non esse a Deo positive, vel per
+            <lb ed="#V" n="23"/>modum causae positivae affligentis poenam,
+            <lb ed="#V" n="24"/>quod requiritur ad poenam, quae est
+            ordi<lb ed="#V" n="25" break="no"/>natio culpae ex justitia. Contra, hoc non
+            <lb ed="#V" n="26"/>requiritur ad veram rationem poenae, quia
+            <lb ed="#V" n="27"/>sufficit voluntas permissiva, aut
+            subtra<lb ed="#V" n="28" break="no"/>hens bonum ex demerito, et ob
+            demeri<lb ed="#V" n="29" break="no"/>tum peccatoris, quia sic poena, damni
+            <lb ed="#V" n="30"/>proprie est poena, quatenus Deus
+            subtra<lb ed="#V" n="31" break="no"/>hit beatitudinem ob peccatum; ergo
+            simi<lb ed="#V" n="32" break="no"/>liter Deus subtrahens sua auxilia, et sic
+            de<lb ed="#V" n="33" break="no"/>relinquens peccatorem ob peccatum
+            com<lb ed="#V" n="34" break="no"/>missum, vere punit poena privativa, ex
+            <lb ed="#V" n="35"/>qua sequitur damnum, et tristitia ac
+            mi<lb ed="#V" n="36" break="no"/>seria in peccatore, quatenus ipsum,
+            sub<lb ed="#V" n="37" break="no"/>tracta misericordia, sine qua non potest
+            <lb ed="#V" n="38"/>liberari, ob peccatum sibi relinquit.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Confirmatur secundo, quia obcaecatio
+            <lb ed="#V" n="40"/>et induratio sunt poena peccati, ut omnes
+            <lb ed="#V" n="41"/>concedunt; sed eatenus praecise sunt
+            <lb ed="#V" n="42"/>poena, quatenus deseritur per
+            subtracti<lb ed="#V" n="43" break="no"/>onem misericordiae Dei quoad gratiam et
+            <lb ed="#V" n="44"/>beneficium ob demeritum ejus; ergo
+            om<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>ne damnum inde resultans peccatori erit
+            <lb ed="#V" n="46"/>in poenam peccati, ergo et peccatum,
+            <lb ed="#V" n="47"/>quod inde committit; et idem est de
+            <lb ed="#V" n="48"/>perseverantia in eodem peccato; finis
+            <lb ed="#V" n="49"/>enim desertionis ex parte Dei est justa
+            <lb ed="#V" n="50"/>retributio ob peccatum commissum in
+            <lb ed="#V" n="51"/>poenam ejus. Quod probatur ex scopo
+            <lb ed="#V" n="52"/>praesentis quaestionis, quia universae viae
+            <lb ed="#V" n="53"/>Domini misericordia et judicium; ergo
+            <lb ed="#V" n="54"/>desertio peccatoris erit ex altera harum;
+            <lb ed="#V" n="55"/>sed non potest esse ex misericordia juxta
+            <lb ed="#V" n="56"/>superius dicta; ergo erit ex justitia;
+            er<lb ed="#V" n="57" break="no"/>go in poenam, scilicet privativam, de qua
+            <lb ed="#V" n="58"/>loquimur, per subtractionem beneficii ob
+            <lb ed="#V" n="59"/>peccatum.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Ex his patet ad fundamenta oppositae
+            <lb ed="#V" n="61"/>sententiae. Objiciunt peccatum non
+            in<lb ed="#V" n="62" break="no"/>fligi a Deo, poenam autem infligi ab
+            <lb ed="#V" n="63"/>eodem; ergo peccatum non potest esse
+            <lb ed="#V" n="64"/>poena. Respondetur, concedendo
+            antece<lb ed="#V" n="65" break="no"/>dens pro prima parte, et distinguendo
+            <lb ed="#V" n="66"/>pro secunda; quoad poenam positivam
+            <lb ed="#V" n="67"/>concedo, quoad privativam nego, si
+            lo<lb ed="#V" n="68" break="no"/>quatur de inflictione positiva, quae fit
+            <lb ed="#V" n="69"/>per applicationem mali disconvenientis,
+            <lb ed="#V" n="70"/>privativa autem, quae est poena, et ex
+            <lb ed="#V" n="71"/>motivo justitiae vindicativae per
+            subtracti<lb ed="#V" n="72" break="no"/>onem boni infligitur. Duplex autem potest
+            <lb ed="#V" n="73"/>esse in Deo, vel est de facto suspensio
+            <lb ed="#V" n="74"/>voluntatis respectu peccati, nam est
+            per<lb ed="#V" n="75" break="no"/>missio quae respicit generales regulas
+            pro<lb ed="#V" n="76" break="no"/>videntiae ejus, et est necessaria ad usum
+            <lb ed="#V" n="77"/>libertatis ex parte creaturae, et sic Deus
+            <lb ed="#V" n="78"/>proxime dicitur se habere, ut causa
+            uni<lb ed="#V" n="79" break="no"/>versalis ad peccatum, qui concursus ejus
+            <lb ed="#V" n="80"/>dicitur proprie permissio, et sic peccatum,
+            <lb ed="#V" n="81"/>ut est ex hac permissione, non est poena
+            <lb ed="#V" n="82"/>a Deo inflicta; sed malum, quod ipsa
+            <lb ed="#V" n="83"/>creatura sibi accersit per libertatis
+            abu<lb ed="#V" n="84" break="no"/>sum, qua repugnat imperio et voluntati
+            <lb ed="#V" n="85"/>Dei. Alia est suspensio voluntatis divinae,
+            <lb ed="#V" n="86"/>quatenus in poenam peccati commissi
+            <lb ed="#V" n="87"/>subtrahit beneficium suae misericordiae,
+            <lb ed="#V" n="88"/>sive praeveniens, sive liberans, quod
+            ne<pb ed="#V" n="466"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>cessarium est in eventu ad fugam peccati,
+            <lb ed="#V" n="2"/>sive per debitam poenitentiam, si est
+            in<lb ed="#V" n="3" break="no"/>cursum, sive per praeventionem ne
+            incur<lb ed="#V" n="4" break="no"/>ratur; hic autem est actus justitiae
+            vin<lb ed="#V" n="5" break="no"/>dicantis, et proprie dicitur desertio aut
+            <lb ed="#V" n="6"/>derelictio peccatoris in malo, et propter
+            <lb ed="#V" n="7"/>malum; unde peccatum novum aut
+            conti<lb ed="#V" n="8" break="no"/>nuatum, est ex ea tanquam poena, quae
+            <lb ed="#V" n="9"/>sequitur ex subtractione auxilii privative,
+            <lb ed="#V" n="10"/>non autem positive, sed ex demerito
+            vo<lb ed="#V" n="11" break="no"/>luntatis pravae et derelictae lin suis
+            iniqui<lb ed="#V" n="12" break="no"/>tatibus et viis pravis, quod damnum
+            in<lb ed="#V" n="13" break="no"/>currit ex suo demerito.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Objiciunt secundo, poena est ad
+            repa<lb ed="#V" n="15" break="no"/>rationem ordinis destructi per peccatum;
+            <lb ed="#V" n="16"/>sed hoc non convenit peccato, ergo neque
+            <lb ed="#V" n="17"/>esse poenam, etc. Respondetur, vel
+            intel<lb ed="#V" n="18" break="no"/>ligi esse reparationem rectitudinis perditae
+            <lb ed="#V" n="19"/>in specie per peccatum; et hoc est
+            fal<lb ed="#V" n="20" break="no"/>sum, quia nulla poena damnati restituit
+            <lb ed="#V" n="21"/>ordinem hoc modo, seu rectitudinem
+            vo<lb ed="#V" n="22" break="no"/>luntatis damnati in ordine ad se, vel etiam
+            <lb ed="#V" n="23"/>Deum, aut universum; vel intelligitur
+            <lb ed="#V" n="24"/>quod sit reparatio ordinis in alio genere
+            <lb ed="#V" n="25"/>per satisfactionem legis et justitiae seu
+            <lb ed="#V" n="26"/>debiti, et sic minor negatur, quia sicut
+            <lb ed="#V" n="27"/>ob ingratitudinem repeti et auferri potest
+            <lb ed="#V" n="28"/>beneficium ab ingrato, ita etiam ob
+            ingra<lb ed="#V" n="29" break="no"/>titudinem contemptae legis potest Deus
+            <lb ed="#V" n="30"/>subtrahere sua beneficia, saltem
+            supera<lb ed="#V" n="31" break="no"/>bundantia a peccatore, quod declarat
+            <lb ed="#V" n="32"/>talentorum parabola; nam ab eo qui non
+            <lb ed="#V" n="33"/>fecit fructum subtraxit Dominus talentum,
+            <lb ed="#V" n="34"/>et tradidit alteri, et declarat etiam
+            com<lb ed="#V" n="35" break="no"/>minatio illa Salvatoris: Auferetur a vobis
+            <lb ed="#V" n="36"/>regnum, et dabitur genti facienti fructum.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Objiciunt tertio, de ratione poenae esse,
+            <lb ed="#V" n="38"/>.ut noceat in aliquo pertinente ad
+            integri<lb ed="#V" n="39" break="no"/>tatem, de ratione vero culpae, ut noceat
+            <lb ed="#V" n="40"/>tantum in operationes. Respondetur,
+            ne<lb ed="#V" n="41" break="no"/>gando antecedens, quia poena etiam
+            con<lb ed="#V" n="42" break="no"/>sistit in operatione, neque ad eam spectat
+            <lb ed="#V" n="43"/>aliud quam quod sit passio perceptibilis
+            <lb ed="#V" n="44"/>inconvenientis, ut patet ex Augustino
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>variis in locis, ut lib. 5. contra Julianum
+            <lb ed="#V" n="46"/>cap. 3. lib. 3. de libero arbitrio cap. 17.
+            <lb ed="#V" n="47"/>et 18. lib. 1. Retract, cap. 9. de natura,
+            <lb ed="#V" n="48"/>et gralia cap. 22. Sive ergo pertineat ad
+            <lb ed="#V" n="49"/>actum primum, aut actum secundum, hoc
+            <lb ed="#V" n="50"/>malum, non refert, modo sequatur ex
+            <lb ed="#V" n="51"/>justitia vindicante, nam sic est poena
+            <lb ed="#V" n="52"/>damni, et poena sensus; illa quantum ad
+            <lb ed="#V" n="53"/>privationem, haec quantum ad positivam
+            <lb ed="#V" n="54"/>inflictionem mediante operatione. Deinde,
+            <lb ed="#V" n="55"/>etiam subtractio gratiae sanctificantis et
+            <lb ed="#V" n="56"/>auxiliantis spectat ad actum primum, quae
+            <lb ed="#V" n="57"/>subtractio est ob demeritum peccati.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Dices, peccatum non deprimit
+            peccato<lb ed="#V" n="59" break="no"/>rem, neque subjicit potestati ejus, contra
+            <lb ed="#V" n="60"/>quem rebellavit per peccatum.
+            Responde<lb ed="#V" n="61" break="no"/>tur, omnino deprimere et reddere
+            obno<lb ed="#V" n="62" break="no"/>xium potestati vindicanti quoad omnem
+            <lb ed="#V" n="63"/>poenam lege statutam, quarum una est
+            <lb ed="#V" n="64"/>privativa, qua deseritur ob demeritum
+            <lb ed="#V" n="65"/>peccati, et sic maneat in illo sordescens,
+            <lb ed="#V" n="66"/>vel etiam accumulat alia. Dices, poena
+            pro<lb ed="#V" n="67" break="no"/>prie peccato debita est illa, ad quam
+            com<lb ed="#V" n="68" break="no"/>pelli potest peccator; sed ad peccatum
+            <lb ed="#V" n="69"/>nequit compelli, ergo nequit esse poena.
+            <lb ed="#V" n="70"/>Respondetur, compulsionem intelligi posse
+            <lb ed="#V" n="71"/>dupliciter: Primo, ut ex justitia, et m
+            <lb ed="#V" n="72"/>poenam incurritur damnuum, vel ut
+            inter<lb ed="#V" n="73" break="no"/>venit coactio praedominans voluntati
+            repu<lb ed="#V" n="74" break="no"/>gnanti peccatoris, quae sit mere
+            necessa<lb ed="#V" n="75" break="no"/>ria; secundo modo, spectat ad poenam
+            <lb ed="#V" n="76"/>positivam sensus. Priori modo ad poenam
+            <lb ed="#V" n="77"/>privativam subtracti boni et misericordiae
+            <lb ed="#V" n="78"/>deserendo peccatorem ut obnoxius est
+            <lb ed="#V" n="79"/>justitiae, prout lex decernit et haec licet sit
+            <lb ed="#V" n="80"/>compulsio improprie dicta, est dispendium
+            <lb ed="#V" n="81"/>incursum ob demeritum. Conclusionem
+            <lb ed="#V" n="82"/>admittit D. Thomas in praesenti dist. q. 3.
+            <lb ed="#V" n="83"/>et quaest. de malo, et forte reduci potest
+            <lb ed="#V" n="84"/>difficultas ad quaestionem de nomine,
+            <lb ed="#V" n="85"/>quia Magister et Doctor cum caeteris, quos
+            <lb ed="#V" n="86"/>pro conclusione citavimus, intelligunti
+            <lb ed="#V" n="87"/>poenam non in illa stricta acceptione,
+            <lb ed="#V" n="88"/>qua alii, ut condistinguitur a culpa, et
+            <lb ed="#V" n="89"/>mere habet rationem poenae.
+          </p>
+          <p>
+            <pb ed="#V" n="467"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Conclusionem positivam declarat
+            opti<lb ed="#V" n="2" break="no"/>me Doctor, nempe juste deseri
+            peccato<lb ed="#V" n="3" break="no"/>rem ob peccatum commissum, quod
+            pec<lb ed="#V" n="4" break="no"/>catum licet ut committitur, non habeat
+            <lb ed="#V" n="5"/>rationem poenae, sed demeriti, tamen ut
+            <lb ed="#V" n="6"/>derelicto peccatore, aut ob demeritum
+            <lb ed="#V" n="7"/>ipsum continuatur peccatum in actu vel
+            <lb ed="#V" n="8"/>habitu, est poena sui ipsius, ut praecessit
+            <lb ed="#V" n="9"/>per modum demeriti; juste enim, inquit
+            <lb ed="#V" n="10"/>Doctor, derelinquit, vel non remittit
+            pec<lb ed="#V" n="11" break="no"/>catum Deus, sive quia voluntas continue
+            <lb ed="#V" n="12"/>male vult, sive quia usque ad terminum
+            <lb ed="#V" n="13"/>viae permansit in peccato sine
+            poeniten<lb ed="#V" n="14" break="no"/>tia, quod tamen tempus fuit sibi praecise
+            <lb ed="#V" n="15"/>taxatum ad poenitentiam; sive tertio, quia
+            <lb ed="#V" n="16"/>peccavit in via, ubi demeruit sic
+            derelin<lb ed="#V" n="17" break="no"/>qui. Primum ergo est justum, propter
+            <lb ed="#V" n="18"/>continuatam et multiplicatam malitiam;
+            <lb ed="#V" n="19"/>secundum est justum, propter
+            contem<lb ed="#V" n="20" break="no"/>ptum poenitentiae debitae pro tempore viae
+            <lb ed="#V" n="21"/>praescripto; tertium est justum, propter
+            <lb ed="#V" n="22"/>temeritatem peccatoris, qui seipsum
+            prae<lb ed="#V" n="23" break="no"/>cipitavit voluntarie in eum statum, a quo
+            <lb ed="#V" n="24"/>liberari nequit, nisi ab eo quem
+            contem<lb ed="#V" n="25" break="no"/>psit et offendit. Ex viribus propriis nequit
+            <lb ed="#V" n="26"/>voluntas resurgere a peccato, et sic
+            vo<lb ed="#V" n="27" break="no"/>luntarie redditur impotens, nisi per
+            grati<lb ed="#V" n="28" break="no"/>am Dei miserentis et sanantis, quem
+            sic<lb ed="#V" n="29" break="no"/>ut contempsit et offendit peccando, sic
+            <lb ed="#V" n="30"/>etiam juste subtrahit ei misericordiam.
+            <lb ed="#V" n="31"/>Hic adverto quomodo Doctor salvat
+            neces<lb ed="#V" n="32" break="no"/>sitatem divinae gratiae ad resurgendum a
+            <lb ed="#V" n="33"/>peccato, et causam praecisam
+            impossibili<lb ed="#V" n="34" break="no"/>tatis poenitendi reducit in subtractionem
+            <lb ed="#V" n="35"/>gratiae divinae ob demeritum; unde
+            eva<lb ed="#V" n="36" break="no"/>cuatur calumnia, quae ei intentatur d. 14.
+            <lb ed="#V" n="37"/>q. 2. prout ibi etiam diluitur. Adducit
+            eti<lb ed="#V" n="38" break="no"/>am exemplum morale satis
+            accommoda<lb ed="#V" n="39" break="no"/>tum, de eo qui se voluntarie in foveam
+            <lb ed="#V" n="40"/>praecipitat, unde nequit exire sine
+            adjuto<lb ed="#V" n="41" break="no"/>rio ejus, quem se projiciendo contempsit
+            <lb ed="#V" n="42"/>et offendit, a quo proinde juste
+            contemni<lb ed="#V" n="43" break="no"/>tur.
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>(h) Haec tria ad propositum satis
+            pa<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>tent, etc. Reducit dicta ad scopum
+            quaesti<lb ed="#V" n="46" break="no"/>onis, quatenus probet hanc poenam, quae
+            <lb ed="#V" n="47"/>est peccati justam esse in damnato,
+            quate<lb ed="#V" n="48" break="no"/>nus deseritur a Deo. Primo, quia damnatus
+            <lb ed="#V" n="49"/>est continuo in aliquo malo velle. Hoc
+            pa<lb ed="#V" n="50" break="no"/>tet ex illo Psalmi 73. Superbia eorum qui
+            <lb ed="#V" n="51"/>te oderunt ascendit semper, etc. et de
+            dae<lb ed="#V" n="52" break="no"/>mone quidem dicit Joannes in 1.
+            Cano<lb ed="#V" n="53" break="no"/>nica c. 3. ab initio diabolus peccat, etc.
+            <lb ed="#V" n="54"/>Quod ita exponit Augustinus lib. 11. de
+            <lb ed="#V" n="55"/>Civitate cap. 13. ab initio sui peccati, vel
+            <lb ed="#V" n="56"/>ex quo lapsus est semper peccare, et
+            nul<lb ed="#V" n="57" break="no"/>lam habere aut habuisse bonam
+            volunta<lb ed="#V" n="58" break="no"/>tem; quod etiam docet Fulgentius de fide
+            <lb ed="#V" n="59"/>ad Petrum cap. 3. de Daemonibus
+            univer<lb ed="#V" n="60" break="no"/>sim: Omnes, inquit, illi praevaricatores
+            <lb ed="#V" n="61"/>Angeli, nec mala possunt unquam voluntate
+            <lb ed="#V" n="62"/>carere, nec poena, sed permanente in eis
+            <lb ed="#V" n="63"/>injustae aversionis malo, permaneret etiam
+            <lb ed="#V" n="64"/>justae retributionis aeterna damnatio, et
+            <lb ed="#V" n="65"/>ante. Ac de Angelis quidem disposuit et
+            im<lb ed="#V" n="66" break="no"/>plevit, ut si quis eorum bonitatem
+            volun<lb ed="#V" n="67" break="no"/>tatis perderet, nunquam eam divino
+            mu<lb ed="#V" n="68" break="no"/>nere repararet, etc. Et infra: Nullum
+            An<lb ed="#V" n="69" break="no"/>gelorum, ex quo ruinae suae merito e coelo
+            <lb ed="#V" n="70"/>ejecti sunt, bonam posse resumere
+            volunta<lb ed="#V" n="71" break="no"/>tem, etc. Sic etiam patet ex communi lege
+            <lb ed="#V" n="72"/>de reliquis damnatis, quibus nulla est
+            <lb ed="#V" n="73"/>bona voluntas in termino, quia eam
+            con<lb ed="#V" n="74" break="no"/>tempserunt in via. Ad Gal. 6. Dum tempus
+            <lb ed="#V" n="75"/>habemus, operemur bonum, etc. nempe in
+            <lb ed="#V" n="76"/>via ubi est tempus concessum dumtaxat;
+            <lb ed="#V" n="77"/>Joan. 9. Neque opus, neque ratio, neque
+            <lb ed="#V" n="78"/>sapientia, neque scientia erunt apud
+            Infe<lb ed="#V" n="79" break="no"/>ros, etc. Prosper lib. 3. de vita
+            contempla<lb ed="#V" n="80" break="no"/>tiva cap. 12. dicit, ideo Christus ait
+            dam<lb ed="#V" n="81" break="no"/>natos ligatis pedibus et manibus mitti in
+            <lb ed="#V" n="82"/>tenebras exteriores, quia in Inferno ubi
+            <lb ed="#V" n="83"/>nemo Deo confitetur, actione
+            privan<lb ed="#V" n="84" break="no"/>tur, etc. Bernadus etiam epistola 253.
+            di<lb ed="#V" n="85" break="no"/>cit damnatos semper persistere in mala
+            <lb ed="#V" n="86"/>voluntate.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>Dubium est an detur causa vel
+            extrin<lb ed="#V" n="88" break="no"/>seca vel intrinseca hujus malae voluntatis
+            <pb ed="#V" n="468"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>et obstinationis in peccato actuali, ita ut
+            <lb ed="#V" n="2"/>necessario semper damnatus habeat actum
+            <lb ed="#V" n="3"/>malum et non libere, per causam
+            ali<lb ed="#V" n="4" break="no"/>quam positivam necessitantem. Triplex
+            <lb ed="#V" n="5"/>potest in damnato volitio considerari:
+            Pri<lb ed="#V" n="6" break="no"/>ma, quae est ad bonum naturae, et dicitur
+            <lb ed="#V" n="7"/>naturalis, ut distinguitur a meritoria et
+            <lb ed="#V" n="8"/>morali circumstantionata in genere moris
+            <lb ed="#V" n="9"/>et honestatis. De tribus his disseritur in 2.
+            <lb ed="#V" n="10"/>dist. 7. de obstinatione malorum
+            Ange<lb ed="#V" n="11" break="no"/>lorum; quaestio autem communis est
+            om<lb ed="#V" n="12" break="no"/>nibus damnatis, ut sunt in termino, de
+            <lb ed="#V" n="13"/>quibus dicunt praedicti Patres semper esse
+            <lb ed="#V" n="14"/>in prava voluntate et peccaminosa, ita ut
+            <lb ed="#V" n="15"/>nunquam recte agant, etiam moraliter,
+            <lb ed="#V" n="16"/>de causa ejus positiva, et etiam privativa,
+            <lb ed="#V" n="17"/>variant Doctores. In primis citatur a
+            mo<lb ed="#V" n="18" break="no"/>dernis Doctor in 2. distinct. 7. quaest. unic.
+            <lb ed="#V" n="19"/>-quasi docuerit non solum posse habere
+            <lb ed="#V" n="20"/>aliquos actus bonos moraliter, quantum
+            <lb ed="#V" n="21"/>est ex parte principii. Sed etiam habere
+            <lb ed="#V" n="22"/>de facto aliquos recte circumstantionatos.
+            <lb ed="#V" n="23"/>Citantur etiam Bassolis, Tartaretus,
+            An<lb ed="#V" n="24" break="no"/>gles, in hanc sententiam. Alii dicunt
+            An<lb ed="#V" n="25" break="no"/>gelum destitutum gratia non posse
+            ali<lb ed="#V" n="26" break="no"/>quid velle supra seipsum, ac proinde
+            ne<lb ed="#V" n="27" break="no"/>cessario semper inordinate seipsum amat.
+            <lb ed="#V" n="28"/>Ita AEgidius in ead. dist. quaest. 1. art. 1.
+            <lb ed="#V" n="29"/>in fine. Vasquez eamdem sententiam
+            de<lb ed="#V" n="30" break="no"/>fendit 1. part. disputat. 241. cap. 4. sed
+            <lb ed="#V" n="31"/>alia via quatenus efficaciam et
+            necessi<lb ed="#V" n="32" break="no"/>tatem gratiae reducit ad cogitationem
+            con<lb ed="#V" n="33" break="no"/>gruam necessariam ad omne bonum
+            mo<lb ed="#V" n="34" break="no"/>,rale. Aliter defendunt, nempe causam
+            <lb ed="#V" n="35"/>esse, quia privatur concursu generali Dei
+            <lb ed="#V" n="36"/>et necessario ad actum bonum morale.
+            <lb ed="#V" n="37"/>Ita Marsilius in 2. d. 5. art. 3. post. 4.
+            <lb ed="#V" n="38"/>concl. Palud. in 4. d. 50. quaest. unic.
+            <lb ed="#V" n="39"/>Molon. 1. part. quaest. 64. art. 2. Alii
+            <lb ed="#V" n="40"/>reducunt hanc impossibilitatem in causam
+            <lb ed="#V" n="41"/>positivam intrinsecam, nempe in habitum
+            <lb ed="#V" n="42"/>praedominantem voluntati damnati, cui
+            re<lb ed="#V" n="43" break="no"/>sistere nequit, et semper inclinantem ad
+            <lb ed="#V" n="44"/>malum, qui habitus infunditur a Deo. Alii
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>hanc positivam causam reducunt in actum
+            <lb ed="#V" n="46"/>quemdam necessarium, qui nequit
+            sus<lb ed="#V" n="47" break="no"/>pendi a voluntate, et ita repugnantem
+            <lb ed="#V" n="48"/>actui bono, ut cum eo consistere non
+            pos<lb ed="#V" n="49" break="no"/>sit, et ad quem Deus necessitat, vel
+            prae<lb ed="#V" n="50" break="no"/>veniendo, vel solus producendo
+            volun<lb ed="#V" n="51" break="no"/>tate passive se habente; ita Gabriel. q.
+            <lb ed="#V" n="52"/>1. art. 1. Occham quaest. 10. et quodlib.
+            <lb ed="#V" n="53"/>1. quaest. 14.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Alii denique dicunt causam positivam
+            <lb ed="#V" n="55"/>obstinationis esse primam electionem in
+            <lb ed="#V" n="56"/>Angelo, cui adhaeret immobiliter et
+            ne<lb ed="#V" n="57" break="no"/>cessario, quia habet inflexibilem
+            volun<lb ed="#V" n="58" break="no"/>tatem supposita electione prima; cum
+            er<lb ed="#V" n="59" break="no"/>go sit mala, dicunt reliquas in virtute ejus
+            <lb ed="#V" n="60"/>procedere, et sic necessario esse malos.
+            <lb ed="#V" n="61"/>D. Thomas, 1. part. quaest. cit. art. 2.
+            <lb ed="#V" n="62"/>et in 2. distinct. 7. quaest. 1. art. 2.
+            <lb ed="#V" n="63"/>quaest. 24. de veritate, art. 10. et 11. Cajet.
+            <lb ed="#V" n="64"/>1. part. quaest. 64. art. 2. Ferrarien. 4.
+            <lb ed="#V" n="65"/>contra Gentes, cap. 95. et Richard. in 2.
+            <lb ed="#V" n="66"/>dist. 7. Quod si objiciatur hanc causam
+            <lb ed="#V" n="67"/>non inveniri in anima damnata; ergo
+            <lb ed="#V" n="68"/>quidquid ad obstinationem sufficit in
+            ani<lb ed="#V" n="69" break="no"/>ma damnata, sufficit in daemone.
+            Respon<lb ed="#V" n="70" break="no"/>det Cajetanus non esse eamdem
+            rati<lb ed="#V" n="71" break="no"/>onem immutabilitatis in anima et Angelo:
+            <lb ed="#V" n="72"/>tandem admittit etiam animam damnatam
+            <lb ed="#V" n="73"/>esse inflexibilem, et in primo instanti quo
+            <lb ed="#V" n="74"/>separatur a corpore, peccare, et
+            immo<lb ed="#V" n="75" break="no"/>biliter inhaerere tali peccato.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Dico primo, Doctorem non esse in illa
+            <lb ed="#V" n="77"/>sententia quae imponitur eidem a
+            mo<lb ed="#V" n="78" break="no"/>dernis, qui potius sententiam Doctoris
+            <lb ed="#V" n="79"/>amplectuntur, et alienam ab ea quam
+            do<lb ed="#V" n="80" break="no"/>cet, eidem imponunt. Quaerit enim Doctor
+            <lb ed="#V" n="81"/>de triplici bonitate praemissa, naturali,
+            me<lb ed="#V" n="82" break="no"/>ritoria et morali, utrum actus possit esse
+            <lb ed="#V" n="83"/>in Daemone bonus aliqua bonitate ex his.
+            <lb ed="#V" n="84"/>De prima bonitate asserit Daemonem
+            ha<lb ed="#V" n="85" break="no"/>bere actum de bono sibi convenienti, ut
+            <lb ed="#V" n="86"/>amando se, odiendo poenam, 8 de secundo
+            <lb ed="#V" n="87"/>dico, etc. Et quantum ad bonitatem
+            me<lb ed="#V" n="88" break="no"/>ritoriam, distinguit hoc quod est habere
+            <pb ed="#V" n="469"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>potentiam, intelligi posse de potentia
+            lo<lb ed="#V" n="2" break="no"/>gica aut reali; si de reali, vel intelligi
+            <lb ed="#V" n="3"/>de potentia ut est principium actus, vel
+            <lb ed="#V" n="4"/>ut est differentia entis, ut scilicet
+            incli<lb ed="#V" n="5" break="no"/>natur active, vel passive ad actum
+            tan<lb ed="#V" n="6" break="no"/>quam ad formam, negat potentiam
+            tota<lb ed="#V" n="7" break="no"/>lem ad actum meritorium in Angelo
+            dam<lb ed="#V" n="8" break="no"/>nato, quia deest gratia, quae non est in
+            <lb ed="#V" n="9"/>potestate ejus, et requiritur ad volitionem
+            <lb ed="#V" n="10"/>meritoriam, cujus voluntas est principium
+            <lb ed="#V" n="11"/>tantum partiale. Negat etiam potentiam
+            <lb ed="#V" n="12"/>tanquam differentiam entis modo dicto;
+            <lb ed="#V" n="13"/>negat, inquam, proximam, quia aliud
+            com<lb ed="#V" n="14" break="no"/>principium deest, et ulterius
+            impedimen<lb ed="#V" n="15" break="no"/>tum peccati supponitur, quod non est
+            <lb ed="#V" n="16"/>in potestate voluntatis tollere. Negat
+            eti<lb ed="#V" n="17" break="no"/>am Logicam potentiam, non ex
+            repugnan<lb ed="#V" n="18" break="no"/>tia simpliciter terminorum ab intrinseco.
+            <lb ed="#V" n="19"/>aut etiam ab extrinseco secundum
+            po<lb ed="#V" n="20" break="no"/>tentiam Dei absolutam, quia Deus de
+            po<lb ed="#V" n="21" break="no"/>tentia absoluta posset salvare damnatum
+            <lb ed="#V" n="22"/>et dare ei gratiam, et caetera requisita
+            <lb ed="#V" n="23"/>ad actum meritorium, tamen habet
+            re<lb ed="#V" n="24" break="no"/>pugnantiam ab extrinseco de potentia
+            <lb ed="#V" n="25"/>ordinaria. Secundum has acceptiones
+            po<lb ed="#V" n="26" break="no"/>tentiae logicae et moralis, quaerit S Restat
+            <lb ed="#V" n="27"/>nunc dicendum, etc. an alteram, vel
+            <lb ed="#V" n="28"/>utramque habeant in ordine ad bonum
+            <lb ed="#V" n="29"/>morale, ita ut non necessario, sed libere,
+            <lb ed="#V" n="30"/>et ex electione peccent, vel potius
+            neces<lb ed="#V" n="31" break="no"/>sario etiam physice habeant pravam
+            vo<lb ed="#V" n="32" break="no"/>luntatem necessitate naturali?
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Haec est quaestio, quam disputat
+            Do<lb ed="#V" n="34" break="no"/>ctor, et praecise ad ejus scopum; ideo
+            <lb ed="#V" n="35"/>primo adducit sententiam contrariam
+            af<lb ed="#V" n="36" break="no"/>firmantem intrinsece et positive
+            obstina<lb ed="#V" n="37" break="no"/>tionem habere causam in voluntate, per
+            <lb ed="#V" n="38"/>quam necessitatur necessitate naturali ad
+            <lb ed="#V" n="39"/>voluntatem pravam. Duplex autem causa
+            <lb ed="#V" n="40"/>assignatur, nempe prima electio prava,
+            <lb ed="#V" n="41"/>qua inordinate daemones amaverunt se, ex
+            <lb ed="#V" n="42"/>qua provenit ut reliquos actus in eumdem
+            <lb ed="#V" n="43"/>finem dirigant. Secunda adducitur ex eo
+            <lb ed="#V" n="44"/>quod in eis sit habitus perfecte malus in
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>termino; et ideo perfectissime inclinat in
+            <lb ed="#V" n="46"/>malum, nunquam ergo bene volunt
+            pro<lb ed="#V" n="47" break="no"/>pter primum, sed semper male volunt
+            <lb ed="#V" n="48"/>propter secundum. Ad primam causam
+            <lb ed="#V" n="49"/>respicit sententia AEgidii et D. Thomae,
+            <lb ed="#V" n="50"/>et Richardi, quamvis ex diversis motivis,
+            <lb ed="#V" n="51"/>sicut et Occham. Ad secundam spectat
+            <lb ed="#V" n="52"/>sententia aliorum, qui dicunt adimi eis
+            <lb ed="#V" n="53"/>potentiam per habitum infusum a Deo,
+            <lb ed="#V" n="54"/>quam tenuit Holcot, et sequitur
+            Aureo<lb ed="#V" n="55" break="no"/>lus; utramque impugnat Doctor. Contra
+            <lb ed="#V" n="56"/>primam, quia habent naturalia integra, ex
+            <lb ed="#V" n="57"/>Dionysio; ergo, possunt, id est, non
+            re<lb ed="#V" n="58" break="no"/>pugnat, eis habere posse actum non
+            ma<lb ed="#V" n="59" break="no"/>lum. Idem probat ex remorsu, quem
+            ha<lb ed="#V" n="60" break="no"/>bent, qui ut sistit in peccato, praecise non
+            <lb ed="#V" n="61"/>videtur malus. Tertio, quia nolle poenam
+            <lb ed="#V" n="62"/>ut disconvenientem sibi non est malum
+            <lb ed="#V" n="63"/>ex objecto, nisi accedat circumstantia
+            vi<lb ed="#V" n="64" break="no"/>tians.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Contra secundum probat, quia voluntas
+            <lb ed="#V" n="66"/>videtur ex libertate sua posse non velle,
+            <lb ed="#V" n="67"/>et nullum actum habere; ergo non
+            vide<lb ed="#V" n="68" break="no"/>tur induci posse talis necessitas naturalis
+            <lb ed="#V" n="69"/>per habitum, deinde, quia omnis habitus
+            <lb ed="#V" n="70"/>debet inclinare ad aliquod determinatum
+            <lb ed="#V" n="71"/>objectum; ergo voluntas ad aliud
+            obje<lb ed="#V" n="72" break="no"/>ctum operari toto conatu, cujus actus non
+            <lb ed="#V" n="73"/>sit talis habitus. Tertio, quia habitus
+            ne<lb ed="#V" n="74" break="no"/>quit destruere naturam potentiae, cum
+            <lb ed="#V" n="75"/>non sit ratio ipsi agendi, id est, totalis,
+            <lb ed="#V" n="76"/>sed virtus innata.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Hinc subsequitur conclusio S Quantum
+            <lb ed="#V" n="78"/>ergo ad istum articulum, etc. Videtur
+            <lb ed="#V" n="79"/>inquit, posse dici quod non necessario
+            ha<lb ed="#V" n="80" break="no"/>bent aliquem actum, etc. id est,
+            necessi<lb ed="#V" n="81" break="no"/>tate naturali, de qua loquitur, quod
+            <lb ed="#V" n="82"/>deinceps declarat. Ac tandem
+            conclu<lb ed="#V" n="83" break="no"/>dit: Mirum enim, inquit, videtur,
+            ne<lb ed="#V" n="84" break="no"/>gare potentiam naturalem in natura illa
+            <lb ed="#V" n="85"/>excellente, ubi non apparet aliquid,
+            pro<lb ed="#V" n="86" break="no"/>pter quod sit neganda; probabile est tamen
+            <lb ed="#V" n="87"/>quod secundum hanc potentiam non exeunt
+            <lb ed="#V" n="88"/>in actum, propter vehementem malitiam,
+            <pb ed="#V" n="470"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>secundum quam magis probabile est quod
+            <lb ed="#V" n="2"/>agunt, quam secundum potestatem
+            natura<lb ed="#V" n="3" break="no"/>lem, secundum quam possint, in actus
+            ali<lb ed="#V" n="4" break="no"/>quo modo oppositos, etc. Ex his verbis
+            <lb ed="#V" n="5"/>clare manifestatur intentio et scopus
+            di<lb ed="#V" n="6" break="no"/>scursus Doctoris, quo intendit in ipsis
+            ma<lb ed="#V" n="7" break="no"/>nere libertatem arbitrii, et potentiam
+            na<lb ed="#V" n="8" break="no"/>turalem, de qua superius in praecedenti
+            <lb ed="#V" n="9"/>articulo; tamen usum rectum negat talis
+            <lb ed="#V" n="10"/>libertatis, sed semper malum ob
+            vehe<lb ed="#V" n="11" break="no"/>mentem malitiam. Quantum ad primum,
+            <lb ed="#V" n="12"/>discordat ab opinione quam impugnat, et
+            <lb ed="#V" n="13"/>quae asserit non libertate, sed necessitate
+            <lb ed="#V" n="14"/>agi daemonem in malum. In eo vero quod
+            <lb ed="#V" n="15"/>dicat non uti unquam sua libertate
+            natura<lb ed="#V" n="16" break="no"/>li in bonum, sed in malum, ob
+            vehemen<lb ed="#V" n="17" break="no"/>tem malitiam, convenit cum aliis. Patet
+            <lb ed="#V" n="18"/>hoc ipsum ex titulo quaestionis: Circa
+            <lb ed="#V" n="19"/>istam, inquit, distinct. 7. in qua Magister
+            <lb ed="#V" n="20"/>agit de confirmatione bonorum, et
+            obsti<lb ed="#V" n="21" break="no"/>natione malorum, quaeritur unum: Utrum
+            <lb ed="#V" n="22"/>malus Angelus velit necessario male, etc.
+            <lb ed="#V" n="23"/>non quaerit an semper velit male, sed an
+            <lb ed="#V" n="24"/>necessario velit male. Ideo postquam
+            dis<lb ed="#V" n="25" break="no"/>seruit pro parte negativa, rationes
+            addu<lb ed="#V" n="26" break="no"/>cens, quibus suadetur non solum posse
+            <lb ed="#V" n="27"/>malum Angelum bene operari, sed etiam
+            <lb ed="#V" n="28"/>id contingere in eventu, tandem pro
+            <lb ed="#V" n="29"/>parte affirmativa adducit illud Psalm.
+            <lb ed="#V" n="30"/>Superbia eorum qui te oderunt ascendit
+            <lb ed="#V" n="31"/>semper, etc. Sed hoc, inquit, non potest
+            <lb ed="#V" n="32"/>intelligi intensive; ergo extensive; ergo
+            <lb ed="#V" n="33"/>semper peccant, etc. Cui argumento non
+            <lb ed="#V" n="34"/>respondet, ac proinde ab eo conceditur,
+            <lb ed="#V" n="35"/>ut patet ex verbis ejus allegatis. Mox
+            im<lb ed="#V" n="36" break="no"/>pugnat sententiam D. Thomae et Henrici,
+            <lb ed="#V" n="37"/>qui statuunt hanc necessitatem in
+            natura<lb ed="#V" n="38" break="no"/>li necessitate male agendi et volendi.
+            <lb ed="#V" n="39"/>Nescio ergo unde citetur Doctor pro
+            <lb ed="#V" n="40"/>prima sententia superius allegata, quam
+            <lb ed="#V" n="41"/>in tota quaestione non disserit, neque ad
+            <lb ed="#V" n="42"/>scopum ejus facit, quinimo contrarium
+            <lb ed="#V" n="43"/>admittit.
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>Haec ergo est assertio Doctoris: In
+            dae<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>mone manere libertatem naturalem
+            arbi<lb ed="#V" n="46" break="no"/>trii, ita ut non necessario necessitate
+            con<lb ed="#V" n="47" break="no"/>traria aut contradictoria tali libertati
+            <lb ed="#V" n="48"/>peccet. Secunda assertio ejus est, eum non
+            <lb ed="#V" n="49"/>uti illa libertate, sive ad bonum naturale,
+            <lb ed="#V" n="50"/>sive ad bonum meritorium, quod non est
+            <lb ed="#V" n="51"/>in ejus potestate, ut optime declarat:
+            Ne<lb ed="#V" n="52" break="no"/>que ad bonum aliquod morale, sed semper
+            <lb ed="#V" n="53"/>peccare. Rationes autem adductae ab eo
+            <lb ed="#V" n="54"/>ad probationem primae conclusionis, recte
+            <lb ed="#V" n="55"/>probant illam, sed male a modernis
+            trans<lb ed="#V" n="56" break="no"/>feruntur in assertionem, quam non
+            con<lb ed="#V" n="57" break="no"/>cludunt et quam non intendit Doctor,
+            <lb ed="#V" n="58"/>aut forma discursus, nisi bona sit haec
+            <lb ed="#V" n="59"/>consequentia: Habet liberum arbitrium,
+            <lb ed="#V" n="60"/>seu potentiam naturalem agendi non male;
+            <lb ed="#V" n="61"/>ergo non male agit, etc. Quae
+            consequen<lb ed="#V" n="62" break="no"/>tia neque in ipso viatore quidpiam probat,
+            <lb ed="#V" n="63"/>quantum ad eventum et usum potentiae
+            <lb ed="#V" n="64"/>in exercitio. Quid autem alii Doctores
+            ci<lb ed="#V" n="65" break="no"/>tati senserint, in hoc non est mei instituti
+            <lb ed="#V" n="66"/>nunc investigare. Quod superest, probabo
+            <lb ed="#V" n="67"/>primam assertionem Doctoris ex iis locis,
+            <lb ed="#V" n="68"/>quibus probatur damnatos tam daemones,
+            <lb ed="#V" n="69"/>quam homines damnatos semper male
+            <lb ed="#V" n="70"/>velle.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Probatur autem sic, quia Scripturae et
+            <lb ed="#V" n="72"/>Patres citati intelligunt de malo velle per
+            <lb ed="#V" n="73"/>malitiam, ut patet ex ipsis eorum verbis;
+            <lb ed="#V" n="74"/>sed repugnat esse peccatum, nisi ubi sit
+            <lb ed="#V" n="75"/>libertas non peccandi naturalis, quia
+            fun<lb ed="#V" n="76" break="no"/>damentum peccandi est libertas
+            natura<lb ed="#V" n="77" break="no"/>lis, sicut et non peccandi; ergo si Daemon
+            <lb ed="#V" n="78"/>semper male agit, debet in eo salvari
+            li<lb ed="#V" n="79" break="no"/>bertas naturalis, ex qua physice et
+            natu<lb ed="#V" n="80" break="no"/>raliter posset non peccare, et evitabiliter,
+            <lb ed="#V" n="81"/>si vellet uti ea libertate. Haec per se nota
+            <lb ed="#V" n="82"/>sunt in Theologia, et apud Morales et
+            <lb ed="#V" n="83"/>apud Patres, ita ut non sit necessarium
+            <lb ed="#V" n="84"/>ea confirmare. Secunda Doctoris assertio
+            <lb ed="#V" n="85"/>patet ex locis citatis in commento.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Dico secundo, nullam ex praedictis
+            sen<lb ed="#V" n="87" break="no"/>tentiis assignare veram causam
+            obstina<lb ed="#V" n="88" break="no"/>tionis, non prima ut declaratur ab
+            Asser<pb ed="#V" n="471"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>toribus, quia licet Angelus damnatus aut
+            <lb ed="#V" n="2"/>homo non possit sibi relictus ultra agere,
+            <lb ed="#V" n="3"/>tamen non in ge sequitur quod perverse
+            <lb ed="#V" n="4"/>semper circa se agat necessario
+            necessi<lb ed="#V" n="5" break="no"/>tate naturali, quia necessitate gratiae
+            sub<lb ed="#V" n="6" break="no"/>tractae licet inferat lapsum in creatura,
+            <lb ed="#V" n="7"/>quae sibi relicta nequit non deficere,
+            ta<lb ed="#V" n="8" break="no"/>men sicut gratia requitur ad opera
+            super<lb ed="#V" n="9" break="no"/>naturalia vel moralia tantum, non vero ad
+            <lb ed="#V" n="10"/>mere naturalia et indifferentia, quae nulla
+            <lb ed="#V" n="11"/>lege prohibentur, neque ad opera eadem,
+            <lb ed="#V" n="12"/>qua libera sunt libertate naturali, sic
+            <lb ed="#V" n="13"/>non probatur causa obstinationis in
+            ma<lb ed="#V" n="14" break="no"/>el, ita ut omnis operatio sit peccaminosa,
+            <lb ed="#V" n="15"/>i quae procedit libere, et ad quam non
+            da<lb ed="#V" n="16" break="no"/>tur de facto gratia neque requiritur. Quod
+            <lb ed="#V" n="17"/>si illa sententia loquatur de obstinatione
+            <lb ed="#V" n="18"/>habituali, et etiam actuali in peccato
+            <lb ed="#V" n="19"/>commisso in via, quatenus de eo non fuit
+            <lb ed="#V" n="20"/>poenitentia, neque etiam displicentia in
+            <lb ed="#V" n="21"/>termino, quae sit debita aut hone sta, recte
+            <lb ed="#V" n="22"/>quidem asserit eam evenire ex
+            subtracti<lb ed="#V" n="23" break="no"/>one gratiae, quidquid ponatur ipsa gratia,
+            <lb ed="#V" n="24"/>an cogitatio congrua, an aliud quod in
+            <lb ed="#V" n="25"/>suum locum relinquo. Caeterum sufficit
+            <lb ed="#V" n="26"/>ostendi per hoc non dari causam
+            adae<lb ed="#V" n="27" break="no"/>quatam obstinationis, qua damnatus
+            sem<lb ed="#V" n="28" break="no"/>per peccet in omni suo actu.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Secundo non recte assignatur causa ex
+            <lb ed="#V" n="30"/>parte privationis concursus generalis Dei,
+            <lb ed="#V" n="31"/>ut secunda sententia docet, quia et
+            gra<lb ed="#V" n="32" break="no"/>tis hoc dicitur, et sine ulla probatione aut
+            <lb ed="#V" n="33"/>necessitate. Deinde est falsum, quia et
+            tol<lb ed="#V" n="34" break="no"/>lit libertatem naturalem ad malum, et
+            re<lb ed="#V" n="35" break="no"/>pugnat divinae bonitati. Primum probatur,
+            <lb ed="#V" n="36"/>quia dato quod voluntas non possit
+            sus<lb ed="#V" n="37" break="no"/>- pendere omnem actum, quod etiam
+            con<lb ed="#V" n="38" break="no"/>cedunt qui negant puram omissionem
+            <lb ed="#V" n="39"/>possibilem esse in voluntate; dato etiam
+            <lb ed="#V" n="40"/>quod non habeat concursum, nisi ad
+            ma<lb ed="#V" n="41" break="no"/>lum, necessitatur etiam hic et nunc ad
+            <lb ed="#V" n="42"/>exercitium alicujus actus mali, suppositis
+            <lb ed="#V" n="43"/>praemissis, quia nequit suspendere actum
+            <lb ed="#V" n="44"/>omnem, quem non potest, neque in
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>actum nisi in vitiatum; ergo
+            necessita<lb ed="#V" n="46" break="no"/>tur necessitate exercitii ad malum saltem
+            <lb ed="#V" n="47"/>vage, quod est inconveniens.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Probatur etiam idem ex parte Dei,
+            <lb ed="#V" n="49"/>quia ut ipsi fatentur nequit Deus
+            necessi<lb ed="#V" n="50" break="no"/>tare voluntatem per habitum et actum
+            <lb ed="#V" n="51"/>necessitantem ad malum, quia hoc
+            repu<lb ed="#V" n="52" break="no"/>gnat ejus bonitati, et esset auctor mali,
+            <lb ed="#V" n="53"/>quod nequit dici, sed idem sequitur ex
+            <lb ed="#V" n="54"/>suspensione concursus generalis ad omne
+            <lb ed="#V" n="55"/>bonum, concurrendo praecise ad malum;
+            <lb ed="#V" n="56"/>ergo, etc. Minor probatur, quia in
+            senten<lb ed="#V" n="57" break="no"/>tia negante libertatem esse radicaliter in
+            <lb ed="#V" n="58"/>volun tate, ita se habet voluntas in eo
+            sta<lb ed="#V" n="59" break="no"/>tu, sicut habitus aut actus determinate
+            in<lb ed="#V" n="60" break="no"/>clinans ad malum, quia voluntas
+            subtra<lb ed="#V" n="61" break="no"/>cto omni concursu ad bonum, necessario
+            <lb ed="#V" n="62"/>inclinatur ad malum. Deinde, quidquid
+            <lb ed="#V" n="63"/>dicatur de modo libertatis in voluntate
+            <lb ed="#V" n="64"/>saltem Deus vellet in eo casu, et
+            intende<lb ed="#V" n="65" break="no"/>ret per se peccatum, quod probatur,
+            <lb ed="#V" n="66"/>quia suspensio omnis concursus Dei ad
+            <lb ed="#V" n="67"/>bonum per medium justitiae dirigitur ad
+            <lb ed="#V" n="68"/>peccatum tanquam ad poenam intentam;
+            <lb ed="#V" n="69"/>sed neque sic Deus potest velle
+            pecca<lb ed="#V" n="70" break="no"/>tum, quia repugnat suae bonitati sic
+            <lb ed="#V" n="71"/>velle peccatum, quod neque ab intrinseco,
+            <lb ed="#V" n="72"/>neque ad extrinseco potest honestari;
+            <lb ed="#V" n="73"/>ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Dico tertio, quod alii tres modi non
+            sal<lb ed="#V" n="75" break="no"/>vent obstinationem per continuationem et?
+            <lb ed="#V" n="76"/>multiplicationem peccati in eo statu, quia
+            <lb ed="#V" n="77"/>primus qui ponitur per habitum
+            necessi<lb ed="#V" n="78" break="no"/>tantem voluntatem ad malum, facit Deum
+            <lb ed="#V" n="79"/>auctorem peccati, et manifeste tollit
+            liber<lb ed="#V" n="80" break="no"/>tatem requisitam ad peccatum, ita ut
+            <lb ed="#V" n="81"/>cum tali habitu praedominante repugnaret
+            <lb ed="#V" n="82"/>inesse peccatum, quod perinde etiam
+            <lb ed="#V" n="83"/>dicendum est de actu necessario sic
+            de<lb ed="#V" n="84" break="no"/>terminante ad peccatum. Deinde non
+            <lb ed="#V" n="85"/>potest capi quomodo habitus aliquis
+            ne<lb ed="#V" n="86" break="no"/>cessitet voluntatem in genere ad
+            pecca<lb ed="#V" n="87" break="no"/>tum quodcumque, nisi detur objectum
+            <lb ed="#V" n="88"/>ejus in genere, quod includeret per se
+            <pb ed="#V" n="472"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>omnem malitiam, quod est inopinabile;
+            <lb ed="#V" n="2"/>ulterius nequit habitus necessitare ad
+            <lb ed="#V" n="3"/>peccatum formaliter, cujus non datur
+            cau<lb ed="#V" n="4" break="no"/>sa positiva, neque prosecutio, neque
+            po<lb ed="#V" n="5" break="no"/>test esse objectum specificans actum.
+            Ac<lb ed="#V" n="6" break="no"/>cedit, quod repugnet dari habitum in
+            <lb ed="#V" n="7"/>a voluntate, qui eam sic necessitet, quia
+            <lb ed="#V" n="8"/>nequit tollere modum ejus connaturalem
+            <lb ed="#V" n="9"/>operandi libere. De actu similiter
+            neces<lb ed="#V" n="10" break="no"/>sario eaedem rationes sunt, quia ille actus
+            <lb ed="#V" n="11"/>esset a Deo, alias intermitti posset a
+            vo<lb ed="#V" n="12" break="no"/>luntate. Ultimus modus recte impugnatur
+            <lb ed="#V" n="13"/>a Doctore praefato loco ad initium
+            quaesti<lb ed="#V" n="14" break="no"/>onis, ad quem locum remitto longiorem
+            <lb ed="#V" n="15"/>hujus quaestionis tractatum.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Dico quarto, causam privativam hujus
+            <lb ed="#V" n="17"/>obstinationis esse Deum, quatenus
+            dese<lb ed="#V" n="18" break="no"/>rit damnatos; positivam vero esse
+            per<lb ed="#V" n="19" break="no"/>versum usum voluntatis deordinatae, et
+            <lb ed="#V" n="20"/>sibi relictae, quae licet praedita sit libertate
+            <lb ed="#V" n="21"/>naturali, nunquam ea utitur, nisi
+            inordi<lb ed="#V" n="22" break="no"/>nate ad commodum, contempto affectu
+            <lb ed="#V" n="23"/>justitiae; causa autem demeritoria est
+            <lb ed="#V" n="24"/>peccatum commissum in via. Haec omnia
+            <lb ed="#V" n="25"/>tradit Doctor et hic, et loco citato.
+            Vi<lb ed="#V" n="26" break="no"/>deatur etiam in dist. 37. lib. 2. quaest. 2
+            <lb ed="#V" n="27"/>et 3. Videantur etiam quae supra diximus
+            <lb ed="#V" n="28"/>distinct. 44. quaest. 2. de perversa
+            volunta<lb ed="#V" n="29" break="no"/>te damnati, quae perversitas consistit in
+            <lb ed="#V" n="30"/>complacentia inordinata commodi et sui
+            <lb ed="#V" n="31"/>ipsius, ex qua oritur duplex aversio
+            inor<lb ed="#V" n="32" break="no"/>dinata; altera a justitia et rectitudine,
+            <lb ed="#V" n="33"/>inquantum lege repugnat tali affectui et
+            <lb ed="#V" n="34"/>fini, cui adhaeret voluntas inordinata;
+            <lb ed="#V" n="35"/>secunda autem ad omne malum
+            contrari<lb ed="#V" n="36" break="no"/>um aversio, ut ab omni poena mali,
+            <lb ed="#V" n="37"/>harum radix est prima conversio
+            peccato<lb ed="#V" n="38" break="no"/>ris damnati, qua seipsum inordinate amat,
+            <lb ed="#V" n="39"/>et ad hunc finem omnia refert inquantum
+            <lb ed="#V" n="40"/>volita sunt ab eo, vel positive, vel
+            privati<lb ed="#V" n="41" break="no"/>ve; positive quidem inquantum ex toto
+            <lb ed="#V" n="42"/>affectu adhaeret; privative inquantum nihil
+            <lb ed="#V" n="43"/>aliud vult aut non vult, nisi ex affectu sui
+            <lb ed="#V" n="44"/>commodi praedominante. Praeter ergo
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>causas praescriptas non est exquirenda
+            <lb ed="#V" n="46"/>alia, quia libertas electionis necessario est
+            <lb ed="#V" n="47"/>salvanda juxta Scripturas allegatas, ad hoc
+            <lb ed="#V" n="48"/>ut velit male moraliter et peccaminose,
+            <lb ed="#V" n="49"/>de quo genere mali et obstinationis in
+            <lb ed="#V" n="50"/>ipso loquitur Scriptura: Superbia eorum
+            <lb ed="#V" n="51"/>qui te oderunt, ascendit semper, etc.
+            Di<lb ed="#V" n="52" break="no"/>abolus ab initio peccat, etc. Perpetuitas
+            <lb ed="#V" n="53"/>etiam peccandi habet causam
+            necessari<lb ed="#V" n="54" break="no"/>am, non physice, sed moraliter, et in
+            <lb ed="#V" n="55"/>eventu, in statu damnationis, nempe
+            per<lb ed="#V" n="56" break="no"/>versitatem voluntatis, quae sibi relicta
+            <lb ed="#V" n="57"/>sequitur affectum vehementem commodi,
+            <lb ed="#V" n="58"/>et ipsi praedominantem pertinaciter, cui
+            <lb ed="#V" n="59"/>accedens ex divina justitia desertio ejus
+            <lb ed="#V" n="60"/>complet causam integram obstinationis in
+            <lb ed="#V" n="61"/>malo peccati, et necessario moraliter eam
+            <lb ed="#V" n="62"/>inferens, non physice et naturaliter.
+            <lb ed="#V" n="63"/>Quamvis ergo in eo statu sit naturalis
+            <lb ed="#V" n="64"/>libertas ad bonum naturale saltem, ejus
+            <lb ed="#V" n="65"/>nullus est usus ad illud bonum, licet
+            <lb ed="#V" n="66"/>necessaria sit ad salvandam libertatem
+            re<lb ed="#V" n="67" break="no"/>quisitam ad pravam electionem. Accedit
+            <lb ed="#V" n="68"/>etiam ad haec obcaecatio intellectus
+            dere<lb ed="#V" n="69" break="no"/>licti et obsequentis semper vehementi
+            <lb ed="#V" n="70"/>cupiditati pravae voluntatis. Quamvis
+            au<lb ed="#V" n="71" break="no"/>tem concipiat intellectus damnati principia
+            <lb ed="#V" n="72"/>quaedam practica, et conclusiones
+            neces<lb ed="#V" n="73" break="no"/>sarias, tamen ea concipit magis
+            specula<lb ed="#V" n="74" break="no"/>tive quam practice, ex quo conceptu
+            <lb ed="#V" n="75"/>magis augetur ejus poena et vermis, et
+            <lb ed="#V" n="76"/>confusio; ideoque veritatem earum odit
+            <lb ed="#V" n="77"/>potius quam affectat, ita ut omnia ipsi
+            <lb ed="#V" n="78"/>versentur in poenam et opprobrium
+            sem<lb ed="#V" n="79" break="no"/>piternum, et cooperentur in miseriam et
+            <lb ed="#V" n="80"/>malum.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Hanc fere sententiam docet Gregorius
+            <lb ed="#V" n="82"/>in 2. distinct. 7. nisi in eo quod reducat
+            <lb ed="#V" n="83"/>causam positivam in acerbitatem poenae
+            <lb ed="#V" n="84"/>illius status, nempe sensus, et in
+            despera<lb ed="#V" n="85" break="no"/>tionem, tanquam in causam positivam, ex
+            <lb ed="#V" n="86"/>qua semper volunt male. Caeterum licet
+            <lb ed="#V" n="87"/>poena et desperatio plurimum promoveant
+            <lb ed="#V" n="88"/>voluntatem sic affectam, tamen non sunt
+            <pb ed="#V" n="473"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>prima radix unde perversitas voluntatis
+            <lb ed="#V" n="2"/>oriatur, quia in animabus justis in
+            Purga<lb ed="#V" n="3" break="no"/>torio proculdubio est poena acerbissima,
+            <lb ed="#V" n="4"/>tamen non est perversitas voluntatis, sed
+            <lb ed="#V" n="5"/>tolerantia voluntaria. Non sufficit ergo
+            <lb ed="#V" n="6"/>poena etiam damnatorum, ad inducendum
+            <lb ed="#V" n="7"/>illum secundum effectum, nisi respective
+            <lb ed="#V" n="8"/>ad voluntatem inordinatam et immersam
+            <lb ed="#V" n="9"/>in affectu inordinato commodi. Desperatio
+            <lb ed="#V" n="10"/>praeterea oritur magis ex subtractione
+            <lb ed="#V" n="11"/>divini auxilii in sempiternum, et
+            derelicti<lb ed="#V" n="12" break="no"/>one eorum a Deo in eo statu quantum ad
+            <lb ed="#V" n="13"/>culpam et poenam. Eamdem sententiam
+            <lb ed="#V" n="14"/>tenet reipsa Molina 1. part. quaest. 64.
+            <lb ed="#V" n="15"/>art. 2. disp. 2. Valentia quaest. 15. Mald.
+            <lb ed="#V" n="16"/>in 2. distinct. 6. disp. 13. Sotus in 4.
+            <lb ed="#V" n="17"/>distinct. 50. art. 4. et 5. et magis concordat
+            <lb ed="#V" n="18"/>Scripturis et Patribus, prout agunt de
+            <lb ed="#V" n="19"/>obstinatione in via et in termino, et
+            ma<lb ed="#V" n="20" break="no"/>jor etiam inde resultat miseria
+            damnato<lb ed="#V" n="21" break="no"/>rum, quatenus ita sua voluntate et
+            electi<lb ed="#V" n="22" break="no"/>one semper in malo culpae, quae est
+            <lb ed="#V" n="23"/>maxima miseria, volutantur, ut nunquam
+            <lb ed="#V" n="24"/>velint nisi male, quam si ex defectu
+            liber<lb ed="#V" n="25" break="no"/>tatis essent tantum in malo materialiter
+            <lb ed="#V" n="26"/>sumpto, quod non esset peccatum ex
+            de<lb ed="#V" n="27" break="no"/>fectu libertatis. Longior dissertatio hujus
+            <lb ed="#V" n="28"/>spectat ad materiam de peccatis, et ad
+            <lb ed="#V" n="29"/>praedictum locum de induratione
+            daemo<lb ed="#V" n="30" break="no"/>num; sufficiat pro nunc brevis haec
+            reso<lb ed="#V" n="31" break="no"/>lutio.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>(i) Secunda etiam poena sicut est a
+            <lb ed="#V" n="33"/>Deo, etc. Docet negationem beatitudinis,
+            <lb ed="#V" n="34"/>quae est secunda poena, esse a Deo
+            pri<lb ed="#V" n="35" break="no"/>vative et juste. Probat, quia sicut bonum
+            <lb ed="#V" n="36"/>honestum seu meritum, juste requirit ut
+            <lb ed="#V" n="37"/>pro eo reddatur bonum commodum, ita
+            <lb ed="#V" n="38"/>etiam peccatum privans honestate juste
+            <lb ed="#V" n="39"/>requirit, ut pro ipso reddatur privatio boni
+            <lb ed="#V" n="40"/>commodi, et ista correspondentia
+            privati<lb ed="#V" n="41" break="no"/>onis commodi ad privationem honesti
+            <lb ed="#V" n="42"/>e ordinat culpam, sicut potest ordinari
+            <lb ed="#V" n="43"/>malum; nam secundum providentiam
+            <lb ed="#V" n="44"/>universalem, qua regulatur totum, nihil
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>manet inordinatum, sine debita
+            corre<lb ed="#V" n="46" break="no"/>spondentia ad totum, et reliquas partes, et
+            <lb ed="#V" n="47"/>ad Deum, prout secundum justitiam et
+            <lb ed="#V" n="48"/>misericordiam gubernat creaturas
+            ratio<lb ed="#V" n="49" break="no"/>nales, ita etiam neque bonum sine ordine
+            <lb ed="#V" n="50"/>suo permanet, neque malum etiam sine
+            <lb ed="#V" n="51"/>debita correspondentia, qua debet
+            ordina<lb ed="#V" n="52" break="no"/>ri sicut membrum putridum, quod
+            cor<lb ed="#V" n="53" break="no"/>rumpit ordinem totius, nisi separetur, aut
+            <lb ed="#V" n="54"/>ita ordinetur ne possit sana inficere, ita
+            <lb ed="#V" n="55"/>etiam debet esse aliquis ordo in
+            universi<lb ed="#V" n="56" break="no"/>tate creaturae, quae separatur reprobus in
+            <lb ed="#V" n="57"/>termino ab electis. Hic autem ordo est
+            <lb ed="#V" n="58"/>per poenam, qua privatur communione
+            <lb ed="#V" n="59"/>electorum in gloria, et per quam
+            exclu<lb ed="#V" n="60" break="no"/>sionem reformatur culpa secundum
+            justi<lb ed="#V" n="61" break="no"/>tiam, ne maneat impunis, unde Boetius
+            <lb ed="#V" n="62"/>prosa 4. de Consolatione: Infeliciores
+            <lb ed="#V" n="63"/>sunt improbi injusta impunitate damnati,
+            <lb ed="#V" n="64"/>quam justa punitione puniti, etc,
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>In primo, inquit, est tantum bonum
+            <lb ed="#V" n="66"/>naturae, sed vitiatum per culpam, quod
+            <lb ed="#V" n="67"/>est esse bonum commodi, et secundum
+            <lb ed="#V" n="68"/>quid, quia contra dictamen rectum, in
+            <lb ed="#V" n="69"/>secundo est bonum naturae, scilicet
+            uni<lb ed="#V" n="70" break="no"/>versalis, quatenus ordinatur culpa per
+            <lb ed="#V" n="71"/>debitam poenam. Unde Augustinus de
+            <lb ed="#V" n="72"/>correptione et gratia cap. 10.
+            Saluberri<lb ed="#V" n="73" break="no"/>me, inquit, » confitemur quod rectissime
+            <lb ed="#V" n="74"/>credimus Deum, Dominumque rerum
+            om<lb ed="#V" n="75" break="no"/>nium, qui creavit omnia bona valde, et
+            <lb ed="#V" n="76"/>bona ex malis exoritura esse praescivit, et
+            <lb ed="#V" n="77"/>scivit magis ad suam omnipotentissimam
+            <lb ed="#V" n="78"/>bonitatem pertinere etiam de malis
+            bene<lb ed="#V" n="79" break="no"/>facere, quam mala esse non sinere, sic
+            <lb ed="#V" n="80"/>ordinasse Angelorum et hominum vitam,
+            <lb ed="#V" n="81"/>ut in ea prius ostenderet quid posset
+            eo<lb ed="#V" n="82" break="no"/>rum liberum arbitrium, deinde quid
+            pos<lb ed="#V" n="83" break="no"/>set suae gratiae beneficium, justitiaeque
+            ju<lb ed="#V" n="84" break="no"/>dicium, etc. Similia habet Enchir. c. 11.
+            <lb ed="#V" n="85"/>Sicut ergo in omni republica bene
+            ordi<lb ed="#V" n="86" break="no"/>nata secundum justitiam commutativam
+            <lb ed="#V" n="87"/>et distributivam, sine quibus, neque
+            <lb ed="#V" n="88"/>respublica ordinari potest, prout nequit
+            <pb ed="#V" n="474"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>esse sine lege et societate per eam
+            dire<lb ed="#V" n="2" break="no"/>cta; sic inter creaturas rationales non
+            <lb ed="#V" n="3"/>potuit communio et societas institui sine
+            <lb ed="#V" n="4"/>lege, ac proinde etiam sine justitia
+            distri<lb ed="#V" n="5" break="no"/>buente poenas et praemium, nam eo ipso
+            <lb ed="#V" n="6"/>quod haec membrorum societas in libero
+            <lb ed="#V" n="7"/>usu arbitrii fundatur juxta communionem
+            <lb ed="#V" n="8"/>affectuum, officiorum et beneficiorum,
+            <lb ed="#V" n="9"/>debuit etiam reduci in ordinem per
+            insti<lb ed="#V" n="10" break="no"/>tutorem servata lege, et ordinatis
+            operi<lb ed="#V" n="11" break="no"/>bus creaturae in esse meriti et demeriti,
+            <lb ed="#V" n="12"/>consequenter per praemium et poenam, ita
+            <lb ed="#V" n="13"/>ut exorbitante aliquo membro a bono
+            li<lb ed="#V" n="14" break="no"/>bertatis, et regulae et legis, non inde
+            <lb ed="#V" n="15"/>desineret ipsa unio corporis, aut
+            compa<lb ed="#V" n="16" break="no"/>go quae est per legem, sed ordinaretur
+            <lb ed="#V" n="17"/>per justitiam vindicantem et restituentem
+            <lb ed="#V" n="18"/>debitum per satisfactionem poenae, vel
+            <lb ed="#V" n="19"/>potius satispassionem, et qui bonitatem
+            <lb ed="#V" n="20"/>institutoris et legis contempsit, sentiret
+            <lb ed="#V" n="21"/>etiam justitiam, per quam in ordinem
+            re<lb ed="#V" n="22" break="no"/>digitur et segregatur a bono communi,
+            <lb ed="#V" n="23"/>qui ipsum contempsit. Sicut ergo liberum
+            <lb ed="#V" n="24"/>arbitrium in creatura rationali concessum
+            <lb ed="#V" n="25"/>a Deo fuit supremum bonum post
+            essen<lb ed="#V" n="26" break="no"/>tiam, et quo solum operari posset ad
+            fi<lb ed="#V" n="27" break="no"/>nem, et hoc liberum arbitrium regula
+            <lb ed="#V" n="28"/>destitutum ex se fallibile erat, ideo etiam
+            <lb ed="#V" n="29"/>necessaria fuit lex, quae regularet,
+            neces<lb ed="#V" n="30" break="no"/>saria etiam ordinatio in ipsis operibus,
+            <lb ed="#V" n="31"/>,quo malum a bono ordinaretur respective
+            <lb ed="#V" n="32"/>ad finem proportionatum cuique, quae
+            <lb ed="#V" n="33"/>ordinatio habetur per justitiam. Inde est
+            <lb ed="#V" n="34"/>quod ad bonitatem Dei, et naturae spectet
+            <lb ed="#V" n="35"/>discretio bonorum et malorum secundum
+            <lb ed="#V" n="36"/>finem praescriptum juste, per quem ipsa
+            <lb ed="#V" n="37"/>opera ordinantur, et personae secundum
+            <lb ed="#V" n="38"/>opera, cum personarum non sit acceptor
+            <lb ed="#V" n="39"/>Deus. Ex quibus patet justitia poenae, qua
+            <lb ed="#V" n="40"/>privatur malus bono commodi, quod
+            prae<lb ed="#V" n="41" break="no"/>tulit inordinate bono justitiae.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>(k) In tertia poena, etc. Ostendit tertiam
+            <lb ed="#V" n="43"/>poenam esse justam, nempe carcerationis,
+            <lb ed="#V" n="44"/>per oppositum ad locum et libertatem
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>competentem electis; libertatem, inquam,
+            <lb ed="#V" n="46"/>quantum ad potentiam, qua male semper
+            <lb ed="#V" n="47"/>uteretur damnatus si ei permitteretur.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>In quarta etiam poena ostendit esse
+            <lb ed="#V" n="49"/>justitiam, de qua poena, quantum ad ea,
+            <lb ed="#V" n="50"/>quae objiciuntur ab aliis, actum est d. 44.
+            <lb ed="#V" n="51"/>q. 2. ostendit ejus congruitatem et
+            me<lb ed="#V" n="52" break="no"/>dium justitiae, prout in ea reperitur. Ex
+            <lb ed="#V" n="53"/>his autem poenis resultant ordinate
+            tristi<lb ed="#V" n="54" break="no"/>tiae poenales, et quo majora sunt
+            pecca<lb ed="#V" n="55" break="no"/>ta, eo etiam poena est major, quia
+            deten<lb ed="#V" n="56" break="no"/>tio, licet in igne, physice loquendo,
+            <lb ed="#V" n="57"/>esset aequalis, tamen non aequalis
+            repu<lb ed="#V" n="58" break="no"/>gnantia voluntatis, quae habet illam
+            de<lb ed="#V" n="59" break="no"/>tentionem nolitam, non solum quia
+            re<lb ed="#V" n="60" break="no"/>pugnat ejus libertati, sed quia infligitur
+            <lb ed="#V" n="61"/>ob peccatum hoc et illud, in quo
+            compla<lb ed="#V" n="62" break="no"/>cet voluntas, ex qua complacentia,
+            ori<lb ed="#V" n="63" break="no"/>tur repugnantia major ejus ad poenam
+            <lb ed="#V" n="64"/>injunctam, quae poena est formaliter; et
+            <lb ed="#V" n="65"/>idem dico de detentione intellectus in
+            <lb ed="#V" n="66"/>perpetua ignis consideratione. Quamvis
+            <lb ed="#V" n="67"/>ergo haec ipsa incarceratio et detentio
+            <lb ed="#V" n="68"/>utraque sit etiam diversa juxta mensuram
+            <lb ed="#V" n="69"/>peccati, adhuc est diversa ex affectu
+            vehe<lb ed="#V" n="70" break="no"/>mentiore et repugnantia voluntatis, qua
+            <lb ed="#V" n="71"/>refugit poenam, sicut condelectat magis
+            <lb ed="#V" n="72"/>in peccato. Praeterea subdit ibi ad
+            cal<lb ed="#V" n="73" break="no"/>cem, quod si in hominibus post
+            judi<lb ed="#V" n="74" break="no"/>cium ponatur ardor ignis, et dolor in
+            <lb ed="#V" n="75"/>appetitu sensitivo, dicit poenam
+            propor<lb ed="#V" n="76" break="no"/>tionari ita culpae, quod non erit major
+            <lb ed="#V" n="77"/>in anima post resumptum corpus, quam
+            <lb ed="#V" n="78"/>fuerit in eadem ante corpus, quia etiam
+            <lb ed="#V" n="79"/>ut separata fuit, recepit poenam
+            condi<lb ed="#V" n="80" break="no"/>gnam; si autem illa poena post
+            resum<lb ed="#V" n="81" break="no"/>ptum corpus quoad aliquid mutabitur in
+            <lb ed="#V" n="82"/>aliam ex ipso corpore sensibiliter
+            arden<lb ed="#V" n="83" break="no"/>te, servabitur debita et proportionata
+            <lb ed="#V" n="84"/>retributio.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>(1) Contra, mali ad malum, etc. Haec
+            <lb ed="#V" n="86"/>additio in fine remittit solutionem
+            ob<lb ed="#V" n="87" break="no"/>jectorum in ipsa ad sequentem
+            articu<lb ed="#V" n="88" break="no"/>um, in quo tamen non respondetur in
+            <pb ed="#V" n="475"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>specie ad ejus rationes; unde apparet
+            <lb ed="#V" n="2"/>esse additionem, licet aequivalenter
+            ha<lb ed="#V" n="3" break="no"/>beatur ejus solutio ibi, et ex
+            praeceden<lb ed="#V" n="4" break="no"/>tibus. Objicit ergo primo, mali ad
+            ma<lb ed="#V" n="5" break="no"/>lum non esse habitudinem, in qua sit
+            <lb ed="#V" n="6"/>bonitas. Secundo, objicit quod melius
+            <lb ed="#V" n="7"/>esset malum peccati tollere, et
+            conse<lb ed="#V" n="8" break="no"/>quenter etiam malum poenae
+            correspon<lb ed="#V" n="9" break="no"/>dens, ut patet in exemplo supra allato
+            <lb ed="#V" n="10"/>a Doctore de membro putrido, quia
+            sim<lb ed="#V" n="11" break="no"/>pliciter melius esset corpori tollere in
+            <lb ed="#V" n="12"/>universum putredinem membri infecti,
+            <lb ed="#V" n="13"/>quam prohibere ejus communicationem
+            <lb ed="#V" n="14"/>reliquis. Ad primum respondetur, mali
+            <lb ed="#V" n="15"/>poenae ad malum culpae esse justam
+            <lb ed="#V" n="16"/>correspondentiam, et bonum secundum
+            <lb ed="#V" n="17"/>justitiam, quin etiam secundum
+            miseri<lb ed="#V" n="18" break="no"/>cordiam, ut patebit ex sequenti articulo;
+            <lb ed="#V" n="19"/>negatur ergo antecedens. Ad secundum
+            <lb ed="#V" n="20"/>bene respondetur ex Augustino prout
+            ci<lb ed="#V" n="21" break="no"/>tatur in littera, quia non solum melius
+            <lb ed="#V" n="22"/>est universo malum poenae
+            corresponde<lb ed="#V" n="23" break="no"/>re malo culpae, ita ut nihil maneat in
+            <lb ed="#V" n="24"/>universo non ordinatum, sive quoad
+            in<lb ed="#V" n="25" break="no"/>trinsecum bonum creaturae, sive quoad
+            <lb ed="#V" n="26"/>extrinsecum finem ejus; quod
+            intrinse<lb ed="#V" n="27" break="no"/>cum bonum creaturae quantum ad
+            soci<lb ed="#V" n="28" break="no"/>etatem necessaria est ex parte Dei
+            in<lb ed="#V" n="29" break="no"/>stituentis, per quam subjiciatur Monarchae
+            <lb ed="#V" n="30"/>et Creatori suo, et per quam etiam
+            <lb ed="#V" n="31"/>ordinentur inter se, et ad commune
+            <lb ed="#V" n="32"/>bonum ipsa membra, velut in corpore
+            <lb ed="#V" n="33"/>politico. Hoc autem bonum commune
+            <lb ed="#V" n="34"/>est finis statutus creaturae rationali, ad
+            <lb ed="#V" n="35"/>quam caeterae creaturae sunt ordinatae:
+            <lb ed="#V" n="36"/>ex parte autem creaturae supposita lege et
+            <lb ed="#V" n="37"/>mediis ejus, et ipsa societate requiritur
+            li<lb ed="#V" n="38" break="no"/>berum arbitrium, quo possit male vel
+            be<lb ed="#V" n="39" break="no"/>ne uti; quod si bene, remuneratio
+            sequi<lb ed="#V" n="40" break="no"/>tur; quod si male, debitrix manet legi
+            <lb ed="#V" n="41"/>et poenae legis, atque adeo justitiae. Sicut
+            <lb ed="#V" n="42"/>ergo in Hierarchia naturali debitus ordo
+            <lb ed="#V" n="43"/>exigit, ut nulla potentia passiva sit, quae
+            <lb ed="#V" n="44"/>non ordinetur per virtutem causarum,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>ita etiam in politia morali requiritur ut
+            <lb ed="#V" n="46"/>nullum sit debitum, quin ultimate
+            ordine<lb ed="#V" n="47" break="no"/>tur per id quod ei correspondet ex lege;
+            <lb ed="#V" n="48"/>peccato autem debetur poena, ideoque
+            <lb ed="#V" n="49"/>bonus ordo universi exigit talem poenam
+            <lb ed="#V" n="50"/>infligi in termino quo creaturae universus
+            <lb ed="#V" n="51"/>motus reducitur in suum finem, et ad
+            ter<lb ed="#V" n="52" break="no"/>minum praefixum et quietem.
+            <lb ed="#V" n="53"/>Hoc idem exigit finis extrinsecus
+            crea<lb ed="#V" n="54" break="no"/>turae, quia universa propter seipsum
+            <lb ed="#V" n="55"/>operatus est Deus, cujus opera sunt
+            per<lb ed="#V" n="56" break="no"/>fecta omnia; finis autem creationis fuit
+            <lb ed="#V" n="57"/>manifestatio divinae bonitatis in
+            substan<lb ed="#V" n="58" break="no"/>tia, et in attributis, ejusque communicatio
+            <lb ed="#V" n="59"/>creaturis. Non minus competit Deo
+            os<lb ed="#V" n="60" break="no"/>tensio suae misericordiae, quam etiam
+            <lb ed="#V" n="61"/>justitiae, vel inquantum Legislator est, vel
+            <lb ed="#V" n="62"/>inquantum Judex, vel iquantum Creator
+            <lb ed="#V" n="63"/>rerum; ea ergo ratione debuit et congruit
+            <lb ed="#V" n="64"/>institui ab eo creatura rationalis, ut etiam
+            <lb ed="#V" n="65"/>esset manifesta in ea sua bonitas,
+            quan<lb ed="#V" n="66" break="no"/>tum ad utrumque attributum, quorum
+            <lb ed="#V" n="67"/>operatio, ut dictum est superius, est
+            con<lb ed="#V" n="68" break="no"/>juncta. Debuit ergo justitia ejus extendi
+            <lb ed="#V" n="69"/>ad peccatum et demeritum in termino,
+            <lb ed="#V" n="70"/>neque aliter extendi potuit, nisi
+            inquan<lb ed="#V" n="71" break="no"/>tum vindex peccati per poenam debitam;
+            <lb ed="#V" n="72"/>huic ergo patet bonum universi tam
+            in<lb ed="#V" n="73" break="no"/>trinsecum quam etiam extrinsecum
+            exige<lb ed="#V" n="74" break="no"/>re punitionem peccati, quod requiritur
+            <lb ed="#V" n="75"/>etiam ad ostensionem suae omnipotentiae,
+            <lb ed="#V" n="76"/>ut dicit Augustinus, quae non solum ex
+            <lb ed="#V" n="77"/>bonis bona, sed etiam ex malis bona
+            fa<lb ed="#V" n="78" break="no"/>cere potest.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>(m) Contra hoc, nec natura suprema, etc.
+            <lb ed="#V" n="80"/>Objicitur contra solutionem, quae
+            funda<lb ed="#V" n="81" break="no"/>tur in verbis Augustini citatis, et perinde
+            <lb ed="#V" n="82"/>etiam urget solutionem datam ac
+            doctri<lb ed="#V" n="83" break="no"/>nam, quatenus reducitur ad finem
+            osten<lb ed="#V" n="84" break="no"/>sionis divinae bonitatis. Vis rationis est in
+            <lb ed="#V" n="85"/>hoc, non derogat huic fini ostensionis
+            <lb ed="#V" n="86"/>divinae bonitatis, quod natura suprema
+            <lb ed="#V" n="87"/>possibilis non sit creata, in qua magis
+            <lb ed="#V" n="88"/>eluceret divina bonitas, quam in
+            inferi<pb ed="#V" n="476"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>oribus; neque etiam fiet ut probabiliter
+            <lb ed="#V" n="2"/>tenetur, neque omnes gradus beatitudinis
+            <lb ed="#V" n="3"/>possibiles erunt in regno coelorum, qui
+            <lb ed="#V" n="4"/>non solum universo essent magis bonum,
+            <lb ed="#V" n="5"/>sed etiam in seipsis; ergo ad bonum
+            uni<lb ed="#V" n="6" break="no"/>versi, seu ad ostensionem divinae bonitatis,
+            <lb ed="#V" n="7"/>non requiritur illa bonitas, et
+            consequen<lb ed="#V" n="8" break="no"/>ter magis bonum esset universo tollere, et
+            <lb ed="#V" n="9"/>poenam quae est infimum bonum, et simul
+            <lb ed="#V" n="10"/>etiam peccata, et dare beatitudinem et
+            <lb ed="#V" n="11"/>gratiam, quae sunt in se simpliciter bona
+            <lb ed="#V" n="12"/>habenti, et universo; non enim de malis
+            <lb ed="#V" n="13"/>eliciuntur bona majora, quam essent
+            <lb ed="#V" n="14"/>illa, quae privantur per mala, quia punitio
+            <lb ed="#V" n="15"/>illa privativa non est magis quam gratia et
+            <lb ed="#V" n="16"/>beatitudo quae privantur.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Respondetur primo, negando
+            antece<lb ed="#V" n="18" break="no"/>dens quoad utramque partem, quia
+            proba<lb ed="#V" n="19" break="no"/>bilius est Deum creasse speciem
+            possibi<lb ed="#V" n="20" break="no"/>lem perfectissimam, quamvis de hoc sit
+            <lb ed="#V" n="21"/>controversia, quae non est hujus loci.
+            <lb ed="#V" n="22"/>Quoad secundam partem etiam beatitudo
+            <lb ed="#V" n="23"/>Christi, et gratia est in termino
+            perfe<lb ed="#V" n="24" break="no"/>ctionis, ita ut a Deo intensive perfectior
+            <lb ed="#V" n="25"/>non possit creari, ut tenet Doctor in 3.
+            <lb ed="#V" n="26"/>d. 14. q. 3. et 4. ostendit ergo Deus
+            boni<lb ed="#V" n="27" break="no"/>tatem quantum ad summum intensive,
+            <lb ed="#V" n="28"/>quantum est ex perfectione creaturae
+            <lb ed="#V" n="29"/>quoad speciem, quantum ad gradum
+            <lb ed="#V" n="30"/>etiam gratuitum, gratiae et gloriae
+            loquen<lb ed="#V" n="31" break="no"/>do extensive, et sic ratio assumpta est
+            <lb ed="#V" n="32"/>falsa.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Dato etiam opposito, prout alii docent,
+            <lb ed="#V" n="34"/>transeat antecedens, et negatur
+            conse<lb ed="#V" n="35" break="no"/>quentia, quoad primam et secundam
+            par<lb ed="#V" n="36" break="no"/>tem, quia ex parte universi sicut est
+            cor<lb ed="#V" n="37" break="no"/>pus heterogeneum et distributum per
+            <lb ed="#V" n="38"/>diversa membra in quantum divina bonitas
+            <lb ed="#V" n="39"/>ipsis communicatur, ad ipsum spectat,
+            <lb ed="#V" n="40"/>et supremum et infimum, et medium, quae
+            <lb ed="#V" n="41"/>in aequali gradu et perfectione non
+            pos<lb ed="#V" n="42" break="no"/>sunt participare bonitatem sui Creatoris,
+            <lb ed="#V" n="43"/>neque eodem modo concurrere ad
+            com<lb ed="#V" n="44" break="no"/>pagem corporis, ut patet etiam in corpore
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>humano, discurrendo per singula ejus
+            <lb ed="#V" n="46"/>membra, sine quibus corpus integrum
+            <lb ed="#V" n="47"/>non coalescit, licet unum altero sit
+            neces<lb ed="#V" n="48" break="no"/>sarium magis et perfectius. Ad
+            perfecti<lb ed="#V" n="49" break="no"/>onem universi et finis ostensionis divina
+            <lb ed="#V" n="50"/>bonitatis, quoad sapientiam, potentiam,
+            <lb ed="#V" n="51"/>justitiam et misericordiam, suppositis iis,
+            <lb ed="#V" n="52"/>quae in priori responsione dicta sunt, licet
+            <lb ed="#V" n="53"/>requiratur ut species attingat finem
+            su<lb ed="#V" n="54" break="no"/>um perfecte, non requiritur ut singula
+            <lb ed="#V" n="55"/>ejus supposita eumdem finem in effectu
+            <lb ed="#V" n="56"/>attingant, quia divina bonitas ejusque
+            <lb ed="#V" n="57"/>ostensio sufficienter, quantum ad
+            com<lb ed="#V" n="58" break="no"/>municationem sui per gloriam et gratiam,
+            <lb ed="#V" n="59"/>habetur in electis Angelis et hominibus.
+            <lb ed="#V" n="60"/>Quod vero aliqua supposita non attingant
+            <lb ed="#V" n="61"/>finem ex propriae libertatis ( quae libertas
+            <lb ed="#V" n="62"/>spectat ad bonum necessarium universi,
+            <lb ed="#V" n="63"/>ut sit perfectum) abusu et contemptu
+            le<lb ed="#V" n="64" break="no"/>gis, quae ducit ad finem, spectat ad
+            bo<lb ed="#V" n="65" break="no"/>num universi, ut permissa libertate et
+            <lb ed="#V" n="66"/>malitia, etiam in iis servetur ordo
+            conve<lb ed="#V" n="67" break="no"/>niens justitiae, ob contemptum finem,
+            <lb ed="#V" n="68"/>legem, et legislatorem, quae est specialis
+            <lb ed="#V" n="69"/>divina bonitas, quae etiam in malis elucet,
+            <lb ed="#V" n="70"/>et non habet sui manifestationem in bonis;
+            <lb ed="#V" n="71"/>ergo eo ipso quo spectat ad bonum
+            cre<lb ed="#V" n="72" break="no"/>aturae rationalis, ut per legem et media
+            <lb ed="#V" n="73"/>ordinetur ad finem, ita etiam spectat ad
+            <lb ed="#V" n="74"/>idem ut opera ejus secundum debitum
+            <lb ed="#V" n="75"/>ordinem justitiae retribuantur, sive bona,
+            <lb ed="#V" n="76"/>sive mala. Justitia enim universalis in Deo
+            <lb ed="#V" n="77"/>ad sui manifestationem requirebat ex
+            se<lb ed="#V" n="78" break="no"/>cundario fine, ut praeviso peccato,
+            ordina<lb ed="#V" n="79" break="no"/>ret peccatum per poenam. Deinde,
+            con<lb ed="#V" n="80" break="no"/>grui etiam ut voluntas creata, libera et
+            <lb ed="#V" n="81"/>fallibilis, per quam homo ad finem
+            ordi<lb ed="#V" n="82" break="no"/>natur, statuta lege, alliceretur per
+            prae<lb ed="#V" n="83" break="no"/>mium, teneretur per exitium, et poenam
+            <lb ed="#V" n="84"/>a malo, ad sequendum bonum et
+            in<lb ed="#V" n="85" break="no"/>quirendum finem ad quem est
+            ordi<lb ed="#V" n="86" break="no"/>nata.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>Ad id quod sequitur, nempe magis
+            <lb ed="#V" n="88"/>bonum esse gratiam et gloriam, quam
+            <pb ed="#V" n="477"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>bonum sit universo permissio peccati, et
+            <lb ed="#V" n="2"/>poena ordinata, distinguo; quantum ad
+            <lb ed="#V" n="3"/>bonum particulare hujus aut illius, quod
+            <lb ed="#V" n="4"/>non debet respicere legislator aut
+            prin<lb ed="#V" n="5" break="no"/>ceps in politia, nisi ut reducitur ad bonum
+            <lb ed="#V" n="6"/>commune, transeat; quantum ad
+            rati<lb ed="#V" n="7" break="no"/>onem boni communis et ordinis, negatur
+            <lb ed="#V" n="8"/>assumptum; et patet ratio ex dictis, quia
+            <lb ed="#V" n="9"/>bonum ordinis, in quo consistit ipsa
+            so<lb ed="#V" n="10" break="no"/>cietas tanquam in ratione formali, per
+            <lb ed="#V" n="11"/>quam reducitur ad finem boni communis,
+            <lb ed="#V" n="12"/>est magis bonum simpliciter, et magis
+            <lb ed="#V" n="13"/>debet attendi a principe, quam particulare
+            <lb ed="#V" n="14"/>hujus aut illius mem bri. Sicut ergo
+            insti<lb ed="#V" n="15" break="no"/>tutio facta est creaturae rationalis et
+            so<lb ed="#V" n="16" break="no"/>cietatis, non ut otiosa esset, sed ut ad
+            <lb ed="#V" n="17"/>finem per opera conaretur progredi, ita
+            <lb ed="#V" n="18"/>etiam ordinavit ipsa opera secundum
+            de<lb ed="#V" n="19" break="no"/>bitum ordinem justitiae, eo modo quo
+            <lb ed="#V" n="20"/>salva libertate ordinari debuerunt, unde
+            <lb ed="#V" n="21"/>admonitio legis comminantis malum
+            poe<lb ed="#V" n="22" break="no"/>nae, magis conducit ex se ad finem
+            per<lb ed="#V" n="23" break="no"/>quirendum, quam si nulla peccatis poena
+            <lb ed="#V" n="24"/>statueretur. Et licet illa admonitio in
+            per<lb ed="#V" n="25" break="no"/>versis non sit efficax, tamen in bonis
+            plu<lb ed="#V" n="26" break="no"/>rimum sollicitat observantiam legis; malis
+            <lb ed="#V" n="27"/>autem qui seipsos per opera segregant
+            <lb ed="#V" n="28"/>a societate bonorum, et fine constituto,
+            <lb ed="#V" n="29"/>valet ad effectum justitiae divinae
+            osten<lb ed="#V" n="30" break="no"/>dendum, et hinc negatur reliquum quod
+            <lb ed="#V" n="31"/>sequitur in illa ratione.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>(n) Aliud de manifestatione divinae
+            ju<lb ed="#V" n="33" break="no"/>stitiae, etc. Hic impugnatur secunda ratio
+            <lb ed="#V" n="34"/>adducta ex Augustino, de manifestatione
+            <lb ed="#V" n="35"/>divinae justitiae. Ratio est talis, quia in
+            <lb ed="#V" n="36"/>praemiatione bonorum eminentior est
+            <lb ed="#V" n="37"/>actus justitiae praetermittere meritum
+            bo<lb ed="#V" n="38" break="no"/>num (forte praemiare meritum bonum,
+            <lb ed="#V" n="39"/>quia hoc magis facit ad scopum
+            discur<lb ed="#V" n="40" break="no"/>sus, quatenus insinuat justitiam Dei magis
+            <lb ed="#V" n="41"/>manifestari ex praemiatione boni, quam
+            <lb ed="#V" n="42"/>ex punitione mali, ac proinde hanc
+            pu<lb ed="#V" n="43" break="no"/>nitionem non esse necessariam ad
+            osten<lb ed="#V" n="44" break="no"/>sionem justitiae, contra Augustinum loco
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>praemisso) quam punire malum, quia
+            in<lb ed="#V" n="46" break="no"/>fima justitia est vindicare; inde actus ejus
+            <lb ed="#V" n="47"/>nunquam potest electivus esse, aut per
+            <lb ed="#V" n="48"/>se volitus in ratione medii. Vindicativae
+            <lb ed="#V" n="49"/>vero fit cum quadam displicentia, quia ad
+            <lb ed="#V" n="50"/>hoc ut sit bonus, debet esse minus
+            vo<lb ed="#V" n="51" break="no"/>luntarius, electio enim magna vindicandi
+            <lb ed="#V" n="52"/>magis est crudelitas; unde non apparet
+            <lb ed="#V" n="53"/>justitia divina in infimo actu justitiae,
+            <lb ed="#V" n="54"/>quia in eminentioribus actibus magis
+            ap<lb ed="#V" n="55" break="no"/>paret. Respondetur utrumque actum
+            <lb ed="#V" n="56"/>aeque convenire principi et legislatori ex
+            <lb ed="#V" n="57"/>motivo boni communis, quod primario
+            <lb ed="#V" n="58"/>intendit. Quamvis enim intendat, ut dixi,
+            <lb ed="#V" n="59"/>primario bonum commune, intendit etiam
+            <lb ed="#V" n="60"/>media necessaria secundum legem, et
+            <lb ed="#V" n="61"/>supposito statu, in quo boni et mali
+            com<lb ed="#V" n="62" break="no"/>miscentur in republica, quos ordinari
+            <lb ed="#V" n="63"/>convenit per justitiam, ut finem inducit
+            <lb ed="#V" n="64"/>intentum sollicitando bonum et
+            amoven<lb ed="#V" n="65" break="no"/>do malum ex motivo boni, et utrumque
+            <lb ed="#V" n="66"/>per se includit medium justitiae, a quo
+            <lb ed="#V" n="67"/>specificatur, et rationem debiti, prout in
+            <lb ed="#V" n="68"/>reipsa fundatur.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Differentia autem eorum est ex objecto
+            <lb ed="#V" n="70"/>materiali, non formali in genere, quia
+            <lb ed="#V" n="71"/>sicut praemiatio ordinat debitum meriti
+            <lb ed="#V" n="72"/>secundum legem, ita vindicativa debitum
+            <lb ed="#V" n="73"/>demeriti, ad satisfactionem legis
+            viola<lb ed="#V" n="74" break="no"/>tae, quod legislator intendit. Quod
+            ve<lb ed="#V" n="75" break="no"/>ro debitum hoc respiciat justitia vind
+            i<lb ed="#V" n="76" break="no"/>cativa, et sit ex suppositione violatae legis,
+            <lb ed="#V" n="77"/>ob libertatem permissam voluntatis ( quae
+            <lb ed="#V" n="78"/>ad bonum universi spectat unde sequatur
+            <lb ed="#V" n="79"/>peccatum ex quo redundat debitum
+            poe<lb ed="#V" n="80" break="no"/>nae, quod peccatum non vult legislator,
+            <lb ed="#V" n="81"/>quamvis ex eadem libertate permissa
+            <lb ed="#V" n="82"/>etiam permittit), non derogat libertati
+            vo<lb ed="#V" n="83" break="no"/>luntatis legislatoris, aut bonitati, aut
+            per<lb ed="#V" n="84" break="no"/>fectioni suae justitiae, sed magis
+            commen<lb ed="#V" n="85" break="no"/>dat ejus bonitatem ut peccatum
+            suppo<lb ed="#V" n="86" break="no"/>situm ordinetur, et rectitudo legis violatae
+            <lb ed="#V" n="87"/>restituatur. Neque permittit peccatum ex
+            <lb ed="#V" n="88"/>fine ostendendae justitiae, sed servandae
+            <pb ed="#V" n="478"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>libertatis, quo supposito vult medium
+            <lb ed="#V" n="2"/>restituendi debiti per justam poenam;
+            <lb ed="#V" n="3"/>qui actus est rectissimus, quamvis
+            suppo<lb ed="#V" n="4" break="no"/>nat malum peccati, et hoc intendit
+            Augu<lb ed="#V" n="5" break="no"/>stinus, quatenus hoc modo divina justitia
+            <lb ed="#V" n="6"/>etiam ex malis manifestetur, quae praeter
+            <lb ed="#V" n="7"/>voluntatem divinam, et contra
+            rectitudi<lb ed="#V" n="8" break="no"/>nem legis fiunt, non Deo volente malum
+            <lb ed="#V" n="9"/>culpae, ut qui per legem praescripsit
+            ser<lb ed="#V" n="10" break="no"/>vandam justitiam et possibilitatem ejus
+            <lb ed="#V" n="11"/>servandae tribuit per media sufficientia,
+            <lb ed="#V" n="12"/>quia vult omnes homines salvos fieri, et ad
+            <lb ed="#V" n="13"/>cognitionem veritatis venire, etc.
+            Permit<lb ed="#V" n="14" break="no"/>tit autem mala fieri, non ex affectu
+            vindi<lb ed="#V" n="15" break="no"/>cationis, sed ex aequitate legis communis
+            <lb ed="#V" n="16"/>omnibus, et libertatis in societate
+            servan<lb ed="#V" n="17" break="no"/>da relinquendo creaturam in manu
+            consi<lb ed="#V" n="18" break="no"/>lii sui; ex suppositione vero mali ordinat
+            <lb ed="#V" n="19"/>vindicationem, quae supponit malum in
+            <lb ed="#V" n="20"/>esse, aut praevisione. Quando ergo dicitur
+            <lb ed="#V" n="21"/>quod actus vindicativae non sit medii
+            ele<lb ed="#V" n="22" break="no"/>ctivus, nisi cum quadam displicentia:
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Respondetur displicentiam sumi posse,
+            <lb ed="#V" n="24"/>vel ut est actus misericordiae parcentis,
+            <lb ed="#V" n="25"/>vel ut est actus antecedentis voluntatis,
+            <lb ed="#V" n="26"/>quo affectatur bonum commune omnibus,
+            <lb ed="#V" n="27"/>et media ordinantur ad hoc conducentia
+            <lb ed="#V" n="28"/>ex affectu salutis omnium; vel denique
+            <lb ed="#V" n="29"/>ut ipse actus respicit medium, quatenus
+            <lb ed="#V" n="30"/>determinationem tollit, quae displicet.
+            <lb ed="#V" n="31"/>Omnibus his modis actus vindicandi
+            con<lb ed="#V" n="32" break="no"/>notat displicentiam, nam primus actus
+            vo<lb ed="#V" n="33" break="no"/>luntatis et legislatoris praecise respicit
+            <lb ed="#V" n="34"/>finem boni communis in societate, et
+            in<lb ed="#V" n="35" break="no"/>differenter quoad omnia ejus supposita
+            <lb ed="#V" n="36"/>ut ordinantur ad finem, etiam
+            indifferen<lb ed="#V" n="37" break="no"/>ter, ex qua oritur displicentia peccati in
+            <lb ed="#V" n="38"/>causa; displicentia etiam oritur non solum
+            <lb ed="#V" n="39"/>ex affectu misericordiae parcentis, sed
+            eti<lb ed="#V" n="40" break="no"/>am quoad effectum, ut in quarto articulo
+            <lb ed="#V" n="41"/>dicitur. Eodem modo ipse actus
+            vindicati<lb ed="#V" n="42" break="no"/>onis oritur ob displicentiam peccati,
+            cae<lb ed="#V" n="43" break="no"/>terum est voluntarius simpliciter, et
+            judi<lb ed="#V" n="44" break="no"/>cium de particularibus juxta communem
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>legem ex electione medii debiti justitiae,
+            <lb ed="#V" n="46"/>quae non integre manifestaretur sine tali
+            <lb ed="#V" n="47"/>actu, neque in ordine ad universum,
+            ne<lb ed="#V" n="48" break="no"/>que etiam in ordine ad legem violatam,
+            <lb ed="#V" n="49"/>neque in ordine ad ipsum delinquentem
+            <lb ed="#V" n="50"/>finaliter, quia per propriam conscientiam
+            <lb ed="#V" n="51"/>damnatur inaequalitatis positae in ordine
+            <lb ed="#V" n="52"/>ad Deum et legem, et cujus voluntas
+            <lb ed="#V" n="53"/>ordinari debuit secundum affectum
+            debi<lb ed="#V" n="54" break="no"/>tum justitiae et commodi, ut quantum
+            <lb ed="#V" n="55"/>recessit injustitia a regula legis, tantum
+            <lb ed="#V" n="56"/>reduceretur per poenam et satisfactionem
+            <lb ed="#V" n="57"/>debitam per privationem commodi, quod
+            <lb ed="#V" n="58"/>injuste affectavit et praesumpsit. Ex quo
+            <lb ed="#V" n="59"/>patet ad illud, quod objicitur de
+            mani<lb ed="#V" n="60" break="no"/>festatione divinae justitiae per actum
+            emi<lb ed="#V" n="61" break="no"/>nentiorem praemii collati, quia ille actus
+            <lb ed="#V" n="62"/>licet in se sit perfectior, non tamen est
+            <lb ed="#V" n="63"/>adaequatus actus justitiae, ut ordinat opera
+            <lb ed="#V" n="64"/>tam bona quam mala, neque sufficit ad
+            <lb ed="#V" n="65"/>ostensionem ejus, supposito malo culpae
+            <lb ed="#V" n="66"/>finali, nisi etiam culpa ipsa ordinetur per
+            <lb ed="#V" n="67"/>vindictam.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>(o) Quartum similiter de laetitia
+            Beato<lb ed="#V" n="69" break="no"/>rum, etc. Impugnatur ultima ratio
+            praemis<lb ed="#V" n="70" break="no"/>sa Augustini, qua ostenditur gloria
+            acci<lb ed="#V" n="71" break="no"/>dentalis Beatorum ex condigna punitione
+            <lb ed="#V" n="72"/>inimicorum. Objicitur ex Gregorio quod
+            <lb ed="#V" n="73"/>Deus ipse non pascitur cruciatu, qui pius
+            <lb ed="#V" n="74"/>est, etc. ergo neque Sancti. Deinde, magis
+            <lb ed="#V" n="75"/>laetarentur de gloria damnato rrum, si
+            fie<lb ed="#V" n="76" break="no"/>rent salvi.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Respondetur, Beatos non laetari affectu
+            <lb ed="#V" n="78"/>commodi aut crudelitatis, de damnatione
+            <lb ed="#V" n="79"/>impiorum, sed ex affectu justitiae divinae et
+            <lb ed="#V" n="80"/>legis restitutione per poenam debitam.
+            <lb ed="#V" n="81"/>Quod autem dicitur, magis laetaturos de
+            <lb ed="#V" n="82"/>eorum glorificatione, respondetur non inde
+            <lb ed="#V" n="83"/>tolli objectum laetitiae de eorum
+            damnatio<lb ed="#V" n="84" break="no"/>ne ordinata, quia quod in objectis laetitiae
+            <lb ed="#V" n="85"/>aliquod sit immediatius ad finem, ejusque
+            <lb ed="#V" n="86"/>bonitatem, non tollit quin caetera etiam
+            <lb ed="#V" n="87"/>quae reducuntur ad finem sint causae
+            laeti<lb ed="#V" n="88" break="no"/>tiae in suo gradu, et prout ad finem
+            redu<pb ed="#V" n="479"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>cuntur, finis autem creaturae est Deus in
+            <lb ed="#V" n="2"/>se, et sua bonitas, sic est primarius;
+            se<lb ed="#V" n="3" break="no"/>cundarius autem eadem bonitas, ut
+            com<lb ed="#V" n="4" break="no"/>municatur creaturis juxta gradum et
+            or<lb ed="#V" n="5" break="no"/>dinem suum, prout illum participant,
+            <lb ed="#V" n="6"/>dispari modo et gradu. Gloria autem
+            <lb ed="#V" n="7"/>Beatorum ad finem magis accedit quam
+            <lb ed="#V" n="8"/>miseria damnatorum; haec tamen ut
+            redu<lb ed="#V" n="9" break="no"/>citur per justitiam ad finem est objectum
+            <lb ed="#V" n="10"/>laetitiae, et non aliter.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d46q4-p6"> -->
+          <p>
+            <lb ed="#V" n="80" type="fixed=481"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>(p) De quarto articulo, etc. Conclusio
+            <lb ed="#V" n="82"/>hujus articuli respondet ad quaesitum
+            <lb ed="#V" n="83"/>principale, nempe in poena damnatorum
+            <lb ed="#V" n="84"/>non haberi misericordiam ex toto
+            parcen<lb ed="#V" n="85" break="no"/>tem, sed ex parte, quatenus Deus punit
+            <lb ed="#V" n="86"/>citra condignum, praemiat ultra
+            condi<lb ed="#V" n="87" break="no"/>gnum quod docet Augustinus 21. de
+            Ci<pb ed="#V" n="482"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>vitate cap. 24. Cassianus in Psal. 51. et
+            <lb ed="#V" n="2"/>communiter Theologi in hac d. patet ex
+            <lb ed="#V" n="3"/>Psal. 24. universae viae Domini
+            misericor<lb ed="#V" n="4" break="no"/>dia et veritas. Cassiodorus in Psal. 50.
+            <lb ed="#V" n="5"/>Hae duae res in viis Domini semper
+            ad<lb ed="#V" n="6" break="no"/>junctae sunt. Psal. 76. non obliviscetur
+            <lb ed="#V" n="7"/>misereri Deus, et Jacobi. 2.
+            Misericor<lb ed="#V" n="8" break="no"/>dia superexaltat judicium, etc. Adducit
+            <lb ed="#V" n="9"/>argumentum D. Thomae pro illa
+            conclu<lb ed="#V" n="10" break="no"/>sione, hoc autem est: Sicut agens ad
+            ac<lb ed="#V" n="11" break="no"/>tionem, ita se habet patiens ad
+            passio<lb ed="#V" n="12" break="no"/>nem, servata proportione; ergo
+            inquan<lb ed="#V" n="13" break="no"/>1. tum agens excedit passum, in tantum
+            <lb ed="#V" n="14"/>actio excedit passionem, sicut senarius et
+            <lb ed="#V" n="15"/>quaternarius, qui sunt inaequales, habent
+            <lb ed="#V" n="16"/>proportionem duplam ad ternarium, et
+            <lb ed="#V" n="17"/>binarium similiter inaequales, sed in
+            pro<lb ed="#V" n="18" break="no"/>posito dans se habet per modum agentis,
+            <lb ed="#V" n="19"/>recipiens per modum patientis; ergo
+            <lb ed="#V" n="20"/>quando dans superexcedit recipientem,
+            <lb ed="#V" n="21"/>conveniens est ut datio excedat
+            recepti<lb ed="#V" n="22" break="no"/>onem, quae est proportionata recipienti,
+            <lb ed="#V" n="23"/>pro eodem comparatur minus malum, et
+            <lb ed="#V" n="24"/>majus bonum 5. Ethic. c. 6. ergo sicut
+            <lb ed="#V" n="25"/>Deus dat ultra condignum, ita infligit
+            <lb ed="#V" n="26"/>malum citra condignum.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>Hanc rationem impugnat Doctor
+            re<lb ed="#V" n="28" break="no"/>-torquendo idem medium sumptum ex
+            <lb ed="#V" n="29"/>proportionibus: Quando aliqua duo
+            ha<lb ed="#V" n="30" break="no"/>bent proportionem ad alia duo, quantum
+            <lb ed="#V" n="31"/>unum excedit alterum e duobus, tantum
+            <lb ed="#V" n="32"/>etiam alterum e duobus exceditur a
+            reli<lb ed="#V" n="33" break="no"/>quo; quod probat in exemplo allato:
+            Sic<lb ed="#V" n="34" break="no"/>ut se habet senarius in sesquialtera
+            pro<lb ed="#V" n="35" break="no"/>portione ad quaternarium, ita et ternarius
+            <lb ed="#V" n="36"/>.ad binarium, sed non quantum excedit
+            <lb ed="#V" n="37"/>agens patiens, tantum excedit actio
+            pas<lb ed="#V" n="38" break="no"/>sionem, quia in proposito agens excedit in
+            <lb ed="#V" n="39"/>infinitum patiens, et tamen illa datio, quae
+            <lb ed="#V" n="40"/>comparatur actioni, non excedit in
+            infini<lb ed="#V" n="41" break="no"/>tum. Dices actionem divinam ad intra,
+            <lb ed="#V" n="42"/>quae est nolitio Dei, esse infinitam;
+            <lb ed="#V" n="43"/>contra, inde non sequitur aliquid majus in
+            <lb ed="#V" n="44"/>passo, quam quod est sibi
+            proportiona<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>tum. Retorquet similiter exemplum, ut
+            pa<lb ed="#V" n="46" break="no"/>tet ex littera, quia hic agitur de actione,
+            <lb ed="#V" n="47"/>ut est effectio effectus, vel formae, et ut
+            <lb ed="#V" n="48"/>recipitur per modum mutationis in passo,
+            <lb ed="#V" n="49"/>non autem de actione Dei, immanente,
+            <lb ed="#V" n="50"/>et ad intra; et tandem per hoc respondet
+            <lb ed="#V" n="51"/>argumento, ostendens proportionem inter
+            <lb ed="#V" n="52"/>agens et patiens consistere in eo, quod
+            <lb ed="#V" n="53"/>agens sit in virtute id, quod passum est
+            <lb ed="#V" n="54"/>in potentia, non quod actio sit in actu
+            <lb ed="#V" n="55"/>id, quod passio est in potentia, nam actio
+            <lb ed="#V" n="56"/>et passio sequuntur motum ut est ab
+            <lb ed="#V" n="57"/>agente, in passo et in passo ab agente.
+            <lb ed="#V" n="58"/>Unde neutra est in actu, nisi alia
+            concom<lb ed="#V" n="59" break="no"/>mitante, quando agitur dependenter a
+            <lb ed="#V" n="60"/>subjecto, et in subjectum ut passum,
+            <lb ed="#V" n="61"/>neque actio potest concipi, loquendo de
+            <lb ed="#V" n="62"/>forma in fieri ut hic loquimur, nisi ut est
+            <lb ed="#V" n="63"/>in subjecto secundum capacitatem
+            subje<lb ed="#V" n="64" break="no"/>cti, si est in subjecto, licet respectu
+            agen<lb ed="#V" n="65" break="no"/>tis sit actio, ut refertur praecise ad illud
+            <lb ed="#V" n="66"/>genus causae, nempe materialis. Non
+            po<lb ed="#V" n="67" break="no"/>test ergo servari hic illa proportio, quam
+            <lb ed="#V" n="68"/>argumentum praetendit de excessu
+            acti<lb ed="#V" n="69" break="no"/>onis supra passionem, quantum ad
+            in<lb ed="#V" n="70" break="no"/>aequalitatem formae, ut est ab agente
+            <lb ed="#V" n="71"/>et in passo, quia eadem est, et quanta
+            <lb ed="#V" n="72"/>est in actu ab agente, tanta est in
+            pas<lb ed="#V" n="73" break="no"/>so secundum passionem; quod virtus
+            <lb ed="#V" n="74"/>alicujus agentis sit ad majus intensive
+            <lb ed="#V" n="75"/>aut extensive, non probat hic et nunc,
+            <lb ed="#V" n="76"/>quatenus reducitur in actum secundum,
+            <lb ed="#V" n="77"/>seu actionem circa determinatum
+            subje<lb ed="#V" n="78" break="no"/>ctum, quod possit influere ultra
+            capaci<lb ed="#V" n="79" break="no"/>tatem recipientis subjecti. Non capio
+            <lb ed="#V" n="80"/>praeterea vim argumenti, quantum ad
+            <lb ed="#V" n="81"/>scopum praesentis conclusionis, quia
+            <lb ed="#V" n="82"/>non video quomodo actio punitiva Dei
+            <lb ed="#V" n="83"/>sit excedens poenam inflictam aut
+            capa<lb ed="#V" n="84" break="no"/>citatem subjecti, quia illa non potest
+            <lb ed="#V" n="85"/>esse ex parte Dei nisi juxta exigentiam
+            <lb ed="#V" n="86"/>et debitum peccati, subjectum autem
+            <lb ed="#V" n="87"/>sicut capax est delicti, ita et poenae
+            pro<lb ed="#V" n="88" break="no"/>portionatae.
+            <pb ed="#V" n="483"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>(q) Dico quibus quod hujus
+            conclusi<lb ed="#V" n="2" break="no"/>onis, etc. Reducit fundamentum
+            conclu<lb ed="#V" n="3" break="no"/>sionis ad auctoritatem Scripturae ex illo
+            <lb ed="#V" n="4"/>Jacobi supra citato. Deinde, ex concursu
+            <lb ed="#V" n="5"/>utriusque tam justitiae quam
+            misericor<lb ed="#V" n="6" break="no"/>diae, opus in reipsa fit perfectius ad
+            <lb ed="#V" n="7"/>manifestandam divinam bonitatem, quia
+            <lb ed="#V" n="8"/>factum secundum inclinationem utriusque
+            <lb ed="#V" n="9"/>manifestat utramque, ita Misericordia
+            su<lb ed="#V" n="10" break="no"/>perexaltat judicium. Contra, quia
+            mise<lb ed="#V" n="11" break="no"/>ricordia potius derogat judicio, quia
+            par<lb ed="#V" n="12" break="no"/>cit in aliquo, quod erat ex justitia
+            vindi<lb ed="#V" n="13" break="no"/>candum.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Respondet, sicut dare bonum
+            indebi<lb ed="#V" n="15" break="no"/>tum non sit contra justitiam, quia est
+            <lb ed="#V" n="16"/>actus liberalitatis, qui non repugnat
+            justi<lb ed="#V" n="17" break="no"/>tiae, sicut neque una virtus alteri;
+            aufer<lb ed="#V" n="18" break="no"/>re autem debitum esset contra justitiam,
+            <lb ed="#V" n="19"/>eodem modo non inferre malum in
+            quan<lb ed="#V" n="20" break="no"/>tum debitum est, non est contra justitiam,
+            <lb ed="#V" n="21"/>id est, si inferatur tantum citra debitum.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Contra, quia tunc non esset contra
+            <lb ed="#V" n="23"/>justitiam auferre totum malum, et culpae et
+            <lb ed="#V" n="24"/>poenae a damnatis, sicut neque bonum
+            <lb ed="#V" n="25"/>maximum dare, licet indebitum. Si potest
+            <lb ed="#V" n="26"/>ergo stare ut poena debita habens tres
+            <lb ed="#V" n="27"/>gradus correspondentes simili malitiae
+            <lb ed="#V" n="28"/>peccati, seu aequali, salva justitia
+            remitta<lb ed="#V" n="29" break="no"/>tur quoad unum, ita etiam quoad reliquos
+            <lb ed="#V" n="30"/>gradus, et consequenter in nullo gradu
+            <lb ed="#V" n="31"/>.infligi, etiam manente peccato. Non
+            re<lb ed="#V" n="32" break="no"/>spondet ad hanc objectionem Doctor,
+            sub<lb ed="#V" n="33" break="no"/>jicit vero additio duas responsiones,
+            qua<lb ed="#V" n="34" break="no"/>rum quaelibet satisfacit, et juxta principia
+            <lb ed="#V" n="35"/>Doctoris, utraque responsio non solum ex
+            <lb ed="#V" n="36"/>dictis desumi potest, sed etiam ex
+            do<lb ed="#V" n="37" break="no"/>ctrina distinct. 44. in 1. quaest. unic. 8
+            Ad<lb ed="#V" n="38" break="no"/>vertendum tamen est, etc. ubi summarie
+            <lb ed="#V" n="39"/>haec dicit: Aliquid fieri ordinate
+            duplici<lb ed="#V" n="40" break="no"/>ter contingere a Deo: Uno modo ordine
+            <lb ed="#V" n="41"/>universali, qui pertinet ad legem
+            com<lb ed="#V" n="42" break="no"/>munem, v. g. omnem peccatorem
+            finali<lb ed="#V" n="43" break="no"/>ter, id est, morientem in peccato esse
+            <lb ed="#V" n="44"/>damnandum. Secundo modo ordine, qui
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>est conclusio legis universalis, et dicitur
+            <lb ed="#V" n="46"/>judicium, secundum legem de hoc vel illo
+            <lb ed="#V" n="47"/>in particulari ut quod hic vel ille
+            homici<lb ed="#V" n="48" break="no"/>da moriatur, quia lex est de universali.
+            <lb ed="#V" n="49"/>Judicium autem secundum legem de
+            <lb ed="#V" n="50"/>particulari casu, et subdit: Dico ergo,
+            <lb ed="#V" n="51"/>inquit, quod Deus non solum potest agere
+            <lb ed="#V" n="52"/>aliter, quam ordinatum est ordine
+            parti<lb ed="#V" n="53" break="no"/>culari (id est, secundum judicium ex lege
+            <lb ed="#V" n="54"/>universali), sed etiam aliter quam
+            ordina<lb ed="#V" n="55" break="no"/>tum est in universali, sine secundum leges
+            <lb ed="#V" n="56"/>justitiae, potest ordinate agere, quia tam
+            <lb ed="#V" n="57"/>illa quae sunt praeter illum ordinem, quam
+            <lb ed="#V" n="58"/>illa quae contra illum ordinem, (praeter
+            <lb ed="#V" n="59"/>ordinem legis est in casu particulari non
+            <lb ed="#V" n="60"/>judicare secundum legem, ut si princeps
+            <lb ed="#V" n="61"/>qui est supra legem parcat huic
+            homici<lb ed="#V" n="62" break="no"/>dae, non derogando legi universali,
+            con<lb ed="#V" n="63" break="no"/>tra legem est, si statueret aliam
+            contra<lb ed="#V" n="64" break="no"/>riam) possunt a Deo ordinate fieri potentia
+            <lb ed="#V" n="65"/>absoluta, potentia tamen ordinaria non
+            di<lb ed="#V" n="66" break="no"/>citur nisi sccundum ordinem legis
+            univer<lb ed="#V" n="67" break="no"/>salis, non autem secundum legis recte de
+            <lb ed="#V" n="68"/>aliquo particulari; quod apparet ex hoc,
+            <lb ed="#V" n="69"/>quia possibile est Deum salvare aliquem,
+            <lb ed="#V" n="70"/>qui tamen morietur in pecato mortali
+            fina<lb ed="#V" n="71" break="no"/>liter, et damnabitur, non autem conceditur
+            <lb ed="#V" n="72"/>posse salvare Judam jam damnatum; nec
+            <lb ed="#V" n="73"/>tamen hoc est impossibile de potentia
+            ab<lb ed="#V" n="74" break="no"/>soluta Dei, quia includit
+            contradictio<lb ed="#V" n="75" break="no"/>nem, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Potest ergo de potentia ordinaria, et
+            <lb ed="#V" n="77"/>secundum legem universalem justitiae
+            <lb ed="#V" n="78"/>salvare peccatorem, dum est in via, qui
+            <lb ed="#V" n="79"/>morietur in peccato, nempe potest, ut
+            <lb ed="#V" n="80"/>infra dicit, eum salvare praeveniendo
+            <lb ed="#V" n="81"/>ipsum sua gratia ne moriatur in peccato.
+            <lb ed="#V" n="82"/>Judam, aut alium damnatum non potest
+            <lb ed="#V" n="83"/>sic salvare secundum justitiam legis
+            or<lb ed="#V" n="84" break="no"/>dinariae et universalis, qua ordinatur,
+            <lb ed="#V" n="85"/>morientem in suo peccato mortali
+            dam<lb ed="#V" n="86" break="no"/>nandum. Potest autem secundum
+            ordi<lb ed="#V" n="87" break="no"/>nem justitiae salvare Judam de potentia
+            <lb ed="#V" n="88"/>absoluta, sed statuendo legem
+            contra<pb ed="#V" n="484"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>riam, quae esset justa, si a Deo fieret,
+            <lb ed="#V" n="2"/>cujus voluntas est prima regula justi et
+            <lb ed="#V" n="3"/>recti, ut supra in hac quaest. dixit, et
+            <lb ed="#V" n="4"/>quidquid statueret, eo ipso esset justum.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Ex hoc patet ad argumentum allatum,
+            <lb ed="#V" n="6"/>negando antecedens quoad primam
+            par<lb ed="#V" n="7" break="no"/>tem, et prout medium justitiae de facto per
+            <lb ed="#V" n="8"/>leges universales est determinatum, et
+            <lb ed="#V" n="9"/>secundum providentiam ordinariam, et
+            <lb ed="#V" n="10"/>judicium secundum eamdem legem,
+            quid<lb ed="#V" n="11" break="no"/>quid sit de quibusdam particularibus
+            <lb ed="#V" n="12"/>exemplis miraculosis, quae leguntur in
+            <lb ed="#V" n="13"/>in vitis Sanctorum de resuscitatione
+            mor<lb ed="#V" n="14" break="no"/>tuorum peccatorum, qui mox in vita
+            se<lb ed="#V" n="15" break="no"/>cundum media ordinaria legis fuerunt
+            <lb ed="#V" n="16"/>salvati supposito miraculo resuscitationis,
+            <lb ed="#V" n="17"/>quidquid dicatur de eo quon communiter
+            <lb ed="#V" n="18"/>fertur de anima Trajani, negatur
+            conse<lb ed="#V" n="19" break="no"/>quentia et paritas, quia lex universalis,
+            <lb ed="#V" n="20"/>quae est de facto, et quae servatur rectum
+            <lb ed="#V" n="21"/>quoad medium justitiae vindicativae
+            de<lb ed="#V" n="22" break="no"/>cernit poenam non solum secundum
+            <lb ed="#V" n="23"/>justitiam, sed etiam secundum
+            mi<lb ed="#V" n="24" break="no"/>sericordiam in parte parcentem, non
+            <lb ed="#V" n="25"/>esset autem observatio, seu ostensio
+            <lb ed="#V" n="26"/>justitiae, ut lege ordinaria et universali
+            <lb ed="#V" n="27"/>comprehensae, nisi infligeret poenam
+            <lb ed="#V" n="28"/>prout lege statuta est.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>(r) Ad argumenta principalia. Ad
+            pri<lb ed="#V" n="30" break="no"/>mum, etc. Hoc facit ex illo Augustini:
+            Nul<lb ed="#V" n="31" break="no"/>lo sapiente auctore fit homo deterior, etc.
+            <lb ed="#V" n="32"/>ergo Deo auctore nullus fit deterior ex
+            in<lb ed="#V" n="33" break="no"/>flictione poenae; ergo, etc. Respondet
+            Do<lb ed="#V" n="34" break="no"/>ctor Augustinum intelligi de malo culpae
+            <lb ed="#V" n="35"/>et non poenae, mihi vindictam, Deut. 23.
+            <lb ed="#V" n="36"/>contra replicat rationem illam
+            Augu<lb ed="#V" n="37" break="no"/>stini intelligi universaliter. Respondet,
+            <lb ed="#V" n="38"/>quod et si per poenam fiat iste deterior,
+            <lb ed="#V" n="39"/>non tamen simpliciter respective ad
+            bo<lb ed="#V" n="40" break="no"/>num universi, et legis servandum;
+            exem<lb ed="#V" n="41" break="no"/>e plum, licet caeco nato melius fieret nasci
+            <lb ed="#V" n="42"/>videntem, tamen ad manifestationem
+            bo<lb ed="#V" n="43" break="no"/>nitatis divinae non erat simpliciter melius
+            <lb ed="#V" n="44"/>eum nasci videntem, loquitur de coeco
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>illuminato per Christum. Cum ergo
+            <lb ed="#V" n="46"/>dicitur quod nullo sapiente auctore fiat
+            <lb ed="#V" n="47"/>quis deterior, vel exponendum est de
+            <lb ed="#V" n="48"/>malo culpae, vel negandum per malum
+            <lb ed="#V" n="49"/>poenae fieri deteriorem, licet multiplicius
+            <lb ed="#V" n="50"/>sit deterior, quia malum poenae habet per
+            <lb ed="#V" n="51"/>proportionem ad malum culpae, quae poena
+            <lb ed="#V" n="52"/>in eo justa est; dici etiam potest se
+            au<lb ed="#V" n="53" break="no"/>ctore fieri deteriorem et insipienter, quia
+            <lb ed="#V" n="54"/>ipse peccando accivit sibi poenam lege
+            <lb ed="#V" n="55"/>statutam, sciens et volens, quia neque
+            <lb ed="#V" n="56"/>lex neque legislator eum facit deteriorem,
+            <lb ed="#V" n="57"/>sed propria perversitas, quam lex per
+            <lb ed="#V" n="58"/>debitam et justam poenam reformat in
+            <lb ed="#V" n="59"/>bonum, quo habeat lex suum effectum et
+            <lb ed="#V" n="60"/>bonum commune debitum ordinem;
+            po<lb ed="#V" n="61" break="no"/>test ergo concedi antecedens cum sua
+            <lb ed="#V" n="62"/>consequentia, sed negatur absumptum,
+            <lb ed="#V" n="63"/>quia et ipso auctore accitur poena, qui per
+            <lb ed="#V" n="64"/>culpam ejus debitum incurrit, et poena
+            <lb ed="#V" n="65"/>in se recta et justa est ex suppositione
+            <lb ed="#V" n="66"/>culpae.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d46q4-p7"> -->
+          <p>
+            <lb ed="#V" n="11" type="fixed=486"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>(s) Ad secundum dicitur, etc. Hoc fuit
+            <lb ed="#V" n="13"/>ex illo Deut. 25. Secundum mensuram
+            debi<lb ed="#V" n="14" break="no"/>ti erit et plagarum modus, etc. Sed
+            deli<lb ed="#V" n="15" break="no"/>ctum fuit finitum et temporarium quoad
+            <lb ed="#V" n="16"/>durationem; ergo secundum justitiam
+            <lb ed="#V" n="17"/>punitio erit finita et temporaria; ergo
+            <lb ed="#V" n="18"/>pro finita et transitoria culpa non
+            debe<lb ed="#V" n="19" break="no"/>tur poena aeterna ex justitia. Circa
+            respon<lb ed="#V" n="20" break="no"/>sionem hujus, vide Scholium.
+            <lb ed="#V" n="21"/>Respondet cum D. Thoma, quod si
+            ma<lb ed="#V" n="22" break="no"/>lus perpetuo vixisset, perpetuo
+            pec<lb ed="#V" n="23" break="no"/>casset, et ideo perpetuo punitur, quia
+            <lb ed="#V" n="24"/>perpetuo peccavit in voluntate, quae
+            ra<lb ed="#V" n="25" break="no"/>tio est Gregorii lib. 34. Moral. cap. 3.
+            <lb ed="#V" n="26"/>Contra urget, quia aliquis peccat cum
+            <lb ed="#V" n="27"/>proposito poenitendi; ergo neque
+            im<lb ed="#V" n="28" break="no"/>plicite, neque explicite in voto
+            perpe<lb ed="#V" n="29" break="no"/>tuo peccat. Respondet eum exponere se
+            <lb ed="#V" n="30"/>perpetuitati peccati, sicut dictum est
+            <lb ed="#V" n="31"/>art. 3. hujus quaestionis in principio, de eo
+            <lb ed="#V" n="32"/>qui se in foveam praecipitat, ex qua
+            ne<lb ed="#V" n="33" break="no"/>quit evadere, nisi per auxilium ejus, quem
+            <lb ed="#V" n="34"/>contempsit se projiciendo, et offendit,
+            <lb ed="#V" n="35"/>quod maxime contingit in eo, qui non
+            <lb ed="#V" n="36"/>egit poenitentiam viator, quando potuit et
+            <lb ed="#V" n="37"/>debuit. Unde ratio illa adducta in hoc
+            <lb ed="#V" n="38"/>verificatur, quod talis perpetuo peccat,
+            <lb ed="#V" n="39"/>vel actualiter, vel habitualiter, et
+            interpre<lb ed="#V" n="40" break="no"/>tative manens in peccato sine ulla
+            poeni<lb ed="#V" n="41" break="no"/>tentia. Ad replicam respondetur, negando
+            <lb ed="#V" n="42"/>consequentiam, quia implicite, et etiam
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>explicite peccat perpetuo, non obstantei
+            <lb ed="#V" n="44"/>illo proposito poenitendi, in quo magis
+            in<lb ed="#V" n="45" break="no"/>cluditur praesumptio divinae misericordiae,
+            <lb ed="#V" n="46"/>et contemptus legis ac justitiae, quam
+            <lb ed="#V" n="47"/>voluntas efficax satisfaciendi, ex qua
+            nul<lb ed="#V" n="48" break="no"/>lus sequitur effectus, supposito quod
+            nun<lb ed="#V" n="49" break="no"/>quam fuerit reducta ad actum; potius
+            <lb ed="#V" n="50"/>enim concipitur ad extinguendum
+            re<lb ed="#V" n="51" break="no"/>morsum conscientiae, et ad facilitandum
+            <lb ed="#V" n="52"/>ad peccatum committendum, quam ex
+            <lb ed="#V" n="53"/>honestate poenitentiae; medium ergo erit,
+            <lb ed="#V" n="54"/>cupiditatis adimplendae, et non sollicitatio
+            <lb ed="#V" n="55"/>verae poenitentiae.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>(t) Alius est modus dicendi, etc.
+            Respon<lb ed="#V" n="57" break="no"/>det ex doctrina Augustini citata in littera,
+            <lb ed="#V" n="58"/>poenam esse perpetuam, non quod alias ex
+            <lb ed="#V" n="59"/>justitia, et secundum mensuram non
+            pos<lb ed="#V" n="60" break="no"/>set castigari peccatum per aliam
+            tempo<lb ed="#V" n="61" break="no"/>rariam, si Deus eam decerneret ( quia
+            <lb ed="#V" n="62"/>nempe peccatum viatoris sic etiam
+            castiga<lb ed="#V" n="63" break="no"/>ri potest per satisfactionem praescriptam
+            <lb ed="#V" n="64"/>in via, per completam et adaequatam
+            cul<lb ed="#V" n="65" break="no"/>pae poenitentiam; sic etiam Christus
+            Domi<lb ed="#V" n="66" break="no"/>nus satisfecit per poenam mortis et
+            passi<lb ed="#V" n="67" break="no"/>onis temporariam), sed quia persona est
+            <lb ed="#V" n="68"/>perpetua post mortem et peccatum ejus
+            <lb ed="#V" n="69"/>semper manet; sicut in politia mundana
+            <lb ed="#V" n="70"/>aliqua est culpa, quae punitur digne per
+            <lb ed="#V" n="71"/>poenam temporariam, sine exclusione
+            pec<lb ed="#V" n="72" break="no"/>cantis a vita civili, quae etsi morte finiatur
+            <lb ed="#V" n="73"/>inde est quod vita ipsius etiam finiatur,
+            <lb ed="#V" n="74"/>quae si amplius duraret, maneret etiam
+            <lb ed="#V" n="75"/>persona exclusa a vita civili, ita in
+            propo<lb ed="#V" n="76" break="no"/>sito peccatum mortale in termino meretur
+            <lb ed="#V" n="77"/>exclusionem a civitate superna
+            perpetu<lb ed="#V" n="78" break="no"/>am, quia vita ipsa exclusi, et peccatum ejus
+            <lb ed="#V" n="79"/>manet perpetuum. Hanc doctrinam
+            con<lb ed="#V" n="80" break="no"/>firmat ratione, quia est possibile Deo ita
+            <lb ed="#V" n="81"/>punire debitum per poenam temporariam
+            <lb ed="#V" n="82"/>intensive et extensive commensuratum
+            <lb ed="#V" n="83"/>culpae, ut si personam statim annihilaret;
+            <lb ed="#V" n="84"/>ergo quod poena aeterna sit, non est ex eo
+            <lb ed="#V" n="85"/>quod aeternitas sit per se de ratione poenae
+            <lb ed="#V" n="86"/>inquantum aequaliter punitiva, sed
+            pro<pb ed="#V" n="487"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>pter aeternitatem personae et peccati; et
+            <lb ed="#V" n="2"/>sic magis, inquit, erit plagarum modus
+            <lb ed="#V" n="3"/>secundum modum delicti, quia per se
+            re<lb ed="#V" n="4" break="no"/>quiritur intentio in poena, extensio
+            infi<lb ed="#V" n="5" break="no"/>nita sibi accedit ex causis praedictis, juxta
+            <lb ed="#V" n="6"/>illud, ubi ceciderit lignum, ibi erit,
+            Ec<lb ed="#V" n="7" break="no"/>cles. 11.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Haec utraque responsio potius dat
+            con<lb ed="#V" n="9" break="no"/>gruitatem cur ita statutum sit, quam
+            pro<lb ed="#V" n="10" break="no"/>priam causam assignet cur poena sit
+            aeter<lb ed="#V" n="11" break="no"/>na; cujus ratio est et causa, lex
+            universa<lb ed="#V" n="12" break="no"/>lis vindicativa et justa, quae prohibuit
+            <lb ed="#V" n="13"/>peccatum sub tali lege ut etiam
+            respon<lb ed="#V" n="14" break="no"/>det Augustinus lib 1. de fide contra
+            Mani<lb ed="#V" n="15" break="no"/>as chaeos cap. 19. et sic etiam justis retribuit
+            <lb ed="#V" n="16"/>et pro merito temporali aeternum praemium,
+            <lb ed="#V" n="17"/>utriusque etiam aeternitas in Scriptura
+            <lb ed="#V" n="18"/>exaggeratur per modum retributionis
+            <lb ed="#V" n="19"/>bonorum et malorum. Matth. 25. Marci 5.
+            <lb ed="#V" n="20"/>In suppplicium aeternum. Apocal. 14.
+            Fu<lb ed="#V" n="21" break="no"/>mus tormentorum ascendit in saecula
+            saecu<lb ed="#V" n="22" break="no"/>s lorum. Diuturnitas etiam aggravat ipsam
+            <lb ed="#V" n="23"/>poenam; utraque ergo solutio tam
+            Grego<lb ed="#V" n="24" break="no"/>rii quam Augustini assignat congruitatem
+            <lb ed="#V" n="25"/>legis statutae ex demerito peccatoris
+            of<lb ed="#V" n="26" break="no"/>fendentis Deum, et contemnentis
+            gra<lb ed="#V" n="27" break="no"/>viter legem, quae ducit in vitam
+            aeter<lb ed="#V" n="28" break="no"/>nam, quia hoc ipso quod peccet,
+            <lb ed="#V" n="29"/>neque deinceps poeniteat, dum
+            tem<lb ed="#V" n="30" break="no"/>pus constituitur, affectat peccatum, pro
+            <lb ed="#V" n="31"/>quo sicut nulla est possibilis satisfactio in
+            <lb ed="#V" n="32"/>termino, juste manet illi poena etiam
+            <lb ed="#V" n="33"/>aeterna ex lege. Deinde, quia et ipse
+            <lb ed="#V" n="34"/>peccans semper manet, et peccatum ejus
+            <lb ed="#V" n="35"/>dignum est ut maneat poena. Videatur
+            An<lb ed="#V" n="36" break="no"/>selmus lib. 1. Cur Deus homo, cap. 20. et
+            <lb ed="#V" n="37"/>lib. 2. per totum, Augustinus lib. 21. de
+            <lb ed="#V" n="38"/>Civit. per totum, Gregor. 15. moral. c. 4.
+            <lb ed="#V" n="39"/>et 9. Dialog. cap. 43. Cyprianus de
+            laudi<lb ed="#V" n="40" break="no"/>bus martyrii. Origen. homil. 14. in Josue,
+            <lb ed="#V" n="41"/>et 18. in Numer. 14. in Ezechielem, et alii
+            <lb ed="#V" n="42"/>Patres, quos citat Coccius lib. 10. art. 8.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Poenam hanc aeternam fore est veritas
+            <lb ed="#V" n="44"/>fidei passim ex Scripturis, Deut. 32.
+            Ju<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>dith. 16. Job. 7. Psal. 10. Proverb. 10.
+            Isa<lb ed="#V" n="46" break="no"/>iae 13. Matth. 3. et 25. Marci 9. secundae ad
+            <lb ed="#V" n="47"/>Thess. 1. secundae Petri 2. Apocal. 14. 18.
+            <lb ed="#V" n="48"/>et 19. Eam tradunt Patres in praedicta
+            <lb ed="#V" n="49"/>loca, et omnes Doctores Catholici,
+            defini<lb ed="#V" n="50" break="no"/>tur in VI. Synodo Act. 11. in Lateranensi
+            <lb ed="#V" n="51"/>sub Innoc. III. cap. ftrmiter, et eam
+            sup<lb ed="#V" n="52" break="no"/>ponit Trident. Sess. 6. cap. 14. et 15. et
+            <lb ed="#V" n="53"/>sess. 14. cap. 8. Fuerunt autem aliqui
+            erro<lb ed="#V" n="54" break="no"/>res contrarii, qui negabant aeternitatem
+            <lb ed="#V" n="55"/>poenae, qualis fuit error, qui dicitur
+            Orige<lb ed="#V" n="56" break="no"/>nis, seu potius, ut alii volunt,
+            Origenista<lb ed="#V" n="57" break="no"/>rum, qui hunc errorem induxerunt. Vide
+            <lb ed="#V" n="58"/>Athanasium de communi essentia Patris, et
+            <lb ed="#V" n="59"/>Filii, et Spritus sancti. Epiph. Aug.
+            Theo<lb ed="#V" n="60" break="no"/>doret. de iisdem. Alium errorem per
+            calum<lb ed="#V" n="61" break="no"/>niam Ruffinus attribuit Hieronymo lib. 1.
+            <lb ed="#V" n="62"/>in ipsum ex verbis, quibus in Isaiam lib. 5.
+            <lb ed="#V" n="63"/>per exaggerationem alloquitur daemonem
+            <lb ed="#V" n="64"/>Et si, inquit, omnes animae aliquando
+            ha<lb ed="#V" n="65" break="no"/>buerunt requiem, tu nunquam habebis, etc.
+            <lb ed="#V" n="66"/>Sed hoc per exaggerationem dictum est,
+            <lb ed="#V" n="67"/>non per assertionem; non defuerunt
+            <lb ed="#V" n="68"/>enim qui dixerunt animas damnatorum
+            <lb ed="#V" n="69"/>habere aliquam requiem a poenis, quam
+            <lb ed="#V" n="70"/>sententiam in secunda parte supra
+            exclu<lb ed="#V" n="71" break="no"/>simus. Caeterum neque id concedit
+            Hiero<lb ed="#V" n="72" break="no"/>nymus, ut patet ad cap. 30. et 66. Isaiae
+            <lb ed="#V" n="73"/>ad cap. 1. Threnorum, in Apologia contra
+            <lb ed="#V" n="74"/>eumdem Ruffinum, Epistola ad Anisum,
+            <lb ed="#V" n="75"/>Epistola ad Pammachium, ad Ephes. super
+            <lb ed="#V" n="76"/>illud: Nemo vos decipiat inanibus
+            ver<lb ed="#V" n="77" break="no"/>bis, etc. et super cap. 3. Jonae; deinde, illo
+            <lb ed="#V" n="78"/>loco loquitur de poenis Purgatorii. Alii
+            di<lb ed="#V" n="79" break="no"/>cebant poenas eorum, qui fuerunt ante
+            <lb ed="#V" n="80"/>adventum Christi desiisse, quia Christus
+            <lb ed="#V" n="81"/>descendens ad inferos, eos liberavit. Alii
+            <lb ed="#V" n="82"/>docebant poenas Principum et tyrannorum
+            <lb ed="#V" n="83"/>fore perpetuas. Alii admittebant
+            inter<lb ed="#V" n="84" break="no"/>missionem poenarum pro aliquo tempore,
+            <lb ed="#V" n="85"/>sed omnes hi errores sunt, et
+            convincun<lb ed="#V" n="86" break="no"/>tur ex Scriptura et Patribus, qui
+            univer<lb ed="#V" n="87" break="no"/>saliter et sine exceptione loquuntur, ut
+            <lb ed="#V" n="88"/>Isaiae ultimo, vermis eorum non morietur,
+            <lb ed="#V" n="89"/>et ignis non extinquetur, etc.
+            <pb ed="#V" n="488"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Aliqui decernunt ex natura rei deberi
+            <lb ed="#V" n="2"/>peccato mortali poenam infinitam intensive,
+            <lb ed="#V" n="3"/>ita ut quantum crescere possit, tantum
+            <lb ed="#V" n="4"/>etiam debeatur peccato; ita Parisiensis
+            <lb ed="#V" n="5"/>lib. de fide, et Almainus 3. moralium
+            <lb ed="#V" n="6"/>c. 29. quia mortale majus est in ratione
+            <lb ed="#V" n="7"/>mali omni poena. Secundo, quia nulla
+            sa<lb ed="#V" n="8" break="no"/>tisfactio peccatoris adaequatursuo peccato;
+            <lb ed="#V" n="9"/>ergo potest plena satisfactio ab eo
+            exi<lb ed="#V" n="10" break="no"/>gi. Tertio, quia ex dignitate personae
+            <lb ed="#V" n="11"/>offensae crescit malitia peccati.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Contrarium docent communiter
+            Theolo<lb ed="#V" n="13" break="no"/>i gi, estque Augustinus in Psal. 72. et lib.
+            <lb ed="#V" n="14"/>de natura boni, cap. 32. et 21. de Civit.
+            <lb ed="#V" n="15"/>cap. 11. ubi in ratione rei admittit
+            pec<lb ed="#V" n="16" break="no"/>catum magis damni inferre per poenam
+            <lb ed="#V" n="17"/>peccatori, quam commodi sit in ipso
+            <lb ed="#V" n="18"/>peccato in ratione rei; et patet ratione,
+            <lb ed="#V" n="19"/>quia malum quodcumque potest ordinari
+            <lb ed="#V" n="20"/>secundum justitiam a Deo; ergo satis
+            cor<lb ed="#V" n="21" break="no"/>respondet poena aeterna, vi condigna
+            se<lb ed="#V" n="22" break="no"/>cundum quantitatem rei. Deinde,
+            seque<lb ed="#V" n="23" break="no"/>retur omnia peccata esse aequalia, ut
+            sub<lb ed="#V" n="24" break="no"/>jiciuntur debito, si unum mereatur
+            om<lb ed="#V" n="25" break="no"/>nem poenam imaginabilem. Deinde,
+            pec<lb ed="#V" n="26" break="no"/>catum non fundat debitum poenae, nisi
+            <lb ed="#V" n="27"/>damni, quod tantum est, quantum
+            deper<lb ed="#V" n="28" break="no"/>ditur per peccatum, estque finitum ut
+            <lb ed="#V" n="29"/>gloria; poena etiam sensus nequit esse
+            <lb ed="#V" n="30"/>debita, nisi inquantum proportionata
+            <lb ed="#V" n="31"/>delectationi inordinatae quae finita fuit, et
+            <lb ed="#V" n="32"/>una alia minor et major. Apocalyp. 19.
+            <lb ed="#V" n="33"/>Quantum glorificavit se, et in deliciis fuit,
+            <lb ed="#V" n="34"/>tantum date ei tormentum et luctum, etc.
+            <lb ed="#V" n="35"/>ubi illa correspondentia rei exprimitur
+            <lb ed="#V" n="36"/>inter tormentum et delectationem.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Deus etiam de facto accommodavit
+            <lb ed="#V" n="38"/>poenam delicto secundum justitiam, quae
+            <lb ed="#V" n="39"/>poena finita est, neque aliter ei debetur
+            <lb ed="#V" n="40"/>poena, nisi ex lege ex qua redundat
+            debi<lb ed="#V" n="41" break="no"/>tum formale; argumenta autem in
+            oppo<lb ed="#V" n="42" break="no"/>situm vel concludunt idem de peccato
+            <lb ed="#V" n="43"/>veniali, vel nihil. Primum patet, quia etiam
+            <lb ed="#V" n="44"/>veniale est magis malum, quam ulla poena
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>cum propter fugiendam poenam non sit
+            <lb ed="#V" n="46"/>committendum. Hic ergo peccati excessus
+            <lb ed="#V" n="47"/>supra poenam, convenit ei ex suo ordine
+            <lb ed="#V" n="48"/>et specie, non ex intentione. Caeterum
+            <lb ed="#V" n="49"/>peccato convenit in genere poenae aliqua
+            <lb ed="#V" n="50"/>finita proportionata juxta rigorem etiam
+            <lb ed="#V" n="51"/>justitiae adaequatam si infligatur. Dices, si
+            <lb ed="#V" n="52"/>Deus statueret legem de infinita poena
+            <lb ed="#V" n="53"/>ut major semper in infinitum cresceret,
+            <lb ed="#V" n="54"/>esset justa; ergo talis deberetur peccato.
+            <lb ed="#V" n="55"/>Respondetur ex suppositione id verum
+            <lb ed="#V" n="56"/>esse, negatur tamen id fieri posse, quia
+            <lb ed="#V" n="57"/>divina clementia et justitia non excedunt
+            <lb ed="#V" n="58"/>mediocritatem rei secundum latitudinem
+            <lb ed="#V" n="59"/>ejus, ideoque non statuunt poenam, neque
+            <lb ed="#V" n="60"/>statui potest a Deo excedens hoc medium,
+            <lb ed="#V" n="61"/>quamvis ex parte peccatoris, si daretur
+            <lb ed="#V" n="62"/>lex prohibens peccatum sub tali poena,
+            <lb ed="#V" n="63"/>non esset repugnantia, quin juste eam
+            <lb ed="#V" n="64"/>mereretur contemnendo legem.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Ad secundum, idem etiam patet de
+            pec<lb ed="#V" n="66" break="no"/>cato veniali, quod Deus misericorditer
+            <lb ed="#V" n="67"/>remittit. Deinde, licet nullam satisfactio
+            <lb ed="#V" n="68"/>nem reconciliativam habere possit
+            damna<lb ed="#V" n="69" break="no"/>tus, habet tamen satispassionem, qua
+            <lb ed="#V" n="70"/>satisfit legi, dum poenam legis patitur.
+            <lb ed="#V" n="71"/>Ad tertium similiter, peccatum veniale est
+            <lb ed="#V" n="72"/>offensa Dei et legis, sicut alias dictum est,
+            <lb ed="#V" n="73"/>peccatum licet crescat ex dignitate
+            per<lb ed="#V" n="74" break="no"/>sonae offensae tamen nequit in infinitum
+            <lb ed="#V" n="75"/>crescere.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>(u) Ad aliud dico, etc. Tertium
+            argumen<lb ed="#V" n="77" break="no"/>tum fuit ex eo quod punitio fiat ad
+            corre<lb ed="#V" n="78" break="no"/>ctionem, sed damnati non corriguntur;
+            <lb ed="#V" n="79"/>ergo, etc. Respondet duplicem esse
+            <lb ed="#V" n="80"/>medicinam, curativam scilicetet
+            praeser<lb ed="#V" n="81" break="no"/>vativam; poena corrigibili infligitur ut
+            <lb ed="#V" n="82"/>corripiatur, incorrigibili ut praeserventur
+            <lb ed="#V" n="83"/>alii, qui sunt in statu correptionis. Quod
+            <lb ed="#V" n="84"/>autem neutro modo sit punitio curativa
+            <lb ed="#V" n="85"/>aut praeservativa non repugnat justitiae,
+            <lb ed="#V" n="86"/>sed sufficit ut sit restaurativa ordinis, et
+            <lb ed="#V" n="87"/>ordinativa peccati.
+          </p>
+          <p>
+            <lb ed="#V" n="88"/>Ad quartum et quintum patet ex littera.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

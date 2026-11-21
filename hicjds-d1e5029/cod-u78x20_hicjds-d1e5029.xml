@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 47, Quaestio 2</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 47, Quaestio 2</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x20">Vives, Paris, 1894, volume 20</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="503"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e5029"><!-- hicjds-b4d47q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum mundus sit purgandus per ignem</head>
+        <!-- <div alias="hiq-d47q2-p1"> -->
+          <p>
+            <lb ed="#V" n="75" type="fixed=503"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>(a) Secundo quaero utrum mundus sit
+            <lb ed="#V" n="77"/>purgandus, etc. Dividitur quaestio in duos
+            <lb ed="#V" n="78"/>articulos; in primo disserit de eo quod
+            <lb ed="#V" n="79"/>magis consentaneum est naturae universi:
+            <lb ed="#V" n="80"/>in secundo quod de facto secundum hoc
+            <lb ed="#V" n="81"/>fiet.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d47q2-p2"> -->
+          <p>
+            <lb ed="#V" n="6" type="fixed=505"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>(b) Respondeo, illa conflagratio, etc. De
+            <lb ed="#V" n="8"/>igne conflagrationis habetur Petri 3. Coeli
+            <lb ed="#V" n="9"/>ardentes solventur, elementa vero ignis
+            <lb ed="#V" n="10"/>ardore tabescent, etc. Item Psalm. 96.
+            <lb ed="#V" n="11"/>Ignis ante ipsum praecedet, et inflammabit
+            <lb ed="#V" n="12"/>in circuitu inimicos ejus, etc. Isaiae 66.
+            <lb ed="#V" n="13"/>Quia ecce Dominus in igne veniet, etc.
+            <lb ed="#V" n="14"/>Joel. 2. Ante faciem ejus ignis vorans, etc.
+            <lb ed="#V" n="15"/>Daniel. 7. Thronus ejus flamma ignis, etc.
+            <lb ed="#V" n="16"/>Quamvis autem Sancti Patres aliquando
+            <lb ed="#V" n="17"/>explicant hunc ignem metaphorice per
+            <lb ed="#V" n="18"/>comparationem ad claritatem divini
+            judi<lb ed="#V" n="19" break="no"/>cii, zelum et efficaciam sive justitiae ad
+            di<lb ed="#V" n="20" break="no"/>scernendum bonos a malis, opera justitiae
+            <lb ed="#V" n="21"/>ab iniquitate secundum aequitatem, tamen
+            <lb ed="#V" n="22"/>ignem verum et realem fore, etiam locus
+            <lb ed="#V" n="23"/>Petri declarat, qui nequit torqueri ad
+            <lb ed="#V" n="24"/>metaphoram judicii secundum
+            proprieta<lb ed="#V" n="25" break="no"/>tes ignis, quia agit Petrus per
+            contraposi<lb ed="#V" n="26" break="no"/>tionem seu antithesim de conflagratione
+            <lb ed="#V" n="27"/>mundi visibilis sensibili, et non tantum
+            <lb ed="#V" n="28"/>hominum, per antithesim, inquam, ad
+            dilu<lb ed="#V" n="29" break="no"/>vium: Ille, inquit, tunc mundus aqua
+            <lb ed="#V" n="30"/>inundatus perit, coeli autem qui nunc sunt,
+            <lb ed="#V" n="31"/>et terra eodem verbo repositi sunt igni,
+            <lb ed="#V" n="32"/>reservati in diem judicii et perditionis
+            im<lb ed="#V" n="33" break="no"/>piorum hominum, etc. Et infra: Adveniet
+            <lb ed="#V" n="34"/>autem dies Domini ut fur, in quo coeli
+            <lb ed="#V" n="35"/>magno impetu transient; elementa vero
+            <lb ed="#V" n="36"/>calore solventur, terra vero, et quae in
+            <lb ed="#V" n="37"/>ea sunt opera exurentur, etc. Haec
+            neque<lb ed="#V" n="38" break="no"/>unt de igne metaphorico intelligi, quamvis
+            <lb ed="#V" n="39"/>ex igne concomitante et praeeunte
+            divi<lb ed="#V" n="40" break="no"/>num judicium recte explicatur
+            metapho<lb ed="#V" n="41" break="no"/>riae ejus forma, et extinctio charitatis, et
+            <lb ed="#V" n="42"/>operum in hominibus illius temporis, in
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>quibus vix invenietur fides vera et viva,
+            <lb ed="#V" n="44"/>sicut etiam aqua diluvii significabant per
+            <lb ed="#V" n="45"/>accommodationem, et metaphorice
+            incen<lb ed="#V" n="46" break="no"/>dium carnis quod tunc vigebat. Praemissae
+            <lb ed="#V" n="47"/>ergo Scripturae etiam litteraliter
+            intelli<lb ed="#V" n="48" break="no"/>gendae sunt in propria significatione, licet
+            <lb ed="#V" n="49"/>per translationem etiam accommodari
+            pos<lb ed="#V" n="50" break="no"/>sint ad manifestandum modum et
+            for<lb ed="#V" n="51" break="no"/>mam divini judicii, ejusque aequitatem.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Hanc veritatem docuerunt etiam
+            Philo<lb ed="#V" n="53" break="no"/>sophi, ut Zeno, Cleantes, Chrysippus
+            <lb ed="#V" n="54"/>apud Eusebium de Praeparatione
+            Evange<lb ed="#V" n="55" break="no"/>lui, lib. 15. cap. 17. Sibylla apud
+            Augusti<lb ed="#V" n="56" break="no"/>num lib. 8. de Civit. cap. 3. sicut et
+            <lb ed="#V" n="57"/>universi Patres, Clemens lib. 2. et 3.
+            <lb ed="#V" n="58"/>Recognitionum, Justinus Martyr q. 39. 94.
+            <lb ed="#V" n="59"/>et 95. Eusebius loco allegato, Ambros.
+            <lb ed="#V" n="60"/>lib. 1. Hexam. cap. 6. Basil. hom. in
+            <lb ed="#V" n="61"/>Hexameron, Nyssenus de creatione
+            homi<lb ed="#V" n="62" break="no"/>nis, cap. 24. Hilarius in Psal. 118.
+            Chry<lb ed="#V" n="63" break="no"/>sost. in ad Rom. 4. homil. 14. Hieron. in
+            <lb ed="#V" n="64"/>Isaiae 5. et 65. Cyrill. in Isa. 34. August.
+            <lb ed="#V" n="65"/>loco cit. et in Psal. 101. lib. 20. de Civit
+            <lb ed="#V" n="66"/>c. 14. 16. 18. et 24. omnes Scholastici in
+            <lb ed="#V" n="67"/>hac distinctione et sequenti, et communis
+            <lb ed="#V" n="68"/>Interpretum.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Varias autem causas et fines hujus
+            <lb ed="#V" n="70"/>ignis assignant aliqui, quorum aliqui
+            me<lb ed="#V" n="71" break="no"/>rito reprobantur a Francisco Suarez 2.
+            <lb ed="#V" n="72"/>tom. disp. 57. sect. 1. quem adire potest
+            <lb ed="#V" n="73"/>lector. An autem hic ignis praecedet ante
+            <lb ed="#V" n="74"/>faciem Judicis ad conflagrationem
+            impio<lb ed="#V" n="75" break="no"/>rum, probabile est ex parte praecessurum,
+            <lb ed="#V" n="76"/>sed majus incendium etiam subsequetur
+            <lb ed="#V" n="77"/>judicium ad renovationem creaturae, qui
+            <lb ed="#V" n="78"/>est finis primarius et ultimus ejus.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>His suppositis, dicit Doctor
+            possibilita<lb ed="#V" n="80" break="no"/>tem illius ignis tot modis excogitari posse,
+            <lb ed="#V" n="81"/>quot modis Deus potest ipsum per se,
+            <lb ed="#V" n="82"/>aut per causam secundam producere.
+            <lb ed="#V" n="83"/>Caeterum servata debita proportione
+            <lb ed="#V" n="84"/>partium universi, et integritate, potest ille
+            <lb ed="#V" n="85"/>de novo creari in magna aut parva
+            quan<lb ed="#V" n="86" break="no"/>titate, in aliqua etiam latitudine et
+            spissi<pb ed="#V" n="506"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tudine super terram, vel circa terram in
+            <lb ed="#V" n="2"/>aliquo loco certo, et non ubique, sed
+            mo<lb ed="#V" n="3" break="no"/>biliter circa terram comburendo nunc
+            <lb ed="#V" n="4"/>hanc, nunc illam partem, potest etiam per
+            <lb ed="#V" n="5"/>totam simul creari.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Si dicatur creari, oportet dicere servata
+            <lb ed="#V" n="7"/>unione partium universi sine vacuo, quod
+            <lb ed="#V" n="8"/>tantum ex alio corpore corruptibili
+            annihi<lb ed="#V" n="9" break="no"/>letur, vel certe condensetur, v. g. aer in
+            <lb ed="#V" n="10"/>quantitate proportionata illi igni, et loco
+            <lb ed="#V" n="11"/>ejus, vel quod detur penetratio
+            corpo<lb ed="#V" n="12" break="no"/>rum.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Quod si autem generetur, oportet quod
+            <lb ed="#V" n="14"/>«tantumdem ex alio corpore, vel magis
+            <lb ed="#V" n="15"/>corrumpatur, quia ignis inter corruptibilia
+            <lb ed="#V" n="16"/>est rarissimum corpus, ac proinde
+            majo<lb ed="#V" n="17" break="no"/>rem locum occupans, vel certe quod
+            cor<lb ed="#V" n="18" break="no"/>pora aliqua convertantur in alia, ut aer in
+            <lb ed="#V" n="19"/>aquam, vel aqua in terram. Ratio hujus
+            <lb ed="#V" n="20"/>est, quia alias daretur penetratio
+            corpo<lb ed="#V" n="21" break="no"/>rum, quod natura refugit. Et declarat
+            ex<lb ed="#V" n="22" break="no"/>emplo, quia ponatur pars aeris converti
+            <lb ed="#V" n="23"/>in ignem, tunc ignis genitus propter
+            ra<lb ed="#V" n="24" break="no"/>ritatem et extensionem suam habeat
+            de<lb ed="#V" n="25" break="no"/>cem partes, quarum decima in extensione
+            <lb ed="#V" n="26"/>aequivalebit toti aeri converso in ignem,
+            <lb ed="#V" n="27"/>reliquae partes ubi erunt? Vel ergo simul
+            <lb ed="#V" n="28"/>cum aliis, et sic erit penetratio corporum;
+            <lb ed="#V" n="29"/>vel certe necesse est ut alia corpora
+            con<lb ed="#V" n="30" break="no"/>densentur, vel in alia commutentur, ut aer
+            <lb ed="#V" n="31"/>in aquam, et sic erit simul inundatio
+            <lb ed="#V" n="32"/>aquae, quamvis non tanta, quantus est
+            <lb ed="#V" n="33"/>ignis.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d47q2-p3"> -->
+          <p>
+            <lb ed="#V" n="28" type="fixed=507"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>(e) De secundo articulo, etc. Respondet
+            <lb ed="#V" n="30"/>ad quaestionem, sicut ignis extra propriam
+            <lb ed="#V" n="31"/>sphaeram non manet, nisi sit in aliqua
+            ma<lb ed="#V" n="32" break="no"/>teria quam consumit, quia semper est in
+            <lb ed="#V" n="33"/>fieri extra sphaeram propriam, id est,
+            sem<lb ed="#V" n="34" break="no"/>per per congestionem materiae novae
+            fo<lb ed="#V" n="35" break="no"/>vetur, ita etiam dicendum est non mancre
+            <lb ed="#V" n="36"/>illum ignem in aliqua sphaera circa
+            ter<lb ed="#V" n="37" break="no"/>ram, quia sic non haberet materiam in
+            <lb ed="#V" n="38"/>quam ageret, neque aliquid deputaret.
+            <lb ed="#V" n="39"/>Resolvit ergo, illum ignem accendi ex
+            va<lb ed="#V" n="40" break="no"/>poribus et exhalationibus in secunda aeris
+            <lb ed="#V" n="41"/>regione, per quem ipse aer facile
+            depu<lb ed="#V" n="42" break="no"/>ratur, nam vapores igniti statim
+            conver<lb ed="#V" n="43" break="no"/>tuntur in aerem. Haec sententia est satis
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>probabilis et consentanea divinae
+            provi<lb ed="#V" n="45" break="no"/>dentlae, qua administrat universum. Alii
+            <lb ed="#V" n="46"/>dicunt ipsum ignem Inferni evocandum
+            <lb ed="#V" n="47"/>ad combustionem, sed neque hoc
+            neces<lb ed="#V" n="48" break="no"/>sarium est, et sequeretur inconveniens,
+            <lb ed="#V" n="49"/>dari nempe vacuum in Inferno, aut
+            neces<lb ed="#V" n="50" break="no"/>sario locum ignis emissi supplendum per
+            <lb ed="#V" n="51"/>aliud corpus. Alii dicunt fore ut creetur
+            <lb ed="#V" n="52"/>novus hic ignis; sed neque hoc etiam
+            <lb ed="#V" n="53"/>necessarium est, et sequeretur alioquin
+            <lb ed="#V" n="54"/>condensatio magna aliorum corporum,
+            <lb ed="#V" n="55"/>aut penetratio. Alii dicunt ex sphaera ignis
+            <lb ed="#V" n="56"/>emittendum, sed hoc etiam eadem
+            incon<lb ed="#V" n="57" break="no"/>venientia vacui, penetrationis aut
+            conden<lb ed="#V" n="58" break="no"/>sationis excessivae in corporibus
+            inferiori<lb ed="#V" n="59" break="no"/>bus infert. Praeterea motum violentum
+            <lb ed="#V" n="60"/>ignis ex sua sphaera, et quia ignis ille est
+            <lb ed="#V" n="61"/>in materia valde rara non videtur
+            natura<lb ed="#V" n="62" break="no"/>liter idoneus ad hunc effectum.
+            Quantita<lb ed="#V" n="63" break="no"/>tem hujus ignis aliqui explicant per hoc,
+            <lb ed="#V" n="64"/>quod totum elementum aquae et terrae
+            <lb ed="#V" n="65"/>circumdabit, et ascendet super altissimos
+            <lb ed="#V" n="66"/>montes, sicut diluvium; per eum
+            purga<lb ed="#V" n="67" break="no"/>bitur aer, terra, et qua.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>(d) Ad argumentum dico, etc.
+            Argumen<lb ed="#V" n="69" break="no"/>tum fuit, quod sequeretur si purgatio fiat
+            <lb ed="#V" n="70"/>per ignem, idem seipsum purgaret, quia
+            <lb ed="#V" n="71"/>omnia elementa purgabuntur. Respondet
+            <lb ed="#V" n="72"/>quod ignis in suo elemento naturali sit
+            <lb ed="#V" n="73"/>purus, et propter nimiam activitatem, et
+            <lb ed="#V" n="74"/>propter distantiam, quia impuritas, quae
+            <lb ed="#V" n="75"/>oritur ex vaporibus infernis, non ascendit
+            <lb ed="#V" n="76"/>ad sphaeram ignis, et specialiter illa
+            im<lb ed="#V" n="77" break="no"/>puritas ex fumo sacrificiorum factorum
+            <lb ed="#V" n="78"/>idolis, et ex peccatis hominum, non
+            as<lb ed="#V" n="79" break="no"/>cendit ad sphaeram ignis; purgatio autem
+            <lb ed="#V" n="80"/>ponitur propter impuritatem aeri ex
+            pec<lb ed="#V" n="81" break="no"/>catis hominum. Tangit rationem mysticam
+            <lb ed="#V" n="82"/>hujus depurationis, quam communiter
+            <lb ed="#V" n="83"/>Theologi assignant, quamvis etiam ipsa
+            <lb ed="#V" n="84"/>reformatio mundi elementaris per eum
+            <lb ed="#V" n="85"/>intendatur.
+            <lb ed="#V" n="86"/>Sed de hoc etiam effectu et fine, variae
+            <lb ed="#V" n="87"/>sunt sententiae; primo est frequens
+            sen<pb ed="#V" n="508"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tentia Patrum, etiam firmamentum
+            cor<lb ed="#V" n="2" break="no"/>rumpi per hunc ignem conflagrationis,
+            <lb ed="#V" n="3"/>quae est anteriorum pene usque ad
+            Hie<lb ed="#V" n="4" break="no"/>ronymum; et fundatur in pluribus
+            aucto<lb ed="#V" n="5" break="no"/>ritatibus Scripturae, quae id sonare
+            <lb ed="#V" n="6"/>videntur, ut est illa Petri citata, et
+            <lb ed="#V" n="7"/>a Psal. 101. Opera manuum tuarum sunt
+            <lb ed="#V" n="8"/>coeli, ipsi peribunt, tu autem
+            permane<lb ed="#V" n="9" break="no"/>bis, etc. Math. 24. Coelum et terra
+            transi<lb ed="#V" n="10" break="no"/>bunt, verba autem mea non transibunt, etc.
+            <lb ed="#V" n="11"/>Isai. 34. 51. 61. Apoc. 21. Job 14. Patres
+            <lb ed="#V" n="12"/>etiam supra citati idem docent, ut dixi,
+            <lb ed="#V" n="13"/>praeter paucos usque ad Hieronymum, qui
+            <lb ed="#V" n="14"/>in praedicta loca Isaiae, potissime 65.
+            inter<lb ed="#V" n="15" break="no"/>pretantur Scripturas de innovatione et
+            <lb ed="#V" n="16"/>mutatione facienda in coelis, non vero de
+            <lb ed="#V" n="17"/>corruptione.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Quod etiam sequitur Augustinus lib. 20.
+            <lb ed="#V" n="19"/>de Civit. 14. 16. 18. et 24. Item Gregorius
+            <lb ed="#V" n="20"/>lib. 17. Moralium c. 5. Beda in praefatum
+            <lb ed="#V" n="21"/>locum Petri, Gennadius de Ecclesiast. dog.
+            <lb ed="#V" n="22"/>cap. 70. Primasius in caput primum,
+            epi<lb ed="#V" n="23" break="no"/>stol. ad Hebraeos, Anselm. in cap. 1. ad
+            <lb ed="#V" n="24"/>Hebraeos, et in Apocalyps. Insinuat etiam
+            <lb ed="#V" n="25"/>Ambrosius in praefatum locum Pslami. Ex
+            <lb ed="#V" n="26"/>Graecis Epiphanius haeres. 64. citans
+            Pro<lb ed="#V" n="27" break="no"/>clum et Methodium. Irenaeus lib 4. contra
+            <lb ed="#V" n="28"/>haeres. cap. 6. Scholastici cum Magistro
+            <lb ed="#V" n="29"/>in hac dist. et sequenti. Coelum immutari
+            <lb ed="#V" n="30"/>docet haec sententia, sed non corrumpi,
+            <lb ed="#V" n="31"/>et fundatur in illo Psal. 148. Ipse dixit,
+            <lb ed="#V" n="32"/>et facta sunt, ipse mandavit, et creata
+            <lb ed="#V" n="33"/>sunt. Statuit ea in aeternum, et in saeculum
+            <lb ed="#V" n="34"/>saeculi, etc. Deinde Isaiae 30. dicitur: Erit
+            <lb ed="#V" n="35"/>lux Lunae sicut lux Solis, et lux Solis
+            sep<lb ed="#V" n="36" break="no"/>templiciter, sicut lux septem dierum in
+            <lb ed="#V" n="37"/>die, quo obligaverit Dominus vulnus populi
+            <lb ed="#V" n="38"/>sui, etc. ergo manebunt, et consequenter
+            <lb ed="#V" n="39"/>coelum in quo sunt. Item ad Rom. 8.
+            di<lb ed="#V" n="40" break="no"/>citur creatura ingemiscere libertatem,
+            sci<lb ed="#V" n="41" break="no"/>licet per innovationem post judicium, et 2.
+            <lb ed="#V" n="42"/>Petri 3. videtur esse sermo de coelo aereo,
+            <lb ed="#V" n="43"/>quod fuit diluvio immersum per antithesim
+            <lb ed="#V" n="44"/>diluvii ad ultimam conflagrationem.
+            Scri<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>ptura autem saepe, et consueto stylo
+            <lb ed="#V" n="46"/>regionem aeris appellat coelum volucres
+            <lb ed="#V" n="47"/>coeli pisces maris, etc Haec res auctoritate
+            <lb ed="#V" n="48"/>Patrum, et apparentia Scripturarum hinc
+            <lb ed="#V" n="49"/>inde redditur incerta. Juxta communem
+            <lb ed="#V" n="50"/>autem Scholae sententiarum, neque ipsa
+            <lb ed="#V" n="51"/>elementa peribunt, sed purgabuntur, et
+            <lb ed="#V" n="52"/>haec purgatio sub appellatione corruptionis
+            <lb ed="#V" n="53"/>intenditur a Scriptura.
+            <lb ed="#V" n="54"/>Petes an mixta peribunt ita ut nunquam
+            <lb ed="#V" n="55"/>aliqua sint reditura? Aliqui dicunt terram
+            <lb ed="#V" n="56"/>fore floridam et virentem cum Anselmo
+            <lb ed="#V" n="57"/>in Elucidario. Alii negant, sed utraque
+            <lb ed="#V" n="58"/>est incerta sententia; illud enim fiet quod
+            <lb ed="#V" n="59"/>jam divina sapientia determinavit. An
+            re<lb ed="#V" n="60" break="no"/>novatio autem elementorum exigat ad
+            <lb ed="#V" n="61"/>perfectionem corporum, aliqua mixta de
+            <lb ed="#V" n="62"/>novo restitui, quis potest dijudicare? aut
+            <lb ed="#V" n="63"/>qualis erit illa perfectio renovationis?
+            <lb ed="#V" n="64"/>Conclusio, in qua communiter concordant
+            <lb ed="#V" n="65"/>omnes, est, excrementa fluxura in
+            Infer<lb ed="#V" n="66" break="no"/>num ad majorem poenam damnatorum,
+            <lb ed="#V" n="67"/>a quibus gratia Christi, et ejus
+            misericor<lb ed="#V" n="68" break="no"/>dia nos liberet. Qui voluit haec fusius
+            lege<lb ed="#V" n="69" break="no"/>re, recurrat ad Scholasticos alios, qui in
+            <lb ed="#V" n="70"/>iis copiosi sunt, quia autem plura incerta
+            <lb ed="#V" n="71"/>sunt, iis non haerendum est; illud certum
+            <lb ed="#V" n="72"/>est, ignem conflagrationis fore,
+            probabili<lb ed="#V" n="73" break="no"/>us est praeire ex parte ante faciem Judicis
+            <lb ed="#V" n="74"/>venientis ad manifestationem justitiae, et
+            <lb ed="#V" n="75"/>ad poenam damnatorum; post judicium
+            <lb ed="#V" n="76"/>vero universum conflagraturum et
+            reno<lb ed="#V" n="77" break="no"/>vaturum hunc ignem. Quid autem, aut
+            <lb ed="#V" n="78"/>quomodo fiet renovatio ipsa in universo,
+            <lb ed="#V" n="79"/>seu qualis sit, id tantum certum
+            vide<lb ed="#V" n="80" break="no"/>tur non fieri actione naturali ignis, qui
+            <lb ed="#V" n="81"/>tantum est corruptivus immunditiei, sed
+            <lb ed="#V" n="82"/>divina actione, qua promisit coelos novos
+            <lb ed="#V" n="83"/>et terram novam. Quales autem futuri
+            <lb ed="#V" n="84"/>sunt sibi sol est notum, aut cui revelat,
+            <lb ed="#V" n="85"/>illud nempe fiet, quod magis ad
+            manife<lb ed="#V" n="86" break="no"/>stationem divinae bonitatis, et gloriam
+            Bea<lb ed="#V" n="87" break="no"/>torum erit. Non est ergo amplius
+            insisten<lb ed="#V" n="88" break="no"/>dum conjecturis, ubi ratio et auctoritas in
+            <lb ed="#V" n="89"/>supernaturalibus cessat in operibus Dei.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

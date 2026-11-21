@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 46, Praeambulum</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 46, Praeambulum</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x20">Vives, Paris, 1894, volume 20</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="399"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e5273"><!-- hicjds-b4d46prae -->
+        <head>Praeambulum</head>
+        <!-- <div alias="hiq-d46prae"> -->
+          <p>
+            <lb ed="#V" n="34" type="fixed=399"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>In hac distinctione agit Magister de
+            at<lb ed="#V" n="36" break="no"/>tributis Dei, scilicet misericordia et
+            ju<lb ed="#V" n="37" break="no"/>stitia, potissimum quoad damnatos: An
+            <lb ed="#V" n="38"/>respectu illorum operetur Deus quoad
+            <lb ed="#V" n="39"/>poenam inflictam ex utroque attributo.
+            <lb ed="#V" n="40"/>Circa hanc distinctionem movet Doctor
+            <lb ed="#V" n="41"/>quatuor quaestiones. Prima est, utrum in
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="42"/>Deo sit justitia? Secunda quaestio, utrum
+            <lb ed="#V" n="43"/>in Deo sit misericordia? Tertia quaestio,
+            <lb ed="#V" n="44"/>utrum haec attributa distinguantur inter
+            <lb ed="#V" n="45"/>se in Deo? Quarta est, quae spectat ad
+            <lb ed="#V" n="46"/>scopum proprium hujus distinctionis.
+            <lb ed="#V" n="47"/>an scilicet respectu poenae inflictae
+            dam<lb ed="#V" n="48" break="no"/>natis concurrant justitia et
+            misericor<lb ed="#V" n="49" break="no"/>dia?
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

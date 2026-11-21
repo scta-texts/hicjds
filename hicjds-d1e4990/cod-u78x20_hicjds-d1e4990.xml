@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 46, Quaestio 3</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 46, Quaestio 3</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x20">Vives, Paris, 1894, volume 20</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="448"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e4990"><!-- hicjds-b4d46q3 -->
+        <head>Quaestio 3</head>
+        <head type="question-title">Utrum in Deo distinguatur iustitia a misericordia</head>
+        <!-- <div alias="hiq-d46q3-p1"> -->
+          <p>
+            <lb ed="#V" n="68" type="fixed=448"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>(a) Ad quaestionem, etc. Sustinendo
+            pri<lb ed="#V" n="70" break="no"/>mam opinionem, quam in superiori
+            quae<lb ed="#V" n="71" break="no"/>stione tenuit cum D. Thoma et
+            Ri<lb ed="#V" n="72" break="no"/>chardo, dicit non distingui justitiam
+            <lb ed="#V" n="73"/>in Deo, et misericordiam, quia haec est
+            <lb ed="#V" n="74"/>pars justitiae, quia divinae bonitati est
+            <lb ed="#V" n="75"/>concedens misereri. Sequendo tamen
+            <lb ed="#V" n="76"/>opinionem secundam, qua dicitur justitia
+            <lb ed="#V" n="77"/>una re et ratione, esse in Deo,
+            distingui<lb ed="#V" n="78" break="no"/>tur a sua misericordia, quia justitia
+            respi<lb ed="#V" n="79" break="no"/>cit primo bonitatem pro objecto;
+            miseri<lb ed="#V" n="80" break="no"/>cordia autem respicit aliquid in creatura,
+            <lb ed="#V" n="81"/>praetermisso etiam justo, quod non potest
+            <lb ed="#V" n="82"/>esse in creatura, scilicet exigentia, quia
+            <lb ed="#V" n="83"/>non est misericordia in Deo, ubi sic est
+            <lb ed="#V" n="84"/>justum in creatura, etc. Est autem
+            mise<pb ed="#V" n="449"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ricordia praeveniens et liberans in Deo
+            <lb ed="#V" n="2"/>respectu creaturae; ergo nulla est justitia
+            <lb ed="#V" n="3"/>in ipsa creatura, aut debitum respectu
+            <lb ed="#V" n="4"/>Dei miserentis, quod notaverim adversus
+            <lb ed="#V" n="5"/>modernos, qui calumniam intentant
+            Do<lb ed="#V" n="6" break="no"/>ctori, quasi negaverit gratiam
+            praeveni<lb ed="#V" n="7" break="no"/>entem et adjuvantem, vel necessitatem
+            <lb ed="#V" n="8"/>gratiae ad poenitentiam, quae liberat a
+            pec<lb ed="#V" n="9" break="no"/>cato.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Ad propositum ergo, prosequendo
+            litte<lb ed="#V" n="11" break="no"/>ram, dicit objectis differre justitiam et
+            <lb ed="#V" n="12"/>misericordiam, quia justitia primo respicit
+            <lb ed="#V" n="13"/>divinam bonitatem propter se et
+            intrinse<lb ed="#V" n="14" break="no"/>ce, sive ut est Dei, sive ut creaturae
+            com<lb ed="#V" n="15" break="no"/>municatur secundum exigentiam creaturae,
+            <lb ed="#V" n="16"/>ubi suponitur aliquod debitum ex parte
+            <lb ed="#V" n="17"/>creaturae, non simpliciter, sed quatenus
+            <lb ed="#V" n="18"/>dicit ordinem ad divinam bonitatem
+            indif<lb ed="#V" n="19" break="no"/>ferenter, quia hoc ipsum quod velit in ea
+            <lb ed="#V" n="20"/>divina voluntas fiat juste, neque repugnet
+            <lb ed="#V" n="21"/>creaturae sive unum oppositum, sive
+            alte<lb ed="#V" n="22" break="no"/>rum velit voluntas ex motivo bonitatis
+            <lb ed="#V" n="23"/>ejusdem, cum qua creatura non habet
+            <lb ed="#V" n="24"/>determinatam connexionem, sed ut
+            sta<lb ed="#V" n="25" break="no"/>tuitur a voluntate, et eo ipso quo
+            statua<lb ed="#V" n="26" break="no"/>tur fiat juste. Misericordia vero respicit
+            <lb ed="#V" n="27"/>creaturam ex motivo quidem remoto et
+            <lb ed="#V" n="28"/>extrinseco divinae bonitatis, ex motivo
+            <lb ed="#V" n="29"/>tamen intrinseco, sublevandi creaturam
+            <lb ed="#V" n="30"/>a miseria, ob emolumentum ipsius
+            crea<lb ed="#V" n="31" break="no"/>turae.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Declaratur, volens legislator inducere
+            <lb ed="#V" n="33"/>obligationem particularis virtutis, statuit
+            <lb ed="#V" n="34"/>legem de ejus servanda rectitudine,
+            <lb ed="#V" n="35"/>v. g. castitatis; quamvis autem intendat
+            <lb ed="#V" n="36"/>ultimate bonum commune tanquam finem
+            <lb ed="#V" n="37"/>extrinsecum legis, tamen ipsa lex non
+            <lb ed="#V" n="38"/>specificatur intrinsece ab illo fine boni
+            <lb ed="#V" n="39"/>communis, et intrinseco, ideoque lex non
+            <lb ed="#V" n="40"/>inducit obligationem respective ad illum,
+            <lb ed="#V" n="41"/>sed tantum respective ad intrinsecum
+            <lb ed="#V" n="42"/>finem objecti castitatis, ad quem hic et
+            <lb ed="#V" n="43"/>nunc obligat; ideoque communiter
+            Docto<lb ed="#V" n="44" break="no"/>res negant finem praecepti cadere sub
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>praecepto, nempe extrinsecum, et idem est
+            <lb ed="#V" n="46"/>in nobis quotiescumque imperatur actus
+            <lb ed="#V" n="47"/>alicujus virtutis ex fine alterius, actus
+            <lb ed="#V" n="48"/>imperatus respicit intrinsece objectum
+            <lb ed="#V" n="49"/>proprium, extrinsece vero objectum
+            re<lb ed="#V" n="50" break="no"/>motum, per accidens et per modum
+            <lb ed="#V" n="51"/>circumstantiae. Ita Deus communicans
+            ali<lb ed="#V" n="52" break="no"/>quid creaturae ex justitia illa, quae est in
+            <lb ed="#V" n="53"/>ipso, intendit intrinsece debitum suae
+            bo<lb ed="#V" n="54" break="no"/>nitati servandum, ad quam se habet quasi
+            <lb ed="#V" n="55"/>ad alterum, atque adeo ipsam bonitatem
+            <lb ed="#V" n="56"/>per modum specificativi intrinseci actus
+            <lb ed="#V" n="57"/>talis. Quando vero ex motivo
+            misericor<lb ed="#V" n="58" break="no"/>diae aliquid vult creaturae ad
+            subblevan<lb ed="#V" n="59" break="no"/>dam ejus miseriam, licet remote hoc velit
+            <lb ed="#V" n="60"/>ex motivo suae bonitatis ultimato, quod
+            <lb ed="#V" n="61"/>tale respectu cujuscumque divinitas,
+            ta<lb ed="#V" n="62" break="no"/>men per actum misericordiae sublevantis
+            <lb ed="#V" n="63"/>creaturam, non intendit intrinsece
+            boni<lb ed="#V" n="64" break="no"/>tatem suam aut debitum ejus, ut
+            serva<lb ed="#V" n="65" break="no"/>tur in creatura, sed solum sublevationem
+            <lb ed="#V" n="66"/>creaturae a miseria praeter omne debitum,
+            <lb ed="#V" n="67"/>vel quod ipsi competit, vel etiam quod
+            <lb ed="#V" n="68"/>ipsi inest secundum justitiam, et debitum
+            <lb ed="#V" n="69"/>divinae bonitatis; atque adeo licet divina
+            <lb ed="#V" n="70"/>bonitas ipsi communicetur per talem
+            <lb ed="#V" n="71"/>actum, tamen non communicatur per
+            <lb ed="#V" n="72"/>affectum, aut regulas justitiae; sed per
+            <lb ed="#V" n="73"/>affectum miserentis et sublevantis ob
+            in<lb ed="#V" n="74" break="no"/>tentum intrinsece ex vi talis actus,
+            emo<lb ed="#V" n="75" break="no"/>lumentum creaturae miserae, qua misera
+            <lb ed="#V" n="76"/>est, et a miseria liberatur, vel
+            praevenien<lb ed="#V" n="77" break="no"/>do, ne incurrat, vel certe sanando ab
+            in<lb ed="#V" n="78" break="no"/>cursa, et ut dicit Doctor, praeter omne
+            <lb ed="#V" n="79"/>justum in creatura, quia potius in hoc
+            <lb ed="#V" n="80"/>actu est dispensatio bonitatis divinae
+            prae<lb ed="#V" n="81" break="no"/>ter regulas ordinarias justitiae, quam ulla
+            <lb ed="#V" n="82"/>collatio debiti, quia miseria ipsa ex debito
+            <lb ed="#V" n="83"/>justitiae inest, vel inesse debere, v. g. in
+            <lb ed="#V" n="84"/>nobis, ut comparamur ad Dei
+            misericordi<lb ed="#V" n="85" break="no"/>am praevenientem, qua praeservamur
+            <lb ed="#V" n="86"/>a peccato et miseria imminente;
+            debi<lb ed="#V" n="87" break="no"/>tum ejus incurrendi est ex infirmitate
+            <lb ed="#V" n="88"/>incursa ex peccato primi parentis. Qua
+            <pb ed="#V" n="450"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>vero Deus liberat a peccato incurso et
+            <lb ed="#V" n="2"/>poena, evacuatur omne etiam debitum
+            <lb ed="#V" n="3"/>justitiae, quia illa miseria inest secundum
+            <lb ed="#V" n="4"/>leges justitiae ob demeritum et electionem
+            <lb ed="#V" n="5"/>perversam voluntatis.
+            <lb ed="#V" n="6"/>Ex his facile solvuntur, quae Pater
+            Smi<lb ed="#V" n="7" break="no"/>sing opponit quaestione illa sexta n. 93.
+            <lb ed="#V" n="8"/>et Lorca 2. 2. disp. 33. sect. 3. probantes
+            <lb ed="#V" n="9"/>misericordiam non esse in Deo distinctam
+            <lb ed="#V" n="10"/>a divina benevolentia seu charitate, quam
+            <lb ed="#V" n="11"/>supra diximus esse illam justitiam
+            univer<lb ed="#V" n="12" break="no"/>salem, quam Doctor statuit formaliter in
+            <lb ed="#V" n="13"/>Deo, si teneatur dari talis rectitudo
+            diver<lb ed="#V" n="14" break="no"/>sa a rectitudine voluntatis, dicunt primo,
+            <lb ed="#V" n="15"/>ejusdem virtutis esse prosequi suum
+            obje<lb ed="#V" n="16" break="no"/>ctum, et ex ejusdem motivo fugere
+            oppo<lb ed="#V" n="17" break="no"/>situm, quod est inclinare ad velle bonum
+            <lb ed="#V" n="18"/>suum, et ad nolle malum oppositum; sed
+            <lb ed="#V" n="19"/>charitas efficaciter inclinat ad volendum
+            <lb ed="#V" n="20"/>bonum proximo, ergo ad nolendum ei
+            <lb ed="#V" n="21"/>malum. Haec ratio probat universaliter non
+            <lb ed="#V" n="22"/>distingui etiam in nobis has virtutes.
+            <lb ed="#V" n="23"/>Ad propositum autem applicatur, quia
+            <lb ed="#V" n="24"/>ille affectus misericordiae est benevolentiae
+            <lb ed="#V" n="25"/>divinae ex motivo suae bonitatis
+            universa<lb ed="#V" n="26" break="no"/>li, quatenus vero est in nostram
+            utilita<lb ed="#V" n="27" break="no"/>tem, est ex eodem motivo, quatenus nos
+            <lb ed="#V" n="28"/>aliquid sumus Dei, et sic universaliter
+            <lb ed="#V" n="29"/>misericordiae actus erit illius virtutis, ex
+            <lb ed="#V" n="30"/>cujus motivo subvenitur proximo.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Respondetur ex dictis, quamvis
+            antece<lb ed="#V" n="32" break="no"/>dens sit verum, quod eadem virtus
+            incli<lb ed="#V" n="33" break="no"/>net ad volitionem boni, et fugam mali
+            <lb ed="#V" n="34"/>oppositi, ut recte etiam Doctor in
+            quaesti<lb ed="#V" n="35" break="no"/>one praecedenti insinuat, tamen unde non
+            <lb ed="#V" n="36"/>sequitur actum illum fugae non participare
+            <lb ed="#V" n="37"/>aliam honestatem quam intrinsecam sui
+            <lb ed="#V" n="38"/>motivi. Sed in proposito, fuga ex motivo
+            <lb ed="#V" n="39"/>benevolentiae, aut amicitiae, aut
+            charita<lb ed="#V" n="40" break="no"/>tis, si sumatur stricte, respicit debitum,
+            <lb ed="#V" n="41"/>vel quasi debitum etiam in Deo,
+            quate<lb ed="#V" n="42" break="no"/>nus hoc condeceat suam bonitatem, et
+            <lb ed="#V" n="43"/>ex motivo intrinseco bonitatis;
+            miseri<lb ed="#V" n="44" break="no"/>cordia autem excludit omne debitum,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>et respicit utilitatem creaturae praecise
+            <lb ed="#V" n="46"/>tanquam intrinsecum motivum, licet
+            ex<lb ed="#V" n="47" break="no"/>trinsece bonitatem divinam. Deinde,
+            <lb ed="#V" n="48"/>misericordia non potest esse affectus
+            <lb ed="#V" n="49"/>benevolentiae, quatenus nos sumus
+            ali<lb ed="#V" n="50" break="no"/>quid Dei, quia si loquamur de
+            benevolen<lb ed="#V" n="51" break="no"/>tia late sumpta, qua Deus universim
+            <lb ed="#V" n="52"/>respicit creaturas, vel in specie creaturam
+            <lb ed="#V" n="53"/>rationalem, non extenditur ad
+            peccato<lb ed="#V" n="54" break="no"/>rem, qui est extra Dei amicitiam, quia
+            <lb ed="#V" n="55"/>qua peccator est, nequit esse objectum
+            <lb ed="#V" n="56"/>benevolentiae; qua autem creatura est
+            <lb ed="#V" n="57"/>Dei, non habet specialem rationem unde!
+            <lb ed="#V" n="58"/>Deus ipsum specialiter respicit per
+            benevo<lb ed="#V" n="59" break="no"/>lentiam. Misericordia vero respicit ipsum,
+            <lb ed="#V" n="60"/>qua peccator est et miser, et ex motivo
+            <lb ed="#V" n="61"/>intrinseco miseriae sublevandae, citra omne
+            <lb ed="#V" n="62"/>debitum, vel quod respiciat intrinsece
+            <lb ed="#V" n="63"/>divinam bonitatem, vel ex motivo ejus ut
+            <lb ed="#V" n="64"/>communicandae, miseriam, quia divina
+            bo<lb ed="#V" n="65" break="no"/>nitas non extenditur ad creaturas, nisi ea
+            <lb ed="#V" n="66"/>ratione qua participatur aut participari
+            <lb ed="#V" n="67"/>potest a creaturis, cujus nequit miseria
+            <lb ed="#V" n="68"/>peccati et poenae debitae, qua debita est,
+            <lb ed="#V" n="69"/>esse participatio; ergo non ex motivo
+            in<lb ed="#V" n="70" break="no"/>trinseco bonitatis Deus respicit miseriam
+            <lb ed="#V" n="71"/>in profectum peccatoris, sed ex solius
+            <lb ed="#V" n="72"/>misericordiae ( cui id tribuitur in Scriptura
+            <lb ed="#V" n="73"/>et a Patribus, et Doctoribus communiter,)
+            <lb ed="#V" n="74"/>cum nihil habeat peccator, qua talis, in
+            <lb ed="#V" n="75"/>quo possit communicare divinae bonitati.
+            <lb ed="#V" n="76"/>Quod autem ipsa misericordia dicatur
+            <lb ed="#V" n="77"/>beneficentia late sumpta, est ex
+            concomi<lb ed="#V" n="78" break="no"/>tantia beneficentiae, quia non solum per
+            <lb ed="#V" n="79"/>Dei misericordiam tollitur miseria, sed
+            <lb ed="#V" n="80"/>sed etiam renovatur peccator interius,
+            <lb ed="#V" n="81"/>utrumque tamen provenit ex affectu
+            mi<lb ed="#V" n="82" break="no"/>sericordiae citra omne debitum sanantis
+            <lb ed="#V" n="83"/>a miseria culpae et infirmitatis, et
+            dispen<lb ed="#V" n="84" break="no"/>dii incursi, et restituentis in integrum.
+            <lb ed="#V" n="85"/>Invenitur ergo sufficiens ratio distinguendi
+            <lb ed="#V" n="86"/>benevolentiam et misericordiam ex parte
+            <lb ed="#V" n="87"/>objectorum, et fine intrinseco utriusque,
+            <lb ed="#V" n="88"/>quia beneficentia seu benevolentia,
+            re<pb ed="#V" n="451"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>spicit divinam bonitatem, ejusque
+            mani<lb ed="#V" n="2" break="no"/>festationem ab intrinseco, propter ipsam
+            <lb ed="#V" n="3"/>bonitatem manifestabilem, in quo actu
+            <lb ed="#V" n="4"/>creatura habet rationem objecti materialis
+            <lb ed="#V" n="5"/>et secundarii. Misericordia vero respicit
+            <lb ed="#V" n="6"/>miseriam sublevandam citra omne
+            debi<lb ed="#V" n="7" break="no"/>tum, quod ex bonitate redundaret, sed
+            <lb ed="#V" n="8"/>praecise in utilitatem miseri, a quo
+            pro<lb ed="#V" n="9" break="no"/>pellitur miseria. Benevolentia ergo
+            re<lb ed="#V" n="10" break="no"/>spicit in rebus quoddam justum, prout
+            <lb ed="#V" n="11"/>in ipsis in ordine ad Deum reperiri
+            po<lb ed="#V" n="12" break="no"/>test. Misericordia vero nullum tale justum
+            <lb ed="#V" n="13"/>respicit, sed potius non justum, non
+            de<lb ed="#V" n="14" break="no"/>bitum.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>(b) Si autem quaeritur, etc. Hic quaerit
+            <lb ed="#V" n="16"/>de ordine justitiae et misericordiae,
+            sup<lb ed="#V" n="17" break="no"/>posita earum distinctione, et respondet
+            <lb ed="#V" n="18"/>ratione objecti priorem esse justitiam in
+            <lb ed="#V" n="19"/>rebus ipsis, quod patet, quia
+            communi<lb ed="#V" n="20" break="no"/>catio divinae bonitatis, prout statuit
+            ju<lb ed="#V" n="21" break="no"/>stum aliquale in creatura, supponitur
+            mi<lb ed="#V" n="22" break="no"/>seriae, quae est in creatura ex subtractione
+            <lb ed="#V" n="23"/>debiti statuti per justitiam Dei et legem,
+            <lb ed="#V" n="24"/>qua ordinatur in finem; prius ergo est
+            <lb ed="#V" n="25"/>creaturam obnoxiam esse justitiae Dei,
+            <lb ed="#V" n="26"/>quam fieri miseram ex subtractione illius
+            <lb ed="#V" n="27"/>debiti. Quod si considerentur ut sunt in
+            <lb ed="#V" n="28"/>Deo, nullus est ordo inter ipsas, quia sicut
+            <lb ed="#V" n="29"/>objecta sunt diversa, ita etiam et ipsa,
+            <lb ed="#V" n="30"/>quae in objectis non communicant sunt
+            di<lb ed="#V" n="31" break="no"/>versa, quia justitia, ut dictum est, respicit
+            <lb ed="#V" n="32"/>justum et debitum, misericordia vero non
+            <lb ed="#V" n="33"/>justum, non debitum; itaque neutra ex
+            ra<lb ed="#V" n="34" break="no"/>dice alterius oritur, sed utraque immediate
+            <lb ed="#V" n="35"/>a voluntate, quamvis ex natura
+            objecto<lb ed="#V" n="36" break="no"/>rum unum supponitur alteri, tamen non
+            <lb ed="#V" n="37"/>inde infertur ordo earum inter se, sicut
+            <lb ed="#V" n="38"/>scientia in Deo praesupponitur ad amorem,
+            <lb ed="#V" n="39"/>et intellectus ad voluntatem, quantum ad
+            <lb ed="#V" n="40"/>objectum, tamen neutra ex radice alterius
+            <lb ed="#V" n="41"/>emanat, sed utraque ex radice essentiae.
+            <lb ed="#V" n="42"/>Posset tamen ut ibidem indicat, servari
+            <lb ed="#V" n="43"/>quidam ordo ad intra inter ipsa, ita ut
+            <lb ed="#V" n="44"/>licet ab eadem radice voluntatis emanent,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>tamen prior sit justitia. Unde Anselmus
+            <lb ed="#V" n="46"/>cap. 11. Prosotogit, dicit ex justitia nasci
+            <lb ed="#V" n="47"/>misericordiam.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>(c) Ad argumenta. Ad primum etc.
+            <lb ed="#V" n="49"/>Primum est ex Cassiodoro super Psal. 50.
+            <lb ed="#V" n="50"/>Hae duae res sunt in viis Domini semper
+            <lb ed="#V" n="51"/>admixtae, ubi loquitur de justitia et
+            mise<lb ed="#V" n="52" break="no"/>ricordia; ergo sunt diversae. Respondet
+            <lb ed="#V" n="53"/>Doctor, eum extendere duas res ad
+            duali<lb ed="#V" n="54" break="no"/>tatem secundum quid, et formalem. De
+            <lb ed="#V" n="55"/>hac distinctione vide ipsum Doctorem in
+            <lb ed="#V" n="56"/>primo, locis ad quae se remittit.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>(d) Ad secundum dicitur, etc. Secundum
+            <lb ed="#V" n="58"/>est, si non distinguerentur, essent idem;
+            <lb ed="#V" n="59"/>ergo utriusque esset idem effectus, quia
+            <lb ed="#V" n="60"/>idem principium formale non habet nisi
+            <lb ed="#V" n="61"/>eumdem effectum; consequens est falsum,
+            <lb ed="#V" n="62"/>quia misericordia sine meritis liberat,
+            ju<lb ed="#V" n="63" break="no"/>stitia autem respicit merita aut demerita.
+            <lb ed="#V" n="64"/>Respondet Richardus misericordiam
+            con<lb ed="#V" n="65" break="no"/>notare aliquid quod non connotat justitia,
+            <lb ed="#V" n="66"/>licet illa duo sint inter se simpliciter
+            <lb ed="#V" n="67"/>eadem. Contra, connotatio non inducit
+            <lb ed="#V" n="68"/>differentiam, nisi tantum in conceptu;
+            <lb ed="#V" n="69"/>argumentum aliquid amplius exigit, quod
+            <lb ed="#V" n="70"/>scilicet ut sunt causae distinctorum
+            effe<lb ed="#V" n="71" break="no"/>ctuum sit distinctio aliqua in ipsis, quae
+            <lb ed="#V" n="72"/>diversitas effectuum non praeexigit solam
+            <lb ed="#V" n="73"/>distinctionem rationis, sed aliquam
+            for<lb ed="#V" n="74" break="no"/>malem in ipsis causis, nam distinctio
+            <lb ed="#V" n="75"/>effectuum in proposito oritur ex
+            distin<lb ed="#V" n="76" break="no"/>ctione causarum; intelligitur hoc, non eo
+            <lb ed="#V" n="77"/>sensu quo aliqua causa aequivoca causet
+            <lb ed="#V" n="78"/>diversos effectus, nam sic non requiritur
+            <lb ed="#V" n="79"/>distinctio in causa, neque ex distinctione
+            <lb ed="#V" n="80"/>formali effectuum sequitur distinctio in
+            <lb ed="#V" n="81"/>causa, quia causa illa non sub formali
+            <lb ed="#V" n="82"/>sua ratione exigitur ad effectus, sed ex
+            <lb ed="#V" n="83"/>ratione eminentiali et virtuali.
+            Quando<lb ed="#V" n="84" break="no"/>cumque ergo exigitur aliqua causa sub
+            <lb ed="#V" n="85"/>sua ratione formali, sequitur esse
+            distin<lb ed="#V" n="86" break="no"/>ctionem in illo effectu ab alio, ad quem
+            <lb ed="#V" n="87"/>non requiritur talis causa per se
+            forma<lb ed="#V" n="88" break="no"/>liter, nam propter aliquem gradum, et
+            <pb ed="#V" n="452"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>rationem formalem in ipso effectu
+            requi<lb ed="#V" n="2" break="no"/>ritur per se.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Advertendum ergo est, aliquando exigi
+            <lb ed="#V" n="4"/>concursum causae, ob rationem formalem
+            <lb ed="#V" n="5"/>in effectu, aliquando vero ex sola
+            depen<lb ed="#V" n="6" break="no"/>dentia et imperfectione alterius causae
+            <lb ed="#V" n="7"/>concurrentis, ut quia est inadaequata
+            effec<lb ed="#V" n="8" break="no"/>tui, et imperfecta quoad virtutem agendi,
+            <lb ed="#V" n="9"/>v. g. potentia motiva unius non potest
+            <lb ed="#V" n="10"/>ferre pondus excedens vires; ex concursu
+            <lb ed="#V" n="11"/>autem alterius possunt simul quod alias
+            <lb ed="#V" n="12"/>ab uno adaequatae virtutis posset ferri; in
+            <lb ed="#V" n="13"/>eo casu non est distinctio in effectu ob
+            <lb ed="#V" n="14"/>distinctionem causae, quia illa causa non
+            <lb ed="#V" n="15"/>exigitur ex natura effectus, sed per
+            ac<lb ed="#V" n="16" break="no"/>cidens ex infirmitate virtutis alterius
+            cau<lb ed="#V" n="17" break="no"/>sae; at aliquando exigitur causa sub su a
+            <lb ed="#V" n="18"/>formali ratione ex necessitate effectus,
+            <lb ed="#V" n="19"/>v. g. voluntas ad volendum, intellectus
+            <lb ed="#V" n="20"/>ad intellectionem, et ex alia parte
+            ob<lb ed="#V" n="21" break="no"/>jectum cui assimilatur intellectio, bonum
+            <lb ed="#V" n="22"/>quod movet voluntatem, et terminat
+            amo<lb ed="#V" n="23" break="no"/>rem ejus, tunc recte ex diversitate
+            effe<lb ed="#V" n="24" break="no"/>ctus formali, infertur diversitas formalis
+            <lb ed="#V" n="25"/>causarum, quia ideo est aliquid diversum
+            <lb ed="#V" n="26"/>formale in effectu, quia secundum hoc
+            <lb ed="#V" n="27"/>procedit a causa sub sua ratione formali
+            <lb ed="#V" n="28"/>diversa.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>In proposito idem servatur, quia justitia
+            <lb ed="#V" n="30"/>requiritur formaliter ad servandum
+            debi<lb ed="#V" n="31" break="no"/>tum, vel quasi debitum, et ut ponat
+            <lb ed="#V" n="32"/>justum respective ad merita vel demerita.
+            <lb ed="#V" n="33"/>Misericordia vero requiritur ex alio
+            moti<lb ed="#V" n="34" break="no"/>vo proprio quod non communicat motivo
+            <lb ed="#V" n="35"/>justitiae, sed potius illud tollit, sicut
+            <lb ed="#V" n="36"/>neque justitia servat modum agendi
+            mise<lb ed="#V" n="37" break="no"/>ricordiae, cum medium utriusque sub
+            op<lb ed="#V" n="38" break="no"/>posita ratione justi et non justi
+            attenda<lb ed="#V" n="39" break="no"/>tur; et utraque, ut dixi, secundum suam
+            <lb ed="#V" n="40"/>rationem formalem requiratur, ita ut actus
+            <lb ed="#V" n="41"/>unius non possit esse ab altera ob
+            repu<lb ed="#V" n="42" break="no"/>gnantiam objectorum, et modi tendendi
+            <lb ed="#V" n="43"/>in ipsa objecta, ideo recte ex affectu hoc
+            <lb ed="#V" n="44"/>modo diverso colligitur differentia in
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>ipsis. Ideo concedit Doctor rationem
+            prae<lb ed="#V" n="46" break="no"/>missam, inquantum ex ea probatur
+            diffe<lb ed="#V" n="47" break="no"/>rentia formalis utriusque, et supposito
+            <lb ed="#V" n="48"/>quod utraque reperiatur in Deo, ut
+            distin<lb ed="#V" n="49" break="no"/>cta a rectitudine formali ipsius voluntatis,
+            <lb ed="#V" n="50"/>quia dato quod nulla sit virtus moralis in
+            <lb ed="#V" n="51"/>Deo, quoad habitum, sed sola ipsius
+            vo<lb ed="#V" n="52" break="no"/>luntatis rectitudo, tunc distinctio tantum
+            <lb ed="#V" n="53"/>erit quantum ad effectum voluntatis
+            diver<lb ed="#V" n="54" break="no"/>sum in ordine ad diversa illa objecta.
+            <lb ed="#V" n="55"/>Deinceps Doctor explicat modum illius
+            <lb ed="#V" n="56"/>distinctionis, qui magis spectat ad primum
+            <lb ed="#V" n="57"/>in locis citatis ab ipso in littera, ideo hic
+            <lb ed="#V" n="58"/>supersedeo hujus tractationi. Deinde
+            re<lb ed="#V" n="59" break="no"/>spondet ad argumentum in oppositum,
+            <lb ed="#V" n="60"/>quod desumitur ab Augustino 11. de Civit.
+            <lb ed="#V" n="61"/>cap. 10. quia probat tantum identitatem
+            <lb ed="#V" n="62"/>omnium quae sunt in Deo realem, non
+            ve<lb ed="#V" n="63" break="no"/>ro quoad suas rationes formales.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

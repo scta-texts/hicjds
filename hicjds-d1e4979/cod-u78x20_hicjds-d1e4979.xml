@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 46, Quaestio 2</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 46, Quaestio 2</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x20">Vives, Paris, 1894, volume 20</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="443"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e4979"><!-- hicjds-b4d46q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum in Deo sit misericordia</head>
+        <!-- <div alias="hiq-d46q2-p1"> -->
+          <p>
+            <lb ed="#V" n="40" type="fixed=443"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>(a) Respondeo, misericordia in nobis est,
+            <lb ed="#V" n="42"/>etc. Definit misericordiam per hoc, quod
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>sit habitus nolens afficaciter malum
+            alte<lb ed="#V" n="44" break="no"/>rius, ita quod primo inclinat ad actum
+            <lb ed="#V" n="45"/>nolendi miseriam in alio, vel futuram, vel
+            <lb ed="#V" n="46"/>praesentem tollit si potest illam; post
+            ope<lb ed="#V" n="47" break="no"/>rationem vero disponit ad passionem
+            <lb ed="#V" n="48"/>subjectum, est capax ejus. Quantum ad
+            <lb ed="#V" n="49"/>hoc secundum, nequit esse in Deo, et ab
+            <lb ed="#V" n="50"/>hoc secundo actu videtur imponi nomen
+            <lb ed="#V" n="51"/>huic affectioni, nam misericors
+            etymologi<lb ed="#V" n="52" break="no"/>ce, idem est ac miserum cor habens, quia
+            <lb ed="#V" n="53"/>compatiens miseriae alienae, et
+            communi<lb ed="#V" n="54" break="no"/>cans per compassionem ejus miseriae. Illa
+            <lb ed="#V" n="55"/>declarat Isidorus lib. 10. Etymolog.
+            Cice<lb ed="#V" n="56" break="no"/>ro in Tusculanis quaest. Misericordia,
+            in<lb ed="#V" n="57" break="no"/>quit, est aegritudo ex tristitia alterius
+            inju<lb ed="#V" n="58" break="no"/>ria laborantis. Augustinus lib. 9. de Civit.
+            <lb ed="#V" n="59"/>c. 5. Misericordia est alienae miseriae in
+            <lb ed="#V" n="60"/>nostro corde compassio, qua utique, si
+            pos<lb ed="#V" n="61" break="no"/>sumus, subvenire compellimur, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>(b) Sed quantum ad istam operationem
+            <lb ed="#V" n="63"/>nolendi miseriam, etc. Est secunda
+            conclu<lb ed="#V" n="64" break="no"/>sio, nempe misericordiam esse in Deo,
+            <lb ed="#V" n="65"/>quantum ad primum actum, qui convenit
+            <lb ed="#V" n="66"/>ei in recto et formaliter, licet non quoad
+            <lb ed="#V" n="67"/>secundum, qui competit materialiter
+            tan<lb ed="#V" n="68" break="no"/>tum, ex natura subjecti talis, et capacis
+            <lb ed="#V" n="69"/>passionis aut compassionis ex
+            participati<lb ed="#V" n="70" break="no"/>one tristitiae alienae. Probat conclusionem,
+            <lb ed="#V" n="71"/>quia neque imminens, neque etiam
+            incur<lb ed="#V" n="72" break="no"/>sa miseria tollitur, nisi Deo nolente
+            mise<lb ed="#V" n="73" break="no"/>riam, aut praeveniendo, aut certe tollendo,
+            <lb ed="#V" n="74"/>nam providentia ejus universalis est,
+            <lb ed="#V" n="75"/>et necessaria ad quemcumque effectum.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>(c) De hac misericordia, etc. Dicit hanc
+            <lb ed="#V" n="77"/>misericordiam posse dividi in
+            anteceden<lb ed="#V" n="78" break="no"/>tem et consequentem, sicut distinguit
+            Au<lb ed="#V" n="79" break="no"/>gustinus in Deo velle antecedens et
+            con<lb ed="#V" n="80" break="no"/>sequens. Distinctionem hanc voluntatis
+            <lb ed="#V" n="81"/>antecedentis et consequentis sub hac
+            ap<lb ed="#V" n="82" break="no"/>pellatione, videtur aliquibus primum
+            inve<lb ed="#V" n="83" break="no"/>nisse Damascenum libro secundo de fide
+            <lb ed="#V" n="84"/>orthodoxa cap. 29, ubi dicit antecedentem
+            <lb ed="#V" n="85"/>voluntatem ex Deo existere,
+            consequen<lb ed="#V" n="86" break="no"/>tem vero ex nostra causa existere, et lib.
+            <pb ed="#V" n="444"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>contra Manichaeos sub finem, distinguit eam
+            <lb ed="#V" n="2"/>in primariam et secundariam voluntatem,
+            <lb ed="#V" n="3"/>quae distinctio est Chrysostomi hom.
+            <lb ed="#V" n="4"/>prima in epistolam ad Ephesios, et hom. 7.
+            <lb ed="#V" n="5"/>in illud Joannis primi: Illuminans omnem
+            <lb ed="#V" n="6"/>hominem venientem in hunc mundum, ubi
+            <lb ed="#V" n="7"/>abbreviator ejus Theophylactus, Athanas.
+            <lb ed="#V" n="8"/>lib. 3. de assumptione hominis,
+            Hierony<lb ed="#V" n="9" break="no"/>mus in Isaiam cap. 28. in illud, opus
+            pe<lb ed="#V" n="10" break="no"/>regrinum ab eo, etc. et in 2. cap. 1. ad
+            <lb ed="#V" n="11"/>Timotheum, Ambrosius, CEcumenius,
+            Theo<lb ed="#V" n="12" break="no"/>phylactus ibidem hanc distinctionem
+            ad<lb ed="#V" n="13" break="no"/>mittunt, quatenus dicunt Deum velle
+            om<lb ed="#V" n="14" break="no"/>nes homines salvos fieri, si ipsi velint, sicut
+            <lb ed="#V" n="15"/>et Prosper de vocatione gentium lib. 2.
+            <lb ed="#V" n="16"/>cap. 1. 6. 7. et respons. 8. ad objectum
+            <lb ed="#V" n="17"/>Vincentii, Bernardus serm. 5. de nativitate.
+            <lb ed="#V" n="18"/>Eamdem distinctionem recipiunt
+            commu<lb ed="#V" n="19" break="no"/>niter Scholastici in 1. distinct. 46. ubi
+            <lb ed="#V" n="20"/>noster Doctor q. unic. D. Bonaventura
+            <lb ed="#V" n="21"/>art. 1. q. 1. Durandus d. 47. Alens 1. p.
+            <lb ed="#V" n="22"/>q. 36. m. 2. D. Thomas. 1. p. q. 19. art. 6.
+            <lb ed="#V" n="23"/>ad. 1. et reliqui.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Quamvis autem Augustinus illa verba
+            <lb ed="#V" n="25"/>Apostoli: Deus vult omnes homines salvos
+            <lb ed="#V" n="26"/>fieri, etc. quibus potissime a Doctoribus
+            <lb ed="#V" n="27"/>haec distinctio applicatur, aliter intellexit
+            <lb ed="#V" n="28"/>variis in locis, ut Enchiridii cap. 103.
+            <lb ed="#V" n="29"/>epist. 107. lib. 4. contra Julianum, c. 8. et
+            <lb ed="#V" n="30"/>lib. de praedestinatione Sanctorum c. 8.
+            <lb ed="#V" n="31"/>Et quamvis haec interpretatio Augustini
+            <lb ed="#V" n="32"/>recte etiam subsistat ad scopum
+            disserta<lb ed="#V" n="33" break="no"/>tionis quam habuit cum Pelagianis de
+            <lb ed="#V" n="34"/>necessitate gratiae Christi, qui auctoritate
+            <lb ed="#V" n="35"/>Apostoli abutebantur in sensum
+            errone<lb ed="#V" n="36" break="no"/>um, quatenus inde inferrent potestatem
+            <lb ed="#V" n="37"/>liberi arbitrii, et evacuarent crucem
+            Chri<lb ed="#V" n="38" break="no"/>sti, tamen distinctio praemissa in reipsa,
+            <lb ed="#V" n="39"/>vel quantum ad id quod importat, saepe
+            <lb ed="#V" n="40"/>ab eo tradita est, distinguens adjutoria
+            <lb ed="#V" n="41"/>legis, qua innotescit veritas, et datur
+            re<lb ed="#V" n="42" break="no"/>gula operandi ab adjutorio gratiae Christi,
+            <lb ed="#V" n="43"/>quo ipsum opus praecepti donatur et
+            <lb ed="#V" n="44"/>disponitur voluntas nostra. Hoc videre est
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>toto lib. de spiritu et littera, et specialiter
+            <lb ed="#V" n="46"/>c. 33. lib. de gratia Christi c. 5. dicit nos
+            <lb ed="#V" n="47"/>recepisse jam posse operari in ipsa: Et ut
+            <lb ed="#V" n="48"/>scirent, inquit, quia non tantum in eo quod
+            <lb ed="#V" n="49"/>operari possint, hoc enim et in doctrina
+            <lb ed="#V" n="50"/>jam acceperunt, sed etiam in eo quod
+            <lb ed="#V" n="51"/>operantur divinitus adjuvantur, etc. Idem
+            <lb ed="#V" n="52"/>c. 8. et praeclare de peccatorum meritis et
+            <lb ed="#V" n="53"/>remissione lib. 2. c. 5. hanc instructionem
+            <lb ed="#V" n="54"/>per antithesim exponit, lib. 4. in duas
+            <lb ed="#V" n="55"/>epistolas Pelagianorum c. 5. lib. de
+            natu<lb ed="#V" n="56" break="no"/>ra et gratia c. 1. et 12. epistola 105. et
+            <lb ed="#V" n="57"/>lib. 2. de peccatorum meritis et remissione
+            <lb ed="#V" n="58"/>c. 3. Nulla est ergo discordia inter
+            Augu<lb ed="#V" n="59" break="no"/>stinum et alios Patres quoad illam
+            volun<lb ed="#V" n="60" break="no"/>tatem antecedentem, quam ipsi statuunt,
+            <lb ed="#V" n="61"/>quatenus denotat media legis, ejus
+            <lb ed="#V" n="62"/>praecepta et revelationem, suasiones,
+            <lb ed="#V" n="63"/>ipsum lumen naturale, per quod peccata
+            <lb ed="#V" n="64"/>damnantur, et admonetur voluntas
+            per<lb ed="#V" n="65" break="no"/>versa, ut optime Prosper loc. cit. Quod
+            <lb ed="#V" n="66"/>breviter admonuerim propter quorumdam
+            <lb ed="#V" n="67"/>modernorum hac in re praesumptionem,
+            <lb ed="#V" n="68"/>quam alio et suo loco alias confutavimus,
+            <lb ed="#V" n="69"/>in materia de auxiliis divinae gratiae. Ita
+            <lb ed="#V" n="70"/>enim illam expositionem Augustini aperte
+            <lb ed="#V" n="71"/>traducunt, tanquam adversarii sine ulla
+            <lb ed="#V" n="72"/>reverentia, et ex sententia sua, qui
+            sco<lb ed="#V" n="73" break="no"/>pum Augustini non attigerunt, nec
+            ad<lb ed="#V" n="74" break="no"/>verterunt quibus respondet, et quod per
+            <lb ed="#V" n="75"/>illa verba Apostoli concludere
+            intende<lb ed="#V" n="76" break="no"/>bant contra necessitatem gratiae, quasi
+            <lb ed="#V" n="77"/>voluntas illa mediorum extrinsecorum, et
+            <lb ed="#V" n="78"/>antecedens per quam homo
+            inexcusabi<lb ed="#V" n="79" break="no"/>lis redditur, talis sit, ut sine aliis
+            adju<lb ed="#V" n="80" break="no"/>toriis gratiae Christi reducatur unquam
+            <lb ed="#V" n="81"/>ad effectum salutis in eventu, cum ipsa
+            <lb ed="#V" n="82"/>lex admonens doceat quod sit
+            confugien<lb ed="#V" n="83" break="no"/>dum, et quid evitandum.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>Hanc distinctionem voluntatis
+            antece<lb ed="#V" n="85" break="no"/>dentis et consequentis applicat Doctor ad
+            <lb ed="#V" n="86"/>misericordiam praevenientem et
+            subse<lb ed="#V" n="87" break="no"/>quentem, nam sicut semper habet velle
+            <lb ed="#V" n="88"/>antecedens nempe in causa et mediis
+            <pb ed="#V" n="445"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ordinatis ad salutem, modo applicentur
+            <lb ed="#V" n="2"/>debite, ita etiam Deus habet nolle
+            ante<lb ed="#V" n="3" break="no"/>cedens mali, tam culpae quam poenae, ex
+            <lb ed="#V" n="4"/>motivo illius voluntatis antecedentis, qua
+            <lb ed="#V" n="5"/>vult in causa omnes salvos fieri, etc. 1. ad
+            <lb ed="#V" n="6"/>Tim. Haec voluntas antecedens alio
+            no<lb ed="#V" n="7" break="no"/>mine dicitur signi, quatenus in operibus
+            <lb ed="#V" n="8"/>Dei relucet; verum sicut non habet
+            sem<lb ed="#V" n="9" break="no"/>per voluntatem consequentem, quae alias
+            <lb ed="#V" n="10"/>dicitur beneplaciti, et qua donatur ipsum
+            <lb ed="#V" n="11"/>opus in eventu, seu bonum creaturae, ita
+            <lb ed="#V" n="12"/>etiam nec habet nolle consequens
+            respe<lb ed="#V" n="13" break="no"/>ctu mali creaturae, Dicit primum nolle non
+            <lb ed="#V" n="14"/>esse misericordiae, quia nempe illud est
+            <lb ed="#V" n="15"/>ex motivo proximo voluntatis
+            anteceden<lb ed="#V" n="16" break="no"/>tis, quod est sua liberalitas seu bonitas,
+            <lb ed="#V" n="17"/>et ex eodem motivo velle et nolle habita
+            <lb ed="#V" n="18"/>non distinguuntur. Misericordia autem
+            <lb ed="#V" n="19"/>respicit bonum proprium et peculiare
+            <lb ed="#V" n="20"/>miseri, quatenus subvenit ejus miseriae.
+            <lb ed="#V" n="21"/>Et quamvis hoc etiam proveniat ex
+            moti<lb ed="#V" n="22" break="no"/>vo divinae bonitatis remote, ex quo
+            caete<lb ed="#V" n="23" break="no"/>ra sunt, quae fiunt a Deo, tamen ut est
+            <lb ed="#V" n="24"/>affectus miserentis respicit proxime
+            mi<lb ed="#V" n="25" break="no"/>seriam indigentis, in ejus emolumentum,
+            <lb ed="#V" n="26"/>in quo praecise sistit. Quamvis enim
+            <lb ed="#V" n="27"/>bonum ex divina liberalitate datum
+            crea<lb ed="#V" n="28" break="no"/>turae, sit ejus emolumentum, tamen
+            vo<lb ed="#V" n="29" break="no"/>luntas donantis primario intendit
+            commu<lb ed="#V" n="30" break="no"/>nicationem et manifestationem suae
+            boni<lb ed="#V" n="31" break="no"/>tatis propriae, et materialiter
+            emolumen<lb ed="#V" n="32" break="no"/>tum donatarii; misericordia vero
+            formali<lb ed="#V" n="33" break="no"/>ter intendit emolumentum miseri et
+            <lb ed="#V" n="34"/>indigentis.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>(d) Et illud potest distingui in hoc, etc.
+            <lb ed="#V" n="36"/>nempe velle, quod est proprium
+            miseri<lb ed="#V" n="37" break="no"/>cordiae, dividit in misericordiam
+            praeveni<lb ed="#V" n="38" break="no"/>entem, et in misericordiam parcentem et
+            <lb ed="#V" n="39"/>liberantem. Utroque modo est partialis
+            <lb ed="#V" n="40"/>vel totalis, quia vel liberat a malo
+            immi<lb ed="#V" n="41" break="no"/>nente totaliter, nempe per gratiam
+            prae<lb ed="#V" n="42" break="no"/>venientem, ne quis labatur in culpam et
+            <lb ed="#V" n="43"/>poenam, vel in gratiam liberantem a malo
+            <lb ed="#V" n="44"/>culpae incurso, et poenae aeternae, quamvis
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>maneat aliquod debitum poenae temporalis
+            <lb ed="#V" n="46"/>quandoque, et sic est mitigans et liberans
+            <lb ed="#V" n="47"/>simul, inquantum scilicet aliquam partem
+            <lb ed="#V" n="48"/>poenae, etiam temporalis, tollit per
+            poeni<lb ed="#V" n="49" break="no"/>tentiam, quod malum debetur secundum
+            <lb ed="#V" n="50"/>demerita indigentis. Utroque ergo modo,
+            <lb ed="#V" n="51"/>inquit, est misericordia in Deo, quia vel
+            <lb ed="#V" n="52"/>subvenit quibusdam omnem miseriam
+            im<lb ed="#V" n="53" break="no"/>minentem prohibendo, aut amovendo, vel
+            <lb ed="#V" n="54"/>praesentem relevando, aliis autem partem
+            <lb ed="#V" n="55"/>miseriae debitam dimittendo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Hic advertere licet contra plerosque
+            <lb ed="#V" n="57"/>modernos, quam expresse Doctor in hac
+            <lb ed="#V" n="58"/>quaestione explicuerit Dei misericordiam
+            <lb ed="#V" n="59"/>respective ad opera nostra, atque adeo
+            <lb ed="#V" n="60"/>necessitatem gratiae praevenientis et
+            libe<lb ed="#V" n="61" break="no"/>rantis; nam hic agit de miseria peccati
+            <lb ed="#V" n="62"/>et poenae, ut patet ex praemissis, et
+            re<lb ed="#V" n="63" break="no"/>sponsione ad secundum, quae est
+            simpli<lb ed="#V" n="64" break="no"/>citer miseria; datur ergo per ipsum
+            mi<lb ed="#V" n="65" break="no"/>sericordia praeveniens, datur et liberans.
+            <lb ed="#V" n="66"/>Superius autem probat conclusionem,
+            <lb ed="#V" n="67"/>nempe misericordiam esse in Deo, quod
+            <lb ed="#V" n="68"/>probat hoc modo, quantum ad
+            miseri<lb ed="#V" n="69" break="no"/>cordiam praevenientem, qua tollitur
+            mise<lb ed="#V" n="70" break="no"/>ria imminens, quia sicut nihil evenit nisi
+            <lb ed="#V" n="71"/>volente Deo, scilicet voluntate
+            benepla<lb ed="#V" n="72" break="no"/>citi, ita nihil prohibetur ne eveniat, nisi
+            <lb ed="#V" n="73"/>Deo nolente; multae autem miseriae
+            pos<lb ed="#V" n="74" break="no"/>sibiles alicui evenire prohibentur ne
+            eve<lb ed="#V" n="75" break="no"/>niant; ergo Deus habet nolle respectu
+            <lb ed="#V" n="76"/>earum, scilicet nolle misericordiae, quam
+            <lb ed="#V" n="77"/>comparat voluntati beneplaciti in Deo,
+            <lb ed="#V" n="78"/>et qua Deus praeveniat miseriam
+            immi<lb ed="#V" n="79" break="no"/>nentem. Idem eodem modo probat de
+            <lb ed="#V" n="80"/>miseria praesente et incursa, quae non
+            tol<lb ed="#V" n="81" break="no"/>litur, nisi Deo subveniente et nolente
+            <lb ed="#V" n="82"/>illam inesse; inferius autem loco jam
+            <lb ed="#V" n="83"/>explicato, praecipue et per se tantum
+            <lb ed="#V" n="84"/>loquitur de miseria culpae et poenae.
+            Re<lb ed="#V" n="85" break="no"/>cte ergo explicat necessitatem divinae
+            <lb ed="#V" n="86"/>misericordiae et gratiae, tam praevenientis
+            <lb ed="#V" n="87"/>quam liberantis, quae non est
+            volen<lb ed="#V" n="88" break="no"/>tis, neque currentis, sed miserentis est
+            <pb ed="#V" n="446"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Dei, etc. Ut dicit enim in quaestione
+            se<lb ed="#V" n="2" break="no"/>quenti, non est misericordia in Deo, ubi
+            <lb ed="#V" n="3"/>est justum, id est, debitum exigentiae in
+            <lb ed="#V" n="4"/>creatura.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>(e) Ad argumenta. Ad primum. etc. Hoc
+            <lb ed="#V" n="6"/>,proponitur ex Damasceno, ubi definit
+            mi<lb ed="#V" n="7" break="no"/>sericordiam esse compassionem de malo
+            <lb ed="#V" n="8"/>alieno; sed in Deo nulla est compassio;
+            <lb ed="#V" n="9"/>ergo, etc. Respondet, illam descriptionem
+            <lb ed="#V" n="10"/>misericordiae esse ex effectu remoto, qui
+            <lb ed="#V" n="11"/>non invenitur in Deo, neque misericordia
+            <lb ed="#V" n="12"/>sub tali ratione, sed quoad illud, quod
+            <lb ed="#V" n="13"/>dicit per se et in recto.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>(f) Ad secundum. etc, Secundum est
+            <lb ed="#V" n="15"/>quod misericors sit promptus ad
+            tollen<lb ed="#V" n="16" break="no"/>dam miseriam; sed Deus non est sic
+            <lb ed="#V" n="17"/>promptus, quia cum possit omnem
+            tolle<lb ed="#V" n="18" break="no"/>re, omnem tolleret, quod non facit, sed
+            <lb ed="#V" n="19"/>potius aliquam infligit. Respondet quod
+            <lb ed="#V" n="20"/>misericors non infligit poenam, nisi
+            se<lb ed="#V" n="21" break="no"/>cundum rectam rationem, quae dictat
+            ali<lb ed="#V" n="22" break="no"/>quibus infligendam, ut secundum aliquos
+            <lb ed="#V" n="23"/>appareat justitia, ut in damnatione
+            repro<lb ed="#V" n="24" break="no"/>borum, et ideo non infligit, nec permitit
+            <lb ed="#V" n="25"/>poenam, sic eo modo quo eam infligi
+            sta<lb ed="#V" n="26" break="no"/>tuit cum misericordia, vel cum dictamine
+            <lb ed="#V" n="27"/>rectae rationis. quia nempe de ipsis malis
+            <lb ed="#V" n="28"/>bene facit ad ostensionem suae
+            justi<lb ed="#V" n="29" break="no"/>tiae.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

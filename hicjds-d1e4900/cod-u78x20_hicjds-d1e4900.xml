@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 44, Pars 2, Quaestio 2</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 44, Pars 2, Quaestio 2</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x20">Vives, Paris, 1894, volume 20</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="250"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e4900"><!-- hicjds-b4d44p2q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum homines damnati post iudicium cruciabuntur igne infernali</head>
+        <!-- <div alias="hiq-d44q3-p1"> -->
+          <p>
+            <lb ed="#V" n="23" type="fixed=250"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>(a) Secundo quaero, etc. Haec quaestio est
+            <lb ed="#V" n="25"/>in ordine tertia; tamen quia spectat ad
+            <lb ed="#V" n="26"/>poenam damnatorum hominum secundum
+            <lb ed="#V" n="27"/>corpus post judicium, dicitur secunda in
+            <lb ed="#V" n="28"/>ordine ad priorem, in qua tractavit de
+            <lb ed="#V" n="29"/>poena spirituum. Continet tres partes, quasi
+            <lb ed="#V" n="30"/>articulos: Primus exponit utramque
+            im<lb ed="#V" n="31" break="no"/>mutationem possibilem fieri in corpus tam
+            <lb ed="#V" n="32"/>realem quam intentionalem, et utramque
+            <lb ed="#V" n="33"/>posse separari respective ad diversa.
+            <lb ed="#V" n="34"/>Secundus articulus determinat solam
+            in<lb ed="#V" n="35" break="no"/>tentionalem sufficere ad poenam
+            corpo<lb ed="#V" n="36" break="no"/>ralem sine reali immutatione. Tertius vero
+            <lb ed="#V" n="37"/>incertum statuit, quid in re ipsa
+            contin<lb ed="#V" n="38" break="no"/>gat: An scilicet non solum intentionaliter,
+            <lb ed="#V" n="39"/>sed etiam realiter ignis agat in corpora
+            <lb ed="#V" n="40"/>damnatorum.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d44q3-p2"> -->
+          <p>
+            <lb ed="#V" n="54" type="fixed=251"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>(b) Ad quoestionem patet, etc. In hac
+            <lb ed="#V" n="56"/>quaestione supponitur veritas fidei, nempe
+            <lb ed="#V" n="57"/>ignem inferni agere ad cruciatum carnis
+            <lb ed="#V" n="58"/>damnatorum hominum, quae patet ex
+            <lb ed="#V" n="59"/>Scriptura saepius allegata. Est communis
+            <lb ed="#V" n="60"/>Patrum et Doctorum, quos omnes abunde
+            <lb ed="#V" n="61"/>citat Coccius l. 10. de quatuor novissimis,
+            <lb ed="#V" n="62"/>art. 8. patet ex locis citatis in scholio.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Hoc supposito dicit quod ignis praesens
+            <lb ed="#V" n="64"/>corruptibili animato possit habere tam
+            <lb ed="#V" n="65"/>realem actionem, quae est univoca,
+            produ<lb ed="#V" n="66" break="no"/>cendo sibi simile, v. g. calorem realem,
+            <lb ed="#V" n="67"/>et etiam agere ad immutationem sensus
+            <lb ed="#V" n="68"/>per actionem intentionalem; statuit
+            con<lb ed="#V" n="69" break="no"/>clusionem hanc;
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Ad propositum ergo dico, cum corpus
+            <lb ed="#V" n="71"/>hominis sit per se corruptibile post
+            judi<lb ed="#V" n="72" break="no"/>cium, ignis praesens potest habere in illo
+            <lb ed="#V" n="73"/>utramque actionem, etc. Intelligit corpus
+            <lb ed="#V" n="74"/>corruptibile non secundum resolutionem
+            <lb ed="#V" n="75"/>in materiam et separationem formae, sed
+            <lb ed="#V" n="76"/>corruptibile quoad passionem et subjectum
+            <lb ed="#V" n="77"/>agenti naturali, in quo differt a corpore
+            <lb ed="#V" n="78"/>glorioso, quod habet dotem
+            impassibili<lb ed="#V" n="79" break="no"/>tatis hoc modo. Probat conclusionem,
+            <lb ed="#V" n="80"/>quia utraque actio non repugnat, et
+            pas<lb ed="#V" n="81" break="no"/>sum est susceptivum termini utriusque;
+            <lb ed="#V" n="82"/>ergo, etc. Insinuat quamdam
+            responsi<lb ed="#V" n="83" break="no"/>onem ex dependentia motuum agentium
+            <lb ed="#V" n="84"/>inferiorum ad motum coeli, qui post
+            <lb ed="#V" n="85"/>judicium cessabit. Hanc examinandam
+            <lb ed="#V" n="86"/>remittit in d 48. inferius.
+          </p>
+          <p>
+            <pb ed="#V" n="252"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Dices corpus illud esse incorruptibile;
+            <lb ed="#V" n="2"/>ergo incapax actionis realis
+            corrum<lb ed="#V" n="3" break="no"/>pentis.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Contra, saltem erit capax actionis in
+            <lb ed="#V" n="5"/>eo gradu in quo non est corruptiva, quia
+            <lb ed="#V" n="6"/>nullum est impedimentum ex parte
+            cor<lb ed="#V" n="7" break="no"/>poris, quod incorruptibile tantum est
+            <lb ed="#V" n="8"/>ex actione agentis extrinseci conservantis
+            <lb ed="#V" n="9"/>animam in corpore, et ejus unionem; non
+            <lb ed="#V" n="10"/>vero ex aliqua positiva forma per quam
+            <lb ed="#V" n="11"/>redderetur corpus incapax termini
+            acti<lb ed="#V" n="12" break="no"/>onis.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>(c) Secundo dico quod sola
+            intentiona<lb ed="#V" n="14" break="no"/>lis sufficit ad causandum dolorem, etc.
+            <lb ed="#V" n="15"/>Haec est secunda conclusio hujus articuli.
+            <lb ed="#V" n="16"/>Probatur, quia sensibile excellens natum
+            <lb ed="#V" n="17"/>est inferre dolorem sensui, quia sensibile
+            <lb ed="#V" n="18"/>comparatur ad sensum ut conveniens,
+            <lb ed="#V" n="19"/>vel disconveniens ex natura objecti, et
+            <lb ed="#V" n="20"/>inclinatione ipsa, et temperamento mediae
+            <lb ed="#V" n="21"/>proportionis in sensu. Ex convenienti
+            <lb ed="#V" n="22"/>autem et disconvenienti nata est sequi
+            <lb ed="#V" n="23"/>tristitia aut delectatio, sed sensibile
+            excel<lb ed="#V" n="24" break="no"/>lens agit ut objectum, et solum
+            intenti<lb ed="#V" n="25" break="no"/>onaliter; ergo ut agit hoc modo infert
+            <lb ed="#V" n="26"/>dolorem. Aliqui negant sensibile causare
+            <lb ed="#V" n="27"/>dolorem, nisi ut actione reali agit ad
+            im<lb ed="#V" n="28" break="no"/>mutationem organi realem, corrumpendo
+            <lb ed="#V" n="29"/>ejus mixtionem.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Contra Doctor, licet, inquit, alia
+            immu<lb ed="#V" n="31" break="no"/>tatio realis concomitetur, qua dissolvitur
+            <lb ed="#V" n="32"/>organum a media proportione in qua
+            <lb ed="#V" n="33"/>consistit, tamen si sine illa actione esset
+            <lb ed="#V" n="34"/>objectum disconveniens, sequeretur dolor.
+            <lb ed="#V" n="35"/>Probat experientia eorum, qui manum
+            <lb ed="#V" n="36"/>ex glacie rigentem admovent igni sentiunt
+            <lb ed="#V" n="37"/>dolorem vehementem, quamvis modica
+            <lb ed="#V" n="38"/>sit actio ignis in eo casu ob resistentiam
+            <lb ed="#V" n="39"/>contrarii.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Probat a contrario, quia delectatio
+            cau<lb ed="#V" n="41" break="no"/>satur ab objecto inconveniente mediante
+            <lb ed="#V" n="42"/>visu et auditu, quamvis objectum non agat
+            <lb ed="#V" n="43"/>realiter aliquam formam, quae sit ad
+            con<lb ed="#V" n="44" break="no"/>servationem suppositi, neque in ea
+            distan<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>tia potest agere, ut si sit remotum; ergo
+            <lb ed="#V" n="46"/>similiter objectum aliquod disconveniens
+            <lb ed="#V" n="47"/>appetitui per solam acionem
+            intentiona<lb ed="#V" n="48" break="no"/>lem causabit dolorem, quamvis nulla alia
+            <lb ed="#V" n="49"/>actio naturalis ejus sequatur; vel si haec
+            <lb ed="#V" n="50"/>concomitetur in tantum est dolorifica,
+            <lb ed="#V" n="51"/>inquantum percipitur ab aliqua potentia
+            <lb ed="#V" n="52"/>cognitiva, et non aliter.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>Confirmatur, in voluntate aliquod
+            obje<lb ed="#V" n="54" break="no"/>ctum causat tristitiam, quod non agit actio
+            <lb ed="#V" n="55"/>ne reali, sed intentionali, ut per se notum
+            <lb ed="#V" n="56"/>est, et patet ex superioribus; ergo etiam
+            <lb ed="#V" n="57"/>idem dicendum est quoad appetitum. Patet
+            <lb ed="#V" n="58"/>consequentia, quia uniformiter se habent
+            <lb ed="#V" n="59"/>quoad haec. Deinde, aliquando voluptas.
+            <lb ed="#V" n="60"/>sequitur in appetitu, quando alioquin
+            <lb ed="#V" n="61"/>concomitatur actio realis objecti agentis
+            <lb ed="#V" n="62"/>ad aliquam detructionem naturalis
+            quali<lb ed="#V" n="63" break="no"/>tatis in vivente, et salutis, et e contra
+            <lb ed="#V" n="64"/>dolor in appetitu, quando concomitatur
+            <lb ed="#V" n="65"/>actio realis inferens salutem supposito;
+            <lb ed="#V" n="66"/>ergo universaliter dolor objecto sensibili
+            <lb ed="#V" n="67"/>causatur, qua intentionaliter agit, et non
+            <lb ed="#V" n="68"/>qua realis actio concomitatur. Et patet,
+            <lb ed="#V" n="69"/>quia ut habet proportionem motivi ad
+            <lb ed="#V" n="70"/>potentiam, natum est causare
+            delectati<lb ed="#V" n="71" break="no"/>onem aut contrariam, quia per modum
+            <lb ed="#V" n="72"/>objecti apprehensi, non ita se habet ut
+            <lb ed="#V" n="73"/>infert actionem realem, sed per modum
+            <lb ed="#V" n="74"/>agentis: ergo, etc.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d44q3-p3"> -->
+          <p>
+            <lb ed="#V" n="64" type="fixed=254"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>(d) Tertio dico, etc. Statuit tertiam
+            <lb ed="#V" n="66"/>conclusionem, nempe probabilius esse
+            <lb ed="#V" n="67"/>per actionem intentionalem solam, ignem
+            <lb ed="#V" n="68"/>post judicium punire corpora
+            damnato<lb ed="#V" n="69" break="no"/>rum. Hanc conclusionem tenet D. Thom.
+            <lb ed="#V" n="70"/>lib. 4. contra Gen. c. 89. ubi Ferrariensis,
+            <lb ed="#V" n="71"/>et quodlibeto 8. quaest. 8. art. 18. ad 1.
+            <lb ed="#V" n="72"/>Sotus dist. 50 quaest. un. art. 3.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Probatur a Doctore, quia tollenda est
+            <lb ed="#V" n="74"/>superfluitas cum finis per necessaria
+            <lb ed="#V" n="75"/>attingi commode possit; sed omnis
+            affli<lb ed="#V" n="76" break="no"/>ctio carnis, aut ex carne solum
+            habe<lb ed="#V" n="77" break="no"/>tur per intentionalem actionem, quia
+            <lb ed="#V" n="78"/>afflictio quae oritur ex actione reali non
+            <lb ed="#V" n="79"/>percipitur nisi per actionem
+            intentiona<lb ed="#V" n="80" break="no"/>lem, inquantum movet aliquem sensum
+            <lb ed="#V" n="81"/>per modum objecti; ergo potest stare
+            <lb ed="#V" n="82"/>talis dolor sine reali immutatione sensus,
+            <lb ed="#V" n="83"/>cum sola intentionali.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>Secundo probat, quia miracula non
+            <lb ed="#V" n="85"/>sunt multiplicanda sine necessitate; sed
+            <lb ed="#V" n="86"/>si poena ignis esset per actionem realem,
+            <pb ed="#V" n="255"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ita multiplicarentur, quia vel essent simul
+            <lb ed="#V" n="2"/>contrariae formae, quod videtur implicare;
+            <lb ed="#V" n="3"/>vel certe maneret forma unita subjecto,
+            <lb ed="#V" n="4"/>sine qualitate naturali requisita ad vitam
+            <lb ed="#V" n="5"/>conservandam; vel certe ignis agendo
+            <lb ed="#V" n="6"/>in summo, nihil induceret repugnans
+            <lb ed="#V" n="7"/>qualitati mixti, quod perinde repugnat,
+            <lb ed="#V" n="8"/>et tollit dolorem per immutationem realem
+            <lb ed="#V" n="9"/>carnis.
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Dices etiam miraculum admitti, si sola
+            <lb ed="#V" n="11"/>intentionalis statuatur, quia vehemens
+            <lb ed="#V" n="12"/>dolor inducit in hac vita mortem.
+            <lb ed="#V" n="13"/>Respondet quod nullus dolor per se
+            re<lb ed="#V" n="14" break="no"/>pugnat qualitati mixti formaliter
+            contra<lb ed="#V" n="15" break="no"/>riae, quia sic non opponitur forma
+            inten<lb ed="#V" n="16" break="no"/>tionalis et realis. Quod probat etiam ex
+            <lb ed="#V" n="17"/>Augustino in littera. Et quamvis in vita
+            <lb ed="#V" n="18"/>mortali dolor excessivus inducit mortem
+            <lb ed="#V" n="19"/>ob virtutem phantasiae et appetitus, et
+            <lb ed="#V" n="20"/>.commotionem vehementem humorum et
+            <lb ed="#V" n="21"/>spirituum, ex qua sequitur
+            distempera<lb ed="#V" n="22" break="no"/>tio qualitatum naturalium mixti
+            requisi<lb ed="#V" n="23" break="no"/>tarum ad vitam, tamen cum hic effectus
+            <lb ed="#V" n="24"/>proveniat a dolore remote et effective
+            tan<lb ed="#V" n="25" break="no"/>tum, minus miraculum erit suspensio ejus
+            <lb ed="#V" n="26"/>divina virtute, ex conditione illius status
+            <lb ed="#V" n="27"/>finalis, et ordine justitiae vindicativae
+            pec<lb ed="#V" n="28" break="no"/>cati aeternaliter, quam illud miraculum,
+            <lb ed="#V" n="29"/>per quod oppositio contraria inter formas
+            <lb ed="#V" n="30"/>physicas suspenderetur a suo effectu
+            for<lb ed="#V" n="31" break="no"/>mali et absoluto intrinseco.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Tertio probat ex varietate poenae
+            con<lb ed="#V" n="33" break="no"/>trariae, et non interruptae. Job. 14. 4b
+            <lb ed="#V" n="34"/>aquis nivium transibunt ad calorem
+            ni<lb ed="#V" n="35" break="no"/>mium, etc. Licet autem salvari posset haec
+            <lb ed="#V" n="36"/>poena per alternationem ejus, tenendo
+            <lb ed="#V" n="37"/>fieri per immutationem realem, hoc non
+            <lb ed="#V" n="38"/>congruit illi statui, in quo quaelibet
+            <lb ed="#V" n="39"/>poena est perpetua, et non intermissa,
+            <lb ed="#V" n="40"/>ergo alternationem non recipit. Ex alia
+            <lb ed="#V" n="41"/>autem parte nequit probabiliter salvari,
+            <lb ed="#V" n="42"/>quod simul patiatur a contrariis in summo,
+            <lb ed="#V" n="43"/>et realiter; ergo illa via de intentionali
+            <lb ed="#V" n="44"/>ratione, magis salvat statum illum sine
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>multiplicatione miraculorum, quam si
+            af<lb ed="#V" n="46" break="no"/>flictio fiat per immutationem realem
+            <lb ed="#V" n="47"/>sensus.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Quarto tandem probatur haec
+            con<lb ed="#V" n="49" break="no"/>clusio, non minor est poena animae
+            dam<lb ed="#V" n="50" break="no"/>natae absque corpore quam in ipso
+            cor<lb ed="#V" n="51" break="no"/>pore, et par est poena Daemonum et
+            <lb ed="#V" n="52"/>hominum, juxta Gregorium supra citatum
+            <lb ed="#V" n="53"/>in quaest. praeced. Sed salvatur poena
+            <lb ed="#V" n="54"/>sensus in his et animabus separatis per
+            <lb ed="#V" n="55"/>solam actionem intentionalem; ergo etiam
+            <lb ed="#V" n="56"/>poena animae in corpore ex dolore carnis
+            <lb ed="#V" n="57"/>potest sic commode salvari. Major
+            proba<lb ed="#V" n="58" break="no"/>tur, quia animae damnatae recipiunt
+            <lb ed="#V" n="59"/>mensuram plagarum juxta qualitatem
+            de<lb ed="#V" n="60" break="no"/>licti, tam quoad poenam sensus quam
+            <lb ed="#V" n="61"/>damni; ergo non est magis intensa
+            eo<lb ed="#V" n="62" break="no"/>rum poena in corpore quam extra
+            cor<lb ed="#V" n="63" break="no"/>pus, neque magis etiam extensa.
+            Pro<lb ed="#V" n="64" break="no"/>batur consequentia, quia licet animae
+            de<lb ed="#V" n="65" break="no"/>beatur poena sensibilis ex carne, cujus
+            <lb ed="#V" n="66"/>sensum secuta est in corpore, tamen poena
+            <lb ed="#V" n="67"/>illa non est suspensa, quantum ad
+            ratio<lb ed="#V" n="68" break="no"/>nem formalem poenae in anima per veram
+            <lb ed="#V" n="69"/>tristitiam, ut ordinatur peccatum ejus,
+            <lb ed="#V" n="70"/>quamvis causa poenae proxima, qua
+            <lb ed="#V" n="71"/>sensibilis est, non sit praesens applicata;
+            <lb ed="#V" n="72"/>tamen in apprehensione certa de eventu
+            <lb ed="#V" n="73"/>rei est applicata, et anima perinde habet
+            <lb ed="#V" n="74"/>eamdem tristitiam extra corpus, et intra
+            <lb ed="#V" n="75"/>corpus, quamvis ut unitur corpori, eadem
+            <lb ed="#V" n="76"/>poena immutabilis in se, et secundum
+            <lb ed="#V" n="77"/>sententiam datam sit ex causa in re
+            po<lb ed="#V" n="78" break="no"/>sita, quae ante fuit ex causa in
+            appre<lb ed="#V" n="79" break="no"/>hensione certi eventus, tanquam ex
+            moti<lb ed="#V" n="80" break="no"/>vo sufficiente; neque poena illa redditur
+            <lb ed="#V" n="81"/>vehementior ex laesione sensus, sive
+            rea<lb ed="#V" n="82" break="no"/>li, sive intentionali, quam antea fuerit,
+            <lb ed="#V" n="83"/>quia illud non est fortius movens in ipsa
+            <lb ed="#V" n="84"/>positum, quam fuerit in sola
+            apprehensio<lb ed="#V" n="85" break="no"/>ne applicatum, alias non redderetur
+            condi<lb ed="#V" n="86" break="no"/>gne, et ad mensuram poena peccato in
+            ani<lb ed="#V" n="87" break="no"/>ma separata, antequam restitueretur
+            cor<lb ed="#V" n="88" break="no"/>pori. Poena etiam animae, ut unitur corpori,
+            <pb ed="#V" n="256"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>redundat in ipsum corpus, quod natum
+            <lb ed="#V" n="2"/>est pati ex passione animae, eademque
+            <lb ed="#V" n="3"/>poena eadem manens majorem habet
+            cau<lb ed="#V" n="4" break="no"/>sam sufficientem ex laesione sensibili
+            cor<lb ed="#V" n="5" break="no"/>poris, quia idem dolor ex pluribus causis
+            <lb ed="#V" n="6"/>inesse potest, quamvis maneat idem ex
+            <lb ed="#V" n="7"/>divinae justitiae termino posito. Et quoniam
+            <lb ed="#V" n="8"/>poena vel dolor non competunt corpori
+            <lb ed="#V" n="9"/>nisi ratione animae, inquantum per eam
+            <lb ed="#V" n="10"/>animatur, sufficit tam ad corporis quam
+            <lb ed="#V" n="11"/>ad animae cruciatum salvare illam
+            actio<lb ed="#V" n="12" break="no"/>nem et modum agendi, per quem poena
+            <lb ed="#V" n="13"/>ipsa sufficienter subsistit in utroque; nec
+            <lb ed="#V" n="14"/>ponendus est alius, qui statui
+            incorruptibi<lb ed="#V" n="15" break="no"/>litatis videtur repugnare per
+            conservatio<lb ed="#V" n="16" break="no"/>nem contrariorum in eodem subjecto et in
+            <lb ed="#V" n="17"/>summo gradu; sufficit ergo immutatio
+            <lb ed="#V" n="18"/>sensibilis et intentionalis, neque requiritur
+            <lb ed="#V" n="19"/>alia realis, quae intantum est causa
+            dolo<lb ed="#V" n="20" break="no"/>ris sensibilis, inquantum per modum
+            ob<lb ed="#V" n="21" break="no"/>jecti apprehenditur, ut disconveniens
+            <lb ed="#V" n="22"/>sensui et appetitui.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Objicies cum Durando, quod licet
+            suf<lb ed="#V" n="24" break="no"/>ficiat in aliis sensibus immutatio
+            inten<lb ed="#V" n="25" break="no"/>tionalis sine reali, tamen in sensu tactus
+            <lb ed="#V" n="26"/>non ita sufficit, quia requirit mutationem
+            <lb ed="#V" n="27"/>realem.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Respondetur cum Doctore supra,
+            li<lb ed="#V" n="29" break="no"/>cet realis concomitetur ut plurimum in
+            <lb ed="#V" n="30"/>praesenti statu ex applicatione causae
+            <lb ed="#V" n="31"/>utriusque, et passi receptibilis, tamen
+            <lb ed="#V" n="32"/>dolorem causari per intentionalem et
+            <lb ed="#V" n="33"/>non realem, nisi ut transit in
+            intentio<lb ed="#V" n="34" break="no"/>nalem. Deinde, exemplum a Doctore
+            su<lb ed="#V" n="35" break="no"/>pra positum ostendit haec separari
+            pos<lb ed="#V" n="36" break="no"/>se, quinimo aliquando realis sine
+            inten<lb ed="#V" n="37" break="no"/>tionali causatur in ea parte, quia stupet
+            <lb ed="#V" n="38"/>sensus ad actum, licet sit animatus, et
+            <lb ed="#V" n="39"/>saepe fluit per actionem agentis
+            corrum<lb ed="#V" n="40" break="no"/>pentis, sine eo quod sentiatur aut inferat
+            <lb ed="#V" n="41"/>dolorem. Aliam objectionem solvit Doctor
+            <lb ed="#V" n="42"/>infra S sequenti.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d44q3-p4"> -->
+          <p>
+            <lb ed="#V" n="13" type="fixed=258"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>(e) Quarto dico, quod nec est omnino
+            <lb ed="#V" n="15"/>certa ratio ad negandum ibi immutationem
+            <lb ed="#V" n="16"/>realem, etc. Haec est quarta conclusio
+            <lb ed="#V" n="17"/>hujus quaestionis, in qua Doctor est
+            pro<lb ed="#V" n="18" break="no"/>blematicus, licet sententiam D. Thomae ut
+            <lb ed="#V" n="19"/>probabiliorem sequatur. Ignem autem
+            <lb ed="#V" n="20"/>Inferni agere etiam actione reali in corpus
+            <lb ed="#V" n="21"/>damnati tenet S. Bonaventura, hic art. 3.
+            <lb ed="#V" n="22"/>quaest. 1. Richardus ut magis probabilem
+            <lb ed="#V" n="23"/>sequitur, art. 3. quaest. 6. et 7. Eam
+            asser<lb ed="#V" n="24" break="no"/>tive tuetur Durandus quaest. 10. neque
+            <lb ed="#V" n="25"/>impugnari sufficienter posse affirmat
+            Do<lb ed="#V" n="26" break="no"/>ctor, quia ex primo articulo, corpus illud,
+            <lb ed="#V" n="27"/>licet impassibile sit quoad corruptionem,
+            <lb ed="#V" n="28"/>passibile tamen est quoad immutationem
+            <lb ed="#V" n="29"/>sui realem, et causa sufficiens et efficax
+            <lb ed="#V" n="30"/>passionis realis applicata. Quod autem
+            <lb ed="#V" n="31"/>inde non destruatur, divino miraculo est
+            <lb ed="#V" n="32"/>adscribendum, quod tamen ex ordinaria
+            <lb ed="#V" n="33"/>dispositione illius status est
+            consectane<lb ed="#V" n="34" break="no"/>um, sicut plura alia ut institutioni
+            Eucha<lb ed="#V" n="35" break="no"/>ristiae consectanea sunt plura, quae alias
+            <lb ed="#V" n="36"/>essent miracula. Posset ergo triplici modo
+            <lb ed="#V" n="37"/>salvari actio realis ignis in corpus, ut
+            <lb ed="#V" n="38"/>producendo calorem, qui non esset
+            <lb ed="#V" n="39"/>quantitati requisitae mixtionis ad vitam
+            <lb ed="#V" n="40"/>salvandam contraria, et sic non coageret
+            <lb ed="#V" n="41"/>Deus ad totum effectum ignis, nempe ad
+            <lb ed="#V" n="42"/>resolutionem ignis temperamenti mixtionis
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>quoad illum gradum, a quo dependet esse
+            <lb ed="#V" n="44"/>corporis viventis. Vel posset Deus coagere
+            <lb ed="#V" n="45"/>ad destructionem etiam temperamenti
+            <lb ed="#V" n="46"/>quoad totum, non coagendo ad
+            destructi<lb ed="#V" n="47" break="no"/>onem substantialem mixti, et sic salvaretur
+            <lb ed="#V" n="48"/>vita. Vel denique tertio modo inducere
+            <lb ed="#V" n="49"/>calorem in summo, conservando simul
+            <lb ed="#V" n="50"/>mediam proportionem, et
+            temperamen<lb ed="#V" n="51" break="no"/>tum mixti. Hunc modum non approbat,
+            <lb ed="#V" n="52"/>quia sic formaliter essent repugnantia in
+            <lb ed="#V" n="53"/>eodem, nempe medium, quod est ipsum
+            <lb ed="#V" n="54"/>temperamentum, consistens in debita
+            <lb ed="#V" n="55"/>proportione, et extremum, quod videtur
+            <lb ed="#V" n="56"/>repugnare. Videatur Sanctus
+            Bonaventu<lb ed="#V" n="57" break="no"/>ra, qui pluribus exemplis hanc
+            conclusi<lb ed="#V" n="58" break="no"/>onem probat.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>(f) Sic ergo dico, etc. Resolvit tandem
+            <lb ed="#V" n="60"/>ex dictis, passuros damnatos passione
+            <lb ed="#V" n="61"/>afflictiva ab igne, et sic necessario actione
+            <lb ed="#V" n="62"/>intentionali. Et ad hanc passionem
+            neces<lb ed="#V" n="63" break="no"/>sariam, non est necessaria actio realis
+            <lb ed="#V" n="64"/>concomitans ad hunc finem, quae si datur,
+            <lb ed="#V" n="65"/>erit ex approximatione causae efficacis ad
+            <lb ed="#V" n="66"/>passum. Non negat quin ex actione reali
+            <lb ed="#V" n="67"/>sequatur passio in sensu, et dolor, sed
+            <lb ed="#V" n="68"/>intendit quod non qua realis est, inferat
+            <lb ed="#V" n="69"/>passionem intentionalem, sed qua agit
+            <lb ed="#V" n="70"/>intentionaliter, aut percipitur sensu aliquo
+            <lb ed="#V" n="71"/>passio realis, qua est objectum
+            discon<lb ed="#V" n="72" break="no"/>veniens sensui. Quod si autem passio
+            <lb ed="#V" n="73"/>realis concomitetur intentionalem,
+            incor<lb ed="#V" n="74" break="no"/>ruptio corporis damnati debet salvari
+            <lb ed="#V" n="75"/>miraculose modo dicto. Primus modus
+            <lb ed="#V" n="76"/>minorem habet difficultatem. Secundus
+            <lb ed="#V" n="77"/>modus est possibilis Deo, conservare
+            <lb ed="#V" n="78"/>nempe formam in subjecto absque omni
+            <lb ed="#V" n="79"/>quod essentialiter non requiritur ad
+            effe<lb ed="#V" n="80" break="no"/>ctum ejus formalem. Tertius autem modus
+            <lb ed="#V" n="81"/>videtur impossibilis.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>(g) Contra secundum articulum, etc.
+            <lb ed="#V" n="83"/>Objicit tres difficultates contra tertiam
+            <lb ed="#V" n="84"/>conclusionem quae est tertii articuli. Prima
+            <lb ed="#V" n="85"/>est, quod sensus Beati sentiat omnem
+            <lb ed="#V" n="86"/>differentiam objecti sui, etiam
+            excellen<pb ed="#V" n="259"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tem sine dolore; ergo dolor non est ex
+            in<lb ed="#V" n="2" break="no"/>tentionali passione. Secundo, quia omnis
+            <lb ed="#V" n="3"/>operatio est delectabilis potentiae
+            operan<lb ed="#V" n="4" break="no"/>ti; ergo et sensatio concomitans seu
+            <lb ed="#V" n="5"/>affectio. Tertio, quia appetitus sensitivus
+            <lb ed="#V" n="6"/>est propter naturam; ergo nihil est sibi
+            <lb ed="#V" n="7"/>disconveniens, nisi quia disconveniens
+            na<lb ed="#V" n="8" break="no"/>turae, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Ad primum, respondet dupliciter:
+            <lb ed="#V" n="10"/>Primo, negando aliquod sensibile esse
+            <lb ed="#V" n="11"/>disconveniens sensui Beati, quia fit
+            im<lb ed="#V" n="12" break="no"/>passibile per dotem. Secundo respondet,
+            <lb ed="#V" n="13"/>dato opposito quod impediretur dolor in
+            <lb ed="#V" n="14"/>. appetitu ob delectationem quam habet,
+            <lb ed="#V" n="15"/>redditur quoque incapax doloris.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Ad secundum, negat antecedens, quia
+            <lb ed="#V" n="17"/>operatio improportionata sensui non est
+            <lb ed="#V" n="18"/>delectabilis.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Ad tertium, quod ipsa natura aliquando
+            <lb ed="#V" n="20"/>facit objectum esse disconveniens
+            appe<lb ed="#V" n="21" break="no"/>titui ob laesionem naturae per realem
+            pas<lb ed="#V" n="22" break="no"/>sionem; tamen haec non est causa
+            ad<lb ed="#V" n="23" break="no"/>aequata passionis, quia etiam si separaretur
+            <lb ed="#V" n="24"/>passio realis, manente actione
+            intenti<lb ed="#V" n="25" break="no"/>onali, adhuc esset objectum disconveniens,
+            <lb ed="#V" n="26"/>et dolorem inferret.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>(h) Ad argumenta principalia, etc.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="28"/>Primum fuit ex illo Topicorum 6. Omnis
+            <lb ed="#V" n="29"/>passio facta magis abjicit substantia, etc.
+            <lb ed="#V" n="30"/>ergo si continue cruciantur ab illo igne!
+            <lb ed="#V" n="31"/>magis, et magis abjicitur substantia, ac
+            <lb ed="#V" n="32"/>tandem corrumpitur tota.
+            <lb ed="#V" n="33"/>Respondet rationem Philosophi magis
+            <lb ed="#V" n="34"/>concludere de actione reali, et non
+            in<lb ed="#V" n="35" break="no"/>tentionali, quia in illa fit corruptio, non
+            <lb ed="#V" n="36"/>autem in hac.
+            <lb ed="#V" n="37"/>Vel secundo dicendum, quod vera est)
+            <lb ed="#V" n="38"/>propositio intellecta de causa naturali
+            si<lb ed="#V" n="39" break="no"/>bi dimissa quoad integrum effectum, sed
+            <lb ed="#V" n="40"/>non quando impeditur a causa
+            supe<lb ed="#V" n="41" break="no"/>riori. Vel tertio denique, abjicit de
+            sub<lb ed="#V" n="42" break="no"/>stantia dispositive, quando potest sequi
+            <lb ed="#V" n="43"/>forma, ad quam disponit substantialis,
+            <lb ed="#V" n="44"/>non autem quando nequit illam inducere,
+            <lb ed="#V" n="45"/>sicut de facto contingit, quia nulla
+            cau<lb ed="#V" n="46" break="no"/>sa potest inducere dispositionem
+            necessi<lb ed="#V" n="47" break="no"/>tantem ad formam in eo gradu quo
+            <lb ed="#V" n="48"/>repugnat formae praemissae, nisi forma ad
+            <lb ed="#V" n="49"/>qnam disponit nata sit sequi. Solutionem
+            <lb ed="#V" n="50"/>tertii argumenti remittit ad jam dicta,
+            <lb ed="#V" n="51"/>quia actio realis ignis potest esse etiam
+            <lb ed="#V" n="52"/>cessante motu primi mobilis, neque illa
+            <lb ed="#V" n="53"/>actio est corruptiva corporis Deo illud
+            <lb ed="#V" n="54"/>conservante.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

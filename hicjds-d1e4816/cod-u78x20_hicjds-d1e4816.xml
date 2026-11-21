@@ -1,0 +1,1569 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 43, Quaestio 2</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 43, Quaestio 2</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x20">Vives, Paris, 1894, volume 20</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="35"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e4816"><!-- hicjds-b4d43q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum possit esse notum per rationem naturalem resurrectionem generalem hominum esse futuram</head>
+        <!-- <div alias="hiq-d43q2-p1"> -->
+          <p>
+            <lb ed="#V" n="71" type="fixed=35"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="72"/>(k) Secundo quaero, utrum possit esse
+            <lb ed="#V" n="73"/>notum, etc. In hac quaestione
+            examina<lb ed="#V" n="74" break="no"/>tur, an ratione naturali possit ostendi
+            <lb ed="#V" n="75"/>resurrectio futura, et agitur de ratione
+            <lb ed="#V" n="76"/>necessaria a priori aut a posteriori.
+            <lb ed="#V" n="77"/>Hanc quaestionem alii disputant sub
+            ti<lb ed="#V" n="78" break="no"/>tulo possibilitatis, an scilicet ratione
+            <lb ed="#V" n="79"/>naturali ostendi possit possibilis
+            resur<lb ed="#V" n="80" break="no"/>rectio. Utrumque comprehendit Doctor
+            <lb ed="#V" n="81"/>in hac quoest. proponit pro parte
+            affirma<lb ed="#V" n="82" break="no"/>tiva quatuor rationes, quarum tres primae
+            <lb ed="#V" n="83"/>fundantur in appetitu beatitudinis,
+            ejus<lb ed="#V" n="84" break="no"/>que cognitione naturali quam experimur.
+            <lb ed="#V" n="85"/>Quarta vero de perpetuitate specierum.
+            <lb ed="#V" n="86"/>Pro negativa vero adducit Augustinum et
+            <pb ed="#V" n="36"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Apostolum. Tandem, quia demonstratio
+            <lb ed="#V" n="2"/>a priori est per causas intrinsecas
+            essen<lb ed="#V" n="3" break="no"/>di, proponit tres propositiones, ex quibus
+            <lb ed="#V" n="4"/>velut a priori possit formari illa
+            demon<lb ed="#V" n="5" break="no"/>stratio; quarum prima est ex forma
+            in<lb ed="#V" n="6" break="no"/>trinseca et specifica hominis, quae est
+            <lb ed="#V" n="7"/>anima rationalis. Secunda, quod haec sit
+            <lb ed="#V" n="8"/>incorruptibilis. Tertia, quod non
+            perma<lb ed="#V" n="9" break="no"/>nebit semper extra corpus, et
+            consequen<lb ed="#V" n="10" break="no"/>ter restituetur corpori, ex quibus sequitur
+            <lb ed="#V" n="11"/>fore resurrectionem. Resolvit primam esse
+            <lb ed="#V" n="12"/>notam naturaliter tanquam necessariam.
+            <lb ed="#V" n="13"/>Secundam esse probabilem naturaliter,
+            <lb ed="#V" n="14"/>non tamen necessariam. Tertiam vero
+            <lb ed="#V" n="15"/>non esse tam notam naturaliter, ac
+            proin<lb ed="#V" n="16" break="no"/>de probationem a priori non esse
+            necessa<lb ed="#V" n="17" break="no"/>riam seu demonstrativam physicam.
+            <lb ed="#V" n="18"/>Idem dicit quantum ad rationes a
+            poste<lb ed="#V" n="19" break="no"/>riori, quae desumuntur ex inclinatione ad
+            <lb ed="#V" n="20"/>beatitudinem et retributionem operum, et
+            <lb ed="#V" n="21"/>tandem respondet ad argumenta.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d43q2-p2"> -->
+          <p>
+            <lb ed="#V" n="22" type="fixed=37"/>COMMENTARIUS
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>(1) Respondeo hoc manifestum est, etc.
+            <lb ed="#V" n="24"/>Docet hanc demonstrationem petendam
+            <lb ed="#V" n="25"/>esse ex propris hominis, non ab aliquo
+            <lb ed="#V" n="26"/>corruptibili, neque ex materia etiam
+            pri<lb ed="#V" n="27" break="no"/>ma, quae incorruptibilis est, sed ex
+            for<lb ed="#V" n="28" break="no"/>ma specifica hominis, nempe ex anima
+            <lb ed="#V" n="29"/>rationali, vel ex operatione ejus. Ex qua
+            <lb ed="#V" n="30"/>sumit tres propositiones, ex quibus haec
+            <lb ed="#V" n="31"/>veritas deduci potest. Prima est, quod sit
+            <lb ed="#V" n="32"/>forma hominis. Secunda quod sit
+            immor<lb ed="#V" n="33" break="no"/>talis et incorruptibilis secundum esse.
+            <lb ed="#V" n="34"/>Tertia, quod forma illa non manebit
+            per<lb ed="#V" n="35" break="no"/>petuo extra corpus. De his
+            propositioni<lb ed="#V" n="36" break="no"/>bus earumque materia non est instituti
+            <lb ed="#V" n="37"/>per se tractare, quia est alterius loci, sed
+            <lb ed="#V" n="38"/>tantum quaerere de gradu certitudinis
+            ea<lb ed="#V" n="39" break="no"/>rum, et an secluso fidei lumine, et
+            tradi<lb ed="#V" n="40" break="no"/>tionis receptae ab initio in genere
+            huma<lb ed="#V" n="41" break="no"/>no, sint talis evidentiae, ut convincant
+            <lb ed="#V" n="42"/>protervum per veram demonstrationem,
+            <lb ed="#V" n="43"/>et necessariam; quod enim propositiones
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>sint verae, non negatur, sed disseritur
+            <lb ed="#V" n="45"/>tantum, an necessario concludentes modo
+            <lb ed="#V" n="46"/>dicto.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Quod prima sit vera et necessaria,
+            ad<lb ed="#V" n="48" break="no"/>mittit Doctor, et primo adducit
+            probati<lb ed="#V" n="49" break="no"/>onem ejus ex Sancto Thoma 3. part.
+            <lb ed="#V" n="50"/>q.76. art. 1. tum quia Philosophi plures
+            <lb ed="#V" n="51"/>hoc lumine naturali noverunt. Secundo,
+            <lb ed="#V" n="52"/>quia ex 2. et 3. de Anima, ponitur
+            ani<lb ed="#V" n="53" break="no"/>ma intellectiva, pars subjectiva animae, ut
+            <lb ed="#V" n="54"/>sic, quae definitur actus corporis
+            orga<lb ed="#V" n="55" break="no"/>nici etc. Deinde quia communiter
+            Philo<lb ed="#V" n="56" break="no"/>sophi statuunt rationale differentiam
+            ho<lb ed="#V" n="57" break="no"/>minis et animam rationalem, qua talis
+            <lb ed="#V" n="58"/>est, partem ejus essentialem, excepto
+            <lb ed="#V" n="59"/>Averroe, cujus fictio non est
+            intelligi<lb ed="#V" n="60" break="no"/>bilis, et hoc argumentum est ab
+            aucto<lb ed="#V" n="61" break="no"/>ritate.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d43q2-p3"> -->
+          <p>
+            <lb ed="#V" n="12" type="fixed=39"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>(m) De secundo ad propositum, etc.
+            <lb ed="#V" n="14"/>Hic subjungit alteram rationem a
+            posteri<lb ed="#V" n="15" break="no"/>ori desumptam a propria operatione
+            <lb ed="#V" n="16"/>hominis, quae est intellectio; ergo a
+            pro<lb ed="#V" n="17" break="no"/>pria forma hominis.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Respondet instari posse, dato quod
+            <lb ed="#V" n="19"/>intellectio sit a solo phantasmate aut
+            <lb ed="#V" n="20"/>objecto, tanquam causa totali efficiente,
+            <lb ed="#V" n="21"/>et principio elicitivo, ad quod se habet
+            <lb ed="#V" n="22"/>intellectus tantum passive. De hac
+            opini<lb ed="#V" n="23" break="no"/>one agit in 1. dist. 3. quaest. 7.
+            Instan<lb ed="#V" n="24" break="no"/>tia autem insinuata in hoc potissimum
+            <lb ed="#V" n="25"/>urget contra hanc rationem, quia actus
+            <lb ed="#V" n="26"/>intelligendi, ut est ab ipsa anima
+            eliciti<lb ed="#V" n="27" break="no"/>ve, potissimum probat eam esse formam
+            <lb ed="#V" n="28"/>corporis. Caeterum, etiam format ipse
+            <lb ed="#V" n="29"/>rationem in sensu formali, quia
+            intelle<lb ed="#V" n="30" break="no"/>ctio est propria operatio hominis, ex
+            <lb ed="#V" n="31"/>Philosopho, et distinguitur contra
+            facti<lb ed="#V" n="32" break="no"/>onem seu actionem transeuntem, et in ea
+            <lb ed="#V" n="33"/>consistit felicitas hominis, ex eodem
+            Phi<lb ed="#V" n="34" break="no"/>losopho; ergo inest secundum propriam
+            <lb ed="#V" n="35"/>formam hominis.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Deinde, homo cognoscit actu non
+            <lb ed="#V" n="37"/>organico quem experimur in nobis, quae
+            <lb ed="#V" n="38"/>cognitio non extenditur ad certum genus
+            <lb ed="#V" n="39"/>sensibilium, sicut cognitio organica, et illo
+            <lb ed="#V" n="40"/>actu differentiam omnium sensibilium
+            <lb ed="#V" n="41"/>cognoscit.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Si respondeatur quod illa cognitio sit
+            <lb ed="#V" n="43"/>secundum totum, et non secundum
+            orga<cb ed="#V" n="b"/><lb ed="#V" n="44" break="no"/>num, vel si dicatur inesse secundum
+            <lb ed="#V" n="45"/>phantasiam, quia hac laesa impeditur talis
+            <lb ed="#V" n="46"/>inter se actus, utramque rejicit Doctor,
+            <lb ed="#V" n="47"/>tum quia per cognitionem illam
+            co<lb ed="#V" n="48" break="no"/>gnoscimus aliquid, quod excedit totum
+            <lb ed="#V" n="49"/>genus sensibilium, et ideo impeditur
+            <lb ed="#V" n="50"/>talis cognitio laesa phantasia ob
+            sub<lb ed="#V" n="51" break="no"/>ordinationem potentiarum in operando.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d43q2-p4"> -->
+          <p>
+            <lb ed="#V" n="36" type="fixed=41"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>(n) Aliter probatur antecedens, etc.
+            <lb ed="#V" n="38"/>Est alia probatio D. Thomae, quia aliqua
+            <lb ed="#V" n="39"/>cognitio immaterialis est in nobis; nulla
+            <lb ed="#V" n="40"/>autem sensitiva est immaterialis;
+            er<lb ed="#V" n="41" break="no"/>go, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Respondet Doctor, dictionem illam
+            im<lb ed="#V" n="43" break="no"/>materialis esse frequentem ex usu
+            Phi<cb ed="#V" n="b"/><lb ed="#V" n="44" break="no"/>losophi in materia cognitionis, et esse
+            <lb ed="#V" n="45"/>ambiguam. Primo, ut opponitur
+            princi<lb ed="#V" n="46" break="no"/>pio operanti per organum, et sic
+            propo<lb ed="#V" n="47" break="no"/>sitio praemissa facit in paragrapho
+            ante<lb ed="#V" n="48" break="no"/>cedenti, quia dicitur in nobis esse
+            cogni<lb ed="#V" n="49" break="no"/>tio non organica formaliter. Secundo
+            <lb ed="#V" n="50"/>modo dicitur immateriale id quod non est
+            <lb ed="#V" n="51"/>extensum. Tertio dicitur immaterialis ut
+            <lb ed="#V" n="52"/>comparatur ad objectum, quatenus illud
+            <lb ed="#V" n="53"/>percipit sub ratione abstrahente a
+            condi<lb ed="#V" n="54" break="no"/>tionibus materialibus seu individualibus,
+            <lb ed="#V" n="55"/>ut est hic et nunc, et caeterae conditiones,
+            <lb ed="#V" n="56"/>quae sequuntur ad individuum. Dicit quod
+            <lb ed="#V" n="57"/>immaterialitas excludens extensionem,
+            <lb ed="#V" n="58"/>seu secundo modo sumpta faceret ad
+            in<lb ed="#V" n="59" break="no"/>stitutum, si probaretur, cujus probatio
+            <lb ed="#V" n="60"/>desumi tantum potest ex conditione
+            <lb ed="#V" n="61"/>objecti, quod respicit ille actus cognitionis
+            <lb ed="#V" n="62"/>immaterialis, vel ex reflexione potentiae
+            <lb ed="#V" n="63"/>super eodem actu, quod nequit competere
+            <lb ed="#V" n="64"/>extensae et quantae, quae nequit reflectere;
+            <lb ed="#V" n="65"/>ideo Doctor probat illam propositionem
+            <lb ed="#V" n="66"/>D. Thomae, tam ex conditione objecti
+            <lb ed="#V" n="67"/>quam reflexionis. Ex parte objecti, quia
+            <lb ed="#V" n="68"/>experimur in nobis cognitionem, qua
+            co<lb ed="#V" n="69" break="no"/>gnoscimus ens, et qualitatem sub
+            commu<lb ed="#V" n="70" break="no"/>niori ratione, quam sit objectum sensus
+            <lb ed="#V" n="71"/>ullius. Deinde, quia experimur etiam nos
+            <lb ed="#V" n="72"/>cognoscere per reflexionem eumdem
+            il<lb ed="#V" n="73" break="no"/>lum actum, v. g. quo cognoscimus entia
+            <lb ed="#V" n="74"/>rationis, et Logicalia, et hujusmodi non
+            <lb ed="#V" n="75"/>sensibilia. Idem probat ex assensu
+            pri<lb ed="#V" n="76" break="no"/>morum principorum, conclusionum
+            scien<lb ed="#V" n="77" break="no"/>tificarum et evidentiae discursus, cui
+            ne<lb ed="#V" n="78" break="no"/>quit intellectus dissentiri, qui actus
+            ne<lb ed="#V" n="79" break="no"/>queunt convenire ulli potentiae sensitivae;
+            <lb ed="#V" n="80"/>et qui negaret, inquit, has experientias
+            <lb ed="#V" n="81"/>esset repellendus tanquam insensatus aut
+            <lb ed="#V" n="82"/>irrationabilis.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>Pergit ulterius probare quod illi actus,
+            <lb ed="#V" n="84"/>quos experimur, non insint secundum
+            <lb ed="#V" n="85"/>aliquam potentiam sensitivam. Probatio
+            <lb ed="#V" n="86"/>ejus reducitur ad tres propositiones:
+            <lb ed="#V" n="87"/>Prima est, quod Universale, qua
+            Univer<pb ed="#V" n="42"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>sale, cognoscitur sub illa indifferentia,
+            <lb ed="#V" n="2"/>sub qua natum est praedicari indifferenter
+            <lb ed="#V" n="3"/>de omnibus suis inferioribus seu
+            indivi<lb ed="#V" n="4" break="no"/>duis, sub qua ratione non potest cognosci
+            <lb ed="#V" n="5"/>a sensu.
+            <lb ed="#V" n="6"/>Contra hanc propositionem non facit
+            <lb ed="#V" n="7"/>quod alias asserit singularitatem non
+            ca<lb ed="#V" n="8" break="no"/>dere sub objecto sensus, ut in dist. 3.
+            <lb ed="#V" n="9"/>ubi per varias quaestiones agit de
+            prin<lb ed="#V" n="10" break="no"/>cipio individuationis, et potissimum
+            <lb ed="#V" n="11"/>quoest. 6. qua agit de individuo per se.
+            <lb ed="#V" n="12"/>Hic autem agit de individuo secundum
+            <lb ed="#V" n="13"/>conditiones materiales existentiae loci et
+            <lb ed="#V" n="14"/>temporis, a quibus non abstrahit
+            cogni<lb ed="#V" n="15" break="no"/>tio sensitiva, quia, ut hic dicit, sensus
+            <lb ed="#V" n="16"/>est existentis, qua existens est, ideo licet
+            <lb ed="#V" n="17"/>non feratur in individuum sub ratione
+            in<lb ed="#V" n="18" break="no"/>dividualitatis, ita ut ipsam discernere
+            pos<lb ed="#V" n="19" break="no"/>set ab alia ejusdem naturae, tamen fertur
+            <lb ed="#V" n="20"/>sub ratione existendi hic et nunc, sine
+            <lb ed="#V" n="21"/>quibus non esset natum objectum
+            move<lb ed="#V" n="22" break="no"/>re aut terminare actum sensitivae, neque
+            <lb ed="#V" n="23"/>natura objecti sensibilis, ut illas
+            conditi<lb ed="#V" n="24" break="no"/>ones includit, est indifferens, ut dicatur
+            <lb ed="#V" n="25"/>indifferenter per modum universalis de
+            <lb ed="#V" n="26"/>quolibet singulari, quod est, et quod non
+            <lb ed="#V" n="27"/>est; cognitio autem intellectualis
+            univer<lb ed="#V" n="28" break="no"/>salis circa objectum sensibile est, vel
+            po<lb ed="#V" n="29" break="no"/>test esse de ipso, ut abstrahit ab illis
+            con<lb ed="#V" n="30" break="no"/>ditionibus, et ut potest de singulis
+            inferi<lb ed="#V" n="31" break="no"/>oribus praedicari indifferenter.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Secunda propositio est, quod nulla
+            po<lb ed="#V" n="33" break="no"/>tentia sensitiva potest fieri in objectum
+            <lb ed="#V" n="34"/>suum sub aliqua ratione universaliori,
+            <lb ed="#V" n="35"/>quam sit prima ratio sui objecti, v. g.
+            <lb ed="#V" n="36"/>visus nequit cognoscere objectum sub
+            ra<lb ed="#V" n="37" break="no"/>tione indifferenti ad coloratum et
+            audi<lb ed="#V" n="38" break="no"/>tum.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Et si instes quod phantasia posset sic
+            <lb ed="#V" n="40"/>ferri, aut sensus communis.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Contra est, quod nequeat ferri sub
+            uni<lb ed="#V" n="42" break="no"/>versaliori ratione, quam sit sensibile in
+            <lb ed="#V" n="43"/>genere, non sic intellectus, ut exemplis
+            <lb ed="#V" n="44"/>probat, et hanc rationem dicit esse magis
+            <lb ed="#V" n="45"/>evidentem quam sit prior ratio.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="46"/>Tertia propositio est, quod nulla
+            sensa<lb ed="#V" n="47" break="no"/>tio possit esse distinctiva sui primi
+            obje<lb ed="#V" n="48" break="no"/>cti ab alio, quod non est tale, quia neque
+            <lb ed="#V" n="49"/>esse utriusque extremi, cum nequeat
+            fer<lb ed="#V" n="50" break="no"/>ri extra suum objectum primum.
+            Dein<lb ed="#V" n="51" break="no"/>ceps applicat exempla data, in quibus
+            <lb ed="#V" n="52"/>ostenditur in nobis esse cognitio
+            intelle<lb ed="#V" n="53" break="no"/>ctiva, quae transcendit objecta sensibilia,
+            <lb ed="#V" n="54"/>et probat etiam esse in nobis reflexionem
+            <lb ed="#V" n="55"/>supra actum, qua ipsum actum per
+            mo<lb ed="#V" n="56" break="no"/>dum objecti cognoscimus.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d43q2-p5"> -->
+          <p>
+            <lb ed="#V" n="40" type="fixed=43"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>(o) Consequentia primi Emthymematis
+            <lb ed="#V" n="42"/>probatur sic, etc. Enthymema habetur
+            <lb ed="#V" n="43"/>S De secundo, ad propositum, etc. cujus
+            an<lb ed="#V" n="44" break="no"/>tecedens hactenus probavit, nempe quod
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>intellectio sit propria operatio hominis,
+            <lb ed="#V" n="46"/>consequens enthymematis est; ergo est
+            <lb ed="#V" n="47"/>a propria forma hominis, quam hic
+            pro<lb ed="#V" n="48" break="no"/>bat. Intellectio est in nobis formaliter, non
+            <lb ed="#V" n="49"/>per modum formae substantialis, quia
+            ali<lb ed="#V" n="50" break="no"/>quando est, aliquando non inest; ergo per
+            <lb ed="#V" n="51"/>modum accidentis, et consequenter habet
+            <lb ed="#V" n="52"/>suum receptivum proprium. Sed illud non
+            <lb ed="#V" n="53"/>est aliquid extensum, sive ut pars
+            organi<lb ed="#V" n="54" break="no"/>ca, sive ut totum compositum, quia sic
+            <lb ed="#V" n="55"/>intellectio esset extensa, et consequenter
+            <lb ed="#V" n="56"/>non esset taliter, aut talium objectorum,
+            <lb ed="#V" n="57"/>de quibus est, ut probatur in praemissis;
+            <lb ed="#V" n="58"/>ergo ejus subjectum est aliquid
+            inexten<lb ed="#V" n="59" break="no"/>sum; illud vero est anima rationalis sola,
+            <lb ed="#V" n="60"/>ergo, etc. Format secundo eamdem
+            pro<lb ed="#V" n="61" break="no"/>bationem ex natura objecti intelligibilis,
+            <lb ed="#V" n="62"/>etnon sensibilis, et ratio est clara ex textu.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Secundo, probat eamdem consequentiam
+            <lb ed="#V" n="64"/>ex libertate voluntatis, quae etiam lumine
+            <lb ed="#V" n="65"/>naturali est nota evidenter, et non solum
+            <lb ed="#V" n="66"/>per fidem. Haec libertas nequit inesse per
+            <lb ed="#V" n="67"/>appetitum organicum, quia hic tantum
+            fer<lb ed="#V" n="68" break="no"/>tur in aliquod materiale et sensibile, et
+            <lb ed="#V" n="69"/>ducitur necessario non potens non
+            appro<lb ed="#V" n="70" break="no"/>bare delectabile sensibile et materiale, et
+            <lb ed="#V" n="71"/>consequenter appetitus rationalis excedit
+            <lb ed="#V" n="72"/>quantum ad objectum et modum operandi,
+            <lb ed="#V" n="73"/>totum genus appetitus sensibilis et
+            mate<lb ed="#V" n="74" break="no"/>rialis; ergo sicut appetitus liber est in
+            no<lb ed="#V" n="75" break="no"/>bis formaliter, ita etiam forma, in qua est
+            <lb ed="#V" n="76"/>formaliter, est in nobis et illa est anima
+            <lb ed="#V" n="77"/>intellectiva. Haec ratio deducitur ex modo
+            <lb ed="#V" n="78"/>operandi, et abstractione objecti, et
+            pro<lb ed="#V" n="79" break="no"/>bat appetitum esse immaterialem, et
+            for<lb ed="#V" n="80" break="no"/>mam a qua procedit. Hae sunt rationes
+            po<lb ed="#V" n="81" break="no"/>tissimae, quibus probatur propositio prima
+            <lb ed="#V" n="82"/>via naturali, et eas existimat Doctor
+            de<lb ed="#V" n="83" break="no"/>monstrativas. Fusius autem deduci
+            pos<lb ed="#V" n="84" break="no"/>sunt singulae adductis responsionibus tam
+            <lb ed="#V" n="85"/>Averrois quam aliorum, qui negarunt
+            ani<lb ed="#V" n="86" break="no"/>mam esse immaterialem, easque
+            impu<lb ed="#V" n="87" break="no"/>gnando; sed quia non est propositi hanc
+            <lb ed="#V" n="88"/>quaestionem hic prosequi, ideo per
+            com<pb ed="#V" n="44"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>pendium eas percurrimus, et veritatem
+            <lb ed="#V" n="2"/>contrariam supponimus ex dogmate fidei;
+            <lb ed="#V" n="3"/>quod fuse alii in hac materia prosequuntur
+            <lb ed="#V" n="4"/>proprio loco.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d43q2-p6"> -->
+          <p>
+            <lb ed="#V" n="47" type="fixed=45"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>(p) De secunda propositione, etc.
+            Ag<lb ed="#V" n="49" break="no"/>greditur secundam propositionem, nempe
+            <lb ed="#V" n="50"/>an immortalitas animae sit
+            demonstrabi<lb ed="#V" n="51" break="no"/>lis? Adducit varias auctoritates pro hac,
+            <lb ed="#V" n="52"/>quas D. Thomas et Richardus citant ex
+            <lb ed="#V" n="53"/>Philosopho, quae auctoritates etsi
+            mon<lb ed="#V" n="54" break="no"/>strent Philosophum docuisse
+            immortalita<lb ed="#V" n="55" break="no"/>tem animae, non faciunt demonstrationem;
+            <lb ed="#V" n="56"/>potissima autem ratio demonstrandi
+            su<lb ed="#V" n="57" break="no"/>mitur ex eo quod anima sit immortalis, ut
+            <lb ed="#V" n="58"/>in prioribus demonstrandum est. Ex hoc
+            <lb ed="#V" n="59"/>sequitur, quod sit incorruptibilis,
+            inde<lb ed="#V" n="60" break="no"/>pendens a materia, sicut in operatione,
+            <lb ed="#V" n="61"/>sic etiam in esse, quod sit simplex, quod
+            <lb ed="#V" n="62"/>sit incorruptibilis per se et per accidens.
+            <lb ed="#V" n="63"/>Alia demonstratio sumitur ex divina
+            pro<lb ed="#V" n="64" break="no"/>videntia quoad retributionem justitiae post
+            <lb ed="#V" n="65"/>hanc vitam respective ad opera bona et
+            <lb ed="#V" n="66"/>mala, quae non retribuuntur in hac vita;
+            <lb ed="#V" n="67"/>ergo ut fiat retributio, debet anima post
+            <lb ed="#V" n="68"/>hanc vitam manere ex divina providentia.
+          </p>
+          <p>
+            <lb ed="#V" n="69"/>Objicit Doctor Philosophum 7. Met.
+            <lb ed="#V" n="70"/>text. com. 60. ubi contendit solas partes
+            <lb ed="#V" n="71"/>materiales manere post totum, formam
+            <lb ed="#V" n="72"/>autem non manere; anima autem est
+            for<lb ed="#V" n="73" break="no"/>ma hominis, ergo. Deinde, 1. de coelo t.
+            <lb ed="#V" n="74"/>com 102. 106. et 3. Physicorum, cap. de
+            <lb ed="#V" n="75"/>Infinito, docet quod incipit et habet
+            prin<lb ed="#V" n="76" break="no"/>cipium, etiam desinere.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d43q2-p7"> -->
+          <p>
+            <lb ed="#V" n="36" type="fixed=49"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>(q) Potest dici, etc. Docet ad secundam
+            <lb ed="#V" n="38"/>propositionem multas esse rationes
+            proba<lb ed="#V" n="39" break="no"/>biles, non tamen necessarias. Circa hanc
+            <lb ed="#V" n="40"/>conclusionem Doctoris est potissima
+            con<lb ed="#V" n="41" break="no"/>certatio, nam D. Thomas, et plures post
+            <lb ed="#V" n="42"/>eum docent contrarium, nempe illam
+            pro<lb ed="#V" n="43" break="no"/>bationem esse necessariam et
+            demonstra<cb ed="#V" n="b"/><lb ed="#V" n="44" break="no"/>tivam, qua in re judicaverim non favendum
+            <lb ed="#V" n="45"/>esse Atheistis, neque inter Theologos, qui
+            <lb ed="#V" n="46"/>veritatem fidei sustinent, fovendam esse
+            <lb ed="#V" n="47"/>controversiam, sed reducendam ad
+            sen<lb ed="#V" n="48" break="no"/>sum idoneum; ideo aliqui docent rationes
+            <lb ed="#V" n="49"/>naturales esse demonstrativas respectu
+            <lb ed="#V" n="50"/>intellectus bene dispositi, non autem
+            re<lb ed="#V" n="51" break="no"/>spectu protervi; neque existimo Doctorem
+            <lb ed="#V" n="52"/>repugnare, quia ut patet ex 8 De secundo
+            <lb ed="#V" n="53"/>ad propositum, versu, sed tentandum
+            <lb ed="#V" n="54"/>est probare antecedens per rationem
+            con<lb ed="#V" n="55" break="no"/>tra protervum si neget, etc. Videtur de
+            <lb ed="#V" n="56"/>hoc genere demonstrationis agere.
+            Lo<lb ed="#V" n="57" break="no"/>quitur praeterea Doctor de demonstratione
+            <lb ed="#V" n="58"/>evidenti, quae Philosophum convinceret
+            <lb ed="#V" n="59"/>ex gradu certitudinis, quae deduci potest
+            <lb ed="#V" n="60"/>ex principiis ab eo admissis, tanquam
+            <lb ed="#V" n="61"/>certis et demonstratis; quo sensu negat
+            <lb ed="#V" n="62"/>praemissam rationem demonstrare, cujus
+            <lb ed="#V" n="63"/>praemissas alia principia, quibus ipse
+            Phi<lb ed="#V" n="64" break="no"/>losophus magis inhaesit, et certius
+            de<lb ed="#V" n="65" break="no"/>struunt, qualia sunt illa quibus mundum
+            <lb ed="#V" n="66"/>esse ab aeterno docuit, Deum agere
+            neces<lb ed="#V" n="67" break="no"/>sario ad extra, neque posse producere
+            effe<lb ed="#V" n="68" break="no"/>ctum sine concursu causarum
+            inferio<lb ed="#V" n="69" break="no"/>rum hic et nunc, propter ordinem
+            essen<lb ed="#V" n="70" break="no"/>tialem causarum in causando; ex nihilo:
+            <lb ed="#V" n="71"/>nihil fieri; quod incipit, habere finem;
+            <lb ed="#V" n="72"/>formam non manere corrupto toto; causam
+            <lb ed="#V" n="73"/>efficientem praecedere suum effectum, et
+            <lb ed="#V" n="74"/>formam ex eo incipere 12. Met. cap. 3.
+            <lb ed="#V" n="75"/>t. com. 16. Posuit etiam felicitatem
+            homi<lb ed="#V" n="76" break="no"/>nis in hac vita tantum, ut colligere licet
+            <lb ed="#V" n="77"/>ex variis ejus locis,ut 1. Ethic, cap. 16.
+            <lb ed="#V" n="78"/>3. Ethic. cap. 6. 12. Met. t. com. 39.
+            <lb ed="#V" n="79"/>Quam quaestionem indecisam in
+            superiori<lb ed="#V" n="80" break="no"/>bus reliquit eodem libro, et 1. de Anima:
+            <lb ed="#V" n="81"/>his ergo principiis adhaerens, quae magis
+            <lb ed="#V" n="82"/>ex instituto secutus est, non admitteret
+            ra<lb ed="#V" n="83" break="no"/>tionem illam ex operatione animae
+            desum<lb ed="#V" n="84" break="no"/>ptam, esse demonstrativam et
+            convincen<lb ed="#V" n="85" break="no"/>tem; quod tantum intendit Doctor in
+            <lb ed="#V" n="86"/>proposito.
+            <lb ed="#V" n="87"/>Accedit quod plures Patres et Philosophi
+            <pb ed="#V" n="50"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>et Theologi doceant eum fuisse in errore
+            <lb ed="#V" n="2"/>opposito, vel certe ambiguum. Justinus
+            <lb ed="#V" n="3"/>-martyr in oratione ad Gentes ei tribuit
+            <lb ed="#V" n="4"/>illum errorem, Nazianz. in disp. contra
+            <lb ed="#V" n="5"/>Eunomium, Origines lib. 6.
+            Philosopho<lb ed="#V" n="6" break="no"/>meno, Nemesius lib. de natura hominis,
+            <lb ed="#V" n="7"/>cap. 2. Theodoretus lib. 5. curat. groec.
+            <lb ed="#V" n="8"/>Gazaeus in dialog. de immortal. animae
+            <lb ed="#V" n="9"/>prope initium in Theophrasto Platonico,
+            <lb ed="#V" n="10"/>Atticus Plotinus, Porphyrius apud
+            Euse<lb ed="#V" n="11" break="no"/>bium lib. 13. de praeparatione Evangelii
+            <lb ed="#V" n="12"/>cap. 8. 9. 10. et 11. idque docuisse in
+            <lb ed="#V" n="13"/>Platonis invidiam, vel obscurasse
+            verita<lb ed="#V" n="14" break="no"/>tem, et in dubium revocasse. Alexander
+            <lb ed="#V" n="15"/>etiam Aphrodisius lib. 3. de anima, eum
+            <lb ed="#V" n="16"/>ita docuisse exponit, et sequitur Cajet.
+            <lb ed="#V" n="17"/>lib. 3. de anima, Pomponatius de
+            immor<lb ed="#V" n="18" break="no"/>talitate animae; dubium fuisse noster
+            <lb ed="#V" n="19"/>Doctor hic asserit, ita etiam Hervaeus.
+            <lb ed="#V" n="20"/>Jandunus, Niphus. Praeterea videtur
+            plu<lb ed="#V" n="21" break="no"/>ribus in locis magis loqui ex sententia
+            <lb ed="#V" n="22"/>aliorum, ut Platonis, Trismegisti et
+            Py<lb ed="#V" n="23" break="no"/>thagorae, ubicumque disserit oppositum,
+            <lb ed="#V" n="24"/>quam ostensive discurrere ab
+            probati<lb ed="#V" n="25" break="no"/>qem. Accedit tertio, quod licet alii
+            <lb ed="#V" n="26"/>discipuli et Commentatores ejus defendant
+            <lb ed="#V" n="27"/>ex mente ejus immortalitatem, et
+            sequan<lb ed="#V" n="28" break="no"/>tur, ut Themistius, Philoponus,
+            Commen<lb ed="#V" n="29" break="no"/>tator, Simplicius, eo tamen sententiam
+            <lb ed="#V" n="30"/>deducunt, ut plane evertant et veritatem
+            <lb ed="#V" n="31"/>principii, et usum ejus ad
+            demonstrati<lb ed="#V" n="32" break="no"/>onem, asserentes animam assistentem esse
+            <lb ed="#V" n="33"/>corpori non informantem, ut dicit ipse
+            <lb ed="#V" n="34"/>Aristoteles, sicut nauta in navi, lib. 2. de
+            <lb ed="#V" n="35"/>anima t. com. 11. Averroes 3. de anima
+            <lb ed="#V" n="36"/>text. 5. Themistius lib. 2. t. com. 17.
+            <lb ed="#V" n="37"/>Simplicius de anima lib. 1. t. com. 17.
+            <lb ed="#V" n="38"/>Philoponus t. 11.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Ex his ergo colligitur obscuritas hujus
+            <lb ed="#V" n="40"/>quaestionis in schola Peripatetica ante
+            il<lb ed="#V" n="41" break="no"/>lustrationem fidei, et prout ex propriis
+            <lb ed="#V" n="42"/>placitis tam Magistri quam ipsorum
+            disse<lb ed="#V" n="43" break="no"/>rebatur. Plato etiam in Alcibiade et ejus
+            <lb ed="#V" n="44"/>sectatores, ut exponit D. Thomas lib. 2.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>contra Gentes, cap. 57. et Theophrastus
+            <lb ed="#V" n="46"/>in dialogo Gazcei, negabat animam
+            ratio<lb ed="#V" n="47" break="no"/>nalem uniri corpori per modum formae
+            <lb ed="#V" n="48"/>informantis, sed contactu virtutis
+            assi<lb ed="#V" n="49" break="no"/>stentis sicut motricis, ut est nauta in
+            <lb ed="#V" n="50"/>navi, et corpus esse indumentum animae
+            <lb ed="#V" n="51"/>asserebat; non materiam, quia non
+            capi<lb ed="#V" n="52" break="no"/>ebat servando principia de generatione et
+            <lb ed="#V" n="53"/>corruptione formarum aliarum in materia,
+            <lb ed="#V" n="54"/>quomodo substantia intellectualis possit
+            <lb ed="#V" n="55"/>inesse materiae sine dependentia in esse,
+            <lb ed="#V" n="56"/>et operatione, et consequenter quomodo
+            <lb ed="#V" n="57"/>extra materiam posset manere destructo
+            <lb ed="#V" n="58"/>toto; quibus principiis inhaerens
+            Aver<lb ed="#V" n="59" break="no"/>roes, et alii citati ponebant intellectum
+            <lb ed="#V" n="60"/>separatum et assistentem; quin etiam
+            <lb ed="#V" n="61"/>Aphrodisius ex iisdem principiis
+            admitte<lb ed="#V" n="62" break="no"/>bat animam mortalem, constituitque
+            <lb ed="#V" n="63"/>virtutem intellectivam in nobis
+            commix<lb ed="#V" n="64" break="no"/>tionem elementorum, qua homo
+            reddere<lb ed="#V" n="65" break="no"/>tur capax impressionis recipiendae ab
+            <lb ed="#V" n="66"/>intellectu agente, qui semper est in actu;
+            <lb ed="#V" n="67"/>et hunc constituebat substantiam
+            separa<lb ed="#V" n="68" break="no"/>tam et assistentem. Hi errores eorum
+            <lb ed="#V" n="69"/>reducebantur ad principia asserta de
+            ge<lb ed="#V" n="70" break="no"/>neratione et corruptione rerum, et
+            depen<lb ed="#V" n="71" break="no"/>dentia formae a subjecto, ut dixi, in esse
+            <lb ed="#V" n="72"/>et operari, quod existimabant convenire
+            <lb ed="#V" n="73"/>non posse substantiae intellectuali; neque
+            <lb ed="#V" n="74"/>ex alia parte convenire posse formae
+            in<lb ed="#V" n="75" break="no"/>formanti, non dependere a subjecto, aut
+            <lb ed="#V" n="76"/>desinente toto manere. Vide D. Thomam
+            <lb ed="#V" n="77"/>lib. 2. contra gentes, cap. 62. Missum
+            <lb ed="#V" n="78"/>facio errorem Stoicorum, et Epicuri et
+            <lb ed="#V" n="79"/>Anaxagorae, et quotquot animam
+            morta<lb ed="#V" n="80" break="no"/>lem faciebant, aut corpoream.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Reducendo rationem ad principia,
+            qui<lb ed="#V" n="82" break="no"/>bus inhaeserunt Philosophi Peripatetici,
+            <lb ed="#V" n="83"/>intelligit Doctor eam non esse
+            demon<lb ed="#V" n="84" break="no"/>strativam ad ipsos, ideoque ex principiis
+            <lb ed="#V" n="85"/>ipsorum solvit argumenta; vel enim
+            ne<lb ed="#V" n="86" break="no"/>garent majorem, quam tamen necessariam
+            <lb ed="#V" n="87"/>esse tenet Doctor; negarent, inquam, ut
+            pa<lb ed="#V" n="88" break="no"/>tet ex dictis cum Platone, vel certe admissa
+            <pb ed="#V" n="51"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>majori, negarent animam esse
+            immorta<lb ed="#V" n="2" break="no"/>lem, quia negarent eam creatam
+            indepen<lb ed="#V" n="3" break="no"/>denter a materia, neque separatam a toto
+            <lb ed="#V" n="4"/>posse manere, sicut negarent Deum posse
+            <lb ed="#V" n="5"/>eam producere extra materiam, et totum;
+            <lb ed="#V" n="6"/>sic etiam negarent conservare posse extra
+            <lb ed="#V" n="7"/>concursum materiae, nam dato quod Deus
+            <lb ed="#V" n="8"/>per ipsos necessitate naturae agat ad extra,
+            <lb ed="#V" n="9"/>non concederent eum habere posse
+            effe<lb ed="#V" n="10" break="no"/>ctum aliquem novum sine novitate ex
+            <lb ed="#V" n="11"/>-parte alicujus causae inferioris; quam
+            <lb ed="#V" n="12"/>novitatem hic statuerent ex parte materiae
+            <lb ed="#V" n="13"/>nunc dispositae ad receptionem formae
+            <lb ed="#V" n="14"/>in ordine ad generationem totius, et
+            dice<lb ed="#V" n="15" break="no"/>rent sine materia non posse eum
+            produ<lb ed="#V" n="16" break="no"/>cere, neque consequenter conservare
+            <lb ed="#V" n="17"/>animam, et hac ratione negarent esse
+            <lb ed="#V" n="18"/>immortalem; admisso quod esset forma
+            <lb ed="#V" n="19"/>corporis, et in se immaterialis quantum
+            <lb ed="#V" n="20"/>ad negationem extensionis, et quantum
+            <lb ed="#V" n="21"/>ad independentiam operationis a subjecto,
+            <lb ed="#V" n="22"/>aut organo extenso, non tamen quantum
+            <lb ed="#V" n="23"/>ad dependentiam remotam a materia in
+            <lb ed="#V" n="24"/>suo esse, a qua consequenter dependeret
+            <lb ed="#V" n="25"/>operatio remote, sicut anima proxime in
+            <lb ed="#V" n="26"/>eo sensu.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>Caeterum quantum ad rem ipsam illa
+            <lb ed="#V" n="28"/>ratio videtur demonstrativa, et ex
+            priori<lb ed="#V" n="29" break="no"/>bus, nam admittendo esse substantiam
+            <lb ed="#V" n="30"/>spiritualem et incorpoream, ex operatione
+            <lb ed="#V" n="31"/>a posteriori devenitur ad causam a priori,
+            <lb ed="#V" n="32"/>ex qua probatur animam esse
+            incorrupti<lb ed="#V" n="33" break="no"/>bilem, quia substantia spiritualis et
+            im<lb ed="#V" n="34" break="no"/>materialis nequit produci dependenter a
+            <lb ed="#V" n="35"/>materia, sed ex nihilo, ob excessum
+            <lb ed="#V" n="36"/>perfectionis suae in essendo supra ens
+            <lb ed="#V" n="37"/>materiale, et supposita cognitione
+            creati<lb ed="#V" n="38" break="no"/>onis per fidem, et omnipotentiae divinae,
+            <lb ed="#V" n="39"/>et libertate ejus in agendo, et exigentia
+            <lb ed="#V" n="40"/>termini ob perfectionem sui. Recte ergo
+            <lb ed="#V" n="41"/>Doctor asserit hanc propositionem
+            respe<lb ed="#V" n="42" break="no"/>ctu Philosophi, ut ipse intendit, esse
+            <lb ed="#V" n="43"/>persuasionem et probabilem ex principio
+            <lb ed="#V" n="44"/>admisso, sed non esset demonstratio
+            Phi<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>losopho, quia licet admiserit principium,
+            <lb ed="#V" n="46"/>ex quo in re ipsa hoc sequitur tamen
+            <lb ed="#V" n="47"/>aliis principiis magis inhaesit, ex quibus
+            <lb ed="#V" n="48"/>oppositum deducitur. Unde recte Doctor
+            <lb ed="#V" n="49"/>asserit eum admisisse contradictoria
+            im<lb ed="#V" n="50" break="no"/>plicite, nunc tenens unum, nunc alterum,
+            <lb ed="#V" n="51"/>in diversis materiis, in quibus illud magis
+            <lb ed="#V" n="52"/>eum urgeret, quod ex proposito magis
+            <lb ed="#V" n="53"/>defendit. Sic ergo propositio, quae
+            respe<lb ed="#V" n="54" break="no"/>ctive ad Philosophum est tantum
+            probabi<lb ed="#V" n="55" break="no"/>lis, in se ipsa est necessaria, et respective
+            <lb ed="#V" n="56"/>ad intellectum illustratum, qui non habet
+            <lb ed="#V" n="57"/>impedimentum contrarii erroris, ex quo
+            <lb ed="#V" n="58"/>Philosophus procedit de necessitate Dei
+            <lb ed="#V" n="59"/>in causando, et necessario concursu
+            cau<lb ed="#V" n="60" break="no"/>sarum inferiorum, ut materiae ad
+            producti<lb ed="#V" n="61" break="no"/>tionem animae ejusque conservationem.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Hanc autem veritatem seu necessitatem
+            <lb ed="#V" n="63"/>essendi formae spiritualis et
+            incorrupti<lb ed="#V" n="64" break="no"/>bilis, videntur tacite admittere, et sensisse
+            <lb ed="#V" n="65"/>discipuli Aristotelis supra citati, qui ideo
+            <lb ed="#V" n="66"/>negant animam qua intellectiva est, esse
+            <lb ed="#V" n="67"/>formam corporis, sed esse assistentem et
+            <lb ed="#V" n="68"/>separatam, ne ex argumento ab operatione
+            <lb ed="#V" n="69"/>separata a materia cogerentur admittere,
+            <lb ed="#V" n="70"/>si produceretur a forma informante et
+            <lb ed="#V" n="71"/>essentiali hominis, illam constituere
+            in<lb ed="#V" n="72" break="no"/>corruptibilem contra alia principia ab iis
+            <lb ed="#V" n="73"/>magis asserta, et superius insinuata. Hoc
+            <lb ed="#V" n="74"/>modo ergo, videtur dirimi controversia,
+            <lb ed="#V" n="75"/>dicendo rationem non dari necessariam
+            <lb ed="#V" n="76"/>absolute respective ad quemcumque
+            in<lb ed="#V" n="77" break="no"/>tellectum, sed tantum illustratum, licet
+            <lb ed="#V" n="78"/>ipsa ratio in se sit necessaria, quia causam
+            <lb ed="#V" n="79"/>veritatis ejus adaequatam, quae pendet a
+            <lb ed="#V" n="80"/>modo productionis animae per creationem
+            <lb ed="#V" n="81"/>non cognoscit Philosophus; esse autem
+            <lb ed="#V" n="82"/>propositionem, et in se necessariam, et
+            <lb ed="#V" n="83"/>respective ad intellectum illustratum, qui
+            <lb ed="#V" n="84"/>causam veritatis adaequatam cognoscit. Et
+            <lb ed="#V" n="85"/>quamvis Doctor asserat non esse
+            demon<lb ed="#V" n="86" break="no"/>strativam aut necessariam probationem
+            <lb ed="#V" n="87"/>ejus, intelligi potest secundum principia
+            <lb ed="#V" n="88"/>naturalia, quae tradidit Philosophus, ex
+            <pb ed="#V" n="52"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quibus solvit argumenta, quae adducuntur
+            <lb ed="#V" n="2"/>in oppositum, et secundum mentem ipsius
+            <lb ed="#V" n="3"/>Philosophi.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Qui voluerit dicere Doctorem negare
+            <lb ed="#V" n="5"/>hanc rationem esse notam evidenter
+            lu<lb ed="#V" n="6" break="no"/>mine naturali, sed infallibilem veritatem et
+            <lb ed="#V" n="7"/>necessariam ejus reducere ad finem, non
+            <lb ed="#V" n="8"/>desunt ei fundamenta ex littera sub
+            fi<lb ed="#V" n="9" break="no"/>ne, ubi veritatem hujus necessariam refert
+            <lb ed="#V" n="10"/>ad revelationem, quamvis probabilem
+            <lb ed="#V" n="11"/>referat ad lumen et rationem naturalem.
+            <lb ed="#V" n="12"/>Deinde, ex solutione argumentorum ex
+            <lb ed="#V" n="13"/>principiis naturalibus objectis, tum quia
+            <lb ed="#V" n="14"/>plures etiam Patres docuerunt animam
+            <lb ed="#V" n="15"/>ex traduce, ut sustinerent veritatem
+            pec<lb ed="#V" n="16" break="no"/>-cati originalis, et illud Apostoli: Per unum
+            <lb ed="#V" n="17"/>hominem peccatum intravit in
+            mun<lb ed="#V" n="18" break="no"/>dum, etc. Et quaestio ex eo fuit obscura,
+            <lb ed="#V" n="19"/>quod ex una parte non capiebant quomodo
+            <lb ed="#V" n="20"/>anima a Deo creata esset obnoxia peccato,
+            <lb ed="#V" n="21"/>quin Deus esset auctor ejus, quod dicere
+            <lb ed="#V" n="22"/>nefas erat; ex alia parte non capiebant
+            <lb ed="#V" n="23"/>quomodo peccatum esset originarium ex
+            <lb ed="#V" n="24"/>sola carne, quae non est subjectum
+            <lb ed="#V" n="25"/>peccati. Haec quaestio fuit frequens ante
+            <lb ed="#V" n="26"/>Augustinum, et ipse eam variis in locis
+            <lb ed="#V" n="27"/>disserit pro utraque parte ex Scripturis,
+            <lb ed="#V" n="28"/>ut de Gen. ad litteram lib. 10. cap. 11.
+            <lb ed="#V" n="29"/>lib. 3. de liber. arbitr. cap. 20. epist. 7. et
+            <lb ed="#V" n="30"/>alias frequentissime. Quin etiam post
+            Au<lb ed="#V" n="31" break="no"/>.gustinum Gregorius lib. 7. epist. 54. ad
+            <lb ed="#V" n="32"/>Secundinum: De origine animae inter
+            San<lb ed="#V" n="33" break="no"/>ctos Patres, inquit, requisitio, non parva
+            <lb ed="#V" n="34"/>versata est; sed utrum ipsa ab Adam
+            <lb ed="#V" n="35"/>descenderit, an certe singulis detur,
+            <lb ed="#V" n="36"/>incertum remansit, eamque in hac vita
+            <lb ed="#V" n="37"/>insolubilem fassi sunt quoestionem; gravis
+            <lb ed="#V" n="38"/>enim est quaestio, nec valet ab homine
+            <lb ed="#V" n="39"/>comprehendi, quia si de Adam
+            substan<lb ed="#V" n="40" break="no"/>tia animae cum carne nascitur, cur non
+            <lb ed="#V" n="41"/>etiam cum carne moritur? Si vero cum
+            <lb ed="#V" n="42"/>carne nascitur, cur in ea carne, quoe de
+            <lb ed="#V" n="43"/>Adam prolata est, obligata peccatis
+            tene<lb ed="#V" n="44" break="no"/>tur, etc. Quod satis denotat quaestionis
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>obscuritatem illustrandam fide magis
+            <lb ed="#V" n="46"/>quam ratione, neque proinde
+            demonstra<lb ed="#V" n="47" break="no"/>bilem esse, sed creditam, postquam
+            Ec<lb ed="#V" n="48" break="no"/>clesia eam declaravit.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>Accedit testimonium Sancti Augustini
+            <lb ed="#V" n="50"/>lib. 13. de Trinitate, cap. 9. ubi
+            prae<lb ed="#V" n="51" break="no"/>mittens non capere aliquem vitam vere
+            <lb ed="#V" n="52"/>beatam, nisi sit sempiterna, subjungit:
+            <lb ed="#V" n="53"/>Hanc utrum capiat humana natura, quam
+            <lb ed="#V" n="54"/>tamen desiderabilem confitetur, non
+            par<lb ed="#V" n="55" break="no"/>va quaestio est. Sed si fides absit, quoe
+            in<lb ed="#V" n="56" break="no"/>est eis, quibus dedit Jesus filios Dei fieri,
+            <lb ed="#V" n="57"/>nulla quaestio est. Humanis quippe
+            argu<lb ed="#V" n="58" break="no"/>mentationibus hoec invenire conantes, vix
+            <lb ed="#V" n="59"/>pauci magno proediti ingenio, abundantes
+            <lb ed="#V" n="60"/>otio, doctrinisque subtilissimis eruditi, ad
+            <lb ed="#V" n="61"/>indagandam solius animae immortalitatem
+            <lb ed="#V" n="62"/>pervenire potuerunt; qui tamen animae
+            <lb ed="#V" n="63"/>beatam vitam non invenerunt stabilem,
+            <lb ed="#V" n="64"/>id est, veram, ad miserias eam quippe
+            <lb ed="#V" n="65"/>vitae hujus post beatitudinem redire
+            <lb ed="#V" n="66"/>dixerunt; et qui eorum de hac erubuerunt
+            <lb ed="#V" n="67"/>sententia, et animam purgatam in
+            sempi<lb ed="#V" n="68" break="no"/>ternam beatitudinem sine corpore
+            collocan<lb ed="#V" n="69" break="no"/>dam putaverunt, talia de mundi retrorsus
+            <lb ed="#V" n="70"/>ceternitate sentiunt, ut hanc de anima
+            <lb ed="#V" n="71"/>sententiam suam ipsi redarquant etc.
+            <lb ed="#V" n="72"/>Augustinus intendit Platonicos, de quibus
+            <lb ed="#V" n="73"/>in specie agit lib. 12. de Civit. cap. 19.
+            <lb ed="#V" n="74"/>et 20. et aliis; ad quem locum se remittit
+            <lb ed="#V" n="75"/>hic quoad impugnationem factam erroris,
+            <lb ed="#V" n="76"/>sed perinde etiam postrema verba
+            accom<lb ed="#V" n="77" break="no"/>modari possunt Aristoteli, qui licet animae
+            <lb ed="#V" n="78"/>immortalitatem docuerit, aut certe
+            insi<lb ed="#V" n="79" break="no"/>nuaverit ex anterioribus, tamen alia, quae
+            <lb ed="#V" n="80"/>docuit superius expressa hanc sententiam
+            <lb ed="#V" n="81"/>redarguunt.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>Accedit spectata ratione naturali hujus
+            <lb ed="#V" n="83"/>status, probationem illam non esse adeo
+            <lb ed="#V" n="84"/>claram, ut eludi non possit, quia sicut
+            <lb ed="#V" n="85"/>operatio animae abstrahens a materia
+            pro<lb ed="#V" n="86" break="no"/>bat esse substantiam spiritualem
+            incorru<lb ed="#V" n="87" break="no"/>ptibilem, ita ex opposito ratio, quae probat
+            <lb ed="#V" n="88"/>animam esse formam corporis
+            informan<pb ed="#V" n="53"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tem, probat etiam dependere a materia, et
+            <lb ed="#V" n="2"/>toto in esse. Diceretur ergo communicare
+            <lb ed="#V" n="3"/>animam cum Intelligentiis, quantum ad
+            <lb ed="#V" n="4"/>intellectum et voluntatem, et consequenter
+            <lb ed="#V" n="5"/>quantum ad spiritualitatem, sed non
+            <lb ed="#V" n="6"/>quantum ad incorruptibilitatem, quia hoc
+            <lb ed="#V" n="7"/>non compatitur ratio formae informantis et
+            <lb ed="#V" n="8"/>constituentis, quae essentialis est animae;
+            <lb ed="#V" n="9"/>et ita quantum probat abstractio
+            operati<lb ed="#V" n="10" break="no"/>onum incorruptibilitatem, tantum etiam,
+            <lb ed="#V" n="11"/>spectando praecise lumen naturale, et
+            <lb ed="#V" n="12"/>imperfectum hujus status, probat
+            conce<lb ed="#V" n="13" break="no"/>ptus formae dependentiam a materia, cum
+            <lb ed="#V" n="14"/>qua negaret impossibilem esse
+            incorrupti<lb ed="#V" n="15" break="no"/>bilitatem. Ratio ergo desumpta ab
+            operati<lb ed="#V" n="16" break="no"/>one bene probat immaterialitatem, ut
+            <lb ed="#V" n="17"/>opponitur extensioni; sed obscuratur
+            <lb ed="#V" n="18"/>probatio ab immaterialitate ad
+            incorrupti<lb ed="#V" n="19" break="no"/>bilitatem, nisi in iis quae non insunt
+            <lb ed="#V" n="20"/>materiae, ut sunt Intelligentiae.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Deinde, illa ratio ex inceptione de novo
+            <lb ed="#V" n="22"/>in esse, et ut materiae communicatur,
+            sup<lb ed="#V" n="23" break="no"/>posito quod Deus necessario ageret ad
+            <lb ed="#V" n="24"/>extra, ut tenuit Philosophus, probaret
+            <lb ed="#V" n="25"/>animam dependere a materia saltem, et
+            <lb ed="#V" n="26"/>habere causam ad extra, sine qua nequit
+            <lb ed="#V" n="27"/>poni a Deo, et consequenter a tali causa
+            <lb ed="#V" n="28"/>dependere animam in esse. Oporteret ergo
+            <lb ed="#V" n="29"/>destruere propositionem Philosophi
+            fal<lb ed="#V" n="30" break="no"/>sam, et deinde probare creationem animae,
+            <lb ed="#V" n="31"/>ad hoc ut ratione convincente habeatur
+            <lb ed="#V" n="32"/>probatio necessaria. Hic autem processus
+            <lb ed="#V" n="33"/>debet esse ex revelatis, maxime quoad
+            <lb ed="#V" n="34"/>creationem animae, neque forte alia
+            rati<lb ed="#V" n="35" break="no"/>one quidem Philosophi, ut Platonici
+            <lb ed="#V" n="36"/>negant unionem animae ad corpus, aut
+            <lb ed="#V" n="37"/>informationem, et dicebant animas
+            prae<lb ed="#V" n="38" break="no"/>cessisse corpus, quam ut salvarent
+            <lb ed="#V" n="39"/>immortalitatem animae, ne ex hoc
+            <lb ed="#V" n="40"/>principio convincerentur, quod recipiat
+            <lb ed="#V" n="41"/>esse in materia, et subsit corruptioni.
+            <lb ed="#V" n="42"/>Vulgare etiam fuit illud, quod adducit
+            <lb ed="#V" n="43"/>Doctor de inceptione, ita ut quidquid
+            ha<lb ed="#V" n="44" break="no"/>beret inceptionem sui esse, non posset sibi
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>vindicare necessitatem essendi, ac
+            proin<lb ed="#V" n="46" break="no"/>de posse desinere, quia sicut ex non
+            neces<lb ed="#V" n="47" break="no"/>sitate essendi aliquando non fuit, ita
+            <lb ed="#V" n="48"/>etiam ex suo esse non habet ab intrinseco
+            <lb ed="#V" n="49"/>quod necessario persistat in esse; cui
+            <lb ed="#V" n="50"/>argumento occurrit Irenaeus lib. 2.
+            <lb ed="#V" n="51"/>cap. 64. respondet tamen ex revelatis;
+            <lb ed="#V" n="52"/>Si qui, inquit, hoc in loco dicant non
+            <lb ed="#V" n="53"/>posse animas eas, quae paulo ante
+            coepe<lb ed="#V" n="54" break="no"/>rint, in multum temporis perseverare,
+            <lb ed="#V" n="55"/>sed oportere eas aut innascibiles esse, ut
+            <lb ed="#V" n="56"/>sint immortales, vel si generationis
+            ini<lb ed="#V" n="57" break="no"/>tium acceperint, cum ipso corpore mori,
+            <lb ed="#V" n="58"/>discant quoniam sine initio, et sine fine
+            <lb ed="#V" n="59"/>vere, et semper idem et eodem modo se
+            <lb ed="#V" n="60"/>habens, solus est Deus, qui est omnium
+            <lb ed="#V" n="61"/>Dominus. Quae autem sunt ab illo omnia
+            <lb ed="#V" n="62"/>quaecumque facta sunt et fiunt, initium
+            <lb ed="#V" n="63"/>quidem suum accipiunt generationis, et
+            <lb ed="#V" n="64"/>per hoc inferiora sunt eo qui facit ea,
+            <lb ed="#V" n="65"/>quoniam non sunt ingenita; perseverant
+            <lb ed="#V" n="66"/>autem, et extenduntur in longitudinem
+            <lb ed="#V" n="67"/>sceculorum secundum voluntatem factoris
+            <lb ed="#V" n="68"/>Dei, ita ut sic initio fierent, et postea ut
+            <lb ed="#V" n="69"/>sint, eis donet, etc, Etiam Nazianzenus
+            <lb ed="#V" n="70"/>hanc rationem solvit, orat. 35.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Suppositis his, quae pro utraque parte
+            <lb ed="#V" n="72"/>dicta sunt, facilis est resolutio Doctoris
+            <lb ed="#V" n="73"/>in hoc 8.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Objicitur auctoritas Philosophorum, et
+            <lb ed="#V" n="75"/>potissimum Aristotelis, qui videtur
+            conce<lb ed="#V" n="76" break="no"/>dere animam esse immortalem.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Respondet Doctor dubium esse, quid
+            <lb ed="#V" n="78"/>senserit in hoc, qui varie discurrit
+            secun<lb ed="#V" n="79" break="no"/>dum materiam oblatam, et aliquando
+            <lb ed="#V" n="80"/>quaedam principia assumit, quae ad hanc
+            <lb ed="#V" n="81"/>veritatem faciunt, aliquando alia assumit,
+            <lb ed="#V" n="82"/>quae adversantur, et hoc secundum patet
+            <lb ed="#V" n="83"/>ex dictis.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>Respondet secundo non omnia dicta
+            <lb ed="#V" n="85"/>a Philosophis fuisse ab eis ostensive
+            pro<lb ed="#V" n="86" break="no"/>bata per rationem necessariam naturaliter
+            <lb ed="#V" n="87"/>notam ex terminis, aut demonstratam
+            <lb ed="#V" n="88"/>a priori aut posteriori, quia frequenter
+            <pb ed="#V" n="54"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>disserebant ex probabilibus, et ex vulgari
+            <lb ed="#V" n="2"/>opinione praecedentium; quod probat ex
+            <lb ed="#V" n="3"/>Aristotele 2. de coelo et mundo. Haec
+            re<lb ed="#V" n="4" break="no"/>sponsio est communis et vera.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Respondet praeterea in specie ad locum,
+            <lb ed="#V" n="6"/>qui objicitur 2. de Anima text. 21.
+            Intel<lb ed="#V" n="7" break="no"/>lectus separatur a caeteris, sicut
+            perpe<lb ed="#V" n="8" break="no"/>tuum a corruptibili. Respondet, inquam,
+            <lb ed="#V" n="9"/>Doctor posse intelligi de separatione
+            ope<lb ed="#V" n="10" break="no"/>rationis ad differentiam operationis
+            sensi<lb ed="#V" n="11" break="no"/>bilis per organum, quae a materia
+            depen<lb ed="#V" n="12" break="no"/>det, et particulari instrumento et
+            subje<lb ed="#V" n="13" break="no"/>cto, non intelligeretur autem de
+            sepa<lb ed="#V" n="14" break="no"/>ratione in esse, aut etiam in operari a
+            <lb ed="#V" n="15"/>toto, etsi enim esset incorruptibilis in
+            <lb ed="#V" n="16"/>operando ea corruptione, quae competit
+            <lb ed="#V" n="17"/>organo, ex 1. de Anima text. 65. non
+            <lb ed="#V" n="18"/>tamen ea corruptione, quae est formae,
+            <lb ed="#V" n="19"/>quae dependet a materia in toto. Haec
+            re<lb ed="#V" n="20" break="no"/>sponsio eo tendit ut ostendat ad
+            demon<lb ed="#V" n="21" break="no"/>strationem requiri probari debere animam
+            <lb ed="#V" n="22"/>non dependere a materia in essendo, aut
+            <lb ed="#V" n="23"/>manere posse desinente toto.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Ad locum ex. 12. Metaph. text. 17.
+            <lb ed="#V" n="25"/>qui magis expressus est, respondet (
+            se<lb ed="#V" n="26" break="no"/>clusa interpretatione aliorum, qui eum
+            <lb ed="#V" n="27"/>dubitative loqui intelligunt; quae
+            dubita<lb ed="#V" n="28" break="no"/>tio, inquit, ad aliud refertur, nempe si
+            <lb ed="#V" n="29"/>possibile est alias animas a rationali
+            di<lb ed="#V" n="30" break="no"/>versas remanere) eum non inniti
+            demon<lb ed="#V" n="31" break="no"/>strationi, sed rationi probabili, aut dictis
+            <lb ed="#V" n="32"/>aliorum.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Ad aliud de inceptione animae dicit,
+            <lb ed="#V" n="34"/>incertum esse quid ipse senserit;
+            resol<lb ed="#V" n="35" break="no"/>vit tamen juxta principia ipsius Philosophi
+            <lb ed="#V" n="36"/>de modo agendi causae primae, quod
+            dice<lb ed="#V" n="37" break="no"/>ret animam produci non ab ulla
+            Intelli<lb ed="#V" n="38" break="no"/>gentia, aut alia causa naturali, sed a
+            <lb ed="#V" n="39"/>Deo immediate in materia disposita,
+            ne<lb ed="#V" n="40" break="no"/>que aliud esse probabile, nempe produci
+            <lb ed="#V" n="41"/>ab aliquo, spectando rationem naturalem,
+            <lb ed="#V" n="42"/>quam ab ipso Deo. De hac consequentia
+            <lb ed="#V" n="43"/>doctrinae Philosophi jam supra dictum
+            <lb ed="#V" n="44"/>est tangendo hanc rationem. Reliquae in
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>littera Doctoris responsiones sunt clarae,
+            <lb ed="#V" n="46"/>quia veritas ex objectis non
+            demonstra<lb ed="#V" n="47" break="no"/>tur, sed haeret in illa: An operatio
+            sepa<lb ed="#V" n="48" break="no"/>rata modo dicto inferat animam non
+            de<lb ed="#V" n="49" break="no"/>pendere a materia, et hoc necessario. Illa
+            <lb ed="#V" n="50"/>ratio, quam habet D. Thomas de
+            subsi<lb ed="#V" n="51" break="no"/>stentia animae, ad quam respondet Doctor
+            <lb ed="#V" n="52"/>S Ad rationes illas Doctorum, etc.
+            susti<lb ed="#V" n="53" break="no"/>netur aliter a Cajetano, aliter a
+            Ferra<lb ed="#V" n="54" break="no"/>riensi; sed responsio Doctoris clara est,
+            <lb ed="#V" n="55"/>quia si intendat esse per se extra totum,
+            <lb ed="#V" n="56"/>id negaret Philosophus, et est quod debet
+            <lb ed="#V" n="57"/>probari, non supponi. Si autem
+            intelliga<lb ed="#V" n="58" break="no"/>tur de esse per se in toto, id est, de
+            exi<lb ed="#V" n="59" break="no"/>stentia animae non dependente a materia,
+            <lb ed="#V" n="60"/>aut toto, hoc restat probandum alia via
+            <lb ed="#V" n="61"/>notiore.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d43q2-p8"> -->
+          <p>
+            <lb ed="#V" n="58" type="fixed=55"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>(r) De tertia propositione, etc. Haec
+            <lb ed="#V" n="60"/>fuit, quod anima non possit manere
+            sem<lb ed="#V" n="61" break="no"/>per extra totum aut corpus. Haec
+            proba<lb ed="#V" n="62" break="no"/>tur ab aliis, qui pars extra totum est
+            im<lb ed="#V" n="63" break="no"/>perfecta, anima autem tam nobilis non
+            <lb ed="#V" n="64"/>manebit semper imperfecta. Secundo,
+            <lb ed="#V" n="65"/>quia violentum nullum est perpetuum,
+            <lb ed="#V" n="66"/>anima autem violente separatur, et
+            con<lb ed="#V" n="67" break="no"/>tra inclinationem naturalem.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Respondet Doctor ex mente
+            Philosopho<lb ed="#V" n="69" break="no"/>rum, si poneret Aristoteles animam
+            <lb ed="#V" n="70"/>manere post corpus immortalem,
+            posuis<lb ed="#V" n="71" break="no"/>set eam semper in eo statu manere sine
+            <lb ed="#V" n="72"/>corpore, quia corpus corruptibile est ex
+            <lb ed="#V" n="73"/>contrariis; nil autem tale poneret
+            Phi<lb ed="#V" n="74" break="no"/>losophus permansurum semper, nam
+            sta<lb ed="#V" n="75" break="no"/>tum renovationis corporis nostri non
+            <lb ed="#V" n="76"/>agnovit Philosophus, neque demonstrari
+            <lb ed="#V" n="77"/>potest ratione naturali, quod scitur
+            tan<lb ed="#V" n="78" break="no"/>tum ex creditis; neque admitteret idem
+            <lb ed="#V" n="79"/>corpus renovari sine iisdem causis, quas
+            <lb ed="#V" n="80"/>non admitteret naturali cursu renovari.
+            <lb ed="#V" n="81"/>Deinde etiam si admitteret animam esse
+            <lb ed="#V" n="82"/>immortalem, diceret statum ejus separatae
+            <lb ed="#V" n="83"/>esse perfectiorem, quam statum in
+            corpo<lb ed="#V" n="84" break="no"/>re corruptibili, quod beatitudinem ejus
+            <lb ed="#V" n="85"/>impediret.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Respondet ergo ad rationes, primam
+            <lb ed="#V" n="87"/>intelligi de parte, quae recipit
+            perfecti<pb ed="#V" n="56"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>onem in toto, et dependet, non autem
+            <lb ed="#V" n="2"/>de parte communicante perfectionem, et
+            <lb ed="#V" n="3"/>non recipiente, qualis esset anima,
+            sup<lb ed="#V" n="4" break="no"/>posita ejus immortalitate, si admitteretur
+            <lb ed="#V" n="5"/>a Philosopho.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Ad aliud respondet, distinguendo
+            appe<lb ed="#V" n="7" break="no"/>titum naturalem in eum qui est
+            recipien<lb ed="#V" n="8" break="no"/>dae perfectionis, et eum qui est
+            com<lb ed="#V" n="9" break="no"/>municandae perfectionis. Secundo modo
+            <lb ed="#V" n="10"/>sumptus non constituit violentum, dum
+            <lb ed="#V" n="11"/>separatur ab actu, et sic tantum
+            compete<lb ed="#V" n="12" break="no"/>ret animae ex mente Philosophi, ut patet
+            <lb ed="#V" n="13"/>ex Avicenna. Has rationes admittit Doctor
+            <lb ed="#V" n="14"/>esse probabiles, et sunt verae, et
+            secun<lb ed="#V" n="15" break="no"/>dum mentem ipsius; sed eas solvit
+            tan<lb ed="#V" n="16" break="no"/>quam non necessarias lumine naturali, et
+            <lb ed="#V" n="17"/>respective ad Philosophos.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d43q2-p9"> -->
+          <p>
+            <pb ed="#V" n="60"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=60"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="2"/>(f) Dico ergo quod illarum trium
+            pro<lb ed="#V" n="3" break="no"/>positionum, etc. Proponit conclusionem
+            <lb ed="#V" n="4"/>principalem hujus quaestionis, quae est
+            <lb ed="#V" n="5"/>haec, nempe, primam propositionem esse
+            <lb ed="#V" n="6"/>necessariam; secundam et tertiam esse
+            <lb ed="#V" n="7"/>probabiles; conclusionem proinde non
+            <lb ed="#V" n="8"/>esse demonstratam lumine naturali; patet
+            <lb ed="#V" n="9"/>ex praemissis.
+            <lb ed="#V" n="10"/>Deinde subdit rationem, quae affertur
+            <lb ed="#V" n="11"/>a posteriori, tanquam necessaria, ut de
+            <lb ed="#V" n="12"/>beatitudine hominis (quam in
+            respon<lb ed="#V" n="13" break="no"/>sionibus ad argumenta resolvit) et aliam
+            <lb ed="#V" n="14"/>ex Dei justitia retributiva bonorum et
+            <lb ed="#V" n="15"/>malorum; in hac autem vita non fit talis
+            <lb ed="#V" n="16"/>retributio, quia justi in ea patiuntur;
+            <lb ed="#V" n="17"/>peccatores autem prosperantur; ergo
+            de<lb ed="#V" n="18" break="no"/>bet fieri in altera, et consequenter hinc
+            <lb ed="#V" n="19"/>manet animas non esse mortales. Hanc
+            <lb ed="#V" n="20"/>rationem docet Doctor non esse
+            demon<lb ed="#V" n="21" break="no"/>strativam, nempe prout solo lumine
+            in<lb ed="#V" n="22" break="no"/>nititur naturali, seclusa traditione et
+            reve<lb ed="#V" n="23" break="no"/>latione. Quae responsio displicet Cano, et
+            <lb ed="#V" n="24"/>quibusdam aliis, sed facilis est concordia,
+            <lb ed="#V" n="25"/>quia Doctor aliter sumit demonstrationem,
+            <lb ed="#V" n="26"/>aliter Canus et alii; sumit enim Doctor
+            <lb ed="#V" n="27"/>demonstrationem in rigore, prout de ea
+            <lb ed="#V" n="28"/>egit Philosophus in libro Posteriorum,
+            <lb ed="#V" n="29"/>ut est per causam et effectum necessaria
+            <lb ed="#V" n="30"/>et praecisa; sic autem negat hanc
+            rati<lb ed="#V" n="31" break="no"/>onem in eo gradu esse necessariam, in
+            <lb ed="#V" n="32"/>quo est ratio prior desumpta ab
+            operati<lb ed="#V" n="33" break="no"/>one ipsius animae intellectivae, quia non
+            <lb ed="#V" n="34"/>.est nisi per medium extrinsecum divinae
+            <lb ed="#V" n="35"/>providentiae, prout alteram vitam respicit,
+            <lb ed="#V" n="36"/>et nota tantum est revelatione; ideo
+            ne<lb ed="#V" n="37" break="no"/>gat esse notam lumine naturali a priori
+            <lb ed="#V" n="38"/>aut posteriori demonstrative esse
+            recto<lb ed="#V" n="39" break="no"/>rem hominum secundum leges justitiae
+            <lb ed="#V" n="40"/>epunitivae et retributivae, quod est
+            prin<lb ed="#V" n="41" break="no"/>cipium ex quo praedicta veritas deducitur.
+            <lb ed="#V" n="42"/>Si ergo hoc principium non est lumine
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>naturali notum ex terminis, neque per
+            <lb ed="#V" n="44"/>aliud tale probatum, sequitur ex eo non
+            <lb ed="#V" n="45"/>deduci hanc veritatem certitudine illa
+            <lb ed="#V" n="46"/>metaphysica, de qua praecise Doctor agit.
+          </p>
+          <p>
+            <lb ed="#V" n="47"/>Quod autem non ita sit certum, patet,
+            <lb ed="#V" n="48"/>quia haec providentia Dei, ut respicit
+            fi<lb ed="#V" n="49" break="no"/>nem creationis hominis, et praefigit ei
+            <lb ed="#V" n="50"/>terminum et modum beatitudinis
+            conse<lb ed="#V" n="51" break="no"/>quendae, et media, consistit in libera ejus
+            <lb ed="#V" n="52"/>voluntate et supernaturali, quae nequit
+            <lb ed="#V" n="53"/>cognosci aliter quam per revelationem,
+            <lb ed="#V" n="54"/>sicut neque ipse finis constitutus aliter
+            <lb ed="#V" n="55"/>cognoscitur, prout reipsa et de facto est
+            <lb ed="#V" n="56"/>constitutus, quia est libera Dei, et
+            con<lb ed="#V" n="57" break="no"/>tingens determinatio, quae potuit non esse,
+            <lb ed="#V" n="58"/>supposita hominis creatione. Sicut ergo
+            <lb ed="#V" n="59"/>finis nequit certo cognosci naturaliter,
+            <lb ed="#V" n="60"/>neque media ad ipsum ordinata esse opera
+            <lb ed="#V" n="61"/>nostra, ita etiam neque rationem operum
+            <lb ed="#V" n="62"/>haberi in altera vita est notum hoc
+            mo<lb ed="#V" n="63" break="no"/>do naturaliter, sed tantum per
+            revelati<lb ed="#V" n="64" break="no"/>onem.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Dices, debemus de Deo concipere
+            <lb ed="#V" n="66"/>illud quod magis ipsi est congruum, et
+            <lb ed="#V" n="67"/>suae perfectioni; hoc autem autem
+            con<lb ed="#V" n="68" break="no"/>gruum est, ut exerceat retributivam
+            re<lb ed="#V" n="69" break="no"/>spectu operum; ergo.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Contra, hoc nihil probat necessario;
+            <lb ed="#V" n="71"/>quidquid enim Deus libere ordinat,
+            po<lb ed="#V" n="72" break="no"/>test non ordinare, neque inde ex ejus
+            <lb ed="#V" n="73"/>ordinatione accrescit ei perfectio, neque
+            <lb ed="#V" n="74"/>deficit ex contrario, si nihil ordinet,
+            quam<lb ed="#V" n="75" break="no"/>vis autem ad ostensionem suae justitiae
+            <lb ed="#V" n="76"/>statuit retributionem, potuit non
+            ostendis<lb ed="#V" n="77" break="no"/>se justitiam, sicut etiam neque creasse
+            <lb ed="#V" n="78"/>mundum, et nihil in hoc ei deficeret:
+            sic<lb ed="#V" n="79" break="no"/>ut ergo ordinatio ejus libera fuit, ita
+            <lb ed="#V" n="80"/>adhaeret ei ex determinatione voluntatis,
+            <lb ed="#V" n="81"/>non ex necessitate aut causis per se
+            <lb ed="#V" n="82"/>essendi; quae voluntas nulla via
+            cogno<lb ed="#V" n="83" break="no"/>scitur ex natura effectus, nisi per
+            revela<lb ed="#V" n="84" break="no"/>tionem, quod ut communiter acceptum
+            <lb ed="#V" n="85"/>jam supponimus. Quidquid ergo
+            statue<lb ed="#V" n="86" break="no"/>runt Philosophi circa beatitudinem
+            alteri<pb ed="#V" n="61"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>us vitae, et retributionem operum, ex
+            <lb ed="#V" n="2"/>traditione primaeva et conservata in
+            ge<lb ed="#V" n="3" break="no"/>nere humano noverunt, et non per
+            de<lb ed="#V" n="4" break="no"/>monstrationem, et ex Scriptura et
+            revela<lb ed="#V" n="5" break="no"/>tione facta aliis. Sed et errores eorum de
+            <lb ed="#V" n="6"/>ipsa retributione, de transmigratione
+            ani<lb ed="#V" n="7" break="no"/>marum, de beatitudine ipsa, prout eam
+            <lb ed="#V" n="8"/>statuebant, manifeste commonstrant, eos
+            <lb ed="#V" n="9"/>hanc veritatem attingere aliter non
+            po<lb ed="#V" n="10" break="no"/>tuisse, quam sola fide humana et
+            tra<lb ed="#V" n="11" break="no"/>ditione, quam sui inventionibus
+            obfusca<lb ed="#V" n="12" break="no"/>runt.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Alio modo potest considerari praedicta
+            <lb ed="#V" n="14"/>ratio, ut communi traditione recepta in
+            <lb ed="#V" n="15"/>genere humano, quantum ad substantiam,
+            <lb ed="#V" n="16"/>saltem in confuso, quamvis non in
+            omni<lb ed="#V" n="17" break="no"/>bus fuerit notitia particularis veritatis, et
+            <lb ed="#V" n="18"/>prout spectat ad praesentem Dei
+            guber<lb ed="#V" n="19" break="no"/>nationem, eam sic conservare, tanquam
+            <lb ed="#V" n="20"/>instinctum aliquem, quo homines non
+            <lb ed="#V" n="21"/>excusarentur, et ex quo moveri possint
+            <lb ed="#V" n="22"/>ad inquirendam ipsam veritatem. Hoc
+            <lb ed="#V" n="23"/>modo sumpta est quaedam demonstratio
+            <lb ed="#V" n="24"/>moralis, et sic usus ejus est commodus,
+            <lb ed="#V" n="25"/>ut ex principio aliquo modo per
+            traditi<lb ed="#V" n="26" break="no"/>onem, et communi sensu admisso,
+            proce<lb ed="#V" n="27" break="no"/>deretur ad veritatem insinuandam; et sic
+            <lb ed="#V" n="28"/>Patres hac ratione utuntur ad
+            probati<lb ed="#V" n="29" break="no"/>onem, non solum immortalitatis
+            anima<lb ed="#V" n="30" break="no"/>rum, sed et resurrectionis et judicii,
+            <lb ed="#V" n="31"/>supponentes scilicet, et quod sapientes
+            <lb ed="#V" n="32"/>saeculi, et communis sensus hominum
+            <lb ed="#V" n="33"/>admittebat, et Scriptura expresse et omni
+            <lb ed="#V" n="34"/>tempore proponebat. Procedunt enim
+            <lb ed="#V" n="35"/>Patres partim ex revelatis, partim ex
+            <lb ed="#V" n="36"/>traditione illa communiter recepta.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Communis autem sensus in rebus
+            ob<lb ed="#V" n="38" break="no"/>scuris, in quibus alia manifestior ratio
+            <lb ed="#V" n="39"/>non apparet, est sufficiens principium
+            <lb ed="#V" n="40"/>assensus, ut irrationabilis et pervicax
+            <lb ed="#V" n="41"/>censeatur qui ab eo recedit. Non
+            admit<lb ed="#V" n="42" break="no"/>terent tamen Philosophi talem assensum
+            <lb ed="#V" n="43"/>esse demonstrativum, sed fidei humanae,
+            <lb ed="#V" n="44"/>cui tamen secundum prudentiam debetur
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>assensus. Unde Aristoteles lib. 2. Metaph.
+            <lb ed="#V" n="46"/>text. 1. Speculatio, inquit, de veritate
+            <lb ed="#V" n="47"/>partim difficilis, partim facilis est;
+            si<lb ed="#V" n="48" break="no"/>gnum autem quod neque satis eam aliquis
+            <lb ed="#V" n="49"/>consequitur, neque aberrant omnes ab
+            <lb ed="#V" n="50"/>ea, sed quisque aliquid de natura dicit,
+            <lb ed="#V" n="51"/>et singuli quid, nil aut parum ei
+            ad<lb ed="#V" n="52" break="no"/>dunt, ex omnibus vero collectis aliqua
+            <lb ed="#V" n="53"/>magnitudo fit, etc. Quibus verbis
+            diffi<lb ed="#V" n="54" break="no"/>cultatem, scientiae necessariae habendae
+            <lb ed="#V" n="55"/>demonstrat, et cognitionem humanam, ut
+            <lb ed="#V" n="56"/>plurimum admixtam habere opinionem et
+            <lb ed="#V" n="57"/>fidem, quae sequenda est, deficiente alia
+            <lb ed="#V" n="58"/>certiore. Ut ergo tollatur controversia,
+            <lb ed="#V" n="59"/>certitudo rigorosae demonstrationis nequit
+            <lb ed="#V" n="60"/>tribui huic rationi, quae est per medium
+            <lb ed="#V" n="61"/>tantum extrinsecum, et ex fide divina
+            <lb ed="#V" n="62"/>ant humana nota, non vero ex causa aut
+            <lb ed="#V" n="63"/>effectu, et hoc intendit Doctor; habere
+            <lb ed="#V" n="64"/>autem efficaciam rationis moralis non
+            <lb ed="#V" n="65"/>negat, et quae secundum prudentiam, et
+            <lb ed="#V" n="66"/>desiderium innatum veritatis admittit
+            de<lb ed="#V" n="67" break="no"/>bet, quia hac ratione dicit esse
+            persuasi<lb ed="#V" n="68" break="no"/>onem, ut scilicet procedit secundum
+            <lb ed="#V" n="69"/>naturale lumen fidei humanae, et
+            commu<lb ed="#V" n="70" break="no"/>nis sensus et opinionis, vel eam esse ex
+            <lb ed="#V" n="71"/>creditis, ut procedit ex revelatione et fide
+            <lb ed="#V" n="72"/>divina. Utroque modo utuntur Patres
+            <lb ed="#V" n="73"/>hac ratione, tam ut est ex concessis ab
+            <lb ed="#V" n="74"/>antiquis, non solum Philosophis, sed aliis
+            <lb ed="#V" n="75"/>quam etiam ut ex divinis Scripturis
+            con<lb ed="#V" n="76" break="no"/>stat. Clemens Rom. lib. 3.
+            Recogniti<lb ed="#V" n="77" break="no"/>onum, Alexandrinus lib. 5. Stromat.
+            fre<lb ed="#V" n="78" break="no"/>quenter Chrysostomus, ut homil. 4. de
+            <lb ed="#V" n="79"/>Providentia, hom. 6. in epistolam ad
+            <lb ed="#V" n="80"/>Philipp. et alias. Circa vero illud quod
+            <lb ed="#V" n="81"/>subdit Doctor, de rationibus probandi
+            re<lb ed="#V" n="82" break="no"/>surrectionem futuram, quibus utitur
+            <lb ed="#V" n="83"/>Paulus; videatur AEgidius Lusitanus
+            <lb ed="#V" n="84"/>tom. 3. de Beatitudine. q. 4. art. 2. 8 4.
+            <lb ed="#V" n="85"/>et expositores Apostoli. Scopus Pauli est
+            <lb ed="#V" n="86"/>ostendere futuram resurrectionem, quod
+            <lb ed="#V" n="87"/>tantum est creditum.
+          </p>
+          <p>
+            <lb ed="#V" n="88"/>(t) Breviter ergo nec a priori, nec
+            <pb ed="#V" n="62"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>a posteriori, etc. Dicit quod
+            resurrecti<lb ed="#V" n="2" break="no"/>onem futuram esse, neque a priori, neque
+            <lb ed="#V" n="3"/>a posteriori potest lumine naturali
+            osten<lb ed="#V" n="4" break="no"/>di, sed sola fide ex revelatione. Hanc
+            om<lb ed="#V" n="5" break="no"/>nes admittunt, ideoque a Paulo mysterium
+            <lb ed="#V" n="6"/>vocatur, et revelatio filiorum Dei; et
+            dis<lb ed="#V" n="7" break="no"/>currendo a ratione, facile ostendi potest.
+            <lb ed="#V" n="8"/>quia licet demonstrari, aut efficaciter
+            pro<lb ed="#V" n="9" break="no"/>bari possit possibilitas ejus, non sequitur
+            <lb ed="#V" n="10"/>inde futuram probari certo, quia non
+            om<lb ed="#V" n="11" break="no"/>ne possibile Deo ponitur in effectu, sed
+            <lb ed="#V" n="12"/>illa quae ex lege suae divinae sapientiae et
+            <lb ed="#V" n="13"/>providentiae determinantur. Deinde, dato
+            <lb ed="#V" n="14"/>quod aliqua retributio probari possit, et
+            <lb ed="#V" n="15"/>animae immortalitas demonstratione
+            na<lb ed="#V" n="16" break="no"/>turali, non sequitur inde futura
+            resurre<lb ed="#V" n="17" break="no"/>ctio, quia Philosophi illam retributionem
+            <lb ed="#V" n="18"/>statuerent animarum tantum post
+            mor<lb ed="#V" n="19" break="no"/>tem, ut Platonici et Pythagorici, et
+            Tris<lb ed="#V" n="20" break="no"/>megistus, non autem reparari eumdem
+            <lb ed="#V" n="21"/>hominem. Illa etiam retributio esset
+            pos<lb ed="#V" n="22" break="no"/>sibilis sine resurrectione in solis
+            anima<lb ed="#V" n="23" break="no"/>bus, si Deus vellet, prout ante
+            resurrecti<lb ed="#V" n="24" break="no"/>onem de facto contingit.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>An autem possibilitas resurrectionis
+            <lb ed="#V" n="26"/>ratione naturali demonstrari possit?
+            Re<lb ed="#V" n="27" break="no"/>spondet Sotus in hac d. quoest. art. 3.
+            <lb ed="#V" n="28"/>conclus. 3. Medina 3. part. quaest. 53.
+            <lb ed="#V" n="29"/>art. 11. negant probari posse. Ita etiam
+            <lb ed="#V" n="30"/>tenet in re ipsa Suarez 2. tom. disp. 44.
+            <lb ed="#V" n="31"/>sect. 8. asserens probationem ejus quasi
+            <lb ed="#V" n="32"/>evidentem dari, licet a protervo possit
+            <lb ed="#V" n="33"/>refutari. AEgidius etiam Lusitanus loco
+            <lb ed="#V" n="34"/>citato quoest. 3. art. 5. idem docet; et
+            <lb ed="#V" n="35"/>certe si demonstrari posset Dei
+            omnipo<lb ed="#V" n="36" break="no"/>tentia, prout in re est, et a fidelibus
+            credi<lb ed="#V" n="37" break="no"/>tur, et declaratur a Theologis, ego non
+            <lb ed="#V" n="38"/>dubitarem hanc probationem necessariam
+            <lb ed="#V" n="39"/>esse; destruenda tamen essent principia
+            <lb ed="#V" n="40"/>erronea Aristotelis de aeternitate mundi,
+            <lb ed="#V" n="41"/>de necessitate agendi causae primae, de
+            <lb ed="#V" n="42"/>ordine essentiali causarum, quem ipse
+            <lb ed="#V" n="43"/>statuit, ut probatio ad conclusionem
+            appli<lb ed="#V" n="44" break="no"/>caretur.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>(u) Imo nec secunda propositio, etc.
+            <lb ed="#V" n="46"/>Secunda propositio est, quam supra et
+            <lb ed="#V" n="47"/>hactenus tractavit de immortalitate
+            ani<lb ed="#V" n="48" break="no"/>mae. Dicit secundum Augustinum hanc
+            <lb ed="#V" n="49"/>non teneri per rationem, supple, ut certam,
+            <lb ed="#V" n="50"/>sed tantum per Evangelium, dicente
+            Chri<lb ed="#V" n="51" break="no"/>sto: Nolite timere eos, qui occidunt
+            cor<lb ed="#V" n="52" break="no"/>pus, animam autem non possunt
+            occide<lb ed="#V" n="53" break="no"/>re, etc. Illa particula tantum non est
+            ex<lb ed="#V" n="54" break="no"/>clusiva alterius revelationis circa hanc
+            ve<lb ed="#V" n="55" break="no"/>ritatem, diversae ab ea quae facta est in
+            <lb ed="#V" n="56"/>Evangelio, sed est exclusiva rationis
+            evi<lb ed="#V" n="57" break="no"/>dentis naturalis, ut excludit fidem
+            reve<lb ed="#V" n="58" break="no"/>latam; intendit ergo certitudinem
+            irre<lb ed="#V" n="59" break="no"/>fragabilem hujus veritatis esse ex fide,
+            <lb ed="#V" n="60"/>quamvis admittat eam probabiliter
+            rati<lb ed="#V" n="61" break="no"/>one etiam naturali probari, licet non
+            evi<lb ed="#V" n="62" break="no"/>dentia rigorosae demonstrationis, et quae
+            <lb ed="#V" n="63"/>admitteretur a Philosopho. Veritas fidei
+            <lb ed="#V" n="64"/>patet Gen. 2. Sapient. 3. 4. et 5. Eccles.
+            <lb ed="#V" n="65"/>ult. Matth. 10. Luc. 16. 23. et
+            univer<lb ed="#V" n="66" break="no"/>sim ex omnibus locis, ex quibus habetur
+            <lb ed="#V" n="67"/>resurrectio mortuorum, retributio operum
+            <lb ed="#V" n="68"/>ex doctrina universali Patrum et
+            Eccle<lb ed="#V" n="69" break="no"/>siae. Et hic articulus est fundamentum
+            <lb ed="#V" n="70"/>plurium dogmatum fidei, ac pene
+            om<lb ed="#V" n="71" break="no"/>nium, sine quo non subsisterent; et
+            pa<lb ed="#V" n="72" break="no"/>tet ex definitione Lataranensis Concilii
+            <lb ed="#V" n="73"/>sub Leone X. 8 8. Cum diebus nostris
+            <lb ed="#V" n="74"/>nonnulli ausi sunt dicere de natura
+            ani<lb ed="#V" n="75" break="no"/>mae rationalis, quod mortalis, et aliqui
+            <lb ed="#V" n="76"/>temere philosophantes, secundum saltem
+            <lb ed="#V" n="77"/>Philosophiam verum esse asseverent;
+            sa<lb ed="#V" n="78" break="no"/>cro approbante Concilio damnamus ac
+            <lb ed="#V" n="79"/>reprobamus asserentes animam
+            intellecti<lb ed="#V" n="80" break="no"/>vam mortalem esse, etc. In qua definitione
+            <lb ed="#V" n="81"/>non solum exponitur veritas fidei, sed
+            <lb ed="#V" n="82"/>etiam damnatur temeritas asserentium
+            <lb ed="#V" n="83"/>animam secundum Philosophiam,
+            mor<lb ed="#V" n="84" break="no"/>talem esse, et merito, quia neque
+            secun<lb ed="#V" n="85" break="no"/>dum Philosophiam anima est mortalis,
+            <lb ed="#V" n="86"/>quia si Philosophos consulamus, ut fuse
+            <lb ed="#V" n="87"/>probat Eugubinus lib. 9. de perenni
+            Phi<lb ed="#V" n="88" break="no"/>losophia, et plures et potiores animam
+            <pb ed="#V" n="63"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>immortalem esse defenderunt, quin etiam
+            <lb ed="#V" n="2"/>et ipse Aristoteles, ut ibidem ipse
+            pro<lb ed="#V" n="3" break="no"/>bat, et, ut bene Doctor, saltem in hanc
+            <lb ed="#V" n="4"/>veritatem fuit magis inclinatus, eam bene
+            <lb ed="#V" n="5"/>defendit et adducit in hanc sententiam
+            <lb ed="#V" n="6"/>Cardinalis Oregius in opusculo de hac
+            <lb ed="#V" n="7"/>materia. Si rationem et principia
+            Phi<lb ed="#V" n="8" break="no"/>losophiae spectemus, nullum est quod
+            <lb ed="#V" n="9"/>probet contrarium, nam quod anima sit
+            <lb ed="#V" n="10"/>forma corporis corruptibilis, nihil inde
+            <lb ed="#V" n="11"/>habetur praeter unionem et
+            informati<lb ed="#V" n="12" break="no"/>a onem; neque argumentum ex
+            similitudi<lb ed="#V" n="13" break="no"/>ne aliarum formarum, quae educuntur ex
+            <lb ed="#V" n="14"/>materia, valet ad probandum
+            materiali<lb ed="#V" n="15" break="no"/>tatem animae, minus autem mortalitatem;
+            <lb ed="#V" n="16"/>nam ex operatione colligitur esse forma
+            <lb ed="#V" n="17"/>immaterialis, ex immaterialitate urgenter
+            <lb ed="#V" n="18"/>deducitur ejus immortalitas et
+            indepen<lb ed="#V" n="19" break="no"/>dentia a materia in esse. Alia vero
+            prin<lb ed="#V" n="20" break="no"/>cipia Aristotelis de aeternitate mundi, et
+            <lb ed="#V" n="21"/>de necessitate agendi causae primae, sunt
+            <lb ed="#V" n="22"/>errores, neque ratione ulla, quae recte
+            <lb ed="#V" n="23"/>subsistat ex causa et effectu, fulciuntur,
+            <lb ed="#V" n="24"/>ut magis suo loco probatur; non recte
+            <lb ed="#V" n="25"/>ergo anima dicitur mortalis secundum
+            <lb ed="#V" n="26"/>Philosophiam. His quantum ad veritatem
+            <lb ed="#V" n="27"/>suppositis, remittentes magis completum
+            <lb ed="#V" n="28"/>tractatum ad suum locum, prosequemur
+            <lb ed="#V" n="29"/>institutum.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>(X) Ad argumenta. Ad primum, etc.
+            <lb ed="#V" n="31"/>Respondet Doctor ad argumenta
+            princi<lb ed="#V" n="32" break="no"/>palia, quae faciunt pro affirmativa parte,
+            <lb ed="#V" n="33"/>nempe hanc veritatem esse
+            demonstrabi<lb ed="#V" n="34" break="no"/>lem, easque solvit. Primum argumentum
+            <lb ed="#V" n="35"/>sumitur ex desiderio naturali quod
+            ha<lb ed="#V" n="36" break="no"/>bet homo ad semper esse, et ex quo
+            na<lb ed="#V" n="37" break="no"/>turaliter fugit mortem; haec autem
+            incli<lb ed="#V" n="38" break="no"/>natio non est frustra, ergo ea potest
+            de<lb ed="#V" n="39" break="no"/>veniri ad demonstrandam resurrectionem
+            <lb ed="#V" n="40"/>futuram.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Respondet Doctor sub distinctione:
+            <lb ed="#V" n="42"/>Summa autem responsionis est haec, quia
+            <lb ed="#V" n="43"/>vel intelligitur de appetitu innato, qui
+            <lb ed="#V" n="44"/>est ipsa naturae inclinatio passiva
+            natu<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>ralis, et sic ut conclusio necessario
+            se<lb ed="#V" n="46" break="no"/>quatur, debet ratione naturali ostendi
+            <lb ed="#V" n="47"/>possibilitas semper essendi, quia cum
+            in<lb ed="#V" n="48" break="no"/>clinatio fundatur in ipsa natura, debet
+            <lb ed="#V" n="49"/>esse ad actum possibilem haberi, quae
+            <lb ed="#V" n="50"/>possibilitas non cognoscitur lumine
+            na<lb ed="#V" n="51" break="no"/>turali. Si autem sumatur desiderium
+            <lb ed="#V" n="52"/>naturale pro actu elicito, debet probari
+            <lb ed="#V" n="53"/>quod ille actus sit secundum rectam
+            ra<lb ed="#V" n="54" break="no"/>tionem, et non sit erronea apprehensio,
+            <lb ed="#V" n="55"/>ex qua concipitur, quia voluntas est
+            eti<lb ed="#V" n="56" break="no"/>am impossibilium, licet non intentio aut
+            <lb ed="#V" n="57"/>electio, sed tantum possibilium. Ut sit
+            re<lb ed="#V" n="58" break="no"/>cta ratio, debet conformis esse veritati
+            <lb ed="#V" n="59"/>rei, et causis essendi, et possibilitati sic
+            <lb ed="#V" n="60"/>essendi semper; ergo a primo ad ultimum
+            <lb ed="#V" n="61"/>haec ratio non est efficax ad
+            proban<lb ed="#V" n="62" break="no"/>dum resurrectionem futuram ratione
+            natu<lb ed="#V" n="63" break="no"/>rali, quia haec nequit attingere
+            possibili<lb ed="#V" n="64" break="no"/>tatem hujus effectus, procedendo per
+            <lb ed="#V" n="65"/>causas naturales essendi hominis, sive
+            <lb ed="#V" n="66"/>intrinsecas, sive extrinsecas, quia licet
+            <lb ed="#V" n="67"/>attingere posset immortalitatem animae
+            <lb ed="#V" n="68"/>vel probabiliter, vel certe demonstrative,
+            <lb ed="#V" n="69"/>ut alii volunt, non potest attingere
+            homi<lb ed="#V" n="70" break="no"/>nem secundum se in esse constituti, qui
+            <lb ed="#V" n="71"/>corruptibilis est, et desinit posse iterum
+            <lb ed="#V" n="72"/>reparari, vel quod magis est, fore ut
+            re<lb ed="#V" n="73" break="no"/>paretur. Ex parte etiam corporis non
+            <lb ed="#V" n="74"/>suppetit ratio probans eamdem
+            possibili<lb ed="#V" n="75" break="no"/>tatem, sed magis contrarium, quia
+            repa<lb ed="#V" n="76" break="no"/>ratio corporis est miraculosa, et supra
+            <lb ed="#V" n="77"/>vires naturae, et idem patet quantum ad
+            <lb ed="#V" n="78"/>alias causas secundas; quantum autem ad
+            <lb ed="#V" n="79"/>primam causam, ut praecise est auctor
+            <lb ed="#V" n="80"/>naturae, quidquid sit de potentia ejus
+            <lb ed="#V" n="81"/>absoluta reparandi corruptum, quam
+            ne<lb ed="#V" n="82" break="no"/>gat Durandus supra, saltem ex
+            providen<lb ed="#V" n="83" break="no"/>tia ejus ordinaria, et modo concursus
+            <lb ed="#V" n="84"/>secundum exigentiam causarum
+            natura<lb ed="#V" n="85" break="no"/>lium, nequit colligi fore ut aliter
+            concur<lb ed="#V" n="86" break="no"/>rat, quam ut secundum statum
+            prae<lb ed="#V" n="87" break="no"/>sentem concurrit. Ex quibus patet dicta
+            <lb ed="#V" n="88"/>responsio.
+          </p>
+          <p>
+            <pb ed="#V" n="64"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Alii autem negarent inclinationem
+            na<lb ed="#V" n="2" break="no"/>turalem esse ad semper esse in natura
+            <lb ed="#V" n="3"/>nostra, ut respicit resurrectionem, sed
+            <lb ed="#V" n="4"/>tantum obedientialem, quia naturalis
+            se<lb ed="#V" n="5" break="no"/>cundum ipsos respicit causam efficientem
+            <lb ed="#V" n="6"/>naturalem, cujus virtutem excedit
+            resur<lb ed="#V" n="7" break="no"/>rectio, sed jam non disserimus hanc
+            <lb ed="#V" n="8"/>quaestionem; resolutio autem communis
+            <lb ed="#V" n="9"/>est, sive admittatur naturalis, sive
+            nege<lb ed="#V" n="10" break="no"/>tur.
+            <lb ed="#V" n="11"/>1 Ad probationem illam ex fuga mortis,
+            <lb ed="#V" n="12"/>quatenus haec procedit ex amore oppositi,
+            <lb ed="#V" n="13"/>nempe semper essendi, respondet juxta
+            <lb ed="#V" n="14"/>mentem et principia Philosophi, qui dicit
+            <lb ed="#V" n="15"/>quodlibet appetit suum esse. Et sicut
+            na<lb ed="#V" n="16" break="no"/>tura inclinat ad id quod melius est,
+            me<lb ed="#V" n="17" break="no"/>lius autem in omnibus est esse quam non
+            <lb ed="#V" n="18"/>esse, impossibile tamen censet id
+            Philo<lb ed="#V" n="19" break="no"/>sophus in omnibus, id est, in
+            corruptibili<lb ed="#V" n="20" break="no"/>bus, in quibus continuatio generationis
+            <lb ed="#V" n="21"/>per propagationem speciei supplet
+            cor<lb ed="#V" n="22" break="no"/>ruptibilitatem individui, et corruptionem.
+            <lb ed="#V" n="23"/>Quae doctrina perinde, sequendo haec
+            <lb ed="#V" n="24"/>principia, verificatur de homine. Sed
+            ur<lb ed="#V" n="25" break="no"/>get Doctor fugam mortis esse ex amore
+            <lb ed="#V" n="26"/>vitae et essendi. Respondet ex hoc sequi
+            <lb ed="#V" n="27"/>cum fugiat mortem pro nunc, et sic de
+            <lb ed="#V" n="28"/>quolibet instanti signato, amet etiam
+            <lb ed="#V" n="29"/>vitam, et esse, pro quolibet instanti
+            <lb ed="#V" n="30"/>signato, non tamen in infinitum. Hujus
+            <lb ed="#V" n="31"/>ratio jam praemissa est, quia
+            inclina<lb ed="#V" n="32" break="no"/>tio naturalis essendi non excedit
+            pos<lb ed="#V" n="33" break="no"/>sibilitatem causarum naturae; in
+            tan<lb ed="#V" n="34" break="no"/>tum ergo extenditur, in quantum
+            vir<lb ed="#V" n="35" break="no"/>tus causarum extenditur, et non
+            extendi<lb ed="#V" n="36" break="no"/>tur ad aliquid, quod impossibile est, etiam
+            <lb ed="#V" n="37"/>respective ad causas, ex quibus natura
+            <lb ed="#V" n="38"/>recipit esse, perfectionem et
+            continuati<lb ed="#V" n="39" break="no"/>onem essendi. Alia probatio ejusdem
+            <lb ed="#V" n="40"/>desiderii adducitur ex Paulo 2. Cor. 5.
+            <lb ed="#V" n="41"/>Nolumus exspoliari, sed supervestiri.
+            <lb ed="#V" n="42"/>Respondet illud intelligendum supposita
+            <lb ed="#V" n="43"/>fide, quae possibilitatem effectus ostendit.
+            <lb ed="#V" n="44"/>Deinde, dici quidem posse nos nolle etiam
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>secundum desiderium naturale, sed quod
+            <lb ed="#V" n="46"/>non cognoscit ratio naturalis pro hoc
+            <lb ed="#V" n="47"/>statu.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>(y) Ad secundum conceditur, etc.
+            Se<lb ed="#V" n="49" break="no"/>cundum argumentum est ex appetitu
+            na<lb ed="#V" n="50" break="no"/>turali beatitudinis non solum in generali,
+            <lb ed="#V" n="51"/>ut inesse probat Philosophus 1. Ethic.
+            <lb ed="#V" n="52"/>sed etiam ex appetitu ad beatitudinem in
+            <lb ed="#V" n="53"/>specie, de qua agit 10. Ethic. Sed ratione
+            <lb ed="#V" n="54"/>naturali notum est beatitudinem non
+            es<lb ed="#V" n="55" break="no"/>se, nisi sit sempiterna; ergo notum est
+            <lb ed="#V" n="56"/>eadem ratione naturali hominem
+            or<lb ed="#V" n="57" break="no"/>dinatum esse ad aliquam perfectionem
+            <lb ed="#V" n="58"/>sempiternam. Subsumptum probat ex
+            Au<lb ed="#V" n="59" break="no"/>gustino, ut patet in littera.
+          </p>
+          <p>
+            <lb ed="#V" n="60"/>Respondet Doctor supponendo quodi
+            <lb ed="#V" n="61"/>alias infra dist. 49. tractabit, nempe in
+            <lb ed="#V" n="62"/>nobis esse appetitum naturalem passivum
+            <lb ed="#V" n="63"/>ad beatitudinem in specie, quae datur
+            <lb ed="#V" n="64"/>justis, et non solum obedientialem, ut
+            <lb ed="#V" n="65"/>alii tenent, quod ibidem disseretur, sed
+            <lb ed="#V" n="66"/>hunc appetitum non esse notum lumine
+            <lb ed="#V" n="67"/>naturali, neque actum illius appetitus,
+            ne<lb ed="#V" n="68" break="no"/>que convenientiam finis sub illa speciali
+            <lb ed="#V" n="69"/>ratione, quia haec omnia per fidem et
+            re<lb ed="#V" n="70" break="no"/>velationem tantum proponuntur.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Ad probationem ex Aristotele respondet
+            <lb ed="#V" n="72"/>ipsam non intellexisse aliam in specie
+            be<lb ed="#V" n="73" break="no"/>atitudinem, quam illam quae est vitae
+            <lb ed="#V" n="74"/>praesentis, eamque posuit in speculatione
+            <lb ed="#V" n="75"/>altissimarum causarum, ad quam ordinavit
+            <lb ed="#V" n="76"/>sanitatem corporis, et alia commoda vitae
+            <lb ed="#V" n="77"/>praesentis.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>Ad probationem ex Augustino, qua
+            <lb ed="#V" n="79"/>probatur beatitudinis perpetuitas, dicit
+            <lb ed="#V" n="80"/>quod admittens beatitudinem possibilem
+            <lb ed="#V" n="81"/>tantum esse in hac vita, admitteret
+            volen<lb ed="#V" n="82" break="no"/>tem deseri a beatitudine, quia ratio recta
+            <lb ed="#V" n="83"/>ejus conformaretur conditioni suae
+            natu<lb ed="#V" n="84" break="no"/>rae, quam ut solam possibilem intelligeret,
+            <lb ed="#V" n="85"/>nempe eam esse mortalem, et quoad
+            cor<lb ed="#V" n="86" break="no"/>pus et quoad animam, dato quod
+            ignora<lb ed="#V" n="87" break="no"/>ret animae immortalitatem. Dicit praeterea
+            <lb ed="#V" n="88"/>illam vitam beatam finibilem fuisse
+            ama<pb ed="#V" n="65"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tam ab habente, pro quanto cognovit eam
+            <lb ed="#V" n="2"/>sibi fuisse possibilem, nempe pro hac
+            <lb ed="#V" n="3"/>tantum vita. Recte ergo probat
+            Augusti<lb ed="#V" n="4" break="no"/>nus non posse hominem in vita mortali
+            <lb ed="#V" n="5"/>esse beatum, et procedit contra eos qui
+            <lb ed="#V" n="6"/>statuebant beatitudinem in hac tantum
+            vi<lb ed="#V" n="7" break="no"/>ta. Sed non probat beatitudinem veram
+            <lb ed="#V" n="8"/>hominis, quae futura est, lumine naturali
+            <lb ed="#V" n="9"/>posse cognosci in specie, aut probari
+            fu<lb ed="#V" n="10" break="no"/>tura, imo ibidem ex professo probat
+            Philo<lb ed="#V" n="11" break="no"/>sophos eam nunquam cognovisse, et
+            beati<lb ed="#V" n="12" break="no"/>tudinem eos statuisse in vita praesenti;
+            <lb ed="#V" n="13"/>contra quos ibidem disserit.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>(z) Ad aliud conceditur, etc. Respondet
+            <lb ed="#V" n="15"/>ad tertium, quod desumitur ex fine, quia
+            <lb ed="#V" n="16"/>naturaliter notum est totam speciem non
+            <lb ed="#V" n="17"/>carere suo fine, quin illum in individuo
+            <lb ed="#V" n="18"/>aliquo saltem consequeretur, sed
+            naturali<lb ed="#V" n="19" break="no"/>ter notum est beatitudinem esse finem
+            <lb ed="#V" n="20"/>humanae speciei; ergo et hominem posse
+            <lb ed="#V" n="21"/>eam consequi in aliquo saltem individuo,
+            <lb ed="#V" n="22"/>sed non in hac vita, propter miserias,
+            <lb ed="#V" n="23"/>fatigationem, infirmitatem, defectum
+            per<lb ed="#V" n="24" break="no"/>fectae virtutis, et scientiae, neque potest
+            <lb ed="#V" n="25"/>haberi a sola anima separata, quia sic non
+            <lb ed="#V" n="26"/>esset beatitudo hominis; ergo habebitur
+            <lb ed="#V" n="27"/>toto conjuncto, et consequenter resurgente
+            <lb ed="#V" n="28"/>a mortuis.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Respondet concedendo hominem
+            conse<lb ed="#V" n="30" break="no"/>qui beatitudinem in individuo quoad
+            gra<lb ed="#V" n="31" break="no"/>dum, in quo ipsi notum est naturaliter
+            <lb ed="#V" n="32"/>esse finem hominis. Quod autem dicitur
+            <lb ed="#V" n="33"/>id impossibile esse in hac vita,
+            responde<lb ed="#V" n="34" break="no"/>tur, id quidem verum est, quia neque
+            <lb ed="#V" n="35"/>etiam illum statum beatitudinis, quem
+            <lb ed="#V" n="36"/>Philosophi statuerunt, potest homo
+            viri<lb ed="#V" n="37" break="no"/>bus naturae pro hoc statu peccati attingere
+            <lb ed="#V" n="38"/>sine gratia Dei. Deinde, neque in eo
+            con<lb ed="#V" n="39" break="no"/>sistit beatitudo ultima et consummata
+            <lb ed="#V" n="40"/>hominis; sed id Philosophis oppositum
+            <lb ed="#V" n="41"/>statuentibus et sequentibus lumen
+            natura<lb ed="#V" n="42" break="no"/>le, fuit ignotum, ideo neque demonstrari
+            <lb ed="#V" n="43"/>potest.
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>Ad illud quod objicitur de miseriis et
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>perturbationibus vitae praesentis, verum
+            <lb ed="#V" n="46"/>est, eas repugnare verae felicitati et
+            per<lb ed="#V" n="47" break="no"/>fectae, quales tribuebant Philosophi
+            Intel<lb ed="#V" n="48" break="no"/>ligentiis seu Angelis, sed non illi
+            felicita<lb ed="#V" n="49" break="no"/>ti, quam solum vitae praesentis tribuebant
+            <lb ed="#V" n="50"/>homini.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>(a) Ad quartum, etc. Quartum fuit ex
+            <lb ed="#V" n="52"/>perpetuitate speciei, quae spectat ad
+            inte<lb ed="#V" n="53" break="no"/>gritatem universi.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Responsio est clara juxta doctrinam
+            <lb ed="#V" n="55"/>Aristotelis, et modum perpetuandi species
+            <lb ed="#V" n="56"/>per continuam generationem in
+            corrupti<lb ed="#V" n="57" break="no"/>bilibus.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Tandem concludit quantum sit homo
+            <lb ed="#V" n="59"/>fidelis ad agendum gratias suo Creatori
+            <lb ed="#V" n="60"/>obnoxius, qui depulsa ignorantia
+            infide<lb ed="#V" n="61" break="no"/>lium et sapientum hujus mundi, nos
+            cer<lb ed="#V" n="62" break="no"/>tos reddidit in his, quae spectant ad finem
+            <lb ed="#V" n="63"/>nostrum, et sempiternam felicitatem,
+            <lb ed="#V" n="64"/>quam attingere non potuerunt
+            Philoso<lb ed="#V" n="65" break="no"/>phi, teste Augustino loco citato.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

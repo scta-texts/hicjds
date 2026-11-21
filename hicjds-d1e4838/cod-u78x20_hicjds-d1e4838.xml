@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 43, Quaestio 4</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 43, Quaestio 4</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x20">Vives, Paris, 1894, volume 20</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="112"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e4838"><!-- hicjds-b4d43q4 -->
+        <head>Quaestio 4</head>
+        <head type="question-title">Utrum resurrectio sit naturalis</head>
+        <!-- <div alias="hiq-d43q4-p1"> -->
+          <p>
+            <lb ed="#V" n="65" type="fixed=112"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>(o) Quarto quaero, etc. Haec quaestio
+            <lb ed="#V" n="67"/>continet duos articulos, in primo
+            expli<lb ed="#V" n="68" break="no"/>catur quid sit naturale per
+            comparati<lb ed="#V" n="69" break="no"/>onem ad singula, quibus secundum
+            di<lb ed="#V" n="70" break="no"/>versas acceptiones opponitur
+            supernatu<lb ed="#V" n="71" break="no"/>rale; in secundo resolvit quaestionem.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d43q4-p2"> -->
+          <p>
+            <lb ed="#V" n="15" type="fixed=115"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>(p) Intelligendum est hoc, etc.
+            Fundamen<lb ed="#V" n="17" break="no"/>tum hujus quaestionis sumitur ex appetitu
+            <lb ed="#V" n="18"/>animae ad materiam, qui est ipsi naturalis.
+            <lb ed="#V" n="19"/>Deinde, ex appetitu etiam naturali
+            beati<lb ed="#V" n="20" break="no"/>tudinis, ex immortalitate animae, ex
+            pro<lb ed="#V" n="21" break="no"/>videntia Dei, qua statuit praemium et
+            <lb ed="#V" n="22"/>poenam operibus, et aliis rationibus
+            natu<lb ed="#V" n="23" break="no"/>ralibus et congruentiis, quibus Sancti
+            Pa<lb ed="#V" n="24" break="no"/>tres probant possibilitatem resurrectionis
+            <lb ed="#V" n="25"/>contra Philosophos.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Antequam ergo resolvat Doctor
+            quaesti<lb ed="#V" n="27" break="no"/>onem, hic distinguit terminum naturale,
+            <lb ed="#V" n="28"/>qui multiplex est in significando, et
+            aequi<lb ed="#V" n="29" break="no"/>vocus, ut pluribus seu diversis opponitur,
+            <lb ed="#V" n="30"/>ut est, supernaturale, liberum et violentum.
+            <lb ed="#V" n="31"/>Aliquando est differentia activi, aliquando
+            <lb ed="#V" n="32"/>passivi. Naturale, ut dicitur de principio
+            <lb ed="#V" n="33"/>activo, aliquando opponitur libero seu
+            vo<lb ed="#V" n="34" break="no"/>luntario, et sic agens naturale est, quod
+            <lb ed="#V" n="35"/>ab intrinseco determinatur ad actionem,
+            <lb ed="#V" n="36"/>et distinguitur ab agente a proposito,
+            <lb ed="#V" n="37"/>quod mediante cognitione determinatur
+            <lb ed="#V" n="38"/>ut patet 2. Physicor, et 9. Metaph.
+            Secun<lb ed="#V" n="39" break="no"/>do modo dicitur agens naturale, ut dicit
+            <lb ed="#V" n="40"/>differentiam ordinis ad passum, tanquam
+            <lb ed="#V" n="41"/>activi connaturalis dicentis ordinem
+            natu<lb ed="#V" n="42" break="no"/>ralem ad passum, ut illud transmutet de
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>potentia ad actum; et sic omne agens
+            <lb ed="#V" n="44"/>creatum dicitur naturale eo modo et
+            <lb ed="#V" n="45"/>sensu quo natura distinguitur ab Auctore
+            <lb ed="#V" n="46"/>naturae. Dicere enim ordinem ad passum,
+            <lb ed="#V" n="47"/>non consistit in eo praecise, quod agens
+            <lb ed="#V" n="48"/>includat in sua potentia activa formam
+            <lb ed="#V" n="49"/>ad quam subjectum aut passum est in
+            <lb ed="#V" n="50"/>potentia; sed ultra hoc dicit
+            necessari<lb ed="#V" n="51" break="no"/>um ordinem et dependentiam ad
+            pas<lb ed="#V" n="52" break="no"/>sum, sine quo nequit exercere virtutem
+            <lb ed="#V" n="53"/>activam, aut ullo modo est potens ad
+            acti<lb ed="#V" n="54" break="no"/>onem aut effectum; quae differentia est
+            <lb ed="#V" n="55"/>communis omni agenti creato, sive
+            natu<lb ed="#V" n="56" break="no"/>ralis ordinis, sive supernaturalis sit, juxta
+            <lb ed="#V" n="57"/>aliam significationem horum terminorum,
+            <lb ed="#V" n="58"/>quam mox exponemus. Vide quae dicta
+            <lb ed="#V" n="59"/>sunt dist. 1. hujus quaest. 1. Supernaturale
+            <lb ed="#V" n="60"/>per oppositum dicitur solum de Deo
+            agen<lb ed="#V" n="61" break="no"/>te increato, qui excedit omnem talem
+            or<lb ed="#V" n="62" break="no"/>dinem, et agere potest independenter
+            <lb ed="#V" n="63"/>a materia, et sine ordine ad ipsam per
+            <lb ed="#V" n="64"/>creationem ex nihilo.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Alio modo etiam potest haec differentia
+            <lb ed="#V" n="66"/>sumi ex universalitate virtutis, et
+            limitati<lb ed="#V" n="67" break="no"/>one in agendo, quia agens creatum ita
+            <lb ed="#V" n="68"/>dicit ordinem ad determinatum passum, ut
+            <lb ed="#V" n="69"/>non possit in quodcumque passum, neque
+            <lb ed="#V" n="70"/>in quamcumque formam, sed limitate ad
+            <lb ed="#V" n="71"/>aliquod, aut aliqua, et sic coelum et astra
+            <lb ed="#V" n="72"/>etiam dicunt ordinem ad materiam seu
+            <lb ed="#V" n="73"/>passum, quia neque alia transmutare
+            pos<lb ed="#V" n="74" break="no"/>sunt nisi sublunaria, neque in his etiam
+            <lb ed="#V" n="75"/>reducere quamcumque potentiam materiae
+            <lb ed="#V" n="76"/>ad actum prout supra dictum est de
+            po<lb ed="#V" n="77" break="no"/>tentia ad animas perfectas. Per oppositum
+            <lb ed="#V" n="78"/>agens increatum est illimitatum, et
+            respi<lb ed="#V" n="79" break="no"/>cit universaliter omnem potentialitatem
+            <lb ed="#V" n="80"/>passi vel materiae, et secundum
+            univer<lb ed="#V" n="81" break="no"/>salitatem formarum, et secundum modum
+            <lb ed="#V" n="82"/>potentialitatis, qua potest reduci ad actum
+            <lb ed="#V" n="83"/>sive producendo formam primo, sive eam
+            <lb ed="#V" n="84"/>corruptam reducendo, sive concurrendo
+            <lb ed="#V" n="85"/>cum aliis agentibus inferioris ordinis,
+            si<lb ed="#V" n="86" break="no"/>ve se solo educendo formam, sive etiam
+            <pb ed="#V" n="116"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>creando sine dependentia a materia.
+          </p>
+          <p>
+            <lb ed="#V" n="2"/>Alio modo dicitur naturale ex parte
+            <lb ed="#V" n="3"/>passi, quatenus naturali appetitu
+            inclina<lb ed="#V" n="4" break="no"/>tur ad formam, secundum quam patitur,
+            <lb ed="#V" n="5"/>seu ad eam transmutatur. Per oppositum
+            <lb ed="#V" n="6"/>dicitur violentum eo quod repugnet
+            for<lb ed="#V" n="7" break="no"/>mae quam recipit, licet ejus productio sit
+            <lb ed="#V" n="8"/>secundum inclinationem agentis. Inter
+            <lb ed="#V" n="9"/>utrumque datur medium, ut quando
+            pas<lb ed="#V" n="10" break="no"/>sum neutro modo se habet ad formam, ut
+            <lb ed="#V" n="11"/>quia neque ei repugnat, neque eam
+            appe<lb ed="#V" n="12" break="no"/>tit, neque oppositam. Haec potentia ad
+            <lb ed="#V" n="13"/>talem formam dicitur in nostra Schola,
+            <lb ed="#V" n="14"/>neutra. Controversiam hujus puncti
+            remit<lb ed="#V" n="15" break="no"/>timus ad suum locum, quia non spectat
+            <lb ed="#V" n="16"/>institutum; naturaliter ergo hoc
+            mo<lb ed="#V" n="17" break="no"/>do sumitur, ut distinguitur contra
+            vio<lb ed="#V" n="18" break="no"/>lentum et neutrum, et sumitur praecise in
+            <lb ed="#V" n="19"/>ordine ad formam.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Alio modo dicitur naturaliter ex parte
+            <lb ed="#V" n="21"/>passi, prout respicit agens, quando
+            move<lb ed="#V" n="22" break="no"/>tur ab agente naturaliter sibi
+            correspon<lb ed="#V" n="23" break="no"/>dente et proportionato secundum ordinem
+            <lb ed="#V" n="24"/>naturalem causarum, et dispositionem.
+            <lb ed="#V" n="25"/>E contra per oppositum hujus dicitur
+            su<lb ed="#V" n="26" break="no"/>pernaturale, prout movetur ab agente
+            <lb ed="#V" n="27"/>supra totum ordinem agentis naturalis
+            <lb ed="#V" n="28"/>proportionati materiae, ut est mobilis
+            se<lb ed="#V" n="29" break="no"/>cundum statum naturae et providentiae
+            <lb ed="#V" n="30"/>naturalis, in ordine etiam ad finem
+            natu<lb ed="#V" n="31" break="no"/>ralem praefixum et debitum naturae
+            praeci<lb ed="#V" n="32" break="no"/>se. Quando movetur ab agente, non sic
+            <lb ed="#V" n="33"/>proportionato, et secundum aliam
+            provi<lb ed="#V" n="34" break="no"/>dentiam in ordine supernaturali dicitur
+            <lb ed="#V" n="35"/>moveri supernaturaliter, quantumlibet
+            <lb ed="#V" n="36"/>forma ad quam movetur, esset secundum
+            <lb ed="#V" n="37"/>inclinationem lejus. Contra utrumque
+            <lb ed="#V" n="38"/>hoc membrum objicit Doctor, et solvit in
+            <lb ed="#V" n="39"/>littera. Controvertitur circa hoc punctum
+            <lb ed="#V" n="40"/>in quo consistat supernaturalitas hoc
+            <lb ed="#V" n="41"/>modo sumpta, et an possit compati cum
+            <lb ed="#V" n="42"/>appetitu et inclinatione naturali ad
+            for<lb ed="#V" n="43" break="no"/>mam, quae sic supernaturaliter producitur,
+            <lb ed="#V" n="44"/>et an potius dici debeat potentia
+            obedi<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>entialis illa respectu formae, quam
+            natu<lb ed="#V" n="46" break="no"/>ralis, sed de hoc infra agemus commodiori
+            <lb ed="#V" n="47"/>loco agentes de hoc appetitu animae ad
+            <lb ed="#V" n="48"/>beatitudinem.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>(q) Ad propositum resurrectio, etc. Hic ex
+            <lb ed="#V" n="50"/>dictis statuit secundum articulum, et
+            re<lb ed="#V" n="51" break="no"/>solvit quaestionem. Dicit quod resurrectio
+            <lb ed="#V" n="52"/>dicat passionem, resuscitatio vero
+            acti<lb ed="#V" n="53" break="no"/>onem correspondentem. Unde quaestio, ut
+            <lb ed="#V" n="54"/>respicit resurrectionem, determinat
+            natu<lb ed="#V" n="55" break="no"/>rale et supernaturale, ut est differentia
+            <lb ed="#V" n="56"/>passionis, ut vero respicit resuscitationem,
+            <lb ed="#V" n="57"/>denotat eadem, ut inveniuntur in actione,
+            <lb ed="#V" n="58"/>et respective ad agens.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Prima conclusio est: Resurrectionem
+            na<lb ed="#V" n="60" break="no"/>turalem esse, ut naturale opponitur
+            violen<lb ed="#V" n="61" break="no"/>to, quia inclinatur corpus ad animam, et
+            <lb ed="#V" n="62"/>anima ad corpus. Esse supernaturalem, ut
+            <lb ed="#V" n="63"/>est ab agente supra totam seriem agentis
+            <lb ed="#V" n="64"/>naturalis proportionati. Si vero quaeratur
+            <lb ed="#V" n="65"/>de resuscitatione activa, dicit non esse
+            na<lb ed="#V" n="66" break="no"/>turalem secundum primam differentiam
+            <lb ed="#V" n="67"/>qua opponitur libero, sed supernaturalem
+            <lb ed="#V" n="68"/>qua est supra totum ordinem agentis
+            cre<lb ed="#V" n="69" break="no"/>ati, quod nequit attingere hunc effectum:
+            <lb ed="#V" n="70"/>et secundum hanc actionem, qua fit de
+            <lb ed="#V" n="71"/>facto, et modum quo resuscitatur homo.
+            <lb ed="#V" n="72"/>Utraque conclusio est communis, et patet
+            <lb ed="#V" n="73"/>ex rationibus tribus quas praemisit Doctor
+            <lb ed="#V" n="74"/>ad oppositum, quarum prima est
+            auctori<lb ed="#V" n="75" break="no"/>tas Dionysii. Secunda vero ex eo quod
+            <lb ed="#V" n="76"/>ratione naturali non possit attingi veritas
+            <lb ed="#V" n="77"/>resurrectionis in eventu futurae. Tertia,
+            <lb ed="#V" n="78"/>quia effectus causae naturalis evenit ut in
+            <lb ed="#V" n="79"/>pluribus si non est impedita, et saepius,
+            <lb ed="#V" n="80"/>non enim semper est impedita; ergo
+            re<lb ed="#V" n="81" break="no"/>surrectio quae tantum semel fiet, non est
+            <lb ed="#V" n="82"/>naturalis causae effectus. Patet conclusio
+            <lb ed="#V" n="83"/>etiam ex dictis supra quaestione secunda
+            <lb ed="#V" n="84"/>et tertia. Nulla enim virtus in natura est
+            <lb ed="#V" n="85"/>efficax ad reducendum materiam
+            eam<lb ed="#V" n="86" break="no"/>dem, et eam colligendam, neque formandi
+            <lb ed="#V" n="87"/>corpus humanum, nisi per generationem
+            <lb ed="#V" n="88"/>univocam, et decisionem seminis per
+            pro<lb ed="#V" n="89" break="no"/>pagationem.
+          </p>
+          <p>
+            <pb ed="#V" n="117"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Quod si objicias contra haec appetitum
+            <lb ed="#V" n="2"/>naturalem animae ad corpus, et rationes
+            <lb ed="#V" n="3"/>naturales, quibus Patres conantur probare
+            <lb ed="#V" n="4"/>futuram resurrectionem, maxime illam ex
+            <lb ed="#V" n="5"/>providentia Dei respectu bonorum et
+            ma<lb ed="#V" n="6" break="no"/>lorum. Ad has rationes responsum est
+            <lb ed="#V" n="7"/>quaest. 2. probando hanc veritatem non
+            <lb ed="#V" n="8"/>demonstrari quantum ad factum.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>(r) Ad argumenta. Ad primam, etc.
+            Pri<lb ed="#V" n="10" break="no"/>mum fuit auctoritas Damasceni dicentis,
+            <lb ed="#V" n="11"/>quod commune est omnibus in eadem
+            spe<lb ed="#V" n="12" break="no"/>cie, naturale est, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Respondet intelligi de communi a
+            prin<lb ed="#V" n="14" break="no"/>cipio intrinseco; unde ipse ex eo principio
+            <lb ed="#V" n="15"/>probat duplicem esse operationem in
+            <lb ed="#V" n="16"/>Christo.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Ad secundum ex naturalitate motus, et
+            <lb ed="#V" n="18"/>inclinationem passi ad formam,
+            respon<lb ed="#V" n="19" break="no"/>det tantum probare resurrectionem esse
+            <lb ed="#V" n="20"/>naturalem, ut est differentia subjecti, et
+            <lb ed="#V" n="21"/>inclinationis ad formam, et distinguitur
+            <lb ed="#V" n="22"/>a violento. An vero sit mutatio, resolvit
+            <lb ed="#V" n="23"/>quaest. sequenti.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>
