@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 49, Pars 1, Quaestio 8</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 49, Pars 1, Quaestio 8</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x21">Vives, Paris, 1894, volume 21</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="304"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e5283"><!-- hicjds-b4d49p1q8 -->
+        <head>Quaestio 8</head>
+        <head type="question-title">Utrum natura humana sit natura infima capax beatitudinis</head>
+        <!-- <div alias="hiq-d49q8-p1"> -->
+          <p>
+            <lb ed="#V" n="21" type="fixed=304"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>(d) Utrum natura humana sit, etc.
+            <lb ed="#V" n="23"/>In hac quaestione sub praemisso titulo
+            <lb ed="#V" n="24"/>disserit duo: Primum est, an ratione
+            na<lb ed="#V" n="25" break="no"/>turali possit probari possibilitas
+            beati<lb ed="#V" n="26" break="no"/>tudinis in specie, quae est per
+            visio<lb ed="#V" n="27" break="no"/>nem Dei. Secundo disserit de
+            beatitu<lb ed="#V" n="28" break="no"/>dine naturae humanae, ut est diversa a
+            <lb ed="#V" n="29"/>beatitudine, quae est secundum quid,
+            <lb ed="#V" n="30"/>,et ultima perfectio in entibus
+            inferio<lb ed="#V" n="31" break="no"/>ribus homine.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d49q8-p2"> -->
+          <p>
+            <lb ed="#V" n="29" type="fixed=305"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>(e) Respondeo, primo videndum, etc.
+            <lb ed="#V" n="31"/>Beatitudinem veram non solum
+            possibi<lb ed="#V" n="32" break="no"/>lem esse homini, sed in reipsa futuram
+            <lb ed="#V" n="33"/>ostendit ex Scriptura. Et patet ex locis,
+            <lb ed="#V" n="34"/>quae citat, et ex dictis hactenus. Deinde
+            <lb ed="#V" n="35"/>quaerit quid diceret Philosophus de hac
+            <lb ed="#V" n="36"/>beatitudine vera per fruitionem et
+            co<lb ed="#V" n="37" break="no"/>gnitionem facialem, non solum quoad
+            <lb ed="#V" n="38"/>esse, sed etiam quoad possibilitatem?
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Respondet juxta principia, quae
+            tradi<lb ed="#V" n="40" break="no"/>dit interpretando, eum sensisse repugnare
+            <lb ed="#V" n="41"/>homini attingere Deum visione clara et
+            fa<lb ed="#V" n="42" break="no"/>ciali, quia negavit aliam cognitionem
+            ha<cb ed="#V" n="b"/><lb ed="#V" n="43" break="no"/>beri de Deo posse pro hoc statu, quem est
+            <lb ed="#V" n="44"/>expertus, praeter abstractam, universalem
+            <lb ed="#V" n="45"/>et confusam
+            <lb ed="#V" n="46"/>Quod si objicias, inquit, inesse
+            appeti<lb ed="#V" n="47" break="no"/>tum naturalem in homine ad hanc
+            beati<lb ed="#V" n="48" break="no"/>tudinem.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>Respondet illud esse probandum, quia
+            <lb ed="#V" n="50"/>neque talem cognovit Philosophus,
+            ne<lb ed="#V" n="51" break="no"/>que etiam secundum rectam rationem,
+            <lb ed="#V" n="52"/>quia eam nescivti, aut possibilitatem ejus.
+            <lb ed="#V" n="53"/>Admittit quidem Doctor talem appetitum
+            <lb ed="#V" n="54"/>in natura humana, sed negat ipsum esse
+            <lb ed="#V" n="55"/>magis notum lumine naturali, quam sit
+            <lb ed="#V" n="56"/>ipsa beatitudo, et ejus possibilitas nota,
+            <lb ed="#V" n="57"/>ut patet ex quaestione prima prologi, ubi
+            <lb ed="#V" n="58"/>fuse de hoc disserit.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d49q8-p3"> -->
+          <p>
+            <lb ed="#V" n="80" type="fixed=306"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>(f) Videtur tamen mihi, etc. Conclusio
+            <lb ed="#V" n="82"/>Doctoris est, seclusa imperfectione
+            cogno<lb ed="#V" n="83" break="no"/>scendi pro hoc statu, posse probari per
+            <lb ed="#V" n="84"/>rationem natutralem possibilem esse
+            beati<lb ed="#V" n="85" break="no"/>tudinem veram. Frustra redarguit Niphus
+            <lb ed="#V" n="86"/>2. Met. disp. 3. cap. 4. Doctorem
+            incon<lb ed="#V" n="87" break="no"/>stantiae, quod supra asseruerit dist. 43.
+            <pb ed="#V" n="307"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>q. 2. immortalitatem animae non posse
+            <lb ed="#V" n="2"/>demonstrari, hic vero doceat
+            possibilita<lb ed="#V" n="3" break="no"/>tem beatitudinis verae demonstrari posse,
+            <lb ed="#V" n="4"/>quae repugnant.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Respondetur Doctorem in priori loco
+            <lb ed="#V" n="6"/>agere de demonstratione convincente
+            Phi<lb ed="#V" n="7" break="no"/>losophum, prout fundatur in principiis
+            <lb ed="#V" n="8"/>ab eo receptis, et secundum modum
+            cogni<lb ed="#V" n="9" break="no"/>tionis hujus status. Hic vero, idem
+            asse<lb ed="#V" n="10" break="no"/>rit de beatitudine attendendo ad modum
+            <lb ed="#V" n="11"/>imperfectum cognitionis hujus status;
+            <lb ed="#V" n="12"/>neque admittit demonstrationem, nisi
+            <lb ed="#V" n="13"/>respectu intellectus perfecti non
+            depen<lb ed="#V" n="14" break="no"/>dentis a sensibus tantum in cognoscendo,
+            <lb ed="#V" n="15"/>et qui possit apprehendere naturam
+            termi<lb ed="#V" n="16" break="no"/>norum, ut determinant ad assensum, et
+            <lb ed="#V" n="17"/>se mutuo respiciunt secundum rationes
+            <lb ed="#V" n="18"/>proprias; eodem etiam modo admitteret
+            <lb ed="#V" n="19"/>immortalitatem animae demonstrari posse
+            <lb ed="#V" n="20"/>seclusa imperfectione hujus status, nam
+            <lb ed="#V" n="21"/>utrobique ratio ex se necessaria est,
+            <lb ed="#V" n="22"/>quamvis non cogat intellectum
+            imperfe<lb ed="#V" n="23" break="no"/>ctum, neque aliud genus demonstrationis
+            <lb ed="#V" n="24"/>intendit Doctor hic, ut patet ex
+            conclusi<lb ed="#V" n="25" break="no"/>one ejus: Sublata, inquit, imperfectione
+            <lb ed="#V" n="26"/>illius status quoad cognitionem, etc.
+            Pa<lb ed="#V" n="27" break="no"/>tet etiam ex paragrapho praecedenti, ubi
+            <lb ed="#V" n="28"/>asserit Philosophum juxta imperfectum
+            <lb ed="#V" n="29"/>modum cognoscendi hujus status, et
+            <lb ed="#V" n="30"/>principia ex eo tradita, negare
+            possibilita<lb ed="#V" n="31" break="no"/>tem beatitudinis verae. Aliud nempe est
+            <lb ed="#V" n="32"/>rationem esse necessariam et evidentem
+            <lb ed="#V" n="33"/>respectu intellectus concipientis terminos
+            <lb ed="#V" n="34"/>sub ratione propria, et non impediti.
+            <lb ed="#V" n="35"/>Aliud vero esse necessariam respectu
+            in<lb ed="#V" n="36" break="no"/>tellectus impediti non concipientis
+            termi<lb ed="#V" n="37" break="no"/>nos perfecte et sub ratione propria, ut
+            <lb ed="#V" n="38"/>recte Doctor asserit de propositione per
+            <lb ed="#V" n="39"/>se nota in 1. dist. 2. quaest. 2. nam in
+            <lb ed="#V" n="40"/>tali intellectu impedito, sicut non est
+            <lb ed="#V" n="41"/>cognitio perfecta terminorum aut
+            princi<lb ed="#V" n="42" break="no"/>piorum, ita neque conclusio est ei
+            neces<lb ed="#V" n="43" break="no"/>saria, quae alioquin in se necessaria est,
+            <lb ed="#V" n="44"/>et respective etiam ad intellectum non
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>impeditum. Et sic loquitur Doctor hic de
+            <lb ed="#V" n="46"/>ratione necessaria, neque supra aliter
+            do<lb ed="#V" n="47" break="no"/>cuit de immortalitate animae, nam eadem
+            <lb ed="#V" n="48"/>ratione, qua hic probat possibilitatem
+            bea<lb ed="#V" n="49" break="no"/>titudinis verae, supra contra Philosophos
+            <lb ed="#V" n="50"/>probat immortalitatem animae, et
+            abstra<lb ed="#V" n="51" break="no"/>ctionem ejus a materia; sumit ergo
+            <lb ed="#V" n="52"/>demonstrationem aliter hic, et aliter loco
+            <lb ed="#V" n="53"/>praemisso. Et quamvis hic admittat
+            rati<lb ed="#V" n="54" break="no"/>one necessaria probari posse beatitudinis
+            <lb ed="#V" n="55"/>verae possibilitatem, intelligit hoc
+            respe<lb ed="#V" n="56" break="no"/>ctive tantum ad intellectum illuminatum,
+            <lb ed="#V" n="57"/>et non impeditum, non vero respective ad
+            <lb ed="#V" n="58"/>intellectum ligatum sensibus juxta
+            mo<lb ed="#V" n="59" break="no"/>dum cognoscendi hujus status, et
+            existen<lb ed="#V" n="60" break="no"/>tem in puris naturalibus, quia respectu
+            <lb ed="#V" n="61"/>hujus non esset ratio necessario, sicut
+            <lb ed="#V" n="62"/>neque respectu Philosophi, ut ipse dicit.
+            <lb ed="#V" n="63"/>Quo sensu etiam intelligenda sunt quae
+            <lb ed="#V" n="64"/>disserit in quaestione secunda hujus
+            di<lb ed="#V" n="65" break="no"/>stinctionis, ut ubi notavimus contra
+            Sua<lb ed="#V" n="66" break="no"/>rez, qui melius interpretari posset
+            sen<lb ed="#V" n="67" break="no"/>tentiam quam imponit Doctori ex hac
+            <lb ed="#V" n="68"/>conclusione; sed neque hic asserit Doctor
+            <lb ed="#V" n="69"/>veritatem hanc probari ratione naturali,
+            <lb ed="#V" n="70"/>nisi seclasa imperfectione hujus status
+            <lb ed="#V" n="71"/>quantum ad modum cognoscendi. Unde
+            <lb ed="#V" n="72"/>per ipsum constat non demonstrari ab
+            <lb ed="#V" n="73"/>intellectu dependente a sensibus in
+            cogni<lb ed="#V" n="74" break="no"/>tione, sed sciri tantum per
+            revelati<lb ed="#V" n="75" break="no"/>onem, non solum beatitudinem veram
+            <lb ed="#V" n="76"/>fore quantum ad eventum, sed, etiam
+            <lb ed="#V" n="77"/>quantum ad possibilitatem, probari
+            ta<lb ed="#V" n="78" break="no"/>men posse ab intellectu perfecto, qualiter
+            <lb ed="#V" n="79"/>autem dicetur. Eum sequitur Vasquez 1.
+            <lb ed="#V" n="80"/>2. disp. 20. cap. 2. Inclinat Conrad. 1. 2.
+            <lb ed="#V" n="81"/>q. 5. art. 1. et pro ea citari solet D.
+            Tho<lb ed="#V" n="82" break="no"/>mas 1. 1. quaest. 12. art. 1. de verit.
+            <lb ed="#V" n="83"/>quoest. 8. art. 1. lib. 3. contra Gentes,
+            <lb ed="#V" n="84"/>cap. 51. ubi Ferrarien, admittit visionem
+            <lb ed="#V" n="85"/>Dei ut primae causae, probari posse
+            lumi<lb ed="#V" n="86" break="no"/>ne naturali possibilem.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>Probat Doctor conclusionem ex illo
+            prin<lb ed="#V" n="88" break="no"/>cipio, quod adducit quaestione prima Pro
+            <pb ed="#V" n="308"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>logi in favorem Philosophorum contra
+            <lb ed="#V" n="2"/>necessitatem doctrinae revelatae. Omnis
+            <lb ed="#V" n="3"/>potentia habens objectum primum
+            adae<lb ed="#V" n="4" break="no"/>quatum potest in quodlibet contentum sub
+            <lb ed="#V" n="5"/>objecto per se; sed ens ut commune Deo
+            <lb ed="#V" n="6"/>et creaturis, est objectum primum
+            intelle<lb ed="#V" n="7" break="no"/>ctus; ergo potest in omne contentum sub
+            <lb ed="#V" n="8"/>ente, et consequenter in perfectissimum,
+            <lb ed="#V" n="9"/>alioquin non quietatur ejus appetitus, nisi
+            <lb ed="#V" n="10"/>attingat illud.
+          </p>
+          <p>
+            <lb ed="#V" n="11"/>Dices cum Philosopho, ens ut est
+            com<lb ed="#V" n="12" break="no"/>mune tantum materialibus, esse objectum
+            <lb ed="#V" n="13"/>primum et adaequatum intellectus.
+          </p>
+          <p>
+            <lb ed="#V" n="14"/>Contra, quia objectum habitus non
+            ex<lb ed="#V" n="15" break="no"/>cedit objectum potentiae; ens autenf ut
+            <lb ed="#V" n="16"/>sic est objectum Metaphysicae, ex
+            Philo<lb ed="#V" n="17" break="no"/>sopho 4. Met. text. 1. ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Dices conceptum communem entis esse
+            <lb ed="#V" n="19"/>quidem objectum terminativum
+            intelle<lb ed="#V" n="20" break="no"/>ctus, non tamen motivum; sed ens
+            sen<lb ed="#V" n="21" break="no"/>sibile aut materiale, et per abstractionem
+            <lb ed="#V" n="22"/>perveniri ad ens ut sic. Illud autem in
+            <lb ed="#V" n="23"/>quo consistit beatitudo intellectus debet
+            <lb ed="#V" n="24"/>esse motivum ejus.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Contra urget Doctor: Impossibile est
+            <lb ed="#V" n="26"/>beatitudinem intellectus consistere in
+            ali<lb ed="#V" n="27" break="no"/>quo conceptu imperfectiore, quam sit
+            <lb ed="#V" n="28"/>conceptus rei sensibilis; conceptus
+            au<lb ed="#V" n="29" break="no"/>tem causatus de Deo ex re sensibili est
+            <lb ed="#V" n="30"/>imperfectior, quia effectus nequit
+            exce<lb ed="#V" n="31" break="no"/>dere causam suam, quae in proposito est
+            <lb ed="#V" n="32"/>intellectus cum cognitione de re sensibili,
+            <lb ed="#V" n="33"/>quae cognitio est effectus ejus adaequatus
+            <lb ed="#V" n="34"/>secundum perfectionem virtutis; ergo
+            <lb ed="#V" n="35"/>nequit perfectiorem causare de Deo.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Si autem dicas posse causare
+            perfecti<lb ed="#V" n="37" break="no"/>orem, tunc destruitur responsio data,
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>quae limitat perfectionem et
+            attingen<lb ed="#V" n="39" break="no"/>tiam intellectus ad motivum
+            desum<lb ed="#V" n="40" break="no"/>ptum ex se sensibili, quatenus aliter
+            ne<lb ed="#V" n="41" break="no"/>queat attingere Deum nisi per hoc
+            <lb ed="#V" n="42"/>medium. Unde ipse Philosophus statuens
+            <lb ed="#V" n="43"/>felicitatem intellectus in perfectissima
+            <lb ed="#V" n="44"/>cognitione substantiae primae, recedit ab
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>illa ratione, qua probaretur impossibilitas
+            <lb ed="#V" n="46"/>beatitudinis verae ex imperfecto motivo
+            <lb ed="#V" n="47"/>intellectus nostri pro hoc statu.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Vis ergo hujus rationis in hoc consistit,
+            <lb ed="#V" n="49"/>ideo repugnaret intellectui cognitio Dei d
+            <lb ed="#V" n="50"/>sub ratione propria, quia haec cognitio
+            <lb ed="#V" n="51"/>excedit perfectione medii et motivi
+            intel<lb ed="#V" n="52" break="no"/>lectus, quod est res materialis; ergo hoc
+            <lb ed="#V" n="53"/>dato omnis cognitio excedens
+            perfecti<lb ed="#V" n="54" break="no"/>onem hujus motivi repugnat intellectui;
+            <lb ed="#V" n="55"/>ergo in nulla tali statuenda est felicitas
+            <lb ed="#V" n="56"/>intellectus. Consequens est contra ipsumi
+            <lb ed="#V" n="57"/>Philosophum; ergo falsum est antecedens,
+            <lb ed="#V" n="58"/>nempe motivum intellectus esse
+            quiddi<lb ed="#V" n="59" break="no"/>tatem rei sensibilis aut felicitatem
+            intelle<lb ed="#V" n="60" break="no"/>ctus statuendam esse in aliqua cognitione,
+            <lb ed="#V" n="61"/>quae solum habeatur ex motivo rei
+            sensi<lb ed="#V" n="62" break="no"/>bilis tanquam ex causa.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Confirmatur: Omnis potentia quietatur
+            <lb ed="#V" n="64"/>in suo per se motivo, aut aliquo perfe
+            <lb ed="#V" n="65"/>ctissimo sub tali motivo; sed appetitus
+            <lb ed="#V" n="66"/>non quietatur in quidditate rei sensibilis
+            <lb ed="#V" n="67"/>in communi, aut in particulari sensibili;
+            <lb ed="#V" n="68"/>ergo non est per se motivum intellectus.
+            <lb ed="#V" n="69"/>Major patet, quia potentia passiva
+            reduci<lb ed="#V" n="70" break="no"/>tur ad actum, ad quem inclinatur per
+            <lb ed="#V" n="71"/>adaequatam suam causam, et quo magis
+            <lb ed="#V" n="72"/>assimilatur agenti adaequato, eo
+            per<lb ed="#V" n="73" break="no"/>fectius reducitur ad actum; mensura
+            <lb ed="#V" n="74"/>enim actus aut perfectionis in potentia
+            <lb ed="#V" n="75"/>passiva, est virtus agentis, ut nata est
+            <lb ed="#V" n="76"/>exerceri in potentiam, aut subjectum.
+            <lb ed="#V" n="77"/>Nulla autem causa efficiens continet in
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>virtute sua effectum perfectiorem, quam
+            <lb ed="#V" n="79"/>sit ipsum esse causae formale, quin imo
+            <lb ed="#V" n="80"/>perfectio virtutis, et effectus designatur
+            <lb ed="#V" n="81"/>in eo quod est effectum ipsum maxime
+            <lb ed="#V" n="82"/>assimilari causae; sed intellectus
+            respe<lb ed="#V" n="83" break="no"/>ctu sui motivi adaequati est potentia
+            pas<lb ed="#V" n="84" break="no"/>siva; ergo ex natura sua ad nullum
+            intel<lb ed="#V" n="85" break="no"/>ligibile magis inclinatur quam ad suum
+            <lb ed="#V" n="86"/>motivum adaequatum ex natura potentiae,
+            <lb ed="#V" n="87"/>et quo magis ipsi assimilatur, eo magis
+            <lb ed="#V" n="88"/>et perfectius reducitur ad actum, et
+            ac<pb ed="#V" n="309"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>cedit ad mensuram suae perfectionis
+            in<lb ed="#V" n="2" break="no"/>quantum perfectibilis est; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Minor principalis probatur, quia
+            appeti<lb ed="#V" n="4" break="no"/>tus intellectus nequit quietari in aliquo
+            <lb ed="#V" n="5"/>ente, tanquam fine objectivo, quod est
+            <lb ed="#V" n="6"/>inferius ipso intellectu, quantum ad
+            per<lb ed="#V" n="7" break="no"/>fectionem et esse: talis est quidditas
+            <lb ed="#V" n="8"/>materialis et rei sensibilis; ergo nequit
+            <lb ed="#V" n="9"/>quietare appetitum intellectus ad
+            felicita<lb ed="#V" n="10" break="no"/>tem tanquam finis. Idem patet, quia
+            in<lb ed="#V" n="11" break="no"/>tellectus nequit quietari in aliquo, quod
+            <lb ed="#V" n="12"/>est extra rationem suae per se causte,
+            <lb ed="#V" n="13"/>quia nihil aliud potest esse terminus
+            quie<lb ed="#V" n="14" break="no"/>tativus suae inclinationis, nisi illud a quo
+            <lb ed="#V" n="15"/>s recipit tantum suum esse, et inclinationem,
+            <lb ed="#V" n="16"/>et cujus ipsa est participatio; ille est solus
+            <lb ed="#V" n="17"/>Deus, non secundum rationem
+            commu<lb ed="#V" n="18" break="no"/>nem sibi et aliis, sed secundum rationem
+            <lb ed="#V" n="19"/>particularem sibi propriam; ergo
+            appe<lb ed="#V" n="20" break="no"/>titus intellectus non satiatur nisi in Deo
+            <lb ed="#V" n="21"/>sic cognito. Probatur consequentia, quia
+            <lb ed="#V" n="22"/>inclinatio intellectus est ad cognitionem
+            <lb ed="#V" n="23"/>entis et veritatis, et ad prima
+            princi<lb ed="#V" n="24" break="no"/>pia incomplexa, et altissimas causas, ut
+            <lb ed="#V" n="25"/>admittit ipse Philosophus, hac ratione
+            <lb ed="#V" n="26"/>docens Metaphysicam esse perfectissimam
+            <lb ed="#V" n="27"/>scientiam et certissimam, et felicitatem
+            <lb ed="#V" n="28"/>nostram esse in contemplatione maxime
+            <lb ed="#V" n="29"/>primae substantiae. Patet etiam
+            experien<lb ed="#V" n="30" break="no"/>tia, qua intellectus non sistat in
+            cogniti<lb ed="#V" n="31" break="no"/>one inferiorum, sed per varias collationes
+            <lb ed="#V" n="32"/>et discursus, et abstractiones tendit ex
+            <lb ed="#V" n="33"/>inferioribus ad superiora, reducens
+            prin<lb ed="#V" n="34" break="no"/>cipia et veritates, quas cognoscit de
+            in<lb ed="#V" n="35" break="no"/>ferioribus, seclusis imperfectionibus, et
+            in<lb ed="#V" n="36" break="no"/>certitudine ad primas veritates, in quibus
+            <lb ed="#V" n="37"/>per se sistit, et maxime in prima rerum
+            <lb ed="#V" n="38"/>causa et fine. Per oppositum hujus
+            sen<lb ed="#V" n="39" break="no"/>sus sistit in cognitione rei sensibilis, quae
+            <lb ed="#V" n="40"/>est motivum ejus adaequatum; ergo non
+            <lb ed="#V" n="41"/>est motivum adaequatum intellectus,
+            ne<lb ed="#V" n="42" break="no"/>que immediatum et perfectissimum ut
+            in<lb ed="#V" n="43" break="no"/>clinatur ad suam beatitudinem formalem et
+            <lb ed="#V" n="44"/>objectivam; tum quia superiori potentiae,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>ut est nata reduci ad actum
+            perfectissi<lb ed="#V" n="46" break="no"/>mum, in quo quietatur, debet assignari
+            mo<lb ed="#V" n="47" break="no"/>tivum superioris ordinis et perfectionis;
+            <lb ed="#V" n="48"/>tum quia ipsa experientia constat, et
+            com<lb ed="#V" n="49" break="no"/>muni sensu Philosophorum sapientum, qui
+            <lb ed="#V" n="50"/>magis ad veritatem accesserunt,
+            intelle<lb ed="#V" n="51" break="no"/>ctus perfectionem non consistere in
+            adhae<lb ed="#V" n="52" break="no"/>sione ad sensibile objectum, et hanc esse
+            <lb ed="#V" n="53"/>infimam cognitionem intellectualem, in
+            <lb ed="#V" n="54"/>qua communicat cum cognitiva inferioris
+            <lb ed="#V" n="55"/>ordinis et gradus. Unde sequitur
+            cogni<lb ed="#V" n="56" break="no"/>tionem sensibilium non solum non esse
+            <lb ed="#V" n="57"/>perfectissimam, ad quam inclinatur
+            in<lb ed="#V" n="58" break="no"/>tellectus, sed ad usum et occasionem
+            ser<lb ed="#V" n="59" break="no"/>vire, ut ad perfectiorem assurgat. Vide
+            <lb ed="#V" n="60"/>quae dicta sunt d. 1. q. 2. quarti.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Dices hoc verum esse quantum ad
+            in<lb ed="#V" n="62" break="no"/>clinationem potentiae, quae respicit
+            pri<lb ed="#V" n="63" break="no"/>mum ens in quo quietatur, tamen ex
+            <lb ed="#V" n="64"/>imperfectione virtutis intellectivae, et
+            me<lb ed="#V" n="65" break="no"/>diorum cognoscendi, limitari ejus
+            inclina<lb ed="#V" n="66" break="no"/>tionem passivam et appetitum ad hoc
+            <lb ed="#V" n="67"/>genus cognitionis solum, quod haurit ex
+            <lb ed="#V" n="68"/>materialibus tanquam rationibus, ex
+            qui<lb ed="#V" n="69" break="no"/>bus consurgit. Unde illa comparatio
+            intel<lb ed="#V" n="70" break="no"/>lectus nostri satis frequens cum oculo
+            <lb ed="#V" n="71"/>noctuae, ut respicit Solem, et inclinatur
+            <lb ed="#V" n="72"/>ad ejus visionem, quod tamen non
+            appe<lb ed="#V" n="73" break="no"/>tit videre aliter quam est conveniens ipsi.
+            <lb ed="#V" n="74"/>Neque etiam oculus noster appetit videre
+            <lb ed="#V" n="75"/>Solem, qua in se visibilis est, magis quam
+            <lb ed="#V" n="76"/>ferat acies pupillae; sic ergo intellectus se
+            <lb ed="#V" n="77"/>habet ad Deum, et ejus cognitionem
+            ser<lb ed="#V" n="78" break="no"/>vata proportione ad media, per quae
+            tan<lb ed="#V" n="79" break="no"/>tum natus est reduci ad actum, quo
+            at<lb ed="#V" n="80" break="no"/>tingit Deum per viam sensus,
+            proceden<lb ed="#V" n="81" break="no"/>do per abstractionem.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>Contra primum, assumendo instantiam,
+            <lb ed="#V" n="83"/>licet illa comparatio teneat, si comparetur
+            <lb ed="#V" n="84"/>cognitio vilissima nostri intellectus ad
+            <lb ed="#V" n="85"/>cognitionem, quam Deus habet de seipso
+            <lb ed="#V" n="86"/>quantum ad excessum perfectionis, quae
+            <lb ed="#V" n="87"/>major est sine proportione; vel si
+            compa<lb ed="#V" n="88" break="no"/>retur etiam cognitio nostra pro hoc statu
+            <pb ed="#V" n="310"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ad cognitionem alterius vitae de Deo,
+            <lb ed="#V" n="2"/>tamen non concludit propositum, quia
+            <lb ed="#V" n="3"/>oculus noctuae in ordine ad visibile
+            exce<lb ed="#V" n="4" break="no"/>dens, sicut etiam noster oculus mortalis
+            <lb ed="#V" n="5"/>ad Solem, qua in se visibilis est,
+            inclina<lb ed="#V" n="6" break="no"/>tur secundum temperamentum organi in
+            <lb ed="#V" n="7"/>gradu quo congruit ipsi temperamento,
+            <lb ed="#V" n="8"/>ne offendatur, aut diffluat; nam omnis
+            <lb ed="#V" n="9"/>potentia ad actum secundum, ut est
+            per<lb ed="#V" n="10" break="no"/>fectio sua, ita inclinatur, ut conservetur
+            <lb ed="#V" n="11"/>actus primus, et non corrumpatur, sicut
+            <lb ed="#V" n="12"/>organum corrumpitur per visibile
+            exce<lb ed="#V" n="13" break="no"/>dens temperamentum, et mediam
+            qualita<lb ed="#V" n="14" break="no"/>tem organi. Sed non ita contingit in
+            <lb ed="#V" n="15"/>intellectu, quae est potentia non organica,
+            <lb ed="#V" n="16"/>et quo perfectius attingit primam
+            sub<lb ed="#V" n="17" break="no"/>stantiam, eo magis illuminatur et
+            vigora<lb ed="#V" n="18" break="no"/>tur, in quo non est comparatio ejus ad
+            <lb ed="#V" n="19"/>sensum, et proinde instantia quoad hoc
+            <lb ed="#V" n="20"/>non est ad propositum.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Contra rationem autem adductam in
+            <lb ed="#V" n="22"/>responsione facit quod inclinatio naturalis
+            <lb ed="#V" n="23"/>intellectus quo magis abstrahit et recedit
+            <lb ed="#V" n="24"/>a motivo sensibili et materiali, eo magis
+            <lb ed="#V" n="25"/>et perfectius reducitur ad actum, et per
+            <lb ed="#V" n="26"/>se tendat per abstractionem supra tale
+            <lb ed="#V" n="27"/>motivum, inquirendo veritatem. Sed
+            nul<lb ed="#V" n="28" break="no"/>la potentia mobilis tendit extra rationem
+            <lb ed="#V" n="29"/>sui motivi adaequati; ergo objectum
+            sen<lb ed="#V" n="30" break="no"/>sibile non est tale motivum intellectus;
+            <lb ed="#V" n="31"/>ergo aliud debet assignari, quia
+            intelle<lb ed="#V" n="32" break="no"/>ctus ut est potentia passiva, nequit reduci
+            <lb ed="#V" n="33"/>ad actum, nisi per aliquod motivum;
+            <lb ed="#V" n="34"/>de hoc quaeritur. Nequit autem esse
+            <lb ed="#V" n="35"/>ens sensibile, quia tale nequit reducere
+            <lb ed="#V" n="36"/>intellectum ad actum circa objectum
+            <lb ed="#V" n="37"/>abstrahens a materiali. Non est conceptus
+            <lb ed="#V" n="38"/>transcendens, quia hic solum potestate
+            <lb ed="#V" n="39"/>includit veritatem, quae est de prima
+            <lb ed="#V" n="40"/>substantia, et aliis separatis; ergo
+            neces<lb ed="#V" n="41" break="no"/>sario erit aliquid ex natura potentiae, quod
+            <lb ed="#V" n="42"/>virtute continet perfectionem operationis,
+            <lb ed="#V" n="43"/>ad quam summe inclinatur ipsa potentia,
+            <lb ed="#V" n="44"/>tanquam ad ultimam quietativam. Hoc
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>autem non est aliud quam ipsa prima
+            <lb ed="#V" n="46"/>substantia, nam quod est ultimum
+            perfe<lb ed="#V" n="47" break="no"/>ctivum extrinsecum potentiae, cui
+            adhae<lb ed="#V" n="48" break="no"/>ret per operationem, erit etiam motivum
+            <lb ed="#V" n="49"/>ejus, quia nihil aliud continet virtute
+            <lb ed="#V" n="50"/>illam operationem, in qua ultimate
+            quie<lb ed="#V" n="51" break="no"/>tatur intellectus. Quod confirmat
+            proces<lb ed="#V" n="52" break="no"/>sus intellectus abstrahens a materialibus, a
+            <lb ed="#V" n="53"/>quia ideo ab iis abstrahit, quia in illis non
+            <lb ed="#V" n="54"/>invenit motivum sufficiens, quo
+            reduca<lb ed="#V" n="55" break="no"/>tur in actum perfectissimum suum; ergo
+            <lb ed="#V" n="56"/>ex necessitate attingendi motivum
+            proxi<lb ed="#V" n="57" break="no"/>mum et immediatum talis operationis
+            in<lb ed="#V" n="58" break="no"/>tellectus, abstractio, reflexio, et caeteri
+            <lb ed="#V" n="59"/>discursus et collationes fiunt, quorum
+            <lb ed="#V" n="60"/>nullus esset usus, si in ente sensibili et
+            <lb ed="#V" n="61"/>materiali applicaretur ei motivum
+            suffici<lb ed="#V" n="62" break="no"/>ens et adaequatum.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>Quod autem dicitur intellectus
+            inclinati<lb ed="#V" n="64" break="no"/>onem contineri per media sensibilia, et
+            <lb ed="#V" n="65"/>limitari, ita ut aliter non inclinetur ad
+            <lb ed="#V" n="66"/>ultimam beatitudinem sui, nisi ut haberi
+            <lb ed="#V" n="67"/>potest per talia media, et hoc ex
+            imperfe<lb ed="#V" n="68" break="no"/>ctione virtutis intellectivae, improbatur,
+            <lb ed="#V" n="69"/>quia haec imperfectio non est ex natura
+            <lb ed="#V" n="70"/>potentiae, sed ex defectu motivi
+            sufficien<lb ed="#V" n="71" break="no"/>tis pro hoc statu, ut constat ex
+            inclinati<lb ed="#V" n="72" break="no"/>one cadem potentiae, tam elicita quam
+            <lb ed="#V" n="73"/>innata, quando per aliud medium
+            superi<lb ed="#V" n="74" break="no"/>oris ordinis illustratur, ut per lumen
+            <lb ed="#V" n="75"/>fidei, aut propheticum, et revelationis,
+            <lb ed="#V" n="76"/>ut constat. Sed quoniam hoc ignotum fuit
+            <lb ed="#V" n="77"/>Philosophis, quibuscum disseritur, alio
+            <lb ed="#V" n="78"/>medio utendum est. Philosophus 1. Ethic.
+            <lb ed="#V" n="79"/>cap. 7. Finis perfectus, inquit,
+            simplici<lb ed="#V" n="80" break="no"/>ter est, qui propter se semper, et nunquam
+            <lb ed="#V" n="81"/>ob aliud est. Item, perfectum bonum est,
+            <lb ed="#V" n="82"/>quod per se est sufficiens; sufficiens
+            <lb ed="#V" n="83"/>autem per se illud esse ponimus, quod
+            <lb ed="#V" n="84"/>solum a caeteris segregatum expetibilem
+            <lb ed="#V" n="85"/>vitam facit, reique nullius indigentem.
+            <lb ed="#V" n="86"/>Hujusmodi autem felicitatem existimamus
+            <lb ed="#V" n="87"/>esse, etc. et lib. 1. cap. 2. asserit cum
+            <lb ed="#V" n="88"/>Platone, summum bonum per se, et nullo
+            <pb ed="#V" n="311"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>addito tale esse, et non fieri expetibilius
+            <lb ed="#V" n="2"/>propter additum alterius boni, etc. Quibus
+            <lb ed="#V" n="3"/>suppositis, sic argumentor: Idem est
+            <lb ed="#V" n="4"/>motivum et beatificativum intellectus,
+            <lb ed="#V" n="5"/>nam illud solum est motivum, quod
+            vir<lb ed="#V" n="6" break="no"/>tute continet operationem, per quam
+            <lb ed="#V" n="7"/>adhaeret, et in qua consistit ejus felicitas;
+            <lb ed="#V" n="8"/>ergo non ex natura intellectus provenit
+            <lb ed="#V" n="9"/>quod illud motivum non posset attingere
+            <lb ed="#V" n="10"/>immediate, sed ex defectu applicationis,
+            <lb ed="#V" n="11"/>quod si applicari potest immediate, et
+            <lb ed="#V" n="12"/>seipso reducit intellectum ad actum, quia
+            <lb ed="#V" n="13"/>est bonum simpliciter et sufficiens, et
+            <lb ed="#V" n="14"/>propter se bonum intellectus; ergo
+            <lb ed="#V" n="15"/>virtute continens operationem, ad quam
+            <lb ed="#V" n="16"/>intellectus est in potentia, ut perfectibilis
+            <lb ed="#V" n="17"/>per felicitatem. Neque per aliud objectum
+            <lb ed="#V" n="18"/>inclinatio passiva ejus potest reduci ad
+            <lb ed="#V" n="19"/>actum, et probatur, perfectissimum et
+            <lb ed="#V" n="20"/>sufficiens motivum seipso immediate, et
+            <lb ed="#V" n="21"/>non per aliud natum est reducere ad actum
+            <lb ed="#V" n="22"/>potentiam passivam, quam immediate
+            <lb ed="#V" n="23"/>seipso respicit. Sed tale motivum respectu
+            <lb ed="#V" n="24"/>intellectus, ut beatificabilis est solus Deus;
+            <lb ed="#V" n="25"/>ergo potest immediate seipso movere
+            <lb ed="#V" n="26"/>intellectum secundum inclinationem
+            intel<lb ed="#V" n="27" break="no"/>lectus ad ipsum. Probatur consequentia,
+            <lb ed="#V" n="28"/>quia nulla est repugnantia, aut
+            impedi<lb ed="#V" n="29" break="no"/>mentum ex parte intellectus ex natura
+            <lb ed="#V" n="30"/>potentiae, quin sic moveri possit, quia non
+            <lb ed="#V" n="31"/>obstat dependentia a sensu, v. g. in anima
+            <lb ed="#V" n="32"/>separata et immortali, et ex iis quibus
+            <lb ed="#V" n="33"/>superius probatum est animam esse
+            <lb ed="#V" n="34"/>spiritualem et independentem a materia
+            <lb ed="#V" n="35"/>per viam operationis abstractae a materia.
+            <lb ed="#V" n="36"/>Et patet etiam ex praemissis, quibus
+            <lb ed="#V" n="37"/>ostensum est motivum intellectus
+            ad<lb ed="#V" n="38" break="no"/>aequatum non esse ens sensibile aut
+            ma<lb ed="#V" n="39" break="no"/>teriale; ergo ex parte potentiae non est
+            <lb ed="#V" n="40"/>repugnantia, quin moveri possit
+            imme<lb ed="#V" n="41" break="no"/>diate a prima substantia, in qua sola
+            quie<lb ed="#V" n="42" break="no"/>tatur.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Ulterius, quod possit moveri etiam ad
+            <lb ed="#V" n="44"/>operationem, quae sit ipsiu sub ratione
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>propria et perfecta, probatur quia
+            appeti<lb ed="#V" n="46" break="no"/>tus intellectus non quietatur in ipso, nisi
+            <lb ed="#V" n="47"/>ut est summum bonum sufficiens et
+            com<lb ed="#V" n="48" break="no"/>pletum seipso, nullo alio addito, sed haec
+            <lb ed="#V" n="49"/>ipsi competunt sub ratione sua propria et
+            <lb ed="#V" n="50"/>particulari; ergo sic tantum quietat
+            intel<lb ed="#V" n="51" break="no"/>lectum, et beatificat. Hunc autem
+            conce<lb ed="#V" n="52" break="no"/>ptum seu operationem nequit intellectus
+            <lb ed="#V" n="53"/>habere per aliud motivum extraneum ipsi;
+            <lb ed="#V" n="54"/>ergo, etc. Major admittitur a Philosopho,
+            <lb ed="#V" n="55"/>et minor. Probatur consequentia, quia
+            <lb ed="#V" n="56"/>appetitus intellectus nequit quietari nisi
+            <lb ed="#V" n="57"/>in summo ente; qua ens tale est positive,
+            <lb ed="#V" n="58"/>et sub ratione propria nullo alio
+            superad<lb ed="#V" n="59" break="no"/>dito; sicut enim inclinatio potentiae est ad
+            <lb ed="#V" n="60"/>operationem, qua est beatitudo formalis
+            <lb ed="#V" n="61"/>ejus et forma positiva, et unit perfectivo
+            <lb ed="#V" n="62"/>extrinseco; sic etiam non beatur in
+            per<lb ed="#V" n="63" break="no"/>fectivo extrinseco, nisi ut illud positive se
+            <lb ed="#V" n="64"/>habet quoad se, et sic unitur intellectus.
+            <lb ed="#V" n="65"/>quia appetitus intellectus non est ad
+            ali<lb ed="#V" n="66" break="no"/>quod negativum, aut negationem, sicut
+            <lb ed="#V" n="67"/>et nullus appetitus est ad negationem, ut
+            <lb ed="#V" n="68"/>ad perfectionem, quia sicut negatio non
+            <lb ed="#V" n="69"/>est ens, ita etiam non dicit differentiam
+            <lb ed="#V" n="70"/>entis, qualis est perfectio; ergo appetitus
+            <lb ed="#V" n="71"/>intellectus non satiatur in summo ente
+            <lb ed="#V" n="72"/>per conceptum negativum ejus quo
+            con<lb ed="#V" n="73" break="no"/>cipitur tantum per remotionem
+            imperfe<lb ed="#V" n="74" break="no"/>ctionis, quae est in aliis, et ipsi
+            repu<lb ed="#V" n="75" break="no"/>gnans, quia sic summum ens non seipso,
+            <lb ed="#V" n="76"/>sed in addito, vel per additum ex
+            negoti<lb ed="#V" n="77" break="no"/>atione intellectus imperfecte concipientis
+            <lb ed="#V" n="78"/>beatificaret, non vero qua ens est, et
+            <lb ed="#V" n="79"/>qua primum ens dicit perfectionem
+            <lb ed="#V" n="80"/>propriam, quam ex tali conceptu
+            nega<lb ed="#V" n="81" break="no"/>tivo non attingit intellectus sub ratione
+            <lb ed="#V" n="82"/>propria et positive, sed in ratione
+            <lb ed="#V" n="83"/>extranea et negativa. Patet ergo ratio
+            <lb ed="#V" n="84"/>haec Doctoris, per quam tantum
+            con<lb ed="#V" n="85" break="no"/>tendit Deum sub ratione propria
+            attin<lb ed="#V" n="86" break="no"/>gi posse per intellectum, licet non per
+            <lb ed="#V" n="87"/>media sensibilia, aut ex sensibilibus; sub
+            <lb ed="#V" n="88"/>ratione, inquam, propria, vel intuitive,
+            <pb ed="#V" n="312"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>vel abstractive modo cognitio abstractiva
+            <lb ed="#V" n="2"/>sit Dei sub ratione propria.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>(g) Secundo probo, etc. Haec est
+            secun<lb ed="#V" n="4" break="no"/>da probatio conclusionis, quae complet
+            <lb ed="#V" n="5"/>priorem probationem, velut subsumpta,
+            <lb ed="#V" n="6"/>quia quod intellectus feratur in Deum
+            <lb ed="#V" n="7"/>sub ratione propria, non inde habetur
+            <lb ed="#V" n="8"/>juxta plurium Doctorum sententiam, quod
+            <lb ed="#V" n="9"/>feratur intuitive, nam plures docent dari
+            <lb ed="#V" n="10"/>eposse notitiam Dei sub ratione propria
+            <lb ed="#V" n="11"/>abstractivam, ut noster Doctor in 2. d. 3.
+            <lb ed="#V" n="12"/>q. 9. S Hac distinctione praemissa, quem
+            <lb ed="#V" n="13"/>sequuntur reliqui nostrae Scholae, et
+            Ma<lb ed="#V" n="14" break="no"/>jor quaest. 5. conclus. 5. et in prologo
+            <lb ed="#V" n="15"/>q. 3. Occhamus q. 1. art. 5. Gabriel
+            <lb ed="#V" n="16"/>art. 3. conclus. 1. Aliacus quaest. 1.
+            <lb ed="#V" n="17"/>art. 2. Capreolus in 2. dist. 23. q. 1.
+            <lb ed="#V" n="18"/>art. 3. Ad argumenta Scoti, Molina 1.
+            <lb ed="#V" n="19"/>part. q. 1. art. 2. disp. ult. 8 Ex his
+            <lb ed="#V" n="20"/>duabus sententiis, Salas etiam 1. 2.
+            <lb ed="#V" n="21"/>tract. 2. q. 3. disp. 3. sect. 1. et 7.
+            <lb ed="#V" n="22"/>negat praemissam consequentiam.
+            Vas<lb ed="#V" n="23" break="no"/>quez etiam 1. p. dist. 134. c. 3. admittit
+            <lb ed="#V" n="24"/>notitiam Dei, quamvis per impossibile
+            <lb ed="#V" n="25"/>non esset ejus ut praesentis et existentis
+            <lb ed="#V" n="26"/>fore beatificam, quia repraesentaret Deum
+            <lb ed="#V" n="27"/>sub ratione infiniti, licet ipse ibidem
+            <lb ed="#V" n="28"/>revocet talem notitiam ad intuitivam:
+            <lb ed="#V" n="29"/>tamen esset alterius rationis ab intuitiva,
+            <lb ed="#V" n="30"/>de qua modo agimus, ut est Dei in se
+            <lb ed="#V" n="31"/>ut praesentis et existentis exercite ad
+            po<lb ed="#V" n="32" break="no"/>tentiam videntem.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Probat ergo Doctor videri posse Deum
+            <lb ed="#V" n="34"/>intuitive perfecte ab intellectu creato,
+            <lb ed="#V" n="35"/>quia quod est perfectionis simpliciter in
+            <lb ed="#V" n="36"/>aliquo genere, si competit inferiori in
+            <lb ed="#V" n="37"/>illo genere, competit et superiori in eodem
+            <lb ed="#V" n="38"/>genere; sed cognitio intuitiva convenit
+            <lb ed="#V" n="39"/>sensui, quae est potentia infima in genere
+            <lb ed="#V" n="40"/>cognitivae; ergo multo minus convenit
+            <lb ed="#V" n="41"/>intellectui, ut quietatur in suo objecto
+            <lb ed="#V" n="42"/>perfectissimo. Deinde, probat intuitivam
+            <lb ed="#V" n="43"/>convenire intellectui ex natura potentiae,
+            <lb ed="#V" n="44"/>quia alias non esset in nobis cognitio
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>experimentalis de actibus internis nostris,
+            <lb ed="#V" n="46"/>quod voluntas nunc velit hoc objectum,
+            <lb ed="#V" n="47"/>nunc non velit, etc. Sed non est major
+            <lb ed="#V" n="48"/>ratio cur intellectus noster sit intuitivus
+            <lb ed="#V" n="49"/>respectu unius quam alterius; ergo
+            ma<lb ed="#V" n="50" break="no"/>xime est intuitivus quantum est ex
+            natu<lb ed="#V" n="51" break="no"/>ra potentiae respectu objecti
+            perfectis<lb ed="#V" n="52" break="no"/>simi, in quo nata est beari. Probatur
+            <lb ed="#V" n="53"/>consequentia, quia beatitudo est operatio
+            <lb ed="#V" n="54"/>perfectissima potentiae; ergo quantum ad
+            <lb ed="#V" n="55"/>modum perfectissimum cognoscendi, est
+            <lb ed="#V" n="56"/>statuenda in visione, et non in cognitione
+            <lb ed="#V" n="57"/>abstractiva.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Huc revocari possunt quae praemissa
+            <lb ed="#V" n="59"/>sunt hic et quaestione secunda hujus
+            di<lb ed="#V" n="60" break="no"/>stinctionis. Quamvis autem ratio haec
+            <lb ed="#V" n="61"/>sit necessaria respectu intellectus
+            illu<lb ed="#V" n="62" break="no"/>strati per fidem, qui cognoscit
+            possibili<lb ed="#V" n="63" break="no"/>tatem visionis, et prout de facto
+            contin<lb ed="#V" n="64" break="no"/>git, non est simpliciter convincens
+            respe<lb ed="#V" n="65" break="no"/>ctu Philosophi, quia neque ex
+            cogniti<lb ed="#V" n="66" break="no"/>one, quam habemus de facto ipsius
+            intel<lb ed="#V" n="67" break="no"/>lectus creati, per modum cognoscendi
+            <lb ed="#V" n="68"/>naturalem hujus status. Itaque minus
+            <lb ed="#V" n="69"/>evidens est secunda haec probatio, seu
+            <lb ed="#V" n="70"/>subsumptum, et ratio est, quia etiam ex
+            <lb ed="#V" n="71"/>natura rei, virtus intellectus creati ad
+            <lb ed="#V" n="72"/>videndum Deum est in genere potentiae
+            in<lb ed="#V" n="73" break="no"/>choata tantum, neque ex naturalibus suis,
+            <lb ed="#V" n="74"/>aut aliis mediis notis solo lumine
+            natura<lb ed="#V" n="75" break="no"/>li, potest attingere Deum per visionem
+            in<lb ed="#V" n="76" break="no"/>tuitivam; ex causa autem remota et
+            in<lb ed="#V" n="77" break="no"/>choata non sufficienter deducitur
+            possibi<lb ed="#V" n="78" break="no"/>litas effectus, neque etiam cognoscitur ordo
+            <lb ed="#V" n="79"/>ipsius ad effectum, qui dependet ex
+            me<lb ed="#V" n="80" break="no"/>diis supernaturalibus. Ideoque non
+            con<lb ed="#V" n="81" break="no"/>tendit Doctor eam esse necessariam
+            respe<lb ed="#V" n="82" break="no"/>ctu Philosophi, sed tantum suasionem
+            <lb ed="#V" n="83"/>veritatis, quamvis respectu intellectus
+            illu<lb ed="#V" n="84" break="no"/>strati sit ratio necessaria, qui
+            apprehen<lb ed="#V" n="85" break="no"/>dit terminos perfecte. An autem
+            intelle<lb ed="#V" n="86" break="no"/>ctus separatus Angeli aut animae posset
+            <lb ed="#V" n="87"/>ex solis naturalibus seclusa revelatione
+            <lb ed="#V" n="88"/>attingere hanc veritatem, mihi satis
+            du<pb ed="#V" n="313"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>bium est, quod infra magis apparebit
+            <lb ed="#V" n="2"/>conclusione 2. quia effectus dependens
+            <lb ed="#V" n="3"/>a Deo agente supernaturaliter, non
+            vide<lb ed="#V" n="4" break="no"/>tur posse attingi solo lumine naturali
+            <lb ed="#V" n="5"/>intellectus. Quantumlibet ergo haec ratio
+            <lb ed="#V" n="6"/>non sit necessaria positive contra
+            Philo<lb ed="#V" n="7" break="no"/>sophum, potest dici necessaria negative,
+            <lb ed="#V" n="8"/>quatenus ostendit intellectum attingere
+            <lb ed="#V" n="9"/>posse aliquam operationem beatificam,
+            <lb ed="#V" n="10"/>quam non potest habere ex motivo entis
+            <lb ed="#V" n="11"/>sensibilis aut materialis, et hoc sensu
+            <lb ed="#V" n="12"/>eum posse attingere perfectius Deum,
+            <lb ed="#V" n="13"/>quam ut fert cognitio desumpta a
+            sen<lb ed="#V" n="14" break="no"/>su, aut ab ipso dependens.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>Addo tamen quod rationes sunt in
+            <lb ed="#V" n="16"/>reipsa demonstrationes respectu
+            intelle<lb ed="#V" n="17" break="no"/>- ctus perfecte concipientis terminos, v. g.
+            <lb ed="#V" n="18"/>eae rationes quae concludant de
+            proprieta<lb ed="#V" n="19" break="no"/>tibus primi entis respectu intellectus
+            <lb ed="#V" n="20"/>beatorum, ut infra Doctor loquitur de
+            <lb ed="#V" n="21"/>Theologia beatorum queest. 3. Aliae
+            rati<lb ed="#V" n="22" break="no"/>ones sunt demonstrationes respectu
+            ani<lb ed="#V" n="23" break="no"/>mae separatae et Angeli, quibus
+            demon<lb ed="#V" n="24" break="no"/>stratur perfectionem nostram secundum
+            <lb ed="#V" n="25"/>intellectum excedere modum cognoscendi
+            <lb ed="#V" n="26"/>hujus status; sic intelligenda est limitatio
+            <lb ed="#V" n="27"/>Doctoris, sublata imperfectione, etc.
+            <lb ed="#V" n="28"/>Tertio denique, respectu intellectus
+            illu<lb ed="#V" n="29" break="no"/>strati etiam in via supposito lumine fidei,
+            <lb ed="#V" n="30"/>rationes illae sunt certissimae, et
+            exce<lb ed="#V" n="31" break="no"/>dunt genus probabilitatis, et sunt
+            scienti<lb ed="#V" n="32" break="no"/>ficae eo modo quo sumitur scientia a
+            Phi<lb ed="#V" n="33" break="no"/>losopho in 6. Ethic c. 4. pro cognitione
+            <lb ed="#V" n="34"/>certa excludente dubitationem, et
+            exce<lb ed="#V" n="35" break="no"/>dente opinionem. Quarto, respectu
+            Philo<lb ed="#V" n="36" break="no"/>sophi, ut subest errori pravae dispositionis
+            <lb ed="#V" n="37"/>vel nescientiae, non convincunt
+            determina<lb ed="#V" n="38" break="no"/>te, sed solvunt rationes naturales
+            quas<lb ed="#V" n="39" break="no"/>cumque in oppositum, probabiliter
+            sua<lb ed="#V" n="40" break="no"/>dent veritatem, et sic loquitur Doctor
+            <lb ed="#V" n="41"/>supra, et in Reportatis dist. 49. quoest. 7.
+            <lb ed="#V" n="42"/>easdem in prologo quoest. 1. vocat eo
+            <lb ed="#V" n="43"/>sensu probabiles rationes. Quinto denique,
+            <lb ed="#V" n="44"/>indeterminate probant alteram partem
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>hujus contradictionis, fruitio est ultimus
+            <lb ed="#V" n="46"/>finis, fruitio non est ultimis finis, esse
+            <lb ed="#V" n="47"/>necessario sciendam. Quod probat prima
+            <lb ed="#V" n="48"/>ratio et secunda, ut intellectus non sit
+            <lb ed="#V" n="49"/>dubius aut suspensus circa finem, quia
+            <lb ed="#V" n="50"/>impediretur ejus assecutio; affirmativam
+            <lb ed="#V" n="51"/>autem partem concludunt tantum ex
+            <lb ed="#V" n="52"/>creditis, ita Doctor quaest. illa 1. prologi
+            <lb ed="#V" n="53"/>num. 24. et haec est demonstratio moralis
+            <lb ed="#V" n="54"/>supponens necessariam esse cognitionem
+            <lb ed="#V" n="55"/>determinatam beatitudinis finalis, et eam
+            <lb ed="#V" n="56"/>esse sequendam, quae est communis
+            <lb ed="#V" n="57"/>assertio et instinctus Philosophorum,
+            <lb ed="#V" n="58"/>quibus suppositis debet tolli dubitatio
+            <lb ed="#V" n="59"/>et ignorantia practica ab intellectu circa
+            <lb ed="#V" n="60"/>illud problema: An fruitio sit finis, vel
+            <lb ed="#V" n="61"/>contrarium. Et sic procedit Philosophus
+            <lb ed="#V" n="62"/>primo Ethic, cap. 1. laudans quod
+            vete<lb ed="#V" n="63" break="no"/>res dixerunt bonum ipsum esse quod
+            <lb ed="#V" n="64"/>omnia appetunt, et aliquem finem in
+            <lb ed="#V" n="65"/>omnibus appetendum, cap. 2. quod unus
+            <lb ed="#V" n="66"/>finis sit, propter quem reliqui appetuntur:
+            <lb ed="#V" n="67"/>Neque enim fit, inquit, ut omnia propter
+            <lb ed="#V" n="68"/>aliud expetamus; esset enim hoc modo
+            <lb ed="#V" n="69"/>sine ullo fine progressus, atque noster
+            <lb ed="#V" n="70"/>appetitus inanis esset et vanus, etc.
+            <lb ed="#V" n="71"/>nempe finis appetitus, si non daretur
+            <lb ed="#V" n="72"/>unus finis, in quo esset quiescendum;
+            <lb ed="#V" n="73"/>cap. 3. de modo procedendi ad
+            investiga<lb ed="#V" n="74" break="no"/>tionem felicitatis; cap. 4. et sequentibus
+            <lb ed="#V" n="75"/>usque ad nonum, de varietate finium, et
+            <lb ed="#V" n="76"/>sententiis aliorum, quas refutat, deinceps
+            <lb ed="#V" n="77"/>de modo assequendi ejus, etc. Unde liquet
+            <lb ed="#V" n="78"/>necessarium esse agenti propter finem et
+            <lb ed="#V" n="79"/>felicitatem, scire, an hic sit finis vel non.
+            <lb ed="#V" n="80"/>Rationes autem positae ut solvunt rationes
+            <lb ed="#V" n="81"/>Philosophorum, et applicant generalia
+            <lb ed="#V" n="82"/>principia, probando Philosophos errasse,
+            <lb ed="#V" n="83"/>neque attigisse veritatem, et aliam esse
+            <lb ed="#V" n="84"/>felicitatem investigandam, reddunt
+            opini<lb ed="#V" n="85" break="no"/>onem Philosophorum de felicitate dubiam
+            <lb ed="#V" n="86"/>et incertam. Spectato etiam lumine
+            natu<lb ed="#V" n="87" break="no"/>rali, sic probant demonstrative et practice
+            <lb ed="#V" n="88"/>alterum illius contradictionis esse
+            neces<lb ed="#V" n="89" break="no"/>sario sciendum.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d49q8-p4"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43" type="fixed=315"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>(h) Secundo videndum est, etc. Est
+            se<lb ed="#V" n="45" break="no"/>cunda conclusio respondens quaestioni
+            <lb ed="#V" n="46"/>titulari, nempe nullam naturam
+            inferio<lb ed="#V" n="47" break="no"/>rem humana posse attingere beatitudinem
+            <lb ed="#V" n="48"/>simpliciter, aut beatificabilem esse, quia
+            <lb ed="#V" n="49"/>nequit esse beatitudo simpliciter, nisi
+            <lb ed="#V" n="50"/>respectu objecti immaterialis; nulla autem
+            <lb ed="#V" n="51"/>natura inferior humana potest attingere
+            <lb ed="#V" n="52"/>objectum immateriale. Subjungit Doctor
+            <lb ed="#V" n="53"/>alteram partem conclusionis, nempe
+            bea<lb ed="#V" n="54" break="no"/>tificari secundum quid potentias
+            sensiti<lb ed="#V" n="55" break="no"/>vas, quae per operationes immanentes
+            <lb ed="#V" n="56"/>conjunguntur suo optimo extrinseco,
+            <lb ed="#V" n="57"/>quae pars magis verificatur in homine
+            <lb ed="#V" n="58"/>quam in bruto, quia in statu gloriae et
+            <lb ed="#V" n="59"/>corporis assumpti erit etiam in sensu
+            <lb ed="#V" n="60"/>quaedam beatitudo secundum quid, et
+            <lb ed="#V" n="61"/>proportionata suae capacitati.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Secundo probat conclusionem
+            princi<lb ed="#V" n="63" break="no"/>palem, quia nulla alia natura inferior
+            ho<lb ed="#V" n="64" break="no"/>mine conjungitur meliori se, quia omnis
+            <lb ed="#V" n="65"/>natura animata anima sensitiva
+            perfe<lb ed="#V" n="66" break="no"/>ctior est objecto materiali sensibili, quod
+            <lb ed="#V" n="67"/>respicit.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Tertio deducit quod illa, quae non sunt
+            <lb ed="#V" n="69"/>sensibilia, neque simpliciter, neque
+            se<lb ed="#V" n="70" break="no"/>cundum quid, beatificantur, quia
+            bea<lb ed="#V" n="71" break="no"/>titudo consistit in operatione conjungente
+            <lb ed="#V" n="72"/>suo optimo extrinseco objecto; illa
+            au<lb ed="#V" n="73" break="no"/>tem nullam habent operationem talem.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Si objicias: Lapis quiescit in suo
+            cen<lb ed="#V" n="75" break="no"/>tro, aut grave.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Respondet hoc metaphorice dici, quia
+            <lb ed="#V" n="77"/>nullam habet operationem aut actionem
+            <lb ed="#V" n="78"/>circa centrum, et ille motus ejus ad
+            cen<lb ed="#V" n="79" break="no"/>trum est tantum respectu ubi
+            natura<lb ed="#V" n="80" break="no"/>lis.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Concludit tandem intentum, scilicet
+            <lb ed="#V" n="82"/>hominem esse beatificabilem simpliciter,
+            <lb ed="#V" n="83"/>et nihil aliud homine inferius, quod
+            do<pb ed="#V" n="316"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>cuit Philosophus 1. Ethic, c. 8. et 9.
+            Au<lb ed="#V" n="2" break="no"/>gustin. lib. 83. qq. et Nyss. in libro de
+            <lb ed="#V" n="3"/>beatitudinibus; patet eiam ex hactenus
+            <lb ed="#V" n="4"/>dictis.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>(1) Ad argumenta. Ad primum, etc. Hoc
+            <lb ed="#V" n="6"/>fuit, quod anima esset capax beatitudinis;
+            <lb ed="#V" n="7"/>sed ipsa inferior homine, etc. ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="8"/>Respondet animam esse partem
+            homi<lb ed="#V" n="9" break="no"/>nis, et immediatum susceptivum
+            beatitu<lb ed="#V" n="10" break="no"/>dinis, et consequenter tota natura ut
+            <lb ed="#V" n="11"/>quod est susceptivum beatitudinis, anima
+            <lb ed="#V" n="12"/>ut quo.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>(k) Ad secundum dico, etc. Hoc fuit,
+            <lb ed="#V" n="14"/>quod inter Angelum et hominem est ordo
+            <lb ed="#V" n="15"/>essentialis, et Angelus immediatius se
+            <lb ed="#V" n="16"/>habet ad Deum; ergo immediatius attingit
+            <lb ed="#V" n="17"/>beatitudinem, nempe Deum, et
+            conse<lb ed="#V" n="18" break="no"/>quenter homo mediante Angelo.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Respondet, quod utraque natura
+            imme<lb ed="#V" n="20" break="no"/>diate ordinatur ad finem, et omnis
+            intel<lb ed="#V" n="21" break="no"/>lectus objectum immediatum est ens licet
+            <lb ed="#V" n="22"/>perfectionis ordo inter naturas spirituales
+            <lb ed="#V" n="23"/>servetur inter se, non tamen ad finem.
+            <lb ed="#V" n="24"/>Exemplum: Aquila clarius videt Solem
+            <lb ed="#V" n="25"/>quam homo, uterque tamen immediate
+            <lb ed="#V" n="26"/>attingit, et non medio altero.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>(i) Ad aliud, etc. Hoc fuit tertium:
+            <lb ed="#V" n="28"/>Aliae naturae inferiores homine ultimate
+            <lb ed="#V" n="29"/>quietantur, quia alias essent in statu
+            vio<lb ed="#V" n="30" break="no"/>lento; ergo sunt capaces beatitudinis.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>Respondet ens quietari alia quiete
+            <lb ed="#V" n="32"/>diversa a quiete beatifica per operationem.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>(m) Ad aliud, de fine dico, etc. Hoc
+            <lb ed="#V" n="34"/>fuit quartum argumentum: Causae primae
+            <lb ed="#V" n="35"/>universalissimae respondet finis ultimus
+            <lb ed="#V" n="36"/>universalissimus; sed Deus est causa
+            <lb ed="#V" n="37"/>efficiens immediata omnium, ergo erit
+            <lb ed="#V" n="38"/>finis immediatus omnium; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Respondet quod finis multipliciter
+            sumi<lb ed="#V" n="40" break="no"/>tur, aliquando pro causa finali; aliquando
+            <lb ed="#V" n="41"/>pro perfectione ultima, ad quam res
+            ordi<lb ed="#V" n="42" break="no"/>natur; aliquando pro optimo; aliquando
+            <lb ed="#V" n="43"/>pro ultimo. Hi duo ultimi modi non
+            fa<lb ed="#V" n="44" break="no"/>ciunt ad propositum.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Respondet resolutive Deum esse finem
+            <lb ed="#V" n="46"/>ultimum juxta praesens institutum,
+            qua<lb ed="#V" n="47" break="no"/>tenus est perfectio ultima objectiva, ad
+            <lb ed="#V" n="48"/>quam natura spiritualis ordinatur. Quod
+            <lb ed="#V" n="49"/>autem asserit Deum esse finem
+            operati<lb ed="#V" n="50" break="no"/>onum beatificantium, intelligit de fine ut
+            <lb ed="#V" n="51"/>objecto. An sic actiones elicitae immediate
+            <lb ed="#V" n="52"/>circa finem sint propter finem, Doctores
+            <lb ed="#V" n="53"/>variant, sed est quaestio magis de nomine
+            <lb ed="#V" n="54"/>quam de re, quia secundum diversam
+            ac<lb ed="#V" n="55" break="no"/>ceptionem finis.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

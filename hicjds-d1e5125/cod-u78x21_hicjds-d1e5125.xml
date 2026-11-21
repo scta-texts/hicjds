@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 49, Pars 1, Quaestio 5</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 49, Pars 1, Quaestio 5</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x21">Vives, Paris, 1894, volume 21</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="171"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e5125"><!-- hicjds-b4d49p1q5 -->
+        <head>Quaestio 5</head>
+        <head type="question-title">Utrum beatitudo simpliciter consistit in actu voluntatis qui est fruitio</head>
+        <!-- <div alias="hiq-d49q5-p1"> -->
+          <p>
+            <lb ed="#V" n="39" type="fixed=171"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>(a) Utrum beatitudo simpliciter, etc. In
+            <lb ed="#V" n="41"/>superiori quaestione disseruit, an
+            beatitu<lb ed="#V" n="42" break="no"/>do consistat in actu intellectus aut
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>voluntatis, et resolvit consistere
+            beati<lb ed="#V" n="44" break="no"/>tudinem, ut est ultimum complementum
+            <lb ed="#V" n="45"/>creaturae intellectualis, in actu voluntatis.
+            <lb ed="#V" n="46"/>Controversia praesens est de actu amoris
+            <lb ed="#V" n="47"/>amicitiae et amoris concupiscentiae, non
+            <lb ed="#V" n="48"/>vero de gaudio aut delectatione, si est
+            <lb ed="#V" n="49"/>actus elicitus; de hoc enim disserit infra
+            <lb ed="#V" n="50"/>quaest. 7.
+            <lb ed="#V" n="51"/>Prima sententia est amorem
+            concupi<lb ed="#V" n="52" break="no"/>scentiae spectare ad essentiam beatitudinis,
+            <lb ed="#V" n="53"/>ita tenuit Richardus in hac distinctione
+            <lb ed="#V" n="54"/>art. 1. quaest. 6. nec displicet Bassoli
+            <lb ed="#V" n="55"/>quaest. 2. a. 3. Vasquez 1. 2. disp. 11. cap.
+            <lb ed="#V" n="56"/>Ita tenuisse refert aliquos Modernos.
+            Se<lb ed="#V" n="57" break="no"/>cunda sententia est eorum, qui statuunt?
+            <lb ed="#V" n="58"/>beatitudinem esse in solo intellectu, ac
+            <lb ed="#V" n="59"/>proinde ullum amorem non spectare ad
+            <lb ed="#V" n="60"/>beatitudinem essentialem; de hac actum
+            <lb ed="#V" n="61"/>est in superiore quaestione. Tertia
+            senten<lb ed="#V" n="62" break="no"/>tia admittit in actu intellectus et
+            volunta<lb ed="#V" n="63" break="no"/>tis consistere beatitudinem; de hac actum
+            <lb ed="#V" n="64"/>est quaestione tertia superiori. Quarta
+            <lb ed="#V" n="65"/>sententia est nostri Doctoris hic, ubi
+            <lb ed="#V" n="66"/>docet in solo actu amicitiae consistere
+            <lb ed="#V" n="67"/>beatitudinem, et non in actu
+            concupi<lb ed="#V" n="68" break="no"/>scentiae. Dividitur quaestio in duas
+            conclu<lb ed="#V" n="69" break="no"/>siones, quarum prima docet in sola
+            <lb ed="#V" n="70"/>fruitione constitui beatitudinem.
+            Secun<lb ed="#V" n="71" break="no"/>da vero non in quacumque fruitione,
+            <lb ed="#V" n="72"/>sed in illa, quae supponit claram Dei
+            <lb ed="#V" n="73"/>visionem.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d49q5-p2"> -->
+          <p>
+            <lb ed="#V" n="32" type="fixed=173"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>(b) Ad quaestionem, sunt duae
+            conclusi<lb ed="#V" n="34" break="no"/>ones, etc. Prima conclusio est: In solo
+            <lb ed="#V" n="35"/>actu fruitionis consistere beatitudinem, in
+            <lb ed="#V" n="36"/>natura intellectuali, etc. Ad probationem
+            <lb ed="#V" n="37"/>conclusionis praemittit divisionem actus
+            <lb ed="#V" n="38"/>voluntatis in genere in velle et nolle;
+            <lb ed="#V" n="39"/>velle autem duplex est in genere, aut
+            <lb ed="#V" n="40"/>propter volitum, aut propter bonum
+            vo<lb ed="#V" n="41" break="no"/>liti; aut est propter volentem bonum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="42"/>ipsum, aut propter bonum volentis.
+            Pri<lb ed="#V" n="43" break="no"/>mum velle dicitur amoris amicitiae;
+            se<lb ed="#V" n="44" break="no"/>cundum amoris concupiscentiae, et
+            pri<lb ed="#V" n="45" break="no"/>mum velle dicit frui, quod est amore
+            in<lb ed="#V" n="46" break="no"/>haerere propter se, id est, amatum hoc
+            <lb ed="#V" n="47"/>amore. Distinctio communiter recepta est,
+            <lb ed="#V" n="48"/>quamvis sit quaedam controversia de
+            di<lb ed="#V" n="49" break="no"/>stinctione amoris concupiscentiae ab
+            amo<lb ed="#V" n="50" break="no"/>re amicitiae; supponit autem Doctor
+            <lb ed="#V" n="51"/>eodem amore nos velle amico bonum quo
+            <lb ed="#V" n="52"/>volumus ipsum amicum, et eodem etiam
+            <lb ed="#V" n="53"/>nos amore velle nobis bonum quo nos
+            <lb ed="#V" n="54"/>ipsos volumus, quia nempe ex ratione
+            <lb ed="#V" n="55"/>boni primarii secundario volumus amico,
+            <lb ed="#V" n="56"/>aut nobis ipsis bonum. Nominales
+            distin<lb ed="#V" n="57" break="no"/>guunt amorem amicitiae et concupiscentiae
+            <lb ed="#V" n="58"/>realiter, ita ut velle amicum, et velle
+            bo<lb ed="#V" n="59" break="no"/>num animo distinguant realiter.
+            Commu<lb ed="#V" n="60" break="no"/>nis tenet oppositum, quam hic proinde
+            <lb ed="#V" n="61"/>supponit Doctor, non sumit concupiscere
+            <lb ed="#V" n="62"/>late, ut distinguitur contra irascibile, sed
+            <lb ed="#V" n="63"/>ut distinguitur in diversos hos affectus
+            pri<lb ed="#V" n="64" break="no"/>marios, qui secundario, et eodem actu
+            <lb ed="#V" n="65"/>tendunt in bonum secundarium, quod
+            <lb ed="#V" n="66"/>est amici, aut volentis. Objicit contra
+            <lb ed="#V" n="67"/>secundum membrum divisionis illud
+            Au<lb ed="#V" n="68" break="no"/>gustini 9. de Trin. cap. ultimo: Appetitus
+            <lb ed="#V" n="69"/>inhiantis fit amor fruentis, etc. Sed hic
+            <lb ed="#V" n="70"/>appetitus pertinet ad affectum
+            concupi<lb ed="#V" n="71" break="no"/>scentiae; ergo etiam et fruitio. Respondet
+            <lb ed="#V" n="72"/>viatorem velle Deum utroque modo,
+            <lb ed="#V" n="73"/>nempe amore concupiscentiae, quo sibi
+            <lb ed="#V" n="74"/>vult Deum per actum spei, et amore
+            <lb ed="#V" n="75"/>amicitiae, quo vult Deum propter se, et i
+            <lb ed="#V" n="76"/>bene esse Deo. Primus amor
+            concupiscen<lb ed="#V" n="77" break="no"/>tiae fit complacentia boni habiti et possessi
+            <lb ed="#V" n="78"/>per amorem amicitiae, per quem beatur
+            <lb ed="#V" n="79"/>et possidet finem; et haec complacentia
+            <lb ed="#V" n="80"/>non est ipsa fruitio aut possessio boni,
+            <lb ed="#V" n="81"/>sed eam supponit; et dicitur amor
+            fruen<lb ed="#V" n="82" break="no"/>tis specificative, id est, ejus qui fruitur,
+            <lb ed="#V" n="83"/>non quo fruitur. Secundus autem
+            appeti<lb ed="#V" n="84" break="no"/>tus seu amor imperfectus, id est, amor
+            <lb ed="#V" n="85"/>amicitiae, qui in viatore est imperfectus,
+            <pb ed="#V" n="174"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ut comparatur ad fruitionem patriae,
+            trans<lb ed="#V" n="2" break="no"/>it in ipsam fruitionem, et fit perfectus
+            <lb ed="#V" n="3"/>amor fruentis, seu quo formaliter fruitur;
+            <lb ed="#V" n="4"/>itaque illa particula: Secundus appetitus,
+            <lb ed="#V" n="5"/>id est, amor imperfectus, etc. non est
+            <lb ed="#V" n="6"/>intelligenda de amore imperfecto
+            secun<lb ed="#V" n="7" break="no"/>dum speciem, id est, differentiam
+            imper<lb ed="#V" n="8" break="no"/>fectionis, quae competit amori
+            concupi<lb ed="#V" n="9" break="no"/>scentiae, ut distinguitur per affectum
+            <lb ed="#V" n="10"/>inferiorem ab amore amicitiae, qui est
+            <lb ed="#V" n="11"/>secundum perfectiorem affectum, sed
+            <lb ed="#V" n="12"/>sumitur pro amore amicitiae in via, qui
+            <lb ed="#V" n="13"/>imperfectus est, ut comparatur ad
+            amo<lb ed="#V" n="14" break="no"/>rem fruitionis, in quem transit in patria.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>(e) Praemissa divisione, etc. Probat
+            con<lb ed="#V" n="16" break="no"/>clusionem quoad primum membrum, non
+            <lb ed="#V" n="17"/>concludendo, neque excludendo
+            passi<lb ed="#V" n="18" break="no"/>ones, de quibus infra disserit quaest. 7.
+            <lb ed="#V" n="19"/>Quod ergo beatitudo non consistat in
+            ali<lb ed="#V" n="20" break="no"/>quo nolle, probat, quia nolle habet
+            ma<lb ed="#V" n="21" break="no"/>lum pro objecto, quod nequit esse
+            be<lb ed="#V" n="22" break="no"/>atitudo, quia haec immediate respicit
+            <lb ed="#V" n="23"/>ultimum finem, neque habetur virtute
+            <lb ed="#V" n="24"/>alicujus actus prioris; nolle autem non
+            <lb ed="#V" n="25"/>est immediatum respectu finis, neque
+            <lb ed="#V" n="26"/>primus actus voluntatis, quia non habetur
+            <lb ed="#V" n="27"/>communiter nisi virtute alicujus velle, ex
+            <lb ed="#V" n="28"/>Anselmo de casu Diab. c. 3. Nullus
+            de<lb ed="#V" n="29" break="no"/>serit justitiam, nisi volendo aliquid quod
+            <lb ed="#V" n="30"/>non stat cum justitia, etc. Patet etiam,
+            <lb ed="#V" n="31"/>quia ideo etiam aliquis fugit malum, quia
+            <lb ed="#V" n="32"/>inclinatione, aut habitu, aut actu elicito
+            <lb ed="#V" n="33"/>fertur in bonum; ergo actu vel virtute
+            <lb ed="#V" n="34"/>supponit fuga mali appetitum boni.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>Secundo probat non consistere actu
+            <lb ed="#V" n="36"/>concupiscentiae, quia licet possit esse
+            bo<lb ed="#V" n="37" break="no"/>nus, si debite circumstantionatus, tamen
+            <lb ed="#V" n="38"/>non est bonus ex ratione sui, vel objecto,
+            <lb ed="#V" n="39"/>etiam Deo, indefectibiliter, qui potest esse
+            <lb ed="#V" n="40"/>immoderatus, quod apparet ex Augustino
+            <lb ed="#V" n="41"/>83. qq. 30. Perversitas est in utendo
+            fruen<lb ed="#V" n="42" break="no"/>dis, etc. Sic etiam Anselmus de casu
+            <lb ed="#V" n="43"/>Diaboli cap. 6. dicit Angelum
+            peccas<lb ed="#V" n="44" break="no"/>se primo immoderate, concupiscendo
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>sibi objectum beatificum, quod aliqui
+            <lb ed="#V" n="46"/>appetebant, et habuissent si stetissent;
+            <lb ed="#V" n="47"/>nihil enim aeque ac prius appetebant quam
+            <lb ed="#V" n="48"/>beatitudinem, ad quam est summa
+            in<lb ed="#V" n="49" break="no"/>clinatio ad commodum. Status autem
+            ami<lb ed="#V" n="50" break="no"/>citiae ad Deum ratione sui et objecti, est
+            <lb ed="#V" n="51"/>bonus, nunquam potens esse
+            immodera<lb ed="#V" n="52" break="no"/>tus excedendo, licet forte deficere
+            pos<lb ed="#V" n="53" break="no"/>sit. Confirmatur ratio, quia actus
+            charita<lb ed="#V" n="54" break="no"/>tis est regula caeterorum, et nequit
+            obli<lb ed="#V" n="55" break="no"/>quari positive in finem, quia ex natura
+            <lb ed="#V" n="56"/>inclinationis supremae ad finem, ex natura
+            <lb ed="#V" n="57"/>objecti et modi tendendi in finem, ut est
+            <lb ed="#V" n="58"/>immediate circa Deum in se, et propter
+            <lb ed="#V" n="59"/>se bonum, non dependet ab ullis
+            circum<lb ed="#V" n="60" break="no"/>stantiis praeter solam cognitionem finis,
+            <lb ed="#V" n="61"/>neque alium priorem supponit, per quem
+            <lb ed="#V" n="62"/>ordinaretur in finem, sed exclusis aliis
+            <lb ed="#V" n="63"/>extrinsecis tendit in finem absolute. Actus
+            <lb ed="#V" n="64"/>vero concupiscentiae licet tendat in finem,
+            <lb ed="#V" n="65"/>tamen regulatur per charitatem, et dicit
+            <lb ed="#V" n="66"/>ordinem ad media acquirendi finem, ut
+            <lb ed="#V" n="67"/>actus spei, sine quibus nequit esse
+            ordina<lb ed="#V" n="68" break="no"/>tus; beatitudo debet consistere in actu
+            <lb ed="#V" n="69"/>perfectissimo, qui est assecutio finis, et
+            <lb ed="#V" n="70"/>qui nequit obliquari, sed sit finis absolute
+            <lb ed="#V" n="71"/>propter se, et non respiciens conditiones
+            <lb ed="#V" n="72"/>extrinsecas; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Tertio probat conclusionem, quia actus
+            <lb ed="#V" n="74"/>concupiscentiae non est, nec esse potest
+            <lb ed="#V" n="75"/>primus actus voluntatis respectu finis,
+            <lb ed="#V" n="76"/>quia omne concupiscere est virtute
+            alicu<lb ed="#V" n="77" break="no"/>jus amicitiae, quia ideo concupisco huic
+            <lb ed="#V" n="78"/>bonum, quia hunc amo, ita ut velle alicui
+            <lb ed="#V" n="79"/>bonum sit objectum secundarium, et ex
+            <lb ed="#V" n="80"/>motivo primarii ad illud inclinatur
+            volun<lb ed="#V" n="81" break="no"/>tas. Sublato ergo amore amicitiae, vel
+            <lb ed="#V" n="82"/>tendentia in bonum absolute, tollitur
+            <lb ed="#V" n="83"/>etiam tendentia in illud quod ad bonum
+            <lb ed="#V" n="84"/>dicit ordinem, inquantum hunc ordinem
+            <lb ed="#V" n="85"/>dicit; et quod tantum inclinat
+            volunta<lb ed="#V" n="86" break="no"/>tem, inquantum ipsa afficitur circa bonum
+            <lb ed="#V" n="87"/>absolute.
+          </p>
+          <p>
+            <lb ed="#V" n="88"/>Praeterea probat, quia actus amicitiae est
+            <pb ed="#V" n="175"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>in voluntate secundum affectum justitiae,
+            <lb ed="#V" n="2"/>et superiorem. Nulla autem inclinatio est
+            <lb ed="#V" n="3"/>in voluntate superior illa, qua immediate
+            <lb ed="#V" n="4"/>et absolute tendit in finem; hinc
+            Ansel<lb ed="#V" n="5" break="no"/>mus cap. 14. de Casu Diaboli dicit, si
+            <lb ed="#V" n="6"/>solus esset affectus commodi in voluntate
+            <lb ed="#V" n="7"/>ejus, non posset non summe sibi velle
+            <lb ed="#V" n="8"/>commoda; nobilior autem affectio
+            secun<lb ed="#V" n="9" break="no"/>dum rationem est illa justitiae
+            regu<lb ed="#V" n="10" break="no"/>latrix et moderatrix voluntatis inquantum
+            <lb ed="#V" n="11"/>libera est, cujus esset affectio commodi,
+            <lb ed="#V" n="12"/>etiamsi esset necessaria. Deinde, actus
+            <lb ed="#V" n="13"/>amicitiae tendit in bonum absolute et
+            pro<lb ed="#V" n="14" break="no"/>pter se; affectus commodi in bonum
+            vo<lb ed="#V" n="15" break="no"/>lentis, perfectior autem est ratio boni in
+            <lb ed="#V" n="16"/>se quam boni mihi, vel ordo boni ad
+            ali<lb ed="#V" n="17" break="no"/>quod extrinsecum tanquam perfectivi ad
+            <lb ed="#V" n="18"/>perfectibile, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Tandem conclusio quoad primam partem
+            <lb ed="#V" n="20"/>patet, quidquid dixerit Vasquez allegando
+            <lb ed="#V" n="21"/>hanc esse sententiam solius Scoti et
+            suo<lb ed="#V" n="22" break="no"/>rum discipulorum, quia quotquot statuunt
+            <lb ed="#V" n="23"/>beatitudinem, tam in actu intellectus
+            <lb ed="#V" n="24"/>quam voluntatis, principalius eam dicunt
+            <lb ed="#V" n="25"/>spectare ad voluntatem, ut secundum
+            <lb ed="#V" n="26"/>affectum charitatis adhaeret fini clare viso.
+            <lb ed="#V" n="27"/>Quoad secundam vero partem exclusivam,
+            <lb ed="#V" n="28"/>scilicet amoris commodi, consequenter
+            <lb ed="#V" n="29"/>idem dicendum est, supposito principio
+            <lb ed="#V" n="30"/>communi utrique tam D. Thomae quam
+            <lb ed="#V" n="31"/>nostrae Scholae, beatitudinem consistere in
+            <lb ed="#V" n="32"/>uno tantum actu perfectissimo, qua
+            beati<lb ed="#V" n="33" break="no"/>tudo est ultimum complementum hominis,
+            <lb ed="#V" n="34"/>quia per unum actum possidetur finis,
+            <lb ed="#V" n="35"/>quem necessario supponit amor commodi.
+            <lb ed="#V" n="36"/>De hoc puncto satis est dictum in
+            praece<lb ed="#V" n="37" break="no"/>dentibus, et soluta sunt argumenta
+            qui<lb ed="#V" n="38" break="no"/>bus adstruitur beatitudo esse in solo
+            <lb ed="#V" n="39"/>intellectu.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d49q5-p3"> -->
+          <p>
+            <lb ed="#V" n="63" type="fixed=177"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>(d) Secunda conclusio principalis, etc.
+            <lb ed="#V" n="65"/>Haec est, quod viator possit frui Deo,
+            <lb ed="#V" n="66"/>quia amore inhaeret sibi propter se. Si
+            <lb ed="#V" n="67"/>dicas non amore, sed desiderio; contra,
+            <lb ed="#V" n="68"/>quia etsi Deus non sit habitus ab
+            aman<lb ed="#V" n="69" break="no"/>te, et ideo possit desiderari ut
+            haben<lb ed="#V" n="70" break="no"/>dus, tamen non volo aliquid Deo affectu
+            <lb ed="#V" n="71"/>amicitiae et absolute, quod non est in
+            <lb ed="#V" n="72"/>Deo; complaceo igitur in infinita
+            boni<lb ed="#V" n="73" break="no"/>tate ejus, ut ipsius est, et accepto ut
+            <lb ed="#V" n="74"/>ipsius est, quod est frui, seu per amorem
+            <lb ed="#V" n="75"/>inhaerere; omnia enim hujus status
+            redu<lb ed="#V" n="76" break="no"/>cuntur ad charitatem tanquam ad finem,
+            <lb ed="#V" n="77"/>ut virtutes, praecepta, dona. Hinc beatitudo
+            <lb ed="#V" n="78"/>hujus status potest sumi extensive vel
+            in<lb ed="#V" n="79" break="no"/>tensive; si extensive sumitur, non excludit
+            <lb ed="#V" n="80"/>omnia quae faciunt ad salutem, ut fidem, et
+            <lb ed="#V" n="81"/>reliqua bona opera; si autem sumatur
+            in<lb ed="#V" n="82" break="no"/>tensive pro ultimo complemento et
+            perfec<lb ed="#V" n="83" break="no"/>tione prima et summa hominis, per quam
+            <lb ed="#V" n="84"/>adhaeret Deo ultimate, illa est charitas;
+            <lb ed="#V" n="85"/>beatitudo ergo supernaturalis viae, prout
+            <pb ed="#V" n="178"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>habet rationem beatitudinis pro statu viae
+            <lb ed="#V" n="2"/>ut alterutro modo consideratur, includit
+            <lb ed="#V" n="3"/>charitatem tanquam perfectissimum. Vide
+            <lb ed="#V" n="4"/>Augustinum lib. de quantitate animae,
+            ca<lb ed="#V" n="5" break="no"/>pite 37. Gregorium 6. mor, cap. 17. et 18.
+            <lb ed="#V" n="6"/>Bernardum serm. 67. in Cant. usque
+            <lb ed="#V" n="7"/>ad 72. quibus in locis tam Gregorius quam
+            <lb ed="#V" n="8"/>Bernardus primum gradum et
+            perfectis<lb ed="#V" n="9" break="no"/>simum tribuunt charitati; et favet
+            Pau<lb ed="#V" n="10" break="no"/>lus 1. ad Cor. cap. 13. Eademque est via
+            <lb ed="#V" n="11"/>probandi hanc conclusionem, qua
+            pro<lb ed="#V" n="12" break="no"/>bata est quaestionibus superioribus
+            bea<lb ed="#V" n="13" break="no"/>titudinem nostram in patria consistere in
+            <lb ed="#V" n="14"/>operatione perfectissima potentiarum, et
+            <lb ed="#V" n="15"/>potissimum in operatione charitatis, quae
+            <lb ed="#V" n="16"/>est fruitio, quia sicut in via beatitudo
+            <lb ed="#V" n="17"/>maxime attenditur ex conjunctione ad
+            <lb ed="#V" n="18"/>finem, et per exclusionem miseriae, quae
+            <lb ed="#V" n="19"/>est peccatum, sic maxime omnium
+            com<lb ed="#V" n="20" break="no"/>petit charitati, quae immediate et absolute
+            <lb ed="#V" n="21"/>circa finem operatur, et caetera dirigit in
+            <lb ed="#V" n="22"/>finem, et maxime omnium repugnant
+            <lb ed="#V" n="23"/>peccato. Suarez d. 7. citata alias sect. 2.
+            <lb ed="#V" n="24"/>opinione 3. allegat quosdam dicentes
+            <lb ed="#V" n="25"/>beatitudinem hujus status non consistere
+            <lb ed="#V" n="26"/>in alio quam in jure quodam morali ad
+            <lb ed="#V" n="27"/>patriae beatitudinem, sed merito,
+            cujus<lb ed="#V" n="28" break="no"/>cumque sit haec opinio, ab eodem
+            rejici<lb ed="#V" n="29" break="no"/>tur, quia exorbitat a communi modo
+            lo<lb ed="#V" n="30" break="no"/>quendi sapientum. Quomodocumque enim
+            <lb ed="#V" n="31"/>consideratur beatitudo formalis, consistit
+            <lb ed="#V" n="32"/>in operatione, ut patet ex Scriptura de
+            <lb ed="#V" n="33"/>beatitudine viae, quam tribuit observantiae
+            <lb ed="#V" n="34"/>mandatorum, Mat. 19. Item Joannis 6.
+            Ope<lb ed="#V" n="35" break="no"/>ramini non cibum, qui perit, sed qui
+            per<lb ed="#V" n="36" break="no"/>manet in vitam aeternam; ad Rom. 14. Non
+            <lb ed="#V" n="37"/>est regnum Dei esca aut potus, sed justitia
+            <lb ed="#V" n="38"/>et pax, et gaudium in Spiritu sancto, etc.
+            <lb ed="#V" n="39"/>Et si beatitudo hoc modo sumeretur, sic
+            <lb ed="#V" n="40"/>esset infans baptizatus beatus, quod est
+            <lb ed="#V" n="41"/>absurdum et contra communem modum
+            <lb ed="#V" n="42"/>loquendi tam Theologorum quam
+            Philo<lb ed="#V" n="43" break="no"/>sophorum de beatitudine, ut consistit in
+            <lb ed="#V" n="44"/>operationibus. Unde illud quod adducit
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Doctor ex Augustino lib. 83. q. 30. virtus
+            <lb ed="#V" n="46"/>consistit in fruendo fruendis; in virtute
+            <lb ed="#V" n="47"/>autem statuitur ultima hominis perfectio
+            <lb ed="#V" n="48"/>in hoc statu. Accedit quod jus ad
+            beatitu<lb ed="#V" n="49" break="no"/>dinem fundetur in operibus; sed mediante
+            <lb ed="#V" n="50"/>jure illo morali non perficitur primo
+            ho<lb ed="#V" n="51" break="no"/>mo, aut potentiae ejus, sed per
+            operati<lb ed="#V" n="52" break="no"/>ones vitales, ut conjungunt perfectivo
+            <lb ed="#V" n="53"/>extrinseco per modum actus.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>(e) Sed est hic difficultas etc. Quaerit
+            <lb ed="#V" n="55"/>quomodo distinguatur actus fruitionis in
+            <lb ed="#V" n="56"/>via et in patria. Ratio difficultatis est,
+            <lb ed="#V" n="57"/>quia sunt eadem principia fruitionis
+            pro<lb ed="#V" n="58" break="no"/>xima; ergo ipsa secundum speciem est
+            <lb ed="#V" n="59"/>eadem. Si hoc sit verum, ergo viator
+            eti<lb ed="#V" n="60" break="no"/>am beatur. Respondet negando
+            conse<lb ed="#V" n="61" break="no"/>quentiam, intelligendo beatitudinem
+            sim<lb ed="#V" n="62" break="no"/>pliciter, ut est ultimus terminus, quia sic
+            <lb ed="#V" n="63"/>tantum sumpta non dicitur comparari
+            <lb ed="#V" n="64"/>secundum magis aut minus cum fruitione
+            <lb ed="#V" n="65"/>viae, quia supponit pro actu voluntatis, ad
+            <lb ed="#V" n="66"/>quem praerequiritur visio clara, et ut est
+            <lb ed="#V" n="67"/>differentis status, quia ratione ad actum
+            <lb ed="#V" n="68"/>ejusdem status comparari tantum potest,
+            <lb ed="#V" n="69"/>ut cum beatitudo unius in patria
+            compa<lb ed="#V" n="70" break="no"/>ratur ad beatitudinem alterius. Haec est
+            re<lb ed="#V" n="71" break="no"/>solutio communis etiam in Schola D.
+            Tho<lb ed="#V" n="72" break="no"/>mae, in qua tenetur actum charitatis in
+            <lb ed="#V" n="73"/>patria et via esse ejusdem speciei. Doctor
+            <lb ed="#V" n="74"/>autem hic et in 3. d. 31. ad 1. docet
+            pro<lb ed="#V" n="75" break="no"/>babiliter differre specie, alias difficulter
+            <lb ed="#V" n="76"/>sustineri potest quin actus charitatis in via
+            <lb ed="#V" n="77"/>non possit esse aequalis, si reddatur
+            sum<lb ed="#V" n="78" break="no"/>mus, actui in finem comprehensoris, licet
+            <lb ed="#V" n="79"/>non bearet sine visione clara Dei, quia
+            <lb ed="#V" n="80"/>non esset possessio, finis in reipsa
+            prae<lb ed="#V" n="81" break="no"/>sentis; quod si visio, et quicumque actus
+            <lb ed="#V" n="82"/>intellectus antecedens volitionem sit causa
+            <lb ed="#V" n="83"/>partialis volitionis, licet minus principalis,
+            <lb ed="#V" n="84"/>tunc ex diversitate principii, ut actus
+            <lb ed="#V" n="85"/>fidei, et actus visionis potest colligi
+            diffe<lb ed="#V" n="86" break="no"/>rentia specifica inter fruitionem viae et
+            <lb ed="#V" n="87"/>patriae. Quod si vero negetur talis
+            con<lb ed="#V" n="88" break="no"/>cursus, recurrendum est ad diversitatem
+            <pb ed="#V" n="179"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>applicationis finis in reipsa, et clare, ac
+            <lb ed="#V" n="2"/>finis absentis in re, et praesentis in
+            cogni<lb ed="#V" n="3" break="no"/>tione aenigmatica, ex quibus tanquam a
+            <lb ed="#V" n="4"/>posteriori colligitur differentia actus
+            se<lb ed="#V" n="5" break="no"/>quentis in voluntate; utramque hanc viam
+            <lb ed="#V" n="6"/>sustinet Doctor probabiliter. Negando
+            au<lb ed="#V" n="7" break="no"/>tem distinctionem, negandum est etiam
+            <lb ed="#V" n="8"/>actum perfectissimum viae accedere ad
+            ac<lb ed="#V" n="9" break="no"/>tum infimum patriae; et hoc duobus modis
+            <lb ed="#V" n="10"/>sustinere potest, vel admittendo in ratione
+            <lb ed="#V" n="11"/>formae actum viae perfectissimum posse
+            <lb ed="#V" n="12"/>esse aequalem actui minimo beatifico, licet
+            <lb ed="#V" n="13"/>non in ratione beatitudinis aut tendentiae
+            <lb ed="#V" n="14"/>in objectum beatificum, et unionis ad
+            <lb ed="#V" n="15"/>ipsum, quia in via quantumlibet crescat
+            <lb ed="#V" n="16"/>actus, nequit conjungere objecto in
+            reip<lb ed="#V" n="17" break="no"/>sa, nisi ut applicatur; applicatio autem est
+            <lb ed="#V" n="18"/>omnino diversa. Vel possit dici actum in
+            <lb ed="#V" n="19"/>a patria ex perfectione illius status esse
+            <lb ed="#V" n="20"/>semper perfectiorem et intensiorem quam
+            <lb ed="#V" n="21"/>in via, et concursum a Deo exhiberi
+            se<lb ed="#V" n="22" break="no"/>cundum differentiam et perfectionem
+            ip<lb ed="#V" n="23" break="no"/>sius status, majorem; nam etiam in
+            diffe<lb ed="#V" n="24" break="no"/>renti statu legis quoad viatorem, Deus
+            <lb ed="#V" n="25"/>etiam concessit diversa media salutis,
+            <lb ed="#V" n="26"/>,eaque perfectiora quoad legem, et alia,
+            <lb ed="#V" n="27"/>quo lex ipsa et status hominis sub lege
+            <lb ed="#V" n="28"/>erat perfectior; ergo ex eadem
+            congruen<lb ed="#V" n="29" break="no"/>tia potest idem dici in patria, perfectiora
+            <lb ed="#V" n="30"/>ita esse media fruitionis intrinseca et
+            ex<lb ed="#V" n="31" break="no"/>trinseca, ac proinde ipsam perfectiorem
+            <lb ed="#V" n="32"/>esse; de qua re nunc non dissero, sed
+            <lb ed="#V" n="33"/>remitto controversiam ad materiam de
+            <lb ed="#V" n="34"/>charitate.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>Hinc etiam aliqui disserunt de
+            beatitu<lb ed="#V" n="36" break="no"/>dine naturali, tam Angeli quam hominis,
+            <lb ed="#V" n="37"/>si in statu naturali permanerent a Deo
+            <lb ed="#V" n="38"/>creati sine elevatione ad finem
+            superna<lb ed="#V" n="39" break="no"/>turalem. Sed hanc quaestionem commodius
+            <lb ed="#V" n="40"/>ad alium locum transferendam judico,
+            <lb ed="#V" n="41"/>quam insinuat Doctor quaest. 3. Prologi, et
+            <lb ed="#V" n="42"/>in 2. dist. 7. et prout occasio dabit infra
+            <lb ed="#V" n="43"/>de statu parvulorum aliquid erit
+            dicen<lb ed="#V" n="44" break="no"/>dum.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>(f) Ad argumenta. Ad primum, etc.
+            Pri<lb ed="#V" n="46" break="no"/>mum fuit, fruitio non distinguit beatum
+            <lb ed="#V" n="47"/>a non beato; ergo beatitudo non consistit
+            <lb ed="#V" n="48"/>in fruitione. Responsio patet ex 2.
+            articu<lb ed="#V" n="49" break="no"/>lo, in quo ostenditur fruitionem latius se
+            <lb ed="#V" n="50"/>habere quam beatitudinem proprie et per
+            <lb ed="#V" n="51"/>se dictam.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>(g) Ad secundum, etc. Hoc fuit, si quis
+            <lb ed="#V" n="53"/>haberet nudam visionem, sine charitates
+            <lb ed="#V" n="54"/>posset frui, primum non includit
+            contra<lb ed="#V" n="55" break="no"/>dictionem; sed sine charitate nequit esse
+            <lb ed="#V" n="56"/>beatus, quia secundum August. 15. de
+            Tri<lb ed="#V" n="57" break="no"/>nit. cap. 9. charitas sola est quae dividit
+            <lb ed="#V" n="58"/>inter filios Regni et perditionis, etc.
+            Res<lb ed="#V" n="59" break="no"/>pondet primo negando antecedens pro
+            <lb ed="#V" n="60"/>secunda parte, quia fruitio est actus
+            eli<lb ed="#V" n="61" break="no"/>citus voluntatis circa objectum
+            superna<lb ed="#V" n="62" break="no"/>turale ad quod elevatur, ideoque sine
+            <lb ed="#V" n="63"/>charitate elevante nequiret voluntas
+            age<lb ed="#V" n="64" break="no"/>re ad objectum, neque etiam
+            consequen<lb ed="#V" n="65" break="no"/>ter pati per actum vitalem per modum
+            <lb ed="#V" n="66"/>operationis. Respondet secundo, etiamsi
+            <lb ed="#V" n="67"/>voluntas per amorem naturalem ferretur
+            <lb ed="#V" n="68"/>in Deum clare visum, non esset fruitio
+            be<lb ed="#V" n="69" break="no"/>atifica supernaturalis, quae supponit
+            eleva<lb ed="#V" n="70" break="no"/>tionem ex parte principii elicientis, et non
+            <lb ed="#V" n="71"/>tantum ex parte applicanti aut
+            applicati<lb ed="#V" n="72" break="no"/>onis, quia, ut dicit, haec fruitio beatifica
+            <lb ed="#V" n="73"/>esset major et perfectior quam fruitio illa
+            <lb ed="#V" n="74"/>naturalis; major, inquam secundum
+            spe<lb ed="#V" n="75" break="no"/>ciem et modum actus, quam influeret
+            <lb ed="#V" n="76"/>charitas supernaturalis. Haec diversa
+            solu<lb ed="#V" n="77" break="no"/>tio dependet ab illa controversia, an
+            sci<lb ed="#V" n="78" break="no"/>licet dentur actus naturales
+            correspon<lb ed="#V" n="79" break="no"/>dentes actibus virtutum Theologalium vel
+            <lb ed="#V" n="80"/>dari possint, ut fides divina, naturalis,
+            <lb ed="#V" n="81"/>aut charitas naturalis, quae sit immediate
+            <lb ed="#V" n="82"/>ad Deum. Hanc remittimus ad propriam
+            <lb ed="#V" n="83"/>mat eriam in 3. sent. ubi agitur de his
+            vir<lb ed="#V" n="84" break="no"/>tutibus. Videatur Doctor in 1. dist. 1. q. 4.
+            <lb ed="#V" n="85"/>et in 3. dist. 28. ubi saltem in patria
+            asse<lb ed="#V" n="86" break="no"/>rit dari hunc amorem.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>(h) Ad tertium, etc. Hoc est, quod
+            om<lb ed="#V" n="88" break="no"/>nia inferiora natura intellectuali suo modo
+            <pb ed="#V" n="180"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>beatificantur in completione actus
+            concu<lb ed="#V" n="2" break="no"/>piscendi, hoc est, in commodo. Sed fruitio
+            <lb ed="#V" n="3"/>non est actus concupiscentiae commodi;
+            <lb ed="#V" n="4"/>ergo in illa non debet consistere
+            beatitu<lb ed="#V" n="5" break="no"/>do, sed in amore commodi. Respondet
+            <lb ed="#V" n="6"/>.hoc proprium esse voluntatis secundum
+            af<lb ed="#V" n="7" break="no"/>fectum amicitiae velle bonum propter se,
+            <lb ed="#V" n="8"/>in quo perfectione excedit reliquos
+            appe<lb ed="#V" n="9" break="no"/>titus; ideoque argumentum est ad
+            oppo<lb ed="#V" n="10" break="no"/>situm, quia ultima perfectio alicujus rei
+            <lb ed="#V" n="11"/>ipsi competit secundum naturam et
+            per<lb ed="#V" n="12" break="no"/>fectionem suae speciei, in qua reliqua
+            ex<lb ed="#V" n="13" break="no"/>cedit; ergo sicut fruitio sic convenit
+            vo<lb ed="#V" n="14" break="no"/>«luntati, ita etiam beatitudo ejus debet
+            <lb ed="#V" n="15"/>constitui in fruitione, alias sequeretur
+            <lb ed="#V" n="16"/>quod secundum differentiam specificam
+            <lb ed="#V" n="17"/>conveniret ei aliqua operatio ex specie
+            <lb ed="#V" n="18"/>sua perfectior, quam sit beatitudo, si
+            <lb ed="#V" n="19"/>haec eidem conveniret tantum secundum
+            <lb ed="#V" n="20"/>rationem communem sibi, et reliquis.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>(i) Ad quartum, etc. Quartum est, quod
+            <lb ed="#V" n="22"/>tentio succedit spei; ergo est actus
+            vo<lb ed="#V" n="23" break="no"/>luntatis; ergo in eo consistit beatitudo;
+            <lb ed="#V" n="24"/>tentio autem non est fruitio. Respondet
+            <lb ed="#V" n="25"/>quod non in omni eo, quod succedit
+            acti<lb ed="#V" n="26" break="no"/>bus virtutum Theologalium in via,
+            consi<lb ed="#V" n="27" break="no"/>stat beatitudo patriae, sed in uno actu
+            per<lb ed="#V" n="28" break="no"/>fectissimo, et hic est fruitio, ut probat ex
+            <lb ed="#V" n="29"/>Augustino lib. 1. de doctrina Christiana
+            <lb ed="#V" n="30"/>cap. 6. Summa merces est, ut eo perfru.
+            <lb ed="#V" n="31"/>amur, etc. Quod patet etiam ex eo quod
+            <lb ed="#V" n="32"/>in ipso Deo, qua beatus est, non consistat
+            <lb ed="#V" n="33"/>beatitudo nisi in visione et fruitione, quia
+            <lb ed="#V" n="34"/>in eo non est actus commodi, aut
+            appe<lb ed="#V" n="35" break="no"/>titus, sicut in nobis, quorum perfectio ab
+            <lb ed="#V" n="36"/>extrinseco participatur.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

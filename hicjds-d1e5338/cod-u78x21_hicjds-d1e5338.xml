@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 50, Quaestio 3</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 50, Quaestio 3</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x21">Vives, Paris, 1894, volume 21</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="544"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e5338"><!-- hicjds-b4d50q3 -->
+        <head>Quaestio 3</head>
+        <head type="question-title">Utrum beati videant poenas damnatorum</head>
+        <!-- <div alias="hiq-d50q3-p1"> -->
+          <p>
+            <lb ed="#V" n="73" type="fixed=544"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>(a) Respondeo hic primo, etc. Movet
+            <lb ed="#V" n="75"/>quaestionem de visione poenarum in
+            gene<lb ed="#V" n="76" break="no"/>re proprio, et in Verbo; et statuit primam
+            <lb ed="#V" n="77"/>conclusionem, quod non possit beatus
+            vi<lb ed="#V" n="78" break="no"/>dere illas poenas visione sensibili ob
+            im<lb ed="#V" n="79" break="no"/>proportionatam distantiam inter oculum
+            <lb ed="#V" n="80"/>in coelo empyreo existentem, et objectum
+            <lb ed="#V" n="81"/>constitutum in inferno. Hanc sequitur
+            <lb ed="#V" n="82"/>Suarez 2. tomo in 3. part. disput. 47.
+            <lb ed="#V" n="83"/>sect. 6. quamvis ibidem excipiat visivam
+            <lb ed="#V" n="84"/>Christi propter participationem
+            omnipo<lb ed="#V" n="85" break="no"/>tentiae, et majorem dignitatem ejus. Major
+            <lb ed="#V" n="86"/>hic quaest. 1. ad secundam dubit. Bassolis
+            <pb ed="#V" n="545"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quaest. ultima art. 2. Lusitanus in 3. tom.
+            <lb ed="#V" n="2"/>lib. 4. q. 6. art. 3. S 2. et patet ratione,
+            <lb ed="#V" n="3"/>quia ordo naturalis causarum non est
+            per<lb ed="#V" n="4" break="no"/>vertendus, nisi ratio aliqua, aut auctoritas
+            <lb ed="#V" n="5"/>suadeat. In proposito autem nulla est
+            ta<lb ed="#V" n="6" break="no"/>lis, quia neque ex beatitudine talis
+            <lb ed="#V" n="7"/>perfectio colligitur, neque ex natura
+            <lb ed="#V" n="8"/>potentiae, licet habitura sit aliquam
+            exce<lb ed="#V" n="9" break="no"/>dentem praesentem statum, et perficietur
+            <lb ed="#V" n="10"/>in ordine ad quodcumque visibile, servata
+            <lb ed="#V" n="11"/>tamen determinata distantia; nam licet
+            <lb ed="#V" n="12"/>oculus quantum est ex se, moveri possit
+            <lb ed="#V" n="13"/>ad visionem distantis objecti, tamen ipsum
+            <lb ed="#V" n="14"/>objectum non est natum movere in tanta
+            <lb ed="#V" n="15"/>distantia; quod relinquitur in sua virtute
+            <lb ed="#V" n="16"/>naturali, neque ex beatitudine colligitur
+            <lb ed="#V" n="17"/>specialis aliqua Dei assistentia, ut
+            vide<lb ed="#V" n="18" break="no"/>atur objectum absens extra sphaeram sibi
+            <lb ed="#V" n="19"/>proportionatam ad movendum.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Contrarium hujus docuit noster Lyranus
+            <lb ed="#V" n="21"/>in cap. 7. Actorum, et Sotus in d.
+            praece<lb ed="#V" n="22" break="no"/>denti q. 4. art. 5. post tertiam conclus.
+            <lb ed="#V" n="23"/>Medina 1. 2. q. 3. ad 1.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Quantum ad cognitionem intellectivam
+            <lb ed="#V" n="25"/>in proprio genere dicit, si requiratur
+            di<lb ed="#V" n="26" break="no"/>stantia proportionata, non videri illas
+            poe<lb ed="#V" n="27" break="no"/>nas a beatis in proprio genere. De hac
+            dif<lb ed="#V" n="28" break="no"/>ficultate aliquid diximus supra, agentes
+            <lb ed="#V" n="29"/>o de cognitione animae separatae, et
+            specie<lb ed="#V" n="30" break="no"/>bus ejus.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>(b) Remanet ergo quaestio, etc. an
+            scili<lb ed="#V" n="32" break="no"/>cet videant in Verbo, et quaerit primo de
+            <lb ed="#V" n="33"/>ratione videndi, dicens esse ipsam
+            essen<lb ed="#V" n="34" break="no"/>tiam divinam prout est principium ex se
+            <lb ed="#V" n="35"/>actualissimum repraesentans quodcumque
+            <lb ed="#V" n="36"/>seclusa omni determinatione superaddita
+            <lb ed="#V" n="37"/>re vel ratione distincta, ut probat in littera.
+            <lb ed="#V" n="38"/>Hanc dissertationem remittimus ad
+            pri<lb ed="#V" n="39" break="no"/>mum Sententiarum dist. 35. et sequentibus.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d50q3-p2"> -->
+          <p>
+            <lb ed="#V" n="15" type="fixed=548"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>(c) Secundo est videndum, etc. Quaerit
+            <lb ed="#V" n="17"/>quomodo cognoscantur poenae in Deo.
+            <lb ed="#V" n="18"/>Duplicem modum cognitionis adducit ex
+            <lb ed="#V" n="19"/>Augustino in textu, nempe cognitionem
+            <lb ed="#V" n="20"/>secundum speciem, et est illa qua
+            cogno<lb ed="#V" n="21" break="no"/>scitur aliquid in seipso. Alia cognitio est
+            <lb ed="#V" n="22"/>non secundum speciem, estque privativa,
+            <lb ed="#V" n="23"/>qua cognoscitur non in se, sed per
+            simi<lb ed="#V" n="24" break="no"/>litudinem seu ordinem ad aliud; talis est
+            <lb ed="#V" n="25"/>cognitio privationis, quae cognoscitur
+            tan<lb ed="#V" n="26" break="no"/>tum per habitum oppositum, ut asserit
+            <lb ed="#V" n="27"/>Philosophus locis citatis in textu; subdit
+            <lb ed="#V" n="28"/>multiplex genus poenae damnatorum, de
+            <lb ed="#V" n="29"/>quibus egit superius d. 44. q. 2. et
+            re<lb ed="#V" n="30" break="no"/>solvit poenam privativam non habere
+            <lb ed="#V" n="31"/>ideam, in Deo, neque imitantur ideam,
+            <lb ed="#V" n="32"/>quia nullum habent gradum entis in se
+            <lb ed="#V" n="33"/>aut in alio, et cognoscuntur tantum per
+            <lb ed="#V" n="34"/>sua opposita; poena autem positiva
+            co<lb ed="#V" n="35" break="no"/>gnoscitur directe, et in specie per ideam
+            <lb ed="#V" n="36"/>a sensu contrario, quod tenet Gregorius
+            <lb ed="#V" n="37"/>homil. 40. in Lucam, Magister in hac
+            di<lb ed="#V" n="38" break="no"/>stinctione asserens esse communem
+            Pa<lb ed="#V" n="39" break="no"/>trum, et colligitur ex Isaiae ultimo, estque
+            <lb ed="#V" n="40"/>communis Doctorum. Docet praeterea
+            <lb ed="#V" n="41"/>rationem cognoscendi esse ipsam
+            essen<lb ed="#V" n="42" break="no"/>tiam divinam, quae est perfectum
+            exem<cb ed="#V" n="b"/><lb ed="#V" n="43" break="no"/>plum omnium, non vero relationes aliquas
+            <lb ed="#V" n="44"/>in essentia, quae supponunt necessario
+            <lb ed="#V" n="45"/>cognitionem extremorum, et explicat
+            <lb ed="#V" n="46"/>Augustinum. De his est varia sententia
+            <lb ed="#V" n="47"/>Scholasticorum, quam quaestionem in
+            <lb ed="#V" n="48"/>proprium locum remitto, ubi de ea per
+            <lb ed="#V" n="49"/>se agit Doctor, et alii, sicut etiam illam
+            <lb ed="#V" n="50"/>controversiam, an possint creaturae videri
+            <lb ed="#V" n="51"/>in Verbo; quod negat Vasquez per ipsam
+            <lb ed="#V" n="52"/>visionem videri, quae magis tractatur de
+            <lb ed="#V" n="53"/>scientia Dei, et de cognitione Christi etiam
+            <lb ed="#V" n="54"/>in 3. d. 14.
+          </p>
+          <p>
+            <lb ed="#V" n="55"/>(d) Sed de tertio principali, etc. Quaerit
+            <lb ed="#V" n="56"/>an laetentur Beati de poenis damnatorum?
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Respondet quod non directe et
+            forma<lb ed="#V" n="58" break="no"/>liter, sed tantum complacent de justitia
+            <lb ed="#V" n="59"/>divina adimpleta, et de ordine universi
+            <lb ed="#V" n="60"/>servato, neque etiam ipse Deus aliter
+            in<lb ed="#V" n="61" break="no"/>fligendo poenam respicit poenas
+            damnato<lb ed="#V" n="62" break="no"/>rum nisi sub ratione justitiae adimplendae
+            <lb ed="#V" n="63"/>et manifestandae, quia poena, ut habet
+            <lb ed="#V" n="64"/>praecise rationem mali, non est objectum
+            <lb ed="#V" n="65"/>volibile prosecutive, sed ut habet tantum
+            <lb ed="#V" n="66"/>rationem boni; sic autem habet rationem
+            <lb ed="#V" n="67"/>boni, ut est justa, et per eam ordinatur
+            <lb ed="#V" n="68"/>culpa. Uterque modus, quo hoc declaratur
+            <lb ed="#V" n="69"/>in littera, aequivalet.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>(e) Sed eritne tristitia in eis, etc.
+            Re<lb ed="#V" n="71" break="no"/>spondet negative ob conformitatem cum
+            <lb ed="#V" n="72"/>divina voluntate, et propter affectum
+            ju<lb ed="#V" n="73" break="no"/>stitiae, et quamvis nollent poenas
+            damna<lb ed="#V" n="74" break="no"/>torum, si Deus ita vellet, tamen haec
+            <lb ed="#V" n="75"/>est conditionalis voluntas, et insufficiens
+            <lb ed="#V" n="76"/>causa tristitiae, cujus etiam non sunt
+            ca<lb ed="#V" n="77" break="no"/>paces beati, qui Dei vultu satiantur.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>(f) Ad argumenta. Ad primum, etc.
+            <lb ed="#V" n="79"/>Respondet quod indeterminatio essentiae
+            <lb ed="#V" n="80"/>divinae ad repraesentandum creaturas sit
+            <lb ed="#V" n="81"/>indeterminatio potentiae activae et summae
+            <lb ed="#V" n="82"/>actualitatis, ac proinde seipsa reducuntur
+            <lb ed="#V" n="83"/>in actum sine aliquo determinante
+            super<lb ed="#V" n="84" break="no"/>addito. Non est autem determinatio
+            po<lb ed="#V" n="85" break="no"/>tentiae passivae seu contradictionis, qualis
+            <lb ed="#V" n="86"/>est in materia et genere, et hujusmodi,
+            <pb ed="#V" n="549"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ut est intellectus, quae requirunt per aliud
+            <lb ed="#V" n="2"/>determinari.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Ad secundum et tertium respondet sicut
+            <lb ed="#V" n="4"/>in corpore.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

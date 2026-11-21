@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 49, Pars 1, Quaestio 3</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 49, Pars 1, Quaestio 3</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x21">Vives, Paris, 1894, volume 21</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="77"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e5102"><!-- hicjds-b4d49p1q3 -->
+        <head>Quaestio 3</head>
+        <head type="question-title">Utrum beatitudo per se consistit in pluribus operationibus simul</head>
+        <!-- <div alias="hiq-d49q3-p1"> -->
+          <p>
+            <lb ed="#V" n="82" type="fixed=77"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>(a) Utrum beatitudo, etc. In
+            superiori<lb ed="#V" n="84" break="no"/>bus duabus quaestionibus resolvit
+            beati<lb ed="#V" n="85" break="no"/>tudinem consistere in operatione, et
+            im<lb ed="#V" n="86" break="no"/>mediatius afficere potentiam quam
+            es<pb ed="#V" n="78"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>sentiam; in hac ergo gradatim
+            proce<lb ed="#V" n="2" break="no"/>dens disserit; An beatitudo consistat
+            <lb ed="#V" n="3"/>in pluribus operationibus simul, et
+            <lb ed="#V" n="4"/>quaestio est de essentiali et formali;
+            addu<lb ed="#V" n="5" break="no"/>cit duas opiniones, quarum prima est
+            <lb ed="#V" n="6"/>affirmativa, secunda negativa. Deinde
+            <lb ed="#V" n="7"/>resolvit quaestionem, et respondet ad
+            ar<lb ed="#V" n="8" break="no"/>gumenta principalia.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d49q3-p2"> -->
+          <p>
+            <lb ed="#V" n="70" type="fixed=78"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>(b) Hic dicitur quod beatitudo, etc.
+            <lb ed="#V" n="72"/>Haec sententia est plurium auctorum,
+            Ri<lb ed="#V" n="73" break="no"/>chardi in hac d. 2. art. 1. quoest. 6.
+            <lb ed="#V" n="74"/>Majoris quaest. 3. Argent. q. 3. Bassol.
+            <lb ed="#V" n="75"/>quaest. 2. Supplem. Gabrielis art. 3.
+            Oc<lb ed="#V" n="76" break="no"/>chami in primo quaest. 2. Alensis 3. part.
+            <lb ed="#V" n="77"/>quaest. 23. in 2. Henrici Quodl. 13. quoest.
+            <lb ed="#V" n="78"/>2. AEgidii quodl. 3. quaest. ultima,
+            no<lb ed="#V" n="79" break="no"/>stri Vegae lib. 7. in Trid. cap. 3. Cordub.
+            <lb ed="#V" n="80"/>lib. 1. quoestionarii quaest. 42. Henriquez
+            <lb ed="#V" n="81"/>lib. ult. de fine hominis in principio,
+            <lb ed="#V" n="82"/>et plurium aliorum. Citatur pro ea
+            <lb ed="#V" n="83"/>D. Bonaventura in hac d. 1. part. dist.
+            <pb ed="#V" n="79"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>art. 3. ubi de ea non agit, sed de dotibus,
+            <lb ed="#V" n="2"/>ipse enim, ut in praecedentibus dictum
+            <lb ed="#V" n="3"/>est, statuit beatitudinem formalem
+            prin<lb ed="#V" n="4" break="no"/>cipaliter in habitu deificante potentiam:
+            <lb ed="#V" n="5"/>Citari solet et noster Doctor hic propter
+            <lb ed="#V" n="6"/>differentiam, quam infra assignat inter
+            <lb ed="#V" n="7"/>beatitudinem naturae et potentiae, sed
+            im<lb ed="#V" n="8" break="no"/>merito, ut mox videbimus. Haec
+            senten<lb ed="#V" n="9" break="no"/>tia probatur primo, quia homo secundum
+            <lb ed="#V" n="10"/>intellectum et voluntatem unitur objecto
+            <lb ed="#V" n="11"/>beatificanti, nempe Deo in se; beatitudo
+            <lb ed="#V" n="12"/>autem consistit in tali unione; ergo in
+            <lb ed="#V" n="13"/>ea quae est utriusque potentiae. Secundo,
+            <lb ed="#V" n="14"/>quia per utramque facultatem movetur
+            <lb ed="#V" n="15"/>homo in Deum; ergo per utramque
+            ac<lb ed="#V" n="16" break="no"/>quiritur unio ad Deum, et fit quies
+            succe<lb ed="#V" n="17" break="no"/>dens motui in terminum. Tertio, arguit
+            <lb ed="#V" n="18"/>ipse Doctor, quia per utramque
+            poten<lb ed="#V" n="19" break="no"/>tiam perficitur homo in actu primo; ergo
+            <lb ed="#V" n="20"/>per atramque etiam perficitur in actu
+            se<lb ed="#V" n="21" break="no"/>cundo, seu per utriusque actum. Quarto,
+            <lb ed="#V" n="22"/>probatur a modernis, ut Vega et Corduba,
+            <lb ed="#V" n="23"/>tanquam definita a Benedicto XII. In
+            ex<lb ed="#V" n="24" break="no"/>travaganti de visione animarum, ubi
+            <lb ed="#V" n="25"/>definitur ex tali visione et fruitione
+            ani<lb ed="#V" n="26" break="no"/>mae eorum sunt beatae, etc. Item, ex
+            Cle<lb ed="#V" n="27" break="no"/>ment. Ad nostrum de hoereticis, etc.
+            <lb ed="#V" n="28"/>ubi definitur lumen gloriae esse
+            necessa<lb ed="#V" n="29" break="no"/>rium ad videndum et fruendum Deo. Item,
+            <lb ed="#V" n="30"/>Catechismus Pii V. Solida beatitudo,
+            in<lb ed="#V" n="31" break="no"/>quit, quam essentialem communi nomine
+            <lb ed="#V" n="32"/>licet vocare, in eo sita est, ut Deum
+            <lb ed="#V" n="33"/>videamus, ejusque pulchritudine
+            per<lb ed="#V" n="34" break="no"/>fruamur, etc. Item, sancti Patres et
+            Scri<lb ed="#V" n="35" break="no"/>ptura nunc statuunt beat itudinem in
+            vi<lb ed="#V" n="36" break="no"/>sione, nunc in cognitione; ergo in utraque
+            <lb ed="#V" n="37"/>operatione est sita.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d49q3-p3"> -->
+          <p>
+            <lb ed="#V" n="74" type="fixed=79"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>(c). Alia est opinio, etc. Hanc tenet
+            <lb ed="#V" n="76"/>D. Thomas 1. 2. quaest. 3. art. 4. ubi ejus
+            <lb ed="#V" n="77"/>Commentatores communius Capreolus
+            <lb ed="#V" n="78"/>in 1. d. 1. q. 1. art. 3. Sotus hic q. 1.
+            <lb ed="#V" n="79"/>a. 3. eamque tuetur Doctor in fine hujus
+            <lb ed="#V" n="80"/>paragraphi, et quaestione sequenti.
+            Ali<lb ed="#V" n="81" break="no"/>qui reducunt quaestionem ad solam
+            nomi<lb ed="#V" n="82" break="no"/>nis controversiam, sed falluntur, quia
+            agi<lb ed="#V" n="83" break="no"/>tur de eo, quod primo et essentialiter, et
+            <lb ed="#V" n="84"/>per se ultimate conjungit objecto beatifico,
+            <lb ed="#V" n="85"/>et non de aliis perfectionibus
+            concomitan<pb ed="#V" n="80"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tibus et accidentalibus, quae ad
+            beatitudi<lb ed="#V" n="2" break="no"/>nem essentialem ordinantur.
+            Fundamen<lb ed="#V" n="3" break="no"/>tum hujus sententiae est, quia
+            Philoso<lb ed="#V" n="4" break="no"/>phus 1. Ethic, videtur statuere felicitatem
+            <lb ed="#V" n="5"/>in operatione optima et unica potentiae
+            <lb ed="#V" n="6"/>unius; quam rationem deducit Doctor in
+            <lb ed="#V" n="7"/>textu, quia species sunt sicut numeri,
+            <lb ed="#V" n="8"/>et sic repugnat plures species esse
+            aequa<lb ed="#V" n="9" break="no"/>les. Deinde, repugnat plures virtutes esse
+            <lb ed="#V" n="10"/>aequales in perfectione, beatitudo autem
+            <lb ed="#V" n="11"/>constituenda est in operatione
+            perfectis<lb ed="#V" n="12" break="no"/>sima; ergo una, quia reliqua omnia una
+            <lb ed="#V" n="13"/>operatione assequuntur suum finem.
+            De<lb ed="#V" n="14" break="no"/>inde, objectum beatificum sub una ratione
+            <lb ed="#V" n="15"/>beat, quae ratio per unam operationem
+            <lb ed="#V" n="16"/>attingi potest, per quam acquiritur.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d49q3-p4"> -->
+          <p>
+            <lb ed="#V" n="62" type="fixed=81"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>(d) Ad quaestionem potest dici, etc.
+            <lb ed="#V" n="64"/>Hic resolvit per viam mediam
+            distinguen<lb ed="#V" n="65" break="no"/>do beatitudinem, qua accipitur a Boetio
+            <lb ed="#V" n="66"/>pro aggregatione et cumulo omnium
+            <lb ed="#V" n="67"/>bonorum, et pro ea operatione, qua
+            im<lb ed="#V" n="68" break="no"/>mediate attingitur objectum beatificum.
+            <lb ed="#V" n="69"/>In priori acceptione non spectat ad
+            prae<lb ed="#V" n="70" break="no"/>sentem quaestionem, sed in secunda. In
+            <lb ed="#V" n="71"/>hac acceptione, qua est attingens
+            obje<lb ed="#V" n="72" break="no"/>ctum beatificum, etiam distingui potest in
+            <lb ed="#V" n="73"/>beatitudinem potentiae, et in beatitudinem
+            <lb ed="#V" n="74"/>naturae intellectualis, quia licet natura
+            <lb ed="#V" n="75"/>mediante potentia beatificatur, tamen ut
+            <lb ed="#V" n="76"/>in natura est aliqua potentia beatificabilis,
+            <lb ed="#V" n="77"/>cujus beatitudo non est simpliciter
+            beati<lb ed="#V" n="78" break="no"/>tudo naturae (id est, perfectissima, ejus
+            <lb ed="#V" n="79"/>conjunctio ad finem et ultimum
+            comple<lb ed="#V" n="80" break="no"/>mentum naturae secundum inclinationem,
+            <lb ed="#V" n="81"/>quam dicit ad finem, qua beatificabilis
+            <lb ed="#V" n="82"/>est), illa beatitudo potentiae non est
+            sim<lb ed="#V" n="83" break="no"/>pliciter beatitudo naturae, per quam
+            sim<lb ed="#V" n="84" break="no"/>pliciter bene sit ipsi naturae, sed in aliquo
+            <lb ed="#V" n="85"/>alio nobiliori consistit.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Hanc distinctionem aliqui impugnant.
+            <pb ed="#V" n="82"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>t Eam sensit Vasquez ridiculam, quia
+            nul<lb ed="#V" n="2" break="no"/>lus unquam dixit accidens aliquod
+            no<lb ed="#V" n="3" break="no"/>strum, qualis est intellectus, beari; haec
+            <lb ed="#V" n="4"/>enim perfectio totius hominis est et Angeli,
+            <lb ed="#V" n="5"/>non accidentium; caeterum alterum
+            mem<lb ed="#V" n="6" break="no"/>brum distinctionis de beatitudine unica
+            <lb ed="#V" n="7"/>naturae recte admittit. Eamdem impugnat
+            <lb ed="#V" n="8"/>AEgidius Lusitanus lib. 4. de formali
+            be<lb ed="#V" n="9" break="no"/>atitudine tom. 1. quaest. 5. a. 3. 8 1. quod
+            <lb ed="#V" n="10"/>distinctio haec pariat confusionem, et non
+            <lb ed="#V" n="11"/>sit philosophica, quia beatitudo potentiae
+            <lb ed="#V" n="12"/>non est in immediata attingentia objecti
+            <lb ed="#V" n="13"/>beatifici, sed in illa attingentia, qua
+            <lb ed="#V" n="14"/>attingitur, ut beatificum est, quae unica
+            <lb ed="#V" n="15"/>tantum est. Deinde, quia potentia non
+            <lb ed="#V" n="16"/>est proprie beatificabilis ut quod, sed ut
+            <lb ed="#V" n="17"/>quo. Praeterea, non appetit suam
+            ope<lb ed="#V" n="18" break="no"/>rationem potentia, nisi appetitu innato
+            <lb ed="#V" n="19"/>et naturali, cum tamen non beatificetur
+            <lb ed="#V" n="20"/>nisi agens, quod appetitu elicito appetit
+            <lb ed="#V" n="21"/>bonum; ergo una tantum est beatitudo,
+            <lb ed="#V" n="22"/>qua agens ipsum beatur ut quod, potentite
+            <lb ed="#V" n="23"/>vero ex consequenti.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>Respondetur tamen distinctionem
+            prae<lb ed="#V" n="25" break="no"/>missam esse fundatam, neque recte ad
+            <lb ed="#V" n="26"/>scopum Doctoris intellectam; non enim
+            <lb ed="#V" n="27"/>intendit Doctor beatitudinem ita
+            conveni<lb ed="#V" n="28" break="no"/>re potentiae, quasi non sit naturae, ut
+            <lb ed="#V" n="29"/>principii quod; hoc enim repugnat, nam
+            <lb ed="#V" n="30"/>et in sententia Doctoris, potentia est
+            ea<lb ed="#V" n="31" break="no"/>dem naturae realiter. Intendit ergo Doctor
+            <lb ed="#V" n="32"/>aliud esse considerare beatitudinem
+            ex<lb ed="#V" n="33" break="no"/>tensivam naturae; aliud considerare
+            in<lb ed="#V" n="34" break="no"/>tensivam secundum rationem formalem
+            <lb ed="#V" n="35"/>specificam beatitudinis, qua est ultimum
+            <lb ed="#V" n="36"/>complementum naturae, et unicum, ad
+            <lb ed="#V" n="37"/>quod caetera ordinantur, et ad quod ipsa
+            <lb ed="#V" n="38"/>natura principaliter inclinatur. Primum
+            <lb ed="#V" n="39"/>horum patet ex prima conclusione hujus
+            <lb ed="#V" n="40"/>S versu: Secundum ergo potest dici, quod
+            <lb ed="#V" n="41"/>beatitudo naturae intellectualis consistit in
+            <lb ed="#V" n="42"/>operatione unica tantum, quia tantum in
+            <lb ed="#V" n="43"/>unica est sibi simpliciter perfecte bene,
+            <lb ed="#V" n="44"/>ita quod nihil sibi desit, non quod hoec
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>includat omnia pertinentia ad bene esse
+            <lb ed="#V" n="46"/>naturae, sed dicat complementum omnium
+            <lb ed="#V" n="47"/>in bene essendo, etc. Aliud ergo est esse
+            <lb ed="#V" n="48"/>complementum bene esse naturae; aliud
+            <lb ed="#V" n="49"/>vero includere omnia, quae spectant ad
+            <lb ed="#V" n="50"/>bene esse naturae, quia comparando
+            na<lb ed="#V" n="51" break="no"/>turam, ut hic comparatur ad Deum, ut
+            <lb ed="#V" n="52"/>immediate attingibilem per operationem,
+            <lb ed="#V" n="53"/>omnis operatic sive ejusdem, sive
+            diver<lb ed="#V" n="54" break="no"/>sarum potentiarum circa Deum immediate,
+            <lb ed="#V" n="55"/>spectat ad bene esse naturae, licet non sit
+            <lb ed="#V" n="56"/>complementum naturae beatificabilis
+            se<lb ed="#V" n="57" break="no"/>cundum potiorem inclinationem ejus ad
+            <lb ed="#V" n="58"/>objectum beatificum, et Deum in se.
+            Un<lb ed="#V" n="59" break="no"/>de sequitur quod bene sit naturae juxta
+            <lb ed="#V" n="60"/>mentem Doctoris per visionem et
+            fruiti<lb ed="#V" n="61" break="no"/>onem, quibus intellectus et voluntas
+            at<lb ed="#V" n="62" break="no"/>tingunt finem seu Deum in se immediate,
+            <lb ed="#V" n="63"/>quamvis altera harum non sit beatitudo
+            <lb ed="#V" n="64"/>totius seu naturae, essentialis et ultima.
+            <lb ed="#V" n="65"/>Non separat ergo beatitudinem potentiae
+            <lb ed="#V" n="66"/>a natura, quasi illa non sit etiam naturae,
+            <lb ed="#V" n="67"/>sed distinguit diversas inclinationes in
+            <lb ed="#V" n="68"/>natura, quarum una est principalis, et
+            <lb ed="#V" n="69"/>reducitur in actum per beatitudinem
+            for<lb ed="#V" n="70" break="no"/>malem et ultimam, quam primario ita
+            re<lb ed="#V" n="71" break="no"/>spicit natura (licet mediante potentia
+            ei<lb ed="#V" n="72" break="no"/>dem conjungatur ut principio et subjecto)
+            <lb ed="#V" n="73"/>ut illa simpliciter potior ei tribuatur
+            tan<lb ed="#V" n="74" break="no"/>quam propria per comparationem ad
+            obje<lb ed="#V" n="75" break="no"/>ctum beatificum, ut hoc modo attingibile,
+            <lb ed="#V" n="76"/>et per comparationem ad alias
+            inclinati<lb ed="#V" n="77" break="no"/>ones, quibus attingit Deum immediate, et
+            <lb ed="#V" n="78"/>perficiuntur in natura. Alia autem est
+            in<lb ed="#V" n="79" break="no"/>clinatio in natura ad perfectionem
+            reci<lb ed="#V" n="80" break="no"/>piendam a Deo, ut attingitur mediante
+            <lb ed="#V" n="81"/>operatione immediata ad ipsum, et haec est
+            <lb ed="#V" n="82"/>minus principalis in natura beatificabili,
+            <lb ed="#V" n="83"/>licet perfectio ejus sit, qua attingit Deum,
+            <lb ed="#V" n="84"/>et compleatur illa inclinatio per
+            operati<lb ed="#V" n="85" break="no"/>onem ei convenientem. Hanc vocat
+            Do<lb ed="#V" n="86" break="no"/>ctor beatitudinem potentiae (licet etiam
+            <lb ed="#V" n="87"/>sit naturae) et non naturae ad
+            distincti<lb ed="#V" n="88" break="no"/>onem ejus a beatitudine simpliciter et
+            <pb ed="#V" n="83"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>et proprie loquitur, quia in homine, v. g.
+            <lb ed="#V" n="2"/>omnis operatio potentiarum per quam
+            per<lb ed="#V" n="3" break="no"/>ficiuntur, etiam est ad bene esse, et
+            per<lb ed="#V" n="4" break="no"/>fectionem totius licet secundum quod dicit
+            <lb ed="#V" n="5"/>particularem inclinationem mediante
+            po<lb ed="#V" n="6" break="no"/><quote>tentia determinata; tamen si illa operatio
+          <lb ed="#V" n="7"/>rnon sit secundum perfectissimam
+          incli<lb ed="#V" n="8" break="no"/>nationem totius, non dicitur operatio
+          to<lb ed="#V" n="9" break="no"/>tius, neque perfectio totius, sed potentiae,
+          <lb ed="#V" n="10"/>v. g. in homine visio dicitur operatio
+          <lb ed="#V" n="11"/>potentiae visivae, et non operatio totius,
+          <lb ed="#V" n="12"/>sicut dicitur intellectio et volitio propria
+          <lb ed="#V" n="13"/>totius. Ergo similiter natura comparata
+          <lb ed="#V" n="14"/>ad Deum in se ut attingibilem per
+          mo<lb ed="#V" n="15" break="no"/>dum objecti secundum diversas
+          inclinati<lb ed="#V" n="16" break="no"/>ones, quarum una est ultimata naturae
+          <lb ed="#V" n="17"/>ad perfectionem summam, altera vero ad
+          <lb ed="#V" n="18"/>perfectionem non ultimam, recte dici
+          po<lb ed="#V" n="19" break="no"/>test illa, quae est potior, esse propria
+          na<lb ed="#V" n="20" break="no"/>turae, illa vero, quae est minus principalis
+          <lb ed="#V" n="21"/>perfectio, esse potentiae, quod est dicere
+          <lb ed="#V" n="22"/>naturae, ut inclinatur per talem potentiam,
+          <lb ed="#V" n="23"/>nam ubi invenitur ordo in subjecto et
+          for<lb ed="#V" n="24" break="no"/>mis ad discernendam disparitatem, recte
+          <lb ed="#V" n="25"/>accommodantur nomina et ad
+          excluden<lb ed="#V" n="26" break="no"/>dam aequivocationem. In proposito altera
+          <lb ed="#V" n="27"/>harum operationum circa Deum, in qua
+          <lb ed="#V" n="28"/>consistit ultimum complementum naturae,
+          <lb ed="#V" n="29"/>recte dicitur beatitudo, ad quam est
+          potis<lb ed="#V" n="30" break="no"/>sima inclinatio; altera vero beatitudo
+          se<lb ed="#V" n="31" break="no"/>cundum quid naturae, principaliter autem
+          <lb ed="#V" n="32"/>potentiae. Ut assumatur vero distinctio ex
+          <lb ed="#V" n="33"/>objecto harum utriusque operationum ab
+          <lb ed="#V" n="34"/>aliis, recte utraque dicitur beatitudo, quia
+          <lb ed="#V" n="35"/>est circa objectum beatificum, vel
+          specifi<lb ed="#V" n="36" break="no"/>cative, ut illa in qua non consistit
+          com<lb ed="#V" n="37" break="no"/>plementum perfectionis, vel reduplicative
+          <lb ed="#V" n="38"/>ut illa in qua consistit ipsum
+          complemen<lb ed="#V" n="39" break="no"/>tum, recte etiam ad discernendum
+          incli<lb ed="#V" n="40" break="no"/>nationem diversam naturae altera
+          deno<lb ed="#V" n="41" break="no"/>minatur a principio quo proximo, altera
+          <lb ed="#V" n="42"/>vero a principio quod, licet utraque
+          com<lb ed="#V" n="43" break="no"/>petat naturae.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="44"/>Alterum, quod supra praemisimus ad
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>scopum hujus distinctionis, et intendit
+          <lb ed="#V" n="46"/>Doctor, est beatitudinem sumi ab eo
+          ex<lb ed="#V" n="47" break="no"/>tensive, et prout natura quiescit in
+          ob<lb ed="#V" n="48" break="no"/>jecto beatifico secundum omnes
+          inclinati<lb ed="#V" n="49" break="no"/>ones, quibus ipsum immediate attingit;
+          <lb ed="#V" n="50"/>non vero sumitur beatitudo intensive et
+          <lb ed="#V" n="51"/>praecisive pro ea perfectione, qua
+          con<lb ed="#V" n="52" break="no"/>jungitur objecto beatifico, et in qua
+          con<lb ed="#V" n="53" break="no"/>sistit ejus complementum formale et prae.
+          <lb ed="#V" n="54"/>cisum. Hoc etiam patet ex iis, quae infra
+          <lb ed="#V" n="55"/>dicit 8 primo modo, etc. ubi ostendens
+          <lb ed="#V" n="56"/>quod tam intellectus quam voluntas
+          im<lb ed="#V" n="57" break="no"/>mediate se habeat ad Deum, ut objectum,
+          <lb ed="#V" n="58"/>ita ut neutra media altera, tanquam
+          me<lb ed="#V" n="59" break="no"/>dio attingendi, feratur in objectum,
+          sub<lb ed="#V" n="60" break="no"/>dit: Et ita, inquit, beatitudo totalis
+          ex<lb ed="#V" n="61" break="no"/>tensiva possibilis in natura intellectuali
+          <lb ed="#V" n="62"/>(supple consistit in actu utriusque
+          poten<lb ed="#V" n="63" break="no"/>tiae), quia est beatitudo duarum
+          potentia<lb ed="#V" n="64" break="no"/>rum, quarum utraque est suo modo
+          beatifi<lb ed="#V" n="65" break="no"/>cabilis; et isto modo si possent esse in
+          na<lb ed="#V" n="66" break="no"/>tura intellectuali decem potentiae, quarum
+          <lb ed="#V" n="67"/>quaelibet per operationem suam attingeret
+          <lb ed="#V" n="68"/>immediate Deum, beatitudo totalis
+          ex<lb ed="#V" n="69" break="no"/>tensiva consisteret in decem
+          operati<lb ed="#V" n="70" break="no"/>onibus, etc. Haec verba clara sunt, et
+          <lb ed="#V" n="71"/>exprimunt scopum Doctoris in hac
+          di<lb ed="#V" n="72" break="no"/>stinctione quatenus sumit in uno membro
+          <lb ed="#V" n="73"/>beatitudinem extensivam, et sic accedit
+          <lb ed="#V" n="74"/>primae sententiae, et quatenus in altero
+          <lb ed="#V" n="75"/>membro sumit beatitudinem
+          intensi<lb ed="#V" n="76" break="no"/>vam, et praecisive, in qua consistit
+          <lb ed="#V" n="77"/>ultimum complementum, et
+          attingi<lb ed="#V" n="78" break="no"/>tur objectum praecise sub illa ratione,
+          <lb ed="#V" n="79"/>et dicit esse unam, et sic accedit secundae
+          <lb ed="#V" n="80"/>sententiae, mediando inter utramque.
+          <lb ed="#V" n="81"/>Quod vero nomen beatitudinis dicatur de
+          <lb ed="#V" n="82"/>primo nembro, qua sumitur beatitudo
+          <lb ed="#V" n="83"/>extensive, patet, quia et Scriptura et
+          <lb ed="#V" n="84"/>Patres nunc attribuunt beatitudinem
+          ope<lb ed="#V" n="85" break="no"/>rationi intellectus, nunc voluntatis, et
+          <lb ed="#V" n="86"/>utri harum competat beatitudo intensiva,
+          <lb ed="#V" n="87"/>etiam nunc non constat inter Doctores,
+          <lb ed="#V" n="88"/>ut quaestione sequenti disseretur, quin
+          <pb ed="#V" n="84"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>etiam plures negant alterutri seorsim
+          <lb ed="#V" n="2"/>competere; ergo saltem beatitudo
+          exten<lb ed="#V" n="3" break="no"/>siva convenit secundum utramque
+          poten<lb ed="#V" n="4" break="no"/>tiam, quamvis beatitudo, ut habet rationem
+          <lb ed="#V" n="5"/>summae et ultimae perfectionis, non possit
+          <lb ed="#V" n="6"/>nisi in altera harum subsistere
+          deter<lb ed="#V" n="7" break="no"/>minate. Dicitur autem illa beatitudo
+          ex<lb ed="#V" n="8" break="no"/>tensiva, non quod una in gradu et forma
+          <lb ed="#V" n="9"/>sit quasi pars aut extensio alterius, sed ex
+          <lb ed="#V" n="10"/>eo quod natura non sit complete in omni
+          <lb ed="#V" n="11"/>sua perfectione circa Deum, nisi utramque
+          <lb ed="#V" n="12"/>habeat, licet una excedat alteram in suo
+          <lb ed="#V" n="13"/>genere, quae dicitur ultima.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="14"/>Ex his patet ad objecta praemissorum
+          <lb ed="#V" n="15"/>Doctorum, qui non disserunt ad mentem
+          <lb ed="#V" n="16"/>Doctoris. Ad primum, quod objicit
+          ridi<lb ed="#V" n="17" break="no"/>culum, ut suo verbo utar, est, neque
+          Do<lb ed="#V" n="18" break="no"/>ctor intendit ullam esse perfectionem
+          <lb ed="#V" n="19"/>potentiae intellectivae aut volitivae, quin
+          <lb ed="#V" n="20"/>sit etiam naturae, sed dicit beatitudinem
+          <lb ed="#V" n="21"/>naturae sumi et intensive et extensive;
+          in<lb ed="#V" n="22" break="no"/>tensive quidem consistit in una
+          operati<lb ed="#V" n="23" break="no"/>one, ad quam potior est inclinatio naturae,
+          <lb ed="#V" n="24"/>et hanc ideo vocat beatitudinem naturae
+          <lb ed="#V" n="25"/>propriam ea proprietate, qua dicitur
+          intel<lb ed="#V" n="26" break="no"/>jectio et volitio esse propria operatio
+          ho<lb ed="#V" n="27" break="no"/>minis, quia perfectissima, et secundum
+          <lb ed="#V" n="28"/>summam inclinationem, quam habet ad
+          <lb ed="#V" n="29"/>perfectionem actus secundi, et ad
+          diffe<lb ed="#V" n="30" break="no"/>rentiam hujus, operatio sensitiva licet sit
+          <lb ed="#V" n="31"/>etiam perfectio hominis, secundum illam
+          <lb ed="#V" n="32"/>inclinationem non dicitur hominis propria,
+          <lb ed="#V" n="33"/>sed potentiae elicientis et recipientis, ut
+          <lb ed="#V" n="34"/>visivae vel auditivae, vel ejusmodi. Ad
+          <lb ed="#V" n="35"/>probationem quam adducit, respondetur
+          <lb ed="#V" n="36"/>ab omnibus dici intellectum et voluntatem
+          <lb ed="#V" n="37"/>beari, et ex Scriptura et Patribus, ac vera
+          <lb ed="#V" n="38"/>Theologia id sequi, non quod haec sepa
+          <lb ed="#V" n="39"/>rantur a natura, sed his mediis, et earum
+          <lb ed="#V" n="40"/>operationibus nata sit beari natura, non
+          <lb ed="#V" n="41"/>ut ab his abstrahit, et in rigore
+          philoso<lb ed="#V" n="42" break="no"/>phico, illud quod est quo respective ad
+          <lb ed="#V" n="43"/>formam tam recipiendam quam etiam
+          <lb ed="#V" n="44"/>producendam, sumit donominationem a
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>forma, sicut et effectum, licet per hoc non
+          <lb ed="#V" n="46"/>excludatur principium quod; recte enim
+          <lb ed="#V" n="47"/>et vulgariter dicitur superficies alba,
+          <lb ed="#V" n="48"/>anima intelligere, et voluntas velle,
+          intel<lb ed="#V" n="49" break="no"/>lectus intelligere, anima beari, licet sit
+          <lb ed="#V" n="50"/>quo respectu beatitudinis. Quod si
+          volun<lb ed="#V" n="51" break="no"/>tas sit accidens, cadem etiam denominatio
+          <lb ed="#V" n="52"/>salvatur, quia sicut salvatur in anima
+          <lb ed="#V" n="53"/>denominatio praedicta, licet sit principium
+          <lb ed="#V" n="54"/>quo beatitudinis, ita etiam recte dicitur
+          <lb ed="#V" n="55"/>voluntas beari, aut intellectus, non in
+          <lb ed="#V" n="56"/>esse accidentis, sed voluntatis et
+          intel<lb ed="#V" n="57" break="no"/>lectus sint accidentia, ut praedictus
+          Au<lb ed="#V" n="58" break="no"/>ctor quasi probatum aut notum supponit,
+          <lb ed="#V" n="59"/>vel non sint, ut verior opinio tenet, ad
+          <lb ed="#V" n="60"/>praesens non refert. Adjicere etiam
+          possu<lb ed="#V" n="61" break="no"/>mus hanc denominationem proprie salvari
+          <lb ed="#V" n="62"/>in iis operationibus, quae ita consequuntur
+          <lb ed="#V" n="63"/>sua principia tam activa quam passiva,
+          <lb ed="#V" n="64"/>ut iis conveniant immediate in utroque
+          <lb ed="#V" n="65"/>genere, et nullo alio medio tanquam
+          ra<lb ed="#V" n="66" break="no"/>tione recipiendi aut agendi, aut disponendi
+          <lb ed="#V" n="67"/>ex parte naturae, cui mediate conveniunt
+          <lb ed="#V" n="68"/>in utroque praecise per ipsa principia
+          pro<lb ed="#V" n="69" break="no"/>xima; et haec est ratio, cur anima dicatur
+          <lb ed="#V" n="70"/>in homine intelligere et velle, et cur in
+          <lb ed="#V" n="71"/>ipsa aut Angelo etiam dicatur intellectus
+          <lb ed="#V" n="72"/>intelligere, aut voluntas velle, quia
+          opera<lb ed="#V" n="73" break="no"/>tio est ipsorum propria, et intantum est
+          <lb ed="#V" n="74"/>naturae, aut totius, ut distinguuntur a
+          <lb ed="#V" n="75"/>principiis, inquantum est propria
+          princi<lb ed="#V" n="76" break="no"/>piorum; quidni ergo intellectus et
+          volun<lb ed="#V" n="77" break="no"/>tas dicantur beari, sicut et intelligere et
+          <lb ed="#V" n="78"/>velle, ex quibus beatitudo redundat in
+          <lb ed="#V" n="79"/>animam, sicut intellectio et volitio
+          quae<lb ed="#V" n="80" break="no"/>cumque, nam ipsa beatitudo in his
+          consi<lb ed="#V" n="81" break="no"/>stit, ut sunt circa Deum, ut objectum.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="82"/>Respondetur ex his ad rationes AEgidii,
+          <lb ed="#V" n="83"/>hanc differentiam esse Philosophicam, et
+          <lb ed="#V" n="84"/>valde Theologicam. Ratio autem quam
+          <lb ed="#V" n="85"/>adducit, ne eadem replicemus, soluta est
+          <lb ed="#V" n="86"/>ex dictis; latius enim sumit Doctor
+          beati<lb ed="#V" n="87" break="no"/>tudinem, quam ut sumitur pro ultimo
+          <lb ed="#V" n="88"/>complemento, quia sumit ut communis est
+          <pb ed="#V" n="85"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>extensivae et intensivae, quam voco
+          ulti<lb ed="#V" n="2" break="no"/>mum complementum. Quod specialiter
+          <lb ed="#V" n="3"/>adjicit de appetitu potentiae, quod sit
+          tan<lb ed="#V" n="4" break="no"/>tum naturalis, et appetitus verus
+          beatitu<lb ed="#V" n="5" break="no"/>dinis, qui est agentis, sit elicitus,
+          invol<lb ed="#V" n="6" break="no"/>vit repugnantiam, quia omnis appetitus
+          <lb ed="#V" n="7"/>elicitus beatitudinis distinctus ab ipsa
+          <lb ed="#V" n="8"/>beatitudine, nequit esse ab alio principio
+          <lb ed="#V" n="9"/>quam a potentia; si autem intelligat ipsam
+          <lb ed="#V" n="10"/>beatitudinem tanquam appetitum
+          elici<lb ed="#V" n="11" break="no"/>tum, dico etiam esse potentiae, quod si
+          <lb ed="#V" n="12"/>solus etiam appetitus naturalis
+          suppone<lb ed="#V" n="13" break="no"/>retur ad beatitudinem, sufficeret, ut patet
+          <lb ed="#V" n="14"/>in anima Christi, quae non minus fuit
+          <lb ed="#V" n="15"/>beata, quamvis nullus appetitus elicitus
+          <lb ed="#V" n="16"/>potentiae, aut totius supponebatur ad
+          ip<lb ed="#V" n="17" break="no"/>sam, neque etiam ad beatitudinem infantis
+          <lb ed="#V" n="18"/>baptizati; ad reliqua ejusdem patet ex
+          <lb ed="#V" n="19"/>dictis.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="20"/>(e) Secundum hoc ergo potest dici, etc.
+          <lb ed="#V" n="21"/>Est prima conclusio hujus textus, quam
+          <lb ed="#V" n="22"/>jam declaravi, nempe beatitudinem natus
+          <lb ed="#V" n="23"/>rae consistere in unica tantum operatione.
+          <lb ed="#V" n="24"/>Eam tenet secunda sententia praemissa;
+          <lb ed="#V" n="25"/>illa autem dicitur beatitudo hoc modo
+          <lb ed="#V" n="26"/>sumpta, quae est perfectissima operatio
+          <lb ed="#V" n="27"/>naturae respective ad alias, et secundum
+          <lb ed="#V" n="28"/>perfectissimam ejus inclinationem, et ad
+          <lb ed="#V" n="29"/>objectum beatificum praecise, qua
+          beatifi<lb ed="#V" n="30" break="no"/>cum est ultimate, et prout caetera in
+          ordi<lb ed="#V" n="31" break="no"/>ne ad hanc operationem dantur, vel
+          ante<lb ed="#V" n="32" break="no"/>cedenter, vel concomitanter, vel
+          conse<lb ed="#V" n="33" break="no"/>quenter. Probat autem hanc conclusionem,
+          <lb ed="#V" n="34"/>quia sicut objectum beatificum est unum
+          <lb ed="#V" n="35"/>re et ratione, in quo tanquam in extrinseco
+          <lb ed="#V" n="36"/>perfectivo, est huic naturae perfectae bene,
+          <lb ed="#V" n="37"/>et non nisi inquantum attingitur ab illa
+          <lb ed="#V" n="38"/>natura simpliciter immediate ( supple in
+          <lb ed="#V" n="39"/>seipso praesente) per operationem, ita
+          <lb ed="#V" n="40"/>talis operatio simpliciter erit unica; ergo
+          <lb ed="#V" n="41"/>beatitudo hoc modo sumpta erit unica
+          <lb ed="#V" n="42"/>operatio. Dices objectum beatificum, licet
+          <lb ed="#V" n="43"/>sit re et ratione unum, nempe divina
+          <lb ed="#V" n="44"/>essentia in se praesens, tamen ex parte
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>naturae beatificabilis respici sub diversa
+          <lb ed="#V" n="46"/>ratione, et per diversa principia, nempe
+          <lb ed="#V" n="47"/>intellectum et voluntatem, mediantibus
+          <lb ed="#V" n="48"/>quibus natura est nata beatificari; ergo
+          <lb ed="#V" n="49"/>ex unitate objecti re et ratione non
+          se<lb ed="#V" n="50" break="no"/>quitur unitas beatitudinis. Contra,
+          obje<lb ed="#V" n="51" break="no"/>ctum extrinsecum perfectivum naturae
+          <lb ed="#V" n="52"/>perficit naturam secundum gradum
+          incli<lb ed="#V" n="53" break="no"/>nationis excedentem; sed in natura est
+          <lb ed="#V" n="54"/>diversa inclinatio secundum diversas illas
+          <lb ed="#V" n="55"/>facultates, quarum una est potior altera,
+          <lb ed="#V" n="56"/>quia repugnat ad idem objectum esse
+          <lb ed="#V" n="57"/>aequales, cum nihil superfluum continet
+          <lb ed="#V" n="58"/>natura, et ordo detur in perfectionibus
+          <lb ed="#V" n="59"/>secundis et primis, et consequenter in
+          <lb ed="#V" n="60"/>inclinationibus ad perfectiones secundas
+          <lb ed="#V" n="61"/>tam habitualibus quam naturalibus, ut
+          <lb ed="#V" n="62"/>recte probat Doctor supra in paragrapho
+          <lb ed="#V" n="63"/>antecedenti; ergo objectum beatificum
+          <lb ed="#V" n="64"/>magis perficit naturam secundum
+          incli<lb ed="#V" n="65" break="no"/>nationem potiorem naturae; ergo operatio
+          <lb ed="#V" n="66"/>consequens naturam secundum hanc
+          in<lb ed="#V" n="67" break="no"/>clinationem, erit simpliciter perfectissima
+          <lb ed="#V" n="68"/>ejus; ergo ejus beatitudo essentialis, ut
+          <lb ed="#V" n="69"/>sumitur pro complemento naturae, ut dicit
+          <lb ed="#V" n="70"/>ordinem ad sui perfectionem intrinsecam
+          <lb ed="#V" n="71"/>et extrinsecam. Ad scopum autem
+          prae<lb ed="#V" n="72" break="no"/>sentis quaestionis nihil aliud intenditur,
+          <lb ed="#V" n="73"/>nisi dari aliquam perfectissimam
+          operati<lb ed="#V" n="74" break="no"/>onem in natura, per quam nata est uniri
+          <lb ed="#V" n="75"/>objecto beatifico, eo modo quo ex eo
+          re<lb ed="#V" n="76" break="no"/>dundat ultimate perfectio naturae
+          supre<lb ed="#V" n="77" break="no"/>ma; hoc autem dato sequitur intentum,
+          <lb ed="#V" n="78"/>nempe illam esse beatitudinem
+          essentia<lb ed="#V" n="79" break="no"/>liter, et probatur sequela, quia illa
+          quae<lb ed="#V" n="80" break="no"/>cumque operatio ad hanc ordinatur, non
+          <lb ed="#V" n="81"/>e contra haec ordinatur ad alias, sed in
+          <lb ed="#V" n="82"/>ea fit status procedendo secundum
+          ordi<lb ed="#V" n="83" break="no"/>nem formae et actualitatis; omnis enim
+          <lb ed="#V" n="84"/>perfectio secunda naturae non solum
+          or<lb ed="#V" n="85" break="no"/>dinatur ad naturam, ut est actus primus
+          <lb ed="#V" n="86"/>ejus, sed etiam ordinatur ad alias
+          per<lb ed="#V" n="87" break="no"/>fectiones secundum gradum in quo
+          per<lb ed="#V" n="88" break="no"/>ficit naturam; nam ipsa natura ideo
+          re<pb ed="#V" n="86"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>cipit inclinationes ad perfectiones
+          inferi<lb ed="#V" n="2" break="no"/>oris ordinis, quo reddatur capax
+          perfe<lb ed="#V" n="3" break="no"/>ctionis supremae, ad quam ordinatur, et
+          <lb ed="#V" n="4"/>ad quam perficitur, v. g. in natura
+          sub<lb ed="#V" n="5" break="no"/>stantiali est inclinatio ad quantitatem, ut
+          <lb ed="#V" n="6"/>ea media per actionem et passionem
+          dis<lb ed="#V" n="7" break="no"/>ponatur ad receptionem formarum, et ad
+          <lb ed="#V" n="8"/>agendum in alia; recipit qualitates et
+          <lb ed="#V" n="9"/>caetera consequentia ad perfectionem suae
+          <lb ed="#V" n="10"/>formae substantialis, et consequenter
+          to<lb ed="#V" n="11" break="no"/>tius, ita ut haec omnia ordinentur ad ipsam
+          <lb ed="#V" n="12"/>formam, qua constituitur; forma vero sit
+          <lb ed="#V" n="13"/>per se prima propter quam reliqua
+          con<lb ed="#V" n="14" break="no"/>ceduntur. In viventibus eodem modo licet
+          <lb ed="#V" n="15"/>discurrere, in quibus sensus ad
+          phanta<lb ed="#V" n="16" break="no"/>siam, phantasia ad intellectum et
+          appeti<lb ed="#V" n="17" break="no"/>tum ordinatur.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="18"/>Sed hoc amplius probatur ratione, quia
+          <lb ed="#V" n="19"/>sicut eidem naturae repugnat ordinari ad
+          <lb ed="#V" n="20"/>diversa prima, et non subordinata
+          agen<lb ed="#V" n="21" break="no"/>tia, ita etiam repugnat eam ordinari ad
+          <lb ed="#V" n="22"/>diversos primos fines non subordinatos,
+          <lb ed="#V" n="23"/>quia ad multiplicationem prioris sequitur
+          <lb ed="#V" n="24"/>multiplicatio posterioris essentialis; finis
+          <lb ed="#V" n="25"/>autem est prior essentialiter natura, sicut
+          <lb ed="#V" n="26"/>et agens. Sed si posset ordinari ad
+          eum<lb ed="#V" n="27" break="no"/>dem finem secundum diversas
+          inclina<lb ed="#V" n="28" break="no"/>tiones immediatas, et non subordinatas,
+          <lb ed="#V" n="29"/>perinde se haberet, ac si ordinaretur ad
+          <lb ed="#V" n="30"/>diversos fines non subordinatos, quia ex
+          <lb ed="#V" n="31"/>parte naturae esset multiplicitas
+          inclinati<lb ed="#V" n="32" break="no"/>onum et perfectionum non
+          subordinata<lb ed="#V" n="33" break="no"/>rum, licet in fine esset identitas in esse.
+          <lb ed="#V" n="34"/>non tamen in esse termini extrinsece
+          per<lb ed="#V" n="35" break="no"/>fectivi per modum finis uniformiter
+          influ<lb ed="#V" n="36" break="no"/>entis; ergo id repugnat naturae aeque
+          <lb ed="#V" n="37"/>primo respicere finem difformiter, et aeque
+          <lb ed="#V" n="38"/>primo perficientem sine ulla in ipsis
+          per<lb ed="#V" n="39" break="no"/>fectionibus, aut inclinatione perfectibilis
+          <lb ed="#V" n="40"/>naturae ordine. Si autem dicatur quod sit
+          <lb ed="#V" n="41"/>ordo perfectionis in natura et actibus, et
+          <lb ed="#V" n="42"/>modo attingendi objectum secundum
+          gra<lb ed="#V" n="43" break="no"/>dum caeteris perfectius, in ea operatione
+          <lb ed="#V" n="44"/>consistit beatitudo, quae est suprema
+          per<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>fectio naturae intellectualis, et in ordine
+          <lb ed="#V" n="46"/>ad quam objectum praecise habet rationem
+          <lb ed="#V" n="47"/>simplicem finis, et primam in genere
+          <lb ed="#V" n="48"/>causae finalis, et consequenter unica erit
+          <lb ed="#V" n="49"/>potentia suprema naturae inter alias, per
+          <lb ed="#V" n="50"/>quam praecise respicit finem ut finis, et
+          <lb ed="#V" n="51"/>ejus operatio erit beatitudo essentialis,
+          <lb ed="#V" n="52"/>quia illa est suprema potentia, per quam
+          <lb ed="#V" n="53"/>natura conjungitur suo fini sub ratione
+          <lb ed="#V" n="54"/>finis.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="55"/>Dices finem in esse, seu ad quem in
+          <lb ed="#V" n="56"/>reipsa reducitur natura, esse tantum
+          uni<lb ed="#V" n="57" break="no"/>cum, non inde sequi finem in operatione
+          <lb ed="#V" n="58"/>esse unum. Contra, finis qui est ultimus
+          <lb ed="#V" n="59"/>naturae in esse, idem necessario est ejus
+          <lb ed="#V" n="60"/>in operari, maxime per quod natura
+          ulti<lb ed="#V" n="61" break="no"/>mate perficitur, quia sicut operatio
+          con<lb ed="#V" n="62" break="no"/>sequitur ad esse tanquam perfectio ejus
+          <lb ed="#V" n="63"/>secunda, ita etiam tunc est quietativa
+          <lb ed="#V" n="64"/>naturae in esse entis, qua reducitur in
+          <lb ed="#V" n="65"/>principia ejus ostendi, et maxime in
+          fi<lb ed="#V" n="66" break="no"/>nem, ut ad ultimum terminum essendi;
+          <lb ed="#V" n="67"/>ergo si nequit multiplicari finis in esse
+          <lb ed="#V" n="68"/>ultimus, sic etiam nequit multiplicari finis
+          <lb ed="#V" n="69"/>ultimus in operari. Probatur antecedens
+          <lb ed="#V" n="70"/>cum consequentia, quia perfectio naturae
+          <lb ed="#V" n="71"/>in esse, ut est a prima causa efficiente,
+          <lb ed="#V" n="72"/>est propter finem; ergo quo magis
+          par<lb ed="#V" n="73" break="no"/>ticipat finem, vel ad illum accedit
+          parti<lb ed="#V" n="74" break="no"/>cipando ejus bonitatem, eo est perfectior,
+          <lb ed="#V" n="75"/>quia colligimus perfectionem supremi
+          <lb ed="#V" n="76"/>entis creati, non qua est a primo
+          effi<lb ed="#V" n="77" break="no"/>ciente, quod sibi et aliis est commune,
+          <lb ed="#V" n="78"/>sed quia magis participat bonitatem ejus,
+          <lb ed="#V" n="79"/>ut finis in essendo; ergo nequit operatio,
+          <lb ed="#V" n="80"/>quae est perfectio secunda ejusdem
+          natu<lb ed="#V" n="81" break="no"/>rae, respicere alium finem quam illum,
+          <lb ed="#V" n="82"/>qui est essendi, quia sic neque
+          perfice<lb ed="#V" n="83" break="no"/>ret primum esse naturae, si perficeret aliter
+          <lb ed="#V" n="84"/>quam natura est ad finem in esse, a quo
+          <lb ed="#V" n="85"/>nequit abstrahere, neque operatio ipsa
+          <lb ed="#V" n="86"/>referretur ad finem suae causae a qua est.
+          <lb ed="#V" n="87"/>Deinde, facultates et inclinatio naturae
+          <lb ed="#V" n="88"/>spectant ad actum primum ejus; ergo
+          ea<pb ed="#V" n="87"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>rum operatio spectat ad eumdem finem
+          <lb ed="#V" n="2"/>t actus primi in essendo. Accedit quod
+          <lb ed="#V" n="3"/>in hac ratione operationum etiam
+          consi<lb ed="#V" n="4" break="no"/>stit in specie perfectio naturae
+          intellectu<lb ed="#V" n="5" break="no"/>alis ex parte, et imago per quam
+          assimi<lb ed="#V" n="6" break="no"/>latur participando finem ultimum sui in
+          <lb ed="#V" n="7"/>esse, quo excedit creaturas alias
+          intelle<lb ed="#V" n="8" break="no"/>ctuales in esse, quia propinquior est fini
+          <lb ed="#V" n="9"/>in esse; tunc autem perfecte attingit,
+          <lb ed="#V" n="10"/>et refertur ad finem in esse, quando
+          con<lb ed="#V" n="11" break="no"/>jungitur ei per operationem beatificam.
+          <lb ed="#V" n="12"/>Accedit ad haec, illam distinctionem non
+          <lb ed="#V" n="13"/>solvere argumentum, quia sicut finis in
+          <lb ed="#V" n="14"/>esse est prior essentialiter natura, ideoque
+          <lb ed="#V" n="15"/>nequit multiplicari ordo ad finem in
+          na<lb ed="#V" n="16" break="no"/>tura, ita etiam finis in operari est prior
+          <lb ed="#V" n="17"/>essentialiter operatione et potentia, qua
+          <lb ed="#V" n="18"/>per operationem beatur, tanquam
+          perfe<lb ed="#V" n="19" break="no"/>ctivum ejus extrinsecum et supremum;
+          <lb ed="#V" n="20"/>ergo ex eadem ratione nequit
+          multiplica<lb ed="#V" n="21" break="no"/>ri in esse finis beatificantis, qua influit in
+          <lb ed="#V" n="22"/>naturam, neque beatificatio ipsa in
+          natu<lb ed="#V" n="23" break="no"/>ra multiplicari.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="24"/>Dices cum Suarez 1. 2. disp. 6.
+          <lb ed="#V" n="25"/>quaestiunc. 3. in ultimo dicto, requiri
+          <lb ed="#V" n="26"/>multiplicitatem operationum, quibus
+          at<lb ed="#V" n="27" break="no"/>tingitur finis ultimus ob perfectionem
+          <lb ed="#V" n="28"/>excedentem objecti in se, et ob
+          imperfe<lb ed="#V" n="29" break="no"/>ctionem subjecti, quatenus una simplici
+          <lb ed="#V" n="30"/>ratione nequit attingere objectum.
+          Con<lb ed="#V" n="31" break="no"/>- tra, licet subjectum attingat objectum
+          <lb ed="#V" n="32"/>sub duplici ratione, tamen non sequitur
+          <lb ed="#V" n="33"/>quod beatifica attingentia consistat in illa
+          <lb ed="#V" n="34"/>duplici operatione, sed in altera
+          contin<lb ed="#V" n="35" break="no"/>gente objectum beatificans secundum
+          <lb ed="#V" n="36"/>capacitatem et exigentiam finitam naturae
+          <lb ed="#V" n="37"/>beatificabilis, neque etiam illa duplex
+          <lb ed="#V" n="38"/>attingentia procedit ex perfectione
+          obje<lb ed="#V" n="39" break="no"/>cti excedente, aut imperfectione
+          poten<lb ed="#V" n="40" break="no"/>tiarum, sed ex natura objecti et
+          poten<lb ed="#V" n="41" break="no"/>tiarum et ipsarum operationum, quia
+          <lb ed="#V" n="42"/>etiam in Deo, ubi nulla est imperfectio,
+          <lb ed="#V" n="43"/>diversa operatione contingitur objectum,
+          <lb ed="#V" n="44"/>nempe visione et fruitione essentiali; ita
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>etiam creatura intellectualis, si operetur
+          <lb ed="#V" n="46"/>in finem, etiam in creatis, necessario
+          <lb ed="#V" n="47"/>operatur per intellectum et voluntatem
+          <lb ed="#V" n="48"/>circa quodcumque, licet sit inferioris
+          <lb ed="#V" n="49"/>ordinis et perfectionis; universim ergo
+          <lb ed="#V" n="50"/>natura intellectualis ita operatur, et non
+          <lb ed="#V" n="51"/>aliter, si exit in actum completum
+          sua<lb ed="#V" n="52" break="no"/>rum facultatum.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="53"/>Dices cum Valentia beatitudinem
+          essen<lb ed="#V" n="54" break="no"/>tialem vindicare sibi operationem
+          prae<lb ed="#V" n="55" break="no"/>stantissimam, quae sit complementum
+          <lb ed="#V" n="56"/>naturae, tamen non eam solam, sed etiam
+          <lb ed="#V" n="57"/>aliam spectare ad beatitudinem
+          essenti<lb ed="#V" n="58" break="no"/>alem. Ita 2. tom. disp. 1. quaest. 3.
+          <lb ed="#V" n="59"/>punct. 4. Eadem etiam est solutio Suarez.
+          <lb ed="#V" n="60"/>Contra, illa operatio perfectissima attingit
+          <lb ed="#V" n="61"/>objectum beatitudinis perfectissimo etiam
+          <lb ed="#V" n="62"/>modo quo attingi potest in ratione
+          beatifi<lb ed="#V" n="63" break="no"/>cantis et termini extrinseci naturae, et
+          <lb ed="#V" n="64"/>secundum perfectissimam naturae
+          inclina<lb ed="#V" n="65" break="no"/>tionem; ergo in ea sola consistit ultimum
+          <lb ed="#V" n="66"/>complementum, et bene esse naturae, qua
+          <lb ed="#V" n="67"/>beatificabilis est. Probatur consequentia,
+          <lb ed="#V" n="68"/>quia ratio superius facta in confirmatione
+          <lb ed="#V" n="69"/>perinde impugnat praesentem
+          responsi<lb ed="#V" n="70" break="no"/>onem. Deinde, operatio imperfectior
+          natu<lb ed="#V" n="71" break="no"/>rae circa idem objectum nequit integrare
+          <lb ed="#V" n="72"/>cum operatione illa perfectissima eamdem
+          <lb ed="#V" n="73"/>perfectionem essentialiter, quae est
+          secun<lb ed="#V" n="74" break="no"/>dum aliam inclinationem inferiorem, et
+          <lb ed="#V" n="75"/>non attingentem objectum ea perfectione
+          <lb ed="#V" n="76"/>qua prior, neque cum ea communicat in
+          <lb ed="#V" n="77"/>esse; ergo nequit ultimam perfectionem
+          <lb ed="#V" n="78"/>naturae integrare, nisi tantum extensive,
+          <lb ed="#V" n="79"/>prout tenet Doctor in secundo membro
+          <lb ed="#V" n="80"/>distinctionis. Patet consequentia, quia illa
+          <lb ed="#V" n="81"/>solum est perfectio et beatitudo naturae,
+          <lb ed="#V" n="82"/>quae est secundum inclinationem
+          potissi<lb ed="#V" n="83" break="no"/>mam et supremam ejus, sicut illa est
+          <lb ed="#V" n="84"/>perfectio intensiva, et suprema hominis,
+          <lb ed="#V" n="85"/>quae competit ei secundum inclinationem
+          <lb ed="#V" n="86"/>ultimam et supremam in ipso, non
+          <lb ed="#V" n="87"/>secundum inferiorem, licet illa integret
+          <lb ed="#V" n="88"/>extensivam ejus perfectionem.</quote>
+          </p>
+          <p>
+            <quote><pb ed="#V" n="88"/>
+          <cb ed="#V" n="a"/>
+          <lb ed="#V" n="1"/>Alii respondent Deum in ratione objecti
+          <lb ed="#V" n="2"/>beatificare sub diversa ratione, nempe
+          <lb ed="#V" n="3"/>veri et boni. Contra hanc est quod Deus
+          <lb ed="#V" n="4"/>beat in ratione objecti creaturam, eo
+          <lb ed="#V" n="5"/>modo quo ipse in seipso est beatus per
+          <lb ed="#V" n="6"/>suam essentiam, et recurrunt rationes
+          <lb ed="#V" n="7"/>factae, dato quod altero modo terminet
+          <lb ed="#V" n="8"/>perfectissimam operationem, ideoque hae
+          <lb ed="#V" n="9"/>responsiones magis reducunt difficultatem
+          <lb ed="#V" n="10"/>ad quaestionem de nomine, quia admittunt
+          <lb ed="#V" n="11"/>quod intenditur, licet dicant totam
+          beati<lb ed="#V" n="12" break="no"/>tudinem in unica operatione illa
+          perfectis<lb ed="#V" n="13" break="no"/>sima non consistere, quod verum est de
+          <lb ed="#V" n="14"/>beatitudine extensive sumpta, quatenus
+          <lb ed="#V" n="15"/>scilicet creatura attingat Deum in se, et
+          <lb ed="#V" n="16"/>ab ipsa per modum objecti perficitur.
+          <lb ed="#V" n="17"/>Caeterum, quia unica et simplex est
+          <lb ed="#V" n="18"/>perfectio, qua creatura perficitur a fine,
+          <lb ed="#V" n="19"/>ut est ad finem secundum inclinationem
+          <lb ed="#V" n="20"/>potissimam, ideo statuitur ejus ultimum
+          <lb ed="#V" n="21"/>complementum in illa operatione tantum,
+          <lb ed="#V" n="22"/>et non in alia.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="23"/>(f) Secundo modo dicendo, etc. Haec
+          <lb ed="#V" n="24"/>est secunda conclusio hujus litterae, nempe
+          <lb ed="#V" n="25"/>beatitudinem extensivam consistere in
+          <lb ed="#V" n="26"/>pluribus operationibus, nempe in
+          opera<lb ed="#V" n="27" break="no"/>tione intellectus et voluntatis, quibus
+          <lb ed="#V" n="28"/>attingitur Deus in se per modum objecti
+          <lb ed="#V" n="29"/>beatifici immediate, et hanc probant
+          fun<lb ed="#V" n="30" break="no"/>damenta primae sententiae, et nihil aliud.
+          <lb ed="#V" n="31"/>«Distinguit Doctor immediationem illam
+          <lb ed="#V" n="32"/>attingentiae, quia vel excludit medium
+          <lb ed="#V" n="33"/>ejusdem ordinis, v. g. operationem
+          diver<lb ed="#V" n="34" break="no"/>sam ab ea qua attingitur objectum, vel
+          <lb ed="#V" n="35"/>medium alterius ordinis. ita ut nihil
+          <lb ed="#V" n="36"/>perfectius aut immediatius attingat
+          obje<lb ed="#V" n="37" break="no"/>ctum quam hoc quod dicit immediate
+          <lb ed="#V" n="38"/>attingere. Subjicit exemplum in causis
+          <lb ed="#V" n="39"/>efficientibus priori et posteriori, quarum
+          <lb ed="#V" n="40"/>quaelibet attingit passum immediate, ita
+          <lb ed="#V" n="41"/>ut neutra sit alteri medium attingere;
+          <lb ed="#V" n="42"/>causa tamen prior immediatius attingit,
+          <lb ed="#V" n="43"/>quia intimius et perfectius, quia tota
+          attin<lb ed="#V" n="44" break="no"/>gentia posterioris est in virtute prioris,
+          <cb ed="#V" n="b"/>
+          <lb ed="#V" n="45"/>sicut patet in causa prima et secunda.
+          <lb ed="#V" n="46"/>Quantum ad immediationem primo modo
+          <lb ed="#V" n="47"/>sumptam, tam intellectus quam
+          volun<lb ed="#V" n="48" break="no"/>tas immediate attingunt objectum, quia
+          <lb ed="#V" n="49"/>neutra est alteri medium attingendi,
+          <lb ed="#V" n="50"/>neque in ratione objecti, neque in
+          opera<lb ed="#V" n="51" break="no"/>tione, quae est medium attingendi, et ideo
+          <lb ed="#V" n="52"/>beatitudo extensiva totalis consistit in
+          <lb ed="#V" n="53"/>utraque operatione; imo si essent plures
+          <lb ed="#V" n="54"/>potentiae, quae immediate sic attingerent,
+          <lb ed="#V" n="55"/>beatitudo extensiva consisteret in
+          omni<lb ed="#V" n="56" break="no"/>bus operationibus collective.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="57"/>(g) Nec obstat, si dicatur, etc. Occurrit
+          <lb ed="#V" n="58"/>objectioni, nempe quae opponeretur,
+          be<lb ed="#V" n="59" break="no"/>atitudinem simpliciter consistere in una
+          <lb ed="#V" n="60"/>operatione perfectissima, qua sola per
+          <lb ed="#V" n="61"/>unicam potentiam attingitur objectum
+          be<lb ed="#V" n="62" break="no"/>atificum, qua beatificum est; et licet
+          im<lb ed="#V" n="63" break="no"/>mediate attingatur per operationem
+          alte<lb ed="#V" n="64" break="no"/>rius, illa non erit beatitudo nisi secundum
+          <lb ed="#V" n="65"/>quid; et secundum hoc, inquit, esset
+          <lb ed="#V" n="66"/>dicendum quod beatitudo simpliciter et
+          <lb ed="#V" n="67"/>totalis consistit in operatione unius
+          po<lb ed="#V" n="68" break="no"/>tentiae. Hanc objectionem non solvit, quia
+          <lb ed="#V" n="69"/>aequivocat in sensu, nam loquendo de
+          <lb ed="#V" n="70"/>beatitudine extensiva, negandum est
+          <lb ed="#V" n="71"/>antecedens, de intensiva concedendum,
+          <lb ed="#V" n="72"/>et sic respondet in subjuncta littera, quae
+          <lb ed="#V" n="73"/>est secundum membrum praemissae
+          di<lb ed="#V" n="74" break="no"/>stinctionis de immediationis acceptione.</quote>
+          </p>
+          <p>
+            <quote><lb ed="#V" n="75"/>(h) Secundo autem modo loquendo, etc.
+          <lb ed="#V" n="76"/>Id est, de immediatione, ut sumitur pro
+          <lb ed="#V" n="77"/>perfectiori attingentia, dicit sic planum
+          <lb ed="#V" n="78"/>esse beatitudinem consistere in unica
+          <lb ed="#V" n="79"/>tantum operatione, quia non est nisi
+          <lb ed="#V" n="80"/>unica tantum potentia in natura, qua
+          <lb ed="#V" n="81"/>perfectissime attingitur objectum
+          beatifi<lb ed="#V" n="82" break="no"/>cum, et secundum quam attingentiam
+          <lb ed="#V" n="83"/>perfecte bene est ipsi naturae ex parte
+          <lb ed="#V" n="84"/>objecti perfectissimo modo, et secundum
+          <lb ed="#V" n="85"/>potiorem inclinationem attingibilis, et
+          <lb ed="#V" n="86"/>eodem modo dicendum de beatitudine
+          <lb ed="#V" n="87"/>utriusque potentiae. Illa sola intensiva est,
+          <lb ed="#V" n="88"/>et stricte sumpta, qua perfectissime
+          attin<pb ed="#V" n="89"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>gitur tale objectum, licet beatitudo
+          exten<lb ed="#V" n="2" break="no"/>siva consistat in utraque, quae est lata
+          <lb ed="#V" n="3"/>acceptio beatitudinis, prout est perfectio
+          <lb ed="#V" n="4"/>naturae secundum omnes potentias, qua
+          <lb ed="#V" n="5"/>respicit Deum, ut objectum; et concludit
+          <lb ed="#V" n="6"/>nullo modo statuendum esse beatitudinem
+          <lb ed="#V" n="7"/>in pluribus operationibus, nisi teneatur
+          <lb ed="#V" n="8"/>quod ad operationem beatificam non
+          suffi<lb ed="#V" n="9" break="no"/>ciat operatio unica sine alia, quod est
+          <lb ed="#V" n="10"/>dubium, inquit. Sustinendo itaque hanc
+          <lb ed="#V" n="11"/>sententiam, quae prima est in ordine
+          <lb ed="#V" n="12"/>quoad beatitudinem non solum
+          extensi<lb ed="#V" n="13" break="no"/>vam, prout eam limitat Doctor, sed etiam
+          <lb ed="#V" n="14"/>quoad intensivam; tenendum esset
+          conse<lb ed="#V" n="15" break="no"/>rquenter utramque operationem aeque
+          in<lb ed="#V" n="16" break="no"/>tensive attingere objectum beatificum,
+          <lb ed="#V" n="17"/>neque esse ordinem perfectionis inter
+          <lb ed="#V" n="18"/>ipsas operationes, neque etiam inter
+          <lb ed="#V" n="19"/>potentias operativas, quia utraque tam
+          <lb ed="#V" n="20"/>operatio quam potentiae sunt diversi
+          <lb ed="#V" n="21"/>ordinis, et sunt perfectiones simpliciter,
+          <lb ed="#V" n="22"/>quae inveniuntur in Deo formaliter,
+          qua<lb ed="#V" n="23" break="no"/>rum neutra fluit ab alia tanquam a
+          ra<lb ed="#V" n="24" break="no"/>dice. Sed utraque aeque primo conveniunt
+          <lb ed="#V" n="25"/>enti simpliciter, et sic non esse
+          compa<lb ed="#V" n="26" break="no"/>rabiles secundum perfectionis excessum,
+          <lb ed="#V" n="27"/>quia universitas etiam causarum
+          creata<lb ed="#V" n="28" break="no"/>s rum et secundarum, ut recte Doctor in 1.
+          <lb ed="#V" n="29"/>dist. 2. quaest. 2. non reducitur ad
+          <lb ed="#V" n="30"/>Deum, qua est mensura earum, sub unica
+          <lb ed="#V" n="31"/>et simplici ratione, sed sub diversa,
+          nem<lb ed="#V" n="32" break="no"/>pe causae naturales reducuntur ad Deum,
+          <lb ed="#V" n="33"/>ut per intellectum producit et operatur
+          <lb ed="#V" n="34"/>per modum naturae; causae vero liberae
+          <lb ed="#V" n="35"/>reducuntur in Deum ut operatur per
+          vo<lb ed="#V" n="36" break="no"/>luntatem, inter quas in Deo non est ordo
+          <lb ed="#V" n="37"/>perfectionis, sed utraque est prima in
+          <lb ed="#V" n="38"/>suo genere diverso. Sic etiam dici potest
+          <lb ed="#V" n="39"/>in creatura nullum esse ordinem
+          perfe<lb ed="#V" n="40" break="no"/>ctionis inter has potentias aut operationes
+          <lb ed="#V" n="41"/>earum, licet sit ordo quidam generationis,
+          <lb ed="#V" n="42"/>quo prior est in actu intellectus quam
+          <lb ed="#V" n="43"/>voluntas; sic ergo dicendum nullum esse
+          <lb ed="#V" n="44"/>perinde ordinem perfectionis in
+          operati<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>onibus, sed utramque aeque primo
+          per<lb ed="#V" n="46" break="no"/>ficere in suo genere naturam cujus est,
+          <lb ed="#V" n="47"/>quae sicut dicit aeque primo inclinationem
+          <lb ed="#V" n="48"/>per utramque facultatem ad objectum, ita
+          <lb ed="#V" n="49"/>etiam essentialiter beatificatur per
+          utrius<lb ed="#V" n="50" break="no"/>que attingentiam. Quod autem superius
+          <lb ed="#V" n="51"/>dictum est, esse nempe subordinationem
+          <lb ed="#V" n="52"/>in ipsis potentiis et inclinationibus
+          diver<lb ed="#V" n="53" break="no"/>sis naturarum, respondendum est illud
+          <lb ed="#V" n="54"/>esse verum quoad eas, quae non sunt
+          <lb ed="#V" n="55"/>perfectiones simpliciter, et diversi
+          ordi<lb ed="#V" n="56" break="no"/>nis, non vero in his. Haec sententia hoc
+          <lb ed="#V" n="57"/>modo fundata est difficilis impugnationis.</quote>
+          </p>
+        <!-- </div>
+    <div alias="hiq-d49q3-p5"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43" type="fixed=91"/>COMMENTARIUS
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>(i) Ad argumenta pro prima opinione.
+            <lb ed="#V" n="45"/>Ad primum, etc. Primum fuit, quod
+            be<lb ed="#V" n="46" break="no"/>atitudo consistat in perfecta unione
+            natu<lb ed="#V" n="47" break="no"/>rae beatificabilis ad Deum; sed haec
+            inclu<lb ed="#V" n="48" break="no"/>dit unionem secundum omnem potentiam,
+            <lb ed="#V" n="49"/>qua attingitur Deus immediate; ergo
+            ope<lb ed="#V" n="50" break="no"/>rationem intellectus et voluntatis.
+            Re<lb ed="#V" n="51" break="no"/>spondetur distinguendo minorem quoad
+            <lb ed="#V" n="52"/>beatitudinem extensivam conceditur,
+            <lb ed="#V" n="53"/>quoad intensivam negatur. Vel aliter de
+            <lb ed="#V" n="54"/>unione immediata primo modo sumpta,
+            <lb ed="#V" n="55"/>quatenus excludit medium ex parte
+            obje<lb ed="#V" n="56" break="no"/>cti et operationis, seu attingentiae
+            conce<lb ed="#V" n="57" break="no"/>ditur, de immediatione secundum
+            perfe<lb ed="#V" n="58" break="no"/>ctum modum attingibilis, ut ultimi
+            perfe<lb ed="#V" n="59" break="no"/>ctivi, per quod bene est naturae ultimate,
+            <lb ed="#V" n="60"/>negatur; hoc autem modo non attingitur
+            <lb ed="#V" n="61"/>nisi per unicam potentiam et oper
+            ati<lb ed="#V" n="62" break="no"/>onem.
+          </p>
+          <p>
+            <lb ed="#V" n="63"/>(k) Ad secundum, etc. Hoc fuit per
+            <lb ed="#V" n="64"/>eamdem virtutem, qua movetur natura in
+            <lb ed="#V" n="65"/>terminum, per eamdem quiescit in
+            ter<lb ed="#V" n="66" break="no"/>mino; sed per intellectum et voluntatem
+            <lb ed="#V" n="67"/>sic movetur natura intellectualis; ergo per
+            <lb ed="#V" n="68"/>utramque quiescit; sed perfecta quies est
+            <lb ed="#V" n="69"/>beatitudo, ergo, etc. Respondet primo,
+            <lb ed="#V" n="70"/>quod solius appetitus est proprie moveri,
+            <lb ed="#V" n="71"/>non intellectus; et sic illius erit proprie
+            <lb ed="#V" n="72"/>quiescere in fine, quia illius est velle
+            fi<lb ed="#V" n="73" break="no"/>nem, et tendentia intellectus tantum
+            aequi<lb ed="#V" n="74" break="no"/>voce dicitur motus in finem. Respondet:
+            <lb ed="#V" n="75"/>secundo, licet utraque potentia tendat in
+            <lb ed="#V" n="76"/>Deum, ut objectum, tamen altera, quae
+            <lb ed="#V" n="77"/>est perfectior, tendit perfectius et
+            princi<lb ed="#V" n="78" break="no"/>paliter, altera vero non ita, licet tendentia
+            <lb ed="#V" n="79"/>utraque sit immediata, altera erit
+            secun<lb ed="#V" n="80" break="no"/>dum quid, ut comparatur ad alteram.
+            Re<lb ed="#V" n="81" break="no"/>sponderi potest quod beatur utraque
+            ex<lb ed="#V" n="82" break="no"/>tensive, et natura etiam secundum
+            eam<lb ed="#V" n="83" break="no"/>dem sic beatur, tamen intensive per
+            <pb ed="#V" n="92"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>perfectionem beatur, ad quam perfectior est
+            <lb ed="#V" n="2"/>inclinatio, et perfectius attingitur finis, ut
+            <lb ed="#V" n="3"/>finis ultimate perficiens.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>(1) Ad tertium dico, etc. Tertium fuit
+            <lb ed="#V" n="5"/>quando ad perfectionem alicujus in actu
+            <lb ed="#V" n="6"/>primo requiruntur plura, etiam requiri ad
+            <lb ed="#V" n="7"/>perfectionem actus secundi, sed ita se
+            <lb ed="#V" n="8"/>habet intellectus et voluntas quoad actum
+            <lb ed="#V" n="9"/>primum respectu naturae; ergo earum
+            <lb ed="#V" n="10"/>etiam operationes quoad actum secundum.
+            <lb ed="#V" n="11"/>Respondet quantum ad beatitudinem et
+            <lb ed="#V" n="12"/>quietationem extensivam veram esse
+            <lb ed="#V" n="13"/>majorem, quoad intensivam, falsam;
+            <lb ed="#V" n="14"/>quando plura spectant ad actum primum,
+            <lb ed="#V" n="15"/>quae dicunt ordinem ad secundum, sic
+            <lb ed="#V" n="16"/>plures sunt quietationes naturae extensive,
+            <lb ed="#V" n="17"/>-tamen in illius potentiae actu quae
+            perfe<lb ed="#V" n="18" break="no"/>ctissima est, erit ejus quietatio intensiva
+            <lb ed="#V" n="19"/>quoad operationem, et actum secundum
+            <lb ed="#V" n="20"/>ejus.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Ad alia quae objiciunt moderni,
+            com<lb ed="#V" n="22" break="no"/>muniter rejicitur illa censura, quia
+            defi<lb ed="#V" n="23" break="no"/>nitio Benedicti XII. ad praesentem
+            quae<lb ed="#V" n="24" break="no"/>stionem non pertinet; damnat enim, qui
+            <lb ed="#V" n="25"/>dicebat animas purgatas non videre Deum
+            <lb ed="#V" n="26"/>clare, neque eo frui, sed habere quoddam
+            <lb ed="#V" n="27"/>genus beatitudinis imperfecte. Contrarium
+            <lb ed="#V" n="28"/>definit Benedictus, nempe eos vere frui
+            <lb ed="#V" n="29"/>Deo, et habere ejus visionem, et non
+            <lb ed="#V" n="30"/>imperfecte, ut alii dicebant beari, sed
+            <lb ed="#V" n="31"/>beatitudine consummata, et naturaliter
+            <lb ed="#V" n="32"/>perfecta tam intensive quam extensive;
+            <lb ed="#V" n="33"/>sic etiam intelligitur Clementina, Ad
+            no<lb ed="#V" n="34" break="no"/>strum, et Catechismus Pii V. loquens de
+            <lb ed="#V" n="35"/>beatitudine solida, id est, integra et
+            com<lb ed="#V" n="36" break="no"/>pleta. Eodem modo tam Scriptura quam
+            <lb ed="#V" n="37"/>Patres intelligunt cum promiscue nunc
+            <lb ed="#V" n="38"/>loquuntur de operatione unius potentiae,
+            <lb ed="#V" n="39"/>nunc alterius, attribuendo ipsi
+            beatitudi<lb ed="#V" n="40" break="no"/>nem, non quod utraque sit beatitudo, ut
+            <lb ed="#V" n="41"/>sumitur pro ultimo complemento, per
+            <lb ed="#V" n="42"/>quod bene est naturae, sed quod utraque
+            <lb ed="#V" n="43"/>per se requiratur, et extensiva beatitudo
+            <lb ed="#V" n="44"/>in illis consistit; aliquando enim
+            beatitu<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>do explicatur a Scriptura et Patribus per
+            <lb ed="#V" n="46"/>gaudium, et alia quae consequuntur
+            be<lb ed="#V" n="47" break="no"/>atitudinem, quamvis non in his consistit
+            <lb ed="#V" n="48"/>beatitudo formalis intensiva aut
+            extensi<lb ed="#V" n="49" break="no"/>va, quae consistit in attingentia objecti
+            <lb ed="#V" n="50"/>per operationem vitalem. Objiciuntur
+            <lb ed="#V" n="51"/>praeterea rationes in favorem praedictae
+            <lb ed="#V" n="52"/>sententiae, sed jam ex dictis habent
+            solu<lb ed="#V" n="53" break="no"/>tionem, quia tantum probant beat
+            itudi<lb ed="#V" n="54" break="no"/>nem extensivam consistere in pluribus
+            <lb ed="#V" n="55"/>operationibus, quod verum est, quatenus
+            <lb ed="#V" n="56"/>vero sumitur strictius beatitudo pro
+            ulti<lb ed="#V" n="57" break="no"/>mo complemento naturae, consistit in
+            <lb ed="#V" n="58"/>unica tantum operatione. Quod vero
+            su<lb ed="#V" n="59" break="no"/>pra adjecimus de his perfectionibus,
+            nem<lb ed="#V" n="60" break="no"/>pe intellectus et voluntatis suarumque
+            <lb ed="#V" n="61"/>operationum, ut sunt perfectiones
+            simpli<lb ed="#V" n="62" break="no"/>citer, et diversi ordinis, et incomparabiles
+            <lb ed="#V" n="63"/>secundum excessum perfectionis,
+            respon<lb ed="#V" n="64" break="no"/>deri potest, quod aliud est secundum
+            <lb ed="#V" n="65"/>utramque perfici naturam in diverso
+            ge<lb ed="#V" n="66" break="no"/>nere, et aliud est perfici eamdem in
+            de<lb ed="#V" n="67" break="no"/>terminata ratione beatitudinis, quia
+            beati<lb ed="#V" n="68" break="no"/>tudo essentialis intensiva naturae, est illa
+            <lb ed="#V" n="69"/>qua conjungitur finis, qua beatificativus
+            <lb ed="#V" n="70"/>est praecise et ultimo quietans appetitum
+            <lb ed="#V" n="71"/>naturae, ut respicit finem; haec autem in
+            <lb ed="#V" n="72"/>una operatione consistit, in eaque sola,
+            <lb ed="#V" n="73"/>quae est potentiae respicientis finem, qua
+            <lb ed="#V" n="74"/>finis, et non tantum qua objectum.
+            Quae<lb ed="#V" n="75" break="no"/>nam autem sit illa, dicetur in quaestione
+            <lb ed="#V" n="76"/>sequenti. Rationem pro secunda opinione
+            <lb ed="#V" n="77"/>concedit Doctor cum limitatione, quae
+            sae<lb ed="#V" n="78" break="no"/>pius expressa est, et habetur in textu.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>(m) Ad argumenta principalia. Ad
+            <lb ed="#V" n="80"/>primum, etc. Primum fuit ex Augustino
+            <lb ed="#V" n="81"/>lib. 13. de Trin. c. 5. Beatus est qui
+            ha<lb ed="#V" n="82" break="no"/>bet quidquid vult, et nihil mali vult, etc.
+            <lb ed="#V" n="83"/>Sed non solum recte vult unam
+            operatio<lb ed="#V" n="84" break="no"/>nem, sed plures, ut visionem et
+            fruitio<lb ed="#V" n="85" break="no"/>nem; ergo in his duabus saltem consistit
+            <lb ed="#V" n="86"/>beatitudo essentialis. Respondet quod illud
+            <lb ed="#V" n="87"/>quidquid vult, etc. non distribuat pro
+            <lb ed="#V" n="88"/>omni appetibili divisive, sed sumi pro
+            ali<pb ed="#V" n="93"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>quo bono eminentissimo et supremo, quod
+            <lb ed="#V" n="2"/>includit omnia unitive et sine
+            imperfe<lb ed="#V" n="3" break="no"/>ctione; sic ergo habendo objectum
+            beatifi<lb ed="#V" n="4" break="no"/>cum, quicumque sit ille actus, per quem
+            <lb ed="#V" n="5"/>sic habetur, habet quidquid vult. Ex quo
+            <lb ed="#V" n="6"/>patet ad majorem, minor transeat, et
+            ne<lb ed="#V" n="7" break="no"/>gatur consequentia, quia est processus
+            <lb ed="#V" n="8"/>a non distributo ad distributum.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>(n) Ad aliud, etc. Hoc fuit secundum
+            <lb ed="#V" n="10"/>ex eadem auctoritate, quia si per unam
+            <lb ed="#V" n="11"/>operationem habet quidquid vult, sit illa
+            <lb ed="#V" n="12"/>operatio voluntatis, et sequitur quod
+            de<lb ed="#V" n="13" break="no"/>scriptio Augustini aequivaleat huic:
+            Bea<lb ed="#V" n="14" break="no"/>tus est qui vult quidquid vult, quia habere
+            <lb ed="#V" n="15"/>est velle; sed viator sic etiam habet
+            quid<lb ed="#V" n="16" break="no"/>quid vult, ergo erit beatus. Eadem forma
+            <lb ed="#V" n="17"/>urgeri potest de actu intellectus.
+            Respon<lb ed="#V" n="18" break="no"/>detur quod habere ibi sumitur pro actu
+            <lb ed="#V" n="19"/>volendi, non quocumque, sed
+            perfectissi<lb ed="#V" n="20" break="no"/>mo sequente visionem objecti beatifici, et
+            <lb ed="#V" n="21"/>negatur consequentia illa; ergo
+            quicum<lb ed="#V" n="22" break="no"/>que habet quidquid vult, est beatus, quia
+            <lb ed="#V" n="23"/>committit fallaciam consequentis.
+          </p>
+          <p>
+            <lb ed="#V" n="24"/>(o) Ad tertium, etc. Tertium fuit,
+            beati<lb ed="#V" n="25" break="no"/>tudo consistit in eo, per quod distinguitur
+            <lb ed="#V" n="26"/>per se beatus a non beato, sed per
+            alteru<lb ed="#V" n="27" break="no"/>trum actus aut voluntatis, aut intellectus,
+            <lb ed="#V" n="28"/>sic distinguitur; ergo in utroque
+            consi<lb ed="#V" n="29" break="no"/>stit beatitudo. Respondetur negando
+            mino<lb ed="#V" n="30" break="no"/>rem, quia multa possunt distinguere
+            <lb ed="#V" n="31"/>unum ab alio, v. g. proprietates, et quae
+            <lb ed="#V" n="32"/>consequuntur, quae tamen non spectant
+            <lb ed="#V" n="33"/>ad essentiam constituti. Si autem
+            particu<lb ed="#V" n="34" break="no"/>la per se, intelligitur in primo modo
+            di<lb ed="#V" n="35" break="no"/>cendi per se, erit vera, et minor est falsa.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Respondet praeterea Doctor ad
+            argu<lb ed="#V" n="37" break="no"/>mentum in oppositum, quod est pro
+            sen<lb ed="#V" n="38" break="no"/>tentia affirmativa; quae responsio est
+            cla<lb ed="#V" n="39" break="no"/>ra ex littera, et videtur admittere eam,
+            <lb ed="#V" n="40"/>quae statuit beatitudinem in operatione
+            <lb ed="#V" n="41"/>duarum potentiarum esse probabilem;
+            <lb ed="#V" n="42"/>quod etiam plures tenent, et certe videtur
+            <lb ed="#V" n="43"/>satis fundata. Adnotandum autem est
+            <lb ed="#V" n="44"/>quod hic dicit quod una operatio non
+            or<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>dinetur ad alteram, et sic nequeat in una
+            <lb ed="#V" n="46"/>sola statui ultima perfectio naturae, licet
+            <lb ed="#V" n="47"/>in ea possit esse ultima perfectio
+            poten<lb ed="#V" n="48" break="no"/>tiae, tenendo hanc sententiam; itaque non
+            <lb ed="#V" n="49"/>recte aliqui sequentes eamdem sententiam
+            <lb ed="#V" n="50"/>dicunt unam operationem esse altera
+            per<lb ed="#V" n="51" break="no"/>fectiorem.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Ex dictis hactenus sequitur non recte
+            <lb ed="#V" n="53"/>quosdam statuere beatitudinem supponere
+            <lb ed="#V" n="54"/>collective pro omnibus, quae spectant ad
+            <lb ed="#V" n="55"/>perfectionem illius status, sive quoad
+            <lb ed="#V" n="56"/>animam, sive quoad corpus, quia in
+            om<lb ed="#V" n="57" break="no"/>ni statu quaedam sunt essentialia et
+            <lb ed="#V" n="58"/>substantialia status; quaedam vero
+            per<lb ed="#V" n="59" break="no"/>fectiones accidentales ex his
+            redun<lb ed="#V" n="60" break="no"/>dantes. Beatitudo, vero supponit pro
+            ac<lb ed="#V" n="61" break="no"/>quisitione ultimi finis, et non pro aliis,
+            <lb ed="#V" n="62"/>quae ad beatitudinem seu praedictam
+            ac<lb ed="#V" n="63" break="no"/>quisitionem sequuntur, ideoque in
+            defi<lb ed="#V" n="64" break="no"/>nitione illa Benedicti XII. definiuntur
+            ani<lb ed="#V" n="65" break="no"/>mae habere beatitudinem, licet non
+            ha<lb ed="#V" n="66" break="no"/>beant omnia, quae ad statum beatitudinis,
+            <lb ed="#V" n="67"/>quam habiturae sunt in corpore. Paludanus
+            <lb ed="#V" n="68"/>distinguit duplicem beatitudinem, aliam
+            <lb ed="#V" n="69"/>speculativam, aliam practicam seu
+            acti<lb ed="#V" n="70" break="no"/>vam; sed neque haec distinctio facit ad
+            <lb ed="#V" n="71"/>propositum beatitudinis, nam esse
+            practi<lb ed="#V" n="72" break="no"/>cum aut speculativum sunt differentiae
+            <lb ed="#V" n="73"/>communes, quarum usus ad praesentem
+            <lb ed="#V" n="74"/>materiam est extraneus, quamvis verum
+            <lb ed="#V" n="75"/>sit visionem illam esse practicam et
+            frui<lb ed="#V" n="76" break="no"/>tionem, sicut et omnis actus voluntatis est
+            <lb ed="#V" n="77"/>praxis, modo fruitio dicatur libere elici.
+            <lb ed="#V" n="78"/>Sed quaestio haec de speculativa et
+            practi<lb ed="#V" n="79" break="no"/>ca est alterius loci, quam fuse explicat
+            <lb ed="#V" n="80"/>Doctor in Prologo Sententiarum lib. 1.
+            <lb ed="#V" n="81"/>quoest. 4.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

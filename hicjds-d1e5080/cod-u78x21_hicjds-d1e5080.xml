@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 49, Pars 1, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 49, Pars 1, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x21">Vives, Paris, 1894, volume 21</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="6"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e5080"><!-- hicjds-b4d49p1q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum beatitudo consistit per se in operatione</head>
+        <!-- <div alias="hiq-d49q1-p1"> -->
+          <p>
+            <lb ed="#V" n="61" type="fixed=6"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>In hac distinctione agit Magister de
+            <lb ed="#V" n="63"/>beatitudine formali, et perfectionibus
+            <lb ed="#V" n="64"/>ejus; de objectiva vero in primo d. 1.
+            <lb ed="#V" n="65"/>quo remitto hunc tractatum de objectiva
+            <lb ed="#V" n="66"/>beatitudine; eam transigit Doctor per
+            se<lb ed="#V" n="67" break="no"/>decim quaestiones. Prima est, an
+            con<lb ed="#V" n="68" break="no"/>sistat beatitudo in operatione. Secunda,
+            <lb ed="#V" n="69"/>an immediatius perficiat essentiam quam
+            <lb ed="#V" n="70"/>potentiam? Tertia, an consistat in
+            plu<lb ed="#V" n="71" break="no"/>ribus operationibus? Quarta, an in actu
+            <lb ed="#V" n="72"/>intellectus, aut voluntatis, et utra harum
+            <lb ed="#V" n="73"/>potentiarum sit nobilior? Quinta, an
+            con<lb ed="#V" n="74" break="no"/>sistat in fruitione? Sexta, an requirat
+            <lb ed="#V" n="75"/>securitatem. Septima, utrum gaudium sit
+            <lb ed="#V" n="76"/>de objecto beatifico? Octava, an natura
+            <lb ed="#V" n="77"/>humana sit infima capax beatitudinis?
+            <lb ed="#V" n="78"/>Nona, an ad eam necessitentur omnes.
+            <lb ed="#V" n="79"/>Decima, utrum omnia appetantur
+            pro<lb ed="#V" n="80" break="no"/>pter ipsam? Undecima, an homo ex
+            <lb ed="#V" n="81"/>puris naturalibus posset eam consequi?
+            <lb ed="#V" n="82"/>Duodecima, an posset homo in vita
+            mor<lb ed="#V" n="83" break="no"/>tali eam consequi? Decima tertia, an
+            cor<lb ed="#V" n="84" break="no"/>pus Beati erit impassibile? Decima
+            quar<pb ed="#V" n="7"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ta, an erit agile? Decima quinta, an erit
+            <lb ed="#V" n="2"/>clarum? Decima sexta, an habiturum sit
+            <lb ed="#V" n="3"/>agilitatem?
+            <lb ed="#V" n="4"/>s (a) In hac quaestione et sequenti
+            agi<lb ed="#V" n="5" break="no"/>n tur de eo, in quo consistit beatitudo
+            <lb ed="#V" n="6"/>formalis essentialiter, et in ordine ad
+            <lb ed="#V" n="7"/>subjectum beatificabile; hic autem
+            quae<lb ed="#V" n="8" break="no"/>ritur, au consistat in operatione, et
+            pro<lb ed="#V" n="9" break="no"/>positis hinc inde rationibus, quoniam
+            <lb ed="#V" n="10"/>aliqui in essentia videntur eam statuere,
+            <lb ed="#V" n="11"/>ita ut primo essentiam perficiat, ideo
+            <lb ed="#V" n="12"/>subjicit sequentem quaestionem, quam
+            <lb ed="#V" n="13"/>primo resolvit; ne ergo ordinem
+            inver<lb ed="#V" n="14" break="no"/>tamus, cadem dispositio sequenda est.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

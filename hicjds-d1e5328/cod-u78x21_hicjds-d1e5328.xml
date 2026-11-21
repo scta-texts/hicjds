@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 50, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 50, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x21">Vives, Paris, 1894, volume 21</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="529"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e5328"><!-- hicjds-b4d50q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum aliquis secundum rectam rationem ad fugiendum miseriam possit appetere non esse</head>
+        <!-- <div alias="hiq-d50q1-p1"> -->
+          <p>
+            <lb ed="#V" n="37" type="fixed=529"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Hanc distinctionem absolvit Doctor sex
+            <lb ed="#V" n="39"/>quaestionibus: Prima est, an secundum
+            <lb ed="#V" n="40"/>rectam rationem ad fugiendam miseriam
+            <lb ed="#V" n="41"/>possit quis appetere non esse. Secunda,
+            <lb ed="#V" n="42"/>an damnati sic appetant non esse. Tertia,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>an beati videant poenas damnatorum.
+            <lb ed="#V" n="44"/>Quarta, utrum poena omnium
+            damnato<lb ed="#V" n="45" break="no"/>rum sit aequalis. Quinta, utrum beatitudo
+            <lb ed="#V" n="46"/>omnium beatorum sit aequalis? Sexta
+            <lb ed="#V" n="47"/>utrum beatitudo corporum erit aequalis.
+            <lb ed="#V" n="48"/>(a) Circa istam distinctionem, etc. Hic
+            <lb ed="#V" n="49"/>movet duas quaestiones consequenter:
+            <lb ed="#V" n="50"/>An secundum rectam rationem appeti
+            <lb ed="#V" n="51"/>posset non esse ad fugiendam miseriam,
+            <lb ed="#V" n="52"/>et an ita appetant damnati de facto sic
+            <lb ed="#V" n="53"/>non essc. Adductis argumentis hinc inde
+            <lb ed="#V" n="54"/>in prima quaestione, movet secundam, et
+            <lb ed="#V" n="55"/>mox resolvit utramque servato ordine,
+            <lb ed="#V" n="56"/>quo moventur.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>
