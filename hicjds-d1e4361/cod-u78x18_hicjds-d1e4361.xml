@@ -1,0 +1,2149 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 21, Quaestio 2</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 21, Quaestio 2</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x18">Vives, Paris, 1894, volume 18</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="731"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e4361"><!-- hicjds-b4d21q2 -->
+        <head>Quaestio 2</head>
+        <head type="question-title">Utrum confessor in quocumque casu teneatur celare peccatum sibi in confessione detectum</head>
+        <!-- <div alias="hiq-d21q2-p1"> -->
+          <p>
+            <lb ed="#V" n="37" type="fixed=731"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>(a) Secundo quaero, utrum confessor,
+            <lb ed="#V" n="39"/>etc. Haec est secunda pars hujus
+            distin<lb ed="#V" n="40" break="no"/>ctionis in quo Magister agit de sigillo
+            <lb ed="#V" n="41"/>confessionis.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d21q2-p2"> -->
+          <p>
+            <lb ed="#V" n="48" type="fixed=733"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="49"/>(b) In ista quaestione, etc. Subjicit Doctor
+            <lb ed="#V" n="50"/>quinque conclusiones, quas suo ordine
+            <lb ed="#V" n="51"/>probat teneri confessarium ad sigillum
+            <lb ed="#V" n="52"/>omnes Catholici Doctores docent; estque
+            <lb ed="#V" n="53"/>de fide.
+            <lb ed="#V" n="54"/>Prima conclusio Doctoris, hanc
+            obliga<lb ed="#V" n="55" break="no"/>tionem esse legis naturalis, adducit
+            pro<lb ed="#V" n="56" break="no"/>bationem Richardi, qui hanc obligationem
+            <lb ed="#V" n="57"/>adducit ad praeceptum non mentiendi,
+            <lb ed="#V" n="58"/>quod est juris naturalis. Sacerdos enim in
+            <lb ed="#V" n="59"/>persona Dei audit confessionem in hoc
+            <lb ed="#V" n="60"/>foro; si autem extra forum, in quo gerit
+            <lb ed="#V" n="61"/>personam Dei, dicat se audivisse,
+            menti<lb ed="#V" n="62" break="no"/>tur, quia non in persona propria audivit
+            <lb ed="#V" n="63"/>quod in persona propria exponit se
+            audi<lb ed="#V" n="64" break="no"/>visse.
+            <lb ed="#V" n="65"/>Hanc rationem impugnat Doctor in hoc
+            <lb ed="#V" n="66"/>paragrapho quatuor rationibus: Primo, ex
+            <lb ed="#V" n="67"/>potestate clavium, quae commissa est
+            con<lb ed="#V" n="68" break="no"/>fessario, ut cognoscat et decernat in hac
+            <lb ed="#V" n="69"/>causa peccatoris, et hoc in persona
+            pro<lb ed="#V" n="70" break="no"/>pria. Haec ratio patet ex iis quae dicta sunt
+            <lb ed="#V" n="71"/>de clavibus, et jurisdictione Confessarii in
+            <lb ed="#V" n="72"/>persona propria. Secunda ratio, quia
+            con<lb ed="#V" n="73" break="no"/>ficit Eucharistiam in persona Christi, quia
+            <lb ed="#V" n="74"/>formam profert in persona Christi, ut alias
+            <lb ed="#V" n="75"/>visum est in prima parte hujus Commenti,
+            <lb ed="#V" n="76"/>dist. 8. q. 2. tamen sine mendacio post
+            <lb ed="#V" n="77"/>consecrationem dicit se confecisse; ergo
+            <lb ed="#V" n="78"/>a fortiori se absolvisse a peccatis post
+            <lb ed="#V" n="79"/>Sacramenti ministerium, quia formam
+            pro<lb ed="#V" n="80" break="no"/>fert in persona propria, absolvo te, etc.
+            <lb ed="#V" n="81"/>sicut et confessionem excepit in persona
+            <lb ed="#V" n="82"/>propria; haec ratio ab omnibus admittitur.
+            <lb ed="#V" n="83"/>Tertia ratio est ad hominem, quia
+            conce<lb ed="#V" n="84" break="no"/>dit Richardus, et omnes secundum
+            veri<lb ed="#V" n="85" break="no"/>tatem, posse dici peccata in confessione
+            <lb ed="#V" n="86"/>audita, non revelando personam ex
+            rati<pb ed="#V" n="734"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>onabili causa et sine mendacio, ut probat
+            <lb ed="#V" n="2"/>extra de poenitentiis et remissionibus, c.
+            <lb ed="#V" n="3"/>officii. Quarta ratio est ex communi praxi
+            <lb ed="#V" n="4"/>confessorum. Tandem concludit, si ratio
+            <lb ed="#V" n="5"/>Richardi valeret committi in his casibus
+            <lb ed="#V" n="6"/>mendacium, quod est falsum; et probat
+            <lb ed="#V" n="7"/>optime, quia nesciens particularem, nisi
+            <lb ed="#V" n="8"/>pro determinata et singulari persona, si
+            <lb ed="#V" n="9"/>nesciat singularem, nescit particularem;
+            <lb ed="#V" n="10"/>potest enim aliquis particularem scire pro
+            <lb ed="#V" n="11"/>indeterminato supposito, ut aliquem
+            ho<lb ed="#V" n="12" break="no"/>minem currere, quamvis nesciat an sit
+            <lb ed="#V" n="13"/>Petrus; unde in eo casu affirmans aliquem
+            <lb ed="#V" n="14"/>currere non mentitur, si tamen nesciat
+            <lb ed="#V" n="15"/>ullum currere et affirmet, mentitur.
+            Veri<lb ed="#V" n="16" break="no"/>tas ergo dicti a Confessore fundatur
+            tan<lb ed="#V" n="17" break="no"/>tum in cognitione particularis poenitentis,
+            <lb ed="#V" n="18"/>a quo tantum audivit illud peccatum quod
+            <lb ed="#V" n="19"/>dicit, non revelata persona, cum hoc
+            ta<lb ed="#V" n="20" break="no"/>men stat eum non mentiri; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>(c) Respondeo igitur ad eam, etc. Supple
+            <lb ed="#V" n="22"/>ad rationem Richardi, aliud esse loqui in
+            <lb ed="#V" n="23"/>persona alterius; aliud vero loqui per
+            <lb ed="#V" n="24"/>potestatem receptam ab altero. Priori
+            <lb ed="#V" n="25"/>modo loquens assumit personam, et verba
+            <lb ed="#V" n="26"/>alterius, ut fit in Comoediis, sic etiam
+            <lb ed="#V" n="27"/>compatrinus loquitur in persona infantis,
+            <lb ed="#V" n="28"/>quem suscipit ad Baptismum, quando
+            <lb ed="#V" n="29"/>baptizans dicit, renuntias Satanae? et ille
+            <lb ed="#V" n="30"/>in persona infantis dicit, renuntio; sic
+            <lb ed="#V" n="31"/>Angelus in persona Dei loquebatur in
+            <lb ed="#V" n="32"/>Exodo, cap. 20. Hoc modo qui
+            responde<lb ed="#V" n="33" break="no"/>ret in persona propria mentiretur, seu
+            <lb ed="#V" n="34"/>deficeret a vera repraesentatione.
+            Absol<lb ed="#V" n="35" break="no"/>vens autem in persona propria per
+            pote<lb ed="#V" n="36" break="no"/>statem receptam ab alio loquitur, et ideo
+            <lb ed="#V" n="37"/>non mentitur, quam solutionem sequitur
+            <lb ed="#V" n="38"/>Sotus in 4. dist. 18. q. 4. art. 5. et
+            com<lb ed="#V" n="39" break="no"/>muniter recentiores. Hanc rationem
+            mu<lb ed="#V" n="40" break="no"/>tuare videtur Richardus ab Alensi, et D.
+            <lb ed="#V" n="41"/>Bonaventura; eam ad magis congruum
+            <lb ed="#V" n="42"/>sensum reducit D. Thomas in hac
+            distin<lb ed="#V" n="43" break="no"/>ctione, quia ex significatione Sacramenti
+            <lb ed="#V" n="44"/>sequitur hoc secretum; absolutio enim
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Sacerdotis est signum absolutionis a
+            pec<lb ed="#V" n="46" break="no"/>cato per causam principalem, nempe
+            <lb ed="#V" n="47"/>Deum; Deus autem ita remittit peccata,
+            <lb ed="#V" n="48"/>ut ea tegat, et oblivioni tradat, ergo etiam
+            <lb ed="#V" n="49"/>ad idem tenetur Sacerdos, quia poenitens
+            <lb ed="#V" n="50"/>ita se summittit Sacerdoti, ut principalius
+            <lb ed="#V" n="51"/>se summittat Deo, cujus minister est
+            Sacer<lb ed="#V" n="52" break="no"/>dos. Hanc rationem impugnat Durandus,
+            <lb ed="#V" n="53"/>eamque non sufficienter probare dicunt
+            <lb ed="#V" n="54"/>quidam moderni, quia sigillum non est
+            <lb ed="#V" n="55"/>significatum sacramentale. Nescio tamen
+            <lb ed="#V" n="56"/>unde Suarez disput. 33. sect. 1. dicat eam
+            <lb ed="#V" n="57"/>impugnari a nostro Doctore, cum rationes
+            <lb ed="#V" n="58"/>ejus agant contra Richardum, et nihil de
+            <lb ed="#V" n="59"/>hac ratione agat. Ratio tamen illa D.
+            Tho<lb ed="#V" n="60" break="no"/>mae est congrua, quamvis enim sigillum
+            <lb ed="#V" n="61"/>non sit significatum practicum et
+            Sacra<lb ed="#V" n="62" break="no"/>mentale; tamen a posteriori colligitur ex
+            <lb ed="#V" n="63"/>natura hujus fori secreti, ex parte Dei et
+            <lb ed="#V" n="64"/>poenitentis oriri sigillum, quia causa
+            mi<lb ed="#V" n="65" break="no"/>nisterialis et instrumentalis debet
+            con<lb ed="#V" n="66" break="no"/>formare se causae principali quoad
+            cogni<lb ed="#V" n="67" break="no"/>tionem causae, et sententiam, et materiam
+            <lb ed="#V" n="68"/>subjectam; ergo si Deus ita delet
+            pecca<lb ed="#V" n="69" break="no"/>ta in hoc Sacramento, ut velit esse tecta,
+            <lb ed="#V" n="70"/>et quasi oblita, neque aliter submittit
+            <lb ed="#V" n="71"/>poenitens se Sacerdoti in confessione
+            pec<lb ed="#V" n="72" break="no"/>cati, nisi ut principalius submittit se Deo,
+            <lb ed="#V" n="73"/>et consequenter Ministro, ut agit
+            confor<lb ed="#V" n="74" break="no"/>miter ad Deum causam principalem,
+            <lb ed="#V" n="75"/>sequitur sicut Deus vult peccata esse
+            <lb ed="#V" n="76"/>tecta, ita etiam conformari debere
+            Mini<lb ed="#V" n="77" break="no"/>strum in hoc ad tegendum peccata
+            con<lb ed="#V" n="78" break="no"/>fessa ex parte sui; ideoque supra d. 17.
+            <lb ed="#V" n="79"/>contra Suarem et alios modernos cum
+            <lb ed="#V" n="80"/>Doctore defendimus confessionem
+            pecca<lb ed="#V" n="81" break="no"/>torum occultorum debere regulariter, et
+            <lb ed="#V" n="82"/>per se esse secretam, et non publicam,
+            <lb ed="#V" n="83"/>imo rarissime contingere posse, ut fiat
+            <lb ed="#V" n="84"/>publice sine peccato, quia institutio
+            divi<lb ed="#V" n="85" break="no"/>na principaliter respicit confessionem
+            <lb ed="#V" n="86"/>secretam, idque ex natura sigilli, et
+            prae<lb ed="#V" n="87" break="no"/>cepto peculiari divino, ex quo oritur in
+            <lb ed="#V" n="88"/>hoc Sacramen to, colligitur.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d21q2-p3"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="42" type="fixed=736"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>(d) Teneo igitur primam conclusionem,
+            <lb ed="#V" n="44"/>etc. Hic probat optime primam
+            conclusio<lb ed="#V" n="45" break="no"/>nem praemissam, probando hoc secretum
+            <lb ed="#V" n="46"/>esse juris naturalis quatuor rationibus,
+            <lb ed="#V" n="47"/>quas sequuntur communiter reliqui
+            poste<lb ed="#V" n="48" break="no"/>riores. Prima est ex lege charitatis, Matth.
+            <lb ed="#V" n="49"/>7. Omnia quaecumque vultis, ut faciant
+            <lb ed="#V" n="50"/>vobis homines, hoc facite illis, etc. quilibet
+            <lb ed="#V" n="51"/>autem rationabiliter vult famam, per quam
+            <lb ed="#V" n="52"/>habet vitam civilem, qua privatus redditur
+            <lb ed="#V" n="53"/>inhabilis ad vitam illam; ergo, etc.
+            Se<lb ed="#V" n="54" break="no"/>cunda ratio est ex lege fidelitatis
+            servan<lb ed="#V" n="55" break="no"/>da proximo, Proverb. 11. Tertia ratio ex
+            <lb ed="#V" n="56"/>obligatione promissi, vel expliciti vel
+            im<lb ed="#V" n="57" break="no"/>pliciti, Zachar. 8. quod intervenit in
+            pro<lb ed="#V" n="58" break="no"/>posito. Quarta ratio est ex unitate
+            corpo<lb ed="#V" n="59" break="no"/>ris mystici ad Roman. 7. et 12. et I. ad
+            <lb ed="#V" n="60"/>Corinth. 6. in quo debet esse recursus
+            <lb ed="#V" n="61"/>inferioris ad Superiorem, quem impedit
+            <lb ed="#V" n="62"/>revelatio secreti, et proinde tollit
+            unita<lb ed="#V" n="63" break="no"/>tem inter inferiorem et Superiorem in
+            <lb ed="#V" n="64"/>corpore mystico, ut bene probat in littera.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d21q2-p4"> -->
+          <p>
+            <lb ed="#V" n="60" type="fixed=737"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>(e) Secunda conclusio, etc. Hanc
+            obli<lb ed="#V" n="62" break="no"/>gationem esse legis divinae positivae
+            pro<lb ed="#V" n="63" break="no"/>bat tribus rationibus. Prima est, quia ex
+            <lb ed="#V" n="64"/>natura revelationis revocarentur
+            poeniten<lb ed="#V" n="65" break="no"/>tis a confessione, quae est in praecepto:
+            <lb ed="#V" n="66"/>divino; redderetur enim odiosa. Ad hanc
+            <lb ed="#V" n="67"/>reducitur ratio illa, quam formant alii,
+            <lb ed="#V" n="68"/>nempe committi sacrilegium contra
+            reve<lb ed="#V" n="69" break="no"/>rentiam debitam Sacramenti, et fieret ei
+            <lb ed="#V" n="70"/>injuria, quam rationem fusius sequitur
+            <lb ed="#V" n="71"/>Suarez explicans hoc praeceptum esse juris
+            <lb ed="#V" n="72"/>divini naturalis. Doctor autem revocat
+            <lb ed="#V" n="73"/>praeceptum hoc ad jus divinum positivum,
+            <lb ed="#V" n="74"/>et recte. Quamvis enim praeceptum sit
+            di<lb ed="#V" n="75" break="no"/>vinum naturale non committere
+            sacrile<lb ed="#V" n="76" break="no"/>gium contra Sacramenta, tamen hoc
+            prae<lb ed="#V" n="77" break="no"/>ceptum generale aliquando applicatur ad
+            <lb ed="#V" n="78"/>materiam ex praecisa institutione
+            Sacra<lb ed="#V" n="79" break="no"/>menti, aliquando ex circumstantia
+            prae<lb ed="#V" n="80" break="no"/>cepti positivi adjuncti. Tunc autem est,
+            <lb ed="#V" n="81"/>praeceptum divinum naturale, proprie
+            lo<lb ed="#V" n="82" break="no"/>quendo, quando aliquid fit contra ipsam
+            <lb ed="#V" n="83"/>institutionem Sacramenti proxime, ut si
+            <lb ed="#V" n="84"/>omittatur materia, aut forma essentialiter
+            <lb ed="#V" n="85"/>requisita, vel si ipsum Sacramentum ad
+            <lb ed="#V" n="86"/>ludibrium exponatur, et hujusmodi; in
+            pri<pb ed="#V" n="738"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>mo casu est sacrilegium, ex speciali
+            insti<lb ed="#V" n="2" break="no"/>tutione Sacramenti ortum. In secundo
+            ve<lb ed="#V" n="3" break="no"/>ro ex generali praecepto religionis, quo
+            <lb ed="#V" n="4"/>res sacra, et spectans ad Dei cultum debet
+            <lb ed="#V" n="5"/>reverenter tractari, et in ordine ad
+            pro<lb ed="#V" n="6" break="no"/>prium finem, non vero profane.
+            Sacrile<lb ed="#V" n="7" break="no"/>gium vero quod fundatur in praecepto
+            <lb ed="#V" n="8"/>positivo divino induit naturam ipsius
+            <lb ed="#V" n="9"/>praecepti, quia ideo praecise est contra
+            <lb ed="#V" n="10"/>reverentiam debitam Sacramenti directe,
+            <lb ed="#V" n="11"/>quia est contra tale praeceptum. Unde si
+            <lb ed="#V" n="12"/>tollatur praeceptum, aut ejus materia,
+            <lb ed="#V" n="13"/>jam non erit sacrilegium actus oppositus,
+            <lb ed="#V" n="14"/>aut alias qui est in praecepto. Tale est
+            <lb ed="#V" n="15"/>praeceptum sigilli, ut spectat ad jus
+            posi<lb ed="#V" n="16" break="no"/>tivum divinum et supernaturale. Unde
+            <lb ed="#V" n="17"/>Deus posset instituere poenitentiam, non
+            <lb ed="#V" n="18"/>addita alia obligatione ad secretum,
+            prae<lb ed="#V" n="19" break="no"/>ter illam solam, quae est juris naturalis de
+            <lb ed="#V" n="20"/>servando secreto, quod magis declaratur
+            <lb ed="#V" n="21"/>in sententia eorum qui dicunt, posse
+            Sa<lb ed="#V" n="22" break="no"/>cerdotem de licentia ipsius poenitentis
+            re<lb ed="#V" n="23" break="no"/>velare peccatum, quia, hoc dato, illa
+            re<lb ed="#V" n="24" break="no"/>velatio non esset contra reverentiam
+            Sa<lb ed="#V" n="25" break="no"/>cramenti, neque alia ratio est, nisi quia
+            <lb ed="#V" n="26"/>praeceptum positivum non comprehendit
+            <lb ed="#V" n="27"/>secretum in illo casu.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Sed si hoc secretum esset praecepti
+            na<lb ed="#V" n="29" break="no"/>turalis ex praecisa institutione
+            Sacramen<lb ed="#V" n="30" break="no"/>t ti, sequeretur quod in nullo casu, etiam
+            <lb ed="#V" n="31"/>de licentia ipsius poenitentis, liceret
+            reve<lb ed="#V" n="32" break="no"/>lare peccatum respective ad personam
+            <lb ed="#V" n="33"/>poenitentis; ergo haec obligatio non est
+            <lb ed="#V" n="34"/>juris divini naturalis, sed positivi, ut
+            be<lb ed="#V" n="35" break="no"/>ne Doctor, quod consequenter tenere
+            de<lb ed="#V" n="36" break="no"/>bent, qui asserunt de licentia poenitentis
+            <lb ed="#V" n="37"/>-licere revelare. Subsumptum probatur,
+            <lb ed="#V" n="38"/>t quia licet fama propria sit in potestate
+            <lb ed="#V" n="39"/>poenitentis, ut ei possit renuntiare, tamen
+            <lb ed="#V" n="40"/>Sacramentum non subest poenitenti,
+            ne<lb ed="#V" n="41" break="no"/>que aliquid quod de jure divino naturali
+            <lb ed="#V" n="42"/>ex ipsa institutione convenit Sacramento,
+            <lb ed="#V" n="43"/>nec de licentia ejus posset confessarius
+            <lb ed="#V" n="44"/>praejudicare institutioni Sacramenti.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Potest tamen dici aliquo modo hoc
+            prae<lb ed="#V" n="46" break="no"/>ceptum spectato fine institutionis
+            Sacra<lb ed="#V" n="47" break="no"/>menti, et congruentia, reduci aliquo
+            mo<lb ed="#V" n="48" break="no"/>do ad jus naturale divinum, quamvis ex
+            <lb ed="#V" n="49"/>fine extrinseco, et congruentia illa ex se
+            <lb ed="#V" n="50"/>non habeat vim obligandi, sed ex praecisa
+            <lb ed="#V" n="51"/>voluntate legislatoris. Unde advertendum
+            <lb ed="#V" n="52"/>est revelationem illam spectare ad
+            justi<lb ed="#V" n="53" break="no"/>tiam et religionem, et alias virtutes. Qua
+            <lb ed="#V" n="54"/>fit contra praeceptum naturale secundi
+            se<lb ed="#V" n="55" break="no"/>creti cum dispendio famae proximi, est
+            <lb ed="#V" n="56"/>contra justitiam; qua contra dilectionem
+            <lb ed="#V" n="57"/>debitam proximo, est contra charitatem;
+            <lb ed="#V" n="58"/>qua fit contra promissum implicitum, est
+            <lb ed="#V" n="59"/>contra veritatem; et in his completur
+            ma<lb ed="#V" n="60" break="no"/>litia ejus contra naturalem legem, quae
+            <lb ed="#V" n="61"/>obligatio, ut praecise spectat ad hanc
+            le<lb ed="#V" n="62" break="no"/>gem, posset in multis casibus non
+            obli<lb ed="#V" n="63" break="no"/>gare ex natura legis, ut si peccatum illud,
+            <lb ed="#V" n="64"/>de quo non vellet poenitens se emendare
+            <lb ed="#V" n="65"/>contra bonum non solum privati alterius,
+            <lb ed="#V" n="66"/>aut ipsius confessarii, ut si vellet eum
+            <lb ed="#V" n="67"/>interimere, sed contra bonum publicum, ut
+            <lb ed="#V" n="68"/>si vellet prodere civitatem hosti cum
+            in<lb ed="#V" n="69" break="no"/>teremptione civium, tunc non tenetur
+            <lb ed="#V" n="70"/>quisquam ad secretum talis delicti, aut ex
+            <lb ed="#V" n="71"/>charitate, aut ex justitia, aut etiam ex
+            <lb ed="#V" n="72"/>promisso implicito, quod intelligitur
+            jux<lb ed="#V" n="73" break="no"/>ta voluntatem quae debet praesumi
+            secun<lb ed="#V" n="74" break="no"/>dum rectam rationem in promittente.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>Eadem revelatio est contra virtutem
+            <lb ed="#V" n="76"/>religionis, ut fit in irreverentiam
+            Sacra<lb ed="#V" n="77" break="no"/>menti; hoc autem ipsi competit quatenus
+            <lb ed="#V" n="78"/>praeceptum illud negativum et universale
+            <lb ed="#V" n="79"/>adjunctum est, quod in nullo casu licet
+            <lb ed="#V" n="80"/>transgredi, et quamvis naturam praecepti
+            <lb ed="#V" n="81"/>ex motivo, et fine recte interpretamur
+            <lb ed="#V" n="82"/>comprehendere universaliter omnes casus,
+            <lb ed="#V" n="83"/>quos tam finis quam ipsum motivum
+            com<lb ed="#V" n="84" break="no"/>prehendit secundum rectam rationem,
+            <lb ed="#V" n="85"/>tamen obligationem ejus reducimus
+            <lb ed="#V" n="86"/>praecise in ipsam voluntatem praecipientis;
+            <lb ed="#V" n="87"/>et hanc sententiam videtur mihi sequi
+            <lb ed="#V" n="88"/>Vasquez 3. p. quoest. 93. art. 4. dub. 1.
+            <pb ed="#V" n="739"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quae est Doctoris in hac conclusione.
+          </p>
+          <p>
+            <lb ed="#V" n="2"/>Secunda ratio Doctoris pro conclusione
+            <lb ed="#V" n="3"/>est ex natura hujus fori, in quo ultimate
+            <lb ed="#V" n="4"/>terminatur sententia, et processus de
+            pec<lb ed="#V" n="5" break="no"/>catis secretis (quae nullo modo spectant
+            <lb ed="#V" n="6"/>ad scientiam, aut forum publicum) per
+            <lb ed="#V" n="7"/>sententiam Dei, et Sacerdotis in hoc
+            tribu<lb ed="#V" n="8" break="no"/>nali, per remissionem peccati, et
+            congru<lb ed="#V" n="9" break="no"/>am satisfactionem lege praescriptam
+            quan<lb ed="#V" n="10" break="no"/>tum ad interiorem et poenitentialem
+            ex<lb ed="#V" n="11" break="no"/>teriorem; ergo non licet ulterius ad
+            <lb ed="#V" n="12"/>scientiam et forum publicum reducere
+            <lb ed="#V" n="13"/>causam illam in proprio foro
+            termina<lb ed="#V" n="14" break="no"/>tam.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>Tertia ratio est ex occasione, quam dat
+            <lb ed="#V" n="16"/>revelans ex natura operis faciendi
+            confes<lb ed="#V" n="17" break="no"/>sionem indebite et sacrilege, ut poenitens
+            <lb ed="#V" n="18"/>seipsum laudet, alios vituperet, peccata
+            <lb ed="#V" n="19"/>non confiteretur sincere et integre quoad
+            <lb ed="#V" n="20"/>numerum, species et circumstantias. His
+            <lb ed="#V" n="21"/>tribus rationibus recte comprehendit
+            Do<lb ed="#V" n="22" break="no"/>ctor motivum et materiam, et naturam
+            <lb ed="#V" n="23"/>hujus praecepti universalis negativi,
+            qua<lb ed="#V" n="24" break="no"/>tenus extenditur semper et pro semper,
+            <lb ed="#V" n="25"/>ad omnes etiam casus universaliter, etiam
+            <lb ed="#V" n="26"/>ad illum quo ipse poenitens cederet juri
+            <lb ed="#V" n="27"/>suo, ut infra dicetur.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Tertia conclusio Doctoris est, hanc
+            re<lb ed="#V" n="29" break="no"/>velationem esse prohibitam jure
+            Ecclesi<lb ed="#V" n="30" break="no"/>astico; hanc probat argumentum quod
+            <lb ed="#V" n="31"/>pro parte negativa quaestionis adducit in
+            <lb ed="#V" n="32"/>oppositum ex dist. 6. c. Sacerdos, ex
+            <lb ed="#V" n="33"/>cap.omnis utriusque sexus, etc. de
+            poeni<lb ed="#V" n="34" break="no"/>tentiis et remiss. in quibus determinatur
+            <lb ed="#V" n="35"/>poena revelantibus. Poena capituli
+            Sacer<lb ed="#V" n="36" break="no"/>dos, fuit depositio et obligatio ad
+            peregri<lb ed="#V" n="37" break="no"/>nationem omnibus diebus vitae suae; poena
+            <lb ed="#V" n="38"/>haec determinata est in cap, omnis
+            utri<lb ed="#V" n="39" break="no"/>usque sexus, quod est Concilii
+            Lateranen<lb ed="#V" n="40" break="no"/>sis, ad reclusionem in aliquo Monasterio
+            <lb ed="#V" n="41"/>perpetuam, et simul depositionem; et
+            <lb ed="#V" n="42"/>hanc poenam esse magis rationabilem
+            as<lb ed="#V" n="43" break="no"/>serit Doctor, quia haec poena excludit
+            ma<lb ed="#V" n="44" break="no"/>gis periculum proprium animae Sacerdotis
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>et commune aliorum. Si tamen aliquibus
+            <lb ed="#V" n="46"/>in locis desit commoditas eum recludendi.
+            <lb ed="#V" n="47"/>prior poena non esset omittenda, vel
+            <lb ed="#V" n="48"/>certe alio modo rigorose puniendum esset
+            <lb ed="#V" n="49"/>tale peccatum, quantum tempus, et
+            facul<lb ed="#V" n="50" break="no"/>tas permitteret, secundum arbitrium
+            Prae<lb ed="#V" n="51" break="no"/>latorum.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Quomodo autem convinci posset
+            con<lb ed="#V" n="53" break="no"/>fessarius de hac revelatione, non ita
+            con<lb ed="#V" n="54" break="no"/>stat inter Doctores. Aliqui dicunt
+            incum<lb ed="#V" n="55" break="no"/>bere Sacerdoti probare peccatum a se
+            <lb ed="#V" n="56"/>dictum audivisse extra confessionem. Ita
+            <lb ed="#V" n="57"/>Navarrus in dictum cap. Sacerdos, et
+            <lb ed="#V" n="58"/>alii; quod intelligerem esse verum
+            quan<lb ed="#V" n="59" break="no"/>do alias nequiret haberi veritas ex aliis
+            <lb ed="#V" n="60"/>circumstantiis, res ex facto et
+            concurren<lb ed="#V" n="61" break="no"/>tibus est ponderanda et inquirenda, ne
+            <lb ed="#V" n="62"/>gravetur confessarius ultra debitum,
+            ne<lb ed="#V" n="63" break="no"/>que ex alia parte delictum maneat
+            impu<lb ed="#V" n="64" break="no"/>nitum. Unde constat periculosum et
+            scan<lb ed="#V" n="65" break="no"/>dalosum esse colloqui de peccatis in
+            con<lb ed="#V" n="66" break="no"/>fessione auditis, quamvis alias etiam
+            fu<lb ed="#V" n="67" break="no"/>erint cognita alia via, nisi cum magna
+            <lb ed="#V" n="68"/>discretione ex necessitate non est
+            admit<lb ed="#V" n="69" break="no"/>tendum tale colloquium a confessario, et
+            <lb ed="#V" n="70"/>valde parce, et juxta modum cognitionis
+            <lb ed="#V" n="71"/>et scientiae, quam aliunde accepit, et
+            ex<lb ed="#V" n="72" break="no"/>plicando causam scientiae, ne ullo modo
+            <lb ed="#V" n="73"/>praesumi posset, eum uti scientia, quam
+            <lb ed="#V" n="74"/>habuit ex confessione poenitentis.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d21q2-p5"> -->
+          <p>
+            <lb ed="#V" n="4" type="fixed=741"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>(f) De quarta conclusione videamus, etc.
+            <lb ed="#V" n="6"/>In hac conclusione determinat personas,
+            <lb ed="#V" n="7"/>materiam, tempus, et alias circumstantias
+            <lb ed="#V" n="8"/>obligationis hujus praecepti.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Primo confessorem obligari ad hoc
+            se<lb ed="#V" n="10" break="no"/>cretum est probatum, in 1. 2. et 3.
+            con<lb ed="#V" n="11" break="no"/>clusione, et omnes admittunt communi
+            <lb ed="#V" n="12"/>consensu, in hac dist.et 3. part, quoest.93.
+            <lb ed="#V" n="13"/>art. 4. Varii casus attinguntur in
+            argu<lb ed="#V" n="14" break="no"/>mentis pro parte negativa, quae
+            concer<lb ed="#V" n="15" break="no"/>nunt personam Sacerdotis, ut causa
+            <lb ed="#V" n="16"/>fugiendi mortem et insidias, causas
+            con<lb ed="#V" n="17" break="no"/>fitendi integra sua peccata, causa etiam
+            <lb ed="#V" n="18"/>boni communis, quos infra resolvit
+            Do<lb ed="#V" n="19" break="no"/>ctor in responsione ad argumenta eosque
+            <lb ed="#V" n="20"/>ibidem examinabimus.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Secunda persona, quam obligat secretum
+            <lb ed="#V" n="22"/>hoc, etiam qua Sacramentale est,
+            propo<lb ed="#V" n="23" break="no"/>nitur illa, cui confessarius revelat, licet
+            <lb ed="#V" n="24"/>illicite, peccatum auditum solum in
+            con<lb ed="#V" n="25" break="no"/>fessione; quam sententiam tuetur
+            Sylve<lb ed="#V" n="26" break="no"/>ster verbo confessor 3. quoest. 1.
+            Richar<lb ed="#V" n="27" break="no"/>dus in hac dist. Navarr. in c. Sacerdos
+            <lb ed="#V" n="28"/>dist.6. de poenitentia, Suarez disp. 33.
+            <lb ed="#V" n="29"/>sect. 4. Vasquez 3. part. quaest. 93.
+            <lb ed="#V" n="30"/>s art. 4. dub. 3. Ratio Doctoris est,
+            <lb ed="#V" n="31"/>quia illicite transferens aliquid in
+            <lb ed="#V" n="32"/>alium, quod de jure nequit transferre, non
+            <lb ed="#V" n="33"/>potest transferre in ipsum jus utendi illa
+            <lb ed="#V" n="34"/>re; huic affinis est ratio quam adducit
+            <lb ed="#V" n="35"/>Navarr. in cap. Sacerdos, quia res ad
+            <lb ed="#V" n="36"/>quemcumque transit, cum suo onere
+            <lb ed="#V" n="37"/>transit, capitulo ex litteris, de
+            pignori<lb ed="#V" n="38" break="no"/>bus, res autem in confessione dicta hoc
+            ha<lb ed="#V" n="39" break="no"/>bet onus ut celetur; ergo tenetur is cui
+            <lb ed="#V" n="40"/>revelavit eam Sacerdos injuste, ut eam
+            <lb ed="#V" n="41"/>celet.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Vasquez loco citato utramque rationem
+            <lb ed="#V" n="43"/>tantum probare dicit obligationem secreti
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>ex justitia, non vero obligationem sigilli,
+            <lb ed="#V" n="45"/>quam ipse alia ratione probat, quia nempe
+            <lb ed="#V" n="46"/>notitia quam habet Sacerdos immediate,
+            <lb ed="#V" n="47"/>mediate vero is, cui revelatur confessio,
+            <lb ed="#V" n="48"/>est in ordine ad confessionem, et per
+            ip<lb ed="#V" n="49" break="no"/>sam solam, quia poenitens eam non
+            re<lb ed="#V" n="50" break="no"/>velavit, nisi in sola confessione, ideo is
+            <lb ed="#V" n="51"/>cui Sacerdos eam revelat, ex notitia in
+            <lb ed="#V" n="52"/>confessione tantum habita, tenetur sigillo
+            <lb ed="#V" n="53"/>seu secreto confessionis. Sed haec ratio
+            <lb ed="#V" n="54"/>Vasquez non differt a prioribus, quas
+            im<lb ed="#V" n="55" break="no"/>pugnat, quia non tantum acquirit
+            poeni<lb ed="#V" n="56" break="no"/>tens jus celandi suum peccatum ex lege
+            <lb ed="#V" n="57"/>naturali de servando secreto, sed etiam
+            <lb ed="#V" n="58"/>ex lege speciali hujus Sacramenti, quo
+            <lb ed="#V" n="59"/>Deus voluit peccata confessa esse secreta;
+            <lb ed="#V" n="60"/>ergo non tantum injuria facta,
+            poeni<lb ed="#V" n="61" break="no"/>tenti est contra titulum fundatum, quem
+            <lb ed="#V" n="62"/>habet ex lege secreti naturalis, sed contra
+            <lb ed="#V" n="63"/>titulum, quem habet ex lege Sacramenti.
+            <lb ed="#V" n="64"/>Deinde praeceptum divinum sigilli respicit
+            <lb ed="#V" n="65"/>primo et per se materiam, nempe
+            pecca<lb ed="#V" n="66" break="no"/>tum in confessione, et non aliter dictum,
+            <lb ed="#V" n="67"/>quod Deus voluit universaliter esse
+            te<lb ed="#V" n="68" break="no"/>ctum; secundario vero respicit personas,
+            <lb ed="#V" n="69"/>ad quas illa materia devenit per solam
+            <lb ed="#V" n="70"/>scientiam confessionis, et hoc praeceptum
+            <lb ed="#V" n="71"/>non solum respicit reverentiam
+            Sacramen<lb ed="#V" n="72" break="no"/>ti, sed etiam indemnitatem et impunitatem
+            <lb ed="#V" n="73"/>poenitentis, quia judicium illud per
+            sen<lb ed="#V" n="74" break="no"/>tentiam terminari voluit Deus in foro
+            se<lb ed="#V" n="75" break="no"/>creto, et non posse reduci ad forum
+            publi<lb ed="#V" n="76" break="no"/>cum, aut damnum aliquod poenitentis, ut
+            <lb ed="#V" n="77"/>bene Doctor in secunda probatione
+            secun<lb ed="#V" n="78" break="no"/>doe conclusionis; ideoque remittit hanc
+            <lb ed="#V" n="79"/>conclusionem de obligatione tam
+            Sacerdo<lb ed="#V" n="80" break="no"/>tis quam alterius ad fundamenta primae
+            <lb ed="#V" n="81"/>et secundae conclusionis. Ergo ex natura
+            <lb ed="#V" n="82"/>hujus praecepti et materiae quam primo
+            <lb ed="#V" n="83"/>respicit, atque adeo ipsius fori, quem
+            con<lb ed="#V" n="84" break="no"/>cernit, acquiritur jus poenitenti, ut
+            pecca<lb ed="#V" n="85" break="no"/>tum confessum et notum tantum ex
+            con<lb ed="#V" n="86" break="no"/>fessione maneat secretum.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>Bene ergo Navarrus asserit hanc rem
+            <pb ed="#V" n="742"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>transire cum onere, bene etiam Doctor
+            <lb ed="#V" n="2"/>similiter dicit non posse Sacerdotem
+            trans<lb ed="#V" n="3" break="no"/>ferre jus utendi illa re, quam de facto
+            <lb ed="#V" n="4"/>transfert in alium, quae res transferri de
+            <lb ed="#V" n="5"/>jure non potest. Unde si is in quem
+            trans<lb ed="#V" n="6" break="no"/>fertur de facto, utatur illa re, cujus usum
+            <lb ed="#V" n="7"/>prohibet lex, etiam peccat contra eamdem
+            <lb ed="#V" n="8"/>legem, sed hic non solum prohibetur
+            <lb ed="#V" n="9"/>translatio illa cognitionis peccati in
+            con<lb ed="#V" n="10" break="no"/>fessione auditi per legem naturalem
+            se<lb ed="#V" n="11" break="no"/>creti, sed etiam per legem specialem, et
+            <lb ed="#V" n="12"/>privilegium confessionis; ergo peccaret
+            <lb ed="#V" n="13"/>is cui revelatur injuste confessio, si non
+            <lb ed="#V" n="14"/>servaret eam secretam, contra utramque
+            <lb ed="#V" n="15"/>legem; ideo Doctor in sua ratione loquitur
+            <lb ed="#V" n="16"/>universaliter de jure, ut comprehendat
+            <lb ed="#V" n="17"/>utramque legem, ex qua superius
+            proba<lb ed="#V" n="18" break="no"/>vit emanare obligationem secreti, ac
+            pro<lb ed="#V" n="19" break="no"/>inde se remittit ad probationes, ut dixi,
+            <lb ed="#V" n="20"/>primae et secundae conclusionis; quae
+            pe<lb ed="#V" n="21" break="no"/>rinde impugnat asserentes teneri
+            audien<lb ed="#V" n="22" break="no"/>tem a Confessario peccatum confessum
+            <lb ed="#V" n="23"/>solo teneri secreto naturali; in qua
+            opi<lb ed="#V" n="24" break="no"/>nione est Joannes de Medina C. de
+            con<lb ed="#V" n="25" break="no"/>fessione, quoest. de his qui confessionem
+            <lb ed="#V" n="26"/>celare tenentur.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>Sed quid dicendum de consultore, ut
+            <lb ed="#V" n="28"/>quando confessarius ad instructionem sui
+            <lb ed="#V" n="29"/>ipsius, et ad salutem poenitentis de
+            licen<lb ed="#V" n="30" break="no"/>tia poenitentis consulit alium peritiorem,
+            <lb ed="#V" n="31"/>et quandoque necessarium est
+            communi<lb ed="#V" n="32" break="no"/>care casum, etiam respective ad
+            perso<lb ed="#V" n="33" break="no"/>nam poenitentis ob particularem
+            circum<lb ed="#V" n="34" break="no"/>stantiam et statum poenitentis, ex quibus
+            <lb ed="#V" n="35"/>oritur perplexitas in confessario.
+            Quaeri<lb ed="#V" n="36" break="no"/>tur an consultor teneatur ad sigillum
+            spe<lb ed="#V" n="37" break="no"/>«ciale confessionis?
+          </p>
+          <p>
+            <lb ed="#V" n="38"/>Respondet Vasquez, eum solum teneri
+            <lb ed="#V" n="39"/>ex secreto naturali. Contrarium Doctor
+            <lb ed="#V" n="40"/>supponit, quem sequitur Paludanus hac
+            <lb ed="#V" n="41"/>dist. quoest. 3. Adrianus quaest. ult. de
+            <lb ed="#V" n="42"/>confessione dub. ult Navarr, citatus, et
+            <lb ed="#V" n="43"/>in Summa cap. 8. Ledesma quoest. 10.
+            <lb ed="#V" n="44"/>art. 3. dub. 7. Petrus de Soto lectione 11.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>de confessione, Viguerius in Summa cap.
+            <lb ed="#V" n="46"/>16. 8 4. Suarez loco citato, sect. 4.
+            <lb ed="#V" n="47"/>Ratio est, quia ille cognoscit praecise ex;
+            <lb ed="#V" n="48"/>confessione quae inducit hanc
+            obligati<lb ed="#V" n="49" break="no"/>onem, et quamvis non habeat claves,
+            po<lb ed="#V" n="50" break="no"/>namus esse saecularem, tamen in parte
+            <lb ed="#V" n="51"/>concurrit ad actum clavis scientiae, ut
+            re<lb ed="#V" n="52" break="no"/>cte D. Thomas et Suarez, et disponit
+            judi<lb ed="#V" n="53" break="no"/>dicem quantum ad quaestionem juris.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>(g) Sed quando, dico quod pro semper
+            <lb ed="#V" n="55"/>et ad semper, etc. Quia nempe est
+            prae<lb ed="#V" n="56" break="no"/>ceptum universale negativum, ut supra
+            <lb ed="#V" n="57"/>visum est, ideo obligat in vita, et post
+            <lb ed="#V" n="58"/>mortem poenitentis.
+            <lb ed="#V" n="59"/>(h) Sed de cui, dicitur quod cuilibet
+            tene<lb ed="#V" n="60" break="no"/>tur, etc. Haec opinio, quam rejicit, est
+            <lb ed="#V" n="61"/>Altisiodorensis lib. 4. Summoe tract. 6.
+            <lb ed="#V" n="62"/>cap. 3. quaest. 7. qui communiter citatur
+            <lb ed="#V" n="63"/>in oppositum. Caeterum non adeo
+            asserti<lb ed="#V" n="64" break="no"/>ve hoc sequitur, citat enim praefato loco
+            <lb ed="#V" n="65"/>aliquos Magistros id dicere, quos ita
+            im<lb ed="#V" n="66" break="no"/>pugnat; si revelat, dicit confitens
+            confes<lb ed="#V" n="67" break="no"/>sionem esse revelatam, ergo facit
+            confes<lb ed="#V" n="68" break="no"/>sionem odiosam hominibus. Sed haec est
+            <lb ed="#V" n="69"/>causa quare non debet revelari confessio,
+            <lb ed="#V" n="70"/>ergo non debet eam revelare; quod
+            con<lb ed="#V" n="71" break="no"/>cedimus, inquit, dicentes quod in nullo
+            <lb ed="#V" n="72"/>casu revelari debet confessio, nisi forte
+            <lb ed="#V" n="73"/>ex aliquo matrimonio, vel ex re aliqua
+            <lb ed="#V" n="74"/>qua magnum detrimentum incurret, et
+            <lb ed="#V" n="75"/>nullum periculum immineret Sacramento
+            <lb ed="#V" n="76"/>confessionis; iste casus quasi impossibilis
+            <lb ed="#V" n="77"/>est, etc. Haec ille, et casus quos proponit,
+            <lb ed="#V" n="78"/>de matrimonio in gradu prohibito, et
+            annul<lb ed="#V" n="79" break="no"/>lante ob impedimentum, quod ipse in
+            con<lb ed="#V" n="80" break="no"/>fessione tantum novit, item de
+            irregula<lb ed="#V" n="81" break="no"/>ritate subditi, quam scit Superior in
+            con<lb ed="#V" n="82" break="no"/>fessione, item de furto Ecclesiae
+            conformi<lb ed="#V" n="83" break="no"/>ter ad dicta resolvit, quamvis in hoc
+            <lb ed="#V" n="84"/>videtur inclinare, ut possit Sacerdos uti
+            <lb ed="#V" n="85"/>scientia habita in confessione etiam
+            <lb ed="#V" n="86"/>extra confessionem citra praejudicium
+            <lb ed="#V" n="87"/>Sacramenti; haec videtur, mihi sententia
+            <lb ed="#V" n="88"/>Altisiodorensis, sed cujuscumque sit illa
+            <pb ed="#V" n="743"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sententia, patet ex dictis ejus
+            impugna<lb ed="#V" n="2" break="no"/>tio.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Excipit Doctor casum in quo
+            necessa<lb ed="#V" n="4" break="no"/>rium est confessario recurrere ad
+            Supe<lb ed="#V" n="5" break="no"/>riorem in casibus reservatis, quando
+            exci<lb ed="#V" n="6" break="no"/>pit peccata in confessione, ut ea dicat
+            <lb ed="#V" n="7"/>Superiori, qui potest absolvere. Casus iste
+            <lb ed="#V" n="8"/>supponit Superiorem velle scire casum
+            <lb ed="#V" n="9"/>respective ad poenitentem, et non velle
+            <lb ed="#V" n="10"/>conferre auctoritatem absolvendi inferiori.
+            <lb ed="#V" n="11"/>sed per se absolvere, et injungere
+            poeni<lb ed="#V" n="12" break="no"/>tentiam ex causa aliqua rationabili. Quod
+            <lb ed="#V" n="13"/>si poenitens sit talis, ut non audeat
+            con<lb ed="#V" n="14" break="no"/>fiteri ore proprio Superiori, vel ex
+            defe<lb ed="#V" n="15" break="no"/>ctu idiomatis quod posset intelligere
+            Supe<lb ed="#V" n="16" break="no"/>rior, tunc Sacerdos habet rationem
+            inter<lb ed="#V" n="17" break="no"/>pretis, et non absolventis; sed ipse
+            <lb ed="#V" n="18"/>Superior poenitentem absolvit praesentem
+            <lb ed="#V" n="19"/>tamen et inter omnes integratur unus
+            ac<lb ed="#V" n="20" break="no"/>tus quia is qui primo excepit
+            confessi<lb ed="#V" n="21" break="no"/>onem, sustinet partem poenitentis, eique
+            <lb ed="#V" n="22"/>accedit, et casus in praxi potest
+            continge<lb ed="#V" n="23" break="no"/>re; modus autem quo tam Superior quam
+            <lb ed="#V" n="24"/>confessarius se gerere debent in tali casu
+            <lb ed="#V" n="25"/>reservationis, explicatus est dist. 17. de
+            <lb ed="#V" n="26"/>casibus reservatis.
+          </p>
+          <p>
+            <lb ed="#V" n="27"/>Ex hac conclusione sequitur idem
+            di<lb ed="#V" n="28" break="no"/>cendum de interprete, quamvis Cajetanus
+            <lb ed="#V" n="29"/>verbo confessio, condit. 11. Sotus supra
+            <lb ed="#V" n="30"/>citatus, negent eum teneri sigillo.
+            Con<lb ed="#V" n="31" break="no"/>clusio Doctoris est verior et communior
+            <lb ed="#V" n="32"/>quam docuit etiam dist. 17. circa finem,
+            <lb ed="#V" n="33"/>ubi agit de obligatione confitendi per
+            in<lb ed="#V" n="34" break="no"/>terpretem, Richardus in hac dist. art. 4.
+            <lb ed="#V" n="35"/>quaest. 3. D. Thomas, quaest. 3. art. 1.
+            <lb ed="#V" n="36"/>quaestiunc. 3. Navarrus in cap. Sacerdos
+            <lb ed="#V" n="37"/>Medina Cod. de poenitentia quaest. 50.
+            <lb ed="#V" n="38"/>Suarez sect. 4. Vasquez dub. 2. et plures
+            <lb ed="#V" n="39"/>alii, quos citat contra Sotum. Ratio
+            hu<lb ed="#V" n="40" break="no"/>jus est jam dicta, et quia, ut dicit Doctor,
+            <lb ed="#V" n="41"/>concurrit ex parte poenitentis ad actum
+            <lb ed="#V" n="42"/>Sacramentalem, et ex confessione
+            cogno<lb ed="#V" n="43" break="no"/>scit peccatum
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>Sed quid de confessione facta laico
+            bo<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>na fide, vel quia putabatur esse Sacerdos,
+            <lb ed="#V" n="46"/>et seipsum finxit Sacerdotem, vel quia est
+            <lb ed="#V" n="47"/>error utrimque, ut putetur sic perfici
+            Sa<lb ed="#V" n="48" break="no"/>cramentum, vel si causa instructionis
+            fa<lb ed="#V" n="49" break="no"/>cta est confessio et non intuitu Sacramenti?
+            <lb ed="#V" n="50"/>Quantum ad primum casum, aliqui dicunt
+            <lb ed="#V" n="51"/>teneri talem sigillo confessionis, quod et
+            <lb ed="#V" n="52"/>tenet Suarez sectione secunda, quia hoc
+            <lb ed="#V" n="53"/>praeceptum in favorem poenitentis et
+            Sa<lb ed="#V" n="54" break="no"/>cramenti est ampliandum, non vero
+            res<lb ed="#V" n="55" break="no"/>tringendum; sufficit ergo intentio, bona
+            <lb ed="#V" n="56"/>fides et actus ex his procedens, ut
+            induca<lb ed="#V" n="57" break="no"/>tur obligatio sigilli. Haec sententia est
+            <lb ed="#V" n="58"/>probabilis, quia non requiritur ad hanc
+            <lb ed="#V" n="59"/>obligationem sigilli, ut actus sit
+            termina<lb ed="#V" n="60" break="no"/>tus, ex parte audientis confessionem, ut
+            <lb ed="#V" n="61"/>si sit Sacerdos, qui non habet
+            jurisdicti<lb ed="#V" n="62" break="no"/>onem, sed fingit eam habere, vel certe
+            au<lb ed="#V" n="63" break="no"/>dita confessione non absolvit, vel ex
+            <lb ed="#V" n="64"/>defectu jurisdictionis in casibus reservatis
+            <lb ed="#V" n="65"/>sibi, vel simpliciter, si est simplex
+            Sa<lb ed="#V" n="66" break="no"/>cerdos extra casum necessitatis, et peccata
+            <lb ed="#V" n="67"/>sint mortalia, vel quoad aliqua, quibus
+            <lb ed="#V" n="68"/>annexa est reservatio directe, vel per
+            <lb ed="#V" n="69"/>censuram reservatam, tamen in eo casu
+            <lb ed="#V" n="70"/>tenetur ad sigillum, licet confessio facta
+            <lb ed="#V" n="71"/>non sit terminata per absolutionem. Ergo
+            <lb ed="#V" n="72"/>similiter nihil probibet quin fingens se
+            <lb ed="#V" n="73"/>Sacerdotem etiam obligetur sigillo, ad
+            <lb ed="#V" n="74"/>quam obligationem sufficit bona fides
+            <lb ed="#V" n="75"/>poenitentis, et actum esse Sacramentalem
+            <lb ed="#V" n="76"/>ex intentione ejus et in aestimatione.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Alii docent non oriri sigillum ex hac
+            <lb ed="#V" n="78"/>confessione, quia non est actus
+            Sacramen<lb ed="#V" n="79" break="no"/>talis, ex defectu jurisdictionis et ministri
+            <lb ed="#V" n="80"/>idonei, sed oriri strictissimum secretum
+            <lb ed="#V" n="81"/>naturale. Prior sententia quae magis favet
+            <lb ed="#V" n="82"/>poenitenti et Sacramento, videtur
+            praefe<lb ed="#V" n="83" break="no"/>renda, quia et congruitas et motivum
+            <lb ed="#V" n="84"/>praecepti ad eam extenditur, et
+            nocumen<lb ed="#V" n="85" break="no"/>tum avertendi a confessione facienda,
+            <lb ed="#V" n="86"/>atque alia plura incommoda. Unde
+            cense<lb ed="#V" n="87" break="no"/>rem in foro extexiori talem severius
+            <lb ed="#V" n="88"/>puniendum esse, quam Sacerdotem
+            reve<pb ed="#V" n="744"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>lantem confessionem, ob duplex
+            sacrile<lb ed="#V" n="2" break="no"/>gium in Sacramentum commissum, et
+            in<lb ed="#V" n="3" break="no"/>juriam duplicem in poenitentem
+            commis<lb ed="#V" n="4" break="no"/>sam, ex quo patet ad secundum casum.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Ad tertium etiam respondetur negative
+            <lb ed="#V" n="6"/>quia ille actus non est Sacramentalis ne
+            <lb ed="#V" n="7"/>quidem in aestimatione; manet ergo
+            so<lb ed="#V" n="8" break="no"/>lum obligatio naturalis secreti.
+          </p>
+          <p>
+            <lb ed="#V" n="9"/>Ex quibus etiam sequitur ad fatuam
+            <lb ed="#V" n="10"/>conventionem quorumdam, quid dicendum
+            <lb ed="#V" n="11"/>sit, qui nullo modo perficientes
+            Sacramen<lb ed="#V" n="12" break="no"/>tum, aut intendentes, extra confessionem
+            <lb ed="#V" n="13"/>revelant aliquod secretum sub sigillo
+            con<lb ed="#V" n="14" break="no"/>fessionis, nam talis obligatio nequit
+            indu<lb ed="#V" n="15" break="no"/>ci ex pacto, et sine intentione Sacramenti
+            <lb ed="#V" n="16"/>ut bene docent Paludanus, Adrianus,
+            <lb ed="#V" n="17"/>Vasquez, Sotus.
+          </p>
+          <p>
+            <lb ed="#V" n="18"/>Sed quid si poenitens voluerit
+            confes<lb ed="#V" n="19" break="no"/>sionem suorum peccatorum facere coram
+            <lb ed="#V" n="20"/>Sacerdote, et Sacerdos noluerit eum
+            audi<lb ed="#V" n="21" break="no"/>re ut confitentem, vel in ordine ad
+            absolu<lb ed="#V" n="22" break="no"/>tionem dandam?
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>Respondetur universaliter, quacumque
+            <lb ed="#V" n="24"/>via alter ipsi confiteatur tanquam judici,
+            <lb ed="#V" n="25"/>sive ipsum absolvat, sive non, oriri
+            sigil<lb ed="#V" n="26" break="no"/>lum, et non esse meram consultationem
+            <lb ed="#V" n="27"/>in eo casu. Idem dico quando poenitens
+            <lb ed="#V" n="28"/>accedit ad Superiorem in casibus
+            reserva<lb ed="#V" n="29" break="no"/>tis, petens ab eo licentiam et
+            auctorita<lb ed="#V" n="30" break="no"/>tem, ut confiteatur alteri, teneri
+            Superi<lb ed="#V" n="31" break="no"/>orem ad sigillum in eo casu, quia illa
+            <lb ed="#V" n="32"/>notitia quam habuit de reservatis in
+            ge<lb ed="#V" n="33" break="no"/>nere, fuit ei communicata per modum
+            <lb ed="#V" n="34"/>confessionis inchoatae, et in ordine ad
+            <lb ed="#V" n="35"/>Sacramentum.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Dico praeterea oriri sigillum ex
+            confes<lb ed="#V" n="37" break="no"/>sione etiam sacrilega, ut quando quis
+            <lb ed="#V" n="38"/>revelat sua peccata sine animo emendandi
+            <lb ed="#V" n="39"/>se ipsum, sed ad evitandum scandalum.
+            <lb ed="#V" n="40"/>aut aliud inconveniens oritur sigillum ut
+            <lb ed="#V" n="41"/>patet ex consuetudine Ecclesiae, et illa
+            ac<lb ed="#V" n="42" break="no"/>cusatio est inchoatum Sacramentum,
+            <lb ed="#V" n="43"/>quamvis desit aliquid requisitum ex
+            par<lb ed="#V" n="44" break="no"/>te dispositionis poenitentis ad absolutionem.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>(i) Si dicas quod per hoc respondetur
+            <lb ed="#V" n="46"/>ad quoddam, etc. Haec littera patet ex
+            di<lb ed="#V" n="47" break="no"/>ctis contra Richardum supra in prima
+            <lb ed="#V" n="48"/>conclusione. Sed dubium est, an liceat
+            <lb ed="#V" n="49"/>confessario uti scientia habita in
+            confessi<lb ed="#V" n="50" break="no"/>one, quando non sequitur violatio
+            si<lb ed="#V" n="51" break="no"/>gilli?
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Quinta conclusio: Nequit Sacerdos uti
+            <lb ed="#V" n="53"/>scientia habita in confessione, quando
+            <lb ed="#V" n="54"/>sequeretur violatio sigilli; haec sequitur
+            <lb ed="#V" n="55"/>ex dictis. Sed difficultas est, an possit uti
+            <lb ed="#V" n="56"/>eadem, quando id non sequitur. Actiones
+            <lb ed="#V" n="57"/>variae sunt, in quibus contingere possit
+            <lb ed="#V" n="58"/>hic usus. Primo, in actibus justitiae
+            vin<lb ed="#V" n="59" break="no"/>dicativae, ut puniendo ipsum in corpore,
+            <lb ed="#V" n="60"/>aut aliqua poena legali, ut submovendo ab
+            <lb ed="#V" n="61"/>officio, privando beneficio, aut struendo
+            <lb ed="#V" n="62"/>ipsi insidias, et procurando media, quibus
+            <lb ed="#V" n="63"/>deprehendi possit in peccato, ut quando
+            <lb ed="#V" n="64"/>ex confessione novit eum certo aliquo
+            <lb ed="#V" n="65"/>loco peccare, vel egredi Monasterio, per
+            <lb ed="#V" n="66"/>certam portam et fenestram, haec
+            occlu<lb ed="#V" n="67" break="no"/>dendo. Aliae spectant ad justitiam
+            distri<lb ed="#V" n="68" break="no"/>butivam, ut in electione officiorum,
+            possit<lb ed="#V" n="69" break="no"/>ne negare ipsi suffragium, aut statuere
+            <lb ed="#V" n="70"/>impedimentum, ne assumeretur ad
+            offi<lb ed="#V" n="71" break="no"/>cium, vel procurando ut amoveatur a
+            cer<lb ed="#V" n="72" break="no"/>to loco, in quo novit eum peccare. Aliae
+            <lb ed="#V" n="73"/>actiones sunt ad administrationem
+            Sacra<lb ed="#V" n="74" break="no"/>cramentorum. Aliae sunt, quibus statuitur
+            <lb ed="#V" n="75"/>impedimentum, quo abstrahatur a
+            commit<lb ed="#V" n="76" break="no"/>tendo aliquo crimine. Hi casus moventur
+            <lb ed="#V" n="77"/>quando sequitur suspicio confessarium in
+            <lb ed="#V" n="78"/>iis actibus procedere ex scientia habita
+            <lb ed="#V" n="79"/>in confessione, sive talis suspicio sequatur
+            <lb ed="#V" n="80"/>in ipso poenitente solo, sive in aliis; et
+            <lb ed="#V" n="81"/>intelliguntur iidem casus quando alias
+            <lb ed="#V" n="82"/>extra confessionem non habeat aliam
+            <lb ed="#V" n="83"/>scientiam, aut media, quibus procedere
+            <lb ed="#V" n="84"/>possit, verbi gratia, si quis ingressus
+            <lb ed="#V" n="85"/>confessoris cubiculum furatus est inde
+            <lb ed="#V" n="86"/>bursam, et hoc ipsum statim confessus
+            <lb ed="#V" n="87"/>fuerit, an poterit postea confessor
+            depre<lb ed="#V" n="88" break="no"/>hensa bursa ablata, procedere contra
+            ip<pb ed="#V" n="745"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>sum ex eo quod alius non ingressus sit
+            <lb ed="#V" n="2"/>cubiculum praeter ipsum.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Supponitur ergo primum posse
+            confes<lb ed="#V" n="4" break="no"/>sarium uti scientia habita in confessione
+            <lb ed="#V" n="5"/>in ordine ad studium, ad consultationem
+            <lb ed="#V" n="6"/>cum peritioribus circa audita, ad praxim
+            <lb ed="#V" n="7"/>de suo poenitente, et aliis acquirendi, ad
+            <lb ed="#V" n="8"/>directionem propriae conscientiae.
+            Suppo<lb ed="#V" n="9" break="no"/>nitur secundo non licere Regularibus uti
+            <lb ed="#V" n="10"/>scientia habita in confessione, vel eam
+            <lb ed="#V" n="11"/>transferre ad actus gubernationis externae,
+            <lb ed="#V" n="12"/>ex decreto Clementis VIII. anno 1594.
+            <lb ed="#V" n="13"/>26 Maii, quoad casus reservatos, id
+            prae<lb ed="#V" n="14" break="no"/>cipientis tam confessariis quam
+            Superi<lb ed="#V" n="15" break="no"/>oribus, ut caveant diligentissime, ne ea
+            <lb ed="#V" n="16"/>notitia, quam de aliorum peccatis in
+            con<lb ed="#V" n="17" break="no"/>fessione habuerunt, ad exteriorem
+            guber<lb ed="#V" n="18" break="no"/>nationem utantur. Quoad hos ergo cessat
+            <lb ed="#V" n="19"/>quaestio. Difficultas est, si id jure divino
+            <lb ed="#V" n="20"/>alias sit prohibitum? Prima sententia
+            asse<lb ed="#V" n="21" break="no"/>rit licitas esse tales actiones, quando
+            so<lb ed="#V" n="22" break="no"/>lus poenitens poterit suspicari. Alensis 4.
+            <lb ed="#V" n="23"/>p. quoest. 78. art. 1. memb. 2. ad 8.
+            <lb ed="#V" n="24"/>D. Thomas in 4. dist. 21. quaest. 2.
+            <lb ed="#V" n="25"/>art. 1. quaest. 1. ad 3. D. Bonaventura
+            <lb ed="#V" n="26"/>ibidem in 2. part. art. 2. quoest. 1. ad 3.
+            <lb ed="#V" n="27"/>Noster etiam Doctor videtur in eadem
+            es<lb ed="#V" n="28" break="no"/>se responsione ad 3. Paludanus quaest. 3.
+            <lb ed="#V" n="29"/>art. 3. Gabriel quoest. unic. art. 3. dub. 1.
+            <lb ed="#V" n="30"/>ad. 2. Probatur haec sententia, primo,
+            <lb ed="#V" n="31"/>quia sic utens non revelat confessionem;
+            <lb ed="#V" n="32"/>ergo non violat sigillum, ad quod solum
+            <lb ed="#V" n="33"/>tenetur. Secundo, nullo jure privatur ex
+            <lb ed="#V" n="34"/>eo praecise quod confessionem alicujus
+            <lb ed="#V" n="35"/>audivit, sed omnes praedictos actus
+            pote<lb ed="#V" n="36" break="no"/>rat alias, ut negare alicui suffragium, etc.
+            <lb ed="#V" n="37"/>Tertio, hic est finis reservationis casuum,
+            <lb ed="#V" n="38"/>ut Superior possit sibi subditos in iis
+            re<lb ed="#V" n="39" break="no"/>bus gubernare; ergo potest uti scientia
+            <lb ed="#V" n="40"/>quam ea reservatione acquirit, quae est
+            <lb ed="#V" n="41"/>scientia in confessione. Ideo S. Thomas.
+            <lb ed="#V" n="42"/>Sotus, Navarrus, Sylvester, Paludanus
+            <lb ed="#V" n="43"/>tenent, non posse eum uti tali scientia in
+            <lb ed="#V" n="44"/>ordine ad ejus quem indignum novit ex
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>confessione, sed teneri ad non dandum
+            <lb ed="#V" n="46"/>ipsi suffragium, vel amovendum ipsum.
+            <lb ed="#V" n="47"/>Sed hoc est falsum, ut patet ex decreto
+            <lb ed="#V" n="48"/>allegato Clementis, quod alias esset
+            inva<lb ed="#V" n="49" break="no"/>lidum stante obligatione divini praecepti.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Secunda sententia negat in dictis
+            acti<lb ed="#V" n="51" break="no"/>bus posse quemquam uti scientia habita
+            <lb ed="#V" n="52"/>in confessione, Armilla v. Confessor,
+            <lb ed="#V" n="53"/>Bannes 2. 2. quaest. 33. art. 8. Sanchez
+            <lb ed="#V" n="54"/>lib. 3. disp. 16. n. 3. et 4. Haec
+            sen<lb ed="#V" n="55" break="no"/>tentia habet argumenta non contemnenda,
+            <lb ed="#V" n="56"/>quia sic alias retraherentur homines
+            <lb ed="#V" n="57"/>a confessione facienda, quod reservatio
+            <lb ed="#V" n="58"/>casuum esset intolerabilis. Si
+            Episco<lb ed="#V" n="59" break="no"/>pus, verbi gratia, posset uti scientia
+            ha<lb ed="#V" n="60" break="no"/>bita in confessione quoad eum Clericum,
+            <lb ed="#V" n="61"/>qui commisit peccatum occultum, ex quo
+            <lb ed="#V" n="62"/>mereatur amotionem a beneficio, aut
+            ne<lb ed="#V" n="63" break="no"/>gationem promotionis ulterioris; ergo si
+            <lb ed="#V" n="64"/>obligatio sigilli inducta sit ne confessio
+            <lb ed="#V" n="65"/>fieret onerosa, currit in proposito.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Dico primo: Illicitum est uti scientia in
+            <lb ed="#V" n="67"/>praejudicium aliquod poenitentis aut
+            Sa<lb ed="#V" n="68" break="no"/>cramenti, sive sequatur suspicio, sive non.
+            <lb ed="#V" n="69"/>Probatur hac ratione, quia causa
+            termi<lb ed="#V" n="70" break="no"/>nata in hoc foro non debet referri ad aliud
+            <lb ed="#V" n="71"/>forum; sed utens scientia habita in
+            con<lb ed="#V" n="72" break="no"/>fessione in praejudicium aliquod
+            poeniten<lb ed="#V" n="73" break="no"/>tis, id facit, quia improperat ipsi reipsa
+            <lb ed="#V" n="74"/>peccatum suum, et vindicat in foro
+            exter<lb ed="#V" n="75" break="no"/>no; ergo; haec conclusio a fortiori
+            sequi<lb ed="#V" n="76" break="no"/>tur, quando nascitur suspicio.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Dico secundo, quando non sequitur
+            <lb ed="#V" n="78"/>suspicio ex natura actus, neque sequitur
+            <lb ed="#V" n="79"/>praejudicium aliquod poenitentis, videtur
+            <lb ed="#V" n="80"/>posse uti confessarium scientia habita
+            <lb ed="#V" n="81"/>in confessione, licet posset aliquis sic vel
+            <lb ed="#V" n="82"/>sic affectus, concipere aliquam levem
+            su<lb ed="#V" n="83" break="no"/>spicionem. Et hoc videtur deferendum
+            <lb ed="#V" n="84"/>primae sententiae, verbi gratia, aliqui
+            in<lb ed="#V" n="85" break="no"/>toxicarunt vinum, in quo consecrare vult
+            <lb ed="#V" n="86"/>Sacerdos, et hoc quidam eorum eidem
+            <lb ed="#V" n="87"/>confessus est, tunc potest Sacerdos,
+            <lb ed="#V" n="88"/>quamvis voluit celebrare, uti ea scientia,
+            <pb ed="#V" n="746"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>tamen alias occasiones simulando ne
+            cele<lb ed="#V" n="2" break="no"/>bret si absit mendacium, ut dolorem
+            sto<lb ed="#V" n="3" break="no"/>machi, vel infirmitatem, vel fundendo
+            cali<lb ed="#V" n="4" break="no"/>cem, frangendo quasi ex casu ampullam
+            <lb ed="#V" n="5"/>vini, et ejusmodi. Idem dicendum de eo
+            <lb ed="#V" n="6"/>cui structae sunt insidiae, et id cognovit ex
+            <lb ed="#V" n="7"/>confessione unius insidiatoris, potest ex
+            <lb ed="#V" n="8"/>alia occasione declinare locum, et in hoc
+            <lb ed="#V" n="9"/>non revelat confessionem, quia res sunt
+            <lb ed="#V" n="10"/>aequivocae, et eorum usus potest esse ob
+            <lb ed="#V" n="11"/>varios fines ex libertate utentis. Verba
+            <lb ed="#V" n="12"/>autem significant determinate. Dixi
+            quan<lb ed="#V" n="13" break="no"/>do suscipicio non oritur ex natura actus,
+            <lb ed="#V" n="14"/>.ut si, verbi gratia, talis Sacerdos statim
+            <lb ed="#V" n="15"/>audita confessione exerceret aliquos
+            <lb ed="#V" n="16"/>actus, quos statim cognoscerent provenire
+            <lb ed="#V" n="17"/>ex confessione, ut si se armaret contra
+            <lb ed="#V" n="18"/>insidias, adhiberet comitatum
+            tumultu<lb ed="#V" n="19" break="no"/>arie, vel arriperet fugam, et hujusmodi,
+            <lb ed="#V" n="20"/>quia tunc censendus esset revelare
+            sigil<lb ed="#V" n="21" break="no"/>lum; ex his patet solutio ad dictos casus
+            <lb ed="#V" n="22"/>in specie acommodando singula singulis.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>(k) Sed numquid Papa potest
+            proecipe<lb ed="#V" n="24" break="no"/>re, etc. Respondet negative, quia hoc
+            <lb ed="#V" n="25"/>secretum est juris naturalis, et Ecclesia
+            <lb ed="#V" n="26"/>non potest extendere jurisdictionem
+            fo<lb ed="#V" n="27" break="no"/>ri externi ad ea quae sunt mere
+            oc<lb ed="#V" n="28" break="no"/>culta, et extra scientiam illius fori. Per
+            <lb ed="#V" n="29"/>jus naturae potest dici etiam Doctorem
+            <lb ed="#V" n="30"/>comprehendere etiam jus divinum,
+            <lb ed="#V" n="31"/>quod latum est de sigillo juxta
+            natu<lb ed="#V" n="32" break="no"/>ram Sacramenti, et consentanee ad jus
+            <lb ed="#V" n="33"/>naturae, licet fortius liget quantum ad
+            uni<lb ed="#V" n="34" break="no"/>versalitatem materiae, includens omnes
+            <lb ed="#V" n="35"/>casus, in quibus alioquin jus naturalis
+            se<lb ed="#V" n="36" break="no"/>creti non obligaret. Vel dicendum est
+            <lb ed="#V" n="37"/>eum respondere a minori et notiori ad
+            <lb ed="#V" n="38"/>majus, quia si nequit praecipere
+            revelati<lb ed="#V" n="39" break="no"/>onem secreti naturalis, in casu quo obligat,
+            <lb ed="#V" n="40"/>minus potest revelationem sigilli
+            praeci<lb ed="#V" n="41" break="no"/>pere. Ex quo patet quid dicendum sit de
+            <lb ed="#V" n="42"/>aliis omnibus interrogantibus, quorum
+            <lb ed="#V" n="43"/>minor est auctoritas, in casu enim quando
+            <lb ed="#V" n="44"/>ex circumstantiis nocumenti imminentis
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>exigitur responsio, servanda est regula,
+            <lb ed="#V" n="46"/>quam supra dist. 15. quoest. 4. tradit
+            Do<lb ed="#V" n="47" break="no"/>ctor de reo interrogato non juridice.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d21q2-p6"> -->
+          <p>
+            <lb ed="#V" n="3" type="fixed=747"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>(1) De quid, dico non tantum
+            pceca<lb ed="#V" n="5" break="no"/>tum, etc. Haec conclusio quoad primam
+            <lb ed="#V" n="6"/>partem patet ex prima et secunda
+            con<lb ed="#V" n="7" break="no"/>clusione, nempe peccata et circumstantias
+            <lb ed="#V" n="8"/>peccatorum cadere sub sigillo. Quoad
+            <lb ed="#V" n="9"/>secundam partem quae magis per se hic
+            <lb ed="#V" n="10"/>a determinatur, nempe personam
+            compli<lb ed="#V" n="11" break="no"/>cis cadere sub sigillo eodem, duo
+            consi<lb ed="#V" n="12" break="no"/>deranda sunt, nempe id quod supponit,
+            <lb ed="#V" n="13"/>scilicet poenitentem posse confiteri
+            per<lb ed="#V" n="14" break="no"/>sonam complicis in casu ut mox
+            expli<lb ed="#V" n="15" break="no"/>cabitur, et secundum est veritas ipsius
+            <lb ed="#V" n="16"/>conclusionis, quam hic probat.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Complex intelligitur persona
+            commu<lb ed="#V" n="18" break="no"/>nicans in eodem peccato, ex qua
+            circum<lb ed="#V" n="19" break="no"/>stantia aliqua contrahatur necessario
+            <lb ed="#V" n="20"/>confitenda, verbi gratia, stuprum cum
+            <lb ed="#V" n="21"/>virgine, incestus cum sorore, quae
+            cir<lb ed="#V" n="22" break="no"/>cumstantiae confitendae sunt; casus est
+            <lb ed="#V" n="23"/>quando complex est nota confessario, et
+            <lb ed="#V" n="24"/>patitur apud eum in privata opinione
+            <lb ed="#V" n="25"/>infamiam, eo modo quo ipse poenitens;
+            <lb ed="#V" n="26"/>secludendo ergo alios casus ulterioris
+            in<lb ed="#V" n="27" break="no"/>commodi superius expressos. Item, si
+            <lb ed="#V" n="28"/>alias notum est confessario judicio
+            confi<lb ed="#V" n="29" break="no"/>«tentis complicem similibus peccatis alias
+            <lb ed="#V" n="30"/>implicari, vel si alias nota non est, casus
+            <lb ed="#V" n="31"/>quaestionis est ille expressus, in quo
+            va<lb ed="#V" n="32" break="no"/>riant Doctoros. Canus in relectione de
+            <lb ed="#V" n="33"/>poenit, part. 5. dicit licere explicare
+            per<lb ed="#V" n="34" break="no"/>sonam complicis in articulo mortis, quia
+            <lb ed="#V" n="35"/>in tali casu debet cedere suae famae ob
+            <lb ed="#V" n="36"/>salutem alterius. Haec ratio non valet,
+            <lb ed="#V" n="37"/>quia vel praevalet praeceptum integrae
+            <lb ed="#V" n="38"/>confessionis, praecepto servandae famae
+            <lb ed="#V" n="39"/>complicis, vel non. Si primum, ergo etiam
+            <lb ed="#V" n="40"/>secluso articulo tenebitur confiteri; si
+            se<lb ed="#V" n="41" break="no"/>cundum, ergo neque in articulo.
+            Conse<lb ed="#V" n="42" break="no"/>quentia patet, quia integritas confessionis
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>nunquam est in consilio, semper enim
+            <lb ed="#V" n="44"/>tenetur quis ad integritatem, quando
+            li<lb ed="#V" n="45" break="no"/>cet, hoc est, quando impedimentum non
+            <lb ed="#V" n="46"/>subest juris naturalis, aut divini
+            prohiben<lb ed="#V" n="47" break="no"/>tis revelationem peccati talis, quod
+            confi<lb ed="#V" n="48" break="no"/>tendo quis mortaliter peccaret. Difficultas
+            <lb ed="#V" n="49"/>ergo est, utrum praevalet in casu
+            praece<lb ed="#V" n="50" break="no"/>ptum integrae confessionis, aut
+            praece<lb ed="#V" n="51" break="no"/>ptum servandae famae complicis. Navarrus
+            <lb ed="#V" n="52"/>ergo in Summa cap. 7. num. 1. et
+            se<lb ed="#V" n="53" break="no"/>quentibus, et in cap. consideret in
+            prin<lb ed="#V" n="54" break="no"/>cipio a n. 98. negat confitendam
+            per<lb ed="#V" n="55" break="no"/>sonam complicis; quam sententiam docuit
+            <lb ed="#V" n="56"/>Innocentius IV. in cap. omnes utriusque
+            <lb ed="#V" n="57"/>sexus, Cajetan. in Summa v. Confessio,
+            <lb ed="#V" n="58"/>Armilla v. Circumstantia, Viguerius in
+            <lb ed="#V" n="59"/>Summa, cap. 16. 5 n. 17. Marsilius
+            <lb ed="#V" n="60"/>in 4. quaest. 12.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>Oppositam sententiam tenet communis
+            <lb ed="#V" n="62"/>Schola, nempe licere quando non sequitur
+            <lb ed="#V" n="63"/>aliud incommodum praeter infamiam apud
+            <lb ed="#V" n="64"/>confessarium, nec aliud superest
+            reme<lb ed="#V" n="65" break="no"/>dium; ita Alensis 4. part. 18. memb. 4.
+            <lb ed="#V" n="66"/>art. 2. D. Thomas in 4. dist. 16. quoest. 3.
+            <lb ed="#V" n="67"/>art. 3. quaest. 5. D. Bonaventura in
+            <lb ed="#V" n="68"/>opusc. de modo confitendi, cap. 1. in 4.
+            <lb ed="#V" n="69"/>dist 21. part. 2. dist. Paludanus
+            ibi<lb ed="#V" n="70" break="no"/>dem quoest. 3. art. 2. Richard. art. 5.
+            Du<lb ed="#V" n="71" break="no"/>rand. dist. 17. Summoe, v. confessio.
+            <lb ed="#V" n="72"/>et alii communiter. Rationes plures
+            affe<lb ed="#V" n="73" break="no"/>runtur hujus conclusionis, quae non
+            con<lb ed="#V" n="74" break="no"/>vincunt. Probat Soto, quia non fit
+            <lb ed="#V" n="75"/>infamia complici ob sigilli secretum, ad
+            <lb ed="#V" n="76"/>quod tenetur confessarius. Haec ratio plus
+            <lb ed="#V" n="77"/>probat, quia sic sequeretur licere explicare
+            <lb ed="#V" n="78"/>complicem, quando non esset necessitas,
+            <lb ed="#V" n="79"/>item non teneri adire alium confessarium,
+            <lb ed="#V" n="80"/>si adsit, cui complex esset ignotus. Tertio
+            <lb ed="#V" n="81"/>apud unum solum diffamare proximum
+            <lb ed="#V" n="82"/>est peccatum, quamvis ille sit tenax
+            secre<lb ed="#V" n="83" break="no"/>ti. Secundo probat, quia complex sua
+            <lb ed="#V" n="84"/>culpa patitur damnum peccato
+            consen<lb ed="#V" n="85" break="no"/>tiens, quod mox subjiciendum est
+            absolu<lb ed="#V" n="86" break="no"/>tioni. Haec ratio patitur eamdem
+            impu<pb ed="#V" n="748"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>gnationem, neque evacuat difficultatem,
+            <lb ed="#V" n="2"/>quae in eo versatur, an sit obligatio
+            con<lb ed="#V" n="3" break="no"/>fitendi talis peccati cum detrimento
+            com<lb ed="#V" n="4" break="no"/>plicis. Tertia ratio Cordubensis, quia
+            po<lb ed="#V" n="5" break="no"/>test quis uti jure suo, quamvis inde
+            se<lb ed="#V" n="6" break="no"/>quatur aliquod damnum proximi; hoc
+            <lb ed="#V" n="7"/>quidem in multis verum est, sed in
+            pro<lb ed="#V" n="8" break="no"/>posito si concluderet, sequeretur quod
+            li<lb ed="#V" n="9" break="no"/>ceret cum damno vitae, famae, et
+            bono<lb ed="#V" n="10" break="no"/>rum proximi confiteri circumstantiam
+            <lb ed="#V" n="11"/>complicis, quod nemo dicit; sic enim quis
+            <lb ed="#V" n="12"/>uteretur jure suo. Totum ergo hoc reduci
+            <lb ed="#V" n="13"/>potest ad illud non incurri obligationem
+            <lb ed="#V" n="14"/>juris naturalis servandi secretum in tali
+            <lb ed="#V" n="15"/>-casu cum tanto damno meo, sicut non est
+            <lb ed="#V" n="16"/>a obligatio defendendi vitam, et bona
+            pro<lb ed="#V" n="17" break="no"/>ximi cum damno gravi defendentis. Nec
+            <lb ed="#V" n="18"/>videtur ulla ratio obligare hominem ad
+            <lb ed="#V" n="19"/>non aperiendum crimen proximi
+            secre<lb ed="#V" n="20" break="no"/>tum, quae etiam non obliget ad non
+            ape<lb ed="#V" n="21" break="no"/>riendum crimen proprium, in proposito
+            <lb ed="#V" n="22"/>integritas confessionis praeponderat famae
+            <lb ed="#V" n="23"/>propriae, ergo etiam alienae in multis
+            <lb ed="#V" n="24"/>etiam casibus possum alienum crimen
+            <lb ed="#V" n="25"/>aperire secreto alteri, verbi gratia,
+            quan<lb ed="#V" n="26" break="no"/>do hoc est necessarium, ut in re magni
+            <lb ed="#V" n="27"/>momenti me adjuvet, quando periculum
+            <lb ed="#V" n="28"/>Reipublicae proditionis et hujusmodi
+            su<lb ed="#V" n="29" break="no"/>best.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Haec solutio non videtur stare.
+            Reso<lb ed="#V" n="31" break="no"/>lutio ergo quaestionis reducenda est ad
+            <lb ed="#V" n="32"/>alia principia, negando praeceptum illud
+            <lb ed="#V" n="33"/>de servando famam esse juris naturalis
+            <lb ed="#V" n="34"/>stricte, sicut principium practicum notum
+            <lb ed="#V" n="35"/>ex terminis, aut conclusio sequens, sed
+            <lb ed="#V" n="36"/>ut congruum ad illa, eo modo quo aliqua
+            <lb ed="#V" n="37"/>praecepta secundae tabulae juxta
+            Doctri<lb ed="#V" n="38" break="no"/>nam Doctoris, sunt juris naturalis
+            com<lb ed="#V" n="39" break="no"/>muniter dicti in 2. dist. 37. et in 4.
+            <lb ed="#V" n="40"/>dist. 17. quoest. 1. 8 In ista quoest. ubi
+            <lb ed="#V" n="41"/>ponit nihil esse proprie de jure naturali,
+            <lb ed="#V" n="42"/>nisi principium et conclusio,
+            repraehen<lb ed="#V" n="43" break="no"/>dens Gratianum, et videtur extensive
+            <lb ed="#V" n="44"/>loqui de lege, dist. 11. q. 2. concl. 2.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Sic ergo interpretando legem naturae, qua
+            <lb ed="#V" n="46"/>teneor servare famam complicis,
+            dicen<lb ed="#V" n="47" break="no"/>dum est praevalere virtutem superiorem
+            <lb ed="#V" n="48"/>religionis, magis, qua praecipitur
+            confes<lb ed="#V" n="49" break="no"/>sio integra, quam obligatio, qua teneor
+            <lb ed="#V" n="50"/>famae proximi, cum detrimento tali, et
+            <lb ed="#V" n="51"/>cui ipse ut socius criminis renuntiavit in
+            <lb ed="#V" n="52"/>ordine ad confessionem, quando aliter
+            ne<lb ed="#V" n="53" break="no"/>quit salvari.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>Dices, ergo idem dicendum in
+            quocum<lb ed="#V" n="55" break="no"/>que detrimento proximi.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Respondetur non sequi, quia non est
+            <lb ed="#V" n="57"/>confessionis integrae obligatio cum tanto
+            <lb ed="#V" n="58"/>rigore, deinde in aliis damnis urget
+            prae<lb ed="#V" n="59" break="no"/>ter justitiam, charitas et reverentia
+            Sa<lb ed="#V" n="60" break="no"/>cramenti, quae strictius obligat ex
+            religi<lb ed="#V" n="61" break="no"/>one, quam confessio integra, redderetur
+            <lb ed="#V" n="62"/>enim Sacramentum odiosum, si ex illo
+            <lb ed="#V" n="63"/>notum esset inferri damnum alicui, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Objicies contra conclusionem,
+            praece<lb ed="#V" n="65" break="no"/>ptum naturale praeponderat positivo, verbi
+            <lb ed="#V" n="66"/>gratia, si ingruat praeceptum positivum
+            <lb ed="#V" n="67"/>confessionis, et naturale defensionis
+            pro<lb ed="#V" n="68" break="no"/>ximi, teneor relinquere confessionem, et
+            <lb ed="#V" n="69"/>defendere proximum, quando nequeunt
+            <lb ed="#V" n="70"/>adimpleri; sed integritas confessionis est
+            <lb ed="#V" n="71"/>juris positivi, non infamare complicem,
+            <lb ed="#V" n="72"/>juris naturalis, ergo.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Respondetur, quando damnum sequitur
+            <lb ed="#V" n="74"/>extrinsece ex malitia Sacerdotis, qui inde
+            <lb ed="#V" n="75"/>occasionem sumeret perdendi aut
+            damni<lb ed="#V" n="76" break="no"/>ficandi complicem, est obligatio juris
+            na<lb ed="#V" n="77" break="no"/>turalis; quando vero non sequitur aliud,
+            <lb ed="#V" n="78"/>nec timetur praeter id quod solum ex vi
+            <lb ed="#V" n="79"/>confessionis, ejusque ex natura sequitur,
+            <lb ed="#V" n="80"/>non incurritur obligatio juris naturalis.
+            <lb ed="#V" n="81"/>Advertendum non posse aliquem explicare
+            <lb ed="#V" n="82"/>in confessione peccatum ex quo
+            sequere<lb ed="#V" n="83" break="no"/>tur fractio sigilli. In his casibus, in quibus
+            <lb ed="#V" n="84"/>excusatur poenitens ab integritate
+            confes<lb ed="#V" n="85" break="no"/>sionis, advertendum est non esse
+            reser<lb ed="#V" n="86" break="no"/>vanda aliqua, nisi ut oportet. Unde
+            quan<lb ed="#V" n="87" break="no"/>do non debet confiteri actus externus,
+            <lb ed="#V" n="88"/>debet internus confiteri, verbi gratia, in
+            <pb ed="#V" n="749"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>casu jam proposito de complice; et alii
+            <lb ed="#V" n="2"/>dicunt etiam pecatum deberi confiteri
+            jux<lb ed="#V" n="3" break="no"/>ta circumstantiam in genere
+            convenien<lb ed="#V" n="4" break="no"/>tem, verbi gratia, si sit stuprum,
+            confi<lb ed="#V" n="5" break="no"/>teri illud ( quando aliud non licet) sub
+            <lb ed="#V" n="6"/>specie fornicationis simplicis.
+          </p>
+          <p>
+            <lb ed="#V" n="7"/>Aliqui sunt illius opinionis, ut liceat
+            <lb ed="#V" n="8"/>non audire integre confitentes, quando
+            <lb ed="#V" n="9"/>est magnus concursus in aliqua
+            solemni<lb ed="#V" n="10" break="no"/>tate, quo omnibus sit locus confessionis;
+            <lb ed="#V" n="11"/>sed haec opinio non valet, quia ubi nullum
+            <lb ed="#V" n="12"/>est praeceptum, aut necessitas
+            confessi<lb ed="#V" n="13" break="no"/>onis, magis obligat integritas quam
+            con<lb ed="#V" n="14" break="no"/>fessio; imo si foret praeceptum secluso
+            <lb ed="#V" n="15"/>casu necessitatis et periculi supra
+            expres<lb ed="#V" n="16" break="no"/>so, comprehendit integritatem.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>His positis probatur a Doctore, sigillum
+            <lb ed="#V" n="18"/>extendi ad personam complicis; tum quia
+            <lb ed="#V" n="19"/>ex natura confessionis, et intentione
+            con<lb ed="#V" n="20" break="no"/>fitentis sequitur sigillum in illo casu, et
+            <lb ed="#V" n="21"/>tenetur poenitens complici non solum
+            <lb ed="#V" n="22"/>quoad restitutionem illius boni quod per
+            <lb ed="#V" n="23"/>eum amisit, sed etiam ad custodiam illius
+            <lb ed="#V" n="24"/>quod non amisit, quantum scilicet potest
+            <lb ed="#V" n="25"/>et debet custodiri, et rationes positae
+            <lb ed="#V" n="26"/>pro prima et secunda conclusione idem
+            <lb ed="#V" n="27"/>probant.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Idem consequenter dicendum de
+            qui<lb ed="#V" n="29" break="no"/>buscumque circumstantiis expositis in
+            <lb ed="#V" n="30"/>confessione, etiam imprudenter, vel causa
+            <lb ed="#V" n="31"/>necessitatis vel utilitatis, et si confessus
+            <lb ed="#V" n="32"/>sit defectum natalium, malae consuetudi
+            <lb ed="#V" n="33"/>nis, peccatum alterius etiam non
+            compli<lb ed="#V" n="34" break="no"/>cis, et peccata non publica, ex rationibus
+            <lb ed="#V" n="35"/>dictis, quia alioquin reddetur confessio
+            <lb ed="#V" n="36"/>odiosa simplicibus, et aliis, si tota non
+            <lb ed="#V" n="37"/>maneret secreta sub eodem sigillo, ut bene
+            <lb ed="#V" n="38"/>Sotus et Suarez, licet contrarium aliqui
+            <lb ed="#V" n="39"/>tenent, ut Ledesma; illud certum est, non
+            <lb ed="#V" n="40"/>licere uti scientia habita in confessione
+            <lb ed="#V" n="41"/>ad damnum alterius.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d21q2-p7"> -->
+          <p>
+            <lb ed="#V" n="79" type="fixed=749"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>(m) De quinta conclusione dicitur, etc.
+            <lb ed="#V" n="81"/>Dicit secretum jure naturae obligare,
+            in<lb ed="#V" n="82" break="no"/>telligit de jure naturae late sumpto, ut in
+            <lb ed="#V" n="83"/>praecedenti 5 dictum est.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>Contra interpretationem praemissam
+            ra<lb ed="#V" n="85" break="no"/>tiones Doctoris in prima conclusione, et
+            <lb ed="#V" n="86"/>tertia ratio pro secunda, in quibus hanc
+            <pb ed="#V" n="750"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>veritatem fundat, videntur amplius
+            proba<lb ed="#V" n="2" break="no"/>re, ut prima ratio de charitate debita
+            pro<lb ed="#V" n="3" break="no"/>ximo; secunda ex veracitate sumpta; et
+            <lb ed="#V" n="4"/>tertia pro secunda conclusione de
+            scanda<lb ed="#V" n="5" break="no"/>lo, quia daretur occasio mentiendi, etc.
+            <lb ed="#V" n="6"/>Haec praecepta videntur stricti juris
+            natu<lb ed="#V" n="7" break="no"/>ralis, et quaedam spectare ad primam
+            ta<lb ed="#V" n="8" break="no"/>bulam; ergo non admittunt dictam
+            <lb ed="#V" n="9"/>interpretationem.
+            <lb ed="#V" n="10"/>Respondetur nihilominus
+            interpretati<lb ed="#V" n="11" break="no"/>onem dictam veram esse absolute
+            loquen<lb ed="#V" n="12" break="no"/>do, quia obligatio secreti non ita est
+            stri<lb ed="#V" n="13" break="no"/>cta sicut principia, ex quibus deducitur.
+            <lb ed="#V" n="14"/>Principia enim practica universaliter sunt
+            <lb ed="#V" n="15"/>vera, et ex terminis, quia necessaria, ut
+            <lb ed="#V" n="16"/>autem deducitur ex his obligatio secreti,
+            <lb ed="#V" n="17"/>non deducitur nisi contingenter, et in
+            de<lb ed="#V" n="18" break="no"/>terminatis circumstantiis; principia enim
+            <lb ed="#V" n="19"/>practica desumuntur a fine, et
+            extendun<lb ed="#V" n="20" break="no"/>tur ad media, in quibus versantur hic et
+            <lb ed="#V" n="21"/>nunc conclusiones ex ipsis deductae.
+            Quan<lb ed="#V" n="22" break="no"/>.do autem est aliquod medium, quod alias est
+            <lb ed="#V" n="23"/>medium ad finem, et hic et nunc exorbitat
+            <lb ed="#V" n="24"/>a fine, ita ut nullo modo reducat in ipsum,
+            <lb ed="#V" n="25"/>sed magis avertit a fine, tale medium hic
+            <lb ed="#V" n="26"/>et nunc non participat bonitatem finis;
+            <lb ed="#V" n="27"/>tale est secretum in aliquibus
+            circumstan<lb ed="#V" n="28" break="no"/>tiis, verbi gratia, inferentibus grave
+            <lb ed="#V" n="29"/>detrimentum contra bonitatem finis,
+            con<lb ed="#V" n="30" break="no"/>tra salutem publicam et privatam, tam
+            <lb ed="#V" n="31"/>ejus cui committitur, quam committentis
+            <lb ed="#V" n="32"/>secretum, ac proinde sicut recedit a
+            boni<lb ed="#V" n="33" break="no"/>tate finis, et veritate principii, non
+            indu<lb ed="#V" n="34" break="no"/>cit obligationem; neque ex charitate, quia
+            <lb ed="#V" n="35"/>ipsam magis offendit; neque ex veracitate
+            <lb ed="#V" n="36"/>aut promissione, quia haec interpretari
+            <lb ed="#V" n="37"/>debent ut reducunt ad finem charitatis et
+            <lb ed="#V" n="38"/>justitiae servandae; neque is qui audit
+            se<lb ed="#V" n="39" break="no"/>cretum aliter voluisse obligare se
+            proxi<lb ed="#V" n="40" break="no"/>mo, aut deponenti secretum, interpretari
+            <lb ed="#V" n="41"/>debet secundum rectam rationem. Imo
+            <lb ed="#V" n="42"/>tenetur non celare secretum in his
+            cir<lb ed="#V" n="43" break="no"/>cumstantiis, verbi gratia, proditionis, aut
+            <lb ed="#V" n="44"/>si deponat secreto se velle se ipsum
+            prae<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>cipitare, aut laqueo suspendere, et
+            hujus<lb ed="#V" n="46" break="no"/>modi. Unde colligitur principia prima
+            <lb ed="#V" n="47"/>practica non se extendere ad secretum ex
+            <lb ed="#V" n="48"/>genere, tanquam ad conclusionem
+            neces<lb ed="#V" n="49" break="no"/>sario deductam, sed tanquam ad
+            materi<lb ed="#V" n="50" break="no"/>am contingentem; alias in nullo casu
+            li<lb ed="#V" n="51" break="no"/>ceret violare secretum, quod non est
+            <lb ed="#V" n="52"/>verum. Consequenter in tantum obligat
+            <lb ed="#V" n="53"/>secretum, in quantum participat
+            bonita<lb ed="#V" n="54" break="no"/>tem finis, et veritatem primi principii
+            <lb ed="#V" n="55"/>practici in determinata materia.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Hoc confirmatur ex iis quae
+            consequun<lb ed="#V" n="57" break="no"/>tur in hac littera, et in tertia conclusione
+            <lb ed="#V" n="58"/>de obligatione fortiori secreti
+            Sacramen<lb ed="#V" n="59" break="no"/>talis ex praecepto sigilli positivo, ratione
+            <lb ed="#V" n="60"/>gravitatis poenae, quae violanti imponitur
+            <lb ed="#V" n="61"/>in omni casu, quo violaret sigillum;
+            obli<lb ed="#V" n="62" break="no"/>gatio autem strictior potest interpretari ex
+            <lb ed="#V" n="63"/>gravitate poenae injunctae; si ergo
+            obliga<lb ed="#V" n="64" break="no"/>tio praecepti positivi excedit obligationem
+            <lb ed="#V" n="65"/>secreti naturalis, quae in aliquo casu non
+            <lb ed="#V" n="66"/>ligat, illa ligante in omni casu, sequitur
+            <lb ed="#V" n="67"/>secretum naturale non esse stricti juris
+            <lb ed="#V" n="68"/>naturalis et insolubilis.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d21q2-p8"> -->
+          <p>
+            <lb ed="#V" n="70" type="fixed=751"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>(n) Ad argumenta. Ad primum dico, etc.
+            <lb ed="#V" n="72"/>Primum argumentum est licere cuique
+            <lb ed="#V" n="73"/>suo juri renuntiare; ergo et poenitenti
+            <lb ed="#V" n="74"/>dare licentiam confessario ut peccata sua
+            <lb ed="#V" n="75"/>revelet, quia sigillum impositum est in
+            <lb ed="#V" n="76"/>favorem poenitentis.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Respondet sigillum non esse jus
+            poeni<lb ed="#V" n="78" break="no"/>tentis tantum, sed et communitatis;
+            <lb ed="#V" n="79"/>quamvis ergo posset poenitens renuntiare
+            <lb ed="#V" n="80"/>suo juri, nequit tamen renuntiare juri
+            <lb ed="#V" n="81"/>communitatis ex propria auctoritate, ita
+            <lb ed="#V" n="82"/>ut deobligetur confessor per talem
+            renun<lb ed="#V" n="83" break="no"/>tiationem.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>Respondet secundo, quod licet jus
+            so<lb ed="#V" n="85" break="no"/>lius poenitentis esset, non licere ex
+            licen<lb ed="#V" n="86" break="no"/>tia poenitentis non tolli obligationem
+            sigil<lb ed="#V" n="87" break="no"/>li in confessore, qui pluribus aliis titulis
+            <pb ed="#V" n="752"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>obligatur ad secretum hoc, ut videre est
+            <lb ed="#V" n="2"/>conclusione 1. et 2. qui tituli, seu
+            obliga<lb ed="#V" n="3" break="no"/>tio ex illis non subest poenitenti.
+            <lb ed="#V" n="4"/>Hic tangitur illa quaestio, an scilicet de
+            <lb ed="#V" n="5"/>licentia poenitentis possit Confessarius
+            re<lb ed="#V" n="6" break="no"/>velare peccata confessa, quae aliter non
+            <lb ed="#V" n="7"/>novit, nisi in confessione? Partem
+            affir<lb ed="#V" n="8" break="no"/>mativam docet S. Thomas in praesenti
+            di<lb ed="#V" n="9" break="no"/>stinctione, quaest. 3. art. 2. Sotus
+            <lb ed="#V" n="10"/>quaest. 4. art. 6. Navarr, in Summa
+            <lb ed="#V" n="11"/>cap. 8. n. 2. et cap. Sacerdos, Sylvester
+            <lb ed="#V" n="12"/>verba confessor 3. quoest. 3. et 5. Suarez
+            <lb ed="#V" n="13"/>sect. 5. citans plures pro hac sententia.
+            <lb ed="#V" n="14"/>Vasquez veriorem existimat dub. 5.
+            eos<lb ed="#V" n="15" break="no"/>dem auctores citans.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Conclusio Doctoris est contraria, et
+            <lb ed="#V" n="17"/>magis fundata in ratione et lege hujus
+            Sa<lb ed="#V" n="18" break="no"/>cramenti, ideoque ut insinuavimus supra.
+            <lb ed="#V" n="19"/>non videntur consequenter loqui qui
+            di<lb ed="#V" n="20" break="no"/>cunt sigillum confessionis esse intuitu
+            <lb ed="#V" n="21"/>Sacramenti, etiam de lege naturali divina,
+            <lb ed="#V" n="22"/>et non solius poenitentis, et hoc non
+            ob<lb ed="#V" n="23" break="no"/>stante posse tolli per voluntatem
+            poeniten<lb ed="#V" n="24" break="no"/>tis. Hanc sententiam docet Alensis et alii
+            <lb ed="#V" n="25"/>auctores, quos citat Scholiastes, in
+            prae<lb ed="#V" n="26" break="no"/>fixo Scholio, cum quibus consentire
+            vide<lb ed="#V" n="27" break="no"/>tur D. Bonaventura part. 2. hujus dist.
+            <lb ed="#V" n="28"/>art. 2. quaest. 2. ubi explicans illud quod
+            <lb ed="#V" n="29"/>dixit, nempe poenitentem licentiare posse
+            <lb ed="#V" n="30"/>confessarium ad revelanda peccata, dicit
+            <lb ed="#V" n="31"/>non debere confessarium uti illa licentia,
+            <lb ed="#V" n="32"/>sed magis ipsum poenitentem constituere
+            <lb ed="#V" n="33"/>relatorem, non se ipsum, inquit, nuntium
+            <lb ed="#V" n="34"/>facere, et sic vitatur scandalum, et non
+            <lb ed="#V" n="35"/>corrumpitur sigillum confessionis, etc.
+            <lb ed="#V" n="36"/>Ergo ex mente ejus oritur scandalum,
+            <lb ed="#V" n="37"/>et corrumpitur sigillum, si Sacerdos de
+            <lb ed="#V" n="38"/>licentia poenitentis revelat confessionem.
+            <lb ed="#V" n="39"/>Sic etiam Richardus, qui citatur pro
+            op<lb ed="#V" n="40" break="no"/>posito art. 4. hujus distinctionis quoest. 1.
+            <lb ed="#V" n="41"/>Ad primum principale dicit, non licere
+            <lb ed="#V" n="42"/>de licentia poenitentis alteri revelare, nisi
+            <lb ed="#V" n="43"/>poenitens peccatum revelet extra
+            confes<lb ed="#V" n="44" break="no"/>sionem; secludendo itaque casum, quo
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>confessarius revelet superiori peccatum in
+            <lb ed="#V" n="46"/>ordine ad absolutionem, quae revelatio
+            <lb ed="#V" n="47"/>manet sub sigillo, ut supra cum communi
+            <lb ed="#V" n="48"/>dicitur. Hic restringitur casus ad ipsam
+            <lb ed="#V" n="49"/>confessionem, an liceat eam revelare, aut
+            <lb ed="#V" n="50"/>peccata tanquam ex confessione dicta
+            di<lb ed="#V" n="51" break="no"/>cere sic: hoc peccatum mihi confessus
+            <lb ed="#V" n="52"/>est Petrus, et illud dico ex confessione
+            <lb ed="#V" n="53"/>ejus, quia ipse voluit ut dicerem.
+          </p>
+          <p>
+            <lb ed="#V" n="54"/>His positis probatur conclusio: sigilli
+            <lb ed="#V" n="55"/>secretum non tantum est ex jure
+            poeni<lb ed="#V" n="56" break="no"/>tentis, sed etiam ex jure communitatis, et
+            <lb ed="#V" n="57"/>reverentia Sacramenti. Ex his tenetur
+            <lb ed="#V" n="58"/>Sacerdos specialiter ad secretum
+            confessi<lb ed="#V" n="59" break="no"/>onis, neque subsunt poenitenti; ergo
+            <lb ed="#V" n="60"/>de licentia poenitentis nequit revelare
+            <lb ed="#V" n="61"/>peccata confessa.
+          </p>
+          <p>
+            <lb ed="#V" n="62"/>Respondetur hic non intervenire jus
+            <lb ed="#V" n="63"/>communitatis, aut dispendium ejus,
+            quan<lb ed="#V" n="64" break="no"/>do de voluntate poenitentis, revelatur
+            <lb ed="#V" n="65"/>confessio, ac proinde non esse
+            parita<lb ed="#V" n="66" break="no"/>tatem hic, et in casu de exemptione
+            <lb ed="#V" n="67"/>Clericorum, quia hoc intuitu ordinis fit,
+            <lb ed="#V" n="68"/>ideoque nequit Clericus judicari apud
+            <lb ed="#V" n="69"/>judicem saecularem, aut percuti, etiam
+            <lb ed="#V" n="70"/>de licentia propria.
+          </p>
+          <p>
+            <lb ed="#V" n="71"/>Contra, Sacramentum est institutum
+            <lb ed="#V" n="72"/>tanquam medium ordinarium legis, quaes
+            <lb ed="#V" n="73"/>respicit bonum commune; ergo et
+            institu<lb ed="#V" n="74" break="no"/>tio Sacramenti, et quidquid annexum est
+            <lb ed="#V" n="75"/>institutioni. Sed lex de servando sigillo
+            <lb ed="#V" n="76"/>est annexa institutioni et intuitu
+            Sacra<lb ed="#V" n="77" break="no"/>menti, et boni communis est lata; ergo
+            <lb ed="#V" n="78"/>mediante institutione et lege hac intuitu
+            <lb ed="#V" n="79"/>communitatis facta acquiritur jus
+            com<lb ed="#V" n="80" break="no"/>munitati, ne sigillum violetur.
+            Confirma<lb ed="#V" n="81" break="no"/>tur primo, quia si sigillum violaretur sine
+            <lb ed="#V" n="82"/>licentia poenitentis, violaretur non solum
+            <lb ed="#V" n="83"/>jus poenitentis, sed etiam communitatis.
+            <lb ed="#V" n="84"/>et redderetur Sacramentum odiosum et
+            <lb ed="#V" n="85"/>contemptibile, quod plurimum noceret
+            <lb ed="#V" n="86"/>Ecclesiae et communitati; ergo non solum
+            <lb ed="#V" n="87"/>obligat sigillum ex jure poenitentis, sed
+            <lb ed="#V" n="88"/>etiam communitatis, et ipsius religionis,
+            <lb ed="#V" n="89"/>et reverentiae intuitu.
+          </p>
+          <p>
+            <pb ed="#V" n="753"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Confirmatur secundo: Poena apposita
+            <lb ed="#V" n="2"/>violationi sigilli non solum respicit
+            favo<lb ed="#V" n="3" break="no"/>rem poenitentis, sed reverentiam
+            Sacra<lb ed="#V" n="4" break="no"/>menti, et bonum communitatis, nam jus
+            <lb ed="#V" n="5"/>poenitentis, quantum ad injuriam
+            rece<lb ed="#V" n="6" break="no"/>ptam, sufficienter conservatur per hoc,
+            <lb ed="#V" n="7"/>quod revelans sit infamis, et habeatur
+            <lb ed="#V" n="8"/>calumniator, et nullius fidei. Deinde nisi
+            <lb ed="#V" n="9"/>ex lege Sacramenti atque ejus intuitu
+            <lb ed="#V" n="10"/>obligatio induceretur, et speciale
+            secre<lb ed="#V" n="11" break="no"/>tum sigilli, non esset ratio cur non possit
+            <lb ed="#V" n="12"/>in aliquo casu detrimenti boni communis,
+            <lb ed="#V" n="13"/>vitae aut proditionis, maxime quando
+            <lb ed="#V" n="14"/>confessio est sacrilega ex defectu alicujus
+            <lb ed="#V" n="15"/>requisiti, ut propositi emendationis, non
+            <lb ed="#V" n="16"/>possit hoc secretum revelari, quia in his
+            <lb ed="#V" n="17"/>casibus nullum jus acquirit secreti
+            poeni<lb ed="#V" n="18" break="no"/>tens, nisi intuitu tantum Sacramenti; ergo
+            <lb ed="#V" n="19"/>haec obligatio non est primo in favorem
+            <lb ed="#V" n="20"/>confitentis, sed solius Sacramenti.
+            Pro<lb ed="#V" n="21" break="no"/>batur consequentia, quin in tali casu
+            <lb ed="#V" n="22"/>accedens sacrilege ad Sacramentum, et
+            <lb ed="#V" n="23"/>agens contra reverentiam debitam
+            Sacra<lb ed="#V" n="24" break="no"/>menti, et finem et institutionem ejus, non
+            <lb ed="#V" n="25"/>meretur favorem ullum a Deo, ratione
+            <lb ed="#V" n="26"/>Sacramenti quod contemnit. Neque ullum
+            <lb ed="#V" n="27"/>est fundamentum unde favor ille ex
+            Sa<lb ed="#V" n="28" break="no"/>mento ei accedat, cum fictus et
+            contem<lb ed="#V" n="29" break="no"/>ptor accedat, ponens obicem ne ipsum
+            <lb ed="#V" n="30"/>Sacramentum terminetur absolutione, in
+            <lb ed="#V" n="31"/>qua primaria ejus vis consistit; ergo
+            <lb ed="#V" n="32"/>secretum sigilli in eo casu solum oritur,
+            <lb ed="#V" n="33"/>quiae haec lex primario et per se intuitu
+            <lb ed="#V" n="34"/>Sacramenti obligat in omni casu, et quia
+            <lb ed="#V" n="35"/>bonum commune id postulat, cujus est
+            <lb ed="#V" n="36"/>medium ordinarium, favor autem
+            poeni<lb ed="#V" n="37" break="no"/>tentis aut confitentis secundario se habet,
+            <lb ed="#V" n="38"/>et tanquam finis secundarius extrinsecus;
+            <lb ed="#V" n="39"/>imo et favor ille ad poenitentem spectat,
+            <lb ed="#V" n="40"/>quatenus secretum Sacramenti ex lege est
+            <lb ed="#V" n="41"/>inviolabile; sed lex, quae intuitu
+            Sacramen<lb ed="#V" n="42" break="no"/>ti, et boni communis obligat, non subest
+            <lb ed="#V" n="43"/>poenitenti; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>Dices, hanc legem esse latam ita ut
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>tantum obligaret quamdiu poenitens vult,
+            <lb ed="#V" n="46"/>unde accedente voluntate poenitentis jam
+            <lb ed="#V" n="47"/>mutatur materia praecepti; ita Suarez.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Contra, materia seu finis intrinsecus
+            <lb ed="#V" n="49"/>hujus praecepti est reverentia Sacramenti,
+            <lb ed="#V" n="50"/>ut respicit speciale praeceptum sigilli; sed
+            <lb ed="#V" n="51"/>hoc non mutatur, neque subest voluntati
+            <lb ed="#V" n="52"/>poenitentis, ergo etiam neque praeceptum.
+            <lb ed="#V" n="53"/>Probatur consequentia ex dictis, quia in
+            <lb ed="#V" n="54"/>confessione sacrilega juxta expressa
+            ne<lb ed="#V" n="55" break="no"/>quit poenitens acquirere aliquod jus, nisi
+            <lb ed="#V" n="56"/>intuitu Sacramenti, cujus sicut institutio
+            <lb ed="#V" n="57"/>abstrahit a poenitente, ita etiam lex
+            se<lb ed="#V" n="58" break="no"/>quens institutionem obligat independenter
+            <lb ed="#V" n="59"/>a poenitente; ergo ejus finis intrinsecus
+            <lb ed="#V" n="60"/>absolvitur etiam a voluntate poenitentis,
+            <lb ed="#V" n="61"/>et maxime in sententia Suarez, qui dicit
+            <lb ed="#V" n="62"/>hanc esse divinam naturalem ex ipsa
+            in<lb ed="#V" n="63" break="no"/>stitutione redundantem.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Secundo probatur conclusio, quia si
+            <lb ed="#V" n="65"/>posset confessarius revelare confessionem
+            <lb ed="#V" n="66"/>cum licentia poenitentis, daretur occasio
+            <lb ed="#V" n="67"/>mentiendi in confessione, et fallendi
+            con<lb ed="#V" n="68" break="no"/>fessorem, et non confitendi integre
+            pecca<lb ed="#V" n="69" break="no"/>ta, quod est maximum inconveniens, et i
+            <lb ed="#V" n="70"/>ex quo colligitur inviolabilitas sigilli
+            sacra<lb ed="#V" n="71" break="no"/>mentalis. Probatur sequela, quia diffamati
+            <lb ed="#V" n="72"/>de aliquo crimine, quod commiserunt,
+            <lb ed="#V" n="73"/>licet de eo non sint convicti, possunt hac
+            <lb ed="#V" n="74"/>vita confiteri negantes crimen
+            commis<lb ed="#V" n="75" break="no"/>sum, et dantes licentiam confessario ut
+            <lb ed="#V" n="76"/>revelet peccata, et maxime reum non esse
+            <lb ed="#V" n="77"/>conscium talis criminis, et sic evaderent
+            <lb ed="#V" n="78"/>poenas et infamiam, quod esset maximum
+            <lb ed="#V" n="79"/>ludibrium Sacramenti; ergo et illud ex
+            <lb ed="#V" n="80"/>quo sequitur hoc inconveniens non
+            vide<lb ed="#V" n="81" break="no"/>tur asserendum.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>Dices, forte non posse uti Sacramento
+            <lb ed="#V" n="83"/>in hunc finem.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>Contra, potest uti confessarius scientia
+            <lb ed="#V" n="85"/>confessionis ex voluntate poenitentis in
+            <lb ed="#V" n="86"/>profectum poenitentis et aliorum, et boni
+            <lb ed="#V" n="87"/>communis, ne puniatur innocens, imo
+            <lb ed="#V" n="88"/>tenetur ad hoc adhibere medium licitum
+            <pb ed="#V" n="754"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>si potest; ergo ad salvandam vitam,
+            mem<lb ed="#V" n="2" break="no"/>bra, famam, et aliud detrimentum grave,
+            <lb ed="#V" n="3"/>tenetur habita licentia rei revelare
+            confes<lb ed="#V" n="4" break="no"/>sionem ejus. Sed hoc medium non
+            admit<lb ed="#V" n="5" break="no"/>titur ad probationem immunitatis et
+            inno<lb ed="#V" n="6" break="no"/>centiae, neque acceptaretur; ergo est
+            <lb ed="#V" n="7"/>illicitum. Probatur consequentia, quia
+            <lb ed="#V" n="8"/>vel debetur fides confessario revelanti de
+            <lb ed="#V" n="9"/>licentia confitentis, et sic hoc medium
+            <lb ed="#V" n="10"/>esset opportunum; imo magis
+            opportu<lb ed="#V" n="11" break="no"/>num in rebus occultis, quarum veritas
+            <lb ed="#V" n="12"/>nequit aliter probari, quam canonica
+            <lb ed="#V" n="13"/>purgatio, quia major fides adhibenda est
+            <lb ed="#V" n="14"/>i confessioni sacramentali, quam juramento
+            <lb ed="#V" n="15"/>extra confessionem, quia confessio
+            sacra<lb ed="#V" n="16" break="no"/>mentalis perinde urget ad veritatem
+            di<lb ed="#V" n="17" break="no"/>cendam ex cura salutis propriae, et
+            <lb ed="#V" n="18"/>reverentia Sacramenti, et minus admittit
+            <lb ed="#V" n="19"/>reservationem mentalem.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Si dicas non deberi, nec adhiberi fidem
+            <lb ed="#V" n="21"/>confessario revelanti confessionem, etiam
+            <lb ed="#V" n="22"/>de licentia poenitentis; ergo nequit de
+            <lb ed="#V" n="23"/>licentia poenitentis revelare confessionem.
+            <lb ed="#V" n="24"/>Patet consequentia, quia praeceptum de
+            <lb ed="#V" n="25"/>sigillo Sacramenti non subditur voluntati
+            <lb ed="#V" n="26"/>poenitentis, nisi ad aliquem profectum,
+            <lb ed="#V" n="27"/>sed nequit ullus profectus sequi, nisi
+            <lb ed="#V" n="28"/>debeatur fides confessario; ergo, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Dices, causa consilii aut
+            consultati<lb ed="#V" n="30" break="no"/>onis possse confessarium de licentia
+            poe<lb ed="#V" n="31" break="no"/>nitentis revelare peccata ejus, quando
+            <lb ed="#V" n="32"/>ipse est minus instructus, aut idoneus.
+          </p>
+          <p>
+            <lb ed="#V" n="33"/>Contra, tunc manet obligatio sigilli
+            <lb ed="#V" n="34"/>etiam in eo, cui communicantur ex sola
+            <lb ed="#V" n="35"/>confessione, ut alias dictum est; de hoc
+            <lb ed="#V" n="36"/>casu hic non loquimur, sed de casu
+            pu<lb ed="#V" n="37" break="no"/>blicae scientiae, ex qua non sequeretur
+            <lb ed="#V" n="38"/>obligatio sigilli in eo cui revelatur
+            pecca<lb ed="#V" n="39" break="no"/>tum.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Tertio, sequitur illud inconveniens,
+            <lb ed="#V" n="41"/>nempe ex licentia poenitentis posse
+            con<lb ed="#V" n="42" break="no"/>fessarium obligari ad revelanda peccata,
+            <lb ed="#V" n="43"/>quando est sufficiens motivum, et
+            obli<lb ed="#V" n="44" break="no"/>gari etiam poenitens, aut vi, aut
+            promis<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>sis induci, ut concedat talem licentiam,
+            <lb ed="#V" n="46"/>quod inconveniens est, quia sic nihil erit
+            <lb ed="#V" n="47"/>securum in hoc foro. Sequela probatur,
+            <lb ed="#V" n="48"/>suspicio de crimine dat jus inquirendi
+            <lb ed="#V" n="49"/>suspectum et conscium criminis, quod
+            <lb ed="#V" n="50"/>alioquin vergit in detrimentum publicum
+            <lb ed="#V" n="51"/>et periculum aliorum. Sequela probatur,
+            <lb ed="#V" n="52"/>quia confessarius habita licentia rei potest
+            <lb ed="#V" n="53"/>revelare; ergo si subest damnum ex
+            silen<lb ed="#V" n="54" break="no"/>tio, interrogatus supposita tali licentia,
+            <lb ed="#V" n="55"/>potest, et tenetur revelare juxta
+            praemis<lb ed="#V" n="56" break="no"/>sa, nullus tamen in condemnationem aut
+            <lb ed="#V" n="57"/>absolutionem rei prudenter crederet
+            con<lb ed="#V" n="58" break="no"/>fessario.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Quarto, si licentia confitentis
+            suffice<lb ed="#V" n="60" break="no"/>ret ad revelandam confessionem; ergo
+            <lb ed="#V" n="61"/>etiam quoties prudenter judicat
+            confessa<lb ed="#V" n="62" break="no"/>rius id velle reum, aut debere velle,
+            po<lb ed="#V" n="63" break="no"/>test revelare, verbi gratia, si poenitentis
+            <lb ed="#V" n="64"/>commodum inde redundet, aut certe
+            dam<lb ed="#V" n="65" break="no"/>num alterius evitetur, verbi gratia, si
+            ali<lb ed="#V" n="66" break="no"/>quis innocens plectatur ob peccatum, quod
+            <lb ed="#V" n="67"/>solus poenitens jam defunctus alias
+            com<lb ed="#V" n="68" break="no"/>misit in vita, vel hujusmodi, in quibus
+            <lb ed="#V" n="69"/>sufficiens fundamentum praesumptionis
+            <lb ed="#V" n="70"/>captari potest, ut si alius, ut particeps
+            <lb ed="#V" n="71"/>criminis vexetur, propter quod confitens
+            <lb ed="#V" n="72"/>est damnatus, et morte affectus, tunc
+            con<lb ed="#V" n="73" break="no"/>fessarius potest praesumere de voluntate,
+            <lb ed="#V" n="74"/>quam habere deberet poenitens
+            defun<lb ed="#V" n="75" break="no"/>ctus sine ullo suo damno ad salvandum
+            <lb ed="#V" n="76"/>innocentem, sed hoc dici nequit; ergo, etc.
+            <lb ed="#V" n="77"/>Idem de peccato publico alicujus
+            dicere<lb ed="#V" n="78" break="no"/>tur, quia nihil nocet poenitenti, sed
+            ma<lb ed="#V" n="79" break="no"/>gis prodest ut reveletur ex confessione,
+            <lb ed="#V" n="80"/>quia facit ad famam ejus, quo ostendatur
+            <lb ed="#V" n="81"/>ejus poenitentia de peccato alias
+            pu<lb ed="#V" n="82" break="no"/>blico. Ut haec ergo incommoda evitentur,
+            <lb ed="#V" n="83"/>melius et tutius dicitur non posse
+            confes<lb ed="#V" n="84" break="no"/>sarium, etiam de licentia poenitentis,
+            <lb ed="#V" n="85"/>revelare peccatum; neque ullam fidem
+            <lb ed="#V" n="86"/>adhibendam esse sic revelanti extra
+            <lb ed="#V" n="87"/>casus necessarios, in quibus per debitam
+            <lb ed="#V" n="88"/>administrationem Sacramenti consulitur
+            <pb ed="#V" n="755"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>saluti poenitentis, in quibus etiam
+            casi<lb ed="#V" n="2" break="no"/>bus manet obligatio sigilli, neque aliter
+            <lb ed="#V" n="3"/>communicari debet secretum, nisi ut ex
+            <lb ed="#V" n="4"/>confessione obligat eum, cui
+            commit<lb ed="#V" n="5" break="no"/>titur, ad sigillum.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>Ultimo tandem sequeretur ex hac reve
+            <lb ed="#V" n="7"/>latione maximum periculum ipsius
+            con<lb ed="#V" n="8" break="no"/>fessarii, juxta sententiam eorum qui
+            di<lb ed="#V" n="9" break="no"/>cunt eum teneri ad probationem, si
+            quan<lb ed="#V" n="10" break="no"/>do accusatur de revelatione sigilli, quia
+            <lb ed="#V" n="11"/>nequit probare contra poenitentem se
+            ha<lb ed="#V" n="12" break="no"/>buisse licentiam, vel semper debet
+            advo<lb ed="#V" n="13" break="no"/>care testes, vel certe habere chirographum
+            <lb ed="#V" n="14"/>poenitentis authenticum, et quia vel in
+            <lb ed="#V" n="15"/>genere continet licentiam revelandi
+            con<lb ed="#V" n="16" break="no"/>fessionem, vel certe si in specie hoc, vel
+            <lb ed="#V" n="17"/>illud peccatum, debent exprimi in ipso,
+            <lb ed="#V" n="18"/>alioquin se gravi periculo ingerit. Deinde
+            <lb ed="#V" n="19"/>etiam praesumi potest, quamvis dicat se
+            <lb ed="#V" n="20"/>habere licentiam poenitentis, nullam
+            ha<lb ed="#V" n="21" break="no"/>bere, sed fingere, et infideliter agere,
+            <lb ed="#V" n="22"/>nam factum est publicum, et ignota
+            <lb ed="#V" n="23"/>facultas, nisi quia asserit eum ex ea
+            pro<lb ed="#V" n="24" break="no"/>cedere; unde nascitur scandalum, et
+            pe<lb ed="#V" n="25" break="no"/>riculum abstrahendi a Sacramento. Unde
+            <lb ed="#V" n="26"/>licet opposita sententia tot Doctorum sit
+            <lb ed="#V" n="27"/>probabilis, tamen in praxi non est
+            tra<lb ed="#V" n="28" break="no"/>henda, nisi valde parce, et cum magna
+            <lb ed="#V" n="29"/>discretione, quia in re tam delicata et
+            ze<lb ed="#V" n="30" break="no"/>losa circumspectio valet, et, ut dicit
+            <lb ed="#V" n="31"/>S. Bonaventura, melius est ut ipse aliis
+            <lb ed="#V" n="32"/>manifestet sua peccata, quam ut
+            confessa<lb ed="#V" n="33" break="no"/>rius se ingerat periculis et suspicionibus
+            <lb ed="#V" n="34"/>et maxime in re dubia, in qua magis
+            con<lb ed="#V" n="35" break="no"/>sulere debet reverentiae Sacramenti, et
+            <lb ed="#V" n="36"/>communi utilitati, quam privatae
+            volun<lb ed="#V" n="37" break="no"/>tati poenitentis, neque de facili casus
+            for<lb ed="#V" n="38" break="no"/>mari potest, nisi in causa consultationis.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Objicit Sotus, obligationem sigilli, et
+            <lb ed="#V" n="40"/>scandalum tolli per licentiam poenitentis;
+            <lb ed="#V" n="41"/>ergo de eadem licentia potest
+            confessa<lb ed="#V" n="42" break="no"/>rius detegere peccata.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>Respondetur, negando antecedens
+            quo<lb ed="#V" n="44" break="no"/>ad secundam partem ex dictis.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Objicies secundo, casum illum in cap.
+            <lb ed="#V" n="46"/>Officii de poen. et remiss, etc. ubi
+            consu<lb ed="#V" n="47" break="no"/>litur Pontifex de peccato, quod quaedam
+            <lb ed="#V" n="48"/>mulier confessa est; hoc autem non
+            po<lb ed="#V" n="49" break="no"/>tuit fieri, nisi de licentia poenitentis, ergo.
+          </p>
+          <p>
+            <lb ed="#V" n="50"/>Respondetur, quod revelatio peccati
+            <lb ed="#V" n="51"/>respective ad personam, ex qua in
+            parti<lb ed="#V" n="52" break="no"/>culari illa persona cognoscatur, sit
+            prohi<lb ed="#V" n="53" break="no"/>bita; in eo autem casu de quo consulitur
+            <lb ed="#V" n="54"/>Pontifex, non ita fit, quia contigit in
+            <lb ed="#V" n="55"/>partibus valde remotis, et dicitur tantum
+            <lb ed="#V" n="56"/>persona in generali.
+          </p>
+          <p>
+            <lb ed="#V" n="57"/>Objicies tertio, sigillum confessionis
+            <lb ed="#V" n="58"/>continetur sub genere secreti, et ejus
+            <lb ed="#V" n="59"/>naturam participat; at secretum potest
+            <lb ed="#V" n="60"/>dici de voluntate committentis secretum,
+            <lb ed="#V" n="61"/>ergo etiam hoc secretum Sacramentale.
+            <lb ed="#V" n="62"/>Patet consequentia, quia non datur lex
+            <lb ed="#V" n="63"/>specialis prohibens, neque ratio ex qua
+            <lb ed="#V" n="64"/>colligatur illud esse illicitum; ita Suarez.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Respondetur, sigillum confessionis
+            con<lb ed="#V" n="66" break="no"/>tineri sub genere secreti, sed ulterius
+            <lb ed="#V" n="67"/>addere specialem obligationem secreti
+            <lb ed="#V" n="68"/>Sacramentalis. Unde argumentum
+            com<lb ed="#V" n="69" break="no"/>mittit fallaciam consequentis, et negatur
+            <lb ed="#V" n="70"/>consequentia; ad cujus probationem ex
+            <lb ed="#V" n="71"/>dictis patet, hoc secretum esse primario
+            <lb ed="#V" n="72"/>intuitu Sacramenti, et boni communis,
+            <lb ed="#V" n="73"/>quae non subjiciuntur poenitenti, ut patet
+            <lb ed="#V" n="74"/>ex rationibus adductis.
+          </p>
+          <p>
+            <lb ed="#V" n="75"/>(o) Quid igitur faciet confessor, etc.
+            <lb ed="#V" n="76"/>Hic quaerit quid faciendum sit confessario
+            <lb ed="#V" n="77"/>quando poenitens rogat, ut suum peccatum
+            <lb ed="#V" n="78"/>manifestet?
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>Respondet Doctor eum debere dicere
+            <lb ed="#V" n="80"/>peccatum extra confessionem, non tamen
+            <lb ed="#V" n="81"/>sub secreto, quia etiam sic non
+            pos<lb ed="#V" n="82" break="no"/>set illud referre confessor, sed,
+            refe<lb ed="#V" n="83" break="no"/>rendum iis, quibus vult communicari, et
+            <lb ed="#V" n="84"/>sic licet ob bonum finem quandoque iis
+            <lb ed="#V" n="85"/>communicare.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Sed objicit Sotus hanc esse
+            caeremoni<lb ed="#V" n="87" break="no"/>am Metaphysicam, nihil pertinentem ad
+            <lb ed="#V" n="88"/>rem moralem, quia si licet in hoc casu
+            <pb ed="#V" n="756"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>referre peccatum poenitentis, cur non
+            <lb ed="#V" n="2"/>liceret etiam referre, si poenitens dicat:
+            <lb ed="#V" n="3"/>revela id quod confessus sum, cum idem
+            <lb ed="#V" n="4"/>utrumque significent.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Respondetur, Doctorem probare ex lege
+            <lb ed="#V" n="6"/>Sacramenti suam conclusionem, non vero
+            <lb ed="#V" n="7"/>per abstractionem entis Metaphysici a
+            <lb ed="#V" n="8"/>materia, et longe diversam esse materiam
+            <lb ed="#V" n="9"/>dicere, aut revelare peccatum ex
+            confes<lb ed="#V" n="10" break="no"/>sione solum notum, et revelare peccatum
+            <lb ed="#V" n="11"/>alia via notum, quia peccata manifesta
+            <lb ed="#V" n="12"/>alicujus potest dicere confessor ex scientia
+            <lb ed="#V" n="13"/>publica facti, non tamen potest dicere
+            <lb ed="#V" n="14"/>eadem peccata tanquam ex confessione
+            au<lb ed="#V" n="15" break="no"/>dita. Imo sanctus Thomas negat
+            confes<lb ed="#V" n="16" break="no"/>sarium dicere posse se narrare peccatum
+            <lb ed="#V" n="17"/>tanquam ex confessione auditum, sed
+            <lb ed="#V" n="18"/>tantum se audivisse a tali illud suum
+            pec<lb ed="#V" n="19" break="no"/>catum.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Objicit Navarrus in cap. Sacerdos,
+            <lb ed="#V" n="21"/>hunc modum esse onerosum poenitenti,
+            <lb ed="#V" n="22"/>quia si confessarius in testem adducatur,
+            <lb ed="#V" n="23"/>in eadem causa, in qua alius testatur de
+            <lb ed="#V" n="24"/>peccato commisso, tenetur respondere.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Respondetur, hoc inconveniens sequi
+            <lb ed="#V" n="26"/>etiam ex eo quod de licentia poenitentis
+            <lb ed="#V" n="27"/>posset dicere peccatum, si illa licentia
+            ta<lb ed="#V" n="28" break="no"/>lis est, ut tollat sigillum, et ejus
+            obligati<lb ed="#V" n="29" break="no"/>onem, quia ex hoc inconvenienti supra
+            <lb ed="#V" n="30"/>processit tertia et quarta ratio pro
+            con<lb ed="#V" n="31" break="no"/>clusione. Maneat ergo peccatum occultum
+            <lb ed="#V" n="32"/>sub sigillo, si poenitens nolit devenire in
+            <lb ed="#V" n="33"/>cognitionem alterius, nam et
+            inconveni<lb ed="#V" n="34" break="no"/>ens allatum voluntarie incurrit, cum
+            tol<lb ed="#V" n="35" break="no"/>lit obligationem secreti, et rem vult
+            pro<lb ed="#V" n="36" break="no"/>palari; quamvis etiam judicarem
+            sacerdo<lb ed="#V" n="37" break="no"/>tem in eo casu non teneri simpliciter
+            <lb ed="#V" n="38"/>respondere judici propter scandalum
+            sal<lb ed="#V" n="39" break="no"/>tem, ne qui debet esse causa salutis, fiat
+            <lb ed="#V" n="40"/>ipsi poenitenti perniciosus, in causa
+            cri<lb ed="#V" n="41" break="no"/>minali, de eo testificans, quod esset grave
+            <lb ed="#V" n="42"/>scandalum.
+          </p>
+          <p>
+            <lb ed="#V" n="43"/>(p) Sed numquid potest tunc dicere, etc.
+            <lb ed="#V" n="44"/>e Hic approbat regulam D. Thomae, quae
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>praescribit ut nullo modo revelet peccatum
+            <lb ed="#V" n="46"/>tanquam ex confessione auditum, sed
+            <lb ed="#V" n="47"/>tantum dicat, audivi hoc peccatum; ratio
+            <lb ed="#V" n="48"/>est quam assignat, quia revelat
+            pecca<lb ed="#V" n="49" break="no"/>tum eo modo quo non debet revelare,
+            <lb ed="#V" n="50"/>tanquam ex scientia confessionis
+            respecti<lb ed="#V" n="51" break="no"/>ve ad personam; dans enim causam
+            <lb ed="#V" n="52"/>scientiae, ipsam confessionem auditam,
+            <lb ed="#V" n="53"/>procedit tantum ex scientia habita in
+            con<lb ed="#V" n="54" break="no"/>fessione et prout in confessione habita,
+            <lb ed="#V" n="55"/>quod non licet; caveat ergo confessarius
+            <lb ed="#V" n="56"/>loqui de peccato tanquam in confessione
+            <lb ed="#V" n="57"/>cognito.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>(q) Contra hoc, licet hoc narratum
+            ex<lb ed="#V" n="59" break="no"/>tra, etc. Haec objectio non est Doctoris,
+            <lb ed="#V" n="60"/>neque cohaeret suae litterae, ut patet ex
+            <lb ed="#V" n="61"/>tota responsione ad argumentum hoc, et
+            <lb ed="#V" n="62"/>ex doctrina, quia, si per eum nullo modo
+            <lb ed="#V" n="63"/>licet etiam de voluntate poenitentis
+            revela<lb ed="#V" n="64" break="no"/>re confessionem, et ad effectum revelandi
+            <lb ed="#V" n="65"/>peccatum confessum, exigit ut extra
+            con<lb ed="#V" n="66" break="no"/>fessionem et secretum ei dicatur,
+            sequi<lb ed="#V" n="67" break="no"/>tur neque confessarium dando causam
+            <lb ed="#V" n="68"/>scientiae, posse allegare confessionem, et
+            <lb ed="#V" n="69"/>huc omnes ejus rationes tendunt; notatur
+            <lb ed="#V" n="70"/>etiam ut additio in secunda correctione
+            <lb ed="#V" n="71"/>Mauritii. Unde vel est ipsius Mauritii, vel
+            <lb ed="#V" n="72"/>Antonii Tarvisini, non autem Doctoris,
+            <lb ed="#V" n="73"/>solvitur autem ex dictis; patet etiam
+            <lb ed="#V" n="74"/>quod neque facto possit revelari
+            con<lb ed="#V" n="75" break="no"/>fessio.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Ad secundum argumentum patet ex
+            lit<lb ed="#V" n="77" break="no"/>tera, cujus doctrinam omnes sequuntur;
+            <lb ed="#V" n="78"/>merito ergo reprobat metrum illud
+            juri<lb ed="#V" n="79" break="no"/>starum.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d21q2-p9"> -->
+          <p>
+            <lb ed="#V" n="50" type="fixed=758"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>(r) Ad tertium, etc. Jam supra est
+            re<lb ed="#V" n="52" break="no"/>sponsum S Si dicas quod per hoc
+            respon<lb ed="#V" n="53" break="no"/>detur, etc. quae responsio in genere
+            sum<lb ed="#V" n="54" break="no"/>pta est ex doctrina quam hic praescribit
+            <lb ed="#V" n="55"/>Doctor, et in responsione ad sextum.
+            <lb ed="#V" n="56"/>Hanc sententiam Doctoris sequitur
+            Ga<lb ed="#V" n="57" break="no"/>briel, Major, Sylvester, verbo Confessor 3.
+            <lb ed="#V" n="58"/>quoest. 2. Adrianus. Resolutio Doctoris est,
+            <lb ed="#V" n="59"/>signum indifferens posse trahi in usum
+            <lb ed="#V" n="60"/>absque revelatione confessionis, licet
+            ali<lb ed="#V" n="61" break="no"/>quibus ingeneret suspicionem, quam non
+            <lb ed="#V" n="62"/>causat signum mere aequivocum ex
+            <lb ed="#V" n="63"/>natura sua, sed ex temeritate et
+            disposi<lb ed="#V" n="64" break="no"/>tione suspicantis. Ponamus ergo casum,
+            <lb ed="#V" n="65"/>nempe complicem latronum, qui
+            decreve<lb ed="#V" n="66" break="no"/>runt Sacerdotem in nemore occidere, non
+            <lb ed="#V" n="67"/>fuisse confessum illud peccatum, sed
+            ob<lb ed="#V" n="68" break="no"/>litum, et tunc Sacerdos ex alia intentione
+            <lb ed="#V" n="69"/>non ingrediatur nemus, sive quia ipse
+            <lb ed="#V" n="70"/>concipit periculum, sive ex alia ratione et
+            <lb ed="#V" n="71"/>motivo, non autem ex scientia periculi,
+            <lb ed="#V" n="72"/>tunc latrones concipient eamdem
+            sus<lb ed="#V" n="73" break="no"/>picionem, manet ergo causa suspicionis
+            <lb ed="#V" n="74"/>ipsis, atque aeque ipsa suspicio, quamvis
+            <lb ed="#V" n="75"/>Sacerdos non procedat ex scientia
+            con<lb ed="#V" n="76" break="no"/>fessionis
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Ex his solvitur objectio Suarez et
+            Na<lb ed="#V" n="78" break="no"/>varri, qui objiciunt ex hac sententia
+            Do<lb ed="#V" n="79" break="no"/>ctoris nullam fore indirectam revelationem
+            <lb ed="#V" n="80"/>confessionis ex facto, si in praesenti casu
+            <lb ed="#V" n="81"/>non habeatur, quia hoc non abstractim
+            <lb ed="#V" n="82"/>sumptum et absolute est signum
+            revela<lb ed="#V" n="83" break="no"/>tionis, sed hic et nunc, quatenus
+            digres<lb ed="#V" n="84" break="no"/>sio Sacerdotis est conjuncta scientiae
+            ha<lb ed="#V" n="85" break="no"/>bitae in confessione. Deinde sequeretur
+            <lb ed="#V" n="86"/>quod Sacerdos posset locum insidiarum
+            <pb ed="#V" n="759"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>declinare, etiamsi sciat confessum
+            inter<lb ed="#V" n="2" break="no"/>ficiendum a latronibus ob revelationem
+            <lb ed="#V" n="3"/>insidiarum.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Respondetur ex dictis, quando factum
+            <lb ed="#V" n="5"/>est tale ex circumstantiis ut sit signum
+            <lb ed="#V" n="6"/>univocum, tunc causare scientiam; in
+            <lb ed="#V" n="7"/>propositio non est tale, quia nullae
+            cir<lb ed="#V" n="8" break="no"/>cumstantiae per factum Sacerdotis
+            adjun<lb ed="#V" n="9" break="no"/>ctae declarant ejus intentionem conceptam
+            <lb ed="#V" n="10"/>esse ex scientia in confessione habita,
+            <lb ed="#V" n="11"/>modo non adhibeat alia signa et
+            circum<lb ed="#V" n="12" break="no"/>.stantias, ex quibus exterius proderetur
+            <lb ed="#V" n="13"/>intentio fugae, aut declinandi insidias;
+            <lb ed="#V" n="14"/>nam si complex criminis intenti et
+            homi<lb ed="#V" n="15" break="no"/>cidii pergat simul cum latronibus,
+            quam<lb ed="#V" n="16" break="no"/>vis sciant esse confessum, neque aliud
+            <lb ed="#V" n="17"/>in facto monstrat, possunt prudenter
+            prae<lb ed="#V" n="18" break="no"/>sumere eum non fuisse confessum tale
+            <lb ed="#V" n="19"/>peccatum, sed magis ad illusionem
+            si<lb ed="#V" n="20" break="no"/>mulasse confessionem; non enim magis
+            <lb ed="#V" n="21"/>fundatur suspicio concepta ex facto
+            Sacer<lb ed="#V" n="22" break="no"/>dotis, quam praesumptio fundata in facto
+            <lb ed="#V" n="23"/>latronis, qui in exteriori se simulat
+            so<lb ed="#V" n="24" break="no"/>cium paratum criminis, quod ergo
+            scien<lb ed="#V" n="25" break="no"/>tia confessionis sit hic et nunc conjuncta
+            <lb ed="#V" n="26"/>facto Sacerdotis declinantis insidias, non
+            <lb ed="#V" n="27"/>fundat suspicionem nisi alio qui per
+            si<lb ed="#V" n="28" break="no"/>gnum exterius notificetur ex modo quo
+            <lb ed="#V" n="29"/>is declinat; ex quo patet ad argumentum,
+            <lb ed="#V" n="30"/>quia illa scientia mere per accidens se
+            <lb ed="#V" n="31"/>habet ad judicium, quod formant latrones.
+          </p>
+          <p>
+            <lb ed="#V" n="32"/>Ad aliud quod objicitur. Respondetur
+            <lb ed="#V" n="33"/>Sacerdotem non esse causam per se
+            occi<lb ed="#V" n="34" break="no"/>sionis poenitentis, quae temerarie fit ex
+            fa<lb ed="#V" n="35" break="no"/>a cto Sacerdotis, quod interpretari potest ex
+            <lb ed="#V" n="36"/>alia intentione, quam ipse exterius
+            prae<lb ed="#V" n="37" break="no"/>tendit. Unde in hoc casu attendenda est
+            <lb ed="#V" n="38"/>distinctio quam tradit Doctor, et doctrina
+            <lb ed="#V" n="39"/>de signo univoco et aequivoco d. 1. supra
+            <lb ed="#V" n="40"/>quaest. 2. et 6. Confessio enim poenitentis
+            <lb ed="#V" n="41"/>et scientia de peccato habita in
+            confessi<lb ed="#V" n="42" break="no"/>one non tollit usum signorum
+            indifferen<lb ed="#V" n="43" break="no"/>tium juxta intentionem exterius
+            manife<lb ed="#V" n="44" break="no"/>statam, alioquin plura incommoda
+            seque<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>rentur, si usus illorum signorum ad
+            <lb ed="#V" n="46"/>propositum praetensae exterius intentionis
+            <lb ed="#V" n="47"/>relinquatur, etiam in ordine ad ipsos
+            <lb ed="#V" n="48"/>poenitentes, quamvis ex dispositione
+            par<lb ed="#V" n="49" break="no"/>ticulari concipiant sinistram intentionem,
+            <lb ed="#V" n="50"/>verbi gratia, si aliqua mulier sollicitaverit
+            <lb ed="#V" n="51"/>confessarium in confessione, si ille
+            dein<lb ed="#V" n="52" break="no"/>ceps subterfugiat conversationem, et
+            peri<lb ed="#V" n="53" break="no"/>cula ejus, aut subtrahat se
+            confessioni<lb ed="#V" n="54" break="no"/>nibus audiendis, statim suspicabitur id
+            <lb ed="#V" n="55"/>provenire ex scientia in confessione
+            habi<lb ed="#V" n="56" break="no"/>ta, quantumlibet ille exterius ostendat
+            <lb ed="#V" n="57"/>aliam intentionem; non minus autem
+            <lb ed="#V" n="58"/>quoad alios prohibetur uti signis
+            aequivo<lb ed="#V" n="59" break="no"/>cis, ex quibus nascitur suspicio, quam in
+            <lb ed="#V" n="60"/>ordine ad ipsos poenitentes. Sic etiam
+            <lb ed="#V" n="61"/>Superior qui audivit confessiones suorum
+            <lb ed="#V" n="62"/>subditorum, si ingerat se deinceps
+            corre<lb ed="#V" n="63" break="no"/>ctioni et conservandae disciplinae in
+            casi<lb ed="#V" n="64" break="no"/>bus necessariis, statim poenitentes
+            suspi<lb ed="#V" n="65" break="no"/>cabuntur eum procedere etiam ex scientia
+            <lb ed="#V" n="66"/>in confessione habita, ex quibus plura
+            <lb ed="#V" n="67"/>incommoda orirentur. Unde sequitur non
+            <lb ed="#V" n="68"/>revelare confessionem eum qui ejusmodi
+            <lb ed="#V" n="69"/>signis exterius praetensa justa, et
+            pru<lb ed="#V" n="70" break="no"/>denti intentione utitur, quia nec signum
+            <lb ed="#V" n="71"/>ex se et natura rei indicat confessionem.
+            <lb ed="#V" n="72"/>aut peccatum confessum, neque
+            circum<lb ed="#V" n="73" break="no"/>stantiae exterius concurrentes possunt
+            <lb ed="#V" n="74"/>trahi in aliud, quam ad intentionem
+            ex<lb ed="#V" n="75" break="no"/>pressam, ex natura etiam rei et facti.
+            <lb ed="#V" n="76"/>Quod si alii ex prava dispositione aliter
+            <lb ed="#V" n="77"/>interpretentur factum ex conscientia
+            pro<lb ed="#V" n="78" break="no"/>pria, temerarie judicant, et per accidens
+            <lb ed="#V" n="79"/>se habet ad factum recta intentione
+            quali<lb ed="#V" n="80" break="no"/>ficatum; alioquin plura incommoda
+            ori<lb ed="#V" n="81" break="no"/>rentur in societate communi, et
+            necessa<lb ed="#V" n="82" break="no"/>riis functionibus, circa materiam
+            secreto<lb ed="#V" n="83" break="no"/>rum, si omni suscipicioni etiam male
+            <lb ed="#V" n="84"/>fundatae via ex obligatione esset
+            praeclu<lb ed="#V" n="85" break="no"/>denda.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>(s) Ad aliud dico, etc. Respondet ad
+            <lb ed="#V" n="87"/>quartum argumentum, non licere
+            confite<lb ed="#V" n="88" break="no"/>ri integre si violatur sigillum, verbi
+            gra<pb ed="#V" n="760"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>e tia, si Episcopus qui est ordinarius, et
+            <lb ed="#V" n="2"/>solus in civitate, sit Simonacius, et
+            confes<lb ed="#V" n="3" break="no"/>sus sit Sacerdoti hoc peccatum, si ex
+            <lb ed="#V" n="4"/>confessione hujus peccati, seu sacrilegae
+            <lb ed="#V" n="5"/>absolutionis datae revelatur persona, ita
+            <lb ed="#V" n="6"/>ut aliter nequat confiteri peccatum, in
+            <lb ed="#V" n="7"/>eo casu praevalet obligatio sigilli
+            prae<lb ed="#V" n="8" break="no"/>cepto integritatis confessionis. Hanc
+            re<lb ed="#V" n="9" break="no"/>solutionem tenet Navarrus in summa,
+            <lb ed="#V" n="10"/>cap. 8. Sylvester verbo confessio,
+            Ledes<lb ed="#V" n="11" break="no"/>ma 2. part. 4. quoest, 10. art. 5. Vasquez
+            <lb ed="#V" n="12"/>dub. 4. supra citato, Suarez sect. 1.
+            est<lb ed="#V" n="13" break="no"/>que communis. Bene eam probat Doctor,
+            <lb ed="#V" n="14"/>quia obligatio sigilli est legis naturalis
+            <lb ed="#V" n="15"/>ex multiplici capite, et legis positivae,
+            <lb ed="#V" n="16"/>in omni casu damni cujuslibet tenet, non
+            <lb ed="#V" n="17"/>ita praeceptum integrae confessionis, ut
+            <lb ed="#V" n="18"/>supra dist. 17. visum est; hinc recte
+            <lb ed="#V" n="19"/>admonet Doctor confessarios, ut rationem
+            <lb ed="#V" n="20"/>ministerii debitam servant, ne se ipsos
+            <lb ed="#V" n="21"/>etiam in haec pericula congerant, ex
+            qui<lb ed="#V" n="22" break="no"/>bus reddantur perplexi, praeter injuriam,
+            <lb ed="#V" n="23"/>quam faciunt poenitentibus et
+            Sacra<lb ed="#V" n="24" break="no"/>mento.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>(t) Ad aliud, esto quod secunda
+            perso<lb ed="#V" n="26" break="no"/>na, etc. Respondet ad quintum, quod est
+            <lb ed="#V" n="27"/>revelare posse quidquid non est peccatum
+            <lb ed="#V" n="28"/>poenitentis, aut circumstantia ejus; agit
+            <lb ed="#V" n="29"/>autem de casu, in quo non requiritur ad
+            <lb ed="#V" n="30"/>integritatem confessionis revelatio
+            com<lb ed="#V" n="31" break="no"/>plicis, verbi gratia, ad confessionem
+            pec<lb ed="#V" n="32" break="no"/>cati fornicationis non facit ut dicatur
+            <lb ed="#V" n="33"/>persona mulieris, ut quod sit Berta, vel
+            <lb ed="#V" n="34"/>alia. Advertat tamen confessarius
+            poeni<lb ed="#V" n="35" break="no"/>tentem ne secretum hoc revelet in
+            con<lb ed="#V" n="36" break="no"/>fessione, quia est peccatum ex genere suo
+            <lb ed="#V" n="37"/>mortale, nisi ignorantia et inadvertentia
+            <lb ed="#V" n="38"/>excuset.
+            <lb ed="#V" n="39"/>Dicit ergo Doctor illam majorem
+            argu<lb ed="#V" n="40" break="no"/>menti esse falsam, quia ulterius oportet
+            <lb ed="#V" n="41"/>eam suppleri, addendo etiam quod illud
+            <lb ed="#V" n="42"/>non sit lege naturali, aut divina
+            prohibi<lb ed="#V" n="43" break="no"/>tum, personam complicis cadere sub
+            si<lb ed="#V" n="44" break="no"/>gillo, recte probat in quarta conclusione
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>8 De quid, etc. cujus ratio ibidem recte
+            <lb ed="#V" n="46"/>probat quod dictum est, in confessione
+            <lb ed="#V" n="47"/>non esse revelandum peccatum mortale,
+            <lb ed="#V" n="48"/>et secretum alterius, nisi ex necessitate
+            <lb ed="#V" n="49"/>confitendi integre, ideoque hic non est
+            <lb ed="#V" n="50"/>dubius, sed tangit casum controversum,
+            <lb ed="#V" n="51"/>an liceat vevelare personam complicis ob
+            <lb ed="#V" n="52"/>necessitat em confitendi, et alium casum,
+            <lb ed="#V" n="53"/>in quo haec revelatio citra necessitatem
+            <lb ed="#V" n="54"/>fiat, ita ut ex inadvertentia et fatuitate
+            <lb ed="#V" n="55"/>poenitentis contingat, et sic excusari
+            pos<lb ed="#V" n="56" break="no"/>sit, vel certe cum advertentia, et sic
+            <lb ed="#V" n="57"/>graviter detrahit proximo, revelando ejus
+            <lb ed="#V" n="58"/>peccatum grave: secretum, sive fuerit
+            <lb ed="#V" n="59"/>complex, sive non, et manebit sub
+            obli<lb ed="#V" n="60" break="no"/>gatione sigilli, quia ex notitia hujus fori
+            <lb ed="#V" n="61"/>nemini potest extra ipsum forum praetend
+            <lb ed="#V" n="62"/>aliquod damnum.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d21q2-p10"> -->
+          <p>
+            <lb ed="#V" n="60" type="fixed=761"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>(u) Ad aliud, si in collegio est
+            consue<lb ed="#V" n="62" break="no"/>tudo, etc. Respondet ad sextum
+            argu<lb ed="#V" n="63" break="no"/>mentum, quod est de Monacho aut
+            Reli<lb ed="#V" n="64" break="no"/>gioso, quem novit Superior ex
+            confessi<lb ed="#V" n="65" break="no"/>one lapsum, et habere occasionem
+            peri<lb ed="#V" n="66" break="no"/>culi, et relabendi, nisi praescindatur.
+            <lb ed="#V" n="67"/>Resolutio Doctoris est etiam D.
+            Bonaven<lb ed="#V" n="68" break="no"/>turae, D. Thomae, Richardi in hac
+            distin<lb ed="#V" n="69" break="no"/>ctione, et Soti, dist. 18. q. 4. art. 5.
+            Eam<lb ed="#V" n="70" break="no"/>dem tenet D. Thomas quodl. 5. art. 13.
+            <lb ed="#V" n="71"/>Adrian, quoest. ultima de confessione,
+            <lb ed="#V" n="72"/>Henricus quodl. 7. quoest. 29. Sylvester
+            <lb ed="#V" n="73"/>verbo confessio 3. quoest. 14. Angelus
+            <lb ed="#V" n="74"/>verbo confessio ult. Medina 9, de
+            confes<lb ed="#V" n="75" break="no"/>sione celanda. Aliqui tamen negant ullo
+            <lb ed="#V" n="76"/>casu eum amovendum esse ab officio,
+            <lb ed="#V" n="77"/>quia peccatum auditum in confessione
+            <lb ed="#V" n="78"/>non debet castigari in foro publico, donec
+            <lb ed="#V" n="79"/>ibi innotescat, quamvis alioquin amotio
+            <lb ed="#V" n="80"/>illa non esset revelatio confessionis.
+            Caete<lb ed="#V" n="81" break="no"/>rum videtur sententia alia esse verior,
+            <lb ed="#V" n="82"/>quam sequitur Doctor cum antiquis,
+            po<lb ed="#V" n="83" break="no"/>test enim superior uti illa scientia in
+            pro<lb ed="#V" n="84" break="no"/>fectum poenitentis, quando non sequitur
+            <lb ed="#V" n="85"/>ex ea revelatio confessionis, vel ipsi, vel
+            <lb ed="#V" n="86"/>aliis, et tunc amotio non habet rationem
+            <pb ed="#V" n="762"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>poenae aut punitionis, sed debitae
+            praeven<lb ed="#V" n="2" break="no"/>tionis in salutem subditi. Servanda est
+            <lb ed="#V" n="3"/>Decretalis Clementis VIII. in hoc, et
+            si<lb ed="#V" n="4" break="no"/>milibus casibus, quae prohibet scientiam
+            <lb ed="#V" n="5"/>in confessione habitam trahendam esse
+            <lb ed="#V" n="6"/>ad gubernationem externam, et merito,
+            <lb ed="#V" n="7"/>quia revera neque expedit, neque licet, ut
+            <lb ed="#V" n="8"/>supra dictum est. Hic etiam
+            compre<lb ed="#V" n="9" break="no"/>henditur, ut bene Sotus, casus, in quo
+            <lb ed="#V" n="10"/>ex schedula confessionis scriptae superior
+            <lb ed="#V" n="11"/>cognosceret peccatum subditi, quia illa
+            <lb ed="#V" n="12"/>scientia in ordine ad confessionem
+            habe<lb ed="#V" n="13" break="no"/>tur. Posset etiam contrarium magis dici,
+            <lb ed="#V" n="14"/>sequendo ea quae Doctor supra dist. 17.
+            <lb ed="#V" n="15"/>habet de natura scripturae, seu
+            confessi<lb ed="#V" n="16" break="no"/>onis in scriptis factae, quia non est
+            secre<lb ed="#V" n="17" break="no"/>ta; tamen sicut non debet aggravari
+            poe<lb ed="#V" n="18" break="no"/>nitens, altera opinio est valde pia, et
+            se<lb ed="#V" n="19" break="no"/>quenda in praxi, quia illa scriptura, et
+            <lb ed="#V" n="20"/>notitia per eam habita spectat ad
+            scien<lb ed="#V" n="21" break="no"/>tiam confessionis.
+          </p>
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="22"/>(X) Ad ultimum dico, etc. Respondet de
+            <lb ed="#V" n="23"/>fugiendo excommunicato, quem quis
+            <lb ed="#V" n="24"/>novit in confessione esse talem, dicit
+            <lb ed="#V" n="25"/>primo quod cap. cum non ab homine, etc.
+            <lb ed="#V" n="26"/>de sentent, excomm. in 6. non
+            loqua<lb ed="#V" n="27" break="no"/>tur de excommunicato noto per
+            confes<lb ed="#V" n="28" break="no"/>sionem tantum, sed de noto privatim,
+            <lb ed="#V" n="29"/>verbi gratia, si percusserit ipsum
+            confes<lb ed="#V" n="30" break="no"/>sarium sine arbitro, vel alium Sacerdotem
+            <lb ed="#V" n="31"/>sciente id confessario. Si vero in
+            confes<lb ed="#V" n="32" break="no"/>sione novit censuram incursam, debet
+            <lb ed="#V" n="33"/>vitare si potest sine revelatione
+            confessi<lb ed="#V" n="34" break="no"/>onis, aliter vero non est vitandus, et
+            prae<lb ed="#V" n="35" break="no"/>ceptum de fugiendo excommunicato cedit
+            <lb ed="#V" n="36"/>praecepto sigilli. Et universaliter, ut
+            di<lb ed="#V" n="37" break="no"/>cit Doctor, praecepto Superioris cedit
+            prae<lb ed="#V" n="38" break="no"/>ceptum inferioris in quacumque materia,
+            <lb ed="#V" n="39"/>in quibus opponuntur, quae est doctrina
+            <lb ed="#V" n="40"/>communis. Plures alii casus in specie
+            <lb ed="#V" n="41"/>proponuntur a Doctoribus in hac materia,
+            <lb ed="#V" n="42"/>quorum resolutio ex dictis habetur.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

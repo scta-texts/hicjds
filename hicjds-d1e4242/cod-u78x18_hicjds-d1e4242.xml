@@ -1,0 +1,1750 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 15, Quaestio 4</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 15, Quaestio 4</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x18">Vives, Paris, 1894, volume 18</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="391"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e4242"><!-- hicjds-b4d15q4 -->
+        <head>Quaestio 4</head>
+        <head type="question-title">Utrum damnificans aliquem in bono famae teneatur ad restitutionem ita quod poenitere vere non possit nisi farnam restituat</head>
+        <!-- <div alias="hiq-d15q4-p1"> -->
+          <p>
+            <lb ed="#V" n="58" type="fixed=391"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>(a) Quarto quaeritur, vtrum
+            damnifi<lb ed="#V" n="60" break="no"/>cans aliquem in bono famae, etc. In hac
+            <lb ed="#V" n="61"/>quaestione agitur de tertio genere
+            bono<lb ed="#V" n="62" break="no"/>rum, quae hominis dicuntur, ut famae;
+            <lb ed="#V" n="63"/>agitur de bona fama. Definitur a glossa
+            <lb ed="#V" n="64"/>in cap. Vestra, de cohabitatione cleric.
+            <lb ed="#V" n="65"/>et mulier. Fama est illoesae dignitatis
+            <lb ed="#V" n="66"/>status, lege et moribus comprobatus.
+            <lb ed="#V" n="67"/>Hanc amplectuntur Jurisperiti, et habetur
+            <lb ed="#V" n="68"/>lib. Cognitionum 5. ff. de extraordinar.
+            <lb ed="#V" n="69"/>cognit. Consistit autem in bona opinione
+            <lb ed="#V" n="70"/>virtutis et sapientiae alterius, et in iis
+            om<lb ed="#V" n="71" break="no"/>nibus ex quibus laudari potest quoad
+            cor<lb ed="#V" n="72" break="no"/>pus, animam, affectiones, dotes, opera, et
+            <lb ed="#V" n="73"/>facultates tam naturae quam fortunae.
+            <lb ed="#V" n="74"/>Distinguitur ab honore, quod illa in
+            opi<lb ed="#V" n="75" break="no"/>nione consistat; hic vero attestatione
+            <lb ed="#V" n="76"/>excellentiae alterius verbis vel signis
+            ex<lb ed="#V" n="77" break="no"/>hibita; quae excellentia similiter
+            consi<lb ed="#V" n="78" break="no"/>stit in sapientia et virtute, et aliis, ex
+            <lb ed="#V" n="79"/>quibus laudari et honorari potest, ut
+            <lb ed="#V" n="80"/>dignitate, munerc, sanctitate, et his
+            simi<lb ed="#V" n="81" break="no"/>libus exhibetur honor per verba, per
+            ces<lb ed="#V" n="82" break="no"/>sionem loci dignioris, inclinationem,
+            genu<pb ed="#V" n="392"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>flexionem, et ejusmodi, prout in usu
+            <lb ed="#V" n="2"/>sunt. Distinguit Doctor quaestionem in
+            <lb ed="#V" n="3"/>tria membra, quae suo ordine
+            explica<lb ed="#V" n="4" break="no"/>buntur.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d15q4-p2"> -->
+          <p>
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45" type="fixed=393"/>COMMENTARIUS
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>(b) Respondeo in genere, potest aliquis
+            <lb ed="#V" n="47"/>alium, etc. Alensis 2. part. q. 129. m. 1.
+            <lb ed="#V" n="48"/>in fine, ponit sex modos detractionis, seu;
+            <lb ed="#V" n="49"/>privandi aliquem fama debita injuste.
+            <lb ed="#V" n="50"/>Primus, negando bonum, quod scimus
+            <lb ed="#V" n="51"/>ab aliquo factum. Secundus, cum ad
+            <lb ed="#V" n="52"/>laudem debitam alteri tacemus. Tertius,
+            <lb ed="#V" n="53"/>cum affingimus mala intentione factum
+            <lb ed="#V" n="54"/>esse bonum, quod negare non possumus.
+            <lb ed="#V" n="55"/>Quartus, cum occultum malum revelatur
+            <lb ed="#V" n="56"/>modo, quo non debetur. Quintus, cum
+            <lb ed="#V" n="57"/>malum augetur. Sextus, est adinvenire
+            <lb ed="#V" n="58"/>malum.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Octo modos detractionis assignat
+            <lb ed="#V" n="60"/>D. Thomas, quatuor directos, et quatuor
+            <lb ed="#V" n="61"/>indirectos. Primo, imponendo crimen
+            <lb ed="#V" n="62"/>falsum. Secundo, amplificando crimen
+            <lb ed="#V" n="63"/>verum. Tertio, revelando crimen
+            occul<lb ed="#V" n="64" break="no"/>tum. Quarto, sinistre interpretando
+            bo<lb ed="#V" n="65" break="no"/>num factum alterius. Intelligendus est
+            <lb ed="#V" n="66"/>hic modus, quatenus in animo alterius,
+            <lb ed="#V" n="67"/>cui maligna interpretatione significasti,
+            <lb ed="#V" n="68"/>verbis aut signis laesisti famam alterius;
+            <lb ed="#V" n="69"/>alias quamdius tacita est interpretatio
+            <lb ed="#V" n="70"/>in mente, spectat ad judicium
+            temera<lb ed="#V" n="71" break="no"/>rium. Quintus, est negando recte facta
+            <lb ed="#V" n="72"/>alterius, aut bona, ex quibus conciliata
+            <lb ed="#V" n="73"/>fama est. Sexto, ea extenuando. Septimo,
+            <lb ed="#V" n="74"/>frigide laudando, et simulate. Octavo,
+            ta<lb ed="#V" n="75" break="no"/>cendo bona alterius eo tempore et loco,
+            <lb ed="#V" n="76"/>quo silentium tuum nocet alteri apud
+            <lb ed="#V" n="77"/>praesentes.
+          </p>
+          <p>
+            <lb ed="#V" n="78"/>Doctor autem omnes modos detrahendi
+            <lb ed="#V" n="79"/>reducit ad tres in genere. Primus modus
+            <lb ed="#V" n="80"/>est per impositionem falsi criminis. Ad
+            <lb ed="#V" n="81"/>hunc modum revocari possunt omnes
+            mo<lb ed="#V" n="82" break="no"/>di, quibus detrahitur alteri per
+            significati<lb ed="#V" n="83" break="no"/>onem vitii aut criminis in ipso, sive
+            ver<lb ed="#V" n="84" break="no"/>bis, sive alio modo contingat talis
+            detra<lb ed="#V" n="85" break="no"/>ctio, ita ut per se sit causa infamiae ex
+            <lb ed="#V" n="86"/>natura actus. Secundus modus est, quando
+            <pb ed="#V" n="394"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>crimen verum alicujus in publicum
+            pro<lb ed="#V" n="2" break="no"/>ducit, non servato Juris ordine. Tertius
+            <lb ed="#V" n="3"/>modus est, quando crimem verum
+            alicu<lb ed="#V" n="4" break="no"/>jus in publicum ab alio productum negat,
+            <lb ed="#V" n="5"/>ex quo sequitur infamatio accusantis.
+          </p>
+          <p>
+            <lb ed="#V" n="6"/>(c) In primo dico quod oportet restituere,
+            <lb ed="#V" n="7"/>etc. Haec est prima conclusio hujus
+            quae<lb ed="#V" n="8" break="no"/>stionis; est communis omnium. Patet per se
+            <lb ed="#V" n="9"/>ex regulis justitiae, quia damnum per se
+            <lb ed="#V" n="10"/>causatum tenetur restituere, servando
+            <lb ed="#V" n="11"/>suum jus proximo.
+          </p>
+          <p>
+            <lb ed="#V" n="12"/>Dices, magis tenetur zelare famam
+            pro<lb ed="#V" n="13" break="no"/>priam, quam alterius in eo casu, si
+            retra<lb ed="#V" n="14" break="no"/>ctet dicta apud alios fiet infamis; ergo
+            <lb ed="#V" n="15"/>non tenetur.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Respondet Doctor ex dictis supra quaest.
+            <lb ed="#V" n="17"/>t 2. respons. ad 6. quod diligens bonum ex
+            <lb ed="#V" n="18"/>justitia teneatur diligere illud ei cui ex
+            <lb ed="#V" n="19"/>justitia debetur, et cujus est; fama autem
+            <lb ed="#V" n="20"/>proximo debetur ex justitia, quam ipse
+            <lb ed="#V" n="21"/>laesit, imponendo falsum crimen; fama
+            au<lb ed="#V" n="22" break="no"/>tem propria in hoc casu quo amittitur,
+            <lb ed="#V" n="23"/>restituendo alteri famam ablatam, per
+            de<lb ed="#V" n="24" break="no"/>trimentum propriae famae, quod incurrit
+            <lb ed="#V" n="25"/>revocando dicta, ipsi non debetur, quia
+            <lb ed="#V" n="26"/>injuste eam possidet; tenetur magis
+            dili<lb ed="#V" n="27" break="no"/>gere famam proximo, resarciendo
+            dam<lb ed="#V" n="28" break="no"/>num, quam sibi ipsi, cujus detrimentum
+            <lb ed="#V" n="29"/>tenetur facere. Et hoc ex duobus
+            capiti<lb ed="#V" n="30" break="no"/>bus; tum quia mentibus est publice, ex
+            <lb ed="#V" n="31"/>quo casu ipse ex natura operis se
+            diffama<lb ed="#V" n="32" break="no"/>vit, nempe ut mendacem, quia de tali
+            <lb ed="#V" n="33"/>mendacio notorietate facti, et in judicio
+            <lb ed="#V" n="34"/>potest conveniri et damnari. Ex secundo
+            <lb ed="#V" n="35"/>capite, quia per mendacium intulit
+            calum<lb ed="#V" n="36" break="no"/>niam et dispendium famae proximo; quod
+            <lb ed="#V" n="37"/>tenetur restituere per hoc medium,
+            revo<lb ed="#V" n="38" break="no"/>cando dicta coram eis, in quorum
+            prae<lb ed="#V" n="39" break="no"/>sentia diffamavit, ideo non possidet famam
+            <lb ed="#V" n="40"/>juste, neque potest praeferre famae justae
+            <lb ed="#V" n="41"/>. alterius, quem injuste laesit. Probat
+            exem<lb ed="#V" n="42" break="no"/>plo ejus, qui publice est fornicatus coram
+            <lb ed="#V" n="43"/>tribus, illi eum accusantes de illo
+            crimi<lb ed="#V" n="44" break="no"/>ne, non eum diffamant injuste, quia ex
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>natura actus jam quantum est in se,
+            in<lb ed="#V" n="46" break="no"/>currit laesionem dignitatis, et servato Juris
+            <lb ed="#V" n="47"/>ordine eum accusando coram judice non
+            <lb ed="#V" n="48"/>incurrit damnum injuste datum, sed quod
+            <lb ed="#V" n="49"/>debetur crimini. Sic in proposito casu,
+            <lb ed="#V" n="50"/>accusando se ipsum de mendacio coram
+            <lb ed="#V" n="51"/>iis, apud quos infamavit, ad restituendum
+            <lb ed="#V" n="52"/>alteri famam, non facit damnum famae,
+            <lb ed="#V" n="53"/>nisi illud quod alias incurrit ex facto, aut
+            <lb ed="#V" n="54"/>infamatione alterius per tale factum,
+            tene<lb ed="#V" n="55" break="no"/>tur autem revocare quod dixit, se ipsum
+            <lb ed="#V" n="56"/>accusando, quia aliter nequit restituere
+            <lb ed="#V" n="57"/>quod abstulit.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Dubium est si sufficiat ei simplex
+            revo<lb ed="#V" n="59" break="no"/>catio cum assertione mendacii facti,
+            di<lb ed="#V" n="60" break="no"/>cendo se esse mentitum, et an amplius
+            <lb ed="#V" n="61"/>teneatur ad tollendam falsam opinionem
+            <lb ed="#V" n="62"/>de alterius dignitate adhibere testes, aut
+            <lb ed="#V" n="63"/>juramentum. Sotus de Justit. et Jur. lib.
+            <lb ed="#V" n="64"/>4. quaest. 6. art. 3. affirmat de hoc requiri.
+            <lb ed="#V" n="65"/>Navarr. loco citato a Scholiaste, et
+            Azo<lb ed="#V" n="66" break="no"/>rius 3. part. lib. 5. cap. 6. admittunt illam
+            <lb ed="#V" n="67"/>limitationem, quantum ad juramentum,
+            <lb ed="#V" n="68"/>non vero quantum ad testes, quia hoc
+            <lb ed="#V" n="69"/>videtur istis durum, sed par est ratio; si
+            <lb ed="#V" n="70"/>enim ad unum, ita ad alterum tenetur,
+            <lb ed="#V" n="71"/>et ratio est, quia debet adhibere causam
+            <lb ed="#V" n="72"/>efficacem restituendi famam. Antiqui
+            Do<lb ed="#V" n="73" break="no"/>ctores non descendunt ad has
+            limitati<lb ed="#V" n="74" break="no"/>ones, sed dicunt eum obligari ad
+            revoca<lb ed="#V" n="75" break="no"/>tionem mendacii coram iis, coram quibus
+            <lb ed="#V" n="76"/>diffamavit; loquuntur enim de casu,
+            se<lb ed="#V" n="77" break="no"/>clusis circumstantiis, nam infamia, quae in
+            <lb ed="#V" n="78"/>opinione sola consistit, et innititur
+            aucto<lb ed="#V" n="79" break="no"/>ritati et veracitati infamantis per
+            menda<lb ed="#V" n="80" break="no"/>cium, nihil aliud ex natura rei exigit
+            se<lb ed="#V" n="81" break="no"/>cundum regulam prudentiae et justitiae,
+            <lb ed="#V" n="82"/>quam ut dicendo sincere contrarium eo
+            <lb ed="#V" n="83"/>modo quo alii intelligunt, aut intelligere
+            <lb ed="#V" n="84"/>debent serio retractari dicunt ex affectu
+            <lb ed="#V" n="85"/>justitiae et veritatis. Quod si opinionem
+            <lb ed="#V" n="86"/>aliorum nequeat in hoc mutare ex natura
+            <lb ed="#V" n="87"/>rei amplius non inhaeret dictis ejus, sed
+            <lb ed="#V" n="88"/>proprie pertinaciae et levitati aliorum.
+            Cae<pb ed="#V" n="395"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>terum si juramentum et testes necessarii
+            <lb ed="#V" n="2"/>sunt ad hoc ut credatur infamator serio
+            <lb ed="#V" n="3"/>retractare, tunc vera est opinio
+            moderno<lb ed="#V" n="4" break="no"/>rum, quamvis etiam hoc forte non
+            requi<lb ed="#V" n="5" break="no"/>ratur, quia secundum prudentiam debent
+            <lb ed="#V" n="6"/>auditores judicare, sicut in retractatione
+            <lb ed="#V" n="7"/>posset esse mendax et fictus, sic etiam in
+            <lb ed="#V" n="8"/>prima assertione fuisse. Non est ergo ratio
+            <lb ed="#V" n="9"/>unde magis credant infamationi quam
+            re<lb ed="#V" n="10" break="no"/>tractationi, et quaecumque causa praesumi
+            <lb ed="#V" n="11"/>posset non credendi, eadem etiam
+            adhi<lb ed="#V" n="12" break="no"/>bitis testibus posset in opinione eorum
+            <lb ed="#V" n="13"/>durare, si irrationabiliter sint increduli.
+            <lb ed="#V" n="14"/>Verum est ex natura confirmationis
+            adhi<lb ed="#V" n="15" break="no"/>bitae per juramentum, et testes eos magis
+            <lb ed="#V" n="16"/>obligari ad dandam fidem retractationi,
+            <lb ed="#V" n="17"/>quia haec in judicio adjecto majorem fidem
+            <lb ed="#V" n="18"/>faciunt, et exiguntur saepe per modum
+            <lb ed="#V" n="19"/>confirmationis, et ex iis oritur obligatio
+            <lb ed="#V" n="20"/>major credendi.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Spectandae tamen sunt circumstantiae
+            <lb ed="#V" n="22"/>facti: si enim ille in prima assertione
+            dif<lb ed="#V" n="23" break="no"/>famativa adhibuit juramentum, et alia
+            mo<lb ed="#V" n="24" break="no"/>tiva credendi, ex quibus alias opinio, aut
+            <lb ed="#V" n="25"/>vehemens suspicio oriri possit, tunc
+            tene<lb ed="#V" n="26" break="no"/>tur ad retractationem congruam; nec
+            <lb ed="#V" n="27"/>sufficit ex natura rei sola retractatio,
+            di<lb ed="#V" n="28" break="no"/>cendo se falsum dixisse, quia etiam alias
+            <lb ed="#V" n="29"/>causas adhibuit de se sufficientes, ex
+            qui<lb ed="#V" n="30" break="no"/>bus fama proximi laesa est, vel saltem
+            re<lb ed="#V" n="31" break="no"/>.vocata in dubium. Quid ergo faciendum?
+            <lb ed="#V" n="32"/>tenetur adhibere media tam efficacia
+            tol<lb ed="#V" n="33" break="no"/>lendi damnum, quam fuerunt illa, quibus
+            <lb ed="#V" n="34"/>illud causavit, et quibus adhibitis alii
+            te<lb ed="#V" n="35" break="no"/>neantur credere secundum prudentiam
+            <lb ed="#V" n="36"/>et aequitatem. Exempli gratia, si quis
+            ali<lb ed="#V" n="37" break="no"/>um seduxit per falsam doctrinam, et
+            ap<lb ed="#V" n="38" break="no"/>parentibus argutiis, tenetur non solum
+            <lb ed="#V" n="39"/>retractare errorem, sed etiam destruere
+            <lb ed="#V" n="40"/>imposturam factam per media fallacia, et
+            <lb ed="#V" n="41"/>hoc secundum justitiam, ut omnes
+            conce<lb ed="#V" n="42" break="no"/>dunt; ita et sufficit hic ex natura rei
+            ad<lb ed="#V" n="43" break="no"/>hibere illam satisfactionem laesae famae,
+            <lb ed="#V" n="44"/>quam judex et tribunalia imponunt.
+            Ve<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>rum quidem est quod retractatio facta ex
+            <lb ed="#V" n="46"/>sententia judicis habeat majorem
+            aucto<lb ed="#V" n="47" break="no"/>ritatem, non solum quia procedit ex
+            pote<lb ed="#V" n="48" break="no"/>state publica, sed quia servato Juris
+            or<lb ed="#V" n="49" break="no"/>dine censetur legitime convictus reus de
+            <lb ed="#V" n="50"/>calumnia et mendacio. Adhibeat ergo
+            me<lb ed="#V" n="51" break="no"/>dia ex natura rei sufficientia, sive ex
+            as<lb ed="#V" n="52" break="no"/>sertione, sive alio modo, et sufficit quod
+            <lb ed="#V" n="53"/>media sint de se efficacia ad tollendum
+            <lb ed="#V" n="54"/>opinionem falsam de alio causatam, ut
+            as<lb ed="#V" n="55" break="no"/>serit Doctor in simili in littera proxima.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Sed adhuc manet dubium, quia potest
+            <lb ed="#V" n="57"/>fieri ut quamvis ille retractando mutet
+            <lb ed="#V" n="58"/>opinionem falsam, quam ex priore
+            asser<lb ed="#V" n="59" break="no"/>tione mendaci conceperunt alii, tamen
+            <lb ed="#V" n="60"/>possunt non concipere opinionem bonam,
+            <lb ed="#V" n="61"/>quam prius habuerunt, et ille destruxit,
+            <lb ed="#V" n="62"/>sed manere suspensi, quia sicut illum
+            <lb ed="#V" n="63"/>alias, quem judicarunt fide dignum, jam
+            <lb ed="#V" n="64"/>deprehenderunt ex propria assertione
+            in<lb ed="#V" n="65" break="no"/>dignum fide, sic ex occasione hujus
+            de<lb ed="#V" n="66" break="no"/>ceptionis possunt dubitare de fide
+            ali<lb ed="#V" n="67" break="no"/>orum, a quibus bona opinio fuit impressa;
+            <lb ed="#V" n="68"/>ergo talis non abstulit per solan
+            retracta<lb ed="#V" n="69" break="no"/>tionem damnum, quod intulit proximo.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Respondetur eos teneri ad
+            restauran<lb ed="#V" n="71" break="no"/>dam priorem opinionem, sublato
+            impedi<lb ed="#V" n="72" break="no"/>mento, nam imprudentis est, et temerarii
+            <lb ed="#V" n="73"/>judicare omnes esse mendaces, si unus
+            <lb ed="#V" n="74"/>mendax est, alias destrueretur fides
+            hu<lb ed="#V" n="75" break="no"/>mana et debita consuetudo inter
+            homi<lb ed="#V" n="76" break="no"/>nes; neque possunt sine injuria
+            praeju<lb ed="#V" n="77" break="no"/>dicare alteri, de quo alias habuerunt
+            bo<lb ed="#V" n="78" break="no"/>nam ex debita fide et motivo fundatam
+            <lb ed="#V" n="79"/>opinionem, jam sublato impedimento et
+            <lb ed="#V" n="80"/>opinione contraria per sufficientem
+            retra<lb ed="#V" n="81" break="no"/>ctionem ejus, et ablato fundamento
+            er<lb ed="#V" n="82" break="no"/>roneo.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>Dubitatur secundo ad quid tenetur
+            quo<lb ed="#V" n="84" break="no"/>ad alios, ad quos talis calumnia diffamata
+            <lb ed="#V" n="85"/>pervenit, et bona fide relata fuit a primis
+            <lb ed="#V" n="86"/>auditoribus, apud quos diffamavit.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>Respondetur, si ea intentione dixit, ut
+            <lb ed="#V" n="88"/>diffamaretur apud absentes, teneri ad
+            re<pb ed="#V" n="396"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>stitutionem; si etiam praeviderit ita fore,
+            <lb ed="#V" n="2"/>tenetur similiter. Si tamen sub secreto
+            <lb ed="#V" n="3"/>aliis id dixerit, et illi cum hac stipulatione
+            <lb ed="#V" n="4"/>exceperunt dictum, non tenetur ipse, sed
+            <lb ed="#V" n="5"/>alii tenentur, quia contra justitiam alium
+            <lb ed="#V" n="6"/>diffamaverunt. Alii tenent in primo, et
+            se<lb ed="#V" n="7" break="no"/>cundo casu eum non teneri, quia non fuit
+            <lb ed="#V" n="8"/>causa diffamationis apud alios, forte inde,
+            <lb ed="#V" n="9"/>quia alii non poterant illud revelare sine
+            <lb ed="#V" n="10"/>justa causa, quamvis apud judicem
+            pos<lb ed="#V" n="11" break="no"/>sint accusare, vel certe denuntiare
+            cri<lb ed="#V" n="12" break="no"/>men. Dicendum forte est attenta hac
+            <lb ed="#V" n="13"/>causa, et etiam in tertio casu omnes teneri
+            <lb ed="#V" n="14"/>in solidum, sicut omnes concurrunt ad
+            <lb ed="#V" n="15"/>damnum; auditores tamen non tenentur
+            <lb ed="#V" n="16"/>ad aliud, quam ut calumniatorem, et
+            re<lb ed="#V" n="17" break="no"/>vocationem dicti factam dicant tertiis,
+            <lb ed="#V" n="18"/>quibus crimen impositum revelaverunt,
+            <lb ed="#V" n="19"/>quod ipsis nihil docet. Et in casu quo
+            ca<lb ed="#V" n="20" break="no"/>lumniator aliis non indicaret veritatem,
+            <lb ed="#V" n="21"/>sed solum primis auditoribus, hi possunt
+            <lb ed="#V" n="22"/>et debent revocationem ejus aliis
+            indica<lb ed="#V" n="23" break="no"/>re, quibus ipsi crimen detexerunt, ea
+            ra<lb ed="#V" n="24" break="no"/>tione qua ipsi non debebant contra Juris
+            <lb ed="#V" n="25"/>ordinem crimen proximi ab uno auditum
+            <lb ed="#V" n="26"/>propalare, nisi in casu quo crimen is
+            im<lb ed="#V" n="27" break="no"/>poneret publice et coram multis in
+            fre<lb ed="#V" n="28" break="no"/>quentia populi, ita ut jam amplius non
+            <lb ed="#V" n="29"/>posset esse secretum, tunc autem eadem
+            <lb ed="#V" n="30"/>publicitate facta sufficienter revocatio de
+            <lb ed="#V" n="31"/>facili ad alios pervenit. Haec omnia
+            intel<lb ed="#V" n="32" break="no"/>ligenda sunt de eo, qui crimen imposuit
+            <lb ed="#V" n="33"/>cum damno famae secuto, quia alias si ei
+            <lb ed="#V" n="34"/>non creditur, nihil abstulit, cujus restitutio
+            <lb ed="#V" n="35"/>obligaret, neque retractatione sui alium
+            <lb ed="#V" n="36"/>effectum induceret diversum ab eo, quem
+            <lb ed="#V" n="37"/>prius est operatus, quo ab aliis reputatur
+            <lb ed="#V" n="38"/>mendax.
+          </p>
+          <p>
+            <lb ed="#V" n="39"/>Haec resolutio est communis
+            moderno<lb ed="#V" n="40" break="no"/>rum, quamvis Adrianus de restitutione
+            fa<lb ed="#V" n="41" break="no"/>mae quaest. 1. contrarium doceat, et Navarr.
+            <lb ed="#V" n="42"/>in repet. capituli Inter verba. In Manuali
+            <lb ed="#V" n="43"/>tamen cap. 18. num. 43. sequitur
+            commu<lb ed="#V" n="44" break="no"/>nem, quam tenet Soto loco citato ad 4.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>Ledesma in 2. part. 4. quaest. 18. art. 2.
+            <lb ed="#V" n="46"/>dub. 3. conclus. 3. Petrus Navarr. lib. 2.
+            <lb ed="#V" n="47"/>de Restitut. cap. 4. part. 3. dub. 3.
+            Salo<lb ed="#V" n="48" break="no"/>nius 2. 2. quaest. 62. art. 2. Valentia tom.
+            <lb ed="#V" n="49"/>3. disp. 6. quaest. puncto. 4. et alii. Patet
+            <lb ed="#V" n="50"/>ex regulis generalibus, ex quibus quis
+            <lb ed="#V" n="51"/>tenetur ad restitutionem ex damno illato,
+            <lb ed="#V" n="52"/>non aliter. Peccavit tamen contra justitiam
+            <lb ed="#V" n="53"/>mortaliter, quia quantum est ex parte
+            de<lb ed="#V" n="54" break="no"/>trahentis, abstulit famam. Limitanda est
+            <lb ed="#V" n="55"/>haec sententia quando alias non infert
+            <lb ed="#V" n="56"/>aliud damnum suspicionis, quia sic minuit
+            <lb ed="#V" n="57"/>famam et bonam opinionem alterius, vel
+            <lb ed="#V" n="58"/>certe si periculum sit cum tempore talem
+            <lb ed="#V" n="59"/>detractionem nocituram, ut frequenter
+            <lb ed="#V" n="60"/>contingit, quia dat causam malevolis et
+            <lb ed="#V" n="61"/>aemulis, ut ex ea deducant aestimationem
+            <lb ed="#V" n="62"/>alterius in dubium, ideoque sanum
+            consi<lb ed="#V" n="63" break="no"/>lium est ut se retractet.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Sed quid dicendum sit in casu, quo alii
+            <lb ed="#V" n="65"/>jam obliti sint infamiae causatae?
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Respondetur, si ex toto exciderit, ita ut
+            <lb ed="#V" n="67"/>non sit periculum ne reviviscat (quod
+            ad<lb ed="#V" n="68" break="no"/>modum rarum est, nisi in casu mortis
+            <lb ed="#V" n="69"/>eorum, qui audierunt, et aliis non
+            diffa<lb ed="#V" n="70" break="no"/>marunt) eum non teneri ad restitutionem;
+            <lb ed="#V" n="71"/>tenetur autem quandocumque periculum
+            <lb ed="#V" n="72"/>timetur, cum tempore fore, ne inferat
+            <lb ed="#V" n="73"/>damnum.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Aliqui tenent contrarium, sed resolutio
+            <lb ed="#V" n="75"/>data est verior; quamdiu enim causa
+            dam<lb ed="#V" n="76" break="no"/>ni efficax subsistit, et cum tempore ipsum
+            <lb ed="#V" n="77"/>damnum prudenter timetur, reviviscente
+            <lb ed="#V" n="78"/>causa tenetur, qui causam dedit et
+            appli<lb ed="#V" n="79" break="no"/>cat, ex qua speratur damnum, ut
+            eam<lb ed="#V" n="80" break="no"/>dem tollat.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Ex his patet quid dicendum sit, quando
+            <lb ed="#V" n="82"/>diffamatus alia via per legitimam
+            purgati<lb ed="#V" n="83" break="no"/>onem aut probationem innocentiae
+            recu<lb ed="#V" n="84" break="no"/>peravit famam.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Respondetur non teneri detractorem,
+            <lb ed="#V" n="86"/>nisi praecise ad damnum incursum ex
+            de<lb ed="#V" n="87" break="no"/>tractione, ut si quae factae sunt expensae,
+            <lb ed="#V" n="88"/>aut alia gravamina incursa ex privatione
+            <lb ed="#V" n="89"/>famae quamdiu viguit.
+          </p>
+          <p>
+            <pb ed="#V" n="397"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>(d) Et si quaeratur, aliquis non imponit
+            <lb ed="#V" n="2"/>in publico, etc. Hic resolvit de eo qui
+            <lb ed="#V" n="3"/>murmurat, vel indiscrete loquitur, vel
+            <lb ed="#V" n="4"/>tanquam ex aliis auditu, sibi tamen
+            incer<lb ed="#V" n="5" break="no"/>tum, deponit de proximo ea quae
+            detra<lb ed="#V" n="6" break="no"/>.hunt famae ejus. Dicit in primis, si
+            consi<lb ed="#V" n="7" break="no"/>derate haec fecerit, et animo nocendi
+            al<lb ed="#V" n="8" break="no"/>teri, peccare mortaliter contra charitatem;
+            <lb ed="#V" n="9"/>si inconsiderate, durum esse eum
+            dam<lb ed="#V" n="10" break="no"/>nari peccati mortalis, nam licet materia
+            <lb ed="#V" n="11"/>sit gravis, inadvertentia tamen minuit
+            <lb ed="#V" n="12"/>peccatum et voluntarium in opere, nam
+            <lb ed="#V" n="13"/>qui verbo non offendit, hic perfectus est vir,
+            <lb ed="#V" n="14"/>etc Non peccat contra justitiam, quia non
+            <lb ed="#V" n="15"/>posuit causam sufficientem infamandi
+            ali<lb ed="#V" n="16" break="no"/>um ex natura operis, licet contrarium
+            ac<lb ed="#V" n="17" break="no"/>ciderit ex levitate audientium, aut praya
+            <lb ed="#V" n="18"/>dispositione et alienatione animi ab eo de
+            <lb ed="#V" n="19"/>quo loquitur, aut certe prona inclinatione
+            <lb ed="#V" n="20"/>ad judicia temeraria et suspiciones.
+            Do<lb ed="#V" n="21" break="no"/>ctorem sequitur Cajetanus 2. 2. quaest. 73.
+            <lb ed="#V" n="22"/>art. 3. Navarr. in Manuali cap. 18. num.
+            <lb ed="#V" n="23"/>48. Adrianus de restitut. famae in fine.
+            <lb ed="#V" n="24"/>Sylvester, verbo Detractio, Lessius de
+            Ju<lb ed="#V" n="25" break="no"/>stitia et Jure lib. 2. cap. 7. dub. 5.
+          </p>
+          <p>
+            <lb ed="#V" n="26"/>Limitat Doctor casum, ut quando ex
+            <lb ed="#V" n="27"/>modo dicendi adhibetur major certitudo,
+            <lb ed="#V" n="28"/>ut si dicat se audivisse ex fide dignis, et
+            <lb ed="#V" n="29"/>hujusmodi, afferendo alia motiva, ex
+            qui<lb ed="#V" n="30" break="no"/>bus praesumptio oriri potest, quia tunc
+            te<lb ed="#V" n="31" break="no"/>netur ex justitia restituere, quem
+            sequun<lb ed="#V" n="32" break="no"/>tur praefati. Sed Sotus reprobat
+            resoluti<lb ed="#V" n="33" break="no"/>onem priorem, quia fama crescit eundo,
+            <lb ed="#V" n="34"/>et nimia libertas datur nocendi ex tali
+            re<lb ed="#V" n="35" break="no"/>solutione.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Respondetur crescere non ex causa
+            <lb ed="#V" n="37"/>data, quae inefficax fuit ad causandam
+            <lb ed="#V" n="38"/>fidem, sed ex vitio aliorum; neque
+            liber<lb ed="#V" n="39" break="no"/>tas datur murmurandi, quia est peccatum
+            <lb ed="#V" n="40"/>contra charitatem, dando aliis sine
+            neces<lb ed="#V" n="41" break="no"/>sitate ulla causam lapsus, quamvis contra
+            <lb ed="#V" n="42"/>justitiam non peccetur aut auferatur fama
+            <lb ed="#V" n="43"/>ex natura actus, nam radix restitutionis
+            <lb ed="#V" n="44"/>est ablatio injusta alienae famae per
+            cau<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>sam in re sufficientem ex natura causae.
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>Sed quid si animo nocendi haec faciat?
+            <lb ed="#V" n="47"/>Respondetur juxta ea, quae superius
+            <lb ed="#V" n="48"/>resoluta sunt de impediente beneficium,
+            <lb ed="#V" n="49"/>eum peccare contra justitiam, et teneri ad
+            <lb ed="#V" n="50"/>damnum, licet non ad restitutionem famae,
+            <lb ed="#V" n="51"/>nisi inquantum est necessarium medium
+            <lb ed="#V" n="52"/>resarciendi damni, quod ex dictis suis
+            <lb ed="#V" n="53"/>praevidit secuturum, et intendit, verbi
+            gra<lb ed="#V" n="54" break="no"/>tia, apud tumidos et temerarios retulit se
+            <lb ed="#V" n="55"/>audivisse Titium in ipsos aliquid subdole
+            <lb ed="#V" n="56"/>machinari, praevidens hinc ipsos
+            excitan<lb ed="#V" n="57" break="no"/>dos, ut Titium concipiunt inimicum, ac
+            <lb ed="#V" n="58"/>proinde aliquid in ipsum machinaturos,
+            <lb ed="#V" n="59"/>in eo casu intendit per se malum Titii, et
+            <lb ed="#V" n="60"/>applicavit causam sufficientem ex
+            inten<lb ed="#V" n="61" break="no"/>tione effectus, quod sufficit ad injustitiam
+            <lb ed="#V" n="62"/>ratione damni accepti et intenti per se.
+            <lb ed="#V" n="63"/>Sic dicerem etiam de ipsa infamia causata,
+            <lb ed="#V" n="64"/>quia licet simpliciter taliter relata non
+            <lb ed="#V" n="65"/>sunt ex se causae sufficientes, tamen ut
+            <lb ed="#V" n="66"/>subsunt intentioni injustae, quae per illa
+            <lb ed="#V" n="67"/>hic et nunc tanquam media electa ad
+            <lb ed="#V" n="68"/>finem reducitur in effectum, ipsa intentio
+            <lb ed="#V" n="69"/>completur causa proxima injustae
+            infama<lb ed="#V" n="70" break="no"/>tionis. Videantur quae ibi dicta sunt quaest.
+            <lb ed="#V" n="71"/>2. Dixi eum non obligari ad resarciendam
+            <lb ed="#V" n="72"/>famam, quia non intendit infamiam per
+            <lb ed="#V" n="73"/>se, sed damnum praetensum, quod
+            adhi<lb ed="#V" n="74" break="no"/>bita fraude causavit; in re autem non
+            <lb ed="#V" n="75"/>intendit infamiam, neque per se
+            sufficien<lb ed="#V" n="76" break="no"/>tem causam applicuit, sed intendit
+            com<lb ed="#V" n="77" break="no"/>movere animos aliorum in alterum per
+            <lb ed="#V" n="78"/>illud remedium. Exemplo declaratur, si
+            <lb ed="#V" n="79"/>quis dicat furi pecuniam alterius servari
+            <lb ed="#V" n="80"/>in tali loco absque diligentia, cum
+            inten<lb ed="#V" n="81" break="no"/>tione nocendi, praevidens furem
+            ablatu<lb ed="#V" n="82" break="no"/>rum illam pecuniam, est proditor rei
+            <lb ed="#V" n="83"/>alienae, et tenetur ad restitutionem; si
+            <lb ed="#V" n="84"/>tamen hoc dicat non praevidens damnum,
+            <lb ed="#V" n="85"/>neque intendens, neque debens
+            praevide<lb ed="#V" n="86" break="no"/>re, non tenetur ad damnum, ita in
+            pro<lb ed="#V" n="87" break="no"/>posito; nam licet tale dictum alias non
+            <lb ed="#V" n="88"/>sit sufficiens causa ablationis rei alienae,
+            <pb ed="#V" n="398"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>aut nocumenti ex se, tamen ut applicatur
+            <lb ed="#V" n="2"/>ad furem cum intentione nocendi, est
+            <lb ed="#V" n="3"/>causa proxima et efficax, ex qua damno
+            <lb ed="#V" n="4"/>secuto tenetur tanquam proditor rei
+            alie<lb ed="#V" n="5" break="no"/>nae. Sic qui refert hostibus civitatem in
+            <lb ed="#V" n="6"/>aliquo loco negligenter custodiri, est
+            pro<lb ed="#V" n="7" break="no"/>ditor civitatis; casus autem ut explicatur
+            <lb ed="#V" n="8"/>a Doctore, intelligitur absolute, et sine his
+            <lb ed="#V" n="9"/>circumstantiis, ut communiter contingit in
+            <lb ed="#V" n="10"/>praxi. Aliud exemplum potest adduci de
+            <lb ed="#V" n="11"/>eo qui consilium dat maleficii, instruendo
+            <lb ed="#V" n="12"/>- simul de modo, quem malefactor nescivit,
+            <lb ed="#V" n="13"/>quamvis revocet postea consilium, et
+            <lb ed="#V" n="14"/>aliter renuat morem gerere, sed
+            applican<lb ed="#V" n="15" break="no"/>do modum operatur damnum alterius,
+            <lb ed="#V" n="16"/>quod alias ignorato tali modo non
+            fecis<lb ed="#V" n="17" break="no"/>set. Tenetur prior ad restitutionem, non
+            <lb ed="#V" n="18"/>obstante revocatione consilii, et
+            dissuasi<lb ed="#V" n="19" break="no"/>one facti, quia ratione instructionis dedit
+            <lb ed="#V" n="20"/>per se causam maleficii, licet captatam ex
+            <lb ed="#V" n="21"/>propria malitia malefactoris. Eodem ergo
+            <lb ed="#V" n="22"/>modo in casu nostro praevidens damnum
+            <lb ed="#V" n="23"/>secuturum, et illud intendens per
+            me<lb ed="#V" n="24" break="no"/>dium efficax in his circumstantiis et
+            dis<lb ed="#V" n="25" break="no"/>positione aliorum, per se causat damnum,
+            <lb ed="#V" n="26"/>quia sermones operantur juxta naturam
+            <lb ed="#V" n="27"/>et capacitatem auditorum.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Sed quid dicendum si aliquis bona fide
+            <lb ed="#V" n="29"/>diffamavit alium, putans crimen esse
+            ve<lb ed="#V" n="30" break="no"/>rum et publicum, an resciens suum
+            erro<lb ed="#V" n="31" break="no"/>rem, teneatur ad restitutionem? Aliqui
+            <lb ed="#V" n="32"/>negant eum ex justitia teneri; teneri
+            <lb ed="#V" n="33"/>tamen ex charitate.
+            <lb ed="#V" n="34"/>Respondeo tamen verius teneri ex
+            justi<lb ed="#V" n="35" break="no"/>tia, quia licet bona fide infamaverit, tamen
+            <lb ed="#V" n="36"/>cum rescivit errorem, tenetur restituere
+            <lb ed="#V" n="37"/>quod abstulit, alias in retentione erit
+            <lb ed="#V" n="38"/>injustus, licet acceptio fuerit non injusta,
+            <lb ed="#V" n="39"/>excusante bona fide, sicut qui rem
+            alie<lb ed="#V" n="40" break="no"/>nam bona fide occupavit, postea sciens
+            <lb ed="#V" n="41"/>esse alienam, tenetur eam restituere. Sed
+            <lb ed="#V" n="42"/>quid de damno inde secuto? respondetur,
+            <lb ed="#V" n="43"/>si damnum fuit illatum, quamdiu ipse
+            <lb ed="#V" n="44"/>possedit bonam fidem, eum non teneri ad
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>restitutionem, si tamen fuerit illata ex
+            <lb ed="#V" n="46"/>causa infamationis; si, verbi gratia,
+            infa<lb ed="#V" n="47" break="no"/>matus privatus beneficio aut officio, et
+            <lb ed="#V" n="48"/>hujusmodi, et infamans in mala fide
+            per<lb ed="#V" n="49" break="no"/>severavit ante damnum illatum, tenetur
+            <lb ed="#V" n="50"/>ad restitutionem, quia fuit in mora contra
+            <lb ed="#V" n="51"/>justitiam. Dicerem eum teneri cum suo
+            <lb ed="#V" n="52"/>incommodo ad damnum, quia simpliciter
+            <lb ed="#V" n="53"/>in re et intentione tenebatur restituere
+            <lb ed="#V" n="54"/>famam, et praevenire damnum alterius,
+            <lb ed="#V" n="55"/>licet quidam doceant contrarium, qui
+            <lb ed="#V" n="56"/>putant in hoc distingui auferentem
+            fa<lb ed="#V" n="57" break="no"/>mam injuste, ab eo qui non injuste eam
+            <lb ed="#V" n="58"/>abstulit, quod ille etiam gravissimo
+            incom<lb ed="#V" n="59" break="no"/>modo teneatur restituere; hic vero non.
+            <lb ed="#V" n="60"/>Sed distinguendus est casus, quia si
+            dam<lb ed="#V" n="61" break="no"/>num incursum, sit ratione ablationis, tunc
+            <lb ed="#V" n="62"/>vera est differentia adducta inter
+            utrum<lb ed="#V" n="63" break="no"/>que; sed si damnum sit incursum ratione
+            <lb ed="#V" n="64"/>morae et injustae retentionis, tunc retinens
+            <lb ed="#V" n="65"/>est per se causa damni, et tenetur de
+            <lb ed="#V" n="66"/>damno. In proposito autem casu sic
+            sup<lb ed="#V" n="67" break="no"/>ponitur, imo nequit non inferre damnum
+            <lb ed="#V" n="68"/>alteri privato, verbi gratia, beneficio,
+            do<lb ed="#V" n="69" break="no"/>nec restituatur saltem ei fama, quia infa
+            <lb ed="#V" n="70"/>mia continuata perinde ei nocet, ac
+            cau<lb ed="#V" n="71" break="no"/>sata, cum eumdem semper effectum
+            indu<lb ed="#V" n="72" break="no"/>cat, quantum ad jacturam famae, et fama
+            <lb ed="#V" n="73"/>laesi semper sit penes ipsum, quantum ad
+            <lb ed="#V" n="74"/>damnum datum et potestatem restituendi.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d15q4-p3"> -->
+          <p>
+            <lb ed="#V" n="30" type="fixed=399"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>(e) De secundo dico, quod non tenetur
+            <lb ed="#V" n="32"/>retractare, etc. Secundus modus est
+            infa<lb ed="#V" n="33" break="no"/>i mare alium per impositionem criminis veri,
+            <lb ed="#V" n="34"/>sed occulti. Dicit ergo Doctor eum non
+            <lb ed="#V" n="35"/>teneri mentiri, cum sciat esse verum quod
+            <lb ed="#V" n="36"/>dixit, quia peccaret, et nemo ad
+            restitu<lb ed="#V" n="37" break="no"/>tionem cum damno animae tenetur;
+            tene<lb ed="#V" n="38" break="no"/>tur tamen alio modo licito persuadere, ne
+            <lb ed="#V" n="39"/>ipsi credant, verbi gratia, dicendo male
+            <lb ed="#V" n="40"/>dixi, fatue dixi, hujusmodi enim vera sunt,
+            <lb ed="#V" n="41"/>quia contra Juris ordinem dixit, et
+            propo<lb ed="#V" n="42" break="no"/>suit in publico, quod non erat verum
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>publicum. Haec est sententia communis
+            <lb ed="#V" n="44"/>antiquorum, 8. Thomae quaest. 62. art. 2.
+            <lb ed="#V" n="45"/>ad 2. Alensis supra, Gabriel. in hac dist.
+            <lb ed="#V" n="46"/>q. 16. art. 2. concl. 3. Ledesma art. 2.
+            <lb ed="#V" n="47"/>dub. 3. ubi supra, Navarr. cap. 18. num.
+            <lb ed="#V" n="48"/>45. Aragonii in 2. 2. quaest. praefata, art.
+            <lb ed="#V" n="49"/>2. in solut. 2. notab. 4. Bartholomaei
+            Medi<lb ed="#V" n="50" break="no"/>nae lib. 1. Instruct. Sacerdotum, cap. 14.
+            <lb ed="#V" n="51"/>Angeli verb. Detractio, num. 3. Sylvestri
+            <lb ed="#V" n="52"/>quaest. 4.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>Aliis hic modus restituendi non
+            cense<lb ed="#V" n="54" break="no"/>setur efficax, ita Cajetan. Sotus et alii, ut
+            <lb ed="#V" n="55"/>Navarr. et Petrus de Navarr. lib. 2. de
+            <lb ed="#V" n="56"/>restitut. c. 4. part. 3. dub. 5. Salonus, quia
+            <lb ed="#V" n="57"/>apud eruditos magis confirmat veritatem
+            <lb ed="#V" n="58"/>dicti, nempe scientibus crimen falsum
+            <lb ed="#V" n="59"/>deberi retractari cum infamatione
+            sui<lb ed="#V" n="60" break="no"/>ipsius, dicendo se mentitum fuisse, licet
+            <lb ed="#V" n="61"/>apud rudes et simplices forte sufficeret.
+            <lb ed="#V" n="62"/>Addunt debere eum non mentiri, sed
+            <lb ed="#V" n="63"/>nihil alias de tali crimine dicere, et
+            per<lb ed="#V" n="64" break="no"/>sonam apud omnes laudare.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Hic etiam modus minus efficax est,
+            <lb ed="#V" n="66"/>quia perinde prima infamia incursa apud
+            <lb ed="#V" n="67"/>omnes, et potius censebunt hominem
+            va<lb ed="#V" n="68" break="no"/>num esse et imprudentem, quia laudat
+            <lb ed="#V" n="69"/>eum, quem criminose diffamavit apud
+            <lb ed="#V" n="70"/>eosdem, nulla facta retractatione; laudare
+            <lb ed="#V" n="71"/>tamen, adminiculum est retractationis
+            fa<lb ed="#V" n="72" break="no"/>ctae priori modo.
+          </p>
+          <p>
+            <lb ed="#V" n="73"/>Tertius modus est, debere se retractare,
+            <lb ed="#V" n="74"/>dicendo se mentitum fuisse, quia dixit in
+            <lb ed="#V" n="75"/>publico crimen de alio, quod non fuit
+            <lb ed="#V" n="76"/>publicum, licet in reipsa verum erat
+            veri<lb ed="#V" n="77" break="no"/>tate rei. Hunc modum tenet Salonus
+            <lb ed="#V" n="78"/>citatus, et Petrus de Navarro. Ille citat
+            <lb ed="#V" n="79"/>pro eo Canum et Magistrum Mansium;
+            <lb ed="#V" n="80"/>sequitur Valentia supra citatus, Molina
+            <lb ed="#V" n="81"/>tractat. 4. disput. 44. Probabiliorem
+            cen<lb ed="#V" n="82" break="no"/>set Lessius cap. 20. Quod patet etiam ex
+            <lb ed="#V" n="83"/>Doctore in littera, ubi dicit, quod is
+            pro<lb ed="#V" n="84" break="no"/>posuit in publico, quod non est verum
+            <lb ed="#V" n="85"/>publicum, quia neque evidentia Juris
+            <lb ed="#V" n="86"/>facti vel famae, fuit publicum; tum quia
+            <pb ed="#V" n="400"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sic potest respondere confesssor
+            interro<lb ed="#V" n="2" break="no"/>gatus, sic etiam reus respondere potest se
+            <lb ed="#V" n="3"/>non fecisse crimen interrogatus in judicio,
+            <lb ed="#V" n="4"/>si alias fuit occultum, et probari nequit;
+            <lb ed="#V" n="5"/>sic etiam judex damnans innocentem, qui
+            <lb ed="#V" n="6"/>ex allegatis et probatis convincitur, dicit
+            <lb ed="#V" n="7"/>eum esse criminosum, quamvis scientia
+            <lb ed="#V" n="8"/>privata novit eum esse insontem; ergo
+            <lb ed="#V" n="9"/>hoc sine mendacio dici potest per
+            aequi<lb ed="#V" n="10" break="no"/>vocationem. Hoc dato, est efficax medium
+            <lb ed="#V" n="11"/>et optimum; ergo ad illud tenetur, cum
+            <lb ed="#V" n="12"/>sine mendacio id affirmare possit.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Respondetur tamen primum modum
+            <lb ed="#V" n="14"/>esse servandum, quia est communis
+            sen<lb ed="#V" n="15" break="no"/>tentia, et probatur ratione Doctoris, quia
+            <lb ed="#V" n="16"/>sive apud prudentes, sive apud rudes per
+            <lb ed="#V" n="17"/>talem modum sufficienter satisfacit et
+            re<lb ed="#V" n="18" break="no"/>tractat dictum, quia ipsi tenentur habere
+            <lb ed="#V" n="19"/>bonam opinionem de alio, donec ex
+            suffi<lb ed="#V" n="20" break="no"/>cienti fundamento constet de opposito, et
+            <lb ed="#V" n="21"/>probetur. Eo autem ipso quo alter non
+            <lb ed="#V" n="22"/>inhaeret dictis, sed ea damnat tanquam
+            <lb ed="#V" n="23"/>indiscrete dicta, nullum est fundamentum
+            <lb ed="#V" n="24"/>conservandae opinionis primae, juxta illud
+            <lb ed="#V" n="25"/>Extra de judicio in ordine faciendo, cap.
+            <lb ed="#V" n="26"/>unico: Quem indignum esse non novit,
+            <lb ed="#V" n="27"/>dignum debeat aestimare, etc. Si ergo
+            <lb ed="#V" n="28"/>dicenti male de aliquo fides adhibeatur ex
+            <lb ed="#V" n="29"/>auctoritate sola illius, ita etiam serio
+            <lb ed="#V" n="30"/>dicenti non esse credendum malum de eo,
+            <lb ed="#V" n="31"/>et se inconsiderate locutum, vel fuisse
+            <lb ed="#V" n="32"/>deceptum, similiter adhibenda est,
+            maxi<lb ed="#V" n="33" break="no"/>me cum justitia et charitas ad hoc
+            obli<lb ed="#V" n="34" break="no"/>get; ad illud autem non ita, quia sicut
+            <lb ed="#V" n="35"/>unus testis non facit fidem in judicio, aut
+            <lb ed="#V" n="36"/>sufficientem probationem, nisi sit omni
+            <lb ed="#V" n="37"/>exceptione major, ita etiam neque
+            accu<lb ed="#V" n="38" break="no"/>sator, nisi probet quod deponit. Ergo
+            <lb ed="#V" n="39"/>etiam neque in judicio privato ex relatione
+            <lb ed="#V" n="40"/>unius debet formari judicium in
+            detrimen<lb ed="#V" n="41" break="no"/>tum bonae opinionis (quae ex pluribus aliis
+            <lb ed="#V" n="42"/>probationibus, et motivis subsistit,) saltem
+            <lb ed="#V" n="43"/>ex ulla obligatione, qua tenentur
+            audien<lb ed="#V" n="44" break="no"/>tes credere dicenti, et quod amplius est
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>retractanti suum dictum; nam cum videant
+            <lb ed="#V" n="46"/>eum imponere alteri contra justitiam
+            pec<lb ed="#V" n="47" break="no"/>catum occultum, et in hoc peccare
+            gra<lb ed="#V" n="48" break="no"/>viter contra justitiam, sic etiam
+            secun<lb ed="#V" n="49" break="no"/>dum justitiam praesumere magis debent
+            <lb ed="#V" n="50"/>eum ex passione mentitum, quam verum
+            <lb ed="#V" n="51"/>dixisse. Praesumere etiam possunt, et
+            pru<lb ed="#V" n="52" break="no"/>denter, eum hoc modo retractare ex
+            qua<lb ed="#V" n="53" break="no"/>dam modestia, aut pudore, quo famae
+            pro<lb ed="#V" n="54" break="no"/>priae magis parcat, ne dicat expresse se
+            <lb ed="#V" n="55"/>mentitum fuisse, quam ex conscientia
+            cri<lb ed="#V" n="56" break="no"/>minis alieni non velle mentiri. Praesumere
+            <lb ed="#V" n="57"/>etiam possunt, quod ea sit opinio ejus de
+            <lb ed="#V" n="58"/>probitate ipsorum, ut putet illam
+            retracta<lb ed="#V" n="59" break="no"/>tionem sufficientem esse, ex qua ipsi
+            te<lb ed="#V" n="60" break="no"/>nentur revera opinionem pravam de alio
+            <lb ed="#V" n="61"/>deponere, si quam conceperunt ex ipsius
+            <lb ed="#V" n="62"/>solius relatione priori, cui vident eum non
+            <lb ed="#V" n="63"/>constare.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Secundo probatur sufficientia hujus
+            re<lb ed="#V" n="65" break="no"/>tractationis: Crimen occultum alicujus
+            <lb ed="#V" n="66"/>revelare uni aut alteri, quibus perinde
+            <lb ed="#V" n="67"/>est dicere quantum ad publicam infamiam
+            <lb ed="#V" n="68"/>ac si nulli diceretur, non infert notabile
+            <lb ed="#V" n="69"/>detrimentum famae alteri, neque dicens
+            <lb ed="#V" n="70"/>tenetur ad restitutionem, cum non transit
+            <lb ed="#V" n="71"/>inde in publicum, neque sequitur aliud
+            <lb ed="#V" n="72"/>detrimentum. Hoc tenet Cajetanus q. 73.
+            <lb ed="#V" n="73"/>art. 2. Navarr. cap 18. n. 33. Corduba
+            <lb ed="#V" n="74"/>tract. de detract. q. 2. conclus. 5. Lessius
+            <lb ed="#V" n="75"/>cap. 11. et alii, quos alii sequuntur, ut
+            <lb ed="#V" n="76"/>Petrus de Navarr. lib. 2. cap. 4. quia
+            <lb ed="#V" n="77"/>neque confitens peccata Sacerdoti, aut
+            <lb ed="#V" n="78"/>explicans personam complicis ex
+            neces<lb ed="#V" n="79" break="no"/>sitate integrae confessionis ob
+            circumstan<lb ed="#V" n="80" break="no"/>tiam, censetur detrimentum famae facere
+            <lb ed="#V" n="81"/>sibi aut alteri, quod sit notabile.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>Si dicas obligari ex praecepto particulari
+            <lb ed="#V" n="83"/>confessionis, ut se infamet apud
+            sacerdo<lb ed="#V" n="84" break="no"/>tem, et etiam complicem, quae sicut
+            con<lb ed="#V" n="85" break="no"/>sensit in peccatum, ita etiam renuntiat
+            <lb ed="#V" n="86"/>juri suo; contra, eodem modosicut peccans
+            <lb ed="#V" n="87"/>publice ex natura actus de se notorii
+            <pb ed="#V" n="401"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>etiam juri suo cessit, quantum ad famam
+            <lb ed="#V" n="2"/>in publico, ita ut diffamanas eum de tali.
+            <lb ed="#V" n="3"/>non teneatur ad restitutionem, sic etiam
+            <lb ed="#V" n="4"/>peccans in occulto renuntiat suae famae in
+            <lb ed="#V" n="5"/>occulto, quando peccat alio conscio. Si
+            <lb ed="#V" n="6"/>ergo is servet quidem peccatum in
+            occul<lb ed="#V" n="7" break="no"/>to, ut non publicetur, si illud communicat
+            <lb ed="#V" n="8"/>modo quo non possit, neque timetur
+            ven<lb ed="#V" n="9" break="no"/>turum in publicam notitiam, non violat
+            <lb ed="#V" n="10"/>jus alterius, ita ut teneretur ad
+            restitutio<lb ed="#V" n="11" break="no"/>nem ei faciendam, quia eo ipso videtur
+            <lb ed="#V" n="12"/>renuntiare famae in occulto, quo peccavit
+            <lb ed="#V" n="13"/>alio conscio, et maxime si sit ratio
+            suffi<lb ed="#V" n="14" break="no"/>ciens communicandi illud peccatum aliis,
+            <lb ed="#V" n="15"/>qui secretum tenebunt, ut si inde
+            com<lb ed="#V" n="16" break="no"/>modum aliquod notabile sequatur ipsi
+            <lb ed="#V" n="17"/>aut aliis, aut submoveatur occasio
+            re<lb ed="#V" n="18" break="no"/>lapsus.
+          </p>
+          <p>
+            <lb ed="#V" n="19"/>Confirmatur, quia hoc ordine procedit
+            <lb ed="#V" n="20"/>correctio fraterna, ut quis inter se et
+            <lb ed="#V" n="21"/>alterum eum corripiat de peccato. Deinde
+            <lb ed="#V" n="22"/>adducendo testes, quibus necessario
+            <lb ed="#V" n="23"/>communicatur peccatum ejus, et adhuc
+            <lb ed="#V" n="24"/>manet occultum, et censetur manere;
+            <lb ed="#V" n="25"/>neque committi injuriam alteri, quamvis
+            <lb ed="#V" n="26"/>communicetur sic peccatum ejus; neque
+            <lb ed="#V" n="27"/>communicans tenetur ei restituere famam,
+            <lb ed="#V" n="28"/>cujus jus perdidit peccando occulte,
+            <lb ed="#V" n="29"/>quantum ad famam in occulto.
+            <lb ed="#V" n="30"/>Hoc ergo supposito, sic argumentor:
+            <lb ed="#V" n="31"/>Retractatio facta modo supra expresso
+            <lb ed="#V" n="32"/>reducit peccatum alterius ad statum
+            pec<lb ed="#V" n="33" break="no"/>cati occulti, quia auditores tenentur ex
+            <lb ed="#V" n="34"/>justitia et charitate non deducere illud
+            <lb ed="#V" n="35"/>amplius in publicum, quia non subsistit
+            <lb ed="#V" n="36"/>fundamentum deducendi in publicum
+            <lb ed="#V" n="37"/>peccati, nisi dictum alterius, quod
+            suffi<lb ed="#V" n="38" break="no"/>cienter est revocatum illo modo. Unde si
+            <lb ed="#V" n="39"/>peccatum ab audientibus deducatur in
+            <lb ed="#V" n="40"/>notitiam aliorum, tenentur ad
+            restitutio<lb ed="#V" n="41" break="no"/>nem famae alterius, et peccant contra
+            <lb ed="#V" n="42"/>justitiam, et omne damnum est ex ipsis;
+            <lb ed="#V" n="43"/>ergo ille modus est sufficiens, quia alter
+            <lb ed="#V" n="44"/>non tenetur de infamatione, nisi solum de
+            <lb ed="#V" n="45"/>publica, quam sufficienter revocavit.
+          </p>
+          <p>
+            <lb ed="#V" n="46"/>Tom. XVIII.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="47"/>Praeterea tertio, haec infamatio de
+            cri<lb ed="#V" n="48" break="no"/>mine vero est contra justitiam tantum,
+            <lb ed="#V" n="49"/>inquantum est contra Juris ordinem; sed
+            <lb ed="#V" n="50"/>peccatum contra justitiam ex hoc capite
+            <lb ed="#V" n="51"/>dumtaxat, non inducit obligationem
+            tan<lb ed="#V" n="52" break="no"/>tam, quantam inducit peccatum contra
+            <lb ed="#V" n="53"/>substantiam justitiae, auferendo injuste
+            <lb ed="#V" n="54"/>quod est alterius, vel damnificando ipsum
+            <lb ed="#V" n="55"/>contra justitiam; ergo alia est satisfactio
+            <lb ed="#V" n="56"/>per se requisita, et correspondens justitiae
+            <lb ed="#V" n="57"/>in substantia laesae tantum in modo, aut
+            <lb ed="#V" n="58"/>contra Juris ordinem, quia potest illud
+            <lb ed="#V" n="59"/>peccatum denuntiare superiori tanquam
+            <lb ed="#V" n="60"/>patri, servato ordine charitatis, vel eidem
+            <lb ed="#V" n="61"/>tanquam judici, servato ordine justitiae,
+            <lb ed="#V" n="62"/>modo probari possit, et in eo casu non
+            <lb ed="#V" n="63"/>obligatur alteri ad restituendam famam;
+            <lb ed="#V" n="64"/>ergo eatenus praecise tenetur, quatenus,
+            <lb ed="#V" n="65"/>injuriam, aut damnum intulit contra Juris
+            <lb ed="#V" n="66"/>ordinem; ergo restitutio debita est
+            diver<lb ed="#V" n="67" break="no"/>sae rationis et aestimationis, quam sit
+            <lb ed="#V" n="68"/>restitutio facienda ex impositione falsi
+            <lb ed="#V" n="69"/>criminis. Sed haec restitutio rigorosa et
+            <lb ed="#V" n="70"/>ultima, quae debet in hoc casu dari, est
+            <lb ed="#V" n="71"/>revocare dictum, asserendo se esse
+            <lb ed="#V" n="72"/>mentitum, infamando seipsum ex
+            quali<lb ed="#V" n="73" break="no"/>tate delicti, seu injuriae et damni dati;
+            <lb ed="#V" n="74"/>ergo haec non debetur infamato solum
+            <lb ed="#V" n="75"/>contra Juris ordinem, sed alia minoris
+            aes<lb ed="#V" n="76" break="no"/>timationis; haec autem minoris
+            aestimati<lb ed="#V" n="77" break="no"/>onis, proportionata tamen injuriae factae,
+            <lb ed="#V" n="78"/>est revocatio dicti, ut erat contra Juris
+            or<lb ed="#V" n="79" break="no"/>dinem, prout complete fit eo modo, quem
+            <lb ed="#V" n="80"/>praescribit Doctor et antiqui; ergo ad
+            <lb ed="#V" n="81"/>illum tenetur solum de stricto Jure.
+          </p>
+          <p>
+            <lb ed="#V" n="82"/>Ex his patet ad fundamenta secundi
+            <lb ed="#V" n="83"/>modi, et etiam ad fundamenta tertiae
+            opi<lb ed="#V" n="84" break="no"/>nionis, quia quidquid sit, an ipse tum
+            <lb ed="#V" n="85"/>mentiatur in re cum tali aequivocatione,
+            <lb ed="#V" n="86"/>mentitur in opinione aliorum, ad quod
+            <lb ed="#V" n="87"/>non tenetur, et sine necessitate est
+            prodi<lb ed="#V" n="88" break="no"/>gus suae famae; imo haec libertas
+            aequivo<lb ed="#V" n="89" break="no"/>candi et decipiendi alios, non temere
+            <lb ed="#V" n="90"/>debet admitti, neque trahi in praxime
+            <pb ed="#V" n="402"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quia destruit societatem humanam, et
+            <lb ed="#V" n="2"/>multum detrahit fidei et sinceritati
+            homi<lb ed="#V" n="3" break="no"/>num, et etiam securitati in contractibus,
+            <lb ed="#V" n="4"/>in judiciis et aliis commerciis, et in reipsa
+            <lb ed="#V" n="5"/>plurimum posita in usum, eadem pene
+            <lb ed="#V" n="6"/>damna infert, quae inducit mendacium,
+            <lb ed="#V" n="7"/>quantum ad deceptionem, quia perinde
+            <lb ed="#V" n="8"/>inducit mendacium apparens errorem in
+            <lb ed="#V" n="9"/>audiente, ac mendacium reale, quia
+            eum<lb ed="#V" n="10" break="no"/>dem conceptum in audiente utrumque
+            <lb ed="#V" n="11"/>causat, et perinde tollit securitatem
+            audi<lb ed="#V" n="12" break="no"/>entis, et auctoritatem dicentis apud alium,
+            <lb ed="#V" n="13"/>si ei expertum sit talem per verba
+            aequivo<lb ed="#V" n="14" break="no"/>ca, ex mera intentione fallendi, solere
+            illu<lb ed="#V" n="15" break="no"/>dere et decipere; quamvis enim quis non
+            <lb ed="#V" n="16"/>semper dicat veritatem, neque expediat
+            <lb ed="#V" n="17"/>dicere, alia via tentanda est, quam ut
+            <lb ed="#V" n="18"/>verbis contra communem sensum et usum
+            <lb ed="#V" n="19"/>sermonis abutamur. Quod videtur contra
+            <lb ed="#V" n="20"/>justitiam, quia per fraudem alius seducitur
+            <lb ed="#V" n="21"/>in errorem, cujus causa per se est
+            instru<lb ed="#V" n="22" break="no"/>mentorum communium aut signorum,
+            <lb ed="#V" n="23"/>quae necessaria sunt, et a Deo data ad
+            <lb ed="#V" n="24"/>conservationem societatis inter homines,
+            <lb ed="#V" n="25"/>et communicationem fallax assumptio
+            <lb ed="#V" n="26"/>contra illud quod per se et in rigore
+            <lb ed="#V" n="27"/>significant ex communi sensu, et quod
+            <lb ed="#V" n="28"/>pejus est ex animo decipiendi et
+            sedu<lb ed="#V" n="29" break="no"/>cendi alium in errorem.
+          </p>
+          <p>
+            <lb ed="#V" n="30"/>Quoad me pertinet non minus crederem
+            <lb ed="#V" n="31"/>mendaci, quam assueto aequivocationibus,
+            <lb ed="#V" n="32"/>non damno tamen in causa necessitatis, ut
+            <lb ed="#V" n="33"/>plures docent, quandoque uti his, sed
+            <lb ed="#V" n="34"/>damno abusum et consuetudinem. Et
+            <lb ed="#V" n="35"/>quamvis non sit peccatum non dicere
+            <lb ed="#V" n="36"/>alteri veritatem quandoque, quia nec
+            ha<lb ed="#V" n="37" break="no"/>bet jus inquirendi eam, neque tu dicendi
+            <lb ed="#V" n="38"/>obligationem, videtur tamen habere jus,
+            <lb ed="#V" n="39"/>ut per te non decipiatur per se per
+            im<lb ed="#V" n="40" break="no"/>pressionem erroris applicando verba, et
+            <lb ed="#V" n="41"/>ita conjungendo, ut ex rigore sermonis
+            <lb ed="#V" n="42"/>faciat sensum erroneum, quem loquens
+            <lb ed="#V" n="43"/>videt concipiendum ab audiente. Quod si
+            <lb ed="#V" n="44"/>casus necessitatis, nocumenti gravis, aut
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>praecepti urgeat, ita ut alter ex
+            taciturni<lb ed="#V" n="46" break="no"/>tate gravius aliquod incurrat peccatum,
+            <lb ed="#V" n="47"/>tunc potest quis aequivocare, non ea
+            rati<lb ed="#V" n="48" break="no"/>one qua hoc semper liceat, sed quia inter
+            <lb ed="#V" n="49"/>extrema mala, in quae alter est lapsurus
+            <lb ed="#V" n="50"/>in tali dispositione animi, quae aliter
+            ne<lb ed="#V" n="51" break="no"/>quit, aut aliis mediis emendari, minus
+            <lb ed="#V" n="52"/>malum potest consuli et permitti. Haec
+            <lb ed="#V" n="53"/>dixerim sub correctione melius sentientis,
+            <lb ed="#V" n="54"/>ne quis ex frequenti usu et libertate
+            re<lb ed="#V" n="55" break="no"/>servationis mentalis, et deceptione vocali
+            <lb ed="#V" n="56"/>fidem suam et auctoritatem prostituat,
+            <lb ed="#V" n="57"/>aut fallaciis et fraudibus contra Jura
+            Gen<lb ed="#V" n="58" break="no"/>tium et naturae, locum praebeat, quia puto
+            <lb ed="#V" n="59"/>grave esse delictum et contra justitiam.
+            <lb ed="#V" n="60"/>Adde quod difficulter salvari posset
+            men<lb ed="#V" n="61" break="no"/>dacium, quin committatur in opere, quia
+            <lb ed="#V" n="62"/>signi usus secundum communem
+            accepti<lb ed="#V" n="63" break="no"/>onem et institutionem est naturalis, et
+            <lb ed="#V" n="64"/>solum permissus. Unde si quis uteretur
+            <lb ed="#V" n="65"/>signo in re contra communem
+            significa<lb ed="#V" n="66" break="no"/>tionem, sicut Joab et Judas osculo, quod
+            <lb ed="#V" n="67"/>est signum amicitiae ad circumveniendum
+            <lb ed="#V" n="68"/>alios, committet deceptionem in opere.
+            <lb ed="#V" n="69"/>Ergo similiter committit deceptionem in
+            <lb ed="#V" n="70"/>voce, qui utitur verbis contra eorum
+            signi<lb ed="#V" n="71" break="no"/>ficationem, seclusis aliis circumstantiis,
+            <lb ed="#V" n="72"/>ex quibus fallacia deprehendi posset;
+            <lb ed="#V" n="73"/>committit, inquam, non solum
+            deceptio<lb ed="#V" n="74" break="no"/>nem, sed etiam mendacium, quod est
+            <lb ed="#V" n="75"/>contra mentem ire, quae supponitur
+            signi<lb ed="#V" n="76" break="no"/>ficari per sermonem, quod passim non
+            <lb ed="#V" n="77"/>licet; neque valet consequentia illa in
+            <lb ed="#V" n="78"/>speculatione aut praxi; aliquando licet
+            <lb ed="#V" n="79"/>aequivocare, ergo semper.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Neque contra facit casus de reo et
+            judi<lb ed="#V" n="81" break="no"/>ce, quia ille respondet prout interrogatur
+            <lb ed="#V" n="82"/>in foro externo, et hoc ex circumstantiis
+            <lb ed="#V" n="83"/>patet, quia respondet in judicio, et
+            tene<lb ed="#V" n="84" break="no"/>tur judici tantum, quantum ad id ad quod
+            <lb ed="#V" n="85"/>sua potestas extenditur in ordine ad
+            cri<lb ed="#V" n="86" break="no"/>men, quod publice probari potest. Judex
+            <lb ed="#V" n="87"/>etiam, cum judicet secundum datam
+            po<lb ed="#V" n="88" break="no"/>testatem, ut persona publica, respicit
+            ve<pb ed="#V" n="403"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>ritatem legis, cujus materia est crimen
+            <lb ed="#V" n="2"/>secundum allegata et probata, ut
+            dedu<lb ed="#V" n="3" break="no"/>citur ad forum, in quo cognoscit de
+            cri<lb ed="#V" n="4" break="no"/>mine.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Alius casus de confessore sic
+            interroga<lb ed="#V" n="6" break="no"/>to ob naturam Sacramenti et secreti
+            sa<lb ed="#V" n="7" break="no"/>cramentalis, aut sigilli illicite et injuste
+            <lb ed="#V" n="8"/>interrogatur, si videt damnum secuturum
+            <lb ed="#V" n="9"/>ex sua taciturnitate, nisi neget crimen sibi
+            <lb ed="#V" n="10"/>confessum, tunc minus malum, nempe
+            <lb ed="#V" n="11"/>deceptionem alterius eligere potest, qui
+            <lb ed="#V" n="12"/>sua culpa decipitur, et ex circumstantiis,
+            <lb ed="#V" n="13"/>aut natura materiae, debet alter prudenter
+            <lb ed="#V" n="14"/>judicare confessarium non dicere ei
+            veri<lb ed="#V" n="15" break="no"/>tatem rei, neque posse dicere. Unde
+            di<lb ed="#V" n="16" break="no"/>cendo crimen se non audivisse in
+            confes<lb ed="#V" n="17" break="no"/>sione, debet praesumere etiam eum uti
+            <lb ed="#V" n="18"/>reservatione et signo cum tali
+            reservati<lb ed="#V" n="19" break="no"/>one, et sibi imputanda est deceptio; non
+            <lb ed="#V" n="20"/>inde sequitur fundari talem
+            praesumpti<lb ed="#V" n="21" break="no"/>onem in quibuscumque occasionibus in
+            <lb ed="#V" n="22"/>quibus interrogatus non velit dicere
+            veri<lb ed="#V" n="23" break="no"/>tatem, quia hoc modo omnes mendaces
+            <lb ed="#V" n="24"/>se excusarent, praetendendo
+            reservati<lb ed="#V" n="25" break="no"/>onem mentalem. Sed hoc ad aliam
+            mate<lb ed="#V" n="26" break="no"/>riam spectat examinare; nunc quoad
+            ca<lb ed="#V" n="27" break="no"/>sum de quo disputatur, sufficit quod
+            in<lb ed="#V" n="28" break="no"/>famator criminis occulti nulla in re
+            obli<lb ed="#V" n="29" break="no"/>getur ad praefatam retractationem,
+            dicen<lb ed="#V" n="30" break="no"/>do se mentitum fuisse, imo meo videri, si
+            <lb ed="#V" n="31"/>ad aliud tenetur, melius diceret se fuisse
+            <lb ed="#V" n="32"/>aequivocatum ad deceptionem aliorum ex
+            <lb ed="#V" n="33"/>ludo et artificio, et quandoque ex natura
+            <lb ed="#V" n="34"/>rei admonetur sufficienter audiens non
+            <lb ed="#V" n="35"/>intendi dici veritatem, neque debere dici;
+            <lb ed="#V" n="36"/>ergo licet semper et passim aequivocare,
+            <lb ed="#V" n="37"/>non valet consequentia, sicut non valet
+            <lb ed="#V" n="38"/>haec: potest quis cum defensione
+            incul<lb ed="#V" n="39" break="no"/>patae tutelae occidere; ergo semper et
+            pas<lb ed="#V" n="40" break="no"/>sim occidere, non in defensionem.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Petes utrum qui de uno aut altero
+            cri<lb ed="#V" n="42" break="no"/>mine est infamatus in publico, possit
+            in<lb ed="#V" n="43" break="no"/>famari publice de alio crimine.
+            <lb ed="#V" n="44"/>Respondetur a quibusdam, si crimen est
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>per se connexum aliis, de quibus est
+            in<lb ed="#V" n="46" break="no"/>famatus, posse infamari sine peccato; si
+            <lb ed="#V" n="47"/>tamen est aliud diversum, non licet.
+            Quan<lb ed="#V" n="48" break="no"/>tum ad secundum, resolutio est communis
+            <lb ed="#V" n="49"/>Doctorum, et patet ex dictis. Quantum ad
+            <lb ed="#V" n="50"/>primum, dicendum est simpliciter, si
+            au<lb ed="#V" n="51" break="no"/>geatur infamia delicti commissi peculiari
+            <lb ed="#V" n="52"/>ordine et modo, vel ex alio crimine etiam
+            <lb ed="#V" n="53"/>connexo, non licere eum infamare, verbi
+            <lb ed="#V" n="54"/>gratia, si quis est infamatus de homicidio
+            <lb ed="#V" n="55"/>tantum, non licet eum infamare de
+            pro<lb ed="#V" n="56" break="no"/>ditione facta, qua incautum occidit, aut
+            <lb ed="#V" n="57"/>de nimia crudelitate, nequa etiam de
+            ni<lb ed="#V" n="58" break="no"/>mia continuatione criminis, aut
+            frequenta<lb ed="#V" n="59" break="no"/>tione; si tamen media sunt ordinaria, aut
+            <lb ed="#V" n="60"/>circumstantiae communes, verbi gratia,
+            <lb ed="#V" n="61"/>litterae et munera inter sollicitandum
+            mu<lb ed="#V" n="62" break="no"/>lierem ad lapsum, hoc licet dicere secuta
+            <lb ed="#V" n="63"/>infamia ad effectum.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Petes secundo utrum qui infamatur in
+            <lb ed="#V" n="65"/>una civitate aut loco, adhuc retinens in
+            <lb ed="#V" n="66"/>altero famam suam liceat eum ibi
+            in<lb ed="#V" n="67" break="no"/>famare?
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Respondetur, si est infamatus publice
+            <lb ed="#V" n="69"/>notorietate facti aut Juris, non videtur
+            <lb ed="#V" n="70"/>contra justitiam eum alibi diffamare, quia
+            <lb ed="#V" n="71"/>in primo casu videtur suae famae
+            renun<lb ed="#V" n="72" break="no"/>tiasse; in secundo per sententiam ea
+            pri<lb ed="#V" n="73" break="no"/>vatur. Videtur id sentire Doctor in primo
+            <lb ed="#V" n="74"/>membro hujus quaestionis, Quando, verbi
+            <lb ed="#V" n="75"/>gratia, quis publice commisit peccatum
+            <lb ed="#V" n="76"/>fornicationis, ex natura actus se privasse
+            <lb ed="#V" n="77"/>sua fama. Sequitur Cajetanus Opusc. 31.
+            <lb ed="#V" n="78"/>responsione 9. Navar. 18. n. 26. Quantum
+            <lb ed="#V" n="79"/>ad infamiam ex sententia judicis, hoc est
+            <lb ed="#V" n="80"/>clarius, quia illa poena est, quam lex
+            in<lb ed="#V" n="81" break="no"/>ducit.
+            <lb ed="#V" n="82"/>Caeterum intelligendum est hoc, quando
+            <lb ed="#V" n="83"/>aliud damnum diversum non sequeretur
+            <lb ed="#V" n="84"/>ex tali infamia alibi, et quando alius non
+            <lb ed="#V" n="85"/>recuperavit famam suam, seipsum
+            emen<lb ed="#V" n="86" break="no"/>dando, quia putarem peccatum esse
+            con<lb ed="#V" n="87" break="no"/>tra justitiam et charitatem eum diffamare,
+            <lb ed="#V" n="88"/>ubi acquisivit nomen bonum. Sicut si quis
+            <pb ed="#V" n="404"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>furatus rem alienam, et mox restituens, si
+            <lb ed="#V" n="2"/>eamdem emerit, denuo non potest ea
+            <lb ed="#V" n="3"/>privari injuste, quia facta est sua per
+            con<lb ed="#V" n="4" break="no"/>tractum, quam alias illicite contrectavit.
+            <lb ed="#V" n="5"/>Deinde ille rationabiliter est nolens
+            fa<lb ed="#V" n="6" break="no"/>mam, quam recuperavit, amittere; ergo
+            <lb ed="#V" n="7"/>nequit ipsi auferri; debetur enim ei, et
+            <lb ed="#V" n="8"/>habet possessionem facti fundatam in
+            <lb ed="#V" n="9"/>Jure, quod emendatus acquisivit..
+          </p>
+          <p>
+            <lb ed="#V" n="10"/>Sic etiam potest quis revelare
+            pecca<lb ed="#V" n="11" break="no"/>tum occultum alicujus, inquantum est
+            <lb ed="#V" n="12"/>necessarium ad impediendum notabile
+            <lb ed="#V" n="13"/>damnum proximi, ut verbi gratia, si
+            <lb ed="#V" n="14"/>aliquem scio furem, possum admonere
+            <lb ed="#V" n="15"/>eos apud quos habitat, ut rebus suis
+            <lb ed="#V" n="16"/>caveant. Sic etiam de medico imperito,
+            <lb ed="#V" n="17"/>ne ejus imperitia noceat aliis, qui
+            pu<lb ed="#V" n="18" break="no"/>tent eum peritum; de advocato et aliis.
+            <lb ed="#V" n="19"/>Sotus libro 5. de Justitia et Jure quaest.
+            <lb ed="#V" n="20"/>7. art. 7. art. 1. Navar. loco citato. Ratio
+            <lb ed="#V" n="21"/>est, quia alter non habet jus famae suae
+            <lb ed="#V" n="22"/>cum detrimento et notabili damno
+            inno<lb ed="#V" n="23" break="no"/>centis. Si alia via impediri posset
+            dam<lb ed="#V" n="24" break="no"/>num, tum parcendum est famae alterius.
+          </p>
+          <p>
+            <lb ed="#V" n="25"/>Infamia Juris incursa per delictum, cui
+            <lb ed="#V" n="26"/>haec poena in specie annexa est, quid sit,
+            <lb ed="#V" n="27"/>et quid operatur ante sententiam.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Respondetur illam esse, quando lex dicit
+            <lb ed="#V" n="29"/>auctorem talis vel talis sceleris esse ipso
+            <lb ed="#V" n="30"/>facta infamem, ut si quis simul contrahat
+            <lb ed="#V" n="31"/>cum duabus, et si exigat usuras
+            usura<lb ed="#V" n="32" break="no"/>rum, si quis filias aut neptes prostituit, et
+            <lb ed="#V" n="33"/>et hujusmodi. In hac infamia cognito
+            cri<lb ed="#V" n="34" break="no"/>mine tantum in occulto, non licet eum
+            pro<lb ed="#V" n="35" break="no"/>palare, aut ipsum infamare in publico;
+            <lb ed="#V" n="36"/>quando tamen notum fit, potest ante
+            sen<lb ed="#V" n="37" break="no"/>tentiam declaratoriam judicis expelli, et
+            <lb ed="#V" n="38"/>lata sententia retrotrahi infamia ad
+            tem<lb ed="#V" n="39" break="no"/>pus sceleris commissi, quia ipso facto jure
+            <lb ed="#V" n="40"/>incurritur, et ab eo tempore censetur
+            <lb ed="#V" n="41"/>sinhabilis ad officia et beneficia. Si tamen
+            <lb ed="#V" n="42"/>sit periculum majoris damni et notabilis,
+            <lb ed="#V" n="43"/>potest etiam crimen ejus in publicum
+            <lb ed="#V" n="44"/>trahi, quamvis alias fuerit occultum. Et
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>idem dicendum de eo, qui acquisivit
+            <lb ed="#V" n="46"/>famam fictis virtutibus, et simulatione,
+            <lb ed="#V" n="47"/>quando periculum subest inde damni,
+            <lb ed="#V" n="48"/>nempe deceptionis notabilis in aliis, quae
+            <lb ed="#V" n="49"/>inferret eis damnum, aut certe periculum
+            <lb ed="#V" n="50"/>aestimationis bonorum, ne in dubium
+            vo<lb ed="#V" n="51" break="no"/>cetur, ut saepe contingit, deprehensa
+            <lb ed="#V" n="52"/>simulatione alterius. Plures alii casus ex
+            <lb ed="#V" n="53"/>his solvuntur, in quibus licet crimen
+            oc<lb ed="#V" n="54" break="no"/>cultum alterius publicare, quando
+            dam<lb ed="#V" n="55" break="no"/>num notabile sequeretur sibi aut aliis ex
+            <lb ed="#V" n="56"/>ejus occultatione, quia et charitas et
+            <lb ed="#V" n="57"/>justitia non favent maleficio in damnum
+            <lb ed="#V" n="58"/>innocentis, neque tollunt potestatem eum
+            <lb ed="#V" n="59"/>defendendi ei, qui damnum ejus
+            praevi<lb ed="#V" n="60" break="no"/>det, et potest impedire, ad quod nullum
+            <lb ed="#V" n="61"/>jus habet criminosus.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d15q4-p4"> -->
+          <p>
+            <lb ed="#V" n="41" type="fixed=406"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>(f) In tertio membro dico similiter, etc.
+            <lb ed="#V" n="43"/>In hoc membro agitur de infamia, quae ex
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="44"/>negatione criminis a reo inuritur
+            accusa<lb ed="#V" n="45" break="no"/>tori, nempe quod deficiens in probatione
+            <lb ed="#V" n="46"/>habetur pro calumniatore. Casus est, si
+            <lb ed="#V" n="47"/>crimen sit alias occultum, licet verum, an
+            <lb ed="#V" n="48"/>possit reus illud negare? crimen autem
+            <lb ed="#V" n="49"/>occultum est, quod nequit in judicio
+            pro<lb ed="#V" n="50" break="no"/>bari. Si tamen est publicum et notorium
+            <lb ed="#V" n="51"/>crimen, auctor vero in occulto, tunc per
+            <lb ed="#V" n="52"/>accusationem deducitur ad forum
+            publi<lb ed="#V" n="53" break="no"/>cum auctor, contra quem secundum
+            ordi<lb ed="#V" n="54" break="no"/>nem Juris potest procedi per testes et
+            <lb ed="#V" n="55"/>alia adminicula.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Conclusio Doctoris est reum non teneri
+            <lb ed="#V" n="57"/>retractare negationem criminis occulti
+            im<lb ed="#V" n="58" break="no"/>positi sibi in judicio, quia non tenetur se
+            <lb ed="#V" n="59"/>reum confiteri, nondum convictus, etc.
+            <lb ed="#V" n="60"/>Conclusio intelligitur itaque de crimine
+            <lb ed="#V" n="61"/>occulto, et non probato sufficienter. Illa
+            <lb ed="#V" n="62"/>particula conclusionis nondum convictus,
+            <lb ed="#V" n="63"/>etc. seu potius, quae additur in
+            conclu<lb ed="#V" n="64" break="no"/>sione ad probationem, potest intelligi
+            <lb ed="#V" n="65"/>dupliciter, nempe quando supponitur
+            ple<lb ed="#V" n="66" break="no"/>na probatio criminis, vel semiplena
+            pro<lb ed="#V" n="67" break="no"/>batio ejus; tantum in hoc secundo casu
+            <lb ed="#V" n="68"/>intelligi videtur a Doctore, ut patet ex
+            <lb ed="#V" n="69"/>sequentibus, nempe quamdiu deficit
+            semi<lb ed="#V" n="70" break="no"/>plena probatio, quae tribuit jus
+            interro<lb ed="#V" n="71" break="no"/>gandi judici publico secundum ordinem
+            <lb ed="#V" n="72"/>Juris, et consequenter obligationem reo
+            <lb ed="#V" n="73"/>respondendi statuit. Unde in responsione
+            <lb ed="#V" n="74"/>ad objectionem dicit, quod accusatori ad
+            <lb ed="#V" n="75"/>nihil tenetur reus, quantum ad
+            resti<lb ed="#V" n="76" break="no"/>tutionem famae, si deficiat in probatione
+            <lb ed="#V" n="77"/>criminis; sed ipse accusator sibi ipsi
+            offi<lb ed="#V" n="78" break="no"/>cit, qui eo modo proponit crimen alterius,
+            <lb ed="#V" n="79"/>quo non deberet proponere, imo tenetur
+            <lb ed="#V" n="80"/>non proponere, quia proponit crimen
+            <lb ed="#V" n="81"/>mere occultum alterius in publico
+            pro<lb ed="#V" n="82" break="no"/>bandum, quod perinde se habet ac si
+            <lb ed="#V" n="83"/>innocentem accusaret, quia alter, licet in
+            <lb ed="#V" n="84"/>occulto sit criminosus, tamen in foro
+            <lb ed="#V" n="85"/>externo est innocens, et habet jus se
+            de<lb ed="#V" n="86" break="no"/>fendendi. Loquitur Doctor de crimine
+            <lb ed="#V" n="87"/>occulto, de quo neque fama, neque
+            indi<pb ed="#V" n="407"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>cia, neque testes suppetunt, ad plenam
+            <lb ed="#V" n="2"/>aut semiplenam probationem requisiti,
+            <lb ed="#V" n="3"/>praeter solam personam accusatoris.
+          </p>
+          <p>
+            <lb ed="#V" n="4"/>Item postea dicit, S Sed manet
+            difficul<lb ed="#V" n="5" break="no"/>tas, etc. Durum, inquit, videtur, quod
+            qui<lb ed="#V" n="6" break="no"/>libet accusatus in publico ab uno, statim
+            <lb ed="#V" n="7"/>teneretur de necessitate salutis, in publico
+            <lb ed="#V" n="8"/>confiteri illud, et sic statim exponere se
+            <lb ed="#V" n="9"/>patibulo in judicio sanguinis, etc. Haec
+            <lb ed="#V" n="10"/>ergo est sententia Doctoris; et patet ex
+            <lb ed="#V" n="11"/>natura casus, quem determinat, quia ut
+            <lb ed="#V" n="12"/>in casu praecedenti determinavit, agit de
+            <lb ed="#V" n="13"/>eo, qui famam alterius laesit
+            extrajudici<lb ed="#V" n="14" break="no"/>aliter; hic agit pro reo, qui famam
+            accu<lb ed="#V" n="15" break="no"/>satoris negando crimen verum, sed
+            occul<lb ed="#V" n="16" break="no"/>tum, laedit in judicio; ex eo vero praecise
+            <lb ed="#V" n="17"/>quod ratione criminis commissi
+            convenia<lb ed="#V" n="18" break="no"/>tur coram judice, datur majus jus contra
+            <lb ed="#V" n="19"/>ipsum, quam contra eum, qui
+            extrajudi<lb ed="#V" n="20" break="no"/>cialiter accusatur coram privatis, ad quos
+            <lb ed="#V" n="21"/>non spectat de Jure cognoscere de reo
+            <lb ed="#V" n="22"/>aut crimine. Non descendit Doctor ad
+            <lb ed="#V" n="23"/>alias circumstantias, ex quibus crimen
+            <lb ed="#V" n="24"/>illud redditur jam notorium quoad
+            aucto<lb ed="#V" n="25" break="no"/>rem, de quo semiplena probatio habetur,
+            <lb ed="#V" n="26"/>aut ipsum probabile sit in judicio, quod
+            <lb ed="#V" n="27"/>requiritur, et sufficit ad accusandum,
+            ser<lb ed="#V" n="28" break="no"/>vato Juris ordine, nempe ut accusatio
+            <lb ed="#V" n="29"/>fiat de crimine probabili per testes, aut
+            <lb ed="#V" n="30"/>alia adminicula, ut confessione rei. Ex
+            <lb ed="#V" n="31"/>his enim sententia fertur, alioquin erit
+            <lb ed="#V" n="32"/>injusta, nisi quando in flagranti
+            deprehen<lb ed="#V" n="33" break="no"/>deretur a judice cum aliis tribus, aut
+            qua<lb ed="#V" n="34" break="no"/>tuor; requiruntur autem testes, per quos
+            <lb ed="#V" n="35"/>debet probare accusator, quia ex his
+            <lb ed="#V" n="36"/>cognitio et certitudo criminis commissi
+            <lb ed="#V" n="37"/>haberi debet; unde Jure Civili et Canonico
+            <lb ed="#V" n="38"/>requiruntur, quando per viam
+            accusa<lb ed="#V" n="39" break="no"/>tionis convenitur reus. Plures etiam
+            perso<lb ed="#V" n="40" break="no"/>nae in causa criminali Jure Canonico
+            rep<lb ed="#V" n="41" break="no"/>pelluntur a testimonio ferendo, sicut et
+            <lb ed="#V" n="42"/>Jure Civili, inter quos est accusator, sicut
+            <lb ed="#V" n="43"/>et ejus collaterales et ascendentes, et
+            <lb ed="#V" n="44"/>descendentes. Jura enim magis favent
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>reo in dubio, ideoque, ut usus habet,
+            <lb ed="#V" n="46"/>parentes et consanguinei ejus admittuntur
+            <lb ed="#V" n="47"/>ad probationem suae innocentiae, ut patet
+            <lb ed="#V" n="48"/>ex Gomezio cap. 12.et Claro quaest.24. Unde
+            <lb ed="#V" n="49"/>sequitur, si accusator producat crimen,
+            <lb ed="#V" n="50"/>quod nequit per alium probare, neque
+            <lb ed="#V" n="51"/>per rei confessionem censeri plene
+            occul<lb ed="#V" n="52" break="no"/>tum, et suo periculo intentare actionem.
+          </p>
+          <p>
+            <lb ed="#V" n="53"/>Hanc puto esse sententiam Doctoris,
+            <lb ed="#V" n="54"/>non vero illam quam intelligunt alii esse
+            <lb ed="#V" n="55"/>ejus, ut Cajet. 2. 2. quaest. 68. art. 2. ad
+            <lb ed="#V" n="56"/>secundum, Soto de Justit. et Jure lib. 4.
+            <lb ed="#V" n="57"/>quaest. 6. art. 3. Azorius lib. 5. cap. 9.
+            <lb ed="#V" n="58"/>quaest. 8. Molina tractatu 8. disputat. 43.
+            <lb ed="#V" n="59"/>de Justit. et Jure, quibus consentit Favent.
+            <lb ed="#V" n="60"/>disp. 53. cap. 2. num. 56. Melius tamen
+            <lb ed="#V" n="61"/>Scholiastes excipit casum semiplenae
+            pro<lb ed="#V" n="62" break="no"/>bationis, in quo tenetur interrogatus juxta
+            <lb ed="#V" n="63"/>communem sententiam respondere
+            veri<lb ed="#V" n="64" break="no"/>tatem, quia semiplena probatio dat jus
+            <lb ed="#V" n="65"/>contra ipsum, ut interrogetur, sicut et
+            in<lb ed="#V" n="66" break="no"/>famia probata de crimine, vel indicia
+            ma<lb ed="#V" n="67" break="no"/>nifesta, et haec debent esse conjuncta
+            ac<lb ed="#V" n="68" break="no"/>cusationi verae, de qua loquimur, vel fictae
+            <lb ed="#V" n="69"/>in causa inquisitionis particularis, quando
+            <lb ed="#V" n="70"/>licet sic proce dere. Non potest judex reum
+            <lb ed="#V" n="71"/>interrogare juridice, aut obligare ad
+            di<lb ed="#V" n="72" break="no"/>cendum veritatem, nisi aliquo ex his
+            tri<lb ed="#V" n="73" break="no"/>bus praesupposito. Ratio est, quia sicut
+            <lb ed="#V" n="74"/>jurisdictio ipsius est respective ad forum
+            <lb ed="#V" n="75"/>externum, sic etiam debet esse scientia
+            <lb ed="#V" n="76"/>qua regulatur, et procedit ad cognitionem
+            <lb ed="#V" n="77"/>de causa, quae est scientia publica aliquo
+            <lb ed="#V" n="78"/>istorum modorum. Unde si interroget
+            <lb ed="#V" n="79"/>aliter, non servat Juris ordinem, neque
+            <lb ed="#V" n="80"/>tenetur respondere reus, aut dicere
+            veri<lb ed="#V" n="81" break="no"/>tatem etiam praestito juramento, modo
+            <lb ed="#V" n="82"/>sibi reservet mentem, quia in quocumque
+            <lb ed="#V" n="83"/>casu potest negare crimen, potest etiam
+            <lb ed="#V" n="84"/>jurare, quia juramentum non extenditur
+            <lb ed="#V" n="85"/>ultra naturam ejus, cui additur ut
+            confir<lb ed="#V" n="86" break="no"/>matio. Quod si alius intendat aliud,
+            nem<lb ed="#V" n="87" break="no"/>pe exigens juramentum, non refert, quia
+            <lb ed="#V" n="88"/>potestas ejus non extenditur ad aliud,
+            <pb ed="#V" n="408"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quam sit illud quod de Jure debet
+            inter<lb ed="#V" n="2" break="no"/>rogare. Quid autem continuat juramentum
+            <lb ed="#V" n="3"/>de calumnia, docet glossa in cap. 1. de
+            ju<lb ed="#V" n="4" break="no"/>ramento calumniae.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>Adverte ulterius teneri judicem
+            exhi<lb ed="#V" n="6" break="no"/>bere primum reo, vel declarare statum
+            <lb ed="#V" n="7"/>causae, probationes, indicia, ut sciat
+            juri<lb ed="#V" n="8" break="no"/>dice contra se procedi, quando
+            interro<lb ed="#V" n="9" break="no"/>gatur, et ut possit opponere et excipere,
+            <lb ed="#V" n="10"/>si necessum sit, quia nemo tenetur
+            pa<lb ed="#V" n="11" break="no"/>rere cum gravi suo, aut alterius
+            detri<lb ed="#V" n="12" break="no"/>mento, nisi ei constet se legitime
+            inter<lb ed="#V" n="13" break="no"/>rogari; hoc autem nescit incognito statu
+            <lb ed="#V" n="14"/>causae. Addendum praeterea, si crimen
+            <lb ed="#V" n="15"/>in re ipsa commissum est sine culpa
+            <lb ed="#V" n="16"/>lethali, licet procedatur ex crimine
+            jux<lb ed="#V" n="17" break="no"/>ta praesumptionem falsam, quam
+            suffi<lb ed="#V" n="18" break="no"/>cienti probatione non potes elidere, si
+            <lb ed="#V" n="19"/>admittas crimen, non teneri respondere;
+            <lb ed="#V" n="20"/>verbi gratia, si quod tibi debetur, abstuli
+            <lb ed="#V" n="21"/>secreto, quia non fuit via recuperandi, et
+            <lb ed="#V" n="22"/>agatur contra te actione furti, nisi probare
+            <lb ed="#V" n="23"/>posses tibi deberi, neque alia via potuisse
+            <lb ed="#V" n="24"/>recuperare, si interroget judex an
+            com<lb ed="#V" n="25" break="no"/>miseris furtum, aut abstuleris rem
+            alte<lb ed="#V" n="26" break="no"/>rius, potes negare, quia ipse intendit
+            <lb ed="#V" n="27"/>ablationem, quae in foro externo habet
+            an<lb ed="#V" n="28" break="no"/>nexam praesumptionem falsam, quam
+            eli<lb ed="#V" n="29" break="no"/>dere non potes, verbi gratia, furti; sic
+            <lb ed="#V" n="30"/>etiam non teneris fateri te occidisse quem
+            <lb ed="#V" n="31"/>in defensionem inculpatam tui ipsius
+            oc<lb ed="#V" n="32" break="no"/>cidisti, quam nequis probare. Item, si non
+            <lb ed="#V" n="33"/>es auctor criminis, non teneris confiteri
+            <lb ed="#V" n="34"/>aliquas ejus circumstantias, ex quibus
+            <lb ed="#V" n="35"/>oriretur vehemens suspicio te esse
+            aucto<lb ed="#V" n="36" break="no"/>rem, verbi gratia, te fuisse in loco;
+            requi<lb ed="#V" n="37" break="no"/>ritur etiam ut juramentum reo adhibeatur
+            <lb ed="#V" n="38"/>praecedere indicia, quae sufficiant ad
+            tor<lb ed="#V" n="39" break="no"/>turam.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Intelligendo praeterea Doctorem, juxta
+            <lb ed="#V" n="41"/>alteram sententiam, scilicet de
+            interroga<lb ed="#V" n="42" break="no"/>tione, quae supponat semiplenam
+            probati<lb ed="#V" n="43" break="no"/>onem, dico eam esse probabilem, et satis
+            <lb ed="#V" n="44"/>ex rationibus ejus deduci. Unde si
+            ple<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>ctendus est poena temporali, docet
+            Pa<lb ed="#V" n="46" break="no"/>normitanus eum non teneri respondere,
+            <lb ed="#V" n="47"/>cap. Cum super, de confessis, Sylvester,
+            <lb ed="#V" n="48"/>verbo Confessio delicti, quaest. 1 Funius,
+            <lb ed="#V" n="49"/>et Angelus eodem, Petrus de Navarr. lib.
+            <lb ed="#V" n="50"/>2. cap. 4. Emanuel Saa, verbo Reus.
+            Pro<lb ed="#V" n="51" break="no"/>batur haec sententia ratione Doctoris, quia
+            <lb ed="#V" n="52"/>illud praeceptum esset durum, ut quis in
+            <lb ed="#V" n="53"/>judicio sanguinis concurreret ad sui
+            ne<lb ed="#V" n="54" break="no"/>cem et infamiam, vel teneatur concurrere,
+            <lb ed="#V" n="55"/>quia rarus est, qui illud adimpleret, quin
+            <lb ed="#V" n="56"/>pejeraret. Praecepta autem debent
+            accom<lb ed="#V" n="57" break="no"/>modari humanae conditioni, sicut et lex,
+            <lb ed="#V" n="58"/>ne difficilia adeo sint, ut censeantur
+            im<lb ed="#V" n="59" break="no"/>possibilia, et maxime quando necessitas
+            <lb ed="#V" n="60"/>communis non praeponderat, vel aliud,
+            <lb ed="#V" n="61"/>quod vitae rei Jure divino praeferri debeat,
+            <lb ed="#V" n="62"/>aut naturali; ergo judex non habet jus
+            <lb ed="#V" n="63"/>obligandi reum sub poena salutis aeternae
+            <lb ed="#V" n="64"/>et peccati ad confitendum delictum, quod
+            <lb ed="#V" n="65"/>alia via probare contra ipsum plene non
+            <lb ed="#V" n="66"/>possit. Confirmatur, non habet judex
+            ma<lb ed="#V" n="67" break="no"/>jus jus in reum ex semiplena probatione,
+            <lb ed="#V" n="68"/>quam ex plena probatione, sed non
+            tene<lb ed="#V" n="69" break="no"/>tur convictus de crimine capitali obedire.
+            <lb ed="#V" n="70"/>judici, ut executio sententiae fiat per
+            ip<lb ed="#V" n="71" break="no"/>sum reum, ut communior et sanior
+            do<lb ed="#V" n="72" break="no"/>ctrina tenet; ergo neque etiam
+            praece<lb ed="#V" n="73" break="no"/>ptum judicis eum obligat, ut concurrat ad
+            <lb ed="#V" n="74"/>propriam mortem; concurrit autem, si
+            <lb ed="#V" n="75"/>confiteatur crimen morte dignum per
+            le<lb ed="#V" n="76" break="no"/>ges, ergo non tenetur ad hoc. Probatur
+            <lb ed="#V" n="77"/>prima consequentia, quia jus tuendae vitae,
+            <lb ed="#V" n="78"/>donec convincatur reus, ipsi manet
+            inte<lb ed="#V" n="79" break="no"/>grum, sicut et famae, et hoc est Juris
+            na<lb ed="#V" n="80" break="no"/>turalis; sed praeceptum judicis est Juris
+            <lb ed="#V" n="81"/>positivi, ergo nequit praejudicare juri,
+            <lb ed="#V" n="82"/>quod alter habet defendendae vitae, quod
+            <lb ed="#V" n="83"/>solum amittit probato crimine. Probatur
+            <lb ed="#V" n="84"/>consequentia prima, quia ex sua
+            confes<lb ed="#V" n="85" break="no"/>sione convincitur, et non aliter. Secunda
+            <lb ed="#V" n="86"/>consequentia etiam probatur, quia dum
+            <lb ed="#V" n="87"/>crimen est omnino occultum, si judex
+            in<lb ed="#V" n="88" break="no"/>terroget, non tenetur respondere, et hoc
+            <pb ed="#V" n="409"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ideo, quia est innocens in foro externo, in
+            <lb ed="#V" n="2"/>quo tantum judex habet auctoritatem
+            in<lb ed="#V" n="3" break="no"/>terrogandi, sed per semiplenam
+            probati<lb ed="#V" n="4" break="no"/>onem non fit nocens; ergo adhuc est in
+            <lb ed="#V" n="5"/>possessione suae innocentiae, ergo habet
+            <lb ed="#V" n="6"/>jus defendendi illam, sed stante hoc jure,
+            <lb ed="#V" n="7"/>non tenetur ipse cedere; ergo neque
+            <lb ed="#V" n="8"/>confiteri crimen, donec convincatur cum
+            <lb ed="#V" n="9"/>tanto suo damno.
+            <lb ed="#V" n="10"/>Item, non magis obligat praeceptum
+            ju<lb ed="#V" n="11" break="no"/>dicis, quam ipsa lex positiva, quia haec a
+            <lb ed="#V" n="12"/>majori auctoritate procedit; sed lex
+            posi<lb ed="#V" n="13" break="no"/>tiva humana non potest obligare cum
+            pe<lb ed="#V" n="14" break="no"/>riculo mortis ad sui observantiam, si
+            pon<lb ed="#V" n="15" break="no"/>dus rei aut materiae ob necessitatem
+            spe<lb ed="#V" n="16" break="no"/>cialem rei publicae non contingat; ergo
+            <lb ed="#V" n="17"/>minus potest praeceptum judicis inducere
+            <lb ed="#V" n="18"/>obligationem confitendi crimen, quod
+            ma<lb ed="#V" n="19" break="no"/>jus est, quam periculum mortis, quae est
+            <lb ed="#V" n="20"/>certa, supposita confessione.
+          </p>
+          <p>
+            <lb ed="#V" n="21"/>Item ut docet Corduba lib. 1. quaestiunc.
+            <lb ed="#V" n="22"/>q. 43. dub. 3. Navarr, cap. 26. num. 46.
+            <lb ed="#V" n="23"/>Petrus de Nav. loco citato, si consilii aut
+            <lb ed="#V" n="24"/>auxilii petendi causa tibi sub secreto
+            cri<lb ed="#V" n="25" break="no"/>men revelet, non potes denuntiare, aut
+            <lb ed="#V" n="26"/>testificari crimen, etiam interrogatus,
+            <lb ed="#V" n="27"/>quamvis praecesserit semiplena probatio,
+            <lb ed="#V" n="28"/>quando proceditur ad punitionem
+            crimi<lb ed="#V" n="29" break="no"/>nis, et non ad obstandum alicui damno
+            <lb ed="#V" n="30"/>publico aut privato alterius. Item, neque
+            <lb ed="#V" n="31"/>contra sanguinem conjunctum, neque si
+            <lb ed="#V" n="32"/>damnum notabile tibi ipsi succederet ex
+            <lb ed="#V" n="33"/>testimonio lato seclusa necessitate
+            publi<lb ed="#V" n="34" break="no"/>ca, pro qua debes etiam te exponere
+            dam<lb ed="#V" n="35" break="no"/>no, ut docet Navar. supra, n. 50. et Covar.
+            <lb ed="#V" n="36"/>in quaestiunc. practicis, cap. 18. ergo a
+            <lb ed="#V" n="37"/>fortiori minus tenetur reus contra se
+            testi<lb ed="#V" n="38" break="no"/>monium facere, confitendo crimen etiam
+            <lb ed="#V" n="39"/>interrogatus juridice.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Item, potest reus ante sententiam latam
+            <lb ed="#V" n="41"/>carceri mancipatus fugere, si potest, ut
+            <lb ed="#V" n="42"/>dicit Covar. lib. 1. Variarum, cap. 2. quin
+            <lb ed="#V" n="43"/>etiam post sententiam latam, ut docet D.
+            <lb ed="#V" n="44"/>Thomas 2. 2. quaest. 69. art. 4. Covar.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>supra, si sententia est mortis et
+            mutilati<lb ed="#V" n="46" break="no"/>onis; et hoc ex jure conservandae vitae,
+            <lb ed="#V" n="47"/>quam ita natura concessit, ut nullo Jure
+            <lb ed="#V" n="48"/>humano possit reus tali jure privari,
+            quan<lb ed="#V" n="49" break="no"/>do potest non inferendo violentiam, et
+            <lb ed="#V" n="50"/>abest periculum Reipublicae; ergo etiam
+            <lb ed="#V" n="51"/>manet Jus defensionis vitae eidem,
+            quam<lb ed="#V" n="52" break="no"/>diu nondum est convictus de crimine,
+            <lb ed="#V" n="53"/>quamvis praecesserit probatio semiplena,
+            <lb ed="#V" n="54"/>et consequenter non tenetur fateri crimen
+            <lb ed="#V" n="55"/>interrogatus, nisi aliunde plene probetur,
+            <lb ed="#V" n="56"/>vel probandum sit, quia in hoc casu non
+            <lb ed="#V" n="57"/>prodest criminis negatio, si aliunde
+            com<lb ed="#V" n="58" break="no"/>probetur.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>Item, ex communi Doctorum reus, qui
+            <lb ed="#V" n="60"/>convincitur, servato Juris ordine, vel ex
+            <lb ed="#V" n="61"/>falsa praesumptione criminis, aut certe ex
+            <lb ed="#V" n="62"/>falsis testibus et probationibus, non
+            tene<lb ed="#V" n="63" break="no"/>tur obedire, secluso scandalo et
+            detri<lb ed="#V" n="64" break="no"/>mento notabili Reipublicae tali sententiae,
+            <lb ed="#V" n="65"/>si in re sit injusta, vel crimen non
+            com<lb ed="#V" n="66" break="no"/>misit, quamvis justa sit secundum Juris
+            <lb ed="#V" n="67"/>ordinem, quin etiam aliqui tenent, si
+            <lb ed="#V" n="68"/>poena sit mortis secluso scandalo se posse
+            <lb ed="#V" n="69"/>defendere contra judicem et ministros, ut
+            <lb ed="#V" n="70"/>citat Covar. supra n. 3. sed forte vix in
+            <lb ed="#V" n="71"/>praxi secludi potest scandalum; ergo
+            eti<lb ed="#V" n="72" break="no"/>am quamvis in re crimen commisit, si
+            ne<lb ed="#V" n="73" break="no"/>quit probari plene in foro, in quo judex
+            <lb ed="#V" n="74"/>habet suam potestatem, potest etiam non
+            <lb ed="#V" n="75"/>obedire interrogationi judicis ad
+            salvan<lb ed="#V" n="76" break="no"/>dam innocentiam suam publicam, quia
+            <lb ed="#V" n="77"/>minus in hoc est scandalum, aut
+            pericu<lb ed="#V" n="78" break="no"/>lum Reipublicae, quam ut is qui servato
+            <lb ed="#V" n="79"/>Juris ordine est subjectus sententiae, non
+            <lb ed="#V" n="80"/>obediat judici, quia, ut bene Doctor, non
+            <lb ed="#V" n="81"/>est contra bonum Reipublicae, ut crimina,
+            <lb ed="#V" n="82"/>quae non probantur, aut probari possunt
+            <lb ed="#V" n="83"/>servato Juris ordine remittantur solius Dei
+            <lb ed="#V" n="84"/>judicio, qui est solus judex occultorum,
+            <lb ed="#V" n="85"/>ut tradunt Canones, cap. Erubescant, dist.
+            <lb ed="#V" n="86"/>32. c. Consuluisti, 2. q. 4. cap. Tua nos,
+            <lb ed="#V" n="87"/>etc. de simonia. Quibus in locis agitur de
+            <lb ed="#V" n="88"/>iis, quae testibus probari non poterant, aut
+            <pb ed="#V" n="410"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>alia via sufficienti, et si opus exterius
+            pro<lb ed="#V" n="2" break="no"/>diit. Et Clementina Pastoralis in fine, ita
+            <lb ed="#V" n="3"/>habet: De crimine gravi delato facultas
+            <lb ed="#V" n="4"/>defensionis, quae a Jure naturali provenit,
+            <lb ed="#V" n="5"/>adimi non valet, eam illa tollere
+            Impera<lb ed="#V" n="6" break="no"/>tori non licuit, quae Juris naturalis
+            exci<lb ed="#V" n="7" break="no"/>stunt, etc. Si ergo alter nondum convictus
+            <lb ed="#V" n="8"/>manet in possessione hujus Juris
+            natura<lb ed="#V" n="9" break="no"/>lis, non tenetur ipse arma defensionis
+            ne<lb ed="#V" n="10" break="no"/>cessariae deponere, sicut nemini auferri
+            <lb ed="#V" n="11"/>possunt arma materialia justae defensionis
+            <lb ed="#V" n="12"/>contra invasorem injustum, qualis est
+            ac<lb ed="#V" n="13" break="no"/>cusator, qui crimen occultum non
+            proba<lb ed="#V" n="14" break="no"/>bile opponit reo.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>Ultimo tandem probatur, quia non
+            ma<lb ed="#V" n="16" break="no"/>gis tenetur reus judici interroganti,
+            sup<lb ed="#V" n="17" break="no"/>positis iis, quae ad semiplenam
+            probati<lb ed="#V" n="18" break="no"/>onem faciunt, quam ipse judex ad
+            praece<lb ed="#V" n="19" break="no"/>ptum legis, et executionem ratione officii,
+            <lb ed="#V" n="20"/>quando reus convictus est secundum
+            or<lb ed="#V" n="21" break="no"/>dinem Juris, licet in reipsa sit innocens,
+            <lb ed="#V" n="22"/>et id judici constet ex scientia privata;
+            <lb ed="#V" n="23"/>sed nullo modo licere ipsi condemnare
+            <lb ed="#V" n="24"/>quem sic scit esse innocentem, quamvis
+            <lb ed="#V" n="25"/>publice falsis probationibus convictum.
+            <lb ed="#V" n="26"/>-docent plures Doctores, ut Hostiensis,
+            <lb ed="#V" n="27"/>Calderinus, Panormitanus in cap.
+            Patora<lb ed="#V" n="28" break="no"/>lis 28. de officio delegati, et multi
+            Theolo<lb ed="#V" n="29" break="no"/>gi et Canonistae, quos citat Covarruvias
+            <lb ed="#V" n="30"/>supra, quamvis alii contrarium doceant,
+            <lb ed="#V" n="31"/>quos ipse sequitur cum D. Thom. quaest.
+            <lb ed="#V" n="32"/>64. art. 6. ergo neque semiplena probatio,
+            <lb ed="#V" n="33"/>et praeceptum judicis inducit reo
+            obliga<lb ed="#V" n="34" break="no"/>tionem seipsum condemnandi et
+            accusan<lb ed="#V" n="35" break="no"/>di, cum adhuc maneat in foro externo
+            <lb ed="#V" n="36"/>innocens.
+            <lb ed="#V" n="37"/>. Confirmatur, nullus judex, inferior
+            sal<lb ed="#V" n="38" break="no"/>tem, potest condemnare reum nondum
+            <lb ed="#V" n="39"/>convictum; ergo neque inducere ei
+            obli<lb ed="#V" n="40" break="no"/>gationem, ut propriam deserat
+            defen<lb ed="#V" n="41" break="no"/>sionem.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Ex his patet interrogationem judicis eo
+            <lb ed="#V" n="43"/>tendere ut sufficientem diligentiam
+            adhi<lb ed="#V" n="44" break="no"/>beat ratione muneris, et satisfaciat
+            Reipu<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>blicae, vel ut alii dicunt, ad terrorem
+            ma<lb ed="#V" n="46" break="no"/>lefactorum, non autem ut obligationem
+            <lb ed="#V" n="47"/>inferat reo, qui alioquin nequit convinci,
+            <lb ed="#V" n="48"/>nisi ex propria confessione; et sicut
+            inter<lb ed="#V" n="49" break="no"/>rogatio ejus mensuratur per notitiam
+            pu<lb ed="#V" n="50" break="no"/>blicam, ita etiam responsio rei ad
+            con<lb ed="#V" n="51" break="no"/>fessionem criminis debet respicere
+            eam<lb ed="#V" n="52" break="no"/>dem scientiam, ex qua procedit judex;
+            <lb ed="#V" n="53"/>quamvis enim sciat scientia privata ipsum
+            <lb ed="#V" n="54"/>esse reum, nisi convincatur in foro
+            exter<lb ed="#V" n="55" break="no"/>no, non permittunt leges ut eum
+            condem<lb ed="#V" n="56" break="no"/>net; neque etiam ex quacumque
+            confes<lb ed="#V" n="57" break="no"/>sione ejus potest eum punire, verbi
+            gra<lb ed="#V" n="58" break="no"/>tia, si confiteatur vi torturae, nisi alias
+            con<lb ed="#V" n="59" break="no"/>firmet eamdem confessionem post
+            tortu<lb ed="#V" n="60" break="no"/>ram, quia confessio debet esse libera et
+            <lb ed="#V" n="61"/>spontanea, ut sufficienter probet, nisi
+            ali<lb ed="#V" n="62" break="no"/>unde ex atrocitate criminis, et periculo
+            <lb ed="#V" n="63"/>Reipublicae, et aliis indiciis fulciatur
+            pro<lb ed="#V" n="64" break="no"/>cessus.
+            <lb ed="#V" n="65"/>Secunda conclusio Doctoris est, non
+            li<lb ed="#V" n="66" break="no"/>cere reo accusatorem directe notare de
+            <lb ed="#V" n="67"/>calumnia aut mendacio, quia jus
+            defensi<lb ed="#V" n="68" break="no"/>onis propriae non debet excedere
+            defensi<lb ed="#V" n="69" break="no"/>onem justam, aut fieri per media illicita;
+            <lb ed="#V" n="70"/>unde sobrie agendum est, et secundum
+            <lb ed="#V" n="71"/>ordinem Juris adhibendo media licita.
+            <lb ed="#V" n="72"/>Haec patet ex dictis, estque communiter
+            <lb ed="#V" n="73"/>modernorum.
+          </p>
+          <p>
+            <lb ed="#V" n="74"/>Dices reum etiam hoc modo facere
+            in<lb ed="#V" n="75" break="no"/>juriam Reipublicae, quae habet jus
+            punien<lb ed="#V" n="76" break="no"/>di crimina.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Respondetur non habere jus puniendi
+            <lb ed="#V" n="78"/>crimen, nisi quod scientia publica est
+            pro<lb ed="#V" n="79" break="no"/>batum contra reum; judicare enim occulta
+            <lb ed="#V" n="80"/>spectat ad Deum et ad forum poenitentiae,
+            <lb ed="#V" n="81"/>quod scientiae privatae innititur habitae per
+            <lb ed="#V" n="82"/>confessionem secretam ipsius rei.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>Quid ergo agendum est reo, aut
+            quo<lb ed="#V" n="84" break="no"/>modo se debet defendere utendo suo jure?
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>Respondet Doctor eum debere uti
+            re<lb ed="#V" n="86" break="no"/>sponsione accommodata, qua Juristae
+            utun<lb ed="#V" n="87" break="no"/>tur, nempe negando proposita eo modo
+            <lb ed="#V" n="88"/>quo proponuntur, et hoc sine mendacio
+            <pb ed="#V" n="411"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>dici potest, quia proponuntur publice, et
+            <lb ed="#V" n="2"/>negantur ut publica. Quod si judex
+            urge<lb ed="#V" n="3" break="no"/>at respondere, potest dicere se respondere
+            <lb ed="#V" n="4"/>sufficienter ad accusationem, sicut moris
+            <lb ed="#V" n="5"/>est Juristarum; nec ab illa responsione
+            <lb ed="#V" n="6"/>vult declinare, quia nempe Jura dant jus
+            <lb ed="#V" n="7"/>defensionis reo, quo nequit privare eum,
+            <lb ed="#V" n="8"/>quantum ad defensionem servato Juris
+            or<lb ed="#V" n="9" break="no"/>dine ei debitam; imo hoc ipsum supponit
+            <lb ed="#V" n="10"/>forma judicii, et interrogatio proposita a
+            <lb ed="#V" n="11"/>judice, alias non teneretur audire reum, si
+            <lb ed="#V" n="12"/>quid habeat in sui defensionem, ad
+            exci<lb ed="#V" n="13" break="no"/>piendum contra testes accusatorem, et
+            <lb ed="#V" n="14"/>alia objecta, neque appellationi ejus justae
+            <lb ed="#V" n="15"/>a sententia, aut exceptioni fundatae contra
+            <lb ed="#V" n="16"/>ipsum judicem obstare.
+          </p>
+          <p>
+            <lb ed="#V" n="17"/>Quod si ex negatione reus salvatur,
+            <lb ed="#V" n="18"/>contra quem nequit probari delictum, et
+            <lb ed="#V" n="19"/>damnetur, accusator poena talionis, aut
+            <lb ed="#V" n="20"/>nota calumniae incurrat infamiam, hic non
+            <lb ed="#V" n="21"/>tenetur avertere, quia neque illa intendit,
+            <lb ed="#V" n="22"/>sed propriam defensionem, neque per se
+            <lb ed="#V" n="23"/>causat. Dicit tamen Doctor debere
+            excu<lb ed="#V" n="24" break="no"/>sare accusatorem non obligatione justitiae
+            <lb ed="#V" n="25"/>.aut veritatis dicendae, sed de congruo
+            <lb ed="#V" n="26"/>charitatis; sed hoc est consilii, ut bene
+            <lb ed="#V" n="27"/>Scholiastes, quia si tali excusatione etiam
+            <lb ed="#V" n="28"/>urgeret aliqua suspicio de admisso
+            crimi<lb ed="#V" n="29" break="no"/>ne, neque ad hoc tenetur etiam de
+            consi<lb ed="#V" n="30" break="no"/>lio.
+          </p>
+          <p>
+            <lb ed="#V" n="31"/>(g) Sed numquid si neget, etc. Hic agit
+            <lb ed="#V" n="32"/>de negatione absoluta criminis, antea
+            <lb ed="#V" n="33"/>enim dixit de negatione modificata juxta
+            <lb ed="#V" n="34"/>modum servari solitum a Juristis; et dicit,
+            <lb ed="#V" n="35"/>si habeat intentionem negandi tantum in
+            <lb ed="#V" n="36"/>publico, ut proponitur, supponit eum non
+            <lb ed="#V" n="37"/>mentiri, tamen ad cautelam satius esse
+            <lb ed="#V" n="38"/>confiteri, et securius quam omittere
+            <lb ed="#V" n="39"/>poenitentiam, quia ex Gregorio, et habetur
+            <lb ed="#V" n="40"/>dist. 5. c. Ad ejus: Bonarum mentium est
+            <lb ed="#V" n="41"/>culpam agnoscere, ubi culpa non est, etc.
+            <lb ed="#V" n="42"/>In hoc casu diximus supra licere
+            respon<lb ed="#V" n="43" break="no"/>dere non ad mentem interrogantis, quam
+            <lb ed="#V" n="44"/>habet de facto, sed ad illam, quam debet
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>habere, licet sit superior, quia ut procedit
+            <lb ed="#V" n="46"/>secundum ordinem Juris ad punitionem,
+            <lb ed="#V" n="47"/>debet interrogatio ejus regulari per
+            scien<lb ed="#V" n="48" break="no"/>tiam publicam, in qua fundantur judicia.
+            <lb ed="#V" n="49"/>Quod si decipiatur vel inducatur in
+            erro<lb ed="#V" n="50" break="no"/>rem circa veritatem rei, sibi ipsi debet
+            <lb ed="#V" n="51"/>imputare, quia nequit imponere reo
+            ne<lb ed="#V" n="52" break="no"/>cessitatem aliter respondendi de crimine
+            <lb ed="#V" n="53"/>non probato, et praesumere debet eum
+            <lb ed="#V" n="54"/>non confessurum crimen, quod non
+            tene<lb ed="#V" n="55" break="no"/>tur revelare, et consequenter
+            responsi<lb ed="#V" n="56" break="no"/>onem ejus fundari in reservatione, quam
+            <lb ed="#V" n="57"/>jus defensionis concedit. Imo diximus
+            <lb ed="#V" n="58"/>supra, quando ex natura rei, de qua
+            in<lb ed="#V" n="59" break="no"/>terrogatur, et damno secuto ex dicenda
+            <lb ed="#V" n="60"/>veritate, in iis quae jus tacendi veritatem
+            <lb ed="#V" n="61"/>tribuunt interrogato, colligi debet eum
+            <lb ed="#V" n="62"/>non dicturum veritatem, quam non
+            tene<lb ed="#V" n="63" break="no"/>tur alius dicere, eum non mentiri, neque
+            <lb ed="#V" n="64"/>decipere, sed alium interrogantem si
+            <lb ed="#V" n="65"/>decipiatur sua negligentia et temeritate
+            <lb ed="#V" n="66"/>decipi, qui fidem tribuit dictis, quae ex
+            <lb ed="#V" n="67"/>intentione recta dicentis ad alium sensum
+            <lb ed="#V" n="68"/>referri possunt in iis circumstantiis. Cum
+            <lb ed="#V" n="69"/>hoc stat non licere aequivocare, ubi talis
+            <lb ed="#V" n="70"/>aut similis necessitas propria, vel alterius
+            <lb ed="#V" n="71"/>excusat a dicenda veritate, esto non
+            ha<lb ed="#V" n="72" break="no"/>beat alter jus interrogandi, quia licet non
+            <lb ed="#V" n="73"/>tenetur dicere veritatem, tamen tenetur
+            <lb ed="#V" n="74"/>non inducere alium in deceptionem aut;
+            <lb ed="#V" n="75"/>errorem, quia infert ei damnum injuste,
+            <lb ed="#V" n="76"/>quod nullo Jure ipsi licet, taceat vel non
+            <lb ed="#V" n="77"/>respondeat, vel alio modo utatur, qui non
+            <lb ed="#V" n="78"/>officit alteri; et sic intelligenda sunt, quae
+            <lb ed="#V" n="79"/>Scholiastes docet cum aliis de
+            aequivoca<lb ed="#V" n="80" break="no"/>tione.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>(h) Ad argumenta. Ad primum, etc.
+            pa<lb ed="#V" n="82" break="no"/>tet ex littera.
+          </p>
+          <p>
+            <lb ed="#V" n="83"/>(i) Si autem illud argumentum fiat, etc.
+            <lb ed="#V" n="84"/>Hic respondet juxta determinata in primo
+            <lb ed="#V" n="85"/>articulo; excipiuntur tamen ab hac
+            doctri<lb ed="#V" n="86" break="no"/>na generali et communi, plures casus,
+            <lb ed="#V" n="87"/>qui ex circumstantiis excusant a
+            restitu<lb ed="#V" n="88" break="no"/>tione famae. Primo, quando infamatus
+            con<pb ed="#V" n="412"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>donat famae damnum incursum. Secundo,
+            <lb ed="#V" n="2"/>justa compensatio famae, ut si jam infamia
+            <lb ed="#V" n="3"/>facta est mutua, quamvis aliqui de hoc
+            <lb ed="#V" n="4"/>non immerito dubitent. Tertio, si non
+            <lb ed="#V" n="5"/>nocuit, quia fides ei non fuit adhibita.
+            <lb ed="#V" n="6"/>Quarto, si infamans, verbi gratia,
+            accusa<lb ed="#V" n="7" break="no"/>tor, sententia judicis declaratus est
+            calum<lb ed="#V" n="8" break="no"/>niator, aut imposita est ei poena talionis,
+            <lb ed="#V" n="9"/>quia per hoc ablatum est damnum famae
+            <lb ed="#V" n="10"/>incursum, quamvis etiam ille de calumnia
+            <lb ed="#V" n="11"/>convictus, si mendaciter accusavit,
+            tenea<lb ed="#V" n="12" break="no"/>a tur confiteri veritatem. Quinto, si non.
+            <lb ed="#V" n="13"/>possit fieri sine periculo vitae, quia bonum
+            <lb ed="#V" n="14"/>inferioris ordinis, ut fama, non obligat ad
+            <lb ed="#V" n="15"/>compensationem superioris ordinis. Aliqui
+            <lb ed="#V" n="16"/>excipiunt, quando aliqua persona illustris
+            <lb ed="#V" n="17"/>patitur ex calumnia falsa, teneri
+            calum<lb ed="#V" n="18" break="no"/>niatorem ad compensandum etiam cum
+            <lb ed="#V" n="19"/>periculo vitae, quod alii negant; sed prima
+            <lb ed="#V" n="20"/>opinio videtur valde rationabilis, quia non
+            <lb ed="#V" n="21"/>«solum illa familia patitur, sed etiam
+            Res<lb ed="#V" n="22" break="no"/>publica, quae plurimum dependet a
+            fami<lb ed="#V" n="23" break="no"/>lia illustri, ejusque salus, et magis quam
+            <lb ed="#V" n="24"/>a vita calumniatoris. Unde merito etiam
+            <lb ed="#V" n="25"/>deprehensus et convictus de calumnia
+            <lb ed="#V" n="26"/>tali, posset poena mortis juste puniri; ergo
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="27"/>etiam cum periculo mortis tenetur
+            fa<lb ed="#V" n="28" break="no"/>mam restituere.
+          </p>
+          <p>
+            <lb ed="#V" n="29"/>Sexto, si fama est recuperata. Septimo,
+            <lb ed="#V" n="30"/>si fama infamantis et accusantis sine
+            pro<lb ed="#V" n="31" break="no"/>portione excedat famam infamati, quia
+            <lb ed="#V" n="32"/>nullo Jure ipsi debetur major satisfactio
+            <lb ed="#V" n="33"/>in re excedente. Tunc modus restituendi
+            <lb ed="#V" n="34"/>famam est eum laudare, et per dona et
+            <lb ed="#V" n="35"/>alia quae hominis statu considerato,
+            arbi<lb ed="#V" n="36" break="no"/>trio prudentum satisfacere possunt.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Plura omittimus hic de infamia et ejus
+            <lb ed="#V" n="38"/>restitutione, quae a Doctoribus in
+            parti<lb ed="#V" n="39" break="no"/>culari traduntur, quos consulere potest
+            <lb ed="#V" n="40"/>lector; sunt enim obvii. Quaeri etiam solet
+            <lb ed="#V" n="41"/>num homo sit suae famae dominus, sed
+            <lb ed="#V" n="42"/>forte si per tempus licebit, hanc
+            quaesti<lb ed="#V" n="43" break="no"/>onem tractabimus infra dist. 21. quaest. 2
+            <lb ed="#V" n="44"/>Hic etiam agendum erat de restitutione et
+            <lb ed="#V" n="45"/>laesione honoris proximi; sed quia facilis
+            <lb ed="#V" n="46"/>est quaestio, eam omittimus, quia harum
+            <lb ed="#V" n="47"/>quaestionum tractatus forte legem
+            com<lb ed="#V" n="48" break="no"/>menti excesserit, quamvis ansam praebeant
+            <lb ed="#V" n="49"/>tractandi in specie quidquid alii de
+            justi<lb ed="#V" n="50" break="no"/>tia et jure, ea ratione tractare solent,
+            <lb ed="#V" n="51"/>quae diximus necessitate declarandi
+            prin<lb ed="#V" n="52" break="no"/>cipia universalia Doctoris, eaque
+            defen<lb ed="#V" n="53" break="no"/>dendi dicta sint, etc.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

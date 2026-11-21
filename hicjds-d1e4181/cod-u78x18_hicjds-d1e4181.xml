@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 14, Quaestio 3</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 14, Quaestio 3</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x18">Vives, Paris, 1894, volume 18</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="124"/>
+        <cb ed="#V" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e4181"><!-- hicjds-b4d14q3 -->
+        <head>Quaestio 3</head>
+        <head type="question-title">Utrum poenitentia-virtus sit tantum unius poenae inflictiva</head>
+        <!-- <div alias="hiq-d14q3-p1"> -->
+          <p>
+            <pb ed="#V" n="124"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1" type="fixed=124"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="2"/>(a) Tertio quaero: Utrum poenitentia
+            vir<lb ed="#V" n="3" break="no"/>tus, etc. In hac quaestione agit de regula
+            <lb ed="#V" n="4"/>poenitentiae Christianae, quia ex regula
+            cu<lb ed="#V" n="5" break="no"/>juscumque virtutis procedit omne
+            dicta<lb ed="#V" n="6" break="no"/>men, cui debet virtus, conformando se in
+            <lb ed="#V" n="7"/>actibus, regulari; ideo quaerit, an
+            poeni<lb ed="#V" n="8" break="no"/>tentia ex regula sua sit unius poenae
+            infli<lb ed="#V" n="9" break="no"/>ctiva, vel an plurium. Haec quaestio
+            aequi<lb ed="#V" n="10" break="no"/>valet isti, qua quaeritur: qui sunt fructus
+            <lb ed="#V" n="11"/>poenitentiae, id est, opera, vel actus
+            proce<lb ed="#V" n="12" break="no"/>dentes secundum inclinationem
+            poeniten<lb ed="#V" n="13" break="no"/>tiae, et praescriptionem regulae, in qua
+            fun<lb ed="#V" n="14" break="no"/>datur, ut bene Doctor argumento in
+            op<lb ed="#V" n="15" break="no"/>positum S contra, Joelis 3. etc. insinuat.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d14q3-p2"> -->
+          <p>
+            <lb ed="#V" n="4" type="fixed=125"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="5"/>(b) Hic dicitur, etc. Ad resolutionem
+            <lb ed="#V" n="6"/>supponit cuilibet virtuti, quae est in
+            vo<lb ed="#V" n="7" break="no"/>luntate, correspondere regulam aliquam
+            <lb ed="#V" n="8"/>propriam, aut communem pluribus, in
+            <lb ed="#V" n="9"/>intellectu, ut patet ex 3. d. 36. artic. 2.
+            <lb ed="#V" n="10"/>Dicit autem regulam propriam, aut
+            com<lb ed="#V" n="11" break="no"/>munem, ut insinuet controversiam, quam
+            <lb ed="#V" n="12"/>ibidem tractavit. Docet enim D. Thomas 1.
+            <lb ed="#V" n="13"/>2. q. 6. artic. 1. et cum eo ibidem
+            Caje<lb ed="#V" n="14" break="no"/>tanus et alii, ut Vasquez disp. 85. cap. 2.
+            <lb ed="#V" n="15"/>unam et communem esse prudentiam
+            <lb ed="#V" n="16"/>respectu omnium moralium acquisitarum,
+            <lb ed="#V" n="17"/>ex isto Philosophi 6. Ethic. Prudentiae uni
+            <lb ed="#V" n="18"/>inexistenti omnes ( supple virtutes)
+            ine<lb ed="#V" n="19" break="no"/>rant; quod intelligit Doctor S de alia
+            <lb ed="#V" n="20"/>parte citati articuli, etc. de unitate
+            se<lb ed="#V" n="21" break="no"/>cundum genus, ideo tenet tot esse
+            pru<lb ed="#V" n="22" break="no"/>dentias, quot sunt virtutes in specie,
+            <lb ed="#V" n="23"/>.propter diversitatem objecti formalis, tam
+            <lb ed="#V" n="24"/>quoad intellectum quam quoad
+            volunta<lb ed="#V" n="25" break="no"/>tem; nam dictamen primum et practicum
+            <lb ed="#V" n="26"/>respective ad virtutem, desumitur a fine,
+            <lb ed="#V" n="27"/>ut objecto illius virtutis, atque adeo a
+            <lb ed="#V" n="28"/>principiis intrinsecis honestatis finis, et
+            <lb ed="#V" n="29"/>convenientiae objecti, ad naturam
+            rationa<lb ed="#V" n="30" break="no"/>lem mediante lege; quod objectum est
+            <lb ed="#V" n="31"/>finis, ut comparatur ad media in
+            particu<lb ed="#V" n="32" break="no"/>lari, quae ad finem eliguntur. Sicut ergo
+            <lb ed="#V" n="33"/>objectum in ratione boni est diversum,
+            <lb ed="#V" n="34"/>ita etiam veritas ejus objectiva, et partiva
+            <lb ed="#V" n="35"/>est diversa; ergo tam principia quam
+            <lb ed="#V" n="36"/>conclusiones inde desumptae.
+          </p>
+          <p>
+            <lb ed="#V" n="37"/>Alio modo potest intelligi illa distinctio
+            <lb ed="#V" n="38"/>regulae communis et propriae, respective
+            <lb ed="#V" n="39"/>ad cognitionem naturalem hujus status,
+            <lb ed="#V" n="40"/>et ad supernaturalem fidei. Haec est
+            <lb ed="#V" n="41"/>communis regula et radix virtutum, ut
+            <lb ed="#V" n="42"/>faciant ad finem supernaturalem salutis;
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>illa vero est propria, sistens intra
+            hone<lb ed="#V" n="44" break="no"/>statem ex genere, seu objecto ipsius
+            <lb ed="#V" n="45"/>virtutis, ideoque dicitur propria. Hic
+            <lb ed="#V" n="46"/>etiam usus et differentia regulae facit ad
+            <lb ed="#V" n="47"/>scopum hujus quaestionis, et ea quae mox
+            <lb ed="#V" n="48"/>dicit, distinguendo regulam naturalem
+            <lb ed="#V" n="49"/>et supernaturalem poenitentiae, qua
+            <lb ed="#V" n="50"/>est inflictiva poenae.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>(c) Regula autem est duplex, etc. Hic
+            <lb ed="#V" n="52"/>juxta distinctionem positam, vel
+            insinua<lb ed="#V" n="53" break="no"/>tam propriae et communis regulae, dicit
+            <lb ed="#V" n="54"/>duplicem esse regulam poenitentiae; una
+            <lb ed="#V" n="55"/>est naturalis, seu naturaliter cognos
+            cibi<lb ed="#V" n="56" break="no"/>lis, nempe de peccato esse displicendum.
+            <lb ed="#V" n="57"/>Dicit quod haec esset nota Angelo, si
+            ma<lb ed="#V" n="58" break="no"/>neret viator post peccatum, et ei
+            cor<lb ed="#V" n="59" break="no"/>responderet habitus poenitentiae in
+            volun<lb ed="#V" n="60" break="no"/>tate; et ista poenitentia et regula esset
+            <lb ed="#V" n="61"/>uniformis in omni statu, quia si non
+            defi<lb ed="#V" n="62" break="no"/>ceret cognitio naturalis conveniens naturae
+            <lb ed="#V" n="63"/>humanae, posset pro quocumque statu
+            <lb ed="#V" n="64"/>devenire in cognitionem illius regulae.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Modum cognoscendi hujus status
+            na<lb ed="#V" n="66" break="no"/>turae corruptae dicit Doctor non esse
+            <lb ed="#V" n="67"/>modum cognoscendi ex natura potentiae,
+            <lb ed="#V" n="68"/>in 1. d. 3. q. 3. neque ex natura objecti
+            <lb ed="#V" n="69"/>primo motivi potentiae. De hoc variis in
+            <lb ed="#V" n="70"/>locis agit, ut q. 1. Prologi, disserens
+            <lb ed="#V" n="71"/>contra Philosophos S Quantum ad primum,
+            <lb ed="#V" n="72"/>licet procedat de fine, etc. ubi ostendit
+            <lb ed="#V" n="73"/>plura per se cognoscibilia ab intellectu
+            <lb ed="#V" n="74"/>humano ex natura potentiae et objecti,
+            <lb ed="#V" n="75"/>non cognosci pro hoc statu, ut ostendat
+            <lb ed="#V" n="76"/>necessitatem cognitionis altioris et
+            super<lb ed="#V" n="77" break="no"/>naturalis, in 2. d. 3. q. S Quia autem talis
+            <lb ed="#V" n="78"/>species d. 10. q. unica, S Ad quaestionem
+            <lb ed="#V" n="79"/>in 3. d. 14. q. 3. in fine, et supra in 4.
+            <lb ed="#V" n="80"/>d. 10. q. 5. conclus. 3. idem supponit, et
+            <lb ed="#V" n="81"/>aliis in locis; unde supra, in 1. d. illa 3.
+            <lb ed="#V" n="82"/>q. 3. dicit intellectum non esse signatum
+            <lb ed="#V" n="83"/>sensibus ex natura potentiae. Quod sic
+            <lb ed="#V" n="84"/>intelligo, nempe intellectum habere
+            du<lb ed="#V" n="85" break="no"/>plicem modum operandi, loquendo de
+            <lb ed="#V" n="86"/>humano. Primus modus est, qua est
+            radi<pb ed="#V" n="126"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>catus in eadem anima, et recipit species
+            <lb ed="#V" n="2"/>a potentiis inferioribus, quia aliter non
+            <lb ed="#V" n="3"/>est ipsi objectum applicatum proxime;
+            <lb ed="#V" n="4"/>et hic etiam est modus ejus naturalis
+            <lb ed="#V" n="5"/>cognoscendi, quo ut potentia universalis,
+            <lb ed="#V" n="6"/>et superior judicat et cognoscit de actibus,
+            <lb ed="#V" n="7"/>objectis, modis operandi potentiarum
+            in<lb ed="#V" n="8" break="no"/>feriorum, non minus, imo perfectius
+            <lb ed="#V" n="9"/>quam sensus internus judicat de sensibus
+            <lb ed="#V" n="10"/>externi, et eorum actibus; et hic est
+            <lb ed="#V" n="11"/>modus naturalis cognoscendi pro hoc
+            <lb ed="#V" n="12"/>statu naturae corruptae, in quo est relicta.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Alius est modus cognoscendi intellectus
+            <lb ed="#V" n="14"/>ex natura potentiae, quae ut suprema
+            co<lb ed="#V" n="15" break="no"/>gnitiva versatur circa objectum
+            imme<lb ed="#V" n="16" break="no"/>diate, et non dependenter ab alia
+            poten<lb ed="#V" n="17" break="no"/>tia inferiori cognitiva, et haec est cognitio
+            <lb ed="#V" n="18"/>naturalis, quae fuit in primo homine, est
+            <lb ed="#V" n="19"/>in anima separata, erit in Beato in
+            corpo<lb ed="#V" n="20" break="no"/>re glorioso, et fuit in Christo; et est illa,
+            <lb ed="#V" n="21"/>de qua loquitur Doctor, eam defuisse, et
+            <lb ed="#V" n="22"/>ut dicit loco supra citato, in peccati
+            poe<lb ed="#V" n="23" break="no"/>nam. Quod probat ex Augustino, 15. de
+            <lb ed="#V" n="24"/>Trinitate, cap. ultimo: Quae causa ( inquit,
+            <lb ed="#V" n="25"/>alloquens animam) cur lucem acie fixa
+            <lb ed="#V" n="26"/>videre non possis, nisi uti que infirmitas? et
+            <lb ed="#V" n="27"/>quis eam tibi fecit, nisi utique iniquitas? etc.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Idem docet Gregorius lib. 5. Moralium,
+            <lb ed="#V" n="29"/>c. 25. super illud: Stetit quidam, cujus
+            <lb ed="#V" n="30"/>non agnoscebam vultum, etc. in illa: cujus
+            <lb ed="#V" n="31"/>non agnoscebat vultum. Humana quippe
+            <lb ed="#V" n="32"/>anima primorum hominum vitio a
+            Para<lb ed="#V" n="33" break="no"/>disi gaudiis expulsa, lucem invisibilium
+            <lb ed="#V" n="34"/>perdidit, et totam se in amorem visibilium
+            <lb ed="#V" n="35"/>fudit, tantoque ab interna speculatione
+            <lb ed="#V" n="36"/>coecata est, quanto foras deformiter sparsa;
+            <lb ed="#V" n="37"/>unde fit, ut nulla noverit, nisi ea quae
+            <lb ed="#V" n="38"/>corporeis oculis, ut ita dixerim, palpando
+            <lb ed="#V" n="39"/>cognoscit; homo enim, qui, si praeceptum
+            <lb ed="#V" n="40"/>servare voluisset, etiam carne spiritualis
+            <lb ed="#V" n="41"/>futurus erat, peccando factus est etiam
+            <lb ed="#V" n="42"/>mente carnalis, ut sola cogitet, quae ad
+            <lb ed="#V" n="43"/>animum per imagines corporum trahit, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>Quantum autem ad veritates practicas,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>conclusio haec Doctoris est verissima,
+            <lb ed="#V" n="46"/>nempe defecisse lumen intellectus in his
+            <lb ed="#V" n="47"/>per peccatum, ut omnes Patres contra
+            <lb ed="#V" n="48"/>Pelagianos uno consensu docent 2. ad
+            <lb ed="#V" n="49"/>Corinth. 3. Non sumus sufficientes cogitare
+            <lb ed="#V" n="50"/>aliquid ex nobis, tanquam ex nobis, sed
+            <lb ed="#V" n="51"/>sufficientia nostra ex Deo est. Deus scit
+            <lb ed="#V" n="52"/>cogitationes hominum, quoniam vanae
+            <lb ed="#V" n="53"/>sunt, etc. Psal. 93. et multa similia. De
+            <lb ed="#V" n="54"/>hoc egregius est locus Ambrosii de fuga
+            <lb ed="#V" n="55"/>saeculi, c. 1. quem citat Augustinus de
+            <lb ed="#V" n="56"/>praedestinatione Sanctorum, cap. 8. ubi
+            <lb ed="#V" n="57"/>explicat primum locum citatum ex
+            Apo<lb ed="#V" n="58" break="no"/>stolo. Frequens, inquit, nobis de fugiendo
+            <lb ed="#V" n="59"/>saeculo iste est sermo, atque utinam quam
+            <lb ed="#V" n="60"/>facilis sermo, tam cautus et sollicitus
+            <lb ed="#V" n="61"/>affectus, sed quod pejus est, frequenter
+            <lb ed="#V" n="62"/>irrepit terrenarum illecebra cupiditatum
+            <lb ed="#V" n="63"/>et vanitatum effusio mentem occupat, ut
+            <lb ed="#V" n="64"/>quod studeas evitare, hoc cogites, animoque
+            <lb ed="#V" n="65"/>volvas, quod cavere difficile est homini,
+            <lb ed="#V" n="66"/>exuere autem impossibile. Denique voti
+            <lb ed="#V" n="67"/>magis eam esse rem, quam effectus
+            testa<lb ed="#V" n="68" break="no"/>tur Propheta, dicendo: Declina cor meum
+            <lb ed="#V" n="69"/>in testimonia tua, et non in avaritiam; non
+            <lb ed="#V" n="70"/>enim in potestate nostra est cor nostrum,
+            <lb ed="#V" n="71"/>et cogitationes nostrae, quae improvise offusae
+            <lb ed="#V" n="72"/>mentem animumque confundunt, atque
+            <lb ed="#V" n="73"/>alio trahunt, quam tu proposueris, ad
+            sae<lb ed="#V" n="74" break="no"/>cularia revocant, mundana inserunt,
+            vo<lb ed="#V" n="75" break="no"/>luptaria ingerunt, illecebrosa intexunt, etc.
+            <lb ed="#V" n="76"/>Non est quod hic plura loca ad
+            probati<lb ed="#V" n="77" break="no"/>onem hujus afferamus, cum ignorantia et
+            <lb ed="#V" n="78"/>error sequens sint poena peccati, per
+            <lb ed="#V" n="79"/>quam via veritatis occluditur; bene ergo
+            <lb ed="#V" n="80"/>Doctor dicit cognitionem hujus status
+            <lb ed="#V" n="81"/>defuisse ex peccato; consule
+            commenta<lb ed="#V" n="82" break="no"/>rium in 1. d. 3. q. 3.
+            <lb ed="#V" n="83"/>(d) Alia regula respiciens peccatum, etc.
+            <lb ed="#V" n="84"/>Haec est fides, qua cognoscitur solum,
+            <lb ed="#V" n="85"/>ut fuse probat q. 1. Prologi, hominem
+            <lb ed="#V" n="86"/>ordinatum esse ad finem supernaturalem,
+            <lb ed="#V" n="87"/>a quo excluditur tantum per peccatum;
+            <lb ed="#V" n="88"/>ex eadem ergo cognoscitur peccatum, ut
+            <pb ed="#V" n="127"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>est offensa Dei hoc modo, et aversivum a
+            <lb ed="#V" n="2"/>Deo, et inductivum miseriae, et
+            impedi<lb ed="#V" n="3" break="no"/>tivum praemii.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d14q3-p3"> -->
+          <p>
+            <lb ed="#V" n="55" type="fixed=128"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>(c) Dicitur ergo, etc. Sequitur
+            resoluti<lb ed="#V" n="57" break="no"/>onem praemissam, nempe poenitentiam,
+            <lb ed="#V" n="58"/>ut sequitur regulam naturalem, esse
+            <lb ed="#V" n="59"/>inflictivam unius poenae tantum, nempe
+            <lb ed="#V" n="60"/>tristitiae de malo. Haec patet, quia illa
+            <lb ed="#V" n="61"/>cognoscit tantum peccatum, ut opponitur
+            <lb ed="#V" n="62"/>regulae proximae, et ut est fugiendum;
+            <lb ed="#V" n="63"/>ergo tantum sub illa ratione fugiendum,
+            <lb ed="#V" n="64"/>et de eo dolendum, quia non datur
+            moti<lb ed="#V" n="65" break="no"/>vum aliud fugiendi peccati, nisi hoc ex
+            <lb ed="#V" n="66"/>parte regulae naturalis.
+          </p>
+          <p>
+            <lb ed="#V" n="67"/>Dicit secundo, quod poenitentia, ut
+            respi<lb ed="#V" n="68" break="no"/>cit regulam secundo modo, est tot
+            poena<lb ed="#V" n="69" break="no"/>rum inflictiva, quot exigit legislator in
+            <lb ed="#V" n="70"/>ordine ad satisfactionem culpae. Hoc
+            pro<lb ed="#V" n="71" break="no"/>bat argumento ad oppositum, cujus ratio
+            <lb ed="#V" n="72"/>subjuncta est optima, nempe poenitentia
+            <lb ed="#V" n="73"/>vera ad innocentiam Baptismi nititur
+            indu<lb ed="#V" n="74" break="no"/>cere; non inducitur autem, nisi per
+            fru<lb ed="#V" n="75" break="no"/>ctus poenitentiae, et juxta acceptationem
+            <lb ed="#V" n="76"/>Dei exigentis opera satisfactoria ob
+            ingra<lb ed="#V" n="77" break="no"/>titudinem nostram, ut docet Tridentinum
+            <lb ed="#V" n="78"/>sess. 14. cap?. talis enim debet esse
+            satis<lb ed="#V" n="79" break="no"/>factio pro peccato, et poena debita ejus,
+            <lb ed="#V" n="80"/>qualis et quanta ex voluntate Dei
+            acce<lb ed="#V" n="81" break="no"/>ptantis est exhibenda; haec autem
+            satis<lb ed="#V" n="82" break="no"/>factio pro peccato est tantum nota nobis
+            <lb ed="#V" n="83"/>per Scripuram et revelationem, in quibus
+            <lb ed="#V" n="84"/>Dei voluntas alias occulta exprimitur.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>(f) Sed ex dictis instatur, etc Hic objicit
+            <lb ed="#V" n="86"/>contra ea quae resoluta sunt in responsione
+            <lb ed="#V" n="87"/>ad ultimum argumentum praecedentis
+            <pb ed="#V" n="129"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quaestionis, nempe poenitentiam non esse
+            <lb ed="#V" n="2"/>virtutem acquisitam, si supponat fidem
+            <lb ed="#V" n="3"/>tanquam regulam; et optime resolvit
+            <lb ed="#V" n="4"/>asserens cognitionem superioris ordinis
+            <lb ed="#V" n="5"/>tam in speculativis quam in practicis
+            <lb ed="#V" n="6"/>attingere veritatem aliquam, quam non
+            <lb ed="#V" n="7"/>attingit cognitio ordinis inferioris, neque
+            <lb ed="#V" n="8"/>veritates supremas speculativas de Deo
+            <lb ed="#V" n="9"/>cognosci naturaliter, ut patet ex quaestione
+            <lb ed="#V" n="10"/>prima Prologi; neque etiam practicas,
+            <lb ed="#V" n="11"/>quae desumuntur a fine ultimo attingibili,
+            <lb ed="#V" n="12"/>qui est Deus sub ratione propria, quod
+            <lb ed="#V" n="13"/>cognoscibile excedit naturam creaturae.
+            <lb ed="#V" n="14"/>et lumen creatum intellectus; ut erg..
+            fi<lb ed="#V" n="15" break="no"/>nis ic non est cognoscibilis natur int.r.
+            <lb ed="#V" n="16"/>ita etiam neque media, juae te ta sunt
+            <lb ed="#V" n="17"/>ad talem finem, cognoscuntur. quia illa
+            <lb ed="#V" n="18"/>sunt opera seu merita, quae ex natura rei
+            <lb ed="#V" n="19"/>non inducunt finem, sed ex divina
+            <lb ed="#V" n="20"/>ordinatione et acceptatione constituuntur
+            <lb ed="#V" n="21"/>in esse medii; quamvis ergo peccatum
+            <lb ed="#V" n="22"/>esse detestandum, bonum rationis
+            sectan<lb ed="#V" n="23" break="no"/>dum quis cognoscat lumine naturali
+            intel<lb ed="#V" n="24" break="no"/>lectus, quia ad talem sufficit cognitio
+            ho<lb ed="#V" n="25" break="no"/>nesti, et oppositio peccati ad bonum
+            ho<lb ed="#V" n="26" break="no"/>nestum, quae ex objecto et regula
+            pro<lb ed="#V" n="27" break="no"/>xima cognoscuntur; non sequitur inde
+            <lb ed="#V" n="28"/>quod illud quod competit actui virtutis,
+            <lb ed="#V" n="29"/>non ex objecto, aut causis proximis ejus,
+            <lb ed="#V" n="30"/>sed per modum meriti aut dispositionis per
+            <lb ed="#V" n="31"/>supernaturalem electionem et elevationem
+            <lb ed="#V" n="32"/>hominis per haec tanquam media ad finem
+            <lb ed="#V" n="33"/>ultimum, sit cognoscibile naturaliter,
+            <lb ed="#V" n="34"/>quia ille ordo in operibus ad finem
+            ulti<lb ed="#V" n="35" break="no"/>mum, inquantum habent rationem
+            forma<lb ed="#V" n="36" break="no"/>lem et ultimam meriti, est omnino
+            su<lb ed="#V" n="37" break="no"/>pernaturalis in esse et cognosci, et ab
+            <lb ed="#V" n="38"/>illa sola causa, in cujus potestate est
+            <lb ed="#V" n="39"/>collatio finis, et ordinare media voluntaria
+            <lb ed="#V" n="40"/>ad ipsum, ad quem non datur aliquod
+            <lb ed="#V" n="41"/>medium ex natura rei, et virtute propria.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Sub hac ergo ratione non solum
+            poeni<lb ed="#V" n="43" break="no"/>tentiae, sed omnium virtutum, quae faciunt
+            <lb ed="#V" n="44"/>ad salutem, et dicunt ordinem ad finem,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>regula et fundamentum est fides, ut bene
+            <lb ed="#V" n="46"/>instat in virtutibus Evangelicis, quae
+            in<lb ed="#V" n="47" break="no"/>stantia perinde in omnibus virtutibus fieri
+            <lb ed="#V" n="48"/>posset, neque inde transcendunt suum
+            <lb ed="#V" n="49"/>objectum, aut sunt virtutes infusae, nam
+            <lb ed="#V" n="50"/>aliud est loqui de actu sub ratione meriti,
+            <lb ed="#V" n="51"/>satisfactionis aut dispositionis ad finem
+            <lb ed="#V" n="52"/>ultimum; aliud est loqui de actu, qua est
+            <lb ed="#V" n="53"/>ad proprium objectum. Primo modo
+            prae<lb ed="#V" n="54" break="no"/>.ter id, quod habet ex objecto et regula
+            <lb ed="#V" n="55"/>proxima, superadditur acceptatio divina
+            <lb ed="#V" n="56"/>supernaturalis, quae nequit sciri aut
+            co<lb ed="#V" n="57" break="no"/>gnosci, nisi ex sola Scriptura et
+            revela<lb ed="#V" n="58" break="no"/>tione cen equen er per fi em. Secundo
+            <lb ed="#V" n="59"/>in ad.n.? reqirt ur c. n. i. ta. ndens
+            <lb ed="#V" n="60"/>daturam ibjet ., c g. 1. 1e 1 a tus.
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>A t propositu u itaqu poenitenti, ut est
+            <lb ed="#V" n="62"/>displicentia peccati ex motivo virtutis cui
+            <lb ed="#V" n="63"/>opponitur, non requirit fidem div.nam
+            <lb ed="#V" n="64"/>aut revelationem; ut vero est satisfactio
+            <lb ed="#V" n="65"/>aut punitio a Deo praescripta et acceptata,
+            <lb ed="#V" n="66"/>et ordinatur ad deletionem peccati, et
+            <lb ed="#V" n="67"/>reconciliationem, ac denique, ut ordinat
+            <lb ed="#V" n="68"/>ad salutem, est ex regula fidei, per quam
+            <lb ed="#V" n="69"/>solam, ut talis cognoscitur.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d14q3-p4"> -->
+          <p>
+            <lb ed="#V" n="69" type="fixed=130"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>(g) Circa istam dubitatur primo, etc.
+            <lb ed="#V" n="71"/>Quinque dubia movet: Primum, quomodo
+            <lb ed="#V" n="72"/>peccatum sit notum in actibus humanis sub
+            <lb ed="#V" n="73"/>ratione peccati? Secundum, quomodo
+            no<lb ed="#V" n="74" break="no"/>tum sub ratione offensae divinae? Tertium,
+            <lb ed="#V" n="75"/>quomodo potest esse notum, ut aversio a
+            <lb ed="#V" n="76"/>Deo? Quartum, quomodo notum ut
+            impe<lb ed="#V" n="77" break="no"/>ditivum aeternae Beatitudinis? Quintum,
+            <lb ed="#V" n="78"/>quomodo notum ut inductivum supplicii?
+            <lb ed="#V" n="79"/>Ad quatuor ultima jam patet responsio ex
+            <lb ed="#V" n="80"/>praemissis, peccatum esse tantum notum,
+            <lb ed="#V" n="81"/>qua est offensio Dei, et sic de reliquis,
+            <lb ed="#V" n="82"/>solum ex fide, ideoque non respondet. Ad
+            <lb ed="#V" n="83"/>primum autem non respondet hic, sed
+            <lb ed="#V" n="84"/>dicit quomodocumque sit notum
+            pecca<lb ed="#V" n="85" break="no"/>tum naturaliter habere poenitentiam primo
+            <lb ed="#V" n="86"/>modo pro regula. Intelligit nomine
+            poeni<pb ed="#V" n="131"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tentiae illam cognitionem quocumque
+            <lb ed="#V" n="2"/>modo fiat.
+          </p>
+          <p>
+            <lb ed="#V" n="3"/>Ut ergo hanc difficultatem amplius
+            <lb ed="#V" n="4"/>explicemus, et respondeatur ad primum
+            <lb ed="#V" n="5"/>dubium: urgetur difficultas primo,
+            om<lb ed="#V" n="6" break="no"/>nis virtus sufficienter regulatur per
+            <lb ed="#V" n="7"/>cognitionem sui generis, sed
+            poeni<lb ed="#V" n="8" break="no"/>tentia est virtus naturalis acquisita; ergo.
+            <lb ed="#V" n="9"/>Secundo, ratio naturalis dictat dolendum
+            <lb ed="#V" n="10"/>esse de peccato, quatenus est offensa Dei,
+            <lb ed="#V" n="11"/>quia hac ratione etiam Gentes et Pagani
+            <lb ed="#V" n="12"/>instituerunt sacrificia et varios cultus ad
+            <lb ed="#V" n="13"/>placandum deos offensos; ergo licet
+            <lb ed="#V" n="14"/>ignoraverint Deum verum, nihilominus
+            <lb ed="#V" n="15"/>cognoverunt Deum, quicumque erat, non
+            <lb ed="#V" n="16"/>esse offendendum, sed de offensa
+            placan<lb ed="#V" n="17" break="no"/>dum. Confirmari potest ex Paulo ad
+            Ro<lb ed="#V" n="18" break="no"/>manos primo, qui hac ratione docet
+            Gen<lb ed="#V" n="19" break="no"/>tes peccasse, qui cum Deum ex creatura
+            <lb ed="#V" n="20"/>cognovissent, non sicut Deum
+            glorifica<lb ed="#V" n="21" break="no"/>verunt. Tertio, ratio dictat peccatum esse
+            <lb ed="#V" n="22"/>malum et contra rectitudinem regulae;
+            <lb ed="#V" n="23"/>ergo detestandum, sive per fugam, sive
+            <lb ed="#V" n="24"/>per tristitiam. Antecedens patet, alias
+            <lb ed="#V" n="25"/>nullum esset peccatum infidelium, quod
+            <lb ed="#V" n="26"/>est falsum. Consequentia probatur, quia
+            <lb ed="#V" n="27"/>hoc principium ex terminis notum est:
+            <lb ed="#V" n="28"/>malum esse fugiendum; ergo si praesens
+            <lb ed="#V" n="29"/>apprehenditur, ex eodem principio
+            se<lb ed="#V" n="30" break="no"/>quitur de eodem tristandum esse, quia
+            <lb ed="#V" n="31"/>tristitia causatur ex apprehensione objecti
+            <lb ed="#V" n="32"/>praesentis noliti. Confirmari potest ex eo
+            <lb ed="#V" n="33"/>quod lumine naturali notum sit hominem
+            <lb ed="#V" n="34"/>natura sua ordinari ad honestatem, in quo
+            <lb ed="#V" n="35"/>distinguitur a brutis, quod cognoverunt
+            <lb ed="#V" n="36"/>etiam Gentiles Philosophi, qui plura de
+            <lb ed="#V" n="37"/>virtutibus et vitiis vera scripserunt a
+            Theo<lb ed="#V" n="38" break="no"/>logis et Patribus recepta. Deinde notum
+            <lb ed="#V" n="39"/>est dari aliqua principia practica
+            regu<lb ed="#V" n="40" break="no"/>lantia voluntatem, ut patet de prudentia,
+            <lb ed="#V" n="41"/>quae est habitus acquisitus. Ex his
+            demon<lb ed="#V" n="42" break="no"/>stratur errandum non esse in opere;
+            <lb ed="#V" n="43"/>ergo etiam corrigendum id in quo
+            erra<lb ed="#V" n="44" break="no"/>tum est peccando, sed hoc nequit sine
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>displicentia peccati. Haec displicentia est
+            <lb ed="#V" n="46"/>poenitentia; ergo. Patet subsumptum,
+            <lb ed="#V" n="47"/>quia displicentia seu dolor de peccato ex
+            <lb ed="#V" n="48"/>turpitudine ejus conceptus, est vera
+            poeni<lb ed="#V" n="49" break="no"/>tentia, ut tradit Trident. sess. 14. cap. 4.
+            <lb ed="#V" n="50"/>in fine, et can. 5. Sed haec turpitudo
+            con<lb ed="#V" n="51" break="no"/>sistit in repugnantia et oppositione ejus
+            <lb ed="#V" n="52"/>ad honestatem; ergo displicentia ejus
+            <lb ed="#V" n="53"/>habetur per regulam talis honestatis, quae
+            <lb ed="#V" n="54"/>est mere naturalis. Patet consequentia
+            <lb ed="#V" n="55"/>etiam ex dictis superius, quia quaelibet
+            <lb ed="#V" n="56"/>virtus nata est displicere in peccato sibi
+            <lb ed="#V" n="57"/>opposito.
+          </p>
+          <p>
+            <lb ed="#V" n="58"/>Dico, peccatum cognoscitur ab homine
+            <lb ed="#V" n="59"/>quatenus est privatio rectitudinis moralis
+            <lb ed="#V" n="60"/>virtutis, viribus naturae, in propria et
+            <lb ed="#V" n="61"/>immediata regula talis virtutis. Haec
+            vide<lb ed="#V" n="62" break="no"/>tur Doctoris in praemissis, atque in hac
+            <lb ed="#V" n="63"/>responsione, quia supponit peccatum hoc
+            <lb ed="#V" n="64"/>modo posse cognosci naturaliter, et eam
+            <lb ed="#V" n="65"/>probant argumenta jam facta. Conclusio
+            <lb ed="#V" n="66"/>respondet ad primum dubium, et
+            confir<lb ed="#V" n="67" break="no"/>matur, quia alias nemo peccaret
+            infide<lb ed="#V" n="68" break="no"/>lium, quod est contra fidem et Paulum
+            <lb ed="#V" n="69"/>ad Roman. 1. et ubique Scriptura ipsis
+            <lb ed="#V" n="70"/>improperat sua peccata. Probatur
+            seque<lb ed="#V" n="71" break="no"/>la, quia deficeret cognitio necessaria.
+            <lb ed="#V" n="72"/>Peccatum enim est actus voluntatis contra
+            <lb ed="#V" n="73"/>rectam rationem, sive illa rectitudo
+            desu<lb ed="#V" n="74" break="no"/>matur quandoque, aut semper ad
+            extrin<lb ed="#V" n="75" break="no"/>secam legem, sive ad intrinsecum
+            appe<lb ed="#V" n="76" break="no"/>titum et inclinationem rationis, de quo
+            <lb ed="#V" n="77"/>non curo modo; ergo supponit rationem
+            <lb ed="#V" n="78"/>rectam ex qua intellectus peccantis
+            infide<lb ed="#V" n="79" break="no"/>lis discernere potest defectum in actu;
+            <lb ed="#V" n="80"/>haec autem est naturalis.
+          </p>
+          <p>
+            <lb ed="#V" n="81"/>Dico secundo, incertum est quantum se
+            <lb ed="#V" n="82"/>extendat haec regula naturalis cognoscendi
+            <lb ed="#V" n="83"/>peccatum, seu ex quibus principiis habuit
+            <lb ed="#V" n="84"/>initium, nam si loquamur de sapientibus
+            <lb ed="#V" n="85"/>hujus mundi, qui sine lumine fidei
+            atti<lb ed="#V" n="86" break="no"/>gerunt plurima principia operabilium in
+            <lb ed="#V" n="87"/>practicis de virtutibus et vitiis recepta a
+            <lb ed="#V" n="88"/>Patribus et Theologis, disciplina et
+            tradi<pb ed="#V" n="132"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>tione, haec dedisse putaverim, non propria
+            <lb ed="#V" n="2"/>¡nventione, contra quos optime disserit
+            <lb ed="#V" n="3"/>Doctor q. 1. protogi. Neque enim ipsi
+            <lb ed="#V" n="4"/>cognoverunt, neque homo ex puris
+            natu<lb ed="#V" n="5" break="no"/>ralibus cognoscere potest distincte
+            rati<lb ed="#V" n="6" break="no"/>onem finis, a quo desumuntur proxime
+            <lb ed="#V" n="7"/>vel remote principia operandi secundum
+            <lb ed="#V" n="8"/>rectitudinem hominis, qua ordinatur in
+            <lb ed="#V" n="9"/>finem, ut patet ex iis quae tradiderunt
+            <lb ed="#V" n="10"/>Philosophi de felicitate, ut Aristoteles ex
+            <lb ed="#V" n="11"/>primo Ethic. cap. 9. ubi dubitat, an per
+            <lb ed="#V" n="12"/>disciplinam, sicut scientia; aut
+            assuetu<lb ed="#V" n="13" break="no"/>dine, sicut virtus moralis; aut
+            exercita<lb ed="#V" n="14" break="no"/>tione, sicut ars, comparatur felicitas.
+            <lb ed="#V" n="15"/>Deinde, an humanam, aut divinam, aut
+            <lb ed="#V" n="16"/>fortuitam, habeat causam felicitas, et cap.
+            <lb ed="#V" n="17"/>sequenti, an in operatione virtutum, an in
+            <lb ed="#V" n="18"/>vita, vel in morte, et post mortem, lib. 10.
+            <lb ed="#V" n="19"/>Ethic. dubius est etiam in quo consistat,
+            <lb ed="#V" n="20"/>ut patet in fine. Varias Philosophorum
+            <lb ed="#V" n="21"/>sectas enumerat Philosophus, quas
+            impu<lb ed="#V" n="22" break="no"/>gnat 1. 2. 7. et 10. Ethicor. et 1. lib. ad
+            <lb ed="#V" n="23"/>Eudemium, et lib. 2. in principio, statuit
+            <lb ed="#V" n="24"/>suam opinionem.
+            <lb ed="#V" n="25"/>Augustinus lib. 13. de Trinit cap. 7.
+            <lb ed="#V" n="26"/>Fecerunt, inquit, quidam sibi Philosophi,
+            <lb ed="#V" n="27"/>sicut eorum cuique placuit, vitas beatas
+            <lb ed="#V" n="28"/>suas, et quasi propria virtute possent,
+            <lb ed="#V" n="29"/>quod communi mortalium conditione non
+            <lb ed="#V" n="30"/>non poterant, etc. Idem de Civitate, lib.
+            <lb ed="#V" n="31"/>19. ex Marco Varrone de fine bonorum et
+            <lb ed="#V" n="32"/>malorum, ducentas octoginta octo
+            Philo<lb ed="#V" n="33" break="no"/>sophorum sectas discrepantes
+            commemo<lb ed="#V" n="34" break="no"/>rat, lib. 2. de Civitate, cap. 7. in triplici
+            <lb ed="#V" n="35"/>Philosophia naturali, rationali, morali:
+            <lb ed="#V" n="36"/>Quidam eorum, inquit, quaedam magna
+            <lb ed="#V" n="37"/>quantum divinitus adjuti sunt, invenerunt,
+            <lb ed="#V" n="38"/>quantum autem humanitus impediti sunt,
+            <lb ed="#V" n="39"/>erraverunt, maxime cum eorum superbiae
+            <lb ed="#V" n="40"/>juste divina providentia resisteret, etc.
+          </p>
+          <p>
+            <lb ed="#V" n="41"/>Lactantius lib. 2. Instit. cap. 3. Falsum,
+            <lb ed="#V" n="42"/>inquit, intelligere, est quidem sapientiae,
+            <lb ed="#V" n="43"/>sed humanae, ultra hunc gradum procedi
+            <lb ed="#V" n="44"/>ab homine non patet, etc. verum autem
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>scire divinae est sapientiae; homo autem per
+            <lb ed="#V" n="46"/>seipsum pervenire ad hanc scientiam non
+            <lb ed="#V" n="47"/>potest, nisi doceatur a Deo. Ita Philosophi
+            <lb ed="#V" n="48"/>quod summum fuit humanae sapientiae
+            asse<lb ed="#V" n="49" break="no"/>cuti sunt, ut intelligerent quid non sit, illud
+            <lb ed="#V" n="50"/>assequi nequierunt, quid sit; nota Ciceronis
+            <lb ed="#V" n="51"/>vox est: utinam tam facile vera invenire
+            <lb ed="#V" n="52"/>possem, quam falsa convincere, etc. et lib.
+            <lb ed="#V" n="53"/>3. cap. 8. enumerat varias sententias et
+            <lb ed="#V" n="54"/>sectas eorum de natura summi boni, quas
+            <lb ed="#V" n="55"/>universim impugnat Tertullianus lib. de
+            <lb ed="#V" n="56"/>praescript. adversus haereses, c. 7. vocat
+            <lb ed="#V" n="57"/>Philosophiam Graecorum, materiam
+            sapien<lb ed="#V" n="58" break="no"/>tiae saecularis, temerariam interpretem
+            di<lb ed="#V" n="59" break="no"/>vinae naturae, et dispositionis affectatricem
+            <lb ed="#V" n="60"/>et interpolatricem veritatis. Ubi etiam
+            <lb ed="#V" n="61"/>originem haeresum ad eamdem reducit
+            <lb ed="#V" n="62"/>Valentini AEonas ad Platonicos; Marcionis
+            <lb ed="#V" n="63"/>Deum meliorem de tranquillitate ad
+            Stoi<lb ed="#V" n="64" break="no"/>cos, interitum animae, et mortalitatem ad
+            <lb ed="#V" n="65"/>Epicuros, negatam resurrectionem ad
+            <lb ed="#V" n="66"/>omnium Philosophorum scholas, etc.
+            Vi<lb ed="#V" n="67" break="no"/>deatur lib. de resurrectione carnis, cap. 1.
+            <lb ed="#V" n="68"/>et lib. de anima, cap. 1. ubi agens de
+            <lb ed="#V" n="69"/>Socrate jam damnato: Omnis illa
+            sapien<lb ed="#V" n="70" break="no"/>tia Socratis de industria venerat consultae
+            <lb ed="#V" n="71"/>aequanimitatis, non de fiducia compertae
+            <lb ed="#V" n="72"/>veritatis, cui enim veritas comperta sine
+            <lb ed="#V" n="73"/>Deo? cui Deus cognitus sine Christo? cui
+            <lb ed="#V" n="74"/>Christus exploratus sine Spiritu sancto?
+            <lb ed="#V" n="75"/>cui Spiritussanctus accommodatus sine
+            <lb ed="#V" n="76"/>fidei Sacramento?
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Caeterum licet plura tradiderunt
+            Philo<lb ed="#V" n="78" break="no"/>sophi de virtutibus et vitiis, quibus natura
+            <lb ed="#V" n="79"/>nostra in progressu ad finem suum
+            in<lb ed="#V" n="80" break="no"/>struitur, non ipsorum haec inventio
+            pri<lb ed="#V" n="81" break="no"/>mum fuit, ut tradunt Patres. Clemens
+            <lb ed="#V" n="82"/>Alexandrinus lib. 1. Stromatum:
+            Philoso<lb ed="#V" n="83" break="no"/>phi, inquit, ante Domini adventum a
+            Pro<lb ed="#V" n="84" break="no"/>phetis Hebraeis partem veritatis id minime
+            <lb ed="#V" n="85"/>agnoscentes sumpserunt, sed sibi tanquam
+            <lb ed="#V" n="86"/>propria dogmata attribuerunt, et alia
+            quae<lb ed="#V" n="87" break="no"/>dam adulterarunt, alia autem
+            supervaca<lb ed="#V" n="88" break="no"/>nea diligentia indocte, tanquam sapientes
+            <pb ed="#V" n="133"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>pronuntiarunt, etc. Tertullianus jam
+            cita<lb ed="#V" n="2" break="no"/>tus: Plane, inquit, non negabimus
+            aliquan<lb ed="#V" n="3" break="no"/>do Philosophos juxta nostros sensisse,
+            testi<lb ed="#V" n="4" break="no"/>monium est veritatis etiam inventus ipsius,
+            <lb ed="#V" n="5"/>etc. Hanc invenisse Philosophos aliquando
+            <lb ed="#V" n="6"/>docet, quamvis ea male usos, ut qui per
+            <lb ed="#V" n="7"/>ipsum: Nihil divinae licentiae reservant;
+            <lb ed="#V" n="8"/>legem naturae opiniones suas faciunt, etc.
+            <lb ed="#V" n="9"/>Didicisse autem veritatem ait, vel ex
+            anti<lb ed="#V" n="10" break="no"/>quis sapientibus, ut Mercurio, Sileno,
+            <lb ed="#V" n="11"/>Orpheo, vel ex Apocryphis et
+            Pseudo<lb ed="#V" n="12" break="no"/>prophetis, vel ex malis et familiaribus
+            <lb ed="#V" n="13"/>daemonibus, ut habuisse Socratem docet.
+            <lb ed="#V" n="14"/>ex communi providentia, et natura, vel
+            <lb ed="#V" n="15"/>ex sacris litteris.
+          </p>
+          <p>
+            <lb ed="#V" n="16"/>Platonem legisse libros legis, et
+            secu<lb ed="#V" n="17" break="no"/>tum fuisse in multis docet Justinus in
+            <lb ed="#V" n="18"/>paraenesi ad Gentes, Eusebius in
+            praepa<lb ed="#V" n="19" break="no"/>ratione Evangelica, Theodoretus de
+            Grae<lb ed="#V" n="20" break="no"/>corum affectionibus, Augustinus lib. 2. de
+            <lb ed="#V" n="21"/>doctrina Christiana, cap. 28. de Civit. Dei,
+            <lb ed="#V" n="22"/>lib. 8. cap. 11. eam movet difficultatem,
+            <lb ed="#V" n="23"/>an ex libris Moysis eamdem assecutus est,
+            <lb ed="#V" n="24"/>an per viam creaturae, an ex collatione
+            <lb ed="#V" n="25"/>cum legisperitis, asserens versionem LXX.
+            <lb ed="#V" n="26"/>post ejus mortem editam. Aristobolus
+            <lb ed="#V" n="27"/>autem Judaeus ad Philometora apud
+            Euse<lb ed="#V" n="28" break="no"/>bium: Legem, inquit, nostram in multis
+            <lb ed="#V" n="29"/>Plato est secutus; hinc Numenius
+            Philoso<lb ed="#V" n="30" break="no"/>phus: Quid Plato nisi Moises Aisatus?
+            <lb ed="#V" n="31"/>Demus etiam Socratem Platone
+            antiqui<lb ed="#V" n="32" break="no"/>orem, qui primus inter Graecos naturalis
+            <lb ed="#V" n="33"/>Philosophiae, vel taedio vel obscuritate
+            <lb ed="#V" n="34"/>rerum victus, vel studio instituendae vitae
+            <lb ed="#V" n="35"/>ad moralem Philosophiam se contulit,
+            <lb ed="#V" n="36"/>pleraque tradidisse; id non convincit
+            <lb ed="#V" n="37"/>eum primum fuisse Auctorem, quia
+            tradi<lb ed="#V" n="38" break="no"/>tio a primo homine, et sequentibus, in
+            <lb ed="#V" n="39"/>quibus viguit cultus Dei, et lex naturae,
+            <lb ed="#V" n="40"/>non fuit omnino abolita, quae per
+            doctri<lb ed="#V" n="41" break="no"/>nam ad Graecos emanavit ab AEgyptiis,
+            <lb ed="#V" n="42"/>Chaldaeis et Hebraeis, quamvis origo
+            tra<lb ed="#V" n="43" break="no"/>o ditionis ipsis fuerit ignota, quae primum
+            <lb ed="#V" n="44"/>referenda est in divinam revelationem,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>quae principia instituendae vitae, et
+            asse<lb ed="#V" n="46" break="no"/>quendi finis homini tradidit. Unde
+            dogma<lb ed="#V" n="47" break="no"/>ta Philosophorum de Beatitudine et
+            insti<lb ed="#V" n="48" break="no"/>tutione vitae assumpta sunt ex aliis, non
+            <lb ed="#V" n="49"/>per ipsos probata ut principia ex
+            termi<lb ed="#V" n="50" break="no"/>nis nota, aut conclusiones evidenter
+            de<lb ed="#V" n="51" break="no"/>ductae.
+          </p>
+          <p>
+            <lb ed="#V" n="52"/>Nam si legem naturae spectemus a qua
+            <lb ed="#V" n="53"/>principia virtutum circa finem et media
+            <lb ed="#V" n="54"/>emanant, certum est praecepta primae
+            ta<lb ed="#V" n="55" break="no"/>bulae in pluribus corrupta esse in Graecis,
+            <lb ed="#V" n="56"/>quod designant errores eorum circa prima
+            <lb ed="#V" n="57"/>rerum principia, de providentia Dei, de
+            <lb ed="#V" n="58"/>multitudine Deorum saltem tenenda, de
+            <lb ed="#V" n="59"/>fato, de aeternitate Mundi, de
+            omnipoten<lb ed="#V" n="60" break="no"/>tia Dei, de cultu idolorum. Quoad
+            praece<lb ed="#V" n="61" break="no"/>pta autem secundae tabulae non esse nota
+            <lb ed="#V" n="62"/>lumine naturae, tanquam principia ex
+            ter<lb ed="#V" n="63" break="no"/>minis, aut conclusiones, sed ut consona
+            <lb ed="#V" n="64"/>tantum, et habentia causam mere
+            contin<lb ed="#V" n="65" break="no"/>gentem, nempe voluntatem Dei, docet
+            <lb ed="#V" n="66"/>Doctor in 3. d. 37. quem sequuntur
+            Nomi<lb ed="#V" n="67" break="no"/>nales; et hanc legem per doctrinam
+            <lb ed="#V" n="68"/>receperunt homines a Deo per
+            revelati<lb ed="#V" n="69" break="no"/>onem internam aut externam, ut ibidem
+            <lb ed="#V" n="70"/>Doctor. Hinc non est admittendum, si
+            <lb ed="#V" n="71"/>quis ab infantia extra hominum
+            consuetu<lb ed="#V" n="72" break="no"/>dinem viveret, eum posse ad notitiam
+            <lb ed="#V" n="73"/>horum praeceptorum venire sine doctrina,
+            <lb ed="#V" n="74"/>aut speciali habita a Deo illuminatione,
+            <lb ed="#V" n="75"/>cum neque in objecto sui intellectus pro
+            <lb ed="#V" n="76"/>hoc statu includantur, et si
+            includeren<lb ed="#V" n="77" break="no"/>tur, non paterentur sapientes tantum in
+            <lb ed="#V" n="78"/>iis discrepantiam, et errores, quibus non
+            <lb ed="#V" n="79"/>solum Philosophi, sed etiam ii quibus
+            <lb ed="#V" n="80"/>adminiculum legis fuit, subjacebant, ut
+            <lb ed="#V" n="81"/>Judaeorum peritiores Pharisaei et Scribae,
+            <lb ed="#V" n="82"/>et Sadducaei, quibus Salvator id saepius
+            <lb ed="#V" n="83"/>improperat.
+          </p>
+          <p>
+            <lb ed="#V" n="84"/>Erraverunt ergo Philosophi, quique
+            <lb ed="#V" n="85"/>etiam in suis politiis, ut Doctor annotavit, et
+            <lb ed="#V" n="86"/>Patres; erraverunt etiam quod suis
+            viri<lb ed="#V" n="87" break="no"/>bus, ingenio et inventioni quidquid
+            appre<lb ed="#V" n="88" break="no"/>henderunt, attribuebant. Erraverunt etiam
+            <pb ed="#V" n="134"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>tertio, quod felicitatem non noverint, et
+            <lb ed="#V" n="2"/>ut dicit Lactantius lib. 3. cap. 8. quamvis
+            <lb ed="#V" n="3"/>in virtute felicitatem hominis statuerint,
+            <lb ed="#V" n="4"/>ignorarunt quid efficeret virtus, aut quo
+            <lb ed="#V" n="5"/>tenderet, honestius autem nihil
+            reperi<lb ed="#V" n="6" break="no"/>rent: Substiterunt in ipsius virtutis
+            nomi<lb ed="#V" n="7" break="no"/>ne, quam nullo proposito emolumento
+            <lb ed="#V" n="8"/>appetendam esse dixerunt, et bonum sibi
+            <lb ed="#V" n="9"/>constituerunt, quod bono indigerent, etc.
+            <lb ed="#V" n="10"/>Prosper contra collatorem: Neque enim
+            <lb ed="#V" n="11"/>ignotum est, quantum Graecae scholae,
+            quan<lb ed="#V" n="12" break="no"/>tum Romana eloquentia, et totius mundi
+            <lb ed="#V" n="13"/>iniquisitio circa summum bonum
+            acerri<lb ed="#V" n="14" break="no"/>mis studiis, exccellentissimis ingentis
+            labo<lb ed="#V" n="15" break="no"/>rando nihil egerunt.
+            <lb ed="#V" n="16"/>Accedunt ad haec Canones Ecclesiae,
+            <lb ed="#V" n="17"/>quibus ignorantia et error sequens in
+            <lb ed="#V" n="18"/>intellectu, infirmitas in voluntate ex
+            pec<lb ed="#V" n="19" break="no"/>cato primi hominis adstruitur, atque adeo
+            <lb ed="#V" n="20"/>necessitas divinae illustrationis, ut bonum
+            <lb ed="#V" n="21"/>videat, inspirationis, ut apprehendat,
+            con<lb ed="#V" n="22" break="no"/>sulendus Cicero in quinque libris de
+            fini<lb ed="#V" n="23" break="no"/>bus bonorum et malorum, Augustinus
+            <lb ed="#V" n="24"/>locis citatis, speciatim lib. 18. cap. 41. lib.
+            <lb ed="#V" n="25"/>19. per totum, Eusebius de praeparatione
+            <lb ed="#V" n="26"/>Evangelica, lib. 2. Theodoretus de
+            Graeco<lb ed="#V" n="27" break="no"/>rum affectionibus. Lactantius lib. 3. cap. 1.
+            <lb ed="#V" n="28"/>asserens quamcumque veritatem, et
+            prae<lb ed="#V" n="29" break="no"/>cepta instituendae vitae agnoverunt
+            Philo<lb ed="#V" n="30" break="no"/>sophi ab Hebraeis surripuisse. Tertullianus
+            <lb ed="#V" n="31"/>supra, et in Apolog. cap. 47. dicit
+            Philoso<lb ed="#V" n="32" break="no"/>phos ex fonte Prophetarum sitim ingenii
+            <lb ed="#V" n="33"/>rigasse. Nazianzenus ad Nemesium, de
+            <lb ed="#V" n="34"/>Philosophis, idem docet, et alii, ex quibus
+            <lb ed="#V" n="35"/>haec veritas liquet.
+            <lb ed="#V" n="36"/>Cur autem potissimum apud Graecos
+            <lb ed="#V" n="37"/>traditio circa veritatem interiit, aliqui
+            <lb ed="#V" n="38"/>docent causam esse diluvium
+            Deucale<lb ed="#V" n="39" break="no"/>onis, quod totam Thessaliam vastavit, et
+            <lb ed="#V" n="40"/>aliud anterius, quod contingit etiam in
+            <lb ed="#V" n="41"/>Graecia sub Ogigio Rege in Regione Attica,
+            <lb ed="#V" n="42"/>quam sic vastavit, ut per ducentos annos
+            <lb ed="#V" n="43"/>reddiderit incultam et inhabitatam. Vide
+            <lb ed="#V" n="44"/>Pinedam lib. 12. in Gen. cap. 7. quae
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>diluvia ex Platone in Timaeo AEgyptum
+            <lb ed="#V" n="46"/>non attigerunt, ac proinde non est mirum,
+            <lb ed="#V" n="47"/>si traditio et rerum antiquarum memoria
+            <lb ed="#V" n="48"/>apud ipsos facilius conservata, quae apud
+            <lb ed="#V" n="49"/>Graecos deleta fuit, et quam mox Orphaeus
+            <lb ed="#V" n="50"/>ac Musaeus fabulis obscurarunt.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>Ex his ergo colligitur principia ista
+            <lb ed="#V" n="52"/>universalia de quatuor virtutibus
+            Cardina<lb ed="#V" n="53" break="no"/>libus traditione recepta esse, ex quibus
+            <lb ed="#V" n="54"/>procedebant Philosophi, tanquam ex
+            re<lb ed="#V" n="55" break="no"/>gulis generalibus suppositis discurrendo
+            <lb ed="#V" n="56"/>in hac vel illa materia, in qua aliquid
+            <lb ed="#V" n="57"/>singulare alios prae aliis invenisse non est
+            <lb ed="#V" n="58"/>negandum, ut Augustinus lib. 2. de Civit.
+            <lb ed="#V" n="59"/>cap. 7. docet: Quidam, inquit, eorum
+            <lb ed="#V" n="60"/>quaedam magna quantum divinitus adjuti
+            <lb ed="#V" n="61"/>sunt, invenerunt; quantum autem
+            humani<lb ed="#V" n="62" break="no"/>tus impediti sunt, erraverunt, maxime
+            <lb ed="#V" n="63"/>cum eorum superbiae juste divina
+            provi<lb ed="#V" n="64" break="no"/>dentia resisteret, ut viam pietatis ab
+            humi<lb ed="#V" n="65" break="no"/>litate in superna surgentem etiam istorum
+            <lb ed="#V" n="66"/>comparatione monstraret, etc.
+            Suppone<lb ed="#V" n="67" break="no"/>bantur itaque haec principia traditione
+            <lb ed="#V" n="68"/>conservata, tum quia ad pacificam
+            aedifi<lb ed="#V" n="69" break="no"/>cationem et conservationem civitatis
+            ter<lb ed="#V" n="70" break="no"/>renae, erant necessaria dum per errorem
+            <lb ed="#V" n="71"/>ad altiora non consurgeret, quia in his
+            <lb ed="#V" n="72"/>materia laudis et vituperii consistebat;
+            <lb ed="#V" n="73"/>tum etiam, ut Paulus ad Rom. 1. quia
+            <lb ed="#V" n="74"/>gentes in naturam peccantes non
+            habe<lb ed="#V" n="75" break="no"/>rent excusationem; tum etiam, ut
+            imagi<lb ed="#V" n="76" break="no"/>nis primum impressae, aliqua in homine
+            <lb ed="#V" n="77"/>lineamenta manerent divina providentia
+            <lb ed="#V" n="78"/>haec conservante; et ideo Philosophis
+            con<lb ed="#V" n="79" break="no"/>cessa est specialis quaedam assistentia in
+            <lb ed="#V" n="80"/>his principiis ad actiones humanas
+            appli<lb ed="#V" n="81" break="no"/>candis et conservandis, ut dicit
+            Augusti<lb ed="#V" n="82" break="no"/>nus, sine quibus notitia Dei conservari
+            <lb ed="#V" n="83"/>non potuit; tum etiam ut revelata
+            veri<lb ed="#V" n="84" break="no"/>tate et fide, facilius ex ipsis eorum
+            Magi<lb ed="#V" n="85" break="no"/>stris reduci possint, ut eam reciperent.
+          </p>
+          <p>
+            <lb ed="#V" n="86"/>Haec autem principia, seu regulae
+            qua<lb ed="#V" n="87" break="no"/>tuor virtutum spectant ad secundam
+            tabu<lb ed="#V" n="88" break="no"/>lam, ejusque praecepta, quae, ut
+            supposui<pb ed="#V" n="135"/><cb ed="#V" n="a"/><lb ed="#V" n="1" break="no"/>mus ex Doctore nostro in 3. d. illa 37.
+            <lb ed="#V" n="2"/>per revelationem divinam emanarunt
+            <lb ed="#V" n="3"/>primum homini factam, et ut ibidem
+            re<lb ed="#V" n="4" break="no"/>sponsione ad tertium asserit; vel
+            interi<lb ed="#V" n="5" break="no"/>orem vel exteriorem, ad quam erant
+            ho<lb ed="#V" n="6" break="no"/>mines obligati ante legem scriptam, ut
+            <lb ed="#V" n="7"/>facile colligitur ex iis quae Abrahae cum
+            <lb ed="#V" n="8"/>Abimelecho et Pharaone acciderunt circa
+            <lb ed="#V" n="9"/>Sarai uxorem suam; per interiorem
+            qui<lb ed="#V" n="10" break="no"/>dem scriptam in cordibus: Vel forte,
+            in<lb ed="#V" n="11" break="no"/>quit, per aliquam doctrinam exteriorem
+            <lb ed="#V" n="12"/>datam a Deo, quam discebant parentes, et
+            <lb ed="#V" n="13"/>derivabant in filios; nec oportuit ea scribi
+            <lb ed="#V" n="14"/>in libro, quia potuerunt ea faciliter
+            memo<lb ed="#V" n="15" break="no"/>riae commendare et retinere, quia populus
+            <lb ed="#V" n="16"/>illius temporis erat longioris vitae, et fuit
+            <lb ed="#V" n="17"/>melioris dispositionis in naturalibus, quam
+            <lb ed="#V" n="18"/>populus temporis posterioris, quo tempore
+            <lb ed="#V" n="19"/>infirmitas populi requirebat legem dari et
+            <lb ed="#V" n="20"/>x scribi, esc. Nec dicendum est ullam
+            le<lb ed="#V" n="21" break="no"/>gem a Deo datam fuisse, nisi in ordine ad
+            <lb ed="#V" n="22"/>salutem, pro quocumque statu viae. Neque
+            <lb ed="#V" n="23"/>praeterea dicendum est in statu naturae
+            <lb ed="#V" n="24"/>corruptae ipsum adimpleri posse sine
+            di<lb ed="#V" n="25" break="no"/>vina inspiratione et illustratione, ut patet
+            <lb ed="#V" n="26"/>ex decretis contra Pelagianos et
+            Semi<lb ed="#V" n="27" break="no"/>pelagianos, unde sane intelligenda sunt,
+            <lb ed="#V" n="28"/>quae saepe in libris Philosophorum
+            legun<lb ed="#V" n="29" break="no"/>tur de adimpletione hujus legis, qui in
+            <lb ed="#V" n="30"/>eodem errore fuerunt quo Pelagiani,
+            tri<lb ed="#V" n="31" break="no"/>buentes omnia naturae et potissimum illud,
+            <lb ed="#V" n="32"/>quod saepius dicunt: Semina quaedam, et
+            <lb ed="#V" n="33"/>igniculos quosdam virtutum nobis inesse
+            <lb ed="#V" n="34"/>naturaliter a Deo conditore naturae, etc.
+            <lb ed="#V" n="35"/>Quem loquendi modum secutus est
+            Cassi<lb ed="#V" n="36" break="no"/>anus, et merito reprehenditur a Prospero,
+            <lb ed="#V" n="37"/>si per haec excludatur divina gratia, nam
+            <lb ed="#V" n="38"/>ut Canon Ecclesiasticus definit: Liberum
+            <lb ed="#V" n="39"/>arbitrium gratia Dei destitutum nihil valet
+            <lb ed="#V" n="40"/>nisi ad peccandum; et articulus septimus
+            <lb ed="#V" n="41"/>Concilii Diospolitani: Ad singulos actus
+            <lb ed="#V" n="42"/>bonos requirere auxilium gratiae Dei.
+            <lb ed="#V" n="43"/>Quem articulum tanquam fidei tenet
+            ubi<lb ed="#V" n="44" break="no"/>que Augustinus, ut supra insinuavimus,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>nam si intelligant solum liberum
+            arbitri<lb ed="#V" n="46" break="no"/>um, non est semen boni, quod sibi
+            dere<lb ed="#V" n="47" break="no"/>lictum germinat peccatum.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>Unde sicut in Judaeis tempore legis
+            re<lb ed="#V" n="49" break="no"/>velatae et scriptae exterius, discernit
+            <lb ed="#V" n="50"/>Paulus litteram legis a spiritu, quem
+            se<lb ed="#V" n="51" break="no"/>quuntur Patres, ita etiam in gentibus
+            <lb ed="#V" n="52"/>praecepta et documenta virtutum,
+            discer<lb ed="#V" n="53" break="no"/>nenda sunt ab adjutorio Dei, sine quo non
+            <lb ed="#V" n="54"/>potuerunt adimpleri, cum nec ipsi Judaei,
+            <lb ed="#V" n="55"/>qui perfectiorem notitiam ex revelatione
+            <lb ed="#V" n="56"/>scripta habuerunt de iisdem praeceptis,
+            <lb ed="#V" n="57"/>nihil potuerunt, quantum ad opus
+            impleti<lb ed="#V" n="58" break="no"/>onis, sine adjutorio Dei, quod fuit ex
+            me<lb ed="#V" n="59" break="no"/>ritis et fide Redemptoris, non quod
+            ne<lb ed="#V" n="60" break="no"/>cessitas fuerit peccandi, ut moderni
+            No<lb ed="#V" n="61" break="no"/>vatores statuunt, sed quod voluntas
+            justi<lb ed="#V" n="62" break="no"/>tiae non ponatur in effectu neque
+            appre<lb ed="#V" n="63" break="no"/>hendatur, nisi liberum arbitrium excitetur
+            <lb ed="#V" n="64"/>ad bonum, et per amorem virtutis
+            inspira<lb ed="#V" n="65" break="no"/>tum, seu delectationem reddatur opus
+            <lb ed="#V" n="66"/>virtutis magis delectabile, quam sit
+            <lb ed="#V" n="67"/>bonum sensibile, quantumlibet utrumque
+            <lb ed="#V" n="68"/>libere ametur, sicut una cupiditas, verbi
+            <lb ed="#V" n="69"/>gratia, honoris et gloriae, vincit minorem
+            <lb ed="#V" n="70"/>aliam cupiditatem, ut intemperantiae,
+            <lb ed="#V" n="71"/>quamvis libere voluntas uni vel alteri
+            ad<lb ed="#V" n="72" break="no"/>haereat; ad quae principia sanctus
+            Augu<lb ed="#V" n="73" break="no"/>stinus lib. 4. contra Julianum, refert
+            ap<lb ed="#V" n="74" break="no"/>parentem virtutem Philosophorum, et
+            <lb ed="#V" n="75"/>quoscumque externos actus virtutis, quae
+            <lb ed="#V" n="76"/>in fide non fundantur, quae est radix
+            vir<lb ed="#V" n="77" break="no"/>tutum, et fundamentum adimplendi
+            le<lb ed="#V" n="78" break="no"/>gem, et operandi ad salutem.
+          </p>
+          <p>
+            <lb ed="#V" n="79"/>Admitterem ego cum Augustino lib. 2.
+            <lb ed="#V" n="80"/>de peccatorum meritis et rem. cap. 7.
+            vo<lb ed="#V" n="81" break="no"/>luntatem ideo peccare, quia vult, et ideo
+            <lb ed="#V" n="82"/>non esse sine peccato, quia nolit; nam nisi
+            <lb ed="#V" n="83"/>ex electione peccaret, peccatum non esset
+            <lb ed="#V" n="84"/>peccatum, sed actus necessarius, et quasi
+            <lb ed="#V" n="85"/>fatalis. Sed aliud est voluntatem esse
+            li<lb ed="#V" n="86" break="no"/>beram, et habere potestatem physicam
+            <lb ed="#V" n="87"/>non peccandi, vel faciendi aliquod opus
+            <lb ed="#V" n="88"/>bonum ex genere, et aliud est uti illa
+            <pb ed="#V" n="136"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>potestate, non utitur, quia in operando
+            <lb ed="#V" n="2"/>semper sequitur inclinationem, ut fertur in
+            <lb ed="#V" n="3"/>magis delectabile, et afficit appetitum
+            sen<lb ed="#V" n="4" break="no"/>sitivum si sibi relinquatur, libere tamen.
+            <lb ed="#V" n="5"/>Unde quando Patres negant potestatem
+            <lb ed="#V" n="6"/>libero arbitrio, excluso adjutorio divinae
+            <lb ed="#V" n="7"/>gratiae, nisi tantum ad peccandum, duo
+            <lb ed="#V" n="8"/>dicunt, nempe habere potestatem liberam
+            <lb ed="#V" n="9"/>non peccandi, si vellet ea uti, quia non
+            <lb ed="#V" n="10"/>necessitate, sed voluntate peccat; et
+            alte<lb ed="#V" n="11" break="no"/>rum est, quod non utatur illa potestate,
+            <lb ed="#V" n="12"/>adhibendo conatum requisitum ex parte
+            <lb ed="#V" n="13"/>operis, nisi adjuvetur et excitetur a gratia.
+            <lb ed="#V" n="14"/>Hinc dicunt liberum arbitrium non esse
+            <lb ed="#V" n="15"/>extinctum, sed enervatum et infirmum,
+            <lb ed="#V" n="16"/>loquor de bono in genere, non de actu
+            <lb ed="#V" n="17"/>supernaturali quoad substantiam, qui fuit
+            <lb ed="#V" n="18"/>Philosophis ignotus, et ad quem
+            requiri<lb ed="#V" n="19" break="no"/>tur gratia alterius rationis, quia non
+            appli<lb ed="#V" n="20" break="no"/>cat, ut dixi, vires necessarias. Haec autem
+            <lb ed="#V" n="21"/>potentia, cujus non fit usus, magis
+            redu<lb ed="#V" n="22" break="no"/>citur ad remotam quam ad proximam,
+            <lb ed="#V" n="23"/>licet non ex defectu virtutis, sed
+            applica<lb ed="#V" n="24" break="no"/>tionis et conatus. Haec doctrina est
+            Augu<lb ed="#V" n="25" break="no"/>stini variis in locis, ut supra allegavimus;
+            <lb ed="#V" n="26"/>est etiam Doctoris in secundo dist. 29. ex
+            <lb ed="#V" n="27"/>qua pono sequentem conclusionem.
+          </p>
+          <p>
+            <lb ed="#V" n="28"/>Dico tertio, regula naturalis poenitentiae,
+            <lb ed="#V" n="29"/>ideo dicitur naturalis in nobis, quia cognitio,
+            <lb ed="#V" n="30"/>quae habetur, est ex doctrina naturaliter
+            <lb ed="#V" n="31"/>tradita, et non proponitur nobis sub motivo
+            <lb ed="#V" n="32"/>revelationis, quamvis primum ex
+            revelati<lb ed="#V" n="33" break="no"/>one emanavit. Haec patet ex dictis in
+            prae<lb ed="#V" n="34" break="no"/>cedenti.
+          </p>
+          <p>
+            <lb ed="#V" n="35"/>Dico quarto, ex hoc dici poenitentiam
+            <lb ed="#V" n="36"/>naturalem, ut est in voluntate, quia est ex
+            <lb ed="#V" n="37"/>motivo naturaliter cognito, prout jam
+            di<lb ed="#V" n="38" break="no"/>ctum est; non vero quod illa habeatur
+            <lb ed="#V" n="39"/>sine gratia excitante et adjuvante, aut
+            au<lb ed="#V" n="40" break="no"/>xilio speciali, si est poenitentia proprie
+            <lb ed="#V" n="41"/>dicta, et detestatio peccati concepta ex
+            <lb ed="#V" n="42"/>motivo honestatis, etiam in genere. Haec
+            <lb ed="#V" n="43"/>etiam patet ex iis, quae in fine secundae
+            <lb ed="#V" n="44"/>conclusionis diximus contra Philosophos,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>et ex dictis alias quaestione praecedenti
+            <lb ed="#V" n="46"/>variis in locis.
+            <lb ed="#V" n="47"/>Dico quinto, peccatum, ut est offensa
+            <lb ed="#V" n="48"/>Dei, non cognoscitur naturaliter, ut
+            pro<lb ed="#V" n="49" break="no"/>prie offensa est dissolvens, scilicet
+            amici<lb ed="#V" n="50" break="no"/>tiam cum Deo, quae fundatur in charitate
+            <lb ed="#V" n="51"/>supernaturali, secundum quam est
+            amici<lb ed="#V" n="52" break="no"/>tia inter justum et Deum, et
+            communica<lb ed="#V" n="53" break="no"/>tio bonorum secundum aliquam
+            propor<lb ed="#V" n="54" break="no"/>tionem amicitiae. Unde Judith 8. Abraham
+            <lb ed="#V" n="55"/>amicus Dei factus est. Psalm. 138. Nimis
+            <lb ed="#V" n="56"/>honorati sunt amici tui Deus, etc. Joan.
+            <lb ed="#V" n="57"/>15. Jam non dico vos servos, sed amicos,
+            <lb ed="#V" n="58"/>etc. Dixi secundum aliquam proportionem,
+            <lb ed="#V" n="59"/>etc. propter inaequalitatem inter personas.
+            <lb ed="#V" n="60"/>Unde Philosophus 7. Eth. cap. 7. et 12.
+            <lb ed="#V" n="61"/>negat esse amicitiam hominis ad Deum,
+            <lb ed="#V" n="62"/>sed aliquid excellentius, tamen invenitur
+            <lb ed="#V" n="63"/>proportio aliqua (quae fundatur in
+            excel<lb ed="#V" n="64" break="no"/>lentia objecti, et modo tendendi in ipsum)
+            <lb ed="#V" n="65"/>affectuum, actionum, beneficiorum,
+            con<lb ed="#V" n="66" break="no"/>stantia et firmitas. Et licet servi ad
+            domi<lb ed="#V" n="67" break="no"/>num non sit amicitia, tamen benevolentia
+            <lb ed="#V" n="68"/>domini potest contingere, si adoptetur in
+            <lb ed="#V" n="69"/>filium et amicum; hanc autem amicitiam
+            <lb ed="#V" n="70"/>non agnovit Philosophus, neque sciri
+            po<lb ed="#V" n="71" break="no"/>test naturaliter. Unde licet posuerit
+            amo<lb ed="#V" n="72" break="no"/>rem excellentiae, tamen cap. 7. et 2.
+            Ma<lb ed="#V" n="73" break="no"/>gnorum moralium eam negavit. Videatur
+            <lb ed="#V" n="74"/>Doctor in 3. d. 27. ad primum principale,
+            <lb ed="#V" n="75"/>et articulo 3. ad ultimum.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Dico sexto eo modo quo extenditur
+            <lb ed="#V" n="77"/>amicitia ad amorem Dei, prout
+            naturali<lb ed="#V" n="78" break="no"/>ter cognosci potest per viam creaturae, aut
+            <lb ed="#V" n="79"/>etiam disciplinae, ejusque providentia circa
+            <lb ed="#V" n="80"/>res humanas praemiando bonos,
+            castigan<lb ed="#V" n="81" break="no"/>do malos, quod notum fuit etiam
+            infideli<lb ed="#V" n="82" break="no"/>bus, sic cognosci potest peccatum esse
+            <lb ed="#V" n="83"/>detestandum, ut offensam, sub communi
+            <lb ed="#V" n="84"/>ratione. Haec conclusio patet, quia eadem
+            <lb ed="#V" n="85"/>regula, quae dictat Deum amandum,
+            di<lb ed="#V" n="86" break="no"/>ctat non esse offendendum. Patet secundo
+            <lb ed="#V" n="87"/>ex ratione cultus, quem cognoverunt
+            in<lb ed="#V" n="88" break="no"/>fideles, exhibendum Deo, ad placandam
+            <pb ed="#V" n="137"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>ejus iram seu offensam. Ex hoc patet
+            re<lb ed="#V" n="2" break="no"/>sponsio ad secundum dubium et ad
+            ter<lb ed="#V" n="3" break="no"/>tium, quomodo scilicet peccatum sit
+            aver<lb ed="#V" n="4" break="no"/>sivum a Deo, et qua via id notum sit,
+            <lb ed="#V" n="5"/>nempe ut Deus est finis ultimus, etiam
+            <lb ed="#V" n="6"/>Beatitudinis naturalis, ut docet Doctor in
+            <lb ed="#V" n="7"/>2. d. 3. quaest. 9. Si autem loquamur de
+            <lb ed="#V" n="8"/>illa aversione a fine supernaturali, de qua
+            <lb ed="#V" n="9"/>hic per se agit Doctor, et in questione
+            <lb ed="#V" n="10"/>praecedenti, sic tantum sub hac speciali
+            <lb ed="#V" n="11"/>ratione cognosci potest supernaturaliter,
+            <lb ed="#V" n="12"/>et perinde respondetur ad quartam et
+            <lb ed="#V" n="13"/>quintam, esse nota tantum
+            supernatu<lb ed="#V" n="14" break="no"/>raliter.
+          </p>
+          <p>
+            <lb ed="#V" n="15"/>Dico septimo, peccatum esse vindicandum
+            <lb ed="#V" n="16"/>per poenitentem in seipsum, non est
+            cogni<lb ed="#V" n="17" break="no"/>tum nobis lumine naturali, neque ulli, nisi
+            <lb ed="#V" n="18"/>ex divina revelatione. Unde quando
+            Do<lb ed="#V" n="19" break="no"/>ctor dicit Angelo fuisse notam
+            poeniten<lb ed="#V" n="20" break="no"/>tiam naturaliter, vel fore notam
+            naturali<lb ed="#V" n="21" break="no"/>ter, intelligit de poenitentia, qua est
+            di<lb ed="#V" n="22" break="no"/>splicentia peccati, seu tristitia de peccato;
+            <lb ed="#V" n="23"/>non vero loquitur de ipsa, qua ex
+            ordina<lb ed="#V" n="24" break="no"/>tione divina exigeretur ad remissionem
+            <lb ed="#V" n="25"/>peccati, et reconciliationem. Probatur,
+            <lb ed="#V" n="26"/>peccatum vindicandum hoc modo est
+            tan<lb ed="#V" n="27" break="no"/>tum ex divina voluntate et lege, in
+            ho<lb ed="#V" n="28" break="no"/>mine viatore tantum; sed illa voluntas
+            <lb ed="#V" n="29"/>videtur sola revelatione nota; ergo, etc.
+            <lb ed="#V" n="30"/>Antecedens patet ex dictis supra.
+            Conse<lb ed="#V" n="31" break="no"/>quentia probatur, quia poenitentia hoc
+            <lb ed="#V" n="32"/>modo sumpta, neque deduci potest ex
+            <lb ed="#V" n="33"/>principiis generalibus de virtutibus, neque
+            <lb ed="#V" n="34"/>ex particularibus ejus, cui peccatum
+            op<lb ed="#V" n="35" break="no"/>ponitur, neque Philosophis nota fuit.
+            Di<lb ed="#V" n="36" break="no"/>ces, noverunt Deum esse placandum;
+            <lb ed="#V" n="37"/>ergo per aliquam satisfactionem peccati.
+            <lb ed="#V" n="38"/>Respondetur eam placationem pertinuisse
+            <lb ed="#V" n="39"/>ad cultum et religionem tantum, et eo
+            <lb ed="#V" n="40"/>spectasse, ut averteretur poena peccati,
+            <lb ed="#V" n="41"/>non ipsum peccatum, nam et peccatum
+            <lb ed="#V" n="42"/>manere post actum, est tantum creditum
+            <lb ed="#V" n="43"/>nobis, quamvis itaque posuerint gentiles
+            <lb ed="#V" n="44"/>Metanoeam Deam, quae exigeret poenas
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>peccatorum, tamen non cognoverunt
+            ho<lb ed="#V" n="46" break="no"/>minem in seipso debere commissum
+            pu<lb ed="#V" n="47" break="no"/>nire; loquendo ergo de poenitentia, ut
+            <lb ed="#V" n="48"/>detestatio seu dolor de peccato ex motivo
+            <lb ed="#V" n="49"/>hujus aut illius virtutis, quando illud
+            mo<lb ed="#V" n="50" break="no"/>tivum non est supernaturale, habet
+            regu<lb ed="#V" n="51" break="no"/>lam naturalem; loquendo vero de
+            poeni<lb ed="#V" n="52" break="no"/>tentia, ut est talis detestatio ex motivo
+            <lb ed="#V" n="53"/>credito tantum, vel quatenus etiam est
+            <lb ed="#V" n="54"/>specialis, habet fidem pro regula. In
+            pri<lb ed="#V" n="55" break="no"/>ori sensu loquuntur multi Doctores, qui
+            <lb ed="#V" n="56"/>ponunt poenitentiam naturalem et
+            regu<lb ed="#V" n="57" break="no"/>lam ejusdem ordinis distinctam ab infusa.
+            <lb ed="#V" n="58"/>Ex quo patet solutio quaestionis. Responsio
+            <lb ed="#V" n="59"/>etiam ad argumenta patet ex dictis juxta
+            <lb ed="#V" n="60"/>variam acceptionem poenitentiae; solum
+            <lb ed="#V" n="61"/>dicendum ad illud quod opponitur ex
+            Tri<lb ed="#V" n="62" break="no"/>dentino, licet peccatum sit ex motivo
+            <lb ed="#V" n="63"/>virtutis, cui opponitur detestabile; eam
+            <lb ed="#V" n="64"/>detestationem reduci ad poenitentiam, et
+            <lb ed="#V" n="65"/>disponere ad veniam quatenus imperatur
+            <lb ed="#V" n="66"/>a poenitentia virtute in vindictam peccati,
+            <lb ed="#V" n="67"/>hoc autem non est notum lumine naturali.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>(h) Ad primum principale, etc. Haec
+            re<lb ed="#V" n="69" break="no"/>sponsio patet ex dictis, sicut enim
+            quae<lb ed="#V" n="70" break="no"/>libet virtus specificatur a motivo suo, ita
+            <lb ed="#V" n="71"/>etiam inclinatur ex eodem motivo ad
+            de<lb ed="#V" n="72" break="no"/>testandum peccatum, qua opponitur ipsi
+            <lb ed="#V" n="73"/>motivo dumtaxat, et sic unius virtutis est
+            <lb ed="#V" n="74"/>una poena, nempe in specie nolendo
+            pec<lb ed="#V" n="75" break="no"/>catum, et tristando de ejus positione, quia
+            <lb ed="#V" n="76"/>aliter non respicit peccatum, nisi qua
+            op<lb ed="#V" n="77" break="no"/>ponitur, et quia opponitur bono circa
+            <lb ed="#V" n="78"/>quod versatur. Alterum membrum est, tot
+            <lb ed="#V" n="79"/>esse poenas infligendas, quot statuit lex
+            <lb ed="#V" n="80"/>ordinantis et acceptantis poenas, et has
+            <lb ed="#V" n="81"/>omnes una virtus in specie ut vindicativa,
+            <lb ed="#V" n="82"/>seu poenitentia, infligere potest, et
+            impe<lb ed="#V" n="83" break="no"/>rare, tam causas proximas quam ipsam
+            <lb ed="#V" n="84"/>tristitiam remotam iis applicatis.
+          </p>
+          <p>
+            <lb ed="#V" n="85"/>(i) Ad secundum similiter patet, in
+            rati<lb ed="#V" n="86" break="no"/>one actus et bonitatis dari posse aequales
+            <lb ed="#V" n="87"/>bonum, malo peccati, qua peccatum est
+            <lb ed="#V" n="88"/>transgressio hujus aut illius virtutis, de
+            <pb ed="#V" n="138"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>qua difficultate infra disseremus quaest.
+            <lb ed="#V" n="2"/>prima seq. dist. Sic tamen non esset
+            suf<lb ed="#V" n="3" break="no"/>ficiens punitio, nisi sit lege praescripta et
+            <lb ed="#V" n="4"/>acceptata, quia punitio illa respicit
+            pec<lb ed="#V" n="5" break="no"/>catum in ordine ad offensam cui debet
+            <lb ed="#V" n="6"/>fieri satisfactio. Dices, ergo erit crudelis,
+            <lb ed="#V" n="7"/>si non acceptet aequivalentem
+            satisfacti<lb ed="#V" n="8" break="no"/>onem. Responsionem, inquit, quaere, sed
+            <lb ed="#V" n="9"/>eam obiter ipse subjicit, quod omnes illae
+            <lb ed="#V" n="10"/>poenae aequivalent uni perfectae punitioni;
+            <lb ed="#V" n="11"/>saepe enim attritio insufficiens est, ut
+            di<lb ed="#V" n="12" break="no"/>ctum est, etc. nempe quaestione secunda.
+          </p>
+          <p>
+            <lb ed="#V" n="13"/>Pro intelligentia hujus advertendum
+            <lb ed="#V" n="14"/>est, peccatum post Baptismum
+            commis<lb ed="#V" n="15" break="no"/>sum praeter privationem rectitudinis
+            vir<lb ed="#V" n="16" break="no"/>tutis cui opponitur, esse offensam Dei,
+            <lb ed="#V" n="17"/>et privare ejus gratia, quod commune est
+            <lb ed="#V" n="18"/>omni peccato mortali. Ultra hoc dicit
+            cir<lb ed="#V" n="19" break="no"/>cumstantiam ingratitudinis, ut docet
+            Tri<lb ed="#V" n="20" break="no"/>dentinum sess. 14. cap. 1. et cap. 8. et
+            <lb ed="#V" n="21"/>Doctor infra dist. 22. Sane, inquit,
+            Conci<lb ed="#V" n="22" break="no"/>lium cap. 8. et divinae justitiae ratio
+            exi<lb ed="#V" n="23" break="no"/>gere videtur, ut aliter ab eo in gratiam
+            <lb ed="#V" n="24"/>recipiantur, qui ante Baptismum per
+            igno<lb ed="#V" n="25" break="no"/>rantiam deliquerunt; aliter vero qui semel
+            <lb ed="#V" n="26"/>a peccati et daemonis servitute liberati, et
+            <lb ed="#V" n="27"/>accepto Spiritus sancti dono scienter
+            tem<lb ed="#V" n="28" break="no"/>plum Dei violare, et Spiritum sanctum
+            <lb ed="#V" n="29"/>contristare non formidaverint, etc. Haec
+            <lb ed="#V" n="30"/>ratio Concilii posita ex divina justitia
+            re<lb ed="#V" n="31" break="no"/>spondet objectioni, quia sicut peccatum
+            <lb ed="#V" n="32"/>ex notitia virtutis et ingratitudine
+            benefi<lb ed="#V" n="33" break="no"/>cii recepti crescit in libertate et malitia,
+            <lb ed="#V" n="34"/>ita et exigit justitia, ut poena ejus, servata
+            <lb ed="#V" n="35"/>proportione, gravetur.
+          </p>
+          <p>
+            <lb ed="#V" n="36"/>Alteram subjicit rationem Concilium ex
+            <lb ed="#V" n="37"/>divina clementia, his verbis: Et divinam
+            <lb ed="#V" n="38"/>clementiam decet, ne ita nobis absque ulla
+            <lb ed="#V" n="39"/>satisfactione peccata dimittantur, ut
+            occa<lb ed="#V" n="40" break="no"/>sione accepta peccata leviora putantes,
+            vo<lb ed="#V" n="41" break="no"/>luntarii, et contumeliosi Spiritui sancto
+            <lb ed="#V" n="42"/>in graviora labamur, thesaurizantes nobis
+            <lb ed="#V" n="43"/>iram in die irae; proculdubio enim
+            magno<lb ed="#V" n="44" break="no"/>pere a peccatis revocant, et quasi froeno
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>quodam coercent hae satisfactoriae poenae,
+            <lb ed="#V" n="46"/>etc. ex quibus patet responsio. Posset et
+            <lb ed="#V" n="47"/>alia dari, quia vera poenitentia, seu
+            qui<lb ed="#V" n="48" break="no"/>cumque actus antecedens, licet a Deo
+            <lb ed="#V" n="49"/>exigatur et acceptetur, non est aequivalens
+            <lb ed="#V" n="50"/>secundum justitiam, sed tantum
+            accepta<lb ed="#V" n="51" break="no"/>tur misericorditer a Deo, quamvis non
+            <lb ed="#V" n="52"/>mereatur justificationem, quae fit gratis,
+            <lb ed="#V" n="53"/>et ex misericordia tam donantis actum
+            <lb ed="#V" n="54"/>quam condonantis peccatum, ut patet ex
+            <lb ed="#V" n="55"/>eodem Trid. sess. 6. c. 8. Bene ergo dicit
+            <lb ed="#V" n="56"/>Doctor omnes illas punitiones uni soli
+            <lb ed="#V" n="57"/>aequivalere, et non esse excessum
+            secun<lb ed="#V" n="58" break="no"/>dum justitiam, quia contritio aliquando
+            <lb ed="#V" n="59"/>est insufficiens, quae tamen esse talis
+            <lb ed="#V" n="60"/>potest, ut sui perfectione deleat etiam
+            <lb ed="#V" n="61"/>omnem poenam, ut supponit Trident. sess.
+            <lb ed="#V" n="62"/>14. c. 2. in fine, et huic uni perfectae et
+            <lb ed="#V" n="63"/>completae, aequivalent plures aliae
+            inferio<lb ed="#V" n="64" break="no"/>ris gradus.
+          </p>
+          <p>
+            <lb ed="#V" n="65"/>Ad tertium patet ex dictis.
+            <lb ed="#V" n="66"/>Hic dubitari potest ex responsione ad
+            <lb ed="#V" n="67"/>argumenta, ex dictis etiam supra, an
+            re<lb ed="#V" n="68" break="no"/>quiratur actus proprius poenitentiae ad
+            <lb ed="#V" n="69"/>remissionem, Respondeo regulariter
+            re<lb ed="#V" n="70" break="no"/>quiri, et intervenire hunc actum. Probatur
+            <lb ed="#V" n="71"/>ex locis citatis Trident. sess. 14. ubi dicit
+            <lb ed="#V" n="72"/>divina exigente justitia sine magnis nostris
+            <lb ed="#V" n="73"/>fletibus non remitti peccatum, et sine
+            <lb ed="#V" n="74"/>satisfactione; sed satisfactio pro peccato
+            <lb ed="#V" n="75"/>debet esse secundum praescriptum legis,
+            <lb ed="#V" n="76"/>ergo in vindicationem peccati. Secundo
+            <lb ed="#V" n="77"/>fides, quae docet dolendum esse de
+            <lb ed="#V" n="78"/>peccato commisso, docet etiam
+            poe<lb ed="#V" n="79" break="no"/>nam interiorem et exteriorem
+            appli<lb ed="#V" n="80" break="no"/>candam esse in vindicationem peccati.
+            <lb ed="#V" n="81"/>Tertio non sufficit contritio aut
+            dete<lb ed="#V" n="82" break="no"/>statio peccati sine voto Sacramenti,
+            <lb ed="#V" n="83"/>vel explicito, vel implicito; sed votum
+            <lb ed="#V" n="84"/>Sacramenti est propositum de subeundo
+            <lb ed="#V" n="85"/>judicio Sacerdotum ad vindicandum
+            pec<lb ed="#V" n="86" break="no"/>catum in reum; ergo supponit actum
+            vin<lb ed="#V" n="87" break="no"/>dicativae in eo qui habet votum
+            recipien<lb ed="#V" n="88" break="no"/>di Sacramentum.
+          </p>
+          <p>
+            <pb ed="#V" n="139"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Conclusio intelligenda est regulariter,
+            <lb ed="#V" n="2"/>quia si casu daretur contritio adeo subito
+            <lb ed="#V" n="3"/>ex motivo charitatis, et impulsu absorbens
+            <lb ed="#V" n="4"/>mentem, ut non permitteret aliud
+            moti<lb ed="#V" n="5" break="no"/>vum considerare, justificaret; sed forte
+            <lb ed="#V" n="6"/>rarissimus est casus respectu peccati, qui
+            <lb ed="#V" n="7"/>cognoscitur inesse, quia fides, quae docet
+            <lb ed="#V" n="8"/>dolendum de peccato tali, docet etiam
+            <lb ed="#V" n="9"/>vindicandum. Alia quae hic consequenter
+            <lb ed="#V" n="10"/>tractari possint de circumstantiis
+            contriti<lb ed="#V" n="11" break="no"/>onis, et proposito emendationis, de voto
+            <lb ed="#V" n="12"/>Sacramenti, et an extendi debeat dolor
+            <lb ed="#V" n="13"/>particulariter ad singula peccata, et an
+            <lb ed="#V" n="14"/>naturalis attritio sufficiat ad Sacramentum,
+            <lb ed="#V" n="15"/>et de praecepto poenitentiae, dicentur in
+            <lb ed="#V" n="16"/>sequentibus, prout littera Doctoris
+            sug<lb ed="#V" n="17" break="no"/>geret.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

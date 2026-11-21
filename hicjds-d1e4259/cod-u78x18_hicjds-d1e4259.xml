@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctio 16, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctio 16, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x18">Vives, Paris, 1894, volume 18</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="418"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e4259"><!-- hicjds-b4d16q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum ista tria 'contritio, confessio et satisfactio' sint partes poenitentiae</head>
+        <!-- <div alias="hiq-d16q1-p1"> -->
+          <p>
+            <lb ed="#V" n="55" type="fixed=418"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="56"/>Hac distinctione agit de actibus
+            pecca<lb ed="#V" n="57" break="no"/>toris, ut partes sunt poenitentiae in prima
+            <lb ed="#V" n="58"/>quaestione; in secunda de mutatione
+            pec<lb ed="#V" n="59" break="no"/>catoris, quae contingit quando justificatur.
+            <lb ed="#V" n="60"/>(a) Hic intelligendum est, etc. In hoc
+            <lb ed="#V" n="61"/>paragrapho distinguit
+            poenitentiam-virtu<lb ed="#V" n="62" break="no"/>tem aliter quam in quaestione prima et
+            <lb ed="#V" n="63"/>secunda distinctionis decimae quartae, quia
+            <lb ed="#V" n="64"/>ibi egit potissimum de poenitentia actuali
+            <lb ed="#V" n="65"/>secundum diversos gradus voluntarii, et
+            <lb ed="#V" n="66"/>ut dicit in recto ipsos actus voluntarios,
+            <lb ed="#V" n="67"/>et secundum naturam, et distinctionem
+            <lb ed="#V" n="68"/>eorum ab invicem, et cujus virtutis esse
+            <lb ed="#V" n="69"/>possint. Primus actus velle imperativum
+            <lb ed="#V" n="70"/>vindicandi peccatum. Secundus,
+            detesta<lb ed="#V" n="71" break="no"/>tio peccati. Tertius, est acceptare libenter
+            <lb ed="#V" n="72"/>et cum gaudio punitionem, seu poenam
+            <lb ed="#V" n="73"/>peccati. Quartus, ferre patienter poenam.
+            <lb ed="#V" n="74"/>Hic autem agit de poenitentia-virtute, ut
+            <lb ed="#V" n="75"/>distinguitur a Sacramento, et non
+            secun<lb ed="#V" n="76" break="no"/>dum naturam suam specificam, aut alia
+            <lb ed="#V" n="77"/>concurrentia ad actum
+            circumstantiona<lb ed="#V" n="78" break="no"/>tum ejus, sed agit de ipsa, ut
+            comprehen<lb ed="#V" n="79" break="no"/>dit tres actus, de quibus quaerit et
+            ordi<lb ed="#V" n="80" break="no"/>natur ad Sacramentum per modum
+            ma<lb ed="#V" n="81" break="no"/>teriae, vel quasi materiae, ut loquuntur
+            <lb ed="#V" n="82"/>Trident. et Florent. ut visum est quaest. 4.
+            <lb ed="#V" n="83"/>d. 14. explicando id, pro quo
+            Sacramen<lb ed="#V" n="84" break="no"/>tum in recto supponit. Prima itaque
+            <lb ed="#V" n="85"/>acceptio poenitentiae est pro ipso habitu
+            <pb ed="#V" n="419"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>specialis virtutis et vindicativae peccati.
+            <lb ed="#V" n="2"/>Secunda, pro actu illius habitus. Tertia,
+            <lb ed="#V" n="3"/>pro causa proxima poenae seu punitionis.
+            <lb ed="#V" n="4"/>Quarta vero pro ipsa poena et punitione.
+            <lb ed="#V" n="5"/>Recte declarat haec in littera, de quibus
+            <lb ed="#V" n="6"/>etiam sufficienter dictum est in distinct.
+            <lb ed="#V" n="7"/>praemissa 14. quaest. 1. et 2.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d16q1-p2"> -->
+          <p>
+            <lb ed="#V" n="22" type="fixed=420"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="23"/>(b) Ad propositum tria praedicta, etc.
+            <lb ed="#V" n="24"/>Negat hos actus esse partes poenitentiae
+            <lb ed="#V" n="25"/>primo et secundo modo hic sumptae,
+            cu<lb ed="#V" n="26" break="no"/>jus ratio nota est ex littera. Sed
+            adver<lb ed="#V" n="27" break="no"/>tendum est actum vindicandi peccati
+            <lb ed="#V" n="28"/>posse dupliciter considerari: uno modo,
+            <lb ed="#V" n="29"/>quando poenitentia imperat actum
+            noli<lb ed="#V" n="30" break="no"/>tionis peccati, quo causatur proxime ipsa
+            <lb ed="#V" n="31"/>poena seu tristitia, et sic hic intelligitur
+            <lb ed="#V" n="32"/>non integrare poenitentiam, id est, poenae
+            <lb ed="#V" n="33"/>tenentiam per actum elicitum voluntatis.
+            <lb ed="#V" n="34"/>Alio modo sumitur ut est nolitio peccati,
+            <lb ed="#V" n="35"/>seu detestatio perfecta ex motivo
+            vindi<lb ed="#V" n="36" break="no"/>cationis, ut imperatur a charitate, quia
+            <lb ed="#V" n="37"/>sic habet se ut causa proxima poenae. Hoc
+            <lb ed="#V" n="38"/>modo integrat poenitentiam tertio modo
+            <lb ed="#V" n="39"/>per modum contritionis ( ut esse potest
+            <lb ed="#V" n="40"/>ex dictis supra quaest. 2. dist. 14.) prout
+            <lb ed="#V" n="41"/>in hac divisione sumitur poenitentia.
+          </p>
+          <p>
+            <lb ed="#V" n="42"/>Tertio dicit tres illos actus esse partes
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="43"/>integrantes poenitentiae tertio modo, ut
+            <lb ed="#V" n="44"/>sumitur pro causa proxima, ad quam
+            <lb ed="#V" n="45"/>sequitur poena ipsa. Et quarto dicit poenas
+            <lb ed="#V" n="46"/>concomitantes ipsos actus integrare unam
+            <lb ed="#V" n="47"/>punitionem totalem, quae correspondet
+            <lb ed="#V" n="48"/>peccato secundum medium justitiae
+            vindi<lb ed="#V" n="49" break="no"/>cativae, sicut restitutiones partiales
+            faci<lb ed="#V" n="50" break="no"/>unt unam totalem, ad quam restituens
+            <lb ed="#V" n="51"/>obligatur ex triplici damno illato, aut
+            <lb ed="#V" n="52"/>triplici contractu; justitia enim
+            vindica<lb ed="#V" n="53" break="no"/>tiva respicit medium aequalitatis
+            secun<lb ed="#V" n="54" break="no"/>dum rectam rationem voluntariae
+            puniti<lb ed="#V" n="55" break="no"/>onis correspondentis peccato. Hic nihil
+            <lb ed="#V" n="56"/>offertur dicendum praeter ea, quae alias
+            <lb ed="#V" n="57"/>dicta sunt ex hac integritate, qua actus
+            <lb ed="#V" n="58"/>conveniunt in unam poenitentiam,
+            vo<lb ed="#V" n="59" break="no"/>cantur quasi materia a Conciliis supra
+            <lb ed="#V" n="60"/>citatis.
+          </p>
+        <!-- </div>
+    <div alias="hiq-d16q1-p3"> -->
+          <p>
+            <lb ed="#V" n="47" type="fixed=422"/>COMMENTARIUS.
+          </p>
+          <p>
+            <lb ed="#V" n="48"/>(c) De poenitentice Sacramento, etc.
+            <lb ed="#V" n="49"/>Conclusio Doctoris, est, hos actus non
+            <lb ed="#V" n="50"/>esse partes poenitentiae Sacramenti, quod
+            <lb ed="#V" n="51"/>supponit in recto pro absolutione, quae
+            <lb ed="#V" n="52"/>est sententia judicialis, quae procedit
+            <lb ed="#V" n="53"/>a potestate ligandi et solvendi, quae in
+            <lb ed="#V" n="54"/>solo sacerdote est, non in poenitente
+            <lb ed="#V" n="55"/>aut reo, cujus illi sunt actus. Secunda
+            <lb ed="#V" n="56"/>conclusio est, hos actus requiri
+            essen<lb ed="#V" n="57" break="no"/>tialiter ad Sacramentum. De hac
+            contro<lb ed="#V" n="58" break="no"/>versia actum est supra d. 14. quoest. 4.
+          </p>
+          <p>
+            <lb ed="#V" n="59"/>(d) Satisfactio autem debet sequi
+            Sa<lb ed="#V" n="60" break="no"/>cramentum, etc. Rationem assignat, quia
+            <lb ed="#V" n="61"/>alioquin non esset efficax. Intelligit de
+            <lb ed="#V" n="62"/>satisfactione in re, vel in voto, sed
+            du<lb ed="#V" n="63" break="no"/>bium est in eo quod dicat in voto
+            sub<lb ed="#V" n="64" break="no"/>sequi Sacramentum, quia videtur votum
+            <lb ed="#V" n="65"/>satisfactionis implendae debere praemitti
+            <lb ed="#V" n="66"/>ut dispositio prior. Respondetur, eo ipso
+            <lb ed="#V" n="67"/>quo quis subjicit se Sacerdoti quoad
+            <lb ed="#V" n="68"/>peccata, regulariter habere votum
+            adim<lb ed="#V" n="69" break="no"/>plendi satisfactionem quam injungit, nisi
+            <lb ed="#V" n="70"/>excipiatur casus, de quo suo loco
+            dice<lb ed="#V" n="71" break="no"/>tur, in quo non debet obligari ad
+            satis<lb ed="#V" n="72" break="no"/>factionem; hic autem intendit Doctor
+            <lb ed="#V" n="73"/>teneri poenitentem in re satisfactionem
+            <lb ed="#V" n="74"/>injunctam adimplere, si potest, saepe enim
+            <lb ed="#V" n="75"/>contingit casus, in quo nequit ex
+            impe<lb ed="#V" n="76" break="no"/>dimento eam adimplere. In quo casu
+            <lb ed="#V" n="77"/>debet habere voluntatem adimplendi, ipso
+            <lb ed="#V" n="78"/>cessante impedimento, et hanc voluntatem
+            <lb ed="#V" n="79"/>intendit Doctor per votum.
+          </p>
+          <p>
+            <lb ed="#V" n="80"/>Sed ex ratione illius dicti posset
+            <lb ed="#V" n="81"/>quis hic interpretari, Doctorem velle
+            <lb ed="#V" n="82"/>efficaciam satisfactionis esse ex opere
+            <lb ed="#V" n="83"/>operato, et deducere argumentum ex hac
+            <lb ed="#V" n="84"/>contra conclusionem principalem, quia
+            <lb ed="#V" n="85"/>si satisfactio habeat efficaciam ex opere
+            <lb ed="#V" n="86"/>operato, sic etiam contritio et confessio;
+            <pb ed="#V" n="423"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>sed requiruntur essentialiter ad
+            sacramen<lb ed="#V" n="2" break="no"/>tum ex secunda conclusione Doctoris; ergo
+            <lb ed="#V" n="3"/>sunt partes essentiales Sacramenti, etiam
+            <lb ed="#V" n="4"/>in recto. Probatur consequentia, quia
+            <lb ed="#V" n="5"/>nullus effectus competit ex opere operato
+            <lb ed="#V" n="6"/>ipsis in Sacramento, nisi quatenus sunt
+            <lb ed="#V" n="7"/>signum sacramentale, saltem partiale, ex
+            <lb ed="#V" n="8"/>dictis autem supra dist. 1. et 2. 4. de
+            <lb ed="#V" n="9"/>essentia Sacramenti ejusque efficacia;
+            quid<lb ed="#V" n="10" break="no"/>quid fundat rationem signi practici spectat
+            <lb ed="#V" n="11"/>ad Sacramentum in recto; quidquid autem
+            <lb ed="#V" n="12"/>non fundat, licet requiratur, habet
+            tan<lb ed="#V" n="13" break="no"/>-tum rationem conditionis et
+            circum<lb ed="#V" n="14" break="no"/>stantiae requisitae, et non signi
+            sacramen<lb ed="#V" n="15" break="no"/>talis; ergo si actus poenitentis requisiti
+            <lb ed="#V" n="16"/>ex divina institutione ad Sacramentum
+            <lb ed="#V" n="17"/>Poenitentiae habent propriam efficaciam et
+            <lb ed="#V" n="18"/>effectum diversum ab eo qui correspondet
+            <lb ed="#V" n="19"/>absolutioni Sacerdotis, sequitur eos esse
+            <lb ed="#V" n="20"/>de integritate Sacramenti, qua
+            Sacramen<lb ed="#V" n="21" break="no"/>tum est.
+          </p>
+          <p>
+            <lb ed="#V" n="22"/>Respondetur intentum Doctoris non
+            fun<lb ed="#V" n="23" break="no"/>dari in efficacia satisfactionis ex opere
+            <lb ed="#V" n="24"/>operato ipsi immediate, et ex se
+            conve<lb ed="#V" n="25" break="no"/>nienti, sed de efficacia quacumque et
+            <lb ed="#V" n="26"/>simpliciter. Loquitur regulariter, quando
+            <lb ed="#V" n="27"/>quis est in reipsa peccator, et virtute
+            cla<lb ed="#V" n="28" break="no"/>vium remittitur ei peccatum quod habet,
+            <lb ed="#V" n="29"/>neque alias fuit dimissum; excipit enim
+            <lb ed="#V" n="30"/>casum, in quo censeatur prudenter a
+            ju<lb ed="#V" n="31" break="no"/>dice seu a sacerdote, peccatum alias, et
+            <lb ed="#V" n="32"/>poenam debitam fuisse remissum anterius,
+            <lb ed="#V" n="33"/>vel ex perfectione contritionis, et operum
+            <lb ed="#V" n="34"/>satisfactionis praemissorum ante
+            confessi<lb ed="#V" n="35" break="no"/>onem, vel certe ex frequenti confessione
+            <lb ed="#V" n="36"/>et satisfactione applicata pro tali peccato.
+            <lb ed="#V" n="37"/>Dato ergo quod peccatum in reipsa
+            absol<lb ed="#V" n="38" break="no"/>vatur, quod est, satisfactio non habet
+            <lb ed="#V" n="39"/>efficaciam respectu poenae debitae illi
+            pec<lb ed="#V" n="40" break="no"/>cato, nisi prius per Sacramentum deleatur
+            <lb ed="#V" n="41"/>peccatum; non habet inquam, efficaciam
+            <lb ed="#V" n="42"/>per modum satisfactionis, quia
+            correspon<lb ed="#V" n="43" break="no"/>det poenae temporali remanenti post
+            pec<lb ed="#V" n="44" break="no"/>catum dimissum, et non ipsi peccato,
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>cujus remissio per confessionem et
+            <lb ed="#V" n="46"/>absolutionem cum dispositione debita
+            ob<lb ed="#V" n="47" break="no"/>tinetur, et non per satisfactionem. Ex quo
+            <lb ed="#V" n="48"/>patet ad objectionem, qua deducitur ex
+            lit<lb ed="#V" n="49" break="no"/>tera, qua vero alias, impugnat
+            conclusi<lb ed="#V" n="50" break="no"/>onem.
+          </p>
+          <p>
+            <lb ed="#V" n="51"/>Respondetur secundo efficaciam,
+            con<lb ed="#V" n="52" break="no"/>sistere in ipsa absolutione et potestate
+            cla<lb ed="#V" n="53" break="no"/>vium, loquendo de efficacia ex opere
+            ope<lb ed="#V" n="54" break="no"/>rato; actus autem poenitentis requiri
+            prae<lb ed="#V" n="55" break="no"/>vie, ut contritio et confessio; satisfactio
+            <lb ed="#V" n="56"/>vero ut aliquid consequens, et sic habent
+            <lb ed="#V" n="57"/>rationem circumstantiae et dispositionis
+            <lb ed="#V" n="58"/>requisitae. Quod autem dicitur a
+            Doctori<lb ed="#V" n="59" break="no"/>bus antiquis virtute clavium illos actus
+            <lb ed="#V" n="60"/>habere effectum ut quando de attrito fit
+            <lb ed="#V" n="61"/>contritus, illud ita intelligendum est
+            (sta<lb ed="#V" n="62" break="no"/>tuendo rationem Sacramenti in sola
+            abso<lb ed="#V" n="63" break="no"/>lutione, ut Doctor statuit) qua subsunt
+            cla<lb ed="#V" n="64" break="no"/>vibus, habere effectum perfectiorem,
+            <lb ed="#V" n="65"/>quam si seorsim ponantur, nempe eo sensu
+            <lb ed="#V" n="66"/>quo dispositio praevia aliquo modo dicitur
+            <lb ed="#V" n="67"/>causa respectu effectus, qui sequitur
+            vir<lb ed="#V" n="68" break="no"/>tute causae applicatae ad subjectum
+            dispo<lb ed="#V" n="69" break="no"/>situm non vero quod efficacia illa excedat
+            <lb ed="#V" n="70"/>genus dispositionis. Sic etiam in aliis
+            Sa<lb ed="#V" n="71" break="no"/>cramentis, et in hoc ipso perfectiorem
+            <lb ed="#V" n="72"/>dispositionem sequitur perfectior effectus
+            <lb ed="#V" n="73"/>ex opere operato virtute Sacramenti, quod
+            <lb ed="#V" n="74"/>applicatur ut causa; ex dispositione tamen
+            <lb ed="#V" n="75"/>in suo genere provenit ille effectus,
+            tan<lb ed="#V" n="76" break="no"/>quam a causa, sine qua non applicaretur
+            <lb ed="#V" n="77"/>virtus causae in ea perfectione causandi.
+            <lb ed="#V" n="78"/>Sicut ergo idem manens idem semper,
+            <lb ed="#V" n="79"/>natum est causare idem, non solum in
+            <lb ed="#V" n="80"/>substantia, sed etiam in modo causandi
+            <lb ed="#V" n="81"/>perfectiore, excessus in dispositione causat
+            <lb ed="#V" n="82"/>per modum dispositionis tantum
+            exces<lb ed="#V" n="83" break="no"/>sum in effectu, non per modum causae per
+            <lb ed="#V" n="84"/>se, et principalis; ita etiam quando aliquid
+            <lb ed="#V" n="85"/>requiritur ut dispositio ad effectum causae
+            <lb ed="#V" n="86"/>per se, et principalis, sine quo non
+            seque<lb ed="#V" n="87" break="no"/>retur effectus quoad substantiam, quia
+            <lb ed="#V" n="88"/>est conditio essentialis, non accidentalis,
+            <pb ed="#V" n="424"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>hinc sequitur quod ad substantiam
+            effe<lb ed="#V" n="2" break="no"/>ctus comparetur etiam ut conditio, non
+            <lb ed="#V" n="3"/>ut causa per se et principalis; talis est
+            <lb ed="#V" n="4"/>actus praevius poenitentis per se
+            requisi<lb ed="#V" n="5" break="no"/>tus ad Sacramentum Poenitentiae, ut
+            at<lb ed="#V" n="6" break="no"/>tritio et confessio, quae virtute
+            Sacra<lb ed="#V" n="7" break="no"/>menti conjungantur formae, ad quam
+            <lb ed="#V" n="8"/>disponunt; unde nihil significat virtute
+            <lb ed="#V" n="9"/>clavium habere effectum nisi hoc, id est,
+            <lb ed="#V" n="10"/>effectum produci virtute clavium, non
+            <lb ed="#V" n="11"/>vero ex virtute propria, quae eis ex se
+            <lb ed="#V" n="12"/>competit; neque virtute aliqua influxa et
+            <lb ed="#V" n="13"/>derivata in ipsos ex clave seu potestate
+            <lb ed="#V" n="14"/>ejus, quia potestas clavis excercetur per
+            <lb ed="#V" n="15"/>absolutionem, quae ex significatione
+            di<lb ed="#V" n="16" break="no"/>recte refertur ad remissionem peccati
+            <lb ed="#V" n="17"/>per se, et personam poenitentis, non vero
+            <lb ed="#V" n="18"/>ad actus ejus, aut virtutem influxam in
+            <lb ed="#V" n="19"/>actus.
+          </p>
+          <p>
+            <lb ed="#V" n="20"/>Dices, secundum te, requiruntur ex
+            di<lb ed="#V" n="21" break="no"/>vina institutione actus poenitentis, neque
+            <lb ed="#V" n="22"/>repugnat eis habere illam efficaciam ex
+            <lb ed="#V" n="23"/>eadem institutione; unde ergo colligis non
+            <lb ed="#V" n="24"/>habere talem eficaciam? Respondetur
+            du<lb ed="#V" n="25" break="no"/>bium non esse, quin Deus illam efficaciam
+            <lb ed="#V" n="26"/>eis conferre potuerit. Quod autem non
+            <lb ed="#V" n="27"/>contulerit, colligitur ex dictis in quoest. 4.
+            <lb ed="#V" n="28"/>dist. 14. ex fundamentis pro conclusione
+            <lb ed="#V" n="29"/>Doctoris allatis, quia remissio peccati, ut
+            <lb ed="#V" n="30"/>effectus debet correspondere potestati
+            re<lb ed="#V" n="31" break="no"/>mittendi et ligandi, quae est in Praepositis
+            <lb ed="#V" n="32"/>et sacerdotibus solis. Sicut potestas
+            ordi<lb ed="#V" n="33" break="no"/>dinaria est in judice, non autem in reo.
+            <lb ed="#V" n="34"/>quamvis requirat alia, quae ordinatur ad
+            <lb ed="#V" n="35"/>ordinem judicialem; exercitium autem
+            ta<lb ed="#V" n="36" break="no"/>lis potestatis est absolutio, in qua ex
+            Tri<lb ed="#V" n="37" break="no"/>dentino praecipua vis hujus Sacramenti
+            <lb ed="#V" n="38"/>est sita. Hinc colligo quod illa virtus non
+            <lb ed="#V" n="39"/>sit per se in poenitente, aut actibus ejus ex
+            <lb ed="#V" n="40"/>opere operato. Praeterea in eodem gradu
+            re<lb ed="#V" n="41" break="no"/>quiritur dolor de peccato commisso in
+            ordi<lb ed="#V" n="42" break="no"/>,ne ad Baptismum et Poenitentiam;
+            respe<lb ed="#V" n="43" break="no"/>ctu autem Baptismi se habet ut dispositio,
+            <lb ed="#V" n="44"/>ut patet ex Tridentino sess. 6. cap. 6. 7.
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>et 8. non autem ut pars Sacramenti est,
+            <lb ed="#V" n="46"/>quia virtus sanctificandi tribuitur aquae
+            <lb ed="#V" n="47"/>a Scriptura et Patribus; eodemque modo
+            <lb ed="#V" n="48"/>potestas absolvendi et ligandi soli
+            sacer<lb ed="#V" n="49" break="no"/>dotibus. Dolor autem de peccato ex lege
+            <lb ed="#V" n="50"/>ordinaria se habet ut dispositio in ordine
+            <lb ed="#V" n="51"/>ad remissionem peccati, de lege
+            particu<lb ed="#V" n="52" break="no"/>lari et institutione hujus Sacramenti per
+            <lb ed="#V" n="53"/>modum tribunalis et judicii, non sequitur
+            <lb ed="#V" n="54"/>habere aliam rationem causandi, sed
+            ma<lb ed="#V" n="55" break="no"/>gis oppositum, cum ex natura rei omnis
+            <lb ed="#V" n="56"/>efficacia ejus debet fundari in potestate
+            <lb ed="#V" n="57"/>judiciaria. Hinc colligo sicut contritioni
+            <lb ed="#V" n="58"/>non competit causare ex opere operato per
+            <lb ed="#V" n="59"/>modum Sacramenti, sic etiam neque
+            con<lb ed="#V" n="60" break="no"/>fessioni, quae ex natura sua ordinatur ad
+            <lb ed="#V" n="61"/>informationem praeviam judicis, et
+            cogni<lb ed="#V" n="62" break="no"/>tionem causae. Idem de satisfactione, quae
+            <lb ed="#V" n="63"/>tantum ordinatur pro poena remanente
+            <lb ed="#V" n="64"/>post Sacramentum, et ad quam ejus
+            effi<lb ed="#V" n="65" break="no"/>cacia non extenditur.
+          </p>
+          <p>
+            <lb ed="#V" n="66"/>Objicies Tridentinum sess. 14. cap. 1.
+            <lb ed="#V" n="67"/>ubi postquam ostendit necessitatem
+            do<lb ed="#V" n="68" break="no"/>loris de peccato ad effectum remissionis
+            <lb ed="#V" n="69"/>etiam ante Baptismum, subdit: Porro
+            <lb ed="#V" n="70"/>nec ante adventum Christi Poenitentiam
+            <lb ed="#V" n="71"/>erat Sacramentum, nec est post
+            adven<lb ed="#V" n="72" break="no"/>tum illius cuiquam ante Baptismum, etc.
+            <lb ed="#V" n="73"/>ubi loquitur de poenitentia virtute, et
+            ap<lb ed="#V" n="74" break="no"/>pellat Sacramentum post Baptismum
+            <lb ed="#V" n="75"/>peccanti. Respondetur obviam locum male
+            <lb ed="#V" n="76"/>a quibusdam objici, quia in his verbis
+            <lb ed="#V" n="77"/>non agit de poenitentia virtute, sed
+            <lb ed="#V" n="78"/>de poenitentia Sacramento; caput enim
+            <lb ed="#V" n="79"/>illud est de necessitate et
+            instituti<lb ed="#V" n="80" break="no"/>one Sacramenti. Necessitatem
+            poenitentiae<lb ed="#V" n="81" break="no"/>virtutis ostendit in verbis praecedentibus
+            <lb ed="#V" n="82"/>ex Ezechiele cap. 18. et 13. Joel 2. et
+            <lb ed="#V" n="83"/>Act. 2. tandem in verbis allegatis
+            osten<lb ed="#V" n="84" break="no"/>dit materiam ejus esse peccatum
+            com<lb ed="#V" n="85" break="no"/>missum post Baptismum, et subdit ejus
+            <lb ed="#V" n="86"/>institutionem factam fuisse Joannis 20.
+            <lb ed="#V" n="87"/>cum data est potestas ligandi et solvendi
+            <lb ed="#V" n="88"/>Apostolis: Dominus autem Sacramentum
+            <pb ed="#V" n="425"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>Poenitentiae tunc praecipue instituit, cum
+            <lb ed="#V" n="2"/>a mortuis excitatus insufflavit in
+            disci<lb ed="#V" n="3" break="no"/>pulos suos, dicens: Accipite Spiritum
+            <lb ed="#V" n="4"/>sanctum, quorum remiseritis peccata,
+            <lb ed="#V" n="5"/>remittantur eis, etc. Quo tam insigni
+            <lb ed="#V" n="6"/>facto, et verbis tam perspicuis,
+            potesta<lb ed="#V" n="7" break="no"/>tem remittendi et retinendi peccata, ad
+            <lb ed="#V" n="8"/>reconciliandos fideles post Baptismum
+            <lb ed="#V" n="9"/>lapsos, Apostolis et eorum legitimis
+            suc<lb ed="#V" n="10" break="no"/>cessoribus fuisse communicatam,
+            univer<lb ed="#V" n="11" break="no"/>sorum Patrum consensus semper
+            intel<lb ed="#V" n="12" break="no"/>lexit, etc. Sicut ergo institutio
+            Sacramen<lb ed="#V" n="13" break="no"/>ti fuit per collatam potestatem ligandi et
+            <lb ed="#V" n="14"/>solvendi, ita etiam ejus significatio et
+            vir<lb ed="#V" n="15" break="no"/>tus consistit in eadem potestate exercita,
+            <lb ed="#V" n="16"/>quod fit per sententiam absolutionis.
+            <lb ed="#V" n="17"/>Unde idem Tridentinum cap. 4. dicit
+            do<lb ed="#V" n="18" break="no"/>lorem illum in genere, ut compreheadit
+            <lb ed="#V" n="19"/>perfectum et imperfectum, praeparare ad
+            <lb ed="#V" n="20"/>remissionem peccatorum, quod perinde
+            <lb ed="#V" n="21"/>est ac disponere; et distinguit ipsum
+            <lb ed="#V" n="22"/>a Sacramento, ut est circumstantionatus,
+            <lb ed="#V" n="23"/>et necessario requiri asserit cum talibus
+            <lb ed="#V" n="24"/>circumstantiis, ut rite Sacramentum
+            susci<lb ed="#V" n="25" break="no"/>piatur, in initio capitis; et in fine loquens
+            <lb ed="#V" n="26"/>de attritione dicit; Quamvis, inquit,
+            <lb ed="#V" n="27"/>sine Sacramento Poenitentiae, per se ad
+            <lb ed="#V" n="28"/>justificationem perducere peccatorem
+            ne<lb ed="#V" n="29" break="no"/>queat, tamen eum ad Dei gratiam in
+            <lb ed="#V" n="30"/>Sacramento Poenitentiae impetrandam
+            <lb ed="#V" n="31"/>disponit, etcr et Canone 5. similiter
+            di<lb ed="#V" n="32" break="no"/>cit dolorem esse praeparationem ad
+            gra<lb ed="#V" n="33" break="no"/>tiam; praeparatio autem et dispositio
+            <lb ed="#V" n="34"/>idem sunt ex stylo Concilii in capite jam
+            <lb ed="#V" n="35"/>citato, et ex sess. 6. cap. 5. 6. 7. Hanc
+            <lb ed="#V" n="36"/>dispositionem seu proeparationem
+            justi<lb ed="#V" n="37" break="no"/>ficatio ipsa consequitur, etc. Ex his ergo
+            <lb ed="#V" n="38"/>patet veritas hujus conclusionis, quam
+            <lb ed="#V" n="39"/>praemisit Doctor.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>(e) Ad argumenta, etc. Ad primum
+            re<lb ed="#V" n="41" break="no"/>spondet, uni peccato recte correspondere
+            <lb ed="#V" n="42"/>posse plures poenas partiales, quod
+            decla<lb ed="#V" n="43" break="no"/>rat in responsione ad secundum.
+          </p>
+          <p>
+            <lb ed="#V" n="44"/>Ad secundum, respondetur ex
+            pluri<cb ed="#V" n="b"/><lb ed="#V" n="45" break="no"/>bus partialibus poenis abstrahi
+            con<lb ed="#V" n="46" break="no"/>ceptum poenae, quae correspondeat
+            pecca<lb ed="#V" n="47" break="no"/>to. Alio modo, plures poenae per modum
+            <lb ed="#V" n="48"/>adaequatae et totius integralis
+            correspon<lb ed="#V" n="49" break="no"/>dent eidem, secundum aequalitatem
+            re<lb ed="#V" n="50" break="no"/>cte rationis, cujus medium sequitur
+            poe<lb ed="#V" n="51" break="no"/>nitentia, sicut et justitiae commutativae.
+            <lb ed="#V" n="52"/>Exemplum, si puniatur morte et poena
+            <lb ed="#V" n="53"/>pecuniaria, utraque simul integrant
+            ad<lb ed="#V" n="54" break="no"/>aequatam, et ab utraque etiam quatenus
+            <lb ed="#V" n="55"/>diversae sunt, et in diversis materiis, ut
+            <lb ed="#V" n="56"/>in vita et bonis fortunae, potest abstrahi
+            <lb ed="#V" n="57"/>conceptus communis; sic ergo poenitentia
+            <lb ed="#V" n="58"/>ut sumitur pro poenae tenentia, potest
+            <lb ed="#V" n="59"/>praedicari de contritione, confessione et
+            <lb ed="#V" n="60"/>satisfactione, ut includunt tenentiam
+            vo<lb ed="#V" n="61" break="no"/>luntariam poenae adjunctae, quamvis
+            neu<lb ed="#V" n="62" break="no"/>tra sine alia integret totalem poenam
+            de<lb ed="#V" n="63" break="no"/>bitam peccato.
+          </p>
+          <p>
+            <lb ed="#V" n="64"/>Ad tertium, respondet hos actus non
+            <lb ed="#V" n="65"/>esse partes formaliter inclusas in
+            poeni<lb ed="#V" n="66" break="no"/>tentia virtute aut Sacramento, sed eos
+            <lb ed="#V" n="67"/>posse dici virtualiter, et remote includi
+            <lb ed="#V" n="68"/>in actu poenitentiae virtutis, qua
+            imperan<lb ed="#V" n="69" break="no"/>tur ab ipsa.
+          </p>
+          <p>
+            <lb ed="#V" n="70"/>Ad quartum, respondet quod actus
+            eli<lb ed="#V" n="71" break="no"/>citi et imperati virtutis poenitentiae sint
+            <lb ed="#V" n="72"/>fructus poenitentiae, quamvis opus
+            labo<lb ed="#V" n="73" break="no"/>riosum xternum non sit fructus
+            poeni<lb ed="#V" n="74" break="no"/>tentiae, ut sumitur pro puniri quart o
+            <lb ed="#V" n="75"/>medo.
+          </p>
+          <p>
+            <lb ed="#V" n="76"/>Petes, an ad deletionem peccati
+            requi<lb ed="#V" n="77" break="no"/>ratur actus proprius hujus virtutis
+            poeni<lb ed="#V" n="78" break="no"/>tentiae, ut est specialis virtus? Ratio
+            diffi<lb ed="#V" n="79" break="no"/>cultatis est, quia contritio elicita de peccato
+            <lb ed="#V" n="80"/>ex fine aut motivo intrinseco charitatis
+            <lb ed="#V" n="81"/>est efficax ad deletionem peccati, secluso
+            <lb ed="#V" n="82"/>actu alterius virtutis. Idem quia Doctor
+            <lb ed="#V" n="83"/>supra docet queest. 1. et 2. dist. 14. variis
+            <lb ed="#V" n="84"/>in locis, quatuor modos poenitentiae
+            effi<lb ed="#V" n="85" break="no"/>cacis, quorum quilibet sufficit ad
+            deleti<lb ed="#V" n="86" break="no"/>onem peccati, adhibitis circumstantiis.
+          </p>
+          <p>
+            <lb ed="#V" n="87"/>Respondetur, regulariter requiri actum
+            <lb ed="#V" n="88"/>poenitentiae virtutis ad deletionem peccati,
+            <pb ed="#V" n="426"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>quod supponit Doctor in responsione ad
+            <lb ed="#V" n="2"/>ultimum et penultimum, qua sunt tertium
+            <lb ed="#V" n="3"/>et quintum ad oppositum; ad quartum
+            <lb ed="#V" n="4"/>enim et quintum simul respondet. Patet
+            <lb ed="#V" n="5"/>ex S primo et secundo hujus quaestionis,
+            <lb ed="#V" n="6"/>et idem supponit dist. 14. quoest. 2. in
+            <lb ed="#V" n="7"/>fine 8 Si quaeratur de illis quatuor, etc.
+            <lb ed="#V" n="8"/>ubi supponit justitiam et charitatem se
+            <lb ed="#V" n="9"/>invicem imperare, in responsione ad
+            <lb ed="#V" n="10"/>quaesitum. Probatur quia poenitentia ut
+            <lb ed="#V" n="11"/>est specialis virtus, nullam alioquin
+            habe<lb ed="#V" n="12" break="no"/>ret efficaciam circa peccatum, ac proinde
+            <lb ed="#V" n="13"/>non esset ponenda virtus specialis.
+            Secun<lb ed="#V" n="14" break="no"/>do, Trid. sess. 14. cap. 2. dicit exigente
+            <lb ed="#V" n="15"/>divina justitia non remitti per
+            Poeniten<lb ed="#V" n="16" break="no"/>tiam Sacramentum totam poenam
+            tem<lb ed="#V" n="17" break="no"/>poralem sine magnis nostris fletibus et
+            <lb ed="#V" n="18"/>laboribus, id exigente divina justitia;
+            <lb ed="#V" n="19"/>ergo exigitur talis poena in vindictam
+            <lb ed="#V" n="20"/>peccati, ac proinde in sic vindicante
+            exi<lb ed="#V" n="21" break="no"/>gitur actus virtutis poenitentiae. Dices
+            <lb ed="#V" n="22"/>,hoc tantum probare necessarium esse
+            <lb ed="#V" n="23"/>quoad remissionem poenae temporalis, non
+            <lb ed="#V" n="24"/>vero quoad remissionem peccati. Contra,
+            <lb ed="#V" n="25"/>hoc non refert, quia ista conjunguntur,
+            <lb ed="#V" n="26"/>quia saltem ex divina justitia vindicativa
+            <lb ed="#V" n="27"/>peccati exigitur de facto dolor et tristitia
+            <lb ed="#V" n="28"/>de peccato commisso, neque aliter sine
+            <lb ed="#V" n="29"/>tali afflictione et poena dimittitur
+            pecca<lb ed="#V" n="30" break="no"/>t tum; ergo fides docet in poenam peccati
+            <lb ed="#V" n="31"/>personalis mortalis requiri a Deo talem
+            <lb ed="#V" n="32"/>poenam; ergo quae docet dolendum esse
+            <lb ed="#V" n="33"/>de peccato, docet de eo dolendum esse in
+            <lb ed="#V" n="34"/>poenam et vindictam, ac proinde
+            Con<lb ed="#V" n="35" break="no"/>cilium loco citato dicit poenitentiam
+            <lb ed="#V" n="36"/>a Patribus vocari laboriosum quemdam
+            <lb ed="#V" n="37"/>Baptismum; talis ergo labor et dolor
+            <lb ed="#V" n="38"/>imperatur a poenitentia per modum
+            neces<lb ed="#V" n="39" break="no"/>sariae satisfactionis quam Deus exigit.
+          </p>
+          <p>
+            <lb ed="#V" n="40"/>Tertio non sufficit, ut recte Doctor
+            <lb ed="#V" n="41"/>dist. illa 14. quoest. 2. contritio aut
+            dete<lb ed="#V" n="42" break="no"/>statio peccati sine voto Sacramenti; sed
+            <lb ed="#V" n="43"/>votum Sacramenti est propositum
+            subeun<lb ed="#V" n="44" break="no"/>di judicium sacerdotum in satisfactionem
+            <cb ed="#V" n="b"/>
+            <lb ed="#V" n="45"/>peccati, et faciendi quidquid
+            praescripse<lb ed="#V" n="46" break="no"/>rint in ejus vindictam; ergo nequit
+            abs<lb ed="#V" n="47" break="no"/>trahere a poenitentia virtute, cujus est
+            <lb ed="#V" n="48"/>exigere talem satisfactionem. Hoc patet
+            <lb ed="#V" n="49"/>in voto confitendi, quod est accusandi et
+            <lb ed="#V" n="50"/>diffamandi se coram judice in poenam
+            sce<lb ed="#V" n="51" break="no"/>leris commissi, qui est actus justitiae
+            vindi<lb ed="#V" n="52" break="no"/>cativae; accusatio enim ordinatur ex se ad
+            <lb ed="#V" n="53"/>punitionem sceleris. Dixi in conclusione
+            <lb ed="#V" n="54"/>regulariter, quia si casu daretur contritio,
+            <lb ed="#V" n="55"/>adeo absorbens mentem, ut non
+            permit<lb ed="#V" n="56" break="no"/>teret eam considerare motivum
+            vindi<lb ed="#V" n="57" break="no"/>ctae, talis videtur sufficere, sicut et votum
+            <lb ed="#V" n="58"/>implicitum Sacramenti; sed raro forte
+            <lb ed="#V" n="59"/>evenire contingit casus, quia fides, quae
+            <lb ed="#V" n="60"/>docet de peccato poenitendum, docet
+            eti<lb ed="#V" n="61" break="no"/>am vindicandum commissum.
+            Conclu<lb ed="#V" n="62" break="no"/>sionem tenere debent omnes, qui
+            consti<lb ed="#V" n="63" break="no"/>tuunt actum proprium hujus virtutis in
+            <lb ed="#V" n="64"/>detestatione peccati, quatenus offensa Dei
+            <lb ed="#V" n="65"/>est, quia sine hoc non contingit contritio
+            <lb ed="#V" n="66"/>secundum Tridentinum, quidquid ipsi
+            di<lb ed="#V" n="67" break="no"/>xerint postea.
+          </p>
+          <p>
+            <lb ed="#V" n="68"/>Philippus Faber admittit casum
+            oppo<lb ed="#V" n="69" break="no"/>situm conclusio ni, sed meo judicio non
+            <lb ed="#V" n="70"/>scotizat. Doctor enim actum doloris seu
+            <lb ed="#V" n="71"/>detestationis peccati ponit effectum
+            remo<lb ed="#V" n="72" break="no"/>tum, seu actum imperatum poenitentiae
+            <lb ed="#V" n="73"/>virtutis, ostendens quomodo voluntas
+            sei<lb ed="#V" n="74" break="no"/>psa circulariter utitur ad finem
+            diversa<lb ed="#V" n="75" break="no"/>rum virtutum, sed actus imperatus qua
+            <lb ed="#V" n="76"/>talis, supponit imperantem.
+          </p>
+          <p>
+            <lb ed="#V" n="77"/>Ad rationem dubitandi patet ex dictis,
+            <lb ed="#V" n="78"/>nempe actum contritionis illo modo
+            suffi<lb ed="#V" n="79" break="no"/>cere, modo adsint aliae circumstantiae, de
+            <lb ed="#V" n="80"/>quibus agit Concilium tanquam necessariis
+            <lb ed="#V" n="81"/>ad veram poenitentiam et Christianam,
+            <lb ed="#V" n="82"/>sess. 6. c. 14. et sess. 14. cap. 4. de quibus
+            <lb ed="#V" n="83"/>est votum confitendi, quod non habetur
+            re<lb ed="#V" n="84" break="no"/>gulariter sine actu poenitentiae vindicante
+            <lb ed="#V" n="85"/>peccatum. Ad Doctorem respondetur
+            poe<lb ed="#V" n="86" break="no"/>nitentiam quocumque modo ex dictis
+            suf<lb ed="#V" n="87" break="no"/>ficere in ratione doloris disponentis ad
+            <pb ed="#V" n="427"/>
+            <cb ed="#V" n="a"/>
+            <lb ed="#V" n="1"/>remissionem, de quo ipse agit; sed
+            <lb ed="#V" n="2"/>regulariter etiam supponit illum dolorem
+            <lb ed="#V" n="3"/>imperari a poenitentia, ut patet ex locis
+            <lb ed="#V" n="4"/>citatis, et semper habetur in virtute in
+            <lb ed="#V" n="5"/>omni casu, quo dolor est efficax et
+            suffi<lb ed="#V" n="6" break="no"/>ciens.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>

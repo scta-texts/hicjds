@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4, Distinctiones 18 et 19, Quaestio 1</title>
+        <author ref="#per-3nylfx">Antonius Hiquaeus</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4, Distinctiones 18 et 19, Quaestio 1</title>
+          <date when="2026-11-21">Nov 21, 2026</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V" n="cod-u78x18">Vives, Paris, 1894, volume 18</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2026-11-21" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#V" n="600"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="hicjds-d1e4305"><!-- hicjds-b4d18-19q1 -->
+        <head>Quaestio 1</head>
+        <head type="question-title">Utrum potestas clavium tantummodo se extendat ad poenam temporalem</head>
+        <!-- <div alias="hiq-d18-19q1-p1"> -->
+          <p>
+            <lb ed="#V" n="60" type="fixed=600"/>COMMENTARIUS
+          </p>
+          <p>
+            <lb ed="#V" n="61"/>In hac distinctione movet quaestionem:
+            <lb ed="#V" n="62"/>An scilicet potestas clavium se extendat
+            <lb ed="#V" n="63"/>ad poenam temporalem tantum.
+            Argumen<lb ed="#V" n="64" break="no"/>ta pro utraque parte proponit, sed
+            resolu<lb ed="#V" n="65" break="no"/>tionem quaestionis transfert in
+            distincti<lb ed="#V" n="66" break="no"/>onem sequentem, in qua resolvit
+            quaesti<lb ed="#V" n="67" break="no"/>,onem hic motam, et solvit argumenta
+            <lb ed="#V" n="68"/>proposita, cujus ordinem sequemur.
+            Vi<lb ed="#V" n="69" break="no"/>deatur ergo resolutio in praedicto loco.
+          </p>
+        <!--</div>-->
+      </div>
+    </body>
+  </text>
+</TEI>
